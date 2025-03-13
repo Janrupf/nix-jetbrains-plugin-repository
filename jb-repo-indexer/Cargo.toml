@@ -1,0 +1,30 @@
+[package]
+name = "jb-repo-indexer"
+edition = "2024"
+version = "0.1.0"
+
+[dependencies]
+tokio = { version = "1.44.0", features = ["rt", "rt-multi-thread", "net", "macros", "fs"] }
+tokio-util = { version = "0.7.13", features = ["rt"] }
+
+serde = { version = "1.0.129", features = ["derive"]}
+serde_json = "1.0.140"
+
+indicatif = "0.17.11"
+tracing-indicatif = "0.3.9"
+
+thiserror = "2.0.12"
+
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
+
+libsql = { version = "0.6.0", features = ["serde"] }
+reqwest = { version = "0.12.12", features = ["hickory-dns"] }
+url = { version = "2.5.4", features = ["serde"] }
+
+clap = { version = "4.5.32", features = ["derive", "env"] }
+
+futures = "0.3.31"
+
+base64 = "0.22.1"
+sha2 = "0.10.8"
