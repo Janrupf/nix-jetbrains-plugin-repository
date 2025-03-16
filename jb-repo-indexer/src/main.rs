@@ -17,7 +17,7 @@ fn main() {
 
     tracing_subscriber::registry()
         .with(tracing_subscriber::EnvFilter::from_env(
-            "JP_REPO_INDEXER_LOG",
+            "JB_REPO_INDEXER_LOG",
         ))
         .with(tracing_subscriber::fmt::layer().with_writer(indicatif_layer.get_stdout_writer()))
         .with(indicatif_layer)
@@ -46,28 +46,35 @@ async fn async_main(args: IndexerArgs) -> Result<(), IndexerError> {
 
     let processor = MetadataProcessor::new(&args).await?;
 
-    tracing::info!("Starting to sync plugin metadata...");
-    let statistics = processor.sync_plugin_metadata().await?;
+    if !args.no_sync {
+        tracing::info!("Starting to sync plugin metadata...");
+        let statistics = processor.sync_plugin_metadata().await?;
+        tracing::info!("Done.");
 
-    tracing::info!("Done.");
-
-    if !statistics.problems.is_empty() {
-        tracing::warn!("Problems encountered:");
-        for problem in &statistics.problems {
-            tracing::warn!("- {}: {}", problem.task_name, problem.error);
+        if !statistics.problems.is_empty() {
+            tracing::warn!("Problems encountered:");
+            for problem in &statistics.problems {
+                tracing::warn!("- {}: {}", problem.task_name, problem.error);
+            }
         }
+
+        if !statistics.failures.is_empty() {
+            tracing::error!("Failed tasks:");
+            for failure in &statistics.failures {
+                tracing::error!("- {}: {}", failure.task_name, failure.error);
+            }
+        }
+
+        tracing::info!("Encountered problems: {}", statistics.problems.len());
+        tracing::info!("Failed tasks: {}", statistics.failures.len());
+        tracing::info!("Succeeded tasks: {}", statistics.successful_tasks);
     }
 
-    if !statistics.failures.is_empty() {
-        tracing::error!("Failed tasks:");
-        for failure in &statistics.failures {
-            tracing::error!("- {}: {}", failure.task_name, failure.error);
-        }
+    if !args.no_generate {
+        tracing::info!("Starting to generate metadata...");
+        processor.generate_metadata().await?;
+        tracing::info!("Done.");
     }
-
-    tracing::info!("Encountered problems: {}", statistics.problems.len());
-    tracing::info!("Failed tasks: {}", statistics.failures.len());
-    tracing::info!("Succeeded tasks: {}", statistics.successful_tasks);
 
     Ok(())
 }

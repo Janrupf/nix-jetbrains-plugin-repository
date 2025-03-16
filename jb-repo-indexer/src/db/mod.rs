@@ -3,7 +3,7 @@ pub use models::*;
 
 use crate::args::IndexerArgs;
 use crate::error::IndexerError;
-use futures::{Stream, TryFutureExt, TryStreamExt, future};
+use futures::{Stream, TryFutureExt, TryStreamExt, future, StreamExt};
 use libsql::{Connection, Row};
 use serde::de::DeserializeOwned;
 use std::collections::HashSet;
@@ -148,6 +148,19 @@ impl Database {
             .into_stream()
             .map_err(IndexerError::from)
             .and_then(map_row_de)
+    }
+
+    #[tracing::instrument(skip(self))]
+    pub async fn get_all_plugins(&self) -> Result<Vec<CachedPlugin>, IndexerError> {
+        self.connection
+            .query("SELECT xml_id, numeric_id FROM plugins", ())
+            .await
+            .expect("Failed to query plugins")
+            .into_stream()
+            .map_err(IndexerError::from)
+            .and_then(map_row_de)
+            .try_collect()
+            .await
     }
 
     #[tracing::instrument(skip_all, fields(plugin_xml_id = xml_id.as_ref()))]
@@ -304,6 +317,24 @@ impl Database {
             .await?
             .map(map_row_de)
             .ok_or(IndexerError::NotFound)?
+            .await
+    }
+
+    #[tracing::instrument(skip(self))]
+    pub async fn get_update_dependencies(
+        &self,
+        update_id: u64,
+    ) -> Result<Vec<CachedUpdateDependency>, IndexerError> {
+        self.connection
+            .query(
+                "SELECT update_id, dependency_xml_id, optional FROM update_dependencies WHERE update_id = ?1",
+                libsql::params![update_id],
+            )
+            .await?
+            .into_stream()
+            .map_err(IndexerError::from)
+            .and_then(map_row_de)
+            .try_collect()
             .await
     }
 

@@ -1,4 +1,5 @@
 mod sync;
+mod output;
 
 use crate::api::JetbrainsRepoApi;
 use crate::args::IndexerArgs;
@@ -8,6 +9,7 @@ use crate::meta::sync::{sync_new_plugin, sync_plugin};
 use crate::statistics::{Statistics, StatisticsCollector, StatisticsSender};
 use futures::StreamExt;
 use std::collections::HashSet;
+use std::path::{PathBuf};
 use tokio_util::task::TaskTracker;
 
 #[derive(Clone)]
@@ -41,6 +43,7 @@ impl TaskAttachment {
 pub struct MetadataProcessor {
     database: Database,
     repo: JetbrainsRepoApi,
+    output_directory: PathBuf,
 }
 
 impl MetadataProcessor {
@@ -48,8 +51,9 @@ impl MetadataProcessor {
     pub async fn new(args: &IndexerArgs) -> Result<Self, IndexerError> {
         let database = Database::setup(args).await?;
         let repo = JetbrainsRepoApi::new(args)?;
+        let output_directory = args.output_directory.clone();
 
-        Ok(Self { database, repo })
+        Ok(Self { database, repo, output_directory })
     }
 
     pub async fn sync_plugin_metadata(&self) -> Result<Statistics, IndexerError> {
@@ -156,5 +160,9 @@ impl MetadataProcessor {
             tracker: TaskTracker::new(),
             statistics_sender,
         }
+    }
+
+    pub async fn generate_metadata(&self) -> Result<(), IndexerError> {
+        output::generate_into(&self.output_directory, self.database.clone()).await
     }
 }
