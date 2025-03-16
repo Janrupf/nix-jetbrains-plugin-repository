@@ -150,6 +150,7 @@ async fn generate_plugin(
                     channel,
                     dependencies: dependencies.into_iter().map(dep_id).collect(),
                     optional_dependencies: optional_dependencies.into_iter().map(dep_id).collect(),
+                    file_name: update_info.file_name,
                 },
             )))
         })
@@ -236,4 +237,5 @@ struct VersionMetadata {
     pub channel: String,
     pub dependencies: Vec<String>,
     pub optional_dependencies: Vec<String>,
+    pub file_name: Option<String>,
 }

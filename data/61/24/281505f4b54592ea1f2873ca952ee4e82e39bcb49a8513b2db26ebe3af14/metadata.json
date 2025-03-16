@@ -1,0 +1,3539 @@
+{
+  "xml_id": "org.move.lang",
+  "numeric_id": 14721,
+  "versions": {
+    "0.1.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/92207/intellij-move-0.1.0.zip?updateId=92207&pluginId=14721&family=INTELLIJ",
+      "sha256": "T7LtpR3oIg65gbcdvI3pS9O0xlr/kVTdgnV/89A2CCQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-0.1.0.zip"
+    },
+    "0.10.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/103020/intellij-move-2020.2-0.10.0.zip?updateId=103020&pluginId=14721&family=INTELLIJ",
+      "sha256": "ihLSPH8iB1BJcY2/iAZG0IWOkNE8QUIbMsqvLmtuN7Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2020.2-0.10.0.zip"
+    },
+    "0.11.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/105853/intellij-move-2020.3-0.11.0.zip?updateId=105853&pluginId=14721&family=INTELLIJ",
+      "sha256": "H5BvuvXnXLc6bMD/c5KAR/cqyk4eTkqbdQVPpf+1h9g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2020.3-0.11.0.zip"
+    },
+    "0.12.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/124813/intellij-move-2021.1.1-0.12.0.zip?updateId=124813&pluginId=14721&family=INTELLIJ",
+      "sha256": "l6zK+qdTpIJKbUPvhtxn2VqMYIrXF5fwjrK+HVLkRYM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2021.1.1-0.12.0.zip"
+    },
+    "0.13.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/125619/intellij-move-2021.1.2-0.13.0.zip?updateId=125619&pluginId=14721&family=INTELLIJ",
+      "sha256": "mMHZu3CWCZlGF3sCw+BFBXZ2nqV+wNddFDyHGp/gsuk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2021.1.2-0.13.0.zip"
+    },
+    "0.14.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/130871/intellij-move-2021.2-0.14.0.zip?updateId=130871&pluginId=14721&family=INTELLIJ",
+      "sha256": "duJEM8T3pI8gr3+qi/KuqYJJb73ovVRPVnn2/s7Z1Us=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2021.2-0.14.0.zip"
+    },
+    "0.15.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/135398/intellij-move-2021.2-0.15.0.zip?updateId=135398&pluginId=14721&family=INTELLIJ",
+      "sha256": "glC6ZL732HXnLC9EVw7nGHVe/Pk8eVgmCODDr2VYJ/w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2021.2-0.15.0.zip"
+    },
+    "0.16.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/136201/intellij-move-2021.2-0.16.0.zip?updateId=136201&pluginId=14721&family=INTELLIJ",
+      "sha256": "LFDv2RaApltAHnn5lHu4oEVsJ6qb6jKlXgSGJBx+X7w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2021.2-0.16.0.zip"
+    },
+    "0.2.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/92508/intellij-move-0.2.0.zip?updateId=92508&pluginId=14721&family=INTELLIJ",
+      "sha256": "n6P8H/BWnC6szhH3o1+PJHMABsTbQXc/T21q+6/HXuk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-0.2.0.zip"
+    },
+    "0.3.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/92994/intellij-move-0.3.0.zip?updateId=92994&pluginId=14721&family=INTELLIJ",
+      "sha256": "pC6GPJw/C9VsPIz6kd3aYMK9r5G4p1ypYmVYU/y9aEc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-0.3.0.zip"
+    },
+    "0.4.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/93842/intellij-move-0.4.0.zip?updateId=93842&pluginId=14721&family=INTELLIJ",
+      "sha256": "wjhq9Fwut1/rxvJlRzX7psU0ec6WQWvYMTbJhpDd67g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-0.4.0.zip"
+    },
+    "0.5.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/94865/intellij-move-2020.2-0.5.0.zip?updateId=94865&pluginId=14721&family=INTELLIJ",
+      "sha256": "/CR6DBv9P3bCu6E/2/3sX7vNDKUa7MsVMjOcH7ep9/4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2020.2-0.5.0.zip"
+    },
+    "0.6.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/95708/intellij-move-2020.2-0.6.0.zip?updateId=95708&pluginId=14721&family=INTELLIJ",
+      "sha256": "uyCgwtYFJ5P/oryP5qhm+9vjtsK4Q6osmU4Qe8+pZ5c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2020.2-0.6.0.zip"
+    },
+    "0.7.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/96047/intellij-move-2020.2-0.7.0.zip?updateId=96047&pluginId=14721&family=INTELLIJ",
+      "sha256": "1wdSQCxGgiWLDZwzOAnOf6GlHrUewSszmXtgBQLQ9+c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2020.2-0.7.0.zip"
+    },
+    "0.8.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/96346/intellij-move-2020.2-0.8.0.zip?updateId=96346&pluginId=14721&family=INTELLIJ",
+      "sha256": "9Ll6akqOpu07b2MdC7iRtPB3NZC2vvrR6xEtYUeWjcg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2020.2-0.8.0.zip"
+    },
+    "0.9.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/97020/intellij-move-2020.2-0.9.0.zip?updateId=97020&pluginId=14721&family=INTELLIJ",
+      "sha256": "ofS/pb7mt72geSZfsg0AQQmpAnjfnpDupf8iTBP/36k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-2020.2-0.9.0.zip"
+    },
+    "1.0.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/148186/intellij-move-211-1.0.0.zip?updateId=148186&pluginId=14721&family=INTELLIJ",
+      "sha256": "aux0sQxSGkQz+sTm4zgxfa0wZYtoytMBpYbsUI8dHOo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.0.0.zip"
+    },
+    "1.0.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/148187/intellij-move-212-1.0.0.zip?updateId=148187&pluginId=14721&family=INTELLIJ",
+      "sha256": "Nk+ZZ/FwO9VuYjH1m7lTMv/zSQYDIzoUFIDJCJU3IQg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.0.0.zip"
+    },
+    "1.0.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/148188/intellij-move-213-1.0.0.zip?updateId=148188&pluginId=14721&family=INTELLIJ",
+      "sha256": "4YzeoU4x87VKgr3weAtPYP+MgGS6674WTw91Ydi9lnU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.0.0.zip"
+    },
+    "1.1.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/149162/intellij-move-211-1.1.0.zip?updateId=149162&pluginId=14721&family=INTELLIJ",
+      "sha256": "Tw9C7tVVzIREgwVqBYz1LnHqiVE3FTxBNj2urzjB568=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.1.0.zip"
+    },
+    "1.1.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/149163/intellij-move-212-1.1.0.zip?updateId=149163&pluginId=14721&family=INTELLIJ",
+      "sha256": "oEp4dmvd7fgQBkKTVb5kK/GxfVK0V3gulGIEhy72JrY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.1.0.zip"
+    },
+    "1.1.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/149164/intellij-move-213-1.1.0.zip?updateId=149164&pluginId=14721&family=INTELLIJ",
+      "sha256": "41VnluhAWZ6q4oCe6z/TM3DyaTFCgs00riIC7zez8CE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.1.0.zip"
+    },
+    "1.10.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/177412/intellij-move-211-1.10.0.zip?updateId=177412&pluginId=14721&family=INTELLIJ",
+      "sha256": "eFCd7JGIB7PxejHCpYKr5wS+kJL/oQv4oCfGLlIZw2o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.10.0.zip"
+    },
+    "1.10.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/177413/intellij-move-212-1.10.0.zip?updateId=177413&pluginId=14721&family=INTELLIJ",
+      "sha256": "mDpGnAyMxmelMGm/fmVtibriqhUzj/at/AzvU7/y6Vo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.10.0.zip"
+    },
+    "1.10.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/177415/intellij-move-213-1.10.0.zip?updateId=177415&pluginId=14721&family=INTELLIJ",
+      "sha256": "Iqln3zuGv8mO4sK5kDsZib6OzpR2KbA4mE/AMMnOTsc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.10.0.zip"
+    },
+    "1.10.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/177416/intellij-move-221-1.10.0.zip?updateId=177416&pluginId=14721&family=INTELLIJ",
+      "sha256": "aacUzjXB3Pcmiag4qpk9x+GOVBZkTV9efE0spproL9Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.10.0.zip"
+    },
+    "1.10.1.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/179159/intellij-move-211-1.10.1.zip?updateId=179159&pluginId=14721&family=INTELLIJ",
+      "sha256": "mZV4jpuSid9HWCiMRMUXk/jy6rB88J5sa4ZIxvzTGNU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.10.1.zip"
+    },
+    "1.10.1.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/179160/intellij-move-212-1.10.1.zip?updateId=179160&pluginId=14721&family=INTELLIJ",
+      "sha256": "BHKQf8FOmjMwQpX3EddBAjYUoCvnzW0gSnuFuymewj8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.10.1.zip"
+    },
+    "1.10.1.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/179161/intellij-move-213-1.10.1.zip?updateId=179161&pluginId=14721&family=INTELLIJ",
+      "sha256": "KIbIuTMgNSa1ehsZQB2KxZ/TUiqogS+pkgrsSH7kKxs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.10.1.zip"
+    },
+    "1.10.1.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/179162/intellij-move-221-1.10.1.zip?updateId=179162&pluginId=14721&family=INTELLIJ",
+      "sha256": "I1qUaZuLvmPwUVotwT7MQSaRiC6U5J1Bm+yFQ2wkZdo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.10.1.zip"
+    },
+    "1.11.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/183134/intellij-move-211-1.11.0.zip?updateId=183134&pluginId=14721&family=INTELLIJ",
+      "sha256": "1y0TRUtjNRDHe6StG/Fz0vZUIiASOp+5xijz+N8RWRo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.11.0.zip"
+    },
+    "1.11.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/183135/intellij-move-212-1.11.0.zip?updateId=183135&pluginId=14721&family=INTELLIJ",
+      "sha256": "piEv8Qf4CjI3I1/oYt02hF3xnyirgS9wwpMhAI6NtC0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.11.0.zip"
+    },
+    "1.11.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/183137/intellij-move-213-1.11.0.zip?updateId=183137&pluginId=14721&family=INTELLIJ",
+      "sha256": "yN28onl/b+tQ3pEdzjmnmui7lWeWwZIKHI19clef0Po=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.11.0.zip"
+    },
+    "1.11.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/183154/intellij-move-221-1.11.0.zip?updateId=183154&pluginId=14721&family=INTELLIJ",
+      "sha256": "GoueigaVbxl53WJ0rVr4nOBrbg3SHPsZ4WqcOwRBnPM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.11.0.zip"
+    },
+    "1.12.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/189174/intellij-move-211-1.12.0.zip?updateId=189174&pluginId=14721&family=INTELLIJ",
+      "sha256": "UFqHUMj6A0IKW+h/LMd2LN55mAXbcNweAPNhd7GxLLQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.12.0.zip"
+    },
+    "1.12.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/189175/intellij-move-212-1.12.0.zip?updateId=189175&pluginId=14721&family=INTELLIJ",
+      "sha256": "mOLaQT2MfgbsBd+9QXptGDE5u5oseY9nEfPBgVKBkkk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.12.0.zip"
+    },
+    "1.12.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/189177/intellij-move-213-1.12.0.zip?updateId=189177&pluginId=14721&family=INTELLIJ",
+      "sha256": "VBbXLmFo9S1hq1pqTpguzBhPxEl61L6h98sQvZAo4SA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.12.0.zip"
+    },
+    "1.12.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/189179/intellij-move-221-1.12.0.zip?updateId=189179&pluginId=14721&family=INTELLIJ",
+      "sha256": "6OF2jW+92G3KAJaZ8sADmijh0waoz2UT71KC8vYYFs4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.12.0.zip"
+    },
+    "1.12.1.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/190130/intellij-move-211-1.12.1.zip?updateId=190130&pluginId=14721&family=INTELLIJ",
+      "sha256": "uLu6z5tMf2FZx4hq5HZKKZKq41YsIY1RWiALw/jzYrA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.12.1.zip"
+    },
+    "1.12.1.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/190131/intellij-move-212-1.12.1.zip?updateId=190131&pluginId=14721&family=INTELLIJ",
+      "sha256": "+g8b/VxGTPPODvjp/B9CZnBdqEj0SoY1PR2pJpP08RM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.12.1.zip"
+    },
+    "1.12.1.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/190132/intellij-move-213-1.12.1.zip?updateId=190132&pluginId=14721&family=INTELLIJ",
+      "sha256": "0BlxzfpNcx1Hq4/+J6yHKMoSHLV0zdWY8ZjCra8SE5I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.12.1.zip"
+    },
+    "1.12.1.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/190133/intellij-move-221-1.12.1.zip?updateId=190133&pluginId=14721&family=INTELLIJ",
+      "sha256": "FxefOqWZdnKDiNNXwY3/IIbwLf28gQD1Ds4Ayp2aLRA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.12.1.zip"
+    },
+    "1.13.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/193667/intellij-move-211-1.13.0.zip?updateId=193667&pluginId=14721&family=INTELLIJ",
+      "sha256": "mB/ZAcwSZVVZwTINyoQe/kBv7UFtcE3C0/75qxBVSuw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.13.0.zip"
+    },
+    "1.13.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/193668/intellij-move-212-1.13.0.zip?updateId=193668&pluginId=14721&family=INTELLIJ",
+      "sha256": "cCtj5ZzWS2Q0wv1+F6aPMXB4hmVYW/u/q9NGdDBKpK8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.13.0.zip"
+    },
+    "1.13.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/193669/intellij-move-213-1.13.0.zip?updateId=193669&pluginId=14721&family=INTELLIJ",
+      "sha256": "GOBdbT/2/NkTI7eSjvwUtDix/beUXMyLRNJGfpnf/mI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.13.0.zip"
+    },
+    "1.13.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/193670/intellij-move-221-1.13.0.zip?updateId=193670&pluginId=14721&family=INTELLIJ",
+      "sha256": "5Dcto6Xq54L5aY5HFya3wqeciaE25GhE7cwefySjqzA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.13.0.zip"
+    },
+    "1.13.1.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/195037/intellij-move-211-1.13.1.zip?updateId=195037&pluginId=14721&family=INTELLIJ",
+      "sha256": "S/XCsE9MnkI5UmiECQZI7vtkxt7Hk+x9A50guDqpW4U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.13.1.zip"
+    },
+    "1.13.1.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/195042/intellij-move-212-1.13.1.zip?updateId=195042&pluginId=14721&family=INTELLIJ",
+      "sha256": "zODzEv6HF2NuTD9tTi1BvnEgN97J4iBrvrSn6cj6JlY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.13.1.zip"
+    },
+    "1.13.1.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/195043/intellij-move-213-1.13.1.zip?updateId=195043&pluginId=14721&family=INTELLIJ",
+      "sha256": "n9ygyD996X2Y9Ycy+lEpBWr4CCjH/c5s7rts4xowN58=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.13.1.zip"
+    },
+    "1.13.1.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/195044/intellij-move-221-1.13.1.zip?updateId=195044&pluginId=14721&family=INTELLIJ",
+      "sha256": "uIETv+3YtuG15CmxZVtXlmfjCvFot0Ul53f7TUQMuE0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.13.1.zip"
+    },
+    "1.14.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/196691/intellij-move-211-1.14.0.zip?updateId=196691&pluginId=14721&family=INTELLIJ",
+      "sha256": "C+cWoDfEuHND4xcCgcE+1SZ8iT7AUbhtNWyyQ2cvmGQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.14.0.zip"
+    },
+    "1.14.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/196693/intellij-move-212-1.14.0.zip?updateId=196693&pluginId=14721&family=INTELLIJ",
+      "sha256": "XGN/q6TiEjTEuSAmfy86YdlCbsABd96LB/UhZh0eTNU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.14.0.zip"
+    },
+    "1.14.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/196694/intellij-move-213-1.14.0.zip?updateId=196694&pluginId=14721&family=INTELLIJ",
+      "sha256": "6cANAMBg9XB+qukHrpy2IVooCev8U6G7h4yY05iYNd4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.14.0.zip"
+    },
+    "1.14.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/196712/intellij-move-221-1.14.0.zip?updateId=196712&pluginId=14721&family=INTELLIJ",
+      "sha256": "nNXjSN9g/t44ICcsM4sqILaKfouzsuzrsKpd8MI4yDc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.14.0.zip"
+    },
+    "1.15.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/202875/intellij-move-211-1.15.0.zip?updateId=202875&pluginId=14721&family=INTELLIJ",
+      "sha256": "ch+7gfZO3rH9boTRKSXljRdFDTnEX4AUH2SD9PbLO4k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.15.0.zip"
+    },
+    "1.15.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/202876/intellij-move-212-1.15.0.zip?updateId=202876&pluginId=14721&family=INTELLIJ",
+      "sha256": "mHKBY3fcmUMHLc70kc6Cg8jeUsju1wGqnSQiRlYgxa8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.15.0.zip"
+    },
+    "1.15.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/202877/intellij-move-213-1.15.0.zip?updateId=202877&pluginId=14721&family=INTELLIJ",
+      "sha256": "lkeIhOYV8zXwaBWKpomMuS0/y+JoPRRPm4S/lYDY81Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.15.0.zip"
+    },
+    "1.15.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/202878/intellij-move-221-1.15.0.zip?updateId=202878&pluginId=14721&family=INTELLIJ",
+      "sha256": "ckamX3+MQYvu2QVfjjDZ5aperfXHO5+L61m8hE84AxE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.15.0.zip"
+    },
+    "1.15.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/202879/intellij-move-222-1.15.0.zip?updateId=202879&pluginId=14721&family=INTELLIJ",
+      "sha256": "oFuevc7p/UprHTtjWCc2ZHFbSVydu61JTtJkUXT2IQY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.15.0.zip"
+    },
+    "1.16.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/207830/intellij-move-212-1.16.0.zip?updateId=207830&pluginId=14721&family=INTELLIJ",
+      "sha256": "UVBVKDl+0wX6GzMwQzLxYQtYFKoTiIALN5T+WuPMXJE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.16.0.zip"
+    },
+    "1.16.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/207831/intellij-move-213-1.16.0.zip?updateId=207831&pluginId=14721&family=INTELLIJ",
+      "sha256": "3ktcxiU+xnBdq6vP8QkyF7hPI5BCMxbGS7lPydxY548=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.16.0.zip"
+    },
+    "1.16.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/207832/intellij-move-221-1.16.0.zip?updateId=207832&pluginId=14721&family=INTELLIJ",
+      "sha256": "JYsr2QGf9YXwBCS2YtQdu/73e7HGWQIzcQ862pA8Tkk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.16.0.zip"
+    },
+    "1.16.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/207837/intellij-move-222-1.16.0.zip?updateId=207837&pluginId=14721&family=INTELLIJ",
+      "sha256": "9XHllFAQDM8Y2lu1iPpYJ4qps2OduJbidc9yNfiBN6A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.16.0.zip"
+    },
+    "1.17.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/208908/intellij-move-212-1.17.0.zip?updateId=208908&pluginId=14721&family=INTELLIJ",
+      "sha256": "jpafgwqFzQQhliccJV13mQJdjCH1X40YeMxR3CZXUSE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.17.0.zip"
+    },
+    "1.17.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/208909/intellij-move-213-1.17.0.zip?updateId=208909&pluginId=14721&family=INTELLIJ",
+      "sha256": "ETwFZ+BFoX/7JZiAo5jbRXnRRB4IUy/i4WCnZYo4dUo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.17.0.zip"
+    },
+    "1.17.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/208910/intellij-move-221-1.17.0.zip?updateId=208910&pluginId=14721&family=INTELLIJ",
+      "sha256": "/faRroBpZ6Um+0TMk16p7/gYEOl/RlfPSBxx/LjWwg4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.17.0.zip"
+    },
+    "1.17.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/208911/intellij-move-222-1.17.0.zip?updateId=208911&pluginId=14721&family=INTELLIJ",
+      "sha256": "nFnTAfgjNe9xJgkqy0bgsoqlusmsK2tpMspEWlV5cgY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.17.0.zip"
+    },
+    "1.18.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/213536/intellij-move-212-1.18.0.zip?updateId=213536&pluginId=14721&family=INTELLIJ",
+      "sha256": "heJrSVy0tL3q2QXf9lmDpmVxpkiLlIs0DpABVk+/zWI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.18.0.zip"
+    },
+    "1.18.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/213537/intellij-move-213-1.18.0.zip?updateId=213537&pluginId=14721&family=INTELLIJ",
+      "sha256": "xn5weShG2/u1H+J8fs0SKTvxs220I0nQoFRXcpvXbNQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.18.0.zip"
+    },
+    "1.18.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/213538/intellij-move-221-1.18.0.zip?updateId=213538&pluginId=14721&family=INTELLIJ",
+      "sha256": "kuPWEEATR336zmBNa4wfjkyepPcce04MLw07vHiEces=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.18.0.zip"
+    },
+    "1.18.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/213539/intellij-move-222-1.18.0.zip?updateId=213539&pluginId=14721&family=INTELLIJ",
+      "sha256": "N+18iy/zjxnlqnHXz2/SWyN8AUfzQq1k/GK2g1cGwdU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.18.0.zip"
+    },
+    "1.19.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/219157/intellij-move-212-1.19.0.zip?updateId=219157&pluginId=14721&family=INTELLIJ",
+      "sha256": "1+DWH3Q5gVxHZCqWvv0iC/RdBaOqbihSJuiy9mt1LJQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.19.0.zip"
+    },
+    "1.19.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/219159/intellij-move-213-1.19.0.zip?updateId=219159&pluginId=14721&family=INTELLIJ",
+      "sha256": "d1YGf+JL3mfOCS3bNHu9hhBDLHq7MRvKSYhj44FPCN4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.19.0.zip"
+    },
+    "1.19.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/219160/intellij-move-221-1.19.0.zip?updateId=219160&pluginId=14721&family=INTELLIJ",
+      "sha256": "DjlM8M0ihhEQQinoV/SQl+hYMFIBNW7wVPKsJ1sFXSc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.19.0.zip"
+    },
+    "1.19.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/219161/intellij-move-222-1.19.0.zip?updateId=219161&pluginId=14721&family=INTELLIJ",
+      "sha256": "G3EEnJsvrp3xObugfMYs5DO3DGBf/+ZuzG0olCphTUE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.19.0.zip"
+    },
+    "1.2.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/152263/intellij-move-211-1.2.0.zip?updateId=152263&pluginId=14721&family=INTELLIJ",
+      "sha256": "I5zVwGfZ+UQV22/M1fQ/d3yvcwdjIPL14pZLTqzAJ4Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.2.0.zip"
+    },
+    "1.2.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/152264/intellij-move-212-1.2.0.zip?updateId=152264&pluginId=14721&family=INTELLIJ",
+      "sha256": "rpI869VlLhbpmLGrAj4r5WlNOYMIfzVe1fWfoyq3wEU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.2.0.zip"
+    },
+    "1.2.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/152265/intellij-move-213-1.2.0.zip?updateId=152265&pluginId=14721&family=INTELLIJ",
+      "sha256": "wijNwBAvHgGlsj2LkYc3GCcNWINRQAuFsDIbFHBw1oo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.2.0.zip"
+    },
+    "1.20.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/229957/intellij-move-212-1.20.0.zip?updateId=229957&pluginId=14721&family=INTELLIJ",
+      "sha256": "/V1gioaql9I7zzErywZ0Ulzt0YAojK0CsVKT1+rAjPU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.20.0.zip"
+    },
+    "1.20.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/229958/intellij-move-213-1.20.0.zip?updateId=229958&pluginId=14721&family=INTELLIJ",
+      "sha256": "RcnqrJZnFaY56553qcRlvR3hwiZSOEAZrLkGPSu/LhU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.20.0.zip"
+    },
+    "1.20.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/229959/intellij-move-221-1.20.0.zip?updateId=229959&pluginId=14721&family=INTELLIJ",
+      "sha256": "nDMMODrHD4AGGhOSNCkd92DMvzQTeyZWt6M58TWLFII=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.20.0.zip"
+    },
+    "1.20.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/229960/intellij-move-222-1.20.0.zip?updateId=229960&pluginId=14721&family=INTELLIJ",
+      "sha256": "idHtGfgaLPYxZfqlUM0Ho+A0Cd8h1MeYbv7hKSnr52Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.20.0.zip"
+    },
+    "1.21.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/239883/intellij-move-213-1.21.0.zip?updateId=239883&pluginId=14721&family=INTELLIJ",
+      "sha256": "u/Z9mFzgLmT4zyI68QXoA7Uh1R9vdL1MpgAmsyR8n9Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.21.0.zip"
+    },
+    "1.21.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/239904/intellij-move-221-1.21.0.zip?updateId=239904&pluginId=14721&family=INTELLIJ",
+      "sha256": "qmE24co04FqMF+VlTewC8mGhIr/MeDPTt7yVZhitihA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.21.0.zip"
+    },
+    "1.21.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/239905/intellij-move-222-1.21.0.zip?updateId=239905&pluginId=14721&family=INTELLIJ",
+      "sha256": "UlHoy6QRTNWsXNI8s0gjeP1tj0M/FQT9ElCNfro+dF0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.21.0.zip"
+    },
+    "1.22.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/248802/intellij-move-213-1.22.0.zip?updateId=248802&pluginId=14721&family=INTELLIJ",
+      "sha256": "Mz8qBJV8Rw2BbuAcBCDxZD0fNUuMsDMClQ5ChfZK/Aw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.22.0.zip"
+    },
+    "1.22.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/248803/intellij-move-221-1.22.0.zip?updateId=248803&pluginId=14721&family=INTELLIJ",
+      "sha256": "T5xMqllGZu4Tg7ogdH7VeGD3sTcktlCswY4A4Qtjv/A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.22.0.zip"
+    },
+    "1.22.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/248804/intellij-move-222-1.22.0.zip?updateId=248804&pluginId=14721&family=INTELLIJ",
+      "sha256": "YmwPeC74ttr/nT6ypGOtVI4Fk3v9gTnTM/hzfIHNKik=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.22.0.zip"
+    },
+    "1.22.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/261668/intellij-move-223-1.22.0.zip?updateId=261668&pluginId=14721&family=INTELLIJ",
+      "sha256": "oeEY1XLfby6wi7fJZzjkwfFjEAqDf2dpbRtDXMrPdqc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.22.0.zip"
+    },
+    "1.23.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/274765/intellij-move-213-1.23.0.zip?updateId=274765&pluginId=14721&family=INTELLIJ",
+      "sha256": "O0fuG2yYhSA/8jrNUA89Lfy4leesl1ugRUCOEEU7d/c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.23.0.zip"
+    },
+    "1.23.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/274769/intellij-move-221-1.23.0.zip?updateId=274769&pluginId=14721&family=INTELLIJ",
+      "sha256": "MylLhHL/Y3y+O7Gdqui/MGeeAFK5/ptToEpYDCkYKUc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.23.0.zip"
+    },
+    "1.23.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/274770/intellij-move-222-1.23.0.zip?updateId=274770&pluginId=14721&family=INTELLIJ",
+      "sha256": "G5ffc0435WwAUuG0phoLXVe7Zd6Vh+0XhMCFwROBvWM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.23.0.zip"
+    },
+    "1.23.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/274771/intellij-move-223-1.23.0.zip?updateId=274771&pluginId=14721&family=INTELLIJ",
+      "sha256": "cLjJqayZtSf1a+hTYq9Q9vHL1pqycUmaVTQI4cnbwRQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.23.0.zip"
+    },
+    "1.24.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/276627/intellij-move-213-1.24.0.zip?updateId=276627&pluginId=14721&family=INTELLIJ",
+      "sha256": "JR1bdXQIMX7pnPl8SNd/f7LqqtIrr0v/9+H8GbuZ3Ro=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.24.0.zip"
+    },
+    "1.24.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/276628/intellij-move-221-1.24.0.zip?updateId=276628&pluginId=14721&family=INTELLIJ",
+      "sha256": "75eti0NQvDtBh4pHpgFJ8SZXLsP8utfhRo2QoYt0a4E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.24.0.zip"
+    },
+    "1.24.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/276629/intellij-move-222-1.24.0.zip?updateId=276629&pluginId=14721&family=INTELLIJ",
+      "sha256": "25820ZW9n9Bml4DFpKj0V87LR9OGzK1Vi5f+Tt/t8/A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.24.0.zip"
+    },
+    "1.24.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/276630/intellij-move-223-1.24.0.zip?updateId=276630&pluginId=14721&family=INTELLIJ",
+      "sha256": "9gFVoiZJcFHYUxYNO4y4jUmezWEqaiAuPNwDUBnCtyw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.24.0.zip"
+    },
+    "1.25.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/290744/intellij-move-221-1.25.0.zip?updateId=290744&pluginId=14721&family=INTELLIJ",
+      "sha256": "fUa8mIYZ/7zGAh85BS6OaWek0baCgBwvo9p904BsnAk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.25.0.zip"
+    },
+    "1.25.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/290745/intellij-move-222-1.25.0.zip?updateId=290745&pluginId=14721&family=INTELLIJ",
+      "sha256": "/U/uaHTaZJrsopjLRgQc5hY6H/4kowMzOJbGTWkBmew=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.25.0.zip"
+    },
+    "1.25.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/290746/intellij-move-223-1.25.0.zip?updateId=290746&pluginId=14721&family=INTELLIJ",
+      "sha256": "exZTTVbmXBI6yKuC+bvJ+oRHOy9uNvnCfrF9xcsrx7Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.25.0.zip"
+    },
+    "1.26.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/301529/intellij-move-221-1.26.0.zip?updateId=301529&pluginId=14721&family=INTELLIJ",
+      "sha256": "752bjTwIWNpQf+k46YUDNMh++rnqgx16MpZXDG9gnn4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.26.0.zip"
+    },
+    "1.26.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/301530/intellij-move-222-1.26.0.zip?updateId=301530&pluginId=14721&family=INTELLIJ",
+      "sha256": "kHJ7ZoMumxEN6YNlR9uaOMWWKczProKuCicMzRsYp3E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.26.0.zip"
+    },
+    "1.26.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/301531/intellij-move-223-1.26.0.zip?updateId=301531&pluginId=14721&family=INTELLIJ",
+      "sha256": "JsZ72wGC5Dn/ckXgfFhSQaCfM1zCg7WnislX2X6nwTg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.26.0.zip"
+    },
+    "1.27.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/309277/intellij-move-221-1.27.0.zip?updateId=309277&pluginId=14721&family=INTELLIJ",
+      "sha256": "+8JTRatzkvl0ys4R/cPjzbQBupNPs8gRc65d7kt7V8o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.27.0.zip"
+    },
+    "1.27.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/309278/intellij-move-222-1.27.0.zip?updateId=309278&pluginId=14721&family=INTELLIJ",
+      "sha256": "DZgUUC5PejVpqqn0G7swhhGkyQ5JcQjJDgftPgDgdGY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.27.0.zip"
+    },
+    "1.27.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/309279/intellij-move-223-1.27.0.zip?updateId=309279&pluginId=14721&family=INTELLIJ",
+      "sha256": "fmy+6GGwNz4DMDAcz0ghW9DeSgzT+J/YJM7nOaYSkN4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.27.0.zip"
+    },
+    "1.27.1.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/310861/intellij-move-221-1.27.1.zip?updateId=310861&pluginId=14721&family=INTELLIJ",
+      "sha256": "ebUnUXmhS9STwqXrKbAFo4FUjke9QJ7kenPISfNqJcc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.27.1.zip"
+    },
+    "1.27.1.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/310862/intellij-move-222-1.27.1.zip?updateId=310862&pluginId=14721&family=INTELLIJ",
+      "sha256": "N+4LfqIHlnmvB8qIW2ClV+gNJ/p+7p+xQLzFZqrMCJc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.27.1.zip"
+    },
+    "1.27.1.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/310863/intellij-move-223-1.27.1.zip?updateId=310863&pluginId=14721&family=INTELLIJ",
+      "sha256": "/VuYbbXrkfwpHjgIdaHDcsZAxVdYBL94XX9iYlzsD/k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.27.1.zip"
+    },
+    "1.27.1.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/313979/intellij-move-231-1.27.1.zip?updateId=313979&pluginId=14721&family=INTELLIJ",
+      "sha256": "S5dMFas8VwSqgVyQdlhnvRrXynGYsYI2BoETFfE2Rok=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-231-1.27.1.zip"
+    },
+    "1.28.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/331471/intellij-move-221-1.28.0.zip?updateId=331471&pluginId=14721&family=INTELLIJ",
+      "sha256": "56/7B4muOzNLXEHh+nj/AooduKIc7bl/3wQzzf3Z4eY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.28.0.zip"
+    },
+    "1.28.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/331472/intellij-move-222-1.28.0.zip?updateId=331472&pluginId=14721&family=INTELLIJ",
+      "sha256": "d0P0+vZgbZynNZan/rMdnX+DMyFHFlkuT1Fq25xkdTU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.28.0.zip"
+    },
+    "1.28.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/331473/intellij-move-223-1.28.0.zip?updateId=331473&pluginId=14721&family=INTELLIJ",
+      "sha256": "RR/aOTIYQGKMLiCAmBjQ66//fygYe5ekbsdi+lI8QHw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.28.0.zip"
+    },
+    "1.28.0.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/331474/intellij-move-231-1.28.0.zip?updateId=331474&pluginId=14721&family=INTELLIJ",
+      "sha256": "1g0KmufQnMyk6RKVoWB4jwOUX+GnIRZOT8enKvggvnA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-231-1.28.0.zip"
+    },
+    "1.28.1.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/337083/intellij-move-221-1.28.1.zip?updateId=337083&pluginId=14721&family=INTELLIJ",
+      "sha256": "vBgKS05VteeW1GFLJKjq8/1E957jJxpiWIQPs0Y1AaU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.28.1.zip"
+    },
+    "1.28.1.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/337086/intellij-move-222-1.28.1.zip?updateId=337086&pluginId=14721&family=INTELLIJ",
+      "sha256": "KDeu3MFCRoEpFo5piv9jLVOGv1Qn3LccbdTggd9jCb4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.28.1.zip"
+    },
+    "1.28.1.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/337088/intellij-move-223-1.28.1.zip?updateId=337088&pluginId=14721&family=INTELLIJ",
+      "sha256": "HcUlxdP1gu8B4tc+y7/1Nxf70ZjhNthIQYFkA0DvoTc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.28.1.zip"
+    },
+    "1.28.1.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/337089/intellij-move-231-1.28.1.zip?updateId=337089&pluginId=14721&family=INTELLIJ",
+      "sha256": "xmvIc1St8tJ7iQ6DoSCCdOLqcEfwUmfHtfCPXpFACIY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-231-1.28.1.zip"
+    },
+    "1.29.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/351364/intellij-move-222-1.29.0.zip?updateId=351364&pluginId=14721&family=INTELLIJ",
+      "sha256": "AMsuJv145/nQWiR9Gy3jytiAaDp8VmW7SpkYnppAb90=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.29.0.zip"
+    },
+    "1.29.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/351367/intellij-move-223-1.29.0.zip?updateId=351367&pluginId=14721&family=INTELLIJ",
+      "sha256": "tzUmeR3CGAMA1PDAA8ttkIhoNGAw1u+hkzP4n5GDW9I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.29.0.zip"
+    },
+    "1.29.0.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/351368/intellij-move-231-1.29.0.zip?updateId=351368&pluginId=14721&family=INTELLIJ",
+      "sha256": "EYCRHNJgX4NSMjqmGilRQ7wYPcFBMZQXapTdn/NcdUA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-231-1.29.0.zip"
+    },
+    "1.3.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/153401/intellij-move-211-1.3.0.zip?updateId=153401&pluginId=14721&family=INTELLIJ",
+      "sha256": "Ph17coSbBu9ebUotFBeN8dY9pKtBYdpw2lAWSENmwHg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.3.0.zip"
+    },
+    "1.3.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/153402/intellij-move-212-1.3.0.zip?updateId=153402&pluginId=14721&family=INTELLIJ",
+      "sha256": "TChqooq88fHWgism2i9ro9D7uePS+hQKPOGySKRA6s4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.3.0.zip"
+    },
+    "1.3.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/153403/intellij-move-213-1.3.0.zip?updateId=153403&pluginId=14721&family=INTELLIJ",
+      "sha256": "BJi06RkjWwtJ4tfGPF0PfBxFw7BO+p3LQaKp1q7JO4M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.3.0.zip"
+    },
+    "1.30.0.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/363263/intellij-move-222-1.30.0.zip?updateId=363263&pluginId=14721&family=INTELLIJ",
+      "sha256": "qbp5F6W4TSCmHQGNYLBxDOJnuYMpjtplnNr2h3iAfZQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.30.0.zip"
+    },
+    "1.30.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/363264/intellij-move-223-1.30.0.zip?updateId=363264&pluginId=14721&family=INTELLIJ",
+      "sha256": "El99w1CjcIYZdksqlGK9jGRBTHhH4viDgzbYx5ogo10=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.30.0.zip"
+    },
+    "1.30.0.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/363265/intellij-move-231-1.30.0.zip?updateId=363265&pluginId=14721&family=INTELLIJ",
+      "sha256": "VKN/UIqZrgFZr8nKvydFbhFInmZBPzoTR1LeWm4NSkM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-231-1.30.0.zip"
+    },
+    "1.30.1.222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/368252/intellij-move-222-1.30.1.zip?updateId=368252&pluginId=14721&family=INTELLIJ",
+      "sha256": "2YoSvijcqdd4nXHP2nmWi5frK4FlyG5kMuMMIPEs2Bo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-222-1.30.1.zip"
+    },
+    "1.30.1.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/368253/intellij-move-223-1.30.1.zip?updateId=368253&pluginId=14721&family=INTELLIJ",
+      "sha256": "zFFLWVLpfFkNSClSdKfuxaOphi2ZD5WYrdQMfp5xLmo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-223-1.30.1.zip"
+    },
+    "1.30.1.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/368254/intellij-move-231-1.30.1.zip?updateId=368254&pluginId=14721&family=INTELLIJ",
+      "sha256": "6d4ix2IYqpPv8k03yqrk82+6ii1yg2zTmxOLA92zkIA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-231-1.30.1.zip"
+    },
+    "1.30.1.232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/370045/intellij-move-232-1.30.1.zip?updateId=370045&pluginId=14721&family=INTELLIJ",
+      "sha256": "K53FNGgwDuOCz/fTsB4v4JWOOuMcx6CpNkcoG97blgQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-232-1.30.1.zip"
+    },
+    "1.31.0.223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/380714/intellij-move-1.31.0.223.zip?updateId=380714&pluginId=14721&family=INTELLIJ",
+      "sha256": "ZR2ZooVpOvPiHiZPqWa7dbDD1YdMqEfAfNLNn36VPYI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.31.0.223.zip"
+    },
+    "1.31.0.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/380715/intellij-move-1.31.0.231.zip?updateId=380715&pluginId=14721&family=INTELLIJ",
+      "sha256": "/5qR6c5uBJYfETmlN8LMuV5RWPDROT9hY3IbA0spL5Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.31.0.231.zip"
+    },
+    "1.31.0.232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/380716/intellij-move-1.31.0.232.zip?updateId=380716&pluginId=14721&family=INTELLIJ",
+      "sha256": "lMXParDugGCPyqs7coauKLeNB3l7CvXzgzQYxn8LvEA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.31.0.232.zip"
+    },
+    "1.32.0.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/453470/intellij-move-1.32.0.231.zip?updateId=453470&pluginId=14721&family=INTELLIJ",
+      "sha256": "R2qNlBXLE7Kjus2dRwbiuF1MhhXJkPfuSzbeQn7UWjU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.32.0.231.zip"
+    },
+    "1.32.0.232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/453471/intellij-move-1.32.0.232.zip?updateId=453471&pluginId=14721&family=INTELLIJ",
+      "sha256": "z4p08wg/u6YW8glpM5eJf/eKmyPWqGz40aTzwUebwE8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.32.0.232.zip"
+    },
+    "1.32.0.233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/453472/intellij-move-1.32.0.233.zip?updateId=453472&pluginId=14721&family=INTELLIJ",
+      "sha256": "zaTvYs+iqhtOngZaWcKRD+D18QQnM28u2Z56sngwzzI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.32.0.233.zip"
+    },
+    "1.33.0.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/468599/intellij-move-1.33.0.231.zip?updateId=468599&pluginId=14721&family=INTELLIJ",
+      "sha256": "Oj7zsz5OQcEvfmGIIVkLSRiyhNq21lvD4+qAEAh3T9o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.33.0.231.zip"
+    },
+    "1.33.0.232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/468601/intellij-move-1.33.0.232.zip?updateId=468601&pluginId=14721&family=INTELLIJ",
+      "sha256": "y75ZNHrmXqkNzPK6vmGujHQhalVWJonAex8SRhaBs3s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.33.0.232.zip"
+    },
+    "1.33.0.233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/468602/intellij-move-1.33.0.233.zip?updateId=468602&pluginId=14721&family=INTELLIJ",
+      "sha256": "TNm4fgF0QF2N4+nPrZKfKObSU8g4aVtKfdmdwfFeYfw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.33.0.233.zip"
+    },
+    "1.33.1.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/471709/intellij-move-1.33.1.231.zip?updateId=471709&pluginId=14721&family=INTELLIJ",
+      "sha256": "SeoJfY7GrZoJ0H+uryMMkxcBOOHwP1KDUkqv/UEi9lw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.33.1.231.zip"
+    },
+    "1.33.1.232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/471710/intellij-move-1.33.1.232.zip?updateId=471710&pluginId=14721&family=INTELLIJ",
+      "sha256": "QMNvMcCofXv4UA3az4yAzZaWDeLUPIUfd7KeU9hbjVM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.33.1.232.zip"
+    },
+    "1.33.1.233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/471711/intellij-move-1.33.1.233.zip?updateId=471711&pluginId=14721&family=INTELLIJ",
+      "sha256": "4UBbBco456xuf+GDO+aqUmgVq1l3SXwBh3Z9DFAKUZw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.33.1.233.zip"
+    },
+    "1.34.0.231": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/484869/intellij-move-1.34.0.231.zip?updateId=484869&pluginId=14721&family=INTELLIJ",
+      "sha256": "Kp70eia0JWbkz3mOZbtGO3fvW08G2q6o15o354HKYc8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.34.0.231.zip"
+    },
+    "1.34.0.232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/484870/intellij-move-1.34.0.232.zip?updateId=484870&pluginId=14721&family=INTELLIJ",
+      "sha256": "Hh05HaL+0ln+wJFD/nEXgb5FE8qok7hVZRFaufrW2B0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.34.0.232.zip"
+    },
+    "1.34.0.233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/484872/intellij-move-1.34.0.233.zip?updateId=484872&pluginId=14721&family=INTELLIJ",
+      "sha256": "visLahHnDap+4I1t2kfoqsAUifjvA2RMWRiWovdIx6Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.34.0.233.zip"
+    },
+    "1.35.0.232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/511343/intellij-move-1.35.0.232.zip?updateId=511343&pluginId=14721&family=INTELLIJ",
+      "sha256": "njn5BgdrE+EhgbhfsMnNw8BWsQnLWBlv4AI+s3XiTrM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.35.0.232.zip"
+    },
+    "1.35.0.233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/511344/intellij-move-1.35.0.233.zip?updateId=511344&pluginId=14721&family=INTELLIJ",
+      "sha256": "PK6o3NaO79Ki0lBk4TA90fi9kxJ4HEasGQqnD6o+riQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.35.0.233.zip"
+    },
+    "1.35.0.241": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/518856/intellij-move-1.35.0.241.zip?updateId=518856&pluginId=14721&family=INTELLIJ",
+      "sha256": "LeZVKG3PMvzyeSYhhqjr865MZmNrno72eQGyIyYpBWg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.35.0.241.zip"
+    },
+    "1.36.0.232-eap.1119242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/536582/intellij-move-1.36.0.232-eap.1119242.zip?updateId=536582&pluginId=14721&family=INTELLIJ",
+      "sha256": "avDZ8/1aYO8+XD+l/BXrrKjLuooXj22vRK+iMNOlaE4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.232-eap.1119242.zip"
+    },
+    "1.36.0.232-eap.1211670": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/537755/intellij-move-1.36.0.232-eap.1211670.zip?updateId=537755&pluginId=14721&family=INTELLIJ",
+      "sha256": "mTie7l4CS/6IipLyS4rXAJTUU43tJHi/blxjcZnJbrI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.232-eap.1211670.zip"
+    },
+    "1.36.0.232-eap.504284": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/533029/intellij-move-1.36.0.232-eap.504284.zip?updateId=533029&pluginId=14721&family=INTELLIJ",
+      "sha256": "UAMwZ3dsGQvtHOisnlOdxIHSctwye6fpPpxG71H3KQw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.232-eap.504284.zip"
+    },
+    "1.36.0.232-eap.99380": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/531035/intellij-move-1.36.0.232-eap.99380.zip?updateId=531035&pluginId=14721&family=INTELLIJ",
+      "sha256": "0ikTxGS44YHCH/PGdhBfzulyWOilJaKPQOVhxjQy1ps=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.232-eap.99380.zip"
+    },
+    "1.36.0.233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/557282/intellij-move-1.36.0.233.zip?updateId=557282&pluginId=14721&family=INTELLIJ",
+      "sha256": "hN0Gendz8oEZZprrjmPy4B/gc2jo7dOamyfHqrG1fFw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233.zip"
+    },
+    "1.36.0.233-eap.1119242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/536584/intellij-move-1.36.0.233-eap.1119242.zip?updateId=536584&pluginId=14721&family=INTELLIJ",
+      "sha256": "w9Y1tiglz6hDtAw9O07j6VeAI/R2NXMcnqI56zls5w4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.1119242.zip"
+    },
+    "1.36.0.233-eap.1211670": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/537756/intellij-move-1.36.0.233-eap.1211670.zip?updateId=537756&pluginId=14721&family=INTELLIJ",
+      "sha256": "zbxUaOR+FVLdKhI1C1OGjA1PGiCdUp8B4cijY6+4MgE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.1211670.zip"
+    },
+    "1.36.0.233-eap.2082609": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/545016/intellij-move-1.36.0.233-eap.2082609.zip?updateId=545016&pluginId=14721&family=INTELLIJ",
+      "sha256": "dCsnCnZ0eAm2RrYrO6NdnHkKRSv7InTDlFAVF0y6GbY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.2082609.zip"
+    },
+    "1.36.0.233-eap.2613226": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/548438/intellij-move-1.36.0.233-eap.2613226.zip?updateId=548438&pluginId=14721&family=INTELLIJ",
+      "sha256": "ZdwaMHicpDLUi1WKjj7eoLgedsNInfBpvt9nAS0BKaY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.2613226.zip"
+    },
+    "1.36.0.233-eap.2684369": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/548930/intellij-move-1.36.0.233-eap.2684369.zip?updateId=548930&pluginId=14721&family=INTELLIJ",
+      "sha256": "cQRDIqhYg739WMI67K6ujVvpfL20/DelKMFUHXVKBRI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.2684369.zip"
+    },
+    "1.36.0.233-eap.2754169": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/549189/intellij-move-1.36.0.233-eap.2754169.zip?updateId=549189&pluginId=14721&family=INTELLIJ",
+      "sha256": "AAX74mxhHPzi4F9ht99UvIwB7E5GQhlGSJYG1s+StTM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.2754169.zip"
+    },
+    "1.36.0.233-eap.3018668": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/551187/intellij-move-1.36.0.233-eap.3018668.zip?updateId=551187&pluginId=14721&family=INTELLIJ",
+      "sha256": "RElg4sBX+U5wQwfZ2atqGVx6gfAnJDnSowTTI08FMA8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3018668.zip"
+    },
+    "1.36.0.233-eap.3027249": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/551322/intellij-move-1.36.0.233-eap.3027249.zip?updateId=551322&pluginId=14721&family=INTELLIJ",
+      "sha256": "PtDW7D/n+Nvj+/xJjrCz/zWT4djSOVw5VwgYRol4iIM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3027249.zip"
+    },
+    "1.36.0.233-eap.3190084": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/552857/intellij-move-1.36.0.233-eap.3190084.zip?updateId=552857&pluginId=14721&family=INTELLIJ",
+      "sha256": "gQDiSKp+TaIBhuAw59J6UPekQ/N+Mfcxv/pVUuI2OGI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3190084.zip"
+    },
+    "1.36.0.233-eap.3269856": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553648/intellij-move-1.36.0.233-eap.3269856.zip?updateId=553648&pluginId=14721&family=INTELLIJ",
+      "sha256": "Em+BESbWKlud+iP5vie+Zc7jetZ4GvYKeuPahYx95Qs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3269856.zip"
+    },
+    "1.36.0.233-eap.3303796": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553802/intellij-move-1.36.0.233-eap.3303796.zip?updateId=553802&pluginId=14721&family=INTELLIJ",
+      "sha256": "4j00D96H61cdwV1lcTyqRNTYiMdT5ha4nrEnYxRrLRs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3303796.zip"
+    },
+    "1.36.0.233-eap.3351405": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553929/intellij-move-1.36.0.233-eap.3351405.zip?updateId=553929&pluginId=14721&family=INTELLIJ",
+      "sha256": "OCz2hhjN/dVmLC8GrMDRlpA2Yaj17XC71WYUZIcdYKA=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3351405.zip"
+    },
+    "1.36.0.233-eap.3352228": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553933/intellij-move-1.36.0.233-eap.3352228.zip?updateId=553933&pluginId=14721&family=INTELLIJ",
+      "sha256": "xxH4N0C2LA5v0A3SP4eX8hCOqPVKS77oOIrja6dEjys=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3352228.zip"
+    },
+    "1.36.0.233-eap.3352893": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553937/intellij-move-1.36.0.233-eap.3352893.zip?updateId=553937&pluginId=14721&family=INTELLIJ",
+      "sha256": "XcpplEHJuYNVXFC55M+KAL/Taz4vydOwLhi62wUQnic=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3352893.zip"
+    },
+    "1.36.0.233-eap.3391304": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/554163/intellij-move-1.36.0.233-eap.3391304.zip?updateId=554163&pluginId=14721&family=INTELLIJ",
+      "sha256": "VI1ja5cbXaeVd0a70+pv1SFCwR1yj1frix9U5LhMxiE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3391304.zip"
+    },
+    "1.36.0.233-eap.3470298": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/554420/intellij-move-1.36.0.233-eap.3470298.zip?updateId=554420&pluginId=14721&family=INTELLIJ",
+      "sha256": "PRv3+wB4KpfxKJXf3zqB0MaNX3Jto0r4b+fd9/6xGg8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3470298.zip"
+    },
+    "1.36.0.233-eap.3808285": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/556048/intellij-move-1.36.0.233-eap.3808285.zip?updateId=556048&pluginId=14721&family=INTELLIJ",
+      "sha256": "9X5jTUZdaecO8e6h050wwbYIwRQ+hjDLOmvQsX3CGOs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3808285.zip"
+    },
+    "1.36.0.233-eap.3886571": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/556686/intellij-move-1.36.0.233-eap.3886571.zip?updateId=556686&pluginId=14721&family=INTELLIJ",
+      "sha256": "svcewWyObOih2Y+dRxSpPw6wIE3H3TeQTgDXCagfBnE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3886571.zip"
+    },
+    "1.36.0.233-eap.3887281": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/556690/intellij-move-1.36.0.233-eap.3887281.zip?updateId=556690&pluginId=14721&family=INTELLIJ",
+      "sha256": "6jY3dJaVKZ4k2qV/5OuPVuJ4s1u/8SR3iBQmm3CS9UY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3887281.zip"
+    },
+    "1.36.0.233-eap.3970439": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/557025/intellij-move-1.36.0.233-eap.3970439.zip?updateId=557025&pluginId=14721&family=INTELLIJ",
+      "sha256": "uTI1VWBSBwscztynEa5Q1737wEies/AN7FW7CXFufa8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.3970439.zip"
+    },
+    "1.36.0.233-eap.4039124": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/557165/intellij-move-1.36.0.233-eap.4039124.zip?updateId=557165&pluginId=14721&family=INTELLIJ",
+      "sha256": "5OO/HR/3zZbZImfuKcvlwANkgZQWUvNgqOEHIyMEueQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.4039124.zip"
+    },
+    "1.36.0.233-eap.4068890": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/557280/intellij-move-1.36.0.233-eap.4068890.zip?updateId=557280&pluginId=14721&family=INTELLIJ",
+      "sha256": "EpGkyiywAGZR8BuL1mIAqS68PPJ80phmF7MEAKtmnaU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.4068890.zip"
+    },
+    "1.36.0.233-eap.504284": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/533030/intellij-move-1.36.0.233-eap.504284.zip?updateId=533030&pluginId=14721&family=INTELLIJ",
+      "sha256": "F72Csln562uHYtdHYZI1wOXDcJOBvFi2mzok30vfQus=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.504284.zip"
+    },
+    "1.36.0.233-eap.99380": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/531033/intellij-move-1.36.0.233-eap.99380.zip?updateId=531033&pluginId=14721&family=INTELLIJ",
+      "sha256": "Tqn0ahufn8cBbrnnuFUYgOhAMWp2oSvMLaoER/Pete4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.233-eap.99380.zip"
+    },
+    "1.36.0.241": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/557283/intellij-move-1.36.0.241.zip?updateId=557283&pluginId=14721&family=INTELLIJ",
+      "sha256": "tNxipwki6jcC+gy+DPk6wUJ3yQ7a3+cjGXTX9LLZ6L0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241.zip"
+    },
+    "1.36.0.241-eap.1119242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/536583/intellij-move-1.36.0.241-eap.1119242.zip?updateId=536583&pluginId=14721&family=INTELLIJ",
+      "sha256": "TlAvZ1IE6kp4pqjiqeBkAAcFwbpb0+9zSmwiNC9IQEs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.1119242.zip"
+    },
+    "1.36.0.241-eap.1211670": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/537754/intellij-move-1.36.0.241-eap.1211670.zip?updateId=537754&pluginId=14721&family=INTELLIJ",
+      "sha256": "9wTZDuOAJY7bNOWjDj6TblVjpB1byzZ6xGBfXdv5GPg=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.1211670.zip"
+    },
+    "1.36.0.241-eap.2082609": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/545015/intellij-move-1.36.0.241-eap.2082609.zip?updateId=545015&pluginId=14721&family=INTELLIJ",
+      "sha256": "2B/Pnvd6y5AeBCFnGp/RcoEaXKRGN2Xzx4IAvRBHHJw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.2082609.zip"
+    },
+    "1.36.0.241-eap.2613226": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/548439/intellij-move-1.36.0.241-eap.2613226.zip?updateId=548439&pluginId=14721&family=INTELLIJ",
+      "sha256": "034s6lWCWiuQKcZDxP1WOIV8ztD+/ZnGYT2y32B4Dks=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.2613226.zip"
+    },
+    "1.36.0.241-eap.2684369": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/548931/intellij-move-1.36.0.241-eap.2684369.zip?updateId=548931&pluginId=14721&family=INTELLIJ",
+      "sha256": "YZLK0lTdZTH5QQhLyEcOA/m9IC3a/z52+eDDiXIWRoo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.2684369.zip"
+    },
+    "1.36.0.241-eap.2754169": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/549188/intellij-move-1.36.0.241-eap.2754169.zip?updateId=549188&pluginId=14721&family=INTELLIJ",
+      "sha256": "jAPmN6bZB7a3NxpTZhNmuSmdwW19sOwFQmPzx/xTJXo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.2754169.zip"
+    },
+    "1.36.0.241-eap.3018668": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/551188/intellij-move-1.36.0.241-eap.3018668.zip?updateId=551188&pluginId=14721&family=INTELLIJ",
+      "sha256": "TGYwSEP7fGuY0DFxh+EIohVP9YSbCKQEAkBgHPOGJUY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3018668.zip"
+    },
+    "1.36.0.241-eap.3027249": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/551321/intellij-move-1.36.0.241-eap.3027249.zip?updateId=551321&pluginId=14721&family=INTELLIJ",
+      "sha256": "RmXfFvokh5ljNPyMu/1ASCGoyy4Sc0843pxKFvEM0tY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3027249.zip"
+    },
+    "1.36.0.241-eap.3190084": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/552858/intellij-move-1.36.0.241-eap.3190084.zip?updateId=552858&pluginId=14721&family=INTELLIJ",
+      "sha256": "3uScGfht/qj6kaQXYKYYWcj34g02muzcS4JlhEiCfhU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3190084.zip"
+    },
+    "1.36.0.241-eap.3269856": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553649/intellij-move-1.36.0.241-eap.3269856.zip?updateId=553649&pluginId=14721&family=INTELLIJ",
+      "sha256": "KMmByjN2tUkUUyZ/WC4GCrty/BT1QeTcW+Gr9/ifqlo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3269856.zip"
+    },
+    "1.36.0.241-eap.3303796": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553803/intellij-move-1.36.0.241-eap.3303796.zip?updateId=553803&pluginId=14721&family=INTELLIJ",
+      "sha256": "OiY+NyOlGB90YDZUOFWlWrjZDk+dYhJucztT2WbUMY0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3303796.zip"
+    },
+    "1.36.0.241-eap.3351405": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553930/intellij-move-1.36.0.241-eap.3351405.zip?updateId=553930&pluginId=14721&family=INTELLIJ",
+      "sha256": "wy/D5yl/jxdTlcbS11zI28XP5zbIxZKACcVbyQOEaYY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3351405.zip"
+    },
+    "1.36.0.241-eap.3352228": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553934/intellij-move-1.36.0.241-eap.3352228.zip?updateId=553934&pluginId=14721&family=INTELLIJ",
+      "sha256": "NE7UB0GhxLMdJUapG+ONGETjMWngzRCdgtus8SSnnGw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3352228.zip"
+    },
+    "1.36.0.241-eap.3352893": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/553936/intellij-move-1.36.0.241-eap.3352893.zip?updateId=553936&pluginId=14721&family=INTELLIJ",
+      "sha256": "kUSm5KIpuDgFWYKOnAeio4QqCbiqEM/T5m9M3JMPIOo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3352893.zip"
+    },
+    "1.36.0.241-eap.3391304": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/554164/intellij-move-1.36.0.241-eap.3391304.zip?updateId=554164&pluginId=14721&family=INTELLIJ",
+      "sha256": "1bYGrpdiHlgTe0Ws5m+jbAoztRREn/obwTNmHUQ4REE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3391304.zip"
+    },
+    "1.36.0.241-eap.3470298": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/554421/intellij-move-1.36.0.241-eap.3470298.zip?updateId=554421&pluginId=14721&family=INTELLIJ",
+      "sha256": "JgBfEKmGFcvjBJpp0IY2RJoLWiLiAUqiZn6LzdxYMQw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3470298.zip"
+    },
+    "1.36.0.241-eap.3808285": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/556049/intellij-move-1.36.0.241-eap.3808285.zip?updateId=556049&pluginId=14721&family=INTELLIJ",
+      "sha256": "rXA7Zl8WMq67P3GToHBFcvjyPBI+5PK2tM8jxSNma0c=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3808285.zip"
+    },
+    "1.36.0.241-eap.3886571": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/556687/intellij-move-1.36.0.241-eap.3886571.zip?updateId=556687&pluginId=14721&family=INTELLIJ",
+      "sha256": "+2Er7ESrRCVxbvmJdb7o8GWgF5h0crSJ4uIoao/PwYY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3886571.zip"
+    },
+    "1.36.0.241-eap.3887281": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/556689/intellij-move-1.36.0.241-eap.3887281.zip?updateId=556689&pluginId=14721&family=INTELLIJ",
+      "sha256": "0VC+lFOoaFQD1jbFKINzUSXRTkD9qj5t/Ncw538NniA=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3887281.zip"
+    },
+    "1.36.0.241-eap.3970439": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/557026/intellij-move-1.36.0.241-eap.3970439.zip?updateId=557026&pluginId=14721&family=INTELLIJ",
+      "sha256": "VXfrc+RFdldOOKrzxqdqNySK/vW7kK/LVm8PG0reBrs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.3970439.zip"
+    },
+    "1.36.0.241-eap.4039124": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/557164/intellij-move-1.36.0.241-eap.4039124.zip?updateId=557164&pluginId=14721&family=INTELLIJ",
+      "sha256": "jF2alvBchRTx4zGHUHptIaKyz2vIT7dnnH0MXYdQ4OE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.4039124.zip"
+    },
+    "1.36.0.241-eap.4068890": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/557281/intellij-move-1.36.0.241-eap.4068890.zip?updateId=557281&pluginId=14721&family=INTELLIJ",
+      "sha256": "zPiivCPzq2J/Zo8pCvhXJhiAjZbk31jeFnBQ1b8DPo8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.4068890.zip"
+    },
+    "1.36.0.241-eap.504284": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/533031/intellij-move-1.36.0.241-eap.504284.zip?updateId=533031&pluginId=14721&family=INTELLIJ",
+      "sha256": "vO9qe/tnKPL9zb4R53aQ6Zfc9iW9+I/5fobSGq0DjN8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.504284.zip"
+    },
+    "1.36.0.241-eap.99380": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/531034/intellij-move-1.36.0.241-eap.99380.zip?updateId=531034&pluginId=14721&family=INTELLIJ",
+      "sha256": "OzAkmyBaLZLJQH7bQqO71JgB+VVsOSlgbx4YNNdJxOI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.0.241-eap.99380.zip"
+    },
+    "1.36.1.233-eap.4979658": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/562822/intellij-move-1.36.1.233-eap.4979658.zip?updateId=562822&pluginId=14721&family=INTELLIJ",
+      "sha256": "Ox0QNYGUaPPC1d/+I6/QOk69JwtkgVjkk53684TfE54=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.1.233-eap.4979658.zip"
+    },
+    "1.36.1.233-eap.4992537": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/562925/intellij-move-1.36.1.233-eap.4992537.zip?updateId=562925&pluginId=14721&family=INTELLIJ",
+      "sha256": "9xpX1Ey9WpTz2Vha13ijZgqU2j2zHxI8CQUrBtMOuxw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.1.233-eap.4992537.zip"
+    },
+    "1.36.1.241-eap.4979658": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/562857/intellij-move-1.36.1.241-eap.4979658.zip?updateId=562857&pluginId=14721&family=INTELLIJ",
+      "sha256": "e0P0UrholLE5qe6Q9aPp6x/HEHSEFUvjogYPjGhSxZg=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.1.241-eap.4979658.zip"
+    },
+    "1.36.1.241-eap.4992537": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/562926/intellij-move-1.36.1.241-eap.4992537.zip?updateId=562926&pluginId=14721&family=INTELLIJ",
+      "sha256": "nfTzKleV2BFAXysdVkgXhi487K/OqvQp/6zViIY+mbU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.36.1.241-eap.4992537.zip"
+    },
+    "1.37.0.233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/565218/intellij-move-1.37.0.233.zip?updateId=565218&pluginId=14721&family=INTELLIJ",
+      "sha256": "vCj//DXDi+3s7yeM020t9TSjDZZNNhrR5NPWas54eFM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.233.zip"
+    },
+    "1.37.0.233-eap.5014814": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/563231/intellij-move-1.37.0.233-eap.5014814.zip?updateId=563231&pluginId=14721&family=INTELLIJ",
+      "sha256": "G1qf87DKbXB/MPNOGBlbDpwHuIUpOl0bjDqgBDrhYCc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.233-eap.5014814.zip"
+    },
+    "1.37.0.233-eap.5182584": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/564254/intellij-move-1.37.0.233-eap.5182584.zip?updateId=564254&pluginId=14721&family=INTELLIJ",
+      "sha256": "tfiA+e4bVs/c7p13uLT1wgGoiy18rbEtbVv2d6IMQss=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.233-eap.5182584.zip"
+    },
+    "1.37.0.233-eap.5594945": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/566741/intellij-move-1.37.0.233-eap.5594945.zip?updateId=566741&pluginId=14721&family=INTELLIJ",
+      "sha256": "QfefOTyanonx5QwKrtP1Psw0xzFrbGQdRgxr6nl7zHk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.233-eap.5594945.zip"
+    },
+    "1.37.0.233-eap.5692598": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/567043/intellij-move-1.37.0.233-eap.5692598.zip?updateId=567043&pluginId=14721&family=INTELLIJ",
+      "sha256": "wWGYIEuIW8gFMUvBzlL6EauKvDYdXzTP8adr09QING4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.233-eap.5692598.zip"
+    },
+    "1.37.0.233-eap.5694652": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/567046/intellij-move-1.37.0.233-eap.5694652.zip?updateId=567046&pluginId=14721&family=INTELLIJ",
+      "sha256": "//hiRpf6Bd6Shy9I80jfoLqVl9MzYevLB6Tm+6wsYLM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.233-eap.5694652.zip"
+    },
+    "1.37.0.233-eap.5952137": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/567943/intellij-move-1.37.0.233-eap.5952137.zip?updateId=567943&pluginId=14721&family=INTELLIJ",
+      "sha256": "eatVBLwd4Pm8s5DcwT1EbZoYYE1ahYHCpJHcxj0tmtI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.233-eap.5952137.zip"
+    },
+    "1.37.0.241": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/565219/intellij-move-1.37.0.241.zip?updateId=565219&pluginId=14721&family=INTELLIJ",
+      "sha256": "K0yd1npY1dBEMWSIrjDe0gvy6syKivFRlHfsMKDo+HE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.241.zip"
+    },
+    "1.37.0.241-eap.5014814": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/563232/intellij-move-1.37.0.241-eap.5014814.zip?updateId=563232&pluginId=14721&family=INTELLIJ",
+      "sha256": "HQjXlHFJ3OSv2gh3h3EkC61FvPJgfT5KHMobY14Nt2M=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.241-eap.5014814.zip"
+    },
+    "1.37.0.241-eap.5182584": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/564255/intellij-move-1.37.0.241-eap.5182584.zip?updateId=564255&pluginId=14721&family=INTELLIJ",
+      "sha256": "ZMyWi15JtL6RWffNcms8uivfnocMbwd3PXqSBGXqA4I=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.241-eap.5182584.zip"
+    },
+    "1.37.0.241-eap.5594945": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/566740/intellij-move-1.37.0.241-eap.5594945.zip?updateId=566740&pluginId=14721&family=INTELLIJ",
+      "sha256": "J5GEPBr5sPoAZc22f3Mqmuw62Ln8wr4id2XwwNYh4BU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.241-eap.5594945.zip"
+    },
+    "1.37.0.241-eap.5692598": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/567044/intellij-move-1.37.0.241-eap.5692598.zip?updateId=567044&pluginId=14721&family=INTELLIJ",
+      "sha256": "oGkeNcHdiB8bq7ydpPh1jdli3hdCIEzCUnpayMVRQyE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.241-eap.5692598.zip"
+    },
+    "1.37.0.241-eap.5694652": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/567047/intellij-move-1.37.0.241-eap.5694652.zip?updateId=567047&pluginId=14721&family=INTELLIJ",
+      "sha256": "ETPwHeV5Gix/r98O6uei8BT62UZJrk8MD4Kzm7srbpk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.241-eap.5694652.zip"
+    },
+    "1.37.0.241-eap.5952137": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/567942/intellij-move-1.37.0.241-eap.5952137.zip?updateId=567942&pluginId=14721&family=INTELLIJ",
+      "sha256": "ctzoxqPSlQxCJrSCEKBftbfTqHefdCVTgGpl9MRIzBs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.241-eap.5952137.zip"
+    },
+    "1.37.0.242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/585811/intellij-move-1.37.0.242.zip?updateId=585811&pluginId=14721&family=INTELLIJ",
+      "sha256": "pC6bULEbMqEAUF9pm2clqVAf7iMvLFHxDO+fymftlLI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.0.242.zip"
+    },
+    "1.37.1.241-eap.8114255": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/581487/intellij-move-1.37.1.241-eap.8114255.zip?updateId=581487&pluginId=14721&family=INTELLIJ",
+      "sha256": "n16c3HhIrGcgO1j4pZ7Wi1fFLA5SAhYjA2bwBjDMQfk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.1.241-eap.8114255.zip"
+    },
+    "1.37.1.241-eap.8209687": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/581765/intellij-move-1.37.1.241-eap.8209687.zip?updateId=581765&pluginId=14721&family=INTELLIJ",
+      "sha256": "dEdIO27OS/oAoYUavTv0tRe9ZfFSS5BHBKFXpLDf5Qk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.1.241-eap.8209687.zip"
+    },
+    "1.37.1.242-eap.8114255": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/581486/intellij-move-1.37.1.242-eap.8114255.zip?updateId=581486&pluginId=14721&family=INTELLIJ",
+      "sha256": "1WofcxpsCK5yy7oJ051M4q8T3ApOIRmWRfXNCSKoQJo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.1.242-eap.8114255.zip"
+    },
+    "1.37.1.242-eap.8209687": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/581764/intellij-move-1.37.1.242-eap.8209687.zip?updateId=581764&pluginId=14721&family=INTELLIJ",
+      "sha256": "g8Z69vtZYRAkiwSex7CZnB+N+PvieeN39QIYwtddziw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.37.1.242-eap.8209687.zip"
+    },
+    "1.38.0.241": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/605814/intellij-move-1.38.0.241.zip?updateId=605814&pluginId=14721&family=INTELLIJ",
+      "sha256": "evwxo1+fYt66DPGv3y53k7L4Vm3PlSU/gb6wpPV7SD4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241.zip"
+    },
+    "1.38.0.241-eap.10089580": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/593244/intellij-move-1.38.0.241-eap.10089580.zip?updateId=593244&pluginId=14721&family=INTELLIJ",
+      "sha256": "MVW8cUEPB35tIvbBz9oedc91soHQetCG6uFBqZj4FlA=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.10089580.zip"
+    },
+    "1.38.0.241-eap.10538991": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/596140/intellij-move-1.38.0.241-eap.10538991.zip?updateId=596140&pluginId=14721&family=INTELLIJ",
+      "sha256": "hxrdtDgeNeSdWZFHXBLaMOIPgKNADEeJPtZ370imd4Q=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.10538991.zip"
+    },
+    "1.38.0.241-eap.10546137": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/596150/intellij-move-1.38.0.241-eap.10546137.zip?updateId=596150&pluginId=14721&family=INTELLIJ",
+      "sha256": "3oBLo4Qat/htNOVxwXtf0S2rZKsvw66okQKf4LYAUe0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.10546137.zip"
+    },
+    "1.38.0.241-eap.10717831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/596434/intellij-move-1.38.0.241-eap.10717831.zip?updateId=596434&pluginId=14721&family=INTELLIJ",
+      "sha256": "xs8JJe2MemnH5cr8L5B8elg4cUbqTybu/BhHzhuydOk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.10717831.zip"
+    },
+    "1.38.0.241-eap.11827601": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/603393/intellij-move-1.38.0.241-eap.11827601.zip?updateId=603393&pluginId=14721&family=INTELLIJ",
+      "sha256": "agyOKJGYaxdvzhUryJf7fUJT2MI7QZyAmUMEesZZtFk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.11827601.zip"
+    },
+    "1.38.0.241-eap.11937651": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/603792/intellij-move-1.38.0.241-eap.11937651.zip?updateId=603792&pluginId=14721&family=INTELLIJ",
+      "sha256": "sMip17EcFHTV58YPwL+D6Z/VntUxf9fG28CdoFHjS6w=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.11937651.zip"
+    },
+    "1.38.0.241-eap.11993410": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/604073/intellij-move-1.38.0.241-eap.11993410.zip?updateId=604073&pluginId=14721&family=INTELLIJ",
+      "sha256": "EIPLtCqnpGbobaLNWStmbhaJxJ4WFpkziZd2iw+9zUc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.11993410.zip"
+    },
+    "1.38.0.241-eap.11994398": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/604081/intellij-move-1.38.0.241-eap.11994398.zip?updateId=604081&pluginId=14721&family=INTELLIJ",
+      "sha256": "8eJbThRcQhVFafNVaQA3yd/3CbSKmNkF/e8wwdYhJzo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.11994398.zip"
+    },
+    "1.38.0.241-eap.12013673": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/604216/intellij-move-1.38.0.241-eap.12013673.zip?updateId=604216&pluginId=14721&family=INTELLIJ",
+      "sha256": "0Ur1CP0lJTf9+NTmhXBOPO9Plvlc89DRROQtORwmdr8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.12013673.zip"
+    },
+    "1.38.0.241-eap.12278956": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/605816/intellij-move-1.38.0.241-eap.12278956.zip?updateId=605816&pluginId=14721&family=INTELLIJ",
+      "sha256": "Z1P5RZzRNyzk+j0en8f/yCQtMDVeL5SWI28EeKpTDSQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.12278956.zip"
+    },
+    "1.38.0.241-eap.13289414": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/611975/intellij-move-1.38.0.241-eap.13289414.zip?updateId=611975&pluginId=14721&family=INTELLIJ",
+      "sha256": "RD8Epehi0lVUCzMmEAwVbOuzAUyWrHgkCcsqQJ6IgEw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.13289414.zip"
+    },
+    "1.38.0.241-eap.8210770": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/581767/intellij-move-1.38.0.241-eap.8210770.zip?updateId=581767&pluginId=14721&family=INTELLIJ",
+      "sha256": "BDzDWaWce0/fVCJ5RTCLzlp9dzOf4GyzBQ8Iqj/YbLc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.8210770.zip"
+    },
+    "1.38.0.241-eap.8385733": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/582416/intellij-move-1.38.0.241-eap.8385733.zip?updateId=582416&pluginId=14721&family=INTELLIJ",
+      "sha256": "RfPcRmtJAtHNfqko1xTonTUlxYz3AyeN/AkSD6A44y4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.8385733.zip"
+    },
+    "1.38.0.241-eap.8387012": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/582421/intellij-move-1.38.0.241-eap.8387012.zip?updateId=582421&pluginId=14721&family=INTELLIJ",
+      "sha256": "bBY3O48CtM/NyaDExKqTWxiS+eS1mhhqAYuT5OuitBU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.8387012.zip"
+    },
+    "1.38.0.241-eap.8567183": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/583590/intellij-move-1.38.0.241-eap.8567183.zip?updateId=583590&pluginId=14721&family=INTELLIJ",
+      "sha256": "CgOrmanIKSJ2POvoP0QnszMMW4opOcEbhsbLbLPtg3E=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.8567183.zip"
+    },
+    "1.38.0.241-eap.8792729": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/585115/intellij-move-1.38.0.241-eap.8792729.zip?updateId=585115&pluginId=14721&family=INTELLIJ",
+      "sha256": "pAUQAd8vtXynd5sMCNOTQZ/X12zPNvlysEnaPF3XXFE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.8792729.zip"
+    },
+    "1.38.0.241-eap.9229744": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/588555/intellij-move-1.38.0.241-eap.9229744.zip?updateId=588555&pluginId=14721&family=INTELLIJ",
+      "sha256": "51SVllnIv3y9VnGsbqDbgekxBKhKC60pZiqiTD/YEqU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.9229744.zip"
+    },
+    "1.38.0.241-eap.9744830": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/591459/intellij-move-1.38.0.241-eap.9744830.zip?updateId=591459&pluginId=14721&family=INTELLIJ",
+      "sha256": "l6id6hGe5yrSgsPyPyYD6n49JehFS8pbJjd7/lKtntE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.241-eap.9744830.zip"
+    },
+    "1.38.0.242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/605815/intellij-move-1.38.0.242.zip?updateId=605815&pluginId=14721&family=INTELLIJ",
+      "sha256": "Zua0Oep7z6KpGg9VTerPQB9HkUfLfQJDjMqdGr0aWG0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242.zip"
+    },
+    "1.38.0.242-eap.10089580": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/593254/intellij-move-1.38.0.242-eap.10089580.zip?updateId=593254&pluginId=14721&family=INTELLIJ",
+      "sha256": "gfAmdXoBzfRVh+3PdSvtxinS5W+2sG9XVAfoS9Hy9Bk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.10089580.zip"
+    },
+    "1.38.0.242-eap.10538991": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/596141/intellij-move-1.38.0.242-eap.10538991.zip?updateId=596141&pluginId=14721&family=INTELLIJ",
+      "sha256": "kpjjcUlKuzqIejPkJHpSh4YIhOXvAvu0hWLHsNXM1wU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.10538991.zip"
+    },
+    "1.38.0.242-eap.10546137": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/596151/intellij-move-1.38.0.242-eap.10546137.zip?updateId=596151&pluginId=14721&family=INTELLIJ",
+      "sha256": "4/Dg5s4zIvoBD1JAkmCaDNCPVVe3Um2P2FuvqX1NmV4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.10546137.zip"
+    },
+    "1.38.0.242-eap.10717831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/596435/intellij-move-1.38.0.242-eap.10717831.zip?updateId=596435&pluginId=14721&family=INTELLIJ",
+      "sha256": "9fzXKP/+rHbcDMoB73hm7Yp6tja2U1KuiLAQKWp31QA=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.10717831.zip"
+    },
+    "1.38.0.242-eap.11827601": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/603392/intellij-move-1.38.0.242-eap.11827601.zip?updateId=603392&pluginId=14721&family=INTELLIJ",
+      "sha256": "hfht+w+Rnj8gn0O4HVya15DP5utHmQr7/Kj1xuGNbWc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.11827601.zip"
+    },
+    "1.38.0.242-eap.11937651": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/603791/intellij-move-1.38.0.242-eap.11937651.zip?updateId=603791&pluginId=14721&family=INTELLIJ",
+      "sha256": "nDYpW/9hX+HwieYrLHtjwHfTJKxS3+f8sIFfXTdAUcY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.11937651.zip"
+    },
+    "1.38.0.242-eap.11993410": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/604074/intellij-move-1.38.0.242-eap.11993410.zip?updateId=604074&pluginId=14721&family=INTELLIJ",
+      "sha256": "TAbrj1o7G81TZ2ooDi/WboJWUpoo/ORKbq2RcNNN9bI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.11993410.zip"
+    },
+    "1.38.0.242-eap.11994398": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/604082/intellij-move-1.38.0.242-eap.11994398.zip?updateId=604082&pluginId=14721&family=INTELLIJ",
+      "sha256": "5O7CYT1vw4rlOc7fPhu0Zh0508NgsK6XrJONifK3mWE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.11994398.zip"
+    },
+    "1.38.0.242-eap.12013673": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/604217/intellij-move-1.38.0.242-eap.12013673.zip?updateId=604217&pluginId=14721&family=INTELLIJ",
+      "sha256": "KD5yhdBOGD6zrnZz8QWjvCMWb9ncw3uyqhTdUcQaXXo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.12013673.zip"
+    },
+    "1.38.0.242-eap.12278956": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/605817/intellij-move-1.38.0.242-eap.12278956.zip?updateId=605817&pluginId=14721&family=INTELLIJ",
+      "sha256": "Ifz/O5o6j3vHFLWpeUDUbZ4ZHdQCVeG21YlA9FbOMHA=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.12278956.zip"
+    },
+    "1.38.0.242-eap.13289414": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/611977/intellij-move-1.38.0.242-eap.13289414.zip?updateId=611977&pluginId=14721&family=INTELLIJ",
+      "sha256": "8cd4+sjDbfWdTj2yLGPiEY/l3xaRL2cnwi3jqsaDG6Q=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.13289414.zip"
+    },
+    "1.38.0.242-eap.8210770": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/581766/intellij-move-1.38.0.242-eap.8210770.zip?updateId=581766&pluginId=14721&family=INTELLIJ",
+      "sha256": "LjzhDfnRf90MASrd20GRzex3X9Ol6q77NFaiCAuJrEk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.8210770.zip"
+    },
+    "1.38.0.242-eap.8385733": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/582417/intellij-move-1.38.0.242-eap.8385733.zip?updateId=582417&pluginId=14721&family=INTELLIJ",
+      "sha256": "7WO66kOYZQ7hCdl0ImXxy9ZPYQbu6hThkwIad2Vxl3U=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.8385733.zip"
+    },
+    "1.38.0.242-eap.8387012": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/582420/intellij-move-1.38.0.242-eap.8387012.zip?updateId=582420&pluginId=14721&family=INTELLIJ",
+      "sha256": "rkXB/Jnl8v3HX/fiDuT2N7fZefEWeWBXDF6jh9SXD9c=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.8387012.zip"
+    },
+    "1.38.0.242-eap.8567183": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/583589/intellij-move-1.38.0.242-eap.8567183.zip?updateId=583589&pluginId=14721&family=INTELLIJ",
+      "sha256": "eXig09hNqj2xTTteEhqbH8qyc20YyO4KkAvE3S/leqQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.8567183.zip"
+    },
+    "1.38.0.242-eap.8792729": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/585116/intellij-move-1.38.0.242-eap.8792729.zip?updateId=585116&pluginId=14721&family=INTELLIJ",
+      "sha256": "e4o0qCuvxkngVu7gGQgNCRWSYPpnAmiD6AtdMA2CKAU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.8792729.zip"
+    },
+    "1.38.0.242-eap.9229744": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/588554/intellij-move-1.38.0.242-eap.9229744.zip?updateId=588554&pluginId=14721&family=INTELLIJ",
+      "sha256": "GLRZFKD2twKz4mHAfopwOiEcINrdZEhEx9xCfZOHnhM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.9229744.zip"
+    },
+    "1.38.0.242-eap.9744830": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/591460/intellij-move-1.38.0.242-eap.9744830.zip?updateId=591460&pluginId=14721&family=INTELLIJ",
+      "sha256": "fgCGWjStl+sldIHJW1oQoH7g8tmDXoVCRf5+i5bWb38=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.242-eap.9744830.zip"
+    },
+    "1.38.0.243-SNAPSHOT": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/614276/intellij-move-1.38.0.243-SNAPSHOT.zip?updateId=614276&pluginId=14721&family=INTELLIJ",
+      "sha256": "StOZuqTxbAt00GL05TntGLFABieSEo3XNWXwcQduyac=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.0.243-SNAPSHOT.zip"
+    },
+    "1.38.1.242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/622037/intellij-move-1.38.1.242.zip?updateId=622037&pluginId=14721&family=INTELLIJ",
+      "sha256": "cjI7kMsxHI09aZuc2y+if/qT437I94P91C6+pDgYdk0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.242.zip"
+    },
+    "1.38.1.242-eap.13643400": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/614776/intellij-move-1.38.1.242-eap.13643400.zip?updateId=614776&pluginId=14721&family=INTELLIJ",
+      "sha256": "2RuhLCLTUC3Wlrg1/TupKoEPWFRO4HnywMLSbF/3iiU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.242-eap.13643400.zip"
+    },
+    "1.38.1.242-eap.13925673": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/616096/intellij-move-1.38.1.242-eap.13925673.zip?updateId=616096&pluginId=14721&family=INTELLIJ",
+      "sha256": "FuZ+6ox+3362YK6yZfSYXlGQzfqvWN5wXlB1vdV2uhQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.242-eap.13925673.zip"
+    },
+    "1.38.1.242-eap.14708821": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/620642/intellij-move-1.38.1.242-eap.14708821.zip?updateId=620642&pluginId=14721&family=INTELLIJ",
+      "sha256": "NrbMN3RWmQNjcWju47+6gh2UMlNrEOMIIhJWY1Ix+xo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.242-eap.14708821.zip"
+    },
+    "1.38.1.242-eap.14763914": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/620991/intellij-move-1.38.1.242-eap.14763914.zip?updateId=620991&pluginId=14721&family=INTELLIJ",
+      "sha256": "Y3+TpVtIkF6CNBvqx3aWZaYs5iiKZG2gaJ4t54ApmqE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.242-eap.14763914.zip"
+    },
+    "1.38.1.242-eap.14791968": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/621132/intellij-move-1.38.1.242-eap.14791968.zip?updateId=621132&pluginId=14721&family=INTELLIJ",
+      "sha256": "mXT9cofjTbvQFOQ2lRHeY2133Q+4RHoL8NSqVb5l3x0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.242-eap.14791968.zip"
+    },
+    "1.38.1.242-eap.14853699": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/621292/intellij-move-1.38.1.242-eap.14853699.zip?updateId=621292&pluginId=14721&family=INTELLIJ",
+      "sha256": "IRx4ilnwmt68t6g12vNMjewjgQ3vNDY9Swf3iBE8B04=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.242-eap.14853699.zip"
+    },
+    "1.38.1.243-SNAPSHOT": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/622036/intellij-move-1.38.1.243-SNAPSHOT.zip?updateId=622036&pluginId=14721&family=INTELLIJ",
+      "sha256": "50qn5WxTMNiRtaewtyApZB9lLGWBXj6HZ291mVtE+EI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.243-SNAPSHOT.zip"
+    },
+    "1.38.1.243-SNAPSHOT-eap.13643400": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/614777/intellij-move-1.38.1.243-SNAPSHOT-eap.13643400.zip?updateId=614777&pluginId=14721&family=INTELLIJ",
+      "sha256": "GOmecB5qArJ8pLxc9KGhTvIhOugnpLdp8r1CTqtMQ5g=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.243-SNAPSHOT-eap.13643400.zip"
+    },
+    "1.38.1.243-SNAPSHOT-eap.13925673": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/616095/intellij-move-1.38.1.243-SNAPSHOT-eap.13925673.zip?updateId=616095&pluginId=14721&family=INTELLIJ",
+      "sha256": "MCpCaYR8yyHZ6dxCYeWlxiJpAo9zJ3lsxII3yp/5nHU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.243-SNAPSHOT-eap.13925673.zip"
+    },
+    "1.38.1.243-SNAPSHOT-eap.14708821": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/620641/intellij-move-1.38.1.243-SNAPSHOT-eap.14708821.zip?updateId=620641&pluginId=14721&family=INTELLIJ",
+      "sha256": "TU8j2mX87ef6/0RC0hKSHEErH8K8NHHT7zztDGBy4qA=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.243-SNAPSHOT-eap.14708821.zip"
+    },
+    "1.38.1.243-SNAPSHOT-eap.14763914": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/620989/intellij-move-1.38.1.243-SNAPSHOT-eap.14763914.zip?updateId=620989&pluginId=14721&family=INTELLIJ",
+      "sha256": "3tXpXqJQUbXoLjvAZw7rtQ57DtJ2k0xaxBEC5dI/QO8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.243-SNAPSHOT-eap.14763914.zip"
+    },
+    "1.38.1.243-SNAPSHOT-eap.14791968": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/621131/intellij-move-1.38.1.243-SNAPSHOT-eap.14791968.zip?updateId=621131&pluginId=14721&family=INTELLIJ",
+      "sha256": "2i8NhKid2nKIRH05Ftb8uB11SPXDLmhq3r2AkQ7eDSo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.243-SNAPSHOT-eap.14791968.zip"
+    },
+    "1.38.1.243-SNAPSHOT-eap.14853699": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/621293/intellij-move-1.38.1.243-SNAPSHOT-eap.14853699.zip?updateId=621293&pluginId=14721&family=INTELLIJ",
+      "sha256": "VPv2CTQ71ecDJEONtWEGA4TXOtosZQLiUDGDqY98SRs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.38.1.243-SNAPSHOT-eap.14853699.zip"
+    },
+    "1.39.0.242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/625682/intellij-move-1.39.0.242.zip?updateId=625682&pluginId=14721&family=INTELLIJ",
+      "sha256": "eX0ankAf0vgXIi+7+Fd06F53zt7XzDPF1f3XYSB9vos=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.39.0.242.zip"
+    },
+    "1.39.0.243-SNAPSHOT": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/625681/intellij-move-1.39.0.243-SNAPSHOT.zip?updateId=625681&pluginId=14721&family=INTELLIJ",
+      "sha256": "WyE40Kb9O9wwD8OG2KilZ7rZDy7CfxA0IQ45GjobKII=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.39.0.243-SNAPSHOT.zip"
+    },
+    "1.4.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/154977/intellij-move-211-1.4.0.zip?updateId=154977&pluginId=14721&family=INTELLIJ",
+      "sha256": "w4wvdJ5uRnag5gjyosaYzvx/oloFZjcA5i2oBoHu/KM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.4.0.zip"
+    },
+    "1.4.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/154978/intellij-move-212-1.4.0.zip?updateId=154978&pluginId=14721&family=INTELLIJ",
+      "sha256": "AUrK/R5ZbfX9G1HBummlUr2rG4Fd9/9jka+JFKFyEOk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.4.0.zip"
+    },
+    "1.4.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/154979/intellij-move-213-1.4.0.zip?updateId=154979&pluginId=14721&family=INTELLIJ",
+      "sha256": "sCJwDZrPUYu3OXwDASbsS7HHlC6iEXuHaDtpklPHsGA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.4.0.zip"
+    },
+    "1.40.0.242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/633329/intellij-move-1.40.0.242.zip?updateId=633329&pluginId=14721&family=INTELLIJ",
+      "sha256": "cbQmuXbcJxrfH9UwYZGfp10SQcdhtdExxdazcrth+Lg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.40.0.242.zip"
+    },
+    "1.40.0.243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/633328/intellij-move-1.40.0.243.zip?updateId=633328&pluginId=14721&family=INTELLIJ",
+      "sha256": "tMBNUrEq1HFYIYKTspaMkxBfY2OL91CuYUDR8UbnrKY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.40.0.243.zip"
+    },
+    "1.41.0.242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/641301/intellij-move-1.41.0.242.zip?updateId=641301&pluginId=14721&family=INTELLIJ",
+      "sha256": "9M7v0rQOUMyd+U55aWfDRcdQtbN56zirr7+PJNne2Lc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.41.0.242.zip"
+    },
+    "1.41.0.243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/641300/intellij-move-1.41.0.243.zip?updateId=641300&pluginId=14721&family=INTELLIJ",
+      "sha256": "I6FFko4pCtVmm7byRce+E2VFFZYXi9ughJmNJY64JiQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.41.0.243.zip"
+    },
+    "1.41.1.242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/643631/intellij-move-1.41.1.242.zip?updateId=643631&pluginId=14721&family=INTELLIJ",
+      "sha256": "m1zu5ogXu4Wp+60CZ+gPvj5JAVvMPIG0oC0ozlAX5Vc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.41.1.242.zip"
+    },
+    "1.41.1.243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/643632/intellij-move-1.41.1.243.zip?updateId=643632&pluginId=14721&family=INTELLIJ",
+      "sha256": "o/hBgyYVbGKKXaEwOOHM5L4ofory5m5dsVOLN7s6V34=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.41.1.243.zip"
+    },
+    "1.42.0.242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/667428/intellij-move-1.42.0.242.zip?updateId=667428&pluginId=14721&family=INTELLIJ",
+      "sha256": "KvrDLUHZGvLcZLkB1aCHi5GwMRP1Vmz8vPBeQAFIvF4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.42.0.242.zip"
+    },
+    "1.42.0.243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/667430/intellij-move-1.42.0.243.zip?updateId=667430&pluginId=14721&family=INTELLIJ",
+      "sha256": "jhYIayfNwPa4JbOIYBrrQPL44YZo2zE+RbzhRZnf7iQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.42.0.243.zip"
+    },
+    "1.42.0.251": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/667429/intellij-move-1.42.0.251.zip?updateId=667429&pluginId=14721&family=INTELLIJ",
+      "sha256": "aT4vFFFMKMKh3N3lb7bduWj8appwNmA5Ql3k1bJI9P4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.42.0.251.zip"
+    },
+    "1.43.0.243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/682843/intellij-move-1.43.0.243.zip?updateId=682843&pluginId=14721&family=INTELLIJ",
+      "sha256": "Ov2SQ7zDW3DR2RWUxBrKfCHcFnMykuoKjSjP11kEn0E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.43.0.243.zip"
+    },
+    "1.43.0.251": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/682844/intellij-move-1.43.0.251.zip?updateId=682844&pluginId=14721&family=INTELLIJ",
+      "sha256": "kOJsua/s3eLJSuiV/r/7D24U8Mhya7teuWXMOP9copc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.43.0.251.zip"
+    },
+    "1.44.0.243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/693410/intellij-move-1.44.0.243.zip?updateId=693410&pluginId=14721&family=INTELLIJ",
+      "sha256": "/CuWUtj7mf7GnTcLbRtR4IARn/1PHTm5AycLS8Fm/Cc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.44.0.243.zip"
+    },
+    "1.44.0.251": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/693411/intellij-move-1.44.0.251.zip?updateId=693411&pluginId=14721&family=INTELLIJ",
+      "sha256": "NTgJQI0rehrEouRKuXay582cOzcW0/jOWXBJ0fHCr/M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-1.44.0.251.zip"
+    },
+    "1.5.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/159738/intellij-move-211-1.5.0.zip?updateId=159738&pluginId=14721&family=INTELLIJ",
+      "sha256": "Y+cgNyTckwafIyth4tlHjulgHdHaxZ9KHeS9Tk/GVfI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.5.0.zip"
+    },
+    "1.5.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/159739/intellij-move-212-1.5.0.zip?updateId=159739&pluginId=14721&family=INTELLIJ",
+      "sha256": "/NHeIo5dD/xtLVWYiw/rBF5SRuPF+FcZrcrH8/3YkEM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.5.0.zip"
+    },
+    "1.5.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/159740/intellij-move-213-1.5.0.zip?updateId=159740&pluginId=14721&family=INTELLIJ",
+      "sha256": "6jForY+qGXhreeIDaPFHzy8L3gSxAdn5D86FtlCPXAY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.5.0.zip"
+    },
+    "1.6.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/164683/intellij-move-211-1.6.0.zip?updateId=164683&pluginId=14721&family=INTELLIJ",
+      "sha256": "776BuEePo1/efEvFpfUJzGizuHm6dKo/a861LqX5ci4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.6.0.zip"
+    },
+    "1.6.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/164685/intellij-move-212-1.6.0.zip?updateId=164685&pluginId=14721&family=INTELLIJ",
+      "sha256": "WxMuGL8jdbmPbAXbkTKtA7kTcJKv/6P7HDPjONUCXN8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.6.0.zip"
+    },
+    "1.6.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/164686/intellij-move-213-1.6.0.zip?updateId=164686&pluginId=14721&family=INTELLIJ",
+      "sha256": "/LPNAmM/gyzIrQfO9uk7GpcO68kCNcW0WowoWTIKu7E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.6.0.zip"
+    },
+    "1.6.1.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/165027/intellij-move-211-1.6.1.zip?updateId=165027&pluginId=14721&family=INTELLIJ",
+      "sha256": "mfXj4r3XNK3skb83ilGHB4KCkL9Nb714ueKUsRNmDuw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.6.1.zip"
+    },
+    "1.6.1.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/165028/intellij-move-212-1.6.1.zip?updateId=165028&pluginId=14721&family=INTELLIJ",
+      "sha256": "FXxzS8mP5a9N1uhUH8Y04hOmNEwOFi3T7VcBwsc/oaU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.6.1.zip"
+    },
+    "1.6.1.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/165029/intellij-move-213-1.6.1.zip?updateId=165029&pluginId=14721&family=INTELLIJ",
+      "sha256": "GUm+Igp9cEVM2U7H0ovtKNW5VCsQCj0yX4y5PyF8AVI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.6.1.zip"
+    },
+    "1.6.2.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/168118/intellij-move-211-1.6.2.zip?updateId=168118&pluginId=14721&family=INTELLIJ",
+      "sha256": "qjRhWJ8Fu7iAMDmBMpTzOlaNWM9XDHZbvgUQmP8gpwM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.6.2.zip"
+    },
+    "1.6.2.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/168120/intellij-move-212-1.6.2.zip?updateId=168120&pluginId=14721&family=INTELLIJ",
+      "sha256": "AjSjVmkVJ4w9hqU76tquY8P5pczZ6+ypFnAGfgExlwk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.6.2.zip"
+    },
+    "1.6.2.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/168122/intellij-move-213-1.6.2.zip?updateId=168122&pluginId=14721&family=INTELLIJ",
+      "sha256": "sGPLrszShI22IAndjXo418wVHEmbzSceQaZO2NGuzzM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.6.2.zip"
+    },
+    "1.6.2.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/168124/intellij-move-221-1.6.2.zip?updateId=168124&pluginId=14721&family=INTELLIJ",
+      "sha256": "EdISF9gJ5ZxUUWKB1QjRhzqfm6zkxG8S3HyWnhkrgaQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.6.2.zip"
+    },
+    "1.7.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/170614/intellij-move-211-1.7.0.zip?updateId=170614&pluginId=14721&family=INTELLIJ",
+      "sha256": "SVvc95eCFt5pHF/+XuUBvi9vCJ7ITOGTXMQOZb8D3f4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.7.0.zip"
+    },
+    "1.7.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/170615/intellij-move-212-1.7.0.zip?updateId=170615&pluginId=14721&family=INTELLIJ",
+      "sha256": "fY0WboN7l4Wx4yfh+zhW0AJ8CregLwUUwYGhJJ5yYL8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.7.0.zip"
+    },
+    "1.7.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/170616/intellij-move-213-1.7.0.zip?updateId=170616&pluginId=14721&family=INTELLIJ",
+      "sha256": "ytG/p6TFEKP1M2KOn+CsCMmaIIJjaxY6FMLSP33OrPg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.7.0.zip"
+    },
+    "1.7.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/170617/intellij-move-221-1.7.0.zip?updateId=170617&pluginId=14721&family=INTELLIJ",
+      "sha256": "n3oG/UMdHDMXWfGqbqWaq5F5CTSEVXzjeLyM0ah6nLQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.7.0.zip"
+    },
+    "1.8.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/172705/intellij-move-211-1.8.0.zip?updateId=172705&pluginId=14721&family=INTELLIJ",
+      "sha256": "bjhyj2nyk7SCYoh15hpKq/dQU7g7dVy3wPO9yxPJZKU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.8.0.zip"
+    },
+    "1.8.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/172706/intellij-move-212-1.8.0.zip?updateId=172706&pluginId=14721&family=INTELLIJ",
+      "sha256": "egqAJqRrd8BUxfIr6LcyBAVQ+PhMe7nwhxQ4E5mJVmA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.8.0.zip"
+    },
+    "1.8.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/172707/intellij-move-213-1.8.0.zip?updateId=172707&pluginId=14721&family=INTELLIJ",
+      "sha256": "Z8YhGjR54EAalSP3Hm3GcvXSZ7mOX3mjUibK/tprr/0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.8.0.zip"
+    },
+    "1.8.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/172708/intellij-move-221-1.8.0.zip?updateId=172708&pluginId=14721&family=INTELLIJ",
+      "sha256": "0W9rIr9g9rAiet0qrd0rJsxAkNp4yvfPl8ulb55oi2s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.8.0.zip"
+    },
+    "1.9.0.211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/172736/intellij-move-211-1.9.0.zip?updateId=172736&pluginId=14721&family=INTELLIJ",
+      "sha256": "k3iaD9ok9YlqXtP5Eqtp3/DIBVHMUN2OFKEzfUaX/uI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-211-1.9.0.zip"
+    },
+    "1.9.0.212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/172737/intellij-move-212-1.9.0.zip?updateId=172737&pluginId=14721&family=INTELLIJ",
+      "sha256": "bYI2Krvx4gDRASLE0KpaNkWNHzHcyHExLXp68ccAO8g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-212-1.9.0.zip"
+    },
+    "1.9.0.213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/172738/intellij-move-213-1.9.0.zip?updateId=172738&pluginId=14721&family=INTELLIJ",
+      "sha256": "sBqbCHGR3A9d++zaXbW3RyMW8U9wv/EO33bFRh9i6Go=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-213-1.9.0.zip"
+    },
+    "1.9.0.221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14721/172739/intellij-move-221-1.9.0.zip?updateId=172739&pluginId=14721&family=INTELLIJ",
+      "sha256": "mKvMbeyWxn6PmeOX/oRx+f0R/RIi1SAw+4wse0puXEM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-move-221-1.9.0.zip"
+    }
+  },
+  "latest": {
+    "eap": "1.36.0.232-eap.1119242",
+    "stable": "0.16.0"
+  }
+}
