@@ -1,0 +1,47 @@
+name: Update Plugin Data
+on:
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Setup Nix cache
+        uses: DeterminateSystems/magic-nix-cache-action@main
+
+      - name: Restore database cache
+        uses: actions/cache/restore@v4
+        with:
+          path: indexer.db
+          key: ${{ runner.os }}-indexer-db-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-indexer-db-
+
+      - name: Run indexer
+        run: nix run .#jb-repo-indexer -- --database indexer.db --output-directory data
+
+      - name: Save database cache
+        uses: actions/cache/save@v4
+        with:
+          path: indexer.db
+          key: ${{ runner.os }}-indexer-db-${{ github.sha }}
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add data/
+          git status --porcelain
+          echo "changed=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: Commit changes
+        if: steps.git-check.outputs.changed > 0
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git commit -m "Update plugin data"
+          git push
