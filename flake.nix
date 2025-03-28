@@ -37,6 +37,8 @@
       overlays = [ rustOverlayInstance nix-rust-wrangler.overlays.default ];
     };
 
+    indexer-lib = pkgs.callPackage ./nix/lib/default.nix {};
+
     nix-rust-wrangler-lib = nix-rust-wrangler.lib.${system};
 
     toolchainCollection = nix-rust-wrangler-lib.mkToolchainCollection [
@@ -46,7 +48,7 @@
         }
       ))
     ];
-  in {
+  in rec {
     devShells.default = pkgs.mkShell {
       NIX_RUST_WRANGLER_TOOLCHAIN_COLLECTION = toolchainCollection;
 
@@ -58,5 +60,12 @@
         pkgs.nix-rust-wrangler
       ];
     };
+
+    plugins = indexer-lib.loadData ./data;
+
+    packages.test-ide = pkgs.jetbrains.plugins.addPlugins pkgs.jetbrains.pycharm-professional [
+      plugins."de.achimonline.github_markdown_emojis"
+      plugins."ice.explosive.gdscript"
+    ];
   }));
 }
