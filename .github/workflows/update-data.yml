@@ -13,7 +13,7 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@v16
 
       - name: Setup Nix cache
-        uses: DeterminateSystems/magic-nix-cache-action@v9
+        uses: DeterminateSystems/flakehub-cache-action@v1
 
       - name: Restore database cache
         uses: actions/cache/restore@v4
@@ -29,6 +29,8 @@ jobs:
           mkdir -p data/
 
       - name: Run indexer
+        env:
+          JB_REPO_INDEXER_LOG: info
         run: nix run .#jb-repo-indexer -- --database indexer.db --output-directory data
 
       - name: Upload database artifact
