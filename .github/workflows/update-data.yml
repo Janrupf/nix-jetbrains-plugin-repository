@@ -22,8 +22,20 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-indexer-db-
 
+      - name: Clear data directory
+        run: |
+          rm -rf data/
+          mkdir -p data/
+
       - name: Run indexer
         run: nix run .#jb-repo-indexer -- --database indexer.db --output-directory data
+
+      - name: Upload database artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexer-db
+          path: indexer.db
+          retention-days: 7
 
       - name: Save database cache
         uses: actions/cache/save@v4
