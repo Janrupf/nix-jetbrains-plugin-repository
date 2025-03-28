@@ -34,7 +34,13 @@
   in (flake-utils.lib.eachDefaultSystem (system: let
     pkgs = import nixpkgs {
       inherit system;
-      overlays = [ rustOverlayInstance nix-rust-wrangler.overlays.default ];
+      overlays = [
+        rustOverlayInstance
+        nix-rust-wrangler.overlays.default
+        (final: prev: {
+          jb-repo-indexer = final.callPackage ./jb-repo-indexer/package.nix {};
+        })
+      ];
     };
 
     indexer-lib = pkgs.callPackage ./nix/lib/default.nix {};
@@ -52,14 +58,23 @@
     devShells.default = pkgs.mkShell {
       NIX_RUST_WRANGLER_TOOLCHAIN_COLLECTION = toolchainCollection;
 
-      buildInputs = [
-        pkgs.openssl
-        pkgs.pkg-config
-        pkgs.stdenv.cc
+      nativeBuildInputs = pkgs.jb-repo-indexer.nativeBuildInputs ++ [
         pkgs.valgrind
         pkgs.nix-rust-wrangler
       ];
+
+      buildInputs = pkgs.jb-repo-indexer.buildInputs;
     };
+
+    legacyPackages = pkgs;
+
+    packages.jb-repo-indexer = pkgs.jb-repo-indexer;
+    packages.default = packages.jb-repo-indexer;
+
+    apps.jb-repo-indexer = flake-utils.lib.mkApp {
+      drv = packages.jb-repo-indexer;
+    };
+    apps.default = apps.jb-repo-indexer;
 
     plugins = indexer-lib.loadData ./data;
 
