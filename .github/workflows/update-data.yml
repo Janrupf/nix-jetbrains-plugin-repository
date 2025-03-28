@@ -28,10 +28,15 @@ jobs:
           rm -rf data/
           mkdir -p data/
 
+      - name: Build indexer
+        run: nix build .#jb-repo-indexer
+
       - name: Run indexer
         env:
           JB_REPO_INDEXER_LOG: info
-        run: nix run .#jb-repo-indexer -- --database indexer.db --output-directory data
+        run: |
+          ulimit -n 65536
+          nix run .#jb-repo-indexer -- --database indexer.db --output-directory data
 
       - name: Upload database artifact
         uses: actions/upload-artifact@v4
