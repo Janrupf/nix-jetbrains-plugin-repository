@@ -45,8 +45,8 @@ rec {
     downloadUrl ? versionData.download_url,
     unpack ? lib.strings.hasSuffix ".zip" fileName,
     fetchAsExecutable ? lib.strings.hasSuffix ".jar" fileName,
-    stdenvNoCC
-  }: stdenvNoCC.mkDerivation {
+    pluginStdenv ? pkgs.stdenvNoCC
+  }: pluginStdenv.mkDerivation {
     name = name;
     version = version;
 

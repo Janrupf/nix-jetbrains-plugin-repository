@@ -151,6 +151,7 @@ async fn generate_plugin(
                     dependencies: dependencies.into_iter().map(dep_id).collect(),
                     optional_dependencies: optional_dependencies.into_iter().map(dep_id).collect(),
                     file_name: update_info.file_name,
+                    update_id: version.update_id,
                 },
             )))
         })
@@ -168,31 +169,23 @@ async fn generate_plugin(
         .collect::<BTreeMap<String, VersionMetadata>>()
         .await;
 
-    let mut latest = BTreeMap::<String, String>::new();
+    let mut latest = BTreeMap::<String, (u64, String)>::new();
 
     for (version, version_metadata) in &versions {
         let mut entry = match latest.entry(version_metadata.channel.clone()) {
             Entry::Vacant(entry) => {
-                entry.insert(version.clone());
+                entry.insert((version_metadata.update_id, version.clone()));
                 continue;
             }
             Entry::Occupied(v) => v,
         };
 
-        let current_version = Version::parse(entry.get()).ok();
-        let new_version = Version::parse(version).ok();
+        let (current_update_id, _) = entry.get();
 
-        match (current_version, new_version) {
-            (None, None) => { /* no change */ }
-            (Some(_), None) => { /* no change */ }
-            (None, Some(_)) => {
-                entry.insert(version.clone());
-            }
-            (Some(current), Some(new)) => {
-                if new > current {
-                    entry.insert(version.clone());
-                }
-            }
+        // A lot of plugins don't follow semantic versioning, instead
+        // sort by update id
+        if version_metadata.update_id > *current_update_id {
+            entry.insert((version_metadata.update_id, version.clone()));
         }
     }
 
@@ -200,7 +193,10 @@ async fn generate_plugin(
         xml_id: plugin.xml_id.clone(),
         numeric_id: plugin.numeric_id,
         versions,
-        latest,
+        latest: latest
+            .into_iter()
+            .map(|(channel, (_, version))| (channel, version))
+            .collect(),
     };
 
     let metadata_path = plugin_directory.join("metadata.json");
@@ -238,4 +234,7 @@ struct VersionMetadata {
     pub dependencies: Vec<String>,
     pub optional_dependencies: Vec<String>,
     pub file_name: Option<String>,
+
+    #[serde(skip)]
+    pub update_id: u64,
 }
