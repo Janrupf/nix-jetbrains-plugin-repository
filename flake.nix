@@ -31,7 +31,7 @@
   let
     # We can re-use this across all nixpkgs instances
     rustOverlayInstance = (import rust-overlay);
-  in (flake-utils.lib.eachDefaultSystem (system: let
+  in ((flake-utils.lib.eachDefaultSystem (system: let
     pkgs = import nixpkgs {
       inherit system;
       overlays = [
@@ -43,9 +43,6 @@
       ];
     };
 
-    indexerLib = pkgs.callPackage ./nix/lib {};
-    defaultFixup = pkgs.callPackage ./nix/fixup { inherit indexerLib; };
-
     nix-rust-wrangler-lib = nix-rust-wrangler.lib.${system};
 
     toolchainCollection = nix-rust-wrangler-lib.mkToolchainCollection [
@@ -55,6 +52,8 @@
         }
       ))
     ];
+
+    applied = pkgs.callPackage ./apply.nix {};
   in rec {
     devShells.default = pkgs.mkShell {
       NIX_RUST_WRANGLER_TOOLCHAIN_COLLECTION = toolchainCollection;
@@ -78,11 +77,9 @@
     };
     apps.default = apps.jb-repo-indexer;
 
-    lib = indexerLib;
-
-    plugins = indexerLib.loadData {
-      dataRoot = ./data;
-      fixup = defaultFixup;
-    };
-  }));
+    plugins = applied.plugins;
+  })) // rec {
+    overlays.jetbrains-plugins = import ./overlay.nix;
+    overlays.default = overlays.jetbrains-plugins;
+  });
 }
