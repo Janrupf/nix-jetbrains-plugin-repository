@@ -43,7 +43,8 @@
       ];
     };
 
-    indexer-lib = pkgs.callPackage ./nix/lib/default.nix {};
+    indexerLib = pkgs.callPackage ./nix/lib {};
+    defaultFixup = pkgs.callPackage ./nix/fixup { inherit indexerLib; };
 
     nix-rust-wrangler-lib = nix-rust-wrangler.lib.${system};
 
@@ -77,11 +78,11 @@
     };
     apps.default = apps.jb-repo-indexer;
 
-    plugins = indexer-lib.loadData ./data;
+    lib = indexerLib;
 
-    packages.test-ide = pkgs.jetbrains.plugins.addPlugins pkgs.jetbrains.pycharm-professional [
-      plugins."de.achimonline.github_markdown_emojis"
-      plugins."ice.explosive.gdscript"
-    ];
+    plugins = indexerLib.loadData {
+      dataRoot = ./data;
+      fixup = defaultFixup;
+    };
   }));
 }

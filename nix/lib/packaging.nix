@@ -34,11 +34,11 @@ rec {
 
   maybeUnpackPlugin = doUnpack: file: fileName: if doUnpack then unpackPlugin file fileName else file;
 
-  createSinglePluginPackage = data: selectedVersion:
+  createSinglePluginPackage = data: selectedVersion: fixup:
   let
     versionData = data.versions.${selectedVersion};
     fileName = versionData.file_name or "${data.name}-${selectedVersion}.jar";
-  in pkgs.callPackage ({
+  in fixup (pkgs.callPackage ({
     name ? "jetbrains-plugin-${data.xml_id}",
     version ? selectedVersion,
     sha256 ? versionData.sha256,
@@ -66,11 +66,11 @@ rec {
       mkdir -p $out && cp -r . $out
       runHook postInstall
     '';
-  }) {};
+  }) {});
 
-  createAllPluginPackages = data: let
+  createAllPluginPackages = data: fixup: let
     versions = lib.attrsets.mapAttrs (version: _:
-      createSinglePluginPackage data version
+      createSinglePluginPackage data version fixup
     ) data.versions;
 
     channels = lib.attrsets.mapAttrs (channel: version: versions.${version}) data.latest;
