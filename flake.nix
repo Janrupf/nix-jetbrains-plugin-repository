@@ -57,11 +57,12 @@
   in rec {
     devShells.default = pkgs.mkShell {
       NIX_RUST_WRANGLER_TOOLCHAIN_COLLECTION = toolchainCollection;
+      NIX_RUST_WRANGLER_INSIDE_NIX_DEVELOP = "true";
 
-      nativeBuildInputs = pkgs.jb-repo-indexer.nativeBuildInputs ++ [
+      nativeBuildInputs = [
         pkgs.valgrind
         pkgs.nix-rust-wrangler
-      ];
+      ] ++ pkgs.jb-repo-indexer.nativeBuildInputs;
 
       buildInputs = pkgs.jb-repo-indexer.buildInputs;
     };
