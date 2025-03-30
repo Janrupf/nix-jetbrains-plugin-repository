@@ -1,6 +1,8 @@
 name: Update Plugin Data
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "10 0 * * *"  # Every day at 00:10 UTC
 
 permissions:
   contents: write
