@@ -199,9 +199,35 @@
       ],
       "file_name": "intellij-tabby-signed.zip"
     },
+    "1.13.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22379/705869/intellij-tabby-signed.zip?updateId=705869&pluginId=22379&family=INTELLIJ",
+      "sha256": "1on/YkQoiTc3xNDl5aT2qzFam5XGXZU+3cT3idKjGM4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "intellij-tabby-signed.zip"
+    },
     "1.13.0-rc.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22379/704923/intellij-tabby-signed.zip?updateId=704923&pluginId=22379&family=INTELLIJ",
       "sha256": "BZtr2nxakIvIUnhBATUqYVNzIqxpbmK6PcV3ySEu008=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "intellij-tabby-signed.zip"
+    },
+    "1.13.0-rc.1": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22379/705866/intellij-tabby-signed.zip?updateId=705866&pluginId=22379&family=INTELLIJ",
+      "sha256": "rmljmvtoE6qU3f9KZIzFtnFp9XVbar5uZhG5+zGwBY0=",
       "channel": "alpha",
       "dependencies": [
         "com.intellij.modules.platform"
@@ -449,7 +475,7 @@
     }
   },
   "latest": {
-    "alpha": "1.13.0-rc.0",
-    "stable": "1.12.0"
+    "alpha": "1.13.0-rc.1",
+    "stable": "1.13.0"
   }
 }
