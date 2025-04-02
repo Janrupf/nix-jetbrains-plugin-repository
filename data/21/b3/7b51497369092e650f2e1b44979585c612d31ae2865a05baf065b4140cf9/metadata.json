@@ -684,6 +684,25 @@
       ],
       "file_name": "plugin.zip"
     },
+    "1.0.0.eap163": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23758/706334/plugin.zip?updateId=706334&pluginId=23758&family=INTELLIJ",
+      "sha256": "bWFE8BngZRS4eHKYa29YT8m0JcUKpouLmzaCcFilyK0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.microservices",
+        "com.intellij.modules.ultimate",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "plugin.zip"
+    },
     "1.0.0.eap34": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23758/597644/intellij-plugin.zip?updateId=597644&pluginId=23758&family=INTELLIJ",
       "sha256": "OcWmn51my6duLu3kevdSn9cNb87Eb5lWOtgUSyAgFnU=",
@@ -1803,10 +1822,29 @@
         "org.intellij.intelliLang"
       ],
       "file_name": "plugin.zip"
+    },
+    "1.4.9": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23758/706477/plugin.zip?updateId=706477&pluginId=23758&family=INTELLIJ",
+      "sha256": "vNNJ/A4OWR2a3JLKN5j/9v+qOrAAGtrfI9QIiwtLswY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.microservices",
+        "com.intellij.modules.ultimate",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "plugin.zip"
     }
   },
   "latest": {
-    "eap": "1.0.0.eap162",
-    "stable": "1.4.8"
+    "eap": "1.0.0.eap163",
+    "stable": "1.4.9"
   }
 }
