@@ -4271,6 +4271,34 @@
       ],
       "file_name": "Sourcegraph-7.81.3-nightly.zip"
     },
+    "7.82.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9682/707120/Sourcegraph-7.82.0.zip?updateId=707120&pluginId=9682&family=INTELLIJ",
+      "sha256": "3VvIamsEVm1vZsTltD+UNNN/deHVl49Cq2Pijb02phE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "PerforceDirectPlugin",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "Sourcegraph-7.82.0.zip"
+    },
+    "7.83.0-nightly": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9682/707143/Sourcegraph-7.83.0-nightly.zip?updateId=707143&pluginId=9682&family=INTELLIJ",
+      "sha256": "eYCmmfTby+s+83zYs75K1IYYxmlJsW+re7FvvgvP8cw=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "PerforceDirectPlugin",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "Sourcegraph-7.83.0-nightly.zip"
+    },
     "7.9.0-nightly": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9682/660368/Sourcegraph-7.9.0-nightly.zip?updateId=660368&pluginId=9682&family=INTELLIJ",
       "sha256": "6RwcyzBPlzXikSf7v91JObRdwTvz5O62AuCveOISOoY=",
@@ -4302,7 +4330,7 @@
   },
   "latest": {
     "experimental": "7.4.2-experimental",
-    "nightly": "7.81.3-nightly",
-    "stable": "7.80.0"
+    "nightly": "7.83.0-nightly",
+    "stable": "7.82.0"
   }
 }
