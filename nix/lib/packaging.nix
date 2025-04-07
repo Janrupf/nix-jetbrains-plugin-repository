@@ -2,9 +2,8 @@
 , pkgs
 , runCommandLocal
 
-# Dependencies
-, unzip
 , glibcLocalesUtf8
+
 , ... }:
 rec {
   # Derived from https://github.com/NixOS/nixpkgs/blob/master/pkgs/build-support/fetchzip/default.nix
@@ -45,7 +44,11 @@ rec {
     downloadUrl ? versionData.download_url,
     unpack ? lib.strings.hasSuffix ".zip" fileName,
     fetchAsExecutable ? lib.strings.hasSuffix ".jar" fileName,
-    pluginStdenv ? pkgs.stdenvNoCC
+    pluginStdenv ? pkgs.stdenvNoCC,
+    since ? versionData.since,
+    until ? versionData.until,
+    compatibilityOverrides ? versionData.compatibility_overrides,
+    channel ? versionData.channel,
   }: pluginStdenv.mkDerivation {
     name = name;
     version = version;
@@ -59,6 +62,10 @@ rec {
 
     passthru = {
       rawData = data;
+      inherit channel;
+      compatibility = {
+        inherit since until compatibilityOverrides;
+      };
     };
 
     installPhase = ''
@@ -69,27 +76,28 @@ rec {
   }) {});
 
   createAllPluginPackages = data: fixup: let
-    versions = lib.attrsets.mapAttrs (version: _:
+    versions = (lib.attrsets.mapAttrs (version: _:
       createSinglePluginPackage data version fixup
-    ) data.versions;
+    ) data.versions) // {
+      type = "versionset";
+    };
 
-    channels = lib.attrsets.mapAttrs (channel: version: versions.${version}) data.latest;
-    latest = if channels ? stable
-      then channels.stable
-      else let
-        err = throw "No stable version found, please select a version explicitly via versions.<version> or channels.<channel>";
-      in {
-        # Hack so that a proper error message is shown when someone tries to use the
-        # package without explicitly selecting a version
-        type = "derivation";
-        drvPath = err;
-        name = err;
-        outputs = err;
-        meta = err;
-        system = err;
-      };
-  in latest // {
-    inherit channels;
-    inherit versions;
+    channels = let
+      groupedByChannel = lib.lists.groupBy
+        (v: v.data.channel)
+        (lib.attrsets.mapAttrsToList (version: data: {
+          inherit version;
+          inherit data;
+        }) data.versions);
+    in (lib.attrsets.mapAttrs (_: versionList:
+      lib.attrsets.listToAttrs (map (v: {
+        name = v.version;
+        value = versions.${v.version};
+      }) versionList)
+    ) groupedByChannel) // {
+      type = "versionset";
+    };
+  in (channels.stable or { type = "versionset"; }) // channels // {
+    all = versions;
   };
 }

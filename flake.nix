@@ -78,6 +78,7 @@
     apps.default = apps.jb-repo-indexer;
 
     plugins = applied.plugins;
+    lib = applied.lib;
   })) // rec {
     overlays.jetbrains-plugins = import ./overlay.nix;
     overlays.default = overlays.jetbrains-plugins;

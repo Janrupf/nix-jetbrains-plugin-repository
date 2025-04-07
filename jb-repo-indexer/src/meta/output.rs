@@ -7,7 +7,6 @@ use futures::stream::FuturesUnordered;
 use serde::Serialize;
 use sha2::Digest as _;
 use std::collections::BTreeMap;
-use std::collections::btree_map::Entry;
 use std::future;
 use std::path::{Path, PathBuf};
 
@@ -214,34 +213,10 @@ async fn generate_plugin(
         .collect::<BTreeMap<String, VersionMetadata>>()
         .await;
 
-    let mut latest = BTreeMap::<String, (u64, String)>::new();
-
-    for (version, version_metadata) in &versions {
-        let mut entry = match latest.entry(version_metadata.channel.clone()) {
-            Entry::Vacant(entry) => {
-                entry.insert((version_metadata.update_id, version.clone()));
-                continue;
-            }
-            Entry::Occupied(v) => v,
-        };
-
-        let (current_update_id, _) = entry.get();
-
-        // A lot of plugins don't follow semantic versioning, instead
-        // sort by update id
-        if version_metadata.update_id > *current_update_id {
-            entry.insert((version_metadata.update_id, version.clone()));
-        }
-    }
-
     let metadata = PluginMetadata {
         xml_id: plugin.xml_id.clone(),
         numeric_id: plugin.numeric_id,
         versions,
-        latest: latest
-            .into_iter()
-            .map(|(channel, (_, version))| (channel, version))
-            .collect(),
     };
 
     let metadata_path = plugin_directory.join("metadata.json");
@@ -268,7 +243,6 @@ struct PluginMetadata {
     pub xml_id: String,
     pub numeric_id: u64,
     pub versions: BTreeMap<String, VersionMetadata>,
-    pub latest: BTreeMap<String, String>,
 }
 
 #[derive(Debug, Serialize)]

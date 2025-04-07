@@ -2,6 +2,7 @@
 , pkgs
 , ... }:
 let
+  versionLib = pkgs.callPackage ./version.nix {};
   packaging = pkgs.callPackage ./packaging.nix {};
   fixup = pkgs.callPackage ./fixup.nix {};
 in rec {
@@ -66,4 +67,57 @@ in rec {
     in lib.attrsets.setAttrByPath path value;
   in
     mergeAttrsListRecursive (lib.attrsets.mapAttrsToList mapToKeyValuePair set);
+
+  # Check wether a plugin is compatible with a given IDE build
+  isCompatibleWith = build: plugin: let
+    buildNumber = if build ? buildNumber then build.buildNumber else build;
+    compatData = plugin.compatibility or (throw (lib.trace plugin.type "Missing compatibility information"));
+
+    isInValidRange = versionLib.inRange buildNumber compatData.since compatData.until;
+    isInWorkingCondition = lib.lists.foldl (state: compatOverride: state && (
+      if versionLib.inRange buildNumber compatOverride.applies_since compatOverride.applies_until
+        then versionLib.inRange buildNumber compatOverride.compatible_since compatOverride.compatible_until
+        else true
+    )) true compatData.compatibilityOverrides; 
+  in isInValidRange && isInWorkingCondition;
+
+  # Select the latest compatible version of the version set, or null, if
+  # no compatible version is found
+  selectLatestCompatibleVersion = ideBuildNumber: pluginVersionSet: (lib.attrsets.foldlAttrs
+    ({ selectedVersion, selectedPkg }@selected: version: pkg:
+      if (pkg ? type && lib.isDerivation pkg) && isCompatibleWith ideBuildNumber pkg
+        then if selectedVersion == null 
+          then { selectedVersion = version; selectedPkg = pkg; } # No compatible plugin selected yet, take anything we can
+        else if lib.strings.versionAtLeast version selectedVersion 
+          then { selectedVersion = version; selectedPkg = pkg; } # Higher version
+        else selected # Older
+      else selected # Not compatible anyway
+    )
+    { selectedVersion = null; selectedPkg = null; }
+    pluginVersionSet
+  ).selectedPkg;
+
+  # Build an IDE package with the given plugins, potentially automatically
+  # selecting the latest compatible versions.
+  buildIdeWithPlugins = (pkgs.callPackage ({
+    lib,
+    jetbrains,
+  }: ide: plugins: let
+    idePkg = if builtins.typeOf ide == "set" && lib.isDerivation ide
+      then ide
+      else jetbrains.${ide};
+
+    ideBuildNumber = idePkg.buildNumber;
+
+    pluginPkgs = map (plugin: if plugin ? type && plugin.type == "versionset"
+      then let
+          selectedPlugin = selectLatestCompatibleVersion ideBuildNumber plugin;
+        in if selectedPlugin == null
+          then throw "no compatible plugin ${plugin.pname} found for IDE build ${ideBuildNumber}"
+          else selectedPlugin
+      else plugin) plugins;
+
+  in jetbrains.plugins.addPlugins idePkg pluginPkgs) {});
+
+  version = versionLib;
 } // fixup
