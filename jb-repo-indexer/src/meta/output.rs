@@ -1,4 +1,4 @@
-use crate::db::{CachedPlugin, CachedUpdateDependency, Database};
+use crate::db::{CachedBrokenPlugin, CachedPlugin, CachedUpdateDependency, Database};
 use crate::error::IndexerError;
 use base64::Engine;
 use base64::prelude::BASE64_STANDARD;
@@ -140,6 +140,50 @@ async fn generate_plugin(
                 Vec<CachedUpdateDependency>,
             ) = all_dependencies.into_iter().partition(|dep| !dep.optional);
 
+            let broken_metadata = database
+                .get_broken_plugin_info(&plugin.xml_id, &version.version)
+                .await?;
+
+            let compatibility_overrides = broken_metadata
+                .into_iter()
+                .filter_map(|i| {
+                    let CachedBrokenPlugin {
+                        original_since: Some(original_since),
+                        original_until: Some(original_until),
+                        since,
+                        until,
+                        ..
+                    } = i
+                    else {
+                        return None;
+                    };
+
+                    Some(CompatibilityOverride {
+                        // These fields are named VERY WEIRDLY -
+                        // the concept seems to be that "originalSince" and "originalUntil"
+                        // indicate the range in which the plugin was supposed to be compatible
+                        // and "since" and "until" indicate the true range.
+                        //
+                        // However, this is not exactly how IntelliJ implements this check. Instead,
+                        // IntelliJ only marks a plugin as broken, if the running IDE build is within
+                        // the range of "originalSince" to "originalUntil" AND is NOT inside
+                        // "since" to until.
+                        //
+                        // So it's more of a 'if the current IDE build is within
+                        // "origignalSince" to "orignalUntil", then mark the plugin as broken if the
+                        // current build is not inside "since" to "until"'.
+                        //
+                        // For this reason, the fields here are renamed in a bit more sensible fashion.
+                        //
+                        // https://github.com/JetBrains/intellij-community/blob/b41a4084da5521effedd334e28896fd9d07410da/platform/platform-impl/src/com/intellij/ide/plugins/marketplace/MarketplaceRequests.kt#L295-L318
+                        applies_since: original_since,
+                        applies_until: original_until,
+                        compatible_since: since,
+                        compatible_until: until,
+                    })
+                })
+                .collect();
+
             Ok::<_, IndexerError>(Some((
                 version.version,
                 VersionMetadata {
@@ -149,6 +193,9 @@ async fn generate_plugin(
                     dependencies: dependencies.into_iter().map(dep_id).collect(),
                     optional_dependencies: optional_dependencies.into_iter().map(dep_id).collect(),
                     file_name: update_info.file_name,
+                    since: version.since,
+                    until: version.until,
+                    compatibility_overrides,
                     update_id: version.update_id,
                 },
             )))
@@ -232,7 +279,18 @@ struct VersionMetadata {
     pub dependencies: Vec<String>,
     pub optional_dependencies: Vec<String>,
     pub file_name: Option<String>,
+    pub since: Option<String>,
+    pub until: Option<String>,
+    pub compatibility_overrides: Vec<CompatibilityOverride>,
 
     #[serde(skip)]
     pub update_id: u64,
+}
+
+#[derive(Debug, Serialize)]
+struct CompatibilityOverride {
+    pub applies_since: String,
+    pub applies_until: String,
+    pub compatible_since: Option<String>,
+    pub compatible_until: Option<String>,
 }

@@ -160,6 +160,16 @@ impl Database {
         )
         .await?;
 
+        tx.execute("DELETE FROM schema_version", ()).await?;
+
+        tx.execute(
+            r#"
+            INSERT INTO schema_version (version) VALUES (1)
+        "#,
+            (),
+        )
+        .await?;
+
         tx.commit().await?;
 
         tracing::trace!("Database structure created.");
