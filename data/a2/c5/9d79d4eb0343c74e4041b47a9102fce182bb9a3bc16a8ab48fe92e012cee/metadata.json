@@ -13,7 +13,17 @@
         "com.intellij.modules.webstorm"
       ],
       "optional_dependencies": [],
-      "file_name": "ContextGrab-1.0.2.zip"
+      "file_name": "ContextGrab-1.0.2.zip",
+      "since": "241",
+      "until": "242.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "240.*",
+          "applies_until": "242.*",
+          "compatible_since": "241",
+          "compatible_until": "242.*"
+        }
+      ]
     }
   },
   "latest": {

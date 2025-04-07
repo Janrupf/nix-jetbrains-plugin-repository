@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "MendAdviseCode-IntelliJ-23.10.1.zip"
+      "file_name": "MendAdviseCode-IntelliJ-23.10.1.zip",
+      "since": "231.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "23.11.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22678/442720/MendAdviseCode-IntelliJ-23.11.1.zip?updateId=442720&pluginId=22678&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "MendAdviseCode-IntelliJ-23.11.1.zip"
+      "file_name": "MendAdviseCode-IntelliJ-23.11.1.zip",
+      "since": "231.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "23.12.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22678/454527/MendAdviseCode-IntelliJ-23.12.1.zip?updateId=454527&pluginId=22678&family=INTELLIJ",
@@ -30,7 +36,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "MendAdviseCode-IntelliJ-23.12.1.zip"
+      "file_name": "MendAdviseCode-IntelliJ-23.12.1.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "23.9.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22678/394882/MendAdviseCode-IntelliJ-23.9.1.zip?updateId=394882&pluginId=22678&family=INTELLIJ",
@@ -40,7 +49,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "MendAdviseCode-IntelliJ-23.9.1.zip"
+      "file_name": "MendAdviseCode-IntelliJ-23.9.1.zip",
+      "since": "231.*",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "221.0",
+          "applies_until": "232.*",
+          "compatible_since": "231.*",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "23.9.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22678/412506/MendAdviseCode-IntelliJ-23.9.2.zip?updateId=412506&pluginId=22678&family=INTELLIJ",
@@ -50,7 +69,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "MendAdviseCode-IntelliJ-23.9.2.zip"
+      "file_name": "MendAdviseCode-IntelliJ-23.9.2.zip",
+      "since": "231.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "221.0",
+          "applies_until": "232.*",
+          "compatible_since": "231.0",
+          "compatible_until": "232.*"
+        }
+      ]
     }
   },
   "latest": {

@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "fonter-1.0.1.zip"
+      "file_name": "fonter-1.0.1.zip",
+      "since": "192.7142",
+      "until": "192.*",
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13627/75877/fonter-1.0.2.zip?updateId=75877&pluginId=13627&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "fonter-1.0.2.zip"
+      "file_name": "fonter-1.0.2.zip",
+      "since": "192.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "192.0",
+          "applies_until": "900.*",
+          "compatible_since": "192.0",
+          "compatible_until": "232.*"
+        }
+      ]
     }
   },
   "latest": {

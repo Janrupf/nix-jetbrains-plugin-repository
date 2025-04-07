@@ -10,7 +10,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Pax-0.0.5.zip"
+      "file_name": "Pax-0.0.5.zip",
+      "since": "223.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "223.0",
+          "applies_until": "251.*",
+          "compatible_since": "223.0",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "0.0.6": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21408/326250/Pax-0.0.6.zip?updateId=326250&pluginId=21408&family=INTELLIJ",
@@ -20,7 +30,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Pax-0.0.6.zip"
+      "file_name": "Pax-0.0.6.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

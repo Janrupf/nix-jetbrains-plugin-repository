@@ -15,7 +15,17 @@
         "org.mule.tooling.intellij.raml"
       ],
       "optional_dependencies": [],
-      "file_name": "mule-esb-plugin-0.13.zip"
+      "file_name": "mule-esb-plugin-0.13.zip",
+      "since": "145.0",
+      "until": "193.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "145.0",
+          "applies_until": "999.99999",
+          "compatible_since": "145.0",
+          "compatible_until": "193.*"
+        }
+      ]
     },
     "0.8": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8212/31701/mule-esb-plugin-0.8.zip?updateId=31701&pluginId=8212&family=INTELLIJ",
@@ -30,7 +40,10 @@
         "org.mule.tooling.intellij.raml"
       ],
       "optional_dependencies": [],
-      "file_name": "mule-esb-plugin-0.8.zip"
+      "file_name": "mule-esb-plugin-0.8.zip",
+      "since": "145.0",
+      "until": "193.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

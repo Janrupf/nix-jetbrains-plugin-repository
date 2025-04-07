@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "paper.jar"
+      "file_name": "paper.jar",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "1.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23062/451261/paper.jar?updateId=451261&pluginId=23062&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "paper.jar"
+      "file_name": "paper.jar",
+      "since": "222.0",
+      "until": "233",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "999.99999",
+          "compatible_since": "222.0",
+          "compatible_until": "233"
+        }
+      ]
     },
     "1.0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23062/681707/paper.jar?updateId=681707&pluginId=23062&family=INTELLIJ",
@@ -30,7 +43,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "paper.jar"
+      "file_name": "paper.jar",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.6": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23062/684952/paper.jar?updateId=684952&pluginId=23062&family=INTELLIJ",
@@ -40,7 +56,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "paper.jar"
+      "file_name": "paper.jar",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

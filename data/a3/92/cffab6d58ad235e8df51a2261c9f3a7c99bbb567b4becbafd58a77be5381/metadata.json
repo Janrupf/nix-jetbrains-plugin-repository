@@ -13,7 +13,17 @@
         "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go"
       ],
-      "file_name": "CodeRefactorAI-2021.3.10.zip"
+      "file_name": "CodeRefactorAI-2021.3.10.zip",
+      "since": "212.*",
+      "until": "213.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.0",
+          "applies_until": "213.*",
+          "compatible_since": "212.*",
+          "compatible_until": "213.*"
+        }
+      ]
     },
     "2021.3.11": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18394/153532/CodeRefactorAI-2021.3.11.zip?updateId=153532&pluginId=18394&family=INTELLIJ",
@@ -26,7 +36,10 @@
         "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go"
       ],
-      "file_name": "CodeRefactorAI-2021.3.11.zip"
+      "file_name": "CodeRefactorAI-2021.3.11.zip",
+      "since": "212.*",
+      "until": "213.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

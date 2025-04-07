@@ -12,7 +12,10 @@
         "com.intellij.tailwindcss"
       ],
       "optional_dependencies": [],
-      "file_name": "tailwind-tools-2022.1.2.jar"
+      "file_name": "tailwind-tools-2022.1.2.jar",
+      "since": "222.0",
+      "until": "223.*",
+      "compatibility_overrides": []
     },
     "2022.1.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20565/273148/tailwind-tools-2022.1.3.zip?updateId=273148&pluginId=20565&family=INTELLIJ",
@@ -24,7 +27,10 @@
         "com.intellij.tailwindcss"
       ],
       "optional_dependencies": [],
-      "file_name": "tailwind-tools-2022.1.3.zip"
+      "file_name": "tailwind-tools-2022.1.3.zip",
+      "since": "222.0",
+      "until": "223.*",
+      "compatibility_overrides": []
     },
     "2023.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20565/327363/tailwind-tools-2023.1.1.jar?updateId=327363&pluginId=20565&family=INTELLIJ",
@@ -36,7 +42,10 @@
         "com.intellij.tailwindcss"
       ],
       "optional_dependencies": [],
-      "file_name": "tailwind-tools-2023.1.1.jar"
+      "file_name": "tailwind-tools-2023.1.1.jar",
+      "since": "231.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "2023.2.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20565/355051/tailwind-tools-2023.2.1.jar?updateId=355051&pluginId=20565&family=INTELLIJ",
@@ -50,7 +59,10 @@
       "optional_dependencies": [
         "com.myoutdesk.tailwind_formatter"
       ],
-      "file_name": "tailwind-tools-2023.2.1.jar"
+      "file_name": "tailwind-tools-2023.2.1.jar",
+      "since": "231.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "2023.3.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20565/461245/tailwind-tools-2023.3.1.jar?updateId=461245&pluginId=20565&family=INTELLIJ",
@@ -64,7 +76,17 @@
       "optional_dependencies": [
         "com.myoutdesk.tailwind_formatter"
       ],
-      "file_name": "tailwind-tools-2023.3.1.jar"
+      "file_name": "tailwind-tools-2023.3.1.jar",
+      "since": "233.0",
+      "until": "233.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "241.*",
+          "compatible_since": "233.0",
+          "compatible_until": "233.*"
+        }
+      ]
     },
     "2024.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20565/494196/tailwind-tools-2024.1.jar?updateId=494196&pluginId=20565&family=INTELLIJ",
@@ -78,7 +100,10 @@
       "optional_dependencies": [
         "com.myoutdesk.tailwind_formatter"
       ],
-      "file_name": "tailwind-tools-2024.1.jar"
+      "file_name": "tailwind-tools-2024.1.jar",
+      "since": "233.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     },
     "2024.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20565/502104/tailwind-tools-2024.1.1.jar?updateId=502104&pluginId=20565&family=INTELLIJ",
@@ -92,7 +117,10 @@
       "optional_dependencies": [
         "com.myoutdesk.tailwind_formatter"
       ],
-      "file_name": "tailwind-tools-2024.1.1.jar"
+      "file_name": "tailwind-tools-2024.1.1.jar",
+      "since": "233.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

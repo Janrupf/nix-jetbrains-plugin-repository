@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "jira-working-hours-1.0.zip"
+      "file_name": "jira-working-hours-1.0.zip",
+      "since": "201.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.193": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17229/128715/jira-working-hours-1.0.193.zip?updateId=128715&pluginId=17229&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "jira-working-hours-1.0.193.zip"
+      "file_name": "jira-working-hours-1.0.193.zip",
+      "since": "193",
+      "until": "193.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "183.0",
+          "applies_until": "201.0",
+          "compatible_since": "193",
+          "compatible_until": "193.*"
+        }
+      ]
     }
   },
   "latest": {

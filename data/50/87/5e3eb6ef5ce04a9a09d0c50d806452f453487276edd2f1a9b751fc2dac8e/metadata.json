@@ -12,7 +12,10 @@
       "optional_dependencies": [
         "com.intellij.modules.json"
       ],
-      "file_name": "CodeFlux-1.0.1.zip"
+      "file_name": "CodeFlux-1.0.1.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26937/705123/CodeFlux-1.0.2.zip?updateId=705123&pluginId=26937&family=INTELLIJ",
@@ -24,7 +27,17 @@
       "optional_dependencies": [
         "com.intellij.modules.json"
       ],
-      "file_name": "CodeFlux-1.0.2.zip"
+      "file_name": "CodeFlux-1.0.2.zip",
+      "since": "223.0",
+      "until": "224",
+      "compatibility_overrides": [
+        {
+          "applies_since": "223.0",
+          "applies_until": "999.99999",
+          "compatible_since": "223.0",
+          "compatible_until": "224"
+        }
+      ]
     }
   },
   "latest": {

@@ -10,7 +10,17 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "codemarker_obf.jar"
+      "file_name": "codemarker_obf.jar",
+      "since": "201.8743.12",
+      "until": "213.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "201.8743.12",
+          "applies_until": "999.99999",
+          "compatible_since": "201.8743.12",
+          "compatible_until": "213.*"
+        }
+      ]
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18040/211952/codemarker.zip?updateId=211952&pluginId=18040&family=INTELLIJ",
@@ -20,7 +30,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "codemarker.zip"
+      "file_name": "codemarker.zip",
+      "since": "213.6777.52",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

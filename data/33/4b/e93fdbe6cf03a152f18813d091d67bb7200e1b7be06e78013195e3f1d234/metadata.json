@@ -10,7 +10,17 @@
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
-      "file_name": "compileflow-idea-designer-1.0.13.zip"
+      "file_name": "compileflow-idea-designer-1.0.13.zip",
+      "since": "182.*",
+      "until": "213.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "162.*",
+          "applies_until": "213.*",
+          "compatible_since": "182.*",
+          "compatible_until": "213.*"
+        }
+      ]
     }
   },
   "latest": {

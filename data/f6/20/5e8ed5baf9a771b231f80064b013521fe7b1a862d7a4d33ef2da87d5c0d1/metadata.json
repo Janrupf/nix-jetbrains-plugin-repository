@@ -11,7 +11,10 @@
         "com.intellij.modules.ultimate"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-typespec-plugin-0.1.4.zip"
+      "file_name": "intellij-typespec-plugin-0.1.4.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "0.2.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/639222/intellij-typespec-plugin-0.2.2.zip?updateId=639222&pluginId=25850&family=INTELLIJ",
@@ -24,7 +27,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-typespec-plugin-0.2.2.zip"
+      "file_name": "intellij-typespec-plugin-0.2.2.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "0.2.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/675001/intellij-typespec-plugin-0.2.5.zip?updateId=675001&pluginId=25850&family=INTELLIJ",
@@ -37,7 +43,17 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-typespec-plugin-0.2.5.zip"
+      "file_name": "intellij-typespec-plugin-0.2.5.zip",
+      "since": "243.0",
+      "until": "251.18673.35",
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "251.*",
+          "compatible_since": "243.0",
+          "compatible_until": "251.18673.35"
+        }
+      ]
     },
     "0.3.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/678545/intellij-typespec-plugin-0.3.0.zip?updateId=678545&pluginId=25850&family=INTELLIJ",
@@ -50,7 +66,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-typespec-plugin-0.3.0.zip"
+      "file_name": "intellij-typespec-plugin-0.3.0.zip",
+      "since": "251.20015.29",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

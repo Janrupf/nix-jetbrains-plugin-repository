@@ -11,7 +11,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "toolbox-1.1.7-20.3-later.zip"
+      "file_name": "toolbox-1.1.7-20.3-later.zip",
+      "since": "203.0",
+      "until": "242.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "203.0",
+          "applies_until": "999.99999",
+          "compatible_since": "203.0",
+          "compatible_until": "242.*"
+        }
+      ]
     },
     "1.1.7-pre-20.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22528/382899/toolbox-1.1.7-pre-20.3.zip?updateId=382899&pluginId=22528&family=INTELLIJ",
@@ -22,7 +32,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "toolbox-1.1.7-pre-20.3.zip"
+      "file_name": "toolbox-1.1.7-pre-20.3.zip",
+      "since": "192.0",
+      "until": "203.0",
+      "compatibility_overrides": []
     }
   },
   "latest": {

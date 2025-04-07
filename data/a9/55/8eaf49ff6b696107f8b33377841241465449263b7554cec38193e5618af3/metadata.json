@@ -11,7 +11,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "yy-dev-tools-2020.0.1.zip"
+      "file_name": "yy-dev-tools-2020.0.1.zip",
+      "since": "201.0",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "2021.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18088/149516/yy-dev-tools-2021.0.1.zip?updateId=149516&pluginId=18088&family=INTELLIJ",
@@ -22,7 +25,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "yy-dev-tools-2021.0.1.zip"
+      "file_name": "yy-dev-tools-2021.0.1.zip",
+      "since": "211.0",
+      "until": "211.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "213.*",
+          "compatible_since": "211.0",
+          "compatible_until": "211.*"
+        }
+      ]
     },
     "2021.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18088/149172/yy-dev-tools-2021.1.1.zip?updateId=149172&pluginId=18088&family=INTELLIJ",
@@ -33,7 +46,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "yy-dev-tools-2021.1.1.zip"
+      "file_name": "yy-dev-tools-2021.1.1.zip",
+      "since": "212.0",
+      "until": "213.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

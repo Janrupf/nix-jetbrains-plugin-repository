@@ -12,7 +12,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "sailorj-itools.jar"
+      "file_name": "sailorj-itools.jar",
+      "since": "194.*",
+      "until": "213.*",
+      "compatibility_overrides": []
     },
     "1.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20270/244621/sailorj-itools.zip?updateId=244621&pluginId=20270&family=INTELLIJ",
@@ -24,7 +27,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "sailorj-itools.zip"
+      "file_name": "sailorj-itools.zip",
+      "since": "201",
+      "until": "213.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.*",
+          "applies_until": "213.*",
+          "compatible_since": "201",
+          "compatible_until": "213.*"
+        }
+      ]
     }
   },
   "latest": {

@@ -11,7 +11,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "NDKStack.jar"
+      "file_name": "NDKStack.jar",
+      "since": "193.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17954/144954/DemoPlugin.jar?updateId=144954&pluginId=17954&family=INTELLIJ",
@@ -21,7 +24,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "DemoPlugin.jar"
+      "file_name": "DemoPlugin.jar",
+      "since": "203.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17954/145130/NDKStack.jar?updateId=145130&pluginId=17954&family=INTELLIJ",
@@ -31,7 +37,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "NDKStack.jar"
+      "file_name": "NDKStack.jar",
+      "since": "203.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.3-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17954/266332/SmartNDKStack-1.3-SNAPSHOT.jar?updateId=266332&pluginId=17954&family=INTELLIJ",
@@ -41,7 +50,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "SmartNDKStack-1.3-SNAPSHOT.jar"
+      "file_name": "SmartNDKStack-1.3-SNAPSHOT.jar",
+      "since": "203.0",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "192.0",
+          "applies_until": "223.*",
+          "compatible_since": "203.0",
+          "compatible_until": "223.*"
+        }
+      ]
     }
   },
   "latest": {

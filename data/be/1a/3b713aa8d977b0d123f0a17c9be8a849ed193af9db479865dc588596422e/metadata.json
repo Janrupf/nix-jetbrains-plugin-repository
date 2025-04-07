@@ -10,7 +10,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "Ada-IntelliJ-0.4-dev.zip"
+      "file_name": "Ada-IntelliJ-0.4-dev.zip",
+      "since": "182.3684",
+      "until": "182.*",
+      "compatibility_overrides": []
     },
     "0.5-dev": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11931/57644/Ada-IntelliJ-0.5-dev.zip?updateId=57644&pluginId=11931&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "Ada-IntelliJ-0.5-dev.zip"
+      "file_name": "Ada-IntelliJ-0.5-dev.zip",
+      "since": "182.3684",
+      "until": "182.*",
+      "compatibility_overrides": []
     },
     "0.6-dev": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11931/57997/Ada-IntelliJ-0.6-dev.zip?updateId=57997&pluginId=11931&family=INTELLIJ",
@@ -30,7 +36,17 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "Ada-IntelliJ-0.6-dev.zip"
+      "file_name": "Ada-IntelliJ-0.6-dev.zip",
+      "since": "182.0",
+      "until": "193.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "182.0",
+          "applies_until": "999.99999",
+          "compatible_since": "182.0",
+          "compatible_until": "193.*"
+        }
+      ]
     }
   },
   "latest": {

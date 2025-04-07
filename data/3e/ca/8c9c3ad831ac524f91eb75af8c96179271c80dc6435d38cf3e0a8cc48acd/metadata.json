@@ -14,7 +14,10 @@
         "Git4Idea",
         "org.intellij.plugins.markdown"
       ],
-      "file_name": "poolside-assistant-1.0.15.zip"
+      "file_name": "poolside-assistant-1.0.15.zip",
+      "since": "232.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "1.0.17": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/705867/poolside-assistant-1.0.17.zip?updateId=705867&pluginId=26922&family=INTELLIJ",
@@ -28,7 +31,10 @@
         "Git4Idea",
         "org.intellij.plugins.markdown"
       ],
-      "file_name": "poolside-assistant-1.0.17.zip"
+      "file_name": "poolside-assistant-1.0.17.zip",
+      "since": "240.*",
+      "until": "251.*",
+      "compatibility_overrides": []
     },
     "2.0.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/706997/poolside-assistant-2.0.0.zip?updateId=706997&pluginId=26922&family=INTELLIJ",
@@ -42,7 +48,17 @@
         "Git4Idea",
         "org.intellij.plugins.markdown"
       ],
-      "file_name": "poolside-assistant-2.0.0.zip"
+      "file_name": "poolside-assistant-2.0.0.zip",
+      "since": "241.1",
+      "until": "251.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "240.*",
+          "applies_until": "251.*",
+          "compatible_since": "241.1",
+          "compatible_until": "251.*"
+        }
+      ]
     },
     "2.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/708407/poolside-assistant-2.0.2.zip?updateId=708407&pluginId=26922&family=INTELLIJ",
@@ -56,7 +72,10 @@
         "Git4Idea",
         "org.intellij.plugins.markdown"
       ],
-      "file_name": "poolside-assistant-2.0.2.zip"
+      "file_name": "poolside-assistant-2.0.2.zip",
+      "since": "240.1",
+      "until": "251.3",
+      "compatibility_overrides": []
     }
   },
   "latest": {

@@ -19,7 +19,10 @@
         "org.jetbrains.idea.maven",
         "org.jetbrains.plugins.gradle"
       ],
-      "file_name": "ktor-plugin-1.5.1-eap.zip"
+      "file_name": "ktor-plugin-1.5.1-eap.zip",
+      "since": "203.0",
+      "until": "211.*",
+      "compatibility_overrides": []
     },
     "1.5.1-eap-1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/109688/ktor-plugin-1.5.1-eap-1.zip?updateId=109688&pluginId=16008&family=INTELLIJ",
@@ -38,7 +41,17 @@
         "org.jetbrains.idea.maven",
         "org.jetbrains.plugins.gradle"
       ],
-      "file_name": "ktor-plugin-1.5.1-eap-1.zip"
+      "file_name": "ktor-plugin-1.5.1-eap-1.zip",
+      "since": "203.0",
+      "until": "203.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "203.0",
+          "applies_until": "211.*",
+          "compatible_since": "203.0",
+          "compatible_until": "203.*"
+        }
+      ]
     },
     "1.5.1-eap-2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/113549/ktor-plugin-1.5.1-eap-2_ij211.zip?updateId=113549&pluginId=16008&family=INTELLIJ",
@@ -57,7 +70,10 @@
         "org.jetbrains.idea.maven",
         "org.jetbrains.plugins.gradle"
       ],
-      "file_name": "ktor-plugin-1.5.1-eap-2_ij211.zip"
+      "file_name": "ktor-plugin-1.5.1-eap-2_ij211.zip",
+      "since": "211.0",
+      "until": "211.*",
+      "compatibility_overrides": []
     },
     "1.5.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/116015/ktor-plugin-1.5.3.zip?updateId=116015&pluginId=16008&family=INTELLIJ",
@@ -74,7 +90,17 @@
         "org.intellij.plugins.markdown"
       ],
       "optional_dependencies": [],
-      "file_name": "ktor-plugin-1.5.3.zip"
+      "file_name": "ktor-plugin-1.5.3.zip",
+      "since": "211.0",
+      "until": "211.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "212.*",
+          "compatible_since": "211.0",
+          "compatible_until": "211.*"
+        }
+      ]
     },
     "1.5.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/121701/ktor-plugin-1.5.5.zip?updateId=121701&pluginId=16008&family=INTELLIJ",
@@ -92,7 +118,10 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "ktor-plugin-1.5.5.zip"
+      "file_name": "ktor-plugin-1.5.5.zip",
+      "since": "211.0",
+      "until": "211.*",
+      "compatibility_overrides": []
     },
     "1.5.6": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/124940/ktor-plugin-1.5.6.zip?updateId=124940&pluginId=16008&family=INTELLIJ",
@@ -110,7 +139,10 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "ktor-plugin-1.5.6.zip"
+      "file_name": "ktor-plugin-1.5.6.zip",
+      "since": "211.0",
+      "until": "211.*",
+      "compatibility_overrides": []
     },
     "203.7456": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/109556/ktor-plugin-eap.zip?updateId=109556&pluginId=16008&family=INTELLIJ",
@@ -129,7 +161,10 @@
         "org.jetbrains.idea.maven",
         "org.jetbrains.plugins.gradle"
       ],
-      "file_name": "ktor-plugin-eap.zip"
+      "file_name": "ktor-plugin-eap.zip",
+      "since": "203.1000",
+      "until": "211.9999",
+      "compatibility_overrides": []
     },
     "243.12818.47": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/601888/ktor-starter-243.12818.47.zip?updateId=601888&pluginId=16008&family=INTELLIJ",
@@ -151,7 +186,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.12818.47.zip"
+      "file_name": "ktor-starter-243.12818.47.zip",
+      "since": "243.12818",
+      "until": "243.12818.*",
+      "compatibility_overrides": []
     },
     "243.15521.24": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/605363/ktor-starter-243.15521.24.zip?updateId=605363&pluginId=16008&family=INTELLIJ",
@@ -173,7 +211,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.15521.24.zip"
+      "file_name": "ktor-starter-243.15521.24.zip",
+      "since": "243.15521",
+      "until": "243.15521.*",
+      "compatibility_overrides": []
     },
     "243.16718.22": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/608744/ktor-starter-243.16718.22.zip?updateId=608744&pluginId=16008&family=INTELLIJ",
@@ -195,7 +236,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.16718.22.zip"
+      "file_name": "ktor-starter-243.16718.22.zip",
+      "since": "243.16718",
+      "until": "243.16718.*",
+      "compatibility_overrides": []
     },
     "243.16718.32": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/609674/ktor-starter-243.16718.32.zip?updateId=609674&pluginId=16008&family=INTELLIJ",
@@ -217,7 +261,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.16718.32.zip"
+      "file_name": "ktor-starter-243.16718.32.zip",
+      "since": "243.16718",
+      "until": "243.16718.*",
+      "compatibility_overrides": []
     },
     "243.18137.10": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/612657/ktor-starter-243.18137.10.zip?updateId=612657&pluginId=16008&family=INTELLIJ",
@@ -239,7 +286,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.18137.10.zip"
+      "file_name": "ktor-starter-243.18137.10.zip",
+      "since": "243.18137",
+      "until": "243.18137.*",
+      "compatibility_overrides": []
     },
     "243.19420.21": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/616578/ktor-starter-243.19420.21.zip?updateId=616578&pluginId=16008&family=INTELLIJ",
@@ -261,7 +311,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.19420.21.zip"
+      "file_name": "ktor-starter-243.19420.21.zip",
+      "since": "243.19420",
+      "until": "243.19420.*",
+      "compatibility_overrides": []
     },
     "243.20847.40": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/621779/ktor-starter-243.20847.40.zip?updateId=621779&pluginId=16008&family=INTELLIJ",
@@ -283,7 +336,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.20847.40.zip"
+      "file_name": "ktor-starter-243.20847.40.zip",
+      "since": "243.20847",
+      "until": "243.20847.*",
+      "compatibility_overrides": []
     },
     "243.21155.17": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/623718/ktor-starter-243.21155.17.zip?updateId=623718&pluginId=16008&family=INTELLIJ",
@@ -306,7 +362,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.21155.17.zip"
+      "file_name": "ktor-starter-243.21155.17.zip",
+      "since": "243.21155",
+      "until": "243.21155.*",
+      "compatibility_overrides": []
     },
     "243.21565.129": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/630236/ktor-starter-243.21565.129.zip?updateId=630236&pluginId=16008&family=INTELLIJ",
@@ -329,7 +388,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.21565.129.zip"
+      "file_name": "ktor-starter-243.21565.129.zip",
+      "since": "243.21565",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "243.21565.23": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/626414/ktor-starter-243.21565.23.zip?updateId=626414&pluginId=16008&family=INTELLIJ",
@@ -352,7 +414,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.21565.23.zip"
+      "file_name": "ktor-starter-243.21565.23.zip",
+      "since": "243.21565",
+      "until": "243.21565.*",
+      "compatibility_overrides": []
     },
     "243.22562.117": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/648523/ktor-starter-243.22562.117.zip?updateId=648523&pluginId=16008&family=INTELLIJ",
@@ -375,7 +440,10 @@
       "optional_dependencies": [
         "intellij.microservices.jvm/yamlconfig"
       ],
-      "file_name": "ktor-starter-243.22562.117.zip"
+      "file_name": "ktor-starter-243.22562.117.zip",
+      "since": "243.22562",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "243.22562.13": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/636631/ktor-starter-243.22562.13.zip?updateId=636631&pluginId=16008&family=INTELLIJ",
@@ -398,7 +466,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.22562.13.zip"
+      "file_name": "ktor-starter-243.22562.13.zip",
+      "since": "243.22562",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "243.22562.218": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/654566/ktor-starter-243.22562.218.zip?updateId=654566&pluginId=16008&family=INTELLIJ",
@@ -421,7 +492,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.22562.218.zip"
+      "file_name": "ktor-starter-243.22562.218.zip",
+      "since": "243.22562",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "243.22562.238": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/655105/ktor-starter-243.22562.238.zip?updateId=655105&pluginId=16008&family=INTELLIJ",
@@ -444,7 +518,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.22562.238.zip"
+      "file_name": "ktor-starter-243.22562.238.zip",
+      "since": "243.22562",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "243.23654.117": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/666759/ktor-starter-243.23654.117.zip?updateId=666759&pluginId=16008&family=INTELLIJ",
@@ -467,7 +544,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.23654.117.zip"
+      "file_name": "ktor-starter-243.23654.117.zip",
+      "since": "243.23654",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "243.23654.154": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/670835/ktor-starter-243.23654.154.zip?updateId=670835&pluginId=16008&family=INTELLIJ",
@@ -490,7 +570,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.23654.154.zip"
+      "file_name": "ktor-starter-243.23654.154.zip",
+      "since": "243.23654",
+      "until": "243.*",
+      "compatibility_overrides": []
     },
     "243.23654.189": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/673120/ktor-starter-243.23654.189.zip?updateId=673120&pluginId=16008&family=INTELLIJ",
@@ -513,7 +596,10 @@
         "org.jetbrains.plugins.gradle",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "ktor-starter-243.23654.189.zip"
+      "file_name": "ktor-starter-243.23654.189.zip",
+      "since": "243.23654",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

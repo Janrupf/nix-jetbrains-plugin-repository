@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Denigma-1.0.zip"
+      "file_name": "Denigma-1.0.zip",
+      "since": "201.*",
+      "until": "221.*",
+      "compatibility_overrides": []
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19914/225314/Denigma-1.0.1.zip?updateId=225314&pluginId=19914&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Denigma-1.0.1.zip"
+      "file_name": "Denigma-1.0.1.zip",
+      "since": "201.*",
+      "until": "221.*",
+      "compatibility_overrides": []
     },
     "1.0.2.221": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19914/286314/Denigma-1.0.2.221.zip?updateId=286314&pluginId=19914&family=INTELLIJ",
@@ -30,7 +36,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Denigma-1.0.2.221.zip"
+      "file_name": "Denigma-1.0.2.221.zip",
+      "since": "201.*",
+      "until": "221.*",
+      "compatibility_overrides": []
     },
     "1.0.2.223": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19914/286315/Denigma-1.0.2.223.zip?updateId=286315&pluginId=19914&family=INTELLIJ",
@@ -40,7 +49,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Denigma-1.0.2.223.zip"
+      "file_name": "Denigma-1.0.2.223.zip",
+      "since": "222.*",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "201.*",
+          "applies_until": "223.*",
+          "compatible_since": "222.*",
+          "compatible_until": "223.*"
+        }
+      ]
     },
     "1.0.3.231": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19914/319193/Denigma-1.0.3.231.zip?updateId=319193&pluginId=19914&family=INTELLIJ",
@@ -50,7 +69,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Denigma-1.0.3.231.zip"
+      "file_name": "Denigma-1.0.3.231.zip",
+      "since": "222.*",
+      "until": "231.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

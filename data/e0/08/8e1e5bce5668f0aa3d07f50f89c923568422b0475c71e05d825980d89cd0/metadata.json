@@ -11,7 +11,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "VantPlugin.jar"
+      "file_name": "VantPlugin.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11148/58092/VantPlugin.jar?updateId=58092&pluginId=11148&family=INTELLIJ",
@@ -22,7 +25,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "VantPlugin.jar"
+      "file_name": "VantPlugin.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11148/67202/VantPlugin.zip?updateId=67202&pluginId=11148&family=INTELLIJ",
@@ -34,7 +40,17 @@
         "com.intellij.modules.xml"
       ],
       "optional_dependencies": [],
-      "file_name": "VantPlugin.zip"
+      "file_name": "VantPlugin.zip",
+      "since": "191.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "191.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "latest": {

@@ -12,7 +12,17 @@
         "com.microsoft.tooling.msservices.intellij.azure-services-explorer"
       ],
       "optional_dependencies": [],
-      "file_name": "ms-cloud-services-for-android.jar"
+      "file_name": "ms-cloud-services-for-android.jar",
+      "since": "141.0",
+      "until": "181.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "141.0",
+          "applies_until": "999.99999",
+          "compatible_since": "141.0",
+          "compatible_until": "181.*"
+        }
+      ]
     }
   },
   "latest": {

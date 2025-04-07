@@ -8,7 +8,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "daedalus-intellij.jar"
+      "file_name": "daedalus-intellij.jar",
+      "since": "141.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9287/30725/daedalus-intellij.jar?updateId=30725&pluginId=9287&family=INTELLIJ",
@@ -16,7 +19,17 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "daedalus-intellij.jar"
+      "file_name": "daedalus-intellij.jar",
+      "since": "141.0",
+      "until": "191.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "141.0",
+          "applies_until": "999.99999",
+          "compatible_since": "141.0",
+          "compatible_until": "191.*"
+        }
+      ]
     }
   },
   "latest": {

@@ -10,7 +10,10 @@
         "com.jetbrains.restClient"
       ],
       "optional_dependencies": [],
-      "file_name": "Rest-Editor-Client-Contrib.zip"
+      "file_name": "Rest-Editor-Client-Contrib.zip",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "0.2.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10369/42319/Rest-Editor-Client-Contrib.zip?updateId=42319&pluginId=10369&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.jetbrains.restClient"
       ],
       "optional_dependencies": [],
-      "file_name": "Rest-Editor-Client-Contrib.zip"
+      "file_name": "Rest-Editor-Client-Contrib.zip",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "0.3.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10369/43209/Rest-Editor-Client-Contrib.zip?updateId=43209&pluginId=10369&family=INTELLIJ",
@@ -30,7 +36,17 @@
         "com.jetbrains.restClient"
       ],
       "optional_dependencies": [],
-      "file_name": "Rest-Editor-Client-Contrib.zip"
+      "file_name": "Rest-Editor-Client-Contrib.zip",
+      "since": "173.0",
+      "until": "203.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "203.*"
+        }
+      ]
     }
   },
   "latest": {

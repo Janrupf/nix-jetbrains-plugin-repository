@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "glassIde-1.1.3-SNAPSHOT.zip"
+      "file_name": "glassIde-1.1.3-SNAPSHOT.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "1.2.0-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15868/108349/glasscode-1.2.0-SNAPSHOT.zip?updateId=108349&pluginId=15868&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "glasscode-1.2.0-SNAPSHOT.zip"
+      "file_name": "glasscode-1.2.0-SNAPSHOT.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "1.2.1-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15868/109174/glasscode-1.2.1-SNAPSHOT.zip?updateId=109174&pluginId=15868&family=INTELLIJ",
@@ -30,7 +36,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "glasscode-1.2.1-SNAPSHOT.zip"
+      "file_name": "glasscode-1.2.1-SNAPSHOT.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "1.2.2-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15868/118165/glasscode-1.2.2-SNAPSHOT.zip?updateId=118165&pluginId=15868&family=INTELLIJ",
@@ -40,7 +49,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "glasscode-1.2.2-SNAPSHOT.zip"
+      "file_name": "glasscode-1.2.2-SNAPSHOT.zip",
+      "since": "202.0",
+      "until": "211.*",
+      "compatibility_overrides": []
     },
     "1.2.3-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15868/118378/glasscode-1.2.3-SNAPSHOT.zip?updateId=118378&pluginId=15868&family=INTELLIJ",
@@ -50,7 +62,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "glasscode-1.2.3-SNAPSHOT.zip"
+      "file_name": "glasscode-1.2.3-SNAPSHOT.zip",
+      "since": "202.0",
+      "until": "211.*",
+      "compatibility_overrides": []
     },
     "1.2.4-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15868/133142/glasscode-1.2.4-SNAPSHOT.zip?updateId=133142&pluginId=15868&family=INTELLIJ",
@@ -60,7 +75,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "glasscode-1.2.4-SNAPSHOT.zip"
+      "file_name": "glasscode-1.2.4-SNAPSHOT.zip",
+      "since": "200.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "200.0",
+          "applies_until": "300.*",
+          "compatible_since": "200.0",
+          "compatible_until": "232.*"
+        }
+      ]
     }
   },
   "latest": {

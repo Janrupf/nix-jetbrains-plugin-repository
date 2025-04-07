@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "TLDR-1.0.0.zip"
+      "file_name": "TLDR-1.0.0.zip",
+      "since": "213.0",
+      "until": "223.*",
+      "compatibility_overrides": []
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20050/394140/TLDR-1.0.1.zip?updateId=394140&pluginId=20050&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "TLDR-1.0.1.zip"
+      "file_name": "TLDR-1.0.1.zip",
+      "since": "213.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "213.0",
+          "applies_until": "235.*",
+          "compatible_since": "213.0",
+          "compatible_until": "232.*"
+        }
+      ]
     }
   },
   "latest": {

@@ -11,7 +11,10 @@
         "org.jetbrains.idea.maven"
       ],
       "optional_dependencies": [],
-      "file_name": "maven-versions-plugin-1.0.0.zip"
+      "file_name": "maven-versions-plugin-1.0.0.zip",
+      "since": "192.6817",
+      "until": "192.*",
+      "compatibility_overrides": []
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13138/70215/maven-versions-plugin-1.0.1.zip?updateId=70215&pluginId=13138&family=INTELLIJ",
@@ -22,7 +25,10 @@
         "org.jetbrains.idea.maven"
       ],
       "optional_dependencies": [],
-      "file_name": "maven-versions-plugin-1.0.1.zip"
+      "file_name": "maven-versions-plugin-1.0.1.zip",
+      "since": "192.6817",
+      "until": "192.*",
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13138/71465/maven-versions-plugin-1.0.2.zip?updateId=71465&pluginId=13138&family=INTELLIJ",
@@ -33,7 +39,17 @@
         "org.jetbrains.idea.maven"
       ],
       "optional_dependencies": [],
-      "file_name": "maven-versions-plugin-1.0.2.zip"
+      "file_name": "maven-versions-plugin-1.0.2.zip",
+      "since": "182.0",
+      "until": "193",
+      "compatibility_overrides": [
+        {
+          "applies_since": "182.0",
+          "applies_until": "999.99999",
+          "compatible_since": "182.0",
+          "compatible_until": "193"
+        }
+      ]
     }
   },
   "latest": {

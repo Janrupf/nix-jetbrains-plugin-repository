@@ -2,6 +2,28 @@
   "xml_id": "dev.sweep.assistant.cloud",
   "numeric_id": 26860,
   "versions": {
+    "1.10.5": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26860/709843/cloud-sweepai-1.10.5.zip?updateId=709843&pluginId=26860&family=INTELLIJ",
+      "sha256": "wHnB1ppPMEYIN/8mf2xBXQTYX8zzqh4HO8nFiwKiHWo=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "file_name": "cloud-sweepai-1.10.5.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
     "1.8.23": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26860/700579/cloud-sweepai-1.8.23.zip?updateId=700579&pluginId=26860&family=INTELLIJ",
       "sha256": "xqYdcwUEN0C9hRMyw72s5t7LBpdXQy/n6yezeFA9U3s=",
@@ -19,7 +41,10 @@
         "org.jetbrains.kotlin",
         "org.jetbrains.plugins.ruby"
       ],
-      "file_name": "cloud-sweepai-1.8.23.zip"
+      "file_name": "cloud-sweepai-1.8.23.zip",
+      "since": "233.0",
+      "until": "244.*",
+      "compatibility_overrides": []
     },
     "1.8.28": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26860/703861/cloud-sweepai-1.8.28.zip?updateId=703861&pluginId=26860&family=INTELLIJ",
@@ -38,7 +63,10 @@
         "org.jetbrains.kotlin",
         "org.jetbrains.plugins.ruby"
       ],
-      "file_name": "cloud-sweepai-1.8.28.zip"
+      "file_name": "cloud-sweepai-1.8.28.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     },
     "1.9.01": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26860/704852/cloud-sweepai-1.9.01.zip?updateId=704852&pluginId=26860&family=INTELLIJ",
@@ -57,10 +85,13 @@
         "org.jetbrains.kotlin",
         "org.jetbrains.plugins.ruby"
       ],
-      "file_name": "cloud-sweepai-1.9.01.zip"
+      "file_name": "cloud-sweepai-1.9.01.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {
-    "stable": "1.9.01"
+    "stable": "1.10.5"
   }
 }

@@ -10,7 +10,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "napi_IntelliJ_plugin-1.0.0.jar"
+      "file_name": "napi_IntelliJ_plugin-1.0.0.jar",
+      "since": "212.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19593/316934/napi_generator.jar?updateId=316934&pluginId=19593&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "napi_generator.jar"
+      "file_name": "napi_generator.jar",
+      "since": "212.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.0",
+          "applies_until": "999.99999",
+          "compatible_since": "212.0",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19593/333938/napi_generator.jar?updateId=333938&pluginId=19593&family=INTELLIJ",
@@ -30,7 +43,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "napi_generator.jar"
+      "file_name": "napi_generator.jar",
+      "since": "211.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "999.99999",
+          "compatible_since": "211.0",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "1.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19593/461537/napi_generator.zip?updateId=461537&pluginId=19593&family=INTELLIJ",
@@ -40,7 +63,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "napi_generator.zip"
+      "file_name": "napi_generator.zip",
+      "since": "211.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

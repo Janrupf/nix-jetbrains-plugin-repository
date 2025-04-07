@@ -11,7 +11,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.11.zip"
+      "file_name": "intellij-lets-0.0.11.zip",
+      "since": "201.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     },
     "0.0.12": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/203073/intellij-lets-0.0.12.zip?updateId=203073&pluginId=14639&family=INTELLIJ",
@@ -22,7 +25,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.12.zip"
+      "file_name": "intellij-lets-0.0.12.zip",
+      "since": "221.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     },
     "0.0.13": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/693408/intellij-lets-0.0.13.zip?updateId=693408&pluginId=14639&family=INTELLIJ",
@@ -33,7 +39,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.13.zip"
+      "file_name": "intellij-lets-0.0.13.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     },
     "0.0.14": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/693418/intellij-lets-0.0.14.zip?updateId=693418&pluginId=14639&family=INTELLIJ",
@@ -44,7 +53,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.14.zip"
+      "file_name": "intellij-lets-0.0.14.zip",
+      "since": "241.14494",
+      "until": "241.*",
+      "compatibility_overrides": []
     },
     "0.0.15": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/693440/intellij-lets-0.0.15.zip?updateId=693440&pluginId=14639&family=INTELLIJ",
@@ -55,7 +67,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.15.zip"
+      "file_name": "intellij-lets-0.0.15.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "0.0.16": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/693643/intellij-lets-0.0.16.zip?updateId=693643&pluginId=14639&family=INTELLIJ",
@@ -66,7 +81,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.16.zip"
+      "file_name": "intellij-lets-0.0.16.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "0.0.17": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/694370/intellij-lets-0.0.17.zip?updateId=694370&pluginId=14639&family=INTELLIJ",
@@ -79,7 +97,10 @@
       "optional_dependencies": [
         "com.jetbrains.sh"
       ],
-      "file_name": "intellij-lets-0.0.17.zip"
+      "file_name": "intellij-lets-0.0.17.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "0.0.18": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/694378/intellij-lets-0.0.18.zip?updateId=694378&pluginId=14639&family=INTELLIJ",
@@ -92,7 +113,10 @@
       "optional_dependencies": [
         "com.jetbrains.sh"
       ],
-      "file_name": "intellij-lets-0.0.18.zip"
+      "file_name": "intellij-lets-0.0.18.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "0.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/91254/intellij-lets-0.0.3.zip?updateId=91254&pluginId=14639&family=INTELLIJ",
@@ -103,7 +127,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.3.zip"
+      "file_name": "intellij-lets-0.0.3.zip",
+      "since": "193.0",
+      "until": "201.*",
+      "compatibility_overrides": []
     },
     "0.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/93086/intellij-lets-0.0.4.zip?updateId=93086&pluginId=14639&family=INTELLIJ",
@@ -114,7 +141,17 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.4.zip"
+      "file_name": "intellij-lets-0.0.4.zip",
+      "since": "201",
+      "until": "202.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "202.*",
+          "compatible_since": "201",
+          "compatible_until": "202.*"
+        }
+      ]
     },
     "0.0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/100113/intellij-lets-0.0.5.zip?updateId=100113&pluginId=14639&family=INTELLIJ",
@@ -125,7 +162,17 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.5.zip"
+      "file_name": "intellij-lets-0.0.5.zip",
+      "since": "201.0",
+      "until": "203.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "203.*",
+          "compatible_since": "201.0",
+          "compatible_until": "203.*"
+        }
+      ]
     },
     "0.0.7": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/126147/intellij-lets-0.0.7.zip?updateId=126147&pluginId=14639&family=INTELLIJ",
@@ -136,7 +183,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.7.zip"
+      "file_name": "intellij-lets-0.0.7.zip",
+      "since": "201.0",
+      "until": "211.*",
+      "compatibility_overrides": []
     },
     "0.0.8": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/132914/intellij-lets-0.0.8.zip?updateId=132914&pluginId=14639&family=INTELLIJ",
@@ -147,7 +197,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.8.zip"
+      "file_name": "intellij-lets-0.0.8.zip",
+      "since": "201.0",
+      "until": "212.*",
+      "compatibility_overrides": []
     },
     "0.0.9": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14639/151382/intellij-lets-0.0.9.zip?updateId=151382&pluginId=14639&family=INTELLIJ",
@@ -158,7 +211,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-lets-0.0.9.zip"
+      "file_name": "intellij-lets-0.0.9.zip",
+      "since": "201.0",
+      "until": "213.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "DCEVM-Plugin.zip"
+      "file_name": "DCEVM-Plugin.zip",
+      "since": "193.0",
+      "until": "193.*",
+      "compatibility_overrides": []
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13604/75505/DCEVM-Plugin.zip?updateId=75505&pluginId=13604&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "DCEVM-Plugin.zip"
+      "file_name": "DCEVM-Plugin.zip",
+      "since": "193.0",
+      "until": "193.*",
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13604/75723/DCEVM-Plugin.zip?updateId=75723&pluginId=13604&family=INTELLIJ",
@@ -31,7 +37,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "DCEVM-Plugin.zip"
+      "file_name": "DCEVM-Plugin.zip",
+      "since": "202",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "192.0",
+          "applies_until": "999.99999",
+          "compatible_since": "202",
+          "compatible_until": "223.*"
+        }
+      ]
     },
     "1.1.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13604/97545/DCEVM-Plugin.zip?updateId=97545&pluginId=13604&family=INTELLIJ",
@@ -42,7 +58,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "DCEVM-Plugin.zip"
+      "file_name": "DCEVM-Plugin.zip",
+      "since": "202.0",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.0",
+          "applies_until": "999.99999",
+          "compatible_since": "202.0",
+          "compatible_until": "223.*"
+        }
+      ]
     },
     "2.0.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13604/106567/DCEVM-Plugin.jar?updateId=106567&pluginId=13604&family=INTELLIJ",
@@ -53,7 +79,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "DCEVM-Plugin.jar"
+      "file_name": "DCEVM-Plugin.jar",
+      "since": "202.0",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.0",
+          "applies_until": "999.99999",
+          "compatible_since": "202.0",
+          "compatible_until": "223.*"
+        }
+      ]
     }
   },
   "latest": {

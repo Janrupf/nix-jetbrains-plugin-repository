@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ELEGANTPlugin-1.0.1.jar"
+      "file_name": "ELEGANTPlugin-1.0.1.jar",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "1.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22663/490601/ELEGANTPlugin-1.0.3.jar?updateId=490601&pluginId=22663&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ELEGANTPlugin-1.0.3.jar"
+      "file_name": "ELEGANTPlugin-1.0.3.jar",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "233.*",
+          "compatible_since": "222.0",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "1.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22663/490624/ELEGANTPlugin-1.0.4.jar?updateId=490624&pluginId=22663&family=INTELLIJ",
@@ -30,7 +43,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ELEGANTPlugin-1.0.4.jar"
+      "file_name": "ELEGANTPlugin-1.0.4.jar",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

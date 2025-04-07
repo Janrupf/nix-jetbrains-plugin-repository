@@ -10,7 +10,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-CodeMoss.zip"
+      "file_name": "intellij-CodeMoss.zip",
+      "since": "222.0",
+      "until": "242.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "999.*",
+          "compatible_since": "222.0",
+          "compatible_until": "242.*"
+        }
+      ]
     }
   },
   "latest": {

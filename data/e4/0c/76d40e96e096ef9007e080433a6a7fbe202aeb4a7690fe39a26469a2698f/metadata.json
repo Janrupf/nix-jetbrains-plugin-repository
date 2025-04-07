@@ -13,7 +13,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-1.1.0.zip"
+      "file_name": "plugin-1.1.0.zip",
+      "since": "203.*",
+      "until": "203.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "203.7717",
+          "applies_until": "203.*",
+          "compatible_since": "203.*",
+          "compatible_until": "203.*"
+        }
+      ]
     },
     "1.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16369/174989/plugin-1.1.1.zip?updateId=174989&pluginId=16369&family=INTELLIJ",
@@ -26,7 +36,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-1.1.1.zip"
+      "file_name": "plugin-1.1.1.zip",
+      "since": "212.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     },
     "1.1.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16369/175191/plugin-1.1.2.zip?updateId=175191&pluginId=16369&family=INTELLIJ",
@@ -39,7 +52,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-1.1.2.zip"
+      "file_name": "plugin-1.1.2.zip",
+      "since": "202.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

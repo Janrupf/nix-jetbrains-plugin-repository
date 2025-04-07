@@ -13,7 +13,17 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "kaiju-pycharm-plugin-1.0.1.zip"
+      "file_name": "kaiju-pycharm-plugin-1.0.1.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "243.*",
+          "compatible_since": "242.0",
+          "compatible_until": "242.*"
+        }
+      ]
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25792/660548/kaiju-pycharm-plugin-1.0.2.zip?updateId=660548&pluginId=25792&family=INTELLIJ",
@@ -26,7 +36,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "kaiju-pycharm-plugin-1.0.2.zip"
+      "file_name": "kaiju-pycharm-plugin-1.0.2.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

@@ -11,7 +11,17 @@
         "org.jetbrains.plugins.go"
       ],
       "optional_dependencies": [],
-      "file_name": "optionalchaining-1.0.0.zip"
+      "file_name": "optionalchaining-1.0.0.zip",
+      "since": "GO-222.*",
+      "until": "GO-232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "232.*",
+          "compatible_since": "222.*",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22229/465503/optionalchaining-1.0.1.jar?updateId=465503&pluginId=22229&family=INTELLIJ",
@@ -22,7 +32,17 @@
         "org.jetbrains.plugins.go"
       ],
       "optional_dependencies": [],
-      "file_name": "optionalchaining-1.0.1.jar"
+      "file_name": "optionalchaining-1.0.1.jar",
+      "since": "222.*",
+      "until": "241.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.*",
+          "applies_until": "299.*",
+          "compatible_since": "222.*",
+          "compatible_until": "241.*"
+        }
+      ]
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22229/474927/optionalchaining-1.0.2.jar?updateId=474927&pluginId=22229&family=INTELLIJ",
@@ -33,7 +53,17 @@
         "org.jetbrains.plugins.go"
       ],
       "optional_dependencies": [],
-      "file_name": "optionalchaining-1.0.2.jar"
+      "file_name": "optionalchaining-1.0.2.jar",
+      "since": "222.*",
+      "until": "241.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.*",
+          "applies_until": "299.*",
+          "compatible_since": "222.*",
+          "compatible_until": "241.*"
+        }
+      ]
     },
     "1.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22229/484117/optionalchaining-1.0.3.jar?updateId=484117&pluginId=22229&family=INTELLIJ",
@@ -44,7 +74,10 @@
         "org.jetbrains.plugins.go"
       ],
       "optional_dependencies": [],
-      "file_name": "optionalchaining-1.0.3.jar"
+      "file_name": "optionalchaining-1.0.3.jar",
+      "since": "222.*",
+      "until": "299.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

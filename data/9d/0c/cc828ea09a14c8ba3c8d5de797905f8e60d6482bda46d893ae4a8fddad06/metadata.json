@@ -10,7 +10,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CmdTools-0.3.1.jar"
+      "file_name": "CmdTools-0.3.1.jar",
+      "since": "202.0",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.0",
+          "applies_until": "999.*",
+          "compatible_since": "202.0",
+          "compatible_until": "223.*"
+        }
+      ]
     },
     "0.3.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/273151/cmdtools-0.3.4.jar?updateId=273151&pluginId=12413&family=INTELLIJ",
@@ -20,7 +30,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "cmdtools-0.3.4.jar"
+      "file_name": "cmdtools-0.3.4.jar",
+      "since": "202.0",
+      "until": "999.*",
+      "compatibility_overrides": []
     },
     "1.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62310/CmdTools.jar?updateId=62310&pluginId=12413&family=INTELLIJ",
@@ -28,7 +41,17 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "CmdTools.jar"
+      "file_name": "CmdTools.jar",
+      "since": "173.0",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "222.*"
+        }
+      ]
     },
     "2.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62359/CmdTools.zip?updateId=62359&pluginId=12413&family=INTELLIJ",
@@ -36,7 +59,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "CmdTools.zip"
+      "file_name": "CmdTools.zip",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "3.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62361/CmdTools.zip?updateId=62361&pluginId=12413&family=INTELLIJ",
@@ -44,7 +70,17 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "CmdTools.zip"
+      "file_name": "CmdTools.zip",
+      "since": "173.0",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "222.*"
+        }
+      ]
     }
   },
   "latest": {

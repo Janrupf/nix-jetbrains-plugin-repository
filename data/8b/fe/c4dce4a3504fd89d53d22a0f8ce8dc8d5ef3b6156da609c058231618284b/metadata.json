@@ -11,7 +11,10 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "beagle-intellij-plugin-core-1.0.1.zip"
+      "file_name": "beagle-intellij-plugin-core-1.0.1.zip",
+      "since": "191.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14575/114331/beagle-intellij-plugin-core-1.0.2.zip?updateId=114331&pluginId=14575&family=INTELLIJ",
@@ -22,7 +25,17 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "beagle-intellij-plugin-core-1.0.2.zip"
+      "file_name": "beagle-intellij-plugin-core-1.0.2.zip",
+      "since": "191.0",
+      "until": "211.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.0",
+          "applies_until": "999.99999",
+          "compatible_since": "191.0",
+          "compatible_until": "211.*"
+        }
+      ]
     },
     "1.1.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14575/120854/beagle-intellij-plugin-core-1.1.0.zip?updateId=120854&pluginId=14575&family=INTELLIJ",
@@ -33,7 +46,10 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "beagle-intellij-plugin-core-1.1.0.zip"
+      "file_name": "beagle-intellij-plugin-core-1.1.0.zip",
+      "since": "203.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

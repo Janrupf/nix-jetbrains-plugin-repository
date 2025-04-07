@@ -12,7 +12,17 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "androidinitplugin-1.0.zip"
+      "file_name": "androidinitplugin-1.0.zip",
+      "since": "192",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "160.0",
+          "applies_until": "223.*",
+          "compatible_since": "192",
+          "compatible_until": "223.*"
+        }
+      ]
     }
   },
   "latest": {

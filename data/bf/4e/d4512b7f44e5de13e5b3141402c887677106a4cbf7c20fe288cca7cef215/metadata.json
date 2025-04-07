@@ -8,7 +8,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "ConverterGenerator.jar"
+      "file_name": "ConverterGenerator.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.1.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10638/49702/ConverterGenerator.jar?updateId=49702&pluginId=10638&family=INTELLIJ",
@@ -16,7 +19,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "ConverterGenerator.jar"
+      "file_name": "ConverterGenerator.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.2.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10638/78387/ConverterGenerator.jar?updateId=78387&pluginId=10638&family=INTELLIJ",
@@ -26,7 +32,17 @@
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
-      "file_name": "ConverterGenerator.jar"
+      "file_name": "ConverterGenerator.jar",
+      "since": "193.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "IC-193.0",
+          "applies_until": "999.99999",
+          "compatible_since": "193.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "1.3.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10638/590151/ConverterGenerator.zip?updateId=590151&pluginId=10638&family=INTELLIJ",
@@ -36,7 +52,10 @@
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
-      "file_name": "ConverterGenerator.zip"
+      "file_name": "ConverterGenerator.zip",
+      "since": "233.11799",
+      "until": "233.*",
+      "compatibility_overrides": []
     },
     "1.3.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10638/592103/ConverterGenerator.zip?updateId=592103&pluginId=10638&family=INTELLIJ",
@@ -46,7 +65,10 @@
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
-      "file_name": "ConverterGenerator.zip"
+      "file_name": "ConverterGenerator.zip",
+      "since": "242.20224",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

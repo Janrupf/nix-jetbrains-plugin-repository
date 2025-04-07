@@ -8,7 +8,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "navigateIdentifier.jar"
+      "file_name": "navigateIdentifier.jar",
+      "since": "141.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10117/39948/navigateIdentifier.jar?updateId=39948&pluginId=10117&family=INTELLIJ",
@@ -18,7 +21,17 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "navigateIdentifier.jar"
+      "file_name": "navigateIdentifier.jar",
+      "since": "141.0",
+      "until": "231.9011",
+      "compatibility_overrides": [
+        {
+          "applies_since": "141.0",
+          "applies_until": "999.99999",
+          "compatible_since": "141.0",
+          "compatible_until": "231.9011"
+        }
+      ]
     }
   },
   "latest": {

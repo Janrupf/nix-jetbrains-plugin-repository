@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "important-files-idea-plugin-0.0.2.zip"
+      "file_name": "important-files-idea-plugin-0.0.2.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "0.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22500/455017/important-files-idea-plugin-0.0.3.zip?updateId=455017&pluginId=22500&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "important-files-idea-plugin-0.0.3.zip"
+      "file_name": "important-files-idea-plugin-0.0.3.zip",
+      "since": "223.0",
+      "until": "233.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "233.*",
+          "compatible_since": "223.0",
+          "compatible_until": "233.*"
+        }
+      ]
     },
     "0.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22500/524187/important-files-idea-plugin-0.0.4.zip?updateId=524187&pluginId=22500&family=INTELLIJ",
@@ -30,7 +43,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "important-files-idea-plugin-0.0.4.zip"
+      "file_name": "important-files-idea-plugin-0.0.4.zip",
+      "since": "223.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     },
     "0.0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22500/599121/important-files-idea-plugin-0.0.5.zip?updateId=599121&pluginId=22500&family=INTELLIJ",
@@ -40,7 +56,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "important-files-idea-plugin-0.0.5.zip"
+      "file_name": "important-files-idea-plugin-0.0.5.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

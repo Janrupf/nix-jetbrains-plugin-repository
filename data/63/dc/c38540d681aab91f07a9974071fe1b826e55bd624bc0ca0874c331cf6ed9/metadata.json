@@ -11,7 +11,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "database-helper-2021.1-mini.jar"
+      "file_name": "database-helper-2021.1-mini.jar",
+      "since": "201.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "201.0",
+          "applies_until": "999.99999",
+          "compatible_since": "201.0",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "2024.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16861/500171/Database_Helper-2024.1.zip?updateId=500171&pluginId=16861&family=INTELLIJ",
@@ -22,7 +32,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Database_Helper-2024.1.zip"
+      "file_name": "Database_Helper-2024.1.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "2024.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16861/610054/Database_Helper-2024.1.1.zip?updateId=610054&pluginId=16861&family=INTELLIJ",
@@ -33,7 +46,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Database_Helper-2024.1.1.zip"
+      "file_name": "Database_Helper-2024.1.1.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

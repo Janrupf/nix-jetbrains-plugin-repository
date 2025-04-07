@@ -11,7 +11,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ideaplugin-1.0.4.zip"
+      "file_name": "ideaplugin-1.0.4.zip",
+      "since": "203.0",
+      "until": "213.*",
+      "compatibility_overrides": []
     },
     "1.0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18261/153199/ideaplugin-1.0.5.zip?updateId=153199&pluginId=18261&family=INTELLIJ",
@@ -22,7 +25,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ideaplugin-1.0.5.zip"
+      "file_name": "ideaplugin-1.0.5.zip",
+      "since": "203.0",
+      "until": "213.*",
+      "compatibility_overrides": []
     },
     "null": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18261/194085/ideaplugin-1.0.6.zip?updateId=194085&pluginId=18261&family=INTELLIJ",
@@ -33,7 +39,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ideaplugin-1.0.6.zip"
+      "file_name": "ideaplugin-1.0.6.zip",
+      "since": "203.0",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "203.0",
+          "applies_until": "999.*",
+          "compatible_since": "203.0",
+          "compatible_until": "222.*"
+        }
+      ]
     }
   },
   "latest": {

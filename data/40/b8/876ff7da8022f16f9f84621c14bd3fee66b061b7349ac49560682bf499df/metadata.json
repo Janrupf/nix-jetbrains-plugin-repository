@@ -8,7 +8,17 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "filetemplate.jar"
+      "file_name": "filetemplate.jar",
+      "since": "131.0",
+      "until": "191.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "131.0",
+          "applies_until": "999.99999",
+          "compatible_since": "131.0",
+          "compatible_until": "191.*"
+        }
+      ]
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8008/22010/filetemplate.jar?updateId=22010&pluginId=8008&family=INTELLIJ",
@@ -18,7 +28,17 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "filetemplate.jar"
+      "file_name": "filetemplate.jar",
+      "since": "93.13",
+      "until": "211.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "93.13",
+          "applies_until": "999.99999",
+          "compatible_since": "93.13",
+          "compatible_until": "211.*"
+        }
+      ]
     }
   },
   "latest": {

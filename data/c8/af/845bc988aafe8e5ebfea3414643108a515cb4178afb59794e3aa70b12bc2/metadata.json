@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "idea-codelf-plugin-1.0.4.jar"
+      "file_name": "idea-codelf-plugin-1.0.4.jar",
+      "since": "222.0",
+      "until": "233.*",
+      "compatibility_overrides": []
     },
     "1.0.6": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23175/445714/idea-codelf-plugin-1.0.6.zip?updateId=445714&pluginId=23175&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "idea-codelf-plugin-1.0.6.zip"
+      "file_name": "idea-codelf-plugin-1.0.6.zip",
+      "since": "222.0",
+      "until": "233.*",
+      "compatibility_overrides": []
     },
     "1.0.7": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23175/583458/idea-codelf-plugin-1.0.7.zip?updateId=583458&pluginId=23175&family=INTELLIJ",
@@ -30,7 +36,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "idea-codelf-plugin-1.0.7.zip"
+      "file_name": "idea-codelf-plugin-1.0.7.zip",
+      "since": "231.0",
+      "until": "242.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "242.*",
+          "compatible_since": "231.0",
+          "compatible_until": "242.*"
+        }
+      ]
     },
     "1.0.8": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23175/631736/idea-codelf-plugin-1.0.8.zip?updateId=631736&pluginId=23175&family=INTELLIJ",
@@ -40,7 +56,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "idea-codelf-plugin-1.0.8.zip"
+      "file_name": "idea-codelf-plugin-1.0.8.zip",
+      "since": "231.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

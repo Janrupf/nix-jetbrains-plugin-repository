@@ -12,7 +12,17 @@
         "com.intellij.velocity"
       ],
       "optional_dependencies": [],
-      "file_name": "KitFox-1.0.0-RELEASE.zip"
+      "file_name": "KitFox-1.0.0-RELEASE.zip",
+      "since": "172.0",
+      "until": "201.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "172.0",
+          "applies_until": "999.99999",
+          "compatible_since": "172.0",
+          "compatible_until": "201.*"
+        }
+      ]
     }
   },
   "latest": {

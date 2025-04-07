@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CodeShell-0.0.1.zip"
+      "file_name": "CodeShell-0.0.1.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "0.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22969/423362/CodeShell-0.0.2.zip?updateId=423362&pluginId=22969&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CodeShell-0.0.2.zip"
+      "file_name": "CodeShell-0.0.2.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "0.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22969/448298/CodeShell-0.0.3.zip?updateId=448298&pluginId=22969&family=INTELLIJ",
@@ -30,7 +36,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CodeShell-0.0.3.zip"
+      "file_name": "CodeShell-0.0.3.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "0.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22969/513396/CodeShell-0.0.4.zip?updateId=513396&pluginId=22969&family=INTELLIJ",
@@ -40,7 +49,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CodeShell-0.0.4.zip"
+      "file_name": "CodeShell-0.0.4.zip",
+      "since": "222.0",
+      "until": "241.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "999.99999",
+          "compatible_since": "222.0",
+          "compatible_until": "241.*"
+        }
+      ]
     }
   },
   "latest": {

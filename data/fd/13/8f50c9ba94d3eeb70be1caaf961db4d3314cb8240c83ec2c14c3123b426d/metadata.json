@@ -10,7 +10,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-qml-0.1.zip"
+      "file_name": "intellij-qml-0.1.zip",
+      "since": "163.0",
+      "until": "171.*",
+      "compatibility_overrides": []
     },
     "0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9532/33541/intellij-qml-0.2.zip?updateId=33541&pluginId=9532&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-qml-0.2.zip"
+      "file_name": "intellij-qml-0.2.zip",
+      "since": "163.0",
+      "until": "172.*",
+      "compatibility_overrides": []
     },
     "0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9532/39892/intellij-qml-0.3.zip?updateId=39892&pluginId=9532&family=INTELLIJ",
@@ -30,7 +36,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-qml-0.3.zip"
+      "file_name": "intellij-qml-0.3.zip",
+      "since": "171.0",
+      "until": "173.*",
+      "compatibility_overrides": []
     },
     "0.3.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9532/43668/intellij-qml-0.3.1.zip?updateId=43668&pluginId=9532&family=INTELLIJ",
@@ -40,7 +49,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-qml-0.3.1.zip"
+      "file_name": "intellij-qml-0.3.1.zip",
+      "since": "173.0",
+      "until": "183.*",
+      "compatibility_overrides": []
     },
     "0.3.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9532/47589/intellij-qml-0.3.2.zip?updateId=47589&pluginId=9532&family=INTELLIJ",
@@ -50,7 +62,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-qml-0.3.2.zip"
+      "file_name": "intellij-qml-0.3.2.zip",
+      "since": "181.0",
+      "until": "183.*",
+      "compatibility_overrides": []
     },
     "0.3.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9532/61412/intellij-qml-0.3.3.zip?updateId=61412&pluginId=9532&family=INTELLIJ",
@@ -60,7 +75,17 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-qml-0.3.3.zip"
+      "file_name": "intellij-qml-0.3.3.zip",
+      "since": "191.0",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.0",
+          "applies_until": "999.99999",
+          "compatible_since": "191.0",
+          "compatible_until": "223.*"
+        }
+      ]
     }
   },
   "latest": {

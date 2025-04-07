@@ -11,7 +11,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "recent-projects-with-branch-1.1-SNAPSHOT-signed.zip"
+      "file_name": "recent-projects-with-branch-1.1-SNAPSHOT-signed.zip",
+      "since": "222.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "232.*",
+          "compatible_since": "222.0",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "1.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21124/351879/recent-projects-with-branch-1.2.zip?updateId=351879&pluginId=21124&family=INTELLIJ",
@@ -22,7 +32,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "recent-projects-with-branch-1.2.zip"
+      "file_name": "recent-projects-with-branch-1.2.zip",
+      "since": "232.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

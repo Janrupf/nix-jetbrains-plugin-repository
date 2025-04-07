@@ -8,7 +8,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "Refactor_Popup_265.jar"
+      "file_name": "Refactor_Popup_265.jar",
+      "since": null,
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0a": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/73/266/Refactor_Popup_266.jar?updateId=266&pluginId=73&family=INTELLIJ",
@@ -16,7 +19,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "Refactor_Popup_266.jar"
+      "file_name": "Refactor_Popup_266.jar",
+      "since": null,
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/73/267/Refactor_Popup_267.zip?updateId=267&pluginId=73&family=INTELLIJ",
@@ -24,7 +30,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "Refactor_Popup_267.zip"
+      "file_name": "Refactor_Popup_267.zip",
+      "since": "40.2144",
+      "until": null,
+      "compatibility_overrides": []
     },
     "2.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/73/84833/Refactor_Popup.jar?updateId=84833&pluginId=73&family=INTELLIJ",
@@ -34,7 +43,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Refactor_Popup.jar"
+      "file_name": "Refactor_Popup.jar",
+      "since": "201.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "2.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/73/85190/Refactor_Popup.jar?updateId=85190&pluginId=73&family=INTELLIJ",
@@ -44,7 +56,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Refactor_Popup.jar"
+      "file_name": "Refactor_Popup.jar",
+      "since": "201.0",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "201.0",
+          "applies_until": "999.99999",
+          "compatible_since": "201.0",
+          "compatible_until": "222.*"
+        }
+      ]
     }
   },
   "latest": {

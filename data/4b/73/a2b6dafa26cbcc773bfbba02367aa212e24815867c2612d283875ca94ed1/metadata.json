@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CTS-1.0-RELEASE.zip"
+      "file_name": "CTS-1.0-RELEASE.zip",
+      "since": "193.0",
+      "until": "223.*",
+      "compatibility_overrides": []
     },
     "1.1-RELEASE": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23241/469185/CTS-1.1-RELEASE.zip?updateId=469185&pluginId=23241&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CTS-1.1-RELEASE.zip"
+      "file_name": "CTS-1.1-RELEASE.zip",
+      "since": "201.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "232.*",
+          "compatible_since": "201.0",
+          "compatible_until": "232.*"
+        }
+      ]
     }
   },
   "latest": {

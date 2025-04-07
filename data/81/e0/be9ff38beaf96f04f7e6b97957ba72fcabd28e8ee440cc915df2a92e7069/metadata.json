@@ -16,7 +16,10 @@
         "org.jetbrains.plugins.sass",
         "org.jetbrains.plugins.stylus"
       ],
-      "file_name": "lynx-idea-plugin-1.0.1.jar"
+      "file_name": "lynx-idea-plugin-1.0.1.jar",
+      "since": "211.0",
+      "until": "211.*",
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16515/129879/lynx_plugin-1.0.2.zip?updateId=129879&pluginId=16515&family=INTELLIJ",
@@ -32,7 +35,17 @@
         "org.jetbrains.plugins.sass",
         "org.jetbrains.plugins.stylus"
       ],
-      "file_name": "lynx_plugin-1.0.2.zip"
+      "file_name": "lynx_plugin-1.0.2.zip",
+      "since": "211.0",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "999.99999",
+          "compatible_since": "211.0",
+          "compatible_until": "223.*"
+        }
+      ]
     }
   },
   "latest": {

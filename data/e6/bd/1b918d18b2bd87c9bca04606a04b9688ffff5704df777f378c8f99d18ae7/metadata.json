@@ -10,7 +10,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "rest-copier-1.0.zip"
+      "file_name": "rest-copier-1.0.zip",
+      "since": "183.5153",
+      "until": "183.*",
+      "compatibility_overrides": []
     },
     "1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11605/60822/rest-copier-1.1.zip?updateId=60822&pluginId=11605&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "rest-copier-1.1.zip"
+      "file_name": "rest-copier-1.1.zip",
+      "since": "183.0",
+      "until": "191.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "181.0",
+          "applies_until": "191.*",
+          "compatible_since": "183.0",
+          "compatible_until": "191.*"
+        }
+      ]
     }
   },
   "latest": {

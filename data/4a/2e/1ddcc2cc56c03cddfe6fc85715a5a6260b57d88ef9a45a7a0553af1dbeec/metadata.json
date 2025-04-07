@@ -11,7 +11,10 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-1.0.2.zip"
+      "file_name": "plugin-1.0.2.zip",
+      "since": "221.6008",
+      "until": "221.*",
+      "compatibility_overrides": []
     },
     "1.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21047/302028/plugin-1.0.3.zip?updateId=302028&pluginId=21047&family=INTELLIJ",
@@ -22,7 +25,17 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-1.0.3.zip"
+      "file_name": "plugin-1.0.3.zip",
+      "since": "211.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "999.99999",
+          "compatible_since": "211.0",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "1.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21047/312070/plugin-1.0.4.zip?updateId=312070&pluginId=21047&family=INTELLIJ",
@@ -33,7 +46,17 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-1.0.4.zip"
+      "file_name": "plugin-1.0.4.zip",
+      "since": "211.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "999.99999",
+          "compatible_since": "211.0",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "1.0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21047/402559/plugin-1.0.5.zip?updateId=402559&pluginId=21047&family=INTELLIJ",
@@ -44,7 +67,17 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-1.0.5.zip"
+      "file_name": "plugin-1.0.5.zip",
+      "since": "211.0",
+      "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "999.99999",
+          "compatible_since": "211.0",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "1.0.6": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21047/475912/plugin-1.0.6.zip?updateId=475912&pluginId=21047&family=INTELLIJ",
@@ -55,7 +88,10 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-1.0.6.zip"
+      "file_name": "plugin-1.0.6.zip",
+      "since": "211.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

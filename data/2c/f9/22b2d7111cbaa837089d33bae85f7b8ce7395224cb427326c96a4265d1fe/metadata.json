@@ -12,7 +12,17 @@
         "com.intellij.modules.ultimate"
       ],
       "optional_dependencies": [],
-      "file_name": "signed.zip"
+      "file_name": "signed.zip",
+      "since": "233.0",
+      "until": "233.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "240.*",
+          "compatible_since": "233.0",
+          "compatible_until": "233.*"
+        }
+      ]
     },
     "0.5.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23434/474438/signed.zip?updateId=474438&pluginId=23434&family=INTELLIJ",
@@ -24,7 +34,10 @@
         "com.intellij.modules.ultimate"
       ],
       "optional_dependencies": [],
-      "file_name": "signed.zip"
+      "file_name": "signed.zip",
+      "since": "233.0",
+      "until": "240.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

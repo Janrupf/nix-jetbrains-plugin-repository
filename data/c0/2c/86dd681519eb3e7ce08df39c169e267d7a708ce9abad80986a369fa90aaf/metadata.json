@@ -10,7 +10,17 @@
         "com.intellij.modules.vcs"
       ],
       "optional_dependencies": [],
-      "file_name": "commit-template.jar"
+      "file_name": "commit-template.jar",
+      "since": "193.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "999.99999",
+          "compatible_since": "193.0",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "22.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14104/249689/commit-template-22.1-mini.jar?updateId=249689&pluginId=14104&family=INTELLIJ",
@@ -22,7 +32,10 @@
         "hg4idea"
       ],
       "optional_dependencies": [],
-      "file_name": "commit-template-22.1-mini.jar"
+      "file_name": "commit-template-22.1-mini.jar",
+      "since": "211.0",
+      "until": "213.*",
+      "compatibility_overrides": []
     },
     "22.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14104/250600/commit-template-22.2-mini.jar?updateId=250600&pluginId=14104&family=INTELLIJ",
@@ -34,7 +47,17 @@
         "hg4idea"
       ],
       "optional_dependencies": [],
-      "file_name": "commit-template-22.2-mini.jar"
+      "file_name": "commit-template-22.2-mini.jar",
+      "since": "221.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "221.0",
+          "applies_until": "999.99999",
+          "compatible_since": "221.0",
+          "compatible_until": "231.*"
+        }
+      ]
     }
   },
   "latest": {

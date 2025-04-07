@@ -12,7 +12,10 @@
         "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [],
-      "file_name": "QBurstAndroidPlugin_17-02-2017.jar"
+      "file_name": "QBurstAndroidPlugin_17-02-2017.jar",
+      "since": "145.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9487/33620/QAssist-v1.1-22_03_2017.jar?updateId=33620&pluginId=9487&family=INTELLIJ",
@@ -24,7 +27,10 @@
         "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [],
-      "file_name": "QAssist-v1.1-22_03_2017.jar"
+      "file_name": "QAssist-v1.1-22_03_2017.jar",
+      "since": "145.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9487/38939/QAssistAndroidPlugin.jar?updateId=38939&pluginId=9487&family=INTELLIJ",
@@ -36,7 +42,17 @@
         "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [],
-      "file_name": "QAssistAndroidPlugin.jar"
+      "file_name": "QAssistAndroidPlugin.jar",
+      "since": "145.0",
+      "until": "212.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "145.0",
+          "applies_until": "999.99999",
+          "compatible_since": "145.0",
+          "compatible_until": "212.*"
+        }
+      ]
     }
   },
   "latest": {

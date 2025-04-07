@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "kaggleDatasetsIntellij-1.0.zip"
+      "file_name": "kaggleDatasetsIntellij-1.0.zip",
+      "since": "173.2147483647",
+      "until": "191.*",
+      "compatibility_overrides": []
     },
     "1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12070/66680/kaggleDatasetsIntellij-1.1.zip?updateId=66680&pluginId=12070&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "kaggleDatasetsIntellij-1.1.zip"
+      "file_name": "kaggleDatasetsIntellij-1.1.zip",
+      "since": "173.2147483647",
+      "until": "193.*",
+      "compatibility_overrides": []
     },
     "1.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12070/281232/kaggleDatasetsIntellij-1.2.zip?updateId=281232&pluginId=12070&family=INTELLIJ",
@@ -30,7 +36,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "kaggleDatasetsIntellij-1.2.zip"
+      "file_name": "kaggleDatasetsIntellij-1.2.zip",
+      "since": "221.*",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.*",
+          "applies_until": "231.*",
+          "compatible_since": "221.*",
+          "compatible_until": "231.*"
+        }
+      ]
     }
   },
   "latest": {

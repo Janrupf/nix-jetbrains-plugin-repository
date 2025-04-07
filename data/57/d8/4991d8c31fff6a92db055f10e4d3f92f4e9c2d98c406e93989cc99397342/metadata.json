@@ -13,7 +13,10 @@
       "optional_dependencies": [
         "com.intellij.modules.pycharm"
       ],
-      "file_name": "Header-1.0.1.jar"
+      "file_name": "Header-1.0.1.jar",
+      "since": "180.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18299/159242/Header-1.0.2.jar?updateId=159242&pluginId=18299&family=INTELLIJ",
@@ -23,7 +26,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "Header-1.0.2.jar"
+      "file_name": "Header-1.0.2.jar",
+      "since": "180.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18299/199064/Header-1.0.3.jar?updateId=199064&pluginId=18299&family=INTELLIJ",
@@ -33,7 +39,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "Header-1.0.3.jar"
+      "file_name": "Header-1.0.3.jar",
+      "since": "180.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18299/447841/Headers-1.0.4-signed.zip?updateId=447841&pluginId=18299&family=INTELLIJ",
@@ -44,7 +53,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Headers-1.0.4-signed.zip"
+      "file_name": "Headers-1.0.4-signed.zip",
+      "since": "180.*",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "203.0",
+          "applies_until": "999.99999",
+          "compatible_since": "180.*",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "2.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18299/479854/Headers-2.0.3-signed.zip?updateId=479854&pluginId=18299&family=INTELLIJ",
@@ -55,7 +74,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Headers-2.0.3-signed.zip"
+      "file_name": "Headers-2.0.3-signed.zip",
+      "since": "203.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "2.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18299/593078/Headers-2.0.4-signed.zip?updateId=593078&pluginId=18299&family=INTELLIJ",
@@ -67,7 +89,10 @@
       "optional_dependencies": [
         "com.intellij.modules.lang"
       ],
-      "file_name": "Headers-2.0.4-signed.zip"
+      "file_name": "Headers-2.0.4-signed.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

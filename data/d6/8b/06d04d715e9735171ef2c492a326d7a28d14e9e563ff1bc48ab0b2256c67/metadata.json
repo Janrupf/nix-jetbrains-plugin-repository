@@ -11,7 +11,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "bucp-20.08.21.jar"
+      "file_name": "bucp-20.08.21.jar",
+      "since": "193.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "999.*",
+          "compatible_since": "193.0",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "23.04.20": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14925/323295/bucp-23.04.20.zip?updateId=323295&pluginId=14925&family=INTELLIJ",
@@ -22,7 +32,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "bucp-23.04.20.zip"
+      "file_name": "bucp-23.04.20.zip",
+      "since": "231.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "231.0",
+          "applies_until": "999.*",
+          "compatible_since": "231.0",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "23.07.26": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14925/368737/bucp-23.07.26.zip?updateId=368737&pluginId=14925&family=INTELLIJ",
@@ -33,7 +53,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "bucp-23.07.26.zip"
+      "file_name": "bucp-23.07.26.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

@@ -13,7 +13,10 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "klutter-jetbrains-0.2.3.zip"
+      "file_name": "klutter-jetbrains-0.2.3.zip",
+      "since": "221.*",
+      "until": "222.*",
+      "compatibility_overrides": []
     },
     "0.2.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19846/221163/klutter-jetbrains-0.2.4.zip?updateId=221163&pluginId=19846&family=INTELLIJ",
@@ -26,7 +29,17 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "klutter-jetbrains-0.2.4.zip"
+      "file_name": "klutter-jetbrains-0.2.4.zip",
+      "since": "221",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "213.*",
+          "applies_until": "222.*",
+          "compatible_since": "221",
+          "compatible_until": "222.*"
+        }
+      ]
     },
     "2023.1.1.beta": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19846/340094/jetbrains-2023.1.1.beta.zip?updateId=340094&pluginId=19846&family=INTELLIJ",
@@ -39,7 +52,10 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "jetbrains-2023.1.1.beta.zip"
+      "file_name": "jetbrains-2023.1.1.beta.zip",
+      "since": "223.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "2023.2.1.beta": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19846/412505/jetbrains-2023.2.1.beta.zip?updateId=412505&pluginId=19846&family=INTELLIJ",
@@ -52,7 +68,10 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "jetbrains-2023.2.1.beta.zip"
+      "file_name": "jetbrains-2023.2.1.beta.zip",
+      "since": "223.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "2023.3.1.beta": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19846/438027/jetbrains-2023.3.1.beta.zip?updateId=438027&pluginId=19846&family=INTELLIJ",
@@ -65,7 +84,10 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "jetbrains-2023.3.1.beta.zip"
+      "file_name": "jetbrains-2023.3.1.beta.zip",
+      "since": "223.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "2024.1.1.beta": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19846/536469/jetbrains-2024.1.1.beta.zip?updateId=536469&pluginId=19846&family=INTELLIJ",
@@ -78,7 +100,10 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "jetbrains-2024.1.1.beta.zip"
+      "file_name": "jetbrains-2024.1.1.beta.zip",
+      "since": "232.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "2024.1.3.beta": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19846/544782/jetbrains-2024.1.3.beta.zip?updateId=544782&pluginId=19846&family=INTELLIJ",
@@ -91,7 +116,10 @@
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
-      "file_name": "jetbrains-2024.1.3.beta.zip"
+      "file_name": "jetbrains-2024.1.3.beta.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

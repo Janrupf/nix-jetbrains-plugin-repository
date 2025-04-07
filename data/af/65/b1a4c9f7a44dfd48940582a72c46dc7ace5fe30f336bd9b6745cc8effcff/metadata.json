@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "bililive-danma-1.0-SNAPSHOT.jar"
+      "file_name": "bililive-danma-1.0-SNAPSHOT.jar",
+      "since": "212.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     },
     "1.1-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19967/290162/bililive-danma-1.1-SNAPSHOT.jar?updateId=290162&pluginId=19967&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "bililive-danma-1.1-SNAPSHOT.jar"
+      "file_name": "bililive-danma-1.1-SNAPSHOT.jar",
+      "since": "213.0",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.0",
+          "applies_until": "312.*",
+          "compatible_since": "213.0",
+          "compatible_until": "223.*"
+        }
+      ]
     },
     "1.2-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19967/330085/bililive-danma-1.2-SNAPSHOT.jar?updateId=330085&pluginId=19967&family=INTELLIJ",
@@ -30,7 +43,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "bililive-danma-1.2-SNAPSHOT.jar"
+      "file_name": "bililive-danma-1.2-SNAPSHOT.jar",
+      "since": "212.0",
+      "until": "312.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

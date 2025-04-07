@@ -11,7 +11,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "SidePanelSwitcherIntlj-1.0.1.jar"
+      "file_name": "SidePanelSwitcherIntlj-1.0.1.jar",
+      "since": "201.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17299/209230/SidePanelSwitcherIntlj-1.0.2.jar?updateId=209230&pluginId=17299&family=INTELLIJ",
@@ -22,7 +25,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "SidePanelSwitcherIntlj-1.0.2.jar"
+      "file_name": "SidePanelSwitcherIntlj-1.0.2.jar",
+      "since": "201",
+      "until": "300.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.0",
+          "applies_until": "300.*",
+          "compatible_since": "201",
+          "compatible_until": "300.*"
+        }
+      ]
     }
   },
   "latest": {

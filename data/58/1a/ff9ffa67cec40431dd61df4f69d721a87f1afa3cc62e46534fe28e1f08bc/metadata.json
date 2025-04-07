@@ -21,7 +21,10 @@
         "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.sass"
       ],
-      "file_name": "Focus_Mode-1.0.2.zip"
+      "file_name": "Focus_Mode-1.0.2.zip",
+      "since": "231.0",
+      "until": "231.*",
+      "compatibility_overrides": []
     },
     "2.0.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21237/401600/Focus_Mode-2.0.0.zip?updateId=401600&pluginId=21237&family=INTELLIJ",
@@ -42,7 +45,10 @@
         "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.sass"
       ],
-      "file_name": "Focus_Mode-2.0.0.zip"
+      "file_name": "Focus_Mode-2.0.0.zip",
+      "since": "233.0",
+      "until": "300.*",
+      "compatibility_overrides": []
     },
     "3.0.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21237/424466/Focus_Mode_2-3.0.0.zip?updateId=424466&pluginId=21237&family=INTELLIJ",
@@ -65,7 +71,10 @@
         "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.sass"
       ],
-      "file_name": "Focus_Mode_2-3.0.0.zip"
+      "file_name": "Focus_Mode_2-3.0.0.zip",
+      "since": "233.0",
+      "until": "300.*",
+      "compatibility_overrides": []
     },
     "4.0.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21237/604635/focus-mode-jetbrains-4.0.0.zip?updateId=604635&pluginId=21237&family=INTELLIJ",
@@ -87,7 +96,17 @@
         "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.sass"
       ],
-      "file_name": "focus-mode-jetbrains-4.0.0.zip"
+      "file_name": "focus-mode-jetbrains-4.0.0.zip",
+      "since": "242",
+      "until": "300.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "300.*",
+          "compatible_since": "242",
+          "compatible_until": "300.*"
+        }
+      ]
     }
   },
   "latest": {

@@ -12,7 +12,10 @@
       "optional_dependencies": [
         "com.intellij.modules.platform"
       ],
-      "file_name": "LineShare-intellij-plugin-1.0.0.jar"
+      "file_name": "LineShare-intellij-plugin-1.0.0.jar",
+      "since": "202.7319",
+      "until": "213.*",
+      "compatibility_overrides": []
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16696/148306/LineShare-intellij-plugin-1.0.1.jar?updateId=148306&pluginId=16696&family=INTELLIJ",
@@ -24,7 +27,17 @@
       "optional_dependencies": [
         "com.intellij.modules.platform"
       ],
-      "file_name": "LineShare-intellij-plugin-1.0.1.jar"
+      "file_name": "LineShare-intellij-plugin-1.0.1.jar",
+      "since": "202.7319",
+      "until": "213.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.0",
+          "applies_until": "999.99999",
+          "compatible_since": "202.7319",
+          "compatible_until": "213.*"
+        }
+      ]
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16696/153405/LineShare-intellij-plugin-1.0.2.jar?updateId=153405&pluginId=16696&family=INTELLIJ",
@@ -36,7 +49,10 @@
       "optional_dependencies": [
         "com.intellij.modules.platform"
       ],
-      "file_name": "LineShare-intellij-plugin-1.0.2.jar"
+      "file_name": "LineShare-intellij-plugin-1.0.2.jar",
+      "since": "202.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

@@ -11,7 +11,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "platformsh-plugin-0.0.1.jar"
+      "file_name": "platformsh-plugin-0.0.1.jar",
+      "since": "211.0",
+      "until": "213.*",
+      "compatibility_overrides": []
     },
     "0.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18729/168536/Platform.sh-0.0.2.zip?updateId=168536&pluginId=18729&family=INTELLIJ",
@@ -22,7 +25,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "Platform.sh-0.0.2.zip"
+      "file_name": "Platform.sh-0.0.2.zip",
+      "since": "211.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     },
     "0.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18729/205532/Platform.sh-0.0.3.zip?updateId=205532&pluginId=18729&family=INTELLIJ",
@@ -33,7 +39,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "Platform.sh-0.0.3.zip"
+      "file_name": "Platform.sh-0.0.3.zip",
+      "since": "211.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     },
     "0.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18729/264485/Platform.sh-0.0.4-signed.zip?updateId=264485&pluginId=18729&family=INTELLIJ",
@@ -44,7 +53,17 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "Platform.sh-0.0.4-signed.zip"
+      "file_name": "Platform.sh-0.0.4-signed.zip",
+      "since": "211.0",
+      "until": "242.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "999.99999",
+          "compatible_since": "211.0",
+          "compatible_until": "242.*"
+        }
+      ]
     },
     "0.0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18729/333592/Platform.sh-0.0.5-signed.zip?updateId=333592&pluginId=18729&family=INTELLIJ",
@@ -55,7 +74,17 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "Platform.sh-0.0.5-signed.zip"
+      "file_name": "Platform.sh-0.0.5-signed.zip",
+      "since": "211.0",
+      "until": "242.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "999.99999",
+          "compatible_since": "211.0",
+          "compatible_until": "242.*"
+        }
+      ]
     }
   },
   "latest": {

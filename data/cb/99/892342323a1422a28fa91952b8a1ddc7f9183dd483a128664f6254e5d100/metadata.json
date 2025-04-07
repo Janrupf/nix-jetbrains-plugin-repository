@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "dbclicker-1.0.zip"
+      "file_name": "dbclicker-1.0.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     },
     "1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21385/534921/dbclicker-1.1.zip?updateId=534921&pluginId=21385&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "dbclicker-1.1.zip"
+      "file_name": "dbclicker-1.1.zip",
+      "since": "231.0",
+      "until": "241.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "223.0",
+          "applies_until": "241.*",
+          "compatible_since": "231.0",
+          "compatible_until": "241.*"
+        }
+      ]
     },
     "1.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21385/643969/dbclicker-1.1.1.zip?updateId=643969&pluginId=21385&family=INTELLIJ",
@@ -30,7 +43,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "dbclicker-1.1.1.zip"
+      "file_name": "dbclicker-1.1.1.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

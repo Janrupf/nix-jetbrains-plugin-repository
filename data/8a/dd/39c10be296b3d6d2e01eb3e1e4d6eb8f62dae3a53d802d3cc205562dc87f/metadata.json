@@ -11,7 +11,10 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "codegen-0.1.zip"
+      "file_name": "codegen-0.1.zip",
+      "since": "191.7479",
+      "until": "191.*",
+      "compatibility_overrides": []
     },
     "0.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12694/66209/codegen.zip?updateId=66209&pluginId=12694&family=INTELLIJ",
@@ -22,7 +25,17 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "codegen.zip"
+      "file_name": "codegen.zip",
+      "since": "181.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "181.0",
+          "applies_until": "999.99999",
+          "compatible_since": "181.0",
+          "compatible_until": "231.*"
+        }
+      ]
     }
   },
   "latest": {

@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Regex_Helper-0.0.3-signed.zip"
+      "file_name": "Regex_Helper-0.0.3-signed.zip",
+      "since": "221.0",
+      "until": "231.*",
+      "compatibility_overrides": []
     },
     "0.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21533/324465/Regex_Helper-0.0.4-signed.zip?updateId=324465&pluginId=21533&family=INTELLIJ",
@@ -20,7 +23,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Regex_Helper-0.0.4-signed.zip"
+      "file_name": "Regex_Helper-0.0.4-signed.zip",
+      "since": "221.0",
+      "until": "231.*",
+      "compatibility_overrides": []
     },
     "0.0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21533/324468/Regex_Helper-0.0.5-signed.zip?updateId=324468&pluginId=21533&family=INTELLIJ",
@@ -30,7 +36,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Regex_Helper-0.0.5-signed.zip"
+      "file_name": "Regex_Helper-0.0.5-signed.zip",
+      "since": "222.0",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "221.0",
+          "applies_until": "231.*",
+          "compatible_since": "222.0",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "0.0.6": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21533/324485/Regex_Helper-0.0.6-signed.zip?updateId=324485&pluginId=21533&family=INTELLIJ",
@@ -40,7 +56,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Regex_Helper-0.0.6-signed.zip"
+      "file_name": "Regex_Helper-0.0.6-signed.zip",
+      "since": "222.*",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "221.*",
+          "applies_until": "231.*",
+          "compatible_since": "222.*",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "0.0.7": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21533/401342/Regex_Helper-0.0.7-signed.zip?updateId=401342&pluginId=21533&family=INTELLIJ",
@@ -50,7 +76,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Regex_Helper-0.0.7-signed.zip"
+      "file_name": "Regex_Helper-0.0.7-signed.zip",
+      "since": "222.*",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "231.*",
+          "applies_until": "999.99999",
+          "compatible_since": "222.*",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "latest": {

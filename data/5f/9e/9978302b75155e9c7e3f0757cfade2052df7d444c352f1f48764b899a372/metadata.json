@@ -13,7 +13,10 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "DslPreview-0.1.zip"
+      "file_name": "DslPreview-0.1.zip",
+      "since": "201.7223",
+      "until": "201.*",
+      "compatibility_overrides": []
     },
     "0.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14228/85255/DslPreview-0.1.1.zip?updateId=85255&pluginId=14228&family=INTELLIJ",
@@ -26,7 +29,17 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "DslPreview-0.1.1.zip"
+      "file_name": "DslPreview-0.1.1.zip",
+      "since": "201.7223",
+      "until": "202.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "201.7223",
+          "applies_until": "999.99999",
+          "compatible_since": "201.7223",
+          "compatible_until": "202.*"
+        }
+      ]
     },
     "0.1.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14228/87410/intellij.ui.dsl.preview-0.1.2.zip?updateId=87410&pluginId=14228&family=INTELLIJ",
@@ -39,7 +52,17 @@
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij.ui.dsl.preview-0.1.2.zip"
+      "file_name": "intellij.ui.dsl.preview-0.1.2.zip",
+      "since": "202.4357",
+      "until": "203.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.4357",
+          "applies_until": "999.99999",
+          "compatible_since": "202.4357",
+          "compatible_until": "203.*"
+        }
+      ]
     }
   },
   "latest": {

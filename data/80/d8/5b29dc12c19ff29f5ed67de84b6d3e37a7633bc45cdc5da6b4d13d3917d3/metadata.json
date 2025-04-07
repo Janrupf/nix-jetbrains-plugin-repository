@@ -8,7 +8,10 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "pysynthetic-intellij-0.6.3.zip"
+      "file_name": "pysynthetic-intellij-0.6.3.zip",
+      "since": "173.0",
+      "until": "183.*",
+      "compatibility_overrides": []
     },
     "0.7.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9879/62225/pysynthetic-intellij-0.7.0.zip?updateId=62225&pluginId=9879&family=INTELLIJ",
@@ -19,7 +22,17 @@
         "com.intellij.modules.java",
         "com.intellij.modules.python"
       ],
-      "file_name": "pysynthetic-intellij-0.7.0.zip"
+      "file_name": "pysynthetic-intellij-0.7.0.zip",
+      "since": "173.0",
+      "until": "192.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "192.*"
+        }
+      ]
     }
   },
   "latest": {

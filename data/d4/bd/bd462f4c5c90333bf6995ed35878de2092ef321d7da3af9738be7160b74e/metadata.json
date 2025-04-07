@@ -11,7 +11,17 @@
         "com.intellij.modules.python"
       ],
       "optional_dependencies": [],
-      "file_name": "robot-run-plugin.jar"
+      "file_name": "robot-run-plugin.jar",
+      "since": "173.0",
+      "until": "181.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "181.*"
+        }
+      ]
     }
   },
   "latest": {

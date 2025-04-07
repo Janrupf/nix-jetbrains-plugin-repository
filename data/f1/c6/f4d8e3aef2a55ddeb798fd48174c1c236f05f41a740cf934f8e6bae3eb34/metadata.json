@@ -13,7 +13,10 @@
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "Pax-2020.3.3.zip"
+      "file_name": "Pax-2020.3.3.zip",
+      "since": "203.5981.41",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "2021.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15641/112838/Pax-2021.1.zip?updateId=112838&pluginId=15641&family=INTELLIJ",
@@ -26,7 +29,17 @@
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "Pax-2021.1.zip"
+      "file_name": "Pax-2021.1.zip",
+      "since": "211.6222.4",
+      "until": "211.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "203.5981.41",
+          "applies_until": "211.*",
+          "compatible_since": "211.6222.4",
+          "compatible_until": "211.*"
+        }
+      ]
     },
     "2021.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15641/128885/Pax-2021.2-signed.zip?updateId=128885&pluginId=15641&family=INTELLIJ",
@@ -39,7 +52,10 @@
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "Pax-2021.2-signed.zip"
+      "file_name": "Pax-2021.2-signed.zip",
+      "since": "211.7628.21",
+      "until": "212.*",
+      "compatibility_overrides": []
     },
     "2021.3.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15641/147929/Pax-2021.3.1-signed.zip?updateId=147929&pluginId=15641&family=INTELLIJ",
@@ -52,7 +68,10 @@
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "Pax-2021.3.1-signed.zip"
+      "file_name": "Pax-2021.3.1-signed.zip",
+      "since": "212.5457.46",
+      "until": "213.*",
+      "compatibility_overrides": []
     },
     "2022.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15641/167200/Pax-2022.1-signed.zip?updateId=167200&pluginId=15641&family=INTELLIJ",
@@ -65,7 +84,10 @@
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml"
       ],
-      "file_name": "Pax-2022.1-signed.zip"
+      "file_name": "Pax-2022.1-signed.zip",
+      "since": "221.5080.169",
+      "until": "221.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

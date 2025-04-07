@@ -11,7 +11,10 @@
         "org.jetbrains.plugins.go"
       ],
       "optional_dependencies": [],
-      "file_name": "GoMock-1.0.4.jar"
+      "file_name": "GoMock-1.0.4.jar",
+      "since": "201.0",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "1.0.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16343/119770/GoMock-1.0.5.jar?updateId=119770&pluginId=16343&family=INTELLIJ",
@@ -21,7 +24,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "GoMock-1.0.5.jar"
+      "file_name": "GoMock-1.0.5.jar",
+      "since": "201.0",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16343/128001/GoMock-1.1.jar?updateId=128001&pluginId=16343&family=INTELLIJ",
@@ -31,7 +37,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "GoMock-1.1.jar"
+      "file_name": "GoMock-1.1.jar",
+      "since": "203.7148",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "1.1.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16343/128007/GoMock-1.1.1.jar?updateId=128007&pluginId=16343&family=INTELLIJ",
@@ -41,7 +50,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "GoMock-1.1.1.jar"
+      "file_name": "GoMock-1.1.1.jar",
+      "since": "201.0",
+      "until": "203.*",
+      "compatibility_overrides": []
     },
     "1.1.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16343/128013/GoMock-1.1.2.jar?updateId=128013&pluginId=16343&family=INTELLIJ",
@@ -51,7 +63,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "GoMock-1.1.2.jar"
+      "file_name": "GoMock-1.1.2.jar",
+      "since": "201.0",
+      "until": "215.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "201.0",
+          "applies_until": "221.*",
+          "compatible_since": "201.0",
+          "compatible_until": "215.*"
+        }
+      ]
     }
   },
   "latest": {

@@ -11,7 +11,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CATTO-1.1.7-SNAPSHOT.zip"
+      "file_name": "CATTO-1.1.7-SNAPSHOT.zip",
+      "since": "221.*",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.0",
+          "applies_until": "222.*",
+          "compatible_since": "221.*",
+          "compatible_until": "222.*"
+        }
+      ]
     },
     "1.1.8-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19345/184819/CATTO-1.1.8-SNAPSHOT.zip?updateId=184819&pluginId=19345&family=INTELLIJ",
@@ -22,7 +32,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CATTO-1.1.8-SNAPSHOT.zip"
+      "file_name": "CATTO-1.1.8-SNAPSHOT.zip",
+      "since": "212.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     },
     "1.1.9-SNAPSHOT": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19345/185291/CATTO-1.1.9-SNAPSHOT.zip?updateId=185291&pluginId=19345&family=INTELLIJ",
@@ -33,7 +46,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "CATTO-1.1.9-SNAPSHOT.zip"
+      "file_name": "CATTO-1.1.9-SNAPSHOT.zip",
+      "since": "212.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     }
   },
   "latest": {

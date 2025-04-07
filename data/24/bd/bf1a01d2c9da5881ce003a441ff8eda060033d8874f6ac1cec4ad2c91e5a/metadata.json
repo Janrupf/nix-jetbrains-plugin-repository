@@ -11,7 +11,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "idea-passerr-plugin-2.0.2.zip"
+      "file_name": "idea-passerr-plugin-2.0.2.zip",
+      "since": "173.4",
+      "until": null,
+      "compatibility_overrides": []
     },
     "2.1.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17350/158019/idea-passerr-plugin-2.1.0.zip?updateId=158019&pluginId=17350&family=INTELLIJ",
@@ -22,7 +25,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "idea-passerr-plugin-2.1.0.zip"
+      "file_name": "idea-passerr-plugin-2.1.0.zip",
+      "since": "173.4",
+      "until": null,
+      "compatibility_overrides": []
     },
     "3.0.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17350/190618/idea-passerr-plugin-3.0.0.zip?updateId=190618&pluginId=17350&family=INTELLIJ",
@@ -33,7 +39,17 @@
         "com.intellij.database",
         "com.intellij.modules.java"
       ],
-      "file_name": "idea-passerr-plugin-3.0.0.zip"
+      "file_name": "idea-passerr-plugin-3.0.0.zip",
+      "since": "202",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.6397",
+          "applies_until": "999.99999",
+          "compatible_since": "202",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "3.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17350/191006/idea-passerr-plugin-3.0.1.zip?updateId=191006&pluginId=17350&family=INTELLIJ",
@@ -44,7 +60,10 @@
         "com.intellij.database",
         "com.intellij.modules.java"
       ],
-      "file_name": "idea-passerr-plugin-3.0.1.zip"
+      "file_name": "idea-passerr-plugin-3.0.1.zip",
+      "since": "202.*",
+      "until": null,
+      "compatibility_overrides": []
     },
     "3.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17350/194369/idea-passerr-plugin-3.0.2.zip?updateId=194369&pluginId=17350&family=INTELLIJ",
@@ -55,7 +74,10 @@
         "com.intellij.database",
         "com.intellij.modules.java"
       ],
-      "file_name": "idea-passerr-plugin-3.0.2.zip"
+      "file_name": "idea-passerr-plugin-3.0.2.zip",
+      "since": "202.*",
+      "until": null,
+      "compatibility_overrides": []
     },
     "3.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17350/622793/idea-passerr-plugin-3.0.3.zip?updateId=622793&pluginId=17350&family=INTELLIJ",
@@ -66,7 +88,17 @@
         "com.intellij.database",
         "com.intellij.modules.java"
       ],
-      "file_name": "idea-passerr-plugin-3.0.3.zip"
+      "file_name": "idea-passerr-plugin-3.0.3.zip",
+      "since": "202.*",
+      "until": "235.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.*",
+          "applies_until": "999.99999",
+          "compatible_since": "202.*",
+          "compatible_until": "235.*"
+        }
+      ]
     },
     "3.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17350/706809/passerr-idea-plugin-3.0.4.zip?updateId=706809&pluginId=17350&family=INTELLIJ",
@@ -79,7 +111,10 @@
         "com.intellij.database",
         "com.intellij.modules.java"
       ],
-      "file_name": "passerr-idea-plugin-3.0.4.zip"
+      "file_name": "passerr-idea-plugin-3.0.4.zip",
+      "since": "241.*",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {

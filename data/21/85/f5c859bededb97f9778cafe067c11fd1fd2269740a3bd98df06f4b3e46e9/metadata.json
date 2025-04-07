@@ -10,7 +10,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "mgsv5_theme-1.0.1.zip"
+      "file_name": "mgsv5_theme-1.0.1.zip",
+      "since": "191.0",
+      "until": "202.*",
+      "compatibility_overrides": []
     },
     "1.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14304/122820/mgsv5_theme-1.0.2.zip?updateId=122820&pluginId=14304&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "mgsv5_theme-1.0.2.zip"
+      "file_name": "mgsv5_theme-1.0.2.zip",
+      "since": "191.*",
+      "until": "211.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.3.5",
+          "applies_until": "211.*",
+          "compatible_since": "191.*",
+          "compatible_until": "211.*"
+        }
+      ]
     }
   },
   "latest": {

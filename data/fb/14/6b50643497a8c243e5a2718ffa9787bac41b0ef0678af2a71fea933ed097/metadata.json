@@ -13,7 +13,10 @@
         "com.intellij.modules.xdebugger"
       ],
       "optional_dependencies": [],
-      "file_name": "rookout-intellij-plugin-1.12.0-pycharm.zip"
+      "file_name": "rookout-intellij-plugin-1.12.0-pycharm.zip",
+      "since": "192.6603.28",
+      "until": "192.*",
+      "compatibility_overrides": []
     },
     "1.13.0-pycharm": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13323/73703/rookout-intellij-plugin-1.13.0-pycharm.zip?updateId=73703&pluginId=13323&family=INTELLIJ",
@@ -26,7 +29,17 @@
         "com.intellij.modules.xdebugger"
       ],
       "optional_dependencies": [],
-      "file_name": "rookout-intellij-plugin-1.13.0-pycharm.zip"
+      "file_name": "rookout-intellij-plugin-1.13.0-pycharm.zip",
+      "since": "193.5233",
+      "until": "193.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "192.6603.28",
+          "applies_until": "193.*",
+          "compatible_since": "193.5233",
+          "compatible_until": "193.*"
+        }
+      ]
     },
     "1.15.0-pycharm": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13323/76872/rookout-intellij-plugin-1.15.0-pycharm.zip?updateId=76872&pluginId=13323&family=INTELLIJ",
@@ -39,7 +52,17 @@
         "com.intellij.modules.xdebugger"
       ],
       "optional_dependencies": [],
-      "file_name": "rookout-intellij-plugin-1.15.0-pycharm.zip"
+      "file_name": "rookout-intellij-plugin-1.15.0-pycharm.zip",
+      "since": "193.0",
+      "until": "193.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "192.6603.28",
+          "applies_until": "193.*",
+          "compatible_since": "193.0",
+          "compatible_until": "193.*"
+        }
+      ]
     }
   },
   "latest": {

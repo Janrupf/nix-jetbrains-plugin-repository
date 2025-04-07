@@ -11,7 +11,10 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "Docker_Run_Command_to_Compose_Converter-1.0.0.zip"
+      "file_name": "Docker_Run_Command_to_Compose_Converter-1.0.0.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.0.1": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23108/464494/Docker_Run_Command_to_Compose_Converter-1.0.1.zip?updateId=464494&pluginId=23108&family=INTELLIJ",
@@ -22,7 +25,17 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "Docker_Run_Command_to_Compose_Converter-1.0.1.zip"
+      "file_name": "Docker_Run_Command_to_Compose_Converter-1.0.1.zip",
+      "since": "201.1",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "223.0",
+          "applies_until": "999.99999",
+          "compatible_since": "201.1",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "latest": {

@@ -11,7 +11,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "mongodoc-gen-intellij-plugin-0.0.1.zip"
+      "file_name": "mongodoc-gen-intellij-plugin-0.0.1.zip",
+      "since": "201.7846",
+      "until": "201.*",
+      "compatibility_overrides": []
     },
     "0.0.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16756/119594/mongodoc-gen-intellij-plugin-0.0.2.zip?updateId=119594&pluginId=16756&family=INTELLIJ",
@@ -22,7 +25,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "mongodoc-gen-intellij-plugin-0.0.2.zip"
+      "file_name": "mongodoc-gen-intellij-plugin-0.0.2.zip",
+      "since": "201.7846",
+      "until": "201.*",
+      "compatibility_overrides": []
     },
     "0.0.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16756/120895/mongodoc-gen-intellij-plugin.jar?updateId=120895&pluginId=16756&family=INTELLIJ",
@@ -33,7 +39,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "mongodoc-gen-intellij-plugin.jar"
+      "file_name": "mongodoc-gen-intellij-plugin.jar",
+      "since": "193.7288.26",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.7288.26",
+          "applies_until": "999.99999",
+          "compatible_since": "193.7288.26",
+          "compatible_until": "231.*"
+        }
+      ]
     },
     "0.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16756/129001/mongodoc-gen.jar?updateId=129001&pluginId=16756&family=INTELLIJ",
@@ -44,7 +60,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "mongodoc-gen.jar"
+      "file_name": "mongodoc-gen.jar",
+      "since": "193.7288.26",
+      "until": "231.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.7288.26",
+          "applies_until": "999.99999",
+          "compatible_since": "193.7288.26",
+          "compatible_until": "231.*"
+        }
+      ]
     }
   },
   "latest": {

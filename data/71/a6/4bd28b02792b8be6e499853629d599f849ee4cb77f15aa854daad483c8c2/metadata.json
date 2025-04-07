@@ -10,7 +10,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "YourProgressBar-1.01.zip"
+      "file_name": "YourProgressBar-1.01.zip",
+      "since": "211.0",
+      "until": null,
+      "compatibility_overrides": []
     },
     "1.5": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21417/342658/YourProgressBar-1.5.zip?updateId=342658&pluginId=21417&family=INTELLIJ",
@@ -20,7 +23,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "YourProgressBar-1.5.zip"
+      "file_name": "YourProgressBar-1.5.zip",
+      "since": "211.0",
+      "until": "221.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "999.99999",
+          "compatible_since": "211.0",
+          "compatible_until": "221.*"
+        }
+      ]
     },
     "1.6": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21417/489997/YourProgressBar-1.6.zip?updateId=489997&pluginId=21417&family=INTELLIJ",
@@ -30,7 +43,17 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "YourProgressBar-1.6.zip"
+      "file_name": "YourProgressBar-1.6.zip",
+      "since": "231",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "999.99999",
+          "compatible_since": "231",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "1.7": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21417/668625/YourProgressBar-1.7.zip?updateId=668625&pluginId=21417&family=INTELLIJ",
@@ -40,7 +63,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "YourProgressBar-1.7.zip"
+      "file_name": "YourProgressBar-1.7.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "latest": {
