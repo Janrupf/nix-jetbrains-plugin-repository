@@ -1,101 +1,129 @@
-# Jetbrains Plugin Repository for Nix
+# JetBrains Plugin Repository for Nix
 
-## Using this flake
+A Nix flake that provides access to JetBrains IDE plugins with automatic compatibility checking and version selection.
 
-Add the following to your inputs:
+## Features
+
+- Access to all plugins from the official JetBrains marketplace
+- Automatic compatibility checking between plugins and IDEs
+- Support for different plugin channels (stable, nightly, etc.)
+- Daily updates via GitHub Actions
+- Easy integration with NixOS and Home Manager
+
+## Quick Start
+
+### Add the flake to your inputs
 
 ```nix
-nix-jetbrains-plugins = {
-  url = "github:Janrupf/nix-jetbrains-plugin-repository";
-  inputs.nixpkgs.follows = "nixpkgs";
-};
+# In your flake.nix
+{
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    
+    nix-jetbrains-plugins = {
+      url = "github:Janrupf/nix-jetbrains-plugin-repository";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+}
 ```
 
-Then add the overlay to your system configuration:
+### Apply the overlay
 
 ```nix
-nixpkgs.overlays = [
-  nix-jetbrains-plugins.overlays.default
-];
+# In your NixOS configuration
+{
+  nixpkgs.overlays = [
+    inputs.nix-jetbrains-plugins.overlays.default
+  ];
+}
 ```
 
-Afterwards you can build Jetbrains IDE packages with the wanted plugins pre-installed:
+### Install JetBrains IDEs with plugins
+
 ```nix
+# In your packages list
 environment.systemPackages = [
   (pkgs.jetbrains-plugins.lib.buildIdeWithPlugins pkgs.jetbrains.idea-community (with pkgs.jetbrains-plugins; [
-    # Install the latest compatible version of Github Copilot's stable channel
+    # Latest compatible version of Github Copilot from stable channel
     com.github.copilot
-
-    # Install the latest compatible version of the Rust plugin from the nightly channel 
+    
+    # Latest compatible version of Rust plugin from nightly channel
     com.jetbrains.rust.nightly
-
-    # Install version 1.0.0 of the example plugin
-    # Note that in this case no compatibility checks are done, the
-    # plugin is assumed to be compatible
+    
+    # Specific version of a plugin (no compatibility check)
     com.example.my-plugin."1.0.0"
-
-    # To find the plugin ID, go to https://plugins.jetbrains.com/ and select a plugin.
-    # Scroll down and then find the plugin ID directly above the "Report Plugin" button.
   ]))
 ];
 ```
 
-Currently plugin dependencies are not resolved! If you install plugins, make sure that
-you also add their dependencies. On IDE startup you will usually receive a warning if
-you are missing dependencies.
+## Finding Plugin IDs
 
-## Plugin versions and channels
+To find a plugin's ID:
+1. Go to https://plugins.jetbrains.com/
+2. Search for and select your desired plugin
+3. Scroll down to find the plugin ID above the "Report Plugin" button
 
-The repository contains metadata for all plugins and all versions that are currently available
-on the Jetbrains marketplace. This information is updated daily by a Github cron Workflow,
-that synchronizes the metadata from the Jetbrains marketplace.
+## Plugin Structure
 
-Plugins can generally be found (after applying the overlay) in `pkgs.jetbrains-plugins`.
-An entry inside `jetbrains-plugins` is not a derivation itself, but rather a set of
-versions and channels.
+After applying the overlay, plugins are available in `pkgs.jetbrains-plugins`. Each plugin is structured as follows:
 
-An imaginary plugin may look like this:
 ```nix
 jetbrains-plugins.com.example.my-plugin = {
-  # Versions from the stable channel
-  "1.0.0" = { ... };
-  "1.1.0" = { ... };
-
-  # This channel almost always exists
+  # Direct version access
+  "1.0.0" = { ... };  # Specific version
+  "1.1.0" = { ... };  # Specific version
+  
+  # Channel-specific versions
   stable = {
     "1.0.0" = { ... };
     "1.1.0" = { ... };
-
     type = "versionset";
   };
-
-  # Other channels appear here too, but their names
-  # are different depending on the plugin - nightly and eap
-  # are somewhat common names, but plugin authors are free 
-  # to choose whatever name they desire. Check the plugin
-  # website on plugins.jetbrains.com to determine the available
-  # channels.
+  
   nightly = {
     "1.2.0" = { ... };
-
     type = "versionset";
   };
-
-  # This artifical channel is added by the nix packaging scripts
-  # and contains all versions across all channels.
+  
+  # All versions across all channels
   all = {
     "1.0.0" = { ... };
     "1.1.0" = { ... };
     "1.2.0" = { ... };
-
     type = "versionset";
   };
-
-  # Indicates that this is a mapping of versions
+  
   type = "versionset";
 };
 ```
 
-The `buildIdeWithPlugins` function accepts an array of versionsets and packages. Packages are
-passed through directly and not checked for compatibility, while versionsets are 
-expected to contain jetbrains plugins with compatibility metadata. 
+## Advanced Usage
+
+### Home Manager Integration
+
+```nix
+home.packages = [
+  (pkgs.jetbrains-plugins.lib.buildIdeWithPlugins pkgs.jetbrains.webstorm (with pkgs.jetbrains-plugins; [
+    com.github.copilot
+    io.flutter
+  ]))
+];
+```
+
+### Manual Plugin Selection
+
+You can manually select specific plugin versions:
+
+```nix
+(pkgs.jetbrains-plugins.lib.buildIdeWithPlugins pkgs.jetbrains.pycharm-professional [
+  pkgs.jetbrains-plugins.com.intellij.kubernetes."223.8836.35"
+  pkgs.jetbrains-plugins.org.toml.lang."0.2.155.5308"
+])
+```
+
+### Important Notes
+
+- Plugin dependencies are not automatically resolved. You need to add dependencies manually.
+- The repository is updated daily via GitHub Actions.
+- Compatibility is checked based on the IDE's build number and plugin metadata.
