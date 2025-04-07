@@ -1,11 +1,9 @@
 use crate::db::{CachedPlugin, CachedUpdateDependency, Database};
 use crate::error::IndexerError;
-use crate::meta::TaskAttachment;
 use base64::Engine;
 use base64::prelude::BASE64_STANDARD;
+use futures::StreamExt as _;
 use futures::stream::FuturesUnordered;
-use futures::{FutureExt, StreamExt as _};
-use semver::Version;
 use serde::Serialize;
 use sha2::Digest as _;
 use std::collections::BTreeMap;

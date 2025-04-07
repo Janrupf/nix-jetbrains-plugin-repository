@@ -212,7 +212,12 @@ impl JetbrainsRepoApi {
 
             let mut hasher = sha2::Sha256::new();
 
-            let mut response = self.client.get(url.clone()).send().await?.error_for_status()?;
+            let mut response = self
+                .client
+                .get(url.clone())
+                .send()
+                .await?
+                .error_for_status()?;
             while let Some(chunk) = response.chunk().await? {
                 hasher.update(&chunk);
             }
@@ -238,6 +243,23 @@ impl JetbrainsRepoApi {
         };
 
         Ok(hash)
+    }
+
+    #[tracing::instrument(skip(self))]
+    pub async fn fetch_broken_plugins(&self) -> Result<Vec<RepoBrokenPlugin>, IndexerError> {
+        let permit = self.acquire_small_permit().await;
+
+        let response = self
+            .client
+            .get(self.path(["files", "brokenPlugins.json"]))
+            .send()
+            .await?
+            .error_for_status()?;
+
+        let data = response.bytes().await?;
+        drop(permit);
+
+        serde_json::from_slice(&data).map_err(IndexerError::from)
     }
 
     fn path(&self, segments: impl IntoIterator<Item = impl AsRef<str>>) -> Url {

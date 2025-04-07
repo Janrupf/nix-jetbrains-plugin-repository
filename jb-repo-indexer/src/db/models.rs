@@ -12,6 +12,8 @@ pub struct CachedPluginVersion {
     pub update_id: u64,
     pub channel: String,
     pub plugin_xml_id: String,
+    pub since: Option<String>,
+    pub until: Option<String>,
 }
 
 #[derive(Debug, Clone, Deserialize)]
@@ -30,4 +32,14 @@ pub struct CachedUpdate {
     pub download_url: Option<String>,
     pub hash_algorithm: Option<String>,
     pub hash: Option<Vec<u8>>,
+}
+
+#[derive(Debug, Clone, Deserialize)]
+pub struct CachedBrokenPlugin {
+    pub plugin_xml_id: String,
+    pub version: String,
+    pub original_since: Option<String>,
+    pub original_until: Option<String>,
+    pub since: Option<String>,
+    pub until: Option<String>,
 }

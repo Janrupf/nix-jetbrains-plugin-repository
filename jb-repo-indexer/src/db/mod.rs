@@ -3,7 +3,7 @@ pub use models::*;
 
 use crate::args::IndexerArgs;
 use crate::error::IndexerError;
-use futures::{Stream, TryFutureExt, TryStreamExt, future, StreamExt};
+use futures::{Stream, TryFutureExt, TryStreamExt, future};
 use libsql::{Connection, Row};
 use serde::de::DeserializeOwned;
 use std::collections::HashSet;
@@ -61,6 +61,24 @@ impl Database {
 
         tx.execute(
             r#"
+            CREATE TABLE IF NOT EXISTS schema_version (
+                version INTEGER NOT NULL
+            )
+        "#,
+            (),
+        )
+        .await?;
+
+        let current_schema_version = tx
+            .query("SELECT version FROM schema_version", ())
+            .await?
+            .next()
+            .await?
+            .and_then(|v| v.get::<u64>(0).ok())
+            .unwrap_or(0);
+
+        tx.execute(
+            r#"
             CREATE TABLE IF NOT EXISTS plugins (
                 xml_id TEXT PRIMARY KEY NOT NULL,
                 numeric_id INTEGER NOT NULL
@@ -70,6 +88,11 @@ impl Database {
         )
         .await?;
 
+        if current_schema_version < 1 {
+            // Just completely drop the versions table, it gets re-generated anyway
+            tx.execute("DROP TABLE IF EXISTS versions", ()).await?;
+        }
+
         tx.execute(
             r#"
             CREATE TABLE IF NOT EXISTS versions (
@@ -77,9 +100,26 @@ impl Database {
                 update_id INTEGER NOT NULL,
                 channel TEXT NOT NULL,
                 plugin_xml_id TEXT NOT NULL,
+                since TEXT,
+                until TEXT,
                 PRIMARY KEY (version, plugin_xml_id),
                 FOREIGN KEY (update_id) REFERENCES updates(id) ON DELETE CASCADE,
                 FOREIGN KEY (plugin_xml_id) REFERENCES plugins(xml_id) ON DELETE CASCADE
+            )
+        "#,
+            (),
+        )
+        .await?;
+
+        tx.execute(
+            r#"
+            CREATE TABLE IF NOT EXISTS broken_plugins (
+                plugin_xml_id TEXT NOT NULL,
+                version TEXT NOT NULL,
+                original_since TEXT,
+                original_until TEXT,
+                since TEXT,
+                until TEXT
             )
         "#,
             (),
@@ -154,8 +194,7 @@ impl Database {
     pub async fn get_all_plugins(&self) -> Result<Vec<CachedPlugin>, IndexerError> {
         self.connection
             .query("SELECT xml_id, numeric_id FROM plugins", ())
-            .await
-            .expect("Failed to query plugins")
+            .await?
             .into_stream()
             .map_err(IndexerError::from)
             .and_then(map_row_de)
@@ -212,21 +251,48 @@ impl Database {
             .execute(
                 r#"
                         INSERT INTO versions
-                            (version, update_id, channel, plugin_xml_id)
-                        VALUES (?1, ?2, ?3, ?4) ON CONFLICT DO UPDATE SET
+                            (version, update_id, channel, plugin_xml_id, since, until)
+                        VALUES (?1, ?2, ?3, ?4, ?5, ?6) ON CONFLICT DO UPDATE SET
                             update_id = ?2, channel = ?3;
                      "#,
                 libsql::params![
                     version.version.as_str(),
                     version.update_id,
                     version.channel.as_str(),
-                    version.plugin_xml_id.as_str()
+                    version.plugin_xml_id.as_str(),
+                    version.since.as_deref(),
+                    version.until.as_deref(),
                 ],
             )
             .map_err(IndexerError::from)
             .await?;
 
         Ok(count)
+    }
+
+    #[tracing::instrument(skip_all, fields(
+        plugin_xml_id = plugin_xml_id.as_ref(),
+        version = version.as_ref(),
+        since = since.as_ref().map(|v| v.as_ref()),
+        until = until.as_ref().map(|v| v.as_ref()),
+    ))]
+    pub async fn set_version_compat_range(
+        &self,
+        plugin_xml_id: impl AsRef<str>,
+        version: impl AsRef<str>,
+        since: Option<impl AsRef<str>>,
+        until: Option<impl AsRef<str>>,
+    ) -> Result<(), IndexerError> {
+        self.connection.execute(
+            "UPDATE versions SET since = ?3, until = ?4 WHERE plugin_xml_id = ?1 AND version = ?2",
+            libsql::params![
+                plugin_xml_id.as_ref(),
+                version.as_ref(),
+                since.as_ref().map(|v| v.as_ref()),
+                until.as_ref().map(|v| v.as_ref()),
+            ],
+        ).await?;
+        Ok(())
     }
 
     #[tracing::instrument(
@@ -238,7 +304,7 @@ impl Database {
         plugin_xml_id: impl AsRef<str>,
     ) -> Result<Vec<CachedPluginVersion>, IndexerError> {
         self.connection
-            .query("SELECT version, update_id, channel, plugin_xml_id FROM versions WHERE plugin_xml_id = ?1", libsql::params![plugin_xml_id.as_ref()])
+            .query("SELECT version, update_id, channel, plugin_xml_id, since, until FROM versions WHERE plugin_xml_id = ?1", libsql::params![plugin_xml_id.as_ref()])
             .await?
             .into_stream()
             .map_err(IndexerError::from)
@@ -354,5 +420,56 @@ impl Database {
         ).await?;
 
         Ok(())
+    }
+
+    #[tracing::instrument(skip(self))]
+    pub async fn clear_broken_plugins(&self) -> Result<(), IndexerError> {
+        self.connection
+            .execute("DELETE FROM broken_plugins", ())
+            .await?;
+        Ok(())
+    }
+
+    #[tracing::instrument(skip(self))]
+    pub async fn add_broken_plugin(&self, plugin: &CachedBrokenPlugin) -> Result<(), IndexerError> {
+        self.connection
+            .execute(
+                r#"
+                INSERT INTO broken_plugins
+                    (plugin_xml_id, version, original_since, original_until, since, until)
+                VALUES (?1, ?2, ?3, ?4, ?5, ?6)"#,
+                libsql::params![
+                    plugin.plugin_xml_id.as_str(),
+                    plugin.version.as_str(),
+                    plugin.original_since.as_deref(),
+                    plugin.original_until.as_deref(),
+                    plugin.since.as_deref(),
+                    plugin.until.as_deref(),
+                ],
+            )
+            .await?;
+
+        Ok(())
+    }
+
+    #[tracing::instrument(skip_all, fields(plugin_xml_id = plugin_xml_id.as_ref(), version = version.as_ref()))]
+    pub async fn get_broken_plugin_info(
+        &self,
+        plugin_xml_id: impl AsRef<str>,
+        version: impl AsRef<str>,
+    ) -> Result<Vec<CachedBrokenPlugin>, IndexerError> {
+        self.connection
+            .query(
+                r#"
+                SELECT plugin_xml_id, version, original_since, original_until, since, until FROM broken_plugins
+                    WHERE plugin_xml_id = ?1 AND version = ?2
+                "#,
+                libsql::params![plugin_xml_id.as_ref(), version.as_ref()]
+            ).await?
+            .into_stream()
+            .map_err(IndexerError::from)
+            .and_then(map_row_de)
+            .try_collect()
+            .await
     }
 }

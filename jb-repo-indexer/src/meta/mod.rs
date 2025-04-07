@@ -1,15 +1,15 @@
-mod sync;
 mod output;
+mod sync;
 
 use crate::api::JetbrainsRepoApi;
 use crate::args::IndexerArgs;
 use crate::db::Database;
 use crate::error::IndexerError;
-use crate::meta::sync::{sync_new_plugin, sync_plugin};
+use crate::meta::sync::{sync_broken_plugins, sync_new_plugin, sync_plugin};
 use crate::statistics::{Statistics, StatisticsCollector, StatisticsSender};
 use futures::StreamExt;
 use std::collections::HashSet;
-use std::path::{PathBuf};
+use std::path::PathBuf;
 use tokio_util::task::TaskTracker;
 
 #[derive(Clone)]
@@ -53,7 +53,11 @@ impl MetadataProcessor {
         let repo = JetbrainsRepoApi::new(args)?;
         let output_directory = args.output_directory.clone();
 
-        Ok(Self { database, repo, output_directory })
+        Ok(Self {
+            database,
+            repo,
+            output_directory,
+        })
     }
 
     pub async fn sync_plugin_metadata(&self) -> Result<Statistics, IndexerError> {
@@ -101,9 +105,12 @@ impl MetadataProcessor {
         attachment.dispatch("sync all new plugins", {
             let attachment = attachment.clone();
 
-            async move {
-                Self::sync_new_plugins(&local, &remote, attachment)
-            }
+            async move { Self::sync_new_plugins(&local, &remote, attachment) }
+        });
+
+        attachment.dispatch("sync broken plugins", {
+            let attachment = attachment.clone();
+            sync_broken_plugins(attachment)
         });
 
         // Wait for everything to finish

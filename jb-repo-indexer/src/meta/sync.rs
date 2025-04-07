@@ -1,6 +1,30 @@
-use crate::db::{CachedPlugin, CachedPluginVersion, CachedUpdateDependency};
+use crate::db::{CachedBrokenPlugin, CachedPlugin, CachedPluginVersion, CachedUpdateDependency};
 use crate::error::IndexerError;
 use crate::meta::TaskAttachment;
+
+#[tracing::instrument(skip(attachment))]
+pub(super) async fn sync_broken_plugins(attachment: TaskAttachment) -> Result<(), IndexerError> {
+    let (broken_plugins, ()) = tokio::try_join!(
+        attachment.repo.fetch_broken_plugins(),
+        attachment.database.clear_broken_plugins()
+    )?;
+
+    for broken in broken_plugins {
+        attachment
+            .database
+            .add_broken_plugin(&CachedBrokenPlugin {
+                plugin_xml_id: broken.id,
+                version: broken.version,
+                since: broken.since,
+                until: broken.until,
+                original_since: broken.original_since,
+                original_until: broken.original_until,
+            })
+            .await?;
+    }
+
+    Ok(())
+}
 
 #[tracing::instrument(skip(attachment))]
 pub(super) async fn sync_new_plugin(
@@ -46,6 +70,8 @@ pub(super) async fn sync_plugin(
             version: version.version.clone(),
             channel: version.channel.clone(),
             plugin_xml_id: known_plugin.xml_id.clone(),
+            since: None,
+            until: None,
         };
 
         attachment.database.add_update(version.update_id).await?;
@@ -102,6 +128,16 @@ async fn sync_update_dependency_meta(
     let metadata = attachment
         .repo
         .fetch_update_metadata(plugin.numeric_id, version.update_id)
+        .await?;
+
+    attachment
+        .database
+        .set_version_compat_range(
+            &version.plugin_xml_id,
+            &version.version,
+            metadata.since.as_deref(),
+            metadata.until.as_deref(),
+        )
         .await?;
 
     for dependency in metadata.dependencies {

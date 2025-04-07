@@ -1,33 +1,31 @@
-mod error;
-mod db;
-mod args;
 mod api;
+mod args;
+mod db;
+mod error;
 mod meta;
 mod statistics;
 
-use clap::Parser as _;
-use tracing_subscriber::layer::SubscriberExt as _;
-use tracing_subscriber::util::SubscriberInitExt as _;
 use crate::args::IndexerArgs;
 use crate::error::IndexerError;
 use crate::meta::MetadataProcessor;
+use clap::Parser as _;
+use tracing_subscriber::layer::SubscriberExt as _;
+use tracing_subscriber::util::SubscriberInitExt as _;
 
 fn main() {
-    let indicatif_layer = tracing_indicatif::IndicatifLayer::new();
-
     tracing_subscriber::registry()
         .with(tracing_subscriber::EnvFilter::from_env(
             "JB_REPO_INDEXER_LOG",
         ))
-        .with(tracing_subscriber::fmt::layer().with_writer(indicatif_layer.get_stdout_writer()))
-        .with(indicatif_layer)
+        .with(tracing_subscriber::fmt::layer())
         .init();
 
     let args = args::IndexerArgs::parse();
 
     let result = match tokio::runtime::Builder::new_multi_thread()
         .enable_all()
-        .build() {
+        .build()
+    {
         Ok(v) => v.block_on(async_main(args)),
         Err(err) => {
             tracing::error!("Failed to create tokio runtime: {:?}", err);
