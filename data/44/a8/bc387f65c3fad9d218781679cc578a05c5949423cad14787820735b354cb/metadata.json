@@ -5795,6 +5795,23 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
+    "7.83.1-nightly": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9682/710355/Sourcegraph-7.83.1-nightly.zip?updateId=710355&pluginId=9682&family=INTELLIJ",
+      "sha256": "1otjU8DIY50c8R9MPjCaie4V7PH1q5zhDhtxa8dS32M=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "PerforceDirectPlugin",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "Sourcegraph-7.83.1-nightly.zip",
+      "since": "232.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
     "7.9.0-nightly": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9682/660368/Sourcegraph-7.9.0-nightly.zip?updateId=660368&pluginId=9682&family=INTELLIJ",
       "sha256": "6RwcyzBPlzXikSf7v91JObRdwTvz5O62AuCveOISOoY=",
@@ -5829,10 +5846,5 @@
       "until": "243.*",
       "compatibility_overrides": []
     }
-  },
-  "latest": {
-    "experimental": "7.4.2-experimental",
-    "nightly": "7.83.0-nightly",
-    "stable": "7.82.0"
   }
 }

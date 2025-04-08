@@ -749,9 +749,24 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "2.4.6": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24736/710219/uppercut-2.4.6.zip?updateId=710219&pluginId=24736&family=INTELLIJ",
+      "sha256": "hQjmOuGCssC5F0FQxdVk4J02U/udK2s6w6qCWJJALNA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.intellij.intelliLang"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "uppercut-2.4.6.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
-  },
-  "latest": {
-    "stable": "2.4.3"
   }
 }
