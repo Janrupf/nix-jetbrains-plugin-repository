@@ -1,5 +1,40 @@
 {
   "xml_id": "com.bisguard.android.antidecompiler.idea",
   "numeric_id": 12408,
-  "versions": {}
+  "versions": {
+    "0.9": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12408/62216/android_antidecompiler_idea_beta.zip?updateId=62216&pluginId=12408&family=INTELLIJ",
+      "sha256": "bp0vrx5nsO87u+ljD5huhiwsNVzt3w+usEDe7U8vrrA=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "android_antidecompiler_idea_beta.zip",
+      "since": "145.0",
+      "until": "223.*",
+      "compatibility_overrides": []
+    },
+    "2.4.2": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12408/229970/Android_Antidecompiler_Idea_IU_2.4.2.zip?updateId=229970&pluginId=12408&family=INTELLIJ",
+      "sha256": "Y8JSgr3NwTUqf3DeQPcJNAwlfRW8YFe2hRNn/8MOoe4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Android_Antidecompiler_Idea_IU_2.4.2.zip",
+      "since": "222.0",
+      "until": "223.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "999.99999",
+          "compatible_since": "222.0",
+          "compatible_until": "223.*"
+        }
+      ]
+    }
+  }
 }
