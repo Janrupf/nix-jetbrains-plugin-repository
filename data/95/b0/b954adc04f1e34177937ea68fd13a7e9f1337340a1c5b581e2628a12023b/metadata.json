@@ -85,6 +85,27 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "2.2.0": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23413/713369/Push_with_options_Intellij_Plugin-2.2.0.zip?updateId=713369&pluginId=23413&family=INTELLIJ",
+      "sha256": "xk0h4Xj3fhe5JuW00wBcUu2r1/eyJD7+Di9saTF1W7o=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Push_with_options_Intellij_Plugin-2.2.0.zip",
+      "since": "231.*",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.21565",
+          "applies_until": "999.99999",
+          "compatible_since": "231.*",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   }
 }
