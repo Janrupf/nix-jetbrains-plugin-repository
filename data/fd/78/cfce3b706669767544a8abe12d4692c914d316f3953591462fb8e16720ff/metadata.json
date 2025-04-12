@@ -393,8 +393,15 @@
       ],
       "file_name": "PHP_Annotations-11.2.0.zip",
       "since": "242.0",
-      "until": "299.*",
-      "compatibility_overrides": []
+      "until": "251",
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "299.*",
+          "compatible_since": "242.0",
+          "compatible_until": "251"
+        }
+      ]
     },
     "2.6": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7320/19208/php-annotation.jar?updateId=19208&pluginId=7320&family=INTELLIJ",
