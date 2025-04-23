@@ -2,25 +2,6 @@
   "xml_id": "com.dynatrace.intellij-plugin",
   "numeric_id": 25186,
   "versions": {
-    "0.0.3": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/592717/Code_Monitoring-0.0.3.zip?updateId=592717&pluginId=25186&family=INTELLIJ",
-      "sha256": "c1ztJfY+8Ral8xVdW+N2T1DsUj8sTewc3leBkQy3+4c=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "com.intellij.modules.xdebugger"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "file_name": "Code_Monitoring-0.0.3.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "0.0.4": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/593556/Code_Monitoring-0.0.4.zip?updateId=593556&pluginId=25186&family=INTELLIJ",
       "sha256": "Vr5UQSHkZAwwFpER2NDOMhwO5PSzo0hYZYcR6hNM9Rg=",
@@ -36,82 +17,6 @@
         "com.intellij.modules.java"
       ],
       "file_name": "Code_Monitoring-0.0.4.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.0.5": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/593566/Code_Monitoring-0.0.5.zip?updateId=593566&pluginId=25186&family=INTELLIJ",
-      "sha256": "YyKk3WoDhQWvHG7LOU/2DL6BBpa7Wa1rA1ydT8gufzI=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "com.intellij.modules.xdebugger"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "file_name": "Code_Monitoring-0.0.5.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.0.7": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/597071/Code_Monitoring-0.0.7.zip?updateId=597071&pluginId=25186&family=INTELLIJ",
-      "sha256": "an9jRMi4d4C+YBqybyWymDTgzMjouXjQwM6pyMqoE5M=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "com.intellij.modules.xdebugger"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "file_name": "Code_Monitoring-0.0.7.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.0.8": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/600358/Code_Monitoring-0.0.8.zip?updateId=600358&pluginId=25186&family=INTELLIJ",
-      "sha256": "7FWfkA5ULHMA0AHlivN8BQdAPULipXdou1mdjL+7B1g=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "com.intellij.modules.xdebugger"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "file_name": "Code_Monitoring-0.0.8.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.0.9": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/600757/Code_Monitoring-0.0.9.zip?updateId=600757&pluginId=25186&family=INTELLIJ",
-      "sha256": "FvIs0R0ATwDD7K+jDFU7NyvYGLEEizcfet991qMZros=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "com.intellij.modules.xdebugger"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "file_name": "Code_Monitoring-0.0.9.zip",
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
@@ -132,7 +37,7 @@
       ],
       "file_name": "Code_Monitoring-0.1.0.zip",
       "since": "241.0",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": []
     },
     "0.1.1": {
@@ -151,7 +56,7 @@
       ],
       "file_name": "Code_Monitoring-0.1.1.zip",
       "since": "241.0",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": []
     },
     "0.1.2": {
@@ -170,8 +75,15 @@
       ],
       "file_name": "Code_Monitoring-0.1.2.zip",
       "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "243.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "243.*"
+        }
+      ]
     },
     "0.2.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/635881/Code_Monitoring-0.2.2.zip?updateId=635881&pluginId=25186&family=INTELLIJ",
@@ -189,8 +101,15 @@
       ],
       "file_name": "Code_Monitoring-0.2.2.zip",
       "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "243.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "243.*"
+        }
+      ]
     },
     "0.2.3": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/637277/Code_Monitoring-0.2.3.zip?updateId=637277&pluginId=25186&family=INTELLIJ",
@@ -208,8 +127,15 @@
       ],
       "file_name": "Code_Monitoring-0.2.3.zip",
       "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "243.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "243.*"
+        }
+      ]
     },
     "0.3.0": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/654716/Code_Monitoring-0.3.0.zip?updateId=654716&pluginId=25186&family=INTELLIJ",
@@ -227,8 +153,15 @@
       ],
       "file_name": "Code_Monitoring-0.3.0.zip",
       "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "243.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "243.*"
+        }
+      ]
     },
     "0.4.2": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/684021/Dynatrace-valueof_GradlePropertyValueSource_.zip?updateId=684021&pluginId=25186&family=INTELLIJ",
