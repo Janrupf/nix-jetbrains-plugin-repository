@@ -4,9 +4,11 @@
 , pkg-config
 , openssl
 , ...
-}: rustPlatform.buildRustPackage rec {
-  pname = "jb-repo-indexer";
-  version = "0.1.0";
+}: let
+  cargoToml = builtins.fromTOML (builtins.readFile ./Cargo.toml);
+in rustPlatform.buildRustPackage {
+  pname = cargoToml.package.name;
+  version = cargoToml.package.version;
 
   nativeBuildInputs = [
     pkg-config
@@ -19,5 +21,5 @@
   src = ./.;
 
   useFetchCargoVendor = true;
-  cargoHash = "sha256-kWGEO3ez2BJXJxfgMPorTwIo73sM/eG2R7t2w6bHfs0=";
+  cargoHash = "sha256-HQoEEBcNoCqH+5U8U7BbRKxP5rBMfyTq1fnPBPXwXh0=";
 }
