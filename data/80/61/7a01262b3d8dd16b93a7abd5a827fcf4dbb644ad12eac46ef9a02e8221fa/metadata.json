@@ -1,8 +1,8 @@
 {
   "xml_id": "dev.eltonsandre.camunda-starter",
   "numeric_id": 24568,
-  "versions": {
-    "2022.3.0": {
+  "updates": {
+    "550601": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24568/550601/camunda-starter-2022.3.0.zip?updateId=550601&pluginId=24568&family=INTELLIJ",
       "sha256": "7xb4VkrdLFdOJKB36E8zyLnpo0MSecaari2laBU3xVk=",
       "channel": "stable",
@@ -15,20 +15,7 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "2022.3.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24568/551326/camunda-starter-2022.3.1.zip?updateId=551326&pluginId=24568&family=INTELLIJ",
-      "sha256": "V2nz9Edq/CgP4KBBMO3hrwxrVc0y6/EYPnG1qy4ceJ8=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "camunda-starter-2022.3.1.zip",
-      "since": "223.0",
-      "until": "231.*",
-      "compatibility_overrides": []
-    },
-    "2023.2.0": {
+    "550603": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24568/550603/camunda-starter-2023.2.0.zip?updateId=550603&pluginId=24568&family=INTELLIJ",
       "sha256": "k+9taZ6JeazCZRT5aKNmAhd0oDn9UZDFBSKAWMMIE64=",
       "channel": "stable",
@@ -41,20 +28,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "2023.2.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24568/551327/camunda-starter-2023.2.1.zip?updateId=551327&pluginId=24568&family=INTELLIJ",
-      "sha256": "D6aIDKpsT/Uem2kgxPtnXCLDnTUiaIV1EySumKoI7hM=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "camunda-starter-2023.2.1.zip",
-      "since": "232.0",
-      "until": "232.*",
-      "compatibility_overrides": []
-    },
-    "2023.3.0": {
+    "550604": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24568/550604/camunda-starter-2023.3.0.zip?updateId=550604&pluginId=24568&family=INTELLIJ",
       "sha256": "37HTpC8/iL+7k7p6UIaNOfvXh9Q46eyry0oa+q5Zi0o=",
       "channel": "stable",
@@ -67,7 +41,33 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2023.3.1": {
+    "551326": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24568/551326/camunda-starter-2022.3.1.zip?updateId=551326&pluginId=24568&family=INTELLIJ",
+      "sha256": "V2nz9Edq/CgP4KBBMO3hrwxrVc0y6/EYPnG1qy4ceJ8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "camunda-starter-2022.3.1.zip",
+      "since": "223.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "551327": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24568/551327/camunda-starter-2023.2.1.zip?updateId=551327&pluginId=24568&family=INTELLIJ",
+      "sha256": "D6aIDKpsT/Uem2kgxPtnXCLDnTUiaIV1EySumKoI7hM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "camunda-starter-2023.2.1.zip",
+      "since": "232.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "551328": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24568/551328/camunda-starter-2023.3.1.zip?updateId=551328&pluginId=24568&family=INTELLIJ",
       "sha256": "3uoaPf9g0AcQu7nyyrNynQaLLNHmWOCEDmuTFmGoqtc=",
       "channel": "stable",
@@ -79,6 +79,16 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2022.3.0": 550601,
+      "2022.3.1": 551326,
+      "2023.2.0": 550603,
+      "2023.2.1": 551327,
+      "2023.3.0": 550604,
+      "2023.3.1": 551328
     }
   }
 }

@@ -1,8 +1,30 @@
 {
   "xml_id": "com.plugin.agentzero.my_agentzero_plugin",
   "numeric_id": 12982,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "68304": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12982/68304/my_agentzero_plugin-1.0-SNAPSHOT.zip?updateId=68304&pluginId=12982&family=INTELLIJ",
+      "sha256": "rOirriM2M1PesGSLb3tULgyR4Nl5YczK+jnZw7S6zQE=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "my_agentzero_plugin-1.0-SNAPSHOT.zip",
+      "since": "191.7479",
+      "until": "191.*",
+      "compatibility_overrides": []
+    },
+    "68305": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12982/68305/my_agentzero_plugin-1.0-SNAPSHOT.zip?updateId=68305&pluginId=12982&family=INTELLIJ",
+      "sha256": "rOirriM2M1PesGSLb3tULgyR4Nl5YczK+jnZw7S6zQE=",
+      "channel": "alpha",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "my_agentzero_plugin-1.0-SNAPSHOT.zip",
+      "since": "191.7479",
+      "until": "191.*",
+      "compatibility_overrides": []
+    },
+    "68441": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12982/68441/my_agentzero_plugin-1.0-SNAPSHOT.zip?updateId=68441&pluginId=12982&family=INTELLIJ",
       "sha256": "WYCjbr5obs4d1/In1cSdv0LRo1+RlgnPEl5NFw458MM=",
       "channel": "beta",
@@ -14,6 +36,17 @@
       "since": "191.7479",
       "until": "191.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "1.0-SNAPSHOT": 68305
+    },
+    "beta": {
+      "1.0-SNAPSHOT": 68441
+    },
+    "stable": {
+      "1.0-SNAPSHOT": 68304
     }
   }
 }

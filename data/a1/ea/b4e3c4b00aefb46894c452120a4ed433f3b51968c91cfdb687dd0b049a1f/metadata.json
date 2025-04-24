@@ -1,8 +1,21 @@
 {
   "xml_id": "com.brownian.intellij.plugins.pomchecker.PomChecker",
   "numeric_id": 14139,
-  "versions": {
-    "1.0.2": {
+  "updates": {
+    "89831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14139/89831/pomchecker-plugin-1.0.2.zip?updateId=89831&pluginId=14139&family=INTELLIJ",
+      "sha256": "KfnL2kKQu6dQr6N9c14+vBiVMV5d80UILQwzLRms+JQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pomchecker-plugin-1.0.2.zip",
+      "since": "202.5792",
+      "until": "202.*",
+      "compatibility_overrides": []
+    },
+    "89833": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14139/89833/pomchecker-plugin-1.0.2.zip?updateId=89833&pluginId=14139&family=INTELLIJ",
       "sha256": "1SqaCSrrNUK4KApZdzeciCQprctnfeeIIzgHj18Y9UI=",
       "channel": "eap",
@@ -11,11 +24,11 @@
       ],
       "optional_dependencies": [],
       "file_name": "pomchecker-plugin-1.0.2.zip",
-      "since": "201.6668",
-      "until": "201.*",
+      "since": "202.5792",
+      "until": "202.*",
       "compatibility_overrides": []
     },
-    "1.0.3": {
+    "98388": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14139/98388/pomchecker-plugin-1.0.3.zip?updateId=98388&pluginId=14139&family=INTELLIJ",
       "sha256": "90vJAjs7/UpvEWh7MZpA0oexo8KnR0fxRupDztR96bo=",
       "channel": "stable",
@@ -27,6 +40,15 @@
       "since": "202.7319",
       "until": "202.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.0.2": 89833
+    },
+    "stable": {
+      "1.0.2": 89831,
+      "1.0.3": 98388
     }
   }
 }

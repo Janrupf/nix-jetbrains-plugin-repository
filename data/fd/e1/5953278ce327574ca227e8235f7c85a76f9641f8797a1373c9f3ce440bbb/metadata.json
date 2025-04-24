@@ -1,22 +1,8 @@
 {
   "xml_id": "wiki.crowd.doc.python",
   "numeric_id": 11288,
-  "versions": {
-    "0.3.10": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/11288/51990/CrowdDoc4Py.zip?updateId=51990&pluginId=11288&family=INTELLIJ",
-      "sha256": "K2XTQ0ggwKHoyn+FiTNsTsljIK4lQQqP3X+BxrDVqso=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "CrowdDoc4Py.zip",
-      "since": "141.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.3.8": {
+  "updates": {
+    "51813": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11288/51813/CrowdDoc4Py.zip?updateId=51813&pluginId=11288&family=INTELLIJ",
       "sha256": "FXua3fTukl7B79Bw1x/eq0bEPg5K15Qcr6IZBA03mkA=",
       "channel": "stable",
@@ -29,6 +15,26 @@
       "since": "141.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "51990": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11288/51990/CrowdDoc4Py.zip?updateId=51990&pluginId=11288&family=INTELLIJ",
+      "sha256": "K2XTQ0ggwKHoyn+FiTNsTsljIK4lQQqP3X+BxrDVqso=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CrowdDoc4Py.zip",
+      "since": "141.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.3.10": 51990,
+      "0.3.8": 51813
     }
   }
 }

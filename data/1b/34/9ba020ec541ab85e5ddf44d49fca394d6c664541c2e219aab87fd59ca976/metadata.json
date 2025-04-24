@@ -1,8 +1,25 @@
 {
   "xml_id": "com.horizon.plugin",
   "numeric_id": 26861,
-  "versions": {
-    "241.1.0.0.8": {
+  "updates": {
+    "721160": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/721160/meta-horizon-intellij-243-signed.jar?updateId=721160&pluginId=26861&family=INTELLIJ",
+      "sha256": "F6UQjTowUH9WBwB5h71FgOF8bQ0iJSHaTILvLW8MQDo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "meta-horizon-intellij-243-signed.jar",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "721447": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/721447/meta-horizon-intellij-241-signed.jar?updateId=721447&pluginId=26861&family=INTELLIJ",
       "sha256": "qwYPLBxqC23COymqhjE9h4/TBEFeUieqpdCXcvtuSzs=",
       "channel": "stable",
@@ -19,7 +36,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "242.1.0.0.8": {
+    "722098": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/722098/meta-horizon-intellij-242-signed.jar?updateId=722098&pluginId=26861&family=INTELLIJ",
       "sha256": "6T2MFnbNjd4CgTiEeqbaMnnbcFNZ6etXpfwtHByMKrM=",
       "channel": "stable",
@@ -35,23 +52,13 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
-    },
-    "243.1.0.0.8": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/721160/meta-horizon-intellij-243-signed.jar?updateId=721160&pluginId=26861&family=INTELLIJ",
-      "sha256": "F6UQjTowUH9WBwB5h71FgOF8bQ0iJSHaTILvLW8MQDo=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.androidstudio",
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform",
-        "org.jetbrains.android",
-        "org.jetbrains.kotlin"
-      ],
-      "optional_dependencies": [],
-      "file_name": "meta-horizon-intellij-243-signed.jar",
-      "since": "243.0",
-      "until": "243.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "241.1.0.0.8": 721447,
+      "242.1.0.0.8": 722098,
+      "243.1.0.0.8": 721160
     }
   }
 }

@@ -1,8 +1,21 @@
 {
   "xml_id": "viz.plugin.AndroidCommonPlugin",
   "numeric_id": 14419,
-  "versions": {
-    "1.0.11-SNAPSHOT": {
+  "updates": {
+    "89390": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14419/89390/AndroidCommonPlugin-1.0.6-SNAPSHOT.zip?updateId=89390&pluginId=14419&family=INTELLIJ",
+      "sha256": "/KB/Fdp65cb4G0OExdgIb8AUjb1m/yUw3PJQzraCp1g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AndroidCommonPlugin-1.0.6-SNAPSHOT.zip",
+      "since": "201.7223",
+      "until": "201.*",
+      "compatibility_overrides": []
+    },
+    "91441": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14419/91441/AndroidCommonPlugin-1.0.11-SNAPSHOT.zip?updateId=91441&pluginId=14419&family=INTELLIJ",
       "sha256": "+tM6ujRKhPENAu8J6xmxi2UAUZgRLCYH94fMOQrXbPE=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0.12-SNAPSHOT": {
+    "91442": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14419/91442/AndroidCommonPlugin-1.0.12-SNAPSHOT.zip?updateId=91442&pluginId=14419&family=INTELLIJ",
       "sha256": "bfQTDT87/2GQ523HFiiS2aGd0ZH3IM+RO7UEvSaDYgw=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0.13-SNAPSHOT": {
+    "91478": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14419/91478/AndroidCommonPlugin-1.0.13-SNAPSHOT.zip?updateId=91478&pluginId=14419&family=INTELLIJ",
       "sha256": "IZCcrf6JwOluNfZBtD92rjO5hI20t5YfHnaYqMYz3l8=",
       "channel": "stable",
@@ -41,7 +54,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0.14-SNAPSHOT": {
+    "91499": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14419/91499/AndroidCommonPlugin-1.0.14-SNAPSHOT.zip?updateId=91499&pluginId=14419&family=INTELLIJ",
       "sha256": "hdMJbL6LBrn9KCRxP/SgBkBHvrHtnSKYe5OwkKy+7RA=",
       "channel": "stable",
@@ -54,7 +67,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0.15-SNAPSHOT": {
+    "91771": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14419/91771/AndroidCommonPlugin-1.0.15-SNAPSHOT.zip?updateId=91771&pluginId=14419&family=INTELLIJ",
       "sha256": "oKJo7Rr8dTZ0Hmwyq1l8gvgzqQr+f0JZOYDSUhM9ciY=",
       "channel": "stable",
@@ -66,19 +79,16 @@
       "since": "201.7223",
       "until": "201.*",
       "compatibility_overrides": []
-    },
-    "1.0.6-SNAPSHOT": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14419/89390/AndroidCommonPlugin-1.0.6-SNAPSHOT.zip?updateId=89390&pluginId=14419&family=INTELLIJ",
-      "sha256": "/KB/Fdp65cb4G0OExdgIb8AUjb1m/yUw3PJQzraCp1g=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "AndroidCommonPlugin-1.0.6-SNAPSHOT.zip",
-      "since": "201.7223",
-      "until": "201.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.11-SNAPSHOT": 91441,
+      "1.0.12-SNAPSHOT": 91442,
+      "1.0.13-SNAPSHOT": 91478,
+      "1.0.14-SNAPSHOT": 91499,
+      "1.0.15-SNAPSHOT": 91771,
+      "1.0.6-SNAPSHOT": 89390
     }
   }
 }

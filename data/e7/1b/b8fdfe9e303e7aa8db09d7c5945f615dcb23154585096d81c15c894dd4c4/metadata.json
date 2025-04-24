@@ -1,8 +1,21 @@
 {
   "xml_id": "com.ronformat",
   "numeric_id": 12344,
-  "versions": {
-    "0.3": {
+  "updates": {
+    "61749": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12344/61749/RonFormat-0.3.zip?updateId=61749&pluginId=12344&family=INTELLIJ",
+      "sha256": "uSN+0qhiCyeEYJ/577GyJd8eL5a1qGfkUlzgF1/ed/I=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "RonFormat-0.3.zip",
+      "since": "191.6183",
+      "until": "191.*",
+      "compatibility_overrides": []
+    },
+    "61809": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12344/61809/RonFormat-0.3.zip?updateId=61809&pluginId=12344&family=INTELLIJ",
       "sha256": "stMVYNEHeueuDpWC5/sKRTx9ImeYpqzWo6tzooGw00Q=",
       "channel": "stable",
@@ -15,7 +28,20 @@
       "until": "191.*",
       "compatibility_overrides": []
     },
-    "0.3.1": {
+    "61810": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12344/61810/RonFormat-0.3.1.zip?updateId=61810&pluginId=12344&family=INTELLIJ",
+      "sha256": "512+CpbCG2Ea2/+Rh5BKOxifpYDkh7GL35YQ5U8iilQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "RonFormat-0.3.1.zip",
+      "since": "191.6183",
+      "until": "191.*",
+      "compatibility_overrides": []
+    },
+    "62051": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12344/62051/RonFormat-0.3.1.zip?updateId=62051&pluginId=12344&family=INTELLIJ",
       "sha256": "67oTDTmmK69SV51Y7VKa7POQ6Kx4eK1PEV8GrsFEnbQ=",
       "channel": "stable",
@@ -27,6 +53,16 @@
       "since": "191.6183",
       "until": "191.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "0.3": 61749,
+      "0.3.1": 61810
+    },
+    "stable": {
+      "0.3": 61809,
+      "0.3.1": 62051
     }
   }
 }

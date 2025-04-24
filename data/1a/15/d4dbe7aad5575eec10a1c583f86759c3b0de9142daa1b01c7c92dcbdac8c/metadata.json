@@ -1,8 +1,23 @@
 {
   "xml_id": "ch.abacus.importandbuild",
   "numeric_id": 16724,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "118885": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16724/118885/ImportAndBuild-1.0-SNAPSHOT.zip?updateId=118885&pluginId=16724&family=INTELLIJ",
+      "sha256": "2dpMu5LKluFMMlOL8Yo6BPA/4hVLjbo9Xj4iSNJVMkY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ImportAndBuild-1.0-SNAPSHOT.zip",
+      "since": "211.6693",
+      "until": "211.*",
+      "compatibility_overrides": []
+    },
+    "119891": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16724/119891/ImportAndBuild-1.0-SNAPSHOT.zip?updateId=119891&pluginId=16724&family=INTELLIJ",
       "sha256": "5bJqszU33eN7FHD67//209KNEKITKaunKRaUUQ5DU24=",
       "channel": "stable",
@@ -17,7 +32,7 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "1.1": {
+    "132185": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16724/132185/ImportAndBuild-1.1.zip?updateId=132185&pluginId=16724&family=INTELLIJ",
       "sha256": "9QKeBY7HX8br8OJjKqWweo10sVbZfsFPbJJK4UOns0w=",
       "channel": "stable",
@@ -32,7 +47,7 @@
       "until": "212.*",
       "compatibility_overrides": []
     },
-    "1.2": {
+    "134214": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16724/134214/ImportAndBuild-1.2.zip?updateId=134214&pluginId=16724&family=INTELLIJ",
       "sha256": "aYDvKuQzJJUIuVgvRsHkt6xrVi0E0yA1ACauFK4exsM=",
       "channel": "stable",
@@ -47,7 +62,7 @@
       "until": "212.*",
       "compatibility_overrides": []
     },
-    "1.3": {
+    "156277": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16724/156277/ImportAndBuild-1.3.zip?updateId=156277&pluginId=16724&family=INTELLIJ",
       "sha256": "gDfHl30EFDC20B5t3Q833iIfCZbsczkOFL0fwXswpZI=",
       "channel": "stable",
@@ -62,7 +77,7 @@
       "until": "213.*",
       "compatibility_overrides": []
     },
-    "1.4": {
+    "167781": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16724/167781/ImportAndBuild-1.4.zip?updateId=167781&pluginId=16724&family=INTELLIJ",
       "sha256": "i1T5U5wadrutrZBFoHH4kRMRvax9PFOKHnMDUq9pYzs=",
       "channel": "stable",
@@ -77,7 +92,7 @@
       "until": "221.*",
       "compatibility_overrides": []
     },
-    "1.5": {
+    "216504": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16724/216504/ImportAndBuild-1.5.zip?updateId=216504&pluginId=16724&family=INTELLIJ",
       "sha256": "rrRTTFSFcEr05PBQs8+wgeth/WO+4e/84f9eq0t0a2I=",
       "channel": "stable",
@@ -91,6 +106,19 @@
       "since": "203.0",
       "until": "251.0",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.0-SNAPSHOT": 118885
+    },
+    "stable": {
+      "1.0-SNAPSHOT": 119891,
+      "1.1": 132185,
+      "1.2": 134214,
+      "1.3": 156277,
+      "1.4": 167781,
+      "1.5": 216504
     }
   }
 }

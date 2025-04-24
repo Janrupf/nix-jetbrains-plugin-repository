@@ -1,8 +1,21 @@
 {
   "xml_id": "monokai-pro-forked",
   "numeric_id": 14193,
-  "versions": {
-    "0.1": {
+  "updates": {
+    "84680": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14193/84680/monokai-pro.jar?updateId=84680&pluginId=14193&family=INTELLIJ",
+      "sha256": "eEui5gCYQFHzObCvmDa+P/FJcy2g9WrbvSDQnaZ+BXQ=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "monokai-pro.jar",
+      "since": "191.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "84692": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14193/84692/monokai-pro.jar?updateId=84692&pluginId=14193&family=INTELLIJ",
       "sha256": "OJdidmpGaORttlXFxHwdWe9Fy579cREtv8exkHk91B0=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.2": {
+    "84754": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14193/84754/monokai-pro.jar?updateId=84754&pluginId=14193&family=INTELLIJ",
       "sha256": "cQGHellVGhRH7orC3rOUNhRXP/enmGNVyneUCJQ0AEE=",
       "channel": "stable",
@@ -27,6 +40,15 @@
       "since": "191.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.1": 84680
+    },
+    "stable": {
+      "0.1": 84692,
+      "0.2": 84754
     }
   }
 }

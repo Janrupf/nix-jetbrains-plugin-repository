@@ -1,8 +1,19 @@
 {
   "xml_id": "vosk.ruta.ruta-idea-plugin",
   "numeric_id": 12212,
-  "versions": {
-    "0.0.1": {
+  "updates": {
+    "60529": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12212/60529/ruta-jetbrains-plugin-0.0.1.zip?updateId=60529&pluginId=12212&family=INTELLIJ",
+      "sha256": "hYdOiHjq9uomhvCgVO33sOp9irLAXMEFeLcyogefK+8=",
+      "channel": "beta",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "ruta-jetbrains-plugin-0.0.1.zip",
+      "since": "183.5",
+      "until": "191.*",
+      "compatibility_overrides": []
+    },
+    "60530": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12212/60530/ruta-jetbrains-plugin-0.0.1.zip?updateId=60530&pluginId=12212&family=INTELLIJ",
       "sha256": "hYdOiHjq9uomhvCgVO33sOp9irLAXMEFeLcyogefK+8=",
       "channel": "alpha",
@@ -13,7 +24,7 @@
       "until": "191.*",
       "compatibility_overrides": []
     },
-    "0.0.2": {
+    "60625": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12212/60625/ruta-jetbrains-plugin-0.0.2.zip?updateId=60625&pluginId=12212&family=INTELLIJ",
       "sha256": "eeDmyQEzLRSdW1LHCTS0VeI83o4htJRuDRHw92OlGAs=",
       "channel": "alpha",
@@ -23,6 +34,15 @@
       "since": "183.5",
       "until": "191.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.0.1": 60530,
+      "0.0.2": 60625
+    },
+    "beta": {
+      "0.0.1": 60529
     }
   }
 }

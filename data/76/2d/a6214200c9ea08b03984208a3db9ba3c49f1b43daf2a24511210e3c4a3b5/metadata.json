@@ -1,8 +1,8 @@
 {
   "xml_id": "com.ai.boy.translate",
   "numeric_id": 27117,
-  "versions": {
-    "2.1.0": {
+  "updates": {
+    "720232": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27117/720232/Translate-AI-2.1.0.zip?updateId=720232&pluginId=27117&family=INTELLIJ",
       "sha256": "3Luyr2H0K16z9AEKL6N0UTULr8lSooQ4X6QN3DQE5Yg=",
       "channel": "stable",
@@ -15,7 +15,7 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "2.1.1": {
+    "721473": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27117/721473/Translate-AI-2.1.1.zip?updateId=721473&pluginId=27117&family=INTELLIJ",
       "sha256": "LvM1tfcyAXDdculWvAEnBSMVxpz7AyzcP2DMeo2SbO0=",
       "channel": "stable",
@@ -27,6 +27,26 @@
       "since": "231.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "722173": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27117/722173/Translate-AI-2.1.2.zip?updateId=722173&pluginId=27117&family=INTELLIJ",
+      "sha256": "CosAwoCs//rn/d6N0zbM0l1NGkoecUaJJfCDj/IBtC4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Translate-AI-2.1.2.zip",
+      "since": "231.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.1.0": 720232,
+      "2.1.1": 721473,
+      "2.1.2": 722173
     }
   }
 }

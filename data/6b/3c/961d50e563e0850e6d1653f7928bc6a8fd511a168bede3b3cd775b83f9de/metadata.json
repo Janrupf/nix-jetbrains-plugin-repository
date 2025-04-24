@@ -1,23 +1,8 @@
 {
   "xml_id": "cn.yangtuooc.gin",
   "numeric_id": 23408,
-  "versions": {
-    "1.0.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23408/523109/gin-endpoints-1.0.1.jar?updateId=523109&pluginId=23408&family=INTELLIJ",
-      "sha256": "eTfgH+1yip0abVGn605WLq0xcKtcrKmt9fjij5/9gwo=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.microservices",
-        "com.intellij.modules.ultimate",
-        "org.jetbrains.plugins.go"
-      ],
-      "optional_dependencies": [],
-      "file_name": "gin-endpoints-1.0.1.jar",
-      "since": "233.0",
-      "until": "241.*",
-      "compatibility_overrides": []
-    },
-    "231.8109.2": {
+  "updates": {
+    "458747": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23408/458747/gin-endpoints-231.8109.2.jar?updateId=458747&pluginId=23408&family=INTELLIJ",
       "sha256": "Vs9Na7BNE2Sz/Mo2FJIkUPXZ+1hra3ect+hBaDDGjgU=",
       "channel": "stable",
@@ -32,7 +17,7 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "232.9921.28": {
+    "458748": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23408/458748/gin-endpoints-232.9921.28.jar?updateId=458748&pluginId=23408&family=INTELLIJ",
       "sha256": "svYNF2RL7ZMreaVIL5RqcUsKeFwyqw3zpIxfbrtjbPQ=",
       "channel": "stable",
@@ -47,7 +32,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "233.11799.196": {
+    "458941": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23408/458941/gin-endpoints-233.11799.196.jar?updateId=458941&pluginId=23408&family=INTELLIJ",
       "sha256": "v7KNqKMPoBmO1SAryploGVw/Ytv+6++J0slAwUs8QVA=",
       "channel": "stable",
@@ -61,6 +46,29 @@
       "since": "233.11799.196",
       "until": "233.*",
       "compatibility_overrides": []
+    },
+    "523109": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23408/523109/gin-endpoints-1.0.1.jar?updateId=523109&pluginId=23408&family=INTELLIJ",
+      "sha256": "eTfgH+1yip0abVGn605WLq0xcKtcrKmt9fjij5/9gwo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.microservices",
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gin-endpoints-1.0.1.jar",
+      "since": "233.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.1": 523109,
+      "231.8109.2": 458747,
+      "232.9921.28": 458748,
+      "233.11799.196": 458941
     }
   }
 }

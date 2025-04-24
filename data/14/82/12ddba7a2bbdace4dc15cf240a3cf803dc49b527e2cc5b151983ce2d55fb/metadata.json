@@ -1,21 +1,8 @@
 {
   "xml_id": "xyz.block.kotlin-formatter",
   "numeric_id": 26482,
-  "versions": {
-    "1.0.3": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26482/684497/kotlin-formatter-1.0.3.zip?updateId=684497&pluginId=26482&family=INTELLIJ",
-      "sha256": "cvsGco9rcoSFpu/jWgUpOx7UxLQggHapQuFMZiUcUe8=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "kotlin-formatter-1.0.3.zip",
-      "since": "233.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
-    "1.0.3-SNAPSHOT": {
+  "updates": {
+    "677071": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26482/677071/kotlin-formatter.zip?updateId=677071&pluginId=26482&family=INTELLIJ",
       "sha256": "NDi5/KzfxQFsdUFlFIRbxMtTDoIiUZuFXHBVT7jkkQU=",
       "channel": "stable",
@@ -28,7 +15,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.0.3-SNAPSHOT-2": {
+    "684201": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26482/684201/kotlin-formatter-1.0.3-SNAPSHOT-2.zip?updateId=684201&pluginId=26482&family=INTELLIJ",
       "sha256": "jF4EHG2t+8uRtBOB13FprnRaFu0h2K01O8VOevb+JB0=",
       "channel": "stable",
@@ -41,7 +28,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.0.3.1": {
+    "684207": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26482/684207/kotlin-formatter-1.0.3.1.zip?updateId=684207&pluginId=26482&family=INTELLIJ",
       "sha256": "nXjUvF4zUBLmhekCubiuZxQ3me99rFaHpXjfCkBgpSs=",
       "channel": "stable",
@@ -54,7 +41,20 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.1.0": {
+    "684497": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26482/684497/kotlin-formatter-1.0.3.zip?updateId=684497&pluginId=26482&family=INTELLIJ",
+      "sha256": "cvsGco9rcoSFpu/jWgUpOx7UxLQggHapQuFMZiUcUe8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kotlin-formatter-1.0.3.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "704868": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26482/704868/kotlin-formatter-1.1.0.zip?updateId=704868&pluginId=26482&family=INTELLIJ",
       "sha256": "struoxFK6uNLT5Gu8namvYbFFGh0HE/mavjYL5Wd/zs=",
       "channel": "stable",
@@ -66,6 +66,15 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.3": 684497,
+      "1.0.3-SNAPSHOT": 677071,
+      "1.0.3-SNAPSHOT-2": 684201,
+      "1.0.3.1": 684207,
+      "1.1.0": 704868
     }
   }
 }

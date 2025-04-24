@@ -1,8 +1,28 @@
 {
   "xml_id": "com.github.mfedko.idea.plugins.filelanguage",
   "numeric_id": 7404,
-  "versions": {
-    "0.0.1": {
+  "updates": {
+    "15323": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7404/15323/idea-file-language.jar?updateId=15323&pluginId=7404&family=INTELLIJ",
+      "sha256": "k2uV5mICivbq4NdUf+TaTwIY7N5q7lc3pxwPfHYBTr0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-file-language.jar",
+      "since": "133.0",
+      "until": "133.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "133.0",
+          "applies_until": "999.99999",
+          "compatible_since": "133.0",
+          "compatible_until": "133.*"
+        }
+      ]
+    },
+    "15402": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7404/15402/idea-file-language.jar?updateId=15402&pluginId=7404&family=INTELLIJ",
       "sha256": "zvvRhtTn1bmiSe6liOMKniDKinEakv3PC+ZevvxPEeQ=",
       "channel": "stable",
@@ -22,7 +42,7 @@
         }
       ]
     },
-    "0.0.2": {
+    "21710": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7404/21710/idea-file-language.jar?updateId=21710&pluginId=7404&family=INTELLIJ",
       "sha256": "c8+JK0qnsJURi1hDL7XYKMIOo7ew5iz5jN8/ySFupzY=",
       "channel": "stable",
@@ -42,7 +62,7 @@
         }
       ]
     },
-    "0.0.3": {
+    "21724": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7404/21724/idea-file-language.jar?updateId=21724&pluginId=7404&family=INTELLIJ",
       "sha256": "U56IdomgVMVX+7qmqEa3mVo8hwi3J1qwzC2mrn15yLI=",
       "channel": "stable",
@@ -62,7 +82,7 @@
         }
       ]
     },
-    "0.1.1": {
+    "21747": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7404/21747/idea-file-language-0.1.1.zip?updateId=21747&pluginId=7404&family=INTELLIJ",
       "sha256": "ftXnCmNTDj3x8kfbOAIVwgdGNPQBkB+xylfA+s88fgw=",
       "channel": "stable",
@@ -82,7 +102,7 @@
         }
       ]
     },
-    "0.1.2": {
+    "26262": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7404/26262/idea-file-language.zip?updateId=26262&pluginId=7404&family=INTELLIJ",
       "sha256": "yvT1UwSUogiqMiNu1NNxYPUG08ikZDf/T/ccygMUAOM=",
       "channel": "stable",
@@ -95,7 +115,7 @@
       "until": "145.*",
       "compatibility_overrides": []
     },
-    "0.1.3": {
+    "44786": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7404/44786/idea-file-language.jar?updateId=44786&pluginId=7404&family=INTELLIJ",
       "sha256": "gE6Qt2dShfzfgF7WyTqiNNZfr2K/Ur+unlog9yoDIyo=",
       "channel": "stable",
@@ -108,7 +128,7 @@
       "until": "181.*",
       "compatibility_overrides": []
     },
-    "2020.1": {
+    "80866": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7404/80866/idea-file-language.zip?updateId=80866&pluginId=7404&family=INTELLIJ",
       "sha256": "X306nQEyTJNH2ABEayPnG1yONy93UyBV524wVms0omA=",
       "channel": "stable",
@@ -120,6 +140,17 @@
       "since": "193.5233",
       "until": "193.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1": 15402,
+      "0.0.2": 21710,
+      "0.0.3": 21724,
+      "0.1.1": 21747,
+      "0.1.2": 26262,
+      "0.1.3": 44786,
+      "2020.1": 80866
     }
   }
 }

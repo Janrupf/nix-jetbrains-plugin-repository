@@ -1,8 +1,8 @@
 {
   "xml_id": "ai.expert.studio",
   "numeric_id": 15289,
-  "versions": {
-    "2.3.35-SNAPSHOT": {
+  "updates": {
+    "100804": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/100804/cogito-ide-2.3.35-SNAPSHOT.zip?updateId=100804&pluginId=15289&family=INTELLIJ",
       "sha256": "sTWAey8yXPbMN/8b2qKvB8HY7oNBVHq5CwfVHeAok6Y=",
       "channel": "beta",
@@ -15,7 +15,27 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.4.0": {
+    "102217": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/102217/cogito-ide-2.4.0.zip?updateId=102217&pluginId=15289&family=INTELLIJ",
+      "sha256": "J8xrL1PLBwVVAt5MCWlhb4DSe/+d3Z/BF1X6HZ2nORk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-2.4.0.zip",
+      "since": "202.0",
+      "until": "202.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "202.0",
+          "applies_until": "999.99999",
+          "compatible_since": "202.0",
+          "compatible_until": "202.*"
+        }
+      ]
+    },
+    "102379": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/102379/cogito-ide-2.4.0.zip?updateId=102379&pluginId=15289&family=INTELLIJ",
       "sha256": "J8xrL1PLBwVVAt5MCWlhb4DSe/+d3Z/BF1X6HZ2nORk=",
       "channel": "studio",
@@ -35,59 +55,20 @@
         }
       ]
     },
-    "2.4.10": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/105619/cogito-ide-2.4.10.zip?updateId=105619&pluginId=15289&family=INTELLIJ",
-      "sha256": "AtWty84yKrzR1j9o/h9bWsx2VViG5oI+v/0xZ+M0F8g=",
+    "102442": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/102442/cogito-ide-2.4.2.zip?updateId=102442&pluginId=15289&family=INTELLIJ",
+      "sha256": "VVfzfNSDz6OCBKyDHt9CrMX+6I+jB+XP98cUtTBJaQU=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
-      "file_name": "cogito-ide-2.4.10.zip",
+      "file_name": "cogito-ide-2.4.2.zip",
       "since": "202.0",
-      "until": "203.*",
+      "until": "202.*",
       "compatibility_overrides": []
     },
-    "2.4.12": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/106118/cogito-ide-2.4.12.zip?updateId=106118&pluginId=15289&family=INTELLIJ",
-      "sha256": "w/nwzO11LWU6lOPFOAel1a8sDh8Z0hZTHd6Baf/N7Ck=",
-      "channel": "studio",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "cogito-ide-2.4.12.zip",
-      "since": "202.0",
-      "until": "203.*",
-      "compatibility_overrides": []
-    },
-    "2.4.14": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/113457/cogito-ide-2.4.14.zip?updateId=113457&pluginId=15289&family=INTELLIJ",
-      "sha256": "kpLXwn1DOUwoWMH0qNXl+TyjVcI66eHA4U7xPz5iX5k=",
-      "channel": "studio",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "cogito-ide-2.4.14.zip",
-      "since": "202.0",
-      "until": "203.*",
-      "compatibility_overrides": []
-    },
-    "2.4.16": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/113797/cogito-ide-2.4.16.zip?updateId=113797&pluginId=15289&family=INTELLIJ",
-      "sha256": "dDUuMHdr8uWhqBB/X80ffSUPKghh1OiUHzRURtnW/oA=",
-      "channel": "studio",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "cogito-ide-2.4.16.zip",
-      "since": "202.0",
-      "until": "203.*",
-      "compatibility_overrides": []
-    },
-    "2.4.2": {
+    "102443": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/102443/cogito-ide-2.4.2.zip?updateId=102443&pluginId=15289&family=INTELLIJ",
       "sha256": "VVfzfNSDz6OCBKyDHt9CrMX+6I+jB+XP98cUtTBJaQU=",
       "channel": "studio",
@@ -100,7 +81,7 @@
       "until": "202.*",
       "compatibility_overrides": []
     },
-    "2.4.3-SNAPSHOT": {
+    "103012": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/103012/cogito-ide-2.4.3-SNAPSHOT.zip?updateId=103012&pluginId=15289&family=INTELLIJ",
       "sha256": "j9gwYPaK6Vnm1Ho5rrkC8K46tSI4nDOjPM8/Q3ESp/c=",
       "channel": "beta",
@@ -113,7 +94,7 @@
       "until": "202.*",
       "compatibility_overrides": []
     },
-    "2.4.4-SNAPSHOT": {
+    "103531": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/103531/cogito-ide-2.4.4-SNAPSHOT.zip?updateId=103531&pluginId=15289&family=INTELLIJ",
       "sha256": "h4gjv8KMxdqtKOegG5C/bgsnudmUdj4QI11hrEf50qQ=",
       "channel": "beta",
@@ -126,7 +107,20 @@
       "until": "202.*",
       "compatibility_overrides": []
     },
-    "2.4.5": {
+    "104145": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/104145/cogito-ide-2.4.5.zip?updateId=104145&pluginId=15289&family=INTELLIJ",
+      "sha256": "sVvpiOACUNAJCca/9TJByl0Gald9YZkr40iglQOGPmU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-2.4.5.zip",
+      "since": "202.0",
+      "until": "202.*",
+      "compatibility_overrides": []
+    },
+    "104146": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/104146/cogito-ide-2.4.5.zip?updateId=104146&pluginId=15289&family=INTELLIJ",
       "sha256": "sVvpiOACUNAJCca/9TJByl0Gald9YZkr40iglQOGPmU=",
       "channel": "studio",
@@ -139,7 +133,20 @@
       "until": "202.*",
       "compatibility_overrides": []
     },
-    "2.4.6": {
+    "104147": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/104147/cogito-ide-2.4.6.zip?updateId=104147&pluginId=15289&family=INTELLIJ",
+      "sha256": "8Jz0YSFq/lg+xtx7691MeEZyMLWCFB0H1U0ZkeucaIA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-2.4.6.zip",
+      "since": "202.0",
+      "until": "202.*",
+      "compatibility_overrides": []
+    },
+    "104149": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/104149/cogito-ide-2.4.6.zip?updateId=104149&pluginId=15289&family=INTELLIJ",
       "sha256": "8Jz0YSFq/lg+xtx7691MeEZyMLWCFB0H1U0ZkeucaIA=",
       "channel": "studio",
@@ -152,7 +159,7 @@
       "until": "202.*",
       "compatibility_overrides": []
     },
-    "2.4.8": {
+    "105535": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/105535/cogito-ide-2.4.8.zip?updateId=105535&pluginId=15289&family=INTELLIJ",
       "sha256": "PlF1OqKEMStEPyjgHMsLCcYPdmX3iFIDGiQ4BGCPekU=",
       "channel": "stable",
@@ -165,7 +172,46 @@
       "until": "203.*",
       "compatibility_overrides": []
     },
-    "3.0.0": {
+    "105619": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/105619/cogito-ide-2.4.10.zip?updateId=105619&pluginId=15289&family=INTELLIJ",
+      "sha256": "AtWty84yKrzR1j9o/h9bWsx2VViG5oI+v/0xZ+M0F8g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-2.4.10.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
+    },
+    "106117": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/106117/cogito-ide-2.4.12.zip?updateId=106117&pluginId=15289&family=INTELLIJ",
+      "sha256": "w/nwzO11LWU6lOPFOAel1a8sDh8Z0hZTHd6Baf/N7Ck=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-2.4.12.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
+    },
+    "106118": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/106118/cogito-ide-2.4.12.zip?updateId=106118&pluginId=15289&family=INTELLIJ",
+      "sha256": "w/nwzO11LWU6lOPFOAel1a8sDh8Z0hZTHd6Baf/N7Ck=",
+      "channel": "studio",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-2.4.12.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
+    },
+    "106143": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/106143/cogito-ide-3.0.0.zip?updateId=106143&pluginId=15289&family=INTELLIJ",
       "sha256": "T/YgIb7D426s2DQwno58YYnwrMnyZdaz+A5Nq0liw+A=",
       "channel": "beta",
@@ -178,7 +224,7 @@
       "until": "203.*",
       "compatibility_overrides": []
     },
-    "3.0.1": {
+    "107164": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/107164/cogito-ide-3.0.1.zip?updateId=107164&pluginId=15289&family=INTELLIJ",
       "sha256": "DgGfisk/3wj8ckWU+T+Ip1s2D4jwlnDZNIeQmcnbZ8s=",
       "channel": "beta",
@@ -191,7 +237,7 @@
       "until": "203.*",
       "compatibility_overrides": []
     },
-    "3.1.3-SNAPSHOT": {
+    "109513": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/109513/cogito-ide-3.1.3-SNAPSHOT.zip?updateId=109513&pluginId=15289&family=INTELLIJ",
       "sha256": "Ec1hkw4SMvqe/5rqpmRBLSegUC1AeqB/lwRXRMWBNos=",
       "channel": "beta",
@@ -204,7 +250,7 @@
       "until": "203.*",
       "compatibility_overrides": []
     },
-    "3.1.5-SNAPSHOT": {
+    "109872": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/109872/cogito-ide-3.1.5-SNAPSHOT.zip?updateId=109872&pluginId=15289&family=INTELLIJ",
       "sha256": "/dqZD+o05ONlbkO3m6xx7CUAnlmmVtWdEWdVdQb9K2I=",
       "channel": "beta",
@@ -217,72 +263,7 @@
       "until": "203.*",
       "compatibility_overrides": []
     },
-    "3.10.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/125118/studio-core-3.10.1.zip?updateId=125118&pluginId=15289&family=INTELLIJ",
-      "sha256": "XJ9pdOXn2pRtj9UDGmD4vQdiEBTjPgRDhY2QJ1NqxTQ=",
-      "channel": "studio",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "studio-core-3.10.1.zip",
-      "since": "203.0",
-      "until": "211.*",
-      "compatibility_overrides": []
-    },
-    "3.10.2": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/125477/studio-core-3.10.2.zip?updateId=125477&pluginId=15289&family=INTELLIJ",
-      "sha256": "rNy+xN0iAVokM0YsS/cHH848/q23EzwDnjJsgS5w9YQ=",
-      "channel": "studio",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "studio-core-3.10.2.zip",
-      "since": "203.0",
-      "until": "211.*",
-      "compatibility_overrides": []
-    },
-    "3.16.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/150528/studio-core-3.16.1.zip?updateId=150528&pluginId=15289&family=INTELLIJ",
-      "sha256": "YlmlW92MyqLTg/x62KWCaF/4xltBaaC1QSz0C8ZTIDk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "studio-core-3.16.1.zip",
-      "since": "203.0",
-      "until": "213.*",
-      "compatibility_overrides": []
-    },
-    "3.16.2": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/150699/studio-core-3.16.2.zip?updateId=150699&pluginId=15289&family=INTELLIJ",
-      "sha256": "NdiAgC/60QJsyyvrdRB/rNe76L6w4NyeCtkNgECLswI=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "studio-core-3.16.2.zip",
-      "since": "211.0",
-      "until": "213.*",
-      "compatibility_overrides": []
-    },
-    "3.16.5": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/157108/studio-core-3.16.5.zip?updateId=157108&pluginId=15289&family=INTELLIJ",
-      "sha256": "kcgosotQ7mjJFhp0vagsInSvnV2MaG/AxEzivmAkmMU=",
-      "channel": "studio",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "studio-core-3.16.5.zip",
-      "since": "211.0",
-      "until": "213.*",
-      "compatibility_overrides": []
-    },
-    "3.2.0-BETA": {
+    "111588": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/111588/cogito-ide-3.2.0-BETA.zip?updateId=111588&pluginId=15289&family=INTELLIJ",
       "sha256": "Qy6xfHs226pwxS8UOpz9IjqPNc4Cf9/8UaX9i/B8eks=",
       "channel": "beta",
@@ -295,33 +276,72 @@
       "until": "203.*",
       "compatibility_overrides": []
     },
-    "3.20.5": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/169325/studio-core-3.20.5.zip?updateId=169325&pluginId=15289&family=INTELLIJ",
-      "sha256": "LpnQaFoirTXMIniq3J9RPD7FYYnEvRQlDkwl/7IwjKI=",
+    "113440": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/113440/cogito-ide-2.4.14.zip?updateId=113440&pluginId=15289&family=INTELLIJ",
+      "sha256": "kpLXwn1DOUwoWMH0qNXl+TyjVcI66eHA4U7xPz5iX5k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-2.4.14.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
+    },
+    "113457": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/113457/cogito-ide-2.4.14.zip?updateId=113457&pluginId=15289&family=INTELLIJ",
+      "sha256": "kpLXwn1DOUwoWMH0qNXl+TyjVcI66eHA4U7xPz5iX5k=",
       "channel": "studio",
       "dependencies": [
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
-      "file_name": "studio-core-3.20.5.zip",
-      "since": "211.0",
-      "until": "213.*",
+      "file_name": "cogito-ide-2.4.14.zip",
+      "since": "202.0",
+      "until": "203.*",
       "compatibility_overrides": []
     },
-    "3.20.6": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/170673/studio-core-3.20.6.zip?updateId=170673&pluginId=15289&family=INTELLIJ",
-      "sha256": "IBFBoERZTD164JN74gK5Jd+V9b3MC8dnWWm9A2UlIa0=",
+    "113796": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/113796/cogito-ide-2.4.16.zip?updateId=113796&pluginId=15289&family=INTELLIJ",
+      "sha256": "dDUuMHdr8uWhqBB/X80ffSUPKghh1OiUHzRURtnW/oA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-2.4.16.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
+    },
+    "113797": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/113797/cogito-ide-2.4.16.zip?updateId=113797&pluginId=15289&family=INTELLIJ",
+      "sha256": "dDUuMHdr8uWhqBB/X80ffSUPKghh1OiUHzRURtnW/oA=",
       "channel": "studio",
       "dependencies": [
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
-      "file_name": "studio-core-3.20.6.zip",
-      "since": "211.0",
-      "until": "221.*",
+      "file_name": "cogito-ide-2.4.16.zip",
+      "since": "202.0",
+      "until": "203.*",
       "compatibility_overrides": []
     },
-    "3.4.0": {
+    "114759": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/114759/cogito-ide-3.4.0.zip?updateId=114759&pluginId=15289&family=INTELLIJ",
+      "sha256": "rcb9e44eoMcBQUNUjgQ/kl5C1jTBuU/QvSy2lKN6Qt8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cogito-ide-3.4.0.zip",
+      "since": "203.0",
+      "until": "211.*",
+      "compatibility_overrides": []
+    },
+    "114760": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/114760/cogito-ide-3.4.0.zip?updateId=114760&pluginId=15289&family=INTELLIJ",
       "sha256": "rcb9e44eoMcBQUNUjgQ/kl5C1jTBuU/QvSy2lKN6Qt8=",
       "channel": "studio",
@@ -334,7 +354,20 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "3.6.0": {
+    "118588": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/118588/studio-core-3.6.0.zip?updateId=118588&pluginId=15289&family=INTELLIJ",
+      "sha256": "LCGJJa6xJv7ZDtlnLCivRB2rof5LsTvVc43W+KMu3/I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.6.0.zip",
+      "since": "203.0",
+      "until": "211.*",
+      "compatibility_overrides": []
+    },
+    "118589": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/118589/studio-core-3.6.0.zip?updateId=118589&pluginId=15289&family=INTELLIJ",
       "sha256": "LCGJJa6xJv7ZDtlnLCivRB2rof5LsTvVc43W+KMu3/I=",
       "channel": "studio",
@@ -346,6 +379,196 @@
       "since": "203.0",
       "until": "211.*",
       "compatibility_overrides": []
+    },
+    "125118": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/125118/studio-core-3.10.1.zip?updateId=125118&pluginId=15289&family=INTELLIJ",
+      "sha256": "XJ9pdOXn2pRtj9UDGmD4vQdiEBTjPgRDhY2QJ1NqxTQ=",
+      "channel": "studio",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.10.1.zip",
+      "since": "203.0",
+      "until": "211.*",
+      "compatibility_overrides": []
+    },
+    "125476": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/125476/studio-core-3.10.2.zip?updateId=125476&pluginId=15289&family=INTELLIJ",
+      "sha256": "rNy+xN0iAVokM0YsS/cHH848/q23EzwDnjJsgS5w9YQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.10.2.zip",
+      "since": "203.0",
+      "until": "211.*",
+      "compatibility_overrides": []
+    },
+    "125477": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/125477/studio-core-3.10.2.zip?updateId=125477&pluginId=15289&family=INTELLIJ",
+      "sha256": "rNy+xN0iAVokM0YsS/cHH848/q23EzwDnjJsgS5w9YQ=",
+      "channel": "studio",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.10.2.zip",
+      "since": "203.0",
+      "until": "211.*",
+      "compatibility_overrides": []
+    },
+    "150528": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/150528/studio-core-3.16.1.zip?updateId=150528&pluginId=15289&family=INTELLIJ",
+      "sha256": "YlmlW92MyqLTg/x62KWCaF/4xltBaaC1QSz0C8ZTIDk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.16.1.zip",
+      "since": "203.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "150698": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/150698/studio-core-3.16.2.zip?updateId=150698&pluginId=15289&family=INTELLIJ",
+      "sha256": "NdiAgC/60QJsyyvrdRB/rNe76L6w4NyeCtkNgECLswI=",
+      "channel": "studio",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.16.2.zip",
+      "since": "211.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "150699": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/150699/studio-core-3.16.2.zip?updateId=150699&pluginId=15289&family=INTELLIJ",
+      "sha256": "NdiAgC/60QJsyyvrdRB/rNe76L6w4NyeCtkNgECLswI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.16.2.zip",
+      "since": "211.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "157107": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/157107/studio-core-3.16.5.zip?updateId=157107&pluginId=15289&family=INTELLIJ",
+      "sha256": "kcgosotQ7mjJFhp0vagsInSvnV2MaG/AxEzivmAkmMU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.16.5.zip",
+      "since": "211.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "157108": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/157108/studio-core-3.16.5.zip?updateId=157108&pluginId=15289&family=INTELLIJ",
+      "sha256": "kcgosotQ7mjJFhp0vagsInSvnV2MaG/AxEzivmAkmMU=",
+      "channel": "studio",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.16.5.zip",
+      "since": "211.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "169325": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/169325/studio-core-3.20.5.zip?updateId=169325&pluginId=15289&family=INTELLIJ",
+      "sha256": "LpnQaFoirTXMIniq3J9RPD7FYYnEvRQlDkwl/7IwjKI=",
+      "channel": "studio",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.20.5.zip",
+      "since": "211.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "170672": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/170672/studio-core-3.20.6.zip?updateId=170672&pluginId=15289&family=INTELLIJ",
+      "sha256": "IBFBoERZTD164JN74gK5Jd+V9b3MC8dnWWm9A2UlIa0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.20.6.zip",
+      "since": "211.0",
+      "until": "221.*",
+      "compatibility_overrides": []
+    },
+    "170673": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15289/170673/studio-core-3.20.6.zip?updateId=170673&pluginId=15289&family=INTELLIJ",
+      "sha256": "IBFBoERZTD164JN74gK5Jd+V9b3MC8dnWWm9A2UlIa0=",
+      "channel": "studio",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-core-3.20.6.zip",
+      "since": "211.0",
+      "until": "221.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "2.3.35-SNAPSHOT": 100804,
+      "2.4.3-SNAPSHOT": 103012,
+      "2.4.4-SNAPSHOT": 103531,
+      "3.0.0": 106143,
+      "3.0.1": 107164,
+      "3.1.3-SNAPSHOT": 109513,
+      "3.1.5-SNAPSHOT": 109872,
+      "3.2.0-BETA": 111588
+    },
+    "stable": {
+      "2.4.0": 102217,
+      "2.4.10": 105619,
+      "2.4.12": 106117,
+      "2.4.14": 113440,
+      "2.4.16": 113796,
+      "2.4.2": 102442,
+      "2.4.5": 104145,
+      "2.4.6": 104147,
+      "2.4.8": 105535,
+      "3.10.2": 125476,
+      "3.16.1": 150528,
+      "3.16.2": 150699,
+      "3.16.5": 157107,
+      "3.20.6": 170672,
+      "3.4.0": 114759,
+      "3.6.0": 118588
+    },
+    "studio": {
+      "2.4.0": 102379,
+      "2.4.12": 106118,
+      "2.4.14": 113457,
+      "2.4.16": 113797,
+      "2.4.2": 102443,
+      "2.4.5": 104146,
+      "2.4.6": 104149,
+      "3.10.1": 125118,
+      "3.10.2": 125477,
+      "3.16.2": 150698,
+      "3.16.5": 157108,
+      "3.20.5": 169325,
+      "3.20.6": 170673,
+      "3.4.0": 114760,
+      "3.6.0": 118589
     }
   }
 }

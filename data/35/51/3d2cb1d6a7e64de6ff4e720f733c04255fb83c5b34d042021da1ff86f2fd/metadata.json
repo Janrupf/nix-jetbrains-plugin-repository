@@ -1,8 +1,47 @@
 {
   "xml_id": "JaggeryEditorSupport",
   "numeric_id": 7108,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "12005": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7108/12005/JaggeryEditorSupport.jar?updateId=12005&pluginId=7108&family=INTELLIJ",
+      "sha256": "U+WOpq27jTbf0bsxbuYrKS+q7QMeWHE0Uo+gl6GqkcE=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "JaggeryEditorSupport.jar",
+      "since": "107.105",
+      "until": "193.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "193.0"
+        }
+      ]
+    },
+    "12080": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7108/12080/JaggeryEditorSupport.jar?updateId=12080&pluginId=7108&family=INTELLIJ",
+      "sha256": "5eVuNbFgqCaE5PoixfXjrk5c9/qWdlWe7hX0ufRpM1g=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JaggeryEditorSupport.jar",
+      "since": "107.105",
+      "until": "193.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "193.0"
+        }
+      ]
+    },
+    "12123": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7108/12123/JaggeryEditorSupport.jar?updateId=12123&pluginId=7108&family=INTELLIJ",
       "sha256": "wzVHo7NcYc1cVzJIFtejNLMQI+/XxNtl0S/Vq0Ari7k=",
       "channel": "stable",
@@ -23,7 +62,7 @@
         }
       ]
     },
-    "2.0": {
+    "12348": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7108/12348/JaggeryEditorv12.jar?updateId=12348&pluginId=7108&family=INTELLIJ",
       "sha256": "ddaeNnAqhPHqArIfr3z53iir0Xjo1X6tGw2iM60ld2A=",
       "channel": "stable",
@@ -42,6 +81,12 @@
           "compatible_until": "193.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 12123,
+      "2.0": 12348
     }
   }
 }

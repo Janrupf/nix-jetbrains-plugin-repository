@@ -1,8 +1,8 @@
 {
   "xml_id": "dev.ja.copilot-shortcut",
   "numeric_id": 24158,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "521552": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24158/521552/copilot-completion-shortcut-1.0.0.zip?updateId=521552&pluginId=24158&family=INTELLIJ",
       "sha256": "1+sh2BfnnSqnwDRTBocIkPf1kVVi4jeVRHOKx5hC2uM=",
       "channel": "stable",
@@ -16,7 +16,21 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "674360": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24158/674360/copilot-completion-shortcut-1.0.1.zip?updateId=674360&pluginId=24158&family=INTELLIJ",
+      "sha256": "Dk5YWnCvqmw3zx/SiWX/M0nzRjSPJLrdSslfXiyXr4A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.github.copilot",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "copilot-completion-shortcut-1.0.1.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "674361": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24158/674361/copilot-completion-shortcut-1.0.1.zip?updateId=674361&pluginId=24158&family=INTELLIJ",
       "sha256": "Dk5YWnCvqmw3zx/SiWX/M0nzRjSPJLrdSslfXiyXr4A=",
       "channel": "eap",
@@ -29,6 +43,15 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.0.1": 674361
+    },
+    "stable": {
+      "1.0.0": 521552,
+      "1.0.1": 674360
     }
   }
 }

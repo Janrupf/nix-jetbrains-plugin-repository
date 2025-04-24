@@ -1,8 +1,21 @@
 {
   "xml_id": "com.helpers.flyway-helper",
   "numeric_id": 24997,
-  "versions": {
-    "1.1-SNAPSHOT": {
+  "updates": {
+    "580485": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24997/580485/flyway-helper-1.1-SNAPSHOT-signed.zip?updateId=580485&pluginId=24997&family=INTELLIJ",
+      "sha256": "HpBkylXmi1Lv9AphKt8UJazENqfOdIX0Tx+DB5Qqpfg=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flyway-helper-1.1-SNAPSHOT-signed.zip",
+      "since": "222.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "580667": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24997/580667/flyway-helper-1.1-SNAPSHOT-signed.zip?updateId=580667&pluginId=24997&family=INTELLIJ",
       "sha256": "HpBkylXmi1Lv9AphKt8UJazENqfOdIX0Tx+DB5Qqpfg=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "1.2-SNAPSHOT": {
+    "584489": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24997/584489/flyway-helper-1.2-SNAPSHOT-signed.zip?updateId=584489&pluginId=24997&family=INTELLIJ",
       "sha256": "p5J8++qdzMIs4ayzWMCF7SVE1qmuCCMNyRt5K1CeGZQ=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "1.2.1-SNAPSHOT": {
+    "586619": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24997/586619/flyway-helper-1.2.1-SNAPSHOT-signed.zip?updateId=586619&pluginId=24997&family=INTELLIJ",
       "sha256": "csJk7GD3HnY6kizRSPap9sEazkD6BsKO+IxTTovX7Jk=",
       "channel": "stable",
@@ -41,7 +54,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "1.3.0-SNAPSHOT": {
+    "594219": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24997/594219/flyway-helper-1.3.0-SNAPSHOT-signed.zip?updateId=594219&pluginId=24997&family=INTELLIJ",
       "sha256": "Bsc12jxmwlf6bbbVj00z5g//roru8fh9ymTM2tAPrf4=",
       "channel": "stable",
@@ -54,7 +67,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "1.3.1-SNAPSHOT": {
+    "615795": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24997/615795/flyway-helper-1.3.1-SNAPSHOT-signed.zip?updateId=615795&pluginId=24997&family=INTELLIJ",
       "sha256": "PHtIUspD47pEwmNFWD4Wi4MzZ5XuWQnHmiGvKYHaxWs=",
       "channel": "stable",
@@ -66,6 +79,18 @@
       "since": "222.0",
       "until": "242.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.1-SNAPSHOT": 580485
+    },
+    "stable": {
+      "1.1-SNAPSHOT": 580667,
+      "1.2-SNAPSHOT": 584489,
+      "1.2.1-SNAPSHOT": 586619,
+      "1.3.0-SNAPSHOT": 594219,
+      "1.3.1-SNAPSHOT": 615795
     }
   }
 }

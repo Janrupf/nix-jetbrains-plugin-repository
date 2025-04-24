@@ -1,8 +1,19 @@
 {
   "xml_id": "idea.plugin.tabsession",
   "numeric_id": 7209,
-  "versions": {
-    "0.1": {
+  "updates": {
+    "13033": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7209/13033/idea-tab-plugin.jar?updateId=13033&pluginId=7209&family=INTELLIJ",
+      "sha256": "haCVq1eUnmNHtNwEF3FlSOxD/+udkKrtYowNkm5XRh0=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "idea-tab-plugin.jar",
+      "since": "107.105",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "13034": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7209/13034/idea-plugin-tabsession.jar?updateId=13034&pluginId=7209&family=INTELLIJ",
       "sha256": "oqf683tJZT92oEZallj/PYRgsb9YJIzdSkga7FTLEy4=",
       "channel": "stable",
@@ -13,7 +24,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.2": {
+    "13043": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7209/13043/idea-plugin-tabsession.jar?updateId=13043&pluginId=7209&family=INTELLIJ",
       "sha256": "NVuGfW4nfV6mnn+i44Fj1vdTeSFf5PkLRJYzaLF2rPc=",
       "channel": "stable",
@@ -23,6 +34,12 @@
       "since": "107.105",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1": 13034,
+      "0.2": 13043
     }
   }
 }

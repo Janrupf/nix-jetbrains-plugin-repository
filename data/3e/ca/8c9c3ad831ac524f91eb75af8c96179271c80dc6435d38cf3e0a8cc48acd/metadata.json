@@ -1,8 +1,8 @@
 {
   "xml_id": "ai.poolside.assistant",
   "numeric_id": 26922,
-  "versions": {
-    "1.0.15": {
+  "updates": {
+    "704457": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/704457/poolside-assistant-1.0.15.zip?updateId=704457&pluginId=26922&family=INTELLIJ",
       "sha256": "UFYDG+0cK2XFn3fs5iQ1J3cXrB+d06ksDLEPjzO53Cw=",
       "channel": "stable",
@@ -19,7 +19,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.0.17": {
+    "705867": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/705867/poolside-assistant-1.0.17.zip?updateId=705867&pluginId=26922&family=INTELLIJ",
       "sha256": "xTW8SgLuAu8HPVZEQJHR9GIB6CM1QrSFTd/HvgAC1sk=",
       "channel": "beta",
@@ -36,7 +36,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "2.0.0": {
+    "706997": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/706997/poolside-assistant-2.0.0.zip?updateId=706997&pluginId=26922&family=INTELLIJ",
       "sha256": "u1iDaZULcbybAUTQTE+GtC5TRmQhCU9EMBynrnr3Hw0=",
       "channel": "stable",
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "2.0.2": {
+    "708407": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/708407/poolside-assistant-2.0.2.zip?updateId=708407&pluginId=26922&family=INTELLIJ",
       "sha256": "JWitV3C/p6IXYffqCCAqALGlGj0OL4OnGkA7Opsg+oQ=",
       "channel": "stable",
@@ -77,7 +77,7 @@
       "until": "251.3",
       "compatibility_overrides": []
     },
-    "2.0.4": {
+    "719599": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/719599/poolside-assistant-2.0.4.zip?updateId=719599&pluginId=26922&family=INTELLIJ",
       "sha256": "exPtO9hjudna5pIycfbdUlXkNK1ih9YVYW3pnxwjTmM=",
       "channel": "stable",
@@ -93,6 +93,35 @@
       "since": "240.1",
       "until": "251.3",
       "compatibility_overrides": []
+    },
+    "723462": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/723462/poolside-assistant-2.0.6.zip?updateId=723462&pluginId=26922&family=INTELLIJ",
+      "sha256": "uOfvQWBkWm2YGV+DD/6plIrQc0L9QP9M/LargTpxwCU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "poolside-assistant-2.0.6.zip",
+      "since": "240.1",
+      "until": "251.3",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0.17": 705867
+    },
+    "stable": {
+      "1.0.15": 704457,
+      "2.0.0": 706997,
+      "2.0.2": 708407,
+      "2.0.4": 719599,
+      "2.0.6": 723462
     }
   }
 }

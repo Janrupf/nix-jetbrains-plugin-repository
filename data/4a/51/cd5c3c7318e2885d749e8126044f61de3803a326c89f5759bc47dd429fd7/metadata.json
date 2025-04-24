@@ -1,50 +1,8 @@
 {
   "xml_id": "ru.vostrodymov.grader",
   "numeric_id": 23736,
-  "versions": {
-    "3.0.10-SNAPSHOT": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/491116/grader-plugin-3.0.10-SNAPSHOT.jar?updateId=491116&pluginId=23736&family=INTELLIJ",
-      "sha256": "TyLgSQz5D0Jg6dHaITjo5Z8B6iueuVeeYQeC42+aGsE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "grader-plugin-3.0.10-SNAPSHOT.jar",
-      "since": "201.0",
-      "until": "233.*",
-      "compatibility_overrides": []
-    },
-    "3.0.11-SNAPSHOT": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/496160/grader-plugin-3.0.11-SNAPSHOT.jar?updateId=496160&pluginId=23736&family=INTELLIJ",
-      "sha256": "AZ7+D4RRwob8q55MD/+B9lCjcXqjbijuxiJq7Zhqdrg=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "grader-plugin-3.0.11-SNAPSHOT.jar",
-      "since": "201.0",
-      "until": "233.*",
-      "compatibility_overrides": []
-    },
-    "3.0.12": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/505588/grader-plugin-3.0.12.jar?updateId=505588&pluginId=23736&family=INTELLIJ",
-      "sha256": "L8638LKVUkB9DmEs3xRJoTsIc5rpe4VOYmGhqlpVMlY=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "grader-plugin-3.0.12.jar",
-      "since": "201.0",
-      "until": "233.*",
-      "compatibility_overrides": []
-    },
-    "3.0.5-SNAPSHOT": {
+  "updates": {
+    "485291": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/485291/grader-plugin-3.0.5-SNAPSHOT.jar?updateId=485291&pluginId=23736&family=INTELLIJ",
       "sha256": "DIRYvEu9XWwrU8Po1IEWBX9ItQTUSyal6H5z9wdyE6E=",
       "channel": "stable",
@@ -58,7 +16,7 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "3.0.6-SNAPSHOT": {
+    "487346": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/487346/grader-plugin-3.0.6-SNAPSHOT.jar?updateId=487346&pluginId=23736&family=INTELLIJ",
       "sha256": "oDIpEssKhA0iG3VnFXT8cDY5DAlMIm1P5x9vPY1EQT0=",
       "channel": "stable",
@@ -72,7 +30,7 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "3.0.9-SNAPSHOT": {
+    "490007": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/490007/grader-plugin-3.0.9-SNAPSHOT.jar?updateId=490007&pluginId=23736&family=INTELLIJ",
       "sha256": "LB61WbDFpDvj0mdKmYUE+7rqyAVaY+wiwBAS2jSNRJM=",
       "channel": "stable",
@@ -85,6 +43,58 @@
       "since": "201.0",
       "until": "233.*",
       "compatibility_overrides": []
+    },
+    "491116": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/491116/grader-plugin-3.0.10-SNAPSHOT.jar?updateId=491116&pluginId=23736&family=INTELLIJ",
+      "sha256": "TyLgSQz5D0Jg6dHaITjo5Z8B6iueuVeeYQeC42+aGsE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "grader-plugin-3.0.10-SNAPSHOT.jar",
+      "since": "201.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "496160": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/496160/grader-plugin-3.0.11-SNAPSHOT.jar?updateId=496160&pluginId=23736&family=INTELLIJ",
+      "sha256": "AZ7+D4RRwob8q55MD/+B9lCjcXqjbijuxiJq7Zhqdrg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "grader-plugin-3.0.11-SNAPSHOT.jar",
+      "since": "201.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "505588": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23736/505588/grader-plugin-3.0.12.jar?updateId=505588&pluginId=23736&family=INTELLIJ",
+      "sha256": "L8638LKVUkB9DmEs3xRJoTsIc5rpe4VOYmGhqlpVMlY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "grader-plugin-3.0.12.jar",
+      "since": "201.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "3.0.10-SNAPSHOT": 491116,
+      "3.0.11-SNAPSHOT": 496160,
+      "3.0.12": 505588,
+      "3.0.5-SNAPSHOT": 485291,
+      "3.0.6-SNAPSHOT": 487346,
+      "3.0.9-SNAPSHOT": 490007
     }
   }
 }

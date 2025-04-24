@@ -1,26 +1,8 @@
 {
   "xml_id": "ru.vassuv.plugin.create_from_template",
   "numeric_id": 21100,
-  "versions": {
-    "0.1.12": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/21100/467842/ModuleGenerator-0.1.12.jar?updateId=467842&pluginId=21100&family=INTELLIJ",
-      "sha256": "5LPjXvmQPZlVg6fsZfU3ets72LgVFQTItG14YBo/8Wc=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.all",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.xml",
-        "org.intellij.groovy",
-        "org.jetbrains.kotlin"
-      ],
-      "optional_dependencies": [],
-      "file_name": "ModuleGenerator-0.1.12.jar",
-      "since": "231.0",
-      "until": "233.*",
-      "compatibility_overrides": []
-    },
-    "0.1.6": {
+  "updates": {
+    "296696": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21100/296696/ModuleGenerator-0.1.6-signed.zip?updateId=296696&pluginId=21100&family=INTELLIJ",
       "sha256": "5FW7pc8Sy6QEspzE+6+DquPrC7h6uExMiQcZCHi8Tkw=",
       "channel": "stable",
@@ -38,7 +20,7 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "0.1.7": {
+    "327135": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21100/327135/ModuleGenerator-0.1.7-signed.zip?updateId=327135&pluginId=21100&family=INTELLIJ",
       "sha256": "X3WFzHkPfh2txCO5PBClBjSeMETyODvQayDhZXMA5DE=",
       "channel": "stable",
@@ -56,7 +38,7 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "0.1.8": {
+    "327374": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21100/327374/ModuleGenerator-0.1.8-signed.zip?updateId=327374&pluginId=21100&family=INTELLIJ",
       "sha256": "NCx+4EPWVleUOZq+U36UJeI9AGdtc/L9DH+2+uj28ZM=",
       "channel": "stable",
@@ -74,7 +56,7 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "0.1.9": {
+    "382787": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21100/382787/ModuleGenerator-0.1.9-signed.zip?updateId=382787&pluginId=21100&family=INTELLIJ",
       "sha256": "4vnhM3OJCXnqjvFtSuPMDFLweuhhc0QoK8Bf31tvsOg=",
       "channel": "stable",
@@ -91,6 +73,33 @@
       "since": "212.0",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "467842": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21100/467842/ModuleGenerator-0.1.12.jar?updateId=467842&pluginId=21100&family=INTELLIJ",
+      "sha256": "5LPjXvmQPZlVg6fsZfU3ets72LgVFQTItG14YBo/8Wc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.all",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ModuleGenerator-0.1.12.jar",
+      "since": "231.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.12": 467842,
+      "0.1.6": 296696,
+      "0.1.7": 327135,
+      "0.1.8": 327374,
+      "0.1.9": 382787
     }
   }
 }

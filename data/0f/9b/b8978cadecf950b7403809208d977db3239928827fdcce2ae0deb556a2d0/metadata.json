@@ -1,21 +1,8 @@
 {
   "xml_id": "com.yonyou.yip",
   "numeric_id": 21043,
-  "versions": {
-    "1.6-RELEASE": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/21043/297015/yip-1.6-RELEASE.zip?updateId=297015&pluginId=21043&family=INTELLIJ",
-      "sha256": "/pIbJpN5WTvTX2wlt0ye5exyCbJz9IcJ3YUBsrkeyCA=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "yip-1.6-RELEASE.zip",
-      "since": "210.0",
-      "until": "231.*",
-      "compatibility_overrides": []
-    },
-    "1.6-SNAPSHOT": {
+  "updates": {
+    "296267": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21043/296267/yip-1.6-SNAPSHOT.zip?updateId=296267&pluginId=21043&family=INTELLIJ",
       "sha256": "rqQb0CE9Pyg/yq/Bz6+GE+KU+zuz4OXwc0WuylDGStg=",
       "channel": "stable",
@@ -28,7 +15,20 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "1.7-RELEASE": {
+    "297015": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21043/297015/yip-1.6-RELEASE.zip?updateId=297015&pluginId=21043&family=INTELLIJ",
+      "sha256": "/pIbJpN5WTvTX2wlt0ye5exyCbJz9IcJ3YUBsrkeyCA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yip-1.6-RELEASE.zip",
+      "since": "210.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "297790": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21043/297790/yip-1.7-RELEASE.zip?updateId=297790&pluginId=21043&family=INTELLIJ",
       "sha256": "4MJmIsqF963Or3wAIlNdOGhpu6iDTbuHo9wI9B7++RI=",
       "channel": "stable",
@@ -41,7 +41,7 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "1.8-RELEASE": {
+    "298345": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21043/298345/yip-1.8-RELEASE.zip?updateId=298345&pluginId=21043&family=INTELLIJ",
       "sha256": "opJXSzx+GmC3vl/ZkOGvZV0Fz/dCYBlKwAamqvsHJPU=",
       "channel": "stable",
@@ -53,6 +53,14 @@
       "since": "210.0",
       "until": "231.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.6-RELEASE": 297015,
+      "1.6-SNAPSHOT": 296267,
+      "1.7-RELEASE": 297790,
+      "1.8-RELEASE": 298345
     }
   }
 }

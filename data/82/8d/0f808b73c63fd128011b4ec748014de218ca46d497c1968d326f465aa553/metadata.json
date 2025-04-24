@@ -1,8 +1,8 @@
 {
   "xml_id": "com.github.boheastill.pd2",
   "numeric_id": 19575,
-  "versions": {
-    "0.0.3": {
+  "updates": {
+    "201925": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19575/201925/CommentBook-0.0.3.zip?updateId=201925&pluginId=19575&family=INTELLIJ",
       "sha256": "ydWvTeowD/KdnBNXZumQY5a+3Vv2Y5g1A0MSvpVUzDg=",
       "channel": "alpha",
@@ -15,7 +15,7 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "0.0.4": {
+    "204303": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19575/204303/CommentBook-0.0.4.zip?updateId=204303&pluginId=19575&family=INTELLIJ",
       "sha256": "oxPJ5Q8ZIXP+47MQ0S0liQ9ej4g5DUL5SvRfSLo4kA8=",
       "channel": "alpha",
@@ -28,7 +28,33 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "0.0.5": {
+    "204420": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19575/204420/CommentBook-0.0.5.zip?updateId=204420&pluginId=19575&family=INTELLIJ",
+      "sha256": "092mKCTrGnOuPkx2DjVZp2Wtk2QcLTrFNDhtWqb2dSc=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CommentBook-0.0.5.zip",
+      "since": "201.8743.12",
+      "until": "222.3739.24",
+      "compatibility_overrides": []
+    },
+    "204421": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19575/204421/CommentBook-0.0.5.zip?updateId=204421&pluginId=19575&family=INTELLIJ",
+      "sha256": "092mKCTrGnOuPkx2DjVZp2Wtk2QcLTrFNDhtWqb2dSc=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CommentBook-0.0.5.zip",
+      "since": "201.8743.12",
+      "until": "222.3739.24",
+      "compatibility_overrides": []
+    },
+    "204795": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19575/204795/CommentBook-0.0.5.zip?updateId=204795&pluginId=19575&family=INTELLIJ",
       "sha256": "117dFZGqYA07+Q57N71/7yHkEQOxtt3m/NFIz8TtgTk=",
       "channel": "stable",
@@ -41,7 +67,20 @@
       "until": "222.3739.24",
       "compatibility_overrides": []
     },
-    "0.0.5.005": {
+    "204852": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19575/204852/CommentBook-0.0.5.005.zip?updateId=204852&pluginId=19575&family=INTELLIJ",
+      "sha256": "/8D1xEozgj8ytiAOQbQBHeGQT4yc2EGTuof3fcCKmRw=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CommentBook-0.0.5.005.zip",
+      "since": "211.6693.111",
+      "until": "222.3739.24",
+      "compatibility_overrides": []
+    },
+    "204853": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19575/204853/CommentBook-0.0.5.005.zip?updateId=204853&pluginId=19575&family=INTELLIJ",
       "sha256": "/8D1xEozgj8ytiAOQbQBHeGQT4yc2EGTuof3fcCKmRw=",
       "channel": "beta",
@@ -53,6 +92,21 @@
       "since": "211.6693.111",
       "until": "222.3739.24",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.0.3": 201925,
+      "0.0.4": 204303,
+      "0.0.5": 204420,
+      "0.0.5.005": 204852
+    },
+    "beta": {
+      "0.0.5": 204421,
+      "0.0.5.005": 204853
+    },
+    "stable": {
+      "0.0.5": 204795
     }
   }
 }

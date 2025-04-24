@@ -1,8 +1,8 @@
 {
   "xml_id": "JBoss jBPM",
   "numeric_id": 4612,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "7830": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/4612/7830/JBoss_jBPM_7830.jar?updateId=7830&pluginId=4612&family=INTELLIJ",
       "sha256": "lrPebLxwuAeTF+x24+ZAuuSFl8oY9TQ0YXVQ3DvqOdI=",
       "channel": "stable",
@@ -20,7 +20,25 @@
         }
       ]
     },
-    "1.0.10": {
+    "8552": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/4612/8552/JBoss_jBPM_8552.zip?updateId=8552&pluginId=4612&family=INTELLIJ",
+      "sha256": "UJ4DDSfko9elyoTzi74T/LDJGwLUkBgzNiUqsWp0fMY=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "JBoss_jBPM_8552.zip",
+      "since": "96.516",
+      "until": "124.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "96.516",
+          "applies_until": "999.99999",
+          "compatible_since": "96.516",
+          "compatible_until": "124.0"
+        }
+      ]
+    },
+    "8616": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/4612/8616/JBoss_jBPM_8616.zip?updateId=8616&pluginId=4612&family=INTELLIJ",
       "sha256": "rKhkJwLF7IM+K4HH4PIJrYOk8VRMTwljmjcRbUH9y78=",
       "channel": "stable",
@@ -37,6 +55,12 @@
           "compatible_until": "124.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 7830,
+      "1.0.10": 8616
     }
   }
 }

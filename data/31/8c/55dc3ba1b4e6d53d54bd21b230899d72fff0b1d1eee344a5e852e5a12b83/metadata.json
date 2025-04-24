@@ -1,8 +1,23 @@
 {
   "xml_id": "net.afpro.idea.aophelper",
   "numeric_id": 11172,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "50273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11172/50273/AopHelper-1.0-SNAPSHOT.jar?updateId=50273&pluginId=11172&family=INTELLIJ",
+      "sha256": "fyrPRGf0y8R9Mzt1LzwOsb0K5CRVmPGCTrhPwJbSLGU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AopHelper-1.0-SNAPSHOT.jar",
+      "since": "173.3727",
+      "until": "173.*",
+      "compatibility_overrides": []
+    },
+    "50275": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11172/50275/AopHelper-1.0.jar?updateId=50275&pluginId=11172&family=INTELLIJ",
       "sha256": "seX78xFo4qdv/I+uq+ng0tmH/TRWkLYPeXHXAv14OuQ=",
       "channel": "stable",
@@ -24,22 +39,7 @@
         }
       ]
     },
-    "1.0-SNAPSHOT": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/11172/50273/AopHelper-1.0-SNAPSHOT.jar?updateId=50273&pluginId=11172&family=INTELLIJ",
-      "sha256": "fyrPRGf0y8R9Mzt1LzwOsb0K5CRVmPGCTrhPwJbSLGU=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "org.jetbrains.kotlin"
-      ],
-      "optional_dependencies": [],
-      "file_name": "AopHelper-1.0-SNAPSHOT.jar",
-      "since": "173.3727",
-      "until": "173.*",
-      "compatibility_overrides": []
-    },
-    "1.1": {
+    "50431": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11172/50431/AopHelper-1.1.jar?updateId=50431&pluginId=11172&family=INTELLIJ",
       "sha256": "9cAodb5ryFlaPDHYhN5JGU2L03HuGyI2WsX+uGuQUGQ=",
       "channel": "stable",
@@ -61,7 +61,7 @@
         }
       ]
     },
-    "1.2": {
+    "53324": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11172/53324/AopHelper-1.2.jar?updateId=53324&pluginId=11172&family=INTELLIJ",
       "sha256": "PXQTfBH4lBhkQkBLUIYDUUu9cW5eIjjsxiKlIJn86BQ=",
       "channel": "stable",
@@ -82,6 +82,14 @@
           "compatible_until": "212.*"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 50275,
+      "1.0-SNAPSHOT": 50273,
+      "1.1": 50431,
+      "1.2": 53324
     }
   }
 }

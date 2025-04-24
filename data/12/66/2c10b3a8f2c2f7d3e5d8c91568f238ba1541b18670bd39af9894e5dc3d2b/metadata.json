@@ -1,8 +1,26 @@
 {
   "xml_id": "com.flipkart.dsp.dark.pheonix",
   "numeric_id": 12658,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "64948": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12658/64948/haha.zip?updateId=64948&pluginId=12658&family=INTELLIJ",
+      "sha256": "sqVY1fkgNZYZeiAWgZ3q40UD0yKtaDZTNmftM7Dkm1s=",
+      "channel": "beta",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "haha.zip",
+      "since": "191.0",
+      "until": "241.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "191.0",
+          "compatible_until": "241.*"
+        }
+      ]
+    },
+    "64949": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12658/64949/haha.zip?updateId=64949&pluginId=12658&family=INTELLIJ",
       "sha256": "sqVY1fkgNZYZeiAWgZ3q40UD0yKtaDZTNmftM7Dkm1s=",
       "channel": "stable",
@@ -19,6 +37,14 @@
           "compatible_until": "241.*"
         }
       ]
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0": 64948
+    },
+    "stable": {
+      "1.0": 64949
     }
   }
 }

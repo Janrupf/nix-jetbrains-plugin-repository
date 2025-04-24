@@ -1,8 +1,8 @@
 {
   "xml_id": "com.tarantoollua",
   "numeric_id": 19596,
-  "versions": {
-    "1.3.6-IDEA213": {
+  "updates": {
+    "202417": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19596/202417/IntelliJ-EmmyLua-1.3.6-IDEA213.zip?updateId=202417&pluginId=19596&family=INTELLIJ",
       "sha256": "QixDMwXXNHLO2a3Alk6lotEu4WEvPoWUPRsYgbLGuyg=",
       "channel": "stable",
@@ -17,7 +17,7 @@
       "until": "221.*",
       "compatibility_overrides": []
     },
-    "1.4-IDEA222": {
+    "209286": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19596/209286/IntelliJ-EmmyLua-1.4-IDEA222.zip?updateId=209286&pluginId=19596&family=INTELLIJ",
       "sha256": "shxu6mnv5+QV3qs4X+MlhVnWnr3U2VKN1lP6B1NgxKI=",
       "channel": "beta",
@@ -32,7 +32,7 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "1.5-IDEA222": {
+    "221127": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19596/221127/IntelliJ-EmmyLua-1.5-IDEA222.zip?updateId=221127&pluginId=19596&family=INTELLIJ",
       "sha256": "T4yJpCNu8nN0ASMaQCAXmVZKQjgjhbho/jmRfykymrc=",
       "channel": "beta",
@@ -47,7 +47,7 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "1.6-IDEA222": {
+    "227129": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19596/227129/IntelliJ-EmmyLua-1.6-IDEA222.zip?updateId=227129&pluginId=19596&family=INTELLIJ",
       "sha256": "EbBa75H3NX+Hx0el6o4PWbWwPdyWWhhoIXlBrv/SIXo=",
       "channel": "stable",
@@ -61,6 +61,16 @@
       "since": "212.0",
       "until": "222.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.4-IDEA222": 209286,
+      "1.5-IDEA222": 221127
+    },
+    "stable": {
+      "1.3.6-IDEA213": 202417,
+      "1.6-IDEA222": 227129
     }
   }
 }

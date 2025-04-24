@@ -1,8 +1,21 @@
 {
   "xml_id": "mpsProtobuf",
   "numeric_id": 12919,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "67701": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12919/67701/mps-protobuf.zip?updateId=67701&pluginId=12919&family=INTELLIJ",
+      "sha256": "UY3wg+YyrsHxP88i+CpyltlHUY5u3vx3GZm+ELsuWOg=",
+      "channel": "stable",
+      "dependencies": [
+        "jetbrains.mps.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mps-protobuf.zip",
+      "since": "162.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "67746": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12919/67746/mps-protobuf.zip?updateId=67746&pluginId=12919&family=INTELLIJ",
       "sha256": "Axjf3/OshzJaIXh1jCX5nTRXzxS41loZhK6xlYxe7xo=",
       "channel": "nightly",
@@ -15,7 +28,20 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "67748": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12919/67748/mps-protobuf.zip?updateId=67748&pluginId=12919&family=INTELLIJ",
+      "sha256": "LyTII+P4Rx3w0P6fNeXt4ZbU3JBh2nitrCc9KQz0WTI=",
+      "channel": "nightly",
+      "dependencies": [
+        "jetbrains.mps.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mps-protobuf.zip",
+      "since": "162.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "67749": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12919/67749/mps-protobuf.zip?updateId=67749&pluginId=12919&family=INTELLIJ",
       "sha256": "oFw8agpgIRyAbkaNs5PIo0D9nlPipIS72TIoK3UoDxo=",
       "channel": "stable",
@@ -27,6 +53,16 @@
       "since": "162.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "nightly": {
+      "1.0": 67746,
+      "1.0.1": 67748
+    },
+    "stable": {
+      "1.0": 67701,
+      "1.0.1": 67749
     }
   }
 }

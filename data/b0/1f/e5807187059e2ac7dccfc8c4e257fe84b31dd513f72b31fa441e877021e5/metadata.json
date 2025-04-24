@@ -1,8 +1,23 @@
 {
   "xml_id": "com.github.bepil.kofuse",
   "numeric_id": 22222,
-  "versions": {
-    "0.0.1": {
+  "updates": {
+    "358803": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22222/358803/kofuse-0.0.1.jar?updateId=358803&pluginId=22222&family=INTELLIJ",
+      "sha256": "WLgYDyiy3c3per+vx8k2QTzgkZLn3jDo/N+4XyYZz4o=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kofuse-0.0.1.jar",
+      "since": "231.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "362112": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22222/362112/kofuse-0.0.1.zip?updateId=362112&pluginId=22222&family=INTELLIJ",
       "sha256": "LcyJxlKGATYUFb6IGQ8RU3ZtmgBqIqKmEbXcgjMs8cE=",
       "channel": "stable",
@@ -17,7 +32,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "0.0.3": {
+    "371288": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22222/371288/kofuse-0.0.3.zip?updateId=371288&pluginId=22222&family=INTELLIJ",
       "sha256": "Q/Svq6s26ENYRnbR94oLPHlNQEGR3S7kkc78/Q/Voog=",
       "channel": "stable",
@@ -31,6 +46,15 @@
       "since": "231.0",
       "until": "232.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.0.1": 358803
+    },
+    "stable": {
+      "0.0.1": 362112,
+      "0.0.3": 371288
     }
   }
 }

@@ -1,8 +1,22 @@
 {
   "xml_id": "wily.wily-pycharm",
   "numeric_id": 14424,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "87786": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14424/87786/wily-pycharm-1.0.0.zip?updateId=87786&pluginId=14424&family=INTELLIJ",
+      "sha256": "vl4Zfywtu0w0+Euq8wRrjnls4LLSYQA3nltNYXlVlpg=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "wily-pycharm-1.0.0.zip",
+      "since": "201.6668",
+      "until": "201.*",
+      "compatibility_overrides": []
+    },
+    "87787": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14424/87787/wily-pycharm-1.0.0.zip?updateId=87787&pluginId=14424&family=INTELLIJ",
       "sha256": "vl4Zfywtu0w0+Euq8wRrjnls4LLSYQA3nltNYXlVlpg=",
       "channel": "beta",
@@ -16,7 +30,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "88221": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14424/88221/wily-pycharm-1.0.1.zip?updateId=88221&pluginId=14424&family=INTELLIJ",
       "sha256": "y8bEeBv1iC6jmW8MyrxLb7Urht5bmeu41h8Bmnr9czQ=",
       "channel": "beta",
@@ -29,6 +43,15 @@
       "since": "201.6668",
       "until": "201.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0.0": 87787,
+      "1.0.1": 88221
+    },
+    "stable": {
+      "1.0.0": 87786
     }
   }
 }

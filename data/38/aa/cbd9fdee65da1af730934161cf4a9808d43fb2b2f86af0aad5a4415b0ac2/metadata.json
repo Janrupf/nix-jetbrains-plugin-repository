@@ -1,8 +1,8 @@
 {
   "xml_id": "com.mextor.intellij.plugin.search",
   "numeric_id": 7394,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "15187": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7394/15187/LuceneSearch.zip?updateId=15187&pluginId=7394&family=INTELLIJ",
       "sha256": "TiPY8nesy6UGlWqK39M4kc239J4AvVNESiMolKdVglw=",
       "channel": "stable",
@@ -20,7 +20,43 @@
         }
       ]
     },
-    "1.2": {
+    "15262": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7394/15262/LuceneSearch.zip?updateId=15262&pluginId=7394&family=INTELLIJ",
+      "sha256": "/IpH8ZKG8f09ugTVcLS5OMBagUz619E+ShBSc/nuGl4=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "LuceneSearch.zip",
+      "since": null,
+      "until": "129.1561",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "0",
+          "compatible_until": "129.1561"
+        }
+      ]
+    },
+    "16403": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7394/16403/mextor-intellij-search-1.1-bin.zip?updateId=16403&pluginId=7394&family=INTELLIJ",
+      "sha256": "UViZTtp/wNo+SliMunBc0DiaAKWMz5h/TD0TGqtvXPo=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "mextor-intellij-search-1.1-bin.zip",
+      "since": null,
+      "until": "129.1561",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "0",
+          "compatible_until": "129.1561"
+        }
+      ]
+    },
+    "16405": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7394/16405/mextor-intellij-search-1.3-bin.zip?updateId=16405&pluginId=7394&family=INTELLIJ",
       "sha256": "40DeXupFORlUy+UrppzIse2JJNV2tcZZsToRvYPsQJs=",
       "channel": "stable",
@@ -38,7 +74,7 @@
         }
       ]
     },
-    "1.3.4": {
+    "16445": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7394/16445/mextor-intellij-search-1.3.4-bin.zip?updateId=16445&pluginId=7394&family=INTELLIJ",
       "sha256": "qe/7hXbUfQ115ocesg2i6gwKliOeo2OXNNa+V5fV9MQ=",
       "channel": "stable",
@@ -55,6 +91,13 @@
           "compatible_until": "129.1561"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 15187,
+      "1.2": 16405,
+      "1.3.4": 16445
     }
   }
 }

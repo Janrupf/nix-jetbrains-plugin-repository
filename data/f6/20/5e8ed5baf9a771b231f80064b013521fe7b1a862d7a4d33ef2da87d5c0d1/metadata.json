@@ -1,8 +1,8 @@
 {
   "xml_id": "jp.s6n.idea.typespec",
   "numeric_id": 25850,
-  "versions": {
-    "0.1.4": {
+  "updates": {
+    "637418": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/637418/intellij-typespec-plugin-0.1.4.zip?updateId=637418&pluginId=25850&family=INTELLIJ",
       "sha256": "OHPlGk4NgTes1LBwYGTS66N3HMpJg9hvoVbIUfrQ6eA=",
       "channel": "stable",
@@ -16,7 +16,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "0.2.2": {
+    "639222": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/639222/intellij-typespec-plugin-0.2.2.zip?updateId=639222&pluginId=25850&family=INTELLIJ",
       "sha256": "at9X0c241OCwuQKGIHuM13NutdtIjhYVElkCQjF/x4I=",
       "channel": "stable",
@@ -32,7 +32,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "0.2.5": {
+    "675001": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/675001/intellij-typespec-plugin-0.2.5.zip?updateId=675001&pluginId=25850&family=INTELLIJ",
       "sha256": "PMlU0aTAaZBa7L1mgsKPF4bd9zQQ61M8WH+BEzvL3T0=",
       "channel": "stable",
@@ -55,7 +55,24 @@
         }
       ]
     },
-    "0.2.6": {
+    "718524": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/718524/intellij-typespec-plugin-0.2.6.zip?updateId=718524&pluginId=25850&family=INTELLIJ",
+      "sha256": "K80Rf3pupvLvN6H8e7bynocbI8DzLVo5KepaMn+al/0=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "NodeJS",
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.textmate",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-typespec-plugin-0.2.6.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "718525": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/718525/intellij-typespec-plugin-0.2.6.zip?updateId=718525&pluginId=25850&family=INTELLIJ",
       "sha256": "K80Rf3pupvLvN6H8e7bynocbI8DzLVo5KepaMn+al/0=",
       "channel": "nightly",
@@ -71,6 +88,17 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "nightly": {
+      "0.2.6": 718525
+    },
+    "stable": {
+      "0.1.4": 637418,
+      "0.2.2": 639222,
+      "0.2.5": 675001,
+      "0.2.6": 718524
     }
   }
 }

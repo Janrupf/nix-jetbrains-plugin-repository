@@ -1,8 +1,22 @@
 {
   "xml_id": "yy-dev-tools",
   "numeric_id": 18088,
-  "versions": {
-    "2020.0.1": {
+  "updates": {
+    "149172": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18088/149172/yy-dev-tools-2021.1.1.zip?updateId=149172&pluginId=18088&family=INTELLIJ",
+      "sha256": "tbvjRRMxIFlGjUWMYOkADPQyJPqJP2uCCCVvM3Q1E20=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yy-dev-tools-2021.1.1.zip",
+      "since": "212.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "149515": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18088/149515/yy-dev-tools-2020.0.1.zip?updateId=149515&pluginId=18088&family=INTELLIJ",
       "sha256": "EP549ltma5SbShQHHs7VmROP1xY6RIX+dWlx/GlY8kU=",
       "channel": "stable",
@@ -16,7 +30,7 @@
       "until": "203.*",
       "compatibility_overrides": []
     },
-    "2021.0.1": {
+    "149516": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18088/149516/yy-dev-tools-2021.0.1.zip?updateId=149516&pluginId=18088&family=INTELLIJ",
       "sha256": "H3dWm/9n/nZwZ/iqcdc6x+4ql62n5eXNSpfNZ786Zu0=",
       "channel": "stable",
@@ -36,20 +50,13 @@
           "compatible_until": "211.*"
         }
       ]
-    },
-    "2021.1.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/18088/149172/yy-dev-tools-2021.1.1.zip?updateId=149172&pluginId=18088&family=INTELLIJ",
-      "sha256": "tbvjRRMxIFlGjUWMYOkADPQyJPqJP2uCCCVvM3Q1E20=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "yy-dev-tools-2021.1.1.zip",
-      "since": "212.0",
-      "until": "213.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2020.0.1": 149515,
+      "2021.0.1": 149516,
+      "2021.1.1": 149172
     }
   }
 }

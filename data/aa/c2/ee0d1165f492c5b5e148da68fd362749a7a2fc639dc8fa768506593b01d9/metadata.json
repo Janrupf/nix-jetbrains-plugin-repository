@@ -1,8 +1,8 @@
 {
   "xml_id": "com.bmesta.mvntoolkit",
   "numeric_id": 9459,
-  "versions": {
-    "0.1.0-SNAPSHOT": {
+  "updates": {
+    "32359": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9459/32359/Maven_toolkit-0.1.0-SNAPSHOT.zip?updateId=32359&pluginId=9459&family=INTELLIJ",
       "sha256": "7QteatcNqrH9pApl3XJRQeopdDERRN+LaJ7HqRtPcuY=",
       "channel": "stable",
@@ -23,7 +23,7 @@
         }
       ]
     },
-    "0.1.1": {
+    "32498": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9459/32498/Maven_toolkit-0.1.1.zip?updateId=32498&pluginId=9459&family=INTELLIJ",
       "sha256": "7BrczRJXkJUzOwtJHY/0aDMCnrI8ALkTMpr1Od0jnQk=",
       "channel": "stable",
@@ -44,7 +44,7 @@
         }
       ]
     },
-    "0.1.2": {
+    "32622": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9459/32622/Maven_toolkit-0.1.2.zip?updateId=32622&pluginId=9459&family=INTELLIJ",
       "sha256": "1EuaBpgBiwegH1rS7XO9WcnJl3IT7gVgs+g9CMkkmB8=",
       "channel": "stable",
@@ -65,28 +65,7 @@
         }
       ]
     },
-    "0.1.3": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/9459/39871/Maven_toolkit-0.1.3.zip?updateId=39871&pluginId=9459&family=INTELLIJ",
-      "sha256": "3gYxIN2ges1FNZGt8iciuTtGOzOS28kAbT1/tV6ljfM=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "org.jetbrains.idea.maven"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Maven_toolkit-0.1.3.zip",
-      "since": "143.0",
-      "until": "201.0",
-      "compatibility_overrides": [
-        {
-          "applies_since": "143.0",
-          "applies_until": "999.99999",
-          "compatible_since": "143.0",
-          "compatible_until": "201.0"
-        }
-      ]
-    },
-    "0.1.3-SNAPSHOT": {
+    "39834": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9459/39834/Maven_toolkit-0.1.3-SNAPSHOT.zip?updateId=39834&pluginId=9459&family=INTELLIJ",
       "sha256": "sy4PfP1DggW3vxu+9dyJChjLhTgGnY6xg+My5lyaIxU=",
       "channel": "stable",
@@ -106,6 +85,36 @@
           "compatible_until": "201.0"
         }
       ]
+    },
+    "39871": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9459/39871/Maven_toolkit-0.1.3.zip?updateId=39871&pluginId=9459&family=INTELLIJ",
+      "sha256": "3gYxIN2ges1FNZGt8iciuTtGOzOS28kAbT1/tV6ljfM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Maven_toolkit-0.1.3.zip",
+      "since": "143.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "143.0",
+          "applies_until": "999.99999",
+          "compatible_since": "143.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0-SNAPSHOT": 32359,
+      "0.1.1": 32498,
+      "0.1.2": 32622,
+      "0.1.3": 39871,
+      "0.1.3-SNAPSHOT": 39834
     }
   }
 }

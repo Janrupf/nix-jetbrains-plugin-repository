@@ -1,8 +1,8 @@
 {
   "xml_id": "com.ai.assistant.bot",
   "numeric_id": 27063,
-  "versions": {
-    "3.1.0": {
+  "updates": {
+    "716273": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27063/716273/CodeAI-Assistant-3.1.0.zip?updateId=716273&pluginId=27063&family=INTELLIJ",
       "sha256": "qltjgUwLveR3wDctECwCXnvSiUKlQ9Gv/TPkvCLqf10=",
       "channel": "stable",
@@ -16,7 +16,7 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "3.1.1": {
+    "716593": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27063/716593/CodeAI-Assistant-3.1.1.zip?updateId=716593&pluginId=27063&family=INTELLIJ",
       "sha256": "UAjdiflydBU9FEwYhXdID6N71LxS44ceZMWt51uVd0I=",
       "channel": "stable",
@@ -30,7 +30,7 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "3.1.3": {
+    "720234": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27063/720234/Code-Assistant-3.1.3.zip?updateId=720234&pluginId=27063&family=INTELLIJ",
       "sha256": "A4B5mOJd1AxJ4jFYey/li0YN28bc1Q7xw5OEgRE7GWw=",
       "channel": "stable",
@@ -44,7 +44,7 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "3.1.4": {
+    "721613": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27063/721613/Code-Assistant-3.1.4.zip?updateId=721613&pluginId=27063&family=INTELLIJ",
       "sha256": "hn4gfSk8IxBDTGiZ3ly/JCwQoacc17DGDsvdUWToCpo=",
       "channel": "stable",
@@ -57,6 +57,29 @@
       "since": "231.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "723067": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27063/723067/Code-Assistant-3.1.5.zip?updateId=723067&pluginId=27063&family=INTELLIJ",
+      "sha256": "EW/vxl3C18k4GUgwYOxTFQHyF9eTHUvA2PuQtsUjAWA=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Code-Assistant-3.1.5.zip",
+      "since": "231.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "3.1.0": 716273,
+      "3.1.1": 716593,
+      "3.1.3": 720234,
+      "3.1.4": 721613,
+      "3.1.5": 723067
     }
   }
 }

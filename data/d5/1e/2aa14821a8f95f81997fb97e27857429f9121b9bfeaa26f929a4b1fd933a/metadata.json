@@ -1,8 +1,8 @@
 {
   "xml_id": "com.duncanjauncey.autosysplugin",
   "numeric_id": 7289,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "13756": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7289/13756/AutosysPlugin-1.0.jar?updateId=13756&pluginId=7289&family=INTELLIJ",
       "sha256": "wcFdqLC1SF/+68FMvyLCO75DjMdJfAAtB6dMv8zxPHU=",
       "channel": "stable",
@@ -20,7 +20,25 @@
         }
       ]
     },
-    "1.1": {
+    "13763": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7289/13763/AutosysPlugin-1.1.jar?updateId=13763&pluginId=7289&family=INTELLIJ",
+      "sha256": "cfOunWk0agonjwxOEwTqyPwdvLJHOabIqbFfP0fm9Is=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "AutosysPlugin-1.1.jar",
+      "since": "117.105",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "117.105",
+          "applies_until": "999.99999",
+          "compatible_since": "117.105",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "15166": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7289/15166/AutosysPlugin-1.1.jar?updateId=15166&pluginId=7289&family=INTELLIJ",
       "sha256": "LjntUmVpg+aqAV/9kR9fxqJ0s1jSEqkI6gx5z6GozMk=",
       "channel": "stable",
@@ -37,6 +55,12 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 13756,
+      "1.1": 15166
     }
   }
 }

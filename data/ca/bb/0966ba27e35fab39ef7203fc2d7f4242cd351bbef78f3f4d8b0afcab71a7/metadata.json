@@ -1,21 +1,8 @@
 {
   "xml_id": "EBReader",
   "numeric_id": 25967,
-  "versions": {
-    "0.5": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25967/649999/ebreader-idea-2020.zip?updateId=649999&pluginId=25967&family=INTELLIJ",
-      "sha256": "Cmzw9B18kPsYFkkcdrIxAjvWMwtPVNyyRo7hOjaABK4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "ebreader-idea-2020.zip",
-      "since": "201.0",
-      "until": "204.*",
-      "compatibility_overrides": []
-    },
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "648562": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25967/648562/ebreader-1.0-SNAPSHOT.zip?updateId=648562&pluginId=25967&family=INTELLIJ",
       "sha256": "vFBNJXMgkaGSwW2DgHJvcNy2AitUyx+LSXmsCN0pQIs=",
       "channel": "stable",
@@ -27,6 +14,25 @@
       "since": "222.0",
       "until": "292.*",
       "compatibility_overrides": []
+    },
+    "649999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25967/649999/ebreader-idea-2020.zip?updateId=649999&pluginId=25967&family=INTELLIJ",
+      "sha256": "Cmzw9B18kPsYFkkcdrIxAjvWMwtPVNyyRo7hOjaABK4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ebreader-idea-2020.zip",
+      "since": "201.0",
+      "until": "204.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.5": 649999,
+      "1.0-SNAPSHOT": 648562
     }
   }
 }

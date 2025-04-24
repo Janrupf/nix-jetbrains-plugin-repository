@@ -1,22 +1,8 @@
 {
   "xml_id": "org.freeone.2ts4j",
   "numeric_id": 14800,
-  "versions": {
-    "0.0.10": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14800/95774/jbean2tsbean-0.0.10.zip?updateId=95774&pluginId=14800&family=INTELLIJ",
-      "sha256": "ZaZRHX5w7Ox4nHiFbxg/vpcrRsZnIusOWZSttbxv4uU=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "jbean2tsbean-0.0.10.zip",
-      "since": "173.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.0.8": {
+  "updates": {
+    "94020": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14800/94020/jbean2tsbean.zip?updateId=94020&pluginId=14800&family=INTELLIJ",
       "sha256": "lvV3A8CPs/6Wt2HxHjLjAcjOcKTVSsDbeCBdXLtQOWM=",
       "channel": "stable",
@@ -30,7 +16,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.0.9": {
+    "94809": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14800/94809/jbean2tsbean.zip?updateId=94809&pluginId=14800&family=INTELLIJ",
       "sha256": "qP6xdun0BYaoWPX39be+RKzE7rknJaXxI0edJr/54qk=",
       "channel": "stable",
@@ -43,6 +29,27 @@
       "since": "173.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "95774": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14800/95774/jbean2tsbean-0.0.10.zip?updateId=95774&pluginId=14800&family=INTELLIJ",
+      "sha256": "ZaZRHX5w7Ox4nHiFbxg/vpcrRsZnIusOWZSttbxv4uU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jbean2tsbean-0.0.10.zip",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.10": 95774,
+      "0.0.8": 94020,
+      "0.0.9": 94809
     }
   }
 }

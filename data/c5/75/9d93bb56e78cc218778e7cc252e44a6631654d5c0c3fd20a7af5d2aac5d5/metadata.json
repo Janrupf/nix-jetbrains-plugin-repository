@@ -1,8 +1,21 @@
 {
   "xml_id": "com.carlosdurazo.pacman",
   "numeric_id": 14426,
-  "versions": {
-    "1.0.1": {
+  "updates": {
+    "88320": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14426/88320/PacmanProgressBar-1.0.1.jar?updateId=88320&pluginId=14426&family=INTELLIJ",
+      "sha256": "WGEoBYTThTLlBOj8EGhe3mkmm2+m6DTxWbluDOdcCdQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "PacmanProgressBar-1.0.1.jar",
+      "since": "201.6668",
+      "until": "201.*",
+      "compatibility_overrides": []
+    },
+    "88376": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14426/88376/PacmanProgressBar-1.0.1.jar?updateId=88376&pluginId=14426&family=INTELLIJ",
       "sha256": "bGzIY3gSqKDn67BkFWQVGfTJ7J39nbrAwv0hjYtx+Po=",
       "channel": "stable",
@@ -15,7 +28,20 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0.2": {
+    "93147": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14426/93147/PacmanProgressBar-1.0.2.jar?updateId=93147&pluginId=14426&family=INTELLIJ",
+      "sha256": "ErxrRBJHQUhs9jSYdzgARgC+jV7bNJh9OWs3napdjL0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "PacmanProgressBar-1.0.2.jar",
+      "since": "202.6397",
+      "until": "202.*",
+      "compatibility_overrides": []
+    },
+    "93228": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14426/93228/PacmanProgressBar-1.0.2.jar?updateId=93228&pluginId=14426&family=INTELLIJ",
       "sha256": "ErxrRBJHQUhs9jSYdzgARgC+jV7bNJh9OWs3napdjL0=",
       "channel": "stable",
@@ -27,6 +53,16 @@
       "since": "202.6397",
       "until": "202.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.0.1": 88320,
+      "1.0.2": 93147
+    },
+    "stable": {
+      "1.0.1": 88376,
+      "1.0.2": 93228
     }
   }
 }

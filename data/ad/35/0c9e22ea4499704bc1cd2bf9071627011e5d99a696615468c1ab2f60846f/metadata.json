@@ -1,8 +1,26 @@
 {
   "xml_id": "com.writeoncereadmany.semantichighlighting",
   "numeric_id": 8466,
-  "versions": {
-    "0.1.0": {
+  "updates": {
+    "26967": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8466/26967/StructuralSemanticHighlighter.jar?updateId=26967&pluginId=8466&family=INTELLIJ",
+      "sha256": "37v6cUJBq2kRvDM1N+7Z/Ko6K2yxVWDH7/rGsXuihLk=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "StructuralSemanticHighlighter.jar",
+      "since": "141.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "141.0",
+          "applies_until": "999.99999",
+          "compatible_since": "141.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "27473": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8466/27473/StructuralSemanticHighlighter.jar?updateId=27473&pluginId=8466&family=INTELLIJ",
       "sha256": "8Rxvw8Gtrg4QICWT0o8Kzbg3ZJhB6Hq3OtSEkzRN6Ag=",
       "channel": "stable",
@@ -20,7 +38,7 @@
         }
       ]
     },
-    "0.1.1": {
+    "33672": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8466/33672/StructuralSemanticHighlighter.jar?updateId=33672&pluginId=8466&family=INTELLIJ",
       "sha256": "kbrbMlF6YbLhTHhVi1JCG1av8O3lXCu3ZvVY14Wz1mQ=",
       "channel": "stable",
@@ -37,24 +55,13 @@
           "compatible_until": "201.0"
         }
       ]
-    },
-    "1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/8466/26967/StructuralSemanticHighlighter.jar?updateId=26967&pluginId=8466&family=INTELLIJ",
-      "sha256": "37v6cUJBq2kRvDM1N+7Z/Ko6K2yxVWDH7/rGsXuihLk=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [],
-      "file_name": "StructuralSemanticHighlighter.jar",
-      "since": "141.0",
-      "until": "201.0",
-      "compatibility_overrides": [
-        {
-          "applies_since": "141.0",
-          "applies_until": "999.99999",
-          "compatible_since": "141.0",
-          "compatible_until": "201.0"
-        }
-      ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 27473,
+      "0.1.1": 33672,
+      "1.0": 26967
     }
   }
 }

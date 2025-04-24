@@ -1,8 +1,8 @@
 {
   "xml_id": "org.openasr.idiolect.azure",
   "numeric_id": 21532,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "323089": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21532/323089/idiolect-azure-signed.zip?updateId=323089&pluginId=21532&family=INTELLIJ",
       "sha256": "rgISIJacWuKRbvjbVPk0J02hZ/9ZO4eVXMov3SPRnnw=",
       "channel": "stable",
@@ -16,7 +16,21 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.1-SNAPSHOT": {
+    "323090": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21532/323090/idiolect-azure-signed.zip?updateId=323090&pluginId=21532&family=INTELLIJ",
+      "sha256": "zRlHH4wYML8/EGM5gC60GkcAX3tBMuAoIDaxvClu2vE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.openasr.idiolect"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idiolect-azure-signed.zip",
+      "since": "222.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "323091": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21532/323091/idiolect-azure-signed.zip?updateId=323091&pluginId=21532&family=INTELLIJ",
       "sha256": "zRlHH4wYML8/EGM5gC60GkcAX3tBMuAoIDaxvClu2vE=",
       "channel": "beta",
@@ -29,6 +43,17 @@
       "since": "222.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0.1-SNAPSHOT": 323091
+    },
+    "eap": {
+      "1.0.1-SNAPSHOT": 323090
+    },
+    "stable": {
+      "1.0.0": 323089
     }
   }
 }

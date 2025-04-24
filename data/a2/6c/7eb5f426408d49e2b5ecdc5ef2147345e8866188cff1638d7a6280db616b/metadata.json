@@ -1,21 +1,8 @@
 {
   "xml_id": "com.ld.rookie",
   "numeric_id": 18989,
-  "versions": {
-    "1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/18989/175111/rookie-1.0.zip?updateId=175111&pluginId=18989&family=INTELLIJ",
-      "sha256": "KkhiGRsFsidGsjFQX2qHOv/YWfJgVVewCiJ2YIW6+Uw=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "rookie-1.0.zip",
-      "since": "213.5744",
-      "until": "213.*",
-      "compatibility_overrides": []
-    },
-    "1.1": {
+  "updates": {
+    "173966": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18989/173966/rookie-1.1.zip?updateId=173966&pluginId=18989&family=INTELLIJ",
       "sha256": "p6UTW+VCShQJnEYeKMDjd2dgxKCaKf890gmg2dJF9P4=",
       "channel": "stable",
@@ -28,6 +15,25 @@
       "since": "213.5744",
       "until": "213.*",
       "compatibility_overrides": []
+    },
+    "175111": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18989/175111/rookie-1.0.zip?updateId=175111&pluginId=18989&family=INTELLIJ",
+      "sha256": "KkhiGRsFsidGsjFQX2qHOv/YWfJgVVewCiJ2YIW6+Uw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rookie-1.0.zip",
+      "since": "213.5744",
+      "until": "213.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 175111,
+      "1.1": 173966
     }
   }
 }

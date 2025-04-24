@@ -1,21 +1,8 @@
 {
   "xml_id": "org.utbot.rider.plugin.id",
   "numeric_id": 20747,
-  "versions": {
-    "2022.12": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/20747/313214/utbot-rider-2022.12.zip?updateId=313214&pluginId=20747&family=INTELLIJ",
-      "sha256": "p/qOAOdy6oOovOF01lqWn/2MunCv6hLSkWwOTqVmGp4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.rider"
-      ],
-      "optional_dependencies": [],
-      "file_name": "utbot-rider-2022.12.zip",
-      "since": "223.0",
-      "until": "223.*",
-      "compatibility_overrides": []
-    },
-    "2022.12-beta": {
+  "updates": {
+    "276618": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20747/276618/utbot-rider-2022.12-beta.zip?updateId=276618&pluginId=20747&family=INTELLIJ",
       "sha256": "fRBoUHI966YVW2b5bmwlJSwr85BIos+0Iq6lGeVkaaY=",
       "channel": "stable",
@@ -28,7 +15,20 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "2023.3": {
+    "313214": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20747/313214/utbot-rider-2022.12.zip?updateId=313214&pluginId=20747&family=INTELLIJ",
+      "sha256": "p/qOAOdy6oOovOF01lqWn/2MunCv6hLSkWwOTqVmGp4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "utbot-rider-2022.12.zip",
+      "since": "223.0",
+      "until": "223.*",
+      "compatibility_overrides": []
+    },
+    "313216": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20747/313216/utbot-rider-2023.3.zip?updateId=313216&pluginId=20747&family=INTELLIJ",
       "sha256": "gL2zrgmZNaVF83AplrfhFeHw5wfXPUZe3hNmEITjof8=",
       "channel": "stable",
@@ -40,6 +40,13 @@
       "since": "231.0",
       "until": "231.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2022.12": 313214,
+      "2022.12-beta": 276618,
+      "2023.3": 313216
     }
   }
 }

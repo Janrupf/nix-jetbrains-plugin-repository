@@ -1,21 +1,8 @@
 {
   "xml_id": "org.arkivanov.mvikotlin.plugin.idea.timetravel",
   "numeric_id": 14241,
-  "versions": {
-    "2.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/98658/plugin-idea-2.0.0.zip?updateId=98658&pluginId=14241&family=INTELLIJ",
-      "sha256": "b88/y0sC4x90w7924x0jONGnIYkGSjdywJCYqq0HhJU=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "plugin-idea-2.0.0.zip",
-      "since": "192.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "2.0.0-beta3": {
+  "updates": {
+    "85437": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/85437/mvikotlin-timetravel-plugin-idea-2.0.0-beta3.zip?updateId=85437&pluginId=14241&family=INTELLIJ",
       "sha256": "djxla2jVqH043FQR7I46wgda01lxQRmB383YkHiJh0U=",
       "channel": "stable",
@@ -28,7 +15,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "2.0.0-rc1": {
+    "90436": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/90436/plugin-idea-2.0.0-rc1.zip?updateId=90436&pluginId=14241&family=INTELLIJ",
       "sha256": "vGmwsIxqKq71TatOq80gm+lSHTG/MnE7UrF9IbUKh9I=",
       "channel": "stable",
@@ -41,20 +28,20 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/195148/plugin-idea-3.0.0.zip?updateId=195148&pluginId=14241&family=INTELLIJ",
-      "sha256": "plos9tYfcSO2vy11fA+J7ipjGXSyniCl+nzZzerUGwg=",
+    "98658": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/98658/plugin-idea-2.0.0.zip?updateId=98658&pluginId=14241&family=INTELLIJ",
+      "sha256": "b88/y0sC4x90w7924x0jONGnIYkGSjdywJCYqq0HhJU=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "plugin-idea-3.0.0.zip",
-      "since": "211.0",
+      "file_name": "plugin-idea-2.0.0.zip",
+      "since": "192.0",
       "until": null,
       "compatibility_overrides": []
     },
-    "3.0.0-alpha01": {
+    "130803": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/130803/plugin-idea-3.0.0-alpha01.zip?updateId=130803&pluginId=14241&family=INTELLIJ",
       "sha256": "UuSXKk3TU2jmCJucrWgCjGbzKOl/TWad6W0eElhdLuY=",
       "channel": "stable",
@@ -67,7 +54,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.0.0-alpha02": {
+    "141970": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/141970/plugin-idea-3.0.0-alpha02.zip?updateId=141970&pluginId=14241&family=INTELLIJ",
       "sha256": "km1T3whCDPpfE4kn3FZoOjwsENKNiNZ57wvx6AoO1m8=",
       "channel": "stable",
@@ -80,7 +67,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.0.0-alpha03": {
+    "152266": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/152266/plugin-idea-3.0.0-alpha03.zip?updateId=152266&pluginId=14241&family=INTELLIJ",
       "sha256": "mIuc0lJBlhpjKxgzFQV5zkbvN6vyH7P6TJpO7XtfKY0=",
       "channel": "stable",
@@ -93,7 +80,20 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.0.1": {
+    "195148": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/195148/plugin-idea-3.0.0.zip?updateId=195148&pluginId=14241&family=INTELLIJ",
+      "sha256": "plos9tYfcSO2vy11fA+J7ipjGXSyniCl+nzZzerUGwg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-idea-3.0.0.zip",
+      "since": "211.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "280962": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14241/280962/plugin-idea-3.0.1.zip?updateId=280962&pluginId=14241&family=INTELLIJ",
       "sha256": "SYqlN7BeEbste7/hmkSxjnU5RqjFvR0xgwVSYva9L1I=",
       "channel": "stable",
@@ -105,6 +105,18 @@
       "since": "211.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.0.0": 98658,
+      "2.0.0-beta3": 85437,
+      "2.0.0-rc1": 90436,
+      "3.0.0": 195148,
+      "3.0.0-alpha01": 130803,
+      "3.0.0-alpha02": 141970,
+      "3.0.0-alpha03": 152266,
+      "3.0.1": 280962
     }
   }
 }

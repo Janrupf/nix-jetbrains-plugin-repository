@@ -1,8 +1,8 @@
 {
   "xml_id": "org.p4.p4plugin",
   "numeric_id": 10620,
-  "versions": {
-    "0.1": {
+  "updates": {
+    "44993": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10620/44993/IntelliJ-P4-Plugin.jar?updateId=44993&pluginId=10620&family=INTELLIJ",
       "sha256": "NiGi5sAddPWEunCdv0Xtl7lH1bC7uTZF2PR45cyS+8w=",
       "channel": "stable",
@@ -13,7 +13,18 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.2": {
+    "46266": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10620/46266/IntelliJ-P4-Plugin.jar?updateId=46266&pluginId=10620&family=INTELLIJ",
+      "sha256": "JUzc6SSHzbXkILAGW6r8IRiDQfiOc58BqgpfTNSAoB0=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ-P4-Plugin.jar",
+      "since": "145.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "46683": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10620/46683/IntelliJ-P4-Plugin.jar?updateId=46683&pluginId=10620&family=INTELLIJ",
       "sha256": "vCr+VdEwoZvWVjPWGUshPyMf4IiJZLJV6jKgeX0LtVw=",
       "channel": "beta",
@@ -24,7 +35,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.3": {
+    "50679": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10620/50679/IntelliJ-P4-Plugin.jar?updateId=50679&pluginId=10620&family=INTELLIJ",
       "sha256": "9Uoff18npc7rASaJUdqrEaxaPWtGdk7Nwo+jATVItL0=",
       "channel": "stable",
@@ -38,7 +49,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0": {
+    "106964": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10620/106964/P4_Plugin-1.0.zip?updateId=106964&pluginId=10620&family=INTELLIJ",
       "sha256": "V7thFZ4O9rfV9WCyDJy0Y5hzk6OuKqAAfCpcI3kf0Tk=",
       "channel": "beta",
@@ -51,6 +62,17 @@
       "since": "202.6397",
       "until": "202.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "0.2": 46683,
+      "1.0": 106964
+    },
+    "stable": {
+      "0.1": 44993,
+      "0.2": 46266,
+      "0.3": 50679
     }
   }
 }

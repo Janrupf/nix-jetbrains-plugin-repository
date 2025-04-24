@@ -1,19 +1,30 @@
 {
   "xml_id": "com.garage.works.xpathValidator",
   "numeric_id": 10627,
-  "versions": {
-    "0.1": {
+  "updates": {
+    "45050": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10627/45050/xpathResolver.zip?updateId=45050&pluginId=10627&family=INTELLIJ",
+      "sha256": "4bYO6ANlfGZ+WGGjuWU52hLIhlCtMzKCfWVLsm6OlmM=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "xpathResolver.zip",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "45246": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10627/45246/xpathResolver.zip?updateId=45246&pluginId=10627&family=INTELLIJ",
       "sha256": "r5TDgEUGT+6zt5CnySjsqrYYO79eS/vE0sgaU9oZ+nE=",
       "channel": "0.1.1",
       "dependencies": [],
       "optional_dependencies": [],
       "file_name": "xpathResolver.zip",
-      "since": "181.0",
+      "since": "173.0",
       "until": null,
       "compatibility_overrides": []
     },
-    "0.2": {
+    "50841": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10627/50841/xpathResolver.zip?updateId=50841&pluginId=10627&family=INTELLIJ",
       "sha256": "MBTQMpNju5e+4dlzgPj4S1kTMOVPG1frCvhW8q2gIng=",
       "channel": "stable",
@@ -24,7 +35,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.2.1": {
+    "50975": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10627/50975/XpathValidator.zip?updateId=50975&pluginId=10627&family=INTELLIJ",
       "sha256": "yW/O7yaGzc1p1cxBr5JNc4LzfMx32N3bO0oaP0QyK7I=",
       "channel": "stable",
@@ -34,6 +45,16 @@
       "since": "181.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "0.1.1": {
+      "0.1": 45246
+    },
+    "stable": {
+      "0.1": 45050,
+      "0.2": 50841,
+      "0.2.1": 50975
     }
   }
 }

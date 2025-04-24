@@ -1,21 +1,8 @@
 {
   "xml_id": "org.viqueen.ide.project-links-plugin",
   "numeric_id": 22101,
-  "versions": {
-    "1.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/22101/351237/project-links-plugin-1.0.0-signed.zip?updateId=351237&pluginId=22101&family=INTELLIJ",
-      "sha256": "O2wkXktqVA3PMTrczEuyZgpb2s6JYq+Ciuwz4HmSj6s=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "project-links-plugin-1.0.0-signed.zip",
-      "since": "221.0",
-      "until": "231.*",
-      "compatibility_overrides": []
-    },
-    "1.0.0-SNAPSHOT": {
+  "updates": {
+    "350998": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22101/350998/project-links-plugin-1.0.0-SNAPSHOT.jar?updateId=350998&pluginId=22101&family=INTELLIJ",
       "sha256": "uTSoXOgr0kD4hNbuUjR4+P3lU/8DoNHAbic60Gt7GGc=",
       "channel": "stable",
@@ -27,6 +14,25 @@
       "since": "221.0",
       "until": "231.*",
       "compatibility_overrides": []
+    },
+    "351237": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22101/351237/project-links-plugin-1.0.0-signed.zip?updateId=351237&pluginId=22101&family=INTELLIJ",
+      "sha256": "O2wkXktqVA3PMTrczEuyZgpb2s6JYq+Ciuwz4HmSj6s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "project-links-plugin-1.0.0-signed.zip",
+      "since": "221.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 351237,
+      "1.0.0-SNAPSHOT": 350998
     }
   }
 }

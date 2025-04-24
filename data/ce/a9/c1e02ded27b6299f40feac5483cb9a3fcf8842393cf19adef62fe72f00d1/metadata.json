@@ -1,8 +1,21 @@
 {
   "xml_id": "com.cxy.LiveCodeSnippet",
   "numeric_id": 22238,
-  "versions": {
-    "1.0.10": {
+  "updates": {
+    "359684": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22238/359684/LiveCodeSnippet-1.0.7.zip?updateId=359684&pluginId=22238&family=INTELLIJ",
+      "sha256": "+pMg0Cb0Oce/fXhfFW2Gk7ruVDoTv4RKoCCnV8zA45E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LiveCodeSnippet-1.0.7.zip",
+      "since": "213.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "359846": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22238/359846/LiveCodeSnippet-1.0.10.zip?updateId=359846&pluginId=22238&family=INTELLIJ",
       "sha256": "jLhadGjcgxmXjBu+KdzCZJNQjpSlKWfhAHz8z19gMCk=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "1.0.11": {
+    "371823": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22238/371823/LiveCodeSnippet-1.0.11.zip?updateId=371823&pluginId=22238&family=INTELLIJ",
       "sha256": "iPHP3Mu2AS6w8Cw7tZJsD07ysP8+PU+L7PesYLAirN8=",
       "channel": "stable",
@@ -27,19 +40,13 @@
       "since": "213.0",
       "until": "231.*",
       "compatibility_overrides": []
-    },
-    "1.0.7": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/22238/359684/LiveCodeSnippet-1.0.7.zip?updateId=359684&pluginId=22238&family=INTELLIJ",
-      "sha256": "+pMg0Cb0Oce/fXhfFW2Gk7ruVDoTv4RKoCCnV8zA45E=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "LiveCodeSnippet-1.0.7.zip",
-      "since": "213.0",
-      "until": "231.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.10": 359846,
+      "1.0.11": 371823,
+      "1.0.7": 359684
     }
   }
 }

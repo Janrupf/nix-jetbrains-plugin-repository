@@ -1,24 +1,8 @@
 {
   "xml_id": "linqingying.gitcode",
   "numeric_id": 26197,
-  "versions": {
-    "1.1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26197/665232/intellij-gitcode-1.1.0.zip?updateId=665232&pluginId=26197&family=INTELLIJ",
-      "sha256": "Ks7GhFgS9+CwOV+8S9TM9GCSwowWjf+ihU+//e42Z0c=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.tasks"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-gitcode-1.1.0.zip",
-      "since": "241.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
-    "2024.1.0": {
+  "updates": {
+    "657728": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26197/657728/intellij-gitcode-2024.1.0.zip?updateId=657728&pluginId=26197&family=INTELLIJ",
       "sha256": "GwQAsb6ku6aJX2KP3vpChYbJot66a2s8LjHr3W0Q61M=",
       "channel": "stable",
@@ -33,6 +17,28 @@
       "since": "241.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "665232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26197/665232/intellij-gitcode-1.1.0.zip?updateId=665232&pluginId=26197&family=INTELLIJ",
+      "sha256": "Ks7GhFgS9+CwOV+8S9TM9GCSwowWjf+ihU+//e42Z0c=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitcode-1.1.0.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.1.0": 665232,
+      "2024.1.0": 657728
     }
   }
 }

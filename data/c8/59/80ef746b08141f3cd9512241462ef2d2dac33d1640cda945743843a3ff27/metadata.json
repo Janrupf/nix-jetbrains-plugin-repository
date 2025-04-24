@@ -1,8 +1,8 @@
 {
   "xml_id": "org.vjapps.rsp.parser",
   "numeric_id": 13315,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "72128": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13315/72128/ARSParser-1.0.0.zip?updateId=72128&pluginId=13315&family=INTELLIJ",
       "sha256": "H7edjAIPNMyx0d9Kq3r4BqtfeiWN5WhlFP0FkXQYRmQ=",
       "channel": "alpha",
@@ -15,7 +15,7 @@
       "until": "192.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "72246": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13315/72246/ARSParser-1.0.1.zip?updateId=72246&pluginId=13315&family=INTELLIJ",
       "sha256": "5hWVNKj8LWXM3eilro86HBjo81GlcZ51xxYnySJC5G4=",
       "channel": "alpha",
@@ -29,7 +29,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.2": {
+    "72771": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13315/72771/ARSParser-1.0.2.zip?updateId=72771&pluginId=13315&family=INTELLIJ",
       "sha256": "QIIc0mfzQV2Q4vNVJl9VvIfY5sKWH+snJSnJX51veq8=",
       "channel": "stable",
@@ -42,6 +42,15 @@
       "since": "193.5233",
       "until": "193.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "1.0-SNAPSHOT": 72128,
+      "1.0.1": 72246
+    },
+    "stable": {
+      "1.0.2": 72771
     }
   }
 }

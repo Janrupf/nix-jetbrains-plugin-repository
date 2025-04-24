@@ -1,22 +1,8 @@
 {
   "xml_id": "com.github.adedayo.intellij.checkmate-plugin",
   "numeric_id": 14541,
-  "versions": {
-    "0.1.10-SNAPSHOT": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14541/96298/intellij-checkmate-plugin-0.1.10-SNAPSHOT.zip?updateId=96298&pluginId=14541&family=INTELLIJ",
-      "sha256": "izcJ6lvNA5jmV8WZLsn3ViS82luDHnCQ7zqhzY7EoYQ=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-checkmate-plugin-0.1.10-SNAPSHOT.zip",
-      "since": "162.0",
-      "until": "251.0",
-      "compatibility_overrides": []
-    },
-    "0.1.8-SNAPSHOT": {
+  "updates": {
+    "95415": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14541/95415/intellij-checkmate-plugin-0.1.8-SNAPSHOT.zip?updateId=95415&pluginId=14541&family=INTELLIJ",
       "sha256": "t6udrwrrNuqFn5Pb5JYMYwVdPBSU/5GW0bz5NnQsdKY=",
       "channel": "stable",
@@ -30,7 +16,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "0.1.9-SNAPSHOT": {
+    "95945": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14541/95945/intellij-checkmate-plugin-0.1.9-SNAPSHOT.zip?updateId=95945&pluginId=14541&family=INTELLIJ",
       "sha256": "7XFo6gfNM8EeI0oFVV2EihnqchtUGWVger+cqIqdmyQ=",
       "channel": "stable",
@@ -43,6 +29,27 @@
       "since": "162.0",
       "until": "251.0",
       "compatibility_overrides": []
+    },
+    "96298": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14541/96298/intellij-checkmate-plugin-0.1.10-SNAPSHOT.zip?updateId=96298&pluginId=14541&family=INTELLIJ",
+      "sha256": "izcJ6lvNA5jmV8WZLsn3ViS82luDHnCQ7zqhzY7EoYQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-checkmate-plugin-0.1.10-SNAPSHOT.zip",
+      "since": "162.0",
+      "until": "251.0",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.10-SNAPSHOT": 96298,
+      "0.1.8-SNAPSHOT": 95415,
+      "0.1.9-SNAPSHOT": 95945
     }
   }
 }

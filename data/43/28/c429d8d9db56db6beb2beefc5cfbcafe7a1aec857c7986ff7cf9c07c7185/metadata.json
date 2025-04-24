@@ -1,8 +1,8 @@
 {
   "xml_id": "com.stackfilesync.plugin",
   "numeric_id": 26498,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "678221": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26498/678221/stackfilesync-1.0-SNAPSHOT.zip?updateId=678221&pluginId=26498&family=INTELLIJ",
       "sha256": "rwLKZrHoKcU6vlQMMYlFdwNRQy2yDVSi3I4LgGZ/lg0=",
       "channel": "stable",
@@ -17,7 +17,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "679856": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26498/679856/stackfilesync-1.0.1.zip?updateId=679856&pluginId=26498&family=INTELLIJ",
       "sha256": "6bRk0WORdd7rVa8J2CYfJhMGBkauWHsVcRVzya2+FMk=",
       "channel": "stable",
@@ -35,6 +35,12 @@
       "since": "233.0",
       "until": "241.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0-SNAPSHOT": 678221,
+      "1.0.1": 679856
     }
   }
 }

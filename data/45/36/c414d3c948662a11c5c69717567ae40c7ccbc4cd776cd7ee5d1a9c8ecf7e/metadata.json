@@ -1,8 +1,8 @@
 {
   "xml_id": "com.orleviad.python-import",
   "numeric_id": 12857,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "67065": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12857/67065/python-import-fixer-1.0-SNAPSHOT.zip?updateId=67065&pluginId=12857&family=INTELLIJ",
       "sha256": "MKR/OCIxop85VsWYOvMpKjRwrCYhBq6sgVzpTnGwnJY=",
       "channel": "stable",
@@ -16,21 +16,7 @@
       "until": "183.*",
       "compatibility_overrides": []
     },
-    "1.0-SNAPSHOT-FROM-17-UNTIL-19-BUILD": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/12857/67080/python-import-fixer-1.0-SNAPSHOT-FROM-17-UNTIL-19-BUILD.zip?updateId=67080&pluginId=12857&family=INTELLIJ",
-      "sha256": "8w1cL+wF2qy6bk31yylXIvX3I4F/wBU9HYVirraPoCA=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [
-        "PythonCore",
-        "com.intellij.modules.python"
-      ],
-      "file_name": "python-import-fixer-1.0-SNAPSHOT-FROM-17-UNTIL-19-BUILD.zip",
-      "since": "171.0",
-      "until": "193.0",
-      "compatibility_overrides": []
-    },
-    "1.0-SNAPSHOT-LATEST": {
+    "67070": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12857/67070/python-import-fixer-1.0-SNAPSHOT-LATEST.zip?updateId=67070&pluginId=12857&family=INTELLIJ",
       "sha256": "VAH8iWMIdB/6JMx7LCIOv7p0shqVQEG2SyU6jMEWpEU=",
       "channel": "stable",
@@ -44,7 +30,7 @@
       "until": "183.*",
       "compatibility_overrides": []
     },
-    "1.0-SNAPSHOT-SINCE-183-BUILD": {
+    "67071": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12857/67071/python-import-fixer-1.0-SNAPSHOT-SINCE-183-BUILD.zip?updateId=67071&pluginId=12857&family=INTELLIJ",
       "sha256": "Nf9Pb8EazCF/uZvwl27LqB+djniw24bgGPHVL2cw1g8=",
       "channel": "stable",
@@ -58,7 +44,7 @@
       "until": "183.*",
       "compatibility_overrides": []
     },
-    "1.0-SNAPSHOT-UNTIL-19-BUILD": {
+    "67073": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12857/67073/python-import-fixer-1.0-SNAPSHOT-UNTIL-19-BUILD.zip?updateId=67073&pluginId=12857&family=INTELLIJ",
       "sha256": "LnFKiP1ASJReoOYQGKKypRcGHMmhWCiCEFZMnwRvmtc=",
       "channel": "stable",
@@ -72,7 +58,21 @@
       "until": "193.0",
       "compatibility_overrides": []
     },
-    "2.0.1": {
+    "67080": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12857/67080/python-import-fixer-1.0-SNAPSHOT-FROM-17-UNTIL-19-BUILD.zip?updateId=67080&pluginId=12857&family=INTELLIJ",
+      "sha256": "8w1cL+wF2qy6bk31yylXIvX3I4F/wBU9HYVirraPoCA=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "PythonCore",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "python-import-fixer-1.0-SNAPSHOT-FROM-17-UNTIL-19-BUILD.zip",
+      "since": "171.0",
+      "until": "193.0",
+      "compatibility_overrides": []
+    },
+    "84878": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12857/84878/python-import-fixer-2.0.1.zip?updateId=84878&pluginId=12857&family=INTELLIJ",
       "sha256": "E3Kg+RfVqcM+nDStTPelnMrs8OgdRfZdd7djrZQ62XA=",
       "channel": "stable",
@@ -86,7 +86,7 @@
       "until": "223.0",
       "compatibility_overrides": []
     },
-    "2.0.2": {
+    "273497": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12857/273497/python-import-fixer-2.0.2.jar?updateId=273497&pluginId=12857&family=INTELLIJ",
       "sha256": "tiK6imZ7Lv6dIdhganzz3FQ9nrkZ90PzaNynAdCwbxo=",
       "channel": "stable",
@@ -99,6 +99,17 @@
       "since": "171.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0-SNAPSHOT": 67065,
+      "1.0-SNAPSHOT-FROM-17-UNTIL-19-BUILD": 67080,
+      "1.0-SNAPSHOT-LATEST": 67070,
+      "1.0-SNAPSHOT-SINCE-183-BUILD": 67071,
+      "1.0-SNAPSHOT-UNTIL-19-BUILD": 67073,
+      "2.0.1": 84878,
+      "2.0.2": 273497
     }
   }
 }

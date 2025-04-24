@@ -1,8 +1,8 @@
 {
   "xml_id": "com.cedricziel.idea.typoscript",
   "numeric_id": 16593,
-  "versions": {
-    "211.7.0": {
+  "updates": {
+    "117437": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/117437/TYPO3_TypoScript_Support-211.7.0.zip?updateId=117437&pluginId=16593&family=INTELLIJ",
       "sha256": "vRKC6ohycd0/OAjwATq8SBRDKJe5/BNXJi8rfsGO4Ow=",
       "channel": "nightly",
@@ -15,7 +15,7 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "212.7.2": {
+    "140600": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/140600/TYPO3_TypoScript_Support-212.7.2.zip?updateId=140600&pluginId=16593&family=INTELLIJ",
       "sha256": "Eb7GY9rzV9Uhl6XX+bnhoLTI7f0fNmWg0m8Vhq2qpak=",
       "channel": "nightly",
@@ -28,20 +28,7 @@
       "until": "212.*",
       "compatibility_overrides": []
     },
-    "212.7.3": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/147516/TYPO3_TypoScript_Support-212.7.3.zip?updateId=147516&pluginId=16593&family=INTELLIJ",
-      "sha256": "WtOFdG44OcufSraIh6ib8bjOfJxoNiXp3g/qFS4A4QI=",
-      "channel": "nightly",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "TYPO3_TypoScript_Support-212.7.3.zip",
-      "since": "212.0",
-      "until": "212.*",
-      "compatibility_overrides": []
-    },
-    "213.7.3": {
+    "147513": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/147513/TYPO3_TypoScript_Support-213.7.3.zip?updateId=147513&pluginId=16593&family=INTELLIJ",
       "sha256": "VfaKDxnwBWQ6WKsmbGH+o1+4Zs1PrGNwzqiERWHrdJo=",
       "channel": "nightly",
@@ -54,7 +41,20 @@
       "until": "213.*",
       "compatibility_overrides": []
     },
-    "222.8.0": {
+    "147516": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/147516/TYPO3_TypoScript_Support-212.7.3.zip?updateId=147516&pluginId=16593&family=INTELLIJ",
+      "sha256": "WtOFdG44OcufSraIh6ib8bjOfJxoNiXp3g/qFS4A4QI=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TYPO3_TypoScript_Support-212.7.3.zip",
+      "since": "212.0",
+      "until": "212.*",
+      "compatibility_overrides": []
+    },
+    "263324": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/263324/TYPO3_TypoScript_Support-222.8.0.zip?updateId=263324&pluginId=16593&family=INTELLIJ",
       "sha256": "Su+eH2dfxpW91bXmnAGxwciKZPjyC/P3z1FsBzFj6XI=",
       "channel": "nightly",
@@ -67,7 +67,7 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "223.9.0": {
+    "263419": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/263419/TYPO3_TypoScript_Support-223.9.0.zip?updateId=263419&pluginId=16593&family=INTELLIJ",
       "sha256": "WV3zNCr6pE5lnyXuOu1/FuxxUi+DJZuRrpleAz3niiM=",
       "channel": "nightly",
@@ -80,7 +80,7 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "223.9.1": {
+    "263880": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/263880/TYPO3_TypoScript_Support-223.9.1.zip?updateId=263880&pluginId=16593&family=INTELLIJ",
       "sha256": "avScmusNhQUun0t5xwEp1YpTqarjT9J2qnH/K6izoXs=",
       "channel": "nightly",
@@ -93,7 +93,7 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "223.9.2": {
+    "315331": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/315331/TYPO3_TypoScript_Support-223.9.2.zip?updateId=315331&pluginId=16593&family=INTELLIJ",
       "sha256": "Yg8msvvTGgu3NSHG4qKCiG8N6b3/K6+1K6Pw121U4fM=",
       "channel": "nightly",
@@ -106,7 +106,7 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "231.9.2": {
+    "315334": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16593/315334/TYPO3_TypoScript_Support-231.9.2.zip?updateId=315334&pluginId=16593&family=INTELLIJ",
       "sha256": "0qdiIPyG0F0uxBjJ+QUWqYiH21OrgfJCGqJ03ekE0/g=",
       "channel": "nightly",
@@ -118,6 +118,19 @@
       "since": "231.0",
       "until": "231.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "nightly": {
+      "211.7.0": 117437,
+      "212.7.2": 140600,
+      "212.7.3": 147516,
+      "213.7.3": 147513,
+      "222.8.0": 263324,
+      "223.9.0": 263419,
+      "223.9.1": 263880,
+      "223.9.2": 315331,
+      "231.9.2": 315334
     }
   }
 }

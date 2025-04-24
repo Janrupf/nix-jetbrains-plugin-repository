@@ -1,8 +1,8 @@
 {
   "xml_id": "com.heytea.plugin.ccg",
   "numeric_id": 12850,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "66896": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12850/66896/copy-constructor-generator-1.0.0.jar?updateId=66896&pluginId=12850&family=INTELLIJ",
       "sha256": "Yc62QVlWggp+8VMxRwZl/W0wWn8dGgn4P1SaRGd8Cp8=",
       "channel": "stable",
@@ -22,7 +22,27 @@
         }
       ]
     },
-    "1.1.0": {
+    "67511": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12850/67511/copy-constructor-generator-1.1.0.zip?updateId=67511&pluginId=12850&family=INTELLIJ",
+      "sha256": "/cGctuq1RfH5KUXhB44LcIH8fUYGVdyzZc3JlZXmKiU=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "copy-constructor-generator-1.1.0.zip",
+      "since": "191.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "172.0",
+          "applies_until": "999.99999",
+          "compatible_since": "191.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "69068": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12850/69068/copy-constructor-generator-1.1.0.zip?updateId=69068&pluginId=12850&family=INTELLIJ",
       "sha256": "cP0IOdPYQPcGh3C2y/POQCzrW9nG9k/DdZwS/RGNJnw=",
       "channel": "stable",
@@ -42,7 +62,7 @@
         }
       ]
     },
-    "1.1.1": {
+    "69633": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12850/69633/copy-constructor-generator-1.1.1.zip?updateId=69633&pluginId=12850&family=INTELLIJ",
       "sha256": "Y2hOnzRiD9YsQEL3M0hgb9LXnuRp+/hNdlNA8V7O4/s=",
       "channel": "stable",
@@ -54,6 +74,16 @@
       "since": "172.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.1.0": 67511
+    },
+    "stable": {
+      "1.0.0": 66896,
+      "1.1.0": 69068,
+      "1.1.1": 69633
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "xml_id": "org.bookmark.pro.id",
   "numeric_id": 24476,
-  "versions": {
-    "20210202": {
+  "updates": {
+    "543560": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/543560/bookmark-pro-20210202.jar?updateId=543560&pluginId=24476&family=INTELLIJ",
       "sha256": "zv9TVcfRYvS/r3zcDkMwuv7snbk4ulm/j6ZMUY7LkFM=",
       "channel": "stable",
@@ -16,7 +16,7 @@
       "until": "221.6008.13",
       "compatibility_overrides": []
     },
-    "20220201": {
+    "543561": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/543561/bookmark-pro-20220201.jar?updateId=543561&pluginId=24476&family=INTELLIJ",
       "sha256": "MWyFlBDwTjqo83kys3ptqLKH1NZ9C7EUXfg6fP45nVw=",
       "channel": "stable",
@@ -30,7 +30,7 @@
       "until": "222.4554.10",
       "compatibility_overrides": []
     },
-    "20220301": {
+    "543563": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/543563/bookmark-pro-20220301.jar?updateId=543563&pluginId=24476&family=INTELLIJ",
       "sha256": "jO7osArX5ZOiL8FLvk0LzV2dajyNGoPhNAgoglqd4nE=",
       "channel": "stable",
@@ -44,7 +44,7 @@
       "until": "223.8836.41",
       "compatibility_overrides": []
     },
-    "212-222.01.01": {
+    "546794": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/546794/212-222.01.01.jar?updateId=546794&pluginId=24476&family=INTELLIJ",
       "sha256": "FWOGWgZ1qGI53VRjc3r5cMmMzUagfgBUeQcEDGlCxXg=",
       "channel": "stable",
@@ -58,7 +58,7 @@
       "until": "222.4554.10",
       "compatibility_overrides": []
     },
-    "212-222.01.02": {
+    "547481": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/547481/bookmark-pro.212-222.01.02.jar?updateId=547481&pluginId=24476&family=INTELLIJ",
       "sha256": "a5c8FHilX7QSYGb1Qaa+OWhQvLHakyf2Zrrs+TNuBOQ=",
       "channel": "stable",
@@ -72,7 +72,7 @@
       "until": "221.6008.13",
       "compatibility_overrides": []
     },
-    "212-222.01.03": {
+    "550305": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/550305/bookmark-pro-212-222.01.03.jar?updateId=550305&pluginId=24476&family=INTELLIJ",
       "sha256": "fgeA19xEAGdeJr+mljzr0JqKg66tgbwSVxrzU616uqY=",
       "channel": "stable",
@@ -86,21 +86,7 @@
       "until": "222.4554.10",
       "compatibility_overrides": []
     },
-    "212-222.01.06": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/581189/bookmark-pro-212-222.01.06.jar?updateId=581189&pluginId=24476&family=INTELLIJ",
-      "sha256": "nhqEo1NnyaHfc4elQR2ABB3hZOd/jVaMrh65SKheIqw=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "bookmark-pro-212-222.01.06.jar",
-      "since": "212.5080.55",
-      "until": "222.*",
-      "compatibility_overrides": []
-    },
-    "223-241.01.01": {
+    "557575": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/557575/bookmark-pro_223-241.01.01.jar?updateId=557575&pluginId=24476&family=INTELLIJ",
       "sha256": "WaBnCsYeL+Fph8p7ZMnizOBATy8SrmhVXLR+f5tz1Nk=",
       "channel": "stable",
@@ -115,7 +101,7 @@
       "until": "241.17890.1",
       "compatibility_overrides": []
     },
-    "223-241.01.03": {
+    "581188": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/581188/bookmark-pro-223-241.01.03.jar?updateId=581188&pluginId=24476&family=INTELLIJ",
       "sha256": "Woso9BF8PydvEiwGEddAMgQduvCmdIUXFpJEgmG3Hcc=",
       "channel": "stable",
@@ -128,6 +114,33 @@
       "since": "223.7571.182",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "581189": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24476/581189/bookmark-pro-212-222.01.06.jar?updateId=581189&pluginId=24476&family=INTELLIJ",
+      "sha256": "nhqEo1NnyaHfc4elQR2ABB3hZOd/jVaMrh65SKheIqw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "bookmark-pro-212-222.01.06.jar",
+      "since": "212.5080.55",
+      "until": "222.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "20210202": 543560,
+      "20220201": 543561,
+      "20220301": 543563,
+      "212-222.01.01": 546794,
+      "212-222.01.02": 547481,
+      "212-222.01.03": 550305,
+      "212-222.01.06": 581189,
+      "223-241.01.01": 557575,
+      "223-241.01.03": 581188
     }
   }
 }

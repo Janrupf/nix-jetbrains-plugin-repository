@@ -1,23 +1,8 @@
 {
   "xml_id": "com.alibaba.oneapi2.generator",
   "numeric_id": 16919,
-  "versions": {
-    "1.0.14": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/16919/134745/oneapi2-idea-plugin.zip?updateId=134745&pluginId=16919&family=INTELLIJ",
-      "sha256": "FNSCjMvotQIAsqJ79wKc6DuyFHh9w3B6Qu6JBhSZaWc=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "oneapi2-idea-plugin.zip",
-      "since": "182.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1.0.6": {
+  "updates": {
+    "122218": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16919/122218/oneapi2-idea-plugin.zip?updateId=122218&pluginId=16919&family=INTELLIJ",
       "sha256": "l2lvaJlX37JVdUfz5j9C66RQTP26jq8ccTRMmL1/qrE=",
       "channel": "stable",
@@ -32,7 +17,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.9": {
+    "128194": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16919/128194/oneapi2-idea-plugin-1.0.9.zip?updateId=128194&pluginId=16919&family=INTELLIJ",
       "sha256": "nhAXYqzYNw0et90tceyNpvr9WlRlZ6TU/i55cswXnhU=",
       "channel": "stable",
@@ -47,7 +32,22 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.0.0": {
+    "134745": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16919/134745/oneapi2-idea-plugin.zip?updateId=134745&pluginId=16919&family=INTELLIJ",
+      "sha256": "FNSCjMvotQIAsqJ79wKc6DuyFHh9w3B6Qu6JBhSZaWc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "oneapi2-idea-plugin.zip",
+      "since": "182.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "143255": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16919/143255/oneapi2-idea-plugin-2.0.0.zip?updateId=143255&pluginId=16919&family=INTELLIJ",
       "sha256": "Bh/h4IGQqOxyUStbWL+KJ9ryyUhneLbKTRyDsQBLESY=",
       "channel": "stable",
@@ -62,7 +62,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.0.1": {
+    "146800": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16919/146800/oneapi2-idea-plugin-2.0.1.zip?updateId=146800&pluginId=16919&family=INTELLIJ",
       "sha256": "Emjg7GGF2W0tcrR3mx3eFgcJ3sEz7qI4AButajISkm4=",
       "channel": "stable",
@@ -77,7 +77,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.0.3": {
+    "260576": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16919/260576/oneapi2-idea-plugin.zip?updateId=260576&pluginId=16919&family=INTELLIJ",
       "sha256": "tyzzzGNQnJ8teaXywdN8UV6rlnktrNaNrnHYtAb3IGs=",
       "channel": "stable",
@@ -91,6 +91,16 @@
       "since": "182.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.14": 134745,
+      "1.0.6": 122218,
+      "1.0.9": 128194,
+      "2.0.0": 143255,
+      "2.0.1": 146800,
+      "2.0.3": 260576
     }
   }
 }

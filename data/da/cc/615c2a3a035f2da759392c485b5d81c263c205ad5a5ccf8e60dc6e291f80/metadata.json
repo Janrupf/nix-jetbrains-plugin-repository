@@ -1,23 +1,8 @@
 {
   "xml_id": "cn.cangnova.cangjie",
   "numeric_id": 26907,
-  "versions": {
-    "1.0.0-242": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26907/703088/intellij-cangjie-1.0.0-242.zip?updateId=703088&pluginId=26907&family=INTELLIJ",
-      "sha256": "b6TGs8gBhOqPuxHTNvpFE/FYlZSoyNpd461WYFDxt7Q=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform",
-        "org.toml.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-cangjie-1.0.0-242.zip",
-      "since": "242.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
-    "1.0.0-243": {
+  "updates": {
+    "703086": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26907/703086/intellij-cangjie-1.0.0-243.zip?updateId=703086&pluginId=26907&family=INTELLIJ",
       "sha256": "tE2BaVJctmwWtmPdtsfiVm3vH1Lxo/gDhYmLwjdTj64=",
       "channel": "stable",
@@ -32,7 +17,22 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "703088": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26907/703088/intellij-cangjie-1.0.0-242.zip?updateId=703088&pluginId=26907&family=INTELLIJ",
+      "sha256": "b6TGs8gBhOqPuxHTNvpFE/FYlZSoyNpd461WYFDxt7Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-cangjie-1.0.0-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "716550": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26907/716550/intellij-cangjie-1.0.1-242.zip?updateId=716550&pluginId=26907&family=INTELLIJ",
       "sha256": "J40nwcGHRO6ViL0poOEilwFMHE0uRtKURjp69TFM4to=",
       "channel": "stable",
@@ -46,6 +46,13 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0-242": 703088,
+      "1.0.0-243": 703086,
+      "1.0.1": 716550
     }
   }
 }

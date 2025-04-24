@@ -1,8 +1,8 @@
 {
   "xml_id": "com.zeke.wong.neck-protect",
   "numeric_id": 12371,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "61950": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/61950/neck-protect.jar?updateId=61950&pluginId=12371&family=INTELLIJ",
       "sha256": "GeyCpjgu50ZcI0MYLyyjE8QLrtgPx1AbzXcElfr+boQ=",
       "channel": "stable",
@@ -22,7 +22,7 @@
         }
       ]
     },
-    "1.1": {
+    "70526": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/70526/neck-protect.jar?updateId=70526&pluginId=12371&family=INTELLIJ",
       "sha256": "0v3c+O49WUQqm3edjU/PGWiAwrqihQX9+bUb4J21Y+s=",
       "channel": "stable",
@@ -42,7 +42,7 @@
         }
       ]
     },
-    "1.1.1": {
+    "71979": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/71979/neck-protect.jar?updateId=71979&pluginId=12371&family=INTELLIJ",
       "sha256": "V7Esf/F6NNyroWYMgJ7armEfEM5SUokw96AsWEeCS/U=",
       "channel": "stable",
@@ -62,7 +62,33 @@
         }
       ]
     },
-    "1.1.2": {
+    "633876": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/633876/neck-protect.jar?updateId=633876&pluginId=12371&family=INTELLIJ",
+      "sha256": "GejEHzQBPQVkf5+oCr54sgi1y+cDUcKbeGcj6JaGGa0=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "neck-protect.jar",
+      "since": "232.0",
+      "until": "243.21565.193",
+      "compatibility_overrides": []
+    },
+    "633952": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/633952/neck-protect.jar?updateId=633952&pluginId=12371&family=INTELLIJ",
+      "sha256": "lDq3z6kG69yV50imvYuaHBtlMVr2X/mZfu2WMB56P3U=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "neck-protect.jar",
+      "since": "221.0",
+      "until": "231.9423.9",
+      "compatibility_overrides": []
+    },
+    "633966": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/633966/neck-protect.jar?updateId=633966&pluginId=12371&family=INTELLIJ",
       "sha256": "7QXJ+tbgcPn4PQ6tjiK95aFzlo+10FUrK+0ld3VXBIk=",
       "channel": "stable",
@@ -75,7 +101,7 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "1.1.3": {
+    "633967": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/633967/neck-protect.jar?updateId=633967&pluginId=12371&family=INTELLIJ",
       "sha256": "d4F0L3L7t9AdzXuhmujPvQJkEtP4WfI0fX1LMVq9OuQ=",
       "channel": "stable",
@@ -88,20 +114,7 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "1.1.4": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/635544/neck-protect.jar?updateId=635544&pluginId=12371&family=INTELLIJ",
-      "sha256": "Vz8vGhM0Qp6vnYuuc+FlhzO6MSsmt6eCtd/TQXViAus=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "neck-protect.jar",
-      "since": "221.0",
-      "until": "231.9423.9",
-      "compatibility_overrides": []
-    },
-    "1.1.5": {
+    "633982": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/633982/neck-protect.jar?updateId=633982&pluginId=12371&family=INTELLIJ",
       "sha256": "w/mjdLhcd4Ju6ApEIwfudw9qPVsvq87zIXFaz1q0PZI=",
       "channel": "stable",
@@ -113,6 +126,34 @@
       "since": "232.0",
       "until": "243.21565.193",
       "compatibility_overrides": []
+    },
+    "635544": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12371/635544/neck-protect.jar?updateId=635544&pluginId=12371&family=INTELLIJ",
+      "sha256": "Vz8vGhM0Qp6vnYuuc+FlhzO6MSsmt6eCtd/TQXViAus=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "neck-protect.jar",
+      "since": "221.0",
+      "until": "231.9423.9",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "1.1.4": 633952,
+      "1.1.5": 633876
+    },
+    "stable": {
+      "1.0": 61950,
+      "1.1": 70526,
+      "1.1.1": 71979,
+      "1.1.2": 633966,
+      "1.1.3": 633967,
+      "1.1.4": 635544,
+      "1.1.5": 633982
     }
   }
 }

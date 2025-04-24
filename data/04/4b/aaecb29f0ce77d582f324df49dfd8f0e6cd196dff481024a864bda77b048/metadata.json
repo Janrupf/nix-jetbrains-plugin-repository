@@ -1,30 +1,19 @@
 {
   "xml_id": "Lineage",
   "numeric_id": 104,
-  "versions": {
-    "0.5": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/104/409/Lineage_409.jar?updateId=409&pluginId=104&family=INTELLIJ",
-      "sha256": "/s/UNxzCpJPwKAcfMc2CuyJMJwzntCCtLNMlt/spXfc=",
+  "updates": {
+    "407": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/104/407/Lineage_407.jar?updateId=407&pluginId=104&family=INTELLIJ",
+      "sha256": "m03qihuCBh6cL04GCu71LwR4GVdYMZ+WnPC7vU/hOHs=",
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "Lineage_409.jar",
+      "file_name": "Lineage_407.jar",
       "since": "40.3000",
       "until": null,
       "compatibility_overrides": []
     },
-    "0.5.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/104/410/Lineage_410.jar?updateId=410&pluginId=104&family=INTELLIJ",
-      "sha256": "4QusEuckx6eONhGOOrPhIH+a54qfZeodhkHQc50opBw=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [],
-      "file_name": "Lineage_410.jar",
-      "since": "40.3000",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.5.3": {
+    "408": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/104/408/Lineage_408.jar?updateId=408&pluginId=104&family=INTELLIJ",
       "sha256": "6edV5F/xava3gJ6b3uy+NpgCVj6DqK1Iw2RSzBY+uPA=",
       "channel": "stable",
@@ -35,16 +24,35 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.5.4": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/104/407/Lineage_407.jar?updateId=407&pluginId=104&family=INTELLIJ",
-      "sha256": "m03qihuCBh6cL04GCu71LwR4GVdYMZ+WnPC7vU/hOHs=",
+    "409": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/104/409/Lineage_409.jar?updateId=409&pluginId=104&family=INTELLIJ",
+      "sha256": "/s/UNxzCpJPwKAcfMc2CuyJMJwzntCCtLNMlt/spXfc=",
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "Lineage_407.jar",
+      "file_name": "Lineage_409.jar",
       "since": "40.3000",
       "until": null,
       "compatibility_overrides": []
+    },
+    "410": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/104/410/Lineage_410.jar?updateId=410&pluginId=104&family=INTELLIJ",
+      "sha256": "4QusEuckx6eONhGOOrPhIH+a54qfZeodhkHQc50opBw=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "Lineage_410.jar",
+      "since": "40.3000",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.5": 409,
+      "0.5.1": 410,
+      "0.5.3": 408,
+      "0.5.4": 407
     }
   }
 }

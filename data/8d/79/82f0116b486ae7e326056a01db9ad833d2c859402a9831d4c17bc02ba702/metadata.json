@@ -1,24 +1,8 @@
 {
   "xml_id": "com.github.barfurth.jb.plastic",
   "numeric_id": 18166,
-  "versions": {
-    "0.2.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/18166/150051/plastic-jetbrains-0.2.0.zip?updateId=150051&pluginId=18166&family=INTELLIJ",
-      "sha256": "Eb3nmKTJUnC5ZT5NVxRr+WJ7oHh4ycGEhjsnUXsvnMY=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.intellij.java",
-        "org.jetbrains.kotlin"
-      ],
-      "file_name": "plastic-jetbrains-0.2.0.zip",
-      "since": "203.0",
-      "until": "213.*",
-      "compatibility_overrides": []
-    },
-    "0.2.0-beta": {
+  "updates": {
+    "149527": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18166/149527/plastic-jetbrains-0.2.0-beta.zip?updateId=149527&pluginId=18166&family=INTELLIJ",
       "sha256": "vnTUhQ/ZZhnUxw5KorylggI3AlY9RmmHl9ii4vC5yyY=",
       "channel": "beta",
@@ -34,7 +18,23 @@
       "until": "213.*",
       "compatibility_overrides": []
     },
-    "0.3.0": {
+    "150051": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18166/150051/plastic-jetbrains-0.2.0.zip?updateId=150051&pluginId=18166&family=INTELLIJ",
+      "sha256": "Eb3nmKTJUnC5ZT5NVxRr+WJ7oHh4ycGEhjsnUXsvnMY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "plastic-jetbrains-0.2.0.zip",
+      "since": "203.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "155489": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18166/155489/plastic-jetbrains-0.3.0.zip?updateId=155489&pluginId=18166&family=INTELLIJ",
       "sha256": "DyAo0zeAtZECX8heA5XBgSfMScQuezgMIyo7w71Km2g=",
       "channel": "stable",
@@ -49,6 +49,15 @@
       "since": "203.0",
       "until": "221.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "0.2.0-beta": 149527
+    },
+    "stable": {
+      "0.2.0": 150051,
+      "0.3.0": 155489
     }
   }
 }

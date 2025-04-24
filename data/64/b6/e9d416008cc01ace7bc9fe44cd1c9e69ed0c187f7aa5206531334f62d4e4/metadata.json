@@ -1,8 +1,21 @@
 {
   "xml_id": "com.schuetz",
   "numeric_id": 12079,
-  "versions": {
-    "0.0.1-SNAPSHOT": {
+  "updates": {
+    "59291": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12079/59291/generate-copyWith-plugin-1.0-SNAPSHOT.jar?updateId=59291&pluginId=12079&family=INTELLIJ",
+      "sha256": "uKG/Twscpfs0W4uN98zNajVJF1lpblQkSe1Gwj6bflU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "generate-copyWith-plugin-1.0-SNAPSHOT.jar",
+      "since": "182.3684",
+      "until": "182.*",
+      "compatibility_overrides": []
+    },
+    "59294": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12079/59294/generate-copyWith-plugin-0.0.1-SNAPSHOT.jar?updateId=59294&pluginId=12079&family=INTELLIJ",
       "sha256": "UjVn4gi8DDYUh7uWcxT2+vQtJ4v/GryaRmHFQ7RmUio=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": "182.*",
       "compatibility_overrides": []
     },
-    "0.0.2-SNAPSHOT": {
+    "59409": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12079/59409/generate-copyWith-plugin-0.0.2-SNAPSHOT.jar?updateId=59409&pluginId=12079&family=INTELLIJ",
       "sha256": "nnKaEA6SuyaAoGMcRfqvNICkqKjmYn/TYBDaZBUBNkk=",
       "channel": "stable",
@@ -27,19 +40,13 @@
       "since": "182.3684",
       "until": "182.*",
       "compatibility_overrides": []
-    },
-    "1.0-SNAPSHOT": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/12079/59291/generate-copyWith-plugin-1.0-SNAPSHOT.jar?updateId=59291&pluginId=12079&family=INTELLIJ",
-      "sha256": "uKG/Twscpfs0W4uN98zNajVJF1lpblQkSe1Gwj6bflU=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "generate-copyWith-plugin-1.0-SNAPSHOT.jar",
-      "since": "182.3684",
-      "until": "182.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1-SNAPSHOT": 59294,
+      "0.0.2-SNAPSHOT": 59409,
+      "1.0-SNAPSHOT": 59291
     }
   }
 }

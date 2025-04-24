@@ -1,8 +1,19 @@
 {
   "xml_id": "com.e2dit.e2tml",
   "numeric_id": 9251,
-  "versions": {
-    "0.1": {
+  "updates": {
+    "30189": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9251/30189/e2tml_plugin.jar?updateId=30189&pluginId=9251&family=INTELLIJ",
+      "sha256": "UVhSBPXtx9cssFtx4Qe+yBksRiMsVZOTdZhUIs+HzCo=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "e2tml_plugin.jar",
+      "since": "141.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "30191": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9251/30191/e2tml_plugin.jar?updateId=30191&pluginId=9251&family=INTELLIJ",
       "sha256": "kH0A6Rw1hBzgvH1p51h2zNV7jt660IZS/O626RYEHpY=",
       "channel": "alpha",
@@ -14,6 +25,14 @@
       "since": "141.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.1": 30191
+    },
+    "stable": {
+      "0.1": 30189
     }
   }
 }

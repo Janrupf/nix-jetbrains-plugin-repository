@@ -1,8 +1,8 @@
 {
   "xml_id": "io.github.lidian.ideaplugin",
   "numeric_id": 27001,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "709360": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27001/709360/demo1-1.0-SNAPSHOT.zip?updateId=709360&pluginId=27001&family=INTELLIJ",
       "sha256": "l8QeRwDeBk+h/ZWoIR/d2eFKld6n5yneARze+0tJTsY=",
       "channel": "stable",
@@ -17,7 +17,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.1-SNAPSHOT": {
+    "714293": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27001/714293/demo1-1.1-SNAPSHOT.zip?updateId=714293&pluginId=27001&family=INTELLIJ",
       "sha256": "B66rZwgG1/el+Z2dbg7CUYLILvQD9k3qpLyVvg5W05E=",
       "channel": "stable",
@@ -31,6 +31,12 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0-SNAPSHOT": 709360,
+      "1.1-SNAPSHOT": 714293
     }
   }
 }

@@ -1,8 +1,26 @@
 {
   "xml_id": "com.thinkwide.plugin.wizard",
   "numeric_id": 10543,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "44248": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10543/44248/ThinkWide.zip?updateId=44248&pluginId=10543&family=INTELLIJ",
+      "sha256": "N7Mzext87uRYADdhV+BHRq9CIRqc00sVD6nEtd1YzpI=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "ThinkWide.zip",
+      "since": "105.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "105.0",
+          "applies_until": "999.99999",
+          "compatible_since": "105.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "44484": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10543/44484/ThinkWide.zip?updateId=44484&pluginId=10543&family=INTELLIJ",
       "sha256": "mNMvdCPa9e+37fsvpgs7xymKMwLppFAj5zEZM0GlxC4=",
       "channel": "1.2 stable",
@@ -20,7 +38,7 @@
         }
       ]
     },
-    "1.1": {
+    "44485": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10543/44485/ThinkWide.zip?updateId=44485&pluginId=10543&family=INTELLIJ",
       "sha256": "07Ma1C8DGDrrrPD1rwvZDfaukLdijtpoOviLscfypS4=",
       "channel": "stable",
@@ -37,6 +55,15 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "1.2 stable": {
+      "1.0": 44484
+    },
+    "stable": {
+      "1.0": 44248,
+      "1.1": 44485
     }
   }
 }

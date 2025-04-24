@@ -1,8 +1,8 @@
 {
   "xml_id": "rebase-guru",
   "numeric_id": 10721,
-  "versions": {
-    "0.1.0-SNAPSHOT": {
+  "updates": {
+    "45746": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10721/45746/rebase-guru-0.1.0-SNAPSHOT.jar?updateId=45746&pluginId=10721&family=INTELLIJ",
       "sha256": "tgAjk7wtzlx4gXBhYVGN5jvK3JOVUKqgyssBXshSAt8=",
       "channel": "stable",
@@ -17,7 +17,7 @@
       "until": "181.*",
       "compatibility_overrides": []
     },
-    "0.1.1": {
+    "50688": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10721/50688/git-fixup-0.1.1.zip?updateId=50688&pluginId=10721&family=INTELLIJ",
       "sha256": "ZjoUOG2NW/ybwr20NltQMea0rHJbtiWnimNZSMa/gT4=",
       "channel": "stable",
@@ -38,6 +38,12 @@
           "compatible_until": "183.*"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0-SNAPSHOT": 45746,
+      "0.1.1": 50688
     }
   }
 }

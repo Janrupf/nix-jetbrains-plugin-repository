@@ -1,8 +1,21 @@
 {
   "xml_id": "com.kuaishou.kspay.member.fasthash",
   "numeric_id": 25433,
-  "versions": {
-    "2.0.1": {
+  "updates": {
+    "610751": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25433/610751/FastHash-2.0.1.zip?updateId=610751&pluginId=25433&family=INTELLIJ",
+      "sha256": "gfU7v9nctV2BiNibeOij9yWwCBNd75RY31Z5gAr1a/o=",
+      "channel": "kspay-member",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "FastHash-2.0.1.zip",
+      "since": "222.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "615605": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25433/615605/FastHash-2.0.1.zip?updateId=615605&pluginId=25433&family=INTELLIJ",
       "sha256": "gfU7v9nctV2BiNibeOij9yWwCBNd75RY31Z5gAr1a/o=",
       "channel": "eap",
@@ -15,7 +28,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "2.0.2": {
+    "615606": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25433/615606/FastHash-2.0.2.zip?updateId=615606&pluginId=25433&family=INTELLIJ",
       "sha256": "p7sNNEatSu2bWypUjrZX83xF0EhzmtwAgwbmavwbaSM=",
       "channel": "eap",
@@ -27,6 +40,15 @@
       "since": "222.0",
       "until": "242.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "2.0.1": 615605,
+      "2.0.2": 615606
+    },
+    "kspay-member": {
+      "2.0.1": 610751
     }
   }
 }

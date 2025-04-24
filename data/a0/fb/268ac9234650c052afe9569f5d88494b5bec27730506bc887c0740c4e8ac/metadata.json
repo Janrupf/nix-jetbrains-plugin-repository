@@ -1,19 +1,8 @@
 {
   "xml_id": "ru.nobird.arch.templates",
   "numeric_id": 13275,
-  "versions": {
-    "1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/13275/71712/generator-1.0.zip?updateId=71712&pluginId=13275&family=INTELLIJ",
-      "sha256": "2VUbkp0NVHdVPvrfir0RRRLK0/7brITv75yLbiwSMDo=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [],
-      "file_name": "generator-1.0.zip",
-      "since": "191.6183",
-      "until": "191.*",
-      "compatibility_overrides": []
-    },
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "71711": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13275/71711/generator-1.0-SNAPSHOT.jar?updateId=71711&pluginId=13275&family=INTELLIJ",
       "sha256": "14G0PQK6mMI+VXQQwkK21LP9qkTQpByBH3ySw8P85Zk=",
       "channel": "beta",
@@ -23,6 +12,25 @@
       "since": "191.6183",
       "until": "191.*",
       "compatibility_overrides": []
+    },
+    "71712": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13275/71712/generator-1.0.zip?updateId=71712&pluginId=13275&family=INTELLIJ",
+      "sha256": "2VUbkp0NVHdVPvrfir0RRRLK0/7brITv75yLbiwSMDo=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "generator-1.0.zip",
+      "since": "191.6183",
+      "until": "191.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0-SNAPSHOT": 71711
+    },
+    "stable": {
+      "1.0": 71712
     }
   }
 }

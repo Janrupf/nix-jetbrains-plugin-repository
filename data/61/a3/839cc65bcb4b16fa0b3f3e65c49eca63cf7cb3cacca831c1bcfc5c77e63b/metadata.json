@@ -1,22 +1,8 @@
 {
   "xml_id": "com.github.pyvenvmanage.pyvenv",
   "numeric_id": 20536,
-  "versions": {
-    "1.3.10": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/20536/447135/PyVenv_Manage-1.3.10.zip?updateId=447135&pluginId=20536&family=INTELLIJ",
-      "sha256": "kK+rfu+4q1SRyJ+06KqFy4+6/HNCLDrvMOsUAuZ1JPY=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [
-        "PythonCore",
-        "com.intellij.modules.python"
-      ],
-      "file_name": "PyVenv_Manage-1.3.10.zip",
-      "since": "211.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1.3.7": {
+  "updates": {
+    "277687": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20536/277687/PyVenv_Manage-1.3.7.zip?updateId=277687&pluginId=20536&family=INTELLIJ",
       "sha256": "719BLZWrYPw/cXvEDnABhifSAmbtVi8AhmJHKqG4zUs=",
       "channel": "stable",
@@ -30,7 +16,7 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "1.3.8": {
+    "334282": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20536/334282/PyVenv_Manage-1.3.8.zip?updateId=334282&pluginId=20536&family=INTELLIJ",
       "sha256": "ZGG9aV4ImIeoH6VS7EziFbIs31B+9B+LBfSWhSmBiJ4=",
       "channel": "stable",
@@ -44,7 +30,7 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "1.3.9": {
+    "334368": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20536/334368/PyVenv_Manage-1.3.9.zip?updateId=334368&pluginId=20536&family=INTELLIJ",
       "sha256": "Ji+i92PjvXyLUNTpBd1n3xxRQ/1uORdxpUFzGnF4HaY=",
       "channel": "stable",
@@ -58,7 +44,21 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "1.4.0": {
+    "447135": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20536/447135/PyVenv_Manage-1.3.10.zip?updateId=447135&pluginId=20536&family=INTELLIJ",
+      "sha256": "kK+rfu+4q1SRyJ+06KqFy4+6/HNCLDrvMOsUAuZ1JPY=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "PythonCore",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "PyVenv_Manage-1.3.10.zip",
+      "since": "211.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "520917": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20536/520917/PyVenv_Manage-1.4.0.zip?updateId=520917&pluginId=20536&family=INTELLIJ",
       "sha256": "TdaNw37PR11lVqfxkkiol6xCqew+rvZyL2T6baH7UVM=",
       "channel": "stable",
@@ -72,7 +72,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.0.0": {
+    "585577": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20536/585577/PyVenv_Manage_2-2.0.0.zip?updateId=585577&pluginId=20536&family=INTELLIJ",
       "sha256": "2FkizhmFsgRA3UwZcHGKbg+t4pgUNxP8sGY5EEutxpM=",
       "channel": "stable",
@@ -86,7 +86,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.0.1": {
+    "585996": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20536/585996/PyVenv_Manage_2-2.0.1.zip?updateId=585996&pluginId=20536&family=INTELLIJ",
       "sha256": "EWRsVgqAqEvk3OK7zCWUSi4feH9VMAtT1z6UQkC5mtM=",
       "channel": "stable",
@@ -100,6 +100,17 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.3.10": 447135,
+      "1.3.7": 277687,
+      "1.3.8": 334282,
+      "1.3.9": 334368,
+      "1.4.0": 520917,
+      "2.0.0": 585577,
+      "2.0.1": 585996
     }
   }
 }

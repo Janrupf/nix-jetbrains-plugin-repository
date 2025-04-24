@@ -1,8 +1,8 @@
 {
   "xml_id": "org.tiktok.plugin",
   "numeric_id": 26550,
-  "versions": {
-    "1.0.18-SNAPSHOT": {
+  "updates": {
+    "695631": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26550/695631/mybatis-log-ultra-1.0.18-SNAPSHOT.zip?updateId=695631&pluginId=26550&family=INTELLIJ",
       "sha256": "00HqgMdTRCaFqQcvLkqhLqzSO/iyUOATU0qScw6wwQw=",
       "channel": "stable",
@@ -16,7 +16,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "2.0.4-SNAPSHOT": {
+    "704655": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26550/704655/mybatis-log-ultra-2.0.4-SNAPSHOT.zip?updateId=704655&pluginId=26550&family=INTELLIJ",
       "sha256": "/wBkVClIITitPB4YBfkbEMeXoKaVomsFIe4AwH0khuk=",
       "channel": "stable",
@@ -29,6 +29,27 @@
       "since": "231.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "722473": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26550/722473/mybatis-log-ultra-3.0.1-SNAPSHOT.zip?updateId=722473&pluginId=26550&family=INTELLIJ",
+      "sha256": "9mGtK49jHfcWXOZ77bPhE+crtJsy9XgpJWKf/B+RzvI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mybatis-log-ultra-3.0.1-SNAPSHOT.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.18-SNAPSHOT": 695631,
+      "2.0.4-SNAPSHOT": 704655,
+      "3.0.1-SNAPSHOT": 722473
     }
   }
 }

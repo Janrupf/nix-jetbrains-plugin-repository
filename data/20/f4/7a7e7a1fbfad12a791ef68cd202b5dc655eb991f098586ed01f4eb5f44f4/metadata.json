@@ -1,8 +1,21 @@
 {
   "xml_id": "in.specmatic.specmatic-intellij-plugin",
   "numeric_id": 24548,
-  "versions": {
-    "1.0.11": {
+  "updates": {
+    "550848": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24548/550848/specmatic-intellij-plugin-1.0.9.zip?updateId=550848&pluginId=24548&family=INTELLIJ",
+      "sha256": "lNymYQ++K1AlMQuCniRh7aylAautzAyZP3KWiyFIutE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "specmatic-intellij-plugin-1.0.9.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "559262": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24548/559262/specmatic-intellij-plugin-1.0.11.zip?updateId=559262&pluginId=24548&family=INTELLIJ",
       "sha256": "nBrNrcZMFqj+l/aAW9OzW3TDbuzHWUQtPV/0hbaSDAs=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.12": {
+    "572908": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24548/572908/specmatic-intellij-plugin-1.0.12.zip?updateId=572908&pluginId=24548&family=INTELLIJ",
       "sha256": "h4ZWOh2LSbQiravJUagd4d3kvmznszmR3K+okms8SAQ=",
       "channel": "stable",
@@ -27,19 +40,13 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
-    },
-    "1.0.9": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24548/550848/specmatic-intellij-plugin-1.0.9.zip?updateId=550848&pluginId=24548&family=INTELLIJ",
-      "sha256": "lNymYQ++K1AlMQuCniRh7aylAautzAyZP3KWiyFIutE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "specmatic-intellij-plugin-1.0.9.zip",
-      "since": "231.0",
-      "until": null,
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.11": 559262,
+      "1.0.12": 572908,
+      "1.0.9": 550848
     }
   }
 }

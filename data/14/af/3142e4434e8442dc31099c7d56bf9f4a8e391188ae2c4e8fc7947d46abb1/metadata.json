@@ -1,34 +1,8 @@
 {
   "xml_id": "com.github.iml885203.intellijgitopen",
   "numeric_id": 24695,
-  "versions": {
-    "2024.11.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24695/634555/IntelliJ-git-open-2024.11.1.zip?updateId=634555&pluginId=24695&family=INTELLIJ",
-      "sha256": "Lkn6pdptaHP7gylrmPqu603JxnXOlcgxmW67HdA1ulU=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "IntelliJ-git-open-2024.11.1.zip",
-      "since": "232.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
-    "2024.11.2": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24695/634565/IntelliJ-git-open-2024.11.2.zip?updateId=634565&pluginId=24695&family=INTELLIJ",
-      "sha256": "mKujEbVyAQ512b19UYDf9gopIgOW1f+13cYkAcdD/c0=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "IntelliJ-git-open-2024.11.2.zip",
-      "since": "232.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
-    "2024.6.5": {
+  "updates": {
+    "560724": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24695/560724/IntelliJ-git-open-2024.6.5.zip?updateId=560724&pluginId=24695&family=INTELLIJ",
       "sha256": "SJjYBwz+P9SgjfbHkMDaPpHlbT6k05oaifg2RG0+EZo=",
       "channel": "stable",
@@ -41,7 +15,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "2024.7.1": {
+    "567430": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24695/567430/IntelliJ-git-open-2024.7.1.zip?updateId=567430&pluginId=24695&family=INTELLIJ",
       "sha256": "LBgcqpdisnylvxyv8ZhtD4ouJTmkjgsdiqXlZvQ8bEg=",
       "channel": "stable",
@@ -54,7 +28,33 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "2025.1.1": {
+    "634555": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24695/634555/IntelliJ-git-open-2024.11.1.zip?updateId=634555&pluginId=24695&family=INTELLIJ",
+      "sha256": "Lkn6pdptaHP7gylrmPqu603JxnXOlcgxmW67HdA1ulU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ-git-open-2024.11.1.zip",
+      "since": "232.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "634565": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24695/634565/IntelliJ-git-open-2024.11.2.zip?updateId=634565&pluginId=24695&family=INTELLIJ",
+      "sha256": "mKujEbVyAQ512b19UYDf9gopIgOW1f+13cYkAcdD/c0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ-git-open-2024.11.2.zip",
+      "since": "232.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "666576": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24695/666576/IntelliJ-git-open-2025.1.1.zip?updateId=666576&pluginId=24695&family=INTELLIJ",
       "sha256": "cdWqTjQF3sHfvkhJhWqYqs2UgrGkB/GOQdJ0i9ZKoBY=",
       "channel": "stable",
@@ -66,6 +66,15 @@
       "since": "232.0",
       "until": "251.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2024.11.1": 634555,
+      "2024.11.2": 634565,
+      "2024.6.5": 560724,
+      "2024.7.1": 567430,
+      "2025.1.1": 666576
     }
   }
 }

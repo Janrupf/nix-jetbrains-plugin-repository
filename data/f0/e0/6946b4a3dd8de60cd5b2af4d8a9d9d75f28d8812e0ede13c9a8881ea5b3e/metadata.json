@@ -1,8 +1,8 @@
 {
   "xml_id": "ru.decahthuk.TransactionHelperPlugin",
   "numeric_id": 27059,
-  "versions": {
-    "1.0.0-SNAPSHOT": {
+  "updates": {
+    "714645": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27059/714645/TransactionHelperPlugin-1.0.0-SNAPSHOT.jar?updateId=714645&pluginId=27059&family=INTELLIJ",
       "sha256": "WcI6yFoJYM8UkDmksA2N3YwoofPf7yx4sNXnxH6F9Nc=",
       "channel": "stable",
@@ -15,6 +15,26 @@
       "since": "221.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "723637": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27059/723637/TransactionHelperPlugin-1.0.0.zip?updateId=723637&pluginId=27059&family=INTELLIJ",
+      "sha256": "nZuSo6DrTe/kLbqvk2cfBY7ROkS6ue65liP+icwOVOY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TransactionHelperPlugin-1.0.0.zip",
+      "since": "221.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 723637,
+      "1.0.0-SNAPSHOT": 714645
     }
   }
 }

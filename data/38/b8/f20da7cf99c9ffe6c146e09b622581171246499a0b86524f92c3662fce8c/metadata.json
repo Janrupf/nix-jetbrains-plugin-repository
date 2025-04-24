@@ -1,8 +1,29 @@
 {
   "xml_id": "com.buckstabue.stickynotes",
   "numeric_id": 13745,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "77034": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13745/77034/Sticky_Notes-1.0.zip?updateId=77034&pluginId=13745&family=INTELLIJ",
+      "sha256": "rFdAQfjrvBqk5KS+aGunHb1a+XDdQJCoCCI19i9h8rk=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Sticky_Notes-1.0.zip",
+      "since": "191.8026.42",
+      "until": "211.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.8026.42",
+          "applies_until": "999.99999",
+          "compatible_since": "191.8026.42",
+          "compatible_until": "211.*"
+        }
+      ]
+    },
+    "80807": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13745/80807/Sticky_Notes-1.0.zip?updateId=80807&pluginId=13745&family=INTELLIJ",
       "sha256": "OsCrH1XqdfvvE4kXcCY4s57QZqifh3Ofgil923WlM94=",
       "channel": "stable",
@@ -22,6 +43,14 @@
           "compatible_until": "211.*"
         }
       ]
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0": 77034
+    },
+    "stable": {
+      "1.0": 80807
     }
   }
 }

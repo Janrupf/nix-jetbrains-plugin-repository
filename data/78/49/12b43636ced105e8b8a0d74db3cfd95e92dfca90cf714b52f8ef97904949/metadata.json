@@ -1,8 +1,21 @@
 {
   "xml_id": "com.wavesplatform.rideplugin",
   "numeric_id": 20416,
-  "versions": {
-    "0.0.1": {
+  "updates": {
+    "255878": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20416/255878/rideplugin-0.0.1.signed.zip?updateId=255878&pluginId=20416&family=INTELLIJ",
+      "sha256": "Svgs09BEDYa8TxvjtLQA+/NF6byjbx3lcd8ORLuvcHI=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rideplugin-0.0.1.signed.zip",
+      "since": "213.0",
+      "until": "222.*",
+      "compatibility_overrides": []
+    },
+    "256290": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20416/256290/rideplugin-0.0.1.signed.zip?updateId=256290&pluginId=20416&family=INTELLIJ",
       "sha256": "FKUcWT88G4c91xFa9h+3/yWaYBipT+QGG8rBRMDx0d8=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "0.0.2": {
+    "259889": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20416/259889/rideplugin-0.0.2-signed.zip?updateId=259889&pluginId=20416&family=INTELLIJ",
       "sha256": "RV6aW6t6KUXTCjouln8+UVrPDCpCBb5ZO4iw4gm/vac=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "0.0.3": {
+    "289295": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20416/289295/rideplugin-0.0.3-signed.zip?updateId=289295&pluginId=20416&family=INTELLIJ",
       "sha256": "bxWmKbBWIckBlPd8Z9wN5TDX+17VAXWPGeMb1gFRyww=",
       "channel": "stable",
@@ -40,6 +53,16 @@
       "since": "213.0",
       "until": "231.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.0.1": 255878
+    },
+    "stable": {
+      "0.0.1": 256290,
+      "0.0.2": 259889,
+      "0.0.3": 289295
     }
   }
 }

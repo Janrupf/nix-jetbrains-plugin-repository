@@ -1,8 +1,22 @@
 {
   "xml_id": "generatedsoft.mps.dbfp",
   "numeric_id": 14794,
-  "versions": {
-    "20.1": {
+  "updates": {
+    "93219": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14794/93219/fpp.zip?updateId=93219&pluginId=14794&family=INTELLIJ",
+      "sha256": "jteunr0SWGJpFzdL/e17iwZqyzrs9OgWG19IZ7PVLic=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.mps",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fpp.zip",
+      "since": "201.6668",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "95149": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14794/95149/gsdbfp.zip?updateId=95149&pluginId=14794&family=INTELLIJ",
       "sha256": "yuRj5DV3UyhRyerXn7D4OVYRumJMaRgzkxEBOvfwREo=",
       "channel": "stable",
@@ -16,6 +30,14 @@
       "since": "201.6668",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "20.1": 93219
+    },
+    "stable": {
+      "20.1": 95149
     }
   }
 }

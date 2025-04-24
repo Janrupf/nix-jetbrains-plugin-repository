@@ -1,8 +1,21 @@
 {
   "xml_id": "cn.kotliner.dataclass",
   "numeric_id": 9812,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "36531": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9812/36531/NewDataClassAction-1.0-SNAPSHOT.zip?updateId=36531&pluginId=9812&family=INTELLIJ",
+      "sha256": "3xtEk21xNuLMZTiSYosiImyoWD/VTP+Ata/j3yyy3X4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "NewDataClassAction-1.0-SNAPSHOT.zip",
+      "since": "107.121",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "36545": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9812/36545/NewDataClassAction-1.0-SNAPSHOT.zip?updateId=36545&pluginId=9812&family=INTELLIJ",
       "sha256": "OyFL5owG8ejoWTLee5jhqVer6UuKlip6FxS23+Jx6oU=",
       "channel": "snapshot",
@@ -15,7 +28,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.b5a0799-SNAPSHOT": {
+    "36662": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9812/36662/NewDataClassAction-1.0.b5a0799-SNAPSHOT.zip?updateId=36662&pluginId=9812&family=INTELLIJ",
       "sha256": "QMbYbsENrVMtHsj+tTh7I8pZmwswXy69w2x0FcOQQyw=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.dbdce3c-rc": {
+    "51003": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9812/51003/NewDataClassAction-1.0.dbdce3c-rc.zip?updateId=51003&pluginId=9812&family=INTELLIJ",
       "sha256": "8JQJF0OMJjXFvTZG2JKm7IQJ4Xc9i2jB4J6TuPTjDDA=",
       "channel": "stable",
@@ -40,6 +53,16 @@
       "since": "107.121",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "snapshot": {
+      "1.0-SNAPSHOT": 36545
+    },
+    "stable": {
+      "1.0-SNAPSHOT": 36531,
+      "1.0.b5a0799-SNAPSHOT": 36662,
+      "1.0.dbdce3c-rc": 51003
     }
   }
 }

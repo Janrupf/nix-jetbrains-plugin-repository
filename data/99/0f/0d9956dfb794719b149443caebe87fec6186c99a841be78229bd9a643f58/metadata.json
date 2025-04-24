@@ -1,8 +1,21 @@
 {
   "xml_id": "Subversion 1.7",
   "numeric_id": 6660,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "10492": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6660/10492/Subversion_1.7_10492.zip?updateId=10492&pluginId=6660&family=INTELLIJ",
+      "sha256": "JEV7sdogIJ7Sqf4Fhse970NYBJw3wZ16B1F1Z2qVRyI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Subversion_1.7_10492.zip",
+      "since": "111.105",
+      "until": "111.*",
+      "compatibility_overrides": []
+    },
+    "10494": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6660/10494/Subversion_1.7_10494.zip?updateId=10494&pluginId=6660&family=INTELLIJ",
       "sha256": "uIEYeDmkk9YJLbj2n1AkpPxFIbKCeSShP6fw6DAxNss=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": "111.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "10719": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6660/10719/Subversion_1.7_10719.zip?updateId=10719&pluginId=6660&family=INTELLIJ",
       "sha256": "xOV6EUNSKVSLN5elwl7OlkJIDuCVRI6PtvSvjzTut7w=",
       "channel": "stable",
@@ -27,6 +40,12 @@
       "since": "111.275",
       "until": "112.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 10494,
+      "1.0.1": 10719
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "xml_id": "com.openfhir",
   "numeric_id": 26927,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "704824": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26927/704824/intellij-fhir-connect-plugin-1.0.0.zip?updateId=704824&pluginId=26927&family=INTELLIJ",
       "sha256": "lXhja022cAbGrVp97EHlr6H9UUiuqNVbAmsvd3F8zaA=",
       "channel": "stable",
@@ -16,7 +16,7 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "710055": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26927/710055/intellij-fhir-connect-plugin-1.0.1-signed.zip?updateId=710055&pluginId=26927&family=INTELLIJ",
       "sha256": "FnkrDPkgLy/jeTByFYF58CvJE6s9no/3ESOLRFxnl2Y=",
       "channel": "stable",
@@ -29,6 +29,12 @@
       "since": "231.0",
       "until": "233.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 704824,
+      "1.0.1": 710055
     }
   }
 }

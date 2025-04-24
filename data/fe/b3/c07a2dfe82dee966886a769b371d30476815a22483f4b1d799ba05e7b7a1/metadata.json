@@ -1,8 +1,8 @@
 {
   "xml_id": "net.starlighthosting.StarlightDark",
   "numeric_id": 13411,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "73272": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13411/73272/Darktheme.jar?updateId=73272&pluginId=13411&family=INTELLIJ",
       "sha256": "uGsu5OKm2K+asxwMGTWrnG+pSuZkz3+LQxphRNUSO6U=",
       "channel": "stable",
@@ -15,7 +15,20 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.1": {
+    "84546": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13411/84546/Darktheme.jar?updateId=84546&pluginId=13411&family=INTELLIJ",
+      "sha256": "5Xh3Lji7IbnVUsbXX9WfhML0DhmGK/F+r1MsyZ0Alm8=",
+      "channel": "development",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Darktheme.jar",
+      "since": "191.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "88516": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13411/88516/Darktheme.jar?updateId=88516&pluginId=13411&family=INTELLIJ",
       "sha256": "t5eFLLqVRTKG4k84jIlzpqyiaXnzdAGCl+LkZfVx8C8=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.2": {
+    "116647": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13411/116647/Darktheme.jar?updateId=116647&pluginId=13411&family=INTELLIJ",
       "sha256": "oVEFSytoKScIaofSxUxxGFbalCM1gZCIVHNg+OGIH/c=",
       "channel": "stable",
@@ -40,6 +53,16 @@
       "since": "173.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "development": {
+      "1.1": 84546
+    },
+    "stable": {
+      "1.0": 73272,
+      "1.1": 88516,
+      "1.2": 116647
     }
   }
 }

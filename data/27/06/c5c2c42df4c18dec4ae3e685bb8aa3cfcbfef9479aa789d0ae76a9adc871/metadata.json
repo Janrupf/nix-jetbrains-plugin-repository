@@ -1,8 +1,34 @@
 {
   "xml_id": "Execution-History-Recorder",
   "numeric_id": 14968,
-  "versions": {
-    "1.10": {
+  "updates": {
+    "95766": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14968/95766/execution-history-recorder-plugin.zip?updateId=95766&pluginId=14968&family=INTELLIJ",
+      "sha256": "zTG6K2NnmvNn6TGLQe59L3FKNJ0EqY6m0s3lNgbbk2A=",
+      "channel": "myhistorypluginsgabor",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "execution-history-recorder-plugin.zip",
+      "since": "193.0",
+      "until": "222.*",
+      "compatibility_overrides": []
+    },
+    "95770": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14968/95770/execution-history-recorder-plugin.zip?updateId=95770&pluginId=14968&family=INTELLIJ",
+      "sha256": "TEz+iyOCS9TFrY+iKIRgwWSD9wCzjyKIgXb2YzOLhfI=",
+      "channel": "myhistorypluginsgabor",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "execution-history-recorder-plugin.zip",
+      "since": "193.0",
+      "until": "223.*",
+      "compatibility_overrides": []
+    },
+    "95987": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14968/95987/execution-history-recorder-plugin.zip?updateId=95987&pluginId=14968&family=INTELLIJ",
       "sha256": "ecQqTLlRu+T7jz3IgsTewuLUUMltdb9Ml+wCEWIG398=",
       "channel": "stable",
@@ -22,7 +48,7 @@
         }
       ]
     },
-    "1.11": {
+    "96158": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14968/96158/execution-history-recorder-plugin.zip?updateId=96158&pluginId=14968&family=INTELLIJ",
       "sha256": "az/nK1uj0c75nJVx0TsbZZKwApqMuPZIpgaTE5hq3Fw=",
       "channel": "stable",
@@ -41,32 +67,16 @@
           "compatible_until": "223.*"
         }
       ]
+    }
+  },
+  "channels": {
+    "myhistorypluginsgabor": {
+      "1.7": 95766,
+      "1.8": 95770
     },
-    "1.7": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14968/95766/execution-history-recorder-plugin.zip?updateId=95766&pluginId=14968&family=INTELLIJ",
-      "sha256": "zTG6K2NnmvNn6TGLQe59L3FKNJ0EqY6m0s3lNgbbk2A=",
-      "channel": "myhistorypluginsgabor",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "execution-history-recorder-plugin.zip",
-      "since": "193.0",
-      "until": "222.*",
-      "compatibility_overrides": []
-    },
-    "1.8": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14968/95770/execution-history-recorder-plugin.zip?updateId=95770&pluginId=14968&family=INTELLIJ",
-      "sha256": "TEz+iyOCS9TFrY+iKIRgwWSD9wCzjyKIgXb2YzOLhfI=",
-      "channel": "myhistorypluginsgabor",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "execution-history-recorder-plugin.zip",
-      "since": "193.0",
-      "until": "223.*",
-      "compatibility_overrides": []
+    "stable": {
+      "1.10": 95987,
+      "1.11": 96158
     }
   }
 }

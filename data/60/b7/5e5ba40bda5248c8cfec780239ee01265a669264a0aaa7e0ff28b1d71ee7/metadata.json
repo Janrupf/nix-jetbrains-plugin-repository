@@ -1,8 +1,8 @@
 {
   "xml_id": "EasyPatch",
   "numeric_id": 3187,
-  "versions": {
-    "2.2.2": {
+  "updates": {
+    "5722": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/3187/5722/EasyPatch_5722.zip?updateId=5722&pluginId=3187&family=INTELLIJ",
       "sha256": "bRZAvVB+L+fcv0ZpjcJmbBgmN/WSHoXI2JmyrbEIkE8=",
       "channel": "stable",
@@ -20,7 +20,7 @@
         }
       ]
     },
-    "2.2.3": {
+    "5730": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/3187/5730/EasyPatch_5730.jar?updateId=5730&pluginId=3187&family=INTELLIJ",
       "sha256": "rXNWnieNXEaDvzmCRNxEjTOoKKoOKc0dBaY+9c1voL4=",
       "channel": "stable",
@@ -37,6 +37,12 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.2.2": 5722,
+      "2.2.3": 5730
     }
   }
 }

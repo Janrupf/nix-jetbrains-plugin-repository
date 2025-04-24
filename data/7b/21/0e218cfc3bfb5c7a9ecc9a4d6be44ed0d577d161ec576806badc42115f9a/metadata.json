@@ -1,8 +1,24 @@
 {
   "xml_id": "org.byted.easytest",
   "numeric_id": 17904,
-  "versions": {
-    "1.0.5": {
+  "updates": {
+    "144121": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17904/144121/easytest-1.0.5.zip?updateId=144121&pluginId=17904&family=INTELLIJ",
+      "sha256": "oVNH1wd+jKJ19ed78C2KrkmkOss2R4B6Fp+iL5fUztY=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.go",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "easytest-1.0.5.zip",
+      "since": "203.0",
+      "until": "212.*",
+      "compatibility_overrides": []
+    },
+    "144534": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17904/144534/easytest-1.0.5.zip?updateId=144534&pluginId=17904&family=INTELLIJ",
       "sha256": "oVNH1wd+jKJ19ed78C2KrkmkOss2R4B6Fp+iL5fUztY=",
       "channel": "stable",
@@ -18,7 +34,7 @@
       "until": "212.*",
       "compatibility_overrides": []
     },
-    "1.0.6": {
+    "150785": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17904/150785/easytest-1.0.6.zip?updateId=150785&pluginId=17904&family=INTELLIJ",
       "sha256": "dbeXEWnrEYX6WrcY5LsVpf9kYpbA08XnfA7iiuo8bdY=",
       "channel": "stable",
@@ -32,6 +48,15 @@
       "since": "203.0",
       "until": "212.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0.5": 144121
+    },
+    "stable": {
+      "1.0.5": 144534,
+      "1.0.6": 150785
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "xml_id": "com.jetbrains.rider.testPlugin.testPlugin",
   "numeric_id": 17046,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "123090": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17046/123090/testPlugin-1.0-SNAPSHOT.zip?updateId=123090&pluginId=17046&family=INTELLIJ",
       "sha256": "D3YWJVYIRNOSMbM8HlW+xB+DdqSCyeWfzHWrwJJQGJ0=",
       "channel": "stable",
@@ -15,7 +15,7 @@
       "until": "212.*",
       "compatibility_overrides": []
     },
-    "1.1-SNAPSHOT": {
+    "123091": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17046/123091/testPlugin-1.1-SNAPSHOT.zip?updateId=123091&pluginId=17046&family=INTELLIJ",
       "sha256": "2hJ5VRIVGlLHrc0vth6o/2hcHK16ovCwGMq/Kf3Sb/M=",
       "channel": "stable",
@@ -27,6 +27,12 @@
       "since": "193.5233.102",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0-SNAPSHOT": 123090,
+      "1.1-SNAPSHOT": 123091
     }
   }
 }

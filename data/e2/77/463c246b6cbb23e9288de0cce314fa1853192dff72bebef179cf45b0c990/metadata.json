@@ -1,30 +1,26 @@
 {
   "xml_id": "ru.scarlett",
   "numeric_id": 10868,
-  "versions": {
-    "0.1.5.alpha": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/10868/50280/scarlett-plugin-0.1.5.alpha.zip?updateId=50280&pluginId=10868&family=INTELLIJ",
-      "sha256": "jM7E/1TtsjCLd2VmmagnqvMc2LL7aJhb3IXWzr5m/68=",
-      "channel": "alpha",
+  "updates": {
+    "47255": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10868/47255/scarlett-plugin-0.1.alpha.jar?updateId=47255&pluginId=10868&family=INTELLIJ",
+      "sha256": "nbZX7MDsmRyYv+RqQunJFiVR7StM/rPyoG6sLCqjAkY=",
+      "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [],
-      "file_name": "scarlett-plugin-0.1.5.alpha.zip",
+      "file_name": "scarlett-plugin-0.1.alpha.jar",
       "since": "173.0",
       "until": "181.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "217.3.4",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "181.*"
+        }
+      ]
     },
-    "0.1.6.alpha": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/10868/50281/scarlett-plugin-0.1.6.alpha.zip?updateId=50281&pluginId=10868&family=INTELLIJ",
-      "sha256": "DgxdaI0ERYIQtXLa0+hcZHfqCLsN1NoF1UN2o9jm2bU=",
-      "channel": "alpha",
-      "dependencies": [],
-      "optional_dependencies": [],
-      "file_name": "scarlett-plugin-0.1.6.alpha.zip",
-      "since": "173.0",
-      "until": "181.*",
-      "compatibility_overrides": []
-    },
-    "0.1.alpha": {
+    "47258": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10868/47258/scarlett-plugin-0.1.alpha.zip?updateId=47258&pluginId=10868&family=INTELLIJ",
       "sha256": "xDxw+wT24n+OKJXw0Wbs2lfblkpirI66Dav3hcdn7fg=",
       "channel": "alpha",
@@ -41,6 +37,38 @@
           "compatible_until": "181.*"
         }
       ]
+    },
+    "50280": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10868/50280/scarlett-plugin-0.1.5.alpha.zip?updateId=50280&pluginId=10868&family=INTELLIJ",
+      "sha256": "jM7E/1TtsjCLd2VmmagnqvMc2LL7aJhb3IXWzr5m/68=",
+      "channel": "alpha",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "scarlett-plugin-0.1.5.alpha.zip",
+      "since": "173.0",
+      "until": "181.*",
+      "compatibility_overrides": []
+    },
+    "50281": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10868/50281/scarlett-plugin-0.1.6.alpha.zip?updateId=50281&pluginId=10868&family=INTELLIJ",
+      "sha256": "DgxdaI0ERYIQtXLa0+hcZHfqCLsN1NoF1UN2o9jm2bU=",
+      "channel": "alpha",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "scarlett-plugin-0.1.6.alpha.zip",
+      "since": "173.0",
+      "until": "181.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.1.5.alpha": 50280,
+      "0.1.6.alpha": 50281,
+      "0.1.alpha": 47258
+    },
+    "stable": {
+      "0.1.alpha": 47255
     }
   }
 }

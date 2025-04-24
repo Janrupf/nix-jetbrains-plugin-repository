@@ -1,21 +1,8 @@
 {
   "xml_id": "com.gitlab.jethril.poweredCursor",
   "numeric_id": 26279,
-  "versions": {
-    "0.0.1+IC.2024.2": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26279/662385/powered-cursor-0.0.1_IC.2024.2.zip?updateId=662385&pluginId=26279&family=INTELLIJ",
-      "sha256": "LHhXVKoxNUBXUQlMHiMoYa7HV7ZB3a7C9aTwPDGZtPY=",
-      "channel": "default",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "powered-cursor-0.0.1_IC.2024.2.zip",
-      "since": "242.20224",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
-    "0.0.1+IC.2024.3": {
+  "updates": {
+    "662384": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26279/662384/powered-cursor-0.0.1_IC.2024.3.zip?updateId=662384&pluginId=26279&family=INTELLIJ",
       "sha256": "Pm5b71UtMTTwupBR20h7yqd21gixB9mNuhMt3TyCMow=",
       "channel": "default",
@@ -28,7 +15,20 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.0.0+IC.2024.2": {
+    "662385": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26279/662385/powered-cursor-0.0.1_IC.2024.2.zip?updateId=662385&pluginId=26279&family=INTELLIJ",
+      "sha256": "LHhXVKoxNUBXUQlMHiMoYa7HV7ZB3a7C9aTwPDGZtPY=",
+      "channel": "default",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "powered-cursor-0.0.1_IC.2024.2.zip",
+      "since": "242.20224",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "682840": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26279/682840/powered-cursor-1.0.0_IC.2024.2.zip?updateId=682840&pluginId=26279&family=INTELLIJ",
       "sha256": "ua8aoX0L9r/8GmL6ihmFxhb7yqQeINqEiKN6yBFIcZY=",
       "channel": "stable",
@@ -41,7 +41,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "1.0.0+IC.2024.3": {
+    "682841": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26279/682841/powered-cursor-1.0.0_IC.2024.3.zip?updateId=682841&pluginId=26279&family=INTELLIJ",
       "sha256": "9gsbOj2tUNvyaN7O5nAUcOWL5LmDebpDSEN00rq81zQ=",
       "channel": "stable",
@@ -53,6 +53,58 @@
       "since": "243.21565",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "723616": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26279/723616/powered-cursor-1.0.1_IC.2024.2.zip?updateId=723616&pluginId=26279&family=INTELLIJ",
+      "sha256": "vo+sfd6PATuQe8bV3J3T0tomzbfGqUx4R0y5NbEAwHU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "powered-cursor-1.0.1_IC.2024.2.zip",
+      "since": "242.20224",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "723617": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26279/723617/powered-cursor-1.0.1_IC.2024.3.zip?updateId=723617&pluginId=26279&family=INTELLIJ",
+      "sha256": "5H8nqzYnIfQycb9b9o5pMGv6+osM+ztQsl5gzajOvR8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "powered-cursor-1.0.1_IC.2024.3.zip",
+      "since": "243.21565",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "723618": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26279/723618/powered-cursor-1.0.1_IC.2025.1.zip?updateId=723618&pluginId=26279&family=INTELLIJ",
+      "sha256": "WFj+dmC7jekYBk0omsb2QaQgCw8t6PAldh9jQys+Tbk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "powered-cursor-1.0.1_IC.2025.1.zip",
+      "since": "251.23774",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "default": {
+      "0.0.1+IC.2024.2": 662385,
+      "0.0.1+IC.2024.3": 662384
+    },
+    "stable": {
+      "1.0.0+IC.2024.2": 682840,
+      "1.0.0+IC.2024.3": 682841,
+      "1.0.1+IC.2024.2": 723616,
+      "1.0.1+IC.2024.3": 723617,
+      "1.0.1+IC.2025.1": 723618
     }
   }
 }

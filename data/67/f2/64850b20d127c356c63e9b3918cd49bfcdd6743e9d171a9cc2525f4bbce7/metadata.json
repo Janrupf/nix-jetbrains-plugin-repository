@@ -1,27 +1,8 @@
 {
   "xml_id": "open-liberty.intellij",
   "numeric_id": 14856,
-  "versions": {
-    "23.0.12": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/446485/liberty-tools-intellij-23.0.12.zip?updateId=446485&pluginId=14856&family=INTELLIJ",
-      "sha256": "ZaDojimQzrCth9Cnj3iHBrGJ0xgWEa1FNL280lwZ2tk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.gradle",
-        "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.properties",
-        "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.terminal"
-      ],
-      "optional_dependencies": [],
-      "file_name": "liberty-tools-intellij-23.0.12.zip",
-      "since": "231.0",
-      "until": "232.*",
-      "compatibility_overrides": []
-    },
-    "23.0.6": {
+  "updates": {
+    "351374": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/351374/liberty-tools-intellij-23.0.6.zip?updateId=351374&pluginId=14856&family=INTELLIJ",
       "sha256": "aLZ8jedSi1Z5A5mbAZrJN57kOwzW65YeR7RfDnaGBEE=",
       "channel": "stable",
@@ -40,9 +21,9 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "24.0.12": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/649486/liberty-tools-intellij-24.0.12.zip?updateId=649486&pluginId=14856&family=INTELLIJ",
-      "sha256": "byvYyAGH8+zFpZ8S7VUJSkzuOo3LOPK6AzU6uW471dQ=",
+    "446485": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/446485/liberty-tools-intellij-23.0.12.zip?updateId=446485&pluginId=14856&family=INTELLIJ",
+      "sha256": "ZaDojimQzrCth9Cnj3iHBrGJ0xgWEa1FNL280lwZ2tk=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.gradle",
@@ -50,17 +31,16 @@
         "com.intellij.modules.lang",
         "com.intellij.modules.platform",
         "com.intellij.properties",
-        "com.redhat.devtools.lsp4ij",
         "org.jetbrains.idea.maven",
         "org.jetbrains.plugins.terminal"
       ],
       "optional_dependencies": [],
-      "file_name": "liberty-tools-intellij-24.0.12.zip",
-      "since": "241.0",
-      "until": "243.*",
+      "file_name": "liberty-tools-intellij-23.0.12.zip",
+      "since": "231.0",
+      "until": "232.*",
       "compatibility_overrides": []
     },
-    "24.0.3": {
+    "513541": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/513541/liberty-tools-intellij-24.0.3.zip?updateId=513541&pluginId=14856&family=INTELLIJ",
       "sha256": "OBTL3uHlPpptmyLe2k92LT/l+mMOFGdWKlBw+nnM8ag=",
       "channel": "stable",
@@ -79,7 +59,7 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "24.0.6": {
+    "556682": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/556682/liberty-tools-intellij-24.0.6.zip?updateId=556682&pluginId=14856&family=INTELLIJ",
       "sha256": "vUUgrmKCpTffaaD7pNxIg2z0KEJhTHd0G6pZrxaUrVA=",
       "channel": "stable",
@@ -98,7 +78,27 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "24.0.9": {
+    "610306": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/610306/liberty-tools-intellij-24.0.9.zip?updateId=610306&pluginId=14856&family=INTELLIJ",
+      "sha256": "jKqZdULjKPat846QC5F0VONEGFWSOCkrmzKJgMIQH8k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "liberty-tools-intellij-24.0.9.zip",
+      "since": "241.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "643650": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/643650/liberty-tools-intellij-24.0.9.zip?updateId=643650&pluginId=14856&family=INTELLIJ",
       "sha256": "jOUSvkmNil0ypQ5jfzFSzBNUjCbdVBnIVZdRkcRuf5Q=",
       "channel": "preview",
@@ -118,7 +118,27 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "25.0.1-SNAPSHOT": {
+    "649486": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/649486/liberty-tools-intellij-24.0.12.zip?updateId=649486&pluginId=14856&family=INTELLIJ",
+      "sha256": "byvYyAGH8+zFpZ8S7VUJSkzuOo3LOPK6AzU6uW471dQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "liberty-tools-intellij-24.0.12.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "686735": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/686735/liberty-tools-intellij-25.0.1-SNAPSHOT.zip?updateId=686735&pluginId=14856&family=INTELLIJ",
       "sha256": "ZxeGFG8gmq76TWoCrxl00Yxqj1XvEokCL9tuVV5rHqI=",
       "channel": "preview",
@@ -137,6 +157,20 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "preview": {
+      "24.0.9": 643650,
+      "25.0.1-SNAPSHOT": 686735
+    },
+    "stable": {
+      "23.0.12": 446485,
+      "23.0.6": 351374,
+      "24.0.12": 649486,
+      "24.0.3": 513541,
+      "24.0.6": 556682,
+      "24.0.9": 610306
     }
   }
 }

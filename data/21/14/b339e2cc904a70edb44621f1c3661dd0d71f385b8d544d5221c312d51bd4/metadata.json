@@ -1,8 +1,8 @@
 {
   "xml_id": "ai-dl.enlighter",
   "numeric_id": 27093,
-  "versions": {
-    "1.5.0": {
+  "updates": {
+    "719598": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27093/719598/enlighter-1.5.0.zip?updateId=719598&pluginId=27093&family=INTELLIJ",
       "sha256": "pPzUv3lUK2keiHPCyn+RvYu2kUXSXVbFPD2mM7Mw/nw=",
       "channel": "stable",
@@ -15,7 +15,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.6.0": {
+    "721788": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27093/721788/enlighter-1.6.0.zip?updateId=721788&pluginId=27093&family=INTELLIJ",
       "sha256": "IEG2V8HOLycKroxfLAPlJ+YG8eqoUWguFfSSwxWdFyM=",
       "channel": "stable",
@@ -27,6 +27,26 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "723217": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27093/723217/enlighter-1.7.0.zip?updateId=723217&pluginId=27093&family=INTELLIJ",
+      "sha256": "2WFBooB7D1kP52Xoi96P9wjt9dZEqnuUdRU3Y+XZDcY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "enlighter-1.7.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.5.0": 719598,
+      "1.6.0": 721788,
+      "1.7.0": 723217
     }
   }
 }

@@ -1,24 +1,8 @@
 {
   "xml_id": "com.zeroxera.android.res",
   "numeric_id": 24130,
-  "versions": {
-    "0.1.1-Hedgehog": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24130/520122/android-resource-move-handler-0.1.1-Hedgehog.jar?updateId=520122&pluginId=24130&family=INTELLIJ",
-      "sha256": "cv17YrNWuBcbS1SMv+Zge/8yqxl28HFO5xbEC1+JgVg=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform",
-        "org.jetbrains.android",
-        "org.jetbrains.kotlin"
-      ],
-      "optional_dependencies": [],
-      "file_name": "android-resource-move-handler-0.1.1-Hedgehog.jar",
-      "since": "231.6890",
-      "until": "231.*",
-      "compatibility_overrides": []
-    },
-    "0.1.1-Iguana": {
+  "updates": {
+    "520121": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24130/520121/android-resource-move-handler-0.1.1-Iguana.jar?updateId=520121&pluginId=24130&family=INTELLIJ",
       "sha256": "U6Kg9d7X0owaSw7Nf8PFmBY76SoV4wFNCowHZ2FF79Y=",
       "channel": "stable",
@@ -34,7 +18,23 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "0.1.1-Jellyfish": {
+    "520122": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24130/520122/android-resource-move-handler-0.1.1-Hedgehog.jar?updateId=520122&pluginId=24130&family=INTELLIJ",
+      "sha256": "cv17YrNWuBcbS1SMv+Zge/8yqxl28HFO5xbEC1+JgVg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "android-resource-move-handler-0.1.1-Hedgehog.jar",
+      "since": "231.6890",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "520123": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24130/520123/android-resource-move-handler-0.1.1-Jellyfish.jar?updateId=520123&pluginId=24130&family=INTELLIJ",
       "sha256": "MGrri4W1pGXven2tClck0GboFvp82RKmM3dp2O3e/EE=",
       "channel": "stable",
@@ -50,7 +50,7 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "0.1.1-Koala": {
+    "520124": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24130/520124/android-resource-move-handler-0.1.1-Koala.jar?updateId=520124&pluginId=24130&family=INTELLIJ",
       "sha256": "fyS5vLq5HU2oFfRjfAA9YVYybNA36CJ/hAGIcFNp4ZA=",
       "channel": "stable",
@@ -65,6 +65,14 @@
       "since": "241.14494",
       "until": "241.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.1-Hedgehog": 520122,
+      "0.1.1-Iguana": 520121,
+      "0.1.1-Jellyfish": 520123,
+      "0.1.1-Koala": 520124
     }
   }
 }

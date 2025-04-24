@@ -1,8 +1,8 @@
 {
   "xml_id": "io.github.vudsen.arthas-ui",
   "numeric_id": 26846,
-  "versions": {
-    "0.2.0-alpha": {
+  "updates": {
+    "705865": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26846/705865/arthasui-core-0.2.0-alpha.zip?updateId=705865&pluginId=26846&family=INTELLIJ",
       "sha256": "hIPN+LCcRosCPlUzourmKgQK5T5cdux4UB19ZPsXkm8=",
       "channel": "alpha",
@@ -16,7 +16,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "0.3.0": {
+    "721845": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26846/721845/arthasui-core-0.3.0.zip?updateId=721845&pluginId=26846&family=INTELLIJ",
       "sha256": "rfLgT9yLQQUVBnz6b4FIMYu8uB6tWDYy+Xg7FR2xmZY=",
       "channel": "stable",
@@ -29,6 +29,29 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "723684": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26846/723684/arthasui-core-0.3.1.zip?updateId=723684&pluginId=26846&family=INTELLIJ",
+      "sha256": "TvyqYKnZ9WI7Y3GzJ5xBjYAS2eyLpW3l01808/QKoBE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "arthasui-core-0.3.1.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.2.0-alpha": 705865
+    },
+    "stable": {
+      "0.3.0": 721845,
+      "0.3.1": 723684
     }
   }
 }

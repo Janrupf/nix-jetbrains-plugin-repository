@@ -1,34 +1,8 @@
 {
   "xml_id": "ing.llamaz.woolly",
   "numeric_id": 23836,
-  "versions": {
-    "0.5.10": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23836/496445/woolly-0.5.10-all.jar?updateId=496445&pluginId=23836&family=INTELLIJ",
-      "sha256": "j8MY8M5uihoyz2D0wFulRBPf0h3b5XQocqYSb1v2lq4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "woolly-0.5.10-all.jar",
-      "since": "231.0",
-      "until": "233.*",
-      "compatibility_overrides": []
-    },
-    "0.5.11": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23836/510200/woolly-0.5.11-all.jar?updateId=510200&pluginId=23836&family=INTELLIJ",
-      "sha256": "VlGrGsZbNafH9FDMko9zPbYAe4cUH59BpUEX5Zx79wk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "woolly-0.5.11-all.jar",
-      "since": "222.0",
-      "until": "241.*",
-      "compatibility_overrides": []
-    },
-    "0.5.9": {
+  "updates": {
+    "494172": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23836/494172/woolly-0.5.9-all.jar?updateId=494172&pluginId=23836&family=INTELLIJ",
       "sha256": "bdhAtuMFLw5uzepmpHLtBKEnp59A/jxpe2d/tkvQGZY=",
       "channel": "stable",
@@ -41,7 +15,33 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "0.6.0": {
+    "496445": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23836/496445/woolly-0.5.10-all.jar?updateId=496445&pluginId=23836&family=INTELLIJ",
+      "sha256": "j8MY8M5uihoyz2D0wFulRBPf0h3b5XQocqYSb1v2lq4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "woolly-0.5.10-all.jar",
+      "since": "231.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "510200": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23836/510200/woolly-0.5.11-all.jar?updateId=510200&pluginId=23836&family=INTELLIJ",
+      "sha256": "VlGrGsZbNafH9FDMko9zPbYAe4cUH59BpUEX5Zx79wk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "woolly-0.5.11-all.jar",
+      "since": "222.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "587098": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23836/587098/woolly-0.6.0-all.jar?updateId=587098&pluginId=23836&family=INTELLIJ",
       "sha256": "Wd6UEPWdxSUs5cY+abRxopjm5X5weYcVJuPTJxnC3kg=",
       "channel": "stable",
@@ -54,7 +54,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.7.0": {
+    "672654": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23836/672654/woolly-0.7.0-all.jar?updateId=672654&pluginId=23836&family=INTELLIJ",
       "sha256": "HNcilybKS1BOfv+oqx6YPwc5u0PLkMKO/vc6RxrhxJM=",
       "channel": "stable",
@@ -66,6 +66,15 @@
       "since": "222.0",
       "until": "251.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.5.10": 496445,
+      "0.5.11": 510200,
+      "0.5.9": 494172,
+      "0.6.0": 587098,
+      "0.7.0": 672654
     }
   }
 }

@@ -1,22 +1,8 @@
 {
   "xml_id": "dev.mayankmkh.intellij.linear",
   "numeric_id": 16769,
-  "versions": {
-    "1.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/16769/133726/Linear_Tasks-1.0.0.zip?updateId=133726&pluginId=16769&family=INTELLIJ",
-      "sha256": "i9nzEj1WpdJZzTl3BYzhXL4ml7ifFJYmmINeixOJ3T4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.tasks"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Linear_Tasks-1.0.0.zip",
-      "since": "203.0",
-      "until": "212.*",
-      "compatibility_overrides": []
-    },
-    "1.0.0-alpha01": {
+  "updates": {
+    "119317": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16769/119317/Linear.Tasks-1.0.0-alpha01.zip?updateId=119317&pluginId=16769&family=INTELLIJ",
       "sha256": "TZ8w0c7MpMtSipB+syxrE4gLyZQM++COQTF2C+5j9tE=",
       "channel": "stable",
@@ -30,7 +16,7 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "1.0.0-alpha02": {
+    "120418": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16769/120418/Linear_Tasks-1.0.0-alpha02.zip?updateId=120418&pluginId=16769&family=INTELLIJ",
       "sha256": "6tc7UrJtLHD1nucVPEIuX1secAWiSoF36P54LEmaZMY=",
       "channel": "stable",
@@ -44,7 +30,7 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "1.0.0-alpha03": {
+    "121161": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16769/121161/Linear_Tasks-1.0.0-alpha03.zip?updateId=121161&pluginId=16769&family=INTELLIJ",
       "sha256": "YVNTeu5Tv3px3K/xghxs1jPu0DmIAeXRYnVYMn8JxRw=",
       "channel": "stable",
@@ -58,7 +44,7 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "1.0.0-beta01": {
+    "123245": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16769/123245/Linear_Tasks-1.0.0-beta01.zip?updateId=123245&pluginId=16769&family=INTELLIJ",
       "sha256": "tG7w2H8+DzR+BizX0BSJqzpmjU9wS6KIjwVC+JlIwJs=",
       "channel": "stable",
@@ -72,7 +58,21 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "1.1.0": {
+    "133726": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16769/133726/Linear_Tasks-1.0.0.zip?updateId=133726&pluginId=16769&family=INTELLIJ",
+      "sha256": "i9nzEj1WpdJZzTl3BYzhXL4ml7ifFJYmmINeixOJ3T4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.tasks"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Linear_Tasks-1.0.0.zip",
+      "since": "203.0",
+      "until": "212.*",
+      "compatibility_overrides": []
+    },
+    "148808": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16769/148808/Linear_Tasks-1.1.0.zip?updateId=148808&pluginId=16769&family=INTELLIJ",
       "sha256": "a/FYyIFcoX2SlD7fy24LLokb6aIuiM38uEHUhQff1Io=",
       "channel": "stable",
@@ -86,7 +86,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.0.0": {
+    "448099": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16769/448099/Linear_Tasks-2.0.0.zip?updateId=448099&pluginId=16769&family=INTELLIJ",
       "sha256": "vh2UvxALPrm7zMXbKlitw8rssUCEK6pRVulrBvS7dL8=",
       "channel": "stable",
@@ -99,6 +99,17 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 133726,
+      "1.0.0-alpha01": 119317,
+      "1.0.0-alpha02": 120418,
+      "1.0.0-alpha03": 121161,
+      "1.0.0-beta01": 123245,
+      "1.1.0": 148808,
+      "2.0.0": 448099
     }
   }
 }

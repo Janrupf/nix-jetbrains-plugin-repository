@@ -1,8 +1,55 @@
 {
   "xml_id": "com.github.zouyq.cmdTools",
   "numeric_id": 12413,
-  "versions": {
-    "0.3.1": {
+  "updates": {
+    "62310": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62310/CmdTools.jar?updateId=62310&pluginId=12413&family=INTELLIJ",
+      "sha256": "/947xadf/KF8z1SHr/nUsdwqLFBoDvM65j8KrqzXm9I=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "CmdTools.jar",
+      "since": "173.0",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "222.*"
+        }
+      ]
+    },
+    "62359": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62359/CmdTools.zip?updateId=62359&pluginId=12413&family=INTELLIJ",
+      "sha256": "Gde/3alqV970fOfNhW6jRbJuBFEj7dFOggSmaviVkPQ=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "CmdTools.zip",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "62361": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62361/CmdTools.zip?updateId=62361&pluginId=12413&family=INTELLIJ",
+      "sha256": "iHnbLpw9ansWH99BgPCBLVv9/0GP31WiyhFqiwu9DNI=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "CmdTools.zip",
+      "since": "173.0",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "222.*"
+        }
+      ]
+    },
+    "131133": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/131133/CmdTools-0.3.1.jar?updateId=131133&pluginId=12413&family=INTELLIJ",
       "sha256": "e4jZRc+/lpj63+sjrsQZ9FA0wBr5M0pZ3qIh6RUGRsg=",
       "channel": "stable",
@@ -22,7 +69,7 @@
         }
       ]
     },
-    "0.3.4": {
+    "273151": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/273151/cmdtools-0.3.4.jar?updateId=273151&pluginId=12413&family=INTELLIJ",
       "sha256": "WbLrsQhC72wF98Fr9V31SU/u3v5OcszYPl8NiJApEm4=",
       "channel": "stable",
@@ -34,53 +81,15 @@
       "since": "202.0",
       "until": "999.*",
       "compatibility_overrides": []
-    },
-    "1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62310/CmdTools.jar?updateId=62310&pluginId=12413&family=INTELLIJ",
-      "sha256": "/947xadf/KF8z1SHr/nUsdwqLFBoDvM65j8KrqzXm9I=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [],
-      "file_name": "CmdTools.jar",
-      "since": "173.0",
-      "until": "222.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "173.0",
-          "applies_until": "999.99999",
-          "compatible_since": "173.0",
-          "compatible_until": "222.*"
-        }
-      ]
-    },
-    "2.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62359/CmdTools.zip?updateId=62359&pluginId=12413&family=INTELLIJ",
-      "sha256": "Gde/3alqV970fOfNhW6jRbJuBFEj7dFOggSmaviVkPQ=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [],
-      "file_name": "CmdTools.zip",
-      "since": "173.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "3.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/12413/62361/CmdTools.zip?updateId=62361&pluginId=12413&family=INTELLIJ",
-      "sha256": "iHnbLpw9ansWH99BgPCBLVv9/0GP31WiyhFqiwu9DNI=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [],
-      "file_name": "CmdTools.zip",
-      "since": "173.0",
-      "until": "222.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "173.0",
-          "applies_until": "999.99999",
-          "compatible_since": "173.0",
-          "compatible_until": "222.*"
-        }
-      ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.3.1": 131133,
+      "0.3.4": 273151,
+      "1.0": 62310,
+      "2.0": 62359,
+      "3.0": 62361
     }
   }
 }

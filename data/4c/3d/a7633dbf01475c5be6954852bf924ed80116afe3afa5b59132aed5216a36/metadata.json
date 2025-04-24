@@ -1,8 +1,8 @@
 {
   "xml_id": "Identifier Highlighter Reloaded",
   "numeric_id": 6318,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "9975": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6318/9975/Identifier_Highlighter_Reloaded_9975.jar?updateId=9975&pluginId=6318&family=INTELLIJ",
       "sha256": "o7EVKIbvRlQcBMWeP1zpiKK0CjSE7yUGDPafG8HWJMg=",
       "channel": "stable",
@@ -13,7 +13,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.01": {
+    "9982": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6318/9982/Identifier_Highlighter_Reloaded_9982.jar?updateId=9982&pluginId=6318&family=INTELLIJ",
       "sha256": "bmsXN+mTCTixFkl0LFQDQ/ECok/asI3JNjsLRW48iy8=",
       "channel": "stable",
@@ -24,7 +24,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.02": {
+    "10642": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6318/10642/Identifier_Highlighter_Reloaded_10642.jar?updateId=10642&pluginId=6318&family=INTELLIJ",
       "sha256": "MyYzUHVbVb5MGDBAvoqj7c50tfd4ZBXSJ7xHxbCui8w=",
       "channel": "stable",
@@ -37,7 +37,20 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.02.1": {
+    "13114": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6318/13114/ih-reloaded.jar?updateId=13114&pluginId=6318&family=INTELLIJ",
+      "sha256": "d+OxgnejyuvWyVGpuRjn6AX6Tny72eFYv7vcK1qO3Zs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ih-reloaded.jar",
+      "since": "80.8000",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "13131": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6318/13131/ih-reloaded.jar?updateId=13131&pluginId=6318&family=INTELLIJ",
       "sha256": "CRfzczcZAbAXMCxzHqd72mxTMmWebcUpq13MYpdNZLk=",
       "channel": "stable",
@@ -49,6 +62,14 @@
       "since": "80.8000",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 9975,
+      "1.01": 9982,
+      "1.02": 10642,
+      "1.02.1": 13131
     }
   }
 }

@@ -1,8 +1,28 @@
 {
   "xml_id": "com.android.tool.sizereduction.plugin",
   "numeric_id": 12563,
-  "versions": {
-    "0.3.0": {
+  "updates": {
+    "64079": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12563/64079/studio_plugin-0.3.0.jar?updateId=64079&pluginId=12563&family=INTELLIJ",
+      "sha256": "ltiYxgQVWInaxDFaUuJO4EgRaSiVc+oe7kWjONamX5E=",
+      "channel": "binary-intelligence-test",
+      "dependencies": [
+        "com.intellij.modules.androidstudio"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio_plugin-0.3.0.jar",
+      "since": "181.0",
+      "until": "192",
+      "compatibility_overrides": [
+        {
+          "applies_since": "181.0",
+          "applies_until": "999.99999",
+          "compatible_since": "181.0",
+          "compatible_until": "192"
+        }
+      ]
+    },
+    "64081": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12563/64081/studio_plugin-0.3.0.jar?updateId=64081&pluginId=12563&family=INTELLIJ",
       "sha256": "ltiYxgQVWInaxDFaUuJO4EgRaSiVc+oe7kWjONamX5E=",
       "channel": "stable",
@@ -22,7 +42,7 @@
         }
       ]
     },
-    "0.3.1": {
+    "65977": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12563/65977/studio_plugin-0.3.1.jar?updateId=65977&pluginId=12563&family=INTELLIJ",
       "sha256": "wGJ8/s+m2aO5jpfGFjzq2nfG23Tg1i+U4RAQuE0BoRg=",
       "channel": "stable",
@@ -34,6 +54,15 @@
       "since": "181.0",
       "until": "192.0",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "binary-intelligence-test": {
+      "0.3.0": 64079
+    },
+    "stable": {
+      "0.3.0": 64081,
+      "0.3.1": 65977
     }
   }
 }

@@ -1,8 +1,21 @@
 {
   "xml_id": "generatedsoft.mps.xmlph",
   "numeric_id": 14826,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "93849": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14826/93849/gs-xmlph.jar?updateId=93849&pluginId=14826&family=INTELLIJ",
+      "sha256": "8kLGMVejTKa0O2fjbksewVKByy9m+vXKW95jOaNiOhE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gs-xmlph.jar",
+      "since": "172.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "95068": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14826/95068/gs-xmlph.jar?updateId=95068&pluginId=14826&family=INTELLIJ",
       "sha256": "8kLGMVejTKa0O2fjbksewVKByy9m+vXKW95jOaNiOhE=",
       "channel": "stable",
@@ -14,6 +27,14 @@
       "since": "172.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.0": 93849
+    },
+    "stable": {
+      "1.0": 95068
     }
   }
 }

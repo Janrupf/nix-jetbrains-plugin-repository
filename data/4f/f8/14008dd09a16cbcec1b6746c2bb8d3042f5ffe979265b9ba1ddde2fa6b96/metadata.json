@@ -1,8 +1,26 @@
 {
   "xml_id": "Message key usage plugin",
   "numeric_id": 2030,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "6040": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/2030/6040/Message_key_usage_plugin_6040.jar?updateId=6040&pluginId=2030&family=INTELLIJ",
+      "sha256": "J6lmLby02mSwpOMlsuiB70S91Qb3YGfupuWgxFwwo6c=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "Message_key_usage_plugin_6040.jar",
+      "since": "40.3000",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "40.3000",
+          "applies_until": "999.99999",
+          "compatible_since": "40.3000",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "6041": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/2030/6041/Message_key_usage_plugin_6041.jar?updateId=6041&pluginId=2030&family=INTELLIJ",
       "sha256": "4fmgc6Pr0ZXY1Y1YKzsrWMgk1LV1Ep23x4uIw0EKRdg=",
       "channel": "stable",
@@ -19,6 +37,11 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 6041
     }
   }
 }

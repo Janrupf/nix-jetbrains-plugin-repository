@@ -1,21 +1,8 @@
 {
   "xml_id": "intellij-elm",
   "numeric_id": 24075,
-  "versions": {
-    "5.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24075/526776/Elm-5.0.0.zip?updateId=526776&pluginId=24075&family=INTELLIJ",
-      "sha256": "L+/8O24QLFeiF+9sveMaNQ7HIh9lX83wlfh3CQ1kLV8=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Elm-5.0.0.zip",
-      "since": "222.0",
-      "until": "241.*",
-      "compatibility_overrides": []
-    },
-    "5.0.0-beta27": {
+  "updates": {
+    "519266": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24075/519266/Elm-5.0.0-beta27.zip?updateId=519266&pluginId=24075&family=INTELLIJ",
       "sha256": "FDAgGuE2lZxp9/C2u1aV5VuKl2LwO7in/SGiVmzZd94=",
       "channel": "stable",
@@ -28,7 +15,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "5.0.0-beta28": {
+    "520640": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24075/520640/Elm-5.0.0-beta28.zip?updateId=520640&pluginId=24075&family=INTELLIJ",
       "sha256": "aCZ4Knp1Gt3PlFtZlj8nCpQ2YsWPJrkRfCs/nVBKLvU=",
       "channel": "stable",
@@ -41,7 +28,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "5.0.0-beta29": {
+    "524832": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24075/524832/Elm-5.0.0-beta29.zip?updateId=524832&pluginId=24075&family=INTELLIJ",
       "sha256": "hXw7WtYEt0MAZ76wxwZ6s5pQCWK06Jndj2mI4U7L6tk=",
       "channel": "stable",
@@ -54,7 +41,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "5.0.1-beta1": {
+    "526768": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24075/526768/Elm-5.0.1-beta1.zip?updateId=526768&pluginId=24075&family=INTELLIJ",
       "sha256": "QOnoQW1IKHpGYhNrfx1Bm6uHHSp3a+9bnkqPIhRTDGk=",
       "channel": "stable",
@@ -66,6 +53,28 @@
       "since": "222.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "526776": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24075/526776/Elm-5.0.0.zip?updateId=526776&pluginId=24075&family=INTELLIJ",
+      "sha256": "L+/8O24QLFeiF+9sveMaNQ7HIh9lX83wlfh3CQ1kLV8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Elm-5.0.0.zip",
+      "since": "222.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "5.0.0": 526776,
+      "5.0.0-beta27": 519266,
+      "5.0.0-beta28": 520640,
+      "5.0.0-beta29": 524832,
+      "5.0.1-beta1": 526768
     }
   }
 }

@@ -1,8 +1,21 @@
 {
   "xml_id": "org.coffebrew",
   "numeric_id": 5920,
-  "versions": {
-    "0.1.8": {
+  "updates": {
+    "9089": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/5920/9089/org.coffebrew_9089.jar?updateId=9089&pluginId=5920&family=INTELLIJ",
+      "sha256": "aYqJdLjE+nmqOkaQpTkKDR9ffaz93mWSr9DY6iP/Kgs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "org.coffebrew_9089.jar",
+      "since": "90.10000",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "9090": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/5920/9090/org.coffebrew_9090.jar?updateId=9090&pluginId=5920&family=INTELLIJ",
       "sha256": "zZaK++Oo4lXTNosGBEkAkUUwHsBAeZNgUpgpFZaqbfs=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.2.0": {
+    "9097": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/5920/9097/org.coffebrew_9097.jar?updateId=9097&pluginId=5920&family=INTELLIJ",
       "sha256": "NnD/a5uzjmfMeJ+Ol+DfWBUz0/jNt8Jv0tUWoqM4Z+4=",
       "channel": "stable",
@@ -27,6 +40,12 @@
       "since": "80.9000",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.8": 9090,
+      "0.2.0": 9097
     }
   }
 }

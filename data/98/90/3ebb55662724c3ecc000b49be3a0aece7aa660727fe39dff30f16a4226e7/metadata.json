@@ -1,8 +1,21 @@
 {
   "xml_id": "dev.sandipchitale.jb-helm",
   "numeric_id": 25983,
-  "versions": {
-    "1.0.10": {
+  "updates": {
+    "642972": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25983/642972/jb-helm-1.0.7.zip?updateId=642972&pluginId=25983&family=INTELLIJ",
+      "sha256": "OA9ndcager4dIf0geNNhp1xFk2Zo3QlYLr4kmtxSQeo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jb-helm-1.0.7.zip",
+      "since": "232.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "643513": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25983/643513/jb-helm-1.0.10.zip?updateId=643513&pluginId=25983&family=INTELLIJ",
       "sha256": "JAX2Byc40Om9wOwXucXubk0NEIovhGGmdNJxd/o8jMY=",
       "channel": "stable",
@@ -17,7 +30,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.0.11": {
+    "668238": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25983/668238/jb-helm-1.0.11.zip?updateId=668238&pluginId=25983&family=INTELLIJ",
       "sha256": "T/rrh3EpoiM+BYccslCg58nxqPbL30LaniF7gSsBARo=",
       "channel": "stable",
@@ -32,18 +45,27 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "1.0.7": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25983/642972/jb-helm-1.0.7.zip?updateId=642972&pluginId=25983&family=INTELLIJ",
-      "sha256": "OA9ndcager4dIf0geNNhp1xFk2Zo3QlYLr4kmtxSQeo=",
+    "722175": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25983/722175/jb-helm-1.0.12.zip?updateId=722175&pluginId=25983&family=INTELLIJ",
+      "sha256": "GKSmP+JUPMJCRe0Rv0mgwc+ZfJQoL3dSJxik1lHwSL4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
       ],
       "optional_dependencies": [],
-      "file_name": "jb-helm-1.0.7.zip",
-      "since": "232.0",
-      "until": "243.*",
+      "file_name": "jb-helm-1.0.12.zip",
+      "since": "242.0",
+      "until": "251.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.10": 643513,
+      "1.0.11": 668238,
+      "1.0.12": 722175,
+      "1.0.7": 642972
     }
   }
 }

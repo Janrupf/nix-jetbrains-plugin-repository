@@ -1,8 +1,26 @@
 {
   "xml_id": "ThreadMon Plugin",
   "numeric_id": 1189,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "2966": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1189/2966/ThreadMon_Plugin_2966.jar?updateId=2966&pluginId=1189&family=INTELLIJ",
+      "sha256": "JqhSoRMsXHqvr7gvZ+c8EvzdUR9NKdvDUg41yb8LQAE=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "ThreadMon_Plugin_2966.jar",
+      "since": "55.5766",
+      "until": "222.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "55.5766",
+          "applies_until": "999.99999",
+          "compatible_since": "55.5766",
+          "compatible_until": "222.*"
+        }
+      ]
+    },
+    "3530": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/1189/3530/ThreadMon_Plugin_3530.jar?updateId=3530&pluginId=1189&family=INTELLIJ",
       "sha256": "R66PbIReAFKhCTQR4Zc8Nb+2ZEbLleWSbMdNwVX4cMQ=",
       "channel": "stable",
@@ -19,6 +37,11 @@
           "compatible_until": "222.*"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 3530
     }
   }
 }

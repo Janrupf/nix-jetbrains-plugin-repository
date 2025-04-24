@@ -1,22 +1,8 @@
 {
   "xml_id": "com.nowsprinting.intellij-mob",
   "numeric_id": 14266,
-  "versions": {
-    "1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/86467/intellij-mob-1.0.zip?updateId=86467&pluginId=14266&family=INTELLIJ",
-      "sha256": "PmfKj0jWAd0rR86vrD/MtPpOXsLfo+n55zjbU4CR6cM=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-mob-1.0.zip",
-      "since": "201.6668",
-      "until": "201.*",
-      "compatibility_overrides": []
-    },
-    "1.0-alpha3": {
+  "updates": {
+    "85802": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/85802/intellij-mob-1.0-alpha3.zip?updateId=85802&pluginId=14266&family=INTELLIJ",
       "sha256": "YxC+H7efNqvVhdpk1nRPnf4XNAJjEFdcgNKtQiptbuY=",
       "channel": "eap",
@@ -30,7 +16,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0-beta1": {
+    "86016": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/86016/intellij-mob-1.0-beta1.zip?updateId=86016&pluginId=14266&family=INTELLIJ",
       "sha256": "BsvzSvDSHUv5FkpaqoLrc7dWe0K0pl0zRN71ZlzX354=",
       "channel": "eap",
@@ -44,7 +30,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0-beta2": {
+    "86198": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/86198/intellij-mob-1.0-beta2.zip?updateId=86198&pluginId=14266&family=INTELLIJ",
       "sha256": "vKpTe/tqC74jKcR/oPY3E57uceNRki0lTYpejt2NtjE=",
       "channel": "eap",
@@ -58,7 +44,49 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "1.0.2": {
+    "86466": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/86466/intellij-mob-1.0.zip?updateId=86466&pluginId=14266&family=INTELLIJ",
+      "sha256": "PmfKj0jWAd0rR86vrD/MtPpOXsLfo+n55zjbU4CR6cM=",
+      "channel": "eap",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-mob-1.0.zip",
+      "since": "201.6668",
+      "until": "201.*",
+      "compatibility_overrides": []
+    },
+    "86467": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/86467/intellij-mob-1.0.zip?updateId=86467&pluginId=14266&family=INTELLIJ",
+      "sha256": "PmfKj0jWAd0rR86vrD/MtPpOXsLfo+n55zjbU4CR6cM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-mob-1.0.zip",
+      "since": "201.6668",
+      "until": "201.*",
+      "compatibility_overrides": []
+    },
+    "90997": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/90997/intellij-mob-1.0.2.zip?updateId=90997&pluginId=14266&family=INTELLIJ",
+      "sha256": "sEOxJk9BakNxAEu7oNUHOrHJUrh7U5EX8IVPr+Fl5ss=",
+      "channel": "eap",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-mob-1.0.2.zip",
+      "since": "201.6668.121",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "90998": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/90998/intellij-mob-1.0.2.zip?updateId=90998&pluginId=14266&family=INTELLIJ",
       "sha256": "sEOxJk9BakNxAEu7oNUHOrHJUrh7U5EX8IVPr+Fl5ss=",
       "channel": "stable",
@@ -72,7 +100,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.3": {
+    "110821": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14266/110821/intellij-mob-1.0.3.zip?updateId=110821&pluginId=14266&family=INTELLIJ",
       "sha256": "/OnvtEPe7n4F5RQeo8AK5AZwBDXaAR3M6AnlOdLMXlg=",
       "channel": "stable",
@@ -85,6 +113,20 @@
       "since": "203.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.0": 86466,
+      "1.0-alpha3": 85802,
+      "1.0-beta1": 86016,
+      "1.0-beta2": 86198,
+      "1.0.2": 90997
+    },
+    "stable": {
+      "1.0": 86467,
+      "1.0.2": 90998,
+      "1.0.3": 110821
     }
   }
 }

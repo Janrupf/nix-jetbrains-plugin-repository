@@ -1,8 +1,8 @@
 {
   "xml_id": "com.cts.process",
   "numeric_id": 23241,
-  "versions": {
-    "1.0-RELEASE": {
+  "updates": {
+    "451650": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23241/451650/CTS-1.0-RELEASE.zip?updateId=451650&pluginId=23241&family=INTELLIJ",
       "sha256": "0yPWwpXMZW+00oxT3wXV2IvE560SDaksGoMsZ6EKjW0=",
       "channel": "stable",
@@ -15,7 +15,7 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "1.1-RELEASE": {
+    "469185": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23241/469185/CTS-1.1-RELEASE.zip?updateId=469185&pluginId=23241&family=INTELLIJ",
       "sha256": "41axe/2LtM6G7lZpdeG5OZJfmmBCnhak4R6bse9vUFI=",
       "channel": "stable",
@@ -34,6 +34,12 @@
           "compatible_until": "232.*"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0-RELEASE": 451650,
+      "1.1-RELEASE": 469185
     }
   }
 }

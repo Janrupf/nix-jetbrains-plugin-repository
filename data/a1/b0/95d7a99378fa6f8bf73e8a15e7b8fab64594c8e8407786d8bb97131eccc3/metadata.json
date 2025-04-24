@@ -1,8 +1,8 @@
 {
   "xml_id": "Gold Section",
   "numeric_id": 2,
-  "versions": {
-    "2.26": {
+  "updates": {
+    "7": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/2/7/Gold_Section_7.jar?updateId=7&pluginId=2&family=INTELLIJ",
       "sha256": "ri0lGeV5vFNgbGyAqWKGx21zEVfda4b2XbbewoPbBwg=",
       "channel": "stable",
@@ -13,7 +13,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.26.1": {
+    "8": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/2/8/Gold_Section_8.jar?updateId=8&pluginId=2&family=INTELLIJ",
       "sha256": "kOhvONgnhm/Ypy8qcZRKeJ1UoOQdPhx6Me5sFR17KEs=",
       "channel": "stable",
@@ -23,6 +23,12 @@
       "since": "40.1126",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.26": 7,
+      "2.26.1": 8
     }
   }
 }

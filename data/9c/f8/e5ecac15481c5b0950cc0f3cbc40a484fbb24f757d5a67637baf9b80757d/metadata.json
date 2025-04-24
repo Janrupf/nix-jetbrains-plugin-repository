@@ -1,8 +1,8 @@
 {
   "xml_id": "com.javaLogManager",
   "numeric_id": 26179,
-  "versions": {
-    "1.2-SNAPSHOT": {
+  "updates": {
+    "657077": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26179/657077/javaLogManager-1.2-SNAPSHOT.zip?updateId=657077&pluginId=26179&family=INTELLIJ",
       "sha256": "hnK114EEpUQLSQEj383Jqade/m+U37WfcdzcUiCe9ac=",
       "channel": "beta",
@@ -15,7 +15,20 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "1.3": {
+    "658491": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26179/658491/javaLogManager-1.3.zip?updateId=658491&pluginId=26179&family=INTELLIJ",
+      "sha256": "ic0F7SWehzjmeweNKujAVqVXCxV4EoPrEFvZexowS+w=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "javaLogManager-1.3.zip",
+      "since": "222.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "659598": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26179/659598/javaLogManager-1.3.zip?updateId=659598&pluginId=26179&family=INTELLIJ",
       "sha256": "ic0F7SWehzjmeweNKujAVqVXCxV4EoPrEFvZexowS+w=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "1.4": {
+    "667726": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26179/667726/javaLogManager-1.4.zip?updateId=667726&pluginId=26179&family=INTELLIJ",
       "sha256": "Ghi1jJHFpe3AQX3ysl2rWg4SJCi7d4BgiZQxhgg5muc=",
       "channel": "stable",
@@ -40,6 +53,16 @@
       "since": "222.0",
       "until": "231.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.2-SNAPSHOT": 657077,
+      "1.3": 658491
+    },
+    "stable": {
+      "1.3": 659598,
+      "1.4": 667726
     }
   }
 }

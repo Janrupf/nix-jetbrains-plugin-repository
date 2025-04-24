@@ -1,8 +1,8 @@
 {
   "xml_id": "com.ideaPlugindemo.hnfy258.id",
   "numeric_id": 26821,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "697647": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26821/697647/plugin-demo-1.0-SNAPSHOT.zip?updateId=697647&pluginId=26821&family=INTELLIJ",
       "sha256": "nosxmrUsXON+z6+737aJqlok+QlbNyPYwEtnRevKH9g=",
       "channel": "stable",
@@ -16,21 +16,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.1-new": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26821/698032/plugin-demo-1.1-new.zip?updateId=698032&pluginId=26821&family=INTELLIJ",
-      "sha256": "Da0RTawX1LsTnBGaShA2d4+7x6ZPsyzWCqNkSbJLulc=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "plugin-demo-1.1-new.zip",
-      "since": "212.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
-    "1.4-SNAPSHOT": {
+    "697777": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26821/697777/plugin-demo-1.4-SNAPSHOT.zip?updateId=697777&pluginId=26821&family=INTELLIJ",
       "sha256": "kcOIDyHTouCcmZ+PxkLdmu6fIm+ZB4eM/tEJqtwCCi0=",
       "channel": "stable",
@@ -43,6 +29,27 @@
       "since": "212.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "698032": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26821/698032/plugin-demo-1.1-new.zip?updateId=698032&pluginId=26821&family=INTELLIJ",
+      "sha256": "Da0RTawX1LsTnBGaShA2d4+7x6ZPsyzWCqNkSbJLulc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-demo-1.1-new.zip",
+      "since": "212.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0-SNAPSHOT": 697647,
+      "1.1-new": 698032,
+      "1.4-SNAPSHOT": 697777
     }
   }
 }

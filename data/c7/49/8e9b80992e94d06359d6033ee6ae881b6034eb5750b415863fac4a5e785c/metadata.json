@@ -1,8 +1,8 @@
 {
   "xml_id": "me.naotiki.chiiugo-ij-plugin",
   "numeric_id": 21851,
-  "versions": {
-    "1.0-SNAPSHOT3": {
+  "updates": {
+    "338597": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21851/338597/suc-idea-plugin-1.0-SNAPSHOT3-signed.zip?updateId=338597&pluginId=21851&family=INTELLIJ",
       "sha256": "tKNzHZwdA7NasuUz74qiOhEnDx/1z4mCtBZXeVKxqG4=",
       "channel": "stable",
@@ -15,7 +15,20 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "1.0-SNAPSHOT5": {
+    "339768": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21851/339768/suc-idea-plugin-1.0-SNAPSHOT5-signed.zip?updateId=339768&pluginId=21851&family=INTELLIJ",
+      "sha256": "sbBXTol6BlDgaLR8s0M8L5wqWLP/g00lqWpLcJlwOqE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "suc-idea-plugin-1.0-SNAPSHOT5-signed.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "339769": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21851/339769/suc-idea-plugin-1.0-SNAPSHOT5.zip?updateId=339769&pluginId=21851&family=INTELLIJ",
       "sha256": "u0V6KVjNOg/hWevCOje3nMwhzS7s+iBdidFHxLjIpzE=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "1.0-SNAPSHOT6": {
+    "339863": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21851/339863/suc-idea-plugin-1.0-SNAPSHOT6-signed.zip?updateId=339863&pluginId=21851&family=INTELLIJ",
       "sha256": "3iHN8X/IVsC7vOZv3z0Uq+9hWg9aOCEzQGmqVAI7C9k=",
       "channel": "stable",
@@ -41,7 +54,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "1.0-SNAPSHOT7": {
+    "340457": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21851/340457/suc-idea-plugin-1.0-SNAPSHOT7-signed.zip?updateId=340457&pluginId=21851&family=INTELLIJ",
       "sha256": "DdjsMJXy00LBUdXeJLJHeWsqG1d6RE9LBi7whuCZp7U=",
       "channel": "stable",
@@ -54,7 +67,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "1.0-SNAPSHOT8": {
+    "584447": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21851/584447/suc-idea-plugin-1.0-SNAPSHOT8.zip?updateId=584447&pluginId=21851&family=INTELLIJ",
       "sha256": "00SBDVZjm+zUIREuqLW8xYpL6mKAQXiRISablCTdDkI=",
       "channel": "stable",
@@ -66,6 +79,18 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.0-SNAPSHOT5": 339768
+    },
+    "stable": {
+      "1.0-SNAPSHOT3": 338597,
+      "1.0-SNAPSHOT5": 339769,
+      "1.0-SNAPSHOT6": 339863,
+      "1.0-SNAPSHOT7": 340457,
+      "1.0-SNAPSHOT8": 584447
     }
   }
 }

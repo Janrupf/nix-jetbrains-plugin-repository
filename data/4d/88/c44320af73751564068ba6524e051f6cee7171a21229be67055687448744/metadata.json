@@ -1,8 +1,26 @@
 {
   "xml_id": "com.ryan.MvpClassesGenerator",
   "numeric_id": 8601,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "28212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8601/28212/MvpClassesGenerator.jar?updateId=28212&pluginId=8601&family=INTELLIJ",
+      "sha256": "aRMyCx717rn2OjBKuYQr96yhQAlln3Ly9IZTi4DnM48=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "MvpClassesGenerator.jar",
+      "since": "141.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "141.0",
+          "applies_until": "999.99999",
+          "compatible_since": "141.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "28213": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8601/28213/MvpClassesGenerator.jar?updateId=28213&pluginId=8601&family=INTELLIJ",
       "sha256": "fs4g+fuMDKqnJKH93KMtPi3oFsOYyDWtIs6pQARFG3o=",
       "channel": "beta",
@@ -20,7 +38,7 @@
         }
       ]
     },
-    "1.1": {
+    "28214": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8601/28214/MvpClassesGenerator.jar?updateId=28214&pluginId=8601&family=INTELLIJ",
       "sha256": "l2VUc/Vz0KVbpteNiqzlcMZhs5uyaOXzkG+kSmlvnSI=",
       "channel": "beta",
@@ -32,6 +50,15 @@
       "since": "141.0",
       "until": "201.0",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0": 28213,
+      "1.1": 28214
+    },
+    "stable": {
+      "1.0": 28212
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "xml_id": "solutions.sulfura.projections-dsl-intellij-plugin",
   "numeric_id": 25320,
-  "versions": {
-    "1.0-RELEASE": {
+  "updates": {
+    "604579": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25320/604579/projections-dsl-intellij-plugin-1.0-RELEASE.zip?updateId=604579&pluginId=25320&family=INTELLIJ",
       "sha256": "91vreSy9DQs/aBMsvE2jfzU23DTgUYOmbxW59kDYKiw=",
       "channel": "sulfura-dev",
@@ -16,7 +16,22 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "1.1-RELEASE": {
+    "605064": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25320/605064/projections-dsl-intellij-plugin-1.1-RELEASE.zip?updateId=605064&pluginId=25320&family=INTELLIJ",
+      "sha256": "SIi+FRX3lQ1h5omWbCJxmCf0ngfm0XmzXbAG+ob2Ggw=",
+      "channel": "sulfura-dev",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.intellij.intelliLang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "projections-dsl-intellij-plugin-1.1-RELEASE.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "618911": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25320/618911/projections-dsl-intellij-plugin-1.1-RELEASE.zip?updateId=618911&pluginId=25320&family=INTELLIJ",
       "sha256": "zjzb3Y0wU9U+PAlLB+4lXaCnXn7k7q8uLUOUiqgSAUA=",
       "channel": "stable",
@@ -31,7 +46,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.2-RELEASE": {
+    "672799": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25320/672799/projections-dsl-intellij-plugin-1.2-RELEASE.zip?updateId=672799&pluginId=25320&family=INTELLIJ",
       "sha256": "tCmrwVbEkVE5vVC3J2vSVVjI0ertV4gVoOiSJHZYDmI=",
       "channel": "stable",
@@ -46,7 +61,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.3-RELEASE": {
+    "705318": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25320/705318/projections-dsl-intellij-plugin-1.3-RELEASE.zip?updateId=705318&pluginId=25320&family=INTELLIJ",
       "sha256": "Bvu3eKOgBV7BiZl+31xj2AGmkcFV4e97ZOHcAfiOJM0=",
       "channel": "stable",
@@ -60,6 +75,17 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.1-RELEASE": 618911,
+      "1.2-RELEASE": 672799,
+      "1.3-RELEASE": 705318
+    },
+    "sulfura-dev": {
+      "1.0-RELEASE": 604579,
+      "1.1-RELEASE": 605064
     }
   }
 }

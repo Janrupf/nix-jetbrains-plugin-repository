@@ -1,38 +1,8 @@
 {
   "xml_id": "dev.meanmail.plugin.python-bytecode",
   "numeric_id": 15640,
-  "versions": {
-    "2020.1.1-2021.3": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15640/148783/python-bytecode-intellij-plugin-2020.1.1-2021.3.zip?updateId=148783&pluginId=15640&family=INTELLIJ",
-      "sha256": "BTTjatoM+hrj13ARnIbtDyctPxiEGdZOqlCj0f2wYXs=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "python-bytecode-intellij-plugin-2020.1.1-2021.3.zip",
-      "since": "213.5744",
-      "until": "213.*",
-      "compatibility_overrides": []
-    },
-    "2020.1.1-2022.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15640/168554/python-bytecode-intellij-plugin-2020.1.1-2022.1.zip?updateId=168554&pluginId=15640&family=INTELLIJ",
-      "sha256": "VDLSOsKtvWOdcw736t5TcybyKn+vzmzbLON2saljxhs=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "python-bytecode-intellij-plugin-2020.1.1-2022.1.zip",
-      "since": "221.5080",
-      "until": "221.*",
-      "compatibility_overrides": []
-    },
-    "2020.1.1-203": {
+  "updates": {
+    "106137": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15640/106137/python-bytecode-intellij-plugin-2020.1.1-203.zip?updateId=106137&pluginId=15640&family=INTELLIJ",
       "sha256": "v9XGeXYFFwXO+KvqNtzMbUx70RMZgTtI7evWbrzMBCc=",
       "channel": "stable",
@@ -47,7 +17,7 @@
       "until": "203.*",
       "compatibility_overrides": []
     },
-    "2020.1.1-211": {
+    "116612": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15640/116612/python-bytecode-intellij-plugin-2020.1.1-211.zip?updateId=116612&pluginId=15640&family=INTELLIJ",
       "sha256": "fyVefVr865/bTNK2/OfTXwsfQBH4LbKio1Kdx8z0Uyg=",
       "channel": "stable",
@@ -62,7 +32,7 @@
       "until": "211.*",
       "compatibility_overrides": []
     },
-    "2020.1.1-212": {
+    "130178": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15640/130178/python-bytecode-intellij-plugin-2020.1.1-212.zip?updateId=130178&pluginId=15640&family=INTELLIJ",
       "sha256": "gKMgY+cI9rdRBquPuqCIkL8EkxlKveMTy51aqWgoH3g=",
       "channel": "stable",
@@ -77,7 +47,37 @@
       "until": "212.*",
       "compatibility_overrides": []
     },
-    "2022.1": {
+    "148783": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15640/148783/python-bytecode-intellij-plugin-2020.1.1-2021.3.zip?updateId=148783&pluginId=15640&family=INTELLIJ",
+      "sha256": "BTTjatoM+hrj13ARnIbtDyctPxiEGdZOqlCj0f2wYXs=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "python-bytecode-intellij-plugin-2020.1.1-2021.3.zip",
+      "since": "213.5744",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "168554": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15640/168554/python-bytecode-intellij-plugin-2020.1.1-2022.1.zip?updateId=168554&pluginId=15640&family=INTELLIJ",
+      "sha256": "VDLSOsKtvWOdcw736t5TcybyKn+vzmzbLON2saljxhs=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "python-bytecode-intellij-plugin-2020.1.1-2022.1.zip",
+      "since": "221.5080",
+      "until": "221.*",
+      "compatibility_overrides": []
+    },
+    "239004": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15640/239004/python-bytecode-intellij-plugin-2022.1.zip?updateId=239004&pluginId=15640&family=INTELLIJ",
       "sha256": "EmkU9wKqbfsc33ihfVI8FgAcET1VAQRSgjozXePv6HY=",
       "channel": "stable",
@@ -91,6 +91,16 @@
       "since": "212.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2020.1.1-2021.3": 148783,
+      "2020.1.1-2022.1": 168554,
+      "2020.1.1-203": 106137,
+      "2020.1.1-211": 116612,
+      "2020.1.1-212": 130178,
+      "2022.1": 239004
     }
   }
 }

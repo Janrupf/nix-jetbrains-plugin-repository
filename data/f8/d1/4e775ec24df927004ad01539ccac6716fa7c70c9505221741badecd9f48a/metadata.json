@@ -1,8 +1,23 @@
 {
   "xml_id": "sandipchitale.kubemmander",
   "numeric_id": 24428,
-  "versions": {
-    "1.13": {
+  "updates": {
+    "547273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24428/547273/kubemmander-1.3.zip?updateId=547273&pluginId=24428&family=INTELLIJ",
+      "sha256": "CfCeB83G0Jefu9HlcqkQ/4NgIYhs9i3YR/bfZjcXvac=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "kubemmander-1.3.zip",
+      "since": "232.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "600777": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24428/600777/kubemmander-1.13.zip?updateId=600777&pluginId=24428&family=INTELLIJ",
       "sha256": "GvtM8x4UC/zadP3YCV1FEO5lTJBWpFivUd/8VhW3Zp0=",
       "channel": "stable",
@@ -17,7 +32,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.15": {
+    "668233": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24428/668233/kubemmander-1.15.zip?updateId=668233&pluginId=24428&family=INTELLIJ",
       "sha256": "Ph9wbcmxJG1NoqHCUKMim0UdyDkDQZWlTYZ4fjd8FJk=",
       "channel": "stable",
@@ -32,20 +47,27 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "1.3": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24428/547273/kubemmander-1.3.zip?updateId=547273&pluginId=24428&family=INTELLIJ",
-      "sha256": "CfCeB83G0Jefu9HlcqkQ/4NgIYhs9i3YR/bfZjcXvac=",
+    "722177": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24428/722177/kubemmander-1.16.zip?updateId=722177&pluginId=24428&family=INTELLIJ",
+      "sha256": "BApBPX9FMiMipzQpDB5HBzIY3vJQukYyrnVcMzAyBB8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
+        "com.intellij.modules.platform",
         "org.jetbrains.plugins.terminal"
       ],
-      "file_name": "kubemmander-1.3.zip",
-      "since": "232.0",
-      "until": "242.*",
+      "optional_dependencies": [],
+      "file_name": "kubemmander-1.16.zip",
+      "since": "241.0",
+      "until": "251.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.13": 600777,
+      "1.15": 668233,
+      "1.16": 722177,
+      "1.3": 547273
     }
   }
 }

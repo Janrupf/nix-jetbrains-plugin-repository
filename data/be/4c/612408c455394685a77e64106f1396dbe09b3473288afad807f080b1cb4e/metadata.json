@@ -1,8 +1,23 @@
 {
   "xml_id": "de.citec.json",
   "numeric_id": 10096,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "39566": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10096/39566/de.citec.json-plugin-mps.zip?updateId=39566&pluginId=10096&family=INTELLIJ",
+      "sha256": "okOdB9t/owMDQD37C5BCUj276g1bsafUbWDh43M5pus=",
+      "channel": "stable",
+      "dependencies": [
+        "com.dslfoundry.plaintextgen",
+        "jetbrains.mps.build",
+        "jetbrains.mps.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "de.citec.json-plugin-mps.zip",
+      "since": "171.1127",
+      "until": "172.1127",
+      "compatibility_overrides": []
+    },
+    "39568": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10096/39568/de.citec.json-plugin-mps.zip?updateId=39568&pluginId=10096&family=INTELLIJ",
       "sha256": "UNBiA7s0qjRNJHX0xZyMBcVZrJY1MyBuVmB3Oyu5dDA=",
       "channel": "1.0",
@@ -17,7 +32,7 @@
       "until": "172.1127",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "39876": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10096/39876/de.citec.json-plugin-mps-MPS-172.1347.zip?updateId=39876&pluginId=10096&family=INTELLIJ",
       "sha256": "6bB3SEMD0tCm+RZEsxfLm35TE30ubSIhYBbtcp/FIdU=",
       "channel": "1.0.1",
@@ -32,7 +47,22 @@
       "until": "172.1347",
       "compatibility_overrides": []
     },
-    "2017.3.5": {
+    "45526": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10096/45526/de.citec.json-plugin-mps-MPS-173.1767.zip?updateId=45526&pluginId=10096&family=INTELLIJ",
+      "sha256": "hvUILLzQl8LFMN3o51J75KbnGl+QapjJGaOmsb02vls=",
+      "channel": "2017.3.5",
+      "dependencies": [
+        "com.dslfoundry.plaintextgen",
+        "jetbrains.mps.build",
+        "jetbrains.mps.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "de.citec.json-plugin-mps-MPS-173.1767.zip",
+      "since": "181.1254",
+      "until": "181.1254",
+      "compatibility_overrides": []
+    },
+    "45527": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10096/45527/de.citec.json-plugin-mps-MPS-181.1254.zip?updateId=45527&pluginId=10096&family=INTELLIJ",
       "sha256": "Q8GbPjFV0narE8bT6rWM1HX8OfLQCWfV/QnTWXQJUE8=",
       "channel": "21018.1.1",
@@ -46,6 +76,23 @@
       "since": "181.1254",
       "until": "181.1254",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "1.0": {
+      "1.0": 39568
+    },
+    "1.0.1": {
+      "1.0.1": 39876
+    },
+    "2017.3.5": {
+      "2017.3.5": 45526
+    },
+    "21018.1.1": {
+      "2017.3.5": 45527
+    },
+    "stable": {
+      "1.0": 39566
     }
   }
 }

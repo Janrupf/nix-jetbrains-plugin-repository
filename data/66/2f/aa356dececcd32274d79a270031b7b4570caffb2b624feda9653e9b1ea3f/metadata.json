@@ -1,8 +1,8 @@
 {
   "xml_id": "org.btik.idf-for-clion",
   "numeric_id": 23886,
-  "versions": {
-    "0.1-beta": {
+  "updates": {
+    "497395": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/497395/idf-for-clion-0.1-beta.zip?updateId=497395&pluginId=23886&family=INTELLIJ",
       "sha256": "Z33j22EgxBCKAGUH/5+2Gd8q4tq2pCuuZTvjHE3jxJg=",
       "channel": "stable",
@@ -17,7 +17,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "0.2-beta": {
+    "535713": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/535713/idf-for-clion-0.2-beta.zip?updateId=535713&pluginId=23886&family=INTELLIJ",
       "sha256": "MT5rGstzQUp31liY6l9MNJTQQh8E2LS990bOr7UqoeU=",
       "channel": "stable",
@@ -32,7 +32,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "0.21-pre": {
+    "577833": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/577833/idf-for-clion-0.21-pre.zip?updateId=577833&pluginId=23886&family=INTELLIJ",
       "sha256": "71NQn0HQebieVqNGks4dY8I4w3hwF8IcGK6L1aDf9QQ=",
       "channel": "pre",
@@ -47,7 +47,22 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.21.1": {
+    "589511": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/589511/idf-for-clion-0.21.1.zip?updateId=589511&pluginId=23886&family=INTELLIJ",
+      "sha256": "5exNcYHiihiWQqo6ywibDsPWePIgMfAAHGCGLRU42SM=",
+      "channel": "pre",
+      "dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idf-for-clion-0.21.1.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "590269": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/590269/idf-for-clion-0.21.1.zip?updateId=590269&pluginId=23886&family=INTELLIJ",
       "sha256": "5exNcYHiihiWQqo6ywibDsPWePIgMfAAHGCGLRU42SM=",
       "channel": "stable",
@@ -62,7 +77,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.3.1": {
+    "594320": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/594320/idf-for-clion-0.3.1.zip?updateId=594320&pluginId=23886&family=INTELLIJ",
       "sha256": "B3fE94nhcD/ZgNLkWWvNNxQzb4DJrHBax7hznmSJeJ8=",
       "channel": "stable",
@@ -77,7 +92,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.3.2": {
+    "595652": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/595652/idf-for-clion-0.3.2.zip?updateId=595652&pluginId=23886&family=INTELLIJ",
       "sha256": "fzRDJyjqOX3StNzg2BTVoF9YZGQ2zNvVs/0wDMB8N0o=",
       "channel": "stable",
@@ -92,7 +107,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.4.1": {
+    "603942": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/603942/idf-for-clion-0.4.1.zip?updateId=603942&pluginId=23886&family=INTELLIJ",
       "sha256": "79JCujWTM6fdihBgYUUBl5f927Dgfj+QHpuLf61XDTo=",
       "channel": "stable",
@@ -107,7 +122,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.4.2": {
+    "610340": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/610340/idf-for-clion-0.4.2.zip?updateId=610340&pluginId=23886&family=INTELLIJ",
       "sha256": "I8l/ocPIt2rGrEmnwsHbRFG1RPvv4GlDSftdJS6P44M=",
       "channel": "stable",
@@ -122,7 +137,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "0.4.3": {
+    "713070": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/713070/idf-for-clion.zip?updateId=713070&pluginId=23886&family=INTELLIJ",
       "sha256": "Si3ZLKi1gzj3mM9suCMXvEfYV6CVI0/MvP0vdKz/BQI=",
       "channel": "stable",
@@ -136,6 +151,22 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "pre": {
+      "0.21-pre": 577833,
+      "0.21.1": 589511
+    },
+    "stable": {
+      "0.1-beta": 497395,
+      "0.2-beta": 535713,
+      "0.21.1": 590269,
+      "0.3.1": 594320,
+      "0.3.2": 595652,
+      "0.4.1": 603942,
+      "0.4.2": 610340,
+      "0.4.3": 713070
     }
   }
 }

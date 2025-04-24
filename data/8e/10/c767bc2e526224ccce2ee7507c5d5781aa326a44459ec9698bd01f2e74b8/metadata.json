@@ -1,8 +1,21 @@
 {
   "xml_id": "com.tomy.idea-office-assistant",
   "numeric_id": 23735,
-  "versions": {
-    "1.0.3": {
+  "updates": {
+    "493998": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23735/493998/idea-plugin-copy_route-1.02-SNAPSHOT.zip?updateId=493998&pluginId=23735&family=INTELLIJ",
+      "sha256": "s/rSUfA+iCudvre/HK+sA4eSItM0R5b3z7LanXiKQe4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-plugin-copy_route-1.02-SNAPSHOT.zip",
+      "since": "222.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "496777": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23735/496777/idea-plugin-copy_route-1.0.3.zip?updateId=496777&pluginId=23735&family=INTELLIJ",
       "sha256": "XCzdkfblsqFFNF1A1NIu0o9yXWXnuSmLh5NHnFj1Y8g=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "1.0.4": {
+    "499054": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23735/499054/idea-plugin-copy_route-1.0.4.zip?updateId=499054&pluginId=23735&family=INTELLIJ",
       "sha256": "A4np7nwzQ8IivR+VP3v2cHbAvSSsVxSfU3fDo2yptc4=",
       "channel": "stable",
@@ -27,19 +40,13 @@
       "since": "222.0",
       "until": "233.*",
       "compatibility_overrides": []
-    },
-    "1.02-SNAPSHOT": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23735/493998/idea-plugin-copy_route-1.02-SNAPSHOT.zip?updateId=493998&pluginId=23735&family=INTELLIJ",
-      "sha256": "s/rSUfA+iCudvre/HK+sA4eSItM0R5b3z7LanXiKQe4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "idea-plugin-copy_route-1.02-SNAPSHOT.zip",
-      "since": "222.0",
-      "until": "233.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.3": 496777,
+      "1.0.4": 499054,
+      "1.02-SNAPSHOT": 493998
     }
   }
 }

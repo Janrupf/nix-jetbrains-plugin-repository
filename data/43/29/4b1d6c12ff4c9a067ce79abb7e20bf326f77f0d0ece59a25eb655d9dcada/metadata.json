@@ -1,22 +1,8 @@
 {
   "xml_id": "pro.respawn.flowmvi.ideplugin",
   "numeric_id": 25766,
-  "versions": {
-    "3.1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25766/656250/flowmvi-3.1.0-signed.zip?updateId=656250&pluginId=25766&family=INTELLIJ",
-      "sha256": "LFJ8F8kJ5OVSiMe6IUiMRPa51ZcCxBI3NNk3w4OIpI4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.kotlin"
-      ],
-      "optional_dependencies": [],
-      "file_name": "flowmvi-3.1.0-signed.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "3.1.0-beta02": {
+  "updates": {
+    "629110": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25766/629110/flowmvi-3.1.0-beta02.zip?updateId=629110&pluginId=25766&family=INTELLIJ",
       "sha256": "cBMPZI/RYDvLT9K90dbnDChqPhlcHDtiMjBGxvnu/g4=",
       "channel": "stable",
@@ -30,7 +16,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.1.0-beta03": {
+    "640456": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25766/640456/flowmvi-3.1.0-beta03-signed.zip?updateId=640456&pluginId=25766&family=INTELLIJ",
       "sha256": "vi2EWEj9uS2iltCh3OC2y5QIuZX/dSSKkOPgjcj2CWE=",
       "channel": "stable",
@@ -44,7 +30,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.1.0-beta05": {
+    "647767": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25766/647767/flowmvi-3.1.0-beta05.zip?updateId=647767&pluginId=25766&family=INTELLIJ",
       "sha256": "ep8J2y1UVuOUa+U2kvNCtCdz+QFWV8gRc8LpUnrj/p0=",
       "channel": "stable",
@@ -58,7 +44,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.1.0-beta06": {
+    "652607": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25766/652607/flowmvi-3.1.0-beta06-signed.zip?updateId=652607&pluginId=25766&family=INTELLIJ",
       "sha256": "TQtuzMA1jlWnRkZL6F/IC3dnVrNrjii5DR2fj8+qSao=",
       "channel": "stable",
@@ -72,7 +58,21 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.2.0-alpha01": {
+    "656250": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25766/656250/flowmvi-3.1.0-signed.zip?updateId=656250&pluginId=25766&family=INTELLIJ",
+      "sha256": "LFJ8F8kJ5OVSiMe6IUiMRPa51ZcCxBI3NNk3w4OIpI4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flowmvi-3.1.0-signed.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "697649": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25766/697649/flowmvi-3.2.0-alpha01-signed.zip?updateId=697649&pluginId=25766&family=INTELLIJ",
       "sha256": "eCprBhcuhTHgBLbt9sb7RjonjoMFdfO5/0PWNEVC4UE=",
       "channel": "stable",
@@ -85,6 +85,16 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "3.1.0": 656250,
+      "3.1.0-beta02": 629110,
+      "3.1.0-beta03": 640456,
+      "3.1.0-beta05": 647767,
+      "3.1.0-beta06": 652607,
+      "3.2.0-alpha01": 697649
     }
   }
 }

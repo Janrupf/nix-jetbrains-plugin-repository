@@ -1,8 +1,8 @@
 {
   "xml_id": "dev.mikify.gqlqueryloader",
   "numeric_id": 26114,
-  "versions": {
-    "1.0.2": {
+  "updates": {
+    "651996": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26114/651996/GqlQueryLoader.zip?updateId=651996&pluginId=26114&family=INTELLIJ",
       "sha256": "hXaZ0HdSeywILEPsVQG8BidwOTjd7ivCo5gPJc858Fk=",
       "channel": "stable",
@@ -17,7 +17,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.0.3": {
+    "652331": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26114/652331/GqlQueryLoader.zip?updateId=652331&pluginId=26114&family=INTELLIJ",
       "sha256": "KpNCMStw1mRHU1RFg2JimatkbHxlbreQ4C5EThZ9pSs=",
       "channel": "stable",
@@ -31,6 +31,28 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "723251": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26114/723251/GqlQueryLoader.zip?updateId=723251&pluginId=26114&family=INTELLIJ",
+      "sha256": "N9nWZ7acbtW8WxVzW2Y26qWw65bbB1PLmpQxBK6pVkE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GqlQueryLoader.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.2": 651996,
+      "1.0.3": 652331,
+      "1.0.4": 723251
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "xml_id": "com.sinitek.sirm.plugin.sirmcode",
   "numeric_id": 12232,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "60748": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12232/60748/SirmCode-1.0.0.zip?updateId=60748&pluginId=12232&family=INTELLIJ",
       "sha256": "4/BeeKBviUG7M4TtDdKWZvTO4ZsdTIdXGXCf6wPUxtE=",
       "channel": "stable",
@@ -17,7 +17,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.1.2": {
+    "85627": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12232/85627/SirmCode-1.1.2.zip?updateId=85627&pluginId=12232&family=INTELLIJ",
       "sha256": "r8hQt2LOIs9FbfJcr2sEZCPvr23vimznXkPkx1fvzkQ=",
       "channel": "stable",
@@ -32,7 +32,22 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.1.4": {
+    "119260": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12232/119260/SirmCode-1.1.4.zip?updateId=119260&pluginId=12232&family=INTELLIJ",
+      "sha256": "YQjlWxUT/l0Gi4SqmP4PqF6ivYXB6CIzUplvfwnU34U=",
+      "channel": "sinitek",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.lang",
+        "com.intellij.velocity"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SirmCode-1.1.4.zip",
+      "since": "172.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "120976": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12232/120976/SirmCode-1.1.4.zip?updateId=120976&pluginId=12232&family=INTELLIJ",
       "sha256": "Vlx7G5gJglL/Mp3fn05xopT57mVEKHiTfLFza8BabkM=",
       "channel": "stable",
@@ -46,6 +61,16 @@
       "since": "172.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "sinitek": {
+      "1.1.4": 119260
+    },
+    "stable": {
+      "1.0.0": 60748,
+      "1.1.2": 85627,
+      "1.1.4": 120976
     }
   }
 }

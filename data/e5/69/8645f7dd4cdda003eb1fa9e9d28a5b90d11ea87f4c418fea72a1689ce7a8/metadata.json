@@ -1,8 +1,8 @@
 {
   "xml_id": "com.pannous.jini-plugin",
   "numeric_id": 21229,
-  "versions": {
-    "1.2.3.016": {
+  "updates": {
+    "310937": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21229/310937/jini-plugin-1.2.3.016-all.jar?updateId=310937&pluginId=21229&family=INTELLIJ",
       "sha256": "rdeM5a1/2PY4W+kptftTTmnhuL+zXC/snag2dE9qnr0=",
       "channel": "stable",
@@ -15,7 +15,7 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "1.2.3.018": {
+    "311414": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21229/311414/jini-plugin-1.2.3.018-all.jar?updateId=311414&pluginId=21229&family=INTELLIJ",
       "sha256": "2EYLUz0CAKro1s0iCfy17R26cz7UBSkmajgB8MgPiCQ=",
       "channel": "stable",
@@ -28,7 +28,20 @@
       "until": "223.*",
       "compatibility_overrides": []
     },
-    "1.2.3.365": {
+    "314229": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21229/314229/jini-plugin-1.2.3.47-all.jar?updateId=314229&pluginId=21229&family=INTELLIJ",
+      "sha256": "vwkgxinhMjKy1tb42BE26fim6Fds8v0pm/FlwiidNTI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jini-plugin-1.2.3.47-all.jar",
+      "since": "222.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "703535": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21229/703535/jini-plugin-1.2.3.365-all.jar?updateId=703535&pluginId=21229&family=INTELLIJ",
       "sha256": "sfrUS1npS/QUxMXea0AFPgK4Lp978AzxZDWwJBms14Y=",
       "channel": "stable",
@@ -44,7 +57,7 @@
       "until": "245.*",
       "compatibility_overrides": []
     },
-    "1.2.3.366": {
+    "717481": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21229/717481/jini-plugin-1.2.3.366-all.jar?updateId=717481&pluginId=21229&family=INTELLIJ",
       "sha256": "D8EDajHB2BwGfWNNLhbYTb+sbxUJeAx4MmDYcK1U2zo=",
       "channel": "stable",
@@ -60,7 +73,7 @@
       "until": "245.*",
       "compatibility_overrides": []
     },
-    "1.2.3.369": {
+    "717483": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21229/717483/jini-plugin-1.2.3.369-all.jar?updateId=717483&pluginId=21229&family=INTELLIJ",
       "sha256": "mhjvTgOzmsRngdtmTFjKUJ8c5HgxB/0GIga4zVM4pI0=",
       "channel": "stable",
@@ -75,19 +88,16 @@
       "since": "244.0",
       "until": "251.*",
       "compatibility_overrides": []
-    },
-    "1.2.3.47": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/21229/314229/jini-plugin-1.2.3.47-all.jar?updateId=314229&pluginId=21229&family=INTELLIJ",
-      "sha256": "vwkgxinhMjKy1tb42BE26fim6Fds8v0pm/FlwiidNTI=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "jini-plugin-1.2.3.47-all.jar",
-      "since": "222.0",
-      "until": "231.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.2.3.016": 310937,
+      "1.2.3.018": 311414,
+      "1.2.3.365": 703535,
+      "1.2.3.366": 717481,
+      "1.2.3.369": 717483,
+      "1.2.3.47": 314229
     }
   }
 }

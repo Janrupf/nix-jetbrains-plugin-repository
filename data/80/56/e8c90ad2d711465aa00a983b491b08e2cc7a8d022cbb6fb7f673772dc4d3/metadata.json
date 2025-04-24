@@ -1,8 +1,8 @@
 {
   "xml_id": "gg.ninetyfive",
   "numeric_id": 26445,
-  "versions": {
-    "0.0.1": {
+  "updates": {
+    "674533": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/674533/NinetyFive-0.0.1.zip?updateId=674533&pluginId=26445&family=INTELLIJ",
       "sha256": "ALS9d4bZvWfGk4ny+Nq8VfhFPVEbkTgYzPERX5zwhN8=",
       "channel": "beta",
@@ -15,7 +15,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.0.2-beta": {
+    "683583": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/683583/NinetyFive-0.0.2-beta.zip?updateId=683583&pluginId=26445&family=INTELLIJ",
       "sha256": "0NTezRuEJsP6hOXSXnafVNLgi/Lxg51N82QDwD47iWw=",
       "channel": "beta",
@@ -29,7 +29,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.0.3": {
+    "686764": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/686764/NinetyFive-0.0.3.zip?updateId=686764&pluginId=26445&family=INTELLIJ",
       "sha256": "hfYyOKOjE3yyaD4/v1z5YKHLvVvCbxaRMHfiN2lloiA=",
       "channel": "stable",
@@ -43,7 +43,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.0.4": {
+    "690495": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/690495/NinetyFive-0.0.4.zip?updateId=690495&pluginId=26445&family=INTELLIJ",
       "sha256": "LlsNwxfuc8MKM/XZjwh0hSvCkrWY7G4C/QLd7FfJrO4=",
       "channel": "stable",
@@ -57,21 +57,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "0.0.5": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/704470/NinetyFive-0.0.5.zip?updateId=704470&pluginId=26445&family=INTELLIJ",
-      "sha256": "V7d15PqS4pJ8F79m31Em6hccU2QcGpJ3jYboZ3EvaVY=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "NinetyFive-0.0.5.zip",
-      "since": "233.0",
-      "until": "251.*",
-      "compatibility_overrides": []
-    },
-    "0.0.5-beta": {
+    "690510": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/690510/NinetyFive-0.0.5-beta.zip?updateId=690510&pluginId=26445&family=INTELLIJ",
       "sha256": "0ArVBbjoKGHGgue1FbiNeOFPLv6DRiTQnkElfayg9lk=",
       "channel": "beta",
@@ -85,7 +71,21 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "0.0.6": {
+    "704470": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/704470/NinetyFive-0.0.5.zip?updateId=704470&pluginId=26445&family=INTELLIJ",
+      "sha256": "V7d15PqS4pJ8F79m31Em6hccU2QcGpJ3jYboZ3EvaVY=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "NinetyFive-0.0.5.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "712492": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/712492/NinetyFive-0.0.6.zip?updateId=712492&pluginId=26445&family=INTELLIJ",
       "sha256": "5pSSOdW9TEybmWhEMqPa+VWDH1seeKgeB0XeP3tpXZM=",
       "channel": "stable",
@@ -99,7 +99,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "0.0.7": {
+    "713071": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/713071/NinetyFive-0.0.7.zip?updateId=713071&pluginId=26445&family=INTELLIJ",
       "sha256": "XAue8IcrkNefqsnTFvFnId7GWleVhAIppqP10OKA28A=",
       "channel": "stable",
@@ -112,6 +112,35 @@
       "since": "233.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "723644": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26445/723644/NinetyFive-0.0.8.zip?updateId=723644&pluginId=26445&family=INTELLIJ",
+      "sha256": "T/oWl5FVPWNSpk23UVvLyFi2e+Au3omJK1sVvY67ZlE=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "NinetyFive-0.0.8.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "0.0.1": 674533,
+      "0.0.2-beta": 683583,
+      "0.0.5-beta": 690510
+    },
+    "stable": {
+      "0.0.3": 686764,
+      "0.0.4": 690495,
+      "0.0.5": 704470,
+      "0.0.6": 712492,
+      "0.0.7": 713071,
+      "0.0.8": 723644
     }
   }
 }

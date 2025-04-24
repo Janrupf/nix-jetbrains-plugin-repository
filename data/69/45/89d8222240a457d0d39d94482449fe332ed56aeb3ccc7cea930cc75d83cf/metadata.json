@@ -1,8 +1,8 @@
 {
   "xml_id": "SvgViewer 2",
   "numeric_id": 7170,
-  "versions": {
-    "2.0": {
+  "updates": {
+    "12587": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7170/12587/SvgViewer.jar?updateId=12587&pluginId=7170&family=INTELLIJ",
       "sha256": "3rQHsGYK4+5VX7d1JrR+uYSqUkQbZY1sETptS1orl1M=",
       "channel": "stable",
@@ -20,7 +20,7 @@
         }
       ]
     },
-    "2.0.1": {
+    "12635": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7170/12635/SvgViewer.jar?updateId=12635&pluginId=7170&family=INTELLIJ",
       "sha256": "b38lBXIs2W5v4EALdlOz9AKHMCWil+bdxbMqbwP3ANI=",
       "channel": "stable",
@@ -38,7 +38,29 @@
         }
       ]
     },
-    "2.0.2": {
+    "12683": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7170/12683/SvgViewer.jar?updateId=12683&pluginId=7170&family=INTELLIJ",
+      "sha256": "/uBTlgp0V75uWqbYR0DUudJ6XW+ICen4mXwIs8jeepQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.css",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SvgViewer.jar",
+      "since": "111.1",
+      "until": "201",
+      "compatibility_overrides": [
+        {
+          "applies_since": "111.1",
+          "applies_until": "999.99999",
+          "compatible_since": "111.1",
+          "compatible_until": "201"
+        }
+      ]
+    },
+    "13598": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7170/13598/SvgViewer.jar?updateId=13598&pluginId=7170&family=INTELLIJ",
       "sha256": "HEPUHvlqU5jtmBa8kg2BCkx1O8A1I5YF8S4A0LbuMi0=",
       "channel": "stable",
@@ -60,7 +82,7 @@
         }
       ]
     },
-    "2.0.3": {
+    "13599": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7170/13599/SvgViewer.jar?updateId=13599&pluginId=7170&family=INTELLIJ",
       "sha256": "FiDJ6cC8c723PS/aAZfEFpHptHQap7SCN6FEEodSqyc=",
       "channel": "stable",
@@ -82,7 +104,7 @@
         }
       ]
     },
-    "2.1": {
+    "40587": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7170/40587/intellij-plugins-svgviewer2.jar?updateId=40587&pluginId=7170&family=INTELLIJ",
       "sha256": "QrXn7FoZ6VXBm0jSorf9BtxBHsSE3v9OaAx8nmBiyVs=",
       "channel": "stable",
@@ -103,6 +125,15 @@
           "compatible_until": "201"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.0": 12587,
+      "2.0.1": 12635,
+      "2.0.2": 13598,
+      "2.0.3": 13599,
+      "2.1": 40587
     }
   }
 }

@@ -1,29 +1,8 @@
 {
   "xml_id": "org.eclipse.xtend.idea",
   "numeric_id": 8073,
-  "versions": {
-    "2.10.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/8073/26094/org.eclipse.xtend.idea-2.10.0.zip?updateId=26094&pluginId=8073&family=INTELLIJ",
-      "sha256": "Cn5e0d6BN9RKKpv4yBlwwoJGWveDsdDjgD/iDlw+bfE=",
-      "channel": "stable",
-      "dependencies": [
-        "JUnit",
-        "org.eclipse.xtext.idea"
-      ],
-      "optional_dependencies": [],
-      "file_name": "org.eclipse.xtend.idea-2.10.0.zip",
-      "since": "145.0",
-      "until": "173.1",
-      "compatibility_overrides": [
-        {
-          "applies_since": "145.0",
-          "applies_until": "999.99999",
-          "compatible_since": "145.0",
-          "compatible_until": "173.1"
-        }
-      ]
-    },
-    "2.9.1": {
+  "updates": {
+    "22985": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8073/22985/org.eclipse.xtend.idea-2.9.1.zip?updateId=22985&pluginId=8073&family=INTELLIJ",
       "sha256": "9xGGBsEYFaORfxFRjT/ou/WRNR15Avc9hMffH5C6fh0=",
       "channel": "stable",
@@ -46,7 +25,7 @@
         }
       ]
     },
-    "2.9.2": {
+    "24476": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8073/24476/org.eclipse.xtend.idea-2.9.2.zip?updateId=24476&pluginId=8073&family=INTELLIJ",
       "sha256": "k+IZu6rEya4w6peLQN/drUh0I6WUGniSruBXQhWWMzQ=",
       "channel": "stable",
@@ -66,6 +45,34 @@
           "compatible_until": "163.1"
         }
       ]
+    },
+    "26094": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8073/26094/org.eclipse.xtend.idea-2.10.0.zip?updateId=26094&pluginId=8073&family=INTELLIJ",
+      "sha256": "Cn5e0d6BN9RKKpv4yBlwwoJGWveDsdDjgD/iDlw+bfE=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit",
+        "org.eclipse.xtext.idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "org.eclipse.xtend.idea-2.10.0.zip",
+      "since": "145.0",
+      "until": "173.1",
+      "compatibility_overrides": [
+        {
+          "applies_since": "145.0",
+          "applies_until": "999.99999",
+          "compatible_since": "145.0",
+          "compatible_until": "173.1"
+        }
+      ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.10.0": 26094,
+      "2.9.1": 22985,
+      "2.9.2": 24476
     }
   }
 }

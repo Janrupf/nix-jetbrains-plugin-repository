@@ -1,38 +1,8 @@
 {
   "xml_id": "org.intellij.griffon",
   "numeric_id": 11279,
-  "versions": {
-    "183.4223": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/11279/51700/griffon-2.zip?updateId=51700&pluginId=11279&family=INTELLIJ",
-      "sha256": "XYr017TwQn9wYrF6vU4PXSClyem2MGht6hSnwYDuntA=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.properties",
-        "org.intellij.groovy"
-      ],
-      "optional_dependencies": [],
-      "file_name": "griffon-2.zip",
-      "since": "183.4223",
-      "until": "183.4223",
-      "compatibility_overrides": []
-    },
-    "183.4284.36": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/11279/51885/griffon-183.4284.36.zip?updateId=51885&pluginId=11279&family=INTELLIJ",
-      "sha256": "oeQntHjvVbxJBSkBH7ZS52XPyjY78aYPbM4EOZmv4zs=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.properties",
-        "org.intellij.groovy"
-      ],
-      "optional_dependencies": [],
-      "file_name": "griffon-183.4284.36.zip",
-      "since": "183.4284",
-      "until": "183.*",
-      "compatibility_overrides": []
-    },
-    "191.1034": {
+  "updates": {
+    "51610": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11279/51610/griffon.zip?updateId=51610&pluginId=11279&family=INTELLIJ",
       "sha256": "2M+8+IfNAk/LPdMSrlMZMH9RBXkDWj259+pgrhevA2E=",
       "channel": "stable",
@@ -47,7 +17,37 @@
       "until": "191.1034",
       "compatibility_overrides": []
     },
-    "191.4212.41": {
+    "51700": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11279/51700/griffon-2.zip?updateId=51700&pluginId=11279&family=INTELLIJ",
+      "sha256": "XYr017TwQn9wYrF6vU4PXSClyem2MGht6hSnwYDuntA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [],
+      "file_name": "griffon-2.zip",
+      "since": "183.4223",
+      "until": "183.4223",
+      "compatibility_overrides": []
+    },
+    "51885": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11279/51885/griffon-183.4284.36.zip?updateId=51885&pluginId=11279&family=INTELLIJ",
+      "sha256": "oeQntHjvVbxJBSkBH7ZS52XPyjY78aYPbM4EOZmv4zs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [],
+      "file_name": "griffon-183.4284.36.zip",
+      "since": "183.4284",
+      "until": "183.*",
+      "compatibility_overrides": []
+    },
+    "54429": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11279/54429/griffon-191.4212.41.zip?updateId=54429&pluginId=11279&family=INTELLIJ",
       "sha256": "9CJNaT6q81FViQ9xUgIVJdPjjnbmeGzjefV1EVxZRag=",
       "channel": "stable",
@@ -62,7 +62,7 @@
       "until": "191.*",
       "compatibility_overrides": []
     },
-    "191.5109.14": {
+    "57825": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11279/57825/griffon-191.5109.14.zip?updateId=57825&pluginId=11279&family=INTELLIJ",
       "sha256": "1NoBEAijm4EE9D6Agu9v22fcUwHBX/hlS3gNL9TeEn4=",
       "channel": "stable",
@@ -77,7 +77,7 @@
       "until": "191.*",
       "compatibility_overrides": []
     },
-    "191.5849.16": {
+    "58798": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11279/58798/griffon-191.5849.16.zip?updateId=58798&pluginId=11279&family=INTELLIJ",
       "sha256": "ho4fphD7O8mj/KT+xAHoQQcDGFQcNQhlysXUpjNFIMo=",
       "channel": "stable",
@@ -91,6 +91,16 @@
       "since": "191.5849",
       "until": "191.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "183.4223": 51700,
+      "183.4284.36": 51885,
+      "191.1034": 51610,
+      "191.4212.41": 54429,
+      "191.5109.14": 57825,
+      "191.5849.16": 58798
     }
   }
 }

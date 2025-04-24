@@ -1,21 +1,8 @@
 {
   "xml_id": "com.github.bsafwen.sbtcodeartifactcreds",
   "numeric_id": 26533,
-  "versions": {
-    "0.10.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26533/683814/sbt-codeartifact-creds-0.10.0.zip?updateId=683814&pluginId=26533&family=INTELLIJ",
-      "sha256": "fFiIY7qfXjSDT7tVN5+3lm6+YaHwnRYjVXv17f2/KuI=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "sbt-codeartifact-creds-0.10.0.zip",
-      "since": "233.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.9.0": {
+  "updates": {
+    "681406": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26533/681406/sbt-codeartifact-creds-0.9.0.zip?updateId=681406&pluginId=26533&family=INTELLIJ",
       "sha256": "JGfveml/bSQ2K/FHL5eAtxVKTZEQIrg4Ew9hjhqDkxk=",
       "channel": "stable",
@@ -27,6 +14,25 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "683814": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26533/683814/sbt-codeartifact-creds-0.10.0.zip?updateId=683814&pluginId=26533&family=INTELLIJ",
+      "sha256": "fFiIY7qfXjSDT7tVN5+3lm6+YaHwnRYjVXv17f2/KuI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sbt-codeartifact-creds-0.10.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.10.0": 683814,
+      "0.9.0": 681406
     }
   }
 }

@@ -1,8 +1,22 @@
 {
   "xml_id": "org.example.UltimateReactSnippet",
   "numeric_id": 18782,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "162932": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18782/162932/UltimateReactSnippet-1.0.zip?updateId=162932&pluginId=18782&family=INTELLIJ",
+      "sha256": "14KjiixrxDuhC0t1oYGWPoRBHXzo03zTcemI49UKXzM=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "UltimateReactSnippet-1.0.zip",
+      "since": "213.6461",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "167866": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18782/167866/UltimateReactSnippet-1.0.zip?updateId=167866&pluginId=18782&family=INTELLIJ",
       "sha256": "14KjiixrxDuhC0t1oYGWPoRBHXzo03zTcemI49UKXzM=",
       "channel": "stable",
@@ -15,6 +29,14 @@
       "since": "213.6461",
       "until": "213.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0": 162932
+    },
+    "stable": {
+      "1.0": 167866
     }
   }
 }

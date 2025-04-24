@@ -1,8 +1,8 @@
 {
   "xml_id": "org.ideplugins.gitlab-yaml-pipeline-lint",
   "numeric_id": 19972,
-  "versions": {
-    "0.0.13": {
+  "updates": {
+    "627447": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19972/627447/yaml-pipeline-lint-0.0.13-signed.zip?updateId=627447&pluginId=19972&family=INTELLIJ",
       "sha256": "ux1ogBrxSUHhSqezCDIrth2NZocSL19bAGIjoo/e9vI=",
       "channel": "stable",
@@ -16,7 +16,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "0.0.14": {
+    "667228": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19972/667228/yaml-pipeline-lint-0.0.14-signed.zip?updateId=667228&pluginId=19972&family=INTELLIJ",
       "sha256": "4oig0MqALOuYnu2rPxNKncu1a/tcOo5DmPETN/caFNY=",
       "channel": "stable",
@@ -30,7 +30,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "0.0.14-1671699815-SNAPSHOT": {
+    "681399": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19972/681399/yaml-pipeline-lint-0.0.14-1671699815-SNAPSHOT-signed.zip?updateId=681399&pluginId=19972&family=INTELLIJ",
       "sha256": "wF8oc63NQ0KrD/gTQTmAiMVET86IZ8LBtcYAwDvuOVM=",
       "channel": "eap",
@@ -44,21 +44,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "0.0.15": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/19972/707650/yaml-pipeline-lint-0.0.15-signed.zip?updateId=707650&pluginId=19972&family=INTELLIJ",
-      "sha256": "F3E72MtsjWInbjmd7rl4bOENSdCEl5gNKqchp+Yc8J8=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
-      ],
-      "optional_dependencies": [],
-      "file_name": "yaml-pipeline-lint-0.0.15-signed.zip",
-      "since": "242.16677.21",
-      "until": "251.*",
-      "compatibility_overrides": []
-    },
-    "0.0.15-1750509047-SNAPSHOT": {
+    "707498": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19972/707498/yaml-pipeline-lint-0.0.15-1750509047-SNAPSHOT-signed.zip?updateId=707498&pluginId=19972&family=INTELLIJ",
       "sha256": "l3TOx8CKBCjF/gtABZ/VG1L8UqOIfyqzZ8kUWwoIevE=",
       "channel": "eap",
@@ -71,6 +57,31 @@
       "since": "242.16677.21",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "707650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19972/707650/yaml-pipeline-lint-0.0.15-signed.zip?updateId=707650&pluginId=19972&family=INTELLIJ",
+      "sha256": "F3E72MtsjWInbjmd7rl4bOENSdCEl5gNKqchp+Yc8J8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yaml-pipeline-lint-0.0.15-signed.zip",
+      "since": "242.16677.21",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "0.0.14-1671699815-SNAPSHOT": 681399,
+      "0.0.15-1750509047-SNAPSHOT": 707498
+    },
+    "stable": {
+      "0.0.13": 627447,
+      "0.0.14": 667228,
+      "0.0.15": 707650
     }
   }
 }

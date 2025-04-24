@@ -1,21 +1,8 @@
 {
   "xml_id": "com.jfarrelly.intellij.plugin.method.parameter.order.code.inspection",
   "numeric_id": 15354,
-  "versions": {
-    "1.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15354/108065/IntelliJParameterOrderInspection-1.0.0.zip?updateId=108065&pluginId=15354&family=INTELLIJ",
-      "sha256": "6Ig1ryXYg/NWpMueHtTfJLBJKYtFsKnFCEe6IkzsD34=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "IntelliJParameterOrderInspection-1.0.0.zip",
-      "since": "202.0",
-      "until": "219.*",
-      "compatibility_overrides": []
-    },
-    "1.0.0-alpha": {
+  "updates": {
+    "101805": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15354/101805/IntelliJParameterOrderInspection-1.0.0-alpha.zip?updateId=101805&pluginId=15354&family=INTELLIJ",
       "sha256": "Y5L8dXTFaM3DRv7KnFj0lF+DIY0YRX+VJebEO9LDSjQ=",
       "channel": "stable",
@@ -28,7 +15,20 @@
       "until": "202.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "108065": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15354/108065/IntelliJParameterOrderInspection-1.0.0.zip?updateId=108065&pluginId=15354&family=INTELLIJ",
+      "sha256": "6Ig1ryXYg/NWpMueHtTfJLBJKYtFsKnFCEe6IkzsD34=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJParameterOrderInspection-1.0.0.zip",
+      "since": "202.0",
+      "until": "219.*",
+      "compatibility_overrides": []
+    },
+    "108231": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15354/108231/IntelliJParameterOrderInspection-1.0.1.zip?updateId=108231&pluginId=15354&family=INTELLIJ",
       "sha256": "2GHmH7ComEkjXHo8DfojD9Y5e8jq8YZLsMVh89omZ8Y=",
       "channel": "stable",
@@ -41,7 +41,7 @@
       "until": "219.*",
       "compatibility_overrides": []
     },
-    "1.1.0": {
+    "108498": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/15354/108498/IntelliJParameterOrderInspection-1.1.0.zip?updateId=108498&pluginId=15354&family=INTELLIJ",
       "sha256": "Gp5WCzmAGDPU0Z276zWlDcC83UweJ20U/Do/K6TNBPU=",
       "channel": "stable",
@@ -53,6 +53,14 @@
       "since": "202.0",
       "until": "219.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 108065,
+      "1.0.0-alpha": 101805,
+      "1.0.1": 108231,
+      "1.1.0": 108498
     }
   }
 }

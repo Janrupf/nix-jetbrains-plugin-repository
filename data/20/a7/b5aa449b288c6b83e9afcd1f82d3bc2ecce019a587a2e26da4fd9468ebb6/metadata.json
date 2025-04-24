@@ -1,8 +1,8 @@
 {
   "xml_id": "com.layhuts.gradle.helper",
   "numeric_id": 25929,
-  "versions": {
-    "0.0.1-2024.2.2": {
+  "updates": {
+    "639888": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25929/639888/gradle-helper-0.0.1.zip?updateId=639888&pluginId=25929&family=INTELLIJ",
       "sha256": "8Mjz+fVO5wxzferDMPtwWLIjEdzatMq61mbtz9wEIj0=",
       "channel": "stable",
@@ -18,7 +18,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "0.0.2-2024.3": {
+    "654396": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25929/654396/gradle-helper-0.0.1.zip?updateId=654396&pluginId=25929&family=INTELLIJ",
       "sha256": "hDZ85aD0sj0jBy0h6KHLaXMB9b6t/zvx/emlkltRYp8=",
       "channel": "stable",
@@ -34,6 +34,30 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "721481": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25929/721481/gradle-helper-0.0.3.zip?updateId=721481&pluginId=25929&family=INTELLIJ",
+      "sha256": "IObyfqFxGhzhoalsfYeCJwmOZTh/tiX+CirIIy5nFpo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gradle-helper-0.0.3.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1-2024.2.2": 639888,
+      "0.0.2-2024.3": 654396,
+      "0.0.3-2025.1": 721481
     }
   }
 }

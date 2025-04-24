@@ -1,8 +1,8 @@
 {
   "xml_id": "com.github.antonokolelov.openapiguieditor",
   "numeric_id": 27118,
-  "versions": {
-    "0.9.1": {
+  "updates": {
+    "720365": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27118/720365/openapi-gui-editor-0.9.1.zip?updateId=720365&pluginId=27118&family=INTELLIJ",
       "sha256": "BVTpom7yWC2hYAXoxd2pJlUiRWEXvMqvtI5ecDGGB+k=",
       "channel": "beta",
@@ -14,6 +14,27 @@
       "since": "233.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "723612": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27118/723612/openapi-gui-editor-1.0.1.zip?updateId=723612&pluginId=27118&family=INTELLIJ",
+      "sha256": "78wEYWKFldESUJ1/wmxQYMmcSN11t6zvvuJxfB8vOOU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "openapi-gui-editor-1.0.1.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "0.9.1": 720365
+    },
+    "stable": {
+      "1.0.1": 723612
     }
   }
 }

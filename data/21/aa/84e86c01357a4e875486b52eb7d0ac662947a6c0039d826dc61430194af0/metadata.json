@@ -1,22 +1,8 @@
 {
   "xml_id": "com.guidewire.build.ijdevkitmvn",
   "numeric_id": 7127,
-  "versions": {
-    "0.3.10": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/7127/12860/devkit-maven-support-0.3.10-plugin.zip?updateId=12860&pluginId=7127&family=INTELLIJ",
-      "sha256": "3ezQJaZNkPY0+30LX2CjjrxQgjEZ/FwZgQEHBAIGvbU=",
-      "channel": "stable",
-      "dependencies": [
-        "DevKit",
-        "org.jetbrains.idea.maven"
-      ],
-      "optional_dependencies": [],
-      "file_name": "devkit-maven-support-0.3.10-plugin.zip",
-      "since": "117.105",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.3.4": {
+  "updates": {
+    "12182": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7127/12182/devkit-maven-support-0.3.4-plugin.zip?updateId=12182&pluginId=7127&family=INTELLIJ",
       "sha256": "JegNNCtQbOipeVEfYpGQXTVVLjjdGZD3H9bnafu08Ck=",
       "channel": "stable",
@@ -30,7 +16,21 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.4.0": {
+    "12860": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7127/12860/devkit-maven-support-0.3.10-plugin.zip?updateId=12860&pluginId=7127&family=INTELLIJ",
+      "sha256": "3ezQJaZNkPY0+30LX2CjjrxQgjEZ/FwZgQEHBAIGvbU=",
+      "channel": "stable",
+      "dependencies": [
+        "DevKit",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "devkit-maven-support-0.3.10-plugin.zip",
+      "since": "117.105",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "29718": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7127/29718/ijdevkitmvn-0.4.0-plugin.zip?updateId=29718&pluginId=7127&family=INTELLIJ",
       "sha256": "BagtNJzH2oN2ZirW/X333XpdBstVpYgW3BYY+zeyiTQ=",
       "channel": "stable",
@@ -44,7 +44,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.4.1": {
+    "29719": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7127/29719/ijdevkitmvn-0.4.1-plugin.zip?updateId=29719&pluginId=7127&family=INTELLIJ",
       "sha256": "B0SNT83+gDrTvQJmwZ6jh6PraS3wDOWIY0ovBvIgkE8=",
       "channel": "stable",
@@ -57,6 +57,14 @@
       "since": "143.2370",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.3.10": 12860,
+      "0.3.4": 12182,
+      "0.4.0": 29718,
+      "0.4.1": 29719
     }
   }
 }

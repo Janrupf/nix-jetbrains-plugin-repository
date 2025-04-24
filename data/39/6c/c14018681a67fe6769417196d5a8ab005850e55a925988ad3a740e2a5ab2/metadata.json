@@ -1,8 +1,28 @@
 {
   "xml_id": "com.solveforall.clients.IdeaPlugin",
   "numeric_id": 7603,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "17787": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7603/17787/solveforall-idea-plugin.jar?updateId=17787&pluginId=7603&family=INTELLIJ",
+      "sha256": "L9m5MkVJeq5i/++wXSDSHxjNj9aHo9JFgoGFACvsV/Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "solveforall-idea-plugin.jar",
+      "since": "93.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "93.0",
+          "applies_until": "999.99999",
+          "compatible_since": "93.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "17788": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7603/17788/solveforall-idea-plugin.jar?updateId=17788&pluginId=7603&family=INTELLIJ",
       "sha256": "R03+q3FiAUpV6OTqVIFuPb36C4ceb0Hn1zNy9uprXKs=",
       "channel": "stable",
@@ -22,7 +42,7 @@
         }
       ]
     },
-    "1.0.2": {
+    "17801": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7603/17801/solveforall-idea-plugin.jar?updateId=17801&pluginId=7603&family=INTELLIJ",
       "sha256": "zdggSJ6NRKYIOATkgSKeHPK2pdXtmP/qhRvPzlR5bjI=",
       "channel": "stable",
@@ -42,7 +62,7 @@
         }
       ]
     },
-    "1.0.3": {
+    "18064": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7603/18064/solveforall-idea-plugin.jar?updateId=18064&pluginId=7603&family=INTELLIJ",
       "sha256": "F2OObIu0vvoFpacqNqNd+amckFmNHDzG/1I3t8nLNAU=",
       "channel": "stable",
@@ -62,7 +82,7 @@
         }
       ]
     },
-    "1.0.4": {
+    "18118": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7603/18118/solveforall-idea-plugin.jar?updateId=18118&pluginId=7603&family=INTELLIJ",
       "sha256": "7a1Ury+Xm8jf7vRZ9CtXSrCa5xvUgjU7g1mu9FnZOlk=",
       "channel": "stable",
@@ -81,6 +101,14 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 17788,
+      "1.0.2": 17801,
+      "1.0.3": 18064,
+      "1.0.4": 18118
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "xml_id": "dev.eltonsandre.vaden-starter",
   "numeric_id": 26970,
-  "versions": {
-    "2022.3.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26970/708941/vaden-starter-2022.3.1.zip?updateId=708941&pluginId=26970&family=INTELLIJ",
-      "sha256": "iZJCM8dlgyaOWvX39ZX79HVR5ZLB/x/3L36PwQeO+zE=",
+  "updates": {
+    "723653": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26970/723653/vaden-starter-2022.3.1.zip?updateId=723653&pluginId=26970&family=INTELLIJ",
+      "sha256": "LkCMzDtFDJYqYsNN6/RxH4wXDx5F9rA3/dQR1sURENg=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java"
@@ -15,9 +15,9 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "2023.2.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26970/708942/vaden-starter-2023.2.1.zip?updateId=708942&pluginId=26970&family=INTELLIJ",
-      "sha256": "B0vc89oENmawYLzb1FCzjckWsA0OsCTAi8I59fj5IaA=",
+    "723655": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26970/723655/vaden-starter-2023.2.1.zip?updateId=723655&pluginId=26970&family=INTELLIJ",
+      "sha256": "QF7/dr45mcWW7S9vAdERqQ43Te9x+9RLt3NFGO5i3p0=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java"
@@ -28,9 +28,9 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "2023.3.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26970/708943/vaden-starter-2023.3.1.zip?updateId=708943&pluginId=26970&family=INTELLIJ",
-      "sha256": "yse1yoFmpnmwiZrMS2i3KhHNIjMidIEeE6Qm/sXqQ/A=",
+    "723656": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26970/723656/vaden-starter-2023.3.1.zip?updateId=723656&pluginId=26970&family=INTELLIJ",
+      "sha256": "5hzYDyXHaEGkjgKGqCzsdQ/foiDvdhmqrtIdR6acp4k=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java"
@@ -40,6 +40,13 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2022.3.1": 723653,
+      "2023.2.1": 723655,
+      "2023.3.1": 723656
     }
   }
 }

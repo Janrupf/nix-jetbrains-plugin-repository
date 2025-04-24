@@ -1,8 +1,8 @@
 {
   "xml_id": "com.github.mwsmith3.adbtools",
   "numeric_id": 16157,
-  "versions": {
-    "0.2.0": {
+  "updates": {
+    "111611": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16157/111611/adb-tools-0.2.0.zip?updateId=111611&pluginId=16157&family=INTELLIJ",
       "sha256": "tp4nQ+L0/tSQXaQ9kT5+jO8aUxUtCEG6Bdms0WxeQvk=",
       "channel": "stable",
@@ -16,7 +16,7 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "0.2.1": {
+    "112058": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16157/112058/adb-tools-0.2.1.zip?updateId=112058&pluginId=16157&family=INTELLIJ",
       "sha256": "E7snKS73QaHx3zsMqk7RqQLGkewyJaMhy3R5INGstZ0=",
       "channel": "alpha",
@@ -30,7 +30,21 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "0.2.2": {
+    "114974": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16157/114974/adb-tools-0.2.2.zip?updateId=114974&pluginId=16157&family=INTELLIJ",
+      "sha256": "Sj8KvDNRnTJKRuRyy/sxyB98SwhqeP7iHOWuYpaPjPE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "adb-tools-0.2.2.zip",
+      "since": "201.0",
+      "until": "201.*",
+      "compatibility_overrides": []
+    },
+    "114975": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16157/114975/adb-tools-0.2.2.zip?updateId=114975&pluginId=16157&family=INTELLIJ",
       "sha256": "Sj8KvDNRnTJKRuRyy/sxyB98SwhqeP7iHOWuYpaPjPE=",
       "channel": "alpha",
@@ -44,7 +58,21 @@
       "until": "201.*",
       "compatibility_overrides": []
     },
-    "0.2.3": {
+    "119550": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16157/119550/adb-tools-0.2.3.zip?updateId=119550&pluginId=16157&family=INTELLIJ",
+      "sha256": "rbPcNLSMtFteJpXd9OhbE7bTxH9OwsHZs/Yn8aZtvBc=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "adb-tools-0.2.3.zip",
+      "since": "202.0",
+      "until": "202.*",
+      "compatibility_overrides": []
+    },
+    "120400": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16157/120400/adb-tools-0.2.3.zip?updateId=120400&pluginId=16157&family=INTELLIJ",
       "sha256": "rbPcNLSMtFteJpXd9OhbE7bTxH9OwsHZs/Yn8aZtvBc=",
       "channel": "stable",
@@ -58,7 +86,7 @@
       "until": "202.*",
       "compatibility_overrides": []
     },
-    "0.2.4": {
+    "126351": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16157/126351/adb-tools-0.2.4.zip?updateId=126351&pluginId=16157&family=INTELLIJ",
       "sha256": "4RjVEuFwmP+lHT86jec1M9vaVu4KzzEicLyT6KHZw8Q=",
       "channel": "stable",
@@ -79,7 +107,7 @@
         }
       ]
     },
-    "0.2.5": {
+    "136557": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16157/136557/adb-tools-0.2.5.zip?updateId=136557&pluginId=16157&family=INTELLIJ",
       "sha256": "Uhw8r89Iumzmpbh/lKRpP4J29585tof68ESHsfE414I=",
       "channel": "stable",
@@ -92,6 +120,20 @@
       "since": "203.0",
       "until": "204.0",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.2.1": 112058,
+      "0.2.2": 114975,
+      "0.2.3": 119550
+    },
+    "stable": {
+      "0.2.0": 111611,
+      "0.2.2": 114974,
+      "0.2.3": 120400,
+      "0.2.4": 126351,
+      "0.2.5": 136557
     }
   }
 }

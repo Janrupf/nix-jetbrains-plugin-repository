@@ -1,21 +1,8 @@
 {
   "xml_id": "digital.pedda.loremIpsum",
   "numeric_id": 21179,
-  "versions": {
-    "1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/21179/302092/generator-1.0.zip?updateId=302092&pluginId=21179&family=INTELLIJ",
-      "sha256": "FtUMNJLEpXIHfE5utMBvAlcFcTUAQUr1M3DYpGh5NSo=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "generator-1.0.zip",
-      "since": "221.0",
-      "until": "231.*",
-      "compatibility_overrides": []
-    },
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "301566": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21179/301566/generator-1.0.zip?updateId=301566&pluginId=21179&family=INTELLIJ",
       "sha256": "H7/Bi58n6r76ll5hfG4kt0uVvKZ83f9ER5GOUtFc4Ks=",
       "channel": "stable",
@@ -28,7 +15,20 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "1.1": {
+    "302092": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21179/302092/generator-1.0.zip?updateId=302092&pluginId=21179&family=INTELLIJ",
+      "sha256": "FtUMNJLEpXIHfE5utMBvAlcFcTUAQUr1M3DYpGh5NSo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "generator-1.0.zip",
+      "since": "221.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "368998": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21179/368998/generator-1.1.zip?updateId=368998&pluginId=21179&family=INTELLIJ",
       "sha256": "IWqdg9vpu8m1H3mZ/s6UyVccsw4yVGCpH2TjCWpWMr8=",
       "channel": "stable",
@@ -41,7 +41,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.2": {
+    "656367": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21179/656367/generator-1.2.zip?updateId=656367&pluginId=21179&family=INTELLIJ",
       "sha256": "7XQFBqujPqjAtO43xOy9E1q0j7iRKSKZk1aparTbmgI=",
       "channel": "stable",
@@ -54,7 +54,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.2.1": {
+    "656368": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21179/656368/generator-1.2.1.zip?updateId=656368&pluginId=21179&family=INTELLIJ",
       "sha256": "LHfLjVbzIcl6R7rkNjzQO64QCmwQJ0KJ359O2tu36Nc=",
       "channel": "stable",
@@ -67,7 +67,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.2.2": {
+    "656376": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21179/656376/generator-1.2.2.zip?updateId=656376&pluginId=21179&family=INTELLIJ",
       "sha256": "PfS2yaf7ZVH3VkfSmUnBYnxC8fzs271Y2OxPZ+Zo4Mk=",
       "channel": "stable",
@@ -79,6 +79,16 @@
       "since": "221.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 302092,
+      "1.0-SNAPSHOT": 301566,
+      "1.1": 368998,
+      "1.2": 656367,
+      "1.2.1": 656368,
+      "1.2.2": 656376
     }
   }
 }

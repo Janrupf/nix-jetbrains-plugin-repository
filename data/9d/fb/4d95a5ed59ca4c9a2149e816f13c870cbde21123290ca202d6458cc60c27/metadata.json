@@ -1,8 +1,8 @@
 {
   "xml_id": "com.miksuki.HighlightCursor",
   "numeric_id": 26743,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "694514": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26743/694514/HighlightCursor-1.0.0.zip?updateId=694514&pluginId=26743&family=INTELLIJ",
       "sha256": "wSjzBTtjeQyrIMgeBCnN8nDqW/XNjhUNKltfvz/WbsM=",
       "channel": "stable",
@@ -16,6 +16,27 @@
       "since": "242.1",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "723205": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26743/723205/HighlightCursor-1.0.1.zip?updateId=723205&pluginId=26743&family=INTELLIJ",
+      "sha256": "JeGSXI+p2bAXLWknZWDdVSVWSbEXGl0Px+iqx441/r8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM"
+      ],
+      "file_name": "HighlightCursor-1.0.1.zip",
+      "since": "242.1",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 694514,
+      "1.0.1": 723205
     }
   }
 }

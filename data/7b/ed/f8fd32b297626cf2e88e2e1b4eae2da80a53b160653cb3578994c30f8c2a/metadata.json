@@ -1,23 +1,8 @@
 {
   "xml_id": "com.github.shiraji.emoji",
   "numeric_id": 9174,
-  "versions": {
-    "0.0.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/118806/emoji-0.0.1.zip?updateId=118806&pluginId=9174&family=INTELLIJ",
-      "sha256": "obACMH//t9FDFD2wsdWLkKuD60H+nKOozrxa2wp57so=",
-      "channel": "canary",
-      "dependencies": [
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [
-        "org.intellij.plugins.markdown"
-      ],
-      "file_name": "emoji-0.0.1.zip",
-      "since": "201.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1.0.0": {
+  "updates": {
+    "29425": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/29425/Emoji.Support.Plugin-1.0.0.zip?updateId=29425&pluginId=9174&family=INTELLIJ",
       "sha256": "APzY+rNRYDyf93d7zWX5/XwEPC7+YQCeIfvd7q3gbUg=",
       "channel": "stable",
@@ -30,7 +15,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "29479": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/29479/Emoji_Support_Plugin-1.0.1.zip?updateId=29479&pluginId=9174&family=INTELLIJ",
       "sha256": "KBJYBFEOcEz6w9yDvEDsxXtad9HDCNyBx9M3xWz3Sl4=",
       "channel": "stable",
@@ -43,7 +28,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.0.0": {
+    "31602": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/31602/Emoji_Support_Plugin-2.0.0.zip?updateId=31602&pluginId=9174&family=INTELLIJ",
       "sha256": "G4/YEd32RYSAzF3qLxXn+mRSyTS6OAZ4jA5KR4nTxRs=",
       "channel": "stable",
@@ -56,7 +41,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "2.0.1": {
+    "35040": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/35040/Emoji_Support_Plugin-2.0.1.zip?updateId=35040&pluginId=9174&family=INTELLIJ",
       "sha256": "Bn/b5UuQI1H0u4ne6LuIHX6t/YNxzje4lQuEBQXt92Y=",
       "channel": "stable",
@@ -69,7 +54,20 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.0.0": {
+    "82780": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/82780/emoji-3.0.0.zip?updateId=82780&pluginId=9174&family=INTELLIJ",
+      "sha256": "NVYf8L5kSCNbBh9Ag2U0dqkCzMhDk3+bNNQ3fIrBopM=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "emoji-3.0.0.zip",
+      "since": "143.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "82811": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/82811/emoji-3.0.0.zip?updateId=82811&pluginId=9174&family=INTELLIJ",
       "sha256": "Ri5akO7zoAWml+hhBgeRIy1fSEL7TVTtMiFdFaWNlM8=",
       "channel": "stable",
@@ -84,7 +82,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "3.1.0": {
+    "83373": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/83373/emoji-3.1.0.zip?updateId=83373&pluginId=9174&family=INTELLIJ",
       "sha256": "79LxUW62un6tAoXfiOAUPHVbMmzoClvcBTFNd+LFv18=",
       "channel": "stable",
@@ -98,6 +96,37 @@
       "since": "143.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "118806": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9174/118806/emoji-0.0.1.zip?updateId=118806&pluginId=9174&family=INTELLIJ",
+      "sha256": "obACMH//t9FDFD2wsdWLkKuD60H+nKOozrxa2wp57so=",
+      "channel": "canary",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "emoji-0.0.1.zip",
+      "since": "201.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "3.0.0": 82780
+    },
+    "canary": {
+      "0.0.1": 118806
+    },
+    "stable": {
+      "1.0.0": 29425,
+      "1.0.1": 29479,
+      "2.0.0": 31602,
+      "2.0.1": 35040,
+      "3.0.0": 82811,
+      "3.1.0": 83373
     }
   }
 }

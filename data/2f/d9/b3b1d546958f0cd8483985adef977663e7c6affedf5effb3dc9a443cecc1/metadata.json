@@ -1,8 +1,8 @@
 {
   "xml_id": "ovh.fedox.ntr",
   "numeric_id": 25778,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "629825": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25778/629825/ntr-jetbrains-1.0-SNAPSHOT.zip?updateId=629825&pluginId=25778&family=INTELLIJ",
       "sha256": "GydUqkECL+YPyvRLBZMb35fkDiA/YdZoKGcpC0jD7Rk=",
       "channel": "stable",
@@ -15,7 +15,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.1-SNAPSHOT": {
+    "629826": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25778/629826/ntr-jetbrains-1.1-SNAPSHOT.zip?updateId=629826&pluginId=25778&family=INTELLIJ",
       "sha256": "0wu/yy4Ct4Keew7j58kcDr+7uybNewHwR3K73uyYCaU=",
       "channel": "stable",
@@ -28,7 +28,7 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "1.2-SNAPSHOT": {
+    "629828": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25778/629828/ntr-jetbrains-1.2-SNAPSHOT.zip?updateId=629828&pluginId=25778&family=INTELLIJ",
       "sha256": "83IfZmoRvIX01nfO0+7OhHTxg+N0Tj8GQbSm68GZonM=",
       "channel": "stable",
@@ -40,6 +40,13 @@
       "since": "221.*",
       "until": "244.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0-SNAPSHOT": 629825,
+      "1.1-SNAPSHOT": 629826,
+      "1.2-SNAPSHOT": 629828
     }
   }
 }

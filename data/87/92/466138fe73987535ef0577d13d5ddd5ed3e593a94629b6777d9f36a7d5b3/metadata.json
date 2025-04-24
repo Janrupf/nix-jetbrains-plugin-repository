@@ -1,8 +1,22 @@
 {
   "xml_id": "com.hermicrab.lombok-hermitcrab",
   "numeric_id": 22493,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "376889": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22493/376889/lombok-hermitcrab-plugin-intellij-1.0.zip?updateId=376889&pluginId=22493&family=INTELLIJ",
+      "sha256": "mBdc2XmDJ25ghDNAJ89a8iGtApHOFtubCrIrtmyc2tM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lombok-hermitcrab-plugin-intellij-1.0.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "378023": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22493/378023/lombok-hermitcrab-plugin-intellij-1.0.zip?updateId=378023&pluginId=22493&family=INTELLIJ",
       "sha256": "Sgm1V35Hmhl2VGN8+DyB/iUYTFArCAeYhGw8krAlAbg=",
       "channel": "stable",
@@ -16,7 +30,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "2.0": {
+    "454830": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22493/454830/lombok-hermitcrab-plugin-intellij-2.0.zip?updateId=454830&pluginId=22493&family=INTELLIJ",
       "sha256": "xuu7gd5DXjDLjmO3Ms3vLGFYFjbUnRUU9p36LF6ccSc=",
       "channel": "stable",
@@ -30,7 +44,7 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "3.0": {
+    "518695": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22493/518695/lombok-hermitcrab-plugin-intellij-3.0.zip?updateId=518695&pluginId=22493&family=INTELLIJ",
       "sha256": "+Qqxp1N7TY0bgL+hpgvPZD8Cr09MdM3rg1ySR6Wwt84=",
       "channel": "stable",
@@ -44,7 +58,7 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "3.1": {
+    "604610": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22493/604610/lombok-hermitcrab-plugin-intellij-3.1.zip?updateId=604610&pluginId=22493&family=INTELLIJ",
       "sha256": "DMSsn9pSGCROduxMqEUgdFJX60D+M2K2Mo/SRgqUnzc=",
       "channel": "stable",
@@ -57,6 +71,17 @@
       "since": "241.0",
       "until": "242.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.0": 376889
+    },
+    "stable": {
+      "1.0": 378023,
+      "2.0": 454830,
+      "3.0": 518695,
+      "3.1": 604610
     }
   }
 }

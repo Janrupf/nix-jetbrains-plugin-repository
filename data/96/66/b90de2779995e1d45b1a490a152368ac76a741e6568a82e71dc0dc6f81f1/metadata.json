@@ -1,8 +1,26 @@
 {
   "xml_id": "Snipplr API",
   "numeric_id": 2006,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "5195": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/2006/5195/Snipplr_API_5195.zip?updateId=5195&pluginId=2006&family=INTELLIJ",
+      "sha256": "YI0ZGUgEN4MSspVPxyVlf1lCg4KelX6GWlgFLZEUv2Y=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "Snipplr_API_5195.zip",
+      "since": "40.3000",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "40.3000",
+          "applies_until": "999.99999",
+          "compatible_since": "40.3000",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "7313": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/2006/7313/Snipplr_API_7313.jar?updateId=7313&pluginId=2006&family=INTELLIJ",
       "sha256": "NyI80LbBlObUkFuhNj9aP4xkqr78sCiAuWYhbnT6kxs=",
       "channel": "stable",
@@ -20,7 +38,7 @@
         }
       ]
     },
-    "2.0": {
+    "7314": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/2006/7314/Snipplr_API_7314.jar?updateId=7314&pluginId=2006&family=INTELLIJ",
       "sha256": "6t+HfU8ulPi71Gf1/X6YhAuvWEMj8aH5yc1kEsFfd3U=",
       "channel": "stable",
@@ -37,6 +55,12 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 7313,
+      "2.0": 7314
     }
   }
 }

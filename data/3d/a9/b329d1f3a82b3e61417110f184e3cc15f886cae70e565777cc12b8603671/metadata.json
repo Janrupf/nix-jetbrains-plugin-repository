@@ -1,8 +1,21 @@
 {
   "xml_id": "com.sire.plugin.apk.search",
   "numeric_id": 14561,
-  "versions": {
-    "0.0.1": {
+  "updates": {
+    "89670": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14561/89670/APKSearch.zip?updateId=89670&pluginId=14561&family=INTELLIJ",
+      "sha256": "vAczcIMQYe6m/vaOP6ij6zTWP2Y1Xl1G8LG/lMDPUyk=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "APKSearch.zip",
+      "since": "145.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "89673": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14561/89673/APKSearch.zip?updateId=89673&pluginId=14561&family=INTELLIJ",
       "sha256": "Rc9oBEmTVvKmdUja2LIJKyqYcawzpo/f6k52dfSPNeQ=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.0": {
+    "89721": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14561/89721/APKSearch.zip?updateId=89721&pluginId=14561&family=INTELLIJ",
       "sha256": "WjDfivmjHd6UO/66yQblwO0A6bwkyPZdiYPKvTcCzW8=",
       "channel": "stable",
@@ -27,6 +40,15 @@
       "since": "145.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "0.0.1": 89670
+    },
+    "stable": {
+      "0.0.1": 89673,
+      "1.0.0": 89721
     }
   }
 }

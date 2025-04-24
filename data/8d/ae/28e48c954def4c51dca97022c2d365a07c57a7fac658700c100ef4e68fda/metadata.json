@@ -1,21 +1,8 @@
 {
   "xml_id": "com.hadihariri.leanpub",
   "numeric_id": 8167,
-  "versions": {
-    "0.1-SNAPSHOT": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/8167/23575/leanpub-0.1-SNAPSHOT.zip?updateId=23575&pluginId=8167&family=INTELLIJ",
-      "sha256": "92M9ZuLEEhK8DUzk1ePuE2P5YVXlF/CRBggGkdGEpY0=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "leanpub-0.1-SNAPSHOT.zip",
-      "since": "143.382",
-      "until": "143.*",
-      "compatibility_overrides": []
-    },
-    "1.0": {
+  "updates": {
+    "23573": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8167/23573/leanpub-1.0.zip?updateId=23573&pluginId=8167&family=INTELLIJ",
       "sha256": "sF9g383lWTvMXSfROcj77LogKasyLgSzWp2PRhfxvYo=",
       "channel": "stable",
@@ -28,7 +15,20 @@
       "until": "143.*",
       "compatibility_overrides": []
     },
-    "1.0.3": {
+    "23575": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8167/23575/leanpub-0.1-SNAPSHOT.zip?updateId=23575&pluginId=8167&family=INTELLIJ",
+      "sha256": "92M9ZuLEEhK8DUzk1ePuE2P5YVXlF/CRBggGkdGEpY0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "leanpub-0.1-SNAPSHOT.zip",
+      "since": "143.382",
+      "until": "143.*",
+      "compatibility_overrides": []
+    },
+    "24912": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8167/24912/leanpub-1.0.3.zip?updateId=24912&pluginId=8167&family=INTELLIJ",
       "sha256": "9oyXfDyoqZCA82Gjq2uQYFHydHIJB7ShY8fpBugTsDI=",
       "channel": "stable",
@@ -40,6 +40,13 @@
       "since": "145.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1-SNAPSHOT": 23575,
+      "1.0": 23573,
+      "1.0.3": 24912
     }
   }
 }

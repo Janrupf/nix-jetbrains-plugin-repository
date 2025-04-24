@@ -1,8 +1,28 @@
 {
   "xml_id": "com.emblem.unique.plugin.idid234234",
   "numeric_id": 7628,
-  "versions": {
-    "0.1": {
+  "updates": {
+    "18042": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7628/18042/emblem-intellij.jar?updateId=18042&pluginId=7628&family=INTELLIJ",
+      "sha256": "/l0GMsjjiTA3gm6wH6ZIQW/NAWlyf5xzYcS4W27XaMc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "emblem-intellij.jar",
+      "since": "121.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "121.0",
+          "applies_until": "999.99999",
+          "compatible_since": "121.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "18075": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7628/18075/emblem.jar?updateId=18075&pluginId=7628&family=INTELLIJ",
       "sha256": "LuAnfKlNIsyEhz2yHCzYN1l74HGeUpdGTIZXkgZrk80=",
       "channel": "stable",
@@ -22,7 +42,27 @@
         }
       ]
     },
-    "0.1.1": {
+    "18319": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7628/18319/emblem.0.1.1.jar?updateId=18319&pluginId=7628&family=INTELLIJ",
+      "sha256": "tFeTpcO0gXHAn6I4dQi6aunuuT93jKoJytjVlpLmrDM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "emblem.0.1.1.jar",
+      "since": "121.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "121.0",
+          "applies_until": "999.99999",
+          "compatible_since": "121.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "18358": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7628/18358/emblem.0.1.1.1.jar?updateId=18358&pluginId=7628&family=INTELLIJ",
       "sha256": "ybGFCDMk9gZ51vUI57CM4G2jlrhF4K7caoDSfCyXxBU=",
       "channel": "stable",
@@ -42,7 +82,7 @@
         }
       ]
     },
-    "0.1.2": {
+    "18710": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7628/18710/emblem.0.1.2.jar?updateId=18710&pluginId=7628&family=INTELLIJ",
       "sha256": "ENIZzIKMj/Ze3lDdPwrLUhh+BjawIJqQxpvNYYZsHzA=",
       "channel": "stable",
@@ -62,7 +102,7 @@
         }
       ]
     },
-    "0.1.3": {
+    "19152": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7628/19152/emblem.jar?updateId=19152&pluginId=7628&family=INTELLIJ",
       "sha256": "5WYxDppHv2A2k7Iu1URilY3i7mNx/TK/CWAfkQPBPZo=",
       "channel": "stable",
@@ -81,6 +121,14 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1": 18075,
+      "0.1.1": 18358,
+      "0.1.2": 18710,
+      "0.1.3": 19152
     }
   }
 }

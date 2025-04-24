@@ -1,8 +1,21 @@
 {
   "xml_id": "dev.icerock.moko.intellij-plugin",
   "numeric_id": 13516,
-  "versions": {
-    "0.1.1": {
+  "updates": {
+    "74505": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13516/74505/intellij-plugin-1.0.0.zip?updateId=74505&pluginId=13516&family=INTELLIJ",
+      "sha256": "Ie4ENBwHQsI0oorS/62k+LIJ83OXe8PqjJ3E0A099R4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-plugin-1.0.0.zip",
+      "since": "193.5233",
+      "until": "193.*",
+      "compatibility_overrides": []
+    },
+    "74583": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13516/74583/intellij-plugin-0.1.1.zip?updateId=74583&pluginId=13516&family=INTELLIJ",
       "sha256": "+Zy9BES5UGxgHT4cwik9Wf4DkOg5OKnO49yivfim3Wo=",
       "channel": "stable",
@@ -15,19 +28,12 @@
       "since": "191.6183",
       "until": "191.*",
       "compatibility_overrides": []
-    },
-    "1.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/13516/74505/intellij-plugin-1.0.0.zip?updateId=74505&pluginId=13516&family=INTELLIJ",
-      "sha256": "Ie4ENBwHQsI0oorS/62k+LIJ83OXe8PqjJ3E0A099R4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-plugin-1.0.0.zip",
-      "since": "193.5233",
-      "until": "193.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.1": 74583,
+      "1.0.0": 74505
     }
   }
 }

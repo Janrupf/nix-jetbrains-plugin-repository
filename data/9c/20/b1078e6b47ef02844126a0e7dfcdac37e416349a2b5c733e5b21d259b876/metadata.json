@@ -1,23 +1,8 @@
 {
   "xml_id": "com.felixastner.aitools.ai-tools",
   "numeric_id": 27140,
-  "versions": {
-    "0.0.1780733462": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27140/722129/ai-tools-0.0.1780733462.zip?updateId=722129&pluginId=27140&family=INTELLIJ",
-      "sha256": "5wF4tRS+6mom6YLI3ubtiMUgapeGSLZttyuVfCuZxfM=",
-      "channel": "alpha",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "org.intellij.plugins.markdown"
-      ],
-      "optional_dependencies": [],
-      "file_name": "ai-tools-0.0.1780733462.zip",
-      "since": "241.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
-    "0.0.4": {
+  "updates": {
+    "722128": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27140/722128/ai-tools-0.0.4.jar?updateId=722128&pluginId=27140&family=INTELLIJ",
       "sha256": "/dYr9zd2CCrzgWvfLtyjm/ICkUR4JPDcjxH+4BFOLCU=",
       "channel": "stable",
@@ -31,6 +16,29 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "722129": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27140/722129/ai-tools-0.0.1780733462.zip?updateId=722129&pluginId=27140&family=INTELLIJ",
+      "sha256": "5wF4tRS+6mom6YLI3ubtiMUgapeGSLZttyuVfCuZxfM=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ai-tools-0.0.1780733462.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.0.1780733462": 722129
+    },
+    "stable": {
+      "0.0.4": 722128
     }
   }
 }

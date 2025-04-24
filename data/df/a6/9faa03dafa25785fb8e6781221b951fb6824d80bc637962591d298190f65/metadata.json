@@ -1,22 +1,8 @@
 {
   "xml_id": "cn.kduck.plugin",
   "numeric_id": 22396,
-  "versions": {
-    "1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/22396/371460/kduck-idea-plugin-1.0.jar?updateId=371460&pluginId=22396&family=INTELLIJ",
-      "sha256": "qQ7jhBlDDbc39DmFaPrEDWQx2+8o9nDpAM7cMvXbiT4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "kduck-idea-plugin-1.0.jar",
-      "since": "201.*",
-      "until": "232.*",
-      "compatibility_overrides": []
-    },
-    "1.0-Beta": {
+  "updates": {
+    "370868": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22396/370868/kduck-idea-plugin-1.0-Beta.jar?updateId=370868&pluginId=22396&family=INTELLIJ",
       "sha256": "+uCOt3tkB/50L7QDe1Cyuq6TT4q7qtZfbhltUzb3jdQ=",
       "channel": "stable",
@@ -30,7 +16,21 @@
       "until": "231.*",
       "compatibility_overrides": []
     },
-    "1.1": {
+    "371460": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22396/371460/kduck-idea-plugin-1.0.jar?updateId=371460&pluginId=22396&family=INTELLIJ",
+      "sha256": "qQ7jhBlDDbc39DmFaPrEDWQx2+8o9nDpAM7cMvXbiT4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kduck-idea-plugin-1.0.jar",
+      "since": "201.*",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "372799": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22396/372799/kduck-idea-plugin-1.1.jar?updateId=372799&pluginId=22396&family=INTELLIJ",
       "sha256": "4Yy9EC26r8yL9uOvF9etdNf9f3F/G0YIL3gBV+Z11QI=",
       "channel": "stable",
@@ -44,7 +44,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "1.2": {
+    "520803": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22396/520803/kduck-idea-plugin-1.2.jar?updateId=520803&pluginId=22396&family=INTELLIJ",
       "sha256": "EMKV8vydzvESd8sbpapYCvS7rsdsXWPIUkxJ10+tpc8=",
       "channel": "stable",
@@ -57,6 +57,14 @@
       "since": "201.1",
       "until": "241.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 371460,
+      "1.0-Beta": 370868,
+      "1.1": 372799,
+      "1.2": 520803
     }
   }
 }

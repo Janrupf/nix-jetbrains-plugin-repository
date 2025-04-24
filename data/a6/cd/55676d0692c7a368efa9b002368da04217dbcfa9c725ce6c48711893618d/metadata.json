@@ -1,8 +1,8 @@
 {
   "xml_id": "com.github.firebender.androidstudiocopilot",
   "numeric_id": 25224,
-  "versions": {
-    "0.9.18": {
+  "updates": {
+    "716281": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/716281/Firebender-0.9.18.zip?updateId=716281&pluginId=25224&family=INTELLIJ",
       "sha256": "G8t9aeAjRqBO3/nbSOHR6LN8G5cVFPUqrY477mPP5r4=",
       "channel": "stable",
@@ -19,7 +19,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.9.19": {
+    "717101": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/717101/Firebender-0.9.19.zip?updateId=717101&pluginId=25224&family=INTELLIJ",
       "sha256": "T02DjRZ/y37+HZ+4J08RxoLskwuPzt/Flc0OSSCuel8=",
       "channel": "stable",
@@ -36,7 +36,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.9.20": {
+    "717657": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/717657/Firebender-0.9.20.zip?updateId=717657&pluginId=25224&family=INTELLIJ",
       "sha256": "cY8pje6A7vDk1VqekH/XTSywr/WVWyWPQ2Y2eHAdcW8=",
       "channel": "stable",
@@ -53,7 +53,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.9.21": {
+    "718880": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/718880/Firebender-0.9.21.zip?updateId=718880&pluginId=25224&family=INTELLIJ",
       "sha256": "Vl4EpNXLf2k6601K9FBDWRtJZL1LS7Dl/4bit9D46O8=",
       "channel": "stable",
@@ -70,6 +70,33 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "722435": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/722435/Firebender-0.10.0.zip?updateId=722435&pluginId=25224&family=INTELLIJ",
+      "sha256": "G+LztztpI5imwiWlvUgIMZz54wefXHM+R48TTNcdEgE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "Firebender-0.10.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.10.0": 722435,
+      "0.9.18": 716281,
+      "0.9.19": 717101,
+      "0.9.20": 717657,
+      "0.9.21": 718880
     }
   }
 }

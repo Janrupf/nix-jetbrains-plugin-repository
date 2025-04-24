@@ -1,8 +1,8 @@
 {
   "xml_id": "MySearch",
   "numeric_id": 7135,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "12251": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7135/12251/ideaSearch.jar?updateId=12251&pluginId=7135&family=INTELLIJ",
       "sha256": "EsnmMWfEeyksnLFPEESBx9xIFf8pJUKiJLK1gGDP2ho=",
       "channel": "stable",
@@ -20,7 +20,25 @@
         }
       ]
     },
-    "1.50": {
+    "12258": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7135/12258/ideaSearch.jar?updateId=12258&pluginId=7135&family=INTELLIJ",
+      "sha256": "ZIHd1muyW30pa3n6LblGDkyW/YK42bQrxB45/IvISEc=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "ideaSearch.jar",
+      "since": "107.105",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "95.627",
+          "applies_until": "999.99999",
+          "compatible_since": "95.627",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "12287": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7135/12287/ideaSearch.jar?updateId=12287&pluginId=7135&family=INTELLIJ",
       "sha256": "c4Iv+5ej8SXgBZNf3GfJRRx6JrGN7RTh6b5v1ExFBZ4=",
       "channel": "stable",
@@ -37,6 +55,12 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 12251,
+      "1.50": 12287
     }
   }
 }

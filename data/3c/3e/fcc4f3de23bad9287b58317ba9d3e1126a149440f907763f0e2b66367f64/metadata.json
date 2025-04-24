@@ -1,21 +1,21 @@
 {
   "xml_id": "com.ratel",
   "numeric_id": 19623,
-  "versions": {
-    "201.1.1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/19623/203970/ratel-plugin-201.1.1.zip?updateId=203970&pluginId=19623&family=INTELLIJ",
-      "sha256": "eIMnfD+3zImqr4aegrjeR07v1Abx6EEnGL1SrDfsysA=",
+  "updates": {
+    "203724": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19623/203724/ratel-plugin-213.1.2.zip?updateId=203724&pluginId=19623&family=INTELLIJ",
+      "sha256": "w7m4YDdk7fvHOYu5lGUTtY71Q5xXrGaX9u1jAbIJhRE=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ratel-plugin-201.1.1.zip",
-      "since": "201.0",
-      "until": "202.*",
+      "file_name": "ratel-plugin-213.1.2.zip",
+      "since": "213.0",
+      "until": "222.*",
       "compatibility_overrides": []
     },
-    "203.1.1": {
+    "203957": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19623/203957/ratel-plugin-203.1.1.zip?updateId=203957&pluginId=19623&family=INTELLIJ",
       "sha256": "cqIs1dSSLl720vvO4K+59yD5sZx5PXkREg2yHC/DJAo=",
       "channel": "stable",
@@ -28,7 +28,20 @@
       "until": "222.*",
       "compatibility_overrides": []
     },
-    "203.1.2": {
+    "203970": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19623/203970/ratel-plugin-201.1.1.zip?updateId=203970&pluginId=19623&family=INTELLIJ",
+      "sha256": "eIMnfD+3zImqr4aegrjeR07v1Abx6EEnGL1SrDfsysA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ratel-plugin-201.1.1.zip",
+      "since": "201.0",
+      "until": "202.*",
+      "compatibility_overrides": []
+    },
+    "204978": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19623/204978/ratel-plugin-203.1.2.zip?updateId=204978&pluginId=19623&family=INTELLIJ",
       "sha256": "gJzubiBL2UM/anXWBFp4tRwGIjGsZwpafdJ8VGesO60=",
       "channel": "stable",
@@ -40,19 +53,14 @@
       "since": "203.6682.168",
       "until": "222.*",
       "compatibility_overrides": []
-    },
-    "213.1.2": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/19623/203724/ratel-plugin-213.1.2.zip?updateId=203724&pluginId=19623&family=INTELLIJ",
-      "sha256": "w7m4YDdk7fvHOYu5lGUTtY71Q5xXrGaX9u1jAbIJhRE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "ratel-plugin-213.1.2.zip",
-      "since": "213.0",
-      "until": "222.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "201.1.1": 203970,
+      "203.1.1": 203957,
+      "203.1.2": 204978,
+      "213.1.2": 203724
     }
   }
 }

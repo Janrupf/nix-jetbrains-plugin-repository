@@ -1,21 +1,8 @@
 {
   "xml_id": "com.netreq.fix.plugin",
   "numeric_id": 23052,
-  "versions": {
-    "1.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23052/433297/FIX_Protocol-1.0.0.zip?updateId=433297&pluginId=23052&family=INTELLIJ",
-      "sha256": "tEfFYbw9merbHlrwPlLHerheNVe7s/5KnuEyMqOHDCE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "FIX_Protocol-1.0.0.zip",
-      "since": "222.0",
-      "until": "233.*",
-      "compatibility_overrides": []
-    },
-    "1.0.0-beta.2": {
+  "updates": {
+    "429896": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23052/429896/FIX.Protocol-1.0.0-beta.2-signed.zip?updateId=429896&pluginId=23052&family=INTELLIJ",
       "sha256": "DWjbHnAyDp61EiLDu7mlZcQDRkMlfWXWylQ/oc+dOZI=",
       "channel": "stable",
@@ -28,7 +15,20 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "433297": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23052/433297/FIX_Protocol-1.0.0.zip?updateId=433297&pluginId=23052&family=INTELLIJ",
+      "sha256": "tEfFYbw9merbHlrwPlLHerheNVe7s/5KnuEyMqOHDCE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "FIX_Protocol-1.0.0.zip",
+      "since": "222.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "507085": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23052/507085/FIX_Protocol-1.0.1.zip?updateId=507085&pluginId=23052&family=INTELLIJ",
       "sha256": "DjjiSWVK7vvfMWLIVKbdkxtv/uLAZVs4eJQ3UBkqhX4=",
       "channel": "stable",
@@ -47,6 +47,13 @@
           "compatible_until": "251.*"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 433297,
+      "1.0.0-beta.2": 429896,
+      "1.0.1": 507085
     }
   }
 }

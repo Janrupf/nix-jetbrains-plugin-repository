@@ -1,22 +1,8 @@
 {
   "xml_id": "com.qingci.lazy",
   "numeric_id": 14381,
-  "versions": {
-    "1.0.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14381/88401/Lazy.jar?updateId=88401&pluginId=14381&family=INTELLIJ",
-      "sha256": "sU3s13ifi2AgO1fJPf/8vVQGplmdmzoxyqgsB6EI7fs=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Lazy.jar",
-      "since": "173.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1.0.0-BETA": {
+  "updates": {
+    "87428": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14381/87428/Lazy.jar?updateId=87428&pluginId=14381&family=INTELLIJ",
       "sha256": "GCZmbzIYNNnAgrLYP2cpDz2Mwv4K620JPW7U+UCGAt0=",
       "channel": "beta1",
@@ -30,7 +16,21 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.1": {
+    "88401": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14381/88401/Lazy.jar?updateId=88401&pluginId=14381&family=INTELLIJ",
+      "sha256": "sU3s13ifi2AgO1fJPf/8vVQGplmdmzoxyqgsB6EI7fs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Lazy.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "88983": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14381/88983/Lazy.jar?updateId=88983&pluginId=14381&family=INTELLIJ",
       "sha256": "l4HEGUc0+IrP+8dwDFGP+wspltcLThChnA5Q7BFqDyI=",
       "channel": "stable",
@@ -44,7 +44,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.0.2": {
+    "91638": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14381/91638/Lazy.jar?updateId=91638&pluginId=14381&family=INTELLIJ",
       "sha256": "Ghko2Ce6yygHl6TDtrnJhnKsfwWtLXztmalTnaqZhQE=",
       "channel": "stable",
@@ -57,6 +57,16 @@
       "since": "173.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta1": {
+      "1.0.0-BETA": 87428
+    },
+    "stable": {
+      "1.0.0": 88401,
+      "1.0.1": 88983,
+      "1.0.2": 91638
     }
   }
 }

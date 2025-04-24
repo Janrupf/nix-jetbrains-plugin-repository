@@ -1,8 +1,28 @@
 {
   "xml_id": "org.root.GoogleIt",
   "numeric_id": 7402,
-  "versions": {
-    "0.1": {
+  "updates": {
+    "15314": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7402/15314/GoogleIt.jar?updateId=15314&pluginId=7402&family=INTELLIJ",
+      "sha256": "MVC6jnhrAkrxlnZSnaT259AWOKb/sXim+I+IQ6QJEjw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GoogleIt.jar",
+      "since": "107.105",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "15315": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7402/15315/GoogleIt.jar?updateId=15315&pluginId=7402&family=INTELLIJ",
       "sha256": "MVC6jnhrAkrxlnZSnaT259AWOKb/sXim+I+IQ6QJEjw=",
       "channel": "stable",
@@ -22,7 +42,7 @@
         }
       ]
     },
-    "0.11": {
+    "15330": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7402/15330/GoogleIt.jar?updateId=15330&pluginId=7402&family=INTELLIJ",
       "sha256": "l5ZKc/pXtvbNOCEwl/TflR9Aobxrp/qv2VEEq/orbmE=",
       "channel": "stable",
@@ -41,6 +61,12 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1": 15315,
+      "0.11": 15330
     }
   }
 }

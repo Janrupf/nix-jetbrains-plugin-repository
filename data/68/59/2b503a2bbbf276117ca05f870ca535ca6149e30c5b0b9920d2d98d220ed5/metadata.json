@@ -1,26 +1,8 @@
 {
   "xml_id": "SonOfExternalCodeFormatter",
   "numeric_id": 6020,
-  "versions": {
-    "1.0.5": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/9651/SonOfExternalCodeFormatter_9651.zip?updateId=9651&pluginId=6020&family=INTELLIJ",
-      "sha256": "7FHyghEosysaRiGeDEpqL5xvihYtp0AFIrWeBiUC4ok=",
-      "channel": "stable",
-      "dependencies": [],
-      "optional_dependencies": [],
-      "file_name": "SonOfExternalCodeFormatter_9651.zip",
-      "since": "80.9000",
-      "until": "200",
-      "compatibility_overrides": [
-        {
-          "applies_since": "80.9000",
-          "applies_until": "999.99999",
-          "compatible_since": "80.9000",
-          "compatible_until": "200"
-        }
-      ]
-    },
-    "1.0.5-SNAPSHOT": {
+  "updates": {
+    "9420": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/9420/SonOfExternalCodeFormatter_9420.zip?updateId=9420&pluginId=6020&family=INTELLIJ",
       "sha256": "QVIuZP1OvBGRSTKILGPBA1gXl4deV6AxUvI9SWMeGpg=",
       "channel": "stable",
@@ -38,7 +20,25 @@
         }
       ]
     },
-    "1.6.0": {
+    "9651": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/9651/SonOfExternalCodeFormatter_9651.zip?updateId=9651&pluginId=6020&family=INTELLIJ",
+      "sha256": "7FHyghEosysaRiGeDEpqL5xvihYtp0AFIrWeBiUC4ok=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "SonOfExternalCodeFormatter_9651.zip",
+      "since": "80.9000",
+      "until": "200",
+      "compatibility_overrides": [
+        {
+          "applies_since": "80.9000",
+          "applies_until": "999.99999",
+          "compatible_since": "80.9000",
+          "compatible_until": "200"
+        }
+      ]
+    },
+    "9805": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/9805/SonOfExternalCodeFormatter_9805.zip?updateId=9805&pluginId=6020&family=INTELLIJ",
       "sha256": "QrglyFnli76UXxotTL88JUfzGE3D/MO358GpbB4p1sE=",
       "channel": "stable",
@@ -56,7 +56,7 @@
         }
       ]
     },
-    "1.6.1": {
+    "9996": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/9996/SonOfExternalCodeFormatter_9996.zip?updateId=9996&pluginId=6020&family=INTELLIJ",
       "sha256": "9jVrqEhK457tAhYpjf12tvnXWOq9AIA5Snt1WSH8CUk=",
       "channel": "stable",
@@ -74,7 +74,7 @@
         }
       ]
     },
-    "1.6.2": {
+    "10330": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/10330/SonOfExternalCodeFormatter_10330.zip?updateId=10330&pluginId=6020&family=INTELLIJ",
       "sha256": "YkiQF/ttSVrsA0L8HTI/bnDknMRXdehokk7M6qSm6l8=",
       "channel": "stable",
@@ -92,7 +92,7 @@
         }
       ]
     },
-    "1.6.3": {
+    "10349": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/10349/SonOfExternalCodeFormatter_10349.zip?updateId=10349&pluginId=6020&family=INTELLIJ",
       "sha256": "PAtpzBoogW5efx2mNu8t6FMQheb2hf03gs1qbsfWAiU=",
       "channel": "stable",
@@ -110,7 +110,7 @@
         }
       ]
     },
-    "1.6.4": {
+    "10698": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/10698/SonOfExternalCodeFormatter_10698.zip?updateId=10698&pluginId=6020&family=INTELLIJ",
       "sha256": "TPuiRwILD2iHz+HolyD2ys61k3DuN75tzK7YvYAZUek=",
       "channel": "stable",
@@ -128,7 +128,7 @@
         }
       ]
     },
-    "1.6.5": {
+    "10769": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/10769/SonOfExternalCodeFormatter_10769.zip?updateId=10769&pluginId=6020&family=INTELLIJ",
       "sha256": "WMy/uK8InmmjpPF6syWVyOxwCopBVYpl9tti49RvX9I=",
       "channel": "stable",
@@ -146,7 +146,7 @@
         }
       ]
     },
-    "1.6.6": {
+    "11093": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6020/11093/SonOfExternalCodeFormatter_11093.zip?updateId=11093&pluginId=6020&family=INTELLIJ",
       "sha256": "wXZ6DeHrXtQ/WturrRA2rSNmxcBCIykTlDURgfpuG4Y=",
       "channel": "stable",
@@ -163,6 +163,19 @@
           "compatible_until": "200"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.5": 9651,
+      "1.0.5-SNAPSHOT": 9420,
+      "1.6.0": 9805,
+      "1.6.1": 9996,
+      "1.6.2": 10330,
+      "1.6.3": 10349,
+      "1.6.4": 10698,
+      "1.6.5": 10769,
+      "1.6.6": 11093
     }
   }
 }

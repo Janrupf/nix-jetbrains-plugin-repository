@@ -1,28 +1,8 @@
 {
   "xml_id": "org.eclipse.xtext.idea",
   "numeric_id": 8072,
-  "versions": {
-    "2.10.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/8072/26093/org.eclipse.xtext.idea-2.10.0.zip?updateId=26093&pluginId=8072&family=INTELLIJ",
-      "sha256": "yjmTSMEqAg/lsr5h/lZVJLrX7pfc2kJz4c40BtLU9cc=",
-      "channel": "stable",
-      "dependencies": [
-        "JUnit"
-      ],
-      "optional_dependencies": [],
-      "file_name": "org.eclipse.xtext.idea-2.10.0.zip",
-      "since": "145.0",
-      "until": "201",
-      "compatibility_overrides": [
-        {
-          "applies_since": "145.0",
-          "applies_until": "999.99999",
-          "compatible_since": "145.0",
-          "compatible_until": "201"
-        }
-      ]
-    },
-    "2.9.0": {
+  "updates": {
+    "22624": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8072/22624/org.eclipse.xtext.idea-2.9.0.zip?updateId=22624&pluginId=8072&family=INTELLIJ",
       "sha256": "sgKTkm+rllqE3+rIAStEYrRt8Y7dbR0t82K7X3fU8kY=",
       "channel": "stable",
@@ -42,7 +22,7 @@
         }
       ]
     },
-    "2.9.1": {
+    "22984": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8072/22984/org.eclipse.xtext.idea-2.9.1.zip?updateId=22984&pluginId=8072&family=INTELLIJ",
       "sha256": "QSpv817qazRmtejttyG4afjnySftw1zBHU2TQnvtggk=",
       "channel": "stable",
@@ -62,7 +42,7 @@
         }
       ]
     },
-    "2.9.2": {
+    "24475": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8072/24475/org.eclipse.xtext.idea-2.9.2.zip?updateId=24475&pluginId=8072&family=INTELLIJ",
       "sha256": "qvfpPB4iHC9IU3/dI1MekAY60QfgnFQqwy0EQArCKcc=",
       "channel": "stable",
@@ -81,6 +61,34 @@
           "compatible_until": "201"
         }
       ]
+    },
+    "26093": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8072/26093/org.eclipse.xtext.idea-2.10.0.zip?updateId=26093&pluginId=8072&family=INTELLIJ",
+      "sha256": "yjmTSMEqAg/lsr5h/lZVJLrX7pfc2kJz4c40BtLU9cc=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit"
+      ],
+      "optional_dependencies": [],
+      "file_name": "org.eclipse.xtext.idea-2.10.0.zip",
+      "since": "145.0",
+      "until": "201",
+      "compatibility_overrides": [
+        {
+          "applies_since": "145.0",
+          "applies_until": "999.99999",
+          "compatible_since": "145.0",
+          "compatible_until": "201"
+        }
+      ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.10.0": 26093,
+      "2.9.0": 22624,
+      "2.9.1": 22984,
+      "2.9.2": 24475
     }
   }
 }

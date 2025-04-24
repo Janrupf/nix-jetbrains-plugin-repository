@@ -1,8 +1,19 @@
 {
   "xml_id": "testing.tddplugin",
   "numeric_id": 10880,
-  "versions": {
-    "1.1-SNAPSHOT": {
+  "updates": {
+    "47449": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10880/47449/tddplugin-1.1-SNAPSHOT.zip?updateId=47449&pluginId=10880&family=INTELLIJ",
+      "sha256": "kk3P2Jgxj0T0MFV3BLZgVNknFMHqVbvW2s6YYrA4T3s=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "tddplugin-1.1-SNAPSHOT.zip",
+      "since": "181.4203",
+      "until": "181.*",
+      "compatibility_overrides": []
+    },
+    "47929": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10880/47929/tddplugin-1.1-SNAPSHOT8.zip?updateId=47929&pluginId=10880&family=INTELLIJ",
       "sha256": "VglUmna4XZI/hJT/dUm0fx8rpSgIBYDtBQ1RH/rpVF0=",
       "channel": "release",
@@ -13,7 +24,7 @@
       "until": "181.*",
       "compatibility_overrides": []
     },
-    "1.2-SNAPSHOT": {
+    "48105": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10880/48105/tddplugin-1.2-SNAPSHOT.zip?updateId=48105&pluginId=10880&family=INTELLIJ",
       "sha256": "83bGNKTbcUZvQqHZ9tE7/dwIU0Itgf6utdFaJMVM/YQ=",
       "channel": "stable",
@@ -23,6 +34,15 @@
       "since": "181.4203",
       "until": "181.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "release": {
+      "1.1-SNAPSHOT": 47929
+    },
+    "stable": {
+      "1.1-SNAPSHOT": 47449,
+      "1.2-SNAPSHOT": 48105
     }
   }
 }

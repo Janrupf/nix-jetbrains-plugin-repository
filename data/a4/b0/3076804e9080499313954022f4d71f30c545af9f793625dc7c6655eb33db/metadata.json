@@ -1,8 +1,19 @@
 {
   "xml_id": "com.hzm.act",
   "numeric_id": 12002,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "58503": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12002/58503/actviewer.jar?updateId=58503&pluginId=12002&family=INTELLIJ",
+      "sha256": "RHywsDNEx71NvdiEpNKQz+HbZdTTitGVdrxCtDte+OU=",
+      "channel": "1.0",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "actviewer.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "58504": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12002/58504/actviewer.jar?updateId=58504&pluginId=12002&family=INTELLIJ",
       "sha256": "RHywsDNEx71NvdiEpNKQz+HbZdTTitGVdrxCtDte+OU=",
       "channel": "stable",
@@ -12,6 +23,14 @@
       "since": "173.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "1.0": {
+      "1.0": 58503
+    },
+    "stable": {
+      "1.0": 58504
     }
   }
 }

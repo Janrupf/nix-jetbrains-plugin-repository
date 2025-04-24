@@ -1,8 +1,25 @@
 {
   "xml_id": "org.github.ponking66.ccecdit",
   "numeric_id": 22313,
-  "versions": {
-    "0.9.10": {
+  "updates": {
+    "373992": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22313/373992/CCECDICT-0.9.9.zip?updateId=373992&pluginId=22313&family=INTELLIJ",
+      "sha256": "1vcxmlS7eNHWm7sy2xaGUGwWsf7hzEJRafXGDIJzC5c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "CCECDICT-0.9.9.zip",
+      "since": "221.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "456193": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22313/456193/CCECDICT-0.9.10.zip?updateId=456193&pluginId=22313&family=INTELLIJ",
       "sha256": "kZhUPQSGfbbkfu18d8gFlpUOlFB9qq+jiOL7g6YNF/g=",
       "channel": "stable",
@@ -20,7 +37,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "0.9.17": {
+    "460748": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22313/460748/CCECDICT-0.9.17.zip?updateId=460748&pluginId=22313&family=INTELLIJ",
       "sha256": "q4z3XtPX2/OCfoBPlNE0EZeUReXlaGpNnehzvQYKZ7Y=",
       "channel": "stable",
@@ -38,7 +55,7 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "0.9.18": {
+    "567544": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22313/567544/CCECDICT-0.9.18.zip?updateId=567544&pluginId=22313&family=INTELLIJ",
       "sha256": "UGaMFWYfApE4RGnmFhd9gXipGUYqwT1ZH7eZj4ZpKTM=",
       "channel": "stable",
@@ -57,7 +74,7 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "0.9.19": {
+    "648653": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22313/648653/CCECDICT-0.9.19.zip?updateId=648653&pluginId=22313&family=INTELLIJ",
       "sha256": "UbNR9klEkciY3OF3n+5tX28+/fjohzuQtBLnZL0jzwQ=",
       "channel": "stable",
@@ -75,23 +92,15 @@
       "since": "221.0",
       "until": "243.*",
       "compatibility_overrides": []
-    },
-    "0.9.9": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/22313/373992/CCECDICT-0.9.9.zip?updateId=373992&pluginId=22313&family=INTELLIJ",
-      "sha256": "1vcxmlS7eNHWm7sy2xaGUGwWsf7hzEJRafXGDIJzC5c=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.python",
-        "org.jetbrains.plugins.go"
-      ],
-      "file_name": "CCECDICT-0.9.9.zip",
-      "since": "221.0",
-      "until": "232.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.9.10": 456193,
+      "0.9.17": 460748,
+      "0.9.18": 567544,
+      "0.9.19": 648653,
+      "0.9.9": 373992
     }
   }
 }

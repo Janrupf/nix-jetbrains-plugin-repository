@@ -1,8 +1,26 @@
 {
   "xml_id": "com.github.dgt79.plugin.eclipseactions",
   "numeric_id": 7301,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "13983": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7301/13983/EclipseActions.jar?updateId=13983&pluginId=7301&family=INTELLIJ",
+      "sha256": "jFGpjzok2dhpALr3brkafjnW+siGDuWhLAVU5B8XKeg=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "EclipseActions.jar",
+      "since": "107.105",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "13984": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7301/13984/EclipseActions.jar?updateId=13984&pluginId=7301&family=INTELLIJ",
       "sha256": "yThXAf6MeTqF/p+v0dbYdgcnaIaXIelFbyi0b0+6ZKA=",
       "channel": "stable",
@@ -19,6 +37,11 @@
           "compatible_until": "201.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 13984
     }
   }
 }

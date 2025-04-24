@@ -1,8 +1,21 @@
 {
   "xml_id": "com.knowledge.mnlin.KViewBind",
   "numeric_id": 12126,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "59708": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12126/59708/KViewBind.jar?updateId=59708&pluginId=12126&family=INTELLIJ",
+      "sha256": "MkMFPhEMbYr0KQpJwz5R3Q4GQbRVL7XEkTAoJ6jwaNE=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "KViewBind.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "59709": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12126/59709/KViewBind.jar?updateId=59709&pluginId=12126&family=INTELLIJ",
       "sha256": "MkMFPhEMbYr0KQpJwz5R3Q4GQbRVL7XEkTAoJ6jwaNE=",
       "channel": "stable",
@@ -15,7 +28,20 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.1": {
+    "59738": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12126/59738/KViewBind.jar?updateId=59738&pluginId=12126&family=INTELLIJ",
+      "sha256": "BRhcWLkgSGuGlFGY17Wl0Xts+QmKydrBYFr56LpFfOc=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "KViewBind.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "59784": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12126/59784/KViewBind.jar?updateId=59784&pluginId=12126&family=INTELLIJ",
       "sha256": "BRhcWLkgSGuGlFGY17Wl0Xts+QmKydrBYFr56LpFfOc=",
       "channel": "stable",
@@ -27,6 +53,16 @@
       "since": "173.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0": 59708,
+      "1.1": 59738
+    },
+    "stable": {
+      "1.0": 59709,
+      "1.1": 59784
     }
   }
 }

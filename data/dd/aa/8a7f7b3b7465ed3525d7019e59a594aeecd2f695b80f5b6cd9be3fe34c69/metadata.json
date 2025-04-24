@@ -1,23 +1,8 @@
 {
   "xml_id": "rocks.strawberry",
   "numeric_id": 16511,
-  "versions": {
-    "0.0.10": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/16511/269707/strawberry-pycharm-plugin.zip?updateId=269707&pluginId=16511&family=INTELLIJ",
-      "sha256": "IeEIyVfoI2UdhVsxlCCjQI4wcM7MmrHGPblzF9x52Qk=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "strawberry-pycharm-plugin.zip",
-      "since": "223.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "0.0.6": {
+  "updates": {
+    "116540": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16511/116540/strawberry-pycharm-plugin.zip?updateId=116540&pluginId=16511&family=INTELLIJ",
       "sha256": "UkYlT86SXRH2tpLZcyyhtJxYQxWdnxWWPXgtRRHHQN0=",
       "channel": "stable",
@@ -32,7 +17,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.0.7": {
+    "116779": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16511/116779/strawberry-pycharm-plugin.zip?updateId=116779&pluginId=16511&family=INTELLIJ",
       "sha256": "+5GvbIj1sSz+z9iG8qBHCJD0prZKCplf81Cy73JZz7g=",
       "channel": "stable",
@@ -47,7 +32,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "0.0.8": {
+    "119173": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16511/119173/strawberry-pycharm-plugin.zip?updateId=119173&pluginId=16511&family=INTELLIJ",
       "sha256": "EBP/nlDJfCZFQfuxGShJWRdg1cdCDmPaXlV83pNHuZw=",
       "channel": "stable",
@@ -61,6 +46,29 @@
       "since": "211.6693.111",
       "until": null,
       "compatibility_overrides": []
+    },
+    "269707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16511/269707/strawberry-pycharm-plugin.zip?updateId=269707&pluginId=16511&family=INTELLIJ",
+      "sha256": "IeEIyVfoI2UdhVsxlCCjQI4wcM7MmrHGPblzF9x52Qk=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "strawberry-pycharm-plugin.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.10": 269707,
+      "0.0.6": 116540,
+      "0.0.7": 116779,
+      "0.0.8": 119173
     }
   }
 }

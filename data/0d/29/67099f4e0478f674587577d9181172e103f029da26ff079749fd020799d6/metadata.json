@@ -1,8 +1,8 @@
 {
   "xml_id": "generator.TemplateGenerator",
   "numeric_id": 26850,
-  "versions": {
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "699779": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/699779/TemplateGenerator-1.0-SNAPSHOT.zip?updateId=699779&pluginId=26850&family=INTELLIJ",
       "sha256": "8Uj2l7kirpmZuIgPxLA9Q06Fk0bdy3Gcj6NIOJzzYcw=",
       "channel": "stable",
@@ -16,21 +16,7 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.0.0-release": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/702109/TemplateGenerator-1.0.0-release.zip?updateId=702109&pluginId=26850&family=INTELLIJ",
-      "sha256": "NdqG/9TPvuc5+kVxUtOnO3wbVKyArV9nnNrbt6GQzDE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.database",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "TemplateGenerator-1.0.0-release.zip",
-      "since": "242.0",
-      "until": "251.*",
-      "compatibility_overrides": []
-    },
-    "1.0.1-SNAPSHOT": {
+    "701326": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/701326/TemplateGenerator-1.0.1-SNAPSHOT.zip?updateId=701326&pluginId=26850&family=INTELLIJ",
       "sha256": "mMYuYHFdxjkDTLc+5ksRGd8/LKeU0ULoDevrNjE+P54=",
       "channel": "stable",
@@ -44,7 +30,21 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "1.2.0-snapshot": {
+    "702109": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/702109/TemplateGenerator-1.0.0-release.zip?updateId=702109&pluginId=26850&family=INTELLIJ",
+      "sha256": "NdqG/9TPvuc5+kVxUtOnO3wbVKyArV9nnNrbt6GQzDE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TemplateGenerator-1.0.0-release.zip",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "703090": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/703090/TemplateGenerator-1.2.0-snapshot.zip?updateId=703090&pluginId=26850&family=INTELLIJ",
       "sha256": "02FDUs70x9mfEVI7vMbBeG2nQdWIibSzdI85eVgViQY=",
       "channel": "snapshot",
@@ -58,7 +58,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "1.4.0-snapshot": {
+    "703099": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/703099/TemplateGenerator-1.4.0-snapshot.zip?updateId=703099&pluginId=26850&family=INTELLIJ",
       "sha256": "7D0mkzT7UK3pd344KpT6g2tHTgAZe92ZYSN4na5kb6c=",
       "channel": "snapshot",
@@ -72,7 +72,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "1.5.0-snapshot": {
+    "703349": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/703349/TemplateGenerator-1.5.0-snapshot.zip?updateId=703349&pluginId=26850&family=INTELLIJ",
       "sha256": "EmLfG6YJ3ctKAjDXbri+AaAXTIUmIC4zaOhx3IUMUVA=",
       "channel": "snapshot",
@@ -86,7 +86,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "2.0.0-release": {
+    "704661": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/704661/TemplateGenerator-2.0.0-release.zip?updateId=704661&pluginId=26850&family=INTELLIJ",
       "sha256": "ksJMGDnxklHb1BRoTgnbyOnTHhTSHnDP0fBdpF3ysK8=",
       "channel": "stable",
@@ -100,7 +100,7 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "2.0.1-release": {
+    "710679": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26850/710679/TemplateGenerator-2.0.1-release.zip?updateId=710679&pluginId=26850&family=INTELLIJ",
       "sha256": "Vu8JgvjrXSOdCSpGqqDu0RjwKPgslAf4OT1h0Rtjudk=",
       "channel": "stable",
@@ -113,6 +113,20 @@
       "since": "223.0",
       "until": "251.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "snapshot": {
+      "1.2.0-snapshot": 703090,
+      "1.4.0-snapshot": 703099,
+      "1.5.0-snapshot": 703349
+    },
+    "stable": {
+      "1.0-SNAPSHOT": 699779,
+      "1.0.0-release": 702109,
+      "1.0.1-SNAPSHOT": 701326,
+      "2.0.0-release": 704661,
+      "2.0.1-release": 710679
     }
   }
 }

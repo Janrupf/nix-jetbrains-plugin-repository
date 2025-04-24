@@ -1,8 +1,8 @@
 {
   "xml_id": "ir.msdehghan.plugins.ansible",
   "numeric_id": 14893,
-  "versions": {
-    "0.1": {
+  "updates": {
+    "95235": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14893/95235/AnsiblePlugin-0.1.zip?updateId=95235&pluginId=14893&family=INTELLIJ",
       "sha256": "OKHimDakF1SPyrgKYhc48vQiSR2BTiQBVoF21ji7BGw=",
       "channel": "stable",
@@ -23,7 +23,7 @@
         }
       ]
     },
-    "0.11": {
+    "97573": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14893/97573/AnsiblePlugin-0.11.zip?updateId=97573&pluginId=14893&family=INTELLIJ",
       "sha256": "O21DH2Ch44yCOa/bK/jGd+1oI0GfZ2ouTHKpw/1y6II=",
       "channel": "stable",
@@ -44,7 +44,7 @@
         }
       ]
     },
-    "0.12": {
+    "99858": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14893/99858/AnsiblePlugin-0.12.zip?updateId=99858&pluginId=14893&family=INTELLIJ",
       "sha256": "y90ZStzWnu81BCWGpzc9DKNahjCNJeAxALfwSqJicYg=",
       "channel": "stable",
@@ -65,7 +65,7 @@
         }
       ]
     },
-    "0.90": {
+    "101004": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14893/101004/AnsiblePlugin-0.90.zip?updateId=101004&pluginId=14893&family=INTELLIJ",
       "sha256": "/kMi9YN/ghpiEXAsV4oMj4pI/HNRUQqc2OtKG39f7xk=",
       "channel": "stable",
@@ -86,7 +86,7 @@
         }
       ]
     },
-    "0.92": {
+    "102178": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14893/102178/AnsiblePlugin-0.92.zip?updateId=102178&pluginId=14893&family=INTELLIJ",
       "sha256": "LMcZOpni/+Ka0b5MIGoAQEvLKpta2E3yrJarpFA9Mjc=",
       "channel": "stable",
@@ -107,7 +107,22 @@
         }
       ]
     },
-    "1.0.0": {
+    "690187": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14893/690187/AnsiblePlugin-1.0.0.zip?updateId=690187&pluginId=14893&family=INTELLIJ",
+      "sha256": "FxUmPX3xYCKhS4mtmoXHqbDHQJ54JnkjNsA+raqtHu4=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AnsiblePlugin-1.0.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "690286": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/14893/690286/AnsiblePlugin-1.0.0.zip?updateId=690286&pluginId=14893&family=INTELLIJ",
       "sha256": "XXmjHl9j9/hdjpUeiUQGeCci2dlx30taXgn0ENGOqi8=",
       "channel": "stable",
@@ -121,6 +136,19 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "1.0.0": 690187
+    },
+    "stable": {
+      "0.1": 95235,
+      "0.11": 97573,
+      "0.12": 99858,
+      "0.90": 101004,
+      "0.92": 102178,
+      "1.0.0": 690286
     }
   }
 }

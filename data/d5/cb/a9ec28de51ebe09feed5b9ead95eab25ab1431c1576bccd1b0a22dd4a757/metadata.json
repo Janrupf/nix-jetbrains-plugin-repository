@@ -1,8 +1,21 @@
 {
   "xml_id": "com.ls.akong.mysql_proxy",
   "numeric_id": 22655,
-  "versions": {
-    "1.0.10": {
+  "updates": {
+    "424948": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22655/424948/MySQL_Proxy-1.0.9.zip?updateId=424948&pluginId=22655&family=INTELLIJ",
+      "sha256": "Z9z3SDlRnfMC9Pd7VMLId8NxTWtxaI/74f7mb1Q+80Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MySQL_Proxy-1.0.9.zip",
+      "since": "203.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "436599": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22655/436599/MySQL_Proxy-1.0.10.zip?updateId=436599&pluginId=22655&family=INTELLIJ",
       "sha256": "SiefooJeqwNwlcX7ff/JoAi/nGWEAy26d5onv4dVoRA=",
       "channel": "stable",
@@ -15,7 +28,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "1.0.11": {
+    "534197": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22655/534197/MySQL_Proxy-1.0.11.zip?updateId=534197&pluginId=22655&family=INTELLIJ",
       "sha256": "MR0x5AumZO++X9WRTlKMHSuOrtPek5S9B/aX3KWWsNI=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": "232.*",
       "compatibility_overrides": []
     },
-    "1.0.12": {
+    "542161": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22655/542161/MySQL_Proxy-1.0.12.zip?updateId=542161&pluginId=22655&family=INTELLIJ",
       "sha256": "CzoO2Ujiu7KMc06W0agHkCA0+JUxAAG0QZAxKYmFnGQ=",
       "channel": "stable",
@@ -40,19 +53,14 @@
       "since": "203.0",
       "until": "242.*",
       "compatibility_overrides": []
-    },
-    "1.0.9": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/22655/424948/MySQL_Proxy-1.0.9.zip?updateId=424948&pluginId=22655&family=INTELLIJ",
-      "sha256": "Z9z3SDlRnfMC9Pd7VMLId8NxTWtxaI/74f7mb1Q+80Q=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "MySQL_Proxy-1.0.9.zip",
-      "since": "203.0",
-      "until": "232.*",
-      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.10": 436599,
+      "1.0.11": 534197,
+      "1.0.12": 542161,
+      "1.0.9": 424948
     }
   }
 }

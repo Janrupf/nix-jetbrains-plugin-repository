@@ -1,21 +1,8 @@
 {
   "xml_id": "com.nmeylan.powermode",
   "numeric_id": 13226,
-  "versions": {
-    "0.2": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/13226/71326/power-mode-intellij-plugin.jar?updateId=71326&pluginId=13226&family=INTELLIJ",
-      "sha256": "R9m8dr6FIo+htr1JlGBN4W/fZJlg9UiVKqREiXOZTA4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "power-mode-intellij-plugin.jar",
-      "since": "143.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "97.68": {
+  "updates": {
+    "71238": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13226/71238/power-mode-3-intellij-plugin.jar?updateId=71238&pluginId=13226&family=INTELLIJ",
       "sha256": "w04Euwuq2YWNtD/rEz8zaUCyNqVCgXiLo1ipdzV08IA=",
       "channel": "stable",
@@ -27,6 +14,25 @@
       "since": "143.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "71326": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13226/71326/power-mode-intellij-plugin.jar?updateId=71326&pluginId=13226&family=INTELLIJ",
+      "sha256": "R9m8dr6FIo+htr1JlGBN4W/fZJlg9UiVKqREiXOZTA4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "power-mode-intellij-plugin.jar",
+      "since": "143.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.2": 71326,
+      "97.68": 71238
     }
   }
 }

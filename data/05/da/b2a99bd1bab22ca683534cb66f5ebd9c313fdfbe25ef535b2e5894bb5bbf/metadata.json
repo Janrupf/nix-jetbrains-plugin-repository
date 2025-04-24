@@ -1,8 +1,8 @@
 {
   "xml_id": "com.codota.simple.tool",
   "numeric_id": 27124,
-  "versions": {
-    "5.2.1": {
+  "updates": {
+    "720599": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27124/720599/Codota-Simple-5.2.1.zip?updateId=720599&pluginId=27124&family=INTELLIJ",
       "sha256": "snYLfH4UfAJ0KJIrZ5On+VUPWhkV4wFO39bJ4UXu70g=",
       "channel": "stable",
@@ -16,7 +16,7 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "5.2.2": {
+    "721833": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27124/721833/Codota-Simple-5.2.2.zip?updateId=721833&pluginId=27124&family=INTELLIJ",
       "sha256": "yUuKFOB3pCAQ+HlY/ylIy7K+rYvLZnyFJeWg4+qBB9M=",
       "channel": "stable",
@@ -29,6 +29,27 @@
       "since": "231.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "723676": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27124/723676/Codota-Simple-5.2.3.zip?updateId=723676&pluginId=27124&family=INTELLIJ",
+      "sha256": "7JEO2nTCcmNlQDb//v7k1CqhKcJhHcZq3J3RnjaAmvY=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Codota-Simple-5.2.3.zip",
+      "since": "231.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "5.2.1": 720599,
+      "5.2.2": 721833,
+      "5.2.3": 723676
     }
   }
 }

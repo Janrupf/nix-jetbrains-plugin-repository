@@ -1,21 +1,8 @@
 {
   "xml_id": "com.demandware.studio",
   "numeric_id": 7850,
-  "versions": {
-    "0.1.0": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/7850/20468/intellij-demandware.zip?updateId=20468&pluginId=7850&family=INTELLIJ",
-      "sha256": "QLheUHw1I5L7lTR9HjhVGap05/9EkBWLylC7L8GwWGw=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-demandware.zip",
-      "since": "131.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1.0-SNAPSHOT": {
+  "updates": {
+    "20413": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7850/20413/intellij-demandware.jar?updateId=20413&pluginId=7850&family=INTELLIJ",
       "sha256": "WiZqG4ScxzEuH/qhhe9x61etJqAx/yEWX9HYkoAGQww=",
       "channel": "stable",
@@ -27,6 +14,25 @@
       "since": "131.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "20468": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7850/20468/intellij-demandware.zip?updateId=20468&pluginId=7850&family=INTELLIJ",
+      "sha256": "QLheUHw1I5L7lTR9HjhVGap05/9EkBWLylC7L8GwWGw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-demandware.zip",
+      "since": "131.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 20468,
+      "1.0-SNAPSHOT": 20413
     }
   }
 }

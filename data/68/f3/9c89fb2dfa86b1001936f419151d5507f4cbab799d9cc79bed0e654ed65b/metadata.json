@@ -1,8 +1,8 @@
 {
   "xml_id": "org.jetbrains.debugger.streams.kotlin",
   "numeric_id": 10301,
-  "versions": {
-    "0.0.1": {
+  "updates": {
+    "41790": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10301/41790/kotlin-stream-debugger-0.0.1.zip?updateId=41790&pluginId=10301&family=INTELLIJ",
       "sha256": "hHX60KQRBmDkO3UNllXHdkh3uK1F/KSgJ05e6MV0rqQ=",
       "channel": "stable",
@@ -23,7 +23,22 @@
         }
       ]
     },
-    "0.0.2": {
+    "43852": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10301/43852/kotlin-stream-debugger-0.0.2-Studio3.0-1.zip?updateId=43852&pluginId=10301&family=INTELLIJ",
+      "sha256": "vIQoQfT9HOLVpANBoYBnqp7+qFogivFfUf8PZrrWPVQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.debugger.streams",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kotlin-stream-debugger-0.0.2-Studio3.0-1.zip",
+      "since": "171.0",
+      "until": "172.*",
+      "compatibility_overrides": []
+    },
+    "47200": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10301/47200/kotlin-stream-debugger-0.0.2.zip?updateId=47200&pluginId=10301&family=INTELLIJ",
       "sha256": "d5pkMj5zju0BJfnZNiMtp5GKRnqVuQmrziIrflx3vj4=",
       "channel": "stable",
@@ -44,22 +59,7 @@
         }
       ]
     },
-    "0.0.2-Studio3.0-1": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/10301/43852/kotlin-stream-debugger-0.0.2-Studio3.0-1.zip?updateId=43852&pluginId=10301&family=INTELLIJ",
-      "sha256": "vIQoQfT9HOLVpANBoYBnqp7+qFogivFfUf8PZrrWPVQ=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.debugger.streams",
-        "org.jetbrains.kotlin"
-      ],
-      "optional_dependencies": [],
-      "file_name": "kotlin-stream-debugger-0.0.2-Studio3.0-1.zip",
-      "since": "171.0",
-      "until": "172.*",
-      "compatibility_overrides": []
-    },
-    "0.0.3": {
+    "50239": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10301/50239/kotlin-stream-debugger-0.0.3.zip?updateId=50239&pluginId=10301&family=INTELLIJ",
       "sha256": "QGTJ2IqPlIYm10OxlCNtwAdOFVjr/uVk4vN/B3ObEq0=",
       "channel": "stable",
@@ -79,6 +79,14 @@
           "compatible_until": "191.0"
         }
       ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1": 41790,
+      "0.0.2": 47200,
+      "0.0.2-Studio3.0-1": 43852,
+      "0.0.3": 50239
     }
   }
 }

@@ -1,8 +1,21 @@
 {
   "xml_id": "com.buczkowski.gherkintsrunner",
   "numeric_id": 10035,
-  "versions": {
-    "1.0": {
+  "updates": {
+    "38744": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10035/38744/GherkinRunner.jar?updateId=38744&pluginId=10035&family=INTELLIJ",
+      "sha256": "eWs/gEF2+BD9jiVsdicmwtHaH4p9TjQz8Fy2s3VeTDc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GherkinRunner.jar",
+      "since": "145.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "39037": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10035/39037/GherkinRunner.jar?updateId=39037&pluginId=10035&family=INTELLIJ",
       "sha256": "M/zbjM6sf9pmPFkaOWcwx+Q2tGE7XC20wP3JmV5AuEQ=",
       "channel": "1.1",
@@ -15,7 +28,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.1": {
+    "39060": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10035/39060/GherkinRunner.jar?updateId=39060&pluginId=10035&family=INTELLIJ",
       "sha256": "xVwZAF9HP9quLBbBO2vDph+aOTB1H7bAMv3fnSEgvl8=",
       "channel": "stable",
@@ -28,7 +41,7 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1.1.1": {
+    "39379": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10035/39379/GherkinRunner.jar?updateId=39379&pluginId=10035&family=INTELLIJ",
       "sha256": "dTYFzNjTLgHvxsf2O392pOidMb6Ocv6ak30UhpkwXpY=",
       "channel": "stable",
@@ -40,6 +53,16 @@
       "since": "145.0",
       "until": null,
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "1.1": {
+      "1.0": 39037
+    },
+    "stable": {
+      "1.0": 38744,
+      "1.1": 39060,
+      "1.1.1": 39379
     }
   }
 }

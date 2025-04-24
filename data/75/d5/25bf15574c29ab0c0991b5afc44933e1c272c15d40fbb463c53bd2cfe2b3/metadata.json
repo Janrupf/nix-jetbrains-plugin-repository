@@ -1,8 +1,8 @@
 {
   "xml_id": "colourizeit",
   "numeric_id": 13153,
-  "versions": {
-    "1.0.0": {
+  "updates": {
+    "70348": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13153/70348/colour-1.0.0.jar?updateId=70348&pluginId=13153&family=INTELLIJ",
       "sha256": "yuWtpRTl1/k4bjsRNXGIkkz+ZRgJ0lAHolCnPcCTjFY=",
       "channel": "stable",
@@ -16,7 +16,21 @@
       "until": "191.*",
       "compatibility_overrides": []
     },
-    "2.0.1": {
+    "71332": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13153/71332/colour-2.0.1.jar?updateId=71332&pluginId=13153&family=INTELLIJ",
+      "sha256": "w8aCLY8PIZmyOMQEmjLSKfhu6E96f4uWCIdswCpY7ZM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "colour-2.0.1.jar",
+      "since": "191.2147483647",
+      "until": "192.*",
+      "compatibility_overrides": []
+    },
+    "71333": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13153/71333/colour-2.0.1.jar?updateId=71333&pluginId=13153&family=INTELLIJ",
       "sha256": "w8aCLY8PIZmyOMQEmjLSKfhu6E96f4uWCIdswCpY7ZM=",
       "channel": "eap",
@@ -29,6 +43,15 @@
       "since": "191.2147483647",
       "until": "192.*",
       "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "2.0.1": 71333
+    },
+    "stable": {
+      "1.0.0": 70348,
+      "2.0.1": 71332
     }
   }
 }
