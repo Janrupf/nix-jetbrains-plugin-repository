@@ -88,7 +88,7 @@ impl Database {
         )
         .await?;
 
-        if current_schema_version < 1 {
+        if current_schema_version < 2 {
             // Just completely drop the versions table, it gets re-generated anyway
             tx.execute("DROP TABLE IF EXISTS versions", ()).await?;
         }
@@ -102,7 +102,7 @@ impl Database {
                 plugin_xml_id TEXT NOT NULL,
                 since TEXT,
                 until TEXT,
-                PRIMARY KEY (version, plugin_xml_id),
+                PRIMARY KEY (update_id, plugin_xml_id),
                 FOREIGN KEY (update_id) REFERENCES updates(id) ON DELETE CASCADE,
                 FOREIGN KEY (plugin_xml_id) REFERENCES plugins(xml_id) ON DELETE CASCADE
             )
@@ -164,7 +164,7 @@ impl Database {
 
         tx.execute(
             r#"
-            INSERT INTO schema_version (version) VALUES (1)
+            INSERT INTO schema_version (version) VALUES (2)
         "#,
             (),
         )
@@ -229,7 +229,7 @@ impl Database {
     pub async fn add_plugin(&self, plugin: &CachedPlugin) -> Result<(), IndexerError> {
         self.connection
             .execute(
-                "INSERT INTO plugins (xml_id, numeric_id) VALUES (?1, ?2)",
+                "INSERT INTO plugins (xml_id, numeric_id) VALUES (?1, ?2) ON CONFLICT DO UPDATE SET numeric_id = ?2",
                 libsql::params![plugin.xml_id.as_str(), plugin.numeric_id],
             )
             .map_err(IndexerError::from)
@@ -263,7 +263,7 @@ impl Database {
                         INSERT INTO versions
                             (version, update_id, channel, plugin_xml_id, since, until)
                         VALUES (?1, ?2, ?3, ?4, ?5, ?6) ON CONFLICT DO UPDATE SET
-                            update_id = ?2, channel = ?3;
+                            version = ?1, channel = ?3, since = ?5, until = ?6;
                      "#,
                 libsql::params![
                     version.version.as_str(),

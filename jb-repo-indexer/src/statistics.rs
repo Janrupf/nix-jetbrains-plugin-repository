@@ -65,7 +65,7 @@ impl StatisticsCollector {
                             task_name: report.name,
                             error: err,
                         })
-                    },
+                    }
                     TaskDataPoint::EncounteredProblem(err) => {
                         tracing::warn!("Task encountered a problem: {}: {}", report.name, err);
 
@@ -79,7 +79,7 @@ impl StatisticsCollector {
                             task_name: report.name,
                             error: err,
                         })
-                    },
+                    }
                 }
             }
         }

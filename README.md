@@ -70,7 +70,8 @@ After applying the overlay, plugins are available in `pkgs.jetbrains-plugins`. E
 
 ```nix
 jetbrains-plugins.com.example.my-plugin = {
-  # Direct version access
+  # Direct version access - this is only available if the 
+  # stable channel exists.
   "1.0.0" = { ... };  # Specific version
   "1.1.0" = { ... };  # Specific version
   
@@ -87,10 +88,12 @@ jetbrains-plugins.com.example.my-plugin = {
   };
   
   # All versions across all channels
+  # WARNING: This contain the raw update id instead of
+  # the expected version!
   all = {
-    "1.0.0" = { ... };
-    "1.1.0" = { ... };
-    "1.2.0" = { ... };
+    "158822" = { ... };
+    "232943" = { ... };
+    "571264" = { ... };
     type = "versionset";
   };
   

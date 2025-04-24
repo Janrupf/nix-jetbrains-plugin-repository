@@ -1,6 +1,6 @@
+use clap::Parser;
 use std::num::NonZeroUsize;
 use std::path::PathBuf;
-use clap::Parser;
 
 #[derive(Debug, Clone, Parser)]
 pub struct IndexerArgs {
@@ -13,7 +13,12 @@ pub struct IndexerArgs {
     #[arg(long, default_value = "4")]
     pub max_parallel_large_requests: NonZeroUsize,
 
-    #[arg(short, long, default_value = "meta", env = "JB_REPO_INDEXER_OUTPUT_DIRECTORY")]
+    #[arg(
+        short,
+        long,
+        default_value = "meta",
+        env = "JB_REPO_INDEXER_OUTPUT_DIRECTORY"
+    )]
     pub output_directory: PathBuf,
 
     #[arg(long, default_value_t = false)]
@@ -21,4 +26,7 @@ pub struct IndexerArgs {
 
     #[arg(long, default_value_t = false)]
     pub no_generate: bool,
+
+    #[arg(long, action = clap::ArgAction::Append)]
+    pub sync_only: Vec<String>,
 }

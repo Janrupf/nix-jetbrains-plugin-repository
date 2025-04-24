@@ -53,6 +53,9 @@ in rec {
       # versions of a single package. Each fixup function can decide whether it wants
       # to apply the previous fixup or not for a certain package.
       override = newFixup: overrideLoadData args (newFixup fixup);
+      withDataRoot = newDataRoot: loadData (args // {
+        dataRoot = newDataRoot;
+      });
     };
 
   # Call loadData with the original arguments but with a new fixup function
@@ -113,7 +116,7 @@ in rec {
       then let
           selectedPlugin = selectLatestCompatibleVersion ideBuildNumber plugin;
         in if selectedPlugin == null
-          then throw "no compatible plugin ${plugin.pname} found for IDE build ${ideBuildNumber}"
+          then throw "no compatible plugin ${plugin.name} found for IDE build ${ideBuildNumber}"
           else selectedPlugin
       else plugin) plugins;
 

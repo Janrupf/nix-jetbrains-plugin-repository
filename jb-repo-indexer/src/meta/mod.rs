@@ -44,6 +44,7 @@ pub struct MetadataProcessor {
     database: Database,
     repo: JetbrainsRepoApi,
     output_directory: PathBuf,
+    sync_only: Vec<String>,
 }
 
 impl MetadataProcessor {
@@ -57,61 +58,71 @@ impl MetadataProcessor {
             database,
             repo,
             output_directory,
+            sync_only: args.sync_only.clone(),
         })
     }
 
     pub async fn sync_plugin_metadata(&self) -> Result<Statistics, IndexerError> {
-        let (local, remote, _) = futures::try_join!(
-            self.database.known_plugin_xml_ids(),
-            self.repo.fetch_all_xml_ids(),
-            self.database.mark_all_updates_stale()
-        )?;
-
-        self.purge_unknown_plugins(&local, &remote).await?;
-
         let mut statistics = StatisticsCollector::new();
 
         let attachment = self.attachment(statistics.sender());
 
-        // Dispatch the initial tasks for syncing all plugins
-        attachment.dispatch("dispatch plugin sync", {
-            let attachment = attachment.clone();
-
-            async move {
-                let plugins_stream = attachment.database.stream_plugins().await;
-                tokio::pin!(plugins_stream);
-
-                while let Some(next) = plugins_stream.next().await {
-                    let plugin = match next {
-                        Ok(v) => v,
-                        Err(err) => {
-                            attachment.send_problem("dispatch plugin sync", err);
-                            continue;
-                        }
-                    };
-
-                    attachment.dispatch(
-                        format!("sync plugin {}", plugin.xml_id),
-                        sync_plugin(attachment.clone(), plugin),
-                    );
-                }
-
-                tracing::trace!("Dispatched all known plugins");
-
-                Ok::<(), std::convert::Infallible>(())
+        if !self.sync_only.is_empty() {
+            for plugin_xml_id in self.sync_only.iter().cloned() {
+                attachment.dispatch(
+                    format!("sync plugin {}", plugin_xml_id),
+                    sync_new_plugin(attachment.clone(), plugin_xml_id),
+                );
             }
-        });
+        } else {
+            let (local, remote, _) = futures::try_join!(
+                self.database.known_plugin_xml_ids(),
+                self.repo.fetch_all_xml_ids(),
+                self.database.mark_all_updates_stale()
+            )?;
 
-        attachment.dispatch("sync all new plugins", {
-            let attachment = attachment.clone();
+            self.purge_unknown_plugins(&local, &remote).await?;
 
-            async move { Self::sync_new_plugins(&local, &remote, attachment) }
-        });
+            // Dispatch the initial tasks for syncing all plugins
+            attachment.dispatch("dispatch plugin sync", {
+                let attachment = attachment.clone();
 
-        attachment.dispatch("sync broken plugins", {
-            let attachment = attachment.clone();
-            sync_broken_plugins(attachment)
-        });
+                async move {
+                    let plugins_stream = attachment.database.stream_plugins().await;
+                    tokio::pin!(plugins_stream);
+
+                    while let Some(next) = plugins_stream.next().await {
+                        let plugin = match next {
+                            Ok(v) => v,
+                            Err(err) => {
+                                attachment.send_problem("dispatch plugin sync", err);
+                                continue;
+                            }
+                        };
+
+                        attachment.dispatch(
+                            format!("sync plugin {}", plugin.xml_id),
+                            sync_plugin(attachment.clone(), plugin),
+                        );
+                    }
+
+                    tracing::trace!("Dispatched all known plugins");
+
+                    Ok::<(), std::convert::Infallible>(())
+                }
+            });
+
+            attachment.dispatch("sync all new plugins", {
+                let attachment = attachment.clone();
+
+                async move { Self::sync_new_plugins(&local, &remote, attachment) }
+            });
+
+            attachment.dispatch("sync broken plugins", {
+                let attachment = attachment.clone();
+                sync_broken_plugins(attachment)
+            });
+        }
 
         // Wait for everything to finish
         attachment.tracker.close();

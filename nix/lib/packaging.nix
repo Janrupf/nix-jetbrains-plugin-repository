@@ -33,22 +33,22 @@ rec {
 
   maybeUnpackPlugin = doUnpack: file: fileName: if doUnpack then unpackPlugin file fileName else file;
 
-  createSinglePluginPackage = data: selectedVersion: fixup:
+  createSinglePluginPackage = data: selectedVersion: updateId: fixup:
   let
-    versionData = data.versions.${selectedVersion};
-    fileName = versionData.file_name or "${data.name}-${selectedVersion}.jar";
+    updateData = data.updates.${builtins.toString updateId};
+    fileName = updateData.file_name or "${data.name}-${selectedVersion}.jar";
   in fixup (pkgs.callPackage ({
     name ? "jetbrains-plugin-${data.xml_id}",
     version ? selectedVersion,
-    sha256 ? versionData.sha256,
-    downloadUrl ? versionData.download_url,
+    sha256 ? updateData.sha256,
+    downloadUrl ? updateData.download_url,
     unpack ? lib.strings.hasSuffix ".zip" fileName,
     fetchAsExecutable ? lib.strings.hasSuffix ".jar" fileName,
     pluginStdenv ? pkgs.stdenvNoCC,
-    since ? versionData.since,
-    until ? versionData.until,
-    compatibilityOverrides ? versionData.compatibility_overrides,
-    channel ? versionData.channel,
+    since ? updateData.since,
+    until ? updateData.until,
+    compatibilityOverrides ? updateData.compatibility_overrides,
+    channel ? updateData.channel,
   }: pluginStdenv.mkDerivation {
     name = name;
     version = version;
@@ -63,6 +63,8 @@ rec {
     passthru = {
       rawData = data;
       inherit channel;
+      inherit updateId;
+      inherit updateData;
       compatibility = {
         inherit since until compatibilityOverrides;
       };
@@ -76,28 +78,21 @@ rec {
   }) {});
 
   createAllPluginPackages = data: fixup: let
-    versions = (lib.attrsets.mapAttrs (version: _:
-      createSinglePluginPackage data version fixup
-    ) data.versions) // {
-      type = "versionset";
-    };
+    channels = lib.attrsets.mapAttrs (_: channelData:
+      (lib.attrsets.mapAttrs (version: updateId:
+        createSinglePluginPackage data version updateId fixup
+      ) channelData) // {
+        type = "versionset";
+      }
+    ) data.channels;
 
-    channels = let
-      groupedByChannel = lib.lists.groupBy
-        (v: v.data.channel)
-        (lib.attrsets.mapAttrsToList (version: data: {
-          inherit version;
-          inherit data;
-        }) data.versions);
-    in (lib.attrsets.mapAttrs (_: versionList:
-      lib.attrsets.listToAttrs (map (v: {
-        name = v.version;
-        value = versions.${v.version};
-      }) versionList)
-    ) groupedByChannel) // {
+    versions = (lib.attrsets.mapAttrs (updateId: _:
+      createSinglePluginPackage data (builtins.toString updateId) updateId fixup
+    ) data.updates) // {
       type = "versionset";
     };
   in (channels.stable or { type = "versionset"; }) // channels // {
     all = versions;
+    name = data.xml_id;
   };
 }

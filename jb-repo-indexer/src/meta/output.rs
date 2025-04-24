@@ -88,7 +88,7 @@ async fn generate_plugin(
     let plugin_directory = plugin_directory.as_ref();
     tokio::fs::create_dir_all(plugin_directory).await?;
 
-    let versions = database
+    let updates = database
         .get_versions_for_plugin(&plugin.xml_id)
         .await?
         .into_iter()
@@ -184,8 +184,8 @@ async fn generate_plugin(
                 .collect();
 
             Ok::<_, IndexerError>(Some((
-                version.version,
-                VersionMetadata {
+                version.update_id,
+                UpdateMetadata {
                     download_url,
                     sha256,
                     channel,
@@ -195,7 +195,7 @@ async fn generate_plugin(
                     since: version.since,
                     until: version.until,
                     compatibility_overrides,
-                    update_id: version.update_id,
+                    version: version.version,
                 },
             )))
         })
@@ -210,13 +210,23 @@ async fn generate_plugin(
                 }
             })
         })
-        .collect::<BTreeMap<String, VersionMetadata>>()
+        .collect::<BTreeMap<u64, UpdateMetadata>>()
         .await;
+
+    let mut channels = BTreeMap::new();
+    for (update_id, update_metadata) in &updates {
+        let channel_map = channels
+            .entry(update_metadata.channel.clone())
+            .or_insert_with(BTreeMap::new);
+
+        channel_map.insert(update_metadata.version.clone(), *update_id);
+    }
 
     let metadata = PluginMetadata {
         xml_id: plugin.xml_id.clone(),
         numeric_id: plugin.numeric_id,
-        versions,
+        updates,
+        channels,
     };
 
     let metadata_path = plugin_directory.join("metadata.json");
@@ -242,11 +252,12 @@ fn byte_to_hex(byte: u8) -> (char, char) {
 struct PluginMetadata {
     pub xml_id: String,
     pub numeric_id: u64,
-    pub versions: BTreeMap<String, VersionMetadata>,
+    pub updates: BTreeMap<u64, UpdateMetadata>,
+    pub channels: BTreeMap<String, BTreeMap<String, u64>>,
 }
 
 #[derive(Debug, Serialize)]
-struct VersionMetadata {
+struct UpdateMetadata {
     pub download_url: String,
     pub sha256: String,
     pub channel: String,
@@ -258,7 +269,7 @@ struct VersionMetadata {
     pub compatibility_overrides: Vec<CompatibilityOverride>,
 
     #[serde(skip)]
-    pub update_id: u64,
+    pub version: String,
 }
 
 #[derive(Debug, Serialize)]
