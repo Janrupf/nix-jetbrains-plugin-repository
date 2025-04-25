@@ -1087,23 +1087,23 @@
       "sha256": "qF9iLobvcozwLB+IQyOWlQSAOAlbYIg4nGCzCszROjM=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.database",
-        "com.intellij.javaee.jpa",
         "com.intellij.jpa.jpb.model",
-        "com.intellij.liquibase",
         "com.intellij.modules.java",
         "com.intellij.modules.json",
         "com.intellij.modules.platform",
         "com.intellij.modules.ultimate",
-        "com.intellij.persistence",
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase",
+        "com.intellij.persistence",
         "intellij.javaee.jpa.jpb.model.yaml",
         "intellij.liquibase.jpa",
-        "intellij.liquibase.yaml"
+        "intellij.liquibase.yaml",
+        "org.jetbrains.plugins.yaml"
       ],
       "file_name": "liquibase-243.22562.117.zip",
       "since": "243.22562",
@@ -1305,6 +1305,34 @@
       "since": "251.23774",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "724008": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23741/724008/liquibase-251.25410.28.zip?updateId=724008&pluginId=23741&family=INTELLIJ",
+      "sha256": "FZAQdeh54LG8NQ3mw9oqwmA2wDkk4BeWFTEyAoZLf94=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jpa.jpb.model",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase",
+        "com.intellij.persistence",
+        "intellij.javaee.jpa.jpb.model.yaml",
+        "intellij.liquibase.jpa",
+        "intellij.liquibase.yaml",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "liquibase-251.25410.28.zip",
+      "since": "251.25410",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1365,7 +1393,8 @@
       "243.23654.154": 670832,
       "243.23654.189": 673137,
       "243.24978.46": 680211,
-      "251.23774.318": 710994
+      "251.23774.318": 710994,
+      "251.25410.28": 724008
     }
   }
 }

@@ -8422,12 +8422,13 @@
       "sha256": "DXjOBCNE/3rrDvUoVsphExWRfiAJgXZxA1Nl7vEr+lY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.java-i18n",
         "com.intellij.modules.ultimate",
         "com.intellij.properties"
       ],
-      "optional_dependencies": [],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.java-i18n"
+      ],
       "file_name": "velocity-243.22562.155.zip",
       "since": "243.22562",
       "until": "243.*",
@@ -8924,6 +8925,23 @@
       "file_name": "velocity-242.26775.16.zip",
       "since": "242.26775",
       "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "724265": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21738/724265/velocity-251.23774.466.zip?updateId=724265&pluginId=21738&family=INTELLIJ",
+      "sha256": "Qj9OVsorEdrbzfdDNSwf/fU4mbatFwTRhlv2Fjz9Lbw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.java-i18n"
+      ],
+      "file_name": "velocity-251.23774.466.zip",
+      "since": "251.23774",
+      "until": "251.*",
       "compatibility_overrides": []
     }
   },
@@ -9459,7 +9477,8 @@
       "251.23774.33": 692995,
       "251.23774.435": 716105,
       "251.23774.439": 716562,
-      "251.23774.456": 717453
+      "251.23774.456": 717453,
+      "251.23774.466": 724265
     }
   }
 }

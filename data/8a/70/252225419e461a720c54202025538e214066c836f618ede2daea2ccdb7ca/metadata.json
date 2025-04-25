@@ -627,14 +627,14 @@
       "sha256": "sdpMIC2C1zQ5sG8YNSCmMESu24JxRfXX1qnk+iXPYNo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.database",
-        "com.intellij.javaee.jpa",
         "com.intellij.jpa.jpb.model",
         "com.intellij.liquibase",
-        "com.intellij.modules.ultimate",
-        "com.intellij.persistence"
+        "com.intellij.modules.ultimate"
       ],
       "optional_dependencies": [
+        "com.intellij.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.persistence",
         "intellij.liquibase.database"
       ],
       "file_name": "flyway-243.22562.117.zip",
@@ -761,6 +761,26 @@
       "since": "251.23774",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "724054": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23740/724054/flyway-251.25410.28.zip?updateId=724054&pluginId=23740&family=INTELLIJ",
+      "sha256": "jJCQOrgqN4brbQQeN+BOb9EJrPqeyvQfNWNOWQ4y5J0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jpa.jpb.model",
+        "com.intellij.liquibase",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.persistence",
+        "intellij.liquibase.database"
+      ],
+      "file_name": "flyway-251.25410.28.zip",
+      "since": "251.25410",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -808,7 +828,8 @@
       "243.23654.117": 666744,
       "243.23654.154": 670834,
       "243.23654.189": 673127,
-      "251.23774.318": 711201
+      "251.23774.318": 711201,
+      "251.25410.28": 724054
     }
   }
 }

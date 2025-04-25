@@ -49,13 +49,30 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "724321": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24802/724321/Branch_Deployer-2.0.0.zip?updateId=724321&pluginId=24802&family=INTELLIJ",
+      "sha256": "NBnKiAcd4TJK2owrzugcpkMVCwjUotN7OeQ/iSNfk9c=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Branch_Deployer-2.0.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 567645,
       "1.0.1": 666013,
-      "1.0.2": 718485
+      "1.0.2": 718485,
+      "2.0.0": 724321
     }
   }
 }

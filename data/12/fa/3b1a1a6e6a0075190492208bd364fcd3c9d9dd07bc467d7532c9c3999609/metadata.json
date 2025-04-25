@@ -367,11 +367,11 @@
       "sha256": "GKcldUzYY8CTETM3noEDU+jb92m4bERPI6GtHCaM9bg=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
-        "com.intellij.clion",
-        "com.intellij.modules.python"
+        "PythonCommon"
       ],
       "optional_dependencies": [
+        "com.intellij.clion",
+        "com.intellij.modules.python",
         "intellij.qt.common"
       ],
       "file_name": "qt-plugin-243.22562.155.zip",
@@ -384,11 +384,11 @@
       "sha256": "F1WlkDH2fpjBD03XnBhQ8W2pd9LWz/B7iu239TiSObg=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
-        "com.intellij.clion",
-        "com.intellij.modules.python"
+        "PythonCommon"
       ],
       "optional_dependencies": [
+        "com.intellij.clion",
+        "com.intellij.modules.python",
         "intellij.qt.common"
       ],
       "file_name": "qt-plugin-243.22562.164.zip",
@@ -665,6 +665,21 @@
       "since": "251.23774",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "724029": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25301/724029/qt-plugin-251.25410.28.zip?updateId=724029&pluginId=25301&family=INTELLIJ",
+      "sha256": "ioUzF0ifu/QWMAgTXnfVhUW8h2xtUZwi/bwIvJhrN9w=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "com.intellij.clion",
+        "com.intellij.modules.python",
+        "intellij.qt.common"
+      ],
+      "file_name": "qt-plugin-251.25410.28.zip",
+      "since": "251.25410",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -716,7 +731,8 @@
       "251.22821.72": 685732,
       "251.23536.38": 688292,
       "251.23774.16": 692095,
-      "251.23774.318": 711167
+      "251.23774.318": 711167,
+      "251.25410.28": 724029
     }
   }
 }

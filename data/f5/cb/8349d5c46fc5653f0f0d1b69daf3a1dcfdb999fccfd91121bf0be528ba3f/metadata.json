@@ -6999,11 +6999,11 @@
         "com.intellij.modules.microservices",
         "com.intellij.modules.ultimate",
         "com.jetbrains.restClient",
-        "idea.plugin.protoeditor",
-        "org.intellij.intelliLang"
+        "idea.plugin.protoeditor"
       ],
       "optional_dependencies": [
-        "intellij.restClient/intelliLang"
+        "intellij.restClient/intelliLang",
+        "org.intellij.intelliLang"
       ],
       "file_name": "grpc-243.22562.155.zip",
       "since": "243.22562",
@@ -7019,11 +7019,11 @@
         "com.intellij.modules.microservices",
         "com.intellij.modules.ultimate",
         "com.jetbrains.restClient",
-        "idea.plugin.protoeditor",
-        "org.intellij.intelliLang"
+        "idea.plugin.protoeditor"
       ],
       "optional_dependencies": [
-        "intellij.restClient/intelliLang"
+        "intellij.restClient/intelliLang",
+        "org.intellij.intelliLang"
       ],
       "file_name": "grpc-243.22562.164.zip",
       "since": "243.22562",
@@ -8605,6 +8605,64 @@
       "since": "242.26775",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "724219": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16889/724219/grpc-242.26775.23.zip?updateId=724219&pluginId=16889&family=INTELLIJ",
+      "sha256": "9H4X0iVdFiuDXgz4SA5kZEGWtI3D3vSQ7h+BHNnF+rk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.microservices",
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.restClient",
+        "idea.plugin.protoeditor"
+      ],
+      "optional_dependencies": [
+        "intellij.restClient/intelliLang",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "grpc-242.26775.23.zip",
+      "since": "242.26775",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "724256": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16889/724256/grpc-251.23774.466.zip?updateId=724256&pluginId=16889&family=INTELLIJ",
+      "sha256": "5n8d9zn9je/vTzGOsLrVCJyhr902cEIl7L4WzFUw1c8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.restClient",
+        "idea.plugin.protoeditor"
+      ],
+      "optional_dependencies": [
+        "intellij.restClient/intelliLang",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "grpc-251.23774.466.zip",
+      "since": "251.23774",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "724295": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16889/724295/grpc-251.25410.24.zip?updateId=724295&pluginId=16889&family=INTELLIJ",
+      "sha256": "Cde4JtCMWwzbDiVPo+ZO19Pavy7ht8dSjB0FK262e3Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.restClient",
+        "idea.plugin.protoeditor"
+      ],
+      "optional_dependencies": [
+        "intellij.restClient/intelliLang",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "grpc-251.25410.24.zip",
+      "since": "251.25410",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -8943,6 +9001,7 @@
       "242.24807.21": 640877,
       "242.26775.16": 722806,
       "242.26775.22": 723604,
+      "242.26775.23": 724219,
       "243.12818.54": 602199,
       "243.12818.61": 602703,
       "243.15521.16": 605564,
@@ -9074,7 +9133,9 @@
       "251.23774.436": 716076,
       "251.23774.439": 716554,
       "251.23774.442": 716585,
-      "251.23774.444": 716597
+      "251.23774.444": 716597,
+      "251.23774.466": 724256,
+      "251.25410.24": 724295
     }
   }
 }

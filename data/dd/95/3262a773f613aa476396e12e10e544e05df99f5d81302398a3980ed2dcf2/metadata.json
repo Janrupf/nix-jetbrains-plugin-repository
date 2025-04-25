@@ -480,7 +480,33 @@
       ],
       "file_name": "MybatisX-1.7.2.zip",
       "since": "232.0",
-      "until": "244.*",
+      "until": "243.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "244.*",
+          "compatible_since": "232.0",
+          "compatible_until": "243.*"
+        }
+      ]
+    },
+    "723702": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10119/723702/MybatisX-1.7.3.zip?updateId=723702&pluginId=10119&family=INTELLIJ",
+      "sha256": "2Hd0Ak0EIZPBthlbv1QQly8RPbItgCCCqq7qQhnNy4A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database",
+        "com.intellij.spring",
+        "com.intellij.spring.boot",
+        "org.intellij.intelliLang",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "MybatisX-1.7.3.zip",
+      "since": "232.0",
+      "until": "251.*",
       "compatibility_overrides": []
     }
   },
@@ -511,7 +537,8 @@
       "1.6.2": 527884,
       "1.6.3": 528548,
       "1.7.1": 653430,
-      "1.7.2": 660812
+      "1.7.2": 660812,
+      "1.7.3": 723702
     }
   }
 }
