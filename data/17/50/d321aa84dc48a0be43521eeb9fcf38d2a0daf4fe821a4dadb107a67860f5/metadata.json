@@ -40,13 +40,27 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "724987": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27056/724987/SyncFiles-3.3-SNAPSHOT.zip?updateId=724987&pluginId=27056&family=INTELLIJ",
+      "sha256": "qFKhUlE2llxt/RHg/hfVr69VIZk+C/MX8IgtwkMVozY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SyncFiles-3.3-SNAPSHOT.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.5-SNAPSHOT": 714634,
       "3.0-SNAPSHOT": 717385,
-      "3.1-SNAPSHOT": 717426
+      "3.1-SNAPSHOT": 717426,
+      "3.3-SNAPSHOT": 724987
     }
   }
 }
