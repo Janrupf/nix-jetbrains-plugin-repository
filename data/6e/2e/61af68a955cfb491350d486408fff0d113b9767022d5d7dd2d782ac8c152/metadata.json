@@ -14,11 +14,27 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "725855": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26140/725855/copy-mate-2.0-Mark-01.zip?updateId=725855&pluginId=26140&family=INTELLIJ",
+      "sha256": "KhTO8HJUTeRG13zzIMN7MYZlVDLC90zrjiFkKkUhiO0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "copy-mate-2.0-Mark-01.zip",
+      "since": "221.0",
+      "until": "500.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-Mark-01": 652718
+      "1.0-Mark-01": 652718,
+      "2.0-Mark-01": 725855
     }
   }
 }
