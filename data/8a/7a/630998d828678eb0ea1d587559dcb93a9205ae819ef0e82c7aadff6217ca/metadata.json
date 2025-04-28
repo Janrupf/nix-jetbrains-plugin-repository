@@ -150,6 +150,28 @@
       "since": "212.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "725852": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26617/725852/p2c-plugin-intellij-1.1.5-signed.zip?updateId=725852&pluginId=26617&family=INTELLIJ",
+      "sha256": "axeW0JnFrz4IqMO00m/GXHUR+rqsj98jl2FI/RpHfEc=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.rust",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "p2c-plugin-intellij-1.1.5-signed.zip",
+      "since": "212.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -160,7 +182,8 @@
       "1.0.8": 698835,
       "1.0.9": 700728,
       "1.1.0": 715254,
-      "1.1.1": 717327
+      "1.1.1": 717327,
+      "1.1.5": 725852
     }
   }
 }
