@@ -423,6 +423,44 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "727887": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/727887/Dynatrace-1.2.1-243.zip?updateId=727887&pluginId=25186&family=INTELLIJ",
+      "sha256": "Of8UbX+Si9AUnN64wC4fQcOp39+r9nkeokWNZFzuZSg=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "Dynatrace-1.2.1-243.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "727941": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25186/727941/Dynatrace-1.2.2-251.zip?updateId=727941&pluginId=25186&family=INTELLIJ",
+      "sha256": "jKAgqKnR/nfcqJUu+1Z4Xbtu/1OPIorZz0en5W1u3VA=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "Dynatrace-1.2.2-251.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -448,7 +486,9 @@
       "1.0.7": 706136,
       "1.0.8": 710810,
       "1.0.9": 720402,
-      "1.2.1": 724274
+      "1.2.1": 724274,
+      "1.2.1-243": 727887,
+      "1.2.2-251": 727941
     }
   }
 }

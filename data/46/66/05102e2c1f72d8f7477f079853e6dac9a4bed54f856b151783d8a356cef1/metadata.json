@@ -15,9 +15,26 @@
       "since": "223.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "727160": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27212/727160/XhCodeTools-0.1.0-alpha.4-signed.zip?updateId=727160&pluginId=27212&family=INTELLIJ",
+      "sha256": "hCNU9a2kZVreWFdgx/yRArBSDMf7oHtr64shtW+99DU=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "XhCodeTools-0.1.0-alpha.4-signed.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "alpha": {
+      "0.1.0-alpha.4": 727160
+    },
     "stable": {
       "0.0.1": 727012
     }

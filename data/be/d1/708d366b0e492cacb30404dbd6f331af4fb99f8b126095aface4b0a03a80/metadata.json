@@ -265,30 +265,39 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "725323": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26352/725323/HttpRequest-3.9.1.zip?updateId=725323&pluginId=26352&family=INTELLIJ",
-      "sha256": "nykKVd+8f5OgwBIkwNGL8Ad/IxkokxfBs1Mztcw+SB8=",
+    "727187": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26352/727187/HttpRequest-3.9.2.zip?updateId=727187&pluginId=26352&family=INTELLIJ",
+      "sha256": "F3R6bx1lne3IrID1czH4zht2NV53z+CB7L5vNorJe1Q=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.java",
         "com.intellij.modules.json",
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "ris58h.webcalm"
       ],
-      "file_name": "HttpRequest-3.9.1.zip",
-      "since": "251.0",
-      "until": "251.0",
-      "compatibility_overrides": [
-        {
-          "applies_since": "251.0",
-          "applies_until": "251.*",
-          "compatible_since": "251.0",
-          "compatible_until": "251.0"
-        }
-      ]
+      "file_name": "HttpRequest-3.9.2.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "727470": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26352/727470/HttpRequest-3.9.3.zip?updateId=727470&pluginId=26352&family=INTELLIJ",
+      "sha256": "WvurdCjENPDvdeSa+7SjHOQpVqJhjtvrr4hLIkW62M4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "ris58h.webcalm"
+      ],
+      "file_name": "HttpRequest-3.9.3.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -308,7 +317,8 @@
       "3.7.0": 717413,
       "3.8.0": 719177,
       "3.9.0": 724974,
-      "3.9.1": 725323
+      "3.9.2": 727187,
+      "3.9.3": 727470
     }
   }
 }

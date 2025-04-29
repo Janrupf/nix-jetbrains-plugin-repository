@@ -15,11 +15,33 @@
       "since": "241.*",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "727175": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23164/727175/idea-hyperf-plugin-1.1.1-base.jar?updateId=727175&pluginId=23164&family=INTELLIJ",
+      "sha256": "upz5iCET8XEGFbg0/vctmRDvFJ4YERkiLx5FS+vCVak=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-hyperf-plugin-1.1.1-base.jar",
+      "since": "243.21565.202",
+      "until": "243.26053.13",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.19416.23",
+          "applies_until": "243.26053.13",
+          "compatible_since": "243.21565.202",
+          "compatible_until": "243.26053.13"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.1.0": 726716
+      "1.1.0": 726716,
+      "1.1.1": 727175
     }
   }
 }
