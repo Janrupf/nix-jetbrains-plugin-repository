@@ -2,23 +2,6 @@
   "xml_id": "ai.poolside.assistant",
   "numeric_id": 26922,
   "updates": {
-    "705867": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/705867/poolside-assistant-1.0.17.zip?updateId=705867&pluginId=26922&family=INTELLIJ",
-      "sha256": "xTW8SgLuAu8HPVZEQJHR9GIB6CM1QrSFTd/HvgAC1sk=",
-      "channel": "beta",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
-      ],
-      "optional_dependencies": [
-        "Git4Idea",
-        "org.intellij.plugins.markdown"
-      ],
-      "file_name": "poolside-assistant-1.0.17.zip",
-      "since": "240.*",
-      "until": "251.*",
-      "compatibility_overrides": []
-    },
     "708407": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/708407/poolside-assistant-2.0.2.zip?updateId=708407&pluginId=26922&family=INTELLIJ",
       "sha256": "JWitV3C/p6IXYffqCCAqALGlGj0OL4OnGkA7Opsg+oQ=",
@@ -52,15 +35,50 @@
       "since": "240.1",
       "until": "251.3",
       "compatibility_overrides": []
+    },
+    "728691": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/728691/poolside-assistant-2.0.7.zip?updateId=728691&pluginId=26922&family=INTELLIJ",
+      "sha256": "IrwFfd+s0nYxFjHzuj5SxMnyyzvJLI7mC+dMKKSEBTQ=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "poolside-assistant-2.0.7.zip",
+      "since": "240.1",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "728692": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26922/728692/poolside-assistant-2.0.7.zip?updateId=728692&pluginId=26922&family=INTELLIJ",
+      "sha256": "IrwFfd+s0nYxFjHzuj5SxMnyyzvJLI7mC+dMKKSEBTQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "poolside-assistant-2.0.7.zip",
+      "since": "240.1",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
-      "1.0.17": 705867
+      "2.0.7": 728691
     },
     "stable": {
       "2.0.2": 708407,
-      "2.0.6": 723462
+      "2.0.6": 723462,
+      "2.0.7": 728692
     }
   }
 }

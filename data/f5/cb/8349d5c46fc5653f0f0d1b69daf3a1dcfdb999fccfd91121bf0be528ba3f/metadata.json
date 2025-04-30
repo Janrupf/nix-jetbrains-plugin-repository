@@ -8721,6 +8721,25 @@
       "since": "242.26775",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "728900": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16889/728900/grpc-251.25410.64.zip?updateId=728900&pluginId=16889&family=INTELLIJ",
+      "sha256": "u7jh1D/aFY5A+RVcdFv7yYOKIYDTGwpUmo/HO9GkY90=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.restClient",
+        "idea.plugin.protoeditor"
+      ],
+      "optional_dependencies": [
+        "intellij.restClient/intelliLang",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "grpc-251.25410.64.zip",
+      "since": "251.25410",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -9196,7 +9215,8 @@
       "251.23774.466": 724256,
       "251.25410.24": 724295,
       "251.25410.31": 724951,
-      "251.25410.34": 724971
+      "251.25410.34": 724971,
+      "251.25410.64": 728900
     }
   }
 }

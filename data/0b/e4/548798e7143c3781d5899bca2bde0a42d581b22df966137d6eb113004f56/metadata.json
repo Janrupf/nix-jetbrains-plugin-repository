@@ -55,13 +55,32 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "728813": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24183/728813/IntelliJ_V-2025.1.1.zip?updateId=728813&pluginId=24183&family=INTELLIJ",
+      "sha256": "rHTYS+tj7JxcK6cTA6VK3K4Yq+71RuRS7zgUSkmkdDU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.nativeDebug",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "IntelliJ_V-2025.1.1.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1-beta.5": 527936,
       "0.0.1-beta.6": 594958,
-      "2024.3.1": 634229
+      "2024.3.1": 634229,
+      "2025.1.1": 728813
     }
   }
 }

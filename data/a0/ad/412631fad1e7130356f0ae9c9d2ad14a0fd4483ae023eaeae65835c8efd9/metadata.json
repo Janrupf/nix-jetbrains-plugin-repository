@@ -15,11 +15,26 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "728704": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27193/728704/NavRouter-1.0.1.jar?updateId=728704&pluginId=27193&family=INTELLIJ",
+      "sha256": "wBXoVxO3M2YSMtkG9zyM/wFwVw8nBxOU3OVOgG/uJ4I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "NavRouter-1.0.1.jar",
+      "since": "202.*",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0": 725851
+      "1.0": 725851,
+      "1.0.1": 728704
     }
   }
 }
