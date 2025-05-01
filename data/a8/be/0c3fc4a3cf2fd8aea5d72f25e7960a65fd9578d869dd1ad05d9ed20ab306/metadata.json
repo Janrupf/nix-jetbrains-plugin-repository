@@ -943,6 +943,26 @@
       "since": "223.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "731374": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17218/731374/TorqueScript-kotlin.Unit.zip?updateId=731374&pluginId=17218&family=INTELLIJ",
+      "sha256": "idTpbkzpXav1cO7TaTb/vAV2QQS593jqTgrPCuDgMMc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TorqueScript-kotlin.Unit.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "252.*",
+          "compatible_since": "243.0",
+          "compatible_until": "252.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -987,6 +1007,7 @@
       "1.14.0-legacy": 303270,
       "1.14.1": 303280,
       "1.14.1-legacy": 303281,
+      "1.14.10": 731374,
       "1.14.2": 395541,
       "1.14.3": 395556,
       "1.14.3-legacy": 395557,
