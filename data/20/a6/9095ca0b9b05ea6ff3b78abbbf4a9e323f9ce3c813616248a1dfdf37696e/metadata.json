@@ -645,8 +645,15 @@
       "optional_dependencies": [],
       "file_name": "magento-support-2025.1.1.jar.zip",
       "since": "243.0",
-      "until": "251.*",
-      "compatibility_overrides": []
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "251.*",
+          "compatible_since": "243.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
