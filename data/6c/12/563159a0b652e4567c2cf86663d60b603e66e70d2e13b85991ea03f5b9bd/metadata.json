@@ -27,12 +27,33 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "732685": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26314/732685/PyCharmBrowserExtension-1.2.jar?updateId=732685&pluginId=26314&family=INTELLIJ",
+      "sha256": "sWcU1c335ysCk4uuM6Fr31FOfFtA0YXVeuV7LdZV9UU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "PyCharmBrowserExtension-1.2.jar",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "251.*",
+          "compatible_since": "243.0",
+          "compatible_until": "261.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "1.0-SNAPSHOT": 664517,
-      "1.1": 685570
+      "1.1": 685570,
+      "1.2": 732685
     }
   }
 }

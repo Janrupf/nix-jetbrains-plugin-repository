@@ -1410,6 +1410,42 @@
       "since": "232.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "732210": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24549/732210/intellij-shire-IU-2024.1-1.3.6-SNAPSHOT.zip?updateId=732210&pluginId=24549&family=INTELLIJ",
+      "sha256": "7SpZ1P1lYzPzcpqpD3cJBnUe4Ax+IgCDXxYwFgNz7PM=",
+      "channel": "snapshot",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "Git4Idea",
+        "JavaScript",
+        "NodeJS",
+        "PlantUML integration",
+        "com.intellij.database",
+        "com.intellij.mermaid",
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.python",
+        "com.intellij.openRewrite",
+        "com.intellij.wiremock",
+        "com.jetbrains.restClient",
+        "com.jetbrains.sh",
+        "idea.plugin.protoeditor",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.plugins.terminal",
+        "org.sonarlint.idea"
+      ],
+      "file_name": "intellij-shire-IU-2024.1-1.3.6-SNAPSHOT.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1421,7 +1457,8 @@
       "1.1.0-SNAPSHOT": 642645,
       "1.2.0-SNAPSHOT": 648185,
       "1.3.0-SNAPSHOT": 660814,
-      "1.3.2-SNAPSHOT": 662402
+      "1.3.2-SNAPSHOT": 662402,
+      "1.3.6-SNAPSHOT": 732210
     },
     "stable": {
       "0.0.3": 551072,

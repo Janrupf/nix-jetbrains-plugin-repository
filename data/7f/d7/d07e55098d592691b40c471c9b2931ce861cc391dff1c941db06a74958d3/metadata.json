@@ -59,7 +59,29 @@
       "optional_dependencies": [],
       "file_name": "hamcrest-to-assertj-0.1.3.zip",
       "since": "233.0",
-      "until": "251.*",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "251.*",
+          "compatible_since": "233.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "732385": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24288/732385/hamcrest-to-assertj-0.1.4.zip?updateId=732385&pluginId=24288&family=INTELLIJ",
+      "sha256": "Fi2Pa4I3aZksWwGgB7kx33bcbNwo19v51wP+5EqiS/k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hamcrest-to-assertj-0.1.4.zip",
+      "since": "233.0",
+      "until": null,
       "compatibility_overrides": []
     }
   },
@@ -68,7 +90,8 @@
       "0.1.0": 530456,
       "0.1.1": 531016,
       "0.1.2": 657576,
-      "0.1.3": 667431
+      "0.1.3": 667431,
+      "0.1.4": 732385
     }
   }
 }
