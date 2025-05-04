@@ -46,13 +46,29 @@
       "since": "213.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "733742": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22602/733742/jsonrpc-helper-0.3.0.zip?updateId=733742&pluginId=22602&family=INTELLIJ",
+      "sha256": "9PtPoLUUfHuj0bZyu54L7N+JWOGyi8i7auNf3yWwnPY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jsonrpc-helper-0.3.0.zip",
+      "since": "231.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.8": 386251,
       "0.1.9": 474263,
-      "0.2.0": 591356
+      "0.2.0": 591356,
+      "0.3.0": 733742
     }
   }
 }

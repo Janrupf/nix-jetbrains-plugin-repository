@@ -1,6 +1,26 @@
 {
   "xml_id": "com.stellar.plugin",
   "numeric_id": 27256,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "732856": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27256/732856/Stellar_Vision-0.0.1_1.zip?updateId=732856&pluginId=27256&family=INTELLIJ",
+      "sha256": "yy0ELwBWk5wWwDsYzeUeXX/Fk575kwrAehxRuyz04RI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Stellar_Vision-0.0.1_1.zip",
+      "since": "191.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1": 732856
+    }
+  }
 }

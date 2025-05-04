@@ -23,6 +23,34 @@
         }
       ]
     },
+    "732202": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23164/732202/idea-hyperf-plugin-1.1.2.jar?updateId=732202&pluginId=23164&family=INTELLIJ",
+      "sha256": "rGsoL8od4yiGbhcWaDlSs+xOFi6liqN1thAUCc/rpUI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-hyperf-plugin-1.1.2.jar",
+      "since": "243.21565.202",
+      "until": "243.26053.13",
+      "compatibility_overrides": []
+    },
+    "732203": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23164/732203/idea-hyperf-plugin-1.1.0.jar?updateId=732203&pluginId=23164&family=INTELLIJ",
+      "sha256": "HFk9vjWS3Ak1KA3RxN6CILz8eeGxuulMZFUH8JTpv60=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-hyperf-plugin-1.1.0.jar",
+      "since": "242.20224.361",
+      "until": "242.26775.23",
+      "compatibility_overrides": []
+    },
     "732205": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23164/732205/idea-hyperf-plugin-2.1.0.jar?updateId=732205&pluginId=23164&family=INTELLIJ",
       "sha256": "rV43z8J8PRpfDYRz0hL0T48njn5Cdw2LTbCHE8g9wvk=",
@@ -40,7 +68,9 @@
   },
   "channels": {
     "stable": {
+      "1.1.0": 732203,
       "1.1.1": 727175,
+      "1.1.2": 732202,
       "2.1.0": 732205
     }
   }
