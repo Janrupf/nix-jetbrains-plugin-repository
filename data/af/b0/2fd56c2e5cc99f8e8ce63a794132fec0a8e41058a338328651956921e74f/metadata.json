@@ -18,11 +18,29 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "734005": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27279/734005/StackTrace-2025.1.1.zip?updateId=734005&pluginId=27279&family=INTELLIJ",
+      "sha256": "oqhdCXlGLHLPz8onfCEkyHKDcfmZnR5CYl05VacRe0g=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "StackTrace-2025.1.1.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2025.1.0": 734001
+      "2025.1.0": 734001,
+      "2025.1.1": 734005
     }
   }
 }

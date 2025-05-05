@@ -175,6 +175,25 @@
       "since": "223.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "734507": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23649/734507/pitest-helper-2025.1.0.zip?updateId=734507&pluginId=23649&family=INTELLIJ",
+      "sha256": "uEvVUBuQbABMZjKRvF5NGO7d/xpeO0lTzNwhlHKErr8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "pitest-helper-2025.1.0.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -190,7 +209,8 @@
       "2024.1.2": 589752,
       "2024.1.3": 595165,
       "2024.2.0": 600374,
-      "2024.2.1": 637197
+      "2024.2.1": 637197,
+      "2025.1.0": 734507
     }
   }
 }

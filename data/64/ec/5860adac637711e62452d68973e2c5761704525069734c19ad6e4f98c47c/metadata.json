@@ -185,13 +185,30 @@
       "since": "223.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "734489": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19166/734489/IntelliJ-3.0.0.zip?updateId=734489&pluginId=19166&family=INTELLIJ",
+      "sha256": "ZMlBvksVtoMzIIaglXB2cssqFe5Am5GNJAMvIniVsnU=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ-3.0.0.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "alpha": {
       "1.2.0-alpha02": 175165,
       "2.0.0-alpha01": 211220,
-      "2.0.0-alpha03": 284833
+      "2.0.0-alpha03": 284833,
+      "3.0.0": 734489
     },
     "stable": {
       "2.0.0": 448768,
