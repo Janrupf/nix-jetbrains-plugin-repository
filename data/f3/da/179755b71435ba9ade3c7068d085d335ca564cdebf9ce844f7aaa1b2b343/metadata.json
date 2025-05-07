@@ -2,34 +2,6 @@
   "xml_id": "com.mxc.kratos-generator-plugin",
   "numeric_id": 27245,
   "updates": {
-    "731405": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27245/731405/kratos-generator-plugin-1.0.1.zip?updateId=731405&pluginId=27245&family=INTELLIJ",
-      "sha256": "9OwPiY79q/Sx0HrfY1n614Vyn2U1Zbh6so+YL1NVAzA=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "kratos-generator-plugin-1.0.1.zip",
-      "since": "222.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
-    "734662": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27245/734662/kratos-generator-plugin-1.0.2.zip?updateId=734662&pluginId=27245&family=INTELLIJ",
-      "sha256": "6/vEOVQj2XgRYQZq5CYBB40qPraEKfwJf0bmDnKbNpY=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "kratos-generator-plugin-1.0.2.zip",
-      "since": "222.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
     "734770": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27245/734770/kratos-generator-plugin-1.0.3.zip?updateId=734770&pluginId=27245&family=INTELLIJ",
       "sha256": "nMvav3GFj4GB/+I2zLWjJfupNUulthoL31Kp9/cG5oM=",
@@ -43,13 +15,33 @@
       "since": "222.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "735356": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27245/735356/kratos-generator-plugin-1.0.4.zip?updateId=735356&pluginId=27245&family=INTELLIJ",
+      "sha256": "wtjNiwgbncJgZifm1kHMbR2/iV8Yy+52btoZoWvFYKo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kratos-generator-plugin-1.0.4.zip",
+      "since": "222.0",
+      "until": "251.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "999.99999",
+          "compatible_since": "222.0",
+          "compatible_until": "251.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 731405,
-      "1.0.2": 734662,
-      "1.0.3": 734770
+      "1.0.3": 734770,
+      "1.0.4": 735356
     }
   }
 }

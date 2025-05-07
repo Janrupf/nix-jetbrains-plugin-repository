@@ -29,12 +29,27 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "735347": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27271/735347/gitcheck-1.2-SNAPSHOT.jar?updateId=735347&pluginId=27271&family=INTELLIJ",
+      "sha256": "gmML0pFcLu2ytKdkoe6OrxQaY52vZBOnjL4qwM+HkzA=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitcheck-1.2-SNAPSHOT.jar",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0-SNAPSHOT": 733686,
-      "1.1-SNAPSHOT": 734750
+      "1.1-SNAPSHOT": 734750,
+      "1.2-SNAPSHOT": 735347
     }
   }
 }

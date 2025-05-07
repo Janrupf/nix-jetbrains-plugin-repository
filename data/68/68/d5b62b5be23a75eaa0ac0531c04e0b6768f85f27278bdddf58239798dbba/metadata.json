@@ -147,10 +147,10 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "723958": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23920/723958/kwaipilot-ide-plugin-new-9.0.0.zip?updateId=723958&pluginId=23920&family=INTELLIJ",
-      "sha256": "1khrrkyPORNJbxJiK6XAUptPp+bpFWF4J6V3lwKyGZ4=",
-      "channel": "stable",
+    "734998": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23920/734998/kwaipilot-ide-plugin-9.0.3.zip?updateId=734998&pluginId=23920&family=INTELLIJ",
+      "sha256": "xsr42BNH1fnzTmyqX+69w+s8EDerQJhoaYRs+OndRKc=",
+      "channel": "eap",
       "dependencies": [
         "com.intellij.modules.lang",
         "com.intellij.modules.platform"
@@ -160,15 +160,16 @@
         "com.intellij.modules.java",
         "org.jetbrains.kotlin"
       ],
-      "file_name": "kwaipilot-ide-plugin-new-9.0.0.zip",
-      "since": null,
-      "until": null,
+      "file_name": "kwaipilot-ide-plugin-9.0.3.zip",
+      "since": "212.0",
+      "until": "253.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "8.2.4": 715229
+      "8.2.4": 715229,
+      "9.0.3": 734998
     },
     "stable": {
       "6.1.0": 550611,
@@ -177,8 +178,7 @@
       "7.2.0": 602649,
       "7.2.1": 602909,
       "8.0.1": 655112,
-      "8.0.6": 664648,
-      "9.0.0": 723958
+      "8.0.6": 664648
     }
   }
 }

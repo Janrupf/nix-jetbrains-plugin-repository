@@ -40,12 +40,29 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "735658": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25792/735658/kaiju-pycharm-plugin-1.0.3.zip?updateId=735658&pluginId=25792&family=INTELLIJ",
+      "sha256": "/bRsMUMXRgiSR6SYSLa3ROLZrdO9uL7HQzQBTRWtAqY=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kaiju-pycharm-plugin-1.0.3.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 631097,
-      "1.0.2": 660548
+      "1.0.2": 660548,
+      "1.0.3": 735658
     }
   }
 }

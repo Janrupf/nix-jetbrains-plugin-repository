@@ -87,10 +87,25 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "735005": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27018/735005/DeepSeek-Commit-2.7.10.zip?updateId=735005&pluginId=27018&family=INTELLIJ",
+      "sha256": "tkGWDwQkn1OhGDPljgKSqjuzCbxKJC4lPQZ/BLxvCeo=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "DeepSeek-Commit-2.7.10.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2.7.10": 735005,
       "2.7.2": 712047,
       "2.7.3": 712696,
       "2.7.5": 715227,
