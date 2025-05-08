@@ -33224,6 +33224,15 @@
       "sha256": "wcNHRzALweVUtji+BUoyJXXtZbarX3yIiOHnfHCNwrg=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.rust-capable",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.vcs.impl",
+        "intellij.toml.json",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
         "JavaScript",
         "com.intellij.cidr.base",
         "com.intellij.clion",
@@ -33234,30 +33243,21 @@
         "com.intellij.modules.cidr.debugger",
         "com.intellij.modules.duplicatesDetector",
         "com.intellij.modules.java",
-        "com.intellij.modules.json",
-        "com.intellij.modules.lang",
         "com.intellij.modules.rider",
-        "com.intellij.modules.rust-capable",
         "com.intellij.modules.rustrover",
-        "com.intellij.modules.ultimate",
         "com.intellij.nativeDebug",
         "com.intellij.rml.dfa.ide",
-        "org.jetbrains.completion.full.line",
-        "org.jetbrains.plugins.terminal",
-        "org.toml.lang",
-        "tanvd.grazi"
-      ],
-      "optional_dependencies": [
         "com.jetbrains.rust.debugger",
         "com.jetbrains.rust.inline.completion",
         "intellij.clion.profiling",
         "intellij.ml.llm.completion",
         "intellij.platform.coverage",
-        "intellij.platform.vcs.impl",
         "intellij.profiler.asyncOne",
         "intellij.profiler.clion",
         "intellij.profiler.common",
-        "intellij.toml.json"
+        "org.jetbrains.completion.full.line",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi"
       ],
       "file_name": "intellij-rust-243.22562.163.zip",
       "since": "243.22562",
@@ -34138,6 +34138,48 @@
       ],
       "file_name": "intellij-rust-251.23774.463.zip",
       "since": "251.23774",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "735935": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/735935/intellij-rust-251.25410.115.zip?updateId=735935&pluginId=22407&family=INTELLIJ",
+      "sha256": "PsCPoeCF3t6nZ+RDZI7AOIoQDuMkofbkKrkl9oRskVY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.rust-capable",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.vcs.impl",
+        "intellij.toml.json",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.cidr.base",
+        "com.intellij.clion",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.modules.duplicatesDetector",
+        "com.intellij.modules.java",
+        "com.intellij.modules.rustrover",
+        "com.intellij.nativeDebug",
+        "com.intellij.rml.dfa.ide",
+        "intellij.clion.profiling",
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.privacy",
+        "intellij.platform.coverage",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.clion",
+        "intellij.profiler.common",
+        "intellij.rustrover.debugger",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi"
+      ],
+      "file_name": "intellij-rust-251.25410.115.zip",
+      "since": "251.25410",
       "until": "251.*",
       "compatibility_overrides": []
     }
@@ -35031,7 +35073,8 @@
       "251.23774.316": 710804,
       "251.23774.445": 716547,
       "251.23774.462": 721801,
-      "251.23774.463": 722817
+      "251.23774.463": 722817,
+      "251.25410.115": 735935
     },
     "super-early-bird": {
       "0.4.201.5469-232-super-early-bird": 385597,

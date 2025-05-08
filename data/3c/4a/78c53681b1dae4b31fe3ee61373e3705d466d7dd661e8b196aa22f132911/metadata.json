@@ -609,9 +609,50 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "735836": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22381/735836/Alibaba_Java_Coding_Guidelines_Fix_Some_Bug_-2.1-2024.3-2.1.1-ext-6-beta-signed.zip?updateId=735836&pluginId=22381&family=INTELLIJ",
+      "sha256": "hl9f69VwIWuoKzxJhWzcA2YSuGZcJhECpBE3y1UyvV8=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "Alibaba_Java_Coding_Guidelines_Fix_Some_Bug_-2.1-2024.3-2.1.1-ext-6-beta-signed.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "735842": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22381/735842/Alibaba_Java_Coding_Guidelines_Fix_Some_Bug_-2.1-2024.3-2.1.1-ext-6-signed.zip?updateId=735842&pluginId=22381&family=INTELLIJ",
+      "sha256": "3dTecswsx4coIMepL+RPGDGCU+y6vd9C73uS2V+Qah4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "Alibaba_Java_Coding_Guidelines_Fix_Some_Bug_-2.1-2024.3-2.1.1-ext-6-signed.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "2.1-2024.3-2.1.1-ext-6-beta": 735836
+    },
     "stable": {
       "1.0-2022.1-2.1.1": 372249,
       "1.0-2022.2-2.1.1": 372248,
@@ -644,7 +685,8 @@
       "1.7-2024.2-2.1.1-ext-6": 583733,
       "1.8-2024.2-2.1.1-ext-6": 589302,
       "1.9-2024.3-2.1.1-ext-6": 717902,
-      "2.0-2024.3-2.1.1-ext-6": 720587
+      "2.0-2024.3-2.1.1-ext-6": 720587,
+      "2.1-2024.3-2.1.1-ext-6": 735842
     }
   }
 }
