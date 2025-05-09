@@ -15,11 +15,28 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "736430": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27181/736430/elementPlugin-2.0.0.zip?updateId=736430&pluginId=27181&family=INTELLIJ",
+      "sha256": "8vcNhE9AmbATtXUAjPrX0OdNZ8y93l5bxch8euBtnw4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.vue"
+      ],
+      "optional_dependencies": [],
+      "file_name": "elementPlugin-2.0.0.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 725128
+      "1.0.0": 725128,
+      "2.0.0": 736430
     }
   }
 }
