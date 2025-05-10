@@ -423,13 +423,31 @@
       "since": "242.16677.21",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "737614": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19613/737614/vale-cli-plugin-0.0.24-1808916933-SNAPSHOT-signed.zip?updateId=737614&pluginId=19613&family=INTELLIJ",
+      "sha256": "Hxm3aqo+gUO367fzH8jH9q9gXK22kTyYLVW7VmelAJU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.asciidoctor.intellij.asciidoc",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.rest"
+      ],
+      "file_name": "vale-cli-plugin-0.0.24-1808916933-SNAPSHOT-signed.zip",
+      "since": "242.16677.21",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "0.0.21-1728423627-SNAPSHOT": 667204,
       "0.0.22-1700803285-SNAPSHOT": 691772,
-      "0.0.23-1753646950-SNAPSHOT": 709219
+      "0.0.23-1753646950-SNAPSHOT": 709219,
+      "0.0.24-1808916933-SNAPSHOT": 737614
     },
     "stable": {
       "0.0.1": 203074,

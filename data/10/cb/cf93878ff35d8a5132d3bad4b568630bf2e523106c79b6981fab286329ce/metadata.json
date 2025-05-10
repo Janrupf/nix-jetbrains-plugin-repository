@@ -386,11 +386,33 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "737617": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21670/737617/designer-idea-plugin-20250509-231-_2.0.b16_2.0.b17_.zip?updateId=737617&pluginId=21670&family=INTELLIJ",
+      "sha256": "NH4wgyULRNvhp9XD+5sgaBFbpRezTsHg16NNEE9monU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "designer-idea-plugin-20250509-231-_2.0.b16_2.0.b17_.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "231.0",
+          "applies_until": "251.*",
+          "compatible_since": "231.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "20250423-231-(2.0.b14~2.0.b17)": 722167,
+      "20250509-231-(2.0.b16~2.0.b17)": 737617,
       "222-2.0.b14-20230510-1335": 330802,
       "222-2.0.b14-20230510-1800": 331102,
       "222-2.0.b14-20230511-1006": 331374,
