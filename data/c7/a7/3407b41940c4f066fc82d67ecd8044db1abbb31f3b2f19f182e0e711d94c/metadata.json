@@ -48,13 +48,32 @@
       "since": "232.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "739519": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27181/739519/elementPlugin-3.5.0.zip?updateId=739519&pluginId=27181&family=INTELLIJ",
+      "sha256": "yTKN9nYVPMBTZmSlUchbIY+Gj8C9j14y4zhF+AB4RMo=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.vue"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "elementPlugin-3.5.0.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 725128,
       "2.0.0": 736430,
-      "3.0.0": 738269
+      "3.0.0": 738269,
+      "3.5.0": 739519
     }
   }
 }
