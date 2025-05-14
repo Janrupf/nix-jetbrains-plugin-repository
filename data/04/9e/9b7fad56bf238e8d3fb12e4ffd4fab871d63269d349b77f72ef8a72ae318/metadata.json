@@ -431,6 +431,49 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "740630": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26988/740630/autodev-jetbrains-2.1.2-241.zip?updateId=740630&pluginId=26988&family=INTELLIJ",
+      "sha256": "MC6IeLZXCYd4oieTt+NZxNYQmMjjt/zukID3ECpb4FI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "Git4Idea",
+        "JavaScript",
+        "PlantUML integration",
+        "cc.unitmesh.idea",
+        "com.intellij.database",
+        "com.intellij.mermaid",
+        "com.intellij.microservices.ui",
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.python",
+        "com.intellij.modules.rust-capable",
+        "com.intellij.modules.vcs",
+        "com.intellij.spring",
+        "com.intellij.spring.mvc",
+        "com.jetbrains.restClient",
+        "com.jetbrains.rust",
+        "com.jetbrains.sh",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.docker.gateway",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.vue",
+        "org.jetbrains.security.package-checker"
+      ],
+      "file_name": "autodev-jetbrains-2.1.2-241.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -446,7 +489,8 @@
       "2.0.8": 714821,
       "2.0.9": 721438,
       "2.1.0": 724275,
-      "2.1.1": 729977
+      "2.1.1": 729977,
+      "2.1.2": 740630
     }
   }
 }

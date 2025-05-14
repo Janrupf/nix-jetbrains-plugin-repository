@@ -43,13 +43,28 @@
       "since": "242.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "739852": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27271/739852/gitcheck-1.3-SNAPSHOT.jar?updateId=739852&pluginId=27271&family=INTELLIJ",
+      "sha256": "JwMqfCtX70Fn4y/kVi61TPis2FCp/hsP8JCcWzSbgtU=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitcheck-1.3-SNAPSHOT.jar",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0-SNAPSHOT": 733686,
       "1.1-SNAPSHOT": 734750,
-      "1.2-SNAPSHOT": 735347
+      "1.2-SNAPSHOT": 735347,
+      "1.3-SNAPSHOT": 739852
     }
   }
 }

@@ -5403,14 +5403,14 @@
       "sha256": "U7xIGfxwTI2gQ4MbkK7yWhK/M6tiX65xxfJiv6GRs4o=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [
-        "intellij.platform.ide.newUiOnboarding",
-        "intellij.platform.ide.newUsersOnboarding",
+        "com.intellij.modules.lang",
         "intellij.platform.lvcs.impl",
         "intellij.platform.tips"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "intellij.platform.ide.newUiOnboarding",
+        "intellij.platform.ide.newUsersOnboarding"
       ],
       "file_name": "featuresTrainer-243.22562.164.zip",
       "since": "243.22562",
@@ -5948,6 +5948,25 @@
       "since": "251.25410",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "740850": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8554/740850/featuresTrainer-251.25410.148.zip?updateId=740850&pluginId=8554&family=INTELLIJ",
+      "sha256": "sLa4gR878ULitHyjk+Pkn5tmUVty+QipkN0odGZghEM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.platform.lvcs.impl",
+        "intellij.platform.tips"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "intellij.platform.ide.newUiOnboarding",
+        "intellij.platform.ide.newUsersOnboarding"
+      ],
+      "file_name": "featuresTrainer-251.25410.148.zip",
+      "since": "251.25410",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6328,6 +6347,7 @@
       "251.23774.350": 712825,
       "251.23774.426": 715273,
       "251.23774.436": 716074,
+      "251.25410.148": 740850,
       "251.25410.34": 724966,
       "251.25410.64": 728904,
       "251.25410.75": 732368
