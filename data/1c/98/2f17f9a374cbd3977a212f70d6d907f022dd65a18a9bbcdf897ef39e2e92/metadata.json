@@ -2,9 +2,39 @@
   "xml_id": "org.assertive.plugin.id",
   "numeric_id": 27191,
   "updates": {
-    "725282": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27191/725282/assertive-intellij-main-2025.04-SNAPSHOT.zip?updateId=725282&pluginId=27191&family=INTELLIJ",
-      "sha256": "sROoGDk66e1yJLCCMePsjtSl3QTcx6qky9RTYOG471A=",
+    "742129": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27191/742129/assertive-intellij-main-2025.05.134.18-SNAPSHOT.zip?updateId=742129&pluginId=27191&family=INTELLIJ",
+      "sha256": "LBGzZODHArAzrJMXDcU4uCWlcy7SEKOWFc/INytAXzg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "assertive-intellij-main-2025.05.134.18-SNAPSHOT.zip",
+      "since": "233.*",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "742134": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27191/742134/assertive-intellij-main-2025.05.134.19-SNAPSHOT.zip?updateId=742134&pluginId=27191&family=INTELLIJ",
+      "sha256": "bqX30uhQ5DD5p2wo51945uro4gG2rvk5/Z7bkeXol5c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "assertive-intellij-main-2025.05.134.19-SNAPSHOT.zip",
+      "since": "233.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "742135": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27191/742135/assertive-intellij-main-2025.05-SNAPSHOT.zip?updateId=742135&pluginId=27191&family=INTELLIJ",
+      "sha256": "nsyhieI03/oIB2j8MBItDBPKfQwtKjHbzjYLWqQ3fxs=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
@@ -17,15 +47,17 @@
         "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go"
       ],
-      "file_name": "assertive-intellij-main-2025.04-SNAPSHOT.zip",
-      "since": "223.0",
-      "until": "242.*",
+      "file_name": "assertive-intellij-main-2025.05-SNAPSHOT.zip",
+      "since": "233.0",
+      "until": "251.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2025.04-SNAPSHOT": 725282
+      "2025.05-SNAPSHOT": 742135,
+      "2025.05.134.18-SNAPSHOT": 742129,
+      "2025.05.134.19-SNAPSHOT": 742134
     }
   }
 }

@@ -163,6 +163,28 @@
       "optional_dependencies": [],
       "file_name": "RBlade-1.2.2.zip",
       "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "999.99999",
+          "compatible_since": "233.0",
+          "compatible_until": "243.*"
+        }
+      ]
+    },
+    "741189": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25590/741189/RBlade-2.0.0.zip?updateId=741189&pluginId=25590&family=INTELLIJ",
+      "sha256": "fT8/8FhckiNLxIxIrw5kjhSyrqcrGzUREf/Q2evH/z0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ruby",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "optional_dependencies": [],
+      "file_name": "RBlade-2.0.0.zip",
+      "since": "250.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -178,7 +200,8 @@
       "1.1.4": 707146,
       "1.2.0": 713735,
       "1.2.1": 723650,
-      "1.2.2": 740862
+      "1.2.2": 740862,
+      "2.0.0": 741189
     }
   }
 }

@@ -1699,6 +1699,40 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "740901": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23257/740901/lsp4ij-0.13.0-20250514-024020.zip?updateId=740901&pluginId=23257&family=INTELLIJ",
+      "sha256": "rTC16SBiUmexCC/iHlgMauFJDn2pWDOd8vR6A1ED7hM=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "lsp4ij-0.13.0-20250514-024020.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "741197": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23257/741197/lsp4ij-0.13.0.zip?updateId=741197&pluginId=23257&family=INTELLIJ",
+      "sha256": "uTTB1HgvcrpZshixz9qU7AfoYEGYsJjGCVJlUoEIpOI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "lsp4ij-0.13.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1790,7 +1824,8 @@
       "0.13.0-20250512-075420": 739531,
       "0.13.0-20250512-095315": 739678,
       "0.13.0-20250512-125226": 739705,
-      "0.13.0-20250513-084354": 740607
+      "0.13.0-20250513-084354": 740607,
+      "0.13.0-20250514-024020": 740901
     },
     "stable": {
       "0.0.1": 542971,
@@ -1798,6 +1833,7 @@
       "0.10.0": 679394,
       "0.11.0": 686675,
       "0.12.0": 706807,
+      "0.13.0": 741197,
       "0.3.0": 574364,
       "0.4.0": 590299,
       "0.5.0": 600505,
