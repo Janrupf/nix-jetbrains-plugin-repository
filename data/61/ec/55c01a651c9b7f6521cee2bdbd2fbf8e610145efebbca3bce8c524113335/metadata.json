@@ -121,10 +121,26 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "744078": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24234/744078/devspaces-gateway-plugin-0.0.10.zip?updateId=744078&pluginId=24234&family=INTELLIJ",
+      "sha256": "RePrjBrGC0pZOgAsmjnHN5B+mno06iXMY13JhCpCksw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.gateway"
+      ],
+      "file_name": "devspaces-gateway-plugin-0.0.10.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.0.10": 744078,
       "0.0.2": 526125,
       "0.0.3": 528081,
       "0.0.4": 572476,

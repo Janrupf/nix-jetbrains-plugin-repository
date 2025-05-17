@@ -111,10 +111,33 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "743189": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27180/743189/Smart-Json-2.0.10.zip?updateId=743189&pluginId=27180&family=INTELLIJ",
+      "sha256": "IqF7jl0NgpoFx8udwg8MtYpXcZ8CxvJD5RiowkKzQjk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml",
+        "com.intellij.properties",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml",
+        "org.toml.lang"
+      ],
+      "file_name": "Smart-Json-2.0.10.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2.0.10": 743189,
       "2.0.5": 724921,
       "2.0.6": 725850,
       "2.0.7": 732206,
