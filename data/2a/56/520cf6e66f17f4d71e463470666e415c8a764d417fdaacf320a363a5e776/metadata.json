@@ -248,9 +248,27 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "744650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21298/744650/compose-color-preview-plugin-0.0.10-252-EAP-signed.zip?updateId=744650&pluginId=21298&family=INTELLIJ",
+      "sha256": "dqQk6yhXRh1ZKE1ZbdR58Gns8wVkXgcaUKyRjjCzL4c=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "compose-color-preview-plugin-0.0.10-252-EAP-signed.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "0.0.10-252-EAP": 744650
+    },
     "stable": {
       "0.0.10-242.1": 635887,
       "0.0.10-243": 635888,

@@ -43,13 +43,28 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "744489": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26405/744489/intellij-jenkinsfile-linter-1.1.0.zip?updateId=744489&pluginId=26405&family=INTELLIJ",
+      "sha256": "yt3+b2a9aJxMXGk1nFoXERCRLBSYYWtWnFEnHmzZEN0=",
+      "channel": "stable",
+      "dependencies": [
+        "co.anbora.labs.jenkins.jenkinsFile",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-jenkinsfile-linter-1.1.0.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 676309,
       "1.0.2": 676491,
-      "1.0.3": 703346
+      "1.0.3": 703346,
+      "1.1.0": 744489
     }
   }
 }
