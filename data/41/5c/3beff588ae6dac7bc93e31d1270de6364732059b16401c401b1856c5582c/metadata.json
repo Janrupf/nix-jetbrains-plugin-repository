@@ -781,6 +781,23 @@
       "since": "223.*",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "744999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10707/744999/JPA_Support-2.3.1.zip?updateId=744999&pluginId=10707&family=INTELLIJ",
+      "sha256": "bCPlFhf4a5MaVnG0nVJ8DVEPidWUsGLbavLgkJapbvY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "JPA_Support-2.3.1.zip",
+      "since": "223.*",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -823,7 +840,8 @@
       "2.2.2": 520339,
       "2.2.3": 529258,
       "2.2.4": 585574,
-      "2.2.5": 630476
+      "2.2.5": 630476,
+      "2.3.1": 744999
     }
   }
 }

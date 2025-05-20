@@ -43,13 +43,28 @@
       "since": "231.8109.175",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "745003": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26084/745003/markdtask-2025.1.2.zip?updateId=745003&pluginId=26084&family=INTELLIJ",
+      "sha256": "KQhDR1Ku+zP8IfoCT8dWzgBsdtoq3qwW/nR43jVH/nQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "markdtask-2025.1.2.zip",
+      "since": "231.8109.175",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2024.1": 648555,
       "2025.1": 673826,
-      "2025.1.1": 680234
+      "2025.1.1": 680234,
+      "2025.1.2": 745003
     }
   }
 }

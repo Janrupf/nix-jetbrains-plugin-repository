@@ -15,11 +15,26 @@
       "since": "223.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "745018": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26293/745018/EasyCommit-1.1.zip?updateId=745018&pluginId=26293&family=INTELLIJ",
+      "sha256": "q2yJQBEGFUcaoHZ2CiwZC23/SU66AQ+SunC9CDUFzPU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "EasyCommit-1.1.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0": 662452
+      "1.0": 662452,
+      "1.1": 745018
     }
   }
 }
