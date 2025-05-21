@@ -14,7 +14,7 @@
       "optional_dependencies": [],
       "file_name": "compose-multiplatform-res-locator-1.0.0__1_.zip",
       "since": "232.0",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": []
     },
     "741188": {
@@ -29,7 +29,7 @@
       "optional_dependencies": [],
       "file_name": "compose-multiplatform-res-locator-1.0.0.zip",
       "since": "232.0",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": []
     },
     "744300": {
@@ -48,6 +48,23 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "747191": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27348/747191/compose-multiplatform-res-locator-1.1.0.zip?updateId=747191&pluginId=27348&family=INTELLIJ",
+      "sha256": "q47LPEfo+P/U5mvwEYhN+KsfEqxce8c5dFZy6jeHHZo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "compose-multiplatform-res-locator-1.1.0.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -56,7 +73,8 @@
     },
     "stable": {
       "1.0.0": 741188,
-      "1.0.1": 744300
+      "1.0.1": 744300,
+      "1.1.0": 747191
     }
   }
 }
