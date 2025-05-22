@@ -2540,6 +2540,45 @@
       "since": "252.13776",
       "until": "252.13776.*",
       "compatibility_overrides": []
+    },
+    "748424": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20305/748424/micronaut-252.16512.17.zip?updateId=748424&pluginId=20305&family=INTELLIJ",
+      "sha256": "2DyAeHRtIT60w9ILhmk+JD0aOrjlsuMlOP7FoucyQtA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.modules.ultimate",
+        "com.intellij.persistence",
+        "com.intellij.properties",
+        "intellij.platform.execution.dashboard",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi"
+      ],
+      "optional_dependencies": [
+        "com.intellij.cron",
+        "com.intellij.database",
+        "com.intellij.javaee.el",
+        "com.intellij.javaee.jpa",
+        "com.intellij.openRewrite",
+        "com.intellij.swagger",
+        "com.jetbrains.restClient",
+        "intellij.javaee.persistence.database.config.yaml",
+        "intellij.javaee.persistence.impl/mongodbjson",
+        "intellij.json.backend",
+        "intellij.micronaut.data",
+        "intellij.microservices.jvm.cron",
+        "intellij.microservices.jvm/yamlconfig",
+        "intellij.yaml.backend",
+        "org.intellij.intelliLang",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "micronaut-252.16512.17.zip",
+      "since": "252.16512",
+      "until": "252.16512.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2630,7 +2669,8 @@
       "243.22562.13": 636669,
       "243.25659.39": 688718,
       "251.23774.318": 711068,
-      "252.13776.59": 741438
+      "252.13776.59": 741438,
+      "252.16512.17": 748424
     }
   }
 }

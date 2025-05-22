@@ -27,11 +27,38 @@
       "since": "252.13776",
       "until": "252.13776.*",
       "compatibility_overrides": []
+    },
+    "748648": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27367/748648/gradle-java-252.16512.17.zip?updateId=748648&pluginId=27367&family=INTELLIJ",
+      "sha256": "/LgFawlnaXJXYiRPQZwj8mhIG1s6BOCueKDeX37OxFQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "Coverage",
+        "com.intellij.modules.ultimate",
+        "com.intellij.properties",
+        "com.jetbrains.performancePlugin",
+        "intellij.profiler.ultimate",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.gradle.dsl",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.idea.reposearch",
+        "org.jetbrains.plugins.gradle",
+        "org.toml.lang"
+      ],
+      "file_name": "gradle-java-252.16512.17.zip",
+      "since": "252.16512",
+      "until": "252.16512.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "252.13776.59": 741397
+      "252.13776.59": 741397,
+      "252.16512.17": 748648
     }
   }
 }
