@@ -27,12 +27,26 @@
       "since": "223.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "750102": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26043/750102/MJump-2.1.0.zip?updateId=750102&pluginId=26043&family=INTELLIJ",
+      "sha256": "Fuv59rRlBGkCbV357VM3PDV+1PcpK3iAn9ur68bAJsQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MJump-2.1.0.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.0.1": 646395,
-      "2.0.2": 681590
+      "2.0.2": 681590,
+      "2.1.0": 750102
     }
   }
 }

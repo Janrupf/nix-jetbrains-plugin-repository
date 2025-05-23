@@ -15,11 +15,26 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "750624": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27308/750624/context-mapper-intellij-plugin.zip?updateId=750624&pluginId=27308&family=INTELLIJ",
+      "sha256": "lXADltmVlhUfDecxRnEbyiPHHvEsvzYqZY8op5anlc4=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "context-mapper-intellij-plugin.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
-      "0.1.0": 736922
+      "0.1.0": 736922,
+      "0.3.1": 750624
     }
   }
 }
