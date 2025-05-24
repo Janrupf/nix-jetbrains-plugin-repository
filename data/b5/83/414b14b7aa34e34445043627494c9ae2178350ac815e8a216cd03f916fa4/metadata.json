@@ -131,12 +131,69 @@
         "com.intellij.modules.java"
       ],
       "file_name": "zenuml-intellij-plugin-2025.5.1.zip",
+      "since": "260",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.23774",
+          "applies_until": "999.99999",
+          "compatible_since": "260",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "752250": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12437/752250/zenuml-intellij-plugin-2025.5.2.zip?updateId=752250&pluginId=12437&family=INTELLIJ",
+      "sha256": "+l8Dewz1LSbLSfVbtmFEWLaD0zT08yEeMp9Obgu8kVo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "zenuml-intellij-plugin-2025.5.2.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "752264": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12437/752264/zenuml-intellij-plugin-2025.5.4.zip?updateId=752264&pluginId=12437&family=INTELLIJ",
+      "sha256": "FckE7gg6Qjlcy1TWG1wxsR1v4QKylgL2dYTQkk/yihc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "zenuml-intellij-plugin-2025.5.4.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "752268": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12437/752268/zenuml-intellij-plugin-2025.5.5.zip?updateId=752268&pluginId=12437&family=INTELLIJ",
+      "sha256": "ueGa4gEVDruoUsd2D6G2puR/NbaG3Fv4toSYYBOJwNs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "zenuml-intellij-plugin-2025.5.5.zip",
       "since": "251.23774",
       "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "2025.5.2": 752250,
+      "2025.5.4": 752264,
+      "2025.5.5": 752268
+    },
     "stable": {
       "2022.10.15": 243899,
       "2022.10.28": 243982,

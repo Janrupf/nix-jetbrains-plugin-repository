@@ -29,12 +29,42 @@
       "since": "222.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "750702": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27080/750702/tca-idea-plugin-2.1.1.zip?updateId=750702&pluginId=27080&family=INTELLIJ",
+      "sha256": "OMuaU3KSmB5e+mKRvlI2H8H8KdnQUfJawN3llNiMww8=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "tca-idea-plugin-2.1.1.zip",
+      "since": "222.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "751302": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27080/751302/TCA-2.1.2.zip?updateId=751302&pluginId=27080&family=INTELLIJ",
+      "sha256": "M1HguybO5AI+c1IFTOgN9JaQz6RArxoOrodRKv5v+Ys=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TCA-2.1.2.zip",
+      "since": "222.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.0": 746537,
-      "2.1": 750036
+      "2.1": 750036,
+      "2.1.1": 750702,
+      "2.1.2": 751302
     }
   }
 }
