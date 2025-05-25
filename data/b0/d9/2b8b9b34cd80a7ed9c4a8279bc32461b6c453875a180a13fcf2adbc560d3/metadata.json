@@ -1,6 +1,27 @@
 {
   "xml_id": "com.gradle.develocity.test",
   "numeric_id": 27444,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "750031": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27444/750031/develocity-intellij-plugin-0.2.zip?updateId=750031&pluginId=27444&family=INTELLIJ",
+      "sha256": "TlE3/3lcCQLCc7VkeMARwAGgPqWdRjyrtuqgdxcFykk=",
+      "channel": "test-francois",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "develocity-intellij-plugin-0.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "test-francois": {
+      "0.2": 750031
+    }
+  }
 }

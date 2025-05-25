@@ -31,12 +31,28 @@
       "since": "242.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "753123": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26398/753123/comment-remover-csvbcpp-0.2.2-signed.zip?updateId=753123&pluginId=26398&family=INTELLIJ",
+      "sha256": "RxgAqhDMPHkPpE/uWJv4L0PkCCgXyGd0QvYBn5zFAew=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.rider",
+        "net.bluehill.commentRemover"
+      ],
+      "optional_dependencies": [],
+      "file_name": "comment-remover-csvbcpp-0.2.2-signed.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.0": 671014,
-      "0.2.1": 671230
+      "0.2.1": 671230,
+      "0.2.2": 753123
     }
   }
 }
