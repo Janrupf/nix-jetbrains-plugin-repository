@@ -14,10 +14,31 @@
       "since": "232.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "753530": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27400/753530/Hoshisuki-1.0.zip?updateId=753530&pluginId=27400&family=INTELLIJ",
+      "sha256": "Aq1eslfiRVHQE8I1P1iTHXGSd3Tht6fULTw8/jHhXig=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Hoshisuki-1.0.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "251.*",
+          "compatible_since": "232.0",
+          "compatible_until": "252.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
+      "1.0": 753530,
       "1.0-SNAPSHOT": 744643
     }
   }
