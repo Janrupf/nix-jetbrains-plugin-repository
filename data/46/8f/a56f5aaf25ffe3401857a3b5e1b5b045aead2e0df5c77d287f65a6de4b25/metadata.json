@@ -16,11 +16,45 @@
       "since": "233.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "754149": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27425/754149/gl_component-1.0.56.zip?updateId=754149&pluginId=27425&family=INTELLIJ",
+      "sha256": "QCRGTFMnKoxqmra3V8/OPuMhxPMvzAfsvb/DIF0ibB0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gl_component-1.0.56.zip",
+      "since": "233.0",
+      "until": "400.*",
+      "compatibility_overrides": []
+    },
+    "754619": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27425/754619/gl_component-1.0.59-signed.zip?updateId=754619&pluginId=27425&family=INTELLIJ",
+      "sha256": "fy2O7m4tAYYZkpvJxDHtryx9puBRJzvpAX7JaFXueWA=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gl_component-1.0.59-signed.zip",
+      "since": "233.0",
+      "until": "400.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.0.59": 754619
+    },
     "stable": {
-      "1.0.40": 747689
+      "1.0.40": 747689,
+      "1.0.56": 754149
     }
   }
 }
