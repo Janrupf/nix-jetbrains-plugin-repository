@@ -47,13 +47,29 @@
       "since": "232.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "755623": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25555/755623/git-flow-tools-2.0.0.zip?updateId=755623&pluginId=25555&family=INTELLIJ",
+      "sha256": "SYSjtTKSfUidFQ2b2oaBZI/5wpP1Zo6DOFCN+9vj5DU=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "git-flow-tools-2.0.0.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.3.8": 619463,
       "1.3.9": 641698,
-      "1.4.0": 730123
+      "1.4.0": 730123,
+      "2.0.0": 755623
     }
   }
 }
