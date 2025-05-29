@@ -1584,6 +1584,75 @@
       "since": "252.16512",
       "until": "252.16512.*",
       "compatibility_overrides": []
+    },
+    "758232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23076/758232/amper-252.18003.27.zip?updateId=758232&pluginId=23076&family=INTELLIJ",
+      "sha256": "+Ogxt6Iuuv4EFW5nx4uF+20A4KoEYb9Jz4PL5E9t2M0=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "intellij.json.backend",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.yaml.backend",
+        "org.jetbrains.idea.reposearch",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.amper.kotlin",
+        "intellij.c.core",
+        "intellij.cidr.execution",
+        "intellij.cidr.workspaceModel",
+        "intellij.ktor",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "intellij.spring.boot.run",
+        "kotlin-ultimate.mobile-native",
+        "kotlin.gradle.gradle",
+        "kotlin.gradle.gradle-java",
+        "kotlin.project-wizard.idea",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "amper-252.18003.27.zip",
+      "since": "252.18003",
+      "until": "252.18003.*",
+      "compatibility_overrides": []
+    },
+    "758592": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23076/758592/amper-251.26094.98.zip?updateId=758592&pluginId=23076&family=INTELLIJ",
+      "sha256": "oagmbPZyHVNFm45djNBnIbZyNnj6Ax27OgD69rkYbBI=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.json",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.yaml.backend",
+        "org.jetbrains.idea.reposearch",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.amper.kotlin",
+        "intellij.ktor",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "intellij.spring.boot.run",
+        "kotlin-ultimate.mobile-native",
+        "kotlin.gradle.gradle",
+        "kotlin.gradle.gradle-java",
+        "kotlin.project-wizard.idea",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "amper-251.26094.98.zip",
+      "since": "251.26094",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1651,8 +1720,10 @@
       "251.23774.318": 711127,
       "251.25410.28": 723997,
       "251.26094.37": 747107,
+      "251.26094.98": 758592,
       "252.13776.59": 741500,
-      "252.16512.17": 748615
+      "252.16512.17": 748615,
+      "252.18003.27": 758232
     }
   }
 }

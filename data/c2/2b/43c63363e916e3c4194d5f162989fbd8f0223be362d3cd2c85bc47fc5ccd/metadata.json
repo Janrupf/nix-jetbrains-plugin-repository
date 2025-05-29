@@ -18,6 +18,22 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
+    "756199": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27395/756199/Xeon_RobotFramework_Support-0.3.0.zip?updateId=756199&pluginId=27395&family=INTELLIJ",
+      "sha256": "LsBYc5l71iwSX9cwuyORqaM5pGrB93wl/wnRffOmfVo=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Xeon_RobotFramework_Support-0.3.0.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
     "756492": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27395/756492/Xeon_RobotFramework_Support-0.3.1-signed.zip?updateId=756492&pluginId=27395&family=INTELLIJ",
       "sha256": "N26dfp/Lxbk+Te1qOEYC9JPBxmbW35vx8vgppe9KPTY=",
@@ -33,12 +49,30 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "758157": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27395/758157/Xeon_RobotFramework_Support-0.3.2-signed.zip?updateId=758157&pluginId=27395&family=INTELLIJ",
+      "sha256": "wbiL3/mynkzEf5M8n80jWA4ArJrIhK5tM34WvW01G5o=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Xeon_RobotFramework_Support-0.3.2-signed.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.8": 744296,
-      "0.3.1": 756492
+      "0.3.0": 756199,
+      "0.3.1": 756492,
+      "0.3.2": 758157
     }
   }
 }

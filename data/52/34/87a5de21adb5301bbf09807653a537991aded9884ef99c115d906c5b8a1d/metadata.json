@@ -35,12 +35,30 @@
       "since": "252.16512",
       "until": "252.16512.*",
       "compatibility_overrides": []
+    },
+    "758230": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27374/758230/java-coverage-252.18003.27.zip?updateId=758230&pluginId=27374&family=INTELLIJ",
+      "sha256": "rsS+MkN5fqS2rBVcIboGlWz1vqNG1T2Il10zqilPYcU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.platform.coverage"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "TestNG-J"
+      ],
+      "file_name": "java-coverage-252.18003.27.zip",
+      "since": "252.18003",
+      "until": "252.18003.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "252.13776.59": 741594,
-      "252.16512.17": 748592
+      "252.16512.17": 748592,
+      "252.18003.27": 758230
     }
   }
 }

@@ -129,6 +129,49 @@
       "since": "252.16512",
       "until": "252.16512.*",
       "compatibility_overrides": []
+    },
+    "758213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27164/758213/maven-252.18003.27.zip?updateId=758213&pluginId=27164&family=INTELLIJ",
+      "sha256": "yrYPFfFPqadzw865gX2s8Qx3upXRqW/qo9lyc+Unp8c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.properties.backend",
+        "org.jetbrains.idea.reposearch"
+      ],
+      "optional_dependencies": [
+        "Error-prone plugin",
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.performancePlugin",
+        "intellij.profiler.ultimate",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "maven-252.18003.27.zip",
+      "since": "252.18003",
+      "until": "252.18003.*",
+      "compatibility_overrides": []
+    },
+    "758595": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27164/758595/maven-251.26094.98.zip?updateId=758595&pluginId=27164&family=INTELLIJ",
+      "sha256": "k05AQGY1JQvvfvP95Nsa25mSE/xrB0eLvuO3L95tK7M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.jetbrains.idea.maven.model",
+        "org.jetbrains.idea.maven.server.api",
+        "org.jetbrains.idea.reposearch"
+      ],
+      "optional_dependencies": [
+        "Error-prone plugin",
+        "com.jetbrains.performancePlugin",
+        "org.intellij.groovy"
+      ],
+      "file_name": "maven-251.26094.98.zip",
+      "since": "251.26094",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -137,8 +180,10 @@
       "251.25410.28": 723993,
       "251.25410.59": 728744,
       "251.26094.37": 747100,
+      "251.26094.98": 758595,
       "252.13776.59": 741644,
-      "252.16512.17": 748456
+      "252.16512.17": 748456,
+      "252.18003.27": 758213
     }
   }
 }

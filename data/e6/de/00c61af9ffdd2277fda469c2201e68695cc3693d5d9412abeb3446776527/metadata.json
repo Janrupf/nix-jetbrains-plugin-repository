@@ -187,6 +187,36 @@
       "since": "251.25410",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "757289": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25364/757289/json-243.26574.91.zip?updateId=757289&pluginId=25364&family=INTELLIJ",
+      "sha256": "IVoZ8rGG0i7OE8MznR8co0jD/brtW1JCJV9XCwwGs6c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "json-243.26574.91.zip",
+      "since": "243.26574",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "758331": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25364/758331/json-252.18003.27.zip?updateId=758331&pluginId=25364&family=INTELLIJ",
+      "sha256": "N5aXQKTOXaPLV+X4PaDbT5fit2lYVRbLfBZlt8RJD48=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.json",
+        "intellij.platform.backend",
+        "intellij.platform.frontend.split"
+      ],
+      "file_name": "json-252.18003.27.zip",
+      "since": "252.18003",
+      "until": "252.18003.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -207,8 +237,10 @@
       "243.21565.23": 626300,
       "243.22562.13": 636632,
       "243.23654.117": 666756,
+      "243.26574.91": 757289,
       "251.23774.318": 711176,
-      "251.25410.28": 724050
+      "251.25410.28": 724050,
+      "252.18003.27": 758331
     }
   }
 }

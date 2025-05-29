@@ -21,11 +21,25 @@
           "compatible_until": "252.*"
         }
       ]
+    },
+    "758163": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27356/758163/secure-code-intellij-plugin-1.1.1.zip?updateId=758163&pluginId=27356&family=INTELLIJ",
+      "sha256": "7UrBcCo3PpadGRHARs1f+99dN/OF7yQOPCvYaZqMUE0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "secure-code-intellij-plugin-1.1.1.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.2": 756899
+      "1.0.2": 756899,
+      "1.1.1": 758163
     }
   }
 }
