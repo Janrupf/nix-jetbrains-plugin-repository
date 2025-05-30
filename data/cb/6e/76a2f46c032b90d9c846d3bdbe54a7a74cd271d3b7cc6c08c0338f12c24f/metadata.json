@@ -55,13 +55,32 @@
       "since": "231.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "759096": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26964/759096/switchJdk-2025.05.29.5.zip?updateId=759096&pluginId=26964&family=INTELLIJ",
+      "sha256": "3yHK8uCOlu8AcwtS5EDRqK6Vb038Y9fwpQL5L106qKQ=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "switchJdk-2025.05.29.5.zip",
+      "since": "231.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.04.01.9": 706337,
       "2025.04.02.1": 706771,
-      "2025.04.07.1": 710020
+      "2025.04.07.1": 710020,
+      "2025.05.29.5": 759096
     }
   }
 }

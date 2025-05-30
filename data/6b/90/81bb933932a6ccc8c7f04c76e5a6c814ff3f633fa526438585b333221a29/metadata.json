@@ -254,8 +254,15 @@
       "optional_dependencies": [],
       "file_name": "micropython-tools-jetbrains-0.4.3.zip",
       "since": "243.0",
-      "until": "251.*",
-      "compatibility_overrides": []
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "251.*",
+          "compatible_since": "243.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "721805": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26227/721805/micropython-tools-jetbrains-0.5.0.zip?updateId=721805&pluginId=26227&family=INTELLIJ",
@@ -358,6 +365,23 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "759097": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26227/759097/micropython-tools-jetbrains-0.5.6.zip?updateId=759097&pluginId=26227&family=INTELLIJ",
+      "sha256": "IqS8aSr9Mu25L68u1axiHcXUqqhQMKXoF10tzFkQqRs=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "micropython-tools-jetbrains-0.5.6.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -382,7 +406,8 @@
       "0.5.2": 727748,
       "0.5.3": 729304,
       "0.5.4": 747164,
-      "0.5.5": 747643
+      "0.5.5": 747643,
+      "0.5.6": 759097
     }
   }
 }

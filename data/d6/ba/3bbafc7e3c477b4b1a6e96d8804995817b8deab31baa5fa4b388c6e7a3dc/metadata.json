@@ -1,6 +1,27 @@
 {
   "xml_id": "com.jeremymorren.opentelemetryriderdebugviewer",
   "numeric_id": 26584,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "760007": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26584/760007/open-telemetry-rider-1.0.1.zip?updateId=760007&pluginId=26584&family=INTELLIJ",
+      "sha256": "8/yvg0TovSDO+D+xoQ7RFvoPa4FshnKIRgEZcwmc12A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.rider",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "open-telemetry-rider-1.0.1.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.1": 760007
+    }
+  }
 }

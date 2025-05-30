@@ -34392,6 +34392,50 @@
       "since": "251.25410",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "759244": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/759244/intellij-rust-252.18003.32.zip?updateId=759244&pluginId=22407&family=INTELLIJ",
+      "sha256": "92Lg/JuiMBrLjzfXUcqU4CGLVoTB0iaCsKCZW+jkBBg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.rust-capable",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.toml.json",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.cidr.base",
+        "com.intellij.clion",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.modules.duplicatesDetector",
+        "com.intellij.modules.rustrover",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.execution",
+        "intellij.clion.execution",
+        "intellij.clion.profiling",
+        "intellij.clion.toolchains",
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.privacy.shared",
+        "intellij.platform.coverage",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.clion",
+        "intellij.profiler.common",
+        "intellij.rustrover.debugger",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi"
+      ],
+      "file_name": "intellij-rust-252.18003.32.zip",
+      "since": "252.18003",
+      "until": "252.18003.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -35289,7 +35333,8 @@
       "251.25410.170": 757316,
       "252.13776.69": 742832,
       "252.13776.75": 743596,
-      "252.16512.28": 749869
+      "252.16512.28": 749869,
+      "252.18003.32": 759244
     },
     "super-early-bird": {
       "0.4.201.5469-232-super-early-bird": 385597,

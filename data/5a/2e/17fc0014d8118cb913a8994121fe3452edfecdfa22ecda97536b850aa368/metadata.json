@@ -154,9 +154,29 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "759833": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26216/759833/robotcode4ij-1.3.0-dev.2.zip?updateId=759833&pluginId=26216&family=INTELLIJ",
+      "sha256": "ctsPywkh7VW20w49NFivcyyF9OIwJYwHWL9lG/8If3w=",
+      "channel": "dev",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "robotcode4ij-1.3.0-dev.2.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "dev": {
+      "1.3.0-dev.2": 759833
+    },
     "stable": {
       "0.105.0": 661012,
       "0.106.0": 665448,
