@@ -127,6 +127,31 @@
       "since": "223.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "760844": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/760844/jtools-1.0.7.zip?updateId=760844&pluginId=25448&family=INTELLIJ",
+      "sha256": "k0VAUA8AUqiF6gBk3fpYscWiB2VbkmwK/ShhWA4lhQ0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle.dependency.updater",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jtools-1.0.7.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "223.0",
+          "applies_until": "251.*",
+          "compatible_since": "223.0",
+          "compatible_until": "252.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -137,7 +162,8 @@
       "1.0.3": 628012,
       "1.0.4": 655146,
       "1.0.5": 659130,
-      "1.0.6": 720391
+      "1.0.6": 720391,
+      "1.0.7": 760844
     }
   }
 }

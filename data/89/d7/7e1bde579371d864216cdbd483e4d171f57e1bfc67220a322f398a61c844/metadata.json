@@ -14,11 +14,32 @@
       "since": "222.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "761266": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25895/761266/treecolor-1.3.1.jar?updateId=761266&pluginId=25895&family=INTELLIJ",
+      "sha256": "F/v/LIknqW8Q7EyfV+CaXG+uyCVuZScwRThNkjwvhoE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "treecolor-1.3.1.jar",
+      "since": "222.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "251.*",
+          "compatible_since": "222.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.3.0": 636885
+      "1.3.0": 636885,
+      "1.3.1": 761266
     }
   }
 }
