@@ -47,13 +47,34 @@
           "compatible_until": "251.*"
         }
       ]
+    },
+    "762627": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23052/762627/fix-plugin-1.0.2.zip?updateId=762627&pluginId=23052&family=INTELLIJ",
+      "sha256": "oRpDU4TD5AyWf8EvdazLOd+nf2tc+rs5EcvGb4TZkEI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fix-plugin-1.0.2.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "223.0",
+          "applies_until": "999.99999",
+          "compatible_since": "223.0",
+          "compatible_until": "252.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 433297,
       "1.0.0-beta.2": 429896,
-      "1.0.1": 507085
+      "1.0.1": 507085,
+      "1.0.2": 762627
     }
   }
 }

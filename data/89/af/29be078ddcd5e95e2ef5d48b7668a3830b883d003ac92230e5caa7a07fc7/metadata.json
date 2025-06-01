@@ -3606,8 +3606,15 @@
       ],
       "file_name": "intellij-rainbow-brackets-2024.2.9-241.zip",
       "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "251.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "251.*"
+        }
+      ]
     },
     "712101": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10080/712101/intellij-rainbow-brackets-2024.2.10-233.zip?updateId=712101&pluginId=10080&family=INTELLIJ",

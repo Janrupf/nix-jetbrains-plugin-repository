@@ -1,6 +1,24 @@
 {
   "xml_id": "org-ryr.reader",
   "numeric_id": 27500,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "760023": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27500/760023/reader-0.1.jar?updateId=760023&pluginId=27500&family=INTELLIJ",
+      "sha256": "o6NxBOAqU+68JPtZQpelHBzoYzX/ngR0Vlzp7Gx+tn4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "reader-0.1.jar",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1": 760023
+    }
+  }
 }
