@@ -168,6 +168,26 @@
       "since": "201.0",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "763706": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9739/763706/yaoqiang-intellij-plugin-2025.6.1.zip?updateId=763706&pluginId=9739&family=INTELLIJ",
+      "sha256": "f4LsVx3LG3+6mYc0rk5xI5Xo8XHMN0MNOIx9jKi4g2E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yaoqiang-intellij-plugin-2025.6.1.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "251.*",
+          "compatible_since": "242.0",
+          "compatible_until": "252.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -183,6 +203,7 @@
       "2023.7.2": 366602,
       "2023.8.1": 371009,
       "2025.5.1": 744118,
+      "2025.6.1": 763706,
       "3.0.0": 358011,
       "3.0.1": 359209
     }
