@@ -34,12 +34,42 @@
           "compatible_until": "252.*"
         }
       ]
+    },
+    "764260": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27400/764260/Hoshisuki-1.1-SNAPSHOT.zip?updateId=764260&pluginId=27400&family=INTELLIJ",
+      "sha256": "TbipKH5rsPrYSAK4iKIExoQ6DRkgpXBY1JLnotAGsDI=",
+      "channel": "snapshot",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Hoshisuki-1.1-SNAPSHOT.zip",
+      "since": "222.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "764264": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27400/764264/Hoshisuki-1.1.zip?updateId=764264&pluginId=27400&family=INTELLIJ",
+      "sha256": "7DKaq/hpILiKVRaeZnicASv6hwwx4ZgnebEPCb//isc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Hoshisuki-1.1.zip",
+      "since": "222.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "snapshot": {
+      "1.1-SNAPSHOT": 764260
+    },
     "stable": {
       "1.0": 753530,
-      "1.0-SNAPSHOT": 744643
+      "1.0-SNAPSHOT": 744643,
+      "1.1": 764264
     }
   }
 }

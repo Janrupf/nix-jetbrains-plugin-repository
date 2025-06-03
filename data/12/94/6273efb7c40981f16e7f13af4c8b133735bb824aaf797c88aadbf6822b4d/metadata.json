@@ -1,6 +1,27 @@
 {
   "xml_id": "android.template.helper",
   "numeric_id": 27511,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "762671": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27511/762671/IntelliJ_Platform_Plugin_Template-2.1.0.zip?updateId=762671&pluginId=27511&family=INTELLIJ",
+      "sha256": "OdR7r2R91lrh1IBDXAcdjlAtDTMT1q023xwztNihmJg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.android"
+      ],
+      "file_name": "IntelliJ_Platform_Plugin_Template-2.1.0.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.1.0": 762671
+    }
+  }
 }

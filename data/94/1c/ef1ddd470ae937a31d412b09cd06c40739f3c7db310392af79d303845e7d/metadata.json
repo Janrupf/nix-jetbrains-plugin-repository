@@ -16,11 +16,27 @@
       "since": "251.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "763942": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27497/763942/ezmode-intellij-1.0.0.zip?updateId=763942&pluginId=27497&family=INTELLIJ",
+      "sha256": "Oklx5sMLHRL6pZ/SNAGwxerZrVLGzFfzGYphMZJSYR0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "AceJump"
+      ],
+      "file_name": "ezmode-intellij-1.0.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.2": 759061
+      "0.0.2": 759061,
+      "1.0.0": 763942
     }
   }
 }
