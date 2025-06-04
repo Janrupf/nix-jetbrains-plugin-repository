@@ -514,6 +514,42 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "765882": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18857/765882/terminal-pro-plugin-1.2.1.221.zip?updateId=765882&pluginId=18857&family=INTELLIJ",
+      "sha256": "G++KTqYC4cbAuYqNow/exoxCItkj1DuZ8W2gKUwb/Qw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.remote-run"
+      ],
+      "file_name": "terminal-pro-plugin-1.2.1.221.zip",
+      "since": "221.1",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "765883": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18857/765883/terminal-pro-plugin-1.2.1.241.zip?updateId=765883&pluginId=18857&family=INTELLIJ",
+      "sha256": "faT3X+0TKcsDaL9GYi1U76SF80O/cMODeWXoCnp7/wY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.remote-run"
+      ],
+      "file_name": "terminal-pro-plugin-1.2.1.241.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -540,7 +576,9 @@
       "1.1.9.211": 505299,
       "1.1.9.241": 505301,
       "1.2.0.221": 735946,
-      "1.2.0.241": 735947
+      "1.2.0.241": 735947,
+      "1.2.1.221": 765882,
+      "1.2.1.241": 765883
     }
   }
 }

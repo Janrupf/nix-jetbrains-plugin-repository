@@ -797,6 +797,24 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "765932": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15921/765932/intellij-kubernetes-1.6.2-20250604-015519.zip?updateId=765932&pluginId=15921&family=INTELLIJ",
+      "sha256": "8wHr/j40UG9Q3aaLziGGKTuOohAdy3H0k9njGkLHDtQ=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "intellij-kubernetes-1.6.2-20250604-015519.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -804,7 +822,8 @@
       "1.6.1-20250516-025208": 743181,
       "1.6.2-20250521-025145": 747683,
       "1.6.2-20250522-015559": 749052,
-      "1.6.2-20250528-015451": 757062
+      "1.6.2-20250528-015451": 757062,
+      "1.6.2-20250604-015519": 765932
     },
     "stable": {
       "0.1.2.6": 108921,
