@@ -14,11 +14,32 @@
       "since": "252.18003",
       "until": "252.18003.*",
       "compatibility_overrides": []
+    },
+    "766924": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27494/766924/remote-dev-server-252.19874.12.zip?updateId=766924&pluginId=27494&family=INTELLIJ",
+      "sha256": "96vsoB8fz5fsvzYxsPm4DUpo95q4PRyL/FVUUbc5ODY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "remote-dev-server-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "252.18003.27": 758356
+      "252.18003.27": 758356,
+      "252.19874.12": 766924
     }
   }
 }

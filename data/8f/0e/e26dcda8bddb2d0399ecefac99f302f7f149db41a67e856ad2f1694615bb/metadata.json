@@ -112,13 +112,52 @@
       "since": "252.18003",
       "until": "252.18003.*",
       "compatibility_overrides": []
+    },
+    "766827": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27368/766827/java-252.19874.12.zip?updateId=766827&pluginId=27368&family=INTELLIJ",
+      "sha256": "VS8f4SF5bFO7IHxebVivykj7WGVJBLdEgSfjl67MXbU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java-capable",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml",
+        "intellij.platform.vcs.impl.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.copyright",
+        "com.intellij.modules.idea.community",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.structuralsearch",
+        "com.intellij.platform.images",
+        "com.jetbrains.performancePlugin",
+        "intellij.debugger.collections.visualizer.core",
+        "intellij.java.execution.impl.shared",
+        "intellij.performanceTesting.vcs",
+        "intellij.platform.backend",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.profiler.common",
+        "intellij.profiler.ultimate.ideaAsyncProfiler",
+        "org.jetbrains.plugins.terminal",
+        "training"
+      ],
+      "file_name": "java-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "252.13776.59": 741401,
       "252.16512.17": 748500,
-      "252.18003.27": 758281
+      "252.18003.27": 758281,
+      "252.19874.12": 766827
     }
   }
 }

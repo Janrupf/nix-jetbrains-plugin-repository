@@ -3421,6 +3421,28 @@
       "since": "252.18003",
       "until": "252.18003.*",
       "compatibility_overrides": []
+    },
+    "766911": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9333/766911/makefile-252.19874.12.zip?updateId=766911&pluginId=9333&family=INTELLIJ",
+      "sha256": "SiWcyE2HaCDXo0L7C94oztcon4YDdZ12lTRUxKiy4DE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "makefile-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -3648,6 +3670,7 @@
       "252.13776.59": 741389,
       "252.16512.17": 748572,
       "252.18003.27": 758309,
+      "252.19874.12": 766911,
       "3.0": 83361,
       "3.0.1": 83967,
       "3.1": 87071,

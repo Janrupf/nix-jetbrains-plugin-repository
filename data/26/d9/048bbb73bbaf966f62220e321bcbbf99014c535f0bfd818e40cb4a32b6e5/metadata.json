@@ -1587,6 +1587,48 @@
       "since": "252.18003",
       "until": "252.18003.*",
       "compatibility_overrides": []
+    },
+    "766542": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20203/766542/javaee-app-servers-impl-251.26094.121.zip?updateId=766542&pluginId=20203&family=INTELLIJ",
+      "sha256": "h3d3nr9ngcyMLiNIErdZAyQziHfypwUTtmiOYRBeDmk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.java-i18n",
+        "com.intellij.javaee",
+        "com.intellij.modules.ultimate",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "intellij.profiler.ultimate"
+      ],
+      "file_name": "javaee-app-servers-impl-251.26094.121.zip",
+      "since": "251.26094",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "766849": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20203/766849/javaee-app-servers-impl-252.19874.12.zip?updateId=766849&pluginId=20203&family=INTELLIJ",
+      "sha256": "vWV4+3j2aUpntAE83RSyO14ne/Zay0kHJdAdrIQj0Co=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.java-i18n",
+        "com.intellij.javaee",
+        "com.intellij.modules.ultimate",
+        "com.intellij.properties",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi"
+      ],
+      "optional_dependencies": [
+        "intellij.profiler.ultimate"
+      ],
+      "file_name": "javaee-app-servers-impl-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1671,9 +1713,11 @@
       "243.21565.23": 626511,
       "251.23774.318": 711130,
       "251.25410.28": 723984,
+      "251.26094.121": 766542,
       "252.13776.59": 741410,
       "252.16512.17": 748635,
-      "252.18003.27": 758285
+      "252.18003.27": 758285,
+      "252.19874.12": 766849
     }
   }
 }

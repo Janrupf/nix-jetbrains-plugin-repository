@@ -3449,6 +3449,28 @@
       "since": "252.18003",
       "until": "252.18003.*",
       "compatibility_overrides": []
+    },
+    "766912": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7213/766912/cucumber-groovy-252.19874.12.zip?updateId=766912&pluginId=7213&family=INTELLIJ",
+      "sha256": "rHet0SPBHC6X1CiIqFexSNRcdRFb8btI+qx7UkYkMUA=",
+      "channel": "stable",
+      "dependencies": [
+        "cucumber-java",
+        "gherkin",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cucumber-groovy-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -3677,7 +3699,8 @@
       "251.23774.318": 711119,
       "252.13776.59": 741562,
       "252.16512.17": 748476,
-      "252.18003.27": 758402
+      "252.18003.27": 758402,
+      "252.19874.12": 766912
     }
   }
 }

@@ -54,13 +54,38 @@
       "since": "221.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "764830": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27076/764830/KuiklyIdeaPlugin-1.1.0.jar?updateId=764830&pluginId=27076&family=INTELLIJ",
+      "sha256": "E+5kLReLt6D8YOvmE0F3EvMdes778tjOReBAEHul2jw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "KuiklyIdeaPlugin-1.1.0.jar",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "221.0",
+          "applies_until": "999.99999",
+          "compatible_since": "223.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 716959,
       "1.0.2": 724064,
-      "1.0.3": 724994
+      "1.0.3": 724994,
+      "1.1.0": 764830
     }
   }
 }

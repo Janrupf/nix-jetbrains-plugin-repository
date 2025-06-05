@@ -5305,6 +5305,26 @@
       "since": "252.18003",
       "until": null,
       "compatibility_overrides": []
+    },
+    "766906": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10260/766906/IntelliJIDEAHelp.zip?updateId=766906&pluginId=10260&family=INTELLIJ",
+      "sha256": "Z5vYwyor2gBh6rpiVYIxfHgBLw/1HEOVhRgIKor64NI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJIDEAHelp.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -5713,7 +5733,8 @@
       "251.25410.28": 723990,
       "251.25410.59": 728739,
       "252.13776.59": 741589,
-      "252.18003.27": 758376
+      "252.18003.27": 758376,
+      "252.19874.12": 766906
     }
   }
 }

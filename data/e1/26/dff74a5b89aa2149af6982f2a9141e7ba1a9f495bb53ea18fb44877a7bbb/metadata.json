@@ -1653,6 +1653,49 @@
       "since": "251.26094",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "766951": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23076/766951/amper-252.19874.12.zip?updateId=766951&pluginId=23076&family=INTELLIJ",
+      "sha256": "W7lVC5aUdephO+w/Je8x8ZgqIXAUfcc3V7vqatcVHkw=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "intellij.json.backend",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.yaml.backend",
+        "org.jetbrains.idea.reposearch",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.c.core",
+        "intellij.cidr.execution",
+        "intellij.cidr.workspaceModel",
+        "intellij.ktor",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "intellij.spring.boot.run",
+        "kotlin-ultimate.kotlin-ocswift",
+        "kotlin-ultimate.mobile-native",
+        "kotlin.gradle.gradle",
+        "kotlin.gradle.gradle-java",
+        "kotlin.project-wizard.idea",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "amper-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -1723,7 +1766,8 @@
       "251.26094.98": 758592,
       "252.13776.59": 741500,
       "252.16512.17": 748615,
-      "252.18003.27": 758232
+      "252.18003.27": 758232,
+      "252.19874.12": 766951
     }
   }
 }

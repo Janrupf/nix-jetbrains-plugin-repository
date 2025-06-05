@@ -1379,6 +1379,26 @@
       "since": "252.18003",
       "until": "252.18003.*",
       "compatibility_overrides": []
+    },
+    "766913": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19029/766913/color-scheme-monokai-252.19874.12.zip?updateId=766913&pluginId=19029&family=INTELLIJ",
+      "sha256": "9sfzV00FsG9g94IHLT9u4JxwgFJABtwiXiIRJAm8Ikw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "color-scheme-monokai-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -1492,7 +1512,8 @@
       "251.23774.318": 711009,
       "252.13776.59": 741510,
       "252.16512.17": 748641,
-      "252.18003.27": 758319
+      "252.18003.27": 758319,
+      "252.19874.12": 766913
     }
   }
 }

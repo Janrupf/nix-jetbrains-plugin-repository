@@ -3411,7 +3411,7 @@
       ],
       "file_name": "zencoder-1.11.0.zip",
       "since": "241.14494.127",
-      "until": "243.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3439,7 +3439,7 @@
       ],
       "file_name": "zencoder-1.11.0.zip",
       "since": "241.14494.127",
-      "until": "243.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -8624,6 +8624,52 @@
       "since": "242.20224.91",
       "until": null,
       "compatibility_overrides": []
+    },
+    "766475": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/766475/zencoder-2.3.2.zip?updateId=766475&pluginId=24782&family=INTELLIJ",
+      "sha256": "8azuLfCwa7gOnbzY8IPcf1rQJAEiKPMKqznSOyYIYPM=",
+      "channel": "nightly",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.3.2.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "766476": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/766476/zencoder-2.3.2.zip?updateId=766476&pluginId=24782&family=INTELLIJ",
+      "sha256": "8azuLfCwa7gOnbzY8IPcf1rQJAEiKPMKqznSOyYIYPM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.3.2.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -8981,7 +9027,8 @@
       "2.3.0-nightly.7": 764813,
       "2.3.0-nightly.8": 765443,
       "2.3.0-nightly.9": 765919,
-      "2.3.1": 765386
+      "2.3.1": 765386,
+      "2.3.2": 766475
     },
     "stable": {
       "0.0.1": 570685,
@@ -9037,7 +9084,8 @@
       "2.2.1": 754630,
       "2.2.2": 754776,
       "2.3.0": 764307,
-      "2.3.1": 765387
+      "2.3.1": 765387,
+      "2.3.2": 766476
     }
   }
 }

@@ -640,6 +640,28 @@
       "since": "252.18003",
       "until": "252.18003.*",
       "compatibility_overrides": []
+    },
+    "766948": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/137/766948/testng-252.19874.12.zip?updateId=766948&pluginId=137&family=INTELLIJ",
+      "sha256": "G0Ht+h13nbt3zbCEh/L4F/UcM2tXVrYmMGimEMnb/t0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "testng-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -700,7 +722,8 @@
       "1.1.1": 3670,
       "252.13776.59": 744074,
       "252.16512.17": 748507,
-      "252.18003.27": 758205
+      "252.18003.27": 758205,
+      "252.19874.12": 766948
     }
   }
 }

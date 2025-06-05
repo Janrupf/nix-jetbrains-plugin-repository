@@ -217,6 +217,30 @@
       "since": "252.18003",
       "until": "252.18003.*",
       "compatibility_overrides": []
+    },
+    "766934": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25364/766934/json-252.19874.12.zip?updateId=766934&pluginId=25364&family=INTELLIJ",
+      "sha256": "jwVyVY+rBNdcmZ19QOIecjI/wId9IlrYefqVKVBnPjM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.json",
+        "intellij.platform.backend",
+        "intellij.platform.frontend.split"
+      ],
+      "file_name": "json-252.19874.12.zip",
+      "since": "252.19874",
+      "until": "252.19874.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -240,7 +264,8 @@
       "243.26574.91": 757289,
       "251.23774.318": 711176,
       "251.25410.28": 724050,
-      "252.18003.27": 758331
+      "252.18003.27": 758331,
+      "252.19874.12": 766934
     }
   }
 }
