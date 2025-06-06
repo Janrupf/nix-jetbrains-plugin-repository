@@ -3570,22 +3570,6 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "766709": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/13820/766709/zio-intellij-2025.1.41.0.zip?updateId=766709&pluginId=13820&family=INTELLIJ",
-      "sha256": "/Nwrqgk5G1cRW4/xAWjLDeKkfaadKUv27twsPHsMe9s=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "org.intellij.scala"
-      ],
-      "optional_dependencies": [],
-      "file_name": "zio-intellij-2025.1.41.0.zip",
-      "since": "251.0",
-      "until": "251.*",
-      "compatibility_overrides": []
-    },
     "767395": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13820/767395/zio-intellij-2025.1.41.1804.zip?updateId=767395&pluginId=13820&family=INTELLIJ",
       "sha256": "F1GMQknWXRRLpVCTSSlB2+2pEbTtMKYzE0UYwrLnEQo=",
@@ -3599,6 +3583,22 @@
       "optional_dependencies": [],
       "file_name": "zio-intellij-2025.1.41.1804.zip",
       "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "768281": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13820/768281/zio-intellij-2025.1.41.1805.zip?updateId=768281&pluginId=13820&family=INTELLIJ",
+      "sha256": "rCdv/jKItP87bBqUJdcbtR9jtLYsuUqrlt+p+j+FWSk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.intellij.scala"
+      ],
+      "optional_dependencies": [],
+      "file_name": "zio-intellij-2025.1.41.1805.zip",
+      "since": "251.25410",
       "until": "251.*",
       "compatibility_overrides": []
     }
@@ -3750,7 +3750,8 @@
       "2025.1.35.1666": 668402,
       "2025.1.36.1667": 668406,
       "2025.1.40.1755": 718313,
-      "2025.1.41.1804": 767395
+      "2025.1.41.1804": 767395,
+      "2025.1.41.1805": 768281
     },
     "stable": {
       "2019.3.0.3": 78804,
@@ -3830,8 +3831,7 @@
       "2024.2.35.0": 619133,
       "2024.3.35.0": 633927,
       "2024.3.36.0": 668405,
-      "2025.1.40.0": 718194,
-      "2025.1.41.0": 766709
+      "2025.1.40.0": 718194
     }
   }
 }

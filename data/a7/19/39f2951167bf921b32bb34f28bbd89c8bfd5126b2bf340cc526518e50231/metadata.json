@@ -17,11 +17,28 @@
       "since": "241.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "767946": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27551/767946/CodeComplex-1.1.zip?updateId=767946&pluginId=27551&family=INTELLIJ",
+      "sha256": "p5pXOrzEK2TtZBufMrPazUFRiqJgu4YL/c+R/0fpWXA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CodeComplex-1.1.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0": 766566
+      "1.0": 766566,
+      "1.1": 767946
     }
   }
 }

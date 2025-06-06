@@ -1347,6 +1347,115 @@
       "since": "221.0",
       "until": "231.*",
       "compatibility_overrides": []
+    },
+    "767937": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/767937/Smart_Input_Pro-2.3.2_212u213.zip?updateId=767937&pluginId=25280&family=INTELLIJ",
+      "sha256": "ulR2OnzL2RCQj4B6rfP78LVODo5oAqEGMGBWU2SHbsI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Smart_Input_Pro-2.3.2_212u213.zip",
+      "since": "212.0",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "767940": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/767940/Smart_Input_Pro-2.3.2_211.zip?updateId=767940&pluginId=25280&family=INTELLIJ",
+      "sha256": "gsXXS3f8ks0SmTWE5WAgNngmUqwG08Lhh7ObmPQvrYU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Smart_Input_Pro-2.3.2_211.zip",
+      "since": "211.0",
+      "until": "211.*",
+      "compatibility_overrides": []
+    },
+    "767942": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/767942/Smart_Input_Pro-2.3.2_202u203.zip?updateId=767942&pluginId=25280&family=INTELLIJ",
+      "sha256": "IpqShCUUjnVrHbSUSDRpo4P2bIa5VdkrlbAKL8vNKLA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Smart_Input_Pro-2.3.2_202u203.zip",
+      "since": "202.0",
+      "until": "203.*",
+      "compatibility_overrides": []
+    },
+    "767944": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/767944/Smart_Input_Pro-2.3.2-pycharm.zip?updateId=767944&pluginId=25280&family=INTELLIJ",
+      "sha256": "r+K7Wrm8qUqwVXSvJyeU1K+TxE3MC+NyqneHiR88B5k=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Smart_Input_Pro-2.3.2-pycharm.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "767945": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/767945/Smart_Input_Pro-2.3.2-pycharm_221u231.zip?updateId=767945&pluginId=25280&family=INTELLIJ",
+      "sha256": "S8N8i5Khz+Qmn9G17GVUIoAfj6k7nq3D/zIPu6BjkII=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Smart_Input_Pro-2.3.2-pycharm_221u231.zip",
+      "since": "221.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "767950": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/767950/Smart_Input_Pro-2.3.2-goland.zip?updateId=767950&pluginId=25280&family=INTELLIJ",
+      "sha256": "S7jjHm7A3WT2kEssKkOukoly3Fi1IQMekksHdT+6UoY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Smart_Input_Pro-2.3.2-goland.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "767951": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/767951/Smart_Input_Pro-2.3.2-goland_221u231.zip?updateId=767951&pluginId=25280&family=INTELLIJ",
+      "sha256": "OuAHrfeUXWwpzafyWttSZM0PIIwfE+EVtJ7JfYL4Voc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Smart_Input_Pro-2.3.2-goland_221u231.zip",
+      "since": "221.0",
+      "until": "231.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1434,7 +1543,14 @@
       "2.3.1-pycharm": 763712,
       "2.3.1-pycharm+221u231": 763994,
       "2.3.2": 765459,
-      "2.3.2+221u231": 765460
+      "2.3.2+202u203": 767942,
+      "2.3.2+211": 767940,
+      "2.3.2+212u213": 767937,
+      "2.3.2+221u231": 765460,
+      "2.3.2-goland": 767950,
+      "2.3.2-goland+221u231": 767951,
+      "2.3.2-pycharm": 767944,
+      "2.3.2-pycharm+221u231": 767945
     }
   }
 }

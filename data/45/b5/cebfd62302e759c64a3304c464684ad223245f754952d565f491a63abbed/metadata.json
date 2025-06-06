@@ -152,6 +152,24 @@
           "compatible_until": "252.*"
         }
       ]
+    },
+    "767935": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/767935/jtools-1.0.8.zip?updateId=767935&pluginId=25448&family=INTELLIJ",
+      "sha256": "UTVHhF8i6hUk0iFzJPG4vPJJwXc6mQgEI3l7UXSbF6Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle.dependency.updater",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jtools-1.0.8.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -163,7 +181,8 @@
       "1.0.4": 655146,
       "1.0.5": 659130,
       "1.0.6": 720391,
-      "1.0.7": 760844
+      "1.0.7": 760844,
+      "1.0.8": 767935
     }
   }
 }

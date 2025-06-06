@@ -29,12 +29,27 @@
       "since": "233.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "767828": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27501/767828/swls-1.2-SNAPSHOT.zip?updateId=767828&pluginId=27501&family=INTELLIJ",
+      "sha256": "N0iuOkwRCIgO8t7zXRZVyD/zlVFKoh1BTWD30KkweC8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "swls-1.2-SNAPSHOT.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0-SNAPSHOT": 759262,
-      "1.1-SNAPSHOT": 759266
+      "1.1-SNAPSHOT": 759266,
+      "1.2-SNAPSHOT": 767828
     }
   }
 }

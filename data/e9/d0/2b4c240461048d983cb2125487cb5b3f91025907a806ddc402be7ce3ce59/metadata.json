@@ -61,13 +61,29 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "767839": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26381/767839/Home_Assistant_IntelliJ_Plugin-0.0.5-SNAPSHOT-signed.zip?updateId=767839&pluginId=26381&family=INTELLIJ",
+      "sha256": "bJ/E/Ut0+PY8GP8lRWUKFAsZ1FrmbKDPpQNKFe9hoew=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Home_Assistant_IntelliJ_Plugin-0.0.5-SNAPSHOT-signed.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "alpha": {
       "0.0.1": 671019,
       "0.0.2": 675984,
-      "0.0.3": 700576
+      "0.0.3": 700576,
+      "0.0.5-SNAPSHOT": 767839
     },
     "stable": {
       "0.0.4": 727940
