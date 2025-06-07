@@ -141,6 +141,33 @@
       "since": "243.21155.17",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "768110": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25655/768110/openbpm-studio-1.0.0-beta.3-251.zip?updateId=768110&pluginId=25655&family=INTELLIJ",
+      "sha256": "a/gGXQciLo2/rblgShYVYITE4OdIor18JCfnzS0PMZI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "openbpm-studio-1.0.0-beta.3-251.zip",
+      "since": "251.22821.72",
+      "until": "251.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.22821.72",
+          "applies_until": "999.99999",
+          "compatible_since": "251.22821.72",
+          "compatible_until": "251.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -151,7 +178,8 @@
       "1.0.0-beta.2-242": 706977,
       "1.0.0-beta.2-243": 706978,
       "1.0.0-beta.3-242": 765417,
-      "1.0.0-beta.3-243": 765419
+      "1.0.0-beta.3-243": 765419,
+      "1.0.0-beta.3-251": 768110
     }
   }
 }

@@ -19,11 +19,49 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "768801": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27488/768801/open-telemetry-plugin-0.0.2-signed.zip?updateId=768801&pluginId=27488&family=INTELLIJ",
+      "sha256": "GOzlEgM25IVyunvcn+GkPRYCY+iaf0ns9F/h7CKJBG4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.diagram",
+        "com.intellij.modules.json",
+        "com.intellij.modules.rider",
+        "opentelemetry.core"
+      ],
+      "file_name": "open-telemetry-plugin-0.0.2-signed.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "768944": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27488/768944/open-telemetry-plugin-0.0.3-signed.zip?updateId=768944&pluginId=27488&family=INTELLIJ",
+      "sha256": "O6Y9PSYgCdXuyMNwi4E7u6TPCLalv+Er1RfOXdeBRwo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [
+        "com.intellij.diagram",
+        "com.intellij.modules.json",
+        "opentelemetry.core"
+      ],
+      "file_name": "open-telemetry-plugin-0.0.3-signed.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 757233
+      "0.0.1": 757233,
+      "0.0.2": 768801,
+      "0.0.3": 768944
     }
   }
 }
