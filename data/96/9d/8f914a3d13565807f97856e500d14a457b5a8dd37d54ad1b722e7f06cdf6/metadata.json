@@ -17,11 +17,28 @@
       "since": "221.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "769927": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27284/769927/stream-navigator-1.1-SNAPSHOT.zip?updateId=769927&pluginId=27284&family=INTELLIJ",
+      "sha256": "TEFSfU80LknMQb3w6I/Rk9tM3Y3G1IA07K1W7I0FbCA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "stream-navigator-1.1-SNAPSHOT.zip",
+      "since": "221.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 734706
+      "1.0-SNAPSHOT": 734706,
+      "1.1-SNAPSHOT": 769927
     }
   }
 }

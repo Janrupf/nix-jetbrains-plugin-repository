@@ -735,6 +735,40 @@
       "since": "223.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "770011": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17747/770011/spring-boot-assistant-601.0.2_242.zip?updateId=770011&pluginId=17747&family=INTELLIJ",
+      "sha256": "esOEW0JxbPoizVE/BS+F/LB8mpAIPO5bxPRQxLxBzek=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "spring-boot-assistant-601.0.2_242.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "770014": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17747/770014/spring-boot-assistant-601.0.2_223.zip?updateId=770014&pluginId=17747&family=INTELLIJ",
+      "sha256": "4Vm7t6l8agzDZCN03bsVClq79j6CqiaDx1KUOil+0Wc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "spring-boot-assistant-601.0.2_223.zip",
+      "since": "223.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -777,7 +811,9 @@
       "601.0.0+223": 690058,
       "601.0.0+242": 690049,
       "601.0.1+223": 694249,
-      "601.0.1+242": 694223
+      "601.0.1+242": 694223,
+      "601.0.2+223": 770014,
+      "601.0.2+242": 770011
     }
   }
 }

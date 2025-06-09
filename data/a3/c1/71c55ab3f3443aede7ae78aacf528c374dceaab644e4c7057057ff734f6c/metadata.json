@@ -92,10 +92,25 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "770025": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27274/770025/fix-viewer-0.0.10-signed.zip?updateId=770025&pluginId=27274&family=INTELLIJ",
+      "sha256": "Zei5tT9oB16/AS3NXdndQo+uMkHCow4hNeP+xtCXFcg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fix-viewer-0.0.10-signed.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.0.10": 770025,
       "0.0.2": 735865,
       "0.0.3": 741962,
       "0.0.4": 747625,

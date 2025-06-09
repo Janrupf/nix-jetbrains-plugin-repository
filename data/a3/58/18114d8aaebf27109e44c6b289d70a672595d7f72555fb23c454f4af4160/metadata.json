@@ -2437,11 +2437,40 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "769278": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/769278/codeium-2.2.0.zip?updateId=769278&pluginId=20540&family=INTELLIJ",
+      "sha256": "M4rZBpG4wL+vll9rWO2Vc4Rwht5PHpVn0M2+rtIAA1E=",
+      "channel": "android-studio",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeium-2.2.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "769283": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/769283/codeium-2.3.0.zip?updateId=769283&pluginId=20540&family=INTELLIJ",
+      "sha256": "rvWuc1abQxWhiWHTa6pJc+LWEhBKGqhVcEjpNheIt7o=",
+      "channel": "pre-release",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeium-2.3.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "android-studio": {
-      "1.0.0": 750713
+      "1.0.0": 750713,
+      "2.2.0": 769278
     },
     "pre-release": {
       "1.31.14": 654896,
@@ -2477,7 +2506,8 @@
       "2.1.3": 748209,
       "2.1.4": 752244,
       "2.1.6": 765910,
-      "2.1.7": 765368
+      "2.1.7": 765368,
+      "2.3.0": 769283
     },
     "stable": {
       "1.0.2": 258517,
