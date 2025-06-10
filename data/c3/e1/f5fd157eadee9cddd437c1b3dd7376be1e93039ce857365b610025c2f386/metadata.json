@@ -2,23 +2,6 @@
   "xml_id": "works.szabope.pylint",
   "numeric_id": 26358,
   "updates": {
-    "670090": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26358/670090/PyLint_PyCharm_Plugin-0.0.4-signed.zip?updateId=670090&pluginId=26358&family=INTELLIJ",
-      "sha256": "b0RrPcpSGUExS7GvERFhHOTwKa2U9M6rsf+olYXxjD8=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python",
-        "org.jetbrains.plugins.terminal"
-      ],
-      "optional_dependencies": [],
-      "file_name": "PyLint_PyCharm_Plugin-0.0.4-signed.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "685265": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26358/685265/PyLint_PyCharm_Plugin-0.1.0-signed.zip?updateId=685265&pluginId=26358&family=INTELLIJ",
       "sha256": "NcRZzAZH93qNUPfIAUF3mQJZkRwMShBA9vJ07QWJR0g=",
@@ -36,23 +19,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "739167": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26358/739167/PyLint_PyCharm_Plugin-0.1.1-signed.zip?updateId=739167&pluginId=26358&family=INTELLIJ",
-      "sha256": "UP7Uy1IFbn5EQGklUIckirA1uwR2AcuvfqsE41TFef4=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python",
-        "org.jetbrains.plugins.terminal"
-      ],
-      "optional_dependencies": [],
-      "file_name": "PyLint_PyCharm_Plugin-0.1.1-signed.zip",
-      "since": "251.1",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "750061": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26358/750061/PyLint_PyCharm_Plugin-0.1.2-signed.zip?updateId=750061&pluginId=26358&family=INTELLIJ",
       "sha256": "elrkjfOq7x99QJK5qbVco3N8n9rMlTsy63OPB5HYBTw=",
@@ -67,48 +33,38 @@
       "optional_dependencies": [],
       "file_name": "PyLint_PyCharm_Plugin-0.1.2-signed.zip",
       "since": "251.1",
-      "until": "251.1",
+      "until": "251.26094",
       "compatibility_overrides": [
         {
           "applies_since": "251.1",
           "applies_until": "999.99999",
           "compatible_since": "251.1",
-          "compatible_until": "251.1"
+          "compatible_until": "251.26094"
         }
       ]
     },
-    "769955": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26358/769955/pylint-0.1.3-signed.zip?updateId=769955&pluginId=26358&family=INTELLIJ",
-      "sha256": "GckXE5gCFxrRtt97FVmWz35XZYrdg2yAAs/dexCKvQU=",
+    "770159": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26358/770159/pylint-0.1.4-signed.zip?updateId=770159&pluginId=26358&family=INTELLIJ",
+      "sha256": "ZcN8AvhqyrhDeIBaUHHYYlD2OeQBuMSzCY9kU9xC6so=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python",
-        "org.jetbrains.plugins.terminal"
+        "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "pylint-0.1.3-signed.zip",
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pylint-0.1.4-signed.zip",
       "since": "251.1",
-      "until": "251.1.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "251.1",
-          "applies_until": "251.*",
-          "compatible_since": "251.1",
-          "compatible_until": "251.1.*"
-        }
-      ]
+      "until": "251.26094",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.4": 670090,
       "0.1.0": 685265,
-      "0.1.1": 739167,
       "0.1.2": 750061,
-      "0.1.3": 769955
+      "0.1.4": 770159
     }
   }
 }
