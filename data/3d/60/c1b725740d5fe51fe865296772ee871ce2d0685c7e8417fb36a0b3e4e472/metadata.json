@@ -14,11 +14,39 @@
       "since": "232.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "771166": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27599/771166/PondBrains-1.0.1.zip?updateId=771166&pluginId=27599&family=INTELLIJ",
+      "sha256": "7guB/O7Kd8l5vx568hBxZ6peRZUOuuMKPqPlFz3ZFJo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "PondBrains-1.0.1.zip",
+      "since": "232.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "771441": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27599/771441/PondBrains-1.0.2.zip?updateId=771441&pluginId=27599&family=INTELLIJ",
+      "sha256": "3K1SwinoA2MrjVCWzREKFiooS3WWMTFKlNUkQ277GAg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "PondBrains-1.0.2.zip",
+      "since": "232.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 770104
+      "1.0-SNAPSHOT": 770104,
+      "1.0.1": 771166,
+      "1.0.2": 771441
     }
   }
 }

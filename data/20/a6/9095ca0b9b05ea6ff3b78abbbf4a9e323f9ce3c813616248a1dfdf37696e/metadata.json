@@ -654,6 +654,34 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "770532": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20554/770532/magento-support-2025.2.0.jar.zip?updateId=770532&pluginId=20554&family=INTELLIJ",
+      "sha256": "kcClUwerzfT6LsBFOshhYpKzl8QHjf1/SLMFQ1cl5jo=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.diagram",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml",
+        "com.intellij.platform.images",
+        "com.jetbrains.php",
+        "intellij.platform.lvcs.impl",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.lang.jsgraphql"
+      ],
+      "file_name": "magento-support-2025.2.0.jar.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -681,7 +709,8 @@
       "2024.3.0": 612093,
       "2024.3.1": 637998,
       "2025.1.0": 668589,
-      "2025.1.1": 706335
+      "2025.1.1": 706335,
+      "2025.2.0": 770532
     }
   }
 }

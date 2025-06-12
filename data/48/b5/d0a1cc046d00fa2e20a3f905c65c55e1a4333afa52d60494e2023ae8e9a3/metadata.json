@@ -1,6 +1,24 @@
 {
   "xml_id": "org.kiwi.lang",
   "numeric_id": 27502,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "770096": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27502/770096/intellij-kiwi-1.0-SNAPSHOT.zip?updateId=770096&pluginId=27502&family=INTELLIJ",
+      "sha256": "YGR/gpAZWPg4KlN0cPhZzanx1CfpUns1W7USfUD5gAw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-kiwi-1.0-SNAPSHOT.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0-SNAPSHOT": 770096
+    }
+  }
 }
