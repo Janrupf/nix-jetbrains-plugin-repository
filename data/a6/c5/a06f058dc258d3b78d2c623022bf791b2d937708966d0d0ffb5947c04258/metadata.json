@@ -13976,6 +13976,44 @@
           "compatible_until": "252.19874.*"
         }
       ]
+    },
+    "772740": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9568/772740/go-plugin-252.21735.32.zip?updateId=772740&pluginId=9568&family=INTELLIJ",
+      "sha256": "6jFq6HZkLAeJ0R42PiU6ruMGIdP1mex5BV5NZYEiAPc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.diagram",
+        "com.intellij.microservices.ui",
+        "com.intellij.plugins.watcher",
+        "com.jetbrains.sh",
+        "intellij.clouds.docker",
+        "intellij.indexing.shared.generator",
+        "intellij.platform.coverage",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.common",
+        "intellij.rml.dfa.impl",
+        "org.intellij.intelliLang",
+        "org.jetbrains.plugins.go-template",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi",
+        "training"
+      ],
+      "file_name": "go-plugin-252.21735.32.zip",
+      "since": "252.21735",
+      "until": "252.21735.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -14645,7 +14683,8 @@
       "252.13776.59": 741523,
       "252.16512.17": 748495,
       "252.18003.27": 758454,
-      "252.19874.12": 766950
+      "252.19874.12": 766950,
+      "252.21735.32": 772740
     }
   }
 }

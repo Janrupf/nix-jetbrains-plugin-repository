@@ -76,9 +76,27 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "772954": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25828/772954/log-idea-2025.1.1-eap.zip?updateId=772954&pluginId=25828&family=INTELLIJ",
+      "sha256": "kbKaYQwVOCgIYMlDAMqEY6ZWoQ1jXXEfNyWkNgxzC/A=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java-capable",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "log-idea-2025.1.1-eap.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "2025.1.1-eap": 772954
+    },
     "stable": {
       "2024.1.3": 639752,
       "2024.1.5": 654911,
