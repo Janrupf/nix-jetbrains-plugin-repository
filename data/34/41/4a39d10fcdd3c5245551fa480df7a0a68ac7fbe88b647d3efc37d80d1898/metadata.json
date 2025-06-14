@@ -35911,6 +35911,102 @@
       "since": "252.21735",
       "until": "252.21735.*",
       "compatibility_overrides": []
+    },
+    "773792": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12775/773792/nativeDebug-plugin-252.22577.0.zip?updateId=773792&pluginId=12775&family=INTELLIJ",
+      "sha256": "pcY4JygQam7zz54wWr7EylEa9EyoMgZIvsK/LysRO6Y=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.nativeDebug-plugin-capable",
+        "com.intellij.platform.images",
+        "intellij.cidr.debugger.backend"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nativeDebug-plugin-252.22577.0.zip",
+      "since": "252.22577",
+      "until": "252.22577",
+      "compatibility_overrides": []
+    },
+    "773826": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12775/773826/nativeDebug-plugin-252.21735.39.zip?updateId=773826&pluginId=12775&family=INTELLIJ",
+      "sha256": "fA+DDwNz+OxwovMyko8dNJlW4pfEDOb+qvQF/zuIURA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.nativeDebug-plugin-capable",
+        "com.intellij.platform.images"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nativeDebug-plugin-252.21735.39.zip",
+      "since": "252.21735",
+      "until": "252.21735.*",
+      "compatibility_overrides": []
+    },
+    "773997": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12775/773997/nativeDebug-plugin-252.22656.0.zip?updateId=773997&pluginId=12775&family=INTELLIJ",
+      "sha256": "bhxYV0ijrDGM/NyXN/iua+UJU+ZUCpVrzV8GTJN3QiA=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.nativeDebug-plugin-capable",
+        "com.intellij.platform.images",
+        "intellij.cidr.core",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.util.execution"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nativeDebug-plugin-252.22656.0.zip",
+      "since": "252.22656",
+      "until": "252.22656",
+      "compatibility_overrides": []
+    },
+    "774400": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12775/774400/nativeDebug-plugin-252.22728.0.zip?updateId=774400&pluginId=12775&family=INTELLIJ",
+      "sha256": "VADE8zPbsDdDbsxdy6qZLi6P6c7rqKWphiQ50AuHnJs=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.nativeDebug-plugin-capable",
+        "com.intellij.platform.images",
+        "intellij.cidr.core",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.util.execution"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nativeDebug-plugin-252.22728.0.zip",
+      "since": "252.22728",
+      "until": "252.22728",
+      "compatibility_overrides": []
+    },
+    "774450": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12775/774450/nativeDebug-plugin-242.27348.zip?updateId=774450&pluginId=12775&family=INTELLIJ",
+      "sha256": "uL58Gt10xtMvwOU43+aHBMerqPIIwjg/EPlL7wFqNiw=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.nativeDebug-plugin-capable"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nativeDebug-plugin-242.27348.zip",
+      "since": "242.27348",
+      "until": "242.27348",
+      "compatibility_overrides": []
+    },
+    "774452": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12775/774452/nativeDebug-plugin-252.22791.0.zip?updateId=774452&pluginId=12775&family=INTELLIJ",
+      "sha256": "QoaYMi7s55NJGeX2DQqOxGIJutrUZLRRe7J77nWIyro=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.nativeDebug-plugin-capable",
+        "com.intellij.platform.images",
+        "intellij.cidr.core",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.util.execution"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nativeDebug-plugin-252.22791.0.zip",
+      "since": "252.22791",
+      "until": "252.22791",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -37073,6 +37169,7 @@
       "242.27295": 770230,
       "242.27311": 770677,
       "242.27326": 771513,
+      "242.27348": 774450,
       "243.10004": 589861,
       "243.10013": 589864,
       "243.10024": 589875,
@@ -38177,6 +38274,10 @@
       "252.22000.0": 770694,
       "252.22161.0": 771480,
       "252.2256": 690525,
+      "252.22577.0": 773792,
+      "252.22656.0": 773997,
+      "252.22728.0": 774400,
+      "252.22791.0": 774452,
       "252.2289": 690560,
       "252.2421": 690886,
       "252.2498": 691498,
@@ -38578,7 +38679,8 @@
       "252.16512.17": 748529,
       "252.18003.27": 758397,
       "252.19874.12": 766797,
-      "252.21735.26": 772101
+      "252.21735.26": 772101,
+      "252.21735.39": 773826
     }
   }
 }

@@ -46,13 +46,29 @@
       "since": "241.19416.15",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "773785": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26519/773785/intellij-plugin-0.33.0-signed.zip?updateId=773785&pluginId=26519&family=INTELLIJ",
+      "sha256": "A4yLtvok0tuHtcVvrybMaNNAFkhinoL9DnzFcZVCaCU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-plugin-0.33.0-signed.zip",
+      "since": "243.26053.27",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.30.0": 679701,
       "0.31.0": 696171,
-      "0.32.0": 707479
+      "0.32.0": 707479,
+      "0.33.0": 773785
     }
   }
 }

@@ -114,6 +114,23 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "774403": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22746/774403/flutter_arb_action-signed.zip?updateId=774403&pluginId=22746&family=INTELLIJ",
+      "sha256": "LzQNKJdNejrbnKmG/Gu5xVhj/xaa+fwia6IzX5IMFUo=",
+      "channel": "stable",
+      "dependencies": [
+        "Dart",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.localizely.flutter-intl",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flutter_arb_action-signed.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -124,7 +141,8 @@
       "1.0.3": 561182,
       "1.0.4": 628033,
       "2.0.0": 762636,
-      "2.0.1": 773032
+      "2.0.1": 773032,
+      "2.0.1+243-251": 774403
     }
   }
 }
