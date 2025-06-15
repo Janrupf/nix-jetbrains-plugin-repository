@@ -16,11 +16,27 @@
       "since": "241.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "774883": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24319/774883/Attachi-0.4.0-signed.zip?updateId=774883&pluginId=24319&family=INTELLIJ",
+      "sha256": "HogeqOGG1GUquLgmBYUDP/zA9x8e0Ge5RCB3jNOqHaU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.rider",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Attachi-0.4.0-signed.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.3.1": 530912
+      "0.3.1": 530912,
+      "0.4.0": 774883
     }
   }
 }

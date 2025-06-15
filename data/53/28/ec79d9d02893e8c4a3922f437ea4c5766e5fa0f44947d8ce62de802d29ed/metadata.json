@@ -18,11 +18,47 @@
       "since": "222.0",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "775170": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27627/775170/intellij-maven-project-version-plugin.maven-search-2.2.1.1.zip?updateId=775170&pluginId=27627&family=INTELLIJ",
+      "sha256": "GT5gKH5OBLu3mzfj+Q52D1ceHDLuM2lOug9dpnLCo4s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-search-2.2.1.1.zip",
+      "since": "191.0",
+      "until": "221.*",
+      "compatibility_overrides": []
+    },
+    "775179": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27627/775179/intellij-maven-project-version-plugin.maven-search-2.2.3.1.zip?updateId=775179&pluginId=27627&family=INTELLIJ",
+      "sha256": "R0XsUSFlAb9D7rnI6to+ZdkDZJ7Bh3t/FaDoW/TXBcY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-search-2.2.3.1.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.2.2.1": 773027
+      "2.2.1.1": 775170,
+      "2.2.2.1": 773027,
+      "2.2.3.1": 775179
     }
   }
 }
