@@ -14,10 +14,26 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "775572": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26982/775572/app-mod-intellij-extension-1.0-SNAPSHOT.zip?updateId=775572&pluginId=26982&family=INTELLIJ",
+      "sha256": "1yj+ZFSnyaQgUHVwGZGswtpuC6Ji55jkt4QKFPMP1Qo=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "app-mod-intellij-extension-1.0-SNAPSHOT.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "preview": {
+      "1.0-SNAPSHOT": 775572,
       "1.1-SNAPSHOT": 707499
     }
   }

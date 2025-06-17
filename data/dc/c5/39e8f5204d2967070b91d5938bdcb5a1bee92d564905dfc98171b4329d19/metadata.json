@@ -18,14 +18,42 @@
           "applies_since": "231.0",
           "applies_until": "270.*",
           "compatible_since": "231.0",
-          "compatible_until": "270"
+          "compatible_until": "999.99999"
         }
       ]
+    },
+    "776349": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27640/776349/intellij-gltf-viewer-plugin-0.1.1.jar?updateId=776349&pluginId=27640&family=INTELLIJ",
+      "sha256": "J96uAsfUz8JGq6UJgrd64UnrWqGIjC0KR1YYdsgM3aw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gltf-viewer-plugin-0.1.1.jar",
+      "since": "231.0",
+      "until": "270.*",
+      "compatibility_overrides": []
+    },
+    "776350": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27640/776350/intellij-gltf-viewer-plugin-0.1.2.jar?updateId=776350&pluginId=27640&family=INTELLIJ",
+      "sha256": "iU+TDy/ym6f1PCq6odBdo/gm4wvVvBXZc0oU1CRuKl8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gltf-viewer-plugin-0.1.2.jar",
+      "since": "231.0",
+      "until": "270.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 773992
+      "0.1.0": 773992,
+      "0.1.1": 776349,
+      "0.1.2": 776350
     }
   }
 }

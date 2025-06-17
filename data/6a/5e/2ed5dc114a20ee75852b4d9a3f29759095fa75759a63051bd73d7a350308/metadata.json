@@ -34434,15 +34434,56 @@
       ],
       "file_name": "intellij-rust-252.18003.32.zip",
       "since": "252.18003",
-      "until": "252.19874.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "252.18003",
-          "applies_until": "252.18003.*",
-          "compatible_since": "252.18003",
-          "compatible_until": "252.19874.*"
-        }
-      ]
+      "until": "252.18003.*",
+      "compatibility_overrides": []
+    },
+    "775632": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/775632/intellij-rust-252.21735.37.zip?updateId=775632&pluginId=22407&family=INTELLIJ",
+      "sha256": "v8U0Oy9nY1uKt0D1068dC13VgWZf766/JDxlZqufIzc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.rust-capable",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.toml.json",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.clion",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.modules.duplicatesDetector",
+        "com.intellij.modules.rustrover",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.execution",
+        "intellij.cidr.profiling",
+        "intellij.cidr.runner",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.execution",
+        "intellij.clion.profiling",
+        "intellij.clion.toolchains",
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.privacy.shared",
+        "intellij.platform.coverage",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.clion",
+        "intellij.profiler.common",
+        "intellij.rustrover.debugger",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi"
+      ],
+      "file_name": "intellij-rust-252.21735.37.zip",
+      "since": "252.21735",
+      "until": "252.21735.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -35341,7 +35382,8 @@
       "252.13776.69": 742832,
       "252.13776.75": 743596,
       "252.16512.28": 749869,
-      "252.18003.32": 759244
+      "252.18003.32": 759244,
+      "252.21735.37": 775632
     },
     "super-early-bird": {
       "0.4.201.5469-232-super-early-bird": 385597,
