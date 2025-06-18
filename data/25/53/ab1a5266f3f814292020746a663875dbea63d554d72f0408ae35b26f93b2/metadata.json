@@ -108,13 +108,31 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "777446": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26143/777446/fleet-plugins-devkit-intellij-253.190.0.zip?updateId=777446&pluginId=26143&family=INTELLIJ",
+      "sha256": "uJTbHuFItV0MGunICUQQpS5eSCOnWhjk5Wyd9qkf79c=",
+      "channel": "nightly",
+      "dependencies": [
+        "DevKit",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fleet-plugins-devkit-intellij-253.190.0.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
       "251.12517": 653412,
       "251.19961": 675541,
-      "251.23070": 690265
+      "251.23070": 690265,
+      "253.190.0": 777446
     },
     "stable": {
       "251.20833": 677620,
