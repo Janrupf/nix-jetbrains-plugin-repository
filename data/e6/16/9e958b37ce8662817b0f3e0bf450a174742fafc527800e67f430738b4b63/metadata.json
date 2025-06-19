@@ -13392,6 +13392,33 @@
       "since": "252.21735",
       "until": "252.21735.*",
       "compatibility_overrides": []
+    },
+    "777911": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/777911/clouds-docker-impl-252.23309.5.zip?updateId=777911&pluginId=7724&family=INTELLIJ",
+      "sha256": "HJyQWeN3o/NeV5hpjGO9S2+TKqO0ccJhv1gvMVWrej4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ktor.client"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.ssh",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.shared",
+        "intellij.platform.backend",
+        "intellij.platform.clouds",
+        "intellij.platform.frontend.split",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "clouds-docker-impl-252.23309.5.zip",
+      "since": "252.23309",
+      "until": "252.23309.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -14111,6 +14138,7 @@
       "252.19874.20": 766821,
       "252.21735.32": 772772,
       "252.21735.36": 775606,
+      "252.23309.5": 777911,
       "3.0.0": 36829,
       "3.0.1": 37263
     }

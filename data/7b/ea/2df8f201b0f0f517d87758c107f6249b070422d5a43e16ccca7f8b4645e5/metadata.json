@@ -40,13 +40,41 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "777728": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24953/777728/Fast_Droid.zip?updateId=777728&pluginId=24953&family=INTELLIJ",
+      "sha256": "aQllXFvI7F8Tg6F0S+df2IUfIlOgMT+eSzG9aSWXVv0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Fast_Droid.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "778256": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24953/778256/app.zip?updateId=778256&pluginId=24953&family=INTELLIJ",
+      "sha256": "YfeTSp0YML9iNeWJqKylRq5heQBdpSJ5S84Jh52c21g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "app.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.1": 578207,
       "1.1.2": 580629,
-      "1.1.3": 775620
+      "1.1.3": 775620,
+      "1.1.4": 777728,
+      "1.1.5": 778256
     }
   }
 }

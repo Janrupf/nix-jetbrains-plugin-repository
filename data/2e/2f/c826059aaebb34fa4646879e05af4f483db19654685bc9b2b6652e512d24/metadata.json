@@ -16,11 +16,27 @@
       "since": "173.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "777956": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14787/777956/plugins-idea.jar?updateId=777956&pluginId=14787&family=INTELLIJ",
+      "sha256": "HDbFqxWWa9bFI01lTJCUZHjGBTnQpzQohlYfxcfmrAY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugins-idea.jar",
+      "since": "173.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.8.4": 290099
+      "1.8.4": 290099,
+      "2.0.0": 777956
     }
   }
 }
