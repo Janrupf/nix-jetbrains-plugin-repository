@@ -2,25 +2,34 @@
   "xml_id": "com.myth.earth.earth-restful-helper",
   "numeric_id": 25517,
   "updates": {
-    "615943": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25517/615943/earth-restful-helper-1.0.zip?updateId=615943&pluginId=25517&family=INTELLIJ",
-      "sha256": "tPZA3VFid7ZOGDn+vlq0sq6mZB4g9SNF402yB62cuas=",
+    "778811": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25517/778811/earth-restful-helper-1.1.zip?updateId=778811&pluginId=25517&family=INTELLIJ",
+      "sha256": "1M3eHxYYo1Jd8+upIhz5pbbS9q9Wl1SHUWyR8DosRNs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
+        "com.intellij.modules.json",
         "com.intellij.modules.lang",
         "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "earth-restful-helper-1.0.zip",
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "earth-restful-helper-1.1.zip",
       "since": "212.4746.92",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "251.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.4746.92",
+          "applies_until": "999.99999",
+          "compatible_since": "212.4746.92",
+          "compatible_until": "251.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.0": 615943
+      "1.1": 778811
     }
   }
 }

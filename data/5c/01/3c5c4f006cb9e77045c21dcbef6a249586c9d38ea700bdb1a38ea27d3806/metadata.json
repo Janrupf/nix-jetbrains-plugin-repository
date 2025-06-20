@@ -234,14 +234,7 @@
       "file_name": "webView-3.0.5.jar",
       "since": "202.0",
       "until": null,
-      "compatibility_overrides": [
-        {
-          "applies_since": "202.0",
-          "applies_until": "999.99999",
-          "compatible_since": "202.0",
-          "compatible_until": "242.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "775626": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26826/775626/webView-4.0.0.jar?updateId=775626&pluginId=26826&family=INTELLIJ",
@@ -253,6 +246,19 @@
       "optional_dependencies": [],
       "file_name": "webView-4.0.0.jar",
       "since": "202.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "777747": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26826/777747/webView-4.0.1.jar?updateId=777747&pluginId=26826&family=INTELLIJ",
+      "sha256": "bLENKa9b9xSagAIbBuCtYKvJuovDH5Lry1rLG/bQqmw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "webView-4.0.1.jar",
+      "since": "203.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -277,7 +283,8 @@
       "3.0.3": 739684,
       "3.0.4": 748359,
       "3.0.5": 771971,
-      "4.0.0": 775626
+      "4.0.0": 775626,
+      "4.0.1": 777747
     }
   }
 }
