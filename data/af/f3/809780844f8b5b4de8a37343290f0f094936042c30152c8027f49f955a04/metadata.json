@@ -2,34 +2,6 @@
   "xml_id": "com.github.bmccar.pitestidea",
   "numeric_id": 27437,
   "updates": {
-    "749018": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27437/749018/pitest-idea-0.0.1.jar?updateId=749018&pluginId=27437&family=INTELLIJ",
-      "sha256": "FX5QNn0v0WFtTBRB+njD8SsgvZtGo2GkIBwm3EPRnqg=",
-      "channel": "beta",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "pitest-idea-0.0.1.jar",
-      "since": "233.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
-    "749022": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27437/749022/pitest-idea-0.0.3-base.jar?updateId=749022&pluginId=27437&family=INTELLIJ",
-      "sha256": "3d77g0vdAnOSzxuGNGj3oESTFJdATNKxDazZA4PjYAQ=",
-      "channel": "beta",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "pitest-idea-0.0.3-base.jar",
-      "since": "233.0",
-      "until": "251.*",
-      "compatibility_overrides": []
-    },
     "749023": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27437/749023/pitest-idea-0.0.4-base.jar?updateId=749023&pluginId=27437&family=INTELLIJ",
       "sha256": "XsGkeiEBPzv1HQ08D9bkFjKr3BH+fBj5x5lqq4E/j9k=",
@@ -113,12 +85,24 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "780096": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27437/780096/pitest-idea-0.4.0-signed.zip?updateId=780096&pluginId=27437&family=INTELLIJ",
+      "sha256": "cHmHabFs1Ma1Q4uQ+1JXoUmryMSzhI44dfuF5711Uw4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pitest-idea-0.4.0-signed.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
-      "0.0.1": 749018,
-      "0.0.3": 749022,
       "0.0.4": 749023
     },
     "stable": {
@@ -126,7 +110,8 @@
       "0.1.0": 755187,
       "0.2.0": 768116,
       "0.2.1": 768261,
-      "0.3.0": 771505
+      "0.3.0": 771505,
+      "0.4.0": 780096
     }
   }
 }

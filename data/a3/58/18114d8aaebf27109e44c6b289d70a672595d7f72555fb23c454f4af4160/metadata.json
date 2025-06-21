@@ -2549,13 +2549,56 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "780099": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/780099/codeium-2.3.5.zip?updateId=780099&pluginId=20540&family=INTELLIJ",
+      "sha256": "sMtUUiZSXqvj4pEdlJXazW0h/eM5KTBkJHtsITa5m+M=",
+      "channel": "pre-release",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeium-2.3.5.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "780111": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/780111/codeium-2.2.2.zip?updateId=780111&pluginId=20540&family=INTELLIJ",
+      "sha256": "6p6V41yb0/GracizcPYF6LVB+4Ix4pDojZbBXEtjIeI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeium-2.2.2.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "780113": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/780113/codeium-2.2.2.zip?updateId=780113&pluginId=20540&family=INTELLIJ",
+      "sha256": "rtreR8Bzon7bIIdwThD+wjkDmZp9uL2Eaoj5qLHXaOw=",
+      "channel": "android-studio",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeium-2.2.2.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "android-studio": {
       "1.0.0": 750713,
       "2.2.0": 770224,
-      "2.2.1": 774441
+      "2.2.1": 774441,
+      "2.2.2": 780113
     },
     "pre-release": {
       "1.31.14": 654896,
@@ -2595,7 +2638,8 @@
       "2.3.0": 769283,
       "2.3.1": 770223,
       "2.3.2": 774443,
-      "2.3.4": 776354
+      "2.3.4": 776354,
+      "2.3.5": 780099
     },
     "stable": {
       "1.0.2": 258517,
@@ -2725,7 +2769,8 @@
       "2.0.4": 752267,
       "2.0.7": 765367,
       "2.2.0": 770219,
-      "2.2.1": 774442
+      "2.2.1": 774442,
+      "2.2.2": 780111
     }
   }
 }

@@ -4244,6 +4244,51 @@
       "since": "252.23309",
       "until": "252.23309.*",
       "compatibility_overrides": []
+    },
+    "779787": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22814/779787/jupyter-plugin-252.23309.26.zip?updateId=779787&pluginId=22814&family=INTELLIJ",
+      "sha256": "yobkARMYfYUoBk2lfZoAXUV8cou0MswpEdaIG3Wj01o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.notebooks.core"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "PythonCore",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.modules.python-single-distributive-capable",
+        "com.intellij.modules.ultimate",
+        "intellij.jupyter.core",
+        "intellij.jupyter.psi",
+        "intellij.jupyter.py",
+        "intellij.jupyter.py.psi",
+        "intellij.jupyter.split.common",
+        "intellij.notebooks.backend.split",
+        "intellij.notebooks.core",
+        "intellij.notebooks.jupyter.core",
+        "intellij.notebooks.ui",
+        "intellij.notebooks.visualization",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.platform.frontend.split",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.python.featuresTrainer",
+        "intellij.python.frontend",
+        "intellij.python.parser",
+        "intellij.python.scientific",
+        "intellij.python.wsl",
+        "intellij.rd.ide.model.generated",
+        "intellij.rd.platform",
+        "intellij.rd.ui",
+        "intellij.scientific.tables",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.wsl.remoteSdk",
+        "training"
+      ],
+      "file_name": "jupyter-plugin-252.23309.26.zip",
+      "since": "252.23309",
+      "until": "252.23309.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4397,6 +4442,7 @@
       "252.21735.32": 772790,
       "252.21735.34": 773769,
       "252.23309.22": 779396,
+      "252.23309.26": 779787,
       "252.23309.5": 777907
     }
   }

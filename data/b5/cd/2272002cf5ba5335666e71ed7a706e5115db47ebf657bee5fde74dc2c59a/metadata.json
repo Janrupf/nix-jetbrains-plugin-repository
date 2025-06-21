@@ -2,21 +2,6 @@
   "xml_id": "com.ciandt.flow.coderintellijextension",
   "numeric_id": 27434,
   "updates": {
-    "749000": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27434/749000/coder-intellij-extension-0.0.1.zip?updateId=749000&pluginId=27434&family=INTELLIJ",
-      "sha256": "jshg6GdP+u23I3d4kFyg0VY+ThDg4q/MPpCrzkh1hzo=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.json"
-      ],
-      "file_name": "coder-intellij-extension-0.0.1.zip",
-      "since": "223.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "759960": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27434/759960/flow-coder-extension-0.0.3.zip?updateId=759960&pluginId=27434&family=INTELLIJ",
       "sha256": "EcpJhdZejhv/0q426JhtpmiLhTNYtC6U8dMlkckD7fg=",
@@ -61,14 +46,29 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "780089": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27434/780089/flow-coder-extension-0.2.0.zip?updateId=780089&pluginId=27434&family=INTELLIJ",
+      "sha256": "bzjXgjcn4lcc921ZWNY8D6DDWB31FRB9M+v+P9jNFXI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "flow-coder-extension-0.2.0.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 749000,
       "0.0.3": 759960,
       "0.0.4": 760837,
-      "0.1.0": 764788
+      "0.1.0": 764788,
+      "0.2.0": 780089
     }
   }
 }

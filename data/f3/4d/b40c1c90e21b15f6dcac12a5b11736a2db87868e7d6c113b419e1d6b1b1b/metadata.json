@@ -15,20 +15,6 @@
       "until": "241.*",
       "compatibility_overrides": []
     },
-    "659597": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24538/659597/copilotcode-intellij-extension-3.0.8.zip?updateId=659597&pluginId=24538&family=INTELLIJ",
-      "sha256": "3oa+AyqixDry6h2Kz1c9zdmTDhzpEhnqjj3hQ6g+v2Y=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "copilotcode-intellij-extension-3.0.8.zip",
-      "since": null,
-      "until": null,
-      "compatibility_overrides": []
-    },
     "661783": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24538/661783/copilotcode-intellij-extension-3.0.9.zip?updateId=661783&pluginId=24538&family=INTELLIJ",
       "sha256": "+OlkJuOw/1Tvq+eOrtgL7yVdB9Ovi/JSgwMJ6gQGMwY=",
@@ -71,15 +57,30 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "779481": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24538/779481/1385315563797151744.zip?updateId=779481&pluginId=24538&family=INTELLIJ",
+      "sha256": "Ryj5o1/xHz5l+DsaBkx22KT0l/W/hjo6TEJy6EsxN2c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "1385315563797151744.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "3.0.10": 679859,
       "3.0.2": 569326,
-      "3.0.8": 659597,
       "3.0.9": 661783,
-      "4.0.4": 762099
+      "4.0.4": 762099,
+      "4.0.5": 779481
     }
   }
 }
