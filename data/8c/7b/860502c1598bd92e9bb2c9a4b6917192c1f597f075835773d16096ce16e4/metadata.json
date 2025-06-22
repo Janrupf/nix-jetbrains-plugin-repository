@@ -15,10 +15,35 @@
       "since": "213.0",
       "until": "223.*",
       "compatibility_overrides": []
+    },
+    "780213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20538/780213/TaoTaoToolKit-2025.07.zip?updateId=780213&pluginId=20538&family=INTELLIJ",
+      "sha256": "y9RqGr9qXk/C/bhpAp8G5ipTIBJq8pWS12h4qWjGC28=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.copyright",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.spring",
+        "com.intellij.spring.boot",
+        "org.intellij.groovy",
+        "org.intellij.intelliLang",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TaoTaoToolKit-2025.07.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2025.07": 780213,
       "3.2022.15": 261733
     }
   }
