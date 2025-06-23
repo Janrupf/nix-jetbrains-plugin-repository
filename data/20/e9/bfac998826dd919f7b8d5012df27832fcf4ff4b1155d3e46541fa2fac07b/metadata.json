@@ -1,6 +1,41 @@
 {
   "xml_id": "com.leafagent.LeafPlugin",
   "numeric_id": 27070,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "757305": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27070/757305/LeafPluginIDE-1.0.0.zip?updateId=757305&pluginId=27070&family=INTELLIJ",
+      "sha256": "WZ8UAOZflAlj3qx5wHNLKh1+Hsk68crJDQUWtS1iNFA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LeafPluginIDE-1.0.0.zip",
+      "since": "231.9161.38",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "780185": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27070/780185/LeafPluginIDE-1.0.1.zip?updateId=780185&pluginId=27070&family=INTELLIJ",
+      "sha256": "m4UwfbpFP+4RDKOs03LSPOs2pU5tOKsl6JaUExrxO8c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LeafPluginIDE-1.0.1.zip",
+      "since": "231.9161.38",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 757305,
+      "1.0.1": 780185
+    }
+  }
 }
