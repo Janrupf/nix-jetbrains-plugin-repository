@@ -20,10 +20,30 @@
       "since": "242.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "780634": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27634/780634/NaiadLens-jetbrains-0.4.19.zip?updateId=780634&pluginId=27634&family=INTELLIJ",
+      "sha256": "dVnfDyYt8DeTq9Q0zFe3CDdwS0xVhrsLdEL4QKNh1hs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "NaiadLens-jetbrains-0.4.19.zip",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.4.19": 780634,
       "0.4.6": 773576
     }
   }

@@ -2,20 +2,6 @@
   "xml_id": "com.aicodeeye.plugin",
   "numeric_id": 27573,
   "updates": {
-    "778426": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27573/778426/ai-codeeye-plugin-2024.3.4.zip?updateId=778426&pluginId=27573&family=INTELLIJ",
-      "sha256": "RkaK//WjtLW+CBdefmFWFPeVbAH03ry+zKvwh2kuLaQ=",
-      "channel": "beta",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "ai-codeeye-plugin-2024.3.4.zip",
-      "since": null,
-      "until": null,
-      "compatibility_overrides": []
-    },
     "780324": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27573/780324/ai-codeeye-plugin-2024.3.6.zip?updateId=780324&pluginId=27573&family=INTELLIJ",
       "sha256": "C0CUdNBrLijZ+ret2PshsAzOFXO2VyB4uLhGYtTrqbc=",
@@ -29,14 +15,26 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "780334": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27573/780334/ai-codeeye-plugin-2024.3.7.zip?updateId=780334&pluginId=27573&family=INTELLIJ",
+      "sha256": "b0uy5iaBszlyLxRm5C6yJ3q1wZ/nMnvvcAndupRpH8Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ai-codeeye-plugin-2024.3.7.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
-    "beta": {
-      "2024.3.4": 778426
-    },
     "stable": {
-      "2024.3.6": 780324
+      "2024.3.6": 780324,
+      "2024.3.7": 780334
     }
   }
 }

@@ -26062,6 +26062,64 @@
       "since": "252.23309",
       "until": "252.23309.*",
       "compatibility_overrides": []
+    },
+    "780455": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/780455/clouds-kubernetes-251.26927.39.zip?updateId=780455&pluginId=10485&family=INTELLIJ",
+      "sha256": "G6mdRwfnAwX3rN+oWji3dD6MIn2fcIK0mzFj179QbtQ=",
+      "channel": "stable",
+      "dependencies": [
+        "Docker",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker.compose",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.platform.vcs.impl",
+        "intellij.yaml.backend"
+      ],
+      "optional_dependencies": [
+        "com.intellij.cron",
+        "com.intellij.database",
+        "org.jetbrains.plugins.go-template"
+      ],
+      "file_name": "clouds-kubernetes-251.26927.39.zip",
+      "since": "251.26927",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "780545": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/780545/clouds-kubernetes-252.23309.49.zip?updateId=780545&pluginId=10485&family=INTELLIJ",
+      "sha256": "67wVWmgh4XGS7Y7JAuJ9CYNbkmHyyz6Ojx4wqIc8qY0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.platform.execution.serviceView",
+        "intellij.yaml"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "com.intellij.cron",
+        "com.intellij.database",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker.compose",
+        "intellij.clouds.kubernetes",
+        "intellij.clouds.kubernetes.backend",
+        "intellij.clouds.kubernetes.libraries",
+        "intellij.json",
+        "intellij.json.backend",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend",
+        "org.jetbrains.plugins.go-template"
+      ],
+      "file_name": "clouds-kubernetes-252.23309.49.zip",
+      "since": "252.23309",
+      "until": "252.23309.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -27425,6 +27483,7 @@
       "251.26094.108": 763554,
       "251.26094.22": 747180,
       "251.26094.87": 757461,
+      "251.26927.39": 780455,
       "252.13776.56": 741667,
       "252.16512.27": 748979,
       "252.18003.25": 759276,
@@ -27432,6 +27491,7 @@
       "252.21735.27": 772040,
       "252.23309.22": 779227,
       "252.23309.26": 779789,
+      "252.23309.49": 780545,
       "252.23309.5": 777834
     }
   }
