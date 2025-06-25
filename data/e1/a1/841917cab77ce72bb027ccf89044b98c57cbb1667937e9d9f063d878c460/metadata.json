@@ -16,11 +16,27 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "780674": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27733/780674/goautodot-1.0.2.zip?updateId=780674&pluginId=27733&family=INTELLIJ",
+      "sha256": "H4fOZrccGMFVT0N1j66vHrxuw4VXGnlGvlpdQqQCkRs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "goautodot-1.0.2.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 780593
+      "1.0.0": 780593,
+      "1.0.2": 780674
     }
   }
 }

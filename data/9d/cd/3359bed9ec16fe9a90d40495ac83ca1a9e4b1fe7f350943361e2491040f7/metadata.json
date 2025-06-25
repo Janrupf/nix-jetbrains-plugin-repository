@@ -1,6 +1,38 @@
 {
   "xml_id": "FishTime",
   "numeric_id": 27727,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "780364": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27727/780364/funPlugin-2025.1.0.zip?updateId=780364&pluginId=27727&family=INTELLIJ",
+      "sha256": "4KZNuAeCFQwd1/Q1la26yswoEnFGCmv/IfN028exqLI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "funPlugin-2025.1.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "780365": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27727/780365/funPlugin-2024.1.0.zip?updateId=780365&pluginId=27727&family=INTELLIJ",
+      "sha256": "oY2aEqtHGrWIR9f8uLx0z3xAkULO+75+ixfxLScSRPc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "funPlugin-2024.1.0.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2024.1.0": 780365,
+      "2025.1.0": 780364
+    }
+  }
 }

@@ -33,12 +33,29 @@
       "since": "212.4746.92",
       "until": null,
       "compatibility_overrides": []
+    },
+    "780702": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26971/780702/thrift.zip?updateId=780702&pluginId=26971&family=INTELLIJ",
+      "sha256": "CetQ8rz3ttlepP9PEBRIRN9fnmrawicNjHmQXTz6F+Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.intellij.scala"
+      ],
+      "file_name": "thrift.zip",
+      "since": "212.4746.92",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.3": 707178,
-      "1.4": 707179
+      "1.4": 707179,
+      "1.5": 780702
     }
   }
 }
