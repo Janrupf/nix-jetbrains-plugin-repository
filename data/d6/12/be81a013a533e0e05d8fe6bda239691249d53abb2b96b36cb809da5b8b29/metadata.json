@@ -100,7 +100,7 @@
       "dependencies": [],
       "optional_dependencies": [],
       "file_name": "slim-lang.jar",
-      "since": "130.1486",
+      "since": "130.1479",
       "until": "130.*",
       "compatibility_overrides": []
     },
@@ -113,7 +113,7 @@
       ],
       "optional_dependencies": [],
       "file_name": "slim-lang.jar",
-      "since": "130.1486",
+      "since": "130.1479",
       "until": "130.*",
       "compatibility_overrides": []
     },
@@ -414,7 +414,14 @@
       "file_name": "slim-lang-2016.2.20160729.jar",
       "since": "162.1447",
       "until": "162.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "162.1447",
+          "applies_until": "162.9999",
+          "compatible_since": "162.1447",
+          "compatible_until": "162.*"
+        }
+      ]
     },
     "28121": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7128/28121/slim-lang-2016.3.20160901.jar?updateId=28121&pluginId=7128&family=INTELLIJ",
@@ -427,7 +434,14 @@
       "file_name": "slim-lang-2016.3.20160901.jar",
       "since": "163.3512",
       "until": "163.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "163.3512",
+          "applies_until": "163.9999",
+          "compatible_since": "163.3512",
+          "compatible_until": "163.*"
+        }
+      ]
     },
     "29957": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7128/29957/slim-lang-2016.3.20161027.jar?updateId=29957&pluginId=7128&family=INTELLIJ",
@@ -440,7 +454,14 @@
       "file_name": "slim-lang-2016.3.20161027.jar",
       "since": "163.6957",
       "until": "163.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "163.6957",
+          "applies_until": "163.9999",
+          "compatible_since": "163.6957",
+          "compatible_until": "163.*"
+        }
+      ]
     },
     "31250": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7128/31250/slim-lang-2016.3.20161223.jar?updateId=31250&pluginId=7128&family=INTELLIJ",
@@ -16077,6 +16098,21 @@
       "since": "252.23309",
       "until": "252.23309.*",
       "compatibility_overrides": []
+    },
+    "781507": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7128/781507/slim-252.23591.19.zip?updateId=781507&pluginId=7128&family=INTELLIJ",
+      "sha256": "RlI5WQmSOG/eFq4xUdro1uslM72xkrsbPQB4I2mY0FY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.css",
+        "com.intellij.modules.lang",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [],
+      "file_name": "slim-252.23591.19.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -17209,6 +17245,7 @@
       "252.19874.7": 766593,
       "252.21735.27": 772048,
       "252.23309.22": 779256,
+      "252.23591.19": 781507,
       "4.5.0.20121115": 12187,
       "4.5.0.20121128": 12242,
       "4.5.0.20130108": 12471,

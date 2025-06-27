@@ -49,9 +49,28 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "781718": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27520/781718/IntellijPlugin-2025.2-1.0.2.jar?updateId=781718&pluginId=27520&family=INTELLIJ",
+      "sha256": "N6jwOHSskoWDf3u0c6PSBXwypbGIQ9U5uQwIarQLxJM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntellijPlugin-2025.2-1.0.2.jar",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "2025.2-1.0.2": 781718
+    },
     "stable": {
       "2025.1-1.0.0": 763112,
       "2025.1-1.0.1": 775195,

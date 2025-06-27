@@ -199,7 +199,14 @@
       "file_name": "tcServerSupport-plugin.jar",
       "since": "162.1121",
       "until": "162.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "162.1121",
+          "applies_until": "162.9999",
+          "compatible_since": "162.1121",
+          "compatible_until": "162.*"
+        }
+      ]
     },
     "30380": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/5048/30380/tcServerSupport-plugin-2.jar?updateId=30380&pluginId=5048&family=INTELLIJ",

@@ -319,7 +319,14 @@
       "file_name": "cucumber-java.zip",
       "since": "172.4343",
       "until": "172.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "172.4343",
+          "applies_until": "172.9999",
+          "compatible_since": "172.4343",
+          "compatible_until": "172.*"
+        }
+      ]
     },
     "42270": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7212/42270/cucumber-java.zip?updateId=42270&pluginId=7212&family=INTELLIJ",
@@ -3662,6 +3669,21 @@
       "since": "252.23309",
       "until": "252.23309.*",
       "compatibility_overrides": []
+    },
+    "781648": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7212/781648/cucumber-java-252.23591.19.zip?updateId=781648&pluginId=7212&family=INTELLIJ",
+      "sha256": "V3OOpFdI0oPh8ct+r4Ry4Z2zinNuuPv1Zw2U6JQKipQ=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.java",
+        "gherkin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cucumber-java-252.23591.19.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3910,7 +3932,8 @@
       "252.18003.27": 758239,
       "252.19874.12": 766748,
       "252.21735.32": 772818,
-      "252.23309.22": 779268
+      "252.23309.22": 779268,
+      "252.23591.19": 781648
     }
   }
 }

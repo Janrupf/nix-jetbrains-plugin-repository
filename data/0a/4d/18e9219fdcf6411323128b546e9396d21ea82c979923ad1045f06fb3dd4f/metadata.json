@@ -8516,7 +8516,14 @@
       "file_name": "svelte-233.11799.7.zip",
       "since": "233.11799.7",
       "until": "233.11799.7",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.11799",
+          "applies_until": "233.11799.*",
+          "compatible_since": "233.11799.7",
+          "compatible_until": "233.11799.7"
+        }
+      ]
     },
     "435941": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12375/435941/svelte-233.11899.zip?updateId=435941&pluginId=12375&family=INTELLIJ",
@@ -8768,7 +8775,14 @@
       "file_name": "svelte-233.11799.95.zip",
       "since": "233.11799.95",
       "until": "233.11799.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.11799",
+          "applies_until": "233.11799.*",
+          "compatible_since": "233.11799.95",
+          "compatible_until": "233.11799.*"
+        }
+      ]
     },
     "443140": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12375/443140/svelte-233.12317.zip?updateId=443140&pluginId=12375&family=INTELLIJ",
@@ -9002,7 +9016,14 @@
       "file_name": "svelte-233.13135.65.zip",
       "since": "233.13135.65",
       "until": "233.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.13135",
+          "applies_until": "233.*",
+          "compatible_since": "233.13135.65",
+          "compatible_until": "233.*"
+        }
+      ]
     },
     "454762": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12375/454762/svelte-233.13237.zip?updateId=454762&pluginId=12375&family=INTELLIJ",
@@ -9380,7 +9401,14 @@
       "file_name": "svelte-233.13763.5.zip",
       "since": "233.13763.5",
       "until": "233.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.13763",
+          "applies_until": "233.*",
+          "compatible_since": "233.13763.5",
+          "compatible_until": "233.*"
+        }
+      ]
     },
     "468343": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12375/468343/svelte-233.14021.zip?updateId=468343&pluginId=12375&family=INTELLIJ",
@@ -9452,7 +9480,14 @@
       "file_name": "svelte-241.8102.112.zip",
       "since": "241.8102.112",
       "until": "241.8102.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.8102",
+          "applies_until": "241.8102.*",
+          "compatible_since": "241.8102.112",
+          "compatible_until": "241.8102.*"
+        }
+      ]
     },
     "469494": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12375/469494/svelte-233.14015.23.zip?updateId=469494&pluginId=12375&family=INTELLIJ",
@@ -9524,7 +9559,14 @@
       "file_name": "svelte-241.8102.131.zip",
       "since": "241.8102.131",
       "until": "241.8102.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.8102",
+          "applies_until": "241.8102.*",
+          "compatible_since": "241.8102.131",
+          "compatible_until": "241.8102.*"
+        }
+      ]
     },
     "470277": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12375/470277/svelte-241.8102.119.zip?updateId=470277&pluginId=12375&family=INTELLIJ",
@@ -9542,7 +9584,14 @@
       "file_name": "svelte-241.8102.119.zip",
       "since": "241.8102.119",
       "until": "241.8102.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.8102",
+          "applies_until": "241.8102.*",
+          "compatible_since": "241.8102.119",
+          "compatible_until": "241.8102.*"
+        }
+      ]
     },
     "470316": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12375/470316/svelte-241.9407.zip?updateId=470316&pluginId=12375&family=INTELLIJ",
@@ -12083,6 +12132,25 @@
       "since": "252.23309",
       "until": "252.23309.*",
       "compatibility_overrides": []
+    },
+    "781685": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12375/781685/svelte-252.23591.19.zip?updateId=781685&pluginId=12375&family=INTELLIJ",
+      "sha256": "jtvtIrcnqHQjDwFjYXSEIP/l1OWOX+oTttxOqFX/cAw=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.css",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "JavaScriptDebugger"
+      ],
+      "file_name": "svelte-252.23591.19.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -12763,7 +12831,8 @@
       "252.18003.27": 758293,
       "252.19874.7": 766616,
       "252.21735.27": 771997,
-      "252.23309.22": 779234
+      "252.23309.22": 779234,
+      "252.23591.19": 781685
     }
   }
 }

@@ -225,7 +225,14 @@
       "file_name": "ruby-chef-2016.2.20160719.zip",
       "since": "162.1121",
       "until": "162.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "162.1121",
+          "applies_until": "162.9999",
+          "compatible_since": "162.1121",
+          "compatible_until": "162.*"
+        }
+      ]
     },
     "28288": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7548/28288/ruby-chef-2016.3.20160907.zip?updateId=28288&pluginId=7548&family=INTELLIJ",
@@ -240,7 +247,14 @@
       "file_name": "ruby-chef-2016.3.20160907.zip",
       "since": "163.3983",
       "until": "163.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "163.3983",
+          "applies_until": "163.9999",
+          "compatible_since": "163.3983",
+          "compatible_until": "163.*"
+        }
+      ]
     },
     "30095": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7548/30095/ruby-chef-2016.3.20161101.zip?updateId=30095&pluginId=7548&family=INTELLIJ",
@@ -255,7 +269,14 @@
       "file_name": "ruby-chef-2016.3.20161101.zip",
       "since": "163.6957",
       "until": "163.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "163.6957",
+          "applies_until": "163.9999",
+          "compatible_since": "163.6957",
+          "compatible_until": "163.*"
+        }
+      ]
     },
     "32014": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7548/32014/ruby-chef-2017.1.20170123.zip?updateId=32014&pluginId=7548&family=INTELLIJ",
@@ -3577,6 +3598,22 @@
       "since": "252.23309",
       "until": "252.23309.*",
       "compatibility_overrides": []
+    },
+    "781417": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7548/781417/ruby-chef-252.23591.19.zip?updateId=781417&pluginId=7548&family=INTELLIJ",
+      "sha256": "L8Fm5GCm956xpZTlwbYNNW0fcIyAhWvBJakPVqWX+xs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ruby",
+        "com.intellij.modules.ultimate",
+        "intellij.ruby.backend",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ruby-chef-252.23591.19.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3808,6 +3845,7 @@
       "252.19874.12": 766942,
       "252.21735.26": 772099,
       "252.23309.22": 779414,
+      "252.23591.19": 781417,
       "7.0.0-138-20233": 17105,
       "7.0.0-139-1": 17525,
       "7.0.0-140-20777": 18671,

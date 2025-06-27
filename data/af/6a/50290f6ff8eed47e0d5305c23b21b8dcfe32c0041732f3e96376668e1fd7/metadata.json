@@ -1,6 +1,44 @@
 {
   "xml_id": "com.gradle.develocity.ide",
   "numeric_id": 27471,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "781723": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27471/781723/develocity-intellij-plugin-0.1.0-alpha-1.zip?updateId=781723&pluginId=27471&family=INTELLIJ",
+      "sha256": "+reBs9p4o58YNBwNSGGOZ0BPcEXeLh1AATgJzG4clTE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "develocity-intellij-plugin-0.1.0-alpha-1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "781759": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27471/781759/develocity-intellij-plugin-0.1.0-alpha-2.zip?updateId=781759&pluginId=27471&family=INTELLIJ",
+      "sha256": "MnjcJ3RxX3QPPnoamnbzEwuIuWPj79QENfd7hGyH9GQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "develocity-intellij-plugin-0.1.0-alpha-2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0-alpha-1": 781723,
+      "0.1.0-alpha-2": 781759
+    }
+  }
 }

@@ -32702,7 +32702,14 @@
       "file_name": "marketplace-251.25410.32.zip",
       "since": "251.25410.32",
       "until": "251.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.25410",
+          "applies_until": "251.*",
+          "compatible_since": "251.25410.32",
+          "compatible_until": "251.*"
+        }
+      ]
     },
     "724949": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13407/724949/marketplace-251.25410.31.zip?updateId=724949&pluginId=13407&family=INTELLIJ",
@@ -33586,6 +33593,45 @@
       "file_name": "marketplace-251.26927.60.zip",
       "since": "251.26927",
       "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "781534": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13407/781534/marketplace-252.23591.19.zip?updateId=781534&pluginId=13407&family=INTELLIJ",
+      "sha256": "FCwyYkRAlHi1yioNffV7hvxMY5RGwWaUMYJCoUIFy5Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "marketplace-252.23591.19.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
+    },
+    "781745": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13407/781745/marketplace-252.23591.30.zip?updateId=781745&pluginId=13407&family=INTELLIJ",
+      "sha256": "96l5rPvIO/kLVnAx82EwznzK07M0xFtArK2MRNY1IpM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "marketplace-252.23591.30.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
+    },
+    "782065": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13407/782065/marketplace-252.23591.32.zip?updateId=782065&pluginId=13407&family=INTELLIJ",
+      "sha256": "yJv+mO4rMvUdS5DwLV93KKS1vkcg5/c2xN/oO4OwwYY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "marketplace-252.23591.32.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
       "compatibility_overrides": []
     }
   },
@@ -36177,7 +36223,10 @@
       "252.23309.35": 780002,
       "252.23309.36": 780381,
       "252.23309.49": 780543,
-      "252.23309.5": 777932
+      "252.23309.5": 777932,
+      "252.23591.19": 781534,
+      "252.23591.30": 781745,
+      "252.23591.32": 782065
     },
     "super-early-bird": {
       "193.6015.11": 75231,

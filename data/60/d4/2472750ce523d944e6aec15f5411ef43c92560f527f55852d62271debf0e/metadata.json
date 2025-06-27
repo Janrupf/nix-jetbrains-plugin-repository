@@ -40,12 +40,26 @@
       "since": "231.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "780901": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24165/780901/intellij-tip-inlay-0.2.0.jar?updateId=780901&pluginId=24165&family=INTELLIJ",
+      "sha256": "QRoIknMcfxlJ7cqkJ6kOT46YoUkA8qbRDucl5/NGqZ0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-tip-inlay-0.2.0.jar",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 532567,
       "0.1.1": 584851,
+      "0.2.0": 780901,
       "1.0-SNAPSHOT": 523110
     }
   }

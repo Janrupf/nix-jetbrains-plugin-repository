@@ -4900,7 +4900,14 @@
       "file_name": "vuejs-212.5080.55.zip",
       "since": "212.5080.50",
       "until": "212.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.5080",
+          "applies_until": "212.*",
+          "compatible_since": "212.5080.50",
+          "compatible_until": "212.*"
+        }
+      ]
     },
     "134100": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/134100/vuejs-212.5228.zip?updateId=134100&pluginId=9442&family=INTELLIJ",
@@ -27985,6 +27992,52 @@
       "since": "251.26927",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "781756": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/781756/vuejs-252.23591.30.zip?updateId=781756&pluginId=9442&family=INTELLIJ",
+      "sha256": "WX8SdUk3VEh4z73xWh1gv7tBwvn2CK0HDq3l8NjYewk=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.css",
+        "com.intellij.modules.xml",
+        "intellij.spellchecker",
+        "intellij.webpack",
+        "org.intellij.plugins.postcss"
+      ],
+      "optional_dependencies": [
+        "JavaScriptDebugger",
+        "com.intellij.copyright",
+        "intellij.prettierJS",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "vuejs-252.23591.30.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
+    },
+    "782052": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/782052/vuejs-252.23591.32.zip?updateId=782052&pluginId=9442&family=INTELLIJ",
+      "sha256": "GDRtLiYKCRRVt34aaUTeD91Q8SMwSsVi84li9HzgmQQ=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.css",
+        "com.intellij.modules.xml",
+        "intellij.spellchecker",
+        "intellij.webpack",
+        "org.intellij.plugins.postcss"
+      ],
+      "optional_dependencies": [
+        "JavaScriptDebugger",
+        "com.intellij.copyright",
+        "intellij.prettierJS",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "vuejs-252.23591.32.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -29470,7 +29523,9 @@
       "252.19874.29": 768726,
       "252.21735.40": 774424,
       "252.23309.25": 779943,
-      "252.23309.35": 780014
+      "252.23309.35": 780014,
+      "252.23591.30": 781756,
+      "252.23591.32": 782052
     }
   }
 }

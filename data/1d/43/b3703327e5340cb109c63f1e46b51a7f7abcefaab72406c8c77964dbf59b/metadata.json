@@ -3506,6 +3506,39 @@
       "since": "251.26927",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "781638": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13121/781638/restClient-252.23591.19.zip?updateId=781638&pluginId=13121&family=INTELLIJ",
+      "sha256": "2nKI+SriKoiqdYRaWsmFLzOQCtSvIhClPhivX/9ApaQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.xml",
+        "com.intellij.platform.images",
+        "intellij.json.backend",
+        "intellij.libraries.ktor.client.cio"
+      ],
+      "optional_dependencies": [
+        "XPathView",
+        "com.intellij.java",
+        "com.intellij.jsonpath",
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.microservices.ui",
+        "com.intellij.modules.javascript",
+        "com.intellij.modules.json",
+        "idea.plugin.protoeditor",
+        "intellij.restClient/intelliLang",
+        "intellij.restClient/javaScript",
+        "intellij.spellchecker",
+        "org.intellij.intelliLang",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "restClient-252.23591.19.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3662,7 +3695,8 @@
       "252.19874.12": 766926,
       "252.21735.32": 772857,
       "252.23309.22": 779390,
-      "252.23309.5": 777847
+      "252.23309.5": 777847,
+      "252.23591.19": 781638
     }
   }
 }

@@ -73,7 +73,14 @@
       "file_name": "gherkin.zip",
       "since": "172.4343",
       "until": "172.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "172.4343",
+          "applies_until": "172.9999",
+          "compatible_since": "172.4343",
+          "compatible_until": "172.*"
+        }
+      ]
     },
     "43534": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9164/43534/gherkin-181.3870.7.zip?updateId=43534&pluginId=9164&family=INTELLIJ",
@@ -16547,6 +16554,21 @@
       "since": "252.23309",
       "until": "252.23309.*",
       "compatibility_overrides": []
+    },
+    "781515": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9164/781515/gherkin-252.23591.19.zip?updateId=781515&pluginId=9164&family=INTELLIJ",
+      "sha256": "2qJw5eeStvTdOxGEBHd+Zd7T9jZ4SwEJMPjJC1S+9BE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.xml",
+        "org.intellij.intelliLang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gherkin-252.23591.19.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -17739,7 +17761,8 @@
       "252.18003.27": 758209,
       "252.19874.7": 766648,
       "252.21735.27": 772043,
-      "252.23309.5": 777909
+      "252.23309.5": 777909,
+      "252.23591.19": 781515
     }
   }
 }

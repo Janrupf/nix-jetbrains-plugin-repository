@@ -436,7 +436,14 @@
       "file_name": "puppet.zip",
       "since": "162.239",
       "until": "163.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "162.239",
+          "applies_until": "163.9999",
+          "compatible_since": "162.239",
+          "compatible_until": "163.*"
+        }
+      ]
     },
     "30078": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7180/30078/puppet-2016.3.20161103.zip?updateId=30078&pluginId=7180&family=INTELLIJ",
@@ -449,7 +456,14 @@
       "file_name": "puppet-2016.3.20161103.zip",
       "since": "163.7342",
       "until": "163.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "163.7342",
+          "applies_until": "163.9999",
+          "compatible_since": "163.7342",
+          "compatible_until": "163.*"
+        }
+      ]
     },
     "31375": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7180/31375/puppet-2017.1.20161229.zip?updateId=31375&pluginId=7180&family=INTELLIJ",
@@ -18078,6 +18092,22 @@
       "since": "252.23309",
       "until": "252.23309.*",
       "compatibility_overrides": []
+    },
+    "781504": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7180/781504/puppet-252.23591.19.zip?updateId=781504&pluginId=7180&family=INTELLIJ",
+      "sha256": "aUVIBhRMy2j2wWT3QAftzdbH1ozM6tconkiUvsUBOlo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.json.backend"
+      ],
+      "optional_dependencies": [
+        "intellij.yaml.backend"
+      ],
+      "file_name": "puppet-252.23591.19.zip",
+      "since": "252.23591",
+      "until": "252.23591.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -19267,6 +19297,7 @@
       "252.19874.7": 766603,
       "252.21735.27": 772022,
       "252.23309.5": 777915,
+      "252.23591.19": 781504,
       "5.0.0.20130314": 12908,
       "5.4.0.20130404": 13082,
       "5.4.0.20130618": 13554,
