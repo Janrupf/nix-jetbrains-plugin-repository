@@ -3946,7 +3946,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3975,7 +3975,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -9516,6 +9516,102 @@
       "since": "242.20224.91",
       "until": null,
       "compatibility_overrides": []
+    },
+    "782439": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/782439/zencoder-2.7.0-nightly.4.zip?updateId=782439&pluginId=24782&family=INTELLIJ",
+      "sha256": "K6EpsS9dYaNHpfLvmXqwld9bnH/95LZlVX9tIIg/wpo=",
+      "channel": "nightly",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.7.0-nightly.4.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "782449": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/782449/zencoder-2.6.1.zip?updateId=782449&pluginId=24782&family=INTELLIJ",
+      "sha256": "768HLd1HnmO+3lmPXwcA/7Ru/iDMPNGNxZphaBQxkgU=",
+      "channel": "nightly",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.6.1.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "782450": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/782450/zencoder-2.6.1.zip?updateId=782450&pluginId=24782&family=INTELLIJ",
+      "sha256": "768HLd1HnmO+3lmPXwcA/7Ru/iDMPNGNxZphaBQxkgU=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.6.1.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "782782": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/782782/zencoder-2.7.0-nightly.5.zip?updateId=782782&pluginId=24782&family=INTELLIJ",
+      "sha256": "P3I9Bb1gYRpYn8JKNwvdx1FyYZIKNX8SVmozd4ym0zE=",
+      "channel": "nightly",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.7.0-nightly.5.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -9903,9 +9999,12 @@
       "2.6.0-nightly.3": 778939,
       "2.6.0-nightly.4": 779453,
       "2.6.0-nightly.5": 780856,
+      "2.6.1": 782449,
       "2.7.0-nightly.1": 780956,
       "2.7.0-nightly.2": 781062,
-      "2.7.0-nightly.3": 782108
+      "2.7.0-nightly.3": 782108,
+      "2.7.0-nightly.4": 782439,
+      "2.7.0-nightly.5": 782782
     },
     "stable": {
       "0.0.1": 570685,
@@ -9967,7 +10066,8 @@
       "2.4.0": 770127,
       "2.4.1": 771153,
       "2.5.0": 776345,
-      "2.6.0": 780599
+      "2.6.0": 780599,
+      "2.6.1": 782450
     }
   }
 }

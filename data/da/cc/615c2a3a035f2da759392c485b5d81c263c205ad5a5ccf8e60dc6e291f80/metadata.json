@@ -321,6 +321,23 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "782452": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26907/782452/intellij-cangjie-1.1.0.zip?updateId=782452&pluginId=26907&family=INTELLIJ",
+      "sha256": "To9z7l9IVyeq2tk91w/AD6YInKAUO2Zul1nmeURmbCU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.copyright",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-cangjie-1.1.0.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -344,7 +361,8 @@
       "1.0.8+242": 773562,
       "1.0.8+243-253": 773560,
       "1.0.9+242": 774461,
-      "1.0.9+243-253": 774460
+      "1.0.9+243-253": 774460,
+      "1.1.0": 782452
     }
   }
 }

@@ -46,13 +46,29 @@
       "since": "241.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "782414": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27739/782414/plugin-1.1.2.zip?updateId=782414&pluginId=27739&family=INTELLIJ",
+      "sha256": "RmCiTiIgRGBCsvrSzISmOGK6lDeOSXgnyxkVF54Ag+M=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.gradle",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-1.1.2.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 780741,
       "1.0.1": 780745,
-      "1.0.2": 780755
+      "1.0.2": 780755,
+      "1.1.2": 782414
     }
   }
 }
