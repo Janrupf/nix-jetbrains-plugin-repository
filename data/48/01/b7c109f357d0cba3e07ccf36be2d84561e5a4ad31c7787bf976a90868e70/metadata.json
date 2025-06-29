@@ -574,8 +574,8 @@
       ],
       "optional_dependencies": [],
       "file_name": "intellij-haxe.jar",
-      "since": "132.400",
-      "until": "135.1306",
+      "since": "139.1",
+      "until": "242.*",
       "compatibility_overrides": [
         {
           "applies_since": "139.1",
@@ -594,8 +594,8 @@
       ],
       "optional_dependencies": [],
       "file_name": "intellij-haxe.jar",
-      "since": "132.400",
-      "until": "135.1306",
+      "since": "139.1",
+      "until": "242.*",
       "compatibility_overrides": [
         {
           "applies_since": "139.1",
@@ -3679,6 +3679,24 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "783420": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6873/783420/intellij-haxe-2025.1_1.7.3.zip?updateId=783420&pluginId=6873&family=INTELLIJ",
+      "sha256": "wg9g7CcfRt2WO2jI2zZMOwZot3D8lWLWCSZWPDB3DAw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "OpenGL-Plugin",
+        "com.intellij.flex"
+      ],
+      "file_name": "intellij-haxe-2025.1_1.7.3.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3914,7 +3932,8 @@
       "1.6.8": 716906,
       "1.7.0": 739348,
       "1.7.1": 763530,
-      "1.7.2": 764784
+      "1.7.2": 764784,
+      "1.7.3": 783420
     }
   }
 }
