@@ -3358,7 +3358,14 @@
       "file_name": "azuredevops-2025.1.35.zip",
       "since": "251.*",
       "until": "251.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.26927.53",
+          "applies_until": "999.99999",
+          "compatible_since": "251.*",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "783399": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/783399/azuredevops-2025.1.35.zip?updateId=783399&pluginId=22319&family=INTELLIJ",
@@ -3375,7 +3382,14 @@
       "file_name": "azuredevops-2025.1.35.zip",
       "since": "251.*",
       "until": "251.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.26927.53",
+          "applies_until": "999.99999",
+          "compatible_since": "251.*",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "783400": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/783400/azuredevops-2025.2.22.zip?updateId=783400&pluginId=22319&family=INTELLIJ",
@@ -3410,6 +3424,74 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "783729": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/783729/azuredevops-2025.2.23.zip?updateId=783729&pluginId=22319&family=INTELLIJ",
+      "sha256": "u6rAAMyuOsQRReQlOBszhwDtaGbvSHTZdTkEmbxU5S8=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.2.23.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "784033": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/784033/azuredevops-2025.2.24.zip?updateId=784033&pluginId=22319&family=INTELLIJ",
+      "sha256": "GROJQkt6UVM3Wk/Ct9Dp9+8NIAVgQrQuXsuXUPeZl80=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.2.24.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "784035": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/784035/azuredevops-2025.2.25.zip?updateId=784035&pluginId=22319&family=INTELLIJ",
+      "sha256": "CjqqA/75Ql/rb/6zsV807+JBLvIF96PfeCxFuib9W8o=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.2.25.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "784038": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/784038/azuredevops-2025.2.26.zip?updateId=784038&pluginId=22319&family=INTELLIJ",
+      "sha256": "ORzmA3JkR54Hn+Cg5vzC4Bb2/l7NtV+iTAQmPWUMp6A=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.2.26.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3417,6 +3499,10 @@
       "2023.1.31": 366109,
       "2024.2.7": 601054,
       "2024.3.27": 671357,
+      "2025.2.23": 783729,
+      "2025.2.24": 784033,
+      "2025.2.25": 784035,
+      "2025.2.26": 784038,
       "2025.2.6": 757313,
       "2025.2.7": 757320,
       "2025.2.8": 757325
