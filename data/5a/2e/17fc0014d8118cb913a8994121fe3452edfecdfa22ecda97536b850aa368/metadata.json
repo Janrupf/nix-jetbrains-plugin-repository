@@ -206,26 +206,9 @@
       "until": "261.*",
       "compatibility_overrides": []
     },
-    "778091": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26216/778091/robotcode4ij-1.3.0.zip?updateId=778091&pluginId=26216&family=INTELLIJ",
-      "sha256": "5Qaq2pwoGCpYEtpmlxVDrfXKEHfDbmGrYtyc95DSVWQ=",
-      "channel": "dev",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python",
-        "com.redhat.devtools.lsp4ij",
-        "org.jetbrains.plugins.textmate"
-      ],
-      "optional_dependencies": [],
-      "file_name": "robotcode4ij-1.3.0.zip",
-      "since": "251.0",
-      "until": "261.*",
-      "compatibility_overrides": []
-    },
-    "779986": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26216/779986/robotcode4ij-1.3.0.zip?updateId=779986&pluginId=26216&family=INTELLIJ",
-      "sha256": "5Qaq2pwoGCpYEtpmlxVDrfXKEHfDbmGrYtyc95DSVWQ=",
+    "784428": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26216/784428/robotcode4ij-1.4.0.zip?updateId=784428&pluginId=26216&family=INTELLIJ",
+      "sha256": "J9nA+yLNTw4H/wwUDEaTbpmBADs4FKqh1LMTiknVdWQ=",
       "channel": "stable",
       "dependencies": [
         "PythonCommon",
@@ -235,7 +218,24 @@
         "org.jetbrains.plugins.textmate"
       ],
       "optional_dependencies": [],
-      "file_name": "robotcode4ij-1.3.0.zip",
+      "file_name": "robotcode4ij-1.4.0.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "784455": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26216/784455/robotcode4ij-1.4.0.zip?updateId=784455&pluginId=26216&family=INTELLIJ",
+      "sha256": "J9nA+yLNTw4H/wwUDEaTbpmBADs4FKqh1LMTiknVdWQ=",
+      "channel": "dev",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "robotcode4ij-1.4.0.zip",
       "since": "251.0",
       "until": "261.*",
       "compatibility_overrides": []
@@ -243,10 +243,10 @@
   },
   "channels": {
     "dev": {
-      "1.3.0": 778091,
       "1.3.0-dev.2": 759833,
       "1.3.0-dev.4": 764613,
-      "1.3.0-dev.5": 770131
+      "1.3.0-dev.5": 770131,
+      "1.4.0": 784455
     },
     "stable": {
       "0.105.0": 661012,
@@ -258,7 +258,7 @@
       "0.109.2": 685568,
       "1.0.3": 699879,
       "1.1.0": 731874,
-      "1.3.0": 779986
+      "1.4.0": 784428
     }
   }
 }
