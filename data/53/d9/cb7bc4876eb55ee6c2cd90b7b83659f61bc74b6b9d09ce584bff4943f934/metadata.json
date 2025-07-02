@@ -843,6 +843,30 @@
           "compatible_until": "231.*"
         }
       ]
+    },
+    "785139": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13220/785139/hmstoolkitsdk-tool-6.15.0.300.zip?updateId=785139&pluginId=13220&family=INTELLIJ",
+      "sha256": "QP1LwochnCE+lnFL2hjsDIMgQQqZQrF99EM7ysnGQKg=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.java",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.lang",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hmstoolkitsdk-tool-6.15.0.300.zip",
+      "since": "241.0",
+      "until": "242.23339.11",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "242.*",
+          "compatible_since": "241.0",
+          "compatible_until": "242.23339.11"
+        }
+      ]
     }
   },
   "channels": {
@@ -877,6 +901,7 @@
       "6.13.0.300": 590279,
       "6.13.0.301": 641727,
       "6.14.0.300": 641730,
+      "6.15.0.300": 785139,
       "6.2.0.300": 145956,
       "6.3.0.300": 161454,
       "6.3.0.300.AF": 161455,
