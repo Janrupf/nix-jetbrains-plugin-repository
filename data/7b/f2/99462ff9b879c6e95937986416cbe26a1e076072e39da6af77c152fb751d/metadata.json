@@ -29,12 +29,29 @@
       "since": "222.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "785211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23495/785211/Dlvx-1.0.1-SNAPSHOT.zip?updateId=785211&pluginId=23495&family=INTELLIJ",
+      "sha256": "Pfr8bs2bcAOBvlDO8cV4kYjsVByvbwLG1LK+w2hwuJ8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.goland",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Dlvx-1.0.1-SNAPSHOT.zip",
+      "since": "243.16718.32",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 468756,
-      "1.0.0": 505775
+      "1.0.0": 505775,
+      "1.0.1": 785211
     }
   }
 }

@@ -293,6 +293,21 @@
           "compatible_until": "243"
         }
       ]
+    },
+    "785920": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8133/785920/idea-php-toolbox-6.3.0.zip?updateId=785920&pluginId=8133&family=INTELLIJ",
+      "sha256": "wzFhoMccxp2TrGoUOGF/7EWq6RMtmZOX6N6ZiZgaPZk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.jetbrains.twig"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-php-toolbox-6.3.0.zip",
+      "since": "251.0",
+      "until": "299.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -315,7 +330,8 @@
       "6.0.0": 127053,
       "6.0.1": 167132,
       "6.1.0": 167194,
-      "6.2.0": 313303
+      "6.2.0": 313303,
+      "6.3.0": 785920
     }
   }
 }

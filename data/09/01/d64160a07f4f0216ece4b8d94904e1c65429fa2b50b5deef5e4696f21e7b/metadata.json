@@ -500,6 +500,42 @@
           "compatible_until": "243"
         }
       ]
+    },
+    "786098": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13264/786098/pycrunch-intellij-connector-1.6.7-pro.zip?updateId=786098&pluginId=13264&family=INTELLIJ",
+      "sha256": "375QuvVOBzYimESLK1L03XqfVPYSRrlwSlrj+z1U2Nc=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "Pythonid",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pycrunch-intellij-connector-1.6.7-pro.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "786099": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13264/786099/pycrunch-intellij-connector-1.6.7-ce.zip?updateId=786099&pluginId=13264&family=INTELLIJ",
+      "sha256": "OvPW6nUyQ8NZEKSBED7OrES1KS2j7z0n9xXUXDftyMk=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "PythonCore",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pycrunch-intellij-connector-1.6.7-ce.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -529,7 +565,9 @@
       "1.6.5-ce": 623999,
       "1.6.5-pro": 623998,
       "1.6.6-ce": 697692,
-      "1.6.6-pro": 697693
+      "1.6.6-pro": 697693,
+      "1.6.7-ce": 786099,
+      "1.6.7-pro": 786098
     }
   }
 }
