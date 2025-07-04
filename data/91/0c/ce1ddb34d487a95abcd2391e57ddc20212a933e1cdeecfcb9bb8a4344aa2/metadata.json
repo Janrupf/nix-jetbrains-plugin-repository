@@ -79,6 +79,38 @@
           "compatible_until": "241.*"
         }
       ]
+    },
+    "786213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23840/786213/AndProguard-3.6.5.242.zip?updateId=786213&pluginId=23840&family=INTELLIJ",
+      "sha256": "gIn+zI0pdzZjSsnXtcYYU7Gi3CHMMVHVlWPNPl0ACDs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AndProguard-3.6.5.242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "786218": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23840/786218/AndProguard-3.6.6.zip?updateId=786218&pluginId=23840&family=INTELLIJ",
+      "sha256": "WvRCXqan5WUg82kpR0WlTCwKl/U9bFPvYJvZKFMwf3I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AndProguard-3.6.6.zip",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -86,7 +118,9 @@
       "3.5.6": 493503,
       "3.6.1": 639414,
       "3.6.2": 639416,
-      "3.6.3": 640137
+      "3.6.3": 640137,
+      "3.6.5.242": 786213,
+      "3.6.6": 786218
     }
   }
 }

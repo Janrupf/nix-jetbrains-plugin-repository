@@ -288,9 +288,28 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "786186": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20611/786186/intellij-idea-plugin-1.3.1-SNAPSHOT.jar?updateId=786186&pluginId=20611&family=INTELLIJ",
+      "sha256": "Eo7MaNbvCYKu44e06tRAEJ5HmxiQ2t6WUqPPNF0vSHk=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.gradle.dsl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-idea-plugin-1.3.1-SNAPSHOT.jar",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "dev": {
+      "1.3.1-SNAPSHOT": 786186
+    },
     "stable": {
       "0.10.0": 592312,
       "0.11.0": 603039,
