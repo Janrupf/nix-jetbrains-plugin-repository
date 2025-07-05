@@ -89,6 +89,28 @@
       "since": "243.23654",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "787126": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23480/787126/mpxjs.jar?updateId=787126&pluginId=23480&family=INTELLIJ",
+      "sha256": "R8+l+fRu6Wa0YWVfxcRKvv49qQUG8YH2qV/X8KqjJE4=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.css",
+        "com.intellij.modules.xml",
+        "intellij.webpack",
+        "org.intellij.plugins.postcss"
+      ],
+      "optional_dependencies": [
+        "JavaScriptDebugger",
+        "com.intellij.copyright",
+        "intellij.prettierJS",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "mpxjs.jar",
+      "since": "251.26927",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -96,7 +118,8 @@
       "241.15989.105": 534924,
       "241.18034.62": 579102,
       "242.20224.342": 588288,
-      "243.23654.120": 675371
+      "243.23654.120": 675371,
+      "251.26927.1": 787126
     }
   }
 }

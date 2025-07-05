@@ -37,12 +37,31 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "786372": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26401/786372/juice-plugin-1.3-SNAPSHOT.jar?updateId=786372&pluginId=26401&family=INTELLIJ",
+      "sha256": "drH8l8fZrOhy+niIlYBT0LeT//wsJxD3aZhSbCi093I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.goland",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "juice-plugin-1.3-SNAPSHOT.jar",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1-SNAPSHOT": 672523,
-      "1.2-SNAPSHOT": 676641
+      "1.2-SNAPSHOT": 676641,
+      "1.3-SNAPSHOT": 786372
     }
   }
 }
