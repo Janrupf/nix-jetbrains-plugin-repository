@@ -246,7 +246,7 @@
       "optional_dependencies": [],
       "file_name": "Zookeeper_Manager-3.0.1.zip",
       "since": "222.0",
-      "until": "243",
+      "until": "241.*",
       "compatibility_overrides": [
         {
           "applies_since": "222.0",
@@ -255,6 +255,19 @@
           "compatible_until": "243"
         }
       ]
+    },
+    "787788": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20317/787788/zookeeper-manager-3.1.2.zip?updateId=787788&pluginId=20317&family=INTELLIJ",
+      "sha256": "IbyT/yrvwGdAWIJAyK4mnpn12GCNCY8M0Ea3Q2eCpao=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "zookeeper-manager-3.1.2.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -277,7 +290,8 @@
       "2022.3.4": 262944,
       "2022.3.5": 465261,
       "3.0.0": 501730,
-      "3.0.1": 505072
+      "3.0.1": 505072,
+      "3.1.2": 787788
     }
   }
 }
