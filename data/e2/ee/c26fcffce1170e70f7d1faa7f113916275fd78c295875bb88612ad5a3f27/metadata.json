@@ -520,20 +520,6 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "786666": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26803/786666/CodeGPT-Tools-6.8.18.zip?updateId=786666&pluginId=26803&family=INTELLIJ",
-      "sha256": "qjCF5+5Xl6QA+yb3HHiZ69lRPsaqim+VgIE7vLcZWHE=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "CodeGPT-Tools-6.8.18.zip",
-      "since": "222.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "787150": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26803/787150/CodeGPT-Tools-6.8.19.zip?updateId=787150&pluginId=26803&family=INTELLIJ",
       "sha256": "RpJTKRn6w33CrT5c/V/gFAUwb623SCbOSZmw7cOqVQE=",
@@ -558,6 +544,22 @@
       ],
       "optional_dependencies": [],
       "file_name": "CodeGPT-Tools-6.9.0.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "788808": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26803/788808/CodeGPT-Tools-6.9.1.zip?updateId=788808&pluginId=26803&family=INTELLIJ",
+      "sha256": "ZGUNhSTnJpIvV7OD5aueTNCYu0GhAVvXSJ3opsCYg5I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "CodeGPT-Tools-6.9.1.zip",
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
@@ -594,7 +596,6 @@
       "6.8.15": 784865,
       "6.8.16": 786643,
       "6.8.17": 786648,
-      "6.8.18": 786666,
       "6.8.19": 787150,
       "6.8.2": 770369,
       "6.8.3": 774498,
@@ -604,7 +605,8 @@
       "6.8.7": 780926,
       "6.8.8": 780935,
       "6.8.9": 782784,
-      "6.9.0": 787169
+      "6.9.0": 787169,
+      "6.9.1": 788808
     }
   }
 }

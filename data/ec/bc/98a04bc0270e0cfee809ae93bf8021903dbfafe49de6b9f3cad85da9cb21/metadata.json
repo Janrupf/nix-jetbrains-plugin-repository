@@ -240,6 +240,23 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "788835": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19147/788835/intellij-buf-0.6.1-signed.zip?updateId=788835&pluginId=19147&family=INTELLIJ",
+      "sha256": "oYq9dgTUuUO6kcHnAes9Yaj12uj/ZA4KV1k3w+Pna8g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "idea.plugin.protoeditor",
+        "io.kanro.idea.plugin.protobuf"
+      ],
+      "file_name": "intellij-buf-0.6.1-signed.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -258,7 +275,8 @@
       "0.4.1": 541655,
       "0.4.2": 640518,
       "0.5.0": 677348,
-      "0.6.0": 725137
+      "0.6.0": 725137,
+      "0.6.1": 788835
     }
   }
 }

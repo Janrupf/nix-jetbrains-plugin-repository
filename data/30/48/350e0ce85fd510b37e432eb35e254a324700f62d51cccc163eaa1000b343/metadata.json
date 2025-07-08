@@ -190,9 +190,25 @@
       "since": "223.1",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "788792": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20161/788792/meterian_heidi_idea.zip?updateId=788792&pluginId=20161&family=INTELLIJ",
+      "sha256": "hUx0S2y62pLBZDkXYpa2yIw7hDpKzmj3ivu8kv/5MbE=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "meterian_heidi_idea.zip",
+      "since": "223.1",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "nightly": {
+      "0.0.15-prerelease": 788792
+    },
     "stable": {
       "0.0.10": 673979,
       "0.0.11": 684008,

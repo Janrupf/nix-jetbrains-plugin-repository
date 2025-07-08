@@ -29,12 +29,28 @@
       "since": "242.24807",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "788787": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26783/788787/json2array-1.0.3.zip?updateId=788787&pluginId=26783&family=INTELLIJ",
+      "sha256": "3jwMMmDbZAWkk+83VxNan7GmkVoqKoi97NyrTGklEOk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "json2array-1.0.3.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 695571,
-      "1.0.2": 697691
+      "1.0.2": 697691,
+      "1.0.3": 788787
     }
   }
 }

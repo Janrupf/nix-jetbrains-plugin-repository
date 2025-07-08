@@ -41,12 +41,33 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "788780": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27744/788780/TypingCat_Pro-1.1.1-final.jar?updateId=788780&pluginId=27744&family=INTELLIJ",
+      "sha256": "e/EdyjxgFP42DyogbZ7uUxv5EXL8O9u8K1Uuo9d/610=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "TypingCat_Pro-1.1.1-final.jar",
+      "since": "173.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 780877,
-      "1.1.0": 781300
+      "1.1.0": 781300,
+      "1.1.1": 788780
     }
   }
 }
