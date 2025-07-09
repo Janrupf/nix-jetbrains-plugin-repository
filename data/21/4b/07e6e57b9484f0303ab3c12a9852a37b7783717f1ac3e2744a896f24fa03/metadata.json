@@ -318,9 +318,54 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "789505": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26327/789505/plugin-251-0.9.0-251.zip?updateId=789505&pluginId=26327&family=INTELLIJ",
+      "sha256": "+eFIIbbjybyDJfqJ7FYvFcpLTvsIygyHPuwRDxCL/Y4=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-251-0.9.0-251.zip",
+      "since": "251.2",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "789689": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26327/789689/plugin-251-0.9.0-251.zip?updateId=789689&pluginId=26327&family=INTELLIJ",
+      "sha256": "Er5tcMLLIV8N71BmyK56q61UprL4ZCQMngizpGClomg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-251-0.9.0-251.zip",
+      "since": "251.2",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "dev": {
+      "0.9.0-251": 789505
+    },
     "stable": {
       "0.1.0": 665591,
       "0.1.1": 667214,
@@ -341,7 +386,8 @@
       "0.7.1-2024.2.5": 736722,
       "0.7.1-2024.3.2": 736723,
       "0.8.0-2024.2.5": 755192,
-      "0.8.0-2024.3.2": 755193
+      "0.8.0-2024.3.2": 755193,
+      "0.9.0-251": 789689
     }
   }
 }
