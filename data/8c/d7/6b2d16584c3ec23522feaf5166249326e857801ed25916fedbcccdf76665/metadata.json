@@ -41,13 +41,57 @@
       "since": "240.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "790715": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27451/790715/spotlight-idea-plugin-0.1.3.zip?updateId=790715&pluginId=27451&family=INTELLIJ",
+      "sha256": "W0pxaB3WyWwNPgtLH3Ka5oHRqOXH1iAtBUTWrnSfQ60=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "spotlight-idea-plugin-0.1.3.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "790733": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27451/790733/spotlight-idea-plugin-1.2.2-SNAPSHOT-1752112419605.zip?updateId=790733&pluginId=27451&family=INTELLIJ",
+      "sha256": "R9R68l6WqjIdC2iuvflnegFBCJApFaANIk7JrLaia+M=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "spotlight-idea-plugin-1.2.2-SNAPSHOT-1752112419605.zip",
+      "since": "242.0",
+      "until": "998.*",
+      "compatibility_overrides": []
+    },
+    "790741": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27451/790741/spotlight-idea-plugin-1.2.2-SNAPSHOT-1752114173757.zip?updateId=790741&pluginId=27451&family=INTELLIJ",
+      "sha256": "dYJUn9LsPi0hCIJ1GvP1OweC8vOH7Ph6llMBbsZlWG8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "spotlight-idea-plugin-1.2.2-SNAPSHOT-1752114173757.zip",
+      "since": "242.0",
+      "until": "998.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "0.1": 751274,
       "0.1.1": 752262,
-      "0.1.2": 752265
+      "0.1.2": 752265,
+      "1.2.2-SNAPSHOT-1752112419605": 790733,
+      "1.2.2-SNAPSHOT-1752114173757": 790741
+    },
+    "stable": {
+      "0.1.3": 790715
     }
   }
 }

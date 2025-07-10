@@ -23,11 +23,27 @@
           "compatible_until": "243.*"
         }
       ]
+    },
+    "790312": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20402/790312/JKDoc-0.0.12.jar?updateId=790312&pluginId=20402&family=INTELLIJ",
+      "sha256": "F2lxWGlEArDrs3R5DceQW+/TXBi2lckPkbKWcoTWWDo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JKDoc-0.0.12.jar",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.10": 518715
+      "0.0.10": 518715,
+      "0.0.12": 790312
     }
   }
 }

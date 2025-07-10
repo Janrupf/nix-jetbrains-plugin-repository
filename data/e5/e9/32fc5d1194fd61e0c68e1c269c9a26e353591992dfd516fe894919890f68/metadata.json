@@ -157,6 +157,23 @@
       "since": "242.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "790327": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25209/790327/cds-intellij.zip?updateId=790327&pluginId=25209&family=INTELLIJ",
+      "sha256": "kUzNxT7cpyZ2eMN8hCsZPLpNAmYfJM7hGFz2oE/TJDk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "NodeJS"
+      ],
+      "file_name": "cds-intellij.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -170,7 +187,8 @@
       "1.4.1": 667179,
       "1.4.2": 668422,
       "1.5.0": 713742,
-      "1.6.0": 786215
+      "1.6.0": 786215,
+      "2.0.0-rc3": 790327
     }
   }
 }
