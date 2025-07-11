@@ -13,12 +13,33 @@
       "file_name": "colorful-delimiter-1.0.0.zip",
       "since": "232.0",
       "until": "232.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "232.*",
+          "compatible_since": "232.0",
+          "compatible_until": "232.*"
+        }
+      ]
+    },
+    "791097": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27869/791097/colorful-delimiter-1.0.1.zip?updateId=791097&pluginId=27869&family=INTELLIJ",
+      "sha256": "QdnR2OZv6uheqeaKxwKvzpvJ8RSko/ZwfSQKaey00xU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "colorful-delimiter-1.0.1.zip",
+      "since": "221.0",
+      "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 790344
+      "1.0.0": 790344,
+      "1.0.1": 791097
     }
   }
 }

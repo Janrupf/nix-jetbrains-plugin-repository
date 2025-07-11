@@ -898,6 +898,42 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "791084": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15921/791084/intellij-kubernetes-1.7.0.11.zip?updateId=791084&pluginId=15921&family=INTELLIJ",
+      "sha256": "RsidakzbWYwA3Zr/UYvBNLUBtDK0Nkqw3d5KvZiT1H4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "intellij-kubernetes-1.7.0.11.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "791518": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15921/791518/intellij-kubernetes-1.7.1-20250711-015541.zip?updateId=791518&pluginId=15921&family=INTELLIJ",
+      "sha256": "1bJ2r0I5Hc4Ajl8DHqp97NZBYE3gFAgHZIqzdzb9Yck=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "intellij-kubernetes-1.7.1-20250711-015541.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -911,7 +947,8 @@
       "1.6.2-20250612-015514": 771520,
       "1.6.2-20250614-015454": 774466,
       "1.6.2-20250621-015514": 780122,
-      "1.6.2-20250706-015543": 787848
+      "1.6.2-20250706-015543": 787848,
+      "1.7.1-20250711-015541": 791518
     },
     "stable": {
       "0.1.2.6": 108921,
@@ -944,7 +981,8 @@
       "1.4.0.4": 587445,
       "1.5.0.8": 676929,
       "1.6.0.9": 743124,
-      "1.6.1.10": 745714
+      "1.6.1.10": 745714,
+      "1.7.0.11": 791084
     }
   }
 }
