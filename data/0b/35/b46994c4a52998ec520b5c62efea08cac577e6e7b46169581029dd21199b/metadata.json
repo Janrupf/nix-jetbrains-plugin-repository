@@ -2,6 +2,67 @@
   "xml_id": "org.jetbrains.plugins.vagrant",
   "numeric_id": 7379,
   "updates": {
+    "15120": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7379/15120/vagrant-113.jar?updateId=15120&pluginId=7379&family=INTELLIJ",
+      "sha256": "ObSz10oGLvS7khbmD6KjvCcaTEqj8Qy1gyv3/yqS11s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.remote-run"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vagrant-113.jar",
+      "since": "133.696",
+      "until": "181.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "133.696",
+          "applies_until": "999.99999",
+          "compatible_since": "133.696",
+          "compatible_until": "181.0"
+        }
+      ]
+    },
+    "15998": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7379/15998/vagrant-13.zip?updateId=15998&pluginId=7379&family=INTELLIJ",
+      "sha256": "H25kWi5tUwcyfLV6cs/YsCZjU7RtkoOrDj09yUcqiqU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vagrant-13.zip",
+      "since": "135.815",
+      "until": "181.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "135.815",
+          "applies_until": "138.*",
+          "compatible_since": "135.815",
+          "compatible_until": "181.0"
+        }
+      ]
+    },
+    "19137": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7379/19137/vagrant-140.2.zip?updateId=19137&pluginId=7379&family=INTELLIJ",
+      "sha256": "20mTofL4jdCBlS5JlYtlfp9YOV9vXFjWA2EFdQTrC/o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vagrant-140.2.zip",
+      "since": "140.2110",
+      "until": "181.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "140.2110",
+          "applies_until": "999.99999",
+          "compatible_since": "140.2110",
+          "compatible_until": "181.0"
+        }
+      ]
+    },
     "19371": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7379/19371/vagrant-141.2.zip?updateId=19371&pluginId=7379&family=INTELLIJ",
       "sha256": "73/vRTKkeLw56xnOKfziwICaMSuAoDGv7OjjA5BqbtY=",
@@ -18143,6 +18204,9 @@
       "243.16718.22": 608058
     },
     "stable": {
+      "0.1": 15120,
+      "0.2": 15998,
+      "0.3": 19137,
       "0.4": 19371,
       "0.5": 19707,
       "0.6.143.1": 24057,

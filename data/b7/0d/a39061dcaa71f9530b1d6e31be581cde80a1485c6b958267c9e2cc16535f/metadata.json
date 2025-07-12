@@ -2,6 +2,26 @@
   "xml_id": "AceJump",
   "numeric_id": 7086,
   "updates": {
+    "11753": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7086/11753/AceJump.zip?updateId=11753&pluginId=7086&family=INTELLIJ",
+      "sha256": "NejLno9fOCXCdhwbU6QHxIehivMUzgYQhmqzrX7uMnU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AceJump.zip",
+      "since": "110.365",
+      "until": "233.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "110.365",
+          "applies_until": "999.99999",
+          "compatible_since": "110.365",
+          "compatible_until": "233.*"
+        }
+      ]
+    },
     "11758": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7086/11758/AceJump.zip?updateId=11758&pluginId=7086&family=INTELLIJ",
       "sha256": "0OB+WojJnsJ5tLwl2g1yKFOmbwpkFQhf62Nml+Fk0Ws=",
@@ -1776,6 +1796,7 @@
   },
   "channels": {
     "stable": {
+      "1.0 Beta": 11753,
       "1.0.1": 11833,
       "1.0.2": 11994,
       "1.0.2 Beta": 11758,

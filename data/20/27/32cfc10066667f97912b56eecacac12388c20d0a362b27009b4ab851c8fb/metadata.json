@@ -19,11 +19,49 @@
           "compatible_until": "201.0"
         }
       ]
+    },
+    "15003": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7377/15003/code-generator.jar?updateId=15003&pluginId=7377&family=INTELLIJ",
+      "sha256": "Cblj1xfjP4HURaLR4Uz6WBHB9vlYru26NsCIMyHODZk=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "code-generator.jar",
+      "since": "107.105",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
+    "15743": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7377/15743/robo-injector.jar?updateId=15743&pluginId=7377&family=INTELLIJ",
+      "sha256": "L0bI3+bJmCbBZ78IOvcU+6M8QZIrGMgF/9bi1lXSV3I=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "robo-injector.jar",
+      "since": "107.105",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "201.0"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.0": 14989
+      "1.0": 14989,
+      "1.01": 15003,
+      "1.2": 15743
     }
   }
 }

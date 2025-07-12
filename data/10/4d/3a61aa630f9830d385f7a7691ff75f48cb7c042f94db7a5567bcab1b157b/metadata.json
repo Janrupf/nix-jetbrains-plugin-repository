@@ -15,11 +15,28 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "791932": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27777/791932/DeepSeek-Code-2.1.8.zip?updateId=791932&pluginId=27777&family=INTELLIJ",
+      "sha256": "lZxv6xWXtprbiMdOhglTRAoQNlYeDTItgks+cnmL3qQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Code-2.1.8.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.1.0": 783739
+      "2.1.0": 783739,
+      "2.1.8": 791932
     }
   }
 }

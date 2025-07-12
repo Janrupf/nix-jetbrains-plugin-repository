@@ -2,6 +2,27 @@
   "xml_id": "fir.im.plug.idea",
   "numeric_id": 7640,
   "updates": {
+    "18201": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7640/18201/FIR_plugin.zip?updateId=18201&pluginId=7640&family=INTELLIJ",
+      "sha256": "2nysMZRU0MqfKQLG5nUcAkkErPTZQp0zoIKpIlMOXiU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "FIR_plugin.zip",
+      "since": "107.105",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
     "20780": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7640/20780/FIR_plugin.zip?updateId=20780&pluginId=7640&family=INTELLIJ",
       "sha256": "sO5BjR5hRcQFR8VlXiwNjS2uZzSaBfcnrbikqyIA1B4=",
@@ -278,6 +299,7 @@
   },
   "channels": {
     "stable": {
+      "0.2": 18201,
       "1.0": 20780,
       "1.2": 20809,
       "1.3": 20831,

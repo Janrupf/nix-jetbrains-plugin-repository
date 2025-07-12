@@ -1,6 +1,31 @@
 {
   "xml_id": "com.eunut.android.plugin.selectors.generate",
   "numeric_id": 7682,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "18609": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7682/18609/AndroidSelectorsGenerate.zip?updateId=18609&pluginId=7682&family=INTELLIJ",
+      "sha256": "42rFlTQCoygW2XnKt++fwLdoMg0Dt6iVvUeV2YeZttI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AndroidSelectorsGenerate.zip",
+      "since": "107.105",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "201.0"
+        }
+      ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.4": 18609
+    }
+  }
 }

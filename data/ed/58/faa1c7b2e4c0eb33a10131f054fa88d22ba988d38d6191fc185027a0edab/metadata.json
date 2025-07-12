@@ -21,10 +21,31 @@
           "compatible_until": "201.0"
         }
       ]
+    },
+    "15977": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7454/15977/intelli-lab.jar?updateId=15977&pluginId=7454&family=INTELLIJ",
+      "sha256": "eEYx3/A3WpVNR17OoOMcAyIxWnkgrM5rgLr+6NnMcQU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.tasks"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-lab.jar",
+      "since": "131.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "131.0",
+          "applies_until": "999.99999",
+          "compatible_since": "131.0",
+          "compatible_until": "201.0"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
+      "0.5": 15977,
       "1.0": 15969
     }
   }

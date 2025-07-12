@@ -102,9 +102,49 @@
         }
       ]
     },
+    "18117": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7391/18117/AsciiDocPlugin.zip?updateId=18117&pluginId=7391&family=INTELLIJ",
+      "sha256": "c1NlYhdIBixCHe/TK0BuESqimxz4qYkzLotGNFCzHSY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AsciiDocPlugin.zip",
+      "since": "107.105",
+      "until": "241.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "241.*"
+        }
+      ]
+    },
     "18123": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7391/18123/idea-asciidoc.zip?updateId=18123&pluginId=7391&family=INTELLIJ",
       "sha256": "Eumn4htIjD/NtgmDIC7YYrf7cISeWAsq8WJJxVDtgeo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-asciidoc.zip",
+      "since": "107.105",
+      "until": "241.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "107.105",
+          "applies_until": "999.99999",
+          "compatible_since": "107.105",
+          "compatible_until": "241.*"
+        }
+      ]
+    },
+    "18561": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7391/18561/idea-asciidoc.zip?updateId=18561&pluginId=7391&family=INTELLIJ",
+      "sha256": "HtoljkoF6txdKOai6OfyKa51AjwrStQmOJTE21V9dVk=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.lang"
@@ -6370,7 +6410,7 @@
       ],
       "file_name": "asciidoctor-intellij-plugin-0.43.6.zip",
       "since": "242.20224.159",
-      "until": "251.0.0",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "242.20224.159",
@@ -6399,7 +6439,7 @@
       ],
       "file_name": "asciidoctor-intellij-plugin-0.43.6.zip",
       "since": "242.20224.159",
-      "until": "251.0.0",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "242.20224.159",
@@ -6938,7 +6978,9 @@
       "0.44.5": 722116,
       "0.44.7": 763266,
       "0.5": 18063,
+      "0.5.1": 18117,
       "0.6": 18123,
+      "0.7": 18561,
       "0.8": 18606,
       "0.9": 20231
     }

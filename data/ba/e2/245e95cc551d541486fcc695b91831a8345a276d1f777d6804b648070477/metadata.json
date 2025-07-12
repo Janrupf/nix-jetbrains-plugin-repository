@@ -2,6 +2,20 @@
   "xml_id": "Jelastic Cloud Platform Integration",
   "numeric_id": 7139,
   "updates": {
+    "12288": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7139/12288/jelastic-idea-plugin-1.1.zip?updateId=12288&pluginId=7139&family=INTELLIJ",
+      "sha256": "tQiCgTPqybD7IvDdC/RpYckZHG4x6MwuCoQCsgMh0H4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.javaee",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jelastic-idea-plugin-1.1.zip",
+      "since": "107.105",
+      "until": null,
+      "compatibility_overrides": []
+    },
     "21283": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7139/21283/jelastic-idea-plugin.zip?updateId=21283&pluginId=7139&family=INTELLIJ",
       "sha256": "cCqadSAXnHWHMrpLZEI4Q8Q0/wMpneonvsjEOM4JZSI=",
@@ -220,6 +234,7 @@
   },
   "channels": {
     "stable": {
+      "1.1": 12288,
       "1.2": 21283,
       "1.3": 22092,
       "1.3.1": 22757,

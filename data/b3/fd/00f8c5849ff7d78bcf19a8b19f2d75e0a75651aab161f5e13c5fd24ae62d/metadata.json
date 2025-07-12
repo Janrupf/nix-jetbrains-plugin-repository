@@ -2,6 +2,27 @@
   "xml_id": "AWS Elastic Beanstalk",
   "numeric_id": 7274,
   "updates": {
+    "13629": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7274/13629/AwsElasticBeanstalk-plugin.zip?updateId=13629&pluginId=7274&family=INTELLIJ",
+      "sha256": "9Z6IiB5KUNRnDz/BGFWmcw9EDIs827ZJgj/FJj6wL+A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.javaee",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AwsElasticBeanstalk-plugin.zip",
+      "since": "129.713",
+      "until": "181.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "129.713",
+          "applies_until": "129.713",
+          "compatible_since": "129.713",
+          "compatible_until": "181.0"
+        }
+      ]
+    },
     "13655": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7274/13655/AwsElasticBeanstalk-plugin.zip?updateId=13655&pluginId=7274&family=INTELLIJ",
       "sha256": "eWZdFp4H7hCJgUdrS6BPyOsWaPv8h/2Ero0XFfWw25Q=",
@@ -373,6 +394,7 @@
   },
   "channels": {
     "stable": {
+      "0.5.0": 13629,
       "0.5.1": 13655,
       "0.5.2": 13749,
       "0.5.3": 13762,

@@ -322,6 +322,28 @@
           "compatible_until": "181"
         }
       ]
+    },
+    "18049": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7089/18049/magicento.jar?updateId=18049&pluginId=7089&family=INTELLIJ",
+      "sha256": "7zTaLHHgEbu6DI7smZuvenUi1ajh0+i7Qe3fzKJh7k0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "magicento.jar",
+      "since": "117.105",
+      "until": "181",
+      "compatibility_overrides": [
+        {
+          "applies_since": "117.105",
+          "applies_until": "999.99999",
+          "compatible_since": "117.105",
+          "compatible_until": "181"
+        }
+      ]
     }
   },
   "channels": {
@@ -341,7 +363,8 @@
       "1.3.0": 12427,
       "1.4.1": 13144,
       "1.4.2": 13160,
-      "2.0.0": 13647
+      "2.0.0": 13647,
+      "2.4.0": 18049
     }
   }
 }

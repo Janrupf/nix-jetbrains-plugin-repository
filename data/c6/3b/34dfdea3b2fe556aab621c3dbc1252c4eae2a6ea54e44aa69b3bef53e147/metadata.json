@@ -2,6 +2,19 @@
   "xml_id": "com.gisttemplates",
   "numeric_id": 7400,
   "updates": {
+    "15297": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7400/15297/gist-templates-plugin.zip?updateId=15297&pluginId=7400&family=INTELLIJ",
+      "sha256": "eTRDwKVZDeV95Q9HCl7k8tiwxkdrUvLYLZwz3FcwiSs=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.github"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gist-templates-plugin.zip",
+      "since": "117.418",
+      "until": null,
+      "compatibility_overrides": []
+    },
     "15349": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7400/15349/gist-templates-plugin.zip?updateId=15349&pluginId=7400&family=INTELLIJ",
       "sha256": "DoEvGnJVQ9aAn1ZRFiWfSxqF+zWNBKgDiZhcdBEG8tc=",
@@ -46,6 +59,20 @@
     "15609": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7400/15609/gist-templates-plugin.zip?updateId=15609&pluginId=7400&family=INTELLIJ",
       "sha256": "ZZpQrkHQbJU3Nx9LcCT0T6JZPB8FzgVWjkr9NSEW5bA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.github"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gist-templates-plugin.zip",
+      "since": "117.418",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "15611": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7400/15611/gist-templates-plugin.zip?updateId=15611&pluginId=7400&family=INTELLIJ",
+      "sha256": "WsWlP58FDR43cNjBbymF3C0TMg1MSrBeq6KXXvP/YzY=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.lang",
@@ -130,10 +157,12 @@
   },
   "channels": {
     "stable": {
+      "0.1": 15297,
       "0.11": 15349,
       "0.12": 15494,
       "0.2": 15518,
       "0.3": 15609,
+      "0.3.1": 15611,
       "0.3.2": 15613,
       "0.3.3": 15617,
       "0.3.4": 15654,

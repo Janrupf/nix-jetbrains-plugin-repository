@@ -2,6 +2,20 @@
   "xml_id": "org.campagnelab.background",
   "numeric_id": 7545,
   "updates": {
+    "18999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7545/18999/Background-1.0.1-294.zip?updateId=18999&pluginId=7545&family=INTELLIJ",
+      "sha256": "0MehEseOqY55Xz876uXJWj1zimc5ZEVSK8eMbTcra8Q=",
+      "channel": "stable",
+      "dependencies": [
+        "jetbrains.mps.build",
+        "jetbrains.mps.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Background-1.0.1-294.zip",
+      "since": "139.1",
+      "until": "140.1",
+      "compatibility_overrides": []
+    },
     "23426": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7545/23426/Background-1.1.0-577.zip?updateId=23426&pluginId=7545&family=INTELLIJ",
       "sha256": "knz1lpqXPeATKYUXA8KBD541w9VOUQNDoDDild2I098=",
@@ -91,6 +105,7 @@
   },
   "channels": {
     "stable": {
+      "1.0.1": 18999,
       "1.1.0": 23426,
       "1.2.0": 26043,
       "3.0.0": 29738,

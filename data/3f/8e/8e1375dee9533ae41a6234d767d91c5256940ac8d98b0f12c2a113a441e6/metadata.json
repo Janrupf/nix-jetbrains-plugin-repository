@@ -62,6 +62,46 @@
         }
       ]
     },
+    "13889": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7238/13889/intellij.sonar.zip?updateId=13889&pluginId=7238&family=INTELLIJ",
+      "sha256": "sP0Z+WjdAI8uslcjRUubwU3Wks6BEEo8htTGbJn+VKQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij.sonar.zip",
+      "since": "123.72",
+      "until": "123.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "123.72",
+          "applies_until": "999.99999",
+          "compatible_since": "123.72",
+          "compatible_until": "123.*"
+        }
+      ]
+    },
+    "13901": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7238/13901/sonar-intellij-plugin-12.zip?updateId=13901&pluginId=7238&family=INTELLIJ",
+      "sha256": "SLXNeeuX5KroXSlurRn4uR0zd9j7MU0SE4F/nW7x4Zc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sonar-intellij-plugin-12.zip",
+      "since": "123.0",
+      "until": "123.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "123.0",
+          "applies_until": "999.99999",
+          "compatible_since": "123.0",
+          "compatible_until": "123.*"
+        }
+      ]
+    },
     "14585": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7238/14585/sonar-intellij-plugin.zip?updateId=14585&pluginId=7238&family=INTELLIJ",
       "sha256": "3dCMlWilFWkJD/cm90j8/hOqvkeqYpoxfIhrPbmkdBQ=",
@@ -883,6 +923,8 @@
       "1.0": 13354,
       "1.1": 13567,
       "1.2": 13583,
+      "1.3": 13889,
+      "1.3.1": 13901,
       "1.3.2": 14585,
       "1.3.3": 14602,
       "1.4.0": 14610,

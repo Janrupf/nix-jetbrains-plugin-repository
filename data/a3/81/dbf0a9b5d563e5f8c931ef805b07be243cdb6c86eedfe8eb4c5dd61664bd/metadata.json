@@ -83,6 +83,33 @@
         }
       ]
     },
+    "84183": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10046/84183/p3c-idea-2.0.2.zip?updateId=84183&pluginId=10046&family=INTELLIJ",
+      "sha256": "AyYE8BM4MiLHD/lRRQpwB0AeTElFJCzsi4KCDVsQVoc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.velocity"
+      ],
+      "file_name": "p3c-idea-2.0.2.zip",
+      "since": "145.0",
+      "until": "231",
+      "compatibility_overrides": [
+        {
+          "applies_since": "145.0",
+          "applies_until": "999.99999",
+          "compatible_since": "145.0",
+          "compatible_until": "231"
+        }
+      ]
+    },
     "95159": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/10046/95159/p3c-idea-2.1.0.zip?updateId=95159&pluginId=10046&family=INTELLIJ",
       "sha256": "ajDzyAP1GFAZzilQhFdIoheK5hyL5ms6O6obJRd/MEg=",
@@ -143,6 +170,7 @@
       "1.0.0": 39411,
       "2.0.0": 63919,
       "2.0.1": 73892,
+      "2.0.2": 84183,
       "2.1.0": 95159,
       "2.1.1": 130073
     }

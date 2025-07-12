@@ -2,6 +2,48 @@
   "xml_id": "Railways for IDEA",
   "numeric_id": 7408,
   "updates": {
+    "15375": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7408/15375/railways-idea.jar?updateId=15375&pluginId=7408&family=INTELLIJ",
+      "sha256": "ikr702dIqsZ623NZlVwTnnk6RMovAi8z+RlQ0E1oTj8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "optional_dependencies": [],
+      "file_name": "railways-idea.jar",
+      "since": "122.633",
+      "until": "181.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "122.633",
+          "applies_until": "999.99999",
+          "compatible_since": "122.633",
+          "compatible_until": "181.0"
+        }
+      ]
+    },
+    "15523": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7408/15523/railways-idea.jar?updateId=15523&pluginId=7408&family=INTELLIJ",
+      "sha256": "OlIG4ioaoucBudTW9iZjOXsIcrVusRf0Y/PvG9xRri4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "optional_dependencies": [],
+      "file_name": "railways-idea.jar",
+      "since": "122.633",
+      "until": "181.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "122.633",
+          "applies_until": "999.99999",
+          "compatible_since": "122.633",
+          "compatible_until": "181.0"
+        }
+      ]
+    },
     "18053": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7408/18053/railways-idea.jar?updateId=18053&pluginId=7408&family=INTELLIJ",
       "sha256": "BwZ7+D5iTKXN5Z2dem3i0BqGRNcd5VDR48hJdoY4NDE=",
@@ -313,6 +355,8 @@
   },
   "channels": {
     "stable": {
+      "0.7.0": 15375,
+      "0.7.1": 15523,
       "0.8.0": 18053,
       "0.8.1": 18179,
       "0.8.10": 42672,

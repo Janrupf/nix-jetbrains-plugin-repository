@@ -14,13 +14,29 @@
       "optional_dependencies": [],
       "file_name": "mcp-idea-lsp-1.0.0.zip",
       "since": "243.0",
-      "until": null,
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "791963": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27888/791963/mcp-idea-lsp-1.0.2.zip?updateId=791963&pluginId=27888&family=INTELLIJ",
+      "sha256": "gJivksWTcI59AWVbNwAEKieNsMHvG4rKpjI6DOyaWNI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-idea-lsp-1.0.2.zip",
+      "since": "243.0",
+      "until": "251.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 791507
+      "1.0.0": 791507,
+      "1.0.2": 791963
     }
   }
 }

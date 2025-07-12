@@ -2,6 +2,46 @@
   "xml_id": "Keymap exporter",
   "numeric_id": 7066,
   "updates": {
+    "11479": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7066/11479/intellij-keymap.zip?updateId=11479&pluginId=7066&family=INTELLIJ",
+      "sha256": "SP/QoJi48nVJwnZ0MkyaoxWznsQEn/SQUHvsHEhGAhY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-keymap.zip",
+      "since": "111.69",
+      "until": "201",
+      "compatibility_overrides": [
+        {
+          "applies_since": "111.69",
+          "applies_until": "999.99999",
+          "compatible_since": "111.69",
+          "compatible_until": "201"
+        }
+      ]
+    },
+    "13717": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7066/13717/intellij-keymap.zip?updateId=13717&pluginId=7066&family=INTELLIJ",
+      "sha256": "TwddmMCnFM0gZw7AtTbdKs4lZYwFsAaP/EO/a2umzA4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-keymap.zip",
+      "since": "130.1167",
+      "until": "201",
+      "compatibility_overrides": [
+        {
+          "applies_since": "130.1167",
+          "applies_until": "999.99999",
+          "compatible_since": "130.1167",
+          "compatible_until": "201"
+        }
+      ]
+    },
     "42770": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7066/42770/intellij-plugin-export-keymap-2.0.zip?updateId=42770&pluginId=7066&family=INTELLIJ",
       "sha256": "rilsHsJBSi+4+Wb242JoDiMfHrBpSQDKEGH9zO/2GmU=",
@@ -110,6 +150,8 @@
   },
   "channels": {
     "stable": {
+      "1.0": 11479,
+      "1.1": 13717,
       "2.0": 42770,
       "2.1": 59930,
       "2.2": 105032,

@@ -2,6 +2,28 @@
   "xml_id": "ExploreTrace",
   "numeric_id": 7613,
   "updates": {
+    "17921": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7613/17921/ExploreTrace.jar?updateId=17921&pluginId=7613&family=INTELLIJ",
+      "sha256": "+cjJC8JBm4yJizUlJSAjy1UA2h14jw+tedVyZU7YuTc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ExploreTrace.jar",
+      "since": "139.224",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "139.224",
+          "applies_until": "999.99999",
+          "compatible_since": "139.224",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
     "17922": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7613/17922/ExploreTrace.jar?updateId=17922&pluginId=7613&family=INTELLIJ",
       "sha256": "S+dtwSg0wlk2php+IdUMcMhyDjjkSKlzAvNZgTOnEUw=",
@@ -27,6 +49,7 @@
   },
   "channels": {
     "stable": {
+      "0.1": 17921,
       "0.1.1": 17922
     }
   }

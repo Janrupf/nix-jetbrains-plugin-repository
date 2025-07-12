@@ -2,6 +2,24 @@
   "xml_id": "org.jetbrains.code-golf",
   "numeric_id": 7243,
   "updates": {
+    "16585": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7243/16585/IntelliJCodeGolf.zip?updateId=16585&pluginId=7243&family=INTELLIJ",
+      "sha256": "tWSx4OQ+VtGIeTIKOi+wmy+nrfsuGozG/vrDUvzx8Jc=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [],
+      "file_name": "IntelliJCodeGolf.zip",
+      "since": "129.1",
+      "until": "182.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "129.1",
+          "applies_until": "999.99999",
+          "compatible_since": "129.1",
+          "compatible_until": "182.0"
+        }
+      ]
+    },
     "17056": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7243/17056/IntelliJCodeGolf.zip?updateId=17056&pluginId=7243&family=INTELLIJ",
       "sha256": "yvTruDk6Tw0exPoY74taVMWrjqJ8mbLMSXsDxmIP9G4=",
@@ -104,6 +122,7 @@
   },
   "channels": {
     "stable": {
+      "0.2.2": 16585,
       "0.2.3": 17056,
       "0.3": 48013,
       "0.3.1": 48039,

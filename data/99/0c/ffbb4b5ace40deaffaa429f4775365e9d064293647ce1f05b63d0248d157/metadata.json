@@ -2,6 +2,27 @@
   "xml_id": "jballant.CommonJSAutoComplete",
   "numeric_id": 7507,
   "updates": {
+    "16680": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7507/16680/CommonJSAutoComplete.jar?updateId=16680&pluginId=7507&family=INTELLIJ",
+      "sha256": "3UUL4WAhl8OXizIJf3oqwfWD9k5gb7qTu7dlRFV3W+o=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CommonJSAutoComplete.jar",
+      "since": "131.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "131.0",
+          "applies_until": "999.99999",
+          "compatible_since": "131.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    },
     "16703": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7507/16703/CommonJSAutoComplete.jar?updateId=16703&pluginId=7507&family=INTELLIJ",
       "sha256": "SriMx2VyDKm3ubJywe8I9VidB+rWczR8/ZXduMM45o8=",
@@ -215,6 +236,7 @@
   },
   "channels": {
     "stable": {
+      "0.0.0": 16680,
       "0.0.1": 16703,
       "0.0.2": 16781,
       "0.1.0": 17397,
