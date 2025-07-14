@@ -1667,6 +1667,36 @@
       "since": "202.0",
       "until": "203.*",
       "compatibility_overrides": []
+    },
+    "792927": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/792927/Smart_Input_Pro-2.3.5-pycharm.zip?updateId=792927&pluginId=25280&family=INTELLIJ",
+      "sha256": "4JAv/aJrmBG2OD74ya07oeR+yTILxH2DBXgQe1qnmvI=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Smart_Input_Pro-2.3.5-pycharm.zip",
+      "since": "233.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "792928": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/792928/Smart_Input_Pro-2.3.5-pycharm_221u232.zip?updateId=792928&pluginId=25280&family=INTELLIJ",
+      "sha256": "t1piz+GgiW/2p2LkhOImg6QsvgywMKa9cO3mMlC28Rw=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Smart_Input_Pro-2.3.5-pycharm_221u232.zip",
+      "since": "221.0",
+      "until": "232.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1774,7 +1804,9 @@
       "2.3.5+202u203": 792279,
       "2.3.5+211": 792271,
       "2.3.5+212u213": 792263,
-      "2.3.5+221u232": 791983
+      "2.3.5+221u232": 791983,
+      "2.3.5-pycharm": 792927,
+      "2.3.5-pycharm+221u232": 792928
     }
   }
 }
