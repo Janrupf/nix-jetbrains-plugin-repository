@@ -5412,6 +5412,47 @@
       "since": "252.23892",
       "until": "252.23892.*",
       "compatibility_overrides": []
+    },
+    "793431": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14394/793431/swagger-251.25410.zip?updateId=793431&pluginId=14394&family=INTELLIJ",
+      "sha256": "yQ9X0vP7vsvS2OWoqCiMsd/TUl2JEQm8y68LlmZoUrU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.json",
+        "com.jetbrains.restClient",
+        "intellij.yaml.backend",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.microservices.ui",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "swagger-251.25410.zip",
+      "since": "251.25410",
+      "until": "251.26927.*",
+      "compatibility_overrides": []
+    },
+    "793825": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14394/793825/swagger-251.26927.91.zip?updateId=793825&pluginId=14394&family=INTELLIJ",
+      "sha256": "XasEinx21wMLdSGwHm295wS/YMwrrWqPaX2WiOtpBdI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.jetbrains.restClient",
+        "intellij.yaml.backend",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.microservices.ui",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "swagger-251.26927.91.zip",
+      "since": "251.26927",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5645,6 +5686,7 @@
       "251.23774.429": 715942,
       "251.23774.439": 716556,
       "251.23774.442": 716588,
+      "251.25410": 793431,
       "251.25410.104": 735642,
       "251.25410.123": 736966,
       "251.25410.75": 732373,
@@ -5653,6 +5695,7 @@
       "251.26094.87": 757478,
       "251.26927.39": 780449,
       "251.26927.75": 785223,
+      "251.26927.91": 793825,
       "252.13776.55": 741685,
       "252.16512.18": 749861,
       "252.18003.25": 759282,

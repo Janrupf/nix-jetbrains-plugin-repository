@@ -2,41 +2,27 @@
   "xml_id": "dev.mcp.extensions.lsp",
   "numeric_id": 27888,
   "updates": {
-    "791507": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27888/791507/mcp-idea-lsp-1.0.0.zip?updateId=791507&pluginId=27888&family=INTELLIJ",
-      "sha256": "dH+ufQtLwNg8POatAaNIve+A2rB/iLbCUWW6sDvFzcY=",
+    "794273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27888/794273/mcp-idea-lsp-1.0.3.zip?updateId=794273&pluginId=27888&family=INTELLIJ",
+      "sha256": "VqSZW6Fz3CQ7LBQijr/lsAy6RLIkp15EA230L6KOcRQ=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.mcpServer",
         "com.intellij.modules.java",
         "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "mcp-idea-lsp-1.0.0.zip",
-      "since": "243.0",
-      "until": "251.*",
-      "compatibility_overrides": []
-    },
-    "791963": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27888/791963/mcp-idea-lsp-1.0.2.zip?updateId=791963&pluginId=27888&family=INTELLIJ",
-      "sha256": "gJivksWTcI59AWVbNwAEKieNsMHvG4rKpjI6DOyaWNI=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.mcpServer",
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
+      "optional_dependencies": [
+        "com.intellij.modules.python"
       ],
-      "optional_dependencies": [],
-      "file_name": "mcp-idea-lsp-1.0.2.zip",
-      "since": "243.0",
+      "file_name": "mcp-idea-lsp-1.0.3.zip",
+      "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 791507,
-      "1.0.2": 791963
+      "1.0.3": 794273
     }
   }
 }
