@@ -4658,6 +4658,31 @@
       "since": "251.22821.72",
       "until": null,
       "compatibility_overrides": []
+    },
+    "793720": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/793720/jmix-studio-2.6.1-251.zip?updateId=793720&pluginId=14340&family=INTELLIJ",
+      "sha256": "2NtUrvTO+Ed4dj6t5XvbX6HCKRuxx+4KR1nAhfiImsQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "JavaScript",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-2.6.1-251.zip",
+      "since": "251.22821.72",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4857,7 +4882,8 @@
       "2.5.2-251": 751299,
       "2.6.0-243": 783084,
       "2.6.0-251": 783085,
-      "2.6.1-243": 791147
+      "2.6.1-243": 791147,
+      "2.6.1-251": 793720
     }
   }
 }

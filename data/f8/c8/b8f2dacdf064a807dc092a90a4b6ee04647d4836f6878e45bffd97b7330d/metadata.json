@@ -11,9 +11,16 @@
       ],
       "optional_dependencies": [],
       "file_name": "AEM_Repository_Tools-2025.1.2.zip",
-      "since": "243.0",
-      "until": "251.1.1",
-      "compatibility_overrides": []
+      "since": "243.1",
+      "until": "243.6",
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "251.1.1",
+          "compatible_since": "243.1",
+          "compatible_until": "243.6"
+        }
+      ]
     },
     "786336": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27802/786336/AEM_Repository_Tools-2025.1.3.zip?updateId=786336&pluginId=27802&family=INTELLIJ",
@@ -24,9 +31,16 @@
       ],
       "optional_dependencies": [],
       "file_name": "AEM_Repository_Tools-2025.1.3.zip",
-      "since": "232.0",
-      "until": "242.1.1",
-      "compatibility_overrides": []
+      "since": "232.2",
+      "until": "241.7",
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "242.1.1",
+          "compatible_since": "232.2",
+          "compatible_until": "241.7"
+        }
+      ]
     },
     "790299": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27802/790299/AEM_Repository_Tools-2025.1.4.zip?updateId=790299&pluginId=27802&family=INTELLIJ",
@@ -37,30 +51,23 @@
       ],
       "optional_dependencies": [],
       "file_name": "AEM_Repository_Tools-2025.1.4.zip",
-      "since": "243.0",
-      "until": "251.3",
-      "compatibility_overrides": []
-    },
-    "791818": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27802/791818/AEM_Repository_Tools-2025.1.5.zip?updateId=791818&pluginId=27802&family=INTELLIJ",
-      "sha256": "FLEMj7Xc9zTLSq2VCbywVD+o0WdPBX2MqUmBEUU+Yig=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "AEM_Repository_Tools-2025.1.5.zip",
       "since": "243.1",
-      "until": "251.3",
-      "compatibility_overrides": []
+      "until": "243.6",
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "251.3",
+          "compatible_since": "243.1",
+          "compatible_until": "243.6"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "2025.1.2": 786152,
       "2025.1.3": 786336,
-      "2025.1.4": 790299,
-      "2025.1.5": 791818
+      "2025.1.4": 790299
     }
   }
 }

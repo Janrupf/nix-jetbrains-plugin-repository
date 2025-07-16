@@ -2,24 +2,39 @@
   "xml_id": "com.harmonyos.samples",
   "numeric_id": 27850,
   "updates": {
-    "788828": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27850/788828/sample_plugin-1.0.8-Alpha.zip?updateId=788828&pluginId=27850&family=INTELLIJ",
-      "sha256": "5BjneVBIYNXwx77H1KqG5LUdatgz4dgnPEjt2Gp5nXE=",
+    "794585": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27850/794585/sample_plugin-1.0.6-Alpha.zip?updateId=794585&pluginId=27850&family=INTELLIJ",
+      "sha256": "0+Uh+cWxllmIpDPpu7w8I5MsYvcGC6C2Wk4EZyVjelY=",
       "channel": "stable",
       "dependencies": [
         "Git4Idea",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "sample_plugin-1.0.8-Alpha.zip",
-      "since": "232.0",
-      "until": "243.*",
+      "file_name": "sample_plugin-1.0.6-Alpha.zip",
+      "since": "222.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "794586": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27850/794586/sample_plugin-1.0.7-Alpha.zip?updateId=794586&pluginId=27850&family=INTELLIJ",
+      "sha256": "pjetmJ1g+1buQ8sF4u1cG/02TuF5B3+f0EQ/qO+ezag=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sample_plugin-1.0.7-Alpha.zip",
+      "since": "222.0",
+      "until": "252.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.8-Alpha": 788828
+      "1.0.6-Alpha": 794585,
+      "1.0.7-Alpha": 794586
     }
   }
 }
