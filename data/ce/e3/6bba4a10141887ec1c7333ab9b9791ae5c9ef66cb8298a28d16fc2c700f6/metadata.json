@@ -1,6 +1,38 @@
 {
   "xml_id": "com.joh.easy-mql",
   "numeric_id": 27903,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "794608": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27903/794608/easy-mql-1.0.zip?updateId=794608&pluginId=27903&family=INTELLIJ",
+      "sha256": "mDMjK0elhcMEFA7tqn5mQ7629ZA3+yMPNP5wnSj0Hd4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "easy-mql-1.0.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "795879": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27903/795879/easy-mql-1.1.zip?updateId=795879&pluginId=27903&family=INTELLIJ",
+      "sha256": "4jDmkc27BIuSwfhdoS9GLros3+yZmR4MZzlVaICIu1s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "easy-mql-1.1.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 794608,
+      "1.1": 795879
+    }
+  }
 }
