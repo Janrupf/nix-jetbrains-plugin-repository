@@ -211,6 +211,27 @@
       "since": "212.5712",
       "until": null,
       "compatibility_overrides": []
+    },
+    "796776": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19964/796776/Catappult_Billing_Integration.zip?updateId=796776&pluginId=19964&family=INTELLIJ",
+      "sha256": "jfNteWX4TFVajW4PHUpsP/HE6KoHkUnzu+lU5L08v+E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Catappult_Billing_Integration.zip",
+      "since": "252.23591.19",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.5712",
+          "applies_until": "999.99999",
+          "compatible_since": "252.23591.19",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -229,7 +250,8 @@
       "1.1.5": 380285,
       "1.1.6": 406221,
       "1.1.7": 535047,
-      "1.1.8": 637724
+      "1.1.8": 637724,
+      "1.2.0": 796776
     }
   }
 }
