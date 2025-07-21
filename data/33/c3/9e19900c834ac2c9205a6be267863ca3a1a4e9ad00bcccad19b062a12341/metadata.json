@@ -1744,6 +1744,26 @@
       "since": "243.21565",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "800150": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9405/800150/FRC-5.1.0-2025.1-signed.zip?updateId=800150&pluginId=9405&family=INTELLIJ",
+      "sha256": "a3REaGBs/BeiMehTBp0KjCxZ1pZLDp6rD4pHZ1mehN8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.sh"
+      ],
+      "file_name": "FRC-5.1.0-2025.1-signed.zip",
+      "since": "251.23774",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1847,7 +1867,8 @@
       "5.0.0-2024.3": 659453,
       "5.1.0-2024.1": 663157,
       "5.1.0-2024.2": 663158,
-      "5.1.0-2024.3": 663159
+      "5.1.0-2024.3": 663159,
+      "5.1.0-2025.1": 800150
     }
   }
 }

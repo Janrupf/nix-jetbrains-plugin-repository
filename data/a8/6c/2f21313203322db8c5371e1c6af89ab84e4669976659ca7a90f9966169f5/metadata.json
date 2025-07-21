@@ -29,12 +29,27 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "799799": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26949/799799/dependency-converter-1.0.0.jar?updateId=799799&pluginId=26949&family=INTELLIJ",
+      "sha256": "ZwMUsqUorBZTXMSknH3179kUyG7AazqK5ZiZ26+ezw8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dependency-converter-1.0.0.jar",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1": 705366,
-      "0.0.2": 706109
+      "0.0.2": 706109,
+      "1.0.0": 799799
     }
   }
 }

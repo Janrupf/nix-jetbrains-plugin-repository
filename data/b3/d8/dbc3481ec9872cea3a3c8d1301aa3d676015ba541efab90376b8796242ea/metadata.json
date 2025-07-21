@@ -357,6 +357,22 @@
       "since": "231.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "800152": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25413/800152/security-linter-2.0.6.zip?updateId=800152&pluginId=25413&family=INTELLIJ",
+      "sha256": "hIQfI18MHUxWu2k8odH1KPzu3ReQUSLQSAFkVS58XYE=",
+      "channel": "stable",
+      "dependencies": [
+        "Docker",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "security-linter-2.0.6.zip",
+      "since": "231.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -383,7 +399,8 @@
       "2.0.2": 780183,
       "2.0.3": 784031,
       "2.0.4": 787505,
-      "2.0.5": 792925
+      "2.0.5": 792925,
+      "2.0.6": 800152
     }
   }
 }
