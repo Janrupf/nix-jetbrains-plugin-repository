@@ -1,6 +1,26 @@
 {
   "xml_id": "com.envcli.plugin",
   "numeric_id": 27953,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "800009": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27953/800009/env-cli-plugin-2025.1.5.zip?updateId=800009&pluginId=27953&family=INTELLIJ",
+      "sha256": "AitBwDbG4sLq7cSO2BI8Rd34s6PSfdzKJm1/e6khXtw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "env-cli-plugin-2025.1.5.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2025.1.5": 800009
+    }
+  }
 }

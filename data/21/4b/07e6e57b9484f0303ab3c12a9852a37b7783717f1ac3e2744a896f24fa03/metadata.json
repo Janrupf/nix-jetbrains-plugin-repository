@@ -413,6 +413,27 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "800463": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26327/800463/plugin-251-0.9.1-251.zip?updateId=800463&pluginId=26327&family=INTELLIJ",
+      "sha256": "TPtzhUC27/aDM5kQEW6kX0FOgsKvi22CyyT0BODA/dM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-251-0.9.1-251.zip",
+      "since": "251.2",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -443,7 +464,8 @@
       "0.8.0-2024.3.2": 755193,
       "0.9.0-251": 789689,
       "0.9.1-2024.2.5": 795384,
-      "0.9.1-2024.3.2": 795385
+      "0.9.1-2024.3.2": 795385,
+      "0.9.1-251": 800463
     }
   }
 }

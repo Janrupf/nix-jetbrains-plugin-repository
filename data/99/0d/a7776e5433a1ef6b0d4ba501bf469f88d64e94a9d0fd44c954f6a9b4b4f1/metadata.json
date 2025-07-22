@@ -2690,6 +2690,45 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "800452": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9837/800452/MybatisCodeHelperNew2019.1-2023.1-3.4.5.1.zip?updateId=800452&pluginId=9837&family=INTELLIJ",
+      "sha256": "lqo8yRufNWR3Iy8a4pwkha9jRM7xbpx65Qai8JRbpGU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database",
+        "com.intellij.spring",
+        "com.intellij.spring.boot",
+        "com.intellij.velocity",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "MybatisCodeHelperNew2019.1-2023.1-3.4.5.1.zip",
+      "since": "191.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "800455": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9837/800455/MyBatisCodeHelper-Pro-3.4.5.1_2321-2023.2-2025.1obfuscated.zip?updateId=800455&pluginId=9837&family=INTELLIJ",
+      "sha256": "8sTL/SwIsisv76qGUlG22GXYn1lbQ6L6Kl+GvwXQ+wQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.brucege.DatabaseHelper",
+        "com.intellij.database",
+        "com.intellij.spring",
+        "com.intellij.spring.boot",
+        "com.intellij.velocity",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "MyBatisCodeHelper-Pro-3.4.5.1_2321-2023.2-2025.1obfuscated.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2862,7 +2901,9 @@
       "3.4.3+2321": 771663,
       "3.4.4+2321": 775258,
       "3.4.5": 797281,
-      "3.4.5+2321": 797284
+      "3.4.5+2321": 797284,
+      "3.4.5.1": 800452,
+      "3.4.5.1+2321": 800455
     }
   }
 }
