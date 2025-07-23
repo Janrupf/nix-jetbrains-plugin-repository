@@ -52,13 +52,67 @@
       "since": "233.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "801956": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/801956/intellij-maven-project-version-plugin.maven-update-2.3.3.zip?updateId=801956&pluginId=27628&family=INTELLIJ",
+      "sha256": "MdyPPJK+cVDdnttnYKWThulPEgJD+LG6YixTwJw8OCM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.3.3.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "802080": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/802080/intellij-maven-project-version-plugin.maven-update-2.3.2.zip?updateId=802080&pluginId=27628&family=INTELLIJ",
+      "sha256": "kN66zu1Ouv6DaUP6UgoOJsdfCaqOBsy20iURJwB/5E8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.3.2.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "802314": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/802314/intellij-maven-project-version-plugin.maven-update-2.3.1.zip?updateId=802314&pluginId=27628&family=INTELLIJ",
+      "sha256": "t05IE3YWHduCqqQ2Xsf5BVRzfwSN1rroDbPAGawsPXA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.3.1.zip",
+      "since": "191.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.2.1.1": 775168,
       "2.2.2.1": 773031,
-      "2.2.3.1": 775178
+      "2.2.3.1": 775178,
+      "2.3.1": 802314,
+      "2.3.2": 802080,
+      "2.3.3": 801956
     }
   }
 }

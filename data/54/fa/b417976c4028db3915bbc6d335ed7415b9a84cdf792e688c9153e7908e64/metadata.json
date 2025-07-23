@@ -521,9 +521,38 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "801314": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23451/801314/fuzzier-1.9.0-pre2.jar?updateId=801314&pluginId=23451&family=INTELLIJ",
+      "sha256": "Kr38Shuy0UO7IMrJBRJjw7ri/18ok6fdrSTBTc9hcLA=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fuzzier-1.9.0-pre2.jar",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "801559": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23451/801559/fuzzier-1.9.0.zip?updateId=801559&pluginId=23451&family=INTELLIJ",
+      "sha256": "nTvd67SlysurK14E218ywXdClnwkRU+4xQdDwu+s4Pw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fuzzier-1.9.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "preview": {
+      "1.9.0-pre2": 801314
+    },
     "stable": {
       "0.10": 471612,
       "0.11": 476355,
@@ -564,7 +593,8 @@
       "1.7.1": 712317,
       "1.8.0": 739431,
       "1.8.1": 755626,
-      "1.8.2": 769293
+      "1.8.2": 769293,
+      "1.9.0": 801559
     }
   }
 }

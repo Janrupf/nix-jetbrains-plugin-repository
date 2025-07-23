@@ -37,12 +37,31 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "802027": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27900/802027/intellij-developer-tools-plugin-7.2.1.zip?updateId=802027&pluginId=27900&family=INTELLIJ",
+      "sha256": "VDJSeh2LnBQX8dYBm7h7HC7UbIvPb8om9p436HTTCL4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "intellij-developer-tools-plugin-7.2.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "7.1.1": 799789,
-      "7.2.0": 801236
+      "7.2.0": 801236,
+      "7.2.1": 802027
     }
   }
 }

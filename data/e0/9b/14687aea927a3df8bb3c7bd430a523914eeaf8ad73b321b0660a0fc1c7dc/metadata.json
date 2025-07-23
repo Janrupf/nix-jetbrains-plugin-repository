@@ -1,6 +1,25 @@
 {
   "xml_id": "com.kbelab.kbenginex",
   "numeric_id": 27963,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "800488": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27963/800488/kbe_x-1.0.0.zip?updateId=800488&pluginId=27963&family=INTELLIJ",
+      "sha256": "o2WctphijtvpdiImVa9bEbAbBR5V31/FsrWciuqsPX4=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kbe_x-1.0.0.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 800488
+    }
+  }
 }
