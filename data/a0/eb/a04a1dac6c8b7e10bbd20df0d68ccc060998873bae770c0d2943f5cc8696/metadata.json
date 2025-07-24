@@ -289,6 +289,27 @@
       "since": "252.23892",
       "until": "252.23892.*",
       "compatibility_overrides": []
+    },
+    "803001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27164/803001/maven-251.27812.12.zip?updateId=803001&pluginId=27164&family=INTELLIJ",
+      "sha256": "no+IPJV+3crBzJYigvB/w/4i2ziAnxQd0DYHxAlEZWk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.jetbrains.idea.maven.model",
+        "org.jetbrains.idea.maven.server.api",
+        "org.jetbrains.idea.reposearch"
+      ],
+      "optional_dependencies": [
+        "Error-prone plugin",
+        "com.jetbrains.performancePlugin",
+        "org.intellij.groovy"
+      ],
+      "file_name": "maven-251.27812.12.zip",
+      "since": "251.27812",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -298,6 +319,7 @@
       "251.25410.59": 728744,
       "251.26094.37": 747100,
       "251.26094.98": 758595,
+      "251.27812.12": 803001,
       "252.13776.59": 741644,
       "252.16512.17": 748456,
       "252.18003.27": 758213,

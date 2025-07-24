@@ -14,10 +14,24 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "802486": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27925/802486/JavaOptimizerAIPlugin-1.2-CloudCode.zip?updateId=802486&pluginId=27925&family=INTELLIJ",
+      "sha256": "JwJHE6SMNRKh1LoV5mwFwlRsvL6ww72RQEB/DpiIXeM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JavaOptimizerAIPlugin-1.2-CloudCode.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.1-CloudCode": 802486,
       "1.1-SNAPSHOT": 795666
     }
   }
