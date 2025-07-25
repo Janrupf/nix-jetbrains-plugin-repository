@@ -67,13 +67,36 @@
       "since": "252.23892",
       "until": "252.23892.*",
       "compatibility_overrides": []
+    },
+    "804697": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27877/804697/ruby-frontend-split-plugin-252.23892.298.zip?updateId=804697&pluginId=27877&family=INTELLIJ",
+      "sha256": "Ua/b3QTV0okklLlSq3IHKotfNWdhX7TzJXEIdVvK8L0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "intellij.ruby",
+        "intellij.ruby.common",
+        "intellij.ruby.frontend",
+        "intellij.ruby.impl",
+        "intellij.ruby.psi",
+        "intellij.ruby.psi.impl",
+        "intellij.ruby.rbs.common"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ruby-frontend-split-plugin-252.23892.298.zip",
+      "since": "252.23892",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "252.23892.119": 791136,
       "252.23892.125": 791834,
-      "252.23892.248": 797854
+      "252.23892.248": 797854,
+      "252.23892.298": 804697
     }
   }
 }
