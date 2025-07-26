@@ -53,16 +53,44 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "805246": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27989/805246/ElasticPath_Developer_Tools-1.0.2.zip?updateId=805246&pluginId=27989&family=INTELLIJ",
+      "sha256": "jjGBNlsoWhr7uxk1mx69LCrUizu+tbJhymFsAkOXd4o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ElasticPath_Developer_Tools-1.0.2.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "805247": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27989/805247/ElasticPath_Developer_Tools-1.0.2.zip?updateId=805247&pluginId=27989&family=INTELLIJ",
+      "sha256": "jjGBNlsoWhr7uxk1mx69LCrUizu+tbJhymFsAkOXd4o=",
+      "channel": "elasticpath",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ElasticPath_Developer_Tools-1.0.2.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "elasticpath": {
       "1.0.0": 802522,
-      "1.0.1": 803582
+      "1.0.1": 803582,
+      "1.0.2": 805247
     },
     "stable": {
       "1.0.0": 803581,
-      "1.0.1": 803583
+      "1.0.1": 803583,
+      "1.0.2": 805246
     }
   }
 }
