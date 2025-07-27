@@ -181,6 +181,25 @@
       "since": "223.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "805705": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/805705/jtools-1.0.9.zip?updateId=805705&pluginId=25448&family=INTELLIJ",
+      "sha256": "qwFnQyjE68+RFomqE1cQf1DLj/YecbOullfuG4MTXeI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle.dependency.updater",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "jtools-1.0.9.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -194,7 +213,8 @@
       "1.0.6": 720391,
       "1.0.7": 760844,
       "1.0.8": 767935,
-      "1.0.8-fix": 768561
+      "1.0.8-fix": 768561,
+      "1.0.9": 805705
     }
   }
 }

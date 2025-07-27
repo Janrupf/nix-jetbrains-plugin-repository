@@ -35,12 +35,30 @@
       "since": "221.*",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "807141": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25517/807141/earth-restful-helper-1.2.1.zip?updateId=807141&pluginId=25517&family=INTELLIJ",
+      "sha256": "vLjoQxYBZuDJFIgrNqrfA5lLuJlF0CDFHTiPCOeu2MI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "earth-restful-helper-1.2.1.zip",
+      "since": "221.*",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1": 780377,
-      "1.2": 799514
+      "1.2": 799514,
+      "1.2.1": 807141
     }
   }
 }

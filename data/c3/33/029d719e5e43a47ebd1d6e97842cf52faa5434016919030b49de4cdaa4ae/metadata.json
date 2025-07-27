@@ -466,6 +466,44 @@
       "since": "251.26094.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "807139": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26829/807139/pyrefly-0.2.0.zip?updateId=807139&pluginId=26829&family=INTELLIJ",
+      "sha256": "mk6mQnB4sqs1g8QuqQSiDRfOpkqKVcRxsMazz0TwWPk=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ultimate",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "file_name": "pyrefly-0.2.0.zip",
+      "since": "251.26094.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "807162": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26829/807162/pyrefly-0.2.0-nightly.8260a8e.zip?updateId=807162&pluginId=26829&family=INTELLIJ",
+      "sha256": "nRrMJtIYI+k8pJbiX8fAp6mHpLoA81Ca6x5TiTm3dGI=",
+      "channel": "nightly",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ultimate",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "file_name": "pyrefly-0.2.0-nightly.8260a8e.zip",
+      "since": "251.26094.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -494,11 +532,13 @@
       "0.1.1-nightly.f518e74": 778895,
       "0.1.1-nightly.fa616df": 782800,
       "0.1.1-nightly.fddcb80": 745879,
+      "0.2.0-nightly.8260a8e": 807162,
       "0.2.0-nightly.bb32f38": 805236
     },
     "stable": {
       "0.1.0": 698425,
-      "0.1.1": 726171
+      "0.1.1": 726171,
+      "0.2.0": 807139
     }
   }
 }
