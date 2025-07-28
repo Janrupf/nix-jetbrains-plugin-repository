@@ -1,6 +1,27 @@
 {
   "xml_id": "com.ai.ass.help",
   "numeric_id": 27546,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "807164": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27546/807164/DeepSeek-AICode-Assistant-1.0.3.zip?updateId=807164&pluginId=27546&family=INTELLIJ",
+      "sha256": "qspgrB4j87UDZz0lzIIfILwx+mQce0RolN8320DqZbs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-AICode-Assistant-1.0.3.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.3": 807164
+    }
+  }
 }

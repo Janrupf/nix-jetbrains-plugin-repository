@@ -91,6 +91,28 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "807917": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22571/807917/Sealify-0.3.1.zip?updateId=807917&pluginId=22571&family=INTELLIJ",
+      "sha256": "5L7aQSd1elpg6ixEFxm0Zj8T6t5/EpIKMX3Slxxc9/I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Sealify-0.3.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "251.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -100,7 +122,8 @@
       "0.2.1": 455633,
       "0.2.2": 518861,
       "0.2.3": 585522,
-      "0.3.0": 607313
+      "0.3.0": 607313,
+      "0.3.1": 807917
     }
   }
 }
