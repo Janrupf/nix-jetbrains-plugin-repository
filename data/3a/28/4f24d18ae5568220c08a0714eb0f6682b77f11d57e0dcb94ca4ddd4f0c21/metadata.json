@@ -738,6 +738,29 @@
           "compatible_until": "252.23892.248"
         }
       ]
+    },
+    "809092": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25724/809092/jvm-dfa-analysis-252.23892.360.zip?updateId=809092&pluginId=25724&family=INTELLIJ",
+      "sha256": "9XnxquryRhCixA1JY6Qjorv8B6cKSC+ra34HK3DPmkw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.jvm.dfa.analysis.ui"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.kotlin.k2",
+        "intellij.javaee.persistence.impl/intelliLang",
+        "intellij.jvm.dfa.analysis.inspections",
+        "intellij.jvm.dfa.analysis.java",
+        "intellij.jvm.dfa.analysis.lang",
+        "intellij.qodana.sarif",
+        "org.intellij.qodana",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jvm-dfa-analysis-252.23892.360.zip",
+      "since": "252.23892",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -775,7 +798,8 @@
       "252.21735.32": 772851,
       "252.23309.22": 779326,
       "252.23591.19": 781682,
-      "252.23892.248": 797885
+      "252.23892.248": 797885,
+      "252.23892.360": 809092
     }
   }
 }

@@ -289,6 +289,29 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "808932": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24377/808932/jetbrains-plugin_1_.zip?updateId=808932&pluginId=24377&family=INTELLIJ",
+      "sha256": "TyRAfn3b+Sw9kQmdX2XsxCS2GE+p8oZekIEdkcbEbgs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.data"
+      ],
+      "file_name": "jetbrains-plugin_1_.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -312,7 +335,8 @@
       "0.1.12": 803012
     },
     "stable": {
-      "0.1.1": 773995
+      "0.1.1": 773995,
+      "0.1.12": 808932
     }
   }
 }
