@@ -136,10 +136,26 @@
       "since": "232.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "811307": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27425/811307/gl_component-1.0.101-signed.zip?updateId=811307&pluginId=27425&family=INTELLIJ",
+      "sha256": "0zDLgE11X+lBVN9ubgPXn57rdjDbud7uAH3w+xNoMkE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gl_component-1.0.101-signed.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.101": 811307,
       "1.0.71": 757075,
       "1.0.75": 758158,
       "1.0.78": 765384,
