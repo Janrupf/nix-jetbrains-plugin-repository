@@ -46,13 +46,30 @@
       "since": "221.5080.210",
       "until": null,
       "compatibility_overrides": []
+    },
+    "812777": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25083/812777/kotlin-parameter-object-242.2.1-2.0.0-obfuscated.jar?updateId=812777&pluginId=25083&family=INTELLIJ",
+      "sha256": "dTwz+Qix/ECVABDbgoSp5ywbMDmhTaWz3mmE4jr5WIA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kotlin-parameter-object-242.2.1-2.0.0-obfuscated.jar",
+      "since": "242.2.*",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 589456,
       "1.0.2": 590561,
-      "1.1.0": 613913
+      "1.1.0": 613913,
+      "2.0.0-242.2.1": 812777
     }
   }
 }
