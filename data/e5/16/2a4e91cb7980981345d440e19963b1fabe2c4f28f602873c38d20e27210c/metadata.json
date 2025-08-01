@@ -4858,6 +4858,80 @@
       "since": "251.22821.72",
       "until": null,
       "compatibility_overrides": []
+    },
+    "813625": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/813625/jmix-studio-2.6.2-252.zip?updateId=813625&pluginId=14340&family=INTELLIJ",
+      "sha256": "HxQg9wZt+DtScS8XEtj9Wdj/a6VUIjwE95zYfa1Sk5w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-2.6.2-252.zip",
+      "since": "252.23591.19",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "813628": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/813628/jmix-studio-2.6.2-251.zip?updateId=813628&pluginId=14340&family=INTELLIJ",
+      "sha256": "CzqNhczmFPbgs+7RGb9yDDBPn4RU3HUXFwKpJtcASY8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "JavaScript",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-2.6.2-251.zip",
+      "since": "251.22821.72",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "813630": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/813630/jmix-studio-2.6.2-243.zip?updateId=813630&pluginId=14340&family=INTELLIJ",
+      "sha256": "keW5tNfuBrOHca8bVENp/fXnVWQzLAFEUzgmS3p0Nmw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "JavaScript",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-2.6.2-243.zip",
+      "since": "243.21155.17",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5065,7 +5139,10 @@
       "2.6.0-243": 783084,
       "2.6.0-251": 783085,
       "2.6.1-243": 791147,
-      "2.6.1-251": 793720
+      "2.6.1-251": 793720,
+      "2.6.2-243": 813630,
+      "2.6.2-251": 813628,
+      "2.6.2-252": 813625
     }
   }
 }
