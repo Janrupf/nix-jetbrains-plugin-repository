@@ -49,13 +49,30 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "819163": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28090/819163/mtlog-analyzer-goland-0.7.3.zip?updateId=819163&pluginId=28090&family=INTELLIJ",
+      "sha256": "WP20SlTGoTK1zJPt5p6yTlDJwGbeGOMhj/Lr1V001V4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mtlog-analyzer-goland-0.7.3.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.7.0": 816768,
       "0.7.1": 816795,
-      "0.7.2": 817226
+      "0.7.2": 817226,
+      "0.7.3": 819163
     }
   }
 }

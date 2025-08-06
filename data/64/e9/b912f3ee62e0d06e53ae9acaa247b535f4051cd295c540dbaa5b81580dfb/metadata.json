@@ -790,6 +790,44 @@
       "since": "243.21565.199",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "819168": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20574/819168/ruff-pycharm-plugin-0.0.48-signed.zip?updateId=819168&pluginId=20574&family=INTELLIJ",
+      "sha256": "6eiS1rOrrh6xBI0zuoGz9s/vQzztgDwB6PCZLKQDlwY=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ultimate",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "file_name": "ruff-pycharm-plugin-0.0.48-signed.zip",
+      "since": "243.21565.199",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "819183": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20574/819183/ruff-pycharm-plugin-0.0.49-signed.zip?updateId=819183&pluginId=20574&family=INTELLIJ",
+      "sha256": "21qOJ01e2dR/mjHD3DmEVSBXDcT52GyzzFKcwavDC8A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore",
+        "Pythonid",
+        "com.intellij.modules.ultimate",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "file_name": "ruff-pycharm-plugin-0.0.49-signed.zip",
+      "since": "243.21565.199",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -837,6 +875,8 @@
       "0.0.45": 691739,
       "0.0.46": 701796,
       "0.0.47": 710045,
+      "0.0.48": 819168,
+      "0.0.49": 819183,
       "0.0.5": 278277,
       "0.0.6": 280960,
       "0.0.7": 290257,

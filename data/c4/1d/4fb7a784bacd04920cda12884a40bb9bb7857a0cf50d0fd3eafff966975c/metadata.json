@@ -50,13 +50,30 @@
       "since": "242.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "819279": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24973/819279/sd-js-4.0.5-signed.zip?updateId=819279&pluginId=24973&family=INTELLIJ",
+      "sha256": "eLehYw+YVff1RAgJ+Sx/AfhPbtJQkPjArQfpY/4Uaiw=",
+      "channel": "stable",
+      "dependencies": [
+        "SequenceDiagram",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "sd-js-4.0.5-signed.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "4.0.2": 586017,
       "4.0.3": 605884,
-      "4.0.4": 686111
+      "4.0.4": 686111,
+      "4.0.5": 819279
     }
   }
 }

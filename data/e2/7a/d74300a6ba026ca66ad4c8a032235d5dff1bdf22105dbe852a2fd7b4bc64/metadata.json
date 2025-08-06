@@ -1,6 +1,46 @@
 {
   "xml_id": "co.anbora.labs.serverless.insight",
   "numeric_id": 28063,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "816826": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28063/816826/serverless-plugin-1.0.1.zip?updateId=816826&pluginId=28063&family=INTELLIJ",
+      "sha256": "GeNQiV3OkRT0yJXHg9oBGxORZxjNaNMn0nO8dsEBqMo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "serverless-plugin-1.0.1.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "817887": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28063/817887/serverless-plugin-1.0.2.zip?updateId=817887&pluginId=28063&family=INTELLIJ",
+      "sha256": "WHXboHItNzEN87qAqbRofs2xYtupiUC1zpefRuJHUGs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "serverless-plugin-1.0.2.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.1": 816826,
+      "1.0.2": 817887
+    }
+  }
 }
