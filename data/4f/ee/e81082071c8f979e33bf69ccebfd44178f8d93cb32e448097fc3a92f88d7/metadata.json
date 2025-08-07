@@ -31,12 +31,29 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "820561": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27519/820561/Ollama-Coder-1.5.3.zip?updateId=820561&pluginId=27519&family=INTELLIJ",
+      "sha256": "QUgp2BtxZWfCrtRE6s7a3VQmzFWiknQSOyEIenQIIno=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "Ollama-Coder-1.5.3.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.5.1": 763107,
-      "1.5.2": 816484
+      "1.5.2": 816484,
+      "1.5.3": 820561
     }
   }
 }
