@@ -116,6 +116,25 @@
       "since": "251.23774",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "821596": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23838/821596/Todosaurus-1.6.0.zip?updateId=821596&pluginId=23838&family=INTELLIJ",
+      "sha256": "/jqkK64Ms6TOxbsgqnrqgv9F2GJaHviZmlbFCHA2MW8=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks"
+      ],
+      "optional_dependencies": [
+        "me.fornever.todosaurus.core",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.gitlab"
+      ],
+      "file_name": "Todosaurus-1.6.0.zip",
+      "since": "252.23892",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -128,7 +147,8 @@
       "1.2.1": 635025,
       "1.3.0": 674840,
       "1.4.0": 680263,
-      "1.5.0": 731383
+      "1.5.0": 731383,
+      "1.6.0": 821596
     }
   }
 }
