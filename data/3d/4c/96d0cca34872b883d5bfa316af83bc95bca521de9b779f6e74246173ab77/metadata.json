@@ -16,11 +16,27 @@
       "since": "242.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "822433": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27510/822433/GoLogo-1.1.0.zip?updateId=822433&pluginId=27510&family=INTELLIJ",
+      "sha256": "P72HIjGMOG4ekc/LXgV2v6VqLchsEFqKRoEiQABnL+I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "GoLogo-1.1.0.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 762635
+      "1.0.1": 762635,
+      "1.1.0": 822433
     }
   }
 }

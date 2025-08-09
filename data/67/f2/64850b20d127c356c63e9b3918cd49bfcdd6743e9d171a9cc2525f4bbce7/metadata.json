@@ -157,6 +157,26 @@
       "since": "242.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "822108": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/822108/liberty-tools-intellij-25.0.8.zip?updateId=822108&pluginId=14856&family=INTELLIJ",
+      "sha256": "Qd5qnvbZmltZNWjskWx8SxLE5opAVdFCKAleU4AdVZw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "liberty-tools-intellij-25.0.8.zip",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -170,7 +190,8 @@
       "24.0.3": 513541,
       "24.0.6": 556682,
       "24.0.9": 610306,
-      "25.0.5": 761273
+      "25.0.5": 761273,
+      "25.0.8": 822108
     }
   }
 }
