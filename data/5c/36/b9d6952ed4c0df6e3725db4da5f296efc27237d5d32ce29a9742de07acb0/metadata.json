@@ -31,10 +31,26 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "823322": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25898/823322/jb-docker-dive-0.0.10.zip?updateId=823322&pluginId=25898&family=INTELLIJ",
+      "sha256": "ShT7/v4rJKCXM8z4Qzit25frhGb0ZglxuDGD7sBoVkg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "jb-docker-dive-0.0.10.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.0.10": 823322,
       "0.0.7": 637435,
       "0.0.8": 668243
     }

@@ -309,11 +309,42 @@
       "since": "251.21418.62",
       "until": null,
       "compatibility_overrides": []
+    },
+    "823500": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18269/823500/QueryFlag-2025.2.6.zip?updateId=823500&pluginId=18269&family=INTELLIJ",
+      "sha256": "c9zR0dQ2yo/rddyI6aIeFnRkjN02Y5WxIgAk1+sCULc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "QueryFlag-2025.2.6.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "823507": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18269/823507/QueryFlag-2025.2.6.zip?updateId=823507&pluginId=18269&family=INTELLIJ",
+      "sha256": "70Gsr5yXEBQF4Ux3hFBkTs7JFCQUYk2IYl5nmky7pP0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "QueryFlag-2025.2.6.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "2021.1.15": 152785
+    },
+    "eap": {
+      "2025.2.6": 823507
     },
     "stable": {
       "2021.1.10": 152248,
@@ -336,7 +367,8 @@
       "2024.2.3": 601137,
       "2024.3.1": 633474,
       "2025.1.1": 712316,
-      "2025.2.4": 786646
+      "2025.2.4": 786646,
+      "2025.2.6": 823500
     }
   }
 }

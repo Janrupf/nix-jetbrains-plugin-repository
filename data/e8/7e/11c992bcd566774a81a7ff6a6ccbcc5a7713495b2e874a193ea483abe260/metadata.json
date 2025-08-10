@@ -43,13 +43,28 @@
       "since": "222.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "823461": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27850/823461/sample_plugin-1.0.9-Alpha.zip?updateId=823461&pluginId=27850&family=INTELLIJ",
+      "sha256": "XOqLPifqfpu/hvKbE0wvnyRuV5APcREWFtOyFzjVXy0=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sample_plugin-1.0.9-Alpha.zip",
+      "since": "222.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.6-Alpha": 794585,
       "1.0.7-Alpha": 794586,
-      "1.0.8-Alpha": 817211
+      "1.0.8-Alpha": 817211,
+      "1.0.9-Alpha": 823461
     }
   }
 }

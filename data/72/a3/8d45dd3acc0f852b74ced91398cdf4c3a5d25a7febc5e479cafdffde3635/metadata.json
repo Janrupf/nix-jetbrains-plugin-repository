@@ -113,10 +113,27 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "823182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27546/823182/DeepSeek-DevAssistant-1.0.10.zip?updateId=823182&pluginId=27546&family=INTELLIJ",
+      "sha256": "vH/WqHk7X2iilXfFjDtKs/+W50u2DjDw7x/tAnrNV7Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-DevAssistant-1.0.10.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.10": 823182,
       "1.0.3": 807164,
       "1.0.4": 817831,
       "1.0.5": 817840,
