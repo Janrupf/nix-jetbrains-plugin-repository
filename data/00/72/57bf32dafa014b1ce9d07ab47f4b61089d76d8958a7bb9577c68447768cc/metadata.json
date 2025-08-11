@@ -15,11 +15,26 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "824541": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27800/824541/intellij-plugin-1.0.3.zip?updateId=824541&pluginId=27800&family=INTELLIJ",
+      "sha256": "rJpGhLQs74/C9B4e4N+5Opv21N/sejtPcHA5F0Xs++M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-plugin-1.0.3.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.2": 784841
+      "1.0.2": 784841,
+      "1.0.3": 824541
     }
   }
 }

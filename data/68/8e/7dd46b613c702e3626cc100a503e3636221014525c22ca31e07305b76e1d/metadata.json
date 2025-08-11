@@ -1,6 +1,40 @@
 {
   "xml_id": "com.lsyf.LsyfOllama",
   "numeric_id": 28088,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "823914": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28088/823914/LsyfOllama-1.0-SNAPSHOT.zip?updateId=823914&pluginId=28088&family=INTELLIJ",
+      "sha256": "xKKaZRb6dDogZZUzxYq98b7Uu0SOqxEctQsi/mfQmZw=",
+      "channel": "20250809",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LsyfOllama-1.0-SNAPSHOT.zip",
+      "since": "251.27812",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "823915": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28088/823915/LsyfOllama-1.0-SNAPSHOT.zip?updateId=823915&pluginId=28088&family=INTELLIJ",
+      "sha256": "xKKaZRb6dDogZZUzxYq98b7Uu0SOqxEctQsi/mfQmZw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LsyfOllama-1.0-SNAPSHOT.zip",
+      "since": "251.27812",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "20250809": {
+      "1.0-SNAPSHOT": 823914
+    },
+    "stable": {
+      "1.0-SNAPSHOT": 823915
+    }
+  }
 }
