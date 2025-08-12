@@ -1084,6 +1084,28 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "825222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16422/825222/idea-protobuf-plugin-2.2.0.zip?updateId=825222&pluginId=16422&family=INTELLIJ",
+      "sha256": "F1iu28zjNZWuzp45YM5Z8LSx9gdMgTZDz6YY+2SddfU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.microservices",
+        "com.jetbrains.restClient",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "idea-protobuf-plugin-2.2.0.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1148,7 +1170,8 @@
       "2.0.0": 555346,
       "2.0.1": 566671,
       "2.0.2": 659444,
-      "2.1.0": 720558
+      "2.1.0": 720558,
+      "2.2.0": 825222
     }
   }
 }
