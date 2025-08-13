@@ -2,21 +2,6 @@
   "xml_id": "org.komlir.intelliJ-MLIR-plugin",
   "numeric_id": 28149,
   "updates": {
-    "824070": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28149/824070/intelliJ-MLIR-plugin-0.1.0.zip?updateId=824070&pluginId=28149&family=INTELLIJ",
-      "sha256": "tx2RJt/MYqrZHO88Xn1P2NbbcT3I7zj5wd4zgLpQAE4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.clion",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intelliJ-MLIR-plugin-0.1.0.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "824865": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28149/824865/intelliJ-MLIR-plugin-0.1.1.zip?updateId=824865&pluginId=28149&family=INTELLIJ",
       "sha256": "a26o9RgQPRJk5RTkVAFWePfS06rO9kEx15I1NPA9VF8=",
@@ -31,12 +16,28 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "827045": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28149/827045/intelliJ-MLIR-plugin-0.1.2.zip?updateId=827045&pluginId=28149&family=INTELLIJ",
+      "sha256": "NcHbwtDqSKmKHBZ2c26B0jv92HSquxuROPlX6XM7PmY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.clion"
+      ],
+      "file_name": "intelliJ-MLIR-plugin-0.1.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 824070,
-      "0.1.1": 824865
+      "0.1.1": 824865,
+      "0.1.2": 827045
     }
   }
 }
