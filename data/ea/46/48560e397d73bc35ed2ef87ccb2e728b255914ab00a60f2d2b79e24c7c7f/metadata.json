@@ -3418,7 +3418,7 @@
       ],
       "file_name": "zencoder-1.11.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3446,7 +3446,7 @@
       ],
       "file_name": "zencoder-1.11.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3946,7 +3946,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": "243.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3975,7 +3975,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": "243.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -11556,6 +11556,78 @@
       "since": "242.20224.91",
       "until": null,
       "compatibility_overrides": []
+    },
+    "827488": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/827488/zencoder-2.10.3.zip?updateId=827488&pluginId=24782&family=INTELLIJ",
+      "sha256": "MxFagNvYdVg/OVfzKmkbMSaDIoknTS3L35lC6j9594Q=",
+      "channel": "nightly",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.10.3.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "827494": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/827494/zencoder-2.10.3.zip?updateId=827494&pluginId=24782&family=INTELLIJ",
+      "sha256": "MxFagNvYdVg/OVfzKmkbMSaDIoknTS3L35lC6j9594Q=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.10.3.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "827875": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/827875/zencoder-2.11.0-nightly.3.zip?updateId=827875&pluginId=24782&family=INTELLIJ",
+      "sha256": "7F++Uk8ClhhKZoiiO3IOCPZxFlWPbcpEsAofds/NQGQ=",
+      "channel": "nightly",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "zencoder-2.11.0-nightly.3.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -11904,8 +11976,10 @@
       "2.10.0-nightly.6": 822851,
       "2.10.1": 825990,
       "2.10.2": 826785,
+      "2.10.3": 827488,
       "2.11.0-nightly.1": 826042,
       "2.11.0-nightly.2": 827062,
+      "2.11.0-nightly.3": 827875,
       "2.2.0": 750641,
       "2.2.0-RC.1": 750072,
       "2.2.0-RC.2": 750094,
@@ -12075,6 +12149,7 @@
       "2.10.0": 825231,
       "2.10.1": 825991,
       "2.10.2": 826787,
+      "2.10.3": 827494,
       "2.2.0": 750642,
       "2.2.1": 754630,
       "2.2.2": 754776,

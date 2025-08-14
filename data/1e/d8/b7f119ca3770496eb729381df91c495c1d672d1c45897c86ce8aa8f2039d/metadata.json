@@ -1,6 +1,34 @@
 {
   "xml_id": "dotenvx",
   "numeric_id": 28148,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "827795": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28148/827795/dotenvx-jetbrains-plugin-0.1.2.zip?updateId=827795&pluginId=28148&family=INTELLIJ",
+      "sha256": "VJ12OWAfhLTpHrdgRwp3YrQ9yuL1GixKOBfQ9ip/JWo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "ru.adelf.idea.dotenv"
+      ],
+      "optional_dependencies": [
+        "NodeJS",
+        "com.intellij.java",
+        "com.intellij.modules.python",
+        "com.intellij.properties",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.ruby",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "dotenvx-jetbrains-plugin-0.1.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.2": 827795
+    }
+  }
 }
