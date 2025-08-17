@@ -17,11 +17,28 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "829909": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28210/829909/intellij-msb-codegen.zip?updateId=829909&pluginId=28210&family=INTELLIJ",
+      "sha256": "q5+C7WWsKTl6NJiTHYYsj9NuRwMTsCu/lC+FdHxda0I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "intellij-msb-codegen.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.14.0-fork": 828895
+      "1.14.0-fork": 828895,
+      "1.14.1-fork": 829909
     }
   }
 }

@@ -92,10 +92,24 @@
       "since": "241.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "829952": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27534/829952/code-plugin-idea-1.5.10.zip?updateId=829952&pluginId=27534&family=INTELLIJ",
+      "sha256": "qz8Qg682340PUnNyav4GnXAbU8PFP0oJW18GaUaftXo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "code-plugin-idea-1.5.10.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.5.10": 829952,
       "1.5.3": 764336,
       "1.5.4": 769887,
       "1.5.5": 775173,

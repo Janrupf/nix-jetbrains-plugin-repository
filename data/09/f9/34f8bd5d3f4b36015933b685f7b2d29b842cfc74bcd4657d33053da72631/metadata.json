@@ -17,11 +17,28 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "830133": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28201/830133/jetbrains-atlassian-forge-plugin-1.0.0.jar?updateId=830133&pluginId=28201&family=INTELLIJ",
+      "sha256": "YuDOeohhCTETXDEEmLU/hozmMBBACVlFnEHeuDgDwtg=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "jetbrains-atlassian-forge-plugin-1.0.0.jar",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
-      "0.0.9": 828462
+      "0.0.9": 828462,
+      "1.0.0": 830133
     }
   }
 }

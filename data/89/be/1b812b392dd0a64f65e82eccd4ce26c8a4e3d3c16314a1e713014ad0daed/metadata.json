@@ -11470,6 +11470,30 @@
       "since": "242.21829",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "829916": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7499/829916/gittoolbox-600.1.8_243-signed.zip?updateId=829916&pluginId=7499&family=INTELLIJ",
+      "sha256": "X1Cmlmal6tNtaSoADFts0ox/WtsYQ7huIe2/tgDP8YY=",
+      "channel": "eap",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "Pythonid",
+        "com.intellij.modules.java",
+        "com.jetbrains.php",
+        "com.jetbrains.rust",
+        "gr.jchrist.gitextender",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "gittoolbox-600.1.8_243-signed.zip",
+      "since": "243.21565",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -11831,7 +11855,8 @@
       "600.1.5+243": 787098,
       "600.1.6+243": 789113,
       "600.1.7+242": 812004,
-      "600.1.7+243": 810632
+      "600.1.7+243": 810632,
+      "600.1.8+243": 829916
     },
     "stable": {
       "13.0.2": 16853,

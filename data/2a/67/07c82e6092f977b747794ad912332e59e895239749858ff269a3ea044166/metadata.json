@@ -40,13 +40,41 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "829950": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27891/829950/IntelliJ_Platform_Plugin_Template-3.1.4.zip?updateId=829950&pluginId=27891&family=INTELLIJ",
+      "sha256": "C25EocQpQ4J9v6r9/KGOn1Pk4Q1JXrORAd7l6TJk9x4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ_Platform_Plugin_Template-3.1.4.zip",
+      "since": "223.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "829951": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27891/829951/Bookmark-Shijinze-3.1.5.zip?updateId=829951&pluginId=27891&family=INTELLIJ",
+      "sha256": "Sh0PFkYM2qBtgbJjz3dYkO7q4DzHcxiHYV4C7ZF2GVM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Bookmark-Shijinze-3.1.5.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.1.1": 791893,
       "2.1.2": 794279,
-      "3.1.1": 821957
+      "3.1.1": 821957,
+      "3.1.4": 829950,
+      "3.1.5": 829951
     }
   }
 }
