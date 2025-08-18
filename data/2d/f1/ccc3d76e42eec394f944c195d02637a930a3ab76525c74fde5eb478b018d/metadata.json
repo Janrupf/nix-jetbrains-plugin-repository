@@ -14,11 +14,25 @@
       "since": "242.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "830580": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27710/830580/bkmr-lsp-plugin-2.0.0.zip?updateId=830580&pluginId=27710&family=INTELLIJ",
+      "sha256": "84ebYNoYcroohn3qh86ZagCXv3E33EE2co6ewbXkfpk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "bkmr-lsp-plugin-2.0.0.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 780160
+      "1.0.1": 780160,
+      "2.0.0": 830580
     }
   }
 }

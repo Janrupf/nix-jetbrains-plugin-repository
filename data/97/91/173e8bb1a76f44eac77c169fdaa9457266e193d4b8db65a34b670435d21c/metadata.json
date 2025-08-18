@@ -49,13 +49,30 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "830391": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28128/830391/DeepSeek-Toolkit-1.5.3.zip?updateId=830391&pluginId=28128&family=INTELLIJ",
+      "sha256": "Arjl3K0MRZC5gyg7rup2eInKROCQNsYBWCHtAIMyInE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Toolkit-1.5.3.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.5.0": 821359,
       "1.5.1": 830241,
-      "1.5.2": 830256
+      "1.5.2": 830256,
+      "1.5.3": 830391
     }
   }
 }
