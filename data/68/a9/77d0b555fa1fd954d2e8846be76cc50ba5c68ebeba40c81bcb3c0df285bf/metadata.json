@@ -491,6 +491,24 @@
       "since": "243.21565.193",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "831761": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17406/831761/xmake-idea-1.4.7.jar?updateId=831761&pluginId=17406&family=INTELLIJ",
+      "sha256": "QOdZyWL8/Ol7JPEdGBVEs49LIEZxwtbrPz32KKOYNXU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ssh"
+      ],
+      "file_name": "xmake-idea-1.4.7.jar",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -522,7 +540,8 @@
       "1.4.2": 622905,
       "1.4.3": 638168,
       "1.4.5": 703859,
-      "1.4.6": 720737
+      "1.4.6": 720737,
+      "1.4.7": 831761
     }
   }
 }
