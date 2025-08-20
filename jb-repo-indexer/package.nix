@@ -20,6 +20,5 @@ in rustPlatform.buildRustPackage {
 
   src = ./.;
 
-  useFetchCargoVendor = true;
   cargoHash = "sha256-HQoEEBcNoCqH+5U8U7BbRKxP5rBMfyTq1fnPBPXwXh0=";
 }
