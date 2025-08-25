@@ -14,11 +14,26 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "837134": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27357/837134/picat-plugin-251.0.zip?updateId=837134&pluginId=27357&family=INTELLIJ",
+      "sha256": "kj/xhNYBBsGOZJI83VJRs9CYdMPZ7rfTcxBQMqnahkw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "picat-plugin-251.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 740867
+      "0.0.1": 740867,
+      "251.0": 837134
     }
   }
 }

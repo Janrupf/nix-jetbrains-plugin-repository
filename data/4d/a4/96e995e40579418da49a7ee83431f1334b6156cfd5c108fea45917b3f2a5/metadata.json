@@ -49,13 +49,30 @@
       "since": "232.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "837480": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25772/837480/jb-kubernetes-dashboard-1.0.26.zip?updateId=837480&pluginId=25772&family=INTELLIJ",
+      "sha256": "vgxkhwvz19mE4snMKut8XFIKdsslAxFQw99UxzggIAU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.kubernetes",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "jb-kubernetes-dashboard-1.0.26.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.23": 634325,
       "1.0.24": 636916,
-      "1.0.25": 668224
+      "1.0.25": 668224,
+      "1.0.26": 837480
     }
   }
 }

@@ -233,6 +233,33 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "837108": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23999/837108/mongodb-2023.3.7.zip?updateId=837108&pluginId=23999&family=INTELLIJ",
+      "sha256": "MidvhB5BMnOBlLB5iR7toQ3a0IBcL7QxJElS+XQzYh8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mongodb-2023.3.7.zip",
+      "since": "233.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "837116": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23999/837116/mongodb-2024.3.2.zip?updateId=837116&pluginId=23999&family=INTELLIJ",
+      "sha256": "CHb+YhLTWR81OrQYmCjlTHTROXGSeeMiNw/LSdZsE9M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mongodb-2024.3.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -250,8 +277,10 @@
       "2023.3.4": 589112,
       "2023.3.5": 589881,
       "2023.3.6": 615623,
+      "2023.3.7": 837108,
       "2024.3.0": 612284,
-      "2024.3.1": 615626
+      "2024.3.1": 615626,
+      "2024.3.2": 837116
     }
   }
 }

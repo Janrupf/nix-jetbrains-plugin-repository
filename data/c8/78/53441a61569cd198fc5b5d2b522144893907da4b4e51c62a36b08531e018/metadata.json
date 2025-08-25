@@ -133,6 +133,32 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "837104": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19360/837104/redis-client-2023.0.7.zip?updateId=837104&pluginId=19360&family=INTELLIJ",
+      "sha256": "me/kYCRuxMiDFDNWzOXmjqBcTO4Cw8zdKwyYvNWNmjU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "redis-client-2023.0.7.zip",
+      "since": "223.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "837106": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19360/837106/redis-client-2023.3.0.zip?updateId=837106&pluginId=19360&family=INTELLIJ",
+      "sha256": "pbWS76u9mJse8Nq+Y/PhIs7jYNPcMRBCo0Zh9ILuY3A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "redis-client-2023.3.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -146,7 +172,9 @@
       "2023.0.3": 479210,
       "2023.0.4": 605106,
       "2023.0.5": 611448,
-      "2023.0.6": 612259
+      "2023.0.6": 612259,
+      "2023.0.7": 837104,
+      "2023.3.0": 837106
     }
   }
 }

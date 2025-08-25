@@ -35,12 +35,30 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "837496": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28063/837496/serverless-plugin-1.0.3-signed.zip?updateId=837496&pluginId=28063&family=INTELLIJ",
+      "sha256": "j/PrY/6hCm5/CMoeADHYq501NGCGve3a3YTiXZPOPhs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "serverless-plugin-1.0.3-signed.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 816826,
-      "1.0.2": 817887
+      "1.0.2": 817887,
+      "1.0.3": 837496
     }
   }
 }
