@@ -49,13 +49,30 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "840424": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27241/840424/IdeaPlugin-1.2.2-signed.zip?updateId=840424&pluginId=27241&family=INTELLIJ",
+      "sha256": "Bq8rPiuKxStGh+1HdtbG5eiiX2rmJj78tkN/+9BFBRQ=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "Subversion",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IdeaPlugin-1.2.2-signed.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1": 732348,
       "1.2": 735828,
-      "1.2.1": 830542
+      "1.2.1": 830542,
+      "1.2.2": 840424
     }
   }
 }

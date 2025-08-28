@@ -14,11 +14,25 @@
       "since": "243.0",
       "until": "244.*",
       "compatibility_overrides": []
+    },
+    "840333": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26301/840333/CardanoPyc-3.0.5.zip?updateId=840333&pluginId=26301&family=INTELLIJ",
+      "sha256": "MBy3AA/1paYOpfoJpcdx2cjtBtsK1ZCyFKxkOr1pf30=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CardanoPyc-3.0.5.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.2.0": 663861
+      "2.2.0": 663861,
+      "3.0.5": 840333
     }
   }
 }

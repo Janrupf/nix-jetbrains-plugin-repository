@@ -15,11 +15,26 @@
       "since": "223.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "840741": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28192/840741/dubbo-invoke-2.0.0.jar?updateId=840741&pluginId=28192&family=INTELLIJ",
+      "sha256": "nzmWnH4GKfKDCBGsJwMWJqVqr1lq1ZdDVNhV7YtlYfk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dubbo-invoke-2.0.0.jar",
+      "since": "233.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 827845
+      "1.0.0": 827845,
+      "2.0.0": 840741
     }
   }
 }

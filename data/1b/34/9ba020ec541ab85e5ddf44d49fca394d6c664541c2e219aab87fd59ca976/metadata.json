@@ -186,8 +186,15 @@
       "optional_dependencies": [],
       "file_name": "signed_meta-horizon-intellij.jar",
       "since": "251.0",
-      "until": "251.*",
-      "compatibility_overrides": []
+      "until": "251.1",
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.0",
+          "applies_until": "251.*",
+          "compatible_since": "251.0",
+          "compatible_until": "251.19999"
+        }
+      ]
     }
   },
   "channels": {

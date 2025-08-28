@@ -16,11 +16,27 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "840443": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28291/840443/Schemagator-1.0.0.zip?updateId=840443&pluginId=28291&family=INTELLIJ",
+      "sha256": "PD/5U6PKysYvxHEZk/dJuCN/JyfRm7GWT6puyl0S528=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Schemagator-1.0.0.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.2": 838577
+      "0.0.2": 838577,
+      "1.0.0": 840443
     }
   }
 }

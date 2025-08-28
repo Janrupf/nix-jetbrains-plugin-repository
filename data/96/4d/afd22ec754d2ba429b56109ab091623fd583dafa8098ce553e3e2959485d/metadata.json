@@ -3503,6 +3503,24 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "840402": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23257/840402/lsp4ij-0.15.1-20250827-124736.zip?updateId=840402&pluginId=23257&family=INTELLIJ",
+      "sha256": "5rosSDV6H5ZD3ddO+COVUxOk/QdKnigGVUyNVftU0fA=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "lsp4ij-0.15.1-20250827-124736.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3695,7 +3713,8 @@
       "0.15.0-20250822-090727": 835270,
       "0.15.0-20250822-102658": 835286,
       "0.15.0-20250825-133120": 838145,
-      "0.15.1-20250827-013242": 840019
+      "0.15.1-20250827-013242": 840019,
+      "0.15.1-20250827-124736": 840402
     },
     "stable": {
       "0.0.1": 542971,
