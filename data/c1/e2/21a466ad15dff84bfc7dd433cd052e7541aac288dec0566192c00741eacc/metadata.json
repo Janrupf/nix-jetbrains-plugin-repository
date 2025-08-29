@@ -186,20 +186,6 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "769907": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27018/769907/DeepSeek-Commit-2.8.4.zip?updateId=769907&pluginId=27018&family=INTELLIJ",
-      "sha256": "XN3mpwpBiYNTv73zdufuaUMfOK2TUrpE/kVVN4ix+aQ=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "DeepSeek-Commit-2.8.4.zip",
-      "since": "222.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "769971": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27018/769971/DeepSeek-Commit-2.8.5.zip?updateId=769971&pluginId=27018&family=INTELLIJ",
       "sha256": "aoaUtFbw8tqJOYmOMzbrenZGW2hUxLx+SBbpxEChXzE=",
@@ -419,6 +405,22 @@
       "since": "222.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "842110": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27018/842110/DeepSeek-AI-Commit-2.9.5.zip?updateId=842110&pluginId=27018&family=INTELLIJ",
+      "sha256": "eBxIAvYxKzcJwuLzfiTffRDDO5n9/k3BthazaX4vcQY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-AI-Commit-2.9.5.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -442,7 +444,6 @@
       "2.8.18": 823485,
       "2.8.19": 827099,
       "2.8.3": 763090,
-      "2.8.4": 769907,
       "2.8.5": 769971,
       "2.8.6": 787153,
       "2.8.7": 791529,
@@ -450,7 +451,8 @@
       "2.9.1": 831828,
       "2.9.2": 834944,
       "2.9.3": 840804,
-      "2.9.4": 840805
+      "2.9.4": 840805,
+      "2.9.5": 842110
     }
   }
 }

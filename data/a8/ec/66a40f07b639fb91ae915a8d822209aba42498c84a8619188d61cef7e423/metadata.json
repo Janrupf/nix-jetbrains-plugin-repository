@@ -29,12 +29,27 @@
       "since": "232.0",
       "until": "260.*",
       "compatibility_overrides": []
+    },
+    "841140": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27034/841140/greycat-plugin-7.2.1-main.zip?updateId=841140&pluginId=27034&family=INTELLIJ",
+      "sha256": "f8o3REgkl9c8S/QEd2YXLgJc13ZZzKrOS/V/lG3OxuA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "greycat-plugin-7.2.1-main.zip",
+      "since": "232.0",
+      "until": "260.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "7.0.0": 716532,
-      "7.0.15-main": 724998
+      "7.0.15-main": 724998,
+      "7.2.1-main": 841140
     }
   }
 }

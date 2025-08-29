@@ -15,11 +15,26 @@
       "since": "233.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "841208": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24127/841208/grpc-federation-0.2.0.zip?updateId=841208&pluginId=24127&family=INTELLIJ",
+      "sha256": "vQgEwXiMKMyyxKK8z+bmITsREb098NdrnDQ3vrNA1I4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "grpc-federation-0.2.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 520812
+      "0.1.0": 520812,
+      "0.2.0": 841208
     }
   }
 }
