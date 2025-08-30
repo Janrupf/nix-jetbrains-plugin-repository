@@ -15,10 +15,25 @@
       "since": "232.0",
       "until": "272.*",
       "compatibility_overrides": []
+    },
+    "843045": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28109/843045/coding-toolkit-25.8.29.jar?updateId=843045&pluginId=28109&family=INTELLIJ",
+      "sha256": "xiIAlQI3ZCMlZIzi+6VSAHGWes0Y9QdUIwaHhMk69sc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "coding-toolkit-25.8.29.jar",
+      "since": "201.0",
+      "until": "272.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "25.8.29": 843045,
       "25.8.3": 818747
     }
   }

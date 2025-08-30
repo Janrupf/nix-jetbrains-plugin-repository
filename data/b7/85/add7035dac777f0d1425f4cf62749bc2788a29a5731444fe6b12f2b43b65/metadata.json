@@ -2,21 +2,6 @@
   "xml_id": "com.google.cloud.workstations.ide.jetbrains.connector",
   "numeric_id": 19900,
   "updates": {
-    "235310": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/235310/connector-22.10.2.zip?updateId=235310&pluginId=19900&family=INTELLIJ",
-      "sha256": "q/DqpH1cp8GvWV6HE1f5rokLE4fSXHK3Sg+oB3zcloQ=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.jetbrains.gateway"
-      ],
-      "file_name": "connector-22.10.2.zip",
-      "since": "222.0",
-      "until": "223.*",
-      "compatibility_overrides": []
-    },
     "236853": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/236853/connector-22.10.3.zip?updateId=236853&pluginId=19900&family=INTELLIJ",
       "sha256": "okgqQWV8p/53vSKjZX+fOq/HjIels52N9LVpl10Vink=",
@@ -450,6 +435,21 @@
       "file_name": "google-cloud-workstations.zip",
       "since": "222.0",
       "until": "223.6646.*",
+      "compatibility_overrides": []
+    },
+    "327108": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/327108/google-cloud-workstations.zip?updateId=327108&pluginId=19900&family=INTELLIJ",
+      "sha256": "BtzMNtVfHiBtTSpkydOz2TIaKj8gUr18CRAPPkBQJ2Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.gateway"
+      ],
+      "file_name": "google-cloud-workstations.zip",
+      "since": "223.0",
+      "until": "223.*",
       "compatibility_overrides": []
     },
     "327109": {
@@ -1137,7 +1137,6 @@
       "25.4.2-api-version-242": 727885
     },
     "stable": {
-      "22.10.2-api-version-222": 235310,
       "22.10.3-api-version-222": 236853,
       "22.10.4-7255-api-version-223": 247153,
       "22.10.4-api-version-222": 242628,
@@ -1147,6 +1146,7 @@
       "23.11.1-api-version-223": 437987,
       "23.11.1-api-version-231": 437988,
       "23.2.1-5920-api-version-231": 287043,
+      "23.5.1-api-version-223": 327108,
       "23.5.1-api-version-231": 327109,
       "23.5.2-api-version-223": 330605,
       "23.5.2-api-version-231": 330606,
