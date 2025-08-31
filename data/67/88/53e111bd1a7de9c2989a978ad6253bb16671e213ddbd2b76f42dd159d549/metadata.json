@@ -86,65 +86,31 @@
       "until": "252.*",
       "compatibility_overrides": []
     },
-    "841214": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27986/841214/project-dashboard-1.0.7.3.zip?updateId=841214&pluginId=27986&family=INTELLIJ",
-      "sha256": "mnrKiBaZ6BrsAEQJCQF31514Pj2E/qcfeUqq8ZE8LVM=",
-      "channel": "beta",
+    "844351": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27986/844351/project-dashboard-ai-1.1.0.zip?updateId=844351&pluginId=27986&family=INTELLIJ",
+      "sha256": "jU4DwMX+WWFE9txVQ1sKat7JrFKGlZ15qPZM+6G1neA=",
+      "channel": "stable",
       "dependencies": [
+        "Git4Idea",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
         "org.intellij.plugins.markdown"
       ],
       "optional_dependencies": [],
-      "file_name": "project-dashboard-1.0.7.3.zip",
-      "since": "241.0",
-      "until": "252.*",
-      "compatibility_overrides": []
-    },
-    "841416": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27986/841416/project-dashboard-1.0.7.4.zip?updateId=841416&pluginId=27986&family=INTELLIJ",
-      "sha256": "RUOnmgS3DPPgMKrFSVjOtMnnbqR10+LFXkfq11XoHc4=",
-      "channel": "beta",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "org.intellij.plugins.markdown"
-      ],
-      "optional_dependencies": [],
-      "file_name": "project-dashboard-1.0.7.4.zip",
-      "since": "241.0",
-      "until": "252.*",
-      "compatibility_overrides": []
-    },
-    "841607": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27986/841607/project-dashboard-1.0.7.5.zip?updateId=841607&pluginId=27986&family=INTELLIJ",
-      "sha256": "cbOxToOr6C/BEVksYa2JvIBRNbA+Tc38Nkz/ICEKi+U=",
-      "channel": "beta",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "org.intellij.plugins.markdown"
-      ],
-      "optional_dependencies": [],
-      "file_name": "project-dashboard-1.0.7.5.zip",
-      "since": "242.0",
+      "file_name": "project-dashboard-ai-1.1.0.zip",
+      "since": "251.0",
       "until": "252.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
-    "beta": {
-      "1.0.7.3": 841214,
-      "1.0.7.4": 841416,
-      "1.0.7.5": 841607
-    },
     "stable": {
       "1.0.1": 804128,
       "1.0.2": 812989,
       "1.0.3": 814744,
       "1.0.4": 820554,
       "1.0.5": 820933,
-      "1.0.6": 824562
+      "1.0.6": 824562,
+      "1.1.0": 844351
     }
   }
 }
