@@ -1,6 +1,27 @@
 {
   "xml_id": "dev.bloomaai.devassistance",
   "numeric_id": 26954,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "844697": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26954/844697/DevAssistance-1.2.2.zip?updateId=844697&pluginId=26954&family=INTELLIJ",
+      "sha256": "JlRWhNu0vjBkmiFq+HfxwUXEb0WoglW/biTHandxRe0=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "DevAssistance-1.2.2.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.2.2": 844697
+    }
+  }
 }
