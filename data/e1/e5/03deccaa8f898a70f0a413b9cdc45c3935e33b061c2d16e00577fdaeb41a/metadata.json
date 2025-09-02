@@ -51,13 +51,31 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "845356": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28159/845356/atrocorePlugin2-1.0.7.zip?updateId=845356&pluginId=28159&family=INTELLIJ",
+      "sha256": "I8sPcOgIjCFuiur+gILRbK8ooUrd0IvV85Outakypj4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "atrocorePlugin2-1.0.7.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 824874,
       "1.0.2": 825259,
-      "1.0.3": 831834
+      "1.0.3": 831834,
+      "1.0.7": 845356
     }
   }
 }

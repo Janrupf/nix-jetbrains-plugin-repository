@@ -256,6 +256,44 @@
       "since": "211.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "846049": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12541/846049/intellij-dependency-analytics-1.1.0-nightly.20250901.zip?updateId=846049&pluginId=12541&family=INTELLIJ",
+      "sha256": "HMZQNA5a+LdbGqP8YEmbD9KxZAdriBiHRrtLy52qH9E=",
+      "channel": "nightly",
+      "dependencies": [
+        "Docker",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "intellij-dependency-analytics-1.1.0-nightly.20250901.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "846161": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12541/846161/intellij-dependency-analytics-1.1.0.zip?updateId=846161&pluginId=12541&family=INTELLIJ",
+      "sha256": "S/wjMX7JDJxSJcerw66zaDKbjMREGKU6WakrKMhM26k=",
+      "channel": "stable",
+      "dependencies": [
+        "Docker",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "intellij-dependency-analytics-1.1.0.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -263,7 +301,8 @@
       "0.7.0.85": 396427,
       "0.7.1.94": 424376,
       "0.7.1.99": 434646,
-      "1.0.0.112": 526922
+      "1.0.0.112": 526922,
+      "1.1.0-nightly.20250901": 846049
     },
     "stable": {
       "0.0.1.7": 63789,
@@ -278,7 +317,8 @@
       "0.6.0.72": 336809,
       "0.7.0.88": 396430,
       "0.9.0.105": 473375,
-      "1.0.0.114": 527553
+      "1.0.0.114": 527553,
+      "1.1.0": 846161
     }
   }
 }

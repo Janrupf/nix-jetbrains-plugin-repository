@@ -52,12 +52,30 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "845345": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26859/845345/compose-preview-screenshot-testing-plugin.zip?updateId=845345&pluginId=26859&family=INTELLIJ",
+      "sha256": "FWFE6cTpWFoHeMpl9LY5B6aN3wyxL5vrNExJnShfQso=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "compose-preview-screenshot-testing-plugin.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "1.0.0-rc1": 702620,
-      "1.0.0-rc2": 703821
+      "1.0.0-rc2": 703821,
+      "1.0.1-rc": 845345
     },
     "stable": {
       "1.0.0": 718515
