@@ -212,6 +212,23 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "848247": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/848247/meta-horizon.jar?updateId=848247&pluginId=26861&family=INTELLIJ",
+      "sha256": "MIyFw27LiVuisB2iHELheRK0B4m6f/xGKAnReHOedyY=",
+      "channel": "test",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "meta-horizon.jar",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -229,7 +246,8 @@
       "251.1.1.0.3": 805213
     },
     "test": {
-      "243.1.1.0.4-SNAPSHOT": 841951
+      "243.1.1.0.4-SNAPSHOT": 841951,
+      "251.1.1.0.5-SNAPSHOT": 848247
     }
   }
 }
