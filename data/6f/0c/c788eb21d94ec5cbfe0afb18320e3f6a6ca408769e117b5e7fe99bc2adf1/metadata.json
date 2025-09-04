@@ -4158,6 +4158,44 @@
       "since": "241.1",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "848910": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21056/848910/CodeGPT-3.5.1-233.zip?updateId=848910&pluginId=21056&family=INTELLIJ",
+      "sha256": "EYjS31axdqsAZmcEfY92PN+ycXc4bNys9aeCBzoYEmQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "CodeGPT-3.5.1-233.zip",
+      "since": "233.0",
+      "until": "241.1",
+      "compatibility_overrides": []
+    },
+    "848912": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21056/848912/CodeGPT-3.5.1-241.1.zip?updateId=848912&pluginId=21056&family=INTELLIJ",
+      "sha256": "qHEU6IUo9d1ihlERxPKQ0gumugi5RV3qUnhZvWuwVsg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "CodeGPT-3.5.1-241.1.zip",
+      "since": "241.1",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4413,7 +4451,9 @@
       "3.4.4-233": 786662,
       "3.4.4-241.1": 786668,
       "3.5.0-233": 804271,
-      "3.5.0-241.1": 804272
+      "3.5.0-241.1": 804272,
+      "3.5.1-233": 848910,
+      "3.5.1-241.1": 848912
     }
   }
 }

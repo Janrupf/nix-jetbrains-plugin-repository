@@ -122,6 +122,28 @@
       "until": null,
       "compatibility_overrides": []
     },
+    "848215": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23750/848215/SpringbootUrlFullPath-2.0.0.zip?updateId=848215&pluginId=23750&family=INTELLIJ",
+      "sha256": "cLqDF6q7gq8TK01yETTaMD+otr3IAx2OZwXbKvJBGYw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SpringbootUrlFullPath-2.0.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "999.99999",
+          "compatible_since": "251.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
     "848265": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23750/848265/SpringbootUrlFullPath-1.0.12.zip?updateId=848265&pluginId=23750&family=INTELLIJ",
       "sha256": "hha8FZZmSypfFdHIFz1hnVhfk2YCe1Ue8/cQRKPeE0s=",
@@ -136,6 +158,21 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "849052": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23750/849052/SpringbootUrlFullPath-2.0.1.zip?updateId=849052&pluginId=23750&family=INTELLIJ",
+      "sha256": "fAnjkaY1dUa5M+MwiRIwursu/P3rsl5PJM/DX3Tng7I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SpringbootUrlFullPath-2.0.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -148,7 +185,9 @@
       "1.0.4": 538139,
       "1.0.5": 587088,
       "1.0.6": 606735,
-      "1.0.8": 657594
+      "1.0.8": 657594,
+      "2.0.0": 848215,
+      "2.0.1": 849052
     }
   }
 }

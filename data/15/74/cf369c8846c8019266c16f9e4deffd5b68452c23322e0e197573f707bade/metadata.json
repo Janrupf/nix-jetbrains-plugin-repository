@@ -21575,6 +21575,53 @@
       "since": "241.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "848721": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/848721/github-copilot-intellij-1.5.55-243.zip?updateId=848721&pluginId=17718&family=INTELLIJ",
+      "sha256": "7YovaehqHIEtPGJ5h1GT0ZD++QLSg0Zc0JLOibcH0VE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "IdeaVIM",
+        "PythonCore",
+        "Pythonid",
+        "com.intellij.java",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.github"
+      ],
+      "file_name": "github-copilot-intellij-1.5.55-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "848722": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/848722/github-copilot-intellij-1.5.55-241.zip?updateId=848722&pluginId=17718&family=INTELLIJ",
+      "sha256": "ZrONJsO4vVu/O44B2GuU7trikpN7WOTocm1URiqf2LI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "IdeaVIM",
+        "PythonCore",
+        "Pythonid",
+        "com.intellij.java",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "github-copilot-intellij-1.5.55-241.zip",
+      "since": "241.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -22644,6 +22691,8 @@
       "1.5.53-243": 827394,
       "1.5.54-241": 842563,
       "1.5.54-243": 842567,
+      "1.5.55-241": 848722,
+      "1.5.55-243": 848721,
       "1.5.6.5692": 551329,
       "1.5.7.5758": 555539,
       "1.5.8.5775": 556037,
