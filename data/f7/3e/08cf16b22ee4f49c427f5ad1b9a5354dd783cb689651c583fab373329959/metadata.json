@@ -33,12 +33,29 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "850255": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27289/850255/intellij-2.0.6-signed.zip?updateId=850255&pluginId=27289&family=INTELLIJ",
+      "sha256": "J5/rf7ihRekOd8R7ojICBSDJwkP6/BmSMQGt0bH1efw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-2.0.6-signed.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.0.3": 736412,
-      "2.0.4": 739349
+      "2.0.4": 739349,
+      "2.0.6": 850255
     }
   }
 }

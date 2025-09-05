@@ -29,9 +29,28 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "849415": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28253/849415/NetbeansProjects-1.0.5.zip?updateId=849415&pluginId=28253&family=INTELLIJ",
+      "sha256": "iN4bqr6SBvus6DZWb++SAoGnbJ+XYpUC6scm0BB02Pg=",
+      "channel": "add update lib + add lib in runtime classpath/compile classpath",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "NetbeansProjects-1.0.5.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "add update lib + add lib in runtime classpath/compile classpath": {
+      "1.0.5": 849415
+    },
     "fix color fodler status change": {
       "1.0.1": 834063
     },

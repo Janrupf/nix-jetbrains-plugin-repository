@@ -2,25 +2,31 @@
   "xml_id": "com.huawei.agc.ecomarket.component.plugin",
   "numeric_id": 28183,
   "updates": {
-    "828283": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28183/828283/harmonyos-partnermarket-plugin-1.2.0.1.zip?updateId=828283&pluginId=28183&family=INTELLIJ",
-      "sha256": "3Q1O1sMifRcDWKQ+8j3GW1/xfvK41UoC5W99fpcM0qE=",
+    "849384": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28183/849384/harmonyos-partnermarket-plugin-1.3.0.1.zip?updateId=849384&pluginId=28183&family=INTELLIJ",
+      "sha256": "mCPY6PkyMfrmg/kfgLc6WZN/QnzAihKms30QogXfuCI=",
       "channel": "stable",
       "dependencies": [
         "Git4Idea",
-        "com.huawei.ohos",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "harmonyos-partnermarket-plugin-1.2.0.1.zip",
+      "file_name": "harmonyos-partnermarket-plugin-1.3.0.1.zip",
       "since": "232.0",
-      "until": "253.*",
-      "compatibility_overrides": []
+      "until": "243.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "251.*",
+          "compatible_since": "232.0",
+          "compatible_until": "243.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.2.0": 828283
+      "1.3.0": 849384
     }
   }
 }
