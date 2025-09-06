@@ -16,24 +16,26 @@
       "until": "243.*",
       "compatibility_overrides": []
     },
-    "834063": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28253/834063/NetbeansProjects-1.0.1.zip?updateId=834063&pluginId=28253&family=INTELLIJ",
-      "sha256": "Rv3H1EK6ZVTFi+R5+YJaMvwQK2lhyys3yMOQtQB+VJg=",
-      "channel": "fix color fodler status change",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.gradle"
-      ],
-      "optional_dependencies": [],
-      "file_name": "NetbeansProjects-1.0.1.zip",
-      "since": "241.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
     "849415": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28253/849415/NetbeansProjects-1.0.5.zip?updateId=849415&pluginId=28253&family=INTELLIJ",
       "sha256": "iN4bqr6SBvus6DZWb++SAoGnbJ+XYpUC6scm0BB02Pg=",
       "channel": "add update lib + add lib in runtime classpath/compile classpath",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "NetbeansProjects-1.0.5.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "850273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28253/850273/NetbeansProjects-1.0.5.zip?updateId=850273&pluginId=28253&family=INTELLIJ",
+      "sha256": "iN4bqr6SBvus6DZWb++SAoGnbJ+XYpUC6scm0BB02Pg=",
+      "channel": "version 1.0.5",
       "dependencies": [
         "com.intellij.modules.platform",
         "com.intellij.modules.vcs",
@@ -51,11 +53,11 @@
     "add update lib + add lib in runtime classpath/compile classpath": {
       "1.0.5": 849415
     },
-    "fix color fodler status change": {
-      "1.0.1": 834063
-    },
     "stable": {
       "1.0.0": 834055
+    },
+    "version 1.0.5": {
+      "1.0.5": 850273
     }
   }
 }

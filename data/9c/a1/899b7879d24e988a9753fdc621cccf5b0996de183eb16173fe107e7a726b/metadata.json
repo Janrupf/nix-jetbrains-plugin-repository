@@ -81,17 +81,68 @@
       "since": "241.19072",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "850603": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28356/850603/IntellijShopwarePlugin-1.0.1-alpha.2023707094.a737ac6-signed.zip?updateId=850603&pluginId=28356&family=INTELLIJ",
+      "sha256": "f8HRVx3kBimCcKXRcXhINlWbFPK8eh31uZpWEQ8mWm8=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.jetbrains.twig",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntellijShopwarePlugin-1.0.1-alpha.2023707094.a737ac6-signed.zip",
+      "since": "241.19072",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "850908": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28356/850908/IntellijShopwarePlugin-1.0.0.zip?updateId=850908&pluginId=28356&family=INTELLIJ",
+      "sha256": "HVZZb+6LU5Z733z0511Su4cZxlRrwOy0LR1urNEo9EQ=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.jetbrains.twig",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntellijShopwarePlugin-1.0.0.zip",
+      "since": "241.19072",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "851010": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28356/851010/IntellijShopwarePlugin-1.0.0.zip?updateId=851010&pluginId=28356&family=INTELLIJ",
+      "sha256": "1HGxbjN3v0ErtIyDAuZMpEGwl+ttvmCr5PsRTWRgkX4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.jetbrains.twig",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntellijShopwarePlugin-1.0.0.zip",
+      "since": "241.19072",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "alpha": {
       "0.0.7-alpha.2016998002.4a2bc55": 847579,
+      "1.0.0": 850908,
       "1.0.1-alpha.2017202633.f5bf029": 847604,
       "1.0.1-alpha.2017277574.f75f294": 847639,
-      "1.0.1-alpha.2017307139.0e363b8": 847684
+      "1.0.1-alpha.2017307139.0e363b8": 847684,
+      "1.0.1-alpha.2023707094.a737ac6": 850603
     },
     "stable": {
-      "1.0-SNAPSHOT": 847288
+      "1.0-SNAPSHOT": 847288,
+      "1.0.0": 851010
     }
   }
 }

@@ -86,71 +86,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "705432": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26617/705432/p2c-plugin-intellij.zip?updateId=705432&pluginId=26617&family=INTELLIJ",
-      "sha256": "gfiw1fddV4+A1JcSStd323gHwH46bfG35Wjf1Wr/Wko=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "JavaScript",
-        "com.intellij.cidr.lang",
-        "com.intellij.java",
-        "com.intellij.modules.python",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go"
-      ],
-      "file_name": "p2c-plugin-intellij.zip",
-      "since": "212.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "715254": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26617/715254/p2c-plugin-intellij-1.1.0-signed.zip?updateId=715254&pluginId=26617&family=INTELLIJ",
-      "sha256": "mCHtX1ZmmvCnKGYo8Mar5U+0Qh5LO8XKYnEqrYOtyBI=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "JavaScript",
-        "com.intellij.cidr.lang",
-        "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.rust",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go"
-      ],
-      "file_name": "p2c-plugin-intellij-1.1.0-signed.zip",
-      "since": "212.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "717327": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26617/717327/p2c-plugin-intellij-1.1.1-signed.zip?updateId=717327&pluginId=26617&family=INTELLIJ",
-      "sha256": "/m7h/CKsUCtAmGWAwgXzfNDQ+R/mIf5IzTgnJlgQAI0=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "JavaScript",
-        "com.intellij.cidr.lang",
-        "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.rust",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go"
-      ],
-      "file_name": "p2c-plugin-intellij-1.1.1-signed.zip",
-      "since": "212.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "725852": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26617/725852/p2c-plugin-intellij-1.1.5-signed.zip?updateId=725852&pluginId=26617&family=INTELLIJ",
       "sha256": "axeW0JnFrz4IqMO00m/GXHUR+rqsj98jl2FI/RpHfEc=",
@@ -257,28 +192,6 @@
         "org.jetbrains.plugins.go"
       ],
       "file_name": "p2c-plugin-intellij-1.2.4-signed.zip",
-      "since": "212.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "752106": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/26617/752106/p2c-plugin-intellij.zip?updateId=752106&pluginId=26617&family=INTELLIJ",
-      "sha256": "txilGJ2/OdHP6RzLStkwx5qph+s+Q3cLmNM/ouNwYJ8=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "Git4Idea",
-        "JavaScript",
-        "com.intellij.cidr.lang",
-        "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.rust",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go"
-      ],
-      "file_name": "p2c-plugin-intellij.zip",
       "since": "212.0",
       "until": null,
       "compatibility_overrides": []
@@ -701,23 +614,45 @@
       "since": "212.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "851064": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26617/851064/p2c-plugin-intellij-3.2.4-signed.zip?updateId=851064&pluginId=26617&family=INTELLIJ",
+      "sha256": "O5BiCjJEdFaivteI7vwPPdcdbbiFk33M1SlXkAFkslU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.all",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.rust",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "p2c-plugin-intellij-3.2.4-signed.zip",
+      "since": "212.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.10": 702271,
-      "1.0.11": 705432,
       "1.0.7": 696124,
       "1.0.8": 698835,
       "1.0.9": 700728,
-      "1.1.0": 715254,
-      "1.1.1": 717327,
       "1.1.5": 725852,
       "1.1.7": 742773,
       "1.2.2": 745591,
       "1.2.3": 747678,
       "1.2.4": 749733,
-      "2.0.0": 752106,
       "2.2.5": 770155,
       "2.3.1": 775579,
       "2.4.0": 780035,
@@ -735,7 +670,8 @@
       "3.2.0": 837794,
       "3.2.1": 839633,
       "3.2.2": 840720,
-      "3.2.3": 845016
+      "3.2.3": 845016,
+      "3.2.4": 851064
     }
   }
 }
