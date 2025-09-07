@@ -2,38 +2,6 @@
   "xml_id": "com.xiaolvpuzi.tool.smartinputpro",
   "numeric_id": 25280,
   "updates": {
-    "680790": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/680790/Smart_Input_Pro-2.0.5-pycharm_212u223.zip?updateId=680790&pluginId=25280&family=INTELLIJ",
-      "sha256": "sdR+YR5t+Ym9yfzVSUeT5gOjGktfi5IU0U+Ml0ucmhQ=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Smart_Input_Pro-2.0.5-pycharm_212u223.zip",
-      "since": "212.0",
-      "until": "223.*",
-      "compatibility_overrides": []
-    },
-    "680794": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/680794/Smart_Input_Pro-2.0.5_211.zip?updateId=680794&pluginId=25280&family=INTELLIJ",
-      "sha256": "K2grOjIWFoFBBCwkLKo1FsQL9TQz7ywO9BiWlCkQwE0=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "JavaScript",
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin"
-      ],
-      "file_name": "Smart_Input_Pro-2.0.5_211.zip",
-      "since": "211.0",
-      "until": "211.*",
-      "compatibility_overrides": []
-    },
     "830870": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/830870/Smart_Input_Pro-2.3.8.zip?updateId=830870&pluginId=25280&family=INTELLIJ",
       "sha256": "QIwlCsvtOVPqIi4LfQ8vGrTvYwSAs94DHhr+0BE0P9w=",
@@ -159,12 +127,27 @@
       "since": "221.0",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "851325": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/851325/Smart_Input_Pro-2.3.9.zip?updateId=851325&pluginId=25280&family=INTELLIJ",
+      "sha256": "cKae18Vc2Alh+mrH1X1Zwu64TvHPVLtxmOP4+qA7pMk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Smart_Input_Pro-2.3.9.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.0.5+211": 680794,
-      "2.0.5-pycharm+212u223": 680790,
       "2.3.8": 830870,
       "2.3.8+211": 831432,
       "2.3.8+212u213": 830873,
@@ -172,7 +155,8 @@
       "2.3.8-goland": 831690,
       "2.3.8-goland+221u232": 831692,
       "2.3.8-pycharm": 831579,
-      "2.3.8-pycharm+221u232": 831688
+      "2.3.8-pycharm+221u232": 831688,
+      "2.3.9": 851325
     }
   }
 }

@@ -144,10 +144,24 @@
       "since": "243.21565",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "851345": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24163/851345/CodeReadingMarkNotePro-2.0.0.jar?updateId=851345&pluginId=24163&family=INTELLIJ",
+      "sha256": "L0+2xCTxxui60VYMf1ivuChKHZvQGwV8375OJU4qXLg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CodeReadingMarkNotePro-2.0.0.jar",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2.0.0": 851345,
       "2020.2": 523856,
       "2021.3.1": 523084,
       "2021.3.2": 562382,
