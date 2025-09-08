@@ -248,14 +248,7 @@
       "file_name": "CodeGlance_Pro-1.7.9.zip",
       "since": "233.10527",
       "until": "233.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "233.10527",
-          "applies_until": "241.*",
-          "compatible_since": "233.10527",
-          "compatible_until": "233.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "487999": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18824/487999/CodeGlance_Pro-1.8.0.zip?updateId=487999&pluginId=18824&family=INTELLIJ",
@@ -268,14 +261,7 @@
       "file_name": "CodeGlance_Pro-1.8.0.zip",
       "since": "233.10527",
       "until": "233.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "233.10527",
-          "applies_until": "241.*",
-          "compatible_since": "233.10527",
-          "compatible_until": "233.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "489995": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18824/489995/CodeGlance_Pro-1.8.1-SNAPSHOT-2024-02-18T16-09-signed.zip?updateId=489995&pluginId=18824&family=INTELLIJ",
@@ -781,6 +767,27 @@
       "since": "251.13774",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "851948": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18824/851948/CodeGlancePro-1.9.9-signed.zip?updateId=851948&pluginId=18824&family=INTELLIJ",
+      "sha256": "e6aYY0PR/KSRSPYf2qiP0YqcijGACajomoPGvXucxLE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "Dart",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.rider",
+        "com.intellij.modules.rider.cpp.core",
+        "org.intellij.scala",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "CodeGlancePro-1.9.9-signed.zip",
+      "since": "251.13774",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -839,7 +846,8 @@
       "1.9.5": 658516,
       "1.9.6": 671527,
       "1.9.7": 694222,
-      "1.9.8": 736403
+      "1.9.8": 736403,
+      "1.9.9": 851948
     }
   }
 }

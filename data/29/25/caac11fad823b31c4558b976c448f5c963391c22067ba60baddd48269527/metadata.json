@@ -603,14 +603,7 @@
       "file_name": "intellij-gitlab-plugin-6.5.0-AI-signed.zip",
       "since": "221.6008",
       "until": "222.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "221.6008",
-          "applies_until": "223.*",
-          "compatible_since": "221.6008",
-          "compatible_until": "222.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "307084": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19611/307084/intellij-gitlab-plugin-6.6.0-signed.zip?updateId=307084&pluginId=19611&family=INTELLIJ",
@@ -1216,14 +1209,7 @@
       "file_name": "intellij-gitlab-plugin-8.7.2-signed.zip",
       "since": "231.8109",
       "until": "232.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "231.8109",
-          "applies_until": "233.*",
-          "compatible_since": "231.8109",
-          "compatible_until": "232.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "412478": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19611/412478/intellij-gitlab-plugin-8.8.0-signed.zip?updateId=412478&pluginId=19611&family=INTELLIJ",
@@ -1239,14 +1225,7 @@
       "file_name": "intellij-gitlab-plugin-8.8.0-signed.zip",
       "since": "231.8109",
       "until": "232.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "231.8109",
-          "applies_until": "233.*",
-          "compatible_since": "231.8109",
-          "compatible_until": "232.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "428590": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19611/428590/intellij-gitlab-plugin-8.9.1-signed.zip?updateId=428590&pluginId=19611&family=INTELLIJ",
@@ -3880,6 +3859,24 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "851723": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19611/851723/intellij-gitlab-plugin-12.21.0-SNAPSHOT-signed.zip?updateId=851723&pluginId=19611&family=INTELLIJ",
+      "sha256": "qM1VG6yCSTbw/Rdy+LV2z3XFhm7Mxv2Tpl5J0hDeDqs=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.tasks",
+        "com.intellij.platform.images",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitlab-plugin-12.21.0-SNAPSHOT-signed.zip",
+      "since": "252.23892",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3975,6 +3972,7 @@
       "12.19.1-SNAPSHOT+003": 848879,
       "12.20.0": 848903,
       "12.20.0-SNAPSHOT+001": 848881,
+      "12.21.0-SNAPSHOT+003": 851723,
       "12.3.0-beta.4": 650672,
       "12.3.0-beta.5": 650797,
       "12.3.0-beta.6": 650816,
