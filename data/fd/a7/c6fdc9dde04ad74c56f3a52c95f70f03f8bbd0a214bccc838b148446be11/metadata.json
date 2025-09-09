@@ -360,7 +360,14 @@
       "file_name": "github-actions-manager-2024.3.6.zip",
       "since": "243.21565.180",
       "until": "251.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.21565.180",
+          "applies_until": "999.99999",
+          "compatible_since": "243.21565.180",
+          "compatible_until": "251.*"
+        }
+      ]
     },
     "713346": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19347/713346/github-actions-manager-2025.1.0.zip?updateId=713346&pluginId=19347&family=INTELLIJ",
@@ -481,6 +488,21 @@
       "since": "252.23892.409",
       "until": null,
       "compatibility_overrides": []
+    },
+    "852244": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19347/852244/github-actions-manager-2025.2.3.zip?updateId=852244&pluginId=19347&family=INTELLIJ",
+      "sha256": "CyCLNC2k9KX+FLqAXGz81+F6aEeCNdU6PtUKvZ7BGe4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "github-actions-manager-2025.2.3.zip",
+      "since": "252.23892.409",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -516,7 +538,8 @@
       "2025.1.5": 805856,
       "2025.2.0": 811449,
       "2025.2.1": 815045,
-      "2025.2.2": 829263
+      "2025.2.2": 829263,
+      "2025.2.3": 852244
     }
   }
 }

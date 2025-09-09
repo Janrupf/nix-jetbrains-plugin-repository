@@ -1268,7 +1268,14 @@
       "file_name": "settingsSync-251.25410.32.zip",
       "since": "251.25410.32",
       "until": "251.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.25410",
+          "applies_until": "251.*",
+          "compatible_since": "251.25410.32",
+          "compatible_until": "251.*"
+        }
+      ]
     },
     "741444": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20868/741444/settingsSync-252.13776.59.zip?updateId=741444&pluginId=20868&family=INTELLIJ",
@@ -1465,6 +1472,20 @@
       "since": "252.26199",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "852422": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20868/852422/settingsSync-251.27812.122.zip?updateId=852422&pluginId=20868&family=INTELLIJ",
+      "sha256": "MbOajSKBOngvzedkEmAxvOD9dgxcz1L14djCan8311I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "intellij.settingsSync.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "settingsSync-251.27812.122.zip",
+      "since": "251.27812",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1555,6 +1576,7 @@
       "251.26094.37": 747119,
       "251.26094.98": 758604,
       "251.26927.53": 780465,
+      "251.27812.122": 852422,
       "251.28293.22": 841178,
       "252.13776.59": 741444,
       "252.16512.17": 748420,

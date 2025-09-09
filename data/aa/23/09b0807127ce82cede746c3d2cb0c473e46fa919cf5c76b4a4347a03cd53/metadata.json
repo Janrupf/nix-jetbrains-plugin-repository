@@ -15,7 +15,14 @@
       "file_name": "debug-variable-extractor-1.2.1.zip",
       "since": "173",
       "until": "202.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "162.0",
+          "applies_until": "202.*",
+          "compatible_since": "173",
+          "compatible_until": "202.*"
+        }
+      ]
     },
     "117251": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16362/117251/debug-variable-extractor-1.2.2.zip?updateId=117251&pluginId=16362&family=INTELLIJ",
@@ -30,7 +37,14 @@
       "file_name": "debug-variable-extractor-1.2.2.zip",
       "since": "173.0",
       "until": "203",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "173.0",
+          "applies_until": "999.99999",
+          "compatible_since": "173.0",
+          "compatible_until": "203"
+        }
+      ]
     },
     "367023": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16362/367023/debug-variable-extractor-2.1.2.zip?updateId=367023&pluginId=16362&family=INTELLIJ",
@@ -45,7 +59,14 @@
       "file_name": "debug-variable-extractor-2.1.2.zip",
       "since": "193.0",
       "until": "243",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "251.0",
+          "compatible_since": "193.0",
+          "compatible_until": "243"
+        }
+      ]
     },
     "370558": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16362/370558/debug-variable-extractor-2.2.0.zip?updateId=370558&pluginId=16362&family=INTELLIJ",
@@ -60,7 +81,14 @@
       "file_name": "debug-variable-extractor-2.2.0.zip",
       "since": "193.0",
       "until": "243",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "251.0",
+          "compatible_since": "193.0",
+          "compatible_until": "243"
+        }
+      ]
     },
     "372956": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16362/372956/debug-variable-extractor-2.3.0.zip?updateId=372956&pluginId=16362&family=INTELLIJ",
@@ -75,7 +103,14 @@
       "file_name": "debug-variable-extractor-2.3.0.zip",
       "since": "193.0",
       "until": "243",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "251.0",
+          "compatible_since": "193.0",
+          "compatible_until": "243"
+        }
+      ]
     },
     "376583": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16362/376583/debug-variable-extractor-2.4.0.zip?updateId=376583&pluginId=16362&family=INTELLIJ",
@@ -90,7 +125,14 @@
       "file_name": "debug-variable-extractor-2.4.0.zip",
       "since": "193.0",
       "until": "243",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "193.0",
+          "applies_until": "251.0",
+          "compatible_since": "193.0",
+          "compatible_until": "243"
+        }
+      ]
     },
     "655581": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16362/655581/extractor-2.5.1.zip?updateId=655581&pluginId=16362&family=INTELLIJ",
@@ -123,6 +165,22 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "852221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16362/852221/extractor-2.5.3.zip?updateId=852221&pluginId=16362&family=INTELLIJ",
+      "sha256": "E7EAsQ/EYq6rtXuR4QV9qTxvZ0gj2MhFOmuAxHwOu9k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "extractor-2.5.3.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -134,7 +192,8 @@
       "2.3.0": 372956,
       "2.4.0": 376583,
       "2.5.1": 655581,
-      "2.5.2": 664029
+      "2.5.2": 664029,
+      "2.5.3": 852221
     }
   }
 }

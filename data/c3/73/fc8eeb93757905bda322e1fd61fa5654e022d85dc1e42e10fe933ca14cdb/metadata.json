@@ -14,7 +14,14 @@
       "file_name": "gitlab-plugin-0.1.1.zip",
       "since": "232.7754.73",
       "until": "232.9559.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.7754.73",
+          "applies_until": "232.*",
+          "compatible_since": "232.7754.73",
+          "compatible_until": "232.9559.*"
+        }
+      ]
     },
     "377759": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22325/377759/gitlab-plugin-0.1.2.zip?updateId=377759&pluginId=22325&family=INTELLIJ",
@@ -28,7 +35,14 @@
       "file_name": "gitlab-plugin-0.1.2.zip",
       "since": "232.7754.73",
       "until": "232.9559.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.7754.73",
+          "applies_until": "232.*",
+          "compatible_since": "232.7754.73",
+          "compatible_until": "232.9559.*"
+        }
+      ]
     },
     "384258": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22325/384258/gitlab-plugin-0.1.3.zip?updateId=384258&pluginId=22325&family=INTELLIJ",
@@ -42,7 +56,14 @@
       "file_name": "gitlab-plugin-0.1.3.zip",
       "since": "232.7754.73",
       "until": "232.9559.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.7754.73",
+          "applies_until": "232.*",
+          "compatible_since": "232.7754.73",
+          "compatible_until": "232.9559.*"
+        }
+      ]
     },
     "389078": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22325/389078/gitlab-plugin-0.2.0.zip?updateId=389078&pluginId=22325&family=INTELLIJ",
@@ -56,7 +77,14 @@
       "file_name": "gitlab-plugin-0.2.0.zip",
       "since": "232.7754.73",
       "until": "232.9559.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.7754.73",
+          "applies_until": "232.*",
+          "compatible_since": "232.7754.73",
+          "compatible_until": "232.9559.*"
+        }
+      ]
     },
     "393371": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22325/393371/gitlab-plugin-0.3.1.zip?updateId=393371&pluginId=22325&family=INTELLIJ",
@@ -5588,6 +5616,21 @@
       "since": "241.17011.79",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "852472": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22325/852472/gitlab-jetbrains-plugin-3.15.0-alpha.8513_5e498e70.zip?updateId=852472&pluginId=22325&family=INTELLIJ",
+      "sha256": "E/oL8ilFsWZR1snPMFRLmyKOT0DplipwyzXG/qWZYF8=",
+      "channel": "alpha",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitlab-jetbrains-plugin-3.15.0-alpha.8513_5e498e70.zip",
+      "since": "241.17011.79",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5718,6 +5761,7 @@
       "3.15.0-alpha.8465+fef3639b": 848249,
       "3.15.0-alpha.8477+c287af50": 849156,
       "3.15.0-alpha.8491+c287af50": 850252,
+      "3.15.0-alpha.8513+5e498e70": 852472,
       "3.2.0-alpha.5388+05e0c61c": 616082,
       "3.2.1-alpha.5445+32f58f9e": 616734,
       "3.2.1-alpha.5451+32f58f9e": 616778,

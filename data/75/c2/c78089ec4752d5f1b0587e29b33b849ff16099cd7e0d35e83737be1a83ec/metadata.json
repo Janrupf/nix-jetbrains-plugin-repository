@@ -218,7 +218,14 @@
       "file_name": "intellij-k8s-runtime-config-1.2.10.jar",
       "since": "222.0",
       "until": "223.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "213.0",
+          "applies_until": "223.*",
+          "compatible_since": "222.0",
+          "compatible_until": "223.*"
+        }
+      ]
     },
     "314615": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12394/314615/intellij-k8s-runtime-config-1.2.11.jar?updateId=314615&pluginId=12394&family=INTELLIJ",

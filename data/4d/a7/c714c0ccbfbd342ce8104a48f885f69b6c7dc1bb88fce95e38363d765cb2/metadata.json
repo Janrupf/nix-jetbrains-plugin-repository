@@ -247,7 +247,14 @@
       "file_name": "Zookeeper_Manager-3.0.1.zip",
       "since": "222.0",
       "until": "241.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "999.99999",
+          "compatible_since": "222.0",
+          "compatible_until": "243"
+        }
+      ]
     },
     "787788": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20317/787788/zookeeper-manager-3.1.2.zip?updateId=787788&pluginId=20317&family=INTELLIJ",

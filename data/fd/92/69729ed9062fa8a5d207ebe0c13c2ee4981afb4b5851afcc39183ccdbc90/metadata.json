@@ -104,7 +104,14 @@
       "file_name": "search-in-repo-1.3.4.zip",
       "since": "201",
       "until": "233.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.*",
+          "applies_until": "233.*",
+          "compatible_since": "201",
+          "compatible_until": "233.*"
+        }
+      ]
     },
     "639893": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16427/639893/search-in-repo-1.3.5.zip?updateId=639893&pluginId=16427&family=INTELLIJ",

@@ -46,13 +46,29 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "852222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26114/852222/GqlQueryLoader.zip?updateId=852222&pluginId=26114&family=INTELLIJ",
+      "sha256": "x220mNjPP+8VOkHUOEecq633XojrUv40MZlmbU9iCxQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GqlQueryLoader.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.2": 651996,
       "1.0.3": 652331,
-      "1.0.4": 723251
+      "1.0.4": 723251,
+      "1.0.5": 852222
     }
   }
 }

@@ -1664,7 +1664,14 @@
       "file_name": "TabNine-0.3.4.zip",
       "since": "191",
       "until": null,
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "182.*",
+          "applies_until": "999.99999",
+          "compatible_since": "191",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "111587": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/12798/111587/TabNine-0.3.5-alpha.20210222124051.zip?updateId=111587&pluginId=12798&family=INTELLIJ",
@@ -24464,6 +24471,21 @@
       "since": "231.9011",
       "until": null,
       "compatibility_overrides": []
+    },
+    "852419": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12798/852419/TabNine-1.257.0-alpha.20250908155025.zip?updateId=852419&pluginId=12798&family=INTELLIJ",
+      "sha256": "ajaEuYjfV5FyE0kLTN9mkOYEqnbiv64Dx8xVOJihefE=",
+      "channel": "alpha",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "file_name": "TabNine-1.257.0-alpha.20250908155025.zip",
+      "since": "231.9011",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -25616,6 +25638,7 @@
       "1.256.0-alpha.20250904130213": 849604,
       "1.256.0-alpha.20250907085505": 851732,
       "1.257.0-alpha.20250907085910": 851733,
+      "1.257.0-alpha.20250908155025": 852419,
       "1.26.0-alpha.20231113152531": 437337,
       "1.26.0-alpha.20231115090624": 438340,
       "1.26.0-alpha.20231116160928": 439040,
