@@ -144,6 +144,40 @@
           "compatible_until": "251.25410.109"
         }
       ]
+    },
+    "853357": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/853357/meta-horizon-intellij-251-unsigned.jar?updateId=853357&pluginId=26861&family=INTELLIJ",
+      "sha256": "bBHKkdYPDY0yA5cCSOfIX0KS1CwML+Ey4a4cyFYr4Vo=",
+      "channel": "test",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "meta-horizon-intellij-251-unsigned.jar",
+      "since": "251.0",
+      "until": "251.26094.*",
+      "compatibility_overrides": []
+    },
+    "853358": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/853358/meta-horizon-intellij-243-unsigned.jar?updateId=853358&pluginId=26861&family=INTELLIJ",
+      "sha256": "GcyAw4xanHHCldVlY8sIrlTVP/SBjBUwx7trmFFf3+g=",
+      "channel": "test",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "meta-horizon-intellij-243-unsigned.jar",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -156,6 +190,10 @@
       "243.1.0.1.2": 747629,
       "243.1.1.0.1": 785146,
       "251.1.1.0.3": 805213
+    },
+    "test": {
+      "243.2.0.0.1": 853358,
+      "251.2.0.0.1": 853357
     }
   }
 }

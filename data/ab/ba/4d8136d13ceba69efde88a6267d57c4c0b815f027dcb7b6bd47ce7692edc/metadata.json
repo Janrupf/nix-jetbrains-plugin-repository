@@ -313,6 +313,25 @@
       "since": "251.23774",
       "until": null,
       "compatibility_overrides": []
+    },
+    "852492": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12541/852492/intellij-dependency-analytics-1.2.0-nightly.20250909.zip?updateId=852492&pluginId=12541&family=INTELLIJ",
+      "sha256": "spAeYridIWitUg1lhIBqkG3IUXkhv/MUcGkU0iS9Afg=",
+      "channel": "nightly",
+      "dependencies": [
+        "Docker",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "intellij-dependency-analytics-1.2.0-nightly.20250909.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -322,7 +341,8 @@
       "0.7.1.99": 434646,
       "1.0.0.112": 526922,
       "1.1.0-nightly.20250901": 846049,
-      "1.2.0-nightly.20250905": 850270
+      "1.2.0-nightly.20250905": 850270,
+      "1.2.0-nightly.20250909": 852492
     },
     "stable": {
       "0.0.1.7": 63789,
