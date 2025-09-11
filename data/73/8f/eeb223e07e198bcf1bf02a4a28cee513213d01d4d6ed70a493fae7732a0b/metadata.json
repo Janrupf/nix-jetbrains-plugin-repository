@@ -1,6 +1,38 @@
 {
   "xml_id": "com.contrastsecurity.ide",
   "numeric_id": 26298,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "666546": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26298/666546/contrast-intellij-plugin-1.0.0.zip?updateId=666546&pluginId=26298&family=INTELLIJ",
+      "sha256": "Kx0JaZG34VeNke4DdbnhvSMlsPsx/qLIEN8JYT+WcNQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "contrast-intellij-plugin-1.0.0.zip",
+      "since": "242.20224.300",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "780037": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26298/780037/contrast-intellij-plugin-1.0.1__1_.zip?updateId=780037&pluginId=26298&family=INTELLIJ",
+      "sha256": "qlzcXULJOmmxUZ4Un7hDSUYK6994Vq2+GXlIUclXDzs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "contrast-intellij-plugin-1.0.1__1_.zip",
+      "since": "243.21565.193",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 666546,
+      "1.0.1": 780037
+    }
+  }
 }
