@@ -605,6 +605,27 @@
       "since": "203.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "854650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26766/854650/calex-javaai-jetbrains-latest.zip?updateId=854650&pluginId=26766&family=INTELLIJ",
+      "sha256": "pUZqr7B1QFRTC6ugOcRIupgBuw3Uhjz6NHuODmhso2g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.database",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "calex-javaai-jetbrains-latest.zip",
+      "since": "203.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -637,7 +658,8 @@
       "3.2.0": 828255,
       "3.2.1": 833257,
       "3.2.2": 838937,
-      "3.2.3": 845346
+      "3.2.3": 845346,
+      "3.3.0": 854650
     }
   }
 }
