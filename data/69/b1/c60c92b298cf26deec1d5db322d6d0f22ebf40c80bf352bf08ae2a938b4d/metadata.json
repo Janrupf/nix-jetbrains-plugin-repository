@@ -1,6 +1,64 @@
 {
   "xml_id": "com.github.xepozz.mago",
   "numeric_id": 28437,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "854438": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28437/854438/Mago-2025.0.1.zip?updateId=854438&pluginId=28437&family=INTELLIJ",
+      "sha256": "CL/xREjxkTG/+i1kZgvPx4jtRswimu51Mlby6kiFXKI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "file_name": "Mago-2025.0.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "854989": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28437/854989/Mago-2025.0.2.zip?updateId=854989&pluginId=28437&family=INTELLIJ",
+      "sha256": "0rJ2M8W8uCo8j1iaOoo33WnwCnOmLnnRdcPQrDVSUY8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "org.toml.lang"
+      ],
+      "file_name": "Mago-2025.0.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "855003": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28437/855003/Mago-2025.0.3.zip?updateId=855003&pluginId=28437&family=INTELLIJ",
+      "sha256": "yAcMmQ3ibLuf0ax6tdpZUNdKDxcKHHr2M56QczCeE9c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "org.toml.lang"
+      ],
+      "file_name": "Mago-2025.0.3.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2025.0.1": 854438,
+      "2025.0.2": 854989,
+      "2025.0.3": 855003
+    }
+  }
 }

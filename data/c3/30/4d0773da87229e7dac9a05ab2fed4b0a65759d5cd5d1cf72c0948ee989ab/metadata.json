@@ -52,13 +52,33 @@
       "since": "252.25557",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "855228": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27880/855228/javascript-frontend-split-253.17525.83.zip?updateId=855228&pluginId=27880&family=INTELLIJ",
+      "sha256": "AoTI/OvBfLfRijnzg6LqGBjJQh7KoEn87mf9jj5vI9g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.css.frontend",
+        "com.intellij.jetbrains.client",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "intellij.css.common.psi",
+        "intellij.javascript.common",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "javascript-frontend-split-253.17525.83.zip",
+      "since": "253.17525",
+      "until": "253.17525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "252.23892.119": 791139,
       "252.23892.298": 804696,
-      "252.25557.23": 827437
+      "252.25557.23": 827437,
+      "253.17525.83": 855228
     }
   }
 }

@@ -1,6 +1,31 @@
 {
   "xml_id": "com.jotc.nsis.plugin.nsis",
   "numeric_id": 7886,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "20689": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7886/20689/NSIS_language_support.zip?updateId=20689&pluginId=7886&family=INTELLIJ",
+      "sha256": "mni+05OJyiKDAyY+DmfImSIqscQ15GFdy8ktR8Whsio=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "NSIS_language_support.zip",
+      "since": "131.0",
+      "until": "201.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "131.0",
+          "applies_until": "999.99999",
+          "compatible_since": "131.0",
+          "compatible_until": "201.0"
+        }
+      ]
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 20689
+    }
+  }
 }
