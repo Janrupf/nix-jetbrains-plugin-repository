@@ -40,13 +40,27 @@
       "since": "202.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "856024": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17305/856024/intellij-yaml-sorter-1.1.0.zip?updateId=856024&pluginId=17305&family=INTELLIJ",
+      "sha256": "4HIb5C9Y6bC4/tuXsaxeuhhnJgMtYYoK2RUVdZJs2OY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-yaml-sorter-1.1.0.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 130777,
       "1.0.1": 142810,
-      "1.0.2": 214381
+      "1.0.2": 214381,
+      "1.1.0": 856024
     }
   }
 }

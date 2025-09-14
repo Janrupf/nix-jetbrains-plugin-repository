@@ -75,21 +75,6 @@
       "until": "252.*",
       "compatibility_overrides": []
     },
-    "855649": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28247/855649/cline-0.0.5.zip?updateId=855649&pluginId=28247&family=INTELLIJ",
-      "sha256": "TlXBqFBn/ig2TY9yQW7cr1abe+M30dytw9bPktsKYA4=",
-      "channel": "eap",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.javascript"
-      ],
-      "file_name": "cline-0.0.5.zip",
-      "since": "242.0",
-      "until": "252.*",
-      "compatibility_overrides": []
-    },
     "855673": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28247/855673/cline-0.0.5-nightly.20250912.61.zip?updateId=855673&pluginId=28247&family=INTELLIJ",
       "sha256": "Gbn5VjRxuh0QecP7xjahktUEtLfiXrvdi1h5nJx0YEo=",
@@ -104,17 +89,32 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "855867": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28247/855867/cline-0.0.5-nightly.20250912.63.zip?updateId=855867&pluginId=28247&family=INTELLIJ",
+      "sha256": "wTjojxuuNxoe7GJtNK419priB5FYNq8aurn3u6lzIqI=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.javascript"
+      ],
+      "file_name": "cline-0.0.5-nightly.20250912.63.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "0.0.2": 848246,
       "0.0.3": 855016,
-      "0.0.4": 855033,
-      "0.0.5": 855649
+      "0.0.4": 855033
     },
     "nightly": {
-      "0.0.5-nightly.20250912.61": 855673
+      "0.0.5-nightly.20250912.61": 855673,
+      "0.0.5-nightly.20250912.63": 855867
     },
     "stable": {
       "0.0.1": 840767,

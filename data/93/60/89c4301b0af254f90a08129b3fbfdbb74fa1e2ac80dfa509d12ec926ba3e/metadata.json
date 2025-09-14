@@ -27,12 +27,27 @@
       "since": "213.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "855849": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28273/855849/claude-migration.zip?updateId=855849&pluginId=28273&family=INTELLIJ",
+      "sha256": "u6Xn8jXBahkSSDXBP+0Uf6JmaRSYA8L0YS/XbNmK7Uw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "claude-migration.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 837130,
-      "1.0.1": 837131
+      "1.0.1": 837131,
+      "1.0.2": 855849
     }
   }
 }
