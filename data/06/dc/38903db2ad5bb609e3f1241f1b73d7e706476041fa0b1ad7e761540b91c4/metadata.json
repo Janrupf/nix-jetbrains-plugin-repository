@@ -17,11 +17,35 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "856253": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28336/856253/Toml2Go-1.0.1-SNAPSHOT.zip?updateId=856253&pluginId=28336&family=INTELLIJ",
+      "sha256": "PPAl05ULfIdN9FGeQCAbJ0mK2iWV+rxcNLNIr1TPWy4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.go",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Toml2Go-1.0.1-SNAPSHOT.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 844193
+      "1.0-SNAPSHOT": 844193,
+      "1.0.1-SNAPSHOT": 856253
     }
   }
 }
