@@ -26887,6 +26887,40 @@
       "since": "253.17525",
       "until": "253.17525.*",
       "compatibility_overrides": []
+    },
+    "856965": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/856965/clouds-kubernetes-252.26199.97.zip?updateId=856965&pluginId=10485&family=INTELLIJ",
+      "sha256": "rfFdjq+NCtagAMrj0XLhkqAobvTF+bybwVpoSPZS0v4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.platform.execution.serviceView",
+        "intellij.yaml"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "com.intellij.cron",
+        "com.intellij.database",
+        "intellij.clouds.docker.compose",
+        "intellij.clouds.kubernetes",
+        "intellij.clouds.kubernetes.backend",
+        "intellij.clouds.kubernetes.libraries",
+        "intellij.json",
+        "intellij.json.backend",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend",
+        "org.jetbrains.plugins.go-template"
+      ],
+      "file_name": "clouds-kubernetes-252.26199.97.zip",
+      "since": "252.26199",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -28283,6 +28317,7 @@
       "252.25557.34": 828473,
       "252.25557.35": 829213,
       "252.26199.73": 854446,
+      "252.26199.97": 856965,
       "253.17525.83": 855299
     }
   }

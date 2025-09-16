@@ -16,11 +16,29 @@
       "since": "252.26199",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "857273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28372/857273/cpp-frontend-split-253.17525.95.zip?updateId=857273&pluginId=28372&family=INTELLIJ",
+      "sha256": "8ihtjYfhDs47M5SZuDFliW5Hnm61AOR1mlX83ouneII=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client",
+        "intellij.cidr.psi.base",
+        "intellij.platform.frontend.split",
+        "intellij.platform.identifiers.highlighting.frontend.split",
+        "intellij.rider.cpp.core.languages"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cpp-frontend-split-253.17525.95.zip",
+      "since": "253.17525",
+      "until": "253.17525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "252.26199.7": 849061
+      "252.26199.7": 849061,
+      "253.17525.95": 857273
     }
   }
 }

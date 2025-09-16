@@ -1444,6 +1444,31 @@
       "since": "252.23892",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "857519": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22807/857519/spring-graphql-253.17525.95.zip?updateId=857519&pluginId=22807&family=INTELLIJ",
+      "sha256": "FGHFQgiYtcoG0zm5CTXRxwr+kWTW2niPXi+n5VPH7Sw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.microservices.ui",
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.modules.ultimate",
+        "com.intellij.properties",
+        "com.intellij.spring",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot",
+        "com.jetbrains.restClient",
+        "intellij.microservices.ui"
+      ],
+      "file_name": "spring-graphql-253.17525.95.zip",
+      "since": "253.17525",
+      "until": "253.17525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1521,7 +1546,8 @@
       "252.23309.22": 779398,
       "252.23591.19": 781547,
       "252.23892.248": 797930,
-      "252.23892.360": 809110
+      "252.23892.360": 809110,
+      "253.17525.95": 857519
     }
   }
 }

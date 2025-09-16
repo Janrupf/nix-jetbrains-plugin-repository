@@ -437,6 +437,49 @@
           "compatible_until": "252.23892"
         }
       ]
+    },
+    "857467": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27368/857467/java-253.17525.95.zip?updateId=857467&pluginId=27368&family=INTELLIJ",
+      "sha256": "mdEPmrHdCrFKEDKp2rO0WTo3gfhH3iUnbXGw2nCs3dU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java-capable",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml",
+        "intellij.platform.vcs.impl.lang",
+        "intellij.regexp",
+        "intellij.spellchecker",
+        "intellij.xml.dom.impl"
+      ],
+      "optional_dependencies": [
+        "com.intellij.copyright",
+        "com.intellij.modules.idea.community",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.structuralsearch",
+        "com.intellij.modules.ultimate",
+        "com.intellij.platform.images",
+        "com.jetbrains.performancePlugin",
+        "intellij.java.execution.impl.shared",
+        "intellij.performanceTesting.vcs",
+        "intellij.platform.backend",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.langInjection",
+        "intellij.platform.langInjection.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.profiler.common",
+        "intellij.profiler.ultimate.ideaAsyncProfiler",
+        "org.jetbrains.plugins.terminal",
+        "training"
+      ],
+      "file_name": "java-253.17525.95.zip",
+      "since": "253.17525",
+      "until": "253.17525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -451,7 +494,8 @@
       "252.23892.248": 797894,
       "252.23892.360": 809003,
       "252.23892.409": 817181,
-      "252.23892.458": 819268
+      "252.23892.458": 819268,
+      "253.17525.95": 857467
     }
   }
 }

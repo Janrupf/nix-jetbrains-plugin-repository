@@ -3155,6 +3155,32 @@
       "since": "252.23892",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "857613": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16874/857613/helidon-253.17525.95.zip?updateId=857613&pluginId=16874&family=INTELLIJ",
+      "sha256": "7RAM+ykx6ktbWJwmtDbZ0Cz15jDN2JNl5zoMh3CIFqg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.cdi",
+        "com.intellij.java",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.modules.ultimate",
+        "com.intellij.properties",
+        "intellij.json.backend",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "intellij.microservices.jvm/yamlconfig",
+        "intellij.yaml.backend",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "helidon-253.17525.95.zip",
+      "since": "253.17525",
+      "until": "253.17525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3312,7 +3338,8 @@
       "252.23309.22": 779361,
       "252.23591.19": 781576,
       "252.23892.248": 797928,
-      "252.23892.360": 809241
+      "252.23892.360": 809241,
+      "253.17525.95": 857613
     }
   }
 }

@@ -1233,6 +1233,30 @@
       "since": "252.23892",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "857536": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23814/857536/openRewrite-253.17525.95.zip?updateId=857536&pluginId=23814&family=INTELLIJ",
+      "sha256": "Y/j4Iw4OilSPuyyJxBQt2a+azK1PwJ3mo22fsA9q9lw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.microservices.jvm/yamlconfig",
+        "intellij.platform.lvcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "openRewrite-253.17525.95.zip",
+      "since": "253.17525",
+      "until": "253.17525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1294,7 +1318,8 @@
       "252.23309.22": 779282,
       "252.23591.19": 781532,
       "252.23892.248": 797948,
-      "252.23892.360": 809098
+      "252.23892.360": 809098,
+      "253.17525.95": 857536
     }
   }
 }

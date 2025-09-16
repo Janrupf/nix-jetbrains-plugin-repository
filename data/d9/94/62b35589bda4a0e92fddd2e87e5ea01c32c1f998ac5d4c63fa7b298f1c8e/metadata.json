@@ -23327,6 +23327,38 @@
       "since": "243.28141",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "857577": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6610/857577/php-impl-253.17525.95.zip?updateId=857577&pluginId=6610&family=INTELLIJ",
+      "sha256": "4Y/rZdCI1SxhdWCGy90KBDPv5RYLdI18MWy5yKboBFA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.php-capable",
+        "com.intellij.modules.regexp",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.dev",
+        "com.intellij.diagram",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.duplicatesDetector",
+        "com.intellij.plugins.html.instantEditing",
+        "com.jetbrains.performancePlugin",
+        "com.jetbrains.plugins.webDeployment",
+        "com.jetbrains.restClient",
+        "org.intellij.intelliLang",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "php-impl-253.17525.95.zip",
+      "since": "253.17525",
+      "until": "253.17525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -24258,7 +24290,8 @@
       "252.25557.79": 834309,
       "252.26199.19": 849581,
       "252.26199.74": 853920,
-      "252.26199.83": 854360
+      "252.26199.83": 854360,
+      "253.17525.95": 857577
     }
   }
 }

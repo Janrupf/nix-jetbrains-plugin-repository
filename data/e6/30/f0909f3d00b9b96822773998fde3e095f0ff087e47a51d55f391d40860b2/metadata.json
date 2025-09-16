@@ -2891,6 +2891,48 @@
       "since": "252.26199",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "857493": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20306/857493/quarkus-253.17525.95.zip?updateId=857493&pluginId=20306&family=INTELLIJ",
+      "sha256": "Dyh6syRFotW2yjyJT40rf18CzliFsCIwc/VnpfufcT4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.cdi",
+        "com.intellij.java",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.modules.ultimate",
+        "com.intellij.persistence",
+        "com.intellij.properties",
+        "com.jetbrains.restWebServices",
+        "intellij.json.backend",
+        "intellij.platform.execution.dashboard",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "com.intellij.cron",
+        "com.intellij.hibernate",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.coverage",
+        "com.intellij.openRewrite",
+        "intellij.clouds.docker.remoteRun",
+        "intellij.javaee.persistence.database.config.yaml",
+        "intellij.microservices.jvm.cron",
+        "intellij.microservices.jvm/yamlconfig",
+        "intellij.profiler.common",
+        "intellij.profiler.ultimate",
+        "intellij.yaml.backend",
+        "org.jetbrains.idea.gradle.dsl",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "quarkus-253.17525.95.zip",
+      "since": "253.17525",
+      "until": "253.17525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2989,7 +3031,8 @@
       "252.23591.19": 781501,
       "252.23892.248": 797961,
       "252.23892.360": 809147,
-      "252.26199.7": 849104
+      "252.26199.7": 849104,
+      "253.17525.95": 857493
     }
   }
 }
