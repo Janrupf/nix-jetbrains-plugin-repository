@@ -17,11 +17,28 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "857906": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27806/857906/sqlproj-plugin-0.1.7-signed.zip?updateId=857906&pluginId=27806&family=INTELLIJ",
+      "sha256": "YJZka0q2QrQk+1tg4yH3lBwqCG4NeB0xdfAjChExAr8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.rider",
+        "rider.intellij.plugin.appender"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sqlproj-plugin-0.1.7-signed.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.6": 785169
+      "0.1.6": 785169,
+      "0.1.7": 857906
     }
   }
 }

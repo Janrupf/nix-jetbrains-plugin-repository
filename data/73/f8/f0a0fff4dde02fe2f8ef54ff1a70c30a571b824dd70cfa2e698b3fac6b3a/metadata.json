@@ -1142,6 +1142,30 @@
       "since": "252.25557",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "858471": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21962/858471/clouds-docker-gateway-253.20558.12.zip?updateId=858471&pluginId=21962&family=INTELLIJ",
+      "sha256": "VRL1IgqnrfJmIYQBXP50y1c5emKQUIyjWJIPWhLqwEo=",
+      "channel": "stable",
+      "dependencies": [
+        "Docker",
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.gateway",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.agent",
+        "intellij.clouds.docker.dependencies",
+        "intellij.clouds.docker.shared",
+        "intellij.json.backend",
+        "intellij.libraries.ktor.client"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.jetbrains.codeWithMe"
+      ],
+      "file_name": "clouds-docker-gateway-253.20558.12.zip",
+      "since": "253.20558",
+      "until": "253.20558.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1207,7 +1231,8 @@
       "252.23892.201": 796345,
       "252.23892.363": 810863,
       "252.23892.52": 786538,
-      "252.25557.34": 828479
+      "252.25557.34": 828479,
+      "253.20558.12": 858471
     }
   }
 }
