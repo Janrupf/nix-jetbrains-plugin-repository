@@ -37334,7 +37334,7 @@
       ],
       "file_name": "scala-intellij-bin-2020.3.19.zip",
       "since": "203.5981.41",
-      "until": "211.*",
+      "until": "203.*",
       "compatibility_overrides": [
         {
           "applies_since": "203.5981.41",
@@ -37479,7 +37479,7 @@
       ],
       "file_name": "scala-intellij-bin-2020.3.19.zip",
       "since": "203.5981.41",
-      "until": "211.*",
+      "until": "203.*",
       "compatibility_overrides": [
         {
           "applies_since": "203.5981.41",
@@ -38910,7 +38910,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.1.20.zip",
       "since": "211.6222",
-      "until": "211.*",
+      "until": "212.*",
       "compatibility_overrides": []
     },
     "119164": {
@@ -39070,7 +39070,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.1.20.zip",
       "since": "211.6222",
-      "until": "211.*",
+      "until": "212.*",
       "compatibility_overrides": []
     },
     "119932": {
@@ -40034,7 +40034,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.2.11.zip",
       "since": "212.4321",
-      "until": "213.*",
+      "until": "212.*",
       "compatibility_overrides": [
         {
           "applies_since": "212.4321",
@@ -40074,7 +40074,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.2.11.zip",
       "since": "212.4321",
-      "until": "213.*",
+      "until": "212.*",
       "compatibility_overrides": [
         {
           "applies_since": "212.4321",
@@ -42661,7 +42661,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.3.8.zip",
       "since": "213.4631",
-      "until": "221.*",
+      "until": "213.5744.202",
       "compatibility_overrides": [
         {
           "applies_since": "213.4631",
@@ -42701,7 +42701,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.3.8.zip",
       "since": "213.4631",
-      "until": "221.*",
+      "until": "213.5744.202",
       "compatibility_overrides": [
         {
           "applies_since": "213.4631",
@@ -46483,7 +46483,7 @@
       ],
       "file_name": "scala-intellij-bin-2022.1.14.zip",
       "since": "221.4501",
-      "until": "221.*",
+      "until": "222.*",
       "compatibility_overrides": [
         {
           "applies_since": "221.4501",
@@ -46749,7 +46749,7 @@
       ],
       "file_name": "scala-intellij-bin-2022.1.14.zip",
       "since": "221.4501",
-      "until": "221.*",
+      "until": "222.*",
       "compatibility_overrides": [
         {
           "applies_since": "221.4501",
@@ -91461,6 +91461,60 @@
       "since": "252.25557",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "859440": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1347/859440/scala-intellij-bin-2025.3.3.zip?updateId=859440&pluginId=1347&family=INTELLIJ",
+      "sha256": "fLh2A7p7ORKYNHIca6eAJ6Cmiq/tKu9k+JRwG1BEByI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.java",
+        "org.intellij.intelliLang"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.java-i18n",
+        "com.intellij.modules.ultimate",
+        "com.intellij.plugins.dependencyAnalysis",
+        "com.intellij.properties",
+        "com.jetbrains.performancePlugin",
+        "org.intellij.qodana",
+        "org.jetbrains.java.decompiler",
+        "org.jetbrains.security.package-checker",
+        "training"
+      ],
+      "file_name": "scala-intellij-bin-2025.3.3.zip",
+      "since": "253.17525",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "859488": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1347/859488/scala-intellij-bin-2025.3.3.zip?updateId=859488&pluginId=1347&family=INTELLIJ",
+      "sha256": "iLiWfxM01Oes9enpkGzw4hNmOZlzVC7UQ6lkNw+VO10=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "org.intellij.intelliLang"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.java-i18n",
+        "com.intellij.modules.ultimate",
+        "com.intellij.plugins.dependencyAnalysis",
+        "com.intellij.properties",
+        "com.jetbrains.performancePlugin",
+        "org.intellij.qodana",
+        "org.jetbrains.java.decompiler",
+        "org.jetbrains.security.package-checker",
+        "training"
+      ],
+      "file_name": "scala-intellij-bin-2025.3.3.zip",
+      "since": "253.17525",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -91930,6 +91984,7 @@
       "2025.2.6": 761272,
       "2025.2.8": 775646,
       "2025.2.9": 780051,
+      "2025.3.3": 859440,
       "3.0.0": 24699,
       "3.0.0.10": 24956,
       "3.0.1": 25041,
@@ -95024,6 +95079,7 @@
       "2025.2.7": 767939,
       "2025.2.8": 775653,
       "2025.2.9": 780095,
+      "2025.3.3": 859488,
       "3.0.0": 24700,
       "3.0.1": 25042,
       "3.0.2": 25193,

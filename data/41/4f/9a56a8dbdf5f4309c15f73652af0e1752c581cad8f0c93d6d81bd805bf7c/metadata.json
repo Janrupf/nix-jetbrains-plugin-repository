@@ -312,6 +312,52 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "858854": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24377/858854/jetbrains-plugin.zip?updateId=858854&pluginId=24377&family=INTELLIJ",
+      "sha256": "B9IX3jzEZJpy7JoTLokFReT2SbK+LlUjbe2w3/Tfxw8=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.data"
+      ],
+      "file_name": "jetbrains-plugin.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "858855": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24377/858855/jetbrains-plugin.zip?updateId=858855&pluginId=24377&family=INTELLIJ",
+      "sha256": "B9IX3jzEZJpy7JoTLokFReT2SbK+LlUjbe2w3/Tfxw8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.data"
+      ],
+      "file_name": "jetbrains-plugin.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -332,11 +378,13 @@
       "0.0.9": 707649,
       "0.1.0": 772903,
       "0.1.1": 773843,
-      "0.1.12": 803012
+      "0.1.12": 803012,
+      "0.1.13": 858854
     },
     "stable": {
       "0.1.1": 773995,
-      "0.1.12": 808932
+      "0.1.12": 808932,
+      "0.1.13": 858855
     }
   }
 }
