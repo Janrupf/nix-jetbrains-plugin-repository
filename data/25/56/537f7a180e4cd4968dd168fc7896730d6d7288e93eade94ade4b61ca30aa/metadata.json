@@ -2,9 +2,9 @@
   "xml_id": "com.fxclub.gitlab.mentions",
   "numeric_id": 28514,
   "updates": {
-    "859498": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28514/859498/intellij-gitlab-mentions-1.2.0.zip?updateId=859498&pluginId=28514&family=INTELLIJ",
-      "sha256": "48ab9f/iat6G/A/r+iFEf/ZN8GAqh9C7juYZ8Leq7/I=",
+    "859846": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28514/859846/intellij-gitlab-mentions-1.4.0.zip?updateId=859846&pluginId=28514&family=INTELLIJ",
+      "sha256": "xAI4DTNPZPpYHbWseuE3gJbwRTvjc1yJcRYcbCmBzEI=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
@@ -12,7 +12,22 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-gitlab-mentions-1.2.0.zip",
+      "file_name": "intellij-gitlab-mentions-1.4.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "859863": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28514/859863/intellij-gitlab-mentions-1.5.0.zip?updateId=859863&pluginId=28514&family=INTELLIJ",
+      "sha256": "1P2ZUJN1FdAOXyV6Tv0dZJ3N270nQC8Ya/G/Z6MSff8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitlab-mentions-1.5.0.zip",
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
@@ -20,7 +35,8 @@
   },
   "channels": {
     "stable": {
-      "1.2.0": 859498
+      "1.4.0": 859846,
+      "1.5.0": 859863
     }
   }
 }

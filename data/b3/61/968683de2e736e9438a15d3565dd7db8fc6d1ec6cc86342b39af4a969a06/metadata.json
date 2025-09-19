@@ -14,11 +14,25 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "860025": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28447/860025/student-mode-ij-plugin-0.1.0.zip?updateId=860025&pluginId=28447&family=INTELLIJ",
+      "sha256": "3visqJOV7fAvS41dC8LsJ2BcSsdBziagwrVHfMGypwk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "student-mode-ij-plugin-0.1.0.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 854492
+      "0.0.1": 854492,
+      "0.1.0": 860025
     }
   }
 }

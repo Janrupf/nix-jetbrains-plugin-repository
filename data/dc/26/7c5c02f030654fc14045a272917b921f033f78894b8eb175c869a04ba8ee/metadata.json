@@ -49,13 +49,30 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "860058": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27749/860058/testBalloon-intellij-plugin-0.2.8-signed.zip?updateId=860058&pluginId=27749&family=INTELLIJ",
+      "sha256": "J4fKzkUqukK/n8Y7YrrT4efE7jBOP++axAybDS+Kn1s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "testBalloon-intellij-plugin-0.2.8-signed.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.5": 781727,
       "0.2.6": 813255,
-      "0.2.7": 821375
+      "0.2.7": 821375,
+      "0.2.8": 860058
     }
   }
 }

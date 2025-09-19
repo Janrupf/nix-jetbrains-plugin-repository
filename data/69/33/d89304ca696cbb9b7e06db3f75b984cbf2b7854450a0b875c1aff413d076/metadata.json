@@ -176,9 +176,56 @@
       "since": "233.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "860983": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26844/860983/armada-theme-intellij-plugin-0.5.3-eap.zip?updateId=860983&pluginId=26844&family=INTELLIJ",
+      "sha256": "sDhqd4RkDCxYu5t20+aR7pVGScebKhCnXBIx6vgV4I4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "PythonCore",
+        "com.falsepattern.zigbrains",
+        "com.intellij.css",
+        "com.intellij.modules.kotlin.k2",
+        "com.intellij.properties",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "armada-theme-intellij-plugin-0.5.3-eap.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "860991": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26844/860991/armada-theme-intellij-plugin-0.5.2.zip?updateId=860991&pluginId=26844&family=INTELLIJ",
+      "sha256": "ZkbIG523UKelFX/dKIflh8A4j/0T9NP0m1hJdYNe5pk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "PythonCore",
+        "com.falsepattern.zigbrains",
+        "com.intellij.css",
+        "com.intellij.modules.kotlin.k2",
+        "com.intellij.properties",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "armada-theme-intellij-plugin-0.5.2.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "0.5.3-eap": 860983
+    },
     "stable": {
       "0.0.2": 699480,
       "0.1.0": 700580,
@@ -188,7 +235,8 @@
       "0.3.2": 707192,
       "0.4.0": 740866,
       "0.5.0": 799498,
-      "0.5.1": 829557
+      "0.5.1": 829557,
+      "0.5.2": 860991
     }
   }
 }
