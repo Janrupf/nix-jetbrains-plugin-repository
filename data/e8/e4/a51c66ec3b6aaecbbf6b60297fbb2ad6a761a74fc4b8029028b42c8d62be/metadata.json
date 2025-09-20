@@ -33,12 +33,35 @@
       "since": "253.17525",
       "until": "253.17525.*",
       "compatibility_overrides": []
+    },
+    "861443": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28372/861443/cpp-frontend-split-253.20558.43.zip?updateId=861443&pluginId=28372&family=INTELLIJ",
+      "sha256": "ap2VlKt1Rl3aVYpp8iP/V+m2e+M5XortRK1gljEao5o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client",
+        "intellij.cidr.psi.base",
+        "intellij.cpp.common.protocol",
+        "intellij.platform.frontend.split",
+        "intellij.platform.identifiers.highlighting.frontend.split",
+        "intellij.rd.platform",
+        "intellij.resharper.assist",
+        "intellij.resharper.cpp.lexer",
+        "intellij.rider.cpp.core.languages",
+        "intellij.rider.icons"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cpp-frontend-split-253.20558.43.zip",
+      "since": "253.20558",
+      "until": "253.20558.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "252.26199.7": 849061,
-      "253.17525.95": 857273
+      "253.17525.95": 857273,
+      "253.20558.43": 861443
     }
   }
 }

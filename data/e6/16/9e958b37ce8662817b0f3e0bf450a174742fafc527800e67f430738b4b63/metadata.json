@@ -14652,6 +14652,66 @@
       "since": "253.20558",
       "until": "253.20558.*",
       "compatibility_overrides": []
+    },
+    "861726": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/861726/clouds-docker-impl-253.20558.46.zip?updateId=861726&pluginId=7724&family=INTELLIJ",
+      "sha256": "Gc5vyL4zKPCsZFl4ltqEcoj5s2HPviLq2qzdmR1t8kQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.clouds.docker.agent",
+        "intellij.clouds.docker.dependencies",
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.ktor.client",
+        "intellij.platform.execution.serviceView"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.ssh",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.shared",
+        "intellij.platform.backend",
+        "intellij.platform.clouds",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "clouds-docker-impl-253.20558.46.zip",
+      "since": "253.20558",
+      "until": "253.20558.*",
+      "compatibility_overrides": []
+    },
+    "861752": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/861752/clouds-docker-impl-252.26199.163.zip?updateId=861752&pluginId=7724&family=INTELLIJ",
+      "sha256": "GZrlEEfukDyj9YznBQfjgcf8HksReBehIfcJObS8weo=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ktor.client",
+        "intellij.platform.backend"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.ssh",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.shared",
+        "intellij.platform.clouds",
+        "intellij.platform.frontend.split",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "clouds-docker-impl-252.26199.163.zip",
+      "since": "252.26199",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -15411,6 +15471,7 @@
       "252.25557.34": 828489,
       "252.25557.35": 829211,
       "252.25557.79": 834288,
+      "252.26199.163": 861752,
       "252.26199.19": 849597,
       "252.26199.25": 852384,
       "252.26199.7": 849097,
@@ -15419,6 +15480,7 @@
       "252.26199.97": 856964,
       "253.17525.99": 857957,
       "253.20558.12": 858420,
+      "253.20558.46": 861726,
       "3.0.0": 36829,
       "3.0.1": 37263
     }

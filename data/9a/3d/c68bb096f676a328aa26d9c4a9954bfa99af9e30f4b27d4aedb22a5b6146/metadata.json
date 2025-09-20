@@ -1316,9 +1316,52 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "861634": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21060/861634/nx-console-0.0.1.zip?updateId=861634&pluginId=21060&family=INTELLIJ",
+      "sha256": "dCQm5b4h+8ZlTLYHrj6yVpf4ktjwqbPQmPFo+6zI3Gk=",
+      "channel": "preview",
+      "dependencies": [
+        "Git4Idea",
+        "JavaScript",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "AngularJS",
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "nx-console-0.0.1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "861903": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21060/861903/nx-console-1.48.0.zip?updateId=861903&pluginId=21060&family=INTELLIJ",
+      "sha256": "8AWlhnMkxz5uutURHME6nE6vnQomEu0od1b1qzqNhow=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "JavaScript",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "AngularJS",
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "nx-console-1.48.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "preview": {
+      "0.0.1": 861634
+    },
     "stable": {
       "1.0.1": 292489,
       "1.1.0": 294399,
@@ -1378,6 +1421,7 @@
       "1.46.2": 795655,
       "1.46.3": 800658,
       "1.47.0": 858816,
+      "1.48.0": 861903,
       "1.5.0": 338219,
       "1.6.1": 345405,
       "1.7.0": 353386,

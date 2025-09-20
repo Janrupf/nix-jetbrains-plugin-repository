@@ -42,12 +42,36 @@
       "since": "253.17525",
       "until": "253.17525.*",
       "compatibility_overrides": []
+    },
+    "861440": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28373/861440/python-frontend-plugin-253.20558.43.zip?updateId=861440&pluginId=28373&family=INTELLIJ",
+      "sha256": "DV19+khncBFDSJofbVfh27dJDuXXxdX86uoKVMh0lig=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client"
+      ],
+      "optional_dependencies": [
+        "intellij.charts",
+        "intellij.grid.charts.impl",
+        "intellij.grid.core.impl",
+        "intellij.grid.impl",
+        "intellij.python.ast",
+        "intellij.python.parser",
+        "intellij.python.syntax",
+        "intellij.python.syntax.core",
+        "intellij.scientific.tables"
+      ],
+      "file_name": "python-frontend-plugin-253.20558.43.zip",
+      "since": "253.20558",
+      "until": "253.20558.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "252.26199.7": 849063,
-      "253.17525.83": 855223
+      "253.17525.83": 855223,
+      "253.20558.43": 861440
     }
   }
 }

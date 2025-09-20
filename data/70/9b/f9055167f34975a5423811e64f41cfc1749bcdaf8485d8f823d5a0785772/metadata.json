@@ -2145,6 +2145,37 @@
       "since": "253.17525",
       "until": "253.17525.*",
       "compatibility_overrides": []
+    },
+    "861505": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21700/861505/bigdatatools-plugin-spark-253.20558.43.zip?updateId=861505&pluginId=21700&family=INTELLIJ",
+      "sha256": "P3HG2uzS6Mpi+qBmsmfGcjpUCdsG3N0lG0w5q9SCKhc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.bigdatatools.binary.files",
+        "com.intellij.bigdatatools.core",
+        "com.intellij.bigdatatools.metastore.core",
+        "com.intellij.bigdatatools.rfs",
+        "com.intellij.modules.ultimate",
+        "intellij.bigdatatools.awsBase",
+        "intellij.bigdatatools.azure",
+        "intellij.bigdatatools.coreUi",
+        "intellij.bigdatatools.gcloud"
+      ],
+      "optional_dependencies": [
+        "PythonCore",
+        "Pythonid",
+        "com.intellij.java",
+        "intellij.bigdatatools.plugin.spark.assistance",
+        "intellij.bigdatatools.plugin.spark.java",
+        "intellij.python",
+        "org.intellij.scala",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "bigdatatools-plugin-spark-253.20558.43.zip",
+      "since": "253.20558",
+      "until": "253.20558.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2236,7 +2267,8 @@
       "252.23591.19": 781548,
       "252.23892.248": 797989,
       "252.23892.360": 809130,
-      "253.17525.95": 857516
+      "253.17525.95": 857516,
+      "253.20558.43": 861505
     }
   }
 }

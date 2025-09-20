@@ -21,11 +21,32 @@
       "since": "253.17525",
       "until": "253.17525.*",
       "compatibility_overrides": []
+    },
+    "861464": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28489/861464/dbt-253.20558.43.zip?updateId=861464&pluginId=28489&family=INTELLIJ",
+      "sha256": "K5PJ9vLwrnDCi47dEauoqhf2/tRKyfNU4BgrytoV12A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.diagram",
+        "intellij.database.dialects.generic",
+        "intellij.jinja",
+        "intellij.json.backend",
+        "intellij.yaml.backend"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "dbt-253.20558.43.zip",
+      "since": "253.20558",
+      "until": "253.20558.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "253.17525.95": 857552
+      "253.17525.95": 857552,
+      "253.20558.43": 861464
     }
   }
 }
