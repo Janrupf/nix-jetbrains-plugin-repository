@@ -2,19 +2,6 @@
   "xml_id": "org.dropproject.studentmodeijplugin",
   "numeric_id": 28447,
   "updates": {
-    "854492": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28447/854492/student-mode-ij-plugin-0.0.1.zip?updateId=854492&pluginId=28447&family=INTELLIJ",
-      "sha256": "qGvYZyYKCOQ+ONC3PBa0wRbGCHS8HVsKwWNET29UGhE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "student-mode-ij-plugin-0.0.1.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "860025": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28447/860025/student-mode-ij-plugin-0.1.0.zip?updateId=860025&pluginId=28447&family=INTELLIJ",
       "sha256": "3visqJOV7fAvS41dC8LsJ2BcSsdBziagwrVHfMGypwk=",
@@ -40,13 +27,40 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "862311": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28447/862311/student-mode-ij-plugin-0.2.1.zip?updateId=862311&pluginId=28447&family=INTELLIJ",
+      "sha256": "5ih7VOWCCnQGEnvUJFhQR34yIzCRQLYeooFTYezFB28=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "student-mode-ij-plugin-0.2.1.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "862318": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28447/862318/student-mode-ij-plugin-0.2.2.zip?updateId=862318&pluginId=28447&family=INTELLIJ",
+      "sha256": "v8M5PuBzbl2upUe/ymiuplVfePum7+tqdYa4lJ/xIh8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "student-mode-ij-plugin-0.2.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 854492,
       "0.1.0": 860025,
-      "0.2.0": 861428
+      "0.2.0": 861428,
+      "0.2.1": 862311,
+      "0.2.2": 862318
     }
   }
 }

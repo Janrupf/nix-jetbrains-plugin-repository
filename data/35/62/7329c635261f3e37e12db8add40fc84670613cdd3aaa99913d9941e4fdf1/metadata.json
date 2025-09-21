@@ -14,11 +14,39 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "862513": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28049/862513/CopyMultipleFiles-1.1.0.jar?updateId=862513&pluginId=28049&family=INTELLIJ",
+      "sha256": "ijbykDJ9NtPgND5QV+5m/MvkvPoNfiFj7LP5p8gjQ1M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CopyMultipleFiles-1.1.0.jar",
+      "since": "231.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "862530": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28049/862530/CopyMultipleFiles-1.1.1.jar?updateId=862530&pluginId=28049&family=INTELLIJ",
+      "sha256": "geMNsxkcdNJ5xRyTcvR3BYDe0kAIvGDQGZLDoFTqB8k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CopyMultipleFiles-1.1.1.jar",
+      "since": "231.0",
+      "until": "231.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0": 812612
+      "1.0": 812612,
+      "1.1.0": 862513,
+      "1.1.1": 862530
     }
   }
 }
