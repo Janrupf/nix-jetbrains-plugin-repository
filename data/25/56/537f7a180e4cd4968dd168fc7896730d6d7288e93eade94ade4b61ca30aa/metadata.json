@@ -31,12 +31,27 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "863501": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28514/863501/intellij-gitlab-mentions-1.6.0.zip?updateId=863501&pluginId=28514&family=INTELLIJ",
+      "sha256": "sJLv8yJKqoI62JcJtfr6e8fejX+Gfzn39ag3DBSWU3k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitlab-mentions-1.6.0.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.4.0": 859846,
-      "1.5.0": 859863
+      "1.5.0": 859863,
+      "1.6.0": 863501
     }
   }
 }

@@ -40,13 +40,41 @@
       "since": "231.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "863396": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28466/863396/ysql-1.1.3-231.zip?updateId=863396&pluginId=28466&family=INTELLIJ",
+      "sha256": "VaQytQjoIM2LBZN3iMoe/fAvAW1Q4JYNPC1VHuWpEZo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ysql-1.1.3-231.zip",
+      "since": "231.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "863398": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28466/863398/ysql-1.1.3-201.zip?updateId=863398&pluginId=28466&family=INTELLIJ",
+      "sha256": "u/gxBx4q+GbIfzx3Tlwz3xxi900dO50hkhFjWR8t8K8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ysql-1.1.3-201.zip",
+      "since": "201.6668.113",
+      "until": "223.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.0": 856476,
       "1.1.1": 857687,
-      "1.1.2": 858759
+      "1.1.2": 858759,
+      "1.1.3-201": 863398,
+      "1.1.3-231": 863396
     }
   }
 }

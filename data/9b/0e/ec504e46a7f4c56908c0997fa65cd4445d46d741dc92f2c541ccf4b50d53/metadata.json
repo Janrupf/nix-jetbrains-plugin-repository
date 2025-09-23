@@ -325,9 +325,33 @@
       "since": "251.26927.54",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "863454": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26921/863454/ai-debugger-0.2.8-eval.zip?updateId=863454&pluginId=26921&family=INTELLIJ",
+      "sha256": "drpRkVYVs6ibJ8uZ9AkMsrTRdah17lMzfk7vIhnclE0=",
+      "channel": "pydata",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [
+        "PythonCore",
+        "org.jetbrains.aidebugger.common",
+        "org.jetbrains.aidebugger.python"
+      ],
+      "file_name": "ai-debugger-0.2.8-eval.zip",
+      "since": "251.26927.54",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "pydata": {
+      "0.2.8-eval": 863454
+    },
     "stable": {
       "0.1.10": 784053,
       "0.1.2-SNAPSHOT": 704027,
