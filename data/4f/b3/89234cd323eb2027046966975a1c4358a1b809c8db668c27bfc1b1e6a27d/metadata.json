@@ -71,9 +71,41 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "864326": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27730/864326/airunIdePlugin-0.1.5.0-SNAPSHOT.zip?updateId=864326&pluginId=27730&family=INTELLIJ",
+      "sha256": "/WjUuiXkWVq3ip6747J3Q5SvTZHB1uv58aUpTYPq9HA=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "airunIdePlugin-0.1.5.0-SNAPSHOT.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "864327": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27730/864327/airunIdePlugin-0.1.5.1-SNAPSHOT.zip?updateId=864327&pluginId=27730&family=INTELLIJ",
+      "sha256": "EJf3hvGoboScknCVzOJtL/zqXgttslJBaIFkBwMgeI4=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "airunIdePlugin-0.1.5.1-SNAPSHOT.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "0.1.5.0-SNAPSHOT": 864326,
+      "0.1.5.1-SNAPSHOT": 864327
+    },
     "stable": {
       "0.1.4": 780942,
       "0.1.4.2": 786238,

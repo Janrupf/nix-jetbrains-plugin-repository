@@ -29,12 +29,27 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "864767": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28160/864767/direnv-plugin-intellij-1.0.2-signed.zip?updateId=864767&pluginId=28160&family=INTELLIJ",
+      "sha256": "oMPbXHYDEdiNAvdwoRLUFG2gGekapCe5ZobvkKHI7uc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "ru.adelf.idea.dotenv"
+      ],
+      "optional_dependencies": [],
+      "file_name": "direnv-plugin-intellij-1.0.2-signed.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 824875,
-      "1.0.1": 837498
+      "1.0.1": 837498,
+      "1.0.2": 864767
     }
   }
 }

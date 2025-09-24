@@ -1,6 +1,54 @@
 {
   "xml_id": "net.avenwu.tools.biu",
   "numeric_id": 9788,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "39952": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9788/39952/Biu-0.1.0.zip?updateId=39952&pluginId=9788&family=INTELLIJ",
+      "sha256": "H9DhSHcJtRXCKCxzUlxxLUWE2kn+OkLpJJ12fDDEWsE=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Biu-0.1.0.zip",
+      "since": "131.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "40283": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9788/40283/Biu-0.1.0.zip?updateId=40283&pluginId=9788&family=INTELLIJ",
+      "sha256": "H9DhSHcJtRXCKCxzUlxxLUWE2kn+OkLpJJ12fDDEWsE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Biu-0.1.0.zip",
+      "since": "131.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "41615": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9788/41615/Biu-0.2.0.zip?updateId=41615&pluginId=9788&family=INTELLIJ",
+      "sha256": "lNj9LiRZ97eIEFdNIfsRXf3JC+mtcrGD13XoilvuMig=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Biu-0.2.0.zip",
+      "since": "131.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "beta": {
+      "0.1.0": 39952
+    },
+    "stable": {
+      "0.1.0": 40283,
+      "0.2.0": 41615
+    }
+  }
 }
