@@ -33,12 +33,46 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "865153": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28558/865153/commit-ai-1.1.0.zip?updateId=865153&pluginId=28558&family=INTELLIJ",
+      "sha256": "1DJUMkje/jZxx3CTRajipAlnrNTsePwuzmKtefDaXHg=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Subversion"
+      ],
+      "file_name": "commit-ai-1.1.0.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "865650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28558/865650/commit-ai-1.2.0.zip?updateId=865650&pluginId=28558&family=INTELLIJ",
+      "sha256": "I4iH4UdP/toyWaMjdRIwjhk6qDan3Uv3T9r7Skw7tIg=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Subversion"
+      ],
+      "file_name": "commit-ai-1.2.0.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 864374,
-      "1.0-SNAPSHOT": 864333
+      "1.0-SNAPSHOT": 864333,
+      "1.1.0": 865153,
+      "1.2.0": 865650
     }
   }
 }

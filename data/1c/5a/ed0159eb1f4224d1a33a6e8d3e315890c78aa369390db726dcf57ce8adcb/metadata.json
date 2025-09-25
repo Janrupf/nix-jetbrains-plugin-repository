@@ -1,6 +1,28 @@
 {
   "xml_id": "com.yinhai.TA3AiPlugin",
   "numeric_id": 28528,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "864775": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28528/864775/TA_3_New_Coder-1.0.28-beta.zip?updateId=864775&pluginId=28528&family=INTELLIJ",
+      "sha256": "SjysO0ilm7ls2wI5uVlQmKB0RFXWTbJ50+vSCgRVuqI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.java",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "TA_3_New_Coder-1.0.28-beta.zip",
+      "since": "223.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.28-beta": 864775
+    }
+  }
 }

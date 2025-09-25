@@ -33,12 +33,29 @@
       "since": "253.20558",
       "until": "253.20558.*",
       "compatibility_overrides": []
+    },
+    "865544": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28462/865544/turboComplete-253.22441.25.zip?updateId=865544&pluginId=28462&family=INTELLIJ",
+      "sha256": "nevITklDWkmUiCW3rMyc7xiB2NnBJiOe8U03Wx8zVRM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.completion.ml.ranking",
+        "intellij.platform.ml.impl"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "turboComplete-253.22441.25.zip",
+      "since": "253.22441",
+      "until": "253.22441.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "253.17525.83": 855267,
-      "253.20558.12": 858509
+      "253.20558.12": 858509,
+      "253.22441.25": 865544
     }
   }
 }
