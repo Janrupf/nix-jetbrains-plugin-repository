@@ -14625,6 +14625,89 @@
       "since": "253.20558",
       "until": "253.20558.*",
       "compatibility_overrides": []
+    },
+    "866191": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9568/866191/go-plugin-253.22441.33.zip?updateId=866191&pluginId=9568&family=INTELLIJ",
+      "sha256": "I4OSbzV+sZ8j6onq0HZqfO0tiw2tAtSUM9DxnBXj3Uw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.platform.vcs.impl",
+        "intellij.regexp",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.diagram",
+        "com.intellij.microservices.ui",
+        "com.intellij.plugins.watcher",
+        "intellij.clouds.docker",
+        "intellij.go.frontback",
+        "intellij.indexing.shared.generator",
+        "intellij.platform.compose",
+        "intellij.platform.coverage",
+        "intellij.platform.execution.dashboard.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.platform.langInjection",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.common",
+        "intellij.rml.dfa.impl",
+        "intellij.sh.core",
+        "org.jetbrains.plugins.go-template",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi",
+        "training"
+      ],
+      "file_name": "go-plugin-253.22441.33.zip",
+      "since": "253.22441",
+      "until": "253.22441.*",
+      "compatibility_overrides": []
+    },
+    "866545": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9568/866545/go-plugin-252.26830.24.zip?updateId=866545&pluginId=9568&family=INTELLIJ",
+      "sha256": "BPeySCf1FqUS7Na3+86LOdDOxhcOHKwOFdhnedrT+Mc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.diagram",
+        "com.intellij.plugins.watcher",
+        "com.jetbrains.sh",
+        "intellij.clouds.docker",
+        "intellij.indexing.shared.generator",
+        "intellij.microservices.ui",
+        "intellij.platform.coverage",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.common",
+        "intellij.rml.dfa.impl",
+        "org.intellij.intelliLang",
+        "org.jetbrains.plugins.go-template",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi",
+        "training"
+      ],
+      "file_name": "go-plugin-252.26830.24.zip",
+      "since": "252.26830",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -15310,8 +15393,10 @@
       "252.26199.169": 861058,
       "252.26199.7": 849101,
       "252.26199.74": 853917,
+      "252.26830.24": 866545,
       "253.17525.95": 857595,
-      "253.20558.43": 861449
+      "253.20558.43": 861449,
+      "253.22441.33": 866191
     }
   }
 }

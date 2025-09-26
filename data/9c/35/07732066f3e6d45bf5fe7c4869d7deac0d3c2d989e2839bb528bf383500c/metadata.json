@@ -802,6 +802,27 @@
       "since": "251.13774",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "865849": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18824/865849/CodeGlancePro-2.0.0-signed.zip?updateId=865849&pluginId=18824&family=INTELLIJ",
+      "sha256": "2HI6EkiBOGGzqIzdUrYx2p0bN+asPoeXc26AcgkADMM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "Dart",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.rider",
+        "com.intellij.modules.rider.cpp.core",
+        "org.intellij.scala",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "CodeGlancePro-2.0.0-signed.zip",
+      "since": "251.13774",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -861,7 +882,8 @@
       "1.9.6": 671527,
       "1.9.7": 694222,
       "1.9.8": 736403,
-      "1.9.9": 859305
+      "1.9.9": 859305,
+      "2.0.0": 865849
     }
   }
 }

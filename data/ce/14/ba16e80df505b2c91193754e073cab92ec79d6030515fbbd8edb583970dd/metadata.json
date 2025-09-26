@@ -88,11 +88,30 @@
       "since": "253.22441",
       "until": "253.22441.*",
       "compatibility_overrides": []
+    },
+    "866492": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28373/866492/python-frontend-plugin-252.26830.24.zip?updateId=866492&pluginId=28373&family=INTELLIJ",
+      "sha256": "LNlpQBRCZuXzvW6BKhO519CBfu/yqAmieVsNjTHI5bY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client"
+      ],
+      "optional_dependencies": [
+        "intellij.python.ast",
+        "intellij.python.parser",
+        "intellij.python.syntax",
+        "intellij.python.syntax.core"
+      ],
+      "file_name": "python-frontend-plugin-252.26830.24.zip",
+      "since": "252.26830",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "252.26199.7": 849063,
+      "252.26830.24": 866492,
       "253.17525.83": 855223,
       "253.20558.43": 861440,
       "253.22441.25": 865510

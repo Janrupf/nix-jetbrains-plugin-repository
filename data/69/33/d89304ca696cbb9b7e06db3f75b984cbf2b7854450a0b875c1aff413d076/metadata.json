@@ -242,12 +242,85 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "866761": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26844/866761/armada-theme-intellij-plugin-0.6.0-eap.1.zip?updateId=866761&pluginId=26844&family=INTELLIJ",
+      "sha256": "k9azbAH8ynV2C5u9ZPrDfKPaSnnWECq2gou48l/P5n8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "PythonCore",
+        "com.falsepattern.zigbrains",
+        "com.intellij.css",
+        "com.intellij.modules.kotlin.k2",
+        "com.intellij.properties",
+        "com.jetbrains.php",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "armada-theme-intellij-plugin-0.6.0-eap.1.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "866770": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26844/866770/armada-theme-intellij-plugin-0.6.0.zip?updateId=866770&pluginId=26844&family=INTELLIJ",
+      "sha256": "Ug0IiiZmHoviTOOHezjmqAga5Yd1/2wYddkkWiBG/gk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "PythonCore",
+        "com.falsepattern.zigbrains",
+        "com.intellij.css",
+        "com.intellij.modules.kotlin.k2",
+        "com.intellij.properties",
+        "com.jetbrains.php",
+        "com.jetbrains.rust",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "armada-theme-intellij-plugin-0.6.0.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "866771": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26844/866771/armada-theme-intellij-plugin-0.7.0-eap.zip?updateId=866771&pluginId=26844&family=INTELLIJ",
+      "sha256": "jOK1OpBPr0p5X3hIxGxMiG474K+PauCSel3GMsZlHCw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "PythonCore",
+        "com.falsepattern.zigbrains",
+        "com.intellij.css",
+        "com.intellij.modules.kotlin.k2",
+        "com.intellij.properties",
+        "com.jetbrains.php",
+        "com.jetbrains.rust",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "armada-theme-intellij-plugin-0.7.0-eap.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "0.5.3-eap": 860983,
-      "0.6.0-eap": 862512
+      "0.6.0-eap": 862512,
+      "0.6.0-eap.1": 866761,
+      "0.7.0-eap": 866771
     },
     "stable": {
       "0.0.2": 699480,
@@ -259,7 +332,8 @@
       "0.4.0": 740866,
       "0.5.0": 799498,
       "0.5.1": 829557,
-      "0.5.2": 860991
+      "0.5.2": 860991,
+      "0.6.0": 866770
     }
   }
 }
