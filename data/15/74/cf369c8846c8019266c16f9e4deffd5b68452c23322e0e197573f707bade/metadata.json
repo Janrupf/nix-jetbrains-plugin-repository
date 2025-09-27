@@ -22444,6 +22444,30 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "866806": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/866806/github-copilot-intellij-1.5.57.13163-241-nightly.zip?updateId=866806&pluginId=17718&family=INTELLIJ",
+      "sha256": "m7pKsmWcuOmeoIIARsidRFpZvIsItNIdnKJx7krjato=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "IdeaVIM",
+        "PythonCore",
+        "Pythonid",
+        "com.intellij.java",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "github-copilot-intellij-1.5.57.13163-241-nightly.zip",
+      "since": "241.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -23374,6 +23398,7 @@
       "1.5.57.13056-243-nightly": 863990,
       "1.5.57.13090-241-nightly": 864770,
       "1.5.57.13090-243-nightly": 866466,
+      "1.5.57.13163-241-nightly": 866806,
       "1.5.6.5699-nightly": 551445,
       "1.5.6.5718-nightly": 552386,
       "1.5.6.5722-nightly": 553360,

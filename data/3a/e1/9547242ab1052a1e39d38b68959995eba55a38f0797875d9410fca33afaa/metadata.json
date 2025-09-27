@@ -3107,6 +3107,62 @@
       "since": "253.22441",
       "until": "253.22441.*",
       "compatibility_overrides": []
+    },
+    "866808": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19237/866808/graalvm-252.26885.0.zip?updateId=866808&pluginId=19237&family=INTELLIJ",
+      "sha256": "5Bmrat1oIEkiNjdUyaG26FjBNlrrhtFv/oMSLofxRdk=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.modules.ultimate",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.runner",
+        "intellij.cidr.util.execution",
+        "intellij.clouds.docker.remoteRun",
+        "intellij.json.backend",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.microservices.debugger",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "graalvm-252.26885.0.zip",
+      "since": "252.26199.169",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "866963": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19237/866963/graalvm-252.26885.0.zip?updateId=866963&pluginId=19237&family=INTELLIJ",
+      "sha256": "/oszdsrb7vG/XRQbgln7dvCjR2KN0ECYFjzlUIg6N34=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.modules.ultimate",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.runner",
+        "intellij.cidr.util.execution",
+        "intellij.clouds.docker.remoteRun",
+        "intellij.json.backend",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.microservices.debugger",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "graalvm-252.26885.0.zip",
+      "since": "252.26199.169",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3121,7 +3177,8 @@
       "243.23741": 654888,
       "243.24126": 661537,
       "243.24658": 670697,
-      "251.17866": 670810
+      "251.17866": 670810,
+      "252.26885.0": 866808
     },
     "stable": {
       "222.2680.4": 177805,
@@ -3247,6 +3304,7 @@
       "252.23591.19": 781624,
       "252.23892.248": 797992,
       "252.23892.360": 809004,
+      "252.26885.0": 866963,
       "253.17525.95": 857568,
       "253.20558.43": 861530,
       "253.22441.33": 866059

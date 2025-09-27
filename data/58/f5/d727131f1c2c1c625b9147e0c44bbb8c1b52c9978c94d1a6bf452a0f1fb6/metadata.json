@@ -240,9 +240,9 @@
       "until": "251.*",
       "compatibility_overrides": []
     },
-    "825976": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/22884/825976/drypush.zip?updateId=825976&pluginId=22884&family=INTELLIJ",
-      "sha256": "/rcDJ8aHLObwuFTdvQlbn4KkclYMKgjdA0IhKwiB4eQ=",
+    "867423": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22884/867423/drypush-2025.09.27.zip?updateId=867423&pluginId=22884&family=INTELLIJ",
+      "sha256": "WNoATFVUkxOSvkvzYKHxB3bKPPoGXRR3u9xgFH55zhs=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
@@ -252,9 +252,26 @@
         "org.jetbrains.idea.maven",
         "org.jetbrains.plugins.gradle"
       ],
-      "file_name": "drypush.zip",
+      "file_name": "drypush-2025.09.27.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "867424": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22884/867424/drypush-2025.09.27-v23.zip?updateId=867424&pluginId=22884&family=INTELLIJ",
+      "sha256": "Q4LRP0R5PyhJ4fQKQwnnGZB85+sh5rI58LLAmsQDhXo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "drypush-2025.09.27-v23.zip",
       "since": "222.0",
-      "until": "232.*",
+      "until": "242.*",
       "compatibility_overrides": []
     }
   },
@@ -277,7 +294,8 @@
       "2025.02.14": 681416,
       "2025.03.14": 699484,
       "2025.05.27": 757300,
-      "2025.08.11": 825976
+      "2025.09.27": 867423,
+      "2025.09.27-v23": 867424
     }
   }
 }
