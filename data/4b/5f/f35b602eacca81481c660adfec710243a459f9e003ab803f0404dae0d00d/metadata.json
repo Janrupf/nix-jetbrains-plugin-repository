@@ -1,6 +1,28 @@
 {
   "xml_id": "com.lwk.quickview",
   "numeric_id": 28567,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "867230": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28567/867230/quickview-1.0.0.jar?updateId=867230&pluginId=28567&family=INTELLIJ",
+      "sha256": "+WRE8SthDSSXGE1VoVeJHVW/MMcdfC+3taTFteIxSLM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Dart"
+      ],
+      "file_name": "quickview-1.0.0.jar",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 867230
+    }
+  }
 }

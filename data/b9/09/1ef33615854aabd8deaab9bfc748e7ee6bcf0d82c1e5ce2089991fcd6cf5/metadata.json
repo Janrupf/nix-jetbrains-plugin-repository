@@ -20,11 +20,31 @@
       "since": "232.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "867711": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26735/867711/devkit-utgen-intellij-25.1.0.zip?updateId=867711&pluginId=26735&family=INTELLIJ",
+      "sha256": "8fepLr4AUq3i3fThKJJloNSYjzkpWWb87omnbIj3Y00=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.android",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "devkit-utgen-intellij-25.1.0.zip",
+      "since": "223.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "25.0.0.20": 705095
+      "25.0.0.20": 705095,
+      "25.1.0": 867711
     }
   }
 }
