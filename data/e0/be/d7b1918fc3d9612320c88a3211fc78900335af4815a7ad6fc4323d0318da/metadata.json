@@ -186,19 +186,6 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "839977": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27809/839977/DeepSeek-FindBug-3.0.14.zip?updateId=839977&pluginId=27809&family=INTELLIJ",
-      "sha256": "XRfAtMckQrQpbdQh+UU3MAkUtfMllS8kYAZ5Ktb4zjE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "DeepSeek-FindBug-3.0.14.zip",
-      "since": null,
-      "until": null,
-      "compatibility_overrides": []
-    },
     "840203": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27809/840203/DeepSeek-FindBug-3.0.15.zip?updateId=840203&pluginId=27809&family=INTELLIJ",
       "sha256": "eueNuj6GSm3iqrkJro/aE/tIcOZlA8anAJE3QABjT4U=",
@@ -298,6 +285,22 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "868351": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27809/868351/DeepSeek-FindBugs-3.1.4.zip?updateId=868351&pluginId=27809&family=INTELLIJ",
+      "sha256": "9/qLFXGPb6GBpptXcH6hONlEHaRC2/gXRLCt8dgV5bM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-FindBugs-3.1.4.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -308,7 +311,6 @@
       "3.0.11": 821082,
       "3.0.12": 826364,
       "3.0.13": 831061,
-      "3.0.14": 839977,
       "3.0.15": 840203,
       "3.0.16": 846913,
       "3.0.17": 846914,
@@ -323,7 +325,8 @@
       "3.0.9": 813593,
       "3.1.0": 857890,
       "3.1.1": 861974,
-      "3.1.2": 864752
+      "3.1.2": 864752,
+      "3.1.4": 868351
     }
   }
 }

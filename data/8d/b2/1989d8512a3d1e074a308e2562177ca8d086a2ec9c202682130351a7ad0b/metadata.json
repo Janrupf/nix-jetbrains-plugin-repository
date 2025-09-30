@@ -15,11 +15,26 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "868736": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28543/868736/bjoern-intellij-plugin-1.0.1.zip?updateId=868736&pluginId=28543&family=INTELLIJ",
+      "sha256": "SfbMwvdQHarUSwFqAzKAcXr8cXI4MGIP9S0Wg1fH5jU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "bjoern-intellij-plugin-1.0.1.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 863042
+      "1.0.0": 863042,
+      "1.0.1": 868736
     }
   }
 }

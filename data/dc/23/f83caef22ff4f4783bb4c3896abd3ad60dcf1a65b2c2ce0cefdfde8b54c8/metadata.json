@@ -6095,6 +6095,28 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "868394": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/868394/clion-2025.3.zip?updateId=868394&pluginId=9554&family=INTELLIJ",
+      "sha256": "Ujv+JKe+xK/ACqSmjC2Z7OjXhhGQKRqI50meAOf6Fhg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.nativeDebug",
+        "intellij.platform.lvcs.impl",
+        "org.jetbrains.plugins.clion.test.google"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "clion-2025.3.zip",
+      "since": "253.22441",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6401,7 +6423,8 @@
       "2025.08.04-api-version-251": 817246,
       "2025.08.04-api-version-252": 817245,
       "2025.09.19-api-version-251": 859877,
-      "2025.09.19-api-version-252": 859892
+      "2025.09.19-api-version-252": 859892,
+      "2025.09.29-api-version-253": 868394
     }
   }
 }

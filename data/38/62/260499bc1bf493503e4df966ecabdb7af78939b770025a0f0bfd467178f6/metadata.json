@@ -27,11 +27,27 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "868393": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28408/868393/IntelliJ_Platform_Plugin_Template-0.2.1.zip?updateId=868393&pluginId=28408&family=INTELLIJ",
+      "sha256": "63EZEcsNZvfhfIvXpJSI4ShxDnv7Rohht0+3A5jZ5Ks=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ_Platform_Plugin_Template-0.2.1.zip",
+      "since": "241.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.5": 859483,
+      "0.2.1": 868393,
       "1.0.0": 851923
     }
   }
