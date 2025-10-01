@@ -14,10 +14,24 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "868942": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28540/868942/devkit-0.1.0.zip?updateId=868942&pluginId=28540&family=INTELLIJ",
+      "sha256": "ryidYUJqzbsgcJUybErLp0oFB1yO69Kl27SeKlPcsz4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "devkit-0.1.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.1.0": 868942,
       "1.0-SNAPSHOT": 862824
     }
   }

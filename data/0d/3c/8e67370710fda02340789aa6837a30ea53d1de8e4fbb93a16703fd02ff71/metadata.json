@@ -15,11 +15,26 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "869625": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28598/869625/autoprefix-commit-1.1.jar?updateId=869625&pluginId=28598&family=INTELLIJ",
+      "sha256": "KiKMzWT7y4UXcH2fO3lge0kPJvN5ZpT7zLYahcvWkew=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "autoprefix-commit-1.1.jar",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0": 868692
+      "1.0": 868692,
+      "1.1": 869625
     }
   }
 }
