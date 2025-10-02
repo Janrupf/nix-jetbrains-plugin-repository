@@ -29,12 +29,27 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "869978": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28522/869978/llm-brains-0.4.0.zip?updateId=869978&pluginId=28522&family=INTELLIJ",
+      "sha256": "6ODJ5dQ54ATeqldY65739LvDD6c+NPfZ4gzyR4rnvgQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "llm-brains-0.4.0.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.0": 861005,
-      "0.2.2": 861011
+      "0.2.2": 861011,
+      "0.4.0": 869978
     }
   }
 }
