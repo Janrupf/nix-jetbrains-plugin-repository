@@ -2,6 +2,21 @@
   "xml_id": "com.vStellar.plugin",
   "numeric_id": 28609,
   "updates": {
+    "870168": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28609/870168/Stellar_Vision-0.0.1.zip?updateId=870168&pluginId=28609&family=INTELLIJ",
+      "sha256": "AkOhXbFjuIOwCa3zqot7R8SC0PNdo/YF4h/PUvqhu/Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Stellar_Vision-0.0.1.zip",
+      "since": "191.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
     "870180": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28609/870180/Stellar_Vision-1.1.2.zip?updateId=870180&pluginId=28609&family=INTELLIJ",
       "sha256": "kfzGaEkf6mqrTK0hE5mAuheFdPiYgK/9RRzCg9HcxrU=",
@@ -20,6 +35,7 @@
   },
   "channels": {
     "stable": {
+      "0.0.1": 870168,
       "1.1.2": 870180
     }
   }

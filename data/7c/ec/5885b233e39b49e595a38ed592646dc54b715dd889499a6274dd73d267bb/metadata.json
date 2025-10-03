@@ -33,12 +33,29 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "870978": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28576/870978/QiqLanguagePlugin.zip?updateId=870978&pluginId=28576&family=INTELLIJ",
+      "sha256": "hNF8BoeU3EkMmIwtXh7IM+vz73JkSnOmVAHtq3EgZQY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "QiqLanguagePlugin.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 866438,
-      "0.2.0": 869286
+      "0.2.0": 869286,
+      "0.3.0": 870978
     }
   }
 }

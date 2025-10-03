@@ -5626,6 +5626,80 @@
       "since": "252.26830",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "870849": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17562/870849/javascript-debugger-253.24325.21.zip?updateId=870849&pluginId=17562&family=INTELLIJ",
+      "sha256": "2IFCXD9dOW2igpnihmVpGP6MYsF+iYNBCVufDpk2YEM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ktor.client.cio"
+      ],
+      "optional_dependencies": [
+        "com.intellij.jsp",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.javascript",
+        "com.intellij.modules.webstorm",
+        "com.intellij.modules.xml",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.css",
+        "intellij.css.common",
+        "intellij.css.common.psi",
+        "intellij.css.psi",
+        "intellij.javaee.platform",
+        "intellij.javaee.platform.impl",
+        "intellij.javascript.common",
+        "intellij.javascript.debugger.backend",
+        "intellij.javascript.debugger.backend.rpc",
+        "intellij.javascript.debugger.common",
+        "intellij.javascript.debugger.javaee",
+        "intellij.javascript.debugger.ui",
+        "intellij.javascript.debugger.ui.shared",
+        "intellij.javascript.wip.backend",
+        "intellij.javascript.wip.protocol",
+        "intellij.json",
+        "intellij.json.backend",
+        "intellij.platform.dap",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.platform.debugger.impl.shared",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.scriptDebugger.backend",
+        "intellij.platform.scriptDebugger.protocolReaderRuntime",
+        "intellij.platform.scriptDebugger.ui"
+      ],
+      "file_name": "javascript-debugger-253.24325.21.zip",
+      "since": "253.24325",
+      "until": "253.24325.*",
+      "compatibility_overrides": []
+    },
+    "870908": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17562/870908/javascript-debugger-252.26830.84.zip?updateId=870908&pluginId=17562&family=INTELLIJ",
+      "sha256": "camA1B4/TE1DoVLoB7qyp5WPN6bP098OK8WI+fTga6s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.javascript",
+        "com.intellij.modules.xml",
+        "intellij.javascript.debugger.ui.shared",
+        "intellij.javascript.wip.protocol",
+        "intellij.json.backend"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee",
+        "com.intellij.jsp",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.webstorm",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.javascript.debugger.shared",
+        "intellij.platform.dap",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.platform.debugger.impl.shared",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "javascript-debugger-252.26830.84.zip",
+      "since": "252.26830",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5856,12 +5930,14 @@
       "252.26199.97": 856959,
       "252.26830.27": 867177,
       "252.26830.46": 870159,
+      "252.26830.84": 870908,
       "253.17525.95": 857477,
       "253.17525.96": 858684,
       "253.20558.12": 858507,
       "253.20558.43": 861453,
       "253.20558.58": 864350,
-      "253.22441.33": 866164
+      "253.22441.33": 866164,
+      "253.24325.21": 870849
     }
   }
 }
