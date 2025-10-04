@@ -14708,6 +14708,51 @@
       "since": "252.26830",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "871707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9568/871707/go-plugin-253.24325.38.zip?updateId=871707&pluginId=9568&family=INTELLIJ",
+      "sha256": "G0BID1EBQV0dAvseRG+lA2ZH9dm9s55hj8l0Zjy1Bss=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.platform.vcs.impl",
+        "intellij.regexp",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.diagram",
+        "com.intellij.microservices.ui",
+        "com.intellij.plugins.watcher",
+        "intellij.clouds.docker",
+        "intellij.go.frontback",
+        "intellij.indexing.shared.generator",
+        "intellij.platform.compose",
+        "intellij.platform.coverage",
+        "intellij.platform.execution.dashboard.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.platform.langInjection",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.common",
+        "intellij.rml.dfa.impl",
+        "intellij.sh.core",
+        "org.jetbrains.plugins.go-template",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi",
+        "training"
+      ],
+      "file_name": "go-plugin-253.24325.38.zip",
+      "since": "253.24325",
+      "until": "253.24325.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -15396,7 +15441,8 @@
       "252.26830.24": 866545,
       "253.17525.95": 857595,
       "253.20558.43": 861449,
-      "253.22441.33": 866191
+      "253.22441.33": 866191,
+      "253.24325.38": 871707
     }
   }
 }

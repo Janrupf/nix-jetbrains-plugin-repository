@@ -44,13 +44,29 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "870561": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26783/870561/json2array-1.0.4.zip?updateId=870561&pluginId=26783&family=INTELLIJ",
+      "sha256": "rKZAq+avjNTulM9kxGLdINYyFW6zyytyJyUUEYyq5kU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "json2array-1.0.4.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 695571,
       "1.0.2": 697691,
-      "1.0.3": 788787
+      "1.0.3": 788787,
+      "1.0.4": 870561
     }
   }
 }
