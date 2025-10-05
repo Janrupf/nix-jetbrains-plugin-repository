@@ -1701,19 +1701,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "648205": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/648205/codeium-1.31.2.zip?updateId=648205&pluginId=20540&family=INTELLIJ",
-      "sha256": "8Jw1GucT9XzUUlH0eqHmqAb/WFuluUZ22Ihqv9hmXqc=",
-      "channel": "pre-release",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "codeium-1.31.2.zip",
-      "since": null,
-      "until": null,
-      "compatibility_overrides": []
-    },
     "650333": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/650333/codeium-1.30.6.zip?updateId=650333&pluginId=20540&family=INTELLIJ",
       "sha256": "vkBKwdjjzAJ7Tpz/im6DC0uHCwv+fsU23DeBywm+u3Q=",
@@ -3170,6 +3157,20 @@
       "until": null,
       "compatibility_overrides": []
     },
+    "870714": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/870714/codeium-2.8.0.zip?updateId=870714&pluginId=20540&family=INTELLIJ",
+      "sha256": "gAVcvyBfe/yJiPv6qw5HPgA64cv9Y+4g/xYNJ1QETT0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeium-2.8.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
     "871167": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20540/871167/codeium-2.8.1.zip?updateId=871167&pluginId=20540&family=INTELLIJ",
       "sha256": "cIg7x6HptIshNt7I0xIRx2eCeP12rRC7OPliBM4OG5s=",
@@ -3263,7 +3264,6 @@
       "2.8.3": 872176
     },
     "pre-release": {
-      "1.31.2": 648205,
       "1.33.1": 662401,
       "1.35.2": 671055,
       "1.37.0": 672798,
@@ -3464,6 +3464,7 @@
       "2.6.5": 849126,
       "2.6.7": 854114,
       "2.6.8": 859471,
+      "2.8.0": 870714,
       "2.8.1": 871168,
       "2.8.3": 872174
     }
