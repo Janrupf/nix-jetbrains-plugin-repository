@@ -3068,7 +3068,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.1.30.zip",
       "since": "251.23774.444",
-      "until": null,
+      "until": "251.*",
       "compatibility_overrides": []
     },
     "773794": {
@@ -3085,7 +3085,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.1.30.zip",
       "since": "251.23774.444",
-      "until": null,
+      "until": "251.*",
       "compatibility_overrides": []
     },
     "774258": {
@@ -4284,7 +4284,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.44.zip",
       "since": "252.0",
-      "until": "252.26199.74",
+      "until": null,
       "compatibility_overrides": []
     },
     "851511": {
@@ -4301,7 +4301,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.44.zip",
       "since": "252.0",
-      "until": "252.26199.74",
+      "until": null,
       "compatibility_overrides": []
     },
     "866468": {
@@ -4524,6 +4524,74 @@
       "since": "252.0",
       "until": "252.2.*",
       "compatibility_overrides": []
+    },
+    "872730": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/872730/azuredevops-2025.2.50.zip?updateId=872730&pluginId=22319&family=INTELLIJ",
+      "sha256": "tLNT2+h/mN9n10gOHrxkUISls8wklrdGojN5m9l/vKM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.2.50.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "872731": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/872731/azuredevops-2025.2.50.zip?updateId=872731&pluginId=22319&family=INTELLIJ",
+      "sha256": "eBPgtMQYSTxchT2kdXWx2OP4ExSPyg0lQfreHdlq86o=",
+      "channel": "eap",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.2.50.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "872745": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/872745/azuredevops-2025.3.5.zip?updateId=872745&pluginId=22319&family=INTELLIJ",
+      "sha256": "XuwSrAHQZpO+VqO8B14ylhYSwZNPqWgSFeR7aXpMlys=",
+      "channel": "eap",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.3.5.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "872746": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/872746/azuredevops-2025.3.5.zip?updateId=872746&pluginId=22319&family=INTELLIJ",
+      "sha256": "XuwSrAHQZpO+VqO8B14ylhYSwZNPqWgSFeR7aXpMlys=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.3.5.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4658,11 +4726,13 @@
       "2025.2.47": 867450,
       "2025.2.49": 871551,
       "2025.2.5": 757082,
+      "2025.2.50": 872731,
       "2025.2.8": 758676,
       "2025.2.9": 763532,
       "2025.3.1": 866486,
       "2025.3.3": 866505,
-      "2025.3.4": 867588
+      "2025.3.4": 867588,
+      "2025.3.5": 872745
     },
     "stable": {
       "2023.09.37": 408452,
@@ -4798,11 +4868,13 @@
       "2025.2.47": 867228,
       "2025.2.49": 871550,
       "2025.2.5": 756908,
+      "2025.2.50": 872730,
       "2025.2.8": 758181,
       "2025.2.9": 763531,
       "2025.3.1": 866483,
       "2025.3.3": 866499,
-      "2025.3.4": 867587
+      "2025.3.4": 867587,
+      "2025.3.5": 872746
     }
   }
 }
