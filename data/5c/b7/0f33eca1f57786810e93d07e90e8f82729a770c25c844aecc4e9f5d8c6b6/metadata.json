@@ -3219,8 +3219,8 @@
         "com.intellij.modules.java"
       ],
       "file_name": "flutter-intellij.zip",
-      "since": "193.5233",
-      "until": "193.*",
+      "since": "202.6397.94",
+      "until": "202.8194.7",
       "compatibility_overrides": []
     },
     "77099": {
@@ -6511,8 +6511,8 @@
         "com.intellij.modules.java"
       ],
       "file_name": "flutter-intellij.zip",
-      "since": "193.5233",
-      "until": "193.*",
+      "since": "202.6397.94",
+      "until": "202.8194.7",
       "compatibility_overrides": []
     },
     "104593": {
@@ -27526,6 +27526,54 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "872982": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9212/872982/flutter-intellij.zip?updateId=872982&pluginId=9212&family=INTELLIJ",
+      "sha256": "NtC1hc0hp6V30HySpmkYdNZ4rdl2kwkeSiyiKnC6LIY=",
+      "channel": "stable",
+      "dependencies": [
+        "Dart",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.google.tools.ij.aiplugin",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.java",
+        "org.jetbrains.android"
+      ],
+      "file_name": "flutter-intellij.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "873181": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9212/873181/flutter-intellij-kokoro.zip?updateId=873181&pluginId=9212&family=INTELLIJ",
+      "sha256": "EdINFh9Y+fYK4d73DbmMnDYLRXWUd0Ke6Z9eUmTXoJc=",
+      "channel": "dev",
+      "dependencies": [
+        "Dart",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.google.tools.ij.aiplugin",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.java",
+        "org.jetbrains.android"
+      ],
+      "file_name": "flutter-intellij-kokoro.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -28354,6 +28402,7 @@
       "89.0.0-dev.20251003-04f9253": 871622,
       "89.0.0-dev.20251004-04f9253": 872364,
       "89.0.0-dev.20251005-04f9253": 872761,
+      "89.0.0-dev.20251006-04f9253": 873181,
       "DEV": 97400,
       "DEV.1": 98650,
       "DEV.2": 98651,
@@ -28905,6 +28954,7 @@
       "86.0.2": 774394,
       "87.0": 818757,
       "87.1": 826015,
+      "88.0.0": 872982,
       "SNAPSHOT": 103934
     }
   }
