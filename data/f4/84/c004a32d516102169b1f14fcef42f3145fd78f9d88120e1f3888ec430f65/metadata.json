@@ -24,11 +24,35 @@
       "since": "253.24325",
       "until": "253.24325.*",
       "compatibility_overrides": []
+    },
+    "874291": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28631/874291/searchEverywhereMl-253.25908.13.zip?updateId=874291&pluginId=28631&family=INTELLIJ",
+      "sha256": "fxlqMObDbe0rU+215d1I73QyBA04ykyfdJ7EtDNpo5I=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json.backend"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.vcs",
+        "intellij.libraries.ai.grazie.spell.gec.engine.local",
+        "intellij.platform.backend",
+        "intellij.platform.ml.impl",
+        "intellij.searchEverywhereMl.ranking.core",
+        "intellij.searchEverywhereMl.ranking.ext",
+        "intellij.yaml.backend",
+        "tanvd.grazi"
+      ],
+      "file_name": "searchEverywhereMl-253.25908.13.zip",
+      "since": "253.25908",
+      "until": "253.25908.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "253.24325.38": 871680
+      "253.24325.38": 871680,
+      "253.25908.13": 874291
     }
   }
 }
