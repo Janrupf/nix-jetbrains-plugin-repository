@@ -49,13 +49,31 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "875036": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26093/875036/smart-i18n-1.4.0.zip?updateId=875036&pluginId=26093&family=INTELLIJ",
+      "sha256": "xsOSQZZQ065tDDkqKfDUJOVot0wWj4nuJCnM6sZo1ck=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "smart-i18n-1.4.0.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.4": 649216,
       "1.0.5": 649507,
-      "1.1.2": 652348
+      "1.1.2": 652348,
+      "1.4.0": 875036
     }
   }
 }

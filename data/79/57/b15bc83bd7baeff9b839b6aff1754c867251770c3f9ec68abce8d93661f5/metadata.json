@@ -19,6 +19,23 @@
       "until": "252.*",
       "compatibility_overrides": []
     },
+    "874023": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28653/874023/app-mod-intellij-extension-1.0.1.zip?updateId=874023&pluginId=28653&family=INTELLIJ",
+      "sha256": "pUOKhapM7TQhyBU26faoEk1pVCqQIvo65NwI5+cynhc=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images",
+        "com.redhat.devtools.lsp4ij",
+        "open-liberty.intellij",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "app-mod-intellij-extension-1.0.1.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
     "874709": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28653/874709/app-mod-intellij-extension-1.0.2-u.zip?updateId=874709&pluginId=28653&family=INTELLIJ",
       "sha256": "e1RKiJd1Foq4hp6XodGN/bXa6qVgW3x2JbBEYBEFgOs=",
@@ -35,12 +52,31 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "875441": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28653/875441/app-mod-intellij-extension-1.0.3-s-signed.zip?updateId=875441&pluginId=28653&family=INTELLIJ",
+      "sha256": "WjsBLtqMZJAQ6Qp2qIPa6p273M0Tnc6B63H7qFBmBuQ=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images",
+        "com.redhat.devtools.lsp4ij",
+        "open-liberty.intellij",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "app-mod-intellij-extension-1.0.3-s-signed.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "preview": {
       "1.0.0": 873972,
-      "1.0.2-u": 874709
+      "1.0.1": 874023,
+      "1.0.2-u": 874709,
+      "1.0.3-s": 875441
     }
   }
 }

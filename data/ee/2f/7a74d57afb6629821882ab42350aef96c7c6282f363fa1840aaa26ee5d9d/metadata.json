@@ -479,6 +479,26 @@
       "since": "223.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "874995": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23322/874995/DevPilot-3.2.0.zip?updateId=874995&pluginId=23322&family=INTELLIJ",
+      "sha256": "POz25zF+Aurku4vefT3HAPvpHh4DXUCJqGmDqaCn2ww=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.go-capable",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "DevPilot-3.2.0.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -502,7 +522,8 @@
       "3.0.0": 770170,
       "3.0.1": 770339,
       "3.0.2": 780881,
-      "3.1.0": 809296
+      "3.1.0": 809296,
+      "3.2.0": 874995
     },
     "test": {
       "2.10.0": 711205,
