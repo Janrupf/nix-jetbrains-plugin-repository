@@ -50,13 +50,28 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "875503": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28643/875503/jetbrain-psi-plugin-1.0.3.zip?updateId=875503&pluginId=28643&family=INTELLIJ",
+      "sha256": "l9yCbi0zPAWirsbcbr0oDUSHwacqM5H5iTeIgkeB3b0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jetbrain-psi-plugin-1.0.3.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 872959,
       "1.0.1": 873652,
-      "1.0.2": 875265
+      "1.0.2": 875265,
+      "1.0.3": 875503
     }
   }
 }
