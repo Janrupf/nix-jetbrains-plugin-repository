@@ -33,11 +33,28 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "876160": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26197/876160/intellij-gitcode-1.2.0.zip?updateId=876160&pluginId=26197&family=INTELLIJ",
+      "sha256": "CMno2jBCqJXqmGFf9iD+b5PglEezUx1079MMsOWEhMo=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitcode-1.2.0.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.0": 665232,
+      "1.2.0": 876160,
       "2024.1.0": 657728
     }
   }

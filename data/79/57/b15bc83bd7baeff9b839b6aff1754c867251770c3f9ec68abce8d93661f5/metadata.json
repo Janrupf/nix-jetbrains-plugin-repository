@@ -1,6 +1,28 @@
 {
   "xml_id": "com.ibm.ama.dt",
   "numeric_id": 28653,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "875920": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28653/875920/app-mod-intellij-extension-1.0.0-20251010-0700_signed.zip?updateId=875920&pluginId=28653&family=INTELLIJ",
+      "sha256": "1mVKl59s2dBP7VwYs/wg/ETVK9FvQaqa8Z8z0itTvSk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images",
+        "com.redhat.devtools.lsp4ij",
+        "open-liberty.intellij",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "app-mod-intellij-extension-1.0.0-20251010-0700_signed.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 875920
+    }
+  }
 }
