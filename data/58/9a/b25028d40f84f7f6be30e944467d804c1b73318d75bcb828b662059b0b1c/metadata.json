@@ -14,11 +14,25 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "876538": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25867/876538/MarseilleProgressBar.jar?updateId=876538&pluginId=25867&family=INTELLIJ",
+      "sha256": "SegM/cl+ohpxkmEkX4U3fbwfLu8L7WOUVPMKHO8Uftk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MarseilleProgressBar.jar",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.15": 635344
+      "1.15": 635344,
+      "1.16": 876538
     }
   }
 }
