@@ -49,13 +49,64 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "877403": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28198/877403/Kotlin_NullSafe_Lint-9.8.jar?updateId=877403&pluginId=28198&family=INTELLIJ",
+      "sha256": "cQqiYKsS31jKLEl5CCWpvBFmKWUOgISwAv/ug24aChQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Kotlin_NullSafe_Lint-9.8.jar",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "877409": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28198/877409/Kotlin_NullSafe_Lint-9.9.jar?updateId=877409&pluginId=28198&family=INTELLIJ",
+      "sha256": "UUyyNXagPOCqWcixiaKs3VCa1u1WKULzSBVZabyT1qw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Kotlin_NullSafe_Lint-9.9.jar",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "877565": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28198/877565/Kotlin_NullSafe_Lint-1.0.5.jar?updateId=877565&pluginId=28198&family=INTELLIJ",
+      "sha256": "GmDPQApa1/MQlyVcsM18ZZ1bmX4U355tOryayPsk/eU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Kotlin_NullSafe_Lint-1.0.5.jar",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.5": 877565,
       "9.1": 852819,
       "9.5": 876804,
-      "9.6": 877154
+      "9.6": 877154,
+      "9.8": 877403,
+      "9.9": 877409
     }
   }
 }
