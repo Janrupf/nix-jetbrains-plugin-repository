@@ -4760,9 +4760,30 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "877629": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/877629/TranslationPlugin-3.8.0-PREVIEW.zip?updateId=877629&pluginId=8579&family=INTELLIJ",
+      "sha256": "8ZFgll1M9Q3n3Gti3OPNBA/tIceW4X7QY6K+fPty8wo=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.lang",
+        "com.jetbrains.php",
+        "intellij.jupyter"
+      ],
+      "file_name": "TranslationPlugin-3.8.0-PREVIEW.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "preview": {
+      "3.8.0-PREVIEW": 877629
+    },
     "stable": {
       "1.2": 27941,
       "1.2.1": 28017,

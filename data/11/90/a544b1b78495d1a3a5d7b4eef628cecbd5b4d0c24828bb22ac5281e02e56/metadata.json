@@ -16,11 +16,27 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "878030": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28189/878030/GitStat-2.0.0.jar?updateId=878030&pluginId=28189&family=INTELLIJ",
+      "sha256": "FeRtRiptTszsxspCQXp/evmuxSuAwXz/UbGmvJbBhUA=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GitStat-2.0.0.jar",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.1.0": 827518
+      "1.1.0": 827518,
+      "2.0.0": 878030
     }
   }
 }
