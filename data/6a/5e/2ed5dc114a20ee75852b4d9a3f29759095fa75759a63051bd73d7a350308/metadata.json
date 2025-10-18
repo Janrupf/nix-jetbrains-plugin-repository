@@ -35256,6 +35256,56 @@
       "since": "252.26830",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "879576": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/879576/intellij-rust-253.27642.33.zip?updateId=879576&pluginId=22407&family=INTELLIJ",
+      "sha256": "CEUiTcfuqkLREDIisv+fwrcNbOAseHAwBNI88IHK2uM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.regexp",
+        "com.intellij.modules.rust-capable",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.toml.json",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.clion",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.modules.duplicatesDetector",
+        "com.intellij.modules.rustrover",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.execution",
+        "intellij.cidr.profiling",
+        "intellij.cidr.runner",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.execution",
+        "intellij.clion.projectStatus",
+        "intellij.clion.toolchains",
+        "intellij.database.dialects.maria",
+        "intellij.database.dialects.sqlite",
+        "intellij.platform.coverage",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.clion",
+        "intellij.profiler.common",
+        "intellij.rustrover.debugger",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi"
+      ],
+      "file_name": "intellij-rust-253.27642.33.zip",
+      "since": "253.27642",
+      "until": "253.27642.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -36171,7 +36221,8 @@
       "253.20558.40": 861693,
       "253.22441.30": 866245,
       "253.24325.42": 871895,
-      "253.25908.32": 875241
+      "253.25908.32": 875241,
+      "253.27642.33": 879576
     },
     "super-early-bird": {
       "0.4.201.5469-232-super-early-bird": 385597,

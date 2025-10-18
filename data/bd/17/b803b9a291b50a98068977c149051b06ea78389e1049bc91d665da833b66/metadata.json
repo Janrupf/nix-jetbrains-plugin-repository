@@ -91,6 +91,25 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "879137": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28187/879137/codeium-1.2.0.zip?updateId=879137&pluginId=28187&family=INTELLIJ",
+      "sha256": "xWUXNzSQtvI/aq1N2fHos3Y7byPR/C8ZyTP4VXwlJEQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "codeium.shared.main",
+        "com.intellij.platform.experimental.frontend",
+        "com.jetbrains.codeWithMe",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "codeium-1.2.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -100,7 +119,8 @@
     },
     "stable": {
       "1.0.1": 835990,
-      "1.0.2": 851927
+      "1.0.2": 851927,
+      "1.2.0": 879137
     }
   }
 }
