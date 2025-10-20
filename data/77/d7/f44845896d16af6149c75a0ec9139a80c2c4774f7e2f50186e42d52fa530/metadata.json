@@ -4778,6 +4778,66 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "880153": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/880153/TranslationPlugin-3.8.0_231.zip?updateId=880153&pluginId=8579&family=INTELLIJ",
+      "sha256": "ffUiD7fdfg1p5ZNnUi3t8ZGY8zI3kieZb+jJXfjWgo4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Dart",
+        "JavaScript",
+        "XPathView",
+        "com.intellij.css",
+        "com.intellij.jsp",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.python",
+        "com.intellij.modules.rider",
+        "com.intellij.modules.ruby",
+        "com.intellij.modules.sql",
+        "com.intellij.modules.swift.lang",
+        "com.intellij.modules.xml",
+        "com.intellij.properties",
+        "com.jetbrains.php",
+        "com.jetbrains.restClient",
+        "com.jetbrains.rust",
+        "com.jetbrains.sh",
+        "intellij.jupyter",
+        "org.intellij.groovy",
+        "org.intellij.scala",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.vue",
+        "org.jetbrains.plugins.yaml",
+        "org.rust.lang"
+      ],
+      "file_name": "TranslationPlugin-3.8.0_231.zip",
+      "since": "231.8770.65",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "880156": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/880156/TranslationPlugin-3.8.0.zip?updateId=880156&pluginId=8579&family=INTELLIJ",
+      "sha256": "Czh2KQiR5qx3UHteQM7VUGRXgCu6dPFKl1TxyLD4Aqs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.lang",
+        "com.jetbrains.php",
+        "intellij.jupyter"
+      ],
+      "file_name": "TranslationPlugin-3.8.0.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4921,6 +4981,8 @@
       "3.7.1": 698691,
       "3.7.2": 742801,
       "3.7.3": 753628,
+      "3.8.0": 880156,
+      "3.8.0+231": 880153,
       "v3.2.1": 150853,
       "v3.2.1-213": 151179
     }
