@@ -3068,7 +3068,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.1.30.zip",
       "since": "251.23774.444",
-      "until": "251.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "773794": {
@@ -3085,7 +3085,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.1.30.zip",
       "since": "251.23774.444",
-      "until": "251.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "774258": {
@@ -4796,6 +4796,40 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "880376": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/880376/azuredevops-2025.3.9.zip?updateId=880376&pluginId=22319&family=INTELLIJ",
+      "sha256": "lWj6EGTq41oO+8jF/BSaeFh47uBvPs7s1FIT1tTC1FQ=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.3.9.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "880377": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/880377/azuredevops-2025.3.9.zip?updateId=880377&pluginId=22319&family=INTELLIJ",
+      "sha256": "lWj6EGTq41oO+8jF/BSaeFh47uBvPs7s1FIT1tTC1FQ=",
+      "channel": "eap",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2025.3.9.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4942,7 +4976,8 @@
       "2025.3.5": 872745,
       "2025.3.6": 873132,
       "2025.3.7": 875268,
-      "2025.3.8": 875425
+      "2025.3.8": 875425,
+      "2025.3.9": 880377
     },
     "stable": {
       "2023.09.37": 408452,
@@ -5090,7 +5125,8 @@
       "2025.3.5": 872746,
       "2025.3.6": 873131,
       "2025.3.7": 875269,
-      "2025.3.8": 875426
+      "2025.3.8": 875426,
+      "2025.3.9": 880376
     }
   }
 }

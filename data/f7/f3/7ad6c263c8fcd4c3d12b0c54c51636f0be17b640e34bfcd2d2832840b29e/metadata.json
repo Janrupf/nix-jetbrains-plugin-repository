@@ -2,9 +2,9 @@
   "xml_id": "crystal-processes-xml-debugger",
   "numeric_id": 28743,
   "updates": {
-    "879350": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28743/879350/CRP_XML_Debugger-1.0-SNAPSHOT.zip?updateId=879350&pluginId=28743&family=INTELLIJ",
-      "sha256": "KZXRs7HOReiI6JOws1kWYrlpHWNKfdCB5SPL70MIH54=",
+    "880308": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28743/880308/CRP_XML_Debugger-1.0.0.1.zip?updateId=880308&pluginId=28743&family=INTELLIJ",
+      "sha256": "zM8J0fLyMz4G7X5Pvw5RoLtazPF6dEm/fdUa+XId+4Q=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java",
@@ -12,15 +12,31 @@
         "com.intellij.modules.xml"
       ],
       "optional_dependencies": [],
-      "file_name": "CRP_XML_Debugger-1.0-SNAPSHOT.zip",
+      "file_name": "CRP_XML_Debugger-1.0.0.1.zip",
       "since": "241.0",
-      "until": "243.*",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "880418": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28743/880418/CRP_XML_Debugger-1.0.0.2.zip?updateId=880418&pluginId=28743&family=INTELLIJ",
+      "sha256": "7IDchZ8iGmvtFUgOPvg5ol0SLHSBZpFOj34qjOHOR4Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CRP_XML_Debugger-1.0.0.2.zip",
+      "since": "241.0",
+      "until": "253.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 879350
+      "1.0.0.1": 880308,
+      "1.0.0.2": 880418
     }
   }
 }
