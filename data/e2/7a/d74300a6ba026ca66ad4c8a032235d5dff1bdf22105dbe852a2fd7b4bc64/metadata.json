@@ -241,6 +241,28 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "881963": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28063/881963/serverless-plugin-1.1.9.zip?updateId=881963&pluginId=28063&family=INTELLIJ",
+      "sha256": "yjI1YxZSmuPkt4DT1SRFrhCBx9AXvy1WoIgAS7vIhHU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "PythonCore",
+        "com.intellij.java",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "serverless-plugin-1.1.9.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -256,7 +278,8 @@
       "1.1.5": 864734,
       "1.1.6": 870968,
       "1.1.7": 873414,
-      "1.1.8": 873663
+      "1.1.8": 873663,
+      "1.1.9": 881963
     }
   }
 }
