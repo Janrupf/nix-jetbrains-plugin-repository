@@ -2004,6 +2004,27 @@
       "since": "233.11799",
       "until": null,
       "compatibility_overrides": []
+    },
+    "882497": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13234/882497/intellij-quarkus-2.4.0-20251024-012906.zip?updateId=882497&pluginId=13234&family=INTELLIJ",
+      "sha256": "F7gWlfA/ZjfJu20CQb2R1m7yx01iZGucTqtq4/F71p8=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.properties",
+        "com.redhat.devtools.intellij.telemetry",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "intellij-quarkus-2.4.0-20251024-012906.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2040,7 +2061,8 @@
       "2.3.1-20250905-050839": 850415,
       "2.3.1-20250930-121428": 869278,
       "2.3.1-20251010-183846": 875902,
-      "2.3.1-20251022-191017": 881890
+      "2.3.1-20251022-191017": 881890,
+      "2.4.0-20251024-012906": 882497
     },
     "stable": {
       "0.0.1.12": 72704,
