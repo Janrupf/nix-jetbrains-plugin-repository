@@ -1789,9 +1789,75 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "882445": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26860/882445/cloud-sweepai-1.25.0.zip?updateId=882445&pluginId=26860&family=INTELLIJ",
+      "sha256": "G+fx/HHJDAqegB53oTEmH/jEJ+gqMmh2UZhzW75UF9Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "file_name": "cloud-sweepai-1.25.0.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "882559": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26860/882559/cloud-sweepai-1.25.1.zip?updateId=882559&pluginId=26860&family=INTELLIJ",
+      "sha256": "HJjnjxN06aQMmybLO9mqyYoBbQmyuI1TaY3pORMBe18=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "file_name": "cloud-sweepai-1.25.1.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "882975": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26860/882975/cloud-sweepai-1.25.2.zip?updateId=882975&pluginId=26860&family=INTELLIJ",
+      "sha256": "Y5mRiVA5NSRz0kOvdafAcy4X/2QU0GFYalXQVP9nllU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "file_name": "cloud-sweepai-1.25.2.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "nightly": {
+      "1.25.1": 882559
+    },
     "stable": {
       "1.13.0": 724504,
       "1.14.0": 729941,
@@ -1876,7 +1942,9 @@
       "1.24.6": 878371,
       "1.24.7": 879122,
       "1.24.8": 880225,
-      "1.24.9": 880499
+      "1.24.9": 880499,
+      "1.25.0": 882445,
+      "1.25.2": 882975
     }
   }
 }

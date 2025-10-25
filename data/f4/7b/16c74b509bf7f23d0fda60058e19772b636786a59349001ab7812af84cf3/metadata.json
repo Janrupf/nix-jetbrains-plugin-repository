@@ -17,11 +17,28 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "882968": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28726/882968/armada-dark-purple-intellij-plugin-2025.1.1.zip?updateId=882968&pluginId=28726&family=INTELLIJ",
+      "sha256": "xjn9lCdGeX+3xXGY2PqgQOLRoR+HigpUNrp/bqaDMPA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.github.davidseptimus.armada-syntax-highlighter",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.classic.ui"
+      ],
+      "file_name": "armada-dark-purple-intellij-plugin-2025.1.1.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2025.1": 878342
+      "2025.1": 878342,
+      "2025.1.1": 882968
     }
   }
 }

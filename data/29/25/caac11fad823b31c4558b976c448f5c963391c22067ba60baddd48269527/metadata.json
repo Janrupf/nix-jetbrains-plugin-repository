@@ -4546,6 +4546,42 @@
       "since": "252.23892",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "882581": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19611/882581/intellij-gitlab-plugin-13.4.5-SNAPSHOT-signed.zip?updateId=882581&pluginId=19611&family=INTELLIJ",
+      "sha256": "VaybmQRn2gaL1ZPqUThEmG+FwmlwOqtIabaE2FZI9s4=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.tasks",
+        "com.intellij.platform.images",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitlab-plugin-13.4.5-SNAPSHOT-signed.zip",
+      "since": "252.23892",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "882602": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19611/882602/intellij-gitlab-plugin-13.4.5-signed.zip?updateId=882602&pluginId=19611&family=INTELLIJ",
+      "sha256": "rpUAjGfRm3Qot7RY91StTdNZPPBVdEwMf1bjTbVwRtw=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.tasks",
+        "com.intellij.platform.images",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitlab-plugin-13.4.5-signed.zip",
+      "since": "252.23892",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4674,7 +4710,8 @@
       "13.4.2-SNAPSHOT+002": 880092,
       "13.4.4": 880155,
       "13.4.4-SNAPSHOT+001": 880135,
-      "13.4.5-SNAPSHOT+001": 882306
+      "13.4.5-SNAPSHOT+001": 882306,
+      "13.4.5-SNAPSHOT+002": 882581
     },
     "stable": {
       "10.0.0": 504960,
@@ -4753,6 +4790,7 @@
       "13.4.1": 876577,
       "13.4.2": 880097,
       "13.4.4": 880136,
+      "13.4.5": 882602,
       "3.16.0": 231623,
       "4.0.2": 235490,
       "4.1.0": 237958,
