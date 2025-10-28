@@ -31,12 +31,28 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "883705": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28370/883705/json-plugin-1.1.0.zip?updateId=883705&pluginId=28370&family=INTELLIJ",
+      "sha256": "V/iddBbXjAHKo/m5nBJTnbx+99HKJ+p0RbqVMqUo29M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "json-plugin-1.1.0.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 848898,
-      "1.0.1": 849381
+      "1.0.1": 849381,
+      "1.1.0": 883705
     }
   }
 }

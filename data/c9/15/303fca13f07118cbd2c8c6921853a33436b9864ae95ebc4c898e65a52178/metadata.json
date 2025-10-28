@@ -31,12 +31,28 @@
       "since": "233.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "883722": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28388/883722/markdown-editor-plugin-1.1.0.zip?updateId=883722&pluginId=28388&family=INTELLIJ",
+      "sha256": "RDQgc5jQMX3DHsjgkeAUgnyVNgWh9p+LbK14HLoHuMs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "markdown-editor-plugin-1.1.0.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 850612,
-      "1.0.1": 852966
+      "1.0.1": 852966,
+      "1.1.0": 883722
     }
   }
 }

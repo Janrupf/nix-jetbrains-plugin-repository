@@ -46,13 +46,29 @@
       "since": "241.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "883723": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28137/883723/JaNativeTools.zip?updateId=883723&pluginId=28137&family=INTELLIJ",
+      "sha256": "Fu1SmYCoqflEiaYS5aAYwS8bqLco0zjhQ15U2bKprFs=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.lang",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JaNativeTools.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.5": 822432,
       "25.241.6": 838246,
-      "25.241.7": 873182
+      "25.241.7": 873182,
+      "25.241.8": 883723
     }
   }
 }
