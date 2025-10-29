@@ -1,6 +1,44 @@
 {
   "xml_id": "com.github.copilot.appmod",
   "numeric_id": 28791,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "883750": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28791/883750/appmod-intellij-20251027.6.zip?updateId=883750&pluginId=28791&family=INTELLIJ",
+      "sha256": "CSo5wQFNcSffmq17FPxCR97xRO9h7rlBl8NR/MWrnXM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.github.copilot",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "appmod-intellij-20251027.6.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "884080": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28791/884080/appmod-intellij-1.0.1.zip?updateId=884080&pluginId=28791&family=INTELLIJ",
+      "sha256": "f7yhfxvwu7CC1FL7LsmI6l7GyCPqg1blgLDBFt9eJ3o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.github.copilot",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "appmod-intellij-1.0.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 883750,
+      "1.0.1": 884080
+    }
+  }
 }

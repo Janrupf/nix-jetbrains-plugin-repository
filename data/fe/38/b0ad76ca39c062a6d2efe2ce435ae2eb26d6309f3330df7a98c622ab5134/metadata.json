@@ -1,6 +1,41 @@
 {
   "xml_id": "org.code.icon.tool",
   "numeric_id": 28826,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "883664": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28826/883664/Icon-Mapper-1.5.0.zip?updateId=883664&pluginId=28826&family=INTELLIJ",
+      "sha256": "jZyGap5vom04yAgNZyoLdYbF4CQWjFcOHgIkEywB1Ok=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Icon-Mapper-1.5.0.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "883912": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28826/883912/DeepSeek-AI-Assistant-1.5.1.zip?updateId=883912&pluginId=28826&family=INTELLIJ",
+      "sha256": "gT+5VZMSAsmFfvzJeGbk/DBnUiQuuxxodxx8pqIjYH0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-AI-Assistant-1.5.1.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.5.0": 883664,
+      "1.5.1": 883912
+    }
+  }
 }
