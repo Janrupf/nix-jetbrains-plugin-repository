@@ -2,6 +2,26 @@
   "xml_id": "com.jetbrains.gerryIslandsDarcula",
   "numeric_id": 28863,
   "updates": {
+    "883893": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28863/883893/islandsDarcula.jar?updateId=883893&pluginId=28863&family=INTELLIJ",
+      "sha256": "V2qnu9PLTnVRdKfEiku596rtYuw5zxaYP7GkEv7sPNw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "islandsDarcula.jar",
+      "since": "252.26830",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.26830",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
     "883895": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28863/883895/islandsDarcula.jar?updateId=883895&pluginId=28863&family=INTELLIJ",
       "sha256": "ctox0gis3MqX/WCxf0/hIGqhOowZYNFhLjlPOCfx4f4=",
@@ -25,6 +45,7 @@
   },
   "channels": {
     "stable": {
+      "1.0": 883893,
       "2.0": 883895
     }
   }
