@@ -84,13 +84,42 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "885025": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25980/885025/ColoredBrackets-1.3.0.zip?updateId=885025&pluginId=25980&family=INTELLIJ",
+      "sha256": "bjKwZJhqMXNGgS/HtRJ9eawYut99MjJySFEV8ZUcbpc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "Dart",
+        "JavaScript",
+        "com.intellij.database",
+        "com.intellij.modules.clion",
+        "com.intellij.modules.python",
+        "com.intellij.modules.rider",
+        "com.jetbrains.php",
+        "com.jetbrains.plugins.jade",
+        "com.jetbrains.sh",
+        "intellij.haskell",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.go-template"
+      ],
+      "file_name": "ColoredBrackets-1.3.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 642647,
       "1.1.0": 643648,
-      "1.2.0": 646870
+      "1.2.0": 646870,
+      "1.3.0": 885025
     }
   }
 }
