@@ -27,11 +27,39 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "885500": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28735/885500/UTPromptHelper-1.0.zip?updateId=885500&pluginId=28735&family=INTELLIJ",
+      "sha256": "G+5J5h+/THxTVfOAfzpNAJkXYIGJqAfbHl/FPULFBFE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "UTPromptHelper-1.0.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "885508": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28735/885508/UTPromptHelper-1.1.zip?updateId=885508&pluginId=28735&family=INTELLIJ",
+      "sha256": "DGQDGY8yB/zP25xoayCOFDSP2R+RLCSWkdiKlYEsEtI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "UTPromptHelper-1.1.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0": 885500,
       "1.0-SNAPSHOT": 883272,
+      "1.1": 885508,
       "2.4.0": 878828
     }
   }

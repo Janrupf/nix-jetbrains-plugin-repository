@@ -2,23 +2,77 @@
   "xml_id": "com.my.code.tools",
   "numeric_id": 28856,
   "updates": {
-    "883709": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28856/883709/Translate-AI-2.1.0.zip?updateId=883709&pluginId=28856&family=INTELLIJ",
-      "sha256": "aJv4lkNKXM2codgEbuM11SM1NrgwlPDlNpUh6wPwXac=",
+    "885713": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28856/885713/DeepSeek-Chat-2.1.2.zip?updateId=885713&pluginId=28856&family=INTELLIJ",
+      "sha256": "7gzYNCmpV4GxMe7BUhSva+VQ6SSDag6WdnYJaAAmq1s=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
       ],
-      "optional_dependencies": [],
-      "file_name": "Translate-AI-2.1.0.zip",
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Chat-2.1.2.zip",
       "since": "252.0",
-      "until": "253.*",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "885715": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28856/885715/DeepSeek-Chat-2.1.3.zip?updateId=885715&pluginId=28856&family=INTELLIJ",
+      "sha256": "fK97ApFA+iuw/v2L80WIqn8h2IUuYdxvj+Ix/iyBYqI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Chat-2.1.3.zip",
+      "since": "222.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "885724": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28856/885724/DeepSeek-Chat-2.1.4.zip?updateId=885724&pluginId=28856&family=INTELLIJ",
+      "sha256": "OR3oPw0LyPFSc1Lh4q7JpvF4PVvOsAo9C4nNz/p4TsY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Chat-2.1.4.zip",
+      "since": "222.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "885725": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28856/885725/DeepSeek-Chat-2.1.5.zip?updateId=885725&pluginId=28856&family=INTELLIJ",
+      "sha256": "JYiBsNEwMiXucCM6A9Ed4EN28SnYa/KmorCWxm52SDY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Chat-2.1.5.zip",
+      "since": "252.0",
+      "until": "263.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.1.0": 883709
+      "2.1.2": 885713,
+      "2.1.3": 885715,
+      "2.1.4": 885724,
+      "2.1.5": 885725
     }
   }
 }
