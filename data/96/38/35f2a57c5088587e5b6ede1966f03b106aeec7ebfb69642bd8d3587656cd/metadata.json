@@ -1,6 +1,29 @@
 {
   "xml_id": "dev.balakumar.quickterminal",
   "numeric_id": 28400,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "886001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28400/886001/quickterminal-0.1.1.zip?updateId=886001&pluginId=28400&family=INTELLIJ",
+      "sha256": "L8n/Ayz/Q2NZfM35uQj2eXLffMCrAxlfFxkKT1ATTyE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.javascript",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "quickterminal-0.1.1.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.1": 886001
+    }
+  }
 }
