@@ -14,11 +14,27 @@
       "since": "241.*",
       "until": null,
       "compatibility_overrides": []
+    },
+    "887363": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28909/887363/MineDB-0.1.1.zip?updateId=887363&pluginId=28909&family=INTELLIJ",
+      "sha256": "qBaAfxT+zBND7coYE1YvNGlvmzlKBXuKpXge0sDnxMs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "MineDB-0.1.1.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 886824
+      "0.1.0": 886824,
+      "0.1.1": 887363
     }
   }
 }
