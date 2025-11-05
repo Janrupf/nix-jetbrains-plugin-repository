@@ -31,12 +31,28 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "888094": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28394/888094/build-sync-metrics-0.2.5.zip?updateId=888094&pluginId=28394&family=INTELLIJ",
+      "sha256": "vKo+5WStp7RlT18YRXgsy6FZYfIREZMR1j6fxBb3dfw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "build-sync-metrics-0.2.5.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 851104,
-      "0.2.1": 854123
+      "0.2.1": 854123,
+      "0.2.5": 888094
     }
   }
 }

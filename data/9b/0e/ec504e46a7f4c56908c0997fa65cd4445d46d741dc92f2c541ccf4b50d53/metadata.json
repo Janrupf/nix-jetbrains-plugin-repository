@@ -346,6 +346,28 @@
       "since": "251.26927.54",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "888264": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26921/888264/ai-debugger-0.3.0.zip?updateId=888264&pluginId=26921&family=INTELLIJ",
+      "sha256": "6IbL/imyvatCP+cRFS+U32pBaoObm7TPHZz5LIiLfG4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.python",
+        "intellij.python.community.impl",
+        "org.jetbrains.aidebugger.common"
+      ],
+      "file_name": "ai-debugger-0.3.0.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -370,7 +392,8 @@
       "0.2.5": 818252,
       "0.2.6": 827545,
       "0.2.7": 855052,
-      "0.2.8": 861898
+      "0.2.8": 861898,
+      "0.3.0": 888264
     }
   }
 }

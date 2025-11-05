@@ -6205,6 +6205,50 @@
       "since": "253.27642",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "887842": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/887842/clion-2025.2.zip?updateId=887842&pluginId=9554&family=INTELLIJ",
+      "sha256": "h6tSBxAicEj5DbiqAJA2Zev6tO/H7OvSnF3LHrGWD6E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.nativeDebug",
+        "intellij.platform.lvcs.impl",
+        "org.jetbrains.plugins.clion.test.google"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "clion-2025.2.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "887843": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/887843/clion-2025.1.zip?updateId=887843&pluginId=9554&family=INTELLIJ",
+      "sha256": "osbnuJyT1yTVRqon/hM1Ka9p51g5y7UfK73Qr8wEuRk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.nativeDebug",
+        "intellij.platform.lvcs.impl",
+        "org.jetbrains.plugins.clion.test.google"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "clion-2025.1.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6516,7 +6560,9 @@
       "2025.10.17-api-version-253": 879186,
       "2025.10.27.0-api-version-251": 883730,
       "2025.10.27.0-api-version-252": 883729,
-      "2025.10.27.0-api-version-253": 883800
+      "2025.10.27.0-api-version-253": 883800,
+      "2025.11.03.0-api-version-251": 887843,
+      "2025.11.03.0-api-version-252": 887842
     }
   }
 }

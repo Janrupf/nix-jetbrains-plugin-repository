@@ -73,9 +73,38 @@
       ],
       "optional_dependencies": [],
       "file_name": "compose-stability-analyzer-idea-0.4.1.zip",
-      "since": "232.0",
+      "since": "242.0",
       "until": "252.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "999.99999",
+          "compatible_since": "242.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "888045": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28767/888045/compose-stability-analyzer-idea-0.4.2.zip?updateId=888045&pluginId=28767&family=INTELLIJ",
+      "sha256": "0Ga06DX5CmvoRI/30bdC631yPNCUPVrXmFO2rAbMKzs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "compose-stability-analyzer-idea-0.4.2.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "999.99999",
+          "compatible_since": "251.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -84,7 +113,8 @@
       "0.2.0": 880506,
       "0.2.1": 880510,
       "0.4.0": 886325,
-      "0.4.1": 886643
+      "0.4.1": 886643,
+      "0.4.2": 888045
     }
   }
 }
