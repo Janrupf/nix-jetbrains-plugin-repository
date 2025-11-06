@@ -64,11 +64,75 @@
       "since": "253.27864",
       "until": "253.27864.*",
       "compatibility_overrides": []
+    },
+    "888506": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28804/888506/clion-radler-253.28086.51.zip?updateId=888506&pluginId=28804&family=INTELLIJ",
+      "sha256": "r4V4j1VYkld1wzIQULbzSJ4l9GZk3eIeBPocWE4hBpA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.clion",
+        "com.intellij.modules.cpp-plugin-capable",
+        "com.intellij.modules.ultimate",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.execution",
+        "intellij.cidr.lang.base",
+        "intellij.cidr.projectModel",
+        "intellij.cidr.psi.base",
+        "intellij.cidr.runner",
+        "intellij.cidr.util",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.workspaceModel",
+        "intellij.cpp.common",
+        "intellij.cpp.common.protocol",
+        "intellij.rd.client",
+        "intellij.rd.ide.model.generated",
+        "intellij.rd.platform",
+        "intellij.rd.ui",
+        "intellij.resharper.assist",
+        "intellij.resharper.cpp.assist",
+        "intellij.resharper.cpp.lexer",
+        "intellij.rider.cpp.core.languages",
+        "intellij.rider.cpp.core.projectModel",
+        "intellij.rider.icons",
+        "intellij.rider.plugins.cpp.debugger",
+        "intellij.rider.rdclient.dotnet"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.modules.nativeDebug",
+        "com.jetbrains.performancePlugin",
+        "intellij.cidr.clangFormat.common",
+        "intellij.cidr.profiling",
+        "intellij.clion.dfa",
+        "intellij.clion.execution",
+        "intellij.clion.featuresTrainer",
+        "intellij.clion.langSwitcher",
+        "intellij.clion.projectStatus",
+        "intellij.clion.radler.core",
+        "intellij.clion.runFile",
+        "intellij.clion.toolchains",
+        "intellij.platform.backend.split",
+        "intellij.platform.whatsNew",
+        "intellij.profiler.clion",
+        "intellij.rider.cpp.core",
+        "intellij.rider.plugins.rdclient.performance",
+        "intellij.rider.rdclient.dotnet.spellchecker",
+        "intellij.spellchecker",
+        "org.intellij.intelliLang",
+        "tanvd.grazi",
+        "training"
+      ],
+      "file_name": "clion-radler-253.28086.51.zip",
+      "since": "253.28086",
+      "until": "253.28086.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "253.27864.23": 881700
+      "253.27864.23": 881700,
+      "253.28086.51": 888506
     }
   }
 }
