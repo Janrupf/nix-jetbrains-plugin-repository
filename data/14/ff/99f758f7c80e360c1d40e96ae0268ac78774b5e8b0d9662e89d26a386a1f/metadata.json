@@ -2,36 +2,6 @@
   "xml_id": "com.madmanbeavis.spt-id-highlighter",
   "numeric_id": 28901,
   "updates": {
-    "885758": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28901/885758/spt-id-highlighter-1.0.0.zip?updateId=885758&pluginId=28901&family=INTELLIJ",
-      "sha256": "2TwvSogZQPb9M0wEfZCOy7uiYGgIIofu5g8Kl+1gdzU=",
-      "channel": "stable",
-      "dependencies": [
-        "JavaScript",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "spt-id-highlighter-1.0.0.zip",
-      "since": "241.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
-    "885767": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28901/885767/spt-id-highlighter-1.1.0-signed.zip?updateId=885767&pluginId=28901&family=INTELLIJ",
-      "sha256": "qrRmCW2MX8ixxh+rxBpzABWWYsLhPkmcP6VcQD4g+5Q=",
-      "channel": "stable",
-      "dependencies": [
-        "JavaScript",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "spt-id-highlighter-1.1.0-signed.zip",
-      "since": "241.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "886528": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28901/886528/spt-id-highlighter-1.3.0.zip?updateId=886528&pluginId=28901&family=INTELLIJ",
       "sha256": "wT6g56qW1Hcc6X7qtX88gjzvVQzm+Nu5wSjXzz7R9gA=",
@@ -43,15 +13,20 @@
       ],
       "optional_dependencies": [],
       "file_name": "spt-id-highlighter-1.3.0.zip",
-      "since": "241.0",
+      "since": "242",
       "until": "253.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "242",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 885758,
-      "1.1.0": 885767,
       "1.3.0": 886528
     }
   }

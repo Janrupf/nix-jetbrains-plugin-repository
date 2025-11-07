@@ -53,9 +53,25 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "888993": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28501/888993/Odoo-1.1.0.zip?updateId=888993&pluginId=28501&family=INTELLIJ",
+      "sha256": "r3zf2tAiaDAhceyv1Kh3Ld5ouAAq29/ibNOJCocDAIk=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Odoo-1.1.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.1.0": 888993
+    },
     "stable": {
       "1.0.1": 859166,
       "1.0.2": 870950,
