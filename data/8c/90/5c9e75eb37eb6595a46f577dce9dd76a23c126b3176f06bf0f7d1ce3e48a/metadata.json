@@ -2,34 +2,6 @@
   "xml_id": "com.ntm.androidlocalizeplus",
   "numeric_id": 28878,
   "updates": {
-    "884594": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28878/884594/AndroidLocalizePlus-4.1.2.zip?updateId=884594&pluginId=28878&family=INTELLIJ",
-      "sha256": "cAFs79eBT24VkMztH7USjZLvWYzUT75wlPmhOEqfWpM=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "intellij.platform.compose"
-      ],
-      "optional_dependencies": [],
-      "file_name": "AndroidLocalizePlus-4.1.2.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "886300": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28878/886300/AndroidLocalizePlus-4.6.0.zip?updateId=886300&pluginId=28878&family=INTELLIJ",
-      "sha256": "EcTYWpJCIKOiE6J4UhOZ6S5P9p+fK3HOoQzLfMoeKnQ=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "intellij.platform.compose"
-      ],
-      "optional_dependencies": [],
-      "file_name": "AndroidLocalizePlus-4.6.0.zip",
-      "since": "252.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "886678": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28878/886678/AndroidLocalizePlus-4.9.0.zip?updateId=886678&pluginId=28878&family=INTELLIJ",
       "sha256": "ba2e3CiDuhHX+WdZ3vl9uS/Dq/RfQ6mabs6Mj506cy8=",
@@ -59,14 +31,29 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "889569": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28878/889569/MyAndroidLocalize-5.2.0.zip?updateId=889569&pluginId=28878&family=INTELLIJ",
+      "sha256": "tJtimKL6vCJnIWcN5WdOFAobGj0E3cDX+UEMqCHrrCI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "com.android.tools.idea"
+      ],
+      "file_name": "MyAndroidLocalize-5.2.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "4.1.2": 884594,
-      "4.6.0": 886300,
       "4.9.0": 886678,
-      "5.0.0": 888996
+      "5.0.0": 888996,
+      "5.2.0": 889569
     }
   }
 }

@@ -1,6 +1,25 @@
 {
   "xml_id": "jplus.plugin",
   "numeric_id": 28817,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "888958": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28817/888958/intellij-plugin-0.1-mvp-alpha.zip?updateId=888958&pluginId=28817&family=INTELLIJ",
+      "sha256": "PWw57rdqGEGnQcvTSD4qQm0Rvvl4C14VV9VNxUEeC1I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-plugin-0.1-mvp-alpha.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1-mvp-alpha": 888958
+    }
+  }
 }

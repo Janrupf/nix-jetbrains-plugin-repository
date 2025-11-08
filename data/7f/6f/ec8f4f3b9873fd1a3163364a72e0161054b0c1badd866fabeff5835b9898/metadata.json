@@ -54,12 +54,40 @@
       "since": "253.28086",
       "until": "253.28086.*",
       "compatibility_overrides": []
+    },
+    "889773": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28800/889773/clion-compdb-253.28294.51.zip?updateId=889773&pluginId=28800&family=INTELLIJ",
+      "sha256": "7s9IHl41s8I/Q+TF4aS0uqYGddsxyTPis3vixMEu9IY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.clion",
+        "intellij.cidr.execution",
+        "intellij.cidr.externalSystem",
+        "intellij.cidr.lang.base",
+        "intellij.cidr.psi.base",
+        "intellij.cidr.runner",
+        "intellij.cidr.util",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.execution",
+        "intellij.clion.externalSystem",
+        "intellij.clion.projectStatus",
+        "intellij.clion.toolchains"
+      ],
+      "optional_dependencies": [
+        "intellij.json.backend"
+      ],
+      "file_name": "clion-compdb-253.28294.51.zip",
+      "since": "253.28294",
+      "until": "253.28294.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "253.27864.23": 881651,
-      "253.28086.51": 887233
+      "253.28086.51": 887233,
+      "253.28294.51": 889773
     }
   }
 }
