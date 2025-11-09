@@ -1,6 +1,26 @@
 {
   "xml_id": "com.plugin",
   "numeric_id": 28769,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "890177": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28769/890177/5273Mjolnir-0.0.1-beta.zip?updateId=890177&pluginId=28769&family=INTELLIJ",
+      "sha256": "gitXFG9t+qBZqUFZM2TbQXAIcQjLPf7biqzc974rm4o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [],
+      "file_name": "5273Mjolnir-0.0.1-beta.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1-beta": 890177
+    }
+  }
 }
