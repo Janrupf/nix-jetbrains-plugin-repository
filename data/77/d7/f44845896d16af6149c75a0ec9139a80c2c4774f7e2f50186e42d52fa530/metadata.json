@@ -4838,6 +4838,68 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "890952": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/890952/TranslationPlugin-3.8.1_231.zip?updateId=890952&pluginId=8579&family=INTELLIJ",
+      "sha256": "VChTjCc3PzYDVrrCPeoXr6NrfrLSQZfUIp7IEnrYNUA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Dart",
+        "JavaScript",
+        "XPathView",
+        "com.intellij.css",
+        "com.intellij.jsp",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.python",
+        "com.intellij.modules.rider",
+        "com.intellij.modules.ruby",
+        "com.intellij.modules.sql",
+        "com.intellij.modules.swift.lang",
+        "com.intellij.modules.xml",
+        "com.intellij.properties",
+        "com.jetbrains.php",
+        "com.jetbrains.restClient",
+        "com.jetbrains.rust",
+        "com.jetbrains.sh",
+        "intellij.jupyter",
+        "org.intellij.groovy",
+        "org.intellij.scala",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.vue",
+        "org.jetbrains.plugins.yaml",
+        "org.rust.lang"
+      ],
+      "file_name": "TranslationPlugin-3.8.1_231.zip",
+      "since": "231.8770.65",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "890955": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/890955/TranslationPlugin-3.8.1.zip?updateId=890955&pluginId=8579&family=INTELLIJ",
+      "sha256": "EHC7C7AtyUPiNtK1RpqJKWvXM8OjL7tBctQOmSern4c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.lang",
+        "com.jetbrains.php",
+        "intellij.jupyter",
+        "org.jetbrains.plugins.clion.radler"
+      ],
+      "file_name": "TranslationPlugin-3.8.1.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4983,6 +5045,8 @@
       "3.7.3": 753628,
       "3.8.0": 880156,
       "3.8.0+231": 880153,
+      "3.8.1": 890955,
+      "3.8.1+231": 890952,
       "v3.2.1": 150853,
       "v3.2.1-213": 151179
     }

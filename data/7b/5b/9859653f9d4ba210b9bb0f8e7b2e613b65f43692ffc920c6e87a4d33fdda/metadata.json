@@ -2275,6 +2275,25 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "890758": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8115/890758/intellij-dlanguage.zip?updateId=890758&pluginId=8115&family=INTELLIJ",
+      "sha256": "iCGnJ3uw4M4jmYJn3U1XAlhhtgZjBDC/bKD/a2H8oJQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.copyright",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "intellij-dlanguage.zip",
+      "since": "251.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2448,7 +2467,8 @@
       "1.37": 725877,
       "1.37.1": 799827,
       "1.37.2": 819291,
-      "1.37.3": 823504
+      "1.37.3": 823504,
+      "1.38": 890758
     }
   }
 }
