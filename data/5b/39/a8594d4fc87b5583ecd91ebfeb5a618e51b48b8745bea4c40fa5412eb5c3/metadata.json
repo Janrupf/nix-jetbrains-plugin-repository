@@ -1137,6 +1137,29 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "891943": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13668/891943/intellij-sfcc-2025.3.zip?updateId=891943&pluginId=13668&family=INTELLIJ",
+      "sha256": "lsAq+NZ9kpHl9Mm/JtEX77WDMyYesPo2xczdu2cHBBM=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.css",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.sass"
+      ],
+      "optional_dependencies": [
+        "JavaScriptDebugger"
+      ],
+      "file_name": "intellij-sfcc-2025.3.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1187,7 +1210,8 @@
       "2024.2.2": 586021,
       "2024.3": 634476,
       "2025.1": 718489,
-      "2025.2": 817771
+      "2025.2": 817771,
+      "2025.3": 891943
     }
   }
 }

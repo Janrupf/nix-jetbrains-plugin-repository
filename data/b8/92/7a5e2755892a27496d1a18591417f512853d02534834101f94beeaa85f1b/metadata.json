@@ -17,11 +17,28 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "891659": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28954/891659/DeepSeek-FindBugs-2.0.1.zip?updateId=891659&pluginId=28954&family=INTELLIJ",
+      "sha256": "Imd1yVvNMJgM41j4hVp4UnUh+f2Kjn8wfyG+Rh9nf68=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-FindBugs-2.0.1.zip",
+      "since": "222.0",
+      "until": "231.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.0.0": 890754
+      "2.0.0": 890754,
+      "2.0.1": 891659
     }
   }
 }

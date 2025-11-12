@@ -2,23 +2,39 @@
   "xml_id": "build.vira.vira-theme",
   "numeric_id": 28947,
   "updates": {
-    "891430": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28947/891430/Vira_Theme-0.0.4-signed.zip?updateId=891430&pluginId=28947&family=INTELLIJ",
-      "sha256": "pz226vZmhr57MVaXp8aEjTlHwg7Pi7cZYQ4BVRc2PMU=",
+    "891670": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28947/891670/Vira_Theme-2025.0.0-beta.1-signed.zip?updateId=891670&pluginId=28947&family=INTELLIJ",
+      "sha256": "yoIPvI193DlUaysWFL6lelihRWetFgsm8M/5OdDSjdw=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Vira_Theme-2025.0.0-beta.1-signed.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "891672": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28947/891672/Vira_Theme-0.1.0.zip?updateId=891672&pluginId=28947&family=INTELLIJ",
+      "sha256": "iJN88kzpSBlWpQlXSqw0T00Jo2w7GLZcMPj23pmiT9U=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "Vira_Theme-0.0.4-signed.zip",
+      "file_name": "Vira_Theme-0.1.0.zip",
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "2025.0.0-beta.1": 891670
+    },
     "stable": {
-      "0.0.4": 891430
+      "0.1.0": 891672
     }
   }
 }
