@@ -118,10 +118,24 @@
       "since": "252.23892",
       "until": null,
       "compatibility_overrides": []
+    },
+    "892260": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21233/892260/ReSharperPlugin.DependencyMonkey-0.10.0.zip?updateId=892260&pluginId=21233&family=INTELLIJ",
+      "sha256": "94O2tEXHhLG61jCLVkOEIkSzyTabM47QltAPqPCnSXk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ReSharperPlugin.DependencyMonkey-0.10.0.zip",
+      "since": "253.28294",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 892260,
       "0.2.3": 305353,
       "0.2.4": 320498,
       "0.3.0": 374491,

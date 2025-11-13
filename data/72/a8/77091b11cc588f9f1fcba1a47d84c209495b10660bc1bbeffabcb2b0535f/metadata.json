@@ -16,11 +16,43 @@
       "since": "241.0",
       "until": "249.*",
       "compatibility_overrides": []
+    },
+    "892209": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28965/892209/itmo-autocomplete-jetbrains-0.2.2.zip?updateId=892209&pluginId=28965&family=INTELLIJ",
+      "sha256": "eR2L9wY4BuntasDXc2Mh6crPSCyR//4nt80hZI8T2ms=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore"
+      ],
+      "file_name": "itmo-autocomplete-jetbrains-0.2.2.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "892219": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28965/892219/itmo-autocomplete-jetbrains-0.2.3.zip?updateId=892219&pluginId=28965&family=INTELLIJ",
+      "sha256": "cRmNGN8/0GNJ2dZiMQ1f+zd22LY+geWUBB6wiBrlGMg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore"
+      ],
+      "file_name": "itmo-autocomplete-jetbrains-0.2.3.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 891194
+      "0.1.0": 891194,
+      "0.2.2": 892209,
+      "0.2.3": 892219
     }
   }
 }
