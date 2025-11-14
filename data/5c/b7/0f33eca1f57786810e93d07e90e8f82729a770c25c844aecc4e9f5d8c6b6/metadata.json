@@ -28222,6 +28222,54 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "892707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9212/892707/flutter-intellij-kokoro.zip?updateId=892707&pluginId=9212&family=INTELLIJ",
+      "sha256": "IJA7AA5SPIFnU1l4dtKh0u4igiidWvmG/XGDgompc2Y=",
+      "channel": "dev",
+      "dependencies": [
+        "Dart",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.google.tools.ij.aiplugin",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.java",
+        "org.jetbrains.android"
+      ],
+      "file_name": "flutter-intellij-kokoro.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "892899": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9212/892899/flutter-intellij.zip?updateId=892899&pluginId=9212&family=INTELLIJ",
+      "sha256": "kxdlg5UQcakezX3VtjhasVxU8ekYiGkMLscKf/XCYl4=",
+      "channel": "stable",
+      "dependencies": [
+        "Dart",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.google.tools.ij.aiplugin",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.java",
+        "org.jetbrains.android"
+      ],
+      "file_name": "flutter-intellij.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -29078,6 +29126,7 @@
       "89.0.0-dev.20251110-2bf5db2": 891193,
       "89.0.0-dev.20251111-2bf5db2": 891695,
       "89.0.0-dev.20251112-2bf5db2": 892233,
+      "89.0.0-dev.20251113-8feed25": 892707,
       "DEV": 97400,
       "DEV.1": 98650,
       "DEV.2": 98651,
@@ -29630,6 +29679,7 @@
       "87.0": 818757,
       "87.1": 826015,
       "88.0.0": 872982,
+      "88.1.0": 892899,
       "SNAPSHOT": 103934
     }
   }

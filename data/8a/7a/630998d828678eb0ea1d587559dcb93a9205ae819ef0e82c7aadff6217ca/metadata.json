@@ -926,6 +926,32 @@
       "since": "212.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "892905": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26617/892905/p2c-plugin-intellij.zip?updateId=892905&pluginId=26617&family=INTELLIJ",
+      "sha256": "x8kxomlBpt+n43NkCUT9KJ1EDLij26Ur43gwLFvKyLY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.all",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.jetbrains.rust",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "p2c-plugin-intellij.zip",
+      "since": "212.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -968,7 +994,8 @@
       "3.4.6": 880241,
       "3.5.0": 883754,
       "3.5.6": 887832,
-      "3.6.1": 891175
+      "3.6.1": 891175,
+      "3.6.3": 892905
     }
   }
 }
