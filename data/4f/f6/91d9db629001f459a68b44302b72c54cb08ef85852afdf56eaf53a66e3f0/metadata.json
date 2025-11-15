@@ -35,12 +35,48 @@
       "since": "222.0",
       "until": "231.*",
       "compatibility_overrides": []
+    },
+    "893007": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28966/893007/DeepSeek-Code-Scan-1.5.2.zip?updateId=893007&pluginId=28966&family=INTELLIJ",
+      "sha256": "Vfohxr0NoKIC/lWLejQu2o/tWz14olMOJFoaAF0kDeE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Code-Scan-1.5.2.zip",
+      "since": "232.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "893186": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28966/893186/DeepSeek-Code-Scan-1.5.3.zip?updateId=893186&pluginId=28966&family=INTELLIJ",
+      "sha256": "AtBDk3hDzjZDC4mXgS8tHlt3rRteVvR1COrmFJcbwWc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Code-Scan-1.5.3.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.5.0": 891206,
-      "1.5.1": 892933
+      "1.5.1": 892933,
+      "1.5.2": 893007,
+      "1.5.3": 893186
     }
   }
 }

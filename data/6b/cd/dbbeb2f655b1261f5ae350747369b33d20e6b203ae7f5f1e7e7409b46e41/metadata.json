@@ -27,11 +27,38 @@
       "since": "203.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "893250": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28926/893250/qoder-jetbrains-0.5.1.zip?updateId=893250&pluginId=28926&family=INTELLIJ",
+      "sha256": "LhrEuPbmxjwY3js9YV6ZvZlZdKzS5IFNU7osE9CfTWU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.intellij.modules.ruby",
+        "com.jetbrains.php",
+        "com.jetbrains.rust",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "qoder-jetbrains-0.5.1.zip",
+      "since": "203.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.5.0": 891918
+      "0.5.0": 891918,
+      "0.5.1": 893250
     }
   }
 }

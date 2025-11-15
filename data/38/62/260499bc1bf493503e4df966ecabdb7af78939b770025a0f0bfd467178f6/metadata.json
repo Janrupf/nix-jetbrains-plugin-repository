@@ -42,13 +42,27 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "892713": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28408/892713/IntelliJ_Platform_Plugin_Template-3.5.0.zip?updateId=892713&pluginId=28408&family=INTELLIJ",
+      "sha256": "UIOYFw1GhkxL1C19uQV/O6hwsz1n6pKl0lTFSDwzq/4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ_Platform_Plugin_Template-3.5.0.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.5": 859483,
       "0.2.1": 868393,
-      "0.3.0": 885126
+      "0.3.0": 885126,
+      "3.5.0": 892713
     }
   }
 }
