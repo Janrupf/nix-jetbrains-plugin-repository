@@ -2,34 +2,6 @@
   "xml_id": "com.jhtech.firebasepro",
   "numeric_id": 28937,
   "updates": {
-    "892883": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28937/892883/firebase-pro-243.1.0-signed.zip?updateId=892883&pluginId=28937&family=INTELLIJ",
-      "sha256": "5xhcwWq0EUcC9LQLj78F//vt8ueXnFq/cnBMi57h49A=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "firebase-pro-243.1.0-signed.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "892885": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28937/892885/firebase-pro-251.1.0-signed.zip?updateId=892885&pluginId=28937&family=INTELLIJ",
-      "sha256": "lfL0cRHBcSZUcB7/qilbdn92C8NVP/hAfY7NitDvdlA=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "firebase-pro-251.1.0-signed.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "892886": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28937/892886/firebase-pro-252.1.0-signed.zip?updateId=892886&pluginId=28937&family=INTELLIJ",
       "sha256": "miJPNjwt+ju+4poKvZLHmdaVW8OExJo4X2bOls+0pkM=",
@@ -42,7 +14,7 @@
       "optional_dependencies": [],
       "file_name": "firebase-pro-252.1.0-signed.zip",
       "since": "252.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "892887": {
@@ -59,14 +31,74 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "895020": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28937/895020/firebase-pro-243.1.1-signed.zip?updateId=895020&pluginId=28937&family=INTELLIJ",
+      "sha256": "R5A5HiFl6dkCUtwGU9gqCHAv0euj5HN681jxkjHYVFU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "firebase-pro-243.1.1-signed.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "895021": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28937/895021/firebase-pro-251.1.1-signed.zip?updateId=895021&pluginId=28937&family=INTELLIJ",
+      "sha256": "IE00B9ApSPiHP5NxHYA+Eg++pEQz2ewos4RPtcpl0oU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "firebase-pro-251.1.1-signed.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "895024": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28937/895024/firebase-pro-252.1.1-signed.zip?updateId=895024&pluginId=28937&family=INTELLIJ",
+      "sha256": "nabKS8+4MND2ioaKrTjHkRc2RwNoNOC76hMihHT9ll0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.spellchecker"
+      ],
+      "optional_dependencies": [],
+      "file_name": "firebase-pro-252.1.1-signed.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "895027": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28937/895027/firebase-pro-253.1.1-signed.zip?updateId=895027&pluginId=28937&family=INTELLIJ",
+      "sha256": "QwoEXD1sJkTdvwJZLZdcWuz7XwXiAGzuz58lzPtdwbI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.spellchecker"
+      ],
+      "optional_dependencies": [],
+      "file_name": "firebase-pro-253.1.1-signed.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "243.1.0": 892883,
-      "251.1.0": 892885,
+      "243.1.1": 895020,
+      "251.1.1": 895021,
       "252.1.0": 892886,
-      "253.1.0": 892887
+      "252.1.1": 895024,
+      "253.1.0": 892887,
+      "253.1.1": 895027
     }
   }
 }

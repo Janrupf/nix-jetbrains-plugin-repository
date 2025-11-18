@@ -18,11 +18,29 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "894832": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29035/894832/DeepSeek-AI-Scan-1.2.1.zip?updateId=894832&pluginId=29035&family=INTELLIJ",
+      "sha256": "eUBf4Jnq21/9dkJsV0idYmaJDBfgtwIRcnRUFgFtfOw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-AI-Scan-1.2.1.zip",
+      "since": "222.0",
+      "until": "231.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.2.0": 894205
+      "1.2.0": 894205,
+      "1.2.1": 894832
     }
   }
 }

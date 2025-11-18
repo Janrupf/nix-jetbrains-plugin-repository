@@ -15,11 +15,26 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "895009": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29033/895009/vajra-intellij-0.2.1.zip?updateId=895009&pluginId=29033&family=INTELLIJ",
+      "sha256": "2p25nc7RcrKNeBZxNUb3bcaBG7RSe66l0t9D4qqSTMA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vajra-intellij-0.2.1.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.0": 894025
+      "0.2.0": 894025,
+      "0.2.1": 895009
     }
   }
 }

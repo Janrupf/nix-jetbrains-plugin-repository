@@ -53,12 +53,68 @@
       "since": "203.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "894843": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28926/894843/qoder-jetbrains-0.5.2.zip?updateId=894843&pluginId=28926&family=INTELLIJ",
+      "sha256": "BusUv/F5VBHVQlNGYZQOuIURA0j4KC5fveY4R6z1Fpg=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.intellij.modules.ruby",
+        "com.jetbrains.php",
+        "com.jetbrains.rust",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "qoder-jetbrains-0.5.2.zip",
+      "since": "203.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "894844": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28926/894844/qoder-jetbrains-0.5.2.zip?updateId=894844&pluginId=28926&family=INTELLIJ",
+      "sha256": "BusUv/F5VBHVQlNGYZQOuIURA0j4KC5fveY4R6z1Fpg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.intellij.modules.ruby",
+        "com.jetbrains.php",
+        "com.jetbrains.rust",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "qoder-jetbrains-0.5.2.zip",
+      "since": "203.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "alpha": {
+      "0.5.2": 894843
+    },
     "stable": {
       "0.5.0": 891918,
-      "0.5.1": 893250
+      "0.5.1": 893250,
+      "0.5.2": 894844
     }
   }
 }
