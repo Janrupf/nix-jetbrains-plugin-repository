@@ -16,11 +16,27 @@
       "since": "252.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "895739": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28969/895739/testy-goland-plugin.zip?updateId=895739&pluginId=28969&family=INTELLIJ",
+      "sha256": "zMNEUhD6JOX0p/FcNMCdJDqizTe6K+r/Ialibwpdt14=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "testy-goland-plugin.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 891266
+      "0.1.0": 891266,
+      "0.2.0": 895739
     }
   }
 }

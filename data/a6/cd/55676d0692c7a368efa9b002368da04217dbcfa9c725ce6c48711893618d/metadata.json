@@ -1210,6 +1210,35 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "895237": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/895237/Firebender-0.13.6.zip?updateId=895237&pluginId=25224&family=INTELLIJ",
+      "sha256": "WJTJpbyWAuVeVMTZSdtuSFFoZxFbXqtm+k7HjOFCS2U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.platform.jewel.ui",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.android.tools.design",
+        "com.intellij.modules.java",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "Firebender-0.13.6.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1269,7 +1298,8 @@
       "0.13.2": 887064,
       "0.13.3": 889023,
       "0.13.4": 892175,
-      "0.13.5": 892972
+      "0.13.5": 892972,
+      "0.13.6": 895237
     }
   }
 }

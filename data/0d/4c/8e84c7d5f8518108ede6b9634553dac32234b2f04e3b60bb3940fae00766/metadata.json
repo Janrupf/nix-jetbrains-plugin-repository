@@ -1,6 +1,34 @@
 {
   "xml_id": "com.codescoring.ide.sca",
   "numeric_id": 28700,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "895549": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28700/895549/codescoring-intellij-2025.33.6.zip?updateId=895549&pluginId=28700&family=INTELLIJ",
+      "sha256": "TV0hv4r0/86l1EGctnGselyQzklZLZQ10iUAZEV9tKE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.modules.xml",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.ruby",
+        "org.jetbrains.plugins.yaml",
+        "org.toml.lang"
+      ],
+      "file_name": "codescoring-intellij-2025.33.6.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2025.33.6": 895549
+    }
+  }
 }

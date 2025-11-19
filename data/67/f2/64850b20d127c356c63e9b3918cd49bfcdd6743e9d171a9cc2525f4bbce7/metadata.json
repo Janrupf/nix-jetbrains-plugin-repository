@@ -95,7 +95,7 @@
       "optional_dependencies": [],
       "file_name": "liberty-tools-intellij-24.0.9.zip",
       "since": "241.0",
-      "until": "241.*",
+      "until": "242.*",
       "compatibility_overrides": []
     },
     "643650": {
@@ -115,7 +115,7 @@
       "optional_dependencies": [],
       "file_name": "liberty-tools-intellij-24.0.9.zip",
       "since": "241.0",
-      "until": "241.*",
+      "until": "242.*",
       "compatibility_overrides": []
     },
     "649486": {
@@ -237,11 +237,32 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "894829": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/894829/liberty-tools-intellij-25.0.12-SNAPSHOT.zip?updateId=894829&pluginId=14856&family=INTELLIJ",
+      "sha256": "GpYo4feNnccJCPRZ81C5hPUkqbazjyChznt95tlDYQE=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "liberty-tools-intellij-25.0.12-SNAPSHOT.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "preview": {
       "24.0.9": 643650,
+      "25.0.12-SNAPSHOT": 894829,
       "25.0.5": 841262,
       "25.0.9": 857015
     },

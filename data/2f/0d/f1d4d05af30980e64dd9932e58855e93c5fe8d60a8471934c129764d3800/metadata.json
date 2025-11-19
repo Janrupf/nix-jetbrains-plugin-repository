@@ -144,12 +144,61 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "895630": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28794/895630/cmake-253.28294.169.zip?updateId=895630&pluginId=28794&family=INTELLIJ",
+      "sha256": "XW/N8EyxELyMSgoagA1nrg83orEOrHAQOUl3u8XgffE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.cidr.core",
+        "intellij.cidr.execution",
+        "intellij.cidr.lang.base",
+        "intellij.cidr.projectModel",
+        "intellij.cidr.psi.base",
+        "intellij.cidr.runner",
+        "intellij.cidr.util",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.util.ui",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.execution",
+        "intellij.clion.toolchains",
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.platform.ssh.nio"
+      ],
+      "optional_dependencies": [
+        "com.intellij.clion",
+        "com.intellij.cmake",
+        "com.intellij.modules.python",
+        "com.jetbrains.rider-cpp",
+        "intellij.c.core",
+        "intellij.cidr.util.serializer",
+        "intellij.clion.core",
+        "intellij.clion.ide.core",
+        "intellij.clion.projectStatus",
+        "intellij.clion.wizard",
+        "intellij.cmake.psi",
+        "intellij.json.backend",
+        "intellij.rd.ide.model.generated",
+        "intellij.rd.platform",
+        "intellij.rider",
+        "intellij.rider.cpp.core.languages",
+        "intellij.rider.cpp.core.projectModel",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.spellchecker",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "cmake-253.28294.169.zip",
+      "since": "253.28294",
+      "until": "253.28294.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "253.27864.23": 881469,
       "253.28086.51": 887130,
+      "253.28294.169": 895630,
       "253.28294.51": 889930
     }
   }
