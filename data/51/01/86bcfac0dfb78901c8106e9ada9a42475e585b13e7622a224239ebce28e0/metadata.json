@@ -4637,6 +4637,29 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "896121": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21173/896121/JetClient-2025.1.0-253-signed.zip?updateId=896121&pluginId=21173&family=INTELLIJ",
+      "sha256": "XA4tMO1UREzX6Z9WNd5qUncm9fCTmbtI+gr3gXIROzE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.github.copilot",
+        "com.intellij.java",
+        "com.intellij.lang.jsgraphql",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "JetClient-2025.1.0-253-signed.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4844,7 +4867,8 @@
       "2025.1.0-242": 826004,
       "2025.1.0-243": 826003,
       "2025.1.0-251": 826002,
-      "2025.1.0-252": 826000
+      "2025.1.0-252": 826000,
+      "2025.1.0-253": 896121
     }
   }
 }

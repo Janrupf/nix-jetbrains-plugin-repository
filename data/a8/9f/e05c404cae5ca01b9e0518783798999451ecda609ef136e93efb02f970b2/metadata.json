@@ -2,51 +2,6 @@
   "xml_id": "com.github.bellini666.pytest-language-server",
   "numeric_id": 29056,
   "updates": {
-    "895016": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/895016/pytest-language-server-0.5.1.zip?updateId=895016&pluginId=29056&family=INTELLIJ",
-      "sha256": "oexCZSVIrTtWSN9F+rThAAweW/MgoIyQrLxCMuG0P7s=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "pytest-language-server-0.5.1.zip",
-      "since": "223.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
-    "895022": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/895022/pytest-language-server-0.5.2.zip?updateId=895022&pluginId=29056&family=INTELLIJ",
-      "sha256": "s/gaIxu0W0LJNEpbqqkfVXb73HLd++ZmJLfW/lnpx0c=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "pytest-language-server-0.5.2.zip",
-      "since": "223.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
-    "895249": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/895249/pytest-language-server-0.7.0.zip?updateId=895249&pluginId=29056&family=INTELLIJ",
-      "sha256": "U4tCCFSdTecm/YnVkuKkYJ6F13lRrBQTe4KNemkoA/Q=",
-      "channel": "stable",
-      "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "pytest-language-server-0.7.0.zip",
-      "since": "223.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
     "895718": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/895718/pytest-language-server-0.7.2.zip?updateId=895718&pluginId=29056&family=INTELLIJ",
       "sha256": "2kpJ1ibRbU5OJTQnWh4m9RPUyBcCy9c29ebLouKKZ5o=",
@@ -61,14 +16,45 @@
       "since": "223.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "896116": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/896116/pytest-language-server-0.8.5.zip?updateId=896116&pluginId=29056&family=INTELLIJ",
+      "sha256": "pxOAHVAiY3QQ6CT1jNxLSo2nlmRqzPnbIHVESXjiBvk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pytest-language-server-0.8.5.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "896169": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/896169/pytest-language-server-0.9.0.zip?updateId=896169&pluginId=29056&family=INTELLIJ",
+      "sha256": "271/X1B7w5BTUjR72Brfi9Er/FMX1uNmEfYRmGZ35wU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pytest-language-server-0.9.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.5.1": 895016,
-      "0.5.2": 895022,
-      "0.7.0": 895249,
-      "0.7.2": 895718
+      "0.7.2": 895718,
+      "0.8.5": 896116,
+      "0.9.0": 896169
     }
   }
 }

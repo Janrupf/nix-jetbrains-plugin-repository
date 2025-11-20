@@ -46,13 +46,29 @@
       "since": "232.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "896012": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29024/896012/dependency-guardian-1.0.4.zip?updateId=896012&pluginId=29024&family=INTELLIJ",
+      "sha256": "0kgULWV7v5c+oqT3GY8e8irtc14MwDxP6k6+yawuk0s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dependency-guardian-1.0.4.zip",
+      "since": "232.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 894590,
       "1.0.2": 894752,
-      "1.0.3": 894759
+      "1.0.3": 894759,
+      "1.0.4": 896012
     }
   }
 }
