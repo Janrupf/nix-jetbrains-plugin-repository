@@ -1,6 +1,25 @@
 {
   "xml_id": "com.factory.jetbrains-plugin",
   "numeric_id": 28649,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "896589": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28649/896589/factory-jetbrains-plugin-0.1.0.zip?updateId=896589&pluginId=28649&family=INTELLIJ",
+      "sha256": "4mnfknEw99m2/3O6JdPNSged9VayB4/6HdADfNB5isU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "factory-jetbrains-plugin-0.1.0.zip",
+      "since": "231.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 896589
+    }
+  }
 }

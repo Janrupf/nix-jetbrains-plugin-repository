@@ -1656,6 +1656,29 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "896645": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/896645/writerside-2025.11.8530.zip?updateId=896645&pluginId=20158&family=INTELLIJ",
+      "sha256": "Wk06aEEEp3xal/fnDco2O9HXlhcoxUebyA397d+BkbQ=",
+      "channel": "nightly",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "com.intellij.grazie.pro",
+        "com.intellij.modules.writerside",
+        "org.jetbrains.plugins.textmate",
+        "tanvd.grazi"
+      ],
+      "file_name": "writerside-2025.11.8530.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1702,7 +1725,8 @@
       "2024.12.243.22562.163": 649250,
       "2025.03.8312": 695427,
       "2025.04.8412": 709850,
-      "2025.04.8426": 728161
+      "2025.04.8426": 728161,
+      "2025.11.8530": 896645
     },
     "stable": {
       "2023.03.3401": 319402,

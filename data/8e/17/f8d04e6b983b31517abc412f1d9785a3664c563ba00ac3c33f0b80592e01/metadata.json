@@ -44,12 +44,28 @@
           "compatible_until": "201.*"
         }
       ]
+    },
+    "896428": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19017/896428/plus-helper-1.0.19.zip?updateId=896428&pluginId=19017&family=INTELLIJ",
+      "sha256": "HSFhO7Ju5I3NvUWTnCUpHMbsiSALYxu0aS8PVl3irPw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plus-helper-1.0.19.zip",
+      "since": "231.9392.1",
+      "until": "231.9392.1",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.11": 172823,
-      "1.0.18": 240153
+      "1.0.18": 240153,
+      "1.0.19": 896428
     }
   }
 }
