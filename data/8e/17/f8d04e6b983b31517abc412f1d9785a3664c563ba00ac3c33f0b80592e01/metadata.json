@@ -59,13 +59,45 @@
       "since": "231.9392.1",
       "until": "231.9392.1",
       "compatibility_overrides": []
+    },
+    "897132": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19017/897132/plus-helper-1.0.20.zip?updateId=897132&pluginId=19017&family=INTELLIJ",
+      "sha256": "sG1tYTsIofpm6BfPWyfAJ3/jetqQ7H2ui0PlVvNzD0M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plus-helper-1.0.20.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "897170": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19017/897170/plus-helper-1.0.21.zip?updateId=897170&pluginId=19017&family=INTELLIJ",
+      "sha256": "UOBSx/4+TrVAo5O9CbUyajGv6flDb+q98CrdFzWw0hU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plus-helper-1.0.21.zip",
+      "since": "231.*",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.11": 172823,
       "1.0.18": 240153,
-      "1.0.19": 896428
+      "1.0.19": 896428,
+      "1.0.20": 897132,
+      "1.0.21": 897170
     }
   }
 }

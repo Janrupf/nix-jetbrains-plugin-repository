@@ -15,10 +15,25 @@
       "since": "232.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "897137": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29000/897137/taxi-intellij-plugin-1.70.0-2171541123.zip?updateId=897137&pluginId=29000&family=INTELLIJ",
+      "sha256": "GLizI32/4RBkPNgvpX7cYtmnlOzvMMTxi1pPpjh7jDo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "taxi-intellij-plugin-1.70.0-2171541123.zip",
+      "since": "232.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.70.0-2171541123": 897137,
       "1.70.0-SNAPSHOT": 892440
     }
   }

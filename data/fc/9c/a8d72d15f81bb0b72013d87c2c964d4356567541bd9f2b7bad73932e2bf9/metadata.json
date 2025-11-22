@@ -1,6 +1,26 @@
 {
   "xml_id": "com.huawei.hypium",
   "numeric_id": 28762,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "897119": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28762/897119/DevecoTesting-Hypium.zip?updateId=897119&pluginId=28762&family=INTELLIJ",
+      "sha256": "tXPB0w9e8Yt8Y/2CFXOe400SJIAQ7d4Yp5ld/3FZ1ik=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "DevecoTesting-Hypium.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "6.0.7.202": 897119
+    }
+  }
 }
