@@ -587,15 +587,28 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "897896": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23451/897896/fuzzier-1.14.0.jar?updateId=897896&pluginId=23451&family=INTELLIJ",
-      "sha256": "7fjE3NCq7pcbCvUemYKrcmqcIs22Jzkp6YjbhV6J3rE=",
+    "898387": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23451/898387/fuzzier-1.14.0-pre1.jar?updateId=898387&pluginId=23451&family=INTELLIJ",
+      "sha256": "wLSnub2kI4eglA6ch2JC0ObJ7NwRU4KbaD5f4/qZA6A=",
       "channel": "preview",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "fuzzier-1.14.0.jar",
+      "file_name": "fuzzier-1.14.0-pre1.jar",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "898389": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23451/898389/fuzzier-1.14.0-pre2.jar?updateId=898389&pluginId=23451&family=INTELLIJ",
+      "sha256": "tR2O0HehZaRB+FZuXb5Ay5xqUoKXE8kcW6V9HIZVXjA=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fuzzier-1.14.0-pre2.jar",
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
@@ -603,7 +616,8 @@
   },
   "channels": {
     "preview": {
-      "1.14.0": 897896
+      "1.14.0-pre1": 898387,
+      "1.14.0-pre2": 898389
     },
     "stable": {
       "0.10": 471612,
