@@ -15,11 +15,26 @@
       "since": "223.8",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "900040": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28510/900040/KSON-0.2.1.zip?updateId=900040&pluginId=28510&family=INTELLIJ",
+      "sha256": "vRgkERPHBvU4/4wK6b5AxjNYxdP9KxQrc09lC79+Luo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.intellij.intelliLang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "KSON-0.2.1.zip",
+      "since": "223.8",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.1": 860082
+      "0.1.1": 860082,
+      "0.2.1": 900040
     }
   }
 }

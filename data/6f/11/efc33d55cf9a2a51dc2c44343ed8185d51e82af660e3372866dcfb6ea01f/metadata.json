@@ -1,6 +1,44 @@
 {
   "xml_id": "io.github.luons.api-mediator",
   "numeric_id": 29117,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "899303": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29117/899303/api-mediator-idea-1.0.1.zip?updateId=899303&pluginId=29117&family=INTELLIJ",
+      "sha256": "qvAnoJkEAVj6aAbzlCHhYwnU2PzbmgyvR+9S4fjydns=",
+      "channel": "api manager; code generator;swagger2.0",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "api-mediator-idea-1.0.1.zip",
+      "since": "222.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "899581": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29117/899581/api-mediator-idea-1.0.2.zip?updateId=899581&pluginId=29117&family=INTELLIJ",
+      "sha256": "cLQeCpVy8arTKBGk1bVES+U6qHO5ATevLGG5v+/YSLU=",
+      "channel": "api manager; code generator;swagger2.0",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "api-mediator-idea-1.0.2.zip",
+      "since": "250.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "api manager; code generator;swagger2.0": {
+      "1.0.1": 899303,
+      "1.0.2": 899581
+    }
+  }
 }
