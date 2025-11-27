@@ -40,13 +40,27 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "900415": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26223/900415/codepipeline-plugin-2025.3.0-signed.zip?updateId=900415&pluginId=26223&family=INTELLIJ",
+      "sha256": "GgrThX48gAnr/jIs0wjV33eadQ8cJcn5+qJrMIJt6do=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codepipeline-plugin-2025.3.0-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2024.1.0.243": 658810,
       "2025.1.0.243-251": 712151,
-      "2025.2.0.243-252": 822366
+      "2025.2.0.243-252": 822366,
+      "2025.3.0": 900415
     }
   }
 }

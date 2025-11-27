@@ -1,6 +1,28 @@
 {
   "xml_id": "io.github.heisiar.compose-multiplatform-wizard",
   "numeric_id": 29108,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "900097": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29108/900097/compose-multiplatform-wizard-plugin-0.1.0.zip?updateId=900097&pluginId=29108&family=INTELLIJ",
+      "sha256": "lrPOfzA+Emt6LOdaX7gMPBUVX7QEGl6YJGZObXpkQCo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.compose",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "compose-multiplatform-wizard-plugin-0.1.0.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 900097
+    }
+  }
 }

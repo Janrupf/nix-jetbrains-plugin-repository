@@ -43,13 +43,28 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "900568": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29033/900568/vajra-intellij-0.2.3.zip?updateId=900568&pluginId=29033&family=INTELLIJ",
+      "sha256": "L1o+c2IPLBI+N/oyvjVNKuohtjx45j22kPl8yztsHcg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vajra-intellij-0.2.3.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.0": 894025,
       "0.2.1": 895009,
-      "0.2.2": 900042
+      "0.2.2": 900042,
+      "0.2.3": 900568
     }
   }
 }

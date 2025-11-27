@@ -17,11 +17,28 @@
       "since": "222.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "900909": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29110/900909/DeepSeek-AI-Git-1.0.2.zip?updateId=900909&pluginId=29110&family=INTELLIJ",
+      "sha256": "JnltPHG0wWcZK185fvCMu37KhJWh/GuMbnDQ6jaRRU8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-AI-Git-1.0.2.zip",
+      "since": "222.0",
+      "until": "231.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 898386
+      "1.0.1": 898386,
+      "1.0.2": 900909
     }
   }
 }

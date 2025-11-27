@@ -134,10 +134,30 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "900918": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/900918/hexana-0.1.13-nightly.zip?updateId=900918&pluginId=29090&family=INTELLIJ",
+      "sha256": "WBjeEeU3CvW5jgIz9BddhLC6ejxlpQ6Q5W1h4wvuQWo=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hexana-0.1.13-nightly.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
+      "0.1.13-nightly": 900918,
       "0.1.4-nightly": 897334,
       "0.1.5-nightly": 897362,
       "0.1.6-nightly": 897364,
