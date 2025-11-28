@@ -71,14 +71,7 @@
       "file_name": "Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.7.zip",
       "since": "243.21565.193",
       "until": "252.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "233.11799.300",
-          "applies_until": "999.99999",
-          "compatible_since": "243.21565.193",
-          "compatible_until": "999.99999"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "773850": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26404/773850/Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.8.zip?updateId=773850&pluginId=26404&family=INTELLIJ",
@@ -214,6 +207,36 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "902093": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26404/902093/Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.16_community.zip?updateId=902093&pluginId=26404&family=INTELLIJ",
+      "sha256": "yWo3lJ7YKAo3aiK5fVZgGUY3kcIMmMKVrmO07OjoTnU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.16_community.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "902098": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26404/902098/Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.16_ultimate.zip?updateId=902098&pluginId=26404&family=INTELLIJ",
+      "sha256": "Q2vmssp3zCt3P+yPMTbFKr7Yn/kem/F1W3/wDeXhXoI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.16_ultimate.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -225,6 +248,8 @@
       "2025.1.14": 857268,
       "2025.1.15": 878840,
       "2025.1.16": 897518,
+      "2025.1.16.1-c": 902093,
+      "2025.1.16.1-u": 902098,
       "2025.1.3": 671361,
       "2025.1.4": 686933,
       "2025.1.5": 699179,

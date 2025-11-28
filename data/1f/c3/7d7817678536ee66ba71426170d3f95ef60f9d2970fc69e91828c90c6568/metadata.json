@@ -39,12 +39,32 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "901531": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28994/901531/coderider-kilo-jetbrains-2.3.2-2024-2025.zip?updateId=901531&pluginId=28994&family=INTELLIJ",
+      "sha256": "ztYXw7nulJlLQ1YxGjlMMoqk5w0qlvXAFdL0obGx8F0=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "coderider-kilo-jetbrains-2.3.2-2024-2025.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.3.0-2024-2025": 894766,
-      "2.3.1-2024-2025": 896273
+      "2.3.1-2024-2025": 896273,
+      "2.3.2-2024-2025": 901531
     }
   }
 }

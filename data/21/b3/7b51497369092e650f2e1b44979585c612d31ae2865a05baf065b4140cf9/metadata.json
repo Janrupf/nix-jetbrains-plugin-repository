@@ -3153,6 +3153,50 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "901652": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23758/901652/plugin.zip?updateId=901652&pluginId=23758&family=INTELLIJ",
+      "sha256": "uf5RsZVxE+2PSviPgZ4uRRFLCMlMpK3FAB7YIhZGkhc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.microservices",
+        "com.intellij.modules.ultimate",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "plugin.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "901653": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23758/901653/plugin.zip?updateId=901653&pluginId=23758&family=INTELLIJ",
+      "sha256": "0CTJGgkDsOjUxWUjNW8jxzr/vEOlnJsmoBVIU12MzPY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.microservices",
+        "com.intellij.modules.ultimate",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "plugin.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3227,6 +3271,7 @@
       "1.0.0.eap204": 870353,
       "1.0.0.eap206": 893173,
       "1.0.0.eap208": 899756,
+      "1.0.0.eap209": 901652,
       "1.0.0.eap34": 597644,
       "1.0.0.eap35": 598416,
       "1.0.0.eap36": 598529,
@@ -3323,7 +3368,8 @@
       "1.5.3": 813613,
       "1.5.4": 857891,
       "1.5.5": 870354,
-      "1.5.6": 893174
+      "1.5.6": 893174,
+      "1.5.7": 901653
     }
   }
 }

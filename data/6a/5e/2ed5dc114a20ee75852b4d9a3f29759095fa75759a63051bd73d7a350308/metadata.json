@@ -297,14 +297,7 @@
       "file_name": "intellij-rust-232.9921.46.zip",
       "since": "232.8296",
       "until": "232.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "232.8296",
-          "applies_until": "233.*",
-          "compatible_since": "232.8296",
-          "compatible_until": "232.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "396512": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/396512/intellij-rust-5476.zip?updateId=396512&pluginId=22407&family=INTELLIJ",
@@ -403,14 +396,7 @@
       "file_name": "intellij-rust-232.9921.62.zip",
       "since": "232.8296",
       "until": "232.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "232.8296",
-          "applies_until": "233.*",
-          "compatible_since": "232.8296",
-          "compatible_until": "232.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "397746": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/397746/intellij-rust-5478.zip?updateId=397746&pluginId=22407&family=INTELLIJ",
@@ -33262,14 +33248,7 @@
       "file_name": "intellij-rust-243.22562.163.zip",
       "since": "243.22562",
       "until": "243.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "243.0",
-          "applies_until": "243.*",
-          "compatible_since": "243.22562",
-          "compatible_until": "243.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "649101": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/649101/intellij-rust-243.22562.187.zip?updateId=649101&pluginId=22407&family=INTELLIJ",
@@ -33314,14 +33293,7 @@
       "file_name": "intellij-rust-243.22562.187.zip",
       "since": "243.22562",
       "until": "243.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "243.0",
-          "applies_until": "243.*",
-          "compatible_since": "243.22562",
-          "compatible_until": "243.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "654680": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/654680/intellij-rust-243.22562.230.zip?updateId=654680&pluginId=22407&family=INTELLIJ",
@@ -33366,14 +33338,7 @@
       "file_name": "intellij-rust-243.22562.230.zip",
       "since": "243.22562",
       "until": "243.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "243.0",
-          "applies_until": "243.*",
-          "compatible_since": "243.22562",
-          "compatible_until": "243.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "666537": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/666537/intellij-rust-243.23654.116.zip?updateId=666537&pluginId=22407&family=INTELLIJ",
@@ -35600,6 +35565,53 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "901523": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/901523/intellij-rust-252.28238.28.zip?updateId=901523&pluginId=22407&family=INTELLIJ",
+      "sha256": "hJodehsTGrYO7nNuHKgskVr38eeLaf+OklthoDSADMA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.rust-capable",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.ultimate",
+        "intellij.json.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.toml.json",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.clion",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.copyright",
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.modules.duplicatesDetector",
+        "com.intellij.modules.rustrover",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.execution",
+        "intellij.cidr.profiling",
+        "intellij.cidr.runner",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.execution",
+        "intellij.clion.profiling",
+        "intellij.clion.toolchains",
+        "intellij.platform.coverage",
+        "intellij.profiler.asyncOne",
+        "intellij.profiler.clion",
+        "intellij.profiler.common",
+        "intellij.rustrover.debugger",
+        "org.jetbrains.plugins.terminal",
+        "tanvd.grazi"
+      ],
+      "file_name": "intellij-rust-252.28238.28.zip",
+      "since": "252.28238",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -36513,6 +36525,7 @@
       "252.26830.136": 875264,
       "252.27397.120": 883703,
       "252.27397.133": 887323,
+      "252.28238.28": 901523,
       "253.17525.92": 857294,
       "253.20558.40": 861693,
       "253.22441.30": 866245,
