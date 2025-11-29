@@ -68,7 +68,14 @@
       "file_name": "java-coverage-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772778": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/27374/772778/java-coverage-252.21735.32.zip?updateId=772778&pluginId=27374&family=INTELLIJ",
@@ -307,6 +314,23 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902578": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27374/902578/java-coverage-253.28294.251.zip?updateId=902578&pluginId=27374&family=INTELLIJ",
+      "sha256": "b2qWYvt9G+dxiUdI2fWaPbjuyg1fQAFre4GeZ33qza0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.platform.coverage"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "TestNG-J"
+      ],
+      "file_name": "java-coverage-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -328,6 +352,7 @@
       "253.27642.30": 879396,
       "253.27864.23": 881452,
       "253.28086.51": 887194,
+      "253.28294.251": 902578,
       "253.28294.51": 889916
     }
   }

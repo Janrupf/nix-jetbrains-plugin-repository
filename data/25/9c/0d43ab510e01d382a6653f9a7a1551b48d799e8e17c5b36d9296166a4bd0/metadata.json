@@ -8203,7 +8203,14 @@
       "file_name": "intellij-toml-0.2.155.4114-212.zip",
       "since": "212.4746",
       "until": "212.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.4746",
+          "applies_until": "213.*",
+          "compatible_since": "212.4746",
+          "compatible_until": "212.*"
+        }
+      ]
     },
     "138034": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8195/138034/toml-213.3714.440.zip?updateId=138034&pluginId=8195&family=INTELLIJ",
@@ -23835,6 +23842,44 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "902589": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8195/902589/toml-253.28294.251.zip?updateId=902589&pluginId=8195&family=INTELLIJ",
+      "sha256": "4McWL2K54CANPzp//BEq2gf1J932cKE74QTAJuFkFsc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.json.backend",
+        "intellij.platform.backend",
+        "intellij.platform.frontend.split",
+        "intellij.toml.core",
+        "tanvd.grazi"
+      ],
+      "file_name": "toml-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "902852": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8195/902852/toml-253.28294.252.zip?updateId=902852&pluginId=8195&family=INTELLIJ",
+      "sha256": "rI1PiTHMNhfgk5hzGyoF8uU85swjGc7nmGTqFDIq9Is=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.json.backend",
+        "intellij.platform.backend",
+        "intellij.platform.frontend.split",
+        "intellij.toml.core",
+        "tanvd.grazi"
+      ],
+      "file_name": "toml-253.28294.252.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -25495,6 +25540,8 @@
       "253.28294.169": 895655,
       "253.28294.170": 896000,
       "253.28294.218": 899712,
+      "253.28294.251": 902589,
+      "253.28294.252": 902852,
       "253.28294.51": 889816,
       "253.28294.86": 891234
     }

@@ -2837,7 +2837,14 @@
       "file_name": "bigdatatools-core-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772822": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/21713/772822/bigdatatools-core-252.21735.32.zip?updateId=772822&pluginId=21713&family=INTELLIJ",
@@ -3671,6 +3678,31 @@
       "since": "252.28238",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "902659": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21713/902659/bigdatatools-core-253.28294.251.zip?updateId=902659&pluginId=21713&family=INTELLIJ",
+      "sha256": "mRg4nQcAuNmSFNnL27xXLafVw8q/EJEMwfUq2HkjLQM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.bigdatatools.awsBase",
+        "intellij.bigdatatools.coreUi",
+        "intellij.charts",
+        "intellij.database.core.impl",
+        "intellij.grid.core.impl",
+        "intellij.grid.csv.core.impl",
+        "intellij.grid.impl",
+        "intellij.grid.plugin",
+        "intellij.platform.navbar.backend"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "bigdatatools-core-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3867,6 +3899,7 @@
       "253.27864.23": 881571,
       "253.28086.51": 887162,
       "253.28294.169": 895651,
+      "253.28294.251": 902659,
       "253.28294.51": 889975
     }
   }

@@ -1688,7 +1688,14 @@
       "file_name": "amper-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772816": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23076/772816/amper-252.21735.32.zip?updateId=772816&pluginId=23076&family=INTELLIJ",
@@ -2435,6 +2442,46 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902590": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23076/902590/amper-253.28294.251.zip?updateId=902590&pluginId=23076&family=INTELLIJ",
+      "sha256": "F+Rrd6ZTdkqgkXRyYdl58YorvFc9SP/pSU+9Ok7VOa8=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "intellij.json.backend",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.spellchecker",
+        "intellij.yaml.backend",
+        "org.jetbrains.plugins.gradle",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.microservices.jvm",
+        "intellij.amper.kotlin",
+        "intellij.apple.sdk",
+        "intellij.c.core",
+        "intellij.cidr.execution",
+        "intellij.cidr.psi.base",
+        "intellij.cidr.runner",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.workspaceModel",
+        "intellij.kotlin.gradle.gradle",
+        "intellij.kotlin.projectWizard.idea",
+        "intellij.ktor",
+        "intellij.spring.boot.run",
+        "kotlin-ultimate.kotlin-ocswift",
+        "kotlin-ultimate.mobile-native",
+        "kotlin.gradle.gradle-java",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "amper-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2525,6 +2572,7 @@
       "253.27864.23": 881411,
       "253.28086.51": 887173,
       "253.28294.169": 895646,
+      "253.28294.251": 902590,
       "253.28294.51": 889821
     }
   }

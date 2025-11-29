@@ -2674,7 +2674,14 @@
       "file_name": "commander-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772801": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7706/772801/commander-252.21735.32.zip?updateId=772801&pluginId=7706&family=INTELLIJ",
@@ -2856,6 +2863,19 @@
       "file_name": "commander-253.28294.51.zip",
       "since": "253.28294",
       "until": "253.28294.*",
+      "compatibility_overrides": []
+    },
+    "902654": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7706/902654/commander-253.28294.251.zip?updateId=902654&pluginId=7706&family=INTELLIJ",
+      "sha256": "PtZJ007rd7Ae2uhCZkhHtpwj/xO8IWhQIrJIRZJuLSw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "commander-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
       "compatibility_overrides": []
     }
   },
@@ -3086,6 +3106,7 @@
       "253.27642.30": 879530,
       "253.27864.23": 881377,
       "253.28086.51": 887116,
+      "253.28294.251": 902654,
       "253.28294.51": 889724
     }
   }

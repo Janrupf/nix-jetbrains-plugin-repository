@@ -739,6 +739,44 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902740": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26071/902740/mcpserver-252.28238.29.zip?updateId=902740&pluginId=26071&family=INTELLIJ",
+      "sha256": "VX4VN1E31TbHJLcSLQ6MoTlzx+CnP8wlnCDqNe6eGag=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.ktor.client",
+        "intellij.libraries.ktor.client.cio"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "mcpserver-252.28238.29.zip",
+      "since": "252.28238",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "903136": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26071/903136/mcpserver-253.28294.256.zip?updateId=903136&pluginId=26071&family=INTELLIJ",
+      "sha256": "tZDzdxOMaESoeotzy1ER5P9zPtUyx74dXHDOyA0wnmE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.ktor.client",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.libraries.ktor.io",
+        "intellij.libraries.ktor.network.tls"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "mcpserver-253.28294.256.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -782,13 +820,15 @@
       "252.26199.25": 852346,
       "252.26830.27": 867181,
       "252.27397.106": 882474,
+      "252.28238.29": 902740,
       "253.17525.96": 858692,
       "253.20558.58": 864347,
       "253.24325.40": 871818,
       "253.27642.35": 879800,
       "253.27864.50": 883678,
       "253.28086.55": 887585,
-      "253.28294.166": 896133
+      "253.28294.166": 896133,
+      "253.28294.256": 903136
     }
   }
 }

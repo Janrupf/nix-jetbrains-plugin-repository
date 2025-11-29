@@ -2326,7 +2326,14 @@
       "file_name": "android-243.21565.214.zip",
       "since": "243.21565",
       "until": "243.21565.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.21565",
+          "applies_until": "243.*",
+          "compatible_since": "243.21565",
+          "compatible_until": "243.21565.*"
+        }
+      ]
     },
     "636633": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22989/636633/android-243.22562.13.zip?updateId=636633&pluginId=22989&family=INTELLIJ",
@@ -3086,7 +3093,14 @@
       "file_name": "android-251.25410.28.zip",
       "since": "251.25410",
       "until": "251.25410.28",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.25410",
+          "applies_until": "251.*",
+          "compatible_since": "251.25410",
+          "compatible_until": "251.25410.28"
+        }
+      ]
     },
     "728748": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22989/728748/android-251.25410.59.zip?updateId=728748&pluginId=22989&family=INTELLIJ",
@@ -3113,7 +3127,14 @@
       "file_name": "android-251.25410.59.zip",
       "since": "251.25410",
       "until": "251.25410.59",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.25410",
+          "applies_until": "251.*",
+          "compatible_since": "251.25410",
+          "compatible_until": "251.25410.59"
+        }
+      ]
     },
     "735929": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22989/735929/android-251.25410.109.zip?updateId=735929&pluginId=22989&family=INTELLIJ",
@@ -4410,6 +4431,33 @@
       "since": "252.28238",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "902527": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22989/902527/android-253.28294.251.zip?updateId=902527&pluginId=22989&family=INTELLIJ",
+      "sha256": "dkPm/YDmkLEsqFdEB1HvTKs0pnnMjIsBkul9zXLWfmI=",
+      "channel": "stable",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.gradle",
+        "com.intellij.modules.json",
+        "com.intellij.properties",
+        "intellij.webp",
+        "org.intellij.groovy",
+        "org.intellij.intelliLang",
+        "org.jetbrains.idea.gradle.dsl",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "com.android.tools.idea.smali",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.idea"
+      ],
+      "file_name": "android-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4576,6 +4624,7 @@
       "253.27864.23": 881445,
       "253.28086.51": 887256,
       "253.28294.169": 895622,
+      "253.28294.251": 902527,
       "253.28294.51": 889803
     }
   }

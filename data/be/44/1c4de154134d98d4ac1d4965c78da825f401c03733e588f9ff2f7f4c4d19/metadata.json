@@ -2479,7 +2479,14 @@
       "file_name": "qodana-221.5080.126.zip",
       "since": "221.5080",
       "until": "221.5080.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "221.5080",
+          "applies_until": "221.*",
+          "compatible_since": "221.5080",
+          "compatible_until": "221.5080.*"
+        }
+      ]
     },
     "166332": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16938/166332/qodana-221.5364.zip?updateId=166332&pluginId=16938&family=INTELLIJ",
@@ -12876,6 +12883,54 @@
       "since": "252.28238",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "903139": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16938/903139/qodana-253.28294.256.zip?updateId=903139&pluginId=16938&family=INTELLIJ",
+      "sha256": "IzUmzNuY/wKz9Tj6cMcfU7sLYJadKxlVezPWXr9NDdY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.json.backend",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.platform.inspect",
+        "intellij.platform.vcs.log"
+      ],
+      "optional_dependencies": [
+        "Coverage",
+        "Git4Idea",
+        "JavaScript",
+        "NodeJS",
+        "Pythonid",
+        "com.intellij.dev",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.clion.cmake",
+        "com.intellij.modules.python",
+        "com.intellij.swagger",
+        "com.jetbrains.php",
+        "intellij.cidr.projectModel",
+        "intellij.clion.radler.core",
+        "intellij.dev.psiViewer",
+        "intellij.go.coverage",
+        "intellij.java.dev",
+        "intellij.platform.coverage",
+        "intellij.python",
+        "intellij.qodana.coverage",
+        "intellij.qodana.jvm.java",
+        "intellij.yaml.backend",
+        "org.intellij.groovy",
+        "org.intellij.intelliLang",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "qodana-253.28294.256.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -13498,6 +13553,7 @@
       "253.27864.35": 882163,
       "253.28086.34": 887359,
       "253.28294.218": 899686,
+      "253.28294.256": 903139,
       "253.28294.90": 891749
     }
   }

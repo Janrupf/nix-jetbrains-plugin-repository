@@ -17,11 +17,64 @@
       "since": "223.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "902485": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29154/902485/intelli-ai-changelog-1.0.0-signed.zip?updateId=902485&pluginId=29154&family=INTELLIJ",
+      "sha256": "gBfSlcyW5MS37Dwq/u0gIVeQPfS2VGs5OAdo+aOWrOM=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-changelog-1.0.0-signed.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "902754": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29154/902754/intelli-ai-changelog-1.1.0-signed.zip?updateId=902754&pluginId=29154&family=INTELLIJ",
+      "sha256": "wiykTg4wEC7A/Xz8NbuzGVb/bguPP33qF8zVS4DsbZg=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-changelog-1.1.0-signed.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "902889": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29154/902889/intelli-ai-changelog-1.1.0.zip?updateId=902889&pluginId=29154&family=INTELLIJ",
+      "sha256": "EZlREoE/FNe/uw01PTj3WjynX/ZI27WP9dC5xVBXPfE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-changelog-1.1.0.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "alpha": {
+      "1.0.0": 902485,
+      "1.1.0": 902754
+    },
     "stable": {
-      "1.0.0": 901210
+      "1.0.0": 901210,
+      "1.1.0": 902889
     }
   }
 }

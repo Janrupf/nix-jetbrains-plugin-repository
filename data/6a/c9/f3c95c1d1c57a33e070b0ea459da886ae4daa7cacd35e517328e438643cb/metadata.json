@@ -85,7 +85,14 @@
       "file_name": "design-tools-233.11799.196.zip",
       "since": "233.11799",
       "until": "233.11799",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.11799",
+          "applies_until": "233.*",
+          "compatible_since": "233.11799",
+          "compatible_until": "233.11799"
+        }
+      ]
     },
     "450581": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22990/450581/design-tools-233.11799.264.zip?updateId=450581&pluginId=22990&family=INTELLIJ",
@@ -1034,7 +1041,14 @@
       "file_name": "design-tools-243.21565.214.zip",
       "since": "243.21565",
       "until": "243.21565.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.21565",
+          "applies_until": "243.*",
+          "compatible_since": "243.21565",
+          "compatible_until": "243.21565.*"
+        }
+      ]
     },
     "636664": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22990/636664/design-tools-243.22562.13.zip?updateId=636664&pluginId=22990&family=INTELLIJ",
@@ -1394,7 +1408,14 @@
       "file_name": "design-tools-251.25410.59.zip",
       "since": "251.25410",
       "until": "251.25410.59",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.25410",
+          "applies_until": "251.*",
+          "compatible_since": "251.25410",
+          "compatible_until": "251.25410.59"
+        }
+      ]
     },
     "735923": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22990/735923/design-tools-251.25410.109.zip?updateId=735923&pluginId=22990&family=INTELLIJ",
@@ -2048,6 +2069,25 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902644": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22990/902644/design-tools-253.28294.251.zip?updateId=902644&pluginId=22990&family=INTELLIJ",
+      "sha256": "3e2yuV7dzsv1KEJxqLl1fXrbSUvlBucdYK/zRaM2dKc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.platform.images",
+        "intellij.libraries.grpc",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.androidstudio"
+      ],
+      "file_name": "design-tools-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2170,6 +2210,7 @@
       "253.27642.30": 879520,
       "253.27864.23": 881616,
       "253.28086.51": 887275,
+      "253.28294.251": 902644,
       "253.28294.51": 889942
     }
   }

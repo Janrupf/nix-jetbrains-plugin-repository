@@ -1764,7 +1764,14 @@
       "file_name": "java-rareRefactorings-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772756": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17656/772756/java-rareRefactorings-252.21735.32.zip?updateId=772756&pluginId=17656&family=INTELLIJ",
@@ -1961,6 +1968,20 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902521": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17656/902521/java-rareRefactorings-253.28294.251.zip?updateId=902521&pluginId=17656&family=INTELLIJ",
+      "sha256": "SzPD9ZA79iMEelWN7Qx6cN1neuxetYzxoIpYdxzPQw8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "java-rareRefactorings-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2108,6 +2129,7 @@
       "253.27642.30": 879371,
       "253.27864.23": 881649,
       "253.28086.51": 887281,
+      "253.28294.251": 902521,
       "253.28294.51": 889744
     }
   }

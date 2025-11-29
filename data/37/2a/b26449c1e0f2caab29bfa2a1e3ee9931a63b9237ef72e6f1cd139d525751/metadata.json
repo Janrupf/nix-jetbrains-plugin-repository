@@ -26,7 +26,14 @@
       "file_name": "GerryThemes.jar",
       "since": "191",
       "until": "211.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.0",
+          "applies_until": "999.99999",
+          "compatible_since": "191",
+          "compatible_until": "211.*"
+        }
+      ]
     },
     "174993": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18922/174993/GerryThemes.jar?updateId=174993&pluginId=18922&family=INTELLIJ",
@@ -52,7 +59,14 @@
       "file_name": "GerryThemes.jar",
       "since": "191.0",
       "until": "211.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.0",
+          "applies_until": "222.*",
+          "compatible_since": "191.0",
+          "compatible_until": "211.*"
+        }
+      ]
     },
     "205951": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18922/205951/GerryThemes.jar?updateId=205951&pluginId=18922&family=INTELLIJ",
@@ -65,7 +79,14 @@
       "file_name": "GerryThemes.jar",
       "since": "191",
       "until": "211.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.0",
+          "applies_until": "999.99999",
+          "compatible_since": "191",
+          "compatible_until": "211.*"
+        }
+      ]
     },
     "206846": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18922/206846/GerryThemes.jar?updateId=206846&pluginId=18922&family=INTELLIJ",
@@ -2056,6 +2077,46 @@
       "since": "191.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "902181": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18922/902181/GerryThemes.jar?updateId=902181&pluginId=18922&family=INTELLIJ",
+      "sha256": "Xvp0uiLVfShweA8UF3H0fOXzjOnprnXoLwK2P/emJPc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GerryThemes.jar",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "902182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18922/902182/GerryThemes.jar?updateId=902182&pluginId=18922&family=INTELLIJ",
+      "sha256": "S3NIHoUArD1ZwHGgCzXbyHaJNzi0lpacpc4juwC+sD4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GerryThemes.jar",
+      "since": "201.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "902183": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18922/902183/GerryThemes.jar?updateId=902183&pluginId=18922&family=INTELLIJ",
+      "sha256": "xtoD+6h2V/hvoX5BGQVO6R1xegkLn7zlP/TCfDeRbr4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GerryThemes.jar",
+      "since": "201.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2217,6 +2278,9 @@
       "2025.1.1118": 895054,
       "2025.1.1121": 897138,
       "2025.1.1125": 899292,
+      "2025.1.1128": 902181,
+      "2025.1.1128-243C": 902183,
+      "2025.1.1128-243U": 902182,
       "3.0": 174993,
       "3.10": 182956,
       "3.18": 205951

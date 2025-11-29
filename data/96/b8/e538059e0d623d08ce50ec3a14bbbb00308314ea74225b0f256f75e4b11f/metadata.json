@@ -260,7 +260,14 @@
       "file_name": "openbpm-studio-1.0.0-beta.5-252__2_.zip",
       "since": "252.23591.19",
       "until": "252.99999999",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.23591.19",
+          "applies_until": "999.99999",
+          "compatible_since": "252.23591.19",
+          "compatible_until": "252.99999999"
+        }
+      ]
     },
     "857901": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25655/857901/openbpm-studio-1.0.0-beta.6-252.zip?updateId=857901&pluginId=25655&family=INTELLIJ",
@@ -280,7 +287,14 @@
       "file_name": "openbpm-studio-1.0.0-beta.6-252.zip",
       "since": "252.23591.19",
       "until": "252.99999999",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.23591.19",
+          "applies_until": "999.99999",
+          "compatible_since": "252.23591.19",
+          "compatible_until": "252.99999999"
+        }
+      ]
     },
     "857902": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25655/857902/openbpm-studio-1.0.0-beta.6-251.zip?updateId=857902&pluginId=25655&family=INTELLIJ",
@@ -381,6 +395,66 @@
       "since": "243.21155.17",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "902927": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25655/902927/flowset-studio-2025.0.0-252.zip?updateId=902927&pluginId=25655&family=INTELLIJ",
+      "sha256": "Jp0LCY0/0rRE4SvGfHNMv8IMEwpciuv2EjwCgZqF1no=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "flowset-studio-2025.0.0-252.zip",
+      "since": "252.23591.19",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "902928": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25655/902928/flowset-studio-2025.0.0-251.zip?updateId=902928&pluginId=25655&family=INTELLIJ",
+      "sha256": "MWYsatSfWV/d0ZvLZtXLcznoqn7/tuVxu08C8MiL6Yk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "flowset-studio-2025.0.0-251.zip",
+      "since": "251.22821.72",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "902930": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25655/902930/flowset-studio-2025.0.0-243.zip?updateId=902930&pluginId=25655&family=INTELLIJ",
+      "sha256": "SdkgHYl3UQ0vdchHuZ6JiJ/2JYs/3Y6QzfgkS7DCjP4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "flowset-studio-2025.0.0-243.zip",
+      "since": "243.21155.17",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -401,6 +475,9 @@
       "1.0.0-beta.6-243": 857905,
       "1.0.0-beta.6-251": 857902,
       "1.0.0-beta.6-252": 857901,
+      "2025.0.0-243": 902930,
+      "2025.0.0-251": 902928,
+      "2025.0.0-252": 902927,
       "2025.0.0-rc-243": 896434,
       "2025.0.0-rc-251": 896421,
       "2025.0.0-rc-252": 896422

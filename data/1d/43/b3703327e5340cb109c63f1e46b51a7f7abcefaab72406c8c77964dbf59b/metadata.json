@@ -3341,7 +3341,14 @@
       "file_name": "restClient-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772857": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13121/772857/restClient-252.21735.32.zip?updateId=772857&pluginId=13121&family=INTELLIJ",
@@ -5017,6 +5024,75 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "902509": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13121/902509/restClient-253.28294.251.zip?updateId=902509&pluginId=13121&family=INTELLIJ",
+      "sha256": "b81YLhgEC64lwbTB1ntwf2XsVxAgy3yAoamS0ckwCTM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jsonpath",
+        "com.intellij.marketplace",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.xml",
+        "com.intellij.platform.images",
+        "intellij.json.backend",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.regexp"
+      ],
+      "optional_dependencies": [
+        "XPathView",
+        "com.intellij.java",
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.microservices.ui",
+        "com.intellij.modules.javascript",
+        "com.intellij.modules.json",
+        "idea.plugin.protoeditor",
+        "intellij.libraries.grpc",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.platform.langInjection",
+        "intellij.restClient/intelliLang",
+        "intellij.restClient/javaScript",
+        "intellij.spellchecker",
+        "intellij.textmate",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "restClient-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "903128": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13121/903128/restClient-252.28238.33.zip?updateId=903128&pluginId=13121&family=INTELLIJ",
+      "sha256": "7U7KVx3wghqH71+0VvSfVgbwrg2iEvfjC2t4xSfTaAg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jsonpath",
+        "com.intellij.marketplace",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.xml",
+        "com.intellij.platform.images",
+        "intellij.json.backend",
+        "intellij.libraries.ktor.client.cio"
+      ],
+      "optional_dependencies": [
+        "XPathView",
+        "com.intellij.java",
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.microservices.ui",
+        "com.intellij.modules.javascript",
+        "com.intellij.modules.json",
+        "idea.plugin.protoeditor",
+        "intellij.restClient/intelliLang",
+        "intellij.restClient/javaScript",
+        "intellij.spellchecker",
+        "org.intellij.intelliLang",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "restClient-252.28238.33.zip",
+      "since": "252.28238",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5201,6 +5277,7 @@
       "252.26830.84": 870892,
       "252.27397.103": 882345,
       "252.27397.28": 878483,
+      "252.28238.33": 903128,
       "252.28238.7": 896633,
       "253.17525.95": 857480,
       "253.20558.12": 858452,
@@ -5217,6 +5294,7 @@
       "253.28086.51": 887287,
       "253.28294.169": 895660,
       "253.28294.218": 899647,
+      "253.28294.251": 902509,
       "253.28294.51": 890082,
       "253.28294.90": 891739
     }

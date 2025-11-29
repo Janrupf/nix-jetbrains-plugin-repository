@@ -37,7 +37,14 @@
       "file_name": "coffeescript-core-191.4212.44.zip",
       "since": "80.9000",
       "until": "201",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "80.9000",
+          "applies_until": "999.99999",
+          "compatible_since": "80.9000",
+          "compatible_until": "201"
+        }
+      ]
     },
     "57636": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/6313/57636/coffeescript-core-191.4738.19.zip?updateId=57636&pluginId=6313&family=INTELLIJ",
@@ -25352,6 +25359,29 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902593": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6313/902593/coffeescript-253.28294.251.zip?updateId=902593&pluginId=6313&family=INTELLIJ",
+      "sha256": "1sh/aBzPV8DH45f6Cw4H7rYFAB8HXIgWqVzs3rnUkPE=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.ultimate",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "JSIntentionPowerPack",
+        "JavaScriptDebugger",
+        "NodeJS",
+        "com.intellij.css",
+        "com.intellij.modules.sql",
+        "com.intellij.plugins.html.instantEditing",
+        "com.intellij.plugins.watcher"
+      ],
+      "file_name": "coffeescript-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -26513,6 +26543,7 @@
       "253.27642.30": 879446,
       "253.27864.23": 881631,
       "253.28086.9": 884301,
+      "253.28294.251": 902593,
       "253.28294.51": 889960
     }
   }

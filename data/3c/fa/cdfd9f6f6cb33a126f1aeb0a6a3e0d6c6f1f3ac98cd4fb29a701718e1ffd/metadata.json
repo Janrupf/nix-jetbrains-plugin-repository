@@ -4281,7 +4281,14 @@
       "file_name": "vuejs-212.4746.57.zip",
       "since": "212.4746",
       "until": "212.4746.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.4746",
+          "applies_until": "212.*",
+          "compatible_since": "212.4746",
+          "compatible_until": "212.4746.*"
+        }
+      ]
     },
     "129048": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/129048/vuejs-212.4879.zip?updateId=129048&pluginId=9442&family=INTELLIJ",
@@ -4893,7 +4900,14 @@
       "file_name": "vuejs-212.5080.55.zip",
       "since": "212.5080.50",
       "until": "212.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "212.5080",
+          "applies_until": "212.*",
+          "compatible_since": "212.5080.50",
+          "compatible_until": "212.*"
+        }
+      ]
     },
     "134100": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/134100/vuejs-212.5228.zip?updateId=134100&pluginId=9442&family=INTELLIJ",
@@ -22212,7 +22226,14 @@
       "file_name": "vuejs-233.11799.172.zip",
       "since": "233.11799",
       "until": "233.11799.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.11799",
+          "applies_until": "233.*",
+          "compatible_since": "233.11799",
+          "compatible_until": "233.11799.*"
+        }
+      ]
     },
     "445833": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/445833/vuejs-233.11799.194.zip?updateId=445833&pluginId=9442&family=INTELLIJ",
@@ -22233,7 +22254,14 @@
       "file_name": "vuejs-233.11799.194.zip",
       "since": "233.11799",
       "until": "233.11799.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.11799",
+          "applies_until": "233.*",
+          "compatible_since": "233.11799",
+          "compatible_until": "233.11799.*"
+        }
+      ]
     },
     "448137": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/448137/vuejs-233.11799.232.zip?updateId=448137&pluginId=9442&family=INTELLIJ",
@@ -22254,7 +22282,14 @@
       "file_name": "vuejs-233.11799.232.zip",
       "since": "233.11799",
       "until": "233.11799.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.11799",
+          "applies_until": "233.*",
+          "compatible_since": "233.11799",
+          "compatible_until": "233.11799.*"
+        }
+      ]
     },
     "450012": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/450012/vuejs-233.12844.zip?updateId=450012&pluginId=9442&family=INTELLIJ",
@@ -28843,6 +28878,87 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902912": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/902912/vuejs-plugin-253.28294.249.zip?updateId=902912&pluginId=9442&family=INTELLIJ",
+      "sha256": "wR+M/IwF0twE2RM1qdKCdfel+7M/VvzA3EQPe5Ksp/s=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript"
+      ],
+      "optional_dependencies": [
+        "com.intellij.copyright",
+        "com.intellij.css",
+        "com.intellij.modules.xml",
+        "intellij.javascript.debugger.backend",
+        "intellij.javascript.debugger.ui",
+        "intellij.markdown",
+        "intellij.platform.backend",
+        "intellij.prettierJS",
+        "intellij.spellchecker",
+        "intellij.vuejs.backend",
+        "intellij.vuejs.common",
+        "intellij.webpack",
+        "intellij.xml.parser",
+        "org.intellij.plugins.markdown",
+        "org.intellij.plugins.postcss"
+      ],
+      "file_name": "vuejs-plugin-253.28294.249.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "902932": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/902932/vuejs-252.28238.32.zip?updateId=902932&pluginId=9442&family=INTELLIJ",
+      "sha256": "+Ewj5Y2oxSKzkQ3vj6SJWRDe93JGVImtMFvEpb3SjCc=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.css",
+        "com.intellij.modules.xml",
+        "intellij.spellchecker",
+        "intellij.webpack",
+        "org.intellij.plugins.postcss"
+      ],
+      "optional_dependencies": [
+        "JavaScriptDebugger",
+        "com.intellij.copyright",
+        "intellij.prettierJS",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "vuejs-252.28238.32.zip",
+      "since": "252.28238",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "903092": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9442/903092/vuejs-plugin-253.28294.257.zip?updateId=903092&pluginId=9442&family=INTELLIJ",
+      "sha256": "rabzmfuzOslY0ZWxQ6Sb6qL+sKxYXYMVK27mOMSxdDA=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript"
+      ],
+      "optional_dependencies": [
+        "com.intellij.copyright",
+        "com.intellij.css",
+        "com.intellij.modules.xml",
+        "intellij.javascript.debugger.backend",
+        "intellij.javascript.debugger.ui",
+        "intellij.markdown",
+        "intellij.platform.backend",
+        "intellij.prettierJS",
+        "intellij.spellchecker",
+        "intellij.vuejs.backend",
+        "intellij.vuejs.common",
+        "intellij.webpack",
+        "intellij.xml.parser",
+        "org.intellij.plugins.markdown",
+        "org.intellij.plugins.postcss"
+      ],
+      "file_name": "vuejs-plugin-253.28294.257.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -30352,6 +30468,7 @@
       "252.27397.100": 882542,
       "252.27397.112": 882709,
       "252.27397.41": 879006,
+      "252.28238.32": 902932,
       "253.17525.101": 857876,
       "253.20558.37": 861707,
       "253.20558.46": 861720,
@@ -30365,7 +30482,9 @@
       "253.28086.52": 887380,
       "253.28086.57": 887917,
       "253.28294.163": 895709,
-      "253.28294.175": 896063
+      "253.28294.175": 896063,
+      "253.28294.249": 902912,
+      "253.28294.257": 903092
     }
   }
 }

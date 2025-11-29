@@ -1673,7 +1673,14 @@
       "file_name": "android-compose-ide-plugin-243.21565.214.zip",
       "since": "243.21565",
       "until": "243.21565.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.21565",
+          "applies_until": "243.*",
+          "compatible_since": "243.21565",
+          "compatible_until": "243.21565.*"
+        }
+      ]
     },
     "636641": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18409/636641/android-compose-ide-plugin-243.22562.13.zip?updateId=636641&pluginId=18409&family=INTELLIJ",
@@ -2190,6 +2197,22 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902664": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18409/902664/android-compose-ide-plugin-253.28294.251.zip?updateId=902664&pluginId=18409&family=INTELLIJ",
+      "sha256": "p69WIYXTG+z7zHc8N536Mz7VsFsiWmfrY+CW0lvD+Y8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.json",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "android-compose-ide-plugin-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2348,6 +2371,7 @@
       "253.27642.30": 879373,
       "253.27864.23": 881438,
       "253.28086.51": 887227,
+      "253.28294.251": 902664,
       "253.28294.51": 889874
     }
   }

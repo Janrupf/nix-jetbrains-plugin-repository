@@ -1890,7 +1890,14 @@
       "file_name": "jsr45debug-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772798": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16893/772798/jsr45debug-252.21735.32.zip?updateId=772798&pluginId=16893&family=INTELLIJ",
@@ -2087,6 +2094,20 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902638": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16893/902638/jsr45debug-253.28294.251.zip?updateId=902638&pluginId=16893&family=INTELLIJ",
+      "sha256": "v7fOduxzbGMIK4sbTGVlWWbhQSY11HOO19v+FpBtiiA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.javaee",
+        "com.intellij.javaee.app.servers.integration"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jsr45debug-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2243,6 +2264,7 @@
       "253.27642.30": 879430,
       "253.27864.23": 881597,
       "253.28086.51": 887225,
+      "253.28294.251": 902638,
       "253.28294.51": 889936
     }
   }

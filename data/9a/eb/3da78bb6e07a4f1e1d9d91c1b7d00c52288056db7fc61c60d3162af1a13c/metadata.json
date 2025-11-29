@@ -18,7 +18,14 @@
       "file_name": "notebooks-core-242.20224.89.zip",
       "since": "242.20224",
       "until": "242.20224.89",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.20224",
+          "applies_until": "242.20224.*",
+          "compatible_since": "242.20224",
+          "compatible_until": "242.20224.89"
+        }
+      ]
     },
     "573921": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24880/573921/notebooks-core-242.20224.96.zip?updateId=573921&pluginId=24880&family=INTELLIJ",
@@ -36,7 +43,14 @@
       "file_name": "notebooks-core-242.20224.96.zip",
       "since": "242.20224",
       "until": "242.20224.89",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.20224",
+          "applies_until": "242.20224.*",
+          "compatible_since": "242.20224",
+          "compatible_until": "242.20224.89"
+        }
+      ]
     },
     "573984": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24880/573984/notebooks-core-242.20224.99.zip?updateId=573984&pluginId=24880&family=INTELLIJ",
@@ -54,7 +68,14 @@
       "file_name": "notebooks-core-242.20224.99.zip",
       "since": "242.20224",
       "until": "242.20224.89",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.20224",
+          "applies_until": "242.20224.*",
+          "compatible_since": "242.20224",
+          "compatible_until": "242.20224.89"
+        }
+      ]
     },
     "574323": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24880/574323/notebooks-core-242.20224.106.zip?updateId=574323&pluginId=24880&family=INTELLIJ",
@@ -3379,6 +3400,52 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "902581": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24880/902581/notebooks-plugin-253.28294.251.zip?updateId=902581&pluginId=24880&family=INTELLIJ",
+      "sha256": "/lv9O9160WU62E19oZgnpwFlWsmKu6oNG+bCXJy6Png=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.charts",
+        "intellij.grid.core.impl",
+        "intellij.grid.csv.core.impl",
+        "intellij.grid.impl",
+        "intellij.notebooks.jupyter.core",
+        "intellij.notebooks.ui",
+        "intellij.platform.searchEverywhere",
+        "intellij.scientific.tables",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "notebooks-plugin-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "902862": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24880/902862/notebooks-plugin-253.28294.252.zip?updateId=902862&pluginId=24880&family=INTELLIJ",
+      "sha256": "183ukhzUU/I/nN2SE61ysgYPMOicWQOp0Xb1EamTKnQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.charts",
+        "intellij.grid.core.impl",
+        "intellij.grid.csv.core.impl",
+        "intellij.grid.impl",
+        "intellij.notebooks.jupyter.core",
+        "intellij.notebooks.ui",
+        "intellij.platform.searchEverywhere",
+        "intellij.scientific.tables",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "notebooks-plugin-253.28294.252.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3552,6 +3619,8 @@
       "253.28294.169": 895631,
       "253.28294.170": 895993,
       "253.28294.218": 899660,
+      "253.28294.251": 902581,
+      "253.28294.252": 902862,
       "253.28294.51": 890070,
       "253.28294.86": 891237
     }

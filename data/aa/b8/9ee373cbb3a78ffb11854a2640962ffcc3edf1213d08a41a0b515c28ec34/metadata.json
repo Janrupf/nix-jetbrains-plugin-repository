@@ -13,7 +13,14 @@
       "file_name": "com.intellij.aspectj_8941.zip",
       "since": "95.521",
       "until": "181.0",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "95.521",
+          "applies_until": "96.0",
+          "compatible_since": "95.521",
+          "compatible_until": "181.0"
+        }
+      ]
     },
     "120964": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/4679/120964/aspectj-212.3116.43.zip?updateId=120964&pluginId=4679&family=INTELLIJ",
@@ -2804,6 +2811,24 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902660": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/4679/902660/aspectj-253.28294.251.zip?updateId=902660&pluginId=4679&family=INTELLIJ",
+      "sha256": "1uEX3QV7nEzezDJKvf4J/sHaOfx41D7EMjq+0EYewGQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.aop",
+        "com.intellij.java",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "com.intellij.copyright",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "aspectj-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2967,6 +2992,7 @@
       "253.27642.30": 879369,
       "253.27864.23": 881663,
       "253.28086.51": 887112,
+      "253.28294.251": 902660,
       "253.28294.51": 889940
     }
   }

@@ -518,7 +518,14 @@
       "file_name": "uiDesigner-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772807": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25304/772807/uiDesigner-252.21735.32.zip?updateId=772807&pluginId=25304&family=INTELLIJ",
@@ -904,6 +911,21 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902625": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25304/902625/uiDesigner-253.28294.251.zip?updateId=902625&pluginId=25304&family=INTELLIJ",
+      "sha256": "0/EcYLywjkaAuY60qJ+sIvC/Sqsr5AJp0ZufXATvwug=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java-i18n",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [],
+      "file_name": "uiDesigner-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -974,6 +996,7 @@
       "253.27642.30": 879414,
       "253.27864.23": 881447,
       "253.28086.51": 887271,
+      "253.28294.251": 902625,
       "253.28294.51": 889912
     }
   }

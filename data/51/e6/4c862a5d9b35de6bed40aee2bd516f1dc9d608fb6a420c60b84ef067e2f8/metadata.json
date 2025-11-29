@@ -602,7 +602,14 @@
       "file_name": "profiler-cvp-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772808": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23550/772808/profiler-cvp-252.21735.32.zip?updateId=772808&pluginId=23550&family=INTELLIJ",
@@ -799,6 +806,20 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902671": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23550/902671/profiler-cvp-253.28294.251.zip?updateId=902671&pluginId=23550&family=INTELLIJ",
+      "sha256": "vnfVH8htwZmPupCkFmDO0omEGnXmmw+4wIGNPghsA90=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.profiler.common"
+      ],
+      "optional_dependencies": [],
+      "file_name": "profiler-cvp-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -863,6 +884,7 @@
       "253.27642.30": 879503,
       "253.27864.23": 881615,
       "253.28086.51": 887167,
+      "253.28294.251": 902671,
       "253.28294.51": 889815
     }
   }

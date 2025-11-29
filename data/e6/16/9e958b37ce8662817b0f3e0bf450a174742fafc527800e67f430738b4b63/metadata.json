@@ -260,7 +260,14 @@
       "file_name": "Docker-plugin.jar",
       "since": "143.999",
       "until": "143.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "143.999",
+          "applies_until": "144.2925",
+          "compatible_since": "143.999",
+          "compatible_until": "143.*"
+        }
+      ]
     },
     "23786": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/23786/Docker-plugin.jar?updateId=23786&pluginId=7724&family=INTELLIJ",
@@ -1128,7 +1135,14 @@
       "file_name": "Docker-191.4212.41.zip",
       "since": "191.4212",
       "until": "191.4212",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.4212",
+          "applies_until": "191.*",
+          "compatible_since": "191.4212",
+          "compatible_until": "191.4212"
+        }
+      ]
     },
     "54759": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/54759/Docker-191.4738.6.zip?updateId=54759&pluginId=7724&family=INTELLIJ",
@@ -1148,7 +1162,14 @@
       "file_name": "Docker-191.4738.6.zip",
       "since": "191.4738",
       "until": "191.4738",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.4738",
+          "applies_until": "191.*",
+          "compatible_since": "191.4738",
+          "compatible_until": "191.4738"
+        }
+      ]
     },
     "57845": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/57845/Docker-191.5109.14.zip?updateId=57845&pluginId=7724&family=INTELLIJ",
@@ -12313,7 +12334,14 @@
       "file_name": "clouds-docker-impl-243.22562.236.zip",
       "since": "243.22562",
       "until": "243.22562.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.22562",
+          "applies_until": "243.*",
+          "compatible_since": "243.22562",
+          "compatible_until": "243.22562.*"
+        }
+      ]
     },
     "665635": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/665635/clouds-docker-impl-251.14649.49.zip?updateId=665635&pluginId=7724&family=INTELLIJ",
@@ -15653,6 +15681,99 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "902738": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/902738/clouds-docker-impl-252.28238.29.zip?updateId=902738&pluginId=7724&family=INTELLIJ",
+      "sha256": "GE0VNdXpQGxhrt7X1DMR1+3wUJ2vRIhlszsxTDzZem4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ktor.client",
+        "intellij.platform.backend"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.ssh",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.shared",
+        "intellij.platform.clouds",
+        "intellij.platform.frontend.split",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "clouds-docker-impl-252.28238.29.zip",
+      "since": "252.28238",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "903093": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/903093/clouds-docker-impl-253.28294.257.zip?updateId=903093&pluginId=7724&family=INTELLIJ",
+      "sha256": "BrHyNt2o4X3hS+bPDljVPWqM+neciTtdAjiSQT6U+ik=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.clouds.docker.agent",
+        "intellij.clouds.docker.dependencies",
+        "intellij.libraries.guava",
+        "intellij.libraries.jackson.dataformat.yaml",
+        "intellij.libraries.javax.activation",
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.ktor.client",
+        "intellij.platform.execution.serviceView"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.ssh",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.file",
+        "intellij.clouds.docker.shared",
+        "intellij.platform.backend",
+        "intellij.platform.clouds",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "clouds-docker-impl-253.28294.257.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "903124": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/903124/clouds-docker-impl-252.28238.33.zip?updateId=903124&pluginId=7724&family=INTELLIJ",
+      "sha256": "UslTDCBIbfXOol86+wvZoaKvzBGF7l22bRbzu0tzUOs=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ktor.client",
+        "intellij.platform.backend"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.ssh",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.shared",
+        "intellij.platform.clouds",
+        "intellij.platform.frontend.split",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.spellchecker",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "clouds-docker-impl-252.28238.33.zip",
+      "since": "252.28238",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -16435,6 +16556,8 @@
       "252.27397.112": 882712,
       "252.27397.129": 884806,
       "252.27397.41": 879009,
+      "252.28238.29": 902738,
+      "252.28238.33": 903124,
       "252.28238.7": 896614,
       "252.28238.9": 896667,
       "253.17525.99": 857957,
@@ -16453,6 +16576,7 @@
       "253.28294.163": 895698,
       "253.28294.166": 896132,
       "253.28294.218": 899602,
+      "253.28294.257": 903093,
       "253.28294.90": 891767,
       "3.0.0": 36829,
       "3.0.1": 37263

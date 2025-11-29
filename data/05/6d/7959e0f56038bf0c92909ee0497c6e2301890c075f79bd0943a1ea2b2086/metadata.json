@@ -78,7 +78,14 @@
       "file_name": "localstack-plugin-2024.4.1.zip",
       "since": "222.0",
       "until": "242.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.0",
+          "applies_until": "243.*",
+          "compatible_since": "222.0",
+          "compatible_until": "242.*"
+        }
+      ]
     },
     "622392": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22223/622392/localstack-plugin-2024.4.2.zip?updateId=622392&pluginId=22223&family=INTELLIJ",

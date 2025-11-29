@@ -609,7 +609,14 @@
       "file_name": "jvm-dfa-analysis-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772851": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25724/772851/jvm-dfa-analysis-252.21735.32.zip?updateId=772851&pluginId=25724&family=INTELLIJ",
@@ -723,7 +730,14 @@
       "file_name": "jvm-dfa-analysis-252.23892.248.zip",
       "since": "252.23892.248",
       "until": "252.23892.248",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.23892",
+          "applies_until": "252.23892.*",
+          "compatible_since": "252.23892.248",
+          "compatible_until": "252.23892.248"
+        }
+      ]
     },
     "809092": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25724/809092/jvm-dfa-analysis-252.23892.360.zip?updateId=809092&pluginId=25724&family=INTELLIJ",
@@ -746,7 +760,14 @@
       "file_name": "jvm-dfa-analysis-252.23892.360.zip",
       "since": "252.23892.360",
       "until": "252.23892.360",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.23892",
+          "applies_until": "999.99999",
+          "compatible_since": "252.23892.360",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "817170": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25724/817170/jvm-dfa-analysis-252.23892.409.zip?updateId=817170&pluginId=25724&family=INTELLIJ",
@@ -769,7 +790,14 @@
       "file_name": "jvm-dfa-analysis-252.23892.409.zip",
       "since": "252.23892.409",
       "until": "252.23892.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.23892",
+          "applies_until": "999.99999",
+          "compatible_since": "252.23892.409",
+          "compatible_until": "999.99999"
+        }
+      ]
     },
     "827468": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25724/827468/jvm-dfa-analysis-252.25557.23.zip?updateId=827468&pluginId=25724&family=INTELLIJ",
@@ -1023,6 +1051,29 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902656": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25724/902656/jvm-dfa-analysis-253.28294.251.zip?updateId=902656&pluginId=25724&family=INTELLIJ",
+      "sha256": "zraVQk6QaJwnanwVL2UZxp1klseJbogzOv0X0STmUyE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.jvm.dfa.analysis.ui"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.kotlin.k2",
+        "intellij.javaee.persistence.impl/intelliLang",
+        "intellij.jvm.dfa.analysis.inspections",
+        "intellij.jvm.dfa.analysis.java",
+        "intellij.jvm.dfa.analysis.lang",
+        "intellij.qodana.sarif",
+        "org.intellij.qodana",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jvm-dfa-analysis-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1073,6 +1124,7 @@
       "253.27642.30": 879381,
       "253.27864.23": 881498,
       "253.28086.51": 887118,
+      "253.28294.251": 902656,
       "253.28294.51": 890076
     }
   }

@@ -1016,7 +1016,14 @@
       "file_name": "jdbi-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772769": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22070/772769/jdbi-252.21735.32.zip?updateId=772769&pluginId=22070&family=INTELLIJ",
@@ -1276,6 +1283,25 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902559": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22070/902559/jdbi-253.28294.251.zip?updateId=902559&pluginId=22070&family=INTELLIJ",
+      "sha256": "3t57SlN8L4Kttx6xXj9SVZHlLNnF14L5toKA8b5rBqY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.langInjection"
+      ],
+      "optional_dependencies": [
+        "intellij.spring",
+        "intellij.spring.core"
+      ],
+      "file_name": "jdbi-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1355,6 +1381,7 @@
       "253.27642.30": 879374,
       "253.27864.23": 881444,
       "253.28086.51": 887169,
+      "253.28294.251": 902559,
       "253.28294.51": 889757
     }
   }

@@ -66,7 +66,14 @@
       "file_name": "ktor-plugin-1.5.1-eap-1.zip",
       "since": "203.0",
       "until": "203.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "203.0",
+          "applies_until": "211.*",
+          "compatible_since": "203.0",
+          "compatible_until": "203.*"
+        }
+      ]
     },
     "113549": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/113549/ktor-plugin-1.5.1-eap-2_ij211.zip?updateId=113549&pluginId=16008&family=INTELLIJ",
@@ -108,7 +115,14 @@
       "file_name": "ktor-plugin-1.5.3.zip",
       "since": "211.0",
       "until": "211.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "211.0",
+          "applies_until": "212.*",
+          "compatible_since": "211.0",
+          "compatible_until": "211.*"
+        }
+      ]
     },
     "121701": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/121701/ktor-plugin-1.5.5.zip?updateId=121701&pluginId=16008&family=INTELLIJ",
@@ -1292,6 +1306,36 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902536": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/902536/ktor-253.28294.251.zip?updateId=902536&pluginId=16008&family=INTELLIJ",
+      "sha256": "qdz6N8qFSZyp48ejCK8jXjeGDutmaafmPtQZ4nIrbf0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.jetbrains",
+        "com.intellij.properties",
+        "intellij.json.backend",
+        "intellij.platform.execution.dashboard.backend",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "com.intellij.swagger",
+        "intellij.microservices.jvm/yamlconfig",
+        "intellij.yaml.backend",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.idea.gradle.dsl",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "ktor-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1347,6 +1391,7 @@
       "253.27642.30": 879472,
       "253.27864.23": 881510,
       "253.28086.51": 887129,
+      "253.28294.251": 902536,
       "253.28294.51": 889875
     }
   }

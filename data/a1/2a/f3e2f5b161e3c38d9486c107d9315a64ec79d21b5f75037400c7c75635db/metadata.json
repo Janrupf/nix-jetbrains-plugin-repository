@@ -3017,7 +3017,14 @@
       "file_name": "helidon-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772809": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16874/772809/helidon-252.21735.32.zip?updateId=772809&pluginId=16874&family=INTELLIJ",
@@ -3382,6 +3389,32 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902680": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16874/902680/helidon-253.28294.251.zip?updateId=902680&pluginId=16874&family=INTELLIJ",
+      "sha256": "CMyx7Sp19kXTsomHfABLiHcht10EIDCSW+2T3GdH1rU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.cdi",
+        "com.intellij.java",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.modules.ultimate",
+        "com.intellij.properties",
+        "intellij.json.backend",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "intellij.microservices.jvm/yamlconfig",
+        "intellij.yaml.backend",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "helidon-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3548,6 +3581,7 @@
       "253.27642.30": 879435,
       "253.27864.23": 881412,
       "253.28086.51": 887283,
+      "253.28294.251": 902680,
       "253.28294.51": 889823
     }
   }

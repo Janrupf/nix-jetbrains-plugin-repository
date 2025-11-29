@@ -1892,7 +1892,14 @@
       "file_name": "copyright-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772729": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/13114/772729/copyright-252.21735.32.zip?updateId=772729&pluginId=13114&family=INTELLIJ",
@@ -2453,6 +2460,38 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "902666": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13114/902666/copyright-253.28294.251.zip?updateId=902666&pluginId=13114&family=INTELLIJ",
+      "sha256": "ZGsuZqCSoF1c5CVQ6BkcwpwkPDw4HXL7onPWHAYxv60=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.vcs.impl"
+      ],
+      "file_name": "copyright-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "903135": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13114/903135/copyright-252.28238.33.zip?updateId=903135&pluginId=13114&family=INTELLIJ",
+      "sha256": "7QR7fZrZgxhMyRyC3KPp+bRp4DzK/zPTMqyHWzSMf/U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.vcs.impl"
+      ],
+      "file_name": "copyright-252.28238.33.zip",
+      "since": "252.28238",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2613,6 +2652,7 @@
       "252.26199.73": 854455,
       "252.26830.46": 870139,
       "252.26830.84": 870925,
+      "252.28238.33": 903135,
       "253.17525.95": 857623,
       "253.20558.12": 858439,
       "253.20558.43": 861457,
@@ -2628,6 +2668,7 @@
       "253.28086.51": 887193,
       "253.28294.169": 895653,
       "253.28294.218": 899625,
+      "253.28294.251": 902666,
       "253.28294.51": 889772,
       "253.28294.90": 891757
     }

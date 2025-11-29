@@ -1224,7 +1224,14 @@
       "file_name": "Glassfish-252.19874.12.zip",
       "since": "252.19874",
       "until": "252.19874.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.19874",
+          "compatible_until": "252.19874.*"
+        }
+      ]
     },
     "772717": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20220/772717/Glassfish-252.21735.32.zip?updateId=772717&pluginId=20220&family=INTELLIJ",
@@ -1435,6 +1442,21 @@
       "since": "253.28294",
       "until": "253.28294.*",
       "compatibility_overrides": []
+    },
+    "902580": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20220/902580/Glassfish-253.28294.251.zip?updateId=902580&pluginId=20220&family=INTELLIJ",
+      "sha256": "JYsu6NEOj/IkV1bk+SQqQF3XF7qdxKS2E/hw1WkJy78=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.javaee",
+        "com.intellij.javaee.app.servers.integration",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Glassfish-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1538,6 +1560,7 @@
       "253.27642.30": 879413,
       "253.27864.23": 881523,
       "253.28086.51": 887243,
+      "253.28294.251": 902580,
       "253.28294.51": 889951
     }
   }
