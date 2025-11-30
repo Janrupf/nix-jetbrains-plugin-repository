@@ -273,14 +273,7 @@
       "file_name": "ReSharperPlugin.MvvmPlugin-1.0.0.243.zip",
       "since": "243.21565",
       "until": "243.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "243.21565",
-          "applies_until": "999.99999",
-          "compatible_since": "243.21565",
-          "compatible_until": "243.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "712465": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26397/712465/ReSharperPlugin.MvvmPlugin-1.0.1.251.zip?updateId=712465&pluginId=26397&family=INTELLIJ",
@@ -293,14 +286,7 @@
       "file_name": "ReSharperPlugin.MvvmPlugin-1.0.1.251.zip",
       "since": "251",
       "until": null,
-      "compatibility_overrides": [
-        {
-          "applies_since": "251.23774",
-          "applies_until": "999.99999",
-          "compatible_since": "251",
-          "compatible_until": "999.99999"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "712472": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26397/712472/ReSharperPlugin.MvvmPlugin-1.0.1.243.zip?updateId=712472&pluginId=26397&family=INTELLIJ",
@@ -313,14 +299,7 @@
       "file_name": "ReSharperPlugin.MvvmPlugin-1.0.1.243.zip",
       "since": "243",
       "until": "243.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "243.21565",
-          "applies_until": "999.99999",
-          "compatible_since": "243",
-          "compatible_until": "243.*"
-        }
-      ]
+      "compatibility_overrides": []
     },
     "724499": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26397/724499/ReSharperPlugin.MvvmPlugin-1.0.2.251.zip?updateId=724499&pluginId=26397&family=INTELLIJ",
@@ -345,6 +324,19 @@
       "optional_dependencies": [],
       "file_name": "ReSharperPlugin.MvvmPlugin-1.1.0.251.zip",
       "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "904043": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26397/904043/ReSharperPlugin.MvvmPlugin-1.2.0.253-alpha1.zip?updateId=904043&pluginId=26397&family=INTELLIJ",
+      "sha256": "Q+LJaoS2sT+UeYZHQyX93SRaMlhhMcyxuJlZkWpP7Og=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ReSharperPlugin.MvvmPlugin-1.2.0.253-alpha1.zip",
+      "since": "253.28294",
       "until": null,
       "compatibility_overrides": []
     }
@@ -375,7 +367,8 @@
       "1.0.1.243": 712472,
       "1.0.1.251": 712465,
       "1.0.2.251": 724499,
-      "1.1.0.251": 727170
+      "1.1.0.251": 727170,
+      "1.2.0.253-alpha1": 904043
     }
   }
 }

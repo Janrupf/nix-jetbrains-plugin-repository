@@ -91,14 +91,20 @@
       "file_name": "globalmenu-1.2.3.zip",
       "since": "252.1",
       "until": "252.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "243.0",
-          "applies_until": "999.99999",
-          "compatible_since": "252.1",
-          "compatible_until": "999.99999"
-        }
-      ]
+      "compatibility_overrides": []
+    },
+    "904007": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25530/904007/globalmenu-1.2.4.zip?updateId=904007&pluginId=25530&family=INTELLIJ",
+      "sha256": "LxbMx+MxmkQ3FAdGZi084SBXUdQXPGVHuAqaiVMkTxo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "globalmenu-1.2.4.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -109,7 +115,8 @@
       "1.2.0": 648005,
       "1.2.1": 667742,
       "1.2.2": 820001,
-      "1.2.3": 843501
+      "1.2.3": 843501,
+      "1.2.4": 904007
     }
   }
 }

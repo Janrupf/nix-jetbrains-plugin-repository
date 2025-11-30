@@ -17,11 +17,28 @@
       "since": "223.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "903706": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29155/903706/intelli-ai-tracer-1.1.0-signed.zip?updateId=903706&pluginId=29155&family=INTELLIJ",
+      "sha256": "+m6pbsHocwqd7YIWht7T0dbVB3p2YCxv6h2drYcKSQU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-tracer-1.1.0-signed.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 901243
+      "1.0.0": 901243,
+      "1.1.0": 903706
     }
   }
 }

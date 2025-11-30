@@ -16,11 +16,27 @@
       "since": "223.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "903708": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29156/903708/intelli-ai-nacos-1.1.0-signed.zip?updateId=903708&pluginId=29156&family=INTELLIJ",
+      "sha256": "02JwUIoVUESuilkCpzrFGQyfAd7DSyhxfyMQ/B4w2EM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-nacos-1.1.0-signed.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 901244
+      "1.0.0": 901244,
+      "1.1.0": 903708
     }
   }
 }
