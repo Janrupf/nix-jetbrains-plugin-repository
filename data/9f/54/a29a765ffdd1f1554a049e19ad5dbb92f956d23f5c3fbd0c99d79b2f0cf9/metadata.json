@@ -43,9 +43,26 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "904811": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29101/904811/codex-chat-plugin-2.0.0.zip?updateId=904811&pluginId=29101&family=INTELLIJ",
+      "sha256": "YFMMpIk6LkQPz3lergmDIAISOexWlGf7PS+gbi3jOi8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codex-chat-plugin-2.0.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "2.0.0": 904811
+    },
     "stable": {
       "1.0.5": 899252,
       "1.0.6": 900080,

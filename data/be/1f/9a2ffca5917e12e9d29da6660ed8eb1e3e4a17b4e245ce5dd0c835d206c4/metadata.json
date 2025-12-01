@@ -1,6 +1,38 @@
 {
   "xml_id": "plus.jdk.renamify",
   "numeric_id": 29047,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "903403": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29047/903403/renamify-1.0.3.zip?updateId=903403&pluginId=29047&family=INTELLIJ",
+      "sha256": "+/1nLarSatQDZx6QO1CIu36Ejq/+uHXU3jK42MYyo4Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "renamify-1.0.3.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "904199": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29047/904199/renamify-1.0.4.zip?updateId=904199&pluginId=29047&family=INTELLIJ",
+      "sha256": "x58reRjncbrGK7eeqc+fgSm+DTBp6ixuzvsd8VhFV3c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "renamify-1.0.4.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.3": 903403,
+      "1.0.4": 904199
+    }
+  }
 }

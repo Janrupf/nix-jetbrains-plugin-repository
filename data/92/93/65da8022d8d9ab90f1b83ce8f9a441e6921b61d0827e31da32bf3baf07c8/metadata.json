@@ -15,11 +15,26 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "904548": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29089/904548/opencode-jetbrains-v25.11.30.zip?updateId=904548&pluginId=29089&family=INTELLIJ",
+      "sha256": "CQEoDrsRrlWAVUgPbbbWhOfnubWBLp4FNNO0ZVjeTk8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "opencode-jetbrains-v25.11.30.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "25.11.24": 898897
+      "25.11.24": 898897,
+      "25.11.30": 904548
     }
   }
 }
