@@ -16,11 +16,27 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "905167": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29196/905167/SI_validator-1.0.1.zip?updateId=905167&pluginId=29196&family=INTELLIJ",
+      "sha256": "fV3DWkilbyCqP+Z8Hgw2f26L6WrqdJMeYBdMK522ZZY=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SI_validator-1.0.1.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0": 904019
+      "1.0": 904019,
+      "1.0.1": 905167
     }
   }
 }
