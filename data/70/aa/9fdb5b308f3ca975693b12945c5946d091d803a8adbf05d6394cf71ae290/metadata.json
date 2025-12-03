@@ -1,6 +1,25 @@
 {
   "xml_id": "com.stationdm.tool",
   "numeric_id": 29187,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "905563": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29187/905563/intelliJ-idea-deploy-plugin-1.0.6.jar?updateId=905563&pluginId=29187&family=INTELLIJ",
+      "sha256": "k3Cm2tcZuiuckYsqlomGNXVa+iAIej2AowM8vfe/VJg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelliJ-idea-deploy-plugin-1.0.6.jar",
+      "since": "222.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.6": 905563
+    }
+  }
 }
