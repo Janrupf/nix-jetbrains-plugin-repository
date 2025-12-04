@@ -48,11 +48,28 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "906550": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/906550/pytest-language-server-0.11.0.zip?updateId=906550&pluginId=29056&family=INTELLIJ",
+      "sha256": "3QJ/zY6sv3IT7bEmJPz5c7iwJm+68gr2VUfJnvL9cOQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pytest-language-server-0.11.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.10.0": 897207,
+      "0.11.0": 906550,
       "0.7.2": 895718,
       "0.9.0": 896169
     }

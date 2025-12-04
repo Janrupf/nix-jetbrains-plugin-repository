@@ -481,11 +481,46 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "906554": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14202/906554/pytest_imp-1.3.4.zip?updateId=906554&pluginId=14202&family=INTELLIJ",
+      "sha256": "tGEWVZxkKwRwSUvZjR0Ll5HAwtwvouQVxNX7uEEDQjs=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "intellij.commandInterface"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pytest_imp-1.3.4.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "906580": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14202/906580/pytest_imp-1.3.4.zip?updateId=906580&pluginId=14202&family=INTELLIJ",
+      "sha256": "tGEWVZxkKwRwSUvZjR0Ll5HAwtwvouQVxNX7uEEDQjs=",
+      "channel": "eap",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "intellij.commandInterface"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pytest_imp-1.3.4.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "0.1.4": 87172
+      "0.1.4": 87172,
+      "1.3.4": 906580
     },
     "stable": {
       "0.2": 95765,
@@ -516,7 +551,8 @@
       "1.2.0": 546713,
       "1.2.1": 552557,
       "1.3.1": 643815,
-      "1.3.3": 858693
+      "1.3.3": 858693,
+      "1.3.4": 906554
     }
   }
 }
