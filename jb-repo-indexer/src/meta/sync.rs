@@ -93,9 +93,12 @@ pub(super) async fn sync_plugin(
             .await?
         {
             // We were the ones marking it as not stale, so we need to sync it
+            let force_download = attachment
+                .force_download_hash
+                .contains(&known_plugin.xml_id);
             attachment.dispatch(
                 format!("sync update metadata for {}", version.update_id),
-                sync_update_meta(attachment.clone(), version.update_id),
+                sync_update_meta(attachment.clone(), version.update_id, force_download),
             );
         }
     }
@@ -170,7 +173,11 @@ async fn sync_update_dependency_meta(
 }
 
 #[tracing::instrument(skip(attachment))]
-async fn sync_update_meta(attachment: TaskAttachment, update_id: u64) -> Result<(), IndexerError> {
+async fn sync_update_meta(
+    attachment: TaskAttachment,
+    update_id: u64,
+    force_download: bool,
+) -> Result<(), IndexerError> {
     let (download_info, mut cached_update) = tokio::try_join!(
         attachment.repo.resolve_update_download_info(update_id),
         attachment.database.get_update(update_id)
@@ -183,7 +190,7 @@ async fn sync_update_meta(attachment: TaskAttachment, update_id: u64) -> Result<
 
     let hash_info = attachment
         .repo
-        .hash_download_url(&download_info.url)
+        .hash_download_url(&download_info.url, force_download)
         .await?;
 
     cached_update.etag = download_info.etag;

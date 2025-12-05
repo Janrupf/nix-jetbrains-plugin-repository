@@ -174,75 +174,85 @@ impl JetbrainsRepoApi {
         })
     }
 
-    #[tracing::instrument(skip_all, fields(url = url.as_str()))]
-    pub async fn hash_download_url(&self, url: &Url) -> Result<RepoDownloadHash, IndexerError> {
+    /// Compute the hash of a download URL.
+    ///
+    /// If `force_download` is false, tries to use JetBrains' pre-computed .hash.json files first.
+    /// If `force_download` is true, always downloads the actual file and computes the hash.
+    #[tracing::instrument(skip_all, fields(url = url.as_str(), force_download))]
+    pub async fn hash_download_url(
+        &self,
+        url: &Url,
+        force_download: bool,
+    ) -> Result<RepoDownloadHash, IndexerError> {
         #[derive(serde::Deserialize)]
         struct DownloadHashData {
             algorithm: String,
             hash: String,
         }
 
-        // First attempt: append .hash.json to the URL path
+        // Try pre-computed hash first (unless force_download is set)
+        if !force_download {
+            let mut hash_url = url.clone();
+            hash_url.set_path(&(url.path().to_owned() + ".hash.json"));
 
-        let mut hash_url = url.clone();
-        hash_url.set_path(&(url.path().to_owned() + ".hash.json"));
+            let permit = self.acquire_small_permit().await;
+            let response = self.client.get(hash_url).send().await?;
 
-        let permit = self.acquire_small_permit().await;
-        let response = self.client.get(hash_url).send().await?;
+            if !matches!(
+                response.status(),
+                StatusCode::NOT_FOUND | StatusCode::BAD_REQUEST | StatusCode::FORBIDDEN
+            ) {
+                // Use pre-computed hash
+                let data = response.bytes().await?;
+                drop(permit);
 
-        let hash = if matches!(
-            response.status(),
-            StatusCode::NOT_FOUND | StatusCode::BAD_REQUEST | StatusCode::FORBIDDEN
-        ) {
+                let data: DownloadHashData =
+                    serde_json::from_slice(&data).map_err(IndexerError::from)?;
+                let decoded = BASE64_STANDARD.decode(&data.hash)?;
+
+                return Ok(RepoDownloadHash {
+                    algorithm: data.algorithm,
+                    value: decoded,
+                });
+            }
+
             drop(permit);
-            // Fallback: Download the file and hash it ourselves
 
             tracing::warn!(
                 "Falling back to manual hashing for {} because we got status {}",
                 url,
                 response.status().as_str()
             );
-
-            let permit = self
-                .large_request_semaphore
-                .clone()
-                .acquire_owned()
-                .await
-                .unwrap();
-
-            let mut hasher = sha2::Sha256::new();
-
-            let mut response = self
-                .client
-                .get(url.clone())
-                .send()
-                .await?
-                .error_for_status()?;
-            while let Some(chunk) = response.chunk().await? {
-                hasher.update(&chunk);
-            }
-
-            drop(permit);
-
-            RepoDownloadHash {
-                algorithm: "SHA-256".to_owned(),
-                value: hasher.finalize().to_vec(),
-            }
         } else {
-            let data = response.bytes().await?;
-            drop(permit);
+            tracing::info!("Force downloading {} to compute hash", url);
+        }
 
-            let data: DownloadHashData =
-                serde_json::from_slice(&data).map_err(IndexerError::from)?;
-            let decoded = BASE64_STANDARD.decode(&data.hash)?;
+        // Download the file and hash it ourselves
+        let permit = self
+            .large_request_semaphore
+            .clone()
+            .acquire_owned()
+            .await
+            .unwrap();
 
-            RepoDownloadHash {
-                algorithm: data.algorithm,
-                value: decoded,
-            }
-        };
+        let mut hasher = sha2::Sha256::new();
 
-        Ok(hash)
+        let mut response = self
+            .client
+            .get(url.clone())
+            .send()
+            .await?
+            .error_for_status()?;
+        while let Some(chunk) = response.chunk().await? {
+            hasher.update(&chunk);
+        }
+
+        drop(permit);
+
+        Ok(RepoDownloadHash {
+            algorithm: "SHA-256".to_owned(),
+            value: hasher.finalize().to_vec(),
+        })
     }
 
     #[tracing::instrument(skip(self))]

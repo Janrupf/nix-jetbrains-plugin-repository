@@ -10,14 +10,17 @@ use crate::statistics::{Statistics, StatisticsCollector, StatisticsSender};
 use futures::StreamExt;
 use std::collections::HashSet;
 use std::path::PathBuf;
+use std::sync::Arc;
 use tokio_util::task::TaskTracker;
 
 #[derive(Clone)]
 pub struct TaskAttachment {
-    database: Database,
-    repo: JetbrainsRepoApi,
+    pub database: Database,
+    pub repo: JetbrainsRepoApi,
     tracker: TaskTracker,
     statistics_sender: StatisticsSender,
+    /// Set of plugin XML IDs for which hash computation should bypass .hash.json files
+    pub force_download_hash: Arc<HashSet<String>>,
 }
 
 impl TaskAttachment {
@@ -46,6 +49,7 @@ pub struct MetadataProcessor {
     output_directory: PathBuf,
     sync_only: Vec<String>,
     invalidate_hashes: Vec<String>,
+    force_download_hash: HashSet<String>,
 }
 
 impl MetadataProcessor {
@@ -55,12 +59,16 @@ impl MetadataProcessor {
         let repo = JetbrainsRepoApi::new(args)?;
         let output_directory = args.output_directory.clone();
 
-        // Merge invalidate_hashes into sync_only for generation
-        // (invalidated plugins should also be regenerated)
+        // Merge invalidate_hashes and force_download_hash into sync_only for generation
+        // (these plugins should also be regenerated)
         let mut effective_sync_only = args.sync_only.clone();
         effective_sync_only.extend(args.invalidate_hashes.iter().cloned());
+        effective_sync_only.extend(args.force_download_hash.iter().cloned());
         effective_sync_only.sort();
         effective_sync_only.dedup();
+
+        let force_download_hash: HashSet<String> =
+            args.force_download_hash.iter().cloned().collect();
 
         Ok(Self {
             database,
@@ -68,6 +76,7 @@ impl MetadataProcessor {
             output_directory,
             sync_only: effective_sync_only,
             invalidate_hashes: args.invalidate_hashes.clone(),
+            force_download_hash,
         })
     }
 
@@ -200,6 +209,7 @@ impl MetadataProcessor {
             repo: self.repo.clone(),
             tracker: TaskTracker::new(),
             statistics_sender,
+            force_download_hash: Arc::new(self.force_download_hash.clone()),
         }
     }
 

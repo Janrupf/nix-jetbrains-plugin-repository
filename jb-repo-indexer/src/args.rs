@@ -34,4 +34,9 @@ pub struct IndexerArgs {
     /// Clears cached ETags and hashes, then normal sync will re-download.
     #[arg(long, action = clap::ArgAction::Append)]
     pub invalidate_hashes: Vec<String>,
+
+    /// Force hash computation by downloading actual files instead of using pre-computed hashes.
+    /// By default, the indexer uses JetBrains' .hash.json files when available.
+    #[arg(long, action = clap::ArgAction::Append)]
+    pub force_download_hash: Vec<String>,
 }
