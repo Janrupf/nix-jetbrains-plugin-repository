@@ -45,6 +45,7 @@ pub struct MetadataProcessor {
     repo: JetbrainsRepoApi,
     output_directory: PathBuf,
     sync_only: Vec<String>,
+    invalidate_hashes: Vec<String>,
 }
 
 impl MetadataProcessor {
@@ -54,12 +55,34 @@ impl MetadataProcessor {
         let repo = JetbrainsRepoApi::new(args)?;
         let output_directory = args.output_directory.clone();
 
+        // Merge invalidate_hashes into sync_only for generation
+        // (invalidated plugins should also be regenerated)
+        let mut effective_sync_only = args.sync_only.clone();
+        effective_sync_only.extend(args.invalidate_hashes.iter().cloned());
+        effective_sync_only.sort();
+        effective_sync_only.dedup();
+
         Ok(Self {
             database,
             repo,
             output_directory,
-            sync_only: args.sync_only.clone(),
+            sync_only: effective_sync_only,
+            invalidate_hashes: args.invalidate_hashes.clone(),
         })
+    }
+
+    /// Invalidate cached hashes for the specified plugins.
+    /// This clears ETags and hashes, forcing re-download on next sync.
+    pub async fn invalidate_hashes(&self) -> Result<(), IndexerError> {
+        for xml_id in &self.invalidate_hashes {
+            let affected = self.database.invalidate_plugin_hashes(xml_id).await?;
+            tracing::info!(
+                "Invalidated {} update hashes for plugin {}",
+                affected,
+                xml_id
+            );
+        }
+        Ok(())
     }
 
     pub async fn sync_plugin_metadata(&self) -> Result<Statistics, IndexerError> {
@@ -181,6 +204,11 @@ impl MetadataProcessor {
     }
 
     pub async fn generate_metadata(&self) -> Result<(), IndexerError> {
-        output::generate_into(&self.output_directory, self.database.clone()).await
+        let filter = if self.sync_only.is_empty() {
+            None
+        } else {
+            Some(self.sync_only.as_slice())
+        };
+        output::generate_into(&self.output_directory, self.database.clone(), filter).await
     }
 }

@@ -500,4 +500,27 @@ impl Database {
             .try_collect()
             .await
     }
+
+    /// Invalidate cached hashes for a plugin by clearing ETags and hashes.
+    /// This forces sync_update_meta() to re-download and recompute hashes.
+    #[tracing::instrument(skip_all, fields(plugin_xml_id = plugin_xml_id.as_ref()))]
+    pub async fn invalidate_plugin_hashes(
+        &self,
+        plugin_xml_id: impl AsRef<str>,
+    ) -> Result<u64, IndexerError> {
+        let affected = self
+            .connection
+            .execute(
+                r#"
+                UPDATE updates SET etag = NULL, hash_algorithm = NULL, hash = NULL
+                WHERE id IN (
+                    SELECT update_id FROM versions WHERE plugin_xml_id = ?1
+                )
+                "#,
+                libsql::params![plugin_xml_id.as_ref()],
+            )
+            .await?;
+
+        Ok(affected)
+    }
 }

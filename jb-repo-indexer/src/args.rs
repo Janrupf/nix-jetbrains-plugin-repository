@@ -29,4 +29,9 @@ pub struct IndexerArgs {
 
     #[arg(long, action = clap::ArgAction::Append)]
     pub sync_only: Vec<String>,
+
+    /// Force re-download and hash recomputation for specified plugins.
+    /// Clears cached ETags and hashes, then normal sync will re-download.
+    #[arg(long, action = clap::ArgAction::Append)]
+    pub invalidate_hashes: Vec<String>,
 }

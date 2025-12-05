@@ -44,6 +44,12 @@ async fn async_main(args: IndexerArgs) -> Result<(), IndexerError> {
 
     let processor = MetadataProcessor::new(&args).await?;
 
+    // Invalidate hashes before sync (if requested)
+    if !args.invalidate_hashes.is_empty() {
+        tracing::info!("Invalidating hashes for specified plugins...");
+        processor.invalidate_hashes().await?;
+    }
+
     if !args.no_sync {
         tracing::info!("Starting to sync plugin metadata...");
         let statistics = processor.sync_plugin_metadata().await?;

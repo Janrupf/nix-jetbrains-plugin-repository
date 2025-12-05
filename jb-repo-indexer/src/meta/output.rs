@@ -6,7 +6,7 @@ use futures::StreamExt as _;
 use futures::stream::FuturesUnordered;
 use serde::Serialize;
 use sha2::Digest as _;
-use std::collections::{BTreeMap, HashMap};
+use std::collections::{BTreeMap, HashMap, HashSet};
 use std::future;
 use std::io::BufWriter;
 use std::path::{Path, PathBuf};
@@ -17,6 +17,7 @@ type BrokenPluginsLookup = HashMap<(String, String), Vec<CachedBrokenPlugin>>;
 pub async fn generate_into(
     directory: impl Into<PathBuf>,
     database: Database,
+    only_plugins: Option<&[String]>,
 ) -> Result<(), IndexerError> {
     let directory = directory.into();
     tokio::fs::create_dir_all(&directory).await?;
@@ -34,6 +35,11 @@ pub async fn generate_into(
             });
     let broken_lookup = Arc::new(broken_lookup);
 
+    // Build filter set for selective regeneration
+    let filter_set: Option<HashSet<&str>> = only_plugins.map(|plugins| {
+        plugins.iter().map(|s| s.as_str()).collect()
+    });
+
     let plugin_index = database
         .get_all_plugins()
         .await?
@@ -42,6 +48,10 @@ pub async fn generate_into(
             let database = database.clone();
             let directory = directory.clone();
             let broken_lookup = broken_lookup.clone();
+            let should_generate = filter_set
+                .as_ref()
+                .map(|f| f.contains(plugin.xml_id.as_str()))
+                .unwrap_or(true);
 
             tokio::spawn(async move {
                 let mut sha_hasher = sha2::Sha256::new();
@@ -59,16 +69,19 @@ pub async fn generate_into(
                             acc
                         });
 
-                let plugin_dir = directory
-                    .join(&hex_digest[0..2])
-                    .join(&hex_digest[2..4])
-                    .join(&hex_digest[4..]);
+                // Only regenerate metadata.json for filtered plugins (or all if no filter)
+                if should_generate {
+                    let plugin_dir = directory
+                        .join(&hex_digest[0..2])
+                        .join(&hex_digest[2..4])
+                        .join(&hex_digest[4..]);
 
-                if let Err(err) =
-                    generate_plugin(plugin_dir, &plugin, &database, &broken_lookup).await
-                {
-                    tracing::error!("Failed to generate plugin '{}': {:?}", plugin.xml_id, err);
-                    return None;
+                    if let Err(err) =
+                        generate_plugin(plugin_dir, &plugin, &database, &broken_lookup).await
+                    {
+                        tracing::error!("Failed to generate plugin '{}': {:?}", plugin.xml_id, err);
+                        return None;
+                    }
                 }
 
                 Some((plugin.xml_id, hex_digest))
