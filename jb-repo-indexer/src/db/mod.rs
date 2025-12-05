@@ -48,6 +48,8 @@ impl Database {
         connection.query("PRAGMA foreign_keys = ON", ()).await?;
         connection.query("PRAGMA journal_mode = WAL", ()).await?;
         connection.query("PRAGMA synchronous = NORMAL", ()).await?;
+        connection.query("PRAGMA cache_size = -65536", ()).await?;
+        connection.query("PRAGMA mmap_size = 268435456", ()).await?;
 
         tracing::debug!("Connected to database");
         Self::ensure_db_structure(&connection).await?;
@@ -160,11 +162,32 @@ impl Database {
         )
         .await?;
 
+        // Index for get_versions_for_plugin() - enables index scan instead of table scan
+        tx.execute(
+            "CREATE INDEX IF NOT EXISTS idx_versions_plugin_xml_id ON versions(plugin_xml_id)",
+            (),
+        )
+        .await?;
+
+        // Index for get_broken_plugin_info() - enables index lookup by both columns
+        tx.execute(
+            "CREATE INDEX IF NOT EXISTS idx_broken_plugins_lookup ON broken_plugins(plugin_xml_id, version)",
+            (),
+        )
+        .await?;
+
+        // Index for get_update_dependencies() - explicit index on update_id for faster lookups
+        tx.execute(
+            "CREATE INDEX IF NOT EXISTS idx_update_deps_update_id ON update_dependencies(update_id)",
+            (),
+        )
+        .await?;
+
         tx.execute("DELETE FROM schema_version", ()).await?;
 
         tx.execute(
             r#"
-            INSERT INTO schema_version (version) VALUES (2)
+            INSERT INTO schema_version (version) VALUES (3)
         "#,
             (),
         )
@@ -385,7 +408,7 @@ impl Database {
     pub async fn get_update(&self, update_id: u64) -> Result<CachedUpdate, IndexerError> {
         self.connection
             .query(
-                "SELECT id, stale, etag, file_name, download_url, hash_algorithm, hash FROM updates WHERE id = ?1",
+                "SELECT id, stale, etag, file_name, download_url, hash_algorithm, hash FROM updates WHERE id = ?1 LIMIT 1",
                 libsql::params![update_id],
             )
             .await?

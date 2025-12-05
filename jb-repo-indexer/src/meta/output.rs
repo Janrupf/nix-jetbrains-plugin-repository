@@ -8,6 +8,7 @@ use serde::Serialize;
 use sha2::Digest as _;
 use std::collections::BTreeMap;
 use std::future;
+use std::io::BufWriter;
 use std::path::{Path, PathBuf};
 
 pub async fn generate_into(
@@ -93,10 +94,16 @@ async fn generate_plugin(
         .await?
         .into_iter()
         .map(|version| async move {
+            let time = tokio::time::Instant::now();
             let (update_info, all_dependencies) = tokio::try_join!(
                 database.get_update(version.update_id),
                 database.get_update_dependencies(version.update_id)
             )?;
+            tracing::trace!(
+                "Fetched update info and dependencies for update {} in {:?}",
+                version.update_id,
+                time.elapsed()
+            );
 
             if update_info.stale {
                 tracing::warn!("Update {} is stale", version.update_id);
@@ -231,7 +238,7 @@ async fn generate_plugin(
 
     let metadata_path = plugin_directory.join("metadata.json");
     tokio::task::spawn_blocking(move || {
-        let metadata_file = std::fs::File::create(metadata_path)?;
+        let metadata_file = BufWriter::new(std::fs::File::create(metadata_path)?);
         serde_json::to_writer_pretty(metadata_file, &metadata)?;
         Ok::<_, IndexerError>(())
     })
