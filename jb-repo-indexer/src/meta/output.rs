@@ -6,10 +6,13 @@ use futures::StreamExt as _;
 use futures::stream::FuturesUnordered;
 use serde::Serialize;
 use sha2::Digest as _;
-use std::collections::BTreeMap;
+use std::collections::{BTreeMap, HashMap};
 use std::future;
 use std::io::BufWriter;
 use std::path::{Path, PathBuf};
+use std::sync::Arc;
+
+type BrokenPluginsLookup = HashMap<(String, String), Vec<CachedBrokenPlugin>>;
 
 pub async fn generate_into(
     directory: impl Into<PathBuf>,
@@ -18,6 +21,19 @@ pub async fn generate_into(
     let directory = directory.into();
     tokio::fs::create_dir_all(&directory).await?;
 
+    let all_broken = database.get_all_broken_plugins().await?;
+    tracing::debug!("Prefetched {} broken plugin entries", all_broken.len());
+    let broken_lookup: BrokenPluginsLookup =
+        all_broken
+            .into_iter()
+            .fold(HashMap::new(), |mut acc, bp| {
+                acc.entry((bp.plugin_xml_id.clone(), bp.version.clone()))
+                    .or_default()
+                    .push(bp);
+                acc
+            });
+    let broken_lookup = Arc::new(broken_lookup);
+
     let plugin_index = database
         .get_all_plugins()
         .await?
@@ -25,6 +41,7 @@ pub async fn generate_into(
         .map(|plugin| {
             let database = database.clone();
             let directory = directory.clone();
+            let broken_lookup = broken_lookup.clone();
 
             tokio::spawn(async move {
                 let mut sha_hasher = sha2::Sha256::new();
@@ -47,7 +64,9 @@ pub async fn generate_into(
                     .join(&hex_digest[2..4])
                     .join(&hex_digest[4..]);
 
-                if let Err(err) = generate_plugin(plugin_dir, &plugin, &database).await {
+                if let Err(err) =
+                    generate_plugin(plugin_dir, &plugin, &database, &broken_lookup).await
+                {
                     tracing::error!("Failed to generate plugin '{}': {:?}", plugin.xml_id, err);
                     return None;
                 }
@@ -85,72 +104,74 @@ async fn generate_plugin(
     plugin_directory: impl AsRef<Path>,
     plugin: &CachedPlugin,
     database: &Database,
+    broken_lookup: &BrokenPluginsLookup,
 ) -> Result<(), IndexerError> {
     let plugin_directory = plugin_directory.as_ref();
     tokio::fs::create_dir_all(plugin_directory).await?;
+
+    let plugin_xml_id = plugin.xml_id.clone();
 
     let updates = database
         .get_versions_for_plugin(&plugin.xml_id)
         .await?
         .into_iter()
-        .map(|version| async move {
-            let time = tokio::time::Instant::now();
-            let (update_info, all_dependencies) = tokio::try_join!(
-                database.get_update(version.update_id),
-                database.get_update_dependencies(version.update_id)
-            )?;
-            tracing::trace!(
-                "Fetched update info and dependencies for update {} in {:?}",
-                version.update_id,
-                time.elapsed()
-            );
+        .map(|version| {
+            let plugin_xml_id = plugin_xml_id.clone();
+            async move {
+                let time = tokio::time::Instant::now();
+                let (update_info, all_dependencies) = tokio::try_join!(
+                    database.get_update(version.update_id),
+                    database.get_update_dependencies(version.update_id)
+                )?;
 
-            if update_info.stale {
-                tracing::warn!("Update {} is stale", version.update_id);
-                return Ok(None);
-            }
+                if update_info.stale {
+                    tracing::warn!("Update {} is stale", version.update_id);
+                    return Ok(None);
+                }
 
-            let Some(download_url) = update_info.download_url else {
-                tracing::warn!("No download URL for update {}", version.update_id);
-                return Ok(None);
-            };
+                let Some(download_url) = update_info.download_url else {
+                    tracing::warn!("No download URL for update {}", version.update_id);
+                    return Ok(None);
+                };
 
-            if update_info
-                .hash_algorithm
-                .as_deref()
-                .map(|v| v != "SHA-256")
-                .unwrap_or(true)
-            {
-                tracing::warn!(
-                    "Unsupported hash algorithm for update {}",
-                    version.update_id
-                );
-                return Ok(None);
-            }
+                if update_info
+                    .hash_algorithm
+                    .as_deref()
+                    .map(|v| v != "SHA-256")
+                    .unwrap_or(true)
+                {
+                    tracing::warn!(
+                        "Unsupported hash algorithm for update {}",
+                        version.update_id
+                    );
+                    return Ok(None);
+                }
 
-            let hash = update_info
-                .hash
-                .expect("Hash algorith set but no hash provided");
-            let sha256 = BASE64_STANDARD.encode(&hash);
+                let hash = update_info
+                    .hash
+                    .expect("Hash algorith set but no hash provided");
+                let sha256 = BASE64_STANDARD.encode(&hash);
 
-            let channel = if version.channel.is_empty() {
-                "stable".to_string()
-            } else {
-                version.channel.to_lowercase()
-            };
+                let channel = if version.channel.is_empty() {
+                    "stable".to_string()
+                } else {
+                    version.channel.to_lowercase()
+                };
 
-            let dep_id = |d: CachedUpdateDependency| d.dependency_xml_id;
+                let dep_id = |d: CachedUpdateDependency| d.dependency_xml_id;
 
-            let (dependencies, optional_dependencies): (
-                Vec<CachedUpdateDependency>,
-                Vec<CachedUpdateDependency>,
-            ) = all_dependencies.into_iter().partition(|dep| !dep.optional);
+                let (dependencies, optional_dependencies): (
+                    Vec<CachedUpdateDependency>,
+                    Vec<CachedUpdateDependency>,
+                ) = all_dependencies.into_iter().partition(|dep| !dep.optional);
 
-            let broken_metadata = database
-                .get_broken_plugin_info(&plugin.xml_id, &version.version)
-                .await?;
+                // Use prefetched lookup instead of database query
+                let broken_metadata = broken_lookup
+                    .get(&(plugin_xml_id.clone(), version.version.clone()))
+                    .cloned()
+                    .unwrap_or_default();
 
-            let compatibility_overrides = broken_metadata
+                let compatibility_overrides = broken_metadata
                 .into_iter()
                 .filter_map(|i| {
                     let CachedBrokenPlugin {
@@ -190,21 +211,22 @@ async fn generate_plugin(
                 })
                 .collect();
 
-            Ok::<_, IndexerError>(Some((
-                version.update_id,
-                UpdateMetadata {
-                    download_url,
-                    sha256,
-                    channel,
-                    dependencies: dependencies.into_iter().map(dep_id).collect(),
-                    optional_dependencies: optional_dependencies.into_iter().map(dep_id).collect(),
-                    file_name: update_info.file_name,
-                    since: version.since,
-                    until: version.until,
-                    compatibility_overrides,
-                    version: version.version,
-                },
-            )))
+                Ok::<_, IndexerError>(Some((
+                    version.update_id,
+                    UpdateMetadata {
+                        download_url,
+                        sha256,
+                        channel,
+                        dependencies: dependencies.into_iter().map(dep_id).collect(),
+                        optional_dependencies: optional_dependencies.into_iter().map(dep_id).collect(),
+                        file_name: update_info.file_name,
+                        since: version.since,
+                        until: version.until,
+                        compatibility_overrides,
+                        version: version.version,
+                    },
+                )))
+            }
         })
         .collect::<FuturesUnordered<_>>()
         .filter_map(|v| {

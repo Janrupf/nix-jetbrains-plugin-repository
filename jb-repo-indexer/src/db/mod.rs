@@ -485,20 +485,15 @@ impl Database {
         Ok(())
     }
 
-    #[tracing::instrument(skip_all, fields(plugin_xml_id = plugin_xml_id.as_ref(), version = version.as_ref()))]
-    pub async fn get_broken_plugin_info(
-        &self,
-        plugin_xml_id: impl AsRef<str>,
-        version: impl AsRef<str>,
-    ) -> Result<Vec<CachedBrokenPlugin>, IndexerError> {
+    /// Get all broken plugin entries for prefetching.
+    #[tracing::instrument(skip(self))]
+    pub async fn get_all_broken_plugins(&self) -> Result<Vec<CachedBrokenPlugin>, IndexerError> {
         self.connection
             .query(
-                r#"
-                SELECT plugin_xml_id, version, original_since, original_until, since, until FROM broken_plugins
-                    WHERE plugin_xml_id = ?1 AND version = ?2
-                "#,
-                libsql::params![plugin_xml_id.as_ref(), version.as_ref()]
-            ).await?
+                "SELECT plugin_xml_id, version, original_since, original_until, since, until FROM broken_plugins",
+                (),
+            )
+            .await?
             .into_stream()
             .map_err(IndexerError::from)
             .and_then(map_row_de)
