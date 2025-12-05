@@ -1500,11 +1500,56 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "907143": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21704/907143/intellij-v253.25909.0-signed.zip?updateId=907143&pluginId=21704&family=INTELLIJ",
+      "sha256": "SmiFqi2xo8cvNhOkTA92wxVKe3kH2khOUFrz6asMxkI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "intellij-v253.25909.0-signed.zip",
+      "since": "253.28294.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.23892",
+          "applies_until": "999.99999",
+          "compatible_since": "253.28294.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "907158": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21704/907158/intellij-v253.25909.0-signed.zip?updateId=907158&pluginId=21704&family=INTELLIJ",
+      "sha256": "SmiFqi2xo8cvNhOkTA92wxVKe3kH2khOUFrz6asMxkI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "intellij-v253.25909.0-signed.zip",
+      "since": "253.28294.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.23892",
+          "applies_until": "999.99999",
+          "compatible_since": "253.28294.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
     "eap": {
-      "243.16718.22": 608759
+      "243.16718.22": 608759,
+      "253.25909.0": 907143
     },
     "nightly": {
       "243.16718.22": 608262
@@ -1603,7 +1648,8 @@
       "253.20558.43": 861562,
       "253.22441.33": 866221,
       "253.24325.38": 871742,
-      "253.25908.13": 874245
+      "253.25908.13": 874245,
+      "253.25909.0": 907158
     }
   }
 }

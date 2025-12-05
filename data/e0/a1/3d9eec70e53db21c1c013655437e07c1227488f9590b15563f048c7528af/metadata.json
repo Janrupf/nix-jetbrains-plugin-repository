@@ -14,11 +14,41 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "906831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29054/906831/EasyGbadleBuild-1.0.1.zip?updateId=906831&pluginId=29054&family=INTELLIJ",
+      "sha256": "+N2ToobIDp6Po3RUVdSeTc8xuiknN97RZgjI8UJLtgs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "EasyGbadleBuild-1.0.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "906833": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29054/906833/EasyGbadleBuild-1.0.2.zip?updateId=906833&pluginId=29054&family=INTELLIJ",
+      "sha256": "dbHBrN666yMXKdd53PD2bhKNA2F7niQg4BePhPCHRRo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "EasyGbadleBuild-1.0.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.0.1": 906831
+    },
     "stable": {
-      "1.0-SNAPSHOT": 894850
+      "1.0-SNAPSHOT": 894850,
+      "1.0.2": 906833
     }
   }
 }

@@ -16,11 +16,27 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "906800": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26835/906800/kt2ts-1.0.2.zip?updateId=906800&pluginId=26835&family=INTELLIJ",
+      "sha256": "t/n/qUh10TWMwc89s4GqgkZ/aBSWPF+hl6yPTQo/8gY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kt2ts-1.0.2.zip",
+      "since": "241.0",
+      "until": "271.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 699161
+      "1.0.1": 699161,
+      "1.0.2": 906800
     }
   }
 }
