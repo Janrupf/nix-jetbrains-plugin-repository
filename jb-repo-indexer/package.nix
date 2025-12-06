@@ -20,5 +20,5 @@ in rustPlatform.buildRustPackage {
 
   src = ./.;
 
-  cargoHash = "sha256-erSanGBTBHhcZYh0XswrzoQufINWRutOJbTa/h08yZ0=";
+  cargoHash = "sha256-CSqOFa8H7t+R58K3j5Yd9SI/SStoT7PjVU8a1oQCLm8=";
 }
