@@ -21,8 +21,8 @@
       "sha256": "zhcDdX5cMkv2R7fNCGjWoHhbyXuYFOtQKXbEna62QhQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.idea",
+        "com.intellij.java",
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
@@ -36,8 +36,8 @@
       "sha256": "Aon+IYQgszQM1fP1c8j9optVkbW16k4mFLAR/rq/90I=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.idea",
+        "com.intellij.java",
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
@@ -51,8 +51,8 @@
       "sha256": "qk8kFH1sMydH+8x/moeYhc2NiprrZd6DclOAPgzSCFU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.idea",
+        "com.intellij.java",
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
@@ -66,8 +66,8 @@
       "sha256": "XUaP3KdI9sM0LG9pOPlwLePshMdbUCwXF2Ojn5Dk1dc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.idea",
+        "com.intellij.java",
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
@@ -81,8 +81,8 @@
       "sha256": "FioTeP6Hg9hQkg25UJYG3wcNvauLTyRQYbCsmNIng9A=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.idea",
+        "com.intellij.java",
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
@@ -96,10 +96,10 @@
       "sha256": "AwDPS/ULUiL4uPh8Y0cjYx971q1QT6+fz03gDPiU3C4=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
         "com.intellij.modules.idea",
-        "org.jetbrains.kotlin"
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "monorepo-devkit-252.18253.zip",
@@ -112,11 +112,11 @@
       "sha256": "r2Yzmnou9CpqKYBH2KpOwq+Hxuz9WGbZfo38ULe2GqE=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
         "com.intellij.modules.idea",
-        "com.jetbrains.space",
-        "org.jetbrains.kotlin"
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "Git4Idea",
+        "com.jetbrains.space"
       ],
       "optional_dependencies": [],
       "file_name": "monorepo-devkit-252.21611.0.zip",
@@ -129,11 +129,11 @@
       "sha256": "0M33VLsSxKJnRKPlMR2UNdEG3RcnH0GQ/FTg4X08gtA=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
         "com.intellij.modules.idea",
-        "com.jetbrains.space",
-        "org.jetbrains.kotlin"
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "Git4Idea",
+        "com.jetbrains.space"
       ],
       "optional_dependencies": [],
       "file_name": "monorepo-devkit-252.22007.0.zip",
@@ -146,12 +146,12 @@
       "sha256": "51RkzDCbxZzcMf6qJCfrz3rrX6kVpVHvJH1+1PN8VDg=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.idea",
-        "com.jetbrains.space",
         "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "com.intellij.modules.idea",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "Git4Idea",
+        "com.jetbrains.space"
       ],
       "optional_dependencies": [],
       "file_name": "monorepo-devkit-252.22314.0.zip",
@@ -165,14 +165,14 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
+        "intellij.monorepo.devkit.common",
         "com.intellij.modules.idea",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "Git4Idea",
         "com.jetbrains.space",
         "intellij.monorepo.devkit",
-        "intellij.monorepo.devkit.common",
-        "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "intellij.profiler.ultimate"
       ],
       "file_name": "monorepo-devkit-plugin-253.1500.0.zip",
       "since": "251.23774.435",
@@ -185,14 +185,14 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
+        "intellij.monorepo.devkit.common",
         "com.intellij.modules.idea",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "Git4Idea",
         "com.jetbrains.space",
         "intellij.monorepo.devkit",
-        "intellij.monorepo.devkit.common",
-        "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "intellij.profiler.ultimate"
       ],
       "file_name": "monorepo-devkit-plugin-253.1834.0.zip",
       "since": "251.23774.435",
@@ -205,14 +205,14 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
         "com.intellij.java",
         "com.intellij.modules.idea",
         "com.jetbrains.space",
-        "intellij.monorepo.devkit",
+        "Git4Idea",
         "intellij.monorepo.devkit.common",
-        "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "org.jetbrains.kotlin",
+        "intellij.monorepo.devkit",
+        "intellij.profiler.ultimate"
       ],
       "file_name": "monorepo-devkit-plugin-253.4041.0.zip",
       "since": "251.23774.435",
@@ -225,14 +225,14 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
         "com.intellij.modules.idea",
-        "com.jetbrains.space",
         "intellij.monorepo.devkit",
-        "intellij.monorepo.devkit.common",
+        "com.intellij.java",
         "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "org.jetbrains.kotlin",
+        "com.jetbrains.space",
+        "Git4Idea",
+        "intellij.monorepo.devkit.common"
       ],
       "file_name": "monorepo-devkit-plugin-253.16963.0.zip",
       "since": "251.23774.435",
@@ -245,14 +245,14 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
+        "com.jetbrains.space",
+        "intellij.profiler.ultimate",
         "Git4Idea",
         "com.intellij.java",
         "com.intellij.modules.idea",
-        "com.jetbrains.space",
-        "intellij.libraries.ktor.client",
         "intellij.monorepo.devkit",
         "intellij.monorepo.devkit.common",
-        "intellij.profiler.ultimate",
+        "intellij.libraries.ktor.client",
         "org.jetbrains.kotlin"
       ],
       "file_name": "monorepo-devkit-plugin-253.24619.0.zip",
@@ -266,15 +266,15 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.idea",
+        "org.jetbrains.kotlin",
         "com.jetbrains.space",
-        "intellij.libraries.ktor.client",
-        "intellij.monorepo.devkit",
+        "Git4Idea",
         "intellij.monorepo.devkit.common",
         "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "intellij.monorepo.devkit",
+        "intellij.libraries.ktor.client",
+        "com.intellij.java",
+        "com.intellij.modules.idea"
       ],
       "file_name": "monorepo-devkit-plugin-253.24989.0.zip",
       "since": "252.25557.131",
@@ -287,15 +287,15 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
         "com.intellij.java",
-        "com.intellij.modules.idea",
-        "com.jetbrains.space",
         "intellij.libraries.ktor.client",
-        "intellij.monorepo.devkit",
+        "com.jetbrains.space",
+        "Git4Idea",
         "intellij.monorepo.devkit.common",
-        "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.idea",
+        "intellij.monorepo.devkit",
+        "intellij.profiler.ultimate"
       ],
       "file_name": "monorepo-devkit-plugin-253.26757.0.zip",
       "since": "252.25557.131",
@@ -308,15 +308,15 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.idea",
-        "com.jetbrains.space",
-        "intellij.libraries.ktor.client",
-        "intellij.monorepo.devkit",
         "intellij.monorepo.devkit.common",
+        "com.intellij.modules.idea",
+        "com.intellij.java",
+        "intellij.monorepo.devkit",
+        "com.jetbrains.space",
+        "Git4Idea",
         "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "org.jetbrains.kotlin",
+        "intellij.libraries.ktor.client"
       ],
       "file_name": "monorepo-devkit-plugin-253.27485.0.zip",
       "since": "252.25557.131",
@@ -329,16 +329,16 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.idea",
-        "com.intellij.tasks",
-        "com.jetbrains.space",
         "intellij.libraries.ktor.client",
-        "intellij.monorepo.devkit",
         "intellij.monorepo.devkit.common",
+        "com.intellij.java",
+        "com.intellij.tasks",
+        "com.intellij.modules.idea",
+        "org.jetbrains.kotlin",
         "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "intellij.monorepo.devkit",
+        "com.jetbrains.space",
+        "Git4Idea"
       ],
       "file_name": "monorepo-devkit-plugin-261.3709.0.zip",
       "since": "252.25557.131",
@@ -351,16 +351,16 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.idea",
-        "com.intellij.tasks",
+        "org.jetbrains.kotlin",
         "com.jetbrains.space",
-        "intellij.libraries.ktor.client",
+        "Git4Idea",
+        "com.intellij.tasks",
+        "com.intellij.java",
         "intellij.monorepo.devkit",
-        "intellij.monorepo.devkit.common",
         "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "intellij.monorepo.devkit.common",
+        "com.intellij.modules.idea",
+        "intellij.libraries.ktor.client"
       ],
       "file_name": "monorepo-devkit-plugin-261.4302.0.zip",
       "since": "252.25557.131",
@@ -373,16 +373,16 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
+        "intellij.monorepo.devkit",
         "com.intellij.modules.idea",
         "com.intellij.tasks",
-        "com.jetbrains.space",
+        "com.intellij.java",
         "intellij.libraries.ktor.client",
-        "intellij.monorepo.devkit",
-        "intellij.monorepo.devkit.common",
         "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "Git4Idea",
+        "intellij.monorepo.devkit.common",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.space"
       ],
       "file_name": "monorepo-devkit-plugin-261.7156.0.zip",
       "since": "252.25557.131",
@@ -395,16 +395,16 @@
       "channel": "stable",
       "dependencies": [],
       "optional_dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.idea",
         "com.intellij.tasks",
-        "com.jetbrains.space",
-        "intellij.libraries.ktor.client",
-        "intellij.monorepo.devkit",
-        "intellij.monorepo.devkit.common",
         "intellij.profiler.ultimate",
-        "org.jetbrains.kotlin"
+        "com.intellij.java",
+        "intellij.libraries.ktor.client",
+        "com.intellij.modules.idea",
+        "intellij.monorepo.devkit",
+        "org.jetbrains.kotlin",
+        "intellij.monorepo.devkit.common",
+        "com.jetbrains.space",
+        "Git4Idea"
       ],
       "file_name": "monorepo-devkit-plugin-261.12054.0.zip",
       "since": "252.25557.131",

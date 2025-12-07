@@ -7,9 +7,9 @@
       "sha256": "bJEC/rK9GmCGtYeOF0WQyX3UCq22v2wjtXjb7HJIQ/Q=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.vcs",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -41,9 +41,9 @@
       "sha256": "Vfohxr0NoKIC/lWLejQu2o/tWz14olMOJFoaAF0kDeE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -76,8 +76,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -92,9 +92,9 @@
       "sha256": "3JeGBirEAGws/uFhnXM/zFCP6CQ7eMRrfwU1QIDkHuY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -109,9 +109,9 @@
       "sha256": "vMQIjRF5/K+joJcqBl8+GH+G/54f+l7mbnez8NZXRTI=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -126,9 +126,9 @@
       "sha256": "zmDl1HrCAuv3Tm7Hdap1wzE65iA6G4GjnXWpWl1Vkfc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -143,9 +143,9 @@
       "sha256": "5js/b2nNSKcTdh3lYisqGaf9DyvAazfhrF/1Nm2kLr8=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.vcs",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -161,8 +161,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -177,9 +177,9 @@
       "sha256": "QPPOk1QHAi7QW15jVlHZhxr4pUIZoltrZCxGP4/2zG8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -194,9 +194,9 @@
       "sha256": "WOR7b29O7cc9h06NijqY8wRTT1hSI/2u3RCalnmdg+Y=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -228,8 +228,8 @@
       "sha256": "NlkOx6vND5ey3D6+rZ5hxrlbRXoa1+UuYJOoZBCEQug=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
         "com.intellij.modules.vcs"
       ],
       "optional_dependencies": [
@@ -256,6 +256,40 @@
       "since": "232.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "907553": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28966/907553/DeepSeek-Code-Scan-1.5.19.zip?updateId=907553&pluginId=28966&family=INTELLIJ",
+      "sha256": "QyBmkkgzxMu9iyL+LLmPhiAFBOPdmtza2Dg2+qKhNgg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Code-Scan-1.5.19.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "907744": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28966/907744/DeepSeek-Code-Scan-1.6.0.zip?updateId=907744&pluginId=28966&family=INTELLIJ",
+      "sha256": "FfNCRopWVBJp0U7UZuRDeamVXCyp2UE4Miic8EhJG94=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Code-Scan-1.6.0.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -267,6 +301,7 @@
       "1.5.15": 905980,
       "1.5.17": 906553,
       "1.5.18": 906588,
+      "1.5.19": 907553,
       "1.5.2": 893007,
       "1.5.3": 893186,
       "1.5.4": 895034,
@@ -274,7 +309,8 @@
       "1.5.6": 895260,
       "1.5.7": 896685,
       "1.5.8": 896962,
-      "1.5.9": 897171
+      "1.5.9": 897171,
+      "1.6.0": 907744
     }
   }
 }

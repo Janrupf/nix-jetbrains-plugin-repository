@@ -22,8 +22,8 @@
       "sha256": "271/X1B7w5BTUjR72Brfi9Er/FMX1uNmEfYRmGZ35wU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.redhat.devtools.lsp4ij"
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -38,8 +38,8 @@
       "sha256": "8/wE7yLrBuZu5IMg3PCYi8cglsNd5T0j4orktMnV1ZA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.redhat.devtools.lsp4ij"
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -54,8 +54,8 @@
       "sha256": "3QJ/zY6sv3IT7bEmJPz5c7iwJm+68gr2VUfJnvL9cOQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.redhat.devtools.lsp4ij"
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -86,13 +86,77 @@
       "sha256": "y3ByAJTV7yQOjlVrpIRXV0hNgFXlEyoLLhnwEZSAS3s=",
       "channel": "stable",
       "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pytest-language-server-0.11.2.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908299": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/908299/pytest-language-server-0.12.0.zip?updateId=908299&pluginId=29056&family=INTELLIJ",
+      "sha256": "s7zAar/nUEUomcTjp1eYVZIPAxgKbtMJhoZz9wahVEk=",
+      "channel": "stable",
+      "dependencies": [
         "com.intellij.modules.platform",
         "com.redhat.devtools.lsp4ij"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
       ],
-      "file_name": "pytest-language-server-0.11.2.zip",
+      "file_name": "pytest-language-server-0.12.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908308": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/908308/pytest-language-server-0.13.0.zip?updateId=908308&pluginId=29056&family=INTELLIJ",
+      "sha256": "qQYg1lnvREW23lK81vUqz0ik7FDRCWJkqNMuUdHXSDw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pytest-language-server-0.13.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908322": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/908322/pytest-language-server-0.14.0.zip?updateId=908322&pluginId=29056&family=INTELLIJ",
+      "sha256": "a6Sa+lymeFkEvGRpzW9zxtCY0j/iAgnppVEFq6Jwnt8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pytest-language-server-0.14.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908324": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29056/908324/pytest-language-server-0.14.1.zip?updateId=908324&pluginId=29056&family=INTELLIJ",
+      "sha256": "4qnW5ZoKxPz+W1SfEiGfXQuBkNCUIDARqpeOHKpqoQU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pytest-language-server-0.14.1.zip",
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
@@ -104,6 +168,10 @@
       "0.11.0": 906550,
       "0.11.1": 907162,
       "0.11.2": 907166,
+      "0.12.0": 908299,
+      "0.13.0": 908308,
+      "0.14.0": 908322,
+      "0.14.1": 908324,
       "0.7.2": 895718,
       "0.9.0": 896169
     }

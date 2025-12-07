@@ -7,22 +7,22 @@
       "sha256": "5u2dKKfT1+EnSgytLx+VvI/zDjKiG39MNfWRgITTejI=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.cmake",
-        "intellij.cidr.execution",
         "intellij.cidr.lang.base",
-        "intellij.cidr.projectModel",
+        "intellij.clion.execution",
         "intellij.cidr.runner",
-        "intellij.clion.execution"
+        "intellij.cidr.execution",
+        "intellij.cidr.projectModel",
+        "com.intellij.cmake"
       ],
       "optional_dependencies": [
+        "intellij.rd.client",
+        "intellij.rd.platform",
+        "intellij.clion.radler.testing",
+        "intellij.rd.ide.model.generated",
+        "intellij.rider.rdclient.dotnet",
         "intellij.c.core",
         "intellij.c.testing",
-        "intellij.cidr.psi.base",
-        "intellij.clion.radler.testing",
-        "intellij.rd.client",
-        "intellij.rd.ide.model.generated",
-        "intellij.rd.platform",
-        "intellij.rider.rdclient.dotnet"
+        "intellij.cidr.psi.base"
       ],
       "file_name": "clion-test-boost-253.27864.23.zip",
       "since": "253.27864",
@@ -35,21 +35,21 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.clion",
-        "com.intellij.cmake",
         "intellij.cidr.execution",
-        "intellij.cidr.lang.base",
         "intellij.cidr.projectModel",
         "intellij.cidr.runner",
+        "com.intellij.cmake",
+        "intellij.cidr.lang.base",
         "intellij.clion.execution"
       ],
       "optional_dependencies": [
-        "intellij.c.core",
-        "intellij.c.testing",
-        "intellij.cidr.psi.base",
         "intellij.clion.radler.testing",
-        "intellij.rd.client",
         "intellij.rd.ide.model.generated",
+        "intellij.cidr.psi.base",
         "intellij.rd.platform",
+        "intellij.c.core",
+        "intellij.rd.client",
+        "intellij.c.testing",
         "intellij.rider.rdclient.dotnet"
       ],
       "file_name": "clion-test-boost-253.28086.51.zip",
@@ -62,23 +62,23 @@
       "sha256": "usQyTIYLrftndD7arKmXdJ4EriPZU/9aadmBlLJB+a0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.clion",
-        "com.intellij.cmake",
         "intellij.cidr.execution",
-        "intellij.cidr.lang.base",
         "intellij.cidr.projectModel",
-        "intellij.cidr.runner",
-        "intellij.clion.execution"
+        "com.intellij.cmake",
+        "intellij.clion.execution",
+        "com.intellij.clion",
+        "intellij.cidr.lang.base",
+        "intellij.cidr.runner"
       ],
       "optional_dependencies": [
         "intellij.c.core",
-        "intellij.c.testing",
-        "intellij.cidr.psi.base",
-        "intellij.clion.radler.testing",
-        "intellij.rd.client",
+        "intellij.rider.rdclient.dotnet",
         "intellij.rd.ide.model.generated",
+        "intellij.clion.radler.testing",
         "intellij.rd.platform",
-        "intellij.rider.rdclient.dotnet"
+        "intellij.cidr.psi.base",
+        "intellij.c.testing",
+        "intellij.rd.client"
       ],
       "file_name": "clion-test-boost-253.28294.51.zip",
       "since": "253.28294",
@@ -90,23 +90,23 @@
       "sha256": "kPzeCOJ/R8R3zKbsXjkMeZcTNfnozP67sLStWRbRwBo=",
       "channel": "stable",
       "dependencies": [
+        "intellij.cidr.execution",
+        "intellij.cidr.projectModel",
+        "intellij.clion.execution",
         "com.intellij.clion",
         "com.intellij.cmake",
-        "intellij.cidr.execution",
         "intellij.cidr.lang.base",
-        "intellij.cidr.projectModel",
-        "intellij.cidr.runner",
-        "intellij.clion.execution"
+        "intellij.cidr.runner"
       ],
       "optional_dependencies": [
-        "intellij.c.core",
-        "intellij.c.testing",
-        "intellij.cidr.psi.base",
         "intellij.clion.radler.testing",
-        "intellij.rd.client",
-        "intellij.rd.ide.model.generated",
+        "intellij.rider.rdclient.dotnet",
         "intellij.rd.platform",
-        "intellij.rider.rdclient.dotnet"
+        "intellij.rd.ide.model.generated",
+        "intellij.c.core",
+        "intellij.rd.client",
+        "intellij.c.testing",
+        "intellij.cidr.psi.base"
       ],
       "file_name": "clion-test-boost-253.28294.169.zip",
       "since": "253.28294",
@@ -118,22 +118,22 @@
       "sha256": "+i1EZ/JzeP06uEjR/jtVS5zmKQ9pNAPRkBLnNJzeplM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.clion",
+        "intellij.cidr.lang.base",
+        "intellij.cidr.runner",
         "com.intellij.cmake",
         "intellij.cidr.execution",
-        "intellij.cidr.lang.base",
+        "intellij.clion.execution",
         "intellij.cidr.projectModel",
-        "intellij.cidr.runner",
-        "intellij.clion.execution"
+        "com.intellij.clion"
       ],
       "optional_dependencies": [
-        "intellij.c.core",
-        "intellij.c.testing",
-        "intellij.cidr.psi.base",
-        "intellij.clion.radler.testing",
         "intellij.rd.client",
-        "intellij.rd.ide.model.generated",
+        "intellij.c.core",
         "intellij.rd.platform",
+        "intellij.c.testing",
+        "intellij.clion.radler.testing",
+        "intellij.rd.ide.model.generated",
+        "intellij.cidr.psi.base",
         "intellij.rider.rdclient.dotnet"
       ],
       "file_name": "clion-test-boost-253.28294.251.zip",

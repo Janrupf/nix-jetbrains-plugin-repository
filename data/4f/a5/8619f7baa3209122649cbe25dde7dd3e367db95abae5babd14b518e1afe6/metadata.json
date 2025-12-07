@@ -22,9 +22,9 @@
       "channel": "stable",
       "dependencies": [
         "intellij.bigdatatools.coreUi",
-        "intellij.libraries.grpc",
+        "intellij.libraries.microba",
         "intellij.libraries.grpc.netty.shaded",
-        "intellij.libraries.microba"
+        "intellij.libraries.grpc"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-gcloud-253.20558.43.zip",
@@ -38,8 +38,8 @@
       "channel": "stable",
       "dependencies": [
         "intellij.bigdatatools.coreUi",
-        "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.grpc",
         "intellij.libraries.microba"
       ],
       "optional_dependencies": [],
@@ -53,9 +53,9 @@
       "sha256": "OdEVywZxT6s0WllSss5W+tOn1jDlx0B8nXL/Ipr22/I=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
         "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded",
+        "intellij.bigdatatools.coreUi",
         "intellij.libraries.microba"
       ],
       "optional_dependencies": [],
@@ -70,9 +70,9 @@
       "channel": "stable",
       "dependencies": [
         "intellij.bigdatatools.coreUi",
+        "intellij.libraries.microba",
         "intellij.libraries.grpc",
-        "intellij.libraries.grpc.netty.shaded",
-        "intellij.libraries.microba"
+        "intellij.libraries.grpc.netty.shaded"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-gcloud-253.25908.13.zip",
@@ -85,9 +85,9 @@
       "sha256": "9zordUqyplH0+tfmEJ6ruz/J2RinKQoCcwqyKQTD944=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
         "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded",
+        "intellij.bigdatatools.coreUi",
         "intellij.libraries.microba"
       ],
       "optional_dependencies": [],
@@ -101,10 +101,10 @@
       "sha256": "ATEqgjdTwZ48ALv1r0jhz5H3yPvyMuqZ2AWaTM2Lfyo=",
       "channel": "stable",
       "dependencies": [
+        "intellij.libraries.microba",
         "intellij.bigdatatools.coreUi",
         "intellij.libraries.grpc",
-        "intellij.libraries.grpc.netty.shaded",
-        "intellij.libraries.microba"
+        "intellij.libraries.grpc.netty.shaded"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-gcloud-253.27864.23.zip",
@@ -117,10 +117,10 @@
       "sha256": "P/iMdxImTGCFDEs9gQnOJ0XaLkmkZbYyC0AqWtpP7FY=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
-        "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded",
-        "intellij.libraries.microba"
+        "intellij.bigdatatools.coreUi",
+        "intellij.libraries.microba",
+        "intellij.libraries.grpc"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-gcloud-253.28086.51.zip",
@@ -133,9 +133,9 @@
       "sha256": "kKhTM0LpF65Fe2sh7IeZxog+7NAaufM0sTvkjTW++fQ=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
-        "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.grpc",
+        "intellij.bigdatatools.coreUi",
         "intellij.libraries.microba"
       ],
       "optional_dependencies": [],
@@ -150,9 +150,9 @@
       "channel": "stable",
       "dependencies": [
         "intellij.bigdatatools.coreUi",
-        "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded",
-        "intellij.libraries.microba"
+        "intellij.libraries.microba",
+        "intellij.libraries.grpc"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-gcloud-253.28294.169.zip",
@@ -165,13 +165,29 @@
       "sha256": "a3CDS9cMQxL3alKc5D/YOsXOdGy80366InHPCisWUD0=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
+        "intellij.libraries.microba",
         "intellij.libraries.grpc",
-        "intellij.libraries.grpc.netty.shaded",
-        "intellij.libraries.microba"
+        "intellij.bigdatatools.coreUi",
+        "intellij.libraries.grpc.netty.shaded"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-gcloud-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "907437": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28490/907437/bigdatatools-gcloud-253.28294.325.zip?updateId=907437&pluginId=28490&family=INTELLIJ",
+      "sha256": "ommBRkEoi05q32J+0Ljn6Mzb5w13Nfo1Y8Tzdnz3bRQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.bigdatatools.coreUi",
+        "intellij.libraries.grpc",
+        "intellij.libraries.microba"
+      ],
+      "optional_dependencies": [],
+      "file_name": "bigdatatools-gcloud-253.28294.325.zip",
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
@@ -189,6 +205,7 @@
       "253.28086.51": 887108,
       "253.28294.169": 895652,
       "253.28294.251": 902505,
+      "253.28294.325": 907437,
       "253.28294.51": 889970
     }
   }

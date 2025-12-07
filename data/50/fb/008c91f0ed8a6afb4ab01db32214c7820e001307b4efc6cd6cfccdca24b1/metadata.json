@@ -189,8 +189,8 @@
       "sha256": "xWYFPVogbNKIrNGEU9SG6DLUtSbMR87/xpaXYXI+vJU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
       ],
       "optional_dependencies": [],
       "file_name": "helm-values-intellij-plugin-0.10.0-signed.zip",
@@ -203,8 +203,8 @@
       "sha256": "JFytUMDMT18rKBCewi0fdDj7uw8kWt2K5/jQRYfPj58=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
       ],
       "optional_dependencies": [],
       "file_name": "helm-values-intellij-plugin-0.10.1-signed.zip",
@@ -225,6 +225,20 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "908297": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19970/908297/helm-values-intellij-plugin-0.11.1.zip?updateId=908297&pluginId=19970&family=INTELLIJ",
+      "sha256": "OhBbLVm6jFpHqFV5dj50tV7pwdDEhgAIZR4GJlxvj4Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "helm-values-intellij-plugin-0.11.1.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -233,6 +247,7 @@
       "0.10.0": 628743,
       "0.10.1": 703316,
       "0.11.0": 837140,
+      "0.11.1": 908297,
       "0.4.0": 252316,
       "0.4.1": 258145,
       "0.4.2": 261184,

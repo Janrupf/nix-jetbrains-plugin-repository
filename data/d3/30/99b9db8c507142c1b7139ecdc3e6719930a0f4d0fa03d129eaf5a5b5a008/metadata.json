@@ -21,8 +21,8 @@
       "sha256": "e8YwzNxHENt7jaRyANWffKXVeb+GzPHNuaPy4rWuhcg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "robot-framework-plugin-2025.2.6.zip",
@@ -36,9 +36,9 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.java",
+        "com.intellij.modules.platform",
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -53,9 +53,9 @@
       "sha256": "k3GSjkIKaAlya3lJBvzpc1OehkpLuXXb9w+HJ2ShnfQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.java",
         "com.intellij.modules.lang",
+        "com.intellij.java",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
@@ -72,9 +72,9 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.java",
+        "com.intellij.modules.platform",
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -89,10 +89,10 @@
       "sha256": "5sYwhAnFiXOLUtXXfh9vdYLplk6/0Z8P/Yj24Ci7d9s=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -107,9 +107,9 @@
       "sha256": "jDrF7nwcLEsIQBPwVWag64gLjLoHxQWEmR/DyB0TYWE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.java",
         "com.intellij.modules.lang",
+        "com.intellij.java",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
@@ -125,10 +125,10 @@
       "sha256": "FXGQCTBwz0xv/y0zZfGpOS+3CmrSjM2ELRvYEHQc88g=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.java",
+        "com.intellij.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -144,9 +144,9 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.java",
-        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -161,15 +161,87 @@
       "sha256": "4qrUcm66VHMJY/w+eiS3F0bTIEMiEHf5Dj1i/bRy8oM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
       ],
       "file_name": "robot-framework-plugin-2025.3.2.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "907753": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29046/907753/robot-framework-plugin-2025.4.1.zip?updateId=907753&pluginId=29046&family=INTELLIJ",
+      "sha256": "NZxzlF+yxNysnWuMCf4SGtHCQrkFrJYW28TKMwdRWw8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "robot-framework-plugin-2025.4.1.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "907762": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29046/907762/robot-framework-plugin-2025.5.3.zip?updateId=907762&pluginId=29046&family=INTELLIJ",
+      "sha256": "8PSJFfRzYGtJebBgFa/PrzA8mrzA8JmJZryGVfd1YoE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "robot-framework-plugin-2025.5.3.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "907763": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29046/907763/robot-framework-plugin-2025.5.4.zip?updateId=907763&pluginId=29046&family=INTELLIJ",
+      "sha256": "C79u9vXIf6GikSWSXUp2B0NwzOW+axyaLaFnletY0cI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "robot-framework-plugin-2025.5.4.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "907795": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29046/907795/robot-framework-plugin-2025.6.3.zip?updateId=907795&pluginId=29046&family=INTELLIJ",
+      "sha256": "Iy8mygzwYiGtTwi4wH6iKlBLg3TJSqGngCcDYxNto7A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "robot-framework-plugin-2025.6.3.zip",
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
@@ -186,7 +258,11 @@
       "2025.11.48": 903176,
       "2025.2.0": 894763,
       "2025.2.6": 894764,
-      "2025.3.2": 904035
+      "2025.3.2": 904035,
+      "2025.4.1": 907753,
+      "2025.5.3": 907762,
+      "2025.5.4": 907763,
+      "2025.6.3": 907795
     }
   }
 }

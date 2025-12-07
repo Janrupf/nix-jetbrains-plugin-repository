@@ -7,8 +7,8 @@
       "sha256": "e2yuKTu0n//COekjqdfH3FwYaeyQTog4/C07v6BOWzg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.jetbrains.php",
+        "com.intellij.modules.platform",
         "com.jetbrains.php.drupal"
       ],
       "optional_dependencies": [
@@ -18,11 +18,29 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "908116": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29232/908116/Drupal_Toolkit-0.1.0.zip?updateId=908116&pluginId=29232&family=INTELLIJ",
+      "sha256": "uQ4iHFyMW5V3GUWayKiroNRGNPFKt7NYdq07RgGpoAs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.php",
+        "com.jetbrains.php.drupal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "fr.adrienbrault.idea.symfony2plugin"
+      ],
+      "file_name": "Drupal_Toolkit-0.1.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 906007
+      "0.0.1": 906007,
+      "0.1.0": 908116
     }
   }
 }

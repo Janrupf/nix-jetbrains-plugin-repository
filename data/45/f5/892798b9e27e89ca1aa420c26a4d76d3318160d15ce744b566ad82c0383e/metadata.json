@@ -7,10 +7,10 @@
       "sha256": "3TvC9Ym5MFsgSuLP1O0d3LDhqfX/AcAoWwSkXDb/eZ8=",
       "channel": "eap",
       "dependencies": [
-        "com.intellij.gradle",
         "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
         "org.intellij.groovy",
-        "org.jetbrains.idea.maven"
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.java"
@@ -25,10 +25,10 @@
       "sha256": "9mfjxiHMNoM1eV156xN0i31cwQQYS1jQi+FfrL0cKnY=",
       "channel": "eap",
       "dependencies": [
-        "com.intellij.gradle",
         "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
         "org.intellij.groovy",
-        "org.jetbrains.idea.maven"
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.java"
@@ -225,9 +225,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-0.6.5.zip",
       "since": "222.0",
@@ -243,9 +243,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-0.6.6.zip",
       "since": "222.0",
@@ -261,9 +261,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-0.7.0.zip",
       "since": "222.0",
@@ -279,9 +279,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-0.7.1.zip",
       "since": "222.0",
@@ -297,9 +297,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-0.8.0.zip",
       "since": "223.0",
@@ -315,9 +315,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-0.9.0.zip",
       "since": "223.0",
@@ -333,9 +333,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-1.0.0.zip",
       "since": "223.0",
@@ -351,9 +351,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-1.0.1.zip",
       "since": "223.0",
@@ -369,9 +369,9 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
         "com.intellij.java",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.plugins.go",
+        "PythonCore"
       ],
       "file_name": "Datadog-1.0.2.zip",
       "since": "223.0",
@@ -387,11 +387,11 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
-        "com.intellij.java",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "PythonCore",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.0.3.zip",
@@ -408,11 +408,11 @@
       ],
       "optional_dependencies": [
         "Git4Idea",
-        "PythonCore",
-        "com.intellij.java",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "PythonCore",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.0.4.zip",
@@ -428,13 +428,13 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
+        "Docker",
         "org.jetbrains.plugins.go",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.0.5.zip",
@@ -450,13 +450,13 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
+        "Docker",
         "org.jetbrains.plugins.go",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.0.6.zip",
@@ -472,14 +472,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.0.7.zip",
@@ -495,14 +495,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.1.0.zip",
@@ -518,14 +518,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.1.1.zip",
@@ -541,14 +541,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.1.2.zip",
@@ -564,14 +564,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.2.0.zip",
@@ -587,14 +587,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.2.1.zip",
@@ -610,14 +610,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.2.2.zip",
@@ -633,14 +633,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.2.3.zip",
@@ -656,14 +656,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.2.4.zip",
@@ -679,14 +679,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.3.0.zip",
@@ -702,14 +702,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.3.1.zip",
@@ -725,14 +725,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.3.2.zip",
@@ -748,14 +748,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.4.0.zip",
@@ -771,14 +771,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.4.1.zip",
@@ -794,14 +794,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.4.2.zip",
@@ -817,14 +817,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.4.3.zip",
@@ -840,14 +840,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.4.4.zip",
@@ -863,14 +863,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.4.5.zip",
@@ -886,14 +886,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.4.6.zip",
@@ -909,14 +909,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "Datadog-1.4.7.zip",
@@ -932,14 +932,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.5.0.zip",
@@ -955,14 +955,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.5.1.zip",
@@ -978,14 +978,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.5.2.zip",
@@ -1001,14 +1001,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.5.3.zip",
@@ -1024,14 +1024,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.5.4.zip",
@@ -1047,14 +1047,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.5.5.zip",
@@ -1070,14 +1070,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.5.6.zip",
@@ -1093,14 +1093,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.6.0.zip",
@@ -1116,14 +1116,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.6.1.zip",
@@ -1139,14 +1139,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.6.2.zip",
@@ -1162,14 +1162,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.6.3.zip",
@@ -1185,14 +1185,14 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
         "Git4Idea",
+        "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.7.0.zip",
@@ -1205,17 +1205,17 @@
       "sha256": "mt/+UCq3B2DTGNYypZ+TKiE6vLlH8evPVmRrHfRQqXk=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.0.zip",
@@ -1228,17 +1228,17 @@
       "sha256": "ARjiMIqjGIUOhj+Z9NCBDZo3xrZqIY/SRV1gjYpoPdo=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.1.zip",
@@ -1251,17 +1251,17 @@
       "sha256": "v5A50tlZ31r4uckPUowsnR8CciSjxzytaFYHCi0a8+s=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.2.zip",
@@ -1274,17 +1274,17 @@
       "sha256": "poJtHzpRZ7aqfN4qjYBKj9YzzBJi25Io/BN8ZBVJmz4=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.3.zip",
@@ -1297,19 +1297,19 @@
       "sha256": "cugBXqTR7iYnpXMnTCR/CJxJgCg3KPa7JX5aLwMQXck=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.4.zip",
       "since": "241.0",
@@ -1321,19 +1321,19 @@
       "sha256": "2+9PblX4IlZW07QwdAQ6QN7J/BUh3nhtRbizO3KXYqg=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.5.zip",
       "since": "241.0",
@@ -1345,19 +1345,19 @@
       "sha256": "YvaFYcfodh+wXKGKSHhvd5qI1lKFTWcioam++dV0AWo=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.6.zip",
       "since": "241.0",
@@ -1369,19 +1369,19 @@
       "sha256": "6jt4qOd7UvvAN2uHQcGF7oYt+FDg1K7L+Z7JcmdTvr0=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.7.zip",
       "since": "241.0",
@@ -1393,19 +1393,19 @@
       "sha256": "iOwA/onrvwmD/tx70AqytloOYzGlEv20q7jyFVMKiB0=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.8.zip",
       "since": "241.0",
@@ -1417,19 +1417,19 @@
       "sha256": "LYmP/Lx76azGTp29CPHymHZUEmbf41kEEbEe/0iZcOY=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.9.zip",
       "since": "241.0",
@@ -1441,19 +1441,19 @@
       "sha256": "KEADpq33oQqRLz1IhKPpOME9EhSt+0FOpYleBKkXMEs=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.10.zip",
       "since": "241.0",
@@ -1465,19 +1465,19 @@
       "sha256": "hgQA03sb93kBf8t7SySuAHTfw9CgaZHxVlO/t9dZu8U=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.8.11.zip",
       "since": "241.0",
@@ -1489,19 +1489,19 @@
       "sha256": "HOQLzBZa/KxKntKcqagLRlXodY7CCTShuVcU7Ld2SLk=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.9.0.zip",
       "since": "242.0",
@@ -1513,19 +1513,19 @@
       "sha256": "jyKuqbBcTa2+TO8W6D1G5RWbZKAsry37YFi4BiQ/ly8=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.9.1.zip",
       "since": "242.0",
@@ -1537,19 +1537,19 @@
       "sha256": "uGu9CtsE2dXL86ynraLIH+1TT4nr+PGOwk5xPkX7ZRs=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.9.2.zip",
       "since": "242.0",
@@ -1561,19 +1561,19 @@
       "sha256": "GBx9p5KkzDPpSCHdNpM0Z6vG1mo7oDbQOat+Ygj4RNw=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.9.4.zip",
       "since": "242.0",
@@ -1585,19 +1585,19 @@
       "sha256": "qc1r8xoYAvLuYaElyz2HfXlht+JASgpTeo+jybJpafU=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.9.5.zip",
       "since": "242.0",
@@ -1609,19 +1609,19 @@
       "sha256": "pw+2FvzoAJTdPSGnk3oVcmgd6lWZTzVeaEAhrOR564Y=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby"
       ],
       "file_name": "datadog-intellij-plugin-1.9.6.zip",
       "since": "242.0",
@@ -1637,15 +1637,15 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.python",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.yaml",
         "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "Docker"
       ],
       "file_name": "datadog-intellij-plugin-1.9.7.zip",
       "since": "242.0",
@@ -1657,18 +1657,18 @@
       "sha256": "Jg47x6g0fQzvn2oSm4UW3qr5mycPhRuHT/iCEt+KOuA=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
-        "Docker",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.ruby",
+        "com.jetbrains.php",
         "JavaScript",
+        "Docker",
         "com.intellij.java",
         "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.yaml"
       ],
       "file_name": "datadog-intellij-plugin-1.9.8.zip",
@@ -1686,14 +1686,14 @@
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.python"
       ],
       "file_name": "datadog-intellij-plugin-1.9.9.zip",
       "since": "242.0",
@@ -1710,14 +1710,14 @@
       ],
       "optional_dependencies": [
         "Docker",
-        "JavaScript",
+        "org.jetbrains.plugins.ruby",
+        "com.jetbrains.php",
         "com.intellij.java",
         "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml",
+        "JavaScript",
         "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "datadog-intellij-plugin-1.9.10.zip",
       "since": "242.0",
@@ -1729,18 +1729,18 @@
       "sha256": "kfAsHCHjkHYm0sQ9SJ3kNHm9GTwd/2HEan+GHE67Y80=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
-        "Docker",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.ruby",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go",
         "JavaScript",
+        "Docker",
         "com.intellij.java",
         "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.yaml"
       ],
       "file_name": "datadog-intellij-plugin-1.10.0.zip",
@@ -1758,14 +1758,14 @@
       ],
       "optional_dependencies": [
         "Docker",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.python"
       ],
       "file_name": "datadog-intellij-plugin-1.10.1.zip",
       "since": "243.0",
@@ -1781,12 +1781,12 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Docker",
+        "com.intellij.modules.python",
         "JavaScript",
         "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
+        "Docker",
+        "com.jetbrains.php",
         "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.yaml"
@@ -1801,19 +1801,19 @@
       "sha256": "cx47cHQ4nzWZV/XpwL3dkbAP+g0wVq+Dpebj6hP381Y=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
         "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea"
       ],
       "optional_dependencies": [
-        "Docker",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.ruby",
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
         "JavaScript",
+        "Docker",
         "com.intellij.java",
         "com.intellij.modules.python",
-        "com.jetbrains.php",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.yaml"
       ],
       "file_name": "datadog-intellij-plugin-1.10.3.zip",
@@ -1831,13 +1831,13 @@
         "org.jetbrains.plugins.terminal"
       ],
       "optional_dependencies": [
-        "Docker",
         "JavaScript",
-        "com.intellij.java",
-        "com.intellij.modules.python",
-        "com.jetbrains.php",
         "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go",
+        "Docker",
+        "com.jetbrains.php",
+        "com.intellij.java",
+        "com.intellij.modules.python",
         "org.jetbrains.plugins.ruby",
         "org.jetbrains.plugins.yaml"
       ],

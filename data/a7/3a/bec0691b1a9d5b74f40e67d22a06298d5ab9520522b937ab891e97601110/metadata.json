@@ -7,9 +7,9 @@
       "sha256": "/xsqne7YNLY8AyfpCJQ1hZlKMrxyF21Mee1Eu+2N+gQ=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "PythonCommon",
         "com.intellij.modules.python",
         "org.jetbrains.plugins.terminal"
       ],
@@ -24,9 +24,9 @@
       "sha256": "0f22S8PboGmk7mJIkeh4XEypDuG96fzMd0v30Wh358I=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "PythonCommon",
         "com.intellij.modules.python",
         "org.jetbrains.plugins.terminal"
       ],
@@ -58,8 +58,8 @@
       "sha256": "s19MP1QoCEZKCCBIsLjcHgLatcCib+H82n1IP/+GTpc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
         "org.jetbrains.plugins.terminal"
       ],
       "optional_dependencies": [
@@ -75,8 +75,8 @@
       "sha256": "hwKBo1r2zTGpb1R1XL0q5PrVNSZq01R3CwmjFCQx43o=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -91,8 +91,8 @@
       "sha256": "D4Y6xYLSt27qzhzWQ9ie1iUlVpx6XuX+5yqqnGEC0ZM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -139,8 +139,8 @@
       "sha256": "LgaaDpSrmL/Lhy8DiF+ZCKs74mq98WsSXU/QPx+xRIU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.python"
@@ -165,6 +165,22 @@
       "since": "253.28294.237",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "908280": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25888/908280/Mypy_PyCharm_Plugin-2.1.6-signed.zip?updateId=908280&pluginId=25888&family=INTELLIJ",
+      "sha256": "Ai4ydFJghVdCqkmnxR8m35b3CcXtP5/GD7C7EHQvvOE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "Mypy_PyCharm_Plugin-2.1.6-signed.zip",
+      "since": "253.28294.237",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -178,7 +194,8 @@
       "2.1.1": 895607,
       "2.1.3": 898945,
       "2.1.4": 900886,
-      "2.1.5": 905148
+      "2.1.5": 905148,
+      "2.1.6": 908280
     }
   }
 }

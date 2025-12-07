@@ -11,9 +11,9 @@
         "com.intellij.modules.rider"
       ],
       "optional_dependencies": [
+        "opentelemetry.core",
         "com.intellij.diagram",
-        "com.intellij.modules.json",
-        "opentelemetry.core"
+        "com.intellij.modules.json"
       ],
       "file_name": "open-telemetry-plugin-0.0.3-signed.zip",
       "since": "252.0",
@@ -36,9 +36,9 @@
         "com.intellij.modules.rider"
       ],
       "optional_dependencies": [
+        "opentelemetry.core",
         "com.intellij.diagram",
-        "com.intellij.modules.json",
-        "opentelemetry.core"
+        "com.intellij.modules.json"
       ],
       "file_name": "open-telemetry-plugin-0.0.4-signed.zip",
       "since": "252.0",
@@ -61,9 +61,9 @@
         "com.intellij.modules.rider"
       ],
       "optional_dependencies": [
+        "opentelemetry.core",
         "com.intellij.diagram",
-        "com.intellij.modules.json",
-        "opentelemetry.core"
+        "com.intellij.modules.json"
       ],
       "file_name": "open-telemetry-plugin-0.0.5-signed.zip",
       "since": "252.0",
@@ -82,15 +82,15 @@
       "sha256": "8/QxEWX+jUfNem6B2LU9M8/M5oZT2ZuYiP7OvUvOQec=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
         "com.intellij.mcpServer",
-        "com.intellij.modules.json",
         "me.rafaelldi.aspire",
-        "opentelemetry.core"
+        "com.intellij.modules.json",
+        "opentelemetry.core",
+        "com.intellij.diagram"
       ],
       "file_name": "open-telemetry-plugin-0.0.6-signed.zip",
       "since": "252.0",
@@ -113,11 +113,11 @@
         "com.intellij.modules.rider"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
         "com.intellij.mcpServer",
-        "com.intellij.modules.json",
         "me.rafaelldi.aspire",
-        "opentelemetry.core"
+        "opentelemetry.core",
+        "com.intellij.modules.json",
+        "com.intellij.diagram"
       ],
       "file_name": "open-telemetry-plugin-0.0.7-signed.zip",
       "since": "252.0",
@@ -136,14 +136,14 @@
       "sha256": "QFVIZS4tmfmhDLgoVNDtWHG379hJOcpFJjBj+gXMyts=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
-        "com.intellij.mcpServer",
         "com.intellij.modules.json",
         "me.rafaelldi.aspire",
+        "com.intellij.mcpServer",
+        "com.intellij.diagram",
         "opentelemetry.core"
       ],
       "file_name": "open-telemetry-plugin-0.0.8-signed.zip",
@@ -163,18 +163,18 @@
       "sha256": "7N7XSzULjvbtHDQYdej1HuQKYY4/a7dewgoCJPDqk0o=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "intellij.ml.llm.core",
         "com.intellij.diagram",
-        "com.intellij.mcpServer",
+        "opentelemetry.core",
         "com.intellij.ml.llm",
         "com.intellij.modules.json",
-        "intellij.ml.llm.core",
         "intellij.ml.llm.tokenizer",
-        "me.rafaelldi.aspire",
-        "opentelemetry.core"
+        "com.intellij.mcpServer",
+        "me.rafaelldi.aspire"
       ],
       "file_name": "open-telemetry-plugin-0.0.9-signed.zip",
       "since": "252.0",
@@ -193,17 +193,17 @@
       "sha256": "uZumIOFb/FL9u5B6YdTS6hBxE03ywOX8nBqSVK4fbR0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
+        "me.rafaelldi.aspire",
         "com.intellij.mcpServer",
-        "com.intellij.ml.llm",
-        "com.intellij.modules.json",
+        "com.intellij.diagram",
         "intellij.ml.llm.core",
         "intellij.ml.llm.tokenizer",
-        "me.rafaelldi.aspire",
+        "com.intellij.modules.json",
+        "com.intellij.ml.llm",
         "opentelemetry.core"
       ],
       "file_name": "open-telemetry-plugin-0.0.11-signed.zip",
@@ -229,11 +229,11 @@
       "optional_dependencies": [
         "com.intellij.diagram",
         "com.intellij.mcpServer",
+        "intellij.ml.llm.core",
+        "me.rafaelldi.aspire",
+        "intellij.ml.llm.tokenizer",
         "com.intellij.ml.llm",
         "com.intellij.modules.json",
-        "intellij.ml.llm.core",
-        "intellij.ml.llm.tokenizer",
-        "me.rafaelldi.aspire",
         "opentelemetry.core"
       ],
       "file_name": "open-telemetry-plugin-0.0.12-signed.zip",
@@ -253,15 +253,15 @@
       "sha256": "TSkklyGK3ss+iTmvMGtaiir8UI826w1YRnv1V5KM7MQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
-        "com.intellij.mcpServer",
-        "com.intellij.modules.json",
         "me.rafaelldi.aspire",
-        "opentelemetry.core"
+        "opentelemetry.core",
+        "com.intellij.mcpServer",
+        "com.intellij.diagram",
+        "com.intellij.modules.json"
       ],
       "file_name": "open-telemetry-plugin-0.0.13-signed.zip",
       "since": "252.2.2",
@@ -273,15 +273,15 @@
       "sha256": "a2lPx8MSOVoLb7P+EwGHriWDx3BbT4Xnc7dNrfziZcQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "me.rafaelldi.aspire",
+        "opentelemetry.core",
         "com.intellij.diagram",
         "com.intellij.mcpServer",
-        "com.intellij.modules.json",
-        "me.rafaelldi.aspire",
-        "opentelemetry.core"
+        "com.intellij.modules.json"
       ],
       "file_name": "open-telemetry-plugin-0.0.14-signed.zip",
       "since": "252.2.2",
@@ -297,10 +297,10 @@
         "com.intellij.modules.rider"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
-        "com.intellij.mcpServer",
         "com.intellij.modules.json",
+        "com.intellij.diagram",
         "me.rafaelldi.aspire",
+        "com.intellij.mcpServer",
         "opentelemetry.core"
       ],
       "file_name": "open-telemetry-plugin-0.0.15-signed.zip",
@@ -313,15 +313,15 @@
       "sha256": "Xv19f3Xhlyx6FcODZ6zK0a3OAy06+i6UiYLfXUnh3Cc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
-        "com.intellij.mcpServer",
         "com.intellij.modules.json",
-        "me.rafaelldi.aspire",
-        "opentelemetry.core"
+        "com.intellij.mcpServer",
+        "opentelemetry.core",
+        "com.intellij.diagram",
+        "me.rafaelldi.aspire"
       ],
       "file_name": "open-telemetry-plugin-0.0.16-signed.zip",
       "since": "252.2.2",
@@ -333,14 +333,14 @@
       "sha256": "0KnX7y2gBqqNsdppRVJ2v+aykBvaG1PRFS4232+7ieY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "com.intellij.diagram",
         "com.intellij.mcpServer",
-        "com.intellij.modules.json",
         "me.rafaelldi.aspire",
+        "com.intellij.modules.json",
         "opentelemetry.core"
       ],
       "file_name": "open-telemetry-plugin-0.0.17-signed.zip",
@@ -353,14 +353,14 @@
       "sha256": "ZU+zpBLZVfF3op6JvIXn+s53nFJZg0MY9MuqV3m9jpo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
-        "com.intellij.mcpServer",
         "com.intellij.modules.json",
+        "com.intellij.mcpServer",
         "me.rafaelldi.aspire",
+        "com.intellij.diagram",
         "opentelemetry.core"
       ],
       "file_name": "open-telemetry-plugin-0.0.18-signed.zip",
@@ -378,10 +378,10 @@
       ],
       "optional_dependencies": [
         "com.intellij.diagram",
-        "com.intellij.mcpServer",
         "com.intellij.modules.json",
-        "me.rafaelldi.aspire",
-        "opentelemetry.core"
+        "opentelemetry.core",
+        "com.intellij.mcpServer",
+        "me.rafaelldi.aspire"
       ],
       "file_name": "open-telemetry-plugin-1.0.0-signed.zip",
       "since": "253.0",
@@ -397,11 +397,11 @@
         "com.intellij.modules.rider"
       ],
       "optional_dependencies": [
-        "com.intellij.diagram",
-        "com.intellij.mcpServer",
+        "opentelemetry.core",
         "com.intellij.modules.json",
         "me.rafaelldi.aspire",
-        "opentelemetry.core"
+        "com.intellij.mcpServer",
+        "com.intellij.diagram"
       ],
       "file_name": "open-telemetry-plugin-1.0.1-signed.zip",
       "since": "253.0",

@@ -7,9 +7,9 @@
       "sha256": "IeaOcXVGfpFzBKEjXDOTEvzTFFO6mMEJ+vLGJT0SO34=",
       "channel": "alpha",
       "dependencies": [
-        "com.intellij.modules.clion",
+        "intellij.platform.dap",
         "com.intellij.modules.platform",
-        "intellij.platform.dap"
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "winidea-debug-921.29800.199646-signed.zip",
@@ -22,9 +22,9 @@
       "sha256": "tjD+2CIjPf4O5lNg07hv6G+cf/gOoke1iKGnE41sGRM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
+        "intellij.platform.dap",
         "com.intellij.modules.platform",
-        "intellij.platform.dap"
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "winidea-debug-921.30300.201649-signed.zip",
@@ -37,9 +37,9 @@
       "sha256": "PBZ90VOyEyjHLhImNpAtAsun5jWi6Bxcd971dMkwJKo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
+        "intellij.platform.dap",
         "com.intellij.modules.platform",
-        "intellij.platform.dap"
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "winidea-debug-921.30300.201850-signed.zip",
@@ -52,9 +52,9 @@
       "sha256": "s7cY76NKRQqkLfF/Uk0/SetAeOy0fNuEQh35jD1nwnc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
+        "intellij.platform.dap",
         "com.intellij.modules.platform",
-        "intellij.platform.dap"
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "winidea-debug-921.30400.202297-signed.zip",
@@ -67,8 +67,8 @@
       "sha256": "QsVgyCQsozN7ML81Br7KtsL5O6DdlpB9xDrWlq8ob5w=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "winidea-debug-921.32300.210240-signed.zip",
@@ -81,8 +81,8 @@
       "sha256": "gYsqP7w0kbiF3GDUaXJMuouBHFGR5q2UYUWfM0NZOUs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "winidea-debug-921.32700.212029-signed.zip",
@@ -95,8 +95,8 @@
       "sha256": "UUIqy+O31ENDXSb2xphTRQFEyun5Sa86c1JdEhvzrTY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "winidea-debug-921.32800.212353-signed.zip",
@@ -109,9 +109,9 @@
       "sha256": "uG/ez1Pyva5uHav4boJ77lpRRrYY74zZjfz7vY8RcLE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.clion.cmake",
+        "com.intellij.modules.platform",
         "com.intellij.modules.clion",
-        "com.intellij.modules.platform"
+        "com.intellij.clion.cmake"
       ],
       "optional_dependencies": [],
       "file_name": "winidea-debug-921.35200.224597-signed.zip",
@@ -119,35 +119,15 @@
       "until": "252.*",
       "compatibility_overrides": []
     },
-    "906334": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25748/906334/si.isystem.clion.debug-921.37900.241295.zip?updateId=906334&pluginId=25748&family=INTELLIJ",
-      "sha256": "rk3NiRuKnckIZlXA970Sy5ZOHGAxVJQXIzj74574MPE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.clion",
-        "com.intellij.clion.embedded",
-        "com.intellij.cmake",
-        "com.intellij.modules.cidr.debugger",
-        "com.intellij.modules.clion",
-        "com.intellij.modules.platform",
-        "intellij.clion.toolchains",
-        "intellij.clion.toolchains.debugger"
-      ],
-      "optional_dependencies": [],
-      "file_name": "si.isystem.clion.debug-921.37900.241295.zip",
-      "since": "253.28294",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "906823": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25748/906823/si.isystem.clion.debug-921.38100.241506.zip?updateId=906823&pluginId=25748&family=INTELLIJ",
       "sha256": "atsBSHe9nZqhIbKL5k2qe0jv0Ytw1uPhWDlHXlmcoPw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.clion.embedded",
-        "com.intellij.cmake",
         "com.intellij.modules.clion",
-        "com.intellij.modules.platform"
+        "com.intellij.clion.embedded",
+        "com.intellij.modules.platform",
+        "com.intellij.cmake"
       ],
       "optional_dependencies": [],
       "file_name": "si.isystem.clion.debug-921.38100.241506.zip",
@@ -168,7 +148,6 @@
       "921.32700.212029": 705646,
       "921.32800.212353": 706969,
       "921.35200.224597": 803036,
-      "921.37900.241295": 906334,
       "921.38100.241506": 906823
     }
   }

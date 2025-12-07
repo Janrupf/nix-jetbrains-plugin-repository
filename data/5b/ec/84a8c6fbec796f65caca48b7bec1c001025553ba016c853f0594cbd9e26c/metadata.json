@@ -7,11 +7,11 @@
       "sha256": "Km/6xJ/6CzAv7qHJZn6POrvg/HIa/qpJ6WgqMHWShkM=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.vcs",
         "Git4Idea",
-        "com.intellij.java",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.java",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "AIVory-2025.6.0.zip",
@@ -24,11 +24,11 @@
       "sha256": "SnNPpajz9URKh8zxvRn1+0WCdj31o2+mS2ZFY+WgsoM=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
         "Git4Idea",
         "com.intellij.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "AIVory-2025.6.1.zip",
@@ -41,11 +41,11 @@
       "sha256": "ZUG+FmRVv4apAiINQQhL8tiz5pBiCw+g1Kd35l2h9rU=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
+        "com.intellij.modules.vcs",
         "com.intellij.java",
         "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "AIVory-2025.6.2.zip",
@@ -58,11 +58,11 @@
       "sha256": "4vLUqKer+Hmip1EWjL0JHUlhvSdhiovuP8XUkkL9BJY=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
+        "com.intellij.modules.vcs",
         "com.intellij.java",
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "Git4Idea",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "AIVory-2025.6.3.zip",
@@ -75,11 +75,11 @@
       "sha256": "vSRTI76+Pr0RYgdgRVFU2QxRdfCD2xAtyMMRvc95HIs=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.vcs",
         "Git4Idea",
         "com.intellij.java",
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "AIVory-2025.6.4.zip",
@@ -93,9 +93,9 @@
       "channel": "stable",
       "dependencies": [
         "Git4Idea",
-        "com.intellij.java",
         "com.intellij.modules.lang",
         "com.intellij.modules.platform",
+        "com.intellij.java",
         "com.intellij.modules.vcs"
       ],
       "optional_dependencies": [],
@@ -109,10 +109,10 @@
       "sha256": "ZA7oF+aQAFbeEf1e3mvgj1YVwGqCwtt8UkBmiEYkdeU=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
         "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "AIVory-2025.7.0.zip",
@@ -125,10 +125,10 @@
       "sha256": "OvAbT5VYyvMbMXDCV9eF6JJ0wLuu+CD8YIr51Ws303c=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "AIVory-2025.7.1.zip",
@@ -141,13 +141,29 @@
       "sha256": "KEQ4Qos4b49MuVlAsga7yGgL69qECFO8EiA+Jk+m+9s=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.platform",
         "Git4Idea",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
         "com.intellij.modules.vcs"
       ],
       "optional_dependencies": [],
       "file_name": "AIVory-2025.7.2.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "907476": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28745/907476/AIVory-2025.7.3.zip?updateId=907476&pluginId=28745&family=INTELLIJ",
+      "sha256": "vyl9Dl2m0WO1KGbO+g5TnXn+5yvrJT4ZV4LFn62qOvk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AIVory-2025.7.3.zip",
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
@@ -163,7 +179,8 @@
       "2025.6.5": 898905,
       "2025.7.0": 904392,
       "2025.7.1": 905951,
-      "2025.7.2": 906970
+      "2025.7.2": 906970,
+      "2025.7.3": 907476
     }
   }
 }

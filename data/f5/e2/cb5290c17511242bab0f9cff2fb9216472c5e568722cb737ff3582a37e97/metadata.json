@@ -47,8 +47,8 @@
       "sha256": "tOM3u3V0hCApBQUrY9vaZqlSOyyHGht67toiR/kX160=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "dhcoder-0.0.3.zip",
@@ -68,8 +68,8 @@
       "sha256": "KSX2clQ1pq/vaABwe3RIcpsphLYeaBg2wkvvcG7A7Gc=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "dhcoder-0.0.4.zip",
@@ -89,8 +89,8 @@
       "sha256": "uIE/eQ/rlHWcLxLRbdoTBZCyVBE3/rQOrDppzI6wBAU=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "dhcoder-0.1.0.zip",
@@ -110,9 +110,9 @@
       "sha256": "haSyzsDpZbTNZ8dxrJiblwrgBMtBprsMrY6Ss+gXZkQ=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
+        "com.intellij.modules.platform",
         "com.intellij.modules.json",
-        "com.intellij.modules.platform"
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "dhcoder-0.2.0.zip",
@@ -125,9 +125,9 @@
       "sha256": "IL0Q/B6zXmztxhcJNp0YBQMKB39mAivLrGb4FZe8i4w=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
+        "com.intellij.modules.platform",
         "com.intellij.modules.json",
-        "com.intellij.modules.platform"
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "dhcoder-0.2.1.zip",
@@ -140,9 +140,9 @@
       "sha256": "O3gSO4KKT/iEwq+fxzqtQrP1KQwFZo/kKkG/UaP1Ilc=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
+        "com.intellij.modules.platform",
         "com.intellij.modules.json",
-        "com.intellij.modules.platform"
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "dhcoder-0.2.2.zip",
@@ -155,8 +155,8 @@
       "sha256": "lqiPHnE/ogamtPUQA9nRtAhqH6onK3qDgNd1AvNd6/Y=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "com.intellij.modules.json"
@@ -171,8 +171,8 @@
       "sha256": "xiymlI5crVdneqxfNR2sWatcPaEyFmLlfbpxHRAgdII=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "com.intellij.modules.json"
@@ -187,8 +187,8 @@
       "sha256": "UcqxbdXIBGehS3Sdp0Y5myvCXbN26ODhG/fDHKm17JU=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "com.intellij.modules.json"
@@ -203,8 +203,8 @@
       "sha256": "LcIw7RddEfpGqjEWTrkizVA/actA7jPdlGxIziM9NfU=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "com.intellij.modules.json"
@@ -219,8 +219,8 @@
       "sha256": "kgOs44vp4p7ny92kyQHIpKaMnLv7ahH6xtv6HuZ8cYw=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "com.intellij.modules.json"
@@ -319,6 +319,22 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "907244": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24481/907244/dhcoder-1.4.0.zip?updateId=907244&pluginId=24481&family=INTELLIJ",
+      "sha256": "rkDwcDmafymMN03yNcYeE/NCARgGpoUdPdli4M208Qs=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "dhcoder-1.4.0.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -341,7 +357,8 @@
       "1.2.6": 795336,
       "1.3.6": 832827,
       "1.3.7": 834272,
-      "1.3.8": 840347
+      "1.3.8": 840347,
+      "1.4.0": 907244
     }
   }
 }

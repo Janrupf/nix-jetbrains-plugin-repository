@@ -7,10 +7,10 @@
       "sha256": "ZI+b1y88nVsZVFetUkLqOh/l1nW4+Lc6nLvmKht/qPc=",
       "channel": "stable",
       "dependencies": [
+        "org.intellij.intelliLang",
         "com.intellij.modules.java",
         "com.intellij.modules.json",
-        "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "mb-plugin-1.0.3.zip",
@@ -23,10 +23,10 @@
       "sha256": "TFRtPiGHMMJNMylPRkg3xjRCkGB/ibAs+O5xsvHsrbQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
         "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "org.intellij.intelliLang",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "mb-plugin-1.0.4.zip",
@@ -39,14 +39,14 @@
       "sha256": "XerQT9iqba+3jra/AhS+lMC3DBzPTU0Oo7/xNcQbfzw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
+        "org.intellij.intelliLang",
         "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "gherkin",
-        "org.jetbrains.plugins.cucumber.steps"
+        "org.jetbrains.plugins.cucumber.steps",
+        "gherkin"
       ],
       "file_name": "mb-plugin-1.1.0.zip",
       "since": "251.0",
@@ -58,10 +58,10 @@
       "sha256": "DKgdNKXAHMQMb6CkUTWD7epLLRy2tUrpG22lRAgWe2o=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
         "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "org.intellij.intelliLang",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "gherkin",
@@ -77,10 +77,10 @@
       "sha256": "Z8nQ54npsRyzYrVydzSZxefDz7kT28t8A1u1OP08FXs=",
       "channel": "stable",
       "dependencies": [
+        "org.intellij.intelliLang",
         "com.intellij.modules.java",
-        "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.json"
       ],
       "optional_dependencies": [
         "gherkin",
@@ -96,15 +96,15 @@
       "sha256": "VyR5L7+fNWmv9leG2QqiGdKs1k9vJXh372OP11VwRKA=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.modules.java",
         "com.intellij.modules.json",
+        "org.intellij.intelliLang",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "JUnit"
       ],
       "optional_dependencies": [
-        "gherkin",
-        "org.jetbrains.plugins.cucumber.steps"
+        "org.jetbrains.plugins.cucumber.steps",
+        "gherkin"
       ],
       "file_name": "mb-plugin-1.2.0.zip",
       "since": "251.0",
@@ -117,14 +117,14 @@
       "channel": "stable",
       "dependencies": [
         "JUnit",
-        "com.intellij.modules.java",
-        "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.java",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.json"
       ],
       "optional_dependencies": [
-        "gherkin",
-        "org.jetbrains.plugins.cucumber.steps"
+        "org.jetbrains.plugins.cucumber.steps",
+        "gherkin"
       ],
       "file_name": "mb-plugin-1.2.1.zip",
       "since": "251.0",
@@ -137,14 +137,14 @@
       "channel": "stable",
       "dependencies": [
         "JUnit",
+        "org.intellij.intelliLang",
         "com.intellij.modules.java",
         "com.intellij.modules.json",
-        "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "gherkin",
-        "org.jetbrains.plugins.cucumber.steps"
+        "org.jetbrains.plugins.cucumber.steps",
+        "gherkin"
       ],
       "file_name": "mb-plugin-1.2.2.zip",
       "since": "251.0",
@@ -158,8 +158,8 @@
       "dependencies": [
         "JUnit",
         "com.intellij.modules.java",
-        "com.intellij.modules.json",
         "com.intellij.modules.platform",
+        "com.intellij.modules.json",
         "org.intellij.intelliLang"
       ],
       "optional_dependencies": [
@@ -176,11 +176,11 @@
       "sha256": "/wHN4WFPv2tgJlZAFdV2p5+wS8iBfe3fxG4JmHseK6s=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.modules.java",
-        "com.intellij.modules.json",
+        "org.intellij.intelliLang",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "JUnit",
+        "com.intellij.modules.json"
       ],
       "optional_dependencies": [
         "gherkin",
@@ -197,10 +197,10 @@
       "channel": "stable",
       "dependencies": [
         "JUnit",
-        "com.intellij.modules.java",
-        "com.intellij.modules.json",
+        "org.intellij.intelliLang",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.json",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "gherkin",
@@ -217,10 +217,10 @@
       "channel": "stable",
       "dependencies": [
         "JUnit",
-        "com.intellij.modules.java",
-        "com.intellij.modules.json",
+        "org.intellij.intelliLang",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.json",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "gherkin",
@@ -236,11 +236,11 @@
       "sha256": "jLfCQ2gBWAGnWCmkgHXWm38r+ak68QMLqnbheKtLsw0=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.modules.java",
-        "com.intellij.modules.json",
+        "org.intellij.intelliLang",
+        "JUnit",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.json"
       ],
       "optional_dependencies": [
         "gherkin",
@@ -257,10 +257,10 @@
       "channel": "stable",
       "dependencies": [
         "JUnit",
-        "com.intellij.modules.java",
-        "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.json",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "gherkin"
@@ -275,10 +275,10 @@
       "sha256": "0vPENoPDs+EIA7DgMAFX1tHAxJo87LCXD3OPf2ZOspM=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.modules.java",
-        "com.intellij.modules.json",
+        "JUnit",
         "com.intellij.modules.platform",
+        "com.intellij.modules.json",
         "org.intellij.intelliLang"
       ],
       "optional_dependencies": [
@@ -294,11 +294,11 @@
       "sha256": "i1k5hWsb5VSiHDPiWIg9zhTqaleabN/Tq8Lr5zGq5tw=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
-        "com.intellij.modules.java",
         "com.intellij.modules.json",
-        "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.java",
+        "org.intellij.intelliLang",
+        "JUnit",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "gherkin"
@@ -313,11 +313,11 @@
       "sha256": "S5NCVS64AlGXPRR0mzIw0bzu2wpUegySDg5p1NsVT38=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
-        "com.intellij.modules.java",
-        "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.json",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.java",
+        "JUnit"
       ],
       "optional_dependencies": [
         "gherkin"
@@ -332,11 +332,11 @@
       "sha256": "X+zRkhygui9vCZMOsYBS6yMtI1TJFht7eX5YOfiJnic=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
-        "com.intellij.modules.java",
         "com.intellij.modules.json",
-        "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.java",
+        "org.intellij.intelliLang",
+        "JUnit",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "gherkin"
@@ -351,10 +351,10 @@
       "sha256": "YXOF03NXGi3qGdkAPa/ZxMcTTMnVc/tXZ+d3KUrxffc=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.modules.java",
-        "com.intellij.modules.json",
+        "JUnit",
         "com.intellij.modules.platform",
+        "com.intellij.modules.json",
         "org.intellij.intelliLang"
       ],
       "optional_dependencies": [
@@ -370,11 +370,11 @@
       "sha256": "Cofn8wTKk6xFg5ayW75XQWUF+WBVC4YrZjlo7vG/3PE=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
-        "com.intellij.modules.java",
-        "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.json",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.java",
+        "JUnit"
       ],
       "optional_dependencies": [
         "gherkin"
@@ -389,11 +389,11 @@
       "sha256": "84gSNgmCiV1hTRhIiqXRfV3rzPXOI4XR1s7RmNeRcXM=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
-        "com.intellij.modules.java",
         "com.intellij.modules.json",
-        "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.java",
+        "org.intellij.intelliLang",
+        "JUnit",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "gherkin"
@@ -408,8 +408,8 @@
       "sha256": "L75NWrqZolpbGeTxhrmgy49kX0uveGx5UdkpALj76GY=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.modules.java",
+        "JUnit",
         "com.intellij.modules.json",
         "com.intellij.modules.platform",
         "org.intellij.intelliLang"
@@ -427,11 +427,11 @@
       "sha256": "mL2gbKNAgTvyaHcq8qc4vvhlFm6ZaQjXKUw4iMJXwos=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
-        "com.intellij.modules.java",
-        "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "org.intellij.intelliLang"
+        "com.intellij.modules.java",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.json",
+        "JUnit"
       ],
       "optional_dependencies": [
         "gherkin"

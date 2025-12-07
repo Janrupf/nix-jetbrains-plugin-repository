@@ -7,8 +7,8 @@
       "sha256": "5yS1f3KiFGz4kq/LB0hq4AnHluQglXfVeYCtj/acFGk=",
       "channel": "stable",
       "dependencies": [
-        "com.github.gtache.lsp",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.github.gtache.lsp"
       ],
       "optional_dependencies": [],
       "file_name": "org.jboss.tools.intellij.analytics-0.0.1.7.zip",
@@ -21,8 +21,8 @@
       "sha256": "tKr2YRGw9cvCWyg/Xc9t3D3FozX263s4bKkQRPP6nE4=",
       "channel": "stable",
       "dependencies": [
-        "com.github.gtache.lsp",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.github.gtache.lsp"
       ],
       "optional_dependencies": [],
       "file_name": "org.jboss.tools.intellij.analytics-0.0.2.9.zip",
@@ -35,8 +35,8 @@
       "sha256": "2XN0pEoag/fP1hkZZBHYNIB/FA8N/Gp1xpv+dayKMLg=",
       "channel": "stable",
       "dependencies": [
-        "com.github.gtache.lsp",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.github.gtache.lsp"
       ],
       "optional_dependencies": [],
       "file_name": "org.jboss.tools.intellij.analytics-0.0.3.20.zip",
@@ -49,8 +49,8 @@
       "sha256": "FoVgWAsaxUXmyR4vhMSFlaxf+1j9urTKf5k13SmkU8w=",
       "channel": "stable",
       "dependencies": [
-        "com.github.gtache.lsp",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.github.gtache.lsp"
       ],
       "optional_dependencies": [],
       "file_name": "org.jboss.tools.intellij.analytics-0.0.4.6.zip",
@@ -196,8 +196,8 @@
         "com.redhat.devtools.intellij.telemetry"
       ],
       "optional_dependencies": [
-        "PythonCore",
         "org.jetbrains.plugins.go",
+        "PythonCore",
         "ru.meanmail.plugin.requirements"
       ],
       "file_name": "org.jboss.tools.intellij.analytics-0.7.1.99.zip",
@@ -214,8 +214,8 @@
         "com.redhat.devtools.intellij.telemetry"
       ],
       "optional_dependencies": [
-        "PythonCore",
         "org.jetbrains.plugins.go",
+        "PythonCore",
         "ru.meanmail.plugin.requirements"
       ],
       "file_name": "org.jboss.tools.intellij.analytics-0.9.0.105.zip",
@@ -228,9 +228,9 @@
       "sha256": "lGeISM8hbsDEf2Rw3/IxxkH6BeTR0VpVQ3hIfelpmzE=",
       "channel": "nightly",
       "dependencies": [
-        "Docker",
         "com.intellij.modules.lang",
-        "com.redhat.devtools.intellij.telemetry"
+        "com.redhat.devtools.intellij.telemetry",
+        "Docker"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.go"
@@ -245,9 +245,9 @@
       "sha256": "pEdsceZlnXshYgNIHMZJxRlWhWP/EWbqowb/nhma5nY=",
       "channel": "stable",
       "dependencies": [
-        "Docker",
         "com.intellij.modules.lang",
-        "com.redhat.devtools.intellij.telemetry"
+        "com.redhat.devtools.intellij.telemetry",
+        "Docker"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.go"
@@ -263,10 +263,10 @@
       "channel": "nightly",
       "dependencies": [
         "Docker",
-        "com.intellij.java",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.lang",
         "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "com.intellij.java"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.go"
@@ -282,10 +282,10 @@
       "channel": "stable",
       "dependencies": [
         "Docker",
-        "com.intellij.java",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.lang",
         "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "com.intellij.java"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.go"
@@ -321,9 +321,9 @@
       "dependencies": [
         "Docker",
         "com.intellij.java",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.lang",
-        "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "com.redhat.devtools.intellij.telemetry"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.go"
@@ -338,11 +338,11 @@
       "sha256": "r7XoKes1utyYLp/LtSySmLEnfXFlPrYyiolJ0Z3/XkQ=",
       "channel": "nightly",
       "dependencies": [
-        "Docker",
-        "com.intellij.java",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.lang",
         "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "Docker",
+        "com.intellij.java"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.go"
@@ -376,11 +376,11 @@
       "sha256": "O6TSe+xnnJ0+ixQobROQNex1hyPfylxEQPKHU6lDBMM=",
       "channel": "nightly",
       "dependencies": [
-        "Docker",
-        "com.intellij.java",
         "com.intellij.modules.lang",
-        "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "Docker",
+        "com.redhat.devtools.intellij.telemetry"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.go"
@@ -395,11 +395,11 @@
       "sha256": "a3idUMWrYC4WTAwEELLBrjUoo8fJQFHzU/vh5KHhpS0=",
       "channel": "nightly",
       "dependencies": [
-        "Docker",
-        "com.intellij.java",
         "com.intellij.modules.lang",
-        "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "Docker",
+        "com.redhat.devtools.intellij.telemetry"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.go"
@@ -415,10 +415,10 @@
       "channel": "nightly",
       "dependencies": [
         "Docker",
-        "com.intellij.java",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.lang",
         "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "com.intellij.java"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-dependency-analytics-1.2.0-nightly.20251017.zip",
@@ -431,11 +431,11 @@
       "sha256": "K9TOcfZTp5UZh04ilQIU/8/N0BP5+aEbASCYdhl7AJw=",
       "channel": "nightly",
       "dependencies": [
-        "Docker",
-        "com.intellij.java",
         "com.intellij.modules.lang",
-        "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "Docker",
+        "com.redhat.devtools.intellij.telemetry"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-dependency-analytics-1.2.0-nightly.20251022.zip",
@@ -448,10 +448,10 @@
       "sha256": "QNfFqcRUmXDefrldF2JroKWLFhc4AG6ODINJPnhBtsY=",
       "channel": "nightly",
       "dependencies": [
+        "org.jetbrains.idea.maven",
         "com.intellij.java",
         "com.intellij.modules.lang",
-        "com.redhat.devtools.intellij.telemetry",
-        "org.jetbrains.idea.maven"
+        "com.redhat.devtools.intellij.telemetry"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-dependency-analytics-1.2.0-nightly.20251110.zip",
@@ -464,9 +464,9 @@
       "sha256": "V5up3kjmxEt+hd+PSz7UVNS7aw1qcNBZevkLXTWHNgY=",
       "channel": "nightly",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.lang",
         "com.redhat.devtools.intellij.telemetry",
+        "com.intellij.java",
         "org.jetbrains.idea.maven"
       ],
       "optional_dependencies": [],
@@ -480,9 +480,9 @@
       "sha256": "/GGq8F0v+MboPUH/Vk4hVg0NRw4qfnPGfKfmc2H5wbw=",
       "channel": "nightly",
       "dependencies": [
-        "com.intellij.java",
         "com.intellij.modules.lang",
         "com.redhat.devtools.intellij.telemetry",
+        "com.intellij.java",
         "org.jetbrains.idea.maven"
       ],
       "optional_dependencies": [],

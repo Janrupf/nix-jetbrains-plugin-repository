@@ -35,21 +35,51 @@
       "sha256": "RM0YZREJL6q9MBR6eMX3rNZLJPLkA8t1dBKN64PN944=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "Simple_Structuregram-3.0-SNAPSHOT.zip",
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "907559": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29263/907559/simple-structuregram-4.1-SNAPSHOT.zip?updateId=907559&pluginId=29263&family=INTELLIJ",
+      "sha256": "RTSkP0wRdOuO31ZoA+ZiBSdhF54JqF/SoYmV1zI1XyQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "simple-structuregram-4.1-SNAPSHOT.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "907800": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29263/907800/simple-structuregram-1_Beta.zip?updateId=907800&pluginId=29263&family=INTELLIJ",
+      "sha256": "GnTV2jZhdr79d3i24QLyKURZJA3lJwpa6s+edEz3CoY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "simple-structuregram-1_Beta.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1 Beta": 907800,
       "1.0-SNAPSHOT": 907214,
       "2.0-SNAPSHOT": 907219,
-      "3.0-SNAPSHOT": 907221
+      "3.0-SNAPSHOT": 907221,
+      "4.1-SNAPSHOT": 907559
     }
   }
 }

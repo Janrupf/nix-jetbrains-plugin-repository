@@ -8,8 +8,8 @@
       "channel": "stable",
       "dependencies": [
         "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
+        "com.intellij.modules.python",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "ai-debugger-0.1.2-SNAPSHOT.zip",
@@ -23,8 +23,8 @@
       "channel": "stable",
       "dependencies": [
         "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
+        "com.intellij.modules.python",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "ai-debugger-0.1.3-SNAPSHOT.zip",
@@ -37,10 +37,10 @@
       "sha256": "NIKovoZIO2CLfrqU+E2n/d364289FsKHfiSDCUjuD8Q=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
-        "PythonCore",
         "com.intellij.modules.platform",
-        "com.intellij.modules.python"
+        "PythonCommon",
+        "com.intellij.modules.python",
+        "PythonCore"
       ],
       "optional_dependencies": [],
       "file_name": "ai-debugger-0.1.4-SNAPSHOT.zip",
@@ -53,10 +53,10 @@
       "sha256": "leovKgJRP2gsSQF4jmIsVQ7KEiKNkFUuGgKPcgWkKrg=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
-        "PythonCore",
         "com.intellij.modules.platform",
-        "com.intellij.modules.python"
+        "PythonCommon",
+        "com.intellij.modules.python",
+        "PythonCore"
       ],
       "optional_dependencies": [],
       "file_name": "ai-debugger-0.1.5.zip",
@@ -69,10 +69,10 @@
       "sha256": "X8G/6/gGZYmxZPdQXPfu52P1UGyfBCZBYAApdEaMBeQ=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
-        "PythonCore",
         "com.intellij.modules.platform",
-        "com.intellij.modules.python"
+        "PythonCommon",
+        "com.intellij.modules.python",
+        "PythonCore"
       ],
       "optional_dependencies": [],
       "file_name": "ai-debugger-0.1.6.zip",
@@ -85,10 +85,10 @@
       "sha256": "y3WA2RfheqaK3SVuVsI0TSfuTsfENfgYpv3Tem8NdPw=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
-        "PythonCore",
         "com.intellij.modules.platform",
-        "com.intellij.modules.python"
+        "PythonCommon",
+        "com.intellij.modules.python",
+        "PythonCore"
       ],
       "optional_dependencies": [],
       "file_name": "ai-debugger-0.1.7.zip",
@@ -101,8 +101,8 @@
       "sha256": "LkEUFDn9Ve6Kbo9nRK/F1+8GDbFfB7jLReedzkIcDw4=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
         "com.intellij.modules.platform",
+        "PythonCommon",
         "com.intellij.modules.python"
       ],
       "optional_dependencies": [],
@@ -116,8 +116,8 @@
       "sha256": "8YMbbE8i/Bgmsk2SdKo99dAFeA7kNT7pF9W239DSRvM=",
       "channel": "stable",
       "dependencies": [
-        "PythonCommon",
         "com.intellij.modules.platform",
+        "PythonCommon",
         "com.intellij.modules.python"
       ],
       "optional_dependencies": [],
@@ -131,15 +131,15 @@
       "sha256": "72H+/x55nGVRnklZ6fNXZoDMzfx9Mrru7d8JAhT4uTg=",
       "channel": "stable",
       "dependencies": [
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
         "com.intellij.modules.platform",
         "intellij.libraries.compose.foundation.desktop",
-        "intellij.platform.jewel.foundation",
-        "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.platform.jewel.ideLafBridge"
       ],
       "optional_dependencies": [
-        "PythonCore",
-        "org.jetbrains.aidebugger.common"
+        "org.jetbrains.aidebugger.common",
+        "PythonCore"
       ],
       "file_name": "ai-debugger-0.1.10.zip",
       "since": "251.3",
@@ -151,11 +151,11 @@
       "sha256": "pRr3o5rx+U2/36FGXa7z15PnUD/ZGlrxW1NeR1E1cVc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "intellij.libraries.compose.foundation.desktop",
-        "intellij.platform.jewel.foundation",
         "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "PythonCore",
@@ -171,11 +171,11 @@
       "sha256": "paHO8nNLW2jacMMJ6xqh/3fSlFgX11yRiz4ckhTn+9k=",
       "channel": "stable",
       "dependencies": [
+        "intellij.platform.jewel.ideLafBridge",
         "com.intellij.modules.platform",
         "intellij.libraries.compose.foundation.desktop",
-        "intellij.platform.jewel.foundation",
-        "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation"
       ],
       "optional_dependencies": [
         "PythonCore",
@@ -192,10 +192,10 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ui",
         "intellij.platform.jewel.foundation",
-        "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge"
       ],
       "optional_dependencies": [
         "PythonCore",
@@ -211,15 +211,15 @@
       "sha256": "rVigNAMq0nELnDaBDIQWnoqEQpVcB5YbqIyCJZc0/cg=",
       "channel": "stable",
       "dependencies": [
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
         "com.intellij.modules.platform",
         "intellij.libraries.compose.foundation.desktop",
-        "intellij.platform.jewel.foundation",
-        "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.platform.jewel.ideLafBridge"
       ],
       "optional_dependencies": [
-        "PythonCore",
-        "org.jetbrains.aidebugger.common"
+        "org.jetbrains.aidebugger.common",
+        "PythonCore"
       ],
       "file_name": "ai-debugger-0.2.3.zip",
       "since": "251.26927.54",
@@ -231,11 +231,11 @@
       "sha256": "rfqm2n2rPDEKJz+huNpKrWEFzE/OayHOvaIRfuBfy0I=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "intellij.libraries.compose.foundation.desktop",
         "intellij.platform.jewel.foundation",
-        "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.ui",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge"
       ],
       "optional_dependencies": [
         "PythonCore",
@@ -251,15 +251,15 @@
       "sha256": "cwpQdFRErzwt8yc07tZSEBI8+35JlGFcDNpkBT7Xr0g=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "intellij.libraries.compose.foundation.desktop",
         "intellij.platform.jewel.foundation",
-        "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.ideLafBridge"
       ],
       "optional_dependencies": [
-        "PythonCore",
-        "org.jetbrains.aidebugger.common"
+        "org.jetbrains.aidebugger.common",
+        "PythonCore"
       ],
       "file_name": "ai-debugger-0.2.5.zip",
       "since": "251.26927.54",
@@ -271,15 +271,15 @@
       "sha256": "HQfKeH8KQOnJMbeOXjhdrUpciz0oRMCGz9gNgFD//WM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "intellij.libraries.compose.foundation.desktop",
-        "intellij.platform.jewel.foundation",
         "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.foundation"
       ],
       "optional_dependencies": [
-        "PythonCore",
-        "org.jetbrains.aidebugger.common"
+        "org.jetbrains.aidebugger.common",
+        "PythonCore"
       ],
       "file_name": "ai-debugger-0.2.6.zip",
       "since": "251.26927.54",
@@ -291,15 +291,15 @@
       "sha256": "sp2EDyf6ZLXFdYcK6xTNv8FUqFeMEH4oKjzj3fA1Ih8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "intellij.libraries.compose.foundation.desktop",
         "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
         "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "com.intellij.modules.platform",
+        "intellij.libraries.compose.foundation.desktop"
       ],
       "optional_dependencies": [
-        "PythonCore",
-        "org.jetbrains.aidebugger.common"
+        "org.jetbrains.aidebugger.common",
+        "PythonCore"
       ],
       "file_name": "ai-debugger-0.2.7.zip",
       "since": "251.26927.54",
@@ -311,15 +311,15 @@
       "sha256": "Gem//HOuRKnT203t+fPPgLSFsMhUaLqizq6j1aql3Qg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "intellij.libraries.compose.foundation.desktop",
-        "intellij.platform.jewel.foundation",
         "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.foundation"
       ],
       "optional_dependencies": [
-        "PythonCore",
-        "org.jetbrains.aidebugger.common"
+        "org.jetbrains.aidebugger.common",
+        "PythonCore"
       ],
       "file_name": "ai-debugger-0.2.8.zip",
       "since": "251.26927.54",
@@ -332,15 +332,15 @@
       "channel": "pydata",
       "dependencies": [
         "com.intellij.modules.platform",
-        "intellij.libraries.compose.foundation.desktop",
         "intellij.platform.jewel.foundation",
-        "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "intellij.platform.jewel.ui",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge"
       ],
       "optional_dependencies": [
         "PythonCore",
-        "org.jetbrains.aidebugger.common",
-        "org.jetbrains.aidebugger.python"
+        "org.jetbrains.aidebugger.python",
+        "org.jetbrains.aidebugger.common"
       ],
       "file_name": "ai-debugger-0.2.9-eval.zip",
       "since": "251.26927.54",
@@ -352,17 +352,17 @@
       "sha256": "6IbL/imyvatCP+cRFS+U32pBaoObm7TPHZz5LIiLfG4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ui",
         "intellij.platform.jewel.foundation",
         "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.python",
         "intellij.python.community.impl",
-        "org.jetbrains.aidebugger.common"
+        "org.jetbrains.aidebugger.common",
+        "com.intellij.modules.python",
+        "com.intellij.java"
       ],
       "file_name": "ai-debugger-0.3.0.zip",
       "since": "252.0",

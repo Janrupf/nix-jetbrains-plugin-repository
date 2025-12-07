@@ -21,11 +21,25 @@
       "sha256": "CQEoDrsRrlWAVUgPbbbWhOfnubWBLp4FNNO0ZVjeTk8=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "opencode-jetbrains-v25.11.30.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "908125": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29089/908125/opencode-jetbrains-v25.12.5.zip?updateId=908125&pluginId=29089&family=INTELLIJ",
+      "sha256": "bvfzeYf4BGXN3UsGnkhxZ51P4oUfIPOISu4OqexoU/g=",
+      "channel": "stable",
+      "dependencies": [
         "com.intellij.modules.platform",
         "org.jetbrains.plugins.terminal"
       ],
       "optional_dependencies": [],
-      "file_name": "opencode-jetbrains-v25.11.30.zip",
+      "file_name": "opencode-jetbrains-v25.12.5.zip",
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
@@ -34,7 +48,8 @@
   "channels": {
     "stable": {
       "25.11.24": 898897,
-      "25.11.30": 904548
+      "25.11.30": 904548,
+      "25.12.5": 908125
     }
   }
 }

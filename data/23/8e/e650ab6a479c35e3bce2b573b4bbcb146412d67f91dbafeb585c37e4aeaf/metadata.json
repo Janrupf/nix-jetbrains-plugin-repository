@@ -8,8 +8,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "GitPulse-1.0.0.zip",
@@ -22,13 +22,29 @@
       "sha256": "eSAA8pDMErWXjbDslqyMmV/OXsjEB1GF/Hhw/BbiCxM=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
+        "com.intellij.modules.vcs",
         "com.intellij.modules.java",
         "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "GitPulse-1.1.0.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "907495": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29137/907495/GitPulse-1.2.0.zip?updateId=907495&pluginId=29137&family=INTELLIJ",
+      "sha256": "db1LwojcUc7JiptfuXKOBr0Y/PjgKyG4FxBwBj1ZnRA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GitPulse-1.2.0.zip",
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
@@ -37,7 +53,8 @@
   "channels": {
     "stable": {
       "1.0.0": 900108,
-      "1.1.0": 901119
+      "1.1.0": 901119,
+      "1.2.0": 907495
     }
   }
 }

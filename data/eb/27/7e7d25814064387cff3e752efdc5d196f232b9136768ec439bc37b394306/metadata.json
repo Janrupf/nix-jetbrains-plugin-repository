@@ -7,9 +7,9 @@
       "sha256": "ZKMW+2gA5niGroPW/+cPAkImXKxViexE2wdQVt6Eft4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "qcov-jetbrains-0.0.14.zip",
@@ -22,9 +22,9 @@
       "sha256": "8/LF9hzVKHAKpd6rO0QPRRiH//QySem/1UxkSRs22IM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "qcov-jetbrains-0.0.15.zip",
@@ -37,9 +37,9 @@
       "sha256": "EG/L8o9/QldUynVpXbZzl4+o6a/PKjpjeBzHY4VxfIY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "qcov-jetbrains-0.0.16.zip",
@@ -52,9 +52,9 @@
       "sha256": "2O8VUu/juFIM1RyCaHzRer6p6jZqAQHw+B+KNNvdJ/M=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.plugins.terminal",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "qcov-jetbrains-0.0.17.zip",
@@ -67,9 +67,9 @@
       "sha256": "OOgRB13cVnBi4LNLEulQL0UMT3tMDD8pXJfkXoOjjXA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.terminal",
         "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "qcov-jetbrains-0.0.18.zip",
@@ -83,11 +83,26 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "qcov-jetbrains-0.0.19.zip",
+      "since": "221.0",
+      "until": "254.*",
+      "compatibility_overrides": []
+    },
+    "907487": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29217/907487/qcov-jetbrains-0.0.20.zip?updateId=907487&pluginId=29217&family=INTELLIJ",
+      "sha256": "nDB5rWM81T2NvkaigOB6Gd/nOLWrS5Km7A5uITgG7WE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "qcov-jetbrains-0.0.20.zip",
       "since": "221.0",
       "until": "254.*",
       "compatibility_overrides": []
@@ -100,7 +115,8 @@
       "0.0.16": 905146,
       "0.0.17": 905848,
       "0.0.18": 905859,
-      "0.0.19": 906840
+      "0.0.19": 906840,
+      "0.0.20": 907487
     }
   }
 }

@@ -7,11 +7,11 @@
       "sha256": "ml5chE0w/H33gm1VjpJirAWXXBWWGxnDY8EiqED038A=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.jetbrains.client",
-        "intellij.javascript.debugger.shared",
-        "intellij.platform.debugger.impl.frontend",
         "intellij.platform.debugger.impl.shared",
-        "intellij.platform.frontend"
+        "intellij.platform.debugger.impl.frontend",
+        "com.intellij.jetbrains.client",
+        "intellij.platform.frontend",
+        "intellij.javascript.debugger.shared"
       ],
       "optional_dependencies": [],
       "file_name": "javascript-frontend-252.23892.119.zip",
@@ -27,8 +27,8 @@
         "com.intellij.jetbrains.client",
         "intellij.javascript.debugger.shared",
         "intellij.platform.debugger.impl.frontend",
-        "intellij.platform.debugger.impl.shared",
-        "intellij.platform.frontend"
+        "intellij.platform.frontend",
+        "intellij.platform.debugger.impl.shared"
       ],
       "optional_dependencies": [],
       "file_name": "javascript-frontend-252.23892.298.zip",
@@ -42,10 +42,10 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.jetbrains.client",
-        "intellij.javascript.debugger.shared",
         "intellij.platform.debugger.impl.frontend",
-        "intellij.platform.debugger.impl.shared",
-        "intellij.platform.frontend"
+        "intellij.platform.frontend",
+        "intellij.javascript.debugger.shared",
+        "intellij.platform.debugger.impl.shared"
       ],
       "optional_dependencies": [],
       "file_name": "javascript-frontend-252.25557.23.zip",
@@ -58,14 +58,14 @@
       "sha256": "AoTI/OvBfLfRijnzg6LqGBjJQh7KoEn87mf9jj5vI9g=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.json",
         "com.intellij.css.frontend",
-        "com.intellij.jetbrains.client",
-        "com.intellij.modules.json"
+        "com.intellij.jetbrains.client"
       ],
       "optional_dependencies": [
         "intellij.css.common.psi",
-        "intellij.javascript.common",
-        "intellij.platform.frontend"
+        "intellij.platform.frontend",
+        "intellij.javascript.common"
       ],
       "file_name": "javascript-frontend-split-253.17525.83.zip",
       "since": "253.17525",

@@ -209,9 +209,9 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "intellij.platform.frontend.split",
         "intellij.json",
-        "intellij.platform.backend",
-        "intellij.platform.frontend.split"
+        "intellij.platform.backend"
       ],
       "file_name": "json-252.18003.27.zip",
       "since": "252.18003",
@@ -226,9 +226,9 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "intellij.platform.frontend.split",
         "intellij.json",
-        "intellij.platform.backend",
-        "intellij.platform.frontend.split"
+        "intellij.platform.backend"
       ],
       "file_name": "json-252.19874.12.zip",
       "since": "252.19874",
@@ -250,9 +250,9 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "intellij.platform.frontend.split",
         "intellij.json",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
         "intellij.spellchecker"
       ],
       "file_name": "json-252.21735.32.zip",
@@ -268,9 +268,9 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "intellij.platform.frontend.split",
         "intellij.json",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
         "intellij.spellchecker"
       ],
       "file_name": "json-252.23309.22.zip",
@@ -286,9 +286,9 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "intellij.platform.frontend.split",
         "intellij.json",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
         "intellij.spellchecker"
       ],
       "file_name": "json-252.23591.19.zip",
@@ -305,9 +305,9 @@
       ],
       "optional_dependencies": [
         "intellij.json",
-        "intellij.platform.backend",
         "intellij.platform.frontend.split",
-        "intellij.spellchecker"
+        "intellij.spellchecker",
+        "intellij.platform.backend"
       ],
       "file_name": "json-252.23892.248.zip",
       "since": "252.23892",
@@ -319,8 +319,8 @@
       "sha256": "EsD+UPpjeSUNJEtKHqENsztSOujPKH6V1Umdc8eyuVY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "intellij.json.split"
+        "intellij.json.split",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "json-251.27812.12.zip",
@@ -336,10 +336,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "intellij.json",
         "intellij.platform.backend",
         "intellij.platform.frontend.split",
-        "intellij.spellchecker"
+        "intellij.spellchecker",
+        "intellij.json"
       ],
       "file_name": "json-252.23892.360.zip",
       "since": "252.23892",
@@ -356,8 +356,8 @@
       "optional_dependencies": [
         "intellij.json",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
-        "intellij.spellchecker"
+        "intellij.spellchecker",
+        "intellij.platform.frontend.split"
       ],
       "file_name": "json-252.25557.23.zip",
       "since": "252.25557",
@@ -372,12 +372,12 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "intellij.json",
         "intellij.json.backend",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
         "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.platform.frontend.split",
+        "intellij.spellchecker",
+        "intellij.json"
       ],
       "file_name": "json-253.17525.95.zip",
       "since": "253.17525",
@@ -393,11 +393,11 @@
       ],
       "optional_dependencies": [
         "intellij.json",
-        "intellij.json.backend",
-        "intellij.platform.backend",
         "intellij.platform.frontend.split",
+        "intellij.spellchecker",
         "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.platform.backend",
+        "intellij.json.backend"
       ],
       "file_name": "json-253.20558.43.zip",
       "since": "253.20558",
@@ -413,11 +413,11 @@
       ],
       "optional_dependencies": [
         "intellij.json",
-        "intellij.json.backend",
-        "intellij.platform.backend",
         "intellij.platform.frontend.split",
+        "intellij.spellchecker",
+        "intellij.json.backend",
         "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.platform.backend"
       ],
       "file_name": "json-253.22441.33.zip",
       "since": "253.22441",
@@ -432,12 +432,12 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "intellij.json",
         "intellij.json.backend",
-        "intellij.platform.backend",
         "intellij.platform.frontend.split",
+        "intellij.platform.backend",
         "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.spellchecker",
+        "intellij.json"
       ],
       "file_name": "json-253.24325.38.zip",
       "since": "253.24325",
@@ -452,12 +452,12 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "intellij.json",
-        "intellij.json.backend",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
         "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.platform.frontend.split",
+        "intellij.spellchecker",
+        "intellij.json",
+        "intellij.json.backend"
       ],
       "file_name": "json-253.25908.13.zip",
       "since": "253.25908",
@@ -473,11 +473,11 @@
       ],
       "optional_dependencies": [
         "intellij.json",
-        "intellij.json.backend",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
         "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.spellchecker",
+        "intellij.json.backend",
+        "intellij.platform.frontend.split"
       ],
       "file_name": "json-253.27642.30.zip",
       "since": "253.27642",
@@ -493,11 +493,11 @@
       ],
       "optional_dependencies": [
         "intellij.json",
+        "intellij.platform.frontend.split",
+        "intellij.spellchecker",
         "intellij.json.backend",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
-        "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.regexp"
       ],
       "file_name": "json-253.27864.23.zip",
       "since": "253.27864",
@@ -512,12 +512,12 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "intellij.regexp",
+        "intellij.platform.backend",
+        "intellij.spellchecker",
         "intellij.json",
         "intellij.json.backend",
-        "intellij.platform.backend",
-        "intellij.platform.frontend.split",
-        "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.platform.frontend.split"
       ],
       "file_name": "json-253.28086.51.zip",
       "since": "253.28086",
@@ -532,12 +532,12 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "intellij.spellchecker",
         "intellij.json",
         "intellij.json.backend",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
         "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.platform.frontend.split"
       ],
       "file_name": "json-253.28294.51.zip",
       "since": "253.28294",
@@ -552,12 +552,12 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "intellij.json",
+        "intellij.platform.frontend.split",
+        "intellij.spellchecker",
         "intellij.json.backend",
         "intellij.platform.backend",
-        "intellij.platform.frontend.split",
         "intellij.regexp",
-        "intellij.spellchecker"
+        "intellij.json"
       ],
       "file_name": "json-253.28294.251.zip",
       "since": "253.28294",

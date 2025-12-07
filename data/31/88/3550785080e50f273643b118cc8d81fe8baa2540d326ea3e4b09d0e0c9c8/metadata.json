@@ -7,10 +7,10 @@
       "sha256": "DGE76sAtkOeVYiPwclt9NQBDjF/tGaR45BJwnKgL6BQ=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.diagram",
         "com.intellij.gradle",
-        "com.intellij.java"
+        "com.intellij.java",
+        "JUnit"
       ],
       "optional_dependencies": [],
       "file_name": "trace-recorder-plugin-0.01.zip",
@@ -23,9 +23,9 @@
       "sha256": "CUvXCHJN8Am6zFnpaQ7Oqextk9OlpGiJORPsfH8nuNo=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.diagram",
         "com.intellij.gradle",
+        "JUnit",
         "com.intellij.java"
       ],
       "optional_dependencies": [],
@@ -40,9 +40,9 @@
       "channel": "stable",
       "dependencies": [
         "JUnit",
-        "com.intellij.diagram",
+        "com.intellij.java",
         "com.intellij.gradle",
-        "com.intellij.java"
+        "com.intellij.diagram"
       ],
       "optional_dependencies": [],
       "file_name": "trace-recorder-plugin-0.3.zip",
@@ -55,9 +55,9 @@
       "sha256": "inARKsAj3YE8EEdTj6GNfEwQA9y3myOxt66+/GJi5UI=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
         "com.intellij.diagram",
         "com.intellij.gradle",
+        "JUnit",
         "com.intellij.java"
       ],
       "optional_dependencies": [],
@@ -86,9 +86,9 @@
       "sha256": "VBqAXr0qdfnkzh25meNbvetwLwRY2IH90xUjf9rJkFQ=",
       "channel": "stable",
       "dependencies": [
-        "JUnit",
+        "com.intellij.java",
         "com.intellij.gradle",
-        "com.intellij.java"
+        "JUnit"
       ],
       "optional_dependencies": [],
       "file_name": "trace-recorder-plugin-0.6.zip",
@@ -110,6 +110,30 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "907748": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27926/907748/trace-recorder-plugin-0.8.zip?updateId=907748&pluginId=27926&family=INTELLIJ",
+      "sha256": "I2JhFiHsmI/lBp2oyLLgRtYSVSfurBdyOdHOghzYuz4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.compose",
+        "JUnit",
+        "com.intellij.java",
+        "com.intellij.gradle",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "trace-recorder-plugin-0.8.zip",
+      "since": "252.0",
+      "until": "263.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -120,7 +144,8 @@
       "0.4": 817186,
       "0.5": 825717,
       "0.6": 858370,
-      "0.7": 863418
+      "0.7": 863418,
+      "0.8": 907748
     }
   }
 }

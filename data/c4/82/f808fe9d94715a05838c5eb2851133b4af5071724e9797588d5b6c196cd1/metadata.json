@@ -7,8 +7,8 @@
       "sha256": "C505pg3Cii22UmGYh1/BQYtx1OerqEjSJW5qpdeCd+A=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.java"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin"
@@ -23,8 +23,8 @@
       "sha256": "raOoTahwos4oR9t3V5+UWtUfpWNKI/kS/sUaikjg0bU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.java"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin"
@@ -39,8 +39,8 @@
       "sha256": "0gSE3HtJqS8VCoARzxvYE+yXAxVwlqxcedfiAlRzhmg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.java"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin"
@@ -81,6 +81,40 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "908282": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28938/908282/Ravel_Remapper-0.4.0.zip?updateId=908282&pluginId=28938&family=INTELLIJ",
+      "sha256": "pChXDSu0+AjzKxQN0lLN8QYp2Vby7fE4iV6jngWnn60=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Ravel_Remapper-0.4.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908293": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28938/908293/Ravel_Remapper-0.4.1.zip?updateId=908293&pluginId=28938&family=INTELLIJ",
+      "sha256": "tvx/cI6sCqT+tQsJi7iy7fjG5jmmI78GFHlWUqW7rss=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "Ravel_Remapper-0.4.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -89,7 +123,9 @@
       "0.2.1": 892957,
       "0.3.0": 894819,
       "0.3.2": 898401,
-      "0.3.3": 900034
+      "0.3.3": 900034,
+      "0.4.0": 908282,
+      "0.4.1": 908293
     }
   }
 }

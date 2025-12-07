@@ -7,8 +7,8 @@
       "sha256": "J1e9wwFeqaODdGNnMPpkvlu10y/QBty5c7JajSzuScI=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
-        "intellij.platform.navbar.backend"
+        "intellij.platform.navbar.backend",
+        "intellij.bigdatatools.coreUi"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-awsBase-253.17525.95.zip",
@@ -22,8 +22,8 @@
       "channel": "stable",
       "dependencies": [
         "intellij.bigdatatools.coreUi",
-        "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.grpc",
         "intellij.platform.navbar.backend"
       ],
       "optional_dependencies": [],
@@ -53,10 +53,10 @@
       "sha256": "fYrB1aY4Qi24nPEiMHt4pf3fEq4zO7fy1v7NmHL+vGM=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
         "intellij.libraries.grpc",
+        "intellij.platform.navbar.backend",
         "intellij.libraries.grpc.netty.shaded",
-        "intellij.platform.navbar.backend"
+        "intellij.bigdatatools.coreUi"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-awsBase-253.24325.38.zip",
@@ -70,9 +70,9 @@
       "channel": "stable",
       "dependencies": [
         "intellij.bigdatatools.coreUi",
-        "intellij.libraries.grpc",
+        "intellij.platform.navbar.backend",
         "intellij.libraries.grpc.netty.shaded",
-        "intellij.platform.navbar.backend"
+        "intellij.libraries.grpc"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-awsBase-253.25908.13.zip",
@@ -85,8 +85,8 @@
       "sha256": "TQ6vtJJWhG5AitHcGNTyFml6VB4Jsc7UzdI38XNDFag=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
         "intellij.libraries.commons.text",
+        "intellij.bigdatatools.coreUi",
         "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded"
       ],
@@ -101,9 +101,9 @@
       "sha256": "tGbeGYDOH5nhMfzpUUiF2kuewQAA5I9HHvKa4iuhUXQ=",
       "channel": "stable",
       "dependencies": [
+        "intellij.libraries.grpc",
         "intellij.bigdatatools.coreUi",
         "intellij.libraries.commons.text",
-        "intellij.libraries.grpc",
         "intellij.libraries.grpc.netty.shaded"
       ],
       "optional_dependencies": [],
@@ -117,10 +117,10 @@
       "sha256": "IfBEjAdzt7U5IHkoUaU8Wms1W+YcRBGb4qPKflYOuw0=",
       "channel": "stable",
       "dependencies": [
+        "intellij.libraries.grpc.netty.shaded",
         "intellij.bigdatatools.coreUi",
         "intellij.libraries.commons.text",
-        "intellij.libraries.grpc",
-        "intellij.libraries.grpc.netty.shaded"
+        "intellij.libraries.grpc"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-awsBase-253.28086.51.zip",
@@ -133,10 +133,10 @@
       "sha256": "AReCyS9cL3wGbEVPCNhh7ELu7dp1s6APzcxWMd28aSs=",
       "channel": "stable",
       "dependencies": [
+        "intellij.libraries.grpc.netty.shaded",
         "intellij.bigdatatools.coreUi",
         "intellij.libraries.commons.text",
-        "intellij.libraries.grpc",
-        "intellij.libraries.grpc.netty.shaded"
+        "intellij.libraries.grpc"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-awsBase-253.28294.51.zip",
@@ -149,10 +149,10 @@
       "sha256": "s9TCOLYrB7WS3eUknD94d7RminvqGiOW7mRxx+g5Dtw=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
-        "intellij.libraries.commons.text",
+        "intellij.libraries.grpc.netty.shaded",
         "intellij.libraries.grpc",
-        "intellij.libraries.grpc.netty.shaded"
+        "intellij.bigdatatools.coreUi",
+        "intellij.libraries.commons.text"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-awsBase-253.28294.169.zip",
@@ -165,13 +165,29 @@
       "sha256": "D27GpaBOMgkCGRVkn96aNjSef8CQUKrSn7MQfhZJArU=",
       "channel": "stable",
       "dependencies": [
-        "intellij.bigdatatools.coreUi",
         "intellij.libraries.commons.text",
         "intellij.libraries.grpc",
+        "intellij.bigdatatools.coreUi",
         "intellij.libraries.grpc.netty.shaded"
       ],
       "optional_dependencies": [],
       "file_name": "bigdatatools-awsBase-253.28294.251.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "907467": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28488/907467/bigdatatools-awsBase-253.28294.325.zip?updateId=907467&pluginId=28488&family=INTELLIJ",
+      "sha256": "VNE8mmP1j3+dybppVW5AsltB+rVnf2fI5hX8NzjDZSQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.commons.text",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.bigdatatools.coreUi",
+        "intellij.libraries.grpc"
+      ],
+      "optional_dependencies": [],
+      "file_name": "bigdatatools-awsBase-253.28294.325.zip",
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
@@ -189,6 +205,7 @@
       "253.28086.51": 887284,
       "253.28294.169": 895633,
       "253.28294.251": 902522,
+      "253.28294.325": 907467,
       "253.28294.51": 889909
     }
   }

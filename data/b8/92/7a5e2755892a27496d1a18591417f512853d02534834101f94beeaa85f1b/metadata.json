@@ -23,8 +23,8 @@
       "sha256": "Imd1yVvNMJgM41j4hVp4UnUh+f2Kjn8wfyG+Rh9nf68=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -39,8 +39,8 @@
       "sha256": "ju2tweg81kqe5veFnBjYzzK285Y+54+ZCx1+oVrSs4A=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "Git4Idea"
@@ -49,13 +49,30 @@
       "since": "232.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "907246": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28954/907246/DeepSeek-FindBugs-2.0.3.zip?updateId=907246&pluginId=28954&family=INTELLIJ",
+      "sha256": "KRN5XM33xNy8n76mj2VPvSMIikUQbLks7+ciSRE5LlY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-FindBugs-2.0.3.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.0.0": 890754,
       "2.0.1": 891659,
-      "2.0.2": 896172
+      "2.0.2": 896172,
+      "2.0.3": 907246
     }
   }
 }
