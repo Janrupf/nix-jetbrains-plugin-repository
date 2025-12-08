@@ -43,15 +43,45 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "908493": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28081/908493/selvejj-0.4.0.zip?updateId=908493&pluginId=28081&family=INTELLIJ",
+      "sha256": "WzE5Cce2jUaCJtqhY3kIu248lIbN8T50fcIn4r1ZfKg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "selvejj-0.4.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908494": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28081/908494/selvejj-0.4.0.zip?updateId=908494&pluginId=28081&family=INTELLIJ",
+      "sha256": "R1KzKoJBcEf5IPWWy4/RZHTXw7aWdSxcN34mHFntpps=",
+      "channel": "development",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "selvejj-0.4.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "development": {
-      "0.3.0": 872961
+      "0.3.0": 872961,
+      "0.4.0": 908494
     },
     "stable": {
       "0.2.2": 829563,
-      "0.3.0": 872962
+      "0.3.0": 872962,
+      "0.4.0": 908493
     }
   }
 }

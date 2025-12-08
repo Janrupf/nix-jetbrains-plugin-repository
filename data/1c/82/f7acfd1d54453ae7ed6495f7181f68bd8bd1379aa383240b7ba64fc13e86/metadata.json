@@ -110,16 +110,78 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "908492": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29174/908492/jetbrains-index-mcp-plugin-1.9.1.zip?updateId=908492&pluginId=29174&family=INTELLIJ",
+      "sha256": "cs9iz2Dz7tVtVUZA8w8jueyd54Cr1g9WDvzRmKdyraQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.python",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "jetbrains-index-mcp-plugin-1.9.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908534": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29174/908534/jetbrains-index-mcp-plugin-1.10.0.zip?updateId=908534&pluginId=29174&family=INTELLIJ",
+      "sha256": "XmaYPTmDVODD+j4AvSLo81p7wzIGqHOJAuQobq/z5OI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.php"
+      ],
+      "file_name": "jetbrains-index-mcp-plugin-1.10.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908696": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29174/908696/jetbrains-index-mcp-plugin-1.10.1.zip?updateId=908696&pluginId=29174&family=INTELLIJ",
+      "sha256": "oxdpwTL7iFl/NgKdN6Wq5uyKmEYnp4fBSiXKtO/r47w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.php"
+      ],
+      "file_name": "jetbrains-index-mcp-plugin-1.10.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.10.0": 908534,
+      "1.10.1": 908696,
       "1.3.0": 902895,
       "1.5.0": 904024,
       "1.6.0": 905203,
       "1.7.0": 906388,
       "1.8.0": 906589,
-      "1.9.0": 906803
+      "1.9.0": 906803,
+      "1.9.1": 908492
     }
   }
 }

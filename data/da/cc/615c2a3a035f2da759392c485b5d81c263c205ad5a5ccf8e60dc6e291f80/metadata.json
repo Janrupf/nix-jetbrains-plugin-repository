@@ -678,6 +678,41 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "908331": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26907/908331/intellij-cangjie-2.0.0-20251207-025825.zip?updateId=908331&pluginId=26907&family=INTELLIJ",
+      "sha256": "h7eatXHqFGABkgU5HKRUdofeY+MqHNHDpVfgiRo6EBQ=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.copyright",
+        "com.intellij.modules.platform",
+        "org.toml.lang",
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-cangjie-2.0.0-20251207-025825.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "908693": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26907/908693/intellij-cangjie-2.0.0.zip?updateId=908693&pluginId=26907&family=INTELLIJ",
+      "sha256": "s05FfaN0KJbl0kmj4uhwuw57nbrBQ4v1K5BjtE+fqrw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "org.toml.lang",
+        "com.intellij.copyright"
+      ],
+      "optional_dependencies": [
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "file_name": "intellij-cangjie-2.0.0.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -701,7 +736,8 @@
       "1.2.0-20251202-183154": 905986,
       "1.2.0-20251203-092010": 906338,
       "1.2.0-20251204-024944": 906626,
-      "2.0.0-20251206-024126": 907828
+      "2.0.0-20251206-024126": 907828,
+      "2.0.0-20251207-025825": 908331
     },
     "stable": {
       "1.0.0-242": 703088,
@@ -724,7 +760,8 @@
       "1.0.8+243-253": 773560,
       "1.0.9+242": 774461,
       "1.0.9+243-253": 774460,
-      "1.1.0": 782452
+      "1.1.0": 782452,
+      "2.0.0": 908693
     }
   }
 }
