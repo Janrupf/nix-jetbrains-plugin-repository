@@ -362,6 +362,44 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "909028": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/909028/hexana-0.3.zip?updateId=909028&pluginId=29090&family=INTELLIJ",
+      "sha256": "L+SOkAC7ePce37guuLnhsyTRxxFCHh7F4c5/S36wwVQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.compose",
+        "com.intellij.mcpServer",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hexana-0.3.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "909270": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/909270/hexana-0.3.24-nightly.zip?updateId=909270&pluginId=29090&family=INTELLIJ",
+      "sha256": "5gbtiYBmbW9j/1m/ddE4GjUn8TLVBKxOb0D7g3seN6Q=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.compose",
+        "com.intellij.mcpServer",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hexana-0.3.24-nightly.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -382,11 +420,13 @@
       "0.2.20-nightly": 906594,
       "0.2.21-nightly": 907223,
       "0.2.22-nightly": 907812,
-      "0.2.23-nightly": 908305
+      "0.2.23-nightly": 908305,
+      "0.3.24-nightly": 909270
     },
     "stable": {
       "0.1-SNAPSHOT": 896430,
-      "0.2": 906393
+      "0.2": 906393,
+      "0.3": 909028
     }
   }
 }

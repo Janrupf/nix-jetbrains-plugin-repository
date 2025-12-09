@@ -74,12 +74,28 @@
       ],
       "file_name": "tabletest-intellij-0.0.9.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "909269": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27334/909269/tabletest-intellij-0.0.10.zip?updateId=909269&pluginId=27334&family=INTELLIJ",
+      "sha256": "FNXyTOy/dB18ebalCsaUz+e23MVDv9UnKLxvI3C/oLw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "tabletest-intellij-0.0.10.zip",
+      "since": "242.0",
+      "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.0.10": 909269,
       "0.0.5": 739343,
       "0.0.6": 740635,
       "0.0.7": 750638,

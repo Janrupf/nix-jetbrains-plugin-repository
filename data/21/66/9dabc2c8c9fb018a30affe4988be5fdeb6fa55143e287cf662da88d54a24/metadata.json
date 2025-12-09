@@ -1322,22 +1322,42 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "908097": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23441/908097/metadata-toolkit-1.2.77-signed.zip?updateId=908097&pluginId=23441&family=INTELLIJ",
-      "sha256": "OhiuBFqYDfcFmwPHIRwV76Wge6udf4aRUmD7gdDWfhU=",
+    "908840": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23441/908840/metadata-toolkit-1.3.0-signed.zip?updateId=908840&pluginId=23441&family=INTELLIJ",
+      "sha256": "KMCcL36dLQsMOurMCkssyG0lR8XgR9aEz44deGtjYh0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.python",
-        "com.intellij.modules.java",
-        "Git4Idea",
-        "com.intellij.modules.platform",
         "org.jetbrains.idea.maven",
-        "PythonCommon"
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "PlantUML integration"
       ],
-      "file_name": "metadata-toolkit-1.2.77-signed.zip",
+      "file_name": "metadata-toolkit-1.3.0-signed.zip",
+      "since": "232.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "909289": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23441/909289/metadata-toolkit-1.3.2-signed.zip?updateId=909289&pluginId=23441&family=INTELLIJ",
+      "sha256": "IMq25ejPOY8UhZ9zDq7lwdA6keyjUZUez4sKxmAfR98=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "com.intellij.modules.java",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "PlantUML integration"
+      ],
+      "file_name": "metadata-toolkit-1.3.2-signed.zip",
       "since": "232.0",
       "until": "253.*",
       "compatibility_overrides": []
@@ -1417,9 +1437,10 @@
       "1.2.74": 899289,
       "1.2.75": 904836,
       "1.2.76": 907515,
-      "1.2.77": 908097,
       "1.2.8": 551682,
-      "1.2.9": 555434
+      "1.2.9": 555434,
+      "1.3.0": 908840,
+      "1.3.2": 909289
     }
   }
 }

@@ -31,12 +31,28 @@
       "since": "203.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "909030": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24645/909030/idea-plugin-json-ext-1.0.2.zip?updateId=909030&pluginId=24645&family=INTELLIJ",
+      "sha256": "OBMf7Wl3+QAJXCK9KWCknUwM6Ct8IKfVVn1sgTval3U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-plugin-json-ext-1.0.2.zip",
+      "since": "203.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.19": 558898,
-      "1.0.0": 709353
+      "1.0.0": 709353,
+      "1.0.2": 909030
     }
   }
 }
