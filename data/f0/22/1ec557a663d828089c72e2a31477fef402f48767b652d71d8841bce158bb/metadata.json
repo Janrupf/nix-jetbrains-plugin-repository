@@ -40,10 +40,24 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "909920": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27210/909920/json-sql-ui-2020.1.2.11.zip?updateId=909920&pluginId=27210&family=INTELLIJ",
+      "sha256": "YLqgOXikK+0BQZ0U5X3vagCah4r5cN1GmNypgnLf91Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "json-sql-ui-2020.1.2.11.zip",
+      "since": "201.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2020.1.2.11": 909920,
       "2020.1.2.9": 750356,
       "2022.2.5.9": 750358,
       "2024.3.4.9": 750359

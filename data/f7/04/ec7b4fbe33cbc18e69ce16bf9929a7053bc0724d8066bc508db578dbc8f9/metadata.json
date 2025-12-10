@@ -1062,6 +1062,25 @@
       "since": "223.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "909914": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23534/909914/we-hope-assistant-1.0.0.zip?updateId=909914&pluginId=23534&family=INTELLIJ",
+      "sha256": "d4eBSN9JC+cpQDbiSP37eKjgolIma7gltyfkK+KWRfc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "org.intellij.plugins.markdown",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "we-hope-assistant-1.0.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1119,7 +1138,8 @@
       "0.7.4": 761410,
       "0.7.5": 773994,
       "0.7.6": 827404,
-      "0.7.7": 840772
+      "0.7.7": 840772,
+      "1.0.0": 909914
     }
   }
 }

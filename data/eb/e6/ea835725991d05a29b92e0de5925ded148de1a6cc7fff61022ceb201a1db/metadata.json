@@ -48,13 +48,30 @@
       "since": "223.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "909616": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28896/909616/infcode-intellij-extension-1.1.1.zip?updateId=909616&pluginId=28896&family=INTELLIJ",
+      "sha256": "9H/5hwCCS1Nhl/RhlUQ1KDLsTOUXAfq43Yyo1ppDEnY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "Git4Idea"
+      ],
+      "file_name": "infcode-intellij-extension-1.1.1.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 892675,
       "1.0.1": 897149,
-      "1.1.0": 906368
+      "1.1.0": 906368,
+      "1.1.1": 909616
     }
   }
 }

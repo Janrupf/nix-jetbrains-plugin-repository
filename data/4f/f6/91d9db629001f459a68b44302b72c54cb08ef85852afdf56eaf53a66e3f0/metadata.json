@@ -290,6 +290,40 @@
       "since": "222.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "909588": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28966/909588/DeepSeek-Code-Check-1.6.1.zip?updateId=909588&pluginId=28966&family=INTELLIJ",
+      "sha256": "UIWWd7xO1Si1r7iN0fxTyA8SxHrB8F4DzIGy1orZZVI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Code-Check-1.6.1.zip",
+      "since": "222.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "909745": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28966/909745/DeepSeek-Code-Check-1.6.2.zip?updateId=909745&pluginId=28966&family=INTELLIJ",
+      "sha256": "7ik4kbSPk+4IGvuMUW8bLLTPOTUyhzq0FI1pOljV+Es=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Code-Check-1.6.2.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -310,7 +344,9 @@
       "1.5.7": 896685,
       "1.5.8": 896962,
       "1.5.9": 897171,
-      "1.6.0": 907744
+      "1.6.0": 907744,
+      "1.6.1": 909588,
+      "1.6.2": 909745
     }
   }
 }

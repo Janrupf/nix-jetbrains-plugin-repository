@@ -2,38 +2,6 @@
   "xml_id": "io.github.luons.api-mediator",
   "numeric_id": 29117,
   "updates": {
-    "902489": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29117/902489/api-mediator-idea-1.0.8.zip?updateId=902489&pluginId=29117&family=INTELLIJ",
-      "sha256": "0ogf34UEWm2Ne+ryDZNbHlBsv3+hQmYOXtClB/va2Dk=",
-      "channel": "api manager; code generator;swagger2.0",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.java",
-        "org.jetbrains.plugins.yaml"
-      ],
-      "optional_dependencies": [],
-      "file_name": "api-mediator-idea-1.0.8.zip",
-      "since": "222.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
-    "904334": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29117/904334/api-mediator-idea-1.0.8.zip?updateId=904334&pluginId=29117&family=INTELLIJ",
-      "sha256": "0ogf34UEWm2Ne+ryDZNbHlBsv3+hQmYOXtClB/va2Dk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.java",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "api-mediator-idea-1.0.8.zip",
-      "since": "222.0",
-      "until": "243.*",
-      "compatibility_overrides": []
-    },
     "904335": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29117/904335/api-mediator-idea-1.0.9.zip?updateId=904335&pluginId=29117&family=INTELLIJ",
       "sha256": "ZG9EHjyCpk/gbC+NgdXfa8cpVm0gKC1Q5vrfD7wGlBw=",
@@ -49,14 +17,44 @@
       "since": "250.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "909295": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29117/909295/api-mediator-idea-1.0.7.zip?updateId=909295&pluginId=29117&family=INTELLIJ",
+      "sha256": "WeswdTJNb4ucrbBjN4N2lzrbTXtdqn5FEE7RAPvPQ0I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "api-mediator-idea-1.0.7.zip",
+      "since": "210.0",
+      "until": "221.*",
+      "compatibility_overrides": []
+    },
+    "909604": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29117/909604/api-mediator-idea-1.0.10.zip?updateId=909604&pluginId=29117&family=INTELLIJ",
+      "sha256": "H54PZ+M7ZhTk7pmwFqAm5dMOw8VIF/jrbh0ygbGnzYk=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "api-mediator-idea-1.0.10.zip",
+      "since": "250.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
-    "api manager; code generator;swagger2.0": {
-      "1.0.8": 902489
-    },
     "stable": {
-      "1.0.8": 904334,
+      "1.0.10": 909604,
+      "1.0.7": 909295,
       "1.0.9": 904335
     }
   }
