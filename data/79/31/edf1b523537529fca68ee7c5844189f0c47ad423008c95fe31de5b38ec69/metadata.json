@@ -125,11 +125,42 @@
       "optional_dependencies": [],
       "file_name": "vala-jetbrains-plugin-1.2.5.1-ALPHA.zip",
       "since": "251.0",
-      "until": "252.*",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "910642": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27464/910642/vala-jetbrains-plugin-1.2.6-alpha.zip?updateId=910642&pluginId=27464&family=INTELLIJ",
+      "sha256": "6c4tRmHPsi1k0S+yTvdrEwfJ1sxeR9VoIgO7MJWiy7A=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vala-jetbrains-plugin-1.2.6-alpha.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "910665": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27464/910665/vala-jetbrains-plugin-1.2.6.zip?updateId=910665&pluginId=27464&family=INTELLIJ",
+      "sha256": "+op0seyUNXB4q/38MQHQAvYLFId4fvrBAQHTe7Gxb7w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vala-jetbrains-plugin-1.2.6.zip",
+      "since": "251.0",
+      "until": "253.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
+    "alpha": {
+      "1.2.6-alpha": 910642
+    },
     "stable": {
       "1.0.0-ALPHA": 753127,
       "1.1.2-ALPHA": 770836,
@@ -139,7 +170,8 @@
       "1.2.3-ALPHA": 836806,
       "1.2.4-ALPHA": 856046,
       "1.2.5-ALPHA": 889209,
-      "1.2.5.1-ALPHA": 900930
+      "1.2.5.1-ALPHA": 900930,
+      "1.2.6": 910665
     }
   }
 }

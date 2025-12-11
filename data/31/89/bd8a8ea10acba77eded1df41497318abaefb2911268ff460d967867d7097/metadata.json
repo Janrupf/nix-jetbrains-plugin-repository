@@ -52,13 +52,31 @@
       "since": "191.0",
       "until": "221.*",
       "compatibility_overrides": []
+    },
+    "910413": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29269/910413/intellij-maven-project-version-plugin.maven-with-me-pro-2025.4-2.5.3_1210.zip?updateId=910413&pluginId=29269&family=INTELLIJ",
+      "sha256": "veZoeHpLqK08GTt38r0EXeYw5duwGd+xUeubwGzBV/c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-with-me-pro-2025.4-2.5.3_1210.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.4-2.5.1": 907490,
       "2025.4-2.5.2": 907432,
-      "2025.4-2.5.3": 907429
+      "2025.4-2.5.3": 907429,
+      "2025.4-2.5.3@1210": 910413
     }
   }
 }

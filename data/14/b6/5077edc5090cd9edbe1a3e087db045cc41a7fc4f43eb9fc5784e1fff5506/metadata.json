@@ -52,13 +52,31 @@
       "since": "191.0",
       "until": "221.*",
       "compatibility_overrides": []
+    },
+    "910414": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29270/910414/intellij-maven-project-version-plugin.maven-search-pro-2025.4-2.5.3_1210.zip?updateId=910414&pluginId=29270&family=INTELLIJ",
+      "sha256": "a+R6Bx+8zE9M8MFfzYiLO3EYO0ZGhU9Vh1qplwAW7aw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.lang",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-search-pro-2025.4-2.5.3_1210.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.4-2.5.1": 907491,
       "2025.4-2.5.2": 907434,
-      "2025.4-2.5.3": 907427
+      "2025.4-2.5.3": 907427,
+      "2025.4-2.5.3@1210": 910414
     }
   }
 }

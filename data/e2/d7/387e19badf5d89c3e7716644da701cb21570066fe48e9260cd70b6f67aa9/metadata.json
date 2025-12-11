@@ -52,13 +52,31 @@
       "since": "191.0",
       "until": "221.*",
       "compatibility_overrides": []
+    },
+    "910415": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29271/910415/intellij-maven-project-version-plugin.maven-update-pro-2025.4-2.5.3_1210.zip?updateId=910415&pluginId=29271&family=INTELLIJ",
+      "sha256": "xlYFlCwUC2o8qkLpwCaD6wQutVkSt93fNYUVBK2/ick=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.lang",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-pro-2025.4-2.5.3_1210.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.4-2.5.1": 907492,
       "2025.4-2.5.2": 907433,
-      "2025.4-2.5.3": 907428
+      "2025.4-2.5.3": 907428,
+      "2025.4-2.5.3@1210": 910415
     }
   }
 }

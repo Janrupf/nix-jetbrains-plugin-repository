@@ -351,8 +351,32 @@
       "optional_dependencies": [],
       "file_name": "maven-templating-for-intellij-1.6.0.jar",
       "since": "232.0",
-      "until": "253.*",
+      "until": "252.*",
       "compatibility_overrides": []
+    },
+    "910638": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18410/910638/maven-templating-for-intellij-1.7.0.jar?updateId=910638&pluginId=18410&family=INTELLIJ",
+      "sha256": "BL72CmMp7ZHES2aevBxEVi+ZK2sy2l4mFyyZbbCh8ps=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "maven-templating-for-intellij-1.7.0.jar",
+      "since": "232.0",
+      "until": "253.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "224.0",
+          "applies_until": "999.99999",
+          "compatible_since": "232.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -379,7 +403,8 @@
       "1.5.0": 610373,
       "1.5.1": 667229,
       "1.5.2": 735039,
-      "1.6.0": 735941
+      "1.6.0": 735941,
+      "1.7.0": 910638
     }
   }
 }

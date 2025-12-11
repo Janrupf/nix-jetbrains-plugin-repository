@@ -19,11 +19,30 @@
       "since": "203.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "910430": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28958/910430/NoteStack-1.1.0-signed.zip?updateId=910430&pluginId=28958&family=INTELLIJ",
+      "sha256": "LyFlqyXbpDx4j6fDaiNyUhw6AJRkUVQMLb4Q+EezhSM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.xml",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "NoteStack-1.1.0-signed.zip",
+      "since": "203.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 890912
+      "1.0.0": 890912,
+      "1.1.0": 910430
     }
   }
 }
