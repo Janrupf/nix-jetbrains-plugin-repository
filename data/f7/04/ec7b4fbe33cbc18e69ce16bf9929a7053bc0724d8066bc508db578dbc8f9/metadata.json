@@ -1062,6 +1062,25 @@
       "since": "223.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "910446": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23534/910446/ApiHug-1.0.0.zip?updateId=910446&pluginId=23534&family=INTELLIJ",
+      "sha256": "fFYOwVb8O+HpEeeFhGkwgtMdqstiT+2FjsQP1vPXDs8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.intellij.groovy",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "ApiHug-1.0.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1119,7 +1138,8 @@
       "0.7.4": 761410,
       "0.7.5": 773994,
       "0.7.6": 827404,
-      "0.7.7": 840772
+      "0.7.7": 840772,
+      "1.0.0": 910446
     }
   }
 }

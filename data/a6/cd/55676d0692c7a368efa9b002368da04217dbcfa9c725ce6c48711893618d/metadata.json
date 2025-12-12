@@ -1297,6 +1297,64 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "910909": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/910909/Firebender-0.14.1.zip?updateId=910909&pluginId=25224&family=INTELLIJ",
+      "sha256": "f7PRXRVQmMhRpoC/hrNJ54EdIWMI8fqCIavkSAAhvxg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "com.intellij.modules.json",
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.markdown.core",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android",
+        "com.android.tools.design",
+        "Git4Idea",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Firebender-0.14.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "911392": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/911392/Firebender-0.14.2.zip?updateId=911392&pluginId=25224&family=INTELLIJ",
+      "sha256": "B+7RN4C/u03/UIGDq98xKafpi4V/uqv3MeIl0y9DPb4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.foundation",
+        "com.intellij.modules.json",
+        "intellij.platform.jewel.ui",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.android.tools.design",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.android",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Firebender-0.14.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1359,7 +1417,9 @@
       "0.13.5": 892972,
       "0.13.6": 895237,
       "0.13.7": 896209,
-      "0.14.0": 898927
+      "0.14.0": 898927,
+      "0.14.1": 910909,
+      "0.14.2": 911392
     }
   }
 }

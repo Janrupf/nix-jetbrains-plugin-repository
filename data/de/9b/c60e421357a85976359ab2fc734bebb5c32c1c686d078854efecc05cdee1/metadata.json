@@ -273,6 +273,24 @@
       "since": "223.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "911119": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28835/911119/intelli-ai-javadoc-2.5.0-signed.zip?updateId=911119&pluginId=28835&family=INTELLIJ",
+      "sha256": "be6anPagoTcFZUuLnmcK6dCCsmItQC5A9FQR968H7Xs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-javadoc-2.5.0-signed.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -294,7 +312,8 @@
       "2.2.0": 905489,
       "2.2.1": 905879,
       "2.3.0": 906381,
-      "2.4.0": 908733
+      "2.4.0": 908733,
+      "2.5.0": 911119
     }
   }
 }

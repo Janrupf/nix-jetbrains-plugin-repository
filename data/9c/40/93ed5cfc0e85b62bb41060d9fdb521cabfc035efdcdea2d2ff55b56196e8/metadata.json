@@ -2,41 +2,6 @@
   "xml_id": "com.kalessil.phpStorm.phpInspectionsEA",
   "numeric_id": 7622,
   "updates": {
-    "618321": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/7622/618321/phpinspectionsea-5.1.0.jar?updateId=618321&pluginId=7622&family=INTELLIJ",
-      "sha256": "+d+eXSZQWlDYEiCHGlX3yGxcxtN7rvX6VeK+OLymjwo=",
-      "channel": "stable",
-      "dependencies": [
-        "com.jetbrains.php",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "phpinspectionsea-5.1.0.jar",
-      "since": "223.7571.4",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "762616": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/7622/762616/phpinspectionsea-5.2.0.jar?updateId=762616&pluginId=7622&family=INTELLIJ",
-      "sha256": "eRjUYxy9JprxpBDoJQrRr2yL2vpRMjh5agj1Q5Sv5Js=",
-      "channel": "stable",
-      "dependencies": [
-        "com.jetbrains.php",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "phpinspectionsea-5.2.0.jar",
-      "since": "241.14494.17",
-      "until": "243",
-      "compatibility_overrides": [
-        {
-          "applies_since": "241.14494.17",
-          "applies_until": "999.99999",
-          "compatible_since": "241.14494.17",
-          "compatible_until": "243"
-        }
-      ]
-    },
     "786070": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/7622/786070/phpinspectionsea-5.3.0.jar?updateId=786070&pluginId=7622&family=INTELLIJ",
       "sha256": "QEMTY8hlae/KM6j2EWIkQxdSX79MT9NLXk6Nqnr+/5o=",
@@ -66,14 +31,28 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "911139": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7622/911139/phpinspectionsea-5.5.0.jar?updateId=911139&pluginId=7622&family=INTELLIJ",
+      "sha256": "AadjEl9l51kJtO07MTUYPwjj1OkDXMPqMkYNowRYDzw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "phpinspectionsea-5.5.0.jar",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "5.1.0": 618321,
-      "5.2.0": 762616,
       "5.3.0": 786070,
-      "5.4.0": 874938
+      "5.4.0": 874938,
+      "5.5.0": 911139
     }
   }
 }

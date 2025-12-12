@@ -43,13 +43,28 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "911381": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28119/911381/BsonViewer-0.2.2.zip?updateId=911381&pluginId=28119&family=INTELLIJ",
+      "sha256": "7pCkbrw9aoN+bi1x+MxC22V0Ve2CJtQRwI8ND65563U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "BsonViewer-0.2.2.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 820582,
       "0.1.1": 845000,
-      "0.1.2": 853396
+      "0.1.2": 853396,
+      "0.2.2": 911381
     }
   }
 }

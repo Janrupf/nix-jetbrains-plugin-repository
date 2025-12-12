@@ -1971,6 +1971,38 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "911112": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28247/911112/cline-1.1.9-nightly.20251210.177.zip?updateId=911112&pluginId=28247&family=INTELLIJ",
+      "sha256": "xs4ARp5xb/3b2FkP8bRSfpVoJPpgxeuXVXVgXKnrUNc=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.rider",
+        "com.intellij.modules.javascript"
+      ],
+      "file_name": "cline-1.1.9-nightly.20251210.177.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "911365": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28247/911365/cline-1.1.9.zip?updateId=911365&pluginId=28247&family=INTELLIJ",
+      "sha256": "d8Yxc73DsTZxEZamENJzqSvekvuHVuCJbGSZUeTnvDs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.javascript",
+        "com.intellij.modules.rider"
+      ],
+      "file_name": "cline-1.1.9.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2079,7 +2111,8 @@
       "1.1.9-nightly.20251206.173": 908524,
       "1.1.9-nightly.20251207.174": 908848,
       "1.1.9-nightly.20251208.175": 909566,
-      "1.1.9-nightly.20251209.176": 910397
+      "1.1.9-nightly.20251209.176": 910397,
+      "1.1.9-nightly.20251210.177": 911112
     },
     "stable": {
       "0.0.1": 840767,
@@ -2102,7 +2135,8 @@
       "1.1.5": 895762,
       "1.1.6": 900938,
       "1.1.7": 905965,
-      "1.1.8": 906003
+      "1.1.8": 906003,
+      "1.1.9": 911365
     }
   }
 }
