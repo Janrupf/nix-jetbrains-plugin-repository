@@ -33,12 +33,29 @@
       "since": "251.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "911600": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26584/911600/open-telemetry-rider-1.0.3.zip?updateId=911600&pluginId=26584&family=INTELLIJ",
+      "sha256": "R/36J303hM1/7A3/v/Pdh+CxLNcqXnB7CMzfNVByN+c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.json",
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "open-telemetry-rider-1.0.3.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 760007,
-      "1.0.2": 817117
+      "1.0.2": 817117,
+      "1.0.3": 911600
     }
   }
 }
