@@ -27,12 +27,33 @@
       "since": "231.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "912728": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28474/912728/intellij_copy_multi_files_plugin-1.0.4.zip?updateId=912728&pluginId=28474&family=INTELLIJ",
+      "sha256": "UtAgdP4SPxlDcRUvx4wQ1SZ9HDIs0Xjq8QeC04Dfuy4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij_copy_multi_files_plugin-1.0.4.zip",
+      "since": "231.0",
+      "until": "241.9999",
+      "compatibility_overrides": [
+        {
+          "applies_since": "231.0",
+          "applies_until": "241.*",
+          "compatible_since": "231.0",
+          "compatible_until": "241.9999"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "1.0.2": 860659,
-      "1.0.3": 906857
+      "1.0.3": 906857,
+      "1.0.4": 912728
     }
   }
 }

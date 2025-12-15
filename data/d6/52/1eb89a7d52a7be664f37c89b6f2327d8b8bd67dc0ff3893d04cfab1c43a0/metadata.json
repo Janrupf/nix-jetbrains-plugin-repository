@@ -37,12 +37,35 @@
       "since": "252.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "912911": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29223/912911/autodev-jetbrains-0.3.6-252.zip?updateId=912911&pluginId=29223&family=INTELLIJ",
+      "sha256": "UMKISpaSZDNEz/epdeYkoOfVsBFIWDGq2ECWcR0lSJU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.compose",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.json",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [
+        "Docker"
+      ],
+      "file_name": "autodev-jetbrains-0.3.6-252.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.3.4": 906982,
-      "0.3.5": 911297
+      "0.3.5": 911297,
+      "0.3.6": 912911
     }
   }
 }
