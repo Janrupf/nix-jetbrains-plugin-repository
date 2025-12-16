@@ -2,34 +2,6 @@
   "xml_id": "com.claudecodeplus",
   "numeric_id": 28343,
   "updates": {
-    "845019": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28343/845019/jetbrains-plugin-1.0.0.zip?updateId=845019&pluginId=28343&family=INTELLIJ",
-      "sha256": "eqaa3GcF0akelam0hoA7NTxMaAvZHxFO9igd7NFDyUY=",
-      "channel": "stable",
-      "dependencies": [
-        "org.intellij.plugins.markdown",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "jetbrains-plugin-1.0.0.zip",
-      "since": "243.0",
-      "until": "252.*",
-      "compatibility_overrides": []
-    },
-    "847601": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28343/847601/jetbrains-plugin-1.0.1.zip?updateId=847601&pluginId=28343&family=INTELLIJ",
-      "sha256": "XJoCE4KiHPLucc4QHHbx5sbxNy5pJJKTjqdsdw1tMrg=",
-      "channel": "stable",
-      "dependencies": [
-        "org.intellij.plugins.markdown",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "jetbrains-plugin-1.0.1.zip",
-      "since": "243.0",
-      "until": "252.*",
-      "compatibility_overrides": []
-    },
     "848674": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28343/848674/jetbrains-plugin-1.0.2.zip?updateId=848674&pluginId=28343&family=INTELLIJ",
       "sha256": "ln1bBcpiPZXcW2m+pDA6Dd2vpsTJEnVE+t6vi1srzHw=",
@@ -72,41 +44,32 @@
       "until": "252.*",
       "compatibility_overrides": []
     },
-    "911941": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28343/911941/jetbrains-plugin-1.0.5.zip?updateId=911941&pluginId=28343&family=INTELLIJ",
-      "sha256": "q3LdZ/FVl9M4cXtqzUXZ5nS4bQyg+zgvulKH/giTBo0=",
+    "913390": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28343/913390/claude-code-plus-jetbrains-plugin-1.0.8.zip?updateId=913390&pluginId=28343&family=INTELLIJ",
+      "sha256": "Y3tWv6n4NMI/ZVl1GMwlU8MLNSt4DlKFNiF7+5vxmBY=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "jetbrains-plugin-1.0.5.zip",
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "claude-code-plus-jetbrains-plugin-1.0.8.zip",
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "912011": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28343/912011/claude-code-plus-jetbrains-plugin-1.0.6.zip?updateId=912011&pluginId=28343&family=INTELLIJ",
-      "sha256": "Ae0/GwRDKLdHSy2ULVfuxrjkm5ZPCV7BMY1l3ZS9WK4=",
+    "913446": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28343/913446/claude-code-plus-jetbrains-plugin-1.0.9.zip?updateId=913446&pluginId=28343&family=INTELLIJ",
+      "sha256": "m/yHLO8aZEgizENJMh/W1Vtbi5l5NwNtbjDuKrrPgKw=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "claude-code-plus-jetbrains-plugin-1.0.6.zip",
-      "since": "242.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
-    "912915": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28343/912915/claude-code-plus-jetbrains-plugin-1.0.7.zip?updateId=912915&pluginId=28343&family=INTELLIJ",
-      "sha256": "v7xxISv4IVoHFA7zoVaraV4oWbIjsNZHxjmMXN1saV4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
+      "optional_dependencies": [
+        "com.intellij.java"
       ],
-      "optional_dependencies": [],
-      "file_name": "claude-code-plus-jetbrains-plugin-1.0.7.zip",
+      "file_name": "claude-code-plus-jetbrains-plugin-1.0.9.zip",
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
@@ -114,14 +77,11 @@
   },
   "channels": {
     "stable": {
-      "1.0.0": 845019,
-      "1.0.1": 847601,
       "1.0.2": 848674,
       "1.0.3": 860219,
       "1.0.4": 875177,
-      "1.0.5": 911941,
-      "1.0.6": 912011,
-      "1.0.7": 912915
+      "1.0.8": 913390,
+      "1.0.9": 913446
     }
   }
 }

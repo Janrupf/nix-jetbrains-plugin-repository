@@ -457,6 +457,44 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "913411": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/913411/hexana-0.4.zip?updateId=913411&pluginId=29090&family=INTELLIJ",
+      "sha256": "BAroMlWyfZEbBBpRrFzoRJDTXmqryPyLerexupgcWSg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.compose",
+        "com.intellij.mcpServer",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hexana-0.4.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "913450": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/913450/hexana-0.4.28-nightly.zip?updateId=913450&pluginId=29090&family=INTELLIJ",
+      "sha256": "tNrOKaiV/LCmqiMgdJr7vCHiF/0DA2iZu8Vrxam4Img=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.compose",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hexana-0.4.28-nightly.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -481,12 +519,14 @@
       "0.3.24-nightly": 909270,
       "0.3.25-nightly": 909856,
       "0.3.26-nightly": 911379,
-      "0.3.27-nightly": 911998
+      "0.3.27-nightly": 911998,
+      "0.4.28-nightly": 913450
     },
     "stable": {
       "0.1-SNAPSHOT": 896430,
       "0.2": 906393,
-      "0.3": 909028
+      "0.3": 909028,
+      "0.4": 913411
     }
   }
 }
