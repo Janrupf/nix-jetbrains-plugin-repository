@@ -33,12 +33,29 @@
       "since": "221.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "913739": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27284/913739/stream-navigator-1.1.1.jar?updateId=913739&pluginId=27284&family=INTELLIJ",
+      "sha256": "k1tEs6ITsnX/2ABEopc6O0yU3WMcEnBSLaRFEFZvwtM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "stream-navigator-1.1.1.jar",
+      "since": "221.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0-SNAPSHOT": 734706,
-      "1.1-SNAPSHOT": 769927
+      "1.1-SNAPSHOT": 769927,
+      "1.1.1": 913739
     }
   }
 }

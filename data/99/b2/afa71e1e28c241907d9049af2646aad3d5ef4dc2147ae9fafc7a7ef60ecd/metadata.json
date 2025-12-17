@@ -15,11 +15,41 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "913656": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29376/913656/composable_selection-1.0.1.jar?updateId=913656&pluginId=29376&family=INTELLIJ",
+      "sha256": "YTmKji4PlG+OqxQEshvIJfyw4niCnLhk3BxFv2BaHYs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "composable_selection-1.0.1.jar",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "913940": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29376/913940/composable_selection-1.0.2.jar?updateId=913940&pluginId=29376&family=INTELLIJ",
+      "sha256": "pIO6kjFFVjNlCV0ClHgXC8Zj0sUrB807cj15Kq5xIr0=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "composable_selection-1.0.2.jar",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 913152
+      "1.0.0": 913152,
+      "1.0.1": 913656,
+      "1.0.2": 913940
     }
   }
 }
