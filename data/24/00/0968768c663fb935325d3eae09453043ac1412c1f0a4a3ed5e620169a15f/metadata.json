@@ -1553,6 +1553,38 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "914665": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13809/914665/studio-idea-plugin-4.10.0.zip?updateId=914665&pluginId=13809&family=INTELLIJ",
+      "sha256": "wZim4F6qjOyMUuPLqLpQ54t9LxUVVNRQDX8Mx8xxrA8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.intellij.groovy",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-idea-plugin-4.10.0.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "915255": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13809/915255/studio-idea-plugin-4.10.1.zip?updateId=915255&pluginId=13809&family=INTELLIJ",
+      "sha256": "+9euZIGTk84gCf22lIOtQjPWu85V/zEnVr2gk2Y5+xI=",
+      "channel": "support",
+      "dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "studio-idea-plugin-4.10.1.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1626,6 +1658,7 @@
       "4.9.0-snapshot-228": 612220
     },
     "stable": {
+      "4.10.0": 914665,
       "4.2": 104581,
       "4.3": 117181,
       "4.3.1": 129771,
@@ -1649,6 +1682,7 @@
       "4.9.3": 842057
     },
     "support": {
+      "4.10.1-support-74": 915255,
       "4.8.1-support-8": 489212,
       "4.8.1-support-9": 494988,
       "4.8.2-support-14": 534782,
