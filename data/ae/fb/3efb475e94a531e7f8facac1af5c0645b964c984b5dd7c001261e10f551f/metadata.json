@@ -543,6 +543,38 @@
       "since": "222.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "915517": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27470/915517/DeepSeek-Tools-1.6.1.zip?updateId=915517&pluginId=27470&family=INTELLIJ",
+      "sha256": "T+lwDwB4lfogdkYq+DnG5SENXya8aHFzzWUHXj7lbE8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Tools-1.6.1.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "915527": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27470/915527/DeepSeek-Tools-1.6.2.zip?updateId=915527&pluginId=27470&family=INTELLIJ",
+      "sha256": "gGXswu+yp0JRrXqm7lZbqzNeOQqFi9hBRhkpSFplBxY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Tools-1.6.2.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -581,7 +613,9 @@
       "1.5.7": 892368,
       "1.5.8": 892500,
       "1.5.9": 892685,
-      "1.6.0": 913423
+      "1.6.0": 913423,
+      "1.6.1": 915517,
+      "1.6.2": 915527
     }
   }
 }

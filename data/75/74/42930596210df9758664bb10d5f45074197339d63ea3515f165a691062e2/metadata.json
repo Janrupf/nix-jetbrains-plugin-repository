@@ -27,9 +27,25 @@
       "since": "232.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "916576": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23837/916576/QuietlySolarized-2.0.4.zip?updateId=916576&pluginId=23837&family=INTELLIJ",
+      "sha256": "s7QbcVCCYU7i4SRaBkiC8Vrrb2llVtI+RX6sFGdE8pM=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "QuietlySolarized-2.0.4.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "alpha": {
+      "2.0.4": 916576
+    },
     "stable": {
       "1.0.3": 493487,
       "2.0.1": 581886

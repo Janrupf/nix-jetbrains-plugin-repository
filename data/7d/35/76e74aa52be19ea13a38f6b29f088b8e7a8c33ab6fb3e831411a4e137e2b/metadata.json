@@ -684,6 +684,23 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "916588": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16761/916588/eclipse-pde-partial-idea-1.7.1.zip?updateId=916588&pluginId=16761&family=INTELLIJ",
+      "sha256": "zpQfqT2rxGAYAB+fWDF2Z2XKVusrmR4d/hhBqGhRuus=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "eclipse-pde-partial-idea-1.7.1.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -728,7 +745,8 @@
       "1.6.6-213": 676642,
       "1.6.7": 718869,
       "1.6.8": 731402,
-      "1.7.0": 826391
+      "1.7.0": 826391,
+      "1.7.1": 916588
     }
   }
 }

@@ -539,6 +539,40 @@
       "since": "251.23774",
       "until": null,
       "compatibility_overrides": []
+    },
+    "915282": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12541/915282/intellij-dependency-analytics-1.2.0-nightly.20251218.zip?updateId=915282&pluginId=12541&family=INTELLIJ",
+      "sha256": "UCDDbp0kVcn84JHJaJLbweKtcL1dlIj7FDELQx02W0I=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.intellij.telemetry",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-dependency-analytics-1.2.0-nightly.20251218.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "915468": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12541/915468/intellij-dependency-analytics-1.2.0.zip?updateId=915468&pluginId=12541&family=INTELLIJ",
+      "sha256": "Hl7WXbZhZOASkZm8t4sDVTXx1QVagS/RdDaU2hxOIZY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.java",
+        "com.intellij.modules.json",
+        "org.jetbrains.idea.maven",
+        "com.redhat.devtools.intellij.telemetry"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-dependency-analytics-1.2.0.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -561,7 +595,8 @@
       "1.2.0-nightly.20251127": 900943,
       "1.2.0-nightly.20251201": 904860,
       "1.2.0-nightly.20251203": 906038,
-      "1.2.0-nightly.20251210": 909931
+      "1.2.0-nightly.20251210": 909931,
+      "1.2.0-nightly.20251218": 915282
     },
     "stable": {
       "0.0.1.7": 63789,
@@ -577,7 +612,8 @@
       "0.7.0.88": 396430,
       "0.9.0.105": 473375,
       "1.0.0.114": 527553,
-      "1.1.0": 846161
+      "1.1.0": 846161,
+      "1.2.0": 915468
     }
   }
 }
