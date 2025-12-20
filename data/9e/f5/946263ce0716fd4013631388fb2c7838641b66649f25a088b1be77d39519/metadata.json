@@ -377,29 +377,6 @@
       "until": "265.*",
       "compatibility_overrides": []
     },
-    "915475": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28675/915475/spring-tool-253-b50.zip?updateId=915475&pluginId=28675&family=INTELLIJ",
-      "sha256": "6d8t8xuqZHdl+gJFKu53fipG9VwhGCPZ5edoheYUtno=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.json",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.lang",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.properties",
-        "com.intellij.java"
-      ],
-      "optional_dependencies": [
-        "com.intellij.gradle",
-        "com.explyt.test",
-        "org.jetbrains.plugins.terminal",
-        "com.jetbrains.sh"
-      ],
-      "file_name": "spring-tool-253-b50.zip",
-      "since": "253.0",
-      "until": "265.*",
-      "compatibility_overrides": []
-    },
     "915477": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28675/915477/spring-tool-252-b51.zip?updateId=915477&pluginId=28675&family=INTELLIJ",
       "sha256": "cB9wzRpKrQxC1Zi79Ww2/Qj+gy2tg8diJoxgpwUcAv0=",
@@ -493,14 +470,62 @@
       "since": "253.0",
       "until": "265.*",
       "compatibility_overrides": []
+    },
+    "916808": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28675/916808/spring-tool-241-b3649.zip?updateId=916808&pluginId=28675&family=INTELLIJ",
+      "sha256": "nqihRPVvjM9UJXdx8o0YOK4XID9ea2EM5O1+M+gg3fU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.terminal",
+        "com.jetbrains.sh",
+        "com.intellij.gradle"
+      ],
+      "file_name": "spring-tool-241-b3649.zip",
+      "since": "241.14494.240",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "916829": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28675/916829/spring-tool-242-b3648.zip?updateId=916829&pluginId=28675&family=INTELLIJ",
+      "sha256": "uomNGkkcCT1MVik9xxQht4+uOva6m2gP+Lzb+pbmxQc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.gradle",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "spring-tool-242-b3648.zip",
+      "since": "242.21829.142",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "241.29.3615": 898928,
+      "241.30.3649": 916808,
       "242.27.3591": 877569,
       "242.28.3596": 888684,
       "242.29.3613": 898917,
+      "242.30.3648": 916829,
       "243.27.3594": 877570,
       "243.28.3597": 888685,
       "243.29.3612": 898915,
@@ -516,7 +541,6 @@
       "252.30.51": 915477,
       "253.29.48": 908856,
       "253.29.49": 910651,
-      "253.30.50": 915475,
       "253.30.53": 916367
     }
   }

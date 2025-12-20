@@ -15,19 +15,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "581886": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23837/581886/QuietlySolarized-2.0.1.zip?updateId=581886&pluginId=23837&family=INTELLIJ",
-      "sha256": "mmPCw2xAwugNOAFKFNPOOzwKeL0hVrFmxmA3ZnARK+4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "QuietlySolarized-2.0.1.zip",
-      "since": "232.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
     "916576": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/23837/916576/QuietlySolarized-2.0.4.zip?updateId=916576&pluginId=23837&family=INTELLIJ",
       "sha256": "s7QbcVCCYU7i4SRaBkiC8Vrrb2llVtI+RX6sFGdE8pM=",
@@ -40,15 +27,28 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "916818": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23837/916818/QuietlySolarized-2.0.5.zip?updateId=916818&pluginId=23837&family=INTELLIJ",
+      "sha256": "/Ui5X1jkJ+rfoJwxlevSDoQ9MRccTz124YrzQ6SR5vI=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "QuietlySolarized-2.0.5.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "alpha": {
-      "2.0.4": 916576
+      "2.0.4": 916576,
+      "2.0.5": 916818
     },
     "stable": {
-      "1.0.3": 493487,
-      "2.0.1": 581886
+      "1.0.3": 493487
     }
   }
 }

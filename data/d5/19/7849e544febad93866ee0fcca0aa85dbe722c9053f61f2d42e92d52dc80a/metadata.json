@@ -17,11 +17,28 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "916601": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29415/916601/mybatis-plus-generator-plugin-1.0.2.zip?updateId=916601&pluginId=29415&family=INTELLIJ",
+      "sha256": "LNAVdIURGhp8iw0GQ0bVHg18T7M0bd+7wBV16fR1dUc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "mybatis-plus-generator-plugin-1.0.2.zip",
+      "since": "231.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 915504
+      "1.0.1": 915504,
+      "1.0.2": 916601
     }
   }
 }
