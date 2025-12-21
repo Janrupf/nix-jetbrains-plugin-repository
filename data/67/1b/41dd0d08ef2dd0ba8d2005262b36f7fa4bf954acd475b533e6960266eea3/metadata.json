@@ -40245,7 +40245,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.2.12.zip",
       "since": "212.4321",
-      "until": "212.*",
+      "until": "213.*",
       "compatibility_overrides": [
         {
           "applies_since": "212.4321",
@@ -40285,7 +40285,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.2.12.zip",
       "since": "212.4321",
-      "until": "212.*",
+      "until": "213.*",
       "compatibility_overrides": [
         {
           "applies_since": "212.4321",
@@ -94083,6 +94083,40 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "917243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1347/917243/scala-intellij-bin-2026.1.317.zip?updateId=917243&pluginId=1347&family=INTELLIJ",
+      "sha256": "YzzquocCGmmJRmvKrk1FNF4uSDnEPpn+oDUvZUU9WHc=",
+      "channel": "nightly",
+      "dependencies": [
+        "org.intellij.intelliLang",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.performancePlugin"
+      ],
+      "file_name": "scala-intellij-bin-2026.1.317.zip",
+      "since": "261.13053",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "917368": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1347/917368/scala-intellij-bin-2025.3.765.zip?updateId=917368&pluginId=1347&family=INTELLIJ",
+      "sha256": "qsmZjzef76JK0AUFYqoVRz06CwzJLWDj4fagSxcDfHw=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.java",
+        "org.intellij.intelliLang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.performancePlugin"
+      ],
+      "file_name": "scala-intellij-bin-2025.3.765.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -97136,6 +97170,7 @@
       "2025.3.760": 913653,
       "2025.3.761": 914053,
       "2025.3.762": 916645,
+      "2025.3.765": 917368,
       "2026.1.109": 889384,
       "2026.1.123": 892016,
       "2026.1.125": 892516,
@@ -97160,6 +97195,7 @@
       "2026.1.300": 914040,
       "2026.1.306": 915286,
       "2026.1.312": 916600,
+      "2026.1.317": 917243,
       "3.0.102": 24907,
       "3.0.117": 24958,
       "3.0.125": 25000,
