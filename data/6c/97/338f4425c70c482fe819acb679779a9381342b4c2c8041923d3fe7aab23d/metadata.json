@@ -1,6 +1,25 @@
 {
   "xml_id": "com.lhstack.ssh-publisher",
   "numeric_id": 29440,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "917602": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29440/917602/jtools-ssh-publisher-1.1.0.zip?updateId=917602&pluginId=29440&family=INTELLIJ",
+      "sha256": "kBPodSVJ+YSfbkY5ySis003UHLPlMq9NnZ09DY72sUc=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jtools-ssh-publisher-1.1.0.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.1.0": 917602
+    }
+  }
 }

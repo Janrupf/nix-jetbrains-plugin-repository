@@ -110,17 +110,59 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "918207": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28187/918207/codeium-1.3.1.zip?updateId=918207&pluginId=28187&family=INTELLIJ",
+      "sha256": "bWreoZ60UqnVrKqELQwv6/15W75rH56x5mvHgEbl8n8=",
+      "channel": "pre-release",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "com.jetbrains.codeWithMe",
+        "intellij.platform.kernel.backend",
+        "codeium.shared.main"
+      ],
+      "file_name": "codeium-1.3.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "918208": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28187/918208/codeium-1.2.1.zip?updateId=918208&pluginId=28187&family=INTELLIJ",
+      "sha256": "1ysn+i3pJgYtwVZc7PU1F1Dv3tX/3R/yxXSIfofkILk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "com.jetbrains.codeWithMe",
+        "intellij.platform.kernel.backend",
+        "codeium.shared.main"
+      ],
+      "file_name": "codeium-1.2.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "pre-release": {
       "0.1.0": 827426,
-      "0.1.1": 833704
+      "0.1.1": 833704,
+      "1.3.1": 918207
     },
     "stable": {
       "1.0.1": 835990,
       "1.0.2": 851927,
-      "1.2.0": 879137
+      "1.2.0": 879137,
+      "1.2.1": 918208
     }
   }
 }

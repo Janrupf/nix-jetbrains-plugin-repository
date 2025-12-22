@@ -15,11 +15,26 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "918040": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29399/918040/javafx-1.0.1-SNAPSHOT.zip?updateId=918040&pluginId=29399&family=INTELLIJ",
+      "sha256": "RcAAiIobkczSgClXvYwDdxC802yt28q4zIeAi/6EnPE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "javafx-1.0.1-SNAPSHOT.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 914380
+      "1.0-SNAPSHOT": 914380,
+      "1.0.1-SNAPSHOT": 918040
     }
   }
 }
