@@ -23,11 +23,28 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "918438": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29366/918438/AI-FindBugs-1.0.2.zip?updateId=918438&pluginId=29366&family=INTELLIJ",
+      "sha256": "7O3/Rc9M3TxtlaVEGC2WeFjZMrK6flWzaziEN3lV7EU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "AI-FindBugs-1.0.2.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 912730
+      "1.0.1": 912730,
+      "1.0.2": 918438
     }
   }
 }

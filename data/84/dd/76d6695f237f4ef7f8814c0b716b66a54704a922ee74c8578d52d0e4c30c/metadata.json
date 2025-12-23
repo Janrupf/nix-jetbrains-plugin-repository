@@ -9650,6 +9650,46 @@
       "since": "231.4840.387",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "918795": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1800/918795/DBN-3.7.0.1.zip?updateId=918795&pluginId=1800&family=INTELLIJ",
+      "sha256": "AKpa+lkNX/5/QoB0UDy0+kMW6E3NILiTp1fFXshOugA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.xdebugger",
+        "com.oracle.ocidbtest",
+        "com.intellij.modules.java",
+        "com.intellij.copyright"
+      ],
+      "file_name": "DBN-3.7.0.1.zip",
+      "since": "222.4554.10",
+      "until": "223.*",
+      "compatibility_overrides": []
+    },
+    "918796": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1800/918796/DBN-3.7.0.0.zip?updateId=918796&pluginId=1800&family=INTELLIJ",
+      "sha256": "MlMa51Y/y6zBgjrjwcu9Meu/lDXHJksNtUn0joBcrN0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.xdebugger",
+        "com.intellij.copyright",
+        "com.oracle.ocidbtest",
+        "com.intellij.modules.json",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "DBN-3.7.0.0.zip",
+      "since": "231.4840.387",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10310,7 +10350,9 @@
       "3.6.1.0": 801209,
       "3.6.1.1": 801207,
       "3.6.2.0": 858844,
-      "3.6.2.1": 858843
+      "3.6.2.1": 858843,
+      "3.7.0.0": 918796,
+      "3.7.0.1": 918795
     }
   }
 }
