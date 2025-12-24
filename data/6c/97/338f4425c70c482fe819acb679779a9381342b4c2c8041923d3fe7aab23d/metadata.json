@@ -15,11 +15,26 @@
       "since": "223.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "919189": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29440/919189/jtools-ssh-publisher-1.1.1.zip?updateId=919189&pluginId=29440&family=INTELLIJ",
+      "sha256": "mSc2B91H8sHBiWgLMXlfFzVY1kJAwf/S4pUiTpGWZ0E=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jtools-ssh-publisher-1.1.1.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.1.0": 917602
+      "1.1.0": 917602,
+      "1.1.1": 919189
     }
   }
 }

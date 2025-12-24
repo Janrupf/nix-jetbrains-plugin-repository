@@ -15,11 +15,26 @@
       "since": "231.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "920075": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29406/920075/livy_new-1.1.zip?updateId=920075&pluginId=29406&family=INTELLIJ",
+      "sha256": "aH3UrstN8ctzV9HYbgTm8MBevbvX5JnhgViCoV3roL4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "livy_new-1.1.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 915243
+      "1.0-SNAPSHOT": 915243,
+      "1.1": 920075
     }
   }
 }
