@@ -392,6 +392,60 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "920226": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/920226/intellij-maven-project-version-plugin.maven-update-2.6.3.zip?updateId=920226&pluginId=27628&family=INTELLIJ",
+      "sha256": "Yifnf6TUc/Wn14op+B0jxfxynDJovJUMg9ffUbjKh5w=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.6.3.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "920296": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/920296/intellij-maven-project-version-plugin.maven-update-2.6.2.zip?updateId=920296&pluginId=27628&family=INTELLIJ",
+      "sha256": "8GzSb6vOMnrINLEWNNhHmdA4H6egrfHcJIUkdvcQ1lM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.6.2.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "920310": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/920310/intellij-maven-project-version-plugin.maven-update-2.6.1.zip?updateId=920310&pluginId=27628&family=INTELLIJ",
+      "sha256": "qxclDj/IZA9mqe2hiZpHyWfBWkhK7W5LDF01vbkG4xg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.gradle",
+        "Git4Idea",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.6.1.zip",
+      "since": "191.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -418,7 +472,10 @@
       "2.5.3-1205": 907538,
       "2.5.3-1210": 910285,
       "2.5.3.1": 879165,
-      "2.5.3.2": 888942
+      "2.5.3.2": 888942,
+      "2.6.1": 920310,
+      "2.6.2": 920296,
+      "2.6.3": 920226
     }
   }
 }
