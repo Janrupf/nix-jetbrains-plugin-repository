@@ -18,11 +18,29 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "920749": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29466/920749/mic-dev-toolbox-1.1.0.zip?updateId=920749&pluginId=29466&family=INTELLIJ",
+      "sha256": "UbEwySiFO+NQ6pIwhD6CeZ0f55ci0rMnYlbTjLJVY/c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mic-dev-toolbox-1.1.0.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 918397
+      "1.0.0": 918397,
+      "1.1.0": 920749
     }
   }
 }

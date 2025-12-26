@@ -15,11 +15,26 @@
       "since": "243.4978.46",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "920588": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29165/920588/geminix-1.0.2.jar?updateId=920588&pluginId=29165&family=INTELLIJ",
+      "sha256": "rfIViQ9TmsVe/MrRGrcvG4rO4DzNkyvTfl77OgKW8uA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "geminix-1.0.2.jar",
+      "since": "243.4978.46",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 902406
+      "1.0.0": 902406,
+      "1.0.2": 920588
     }
   }
 }

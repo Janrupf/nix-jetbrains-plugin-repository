@@ -1,6 +1,28 @@
 {
   "xml_id": "cn.cpoet.tool",
   "numeric_id": 29450,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "920371": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29450/920371/cpoet-tool-0.3.0.zip?updateId=920371&pluginId=29450&family=INTELLIJ",
+      "sha256": "p6AWcs+ZF/wMfacJQIQPaOwFiELRZH1FhdXdHToKvFo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.database"
+      ],
+      "file_name": "cpoet-tool-0.3.0.zip",
+      "since": "223.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.3.0": 920371
+    }
+  }
 }

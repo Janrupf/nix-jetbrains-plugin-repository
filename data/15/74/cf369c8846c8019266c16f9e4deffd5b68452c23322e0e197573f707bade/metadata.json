@@ -24725,6 +24725,55 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "921000": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/921000/github-copilot-intellij-1.5.62.15348-243-nightly.zip?updateId=921000&pluginId=17718&family=INTELLIJ",
+      "sha256": "czBzZLVlsf06rFNSEBkIYZH3mbcS0RoShb6Ulc6IQSM=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM",
+        "org.intellij.plugins.markdown",
+        "PythonCore",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "org.jetbrains.plugins.github",
+        "com.intellij.java",
+        "org.jetbrains.plugins.yaml",
+        "Pythonid"
+      ],
+      "file_name": "github-copilot-intellij-1.5.62.15348-243-nightly.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "921001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/921001/github-copilot-intellij-1.5.62.15348-241-nightly.zip?updateId=921001&pluginId=17718&family=INTELLIJ",
+      "sha256": "SGQJ526GnpgBdNlBN33RdwE6JJ9KyHYE7he/X9Bwa90=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM",
+        "org.jetbrains.kotlin",
+        "PythonCore",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.terminal",
+        "Pythonid",
+        "com.intellij.java"
+      ],
+      "file_name": "github-copilot-intellij-1.5.62.15348-241-nightly.zip",
+      "since": "241.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -25748,6 +25797,8 @@
       "1.5.62.15320-243-nightly": 920317,
       "1.5.62.15339-241-nightly": 920577,
       "1.5.62.15339-243-nightly": 920578,
+      "1.5.62.15348-241-nightly": 921001,
+      "1.5.62.15348-243-nightly": 921000,
       "1.5.7.5764-nightly": 555551,
       "1.5.8.5779-nightly": 556201,
       "1.5.8.5794-nightly": 556708,

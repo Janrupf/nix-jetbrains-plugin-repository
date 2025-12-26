@@ -16,11 +16,27 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "921002": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29284/921002/ClipCode-1.0.1.zip?updateId=921002&pluginId=29284&family=INTELLIJ",
+      "sha256": "jveZKrHZu2BzZbEef/muNazmCBdsqBFWSrzEWSHVwNw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ClipCode-1.0.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 907982
+      "1.0.0": 907982,
+      "1.0.1": 921002
     }
   }
 }
