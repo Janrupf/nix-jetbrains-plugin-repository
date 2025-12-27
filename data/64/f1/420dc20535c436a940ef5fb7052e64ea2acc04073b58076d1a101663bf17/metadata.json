@@ -33,12 +33,27 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "921219": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27155/921219/qss-toolkit-2.0.zip?updateId=921219&pluginId=27155&family=INTELLIJ",
+      "sha256": "0U9sFgczXmTCiFHMJh6BkW9nLcl2Jz2HeY4SnZFrMYs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "qss-toolkit-2.0.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 723624,
-      "1.1": 724071
+      "1.1": 724071,
+      "2.0": 921219
     }
   }
 }

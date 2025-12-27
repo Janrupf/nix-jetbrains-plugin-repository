@@ -1,6 +1,41 @@
 {
   "xml_id": "com.bril.plugin.plugintest",
   "numeric_id": 26918,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "921170": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26918/921170/plugintest-1.0.3.zip?updateId=921170&pluginId=26918&family=INTELLIJ",
+      "sha256": "CYrr+cxuHa1ePRYIRnHPF8MfN5J0vELHHw5oBLuUxpU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugintest-1.0.3.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "921194": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26918/921194/plugintest-1.0.4.zip?updateId=921194&pluginId=26918&family=INTELLIJ",
+      "sha256": "3Z0KmbGFu8JGEzBD2FZ2Q/IUINb809MDQcNQYWxzBfg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugintest-1.0.4.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.3": 921170,
+      "1.0.4": 921194
+    }
+  }
 }
