@@ -43,13 +43,43 @@
       "since": "232.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "921641": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29532/921641/vestige-intellij-1.0.3.jar?updateId=921641&pluginId=29532&family=INTELLIJ",
+      "sha256": "kGUAE+1WZEVe/TAMdVDuJoveiUXkz08oDfdyvTEGAek=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vestige-intellij-1.0.3.jar",
+      "since": "232.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "921643": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29532/921643/vestige-intellij-1.0.4.jar?updateId=921643&pluginId=29532&family=INTELLIJ",
+      "sha256": "mFMR8f31nT6NGVjTlnxBrLS8MfrG/LSAhj5s1orBGEI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vestige-intellij-1.0.4.jar",
+      "since": "232.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 921431,
       "1.0.1": 921432,
-      "1.0.2": 921433
+      "1.0.2": 921433,
+      "1.0.3": 921641,
+      "1.0.4": 921643
     }
   }
 }

@@ -1,6 +1,25 @@
 {
   "xml_id": "ai.verdent.jetbrains",
   "numeric_id": 29473,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "921187": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29473/921187/verdent-jetbrains-1.0.0-beta.zip?updateId=921187&pluginId=29473&family=INTELLIJ",
+      "sha256": "1v9HTh03OTSoW09cohFTdsvD3DMxVQEEDKzI4Qr9bx4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "verdent-jetbrains-1.0.0-beta.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0-beta": 921187
+    }
+  }
 }

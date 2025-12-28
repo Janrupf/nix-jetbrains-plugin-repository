@@ -48,13 +48,28 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "921651": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28680/921651/jinja2-custom-delimiters-1.0.1.zip?updateId=921651&pluginId=28680&family=INTELLIJ",
+      "sha256": "/r+8cViZvjRAdOO9Wnav2flOQlU1LAa7yl4ydcA3jpg=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jinja2-custom-delimiters-1.0.1.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.3.0": 875921,
       "0.3.1": 896265,
-      "1.0.0": 906343
+      "1.0.0": 906343,
+      "1.0.1": 921651
     }
   }
 }
