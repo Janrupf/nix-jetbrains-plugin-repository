@@ -19,11 +19,29 @@
       "since": "231.0",
       "until": "231.*",
       "compatibility_overrides": []
+    },
+    "922265": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29522/922265/16kb-check-0.1.1.zip?updateId=922265&pluginId=29522&family=INTELLIJ",
+      "sha256": "LPM7kNbOmY5GZmskniYD4XBejwOd0lhIaNfgc36qnuc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.gradle",
+        "com.android.tools.idea.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "16kb-check-0.1.1.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 921188
+      "0.1.0": 921188,
+      "0.1.1": 922265
     }
   }
 }
