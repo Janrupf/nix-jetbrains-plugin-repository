@@ -2,21 +2,6 @@
   "xml_id": "md.route.git_desk",
   "numeric_id": 29518,
   "updates": {
-    "920984": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29518/920984/gitdesk-2025.0.0.1-beta-signed.zip?updateId=920984&pluginId=29518&family=INTELLIJ",
-      "sha256": "KNZJ+hs4jwiFeYqbkW9b/Lk0dj4e+gywqGh61ZlNC4c=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "org.intellij.plugins.markdown",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "gitdesk-2025.0.0.1-beta-signed.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "920988": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29518/920988/gitdesk-2025.0.0.2-beta-signed.zip?updateId=920988&pluginId=29518&family=INTELLIJ",
       "sha256": "IHjUmRWMjAlAWEMjtmoBMDvvowfwIkdeitRbxuodoxs=",
@@ -28,14 +13,28 @@
       "optional_dependencies": [],
       "file_name": "gitdesk-2025.0.0.2-beta-signed.zip",
       "since": "251.0",
-      "until": null,
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "922726": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29518/922726/gitdesk-2025.0.0.3-beta_build251_252-signed.zip?updateId=922726&pluginId=29518&family=INTELLIJ",
+      "sha256": "3MAZ2q2VRROT6UOC2Y90G308o+lvs/Ple0GKTl3a/do=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitdesk-2025.0.0.3-beta_build251_252-signed.zip",
+      "since": "251.0",
+      "until": "252.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2025.0.0.1-beta": 920984,
-      "2025.0.0.2-beta": 920988
+      "2025.0.0.2-beta": 920988,
+      "2025.0.0.3-beta+build251_252": 922726
     }
   }
 }

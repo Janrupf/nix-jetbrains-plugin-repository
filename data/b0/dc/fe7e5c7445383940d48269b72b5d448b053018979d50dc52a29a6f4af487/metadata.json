@@ -7125,7 +7125,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.288.0.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "852442": {
@@ -7159,7 +7159,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.288.0.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "853308": {
@@ -7176,7 +7176,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.288.0.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "853385": {
@@ -9394,6 +9394,38 @@
       "since": "242.0",
       "until": "253.99999",
       "compatibility_overrides": []
+    },
+    "922677": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/922677/intellij-augment-0.394.0-nightly.zip?updateId=922677&pluginId=24072&family=INTELLIJ",
+      "sha256": "yNLJioGkKFjxfgF8wjHQ7EtWfLWXVKrhaitLooXNzkc=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.394.0-nightly.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
+    },
+    "922720": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/922720/intellij-augment-0.389.3-beta.zip?updateId=922720&pluginId=24072&family=INTELLIJ",
+      "sha256": "6yAxVQWWtj784ab1/fGtiA3BAnhSzTa3+9KYM18P1W0=",
+      "channel": "beta",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.389.3-beta.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -9784,6 +9816,7 @@
       "0.389.0-beta": 917211,
       "0.389.1-beta": 917220,
       "0.389.2-beta": 918821,
+      "0.389.3-beta": 922720,
       "0.39.0": 617808,
       "0.4.0": 596147,
       "0.40.0": 618907,
@@ -9893,7 +9926,8 @@
       "0.390.0-nightly": 918802,
       "0.391.0-nightly": 919882,
       "0.392.0-nightly": 920531,
-      "0.393.0-nightly": 920966
+      "0.393.0-nightly": 920966,
+      "0.394.0-nightly": 922677
     },
     "release-candidate": {
       "0.258.2": 812176,
