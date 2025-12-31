@@ -329,10 +329,27 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "922941": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23479/922941/shadcnui_Components_Manager-0.10.0.zip?updateId=922941&pluginId=23479&family=INTELLIJ",
+      "sha256": "tdI7u8/30KpmWBaErhosypcB78CcHh85sWZqMqYbwZQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.vue",
+        "dev.blachut.svelte.lang"
+      ],
+      "file_name": "shadcnui_Components_Manager-0.10.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 922941,
       "0.7.0": 464458,
       "0.7.1": 485612,
       "0.7.2": 489076,

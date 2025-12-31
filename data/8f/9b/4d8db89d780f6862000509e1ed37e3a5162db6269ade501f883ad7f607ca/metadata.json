@@ -16,11 +16,43 @@
       "since": "252.25557",
       "until": null,
       "compatibility_overrides": []
+    },
+    "922650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29484/922650/ascript-1.1-SNAPSHOT.jar?updateId=922650&pluginId=29484&family=INTELLIJ",
+      "sha256": "CdjJL+O38yuJQtIQOz3JO8cQmZUSevtvluYoehDWKnc=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCore",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ascript-1.1-SNAPSHOT.jar",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "922916": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29484/922916/ascript-1.2-SNAPSHOT.jar?updateId=922916&pluginId=29484&family=INTELLIJ",
+      "sha256": "cHY8XoozQUXhuRV6IFFeHfrRyrllIj8YX3oCLkuVNG0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "PythonCore"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ascript-1.2-SNAPSHOT.jar",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 919228
+      "1.0-SNAPSHOT": 919228,
+      "1.1-SNAPSHOT": 922650,
+      "1.2-SNAPSHOT": 922916
     }
   }
 }

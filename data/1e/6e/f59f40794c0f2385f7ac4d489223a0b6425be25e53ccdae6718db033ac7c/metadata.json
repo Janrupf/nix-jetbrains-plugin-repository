@@ -16,11 +16,45 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "922895": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29509/922895/intellij-mcp-1.0.1.zip?updateId=922895&pluginId=29509&family=INTELLIJ",
+      "sha256": "fD5+AokfXM6nDDGA7Sh9ua8ee+RPh2CvYwN7lzdumFk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore"
+      ],
+      "file_name": "intellij-mcp-1.0.1.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "922944": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29509/922944/intellij-mcp-1.1.0.zip?updateId=922944&pluginId=29509&family=INTELLIJ",
+      "sha256": "qkldPbXgDFV2mV245y3sO7/c3+5KDGxSgu6TlDvkUVI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "intellij-mcp-1.1.0.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 920788
+      "1.0.0": 920788,
+      "1.0.1": 922895,
+      "1.1.0": 922944
     }
   }
 }
