@@ -27,12 +27,27 @@
       "since": "222.4554.10",
       "until": "233.*",
       "compatibility_overrides": []
+    },
+    "923601": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22895/923601/Onuro-1.3.4.zip?updateId=923601&pluginId=22895&family=INTELLIJ",
+      "sha256": "mZPvdtasZzlzBSk0u0r7VXYv7G98hTC75DohUvyOGz4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Onuro-1.3.4.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 416258,
-      "1.1.23": 442315
+      "1.1.23": 442315,
+      "1.3.4": 923601
     }
   }
 }

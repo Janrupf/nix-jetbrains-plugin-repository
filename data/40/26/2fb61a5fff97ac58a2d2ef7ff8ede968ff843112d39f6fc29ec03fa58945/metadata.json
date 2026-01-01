@@ -114,6 +114,42 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "923409": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23881/923409/Export_Source_to_Clipboard-2.1.1.zip?updateId=923409&pluginId=23881&family=INTELLIJ",
+      "sha256": "o7EkAPo8mfyQdzg5zIK74YnNpsb1GxmCfoFglOZJ5OA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Export_Source_to_Clipboard-2.1.1.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "923413": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23881/923413/Export_Source_to_Clipboard-2.1.2.zip?updateId=923413&pluginId=23881&family=INTELLIJ",
+      "sha256": "TGow7guOYKrUlp7Jx/kfYSMkERhvZieJ70AF8SWac78=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Export_Source_to_Clipboard-2.1.2.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -125,7 +161,9 @@
       "1.6": 730913,
       "1.7": 732832,
       "2.0": 785207,
-      "2.1": 896210
+      "2.1": 896210,
+      "2.1.1": 923409,
+      "2.1.2": 923413
     }
   }
 }

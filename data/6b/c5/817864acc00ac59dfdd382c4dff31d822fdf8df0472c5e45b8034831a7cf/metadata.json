@@ -676,7 +676,14 @@
       "file_name": "GerryThemesProLifetime.jar",
       "since": "193.0",
       "until": "243.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "191.0",
+          "applies_until": "243.*",
+          "compatible_since": "193.0",
+          "compatible_until": "243.*"
+        }
+      ]
     },
     "904858": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26472/904858/GerryThemesProLifetime.jar?updateId=904858&pluginId=26472&family=INTELLIJ",
@@ -789,6 +796,48 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "923356": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26472/923356/GerryThemesProLifetime.jar?updateId=923356&pluginId=26472&family=INTELLIJ",
+      "sha256": "bmGbKpOD10YOqlI+lMZK+0sbRufouzFYoU2eT6QrtYM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GerryThemesProLifetime.jar",
+      "since": "193.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "923357": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26472/923357/GerryThemesProLifetime.jar?updateId=923357&pluginId=26472&family=INTELLIJ",
+      "sha256": "0xMzRr7UEwgHDkHBrU6TfBa0IQxBAQcly5MUQoCcKHQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GerryThemesProLifetime.jar",
+      "since": "191.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "923358": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26472/923358/GerryThemesProLifetime.jar?updateId=923358&pluginId=26472&family=INTELLIJ",
+      "sha256": "OJALIMHzadUbyrhdGX2+dXVX/+PwuQBRvLJDXRVD6ug=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GerryThemesProLifetime.jar",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -815,7 +864,10 @@
       "2025.1.1211": 910700,
       "2025.1.1217-EAP": 914008,
       "2025.1.1222-EAP": 918406,
-      "2025.1.1224-EAP": 920112
+      "2025.1.1224-EAP": 920112,
+      "2026.1.0101": 923358,
+      "2026.1.0101-243C": 923356,
+      "2026.1.0101-243U": 923357
     },
     "stable": {
       "2025.1.0206": 676796,

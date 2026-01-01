@@ -49,13 +49,30 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "923405": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29463/923405/intellij-gn-1.9.29-signed.zip?updateId=923405&pluginId=29463&family=INTELLIJ",
+      "sha256": "0wdmKTHaHVnATdBFaPmEONO4uCwz07meRl/R2DPUTUc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-gn-1.9.29-signed.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "1.9.22": 918459,
       "1.9.23": 919005,
-      "1.9.28": 922937
+      "1.9.28": 922937,
+      "1.9.29": 923405
     }
   }
 }
