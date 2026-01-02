@@ -65,6 +65,38 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "923783": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29463/923783/intellij-gn-1.9.31-signed.zip?updateId=923783&pluginId=29463&family=INTELLIJ",
+      "sha256": "36vNiZHzyztWXmoFOTnowGkoA9jaxtE9itulrjO6Ipc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-gn-1.9.31-signed.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "923788": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29463/923788/intellij-gn-1.10.0-signed.zip?updateId=923788&pluginId=29463&family=INTELLIJ",
+      "sha256": "i0Ujmu34K8a1CHd9KZ9dwgYhkm5yBPl1+gup+KHQqno=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-gn-1.10.0-signed.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -72,7 +104,11 @@
       "1.9.22": 918459,
       "1.9.23": 919005,
       "1.9.28": 922937,
-      "1.9.29": 923405
+      "1.9.29": 923405,
+      "1.9.31": 923783
+    },
+    "stable": {
+      "1.10.0": 923788
     }
   }
 }

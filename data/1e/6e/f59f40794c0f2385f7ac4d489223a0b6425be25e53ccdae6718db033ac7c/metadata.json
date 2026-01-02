@@ -48,13 +48,55 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "923804": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29509/923804/intellij-mcp-1.2.0.zip?updateId=923804&pluginId=29509&family=INTELLIJ",
+      "sha256": "d1Wo3Quaw2JETNSuwczqlcZUiQ7or4uz0n2yVOH2bGU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "PythonCore",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.vue"
+      ],
+      "file_name": "intellij-mcp-1.2.0.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "923811": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29509/923811/intellij-mcp-1.3.0.zip?updateId=923811&pluginId=29509&family=INTELLIJ",
+      "sha256": "/jja8J+y29bHNzuO+HNItoUUqqFmvzmhkY1wVdplluc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.vue",
+        "JavaScript",
+        "com.jetbrains.php",
+        "PythonCore"
+      ],
+      "file_name": "intellij-mcp-1.3.0.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 920788,
       "1.0.1": 922895,
-      "1.1.0": 922944
+      "1.1.0": 922944,
+      "1.2.0": 923804,
+      "1.3.0": 923811
     }
   }
 }
