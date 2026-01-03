@@ -97,10 +97,27 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "924039": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29463/924039/intellij-gn-1.11.0-signed.zip?updateId=924039&pluginId=29463&family=INTELLIJ",
+      "sha256": "S1/2vLmBZi0PJajVv5ZYaMrMcI8C1HYV5+HRN83QW/Q=",
+      "channel": "eap",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-gn-1.11.0-signed.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
+      "1.11.0": 924039,
       "1.9.22": 918459,
       "1.9.23": 919005,
       "1.9.28": 922937,

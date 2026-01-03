@@ -2,23 +2,6 @@
   "xml_id": "dev.gscodes.rntoolbox.free",
   "numeric_id": 29555,
   "updates": {
-    "922473": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29555/922473/rn-toolbox-toolwindow-1.2.0.zip?updateId=922473&pluginId=29555&family=INTELLIJ",
-      "sha256": "DRtimU2YpucnlTDyCeaSYyCJHJN5AEbyhnVWIynsz0k=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.javascript",
-        "com.intellij.modules.lang",
-        "JavaScript",
-        "JavaScriptDebugger"
-      ],
-      "optional_dependencies": [],
-      "file_name": "rn-toolbox-toolwindow-1.2.0.zip",
-      "since": "241.0",
-      "until": "252.*",
-      "compatibility_overrides": []
-    },
     "922697": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29555/922697/rn-toolbox-toolwindow-1.2.1.zip?updateId=922697&pluginId=29555&family=INTELLIJ",
       "sha256": "292pxdKtR7eTB5tO/r7CGHutW7vanfKj6E3YxYTnqKI=",
@@ -35,12 +18,29 @@
       "since": "241.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "924059": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29555/924059/rn-toolbox-toolwindow-1.2.2.zip?updateId=924059&pluginId=29555&family=INTELLIJ",
+      "sha256": "9T8qW7HYtBKwuuOMaGJv6ajUu/bSQo8w+yynC8F43dw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "JavaScript",
+        "JavaScriptDebugger",
+        "com.intellij.modules.javascript",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rn-toolbox-toolwindow-1.2.2.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.2.0": 922473,
-      "1.2.1": 922697
+      "1.2.1": 922697,
+      "1.2.2": 924059
     }
   }
 }
