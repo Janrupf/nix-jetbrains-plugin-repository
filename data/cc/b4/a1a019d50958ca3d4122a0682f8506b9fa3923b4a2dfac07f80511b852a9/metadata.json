@@ -679,9 +679,49 @@
       "since": "201.0",
       "until": "204.1",
       "compatibility_overrides": []
+    },
+    "924726": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7897/924726/armory-1.60.2-2020.3.zip?updateId=924726&pluginId=7897&family=INTELLIJ",
+      "sha256": "MVl4Jo3WUe4wLHSG1858AyDbv241zLQRoneJFvfamUA=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "armory-1.60.2-2020.3.zip",
+      "since": "203.8084.24",
+      "until": "203.*",
+      "compatibility_overrides": []
+    },
+    "924727": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7897/924727/armory-1.60.2-2025.3.zip?updateId=924727&pluginId=7897&family=INTELLIJ",
+      "sha256": "ki8HcHcCtl3OuJPdgk/Z9fTJR7sloBKDO3esh3cFezM=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.java",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "armory-1.60.2-2025.3.zip",
+      "since": "252.25557",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.60.2-2020.3": 924726,
+      "1.60.2-2025.3": 924727
+    },
     "stable": {
       "1.02": 20818,
       "1.03": 20873,
