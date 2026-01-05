@@ -121,10 +121,31 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "924756": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27740/924756/LiteFlow-Helper-1.0.10.zip?updateId=924756&pluginId=27740&family=INTELLIJ",
+      "sha256": "4+2bXN0IX0RA9ZH9vvglvrJ+xhg86EOz7katwwBcWeE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.groovy",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "LiteFlow-Helper-1.0.10.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.10": 924756,
       "1.0.4": 780897,
       "1.0.5": 781761,
       "1.0.6": 811726,
