@@ -1,6 +1,26 @@
 {
   "xml_id": "cn.pk5454754.patcher2026",
   "numeric_id": 29596,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "924944": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29596/924944/patcher2026-signed.zip?updateId=924944&pluginId=29596&family=INTELLIJ",
+      "sha256": "1dkJWpko3iFKYOmgO+S75azfv27Wh7BUXj2NXqNmZIo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "patcher2026-signed.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 924944
+    }
+  }
 }

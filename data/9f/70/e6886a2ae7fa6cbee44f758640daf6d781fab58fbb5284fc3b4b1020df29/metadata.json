@@ -65,10 +65,27 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "925201": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27806/925201/sqlproj-plugin-0.1.10-signed.zip?updateId=925201&pluginId=27806&family=INTELLIJ",
+      "sha256": "uYDwUhW3HdLC1vcSu4Z60lg7FPEDEVlinm/kWRhQnWU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "rider.intellij.plugin.appender",
+        "com.intellij.modules.rider",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sqlproj-plugin-0.1.10-signed.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.1.10": 925201,
       "0.1.6": 785169,
       "0.1.7": 857906,
       "0.1.8": 879793,
