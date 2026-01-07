@@ -16,11 +16,27 @@
       "since": "223.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "926650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29596/926650/patcher2026-signed.zip?updateId=926650&pluginId=29596&family=INTELLIJ",
+      "sha256": "GRfB8QDcNjJSo467cpPnMCh78cp+f7hwUyAPpzAlkC8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "patcher2026-signed.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 924944
+      "1.0.0": 924944,
+      "1.0.1": 926650
     }
   }
 }
