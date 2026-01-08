@@ -88,6 +88,27 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "927377": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29509/927377/intellij-mcp-1.4.0.zip?updateId=927377&pluginId=29509&family=INTELLIJ",
+      "sha256": "j7y0kEmNNSBOvYuhajZjczpEy5T3pbwufOAh6TShI+M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "PythonCore",
+        "org.jetbrains.plugins.vue",
+        "JavaScript",
+        "com.jetbrains.php",
+        "com.jetbrains.rust"
+      ],
+      "file_name": "intellij-mcp-1.4.0.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -96,7 +117,8 @@
       "1.0.1": 922895,
       "1.1.0": 922944,
       "1.2.0": 923804,
-      "1.3.0": 923811
+      "1.3.0": 923811,
+      "1.4.0": 927377
     }
   }
 }

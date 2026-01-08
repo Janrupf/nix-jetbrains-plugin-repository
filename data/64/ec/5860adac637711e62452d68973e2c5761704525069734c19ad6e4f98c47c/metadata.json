@@ -201,13 +201,30 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "925666": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19166/925666/IntelliJ-4.0.0-alpha02.zip?updateId=925666&pluginId=19166&family=INTELLIJ",
+      "sha256": "KDMRqhLxbrkMOGNtDxmBqihfhUUH4HTD64GdzqKQ7S8=",
+      "channel": "alpha",
+      "dependencies": [
+        "org.jetbrains.android",
+        "com.intellij.gradle",
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ-4.0.0-alpha02.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "alpha": {
       "1.2.0-alpha02": 175165,
       "2.0.0-alpha01": 211220,
-      "2.0.0-alpha03": 284833
+      "2.0.0-alpha03": 284833,
+      "4.0.0-alpha02": 925666
     },
     "stable": {
       "2.0.0": 448768,
