@@ -3290,11 +3290,29 @@
       "since": "253.0",
       "until": "290.*",
       "compatibility_overrides": []
+    },
+    "928147": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/928147/gmaven-253.5.3-signed.zip?updateId=928147&pluginId=22370&family=INTELLIJ",
+      "sha256": "TjUVHuLP3UORzjPPR0Op3PhjxicpNFA3t0QNdHuq7yo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.properties",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "gmaven-253.5.3-signed.zip",
+      "since": "253.0",
+      "until": "290.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "253.5.2": 926139
+      "253.5.2": 926139,
+      "253.5.3": 928147
     },
     "stable": {
       "213.15": 429861,

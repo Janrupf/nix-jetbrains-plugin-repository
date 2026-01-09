@@ -76,6 +76,21 @@
       "since": "222.0",
       "until": "233.*",
       "compatibility_overrides": []
+    },
+    "928259": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22332/928259/intellij-gridsome-1.1.13.zip?updateId=928259&pluginId=22332&family=INTELLIJ",
+      "sha256": "g2SdO1YvRdVdvHePBOOm9KhpoZjwLt7vrcnAlKZRGSE=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "org.jetbrains.plugins.vue",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gridsome-1.1.13.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -88,7 +103,8 @@
     "stable": {
       "1.0.1": 376788,
       "1.0.2": 428186,
-      "1.0.3": 453447
+      "1.0.3": 453447,
+      "1.1.13": 928259
     }
   }
 }

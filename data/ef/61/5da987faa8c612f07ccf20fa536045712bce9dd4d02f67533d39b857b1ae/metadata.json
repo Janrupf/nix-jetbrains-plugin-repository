@@ -446,6 +446,60 @@
       "since": "191.0",
       "until": "221.*",
       "compatibility_overrides": []
+    },
+    "928065": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/928065/intellij-maven-project-version-plugin.maven-update-2.6.1-0108.zip?updateId=928065&pluginId=27628&family=INTELLIJ",
+      "sha256": "QLfSACOOz8ANXKK/Z6LvFN592UN/v4H9SrF9bqclUns=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.6.1-0108.zip",
+      "since": "191.0",
+      "until": "221.*",
+      "compatibility_overrides": []
+    },
+    "928067": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/928067/intellij-maven-project-version-plugin.maven-update-2.6.2-0108.zip?updateId=928067&pluginId=27628&family=INTELLIJ",
+      "sha256": "ij+TNW3sSuiDBH/u/T85xKFGRmmOeO03qY/bM5tzhzI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.6.2-0108.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "928076": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/928076/intellij-maven-project-version-plugin.maven-update-2.6.3-0108.zip?updateId=928076&pluginId=27628&family=INTELLIJ",
+      "sha256": "FV+SgERJbVJkQvnVN/2Lt06hTVJxoTlFgVpEn4RLv8E=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.6.3-0108.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -474,8 +528,11 @@
       "2.5.3.1": 879165,
       "2.5.3.2": 888942,
       "2.6.1": 920310,
+      "2.6.1-0108": 928065,
       "2.6.2": 920296,
-      "2.6.3": 920226
+      "2.6.2-0108": 928067,
+      "2.6.3": 920226,
+      "2.6.3-0108": 928076
     }
   }
 }
