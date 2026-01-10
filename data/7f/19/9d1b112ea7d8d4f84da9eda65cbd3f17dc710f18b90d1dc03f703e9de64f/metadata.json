@@ -49,13 +49,30 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "928578": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25376/928578/sd-rust-4.0.6-signed.zip?updateId=928578&pluginId=25376&family=INTELLIJ",
+      "sha256": "x2vBpdLGFWwcL/dvpapKKGXe5hzlL2hb79LtdN4F664=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "SequenceDiagram"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.rust"
+      ],
+      "file_name": "sd-rust-4.0.6-signed.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "4.0.3": 605885,
       "4.0.4": 682159,
-      "4.0.5": 819321
+      "4.0.5": 819321,
+      "4.0.6": 928578
     }
   }
 }
