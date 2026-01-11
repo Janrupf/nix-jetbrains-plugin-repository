@@ -14,11 +14,25 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "930070": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29183/930070/filecopy-1.1.2.zip?updateId=930070&pluginId=29183&family=INTELLIJ",
+      "sha256": "XURJxNpR94JNKRCLT1JSaCiVhZdFInSPzHpofYtPl2Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "filecopy-1.1.2.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 903333
+      "1.0.1": 903333,
+      "1.1.2": 930070
     }
   }
 }
