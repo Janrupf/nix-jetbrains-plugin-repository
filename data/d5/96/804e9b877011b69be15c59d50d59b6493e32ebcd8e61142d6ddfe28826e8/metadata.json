@@ -27,12 +27,26 @@
       "since": "231.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "930296": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21729/930296/ambient-1.5.2.zip?updateId=930296&pluginId=21729&family=INTELLIJ",
+      "sha256": "6BTiqID37ZaSeOpsRrcWoQNfM4zQIv1JFCg7cYg+q0A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ambient-1.5.2.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.3": 332913,
-      "1.4": 655454
+      "1.4": 655454,
+      "1.5.2": 930296
     }
   }
 }
