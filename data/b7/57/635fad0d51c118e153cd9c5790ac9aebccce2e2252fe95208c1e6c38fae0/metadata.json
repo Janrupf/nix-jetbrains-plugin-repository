@@ -415,12 +415,38 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "931169": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21226/931169/CommandLineArguments-3.0.0-eap.3.zip?updateId=931169&pluginId=21226&family=INTELLIJ",
+      "sha256": "vELKMvkjNwEyiNTWNRMWYOhoAbcLhVTbQk58Uti5nSo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.execution"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.jetbrains.rider-cpp",
+        "com.intellij.modules.python",
+        "com.jetbrains.sh",
+        "com.intellij.java",
+        "com.jetbrains.rust",
+        "com.intellij.clion",
+        "com.intellij.clion-makefile",
+        "name.kropp.intellij.makefile"
+      ],
+      "file_name": "CommandLineArguments-3.0.0-eap.3.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "3.0.0-eap.1": 911994,
-      "3.0.0-eap.2": 913754
+      "3.0.0-eap.2": 913754,
+      "3.0.0-eap.3": 931169
     },
     "stable": {
       "1.0.0": 304970,

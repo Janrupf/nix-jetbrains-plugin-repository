@@ -47,10 +47,24 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "930913": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29651/930913/glm-usage-jetbrains-0.1.12.zip?updateId=930913&pluginId=29651&family=INTELLIJ",
+      "sha256": "7oSo6WzSh2kFFHCVe6EN24PwEeKtVnOw3cju4ng6arQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "glm-usage-jetbrains-0.1.12.zip",
+      "since": "213.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.1.12": 930913,
       "0.1.6": 926017,
       "0.1.8": 926025,
       "0.1.9": 926457
