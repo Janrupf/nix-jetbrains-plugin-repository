@@ -1,0 +1,65 @@
+{
+  "xml_id": "site.addzero.vcs-auto-update",
+  "numeric_id": 29746,
+  "updates": {
+    "931533": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29746/931533/vcs-auto-update-2026.01.13.zip?updateId=931533&pluginId=29746&family=INTELLIJ",
+      "sha256": "GE3s5rvoSPlOXQ9Hhux2oLvqXJW2ZwAqn5VUdS99I0s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "vcs-auto-update-2026.01.13.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "931690": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29746/931690/vcs-auto-update-2026.01.13.zip?updateId=931690&pluginId=29746&family=INTELLIJ",
+      "sha256": "X7ZehEojeRd3MUoWEIW8Fo0hQzisdGgvT1thkZ/RkNQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "vcs-auto-update-2026.01.13.zip",
+      "since": "252",
+      "until": "262.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "999.99999",
+          "compatible_since": "252",
+          "compatible_until": "262.*"
+        }
+      ]
+    },
+    "931772": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29746/931772/vcs-auto-update-2026.01.13.zip?updateId=931772&pluginId=29746&family=INTELLIJ",
+      "sha256": "y1E5I1S23SMlZqN7LmXpAtTtmef1b8+gCSeCMPYcq8M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "vcs-auto-update-2026.01.13.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2026.01.14": 931533,
+      "2026.01.15": 931690,
+      "2026.01.16": 931772
+    }
+  }
+}

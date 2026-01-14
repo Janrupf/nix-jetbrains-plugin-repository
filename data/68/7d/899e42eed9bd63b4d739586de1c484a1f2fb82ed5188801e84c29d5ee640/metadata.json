@@ -15,11 +15,26 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "931739": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29739/931739/close-breakpoint-intellij-1.0.1-signed.zip?updateId=931739&pluginId=29739&family=INTELLIJ",
+      "sha256": "oOwXcdK+g1e3Q1m1XIRmO3C3n+aEZsNAlG0y0VEWyHQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "close-breakpoint-intellij-1.0.1-signed.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 931203
+      "1.0.0": 931203,
+      "1.0.1": 931739
     }
   }
 }

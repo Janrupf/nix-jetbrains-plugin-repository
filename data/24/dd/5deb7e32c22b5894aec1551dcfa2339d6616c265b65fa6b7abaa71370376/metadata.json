@@ -359,11 +359,33 @@
       "since": "252.28238",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "931743": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25142/931743/teamcity-253.30387.11.patched.zip?updateId=931743&pluginId=25142&family=INTELLIJ",
+      "sha256": "Gm294arxLiq+GwanaB/j3eSPL6CARSH0BhuA3TNcnTk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ktor.client",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.collaborationTools.auth"
+      ],
+      "optional_dependencies": [
+        "intellij.yaml.backend",
+        "intellij.vcs.github",
+        "intellij.teamcity.pipelines.yaml"
+      ],
+      "file_name": "teamcity-253.30387.11.patched.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.2.5": 910410,
+      "2025.3": 931743,
       "241.1.0": 592418,
       "241.1.1": 641533,
       "241.1.2": 643643,

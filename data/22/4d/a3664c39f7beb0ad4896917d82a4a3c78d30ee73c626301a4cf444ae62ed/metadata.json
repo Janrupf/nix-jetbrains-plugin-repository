@@ -46,13 +46,45 @@
       "since": "241.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "932106": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29437/932106/GitGaurd-1.0.3.zip?updateId=932106&pluginId=29437&family=INTELLIJ",
+      "sha256": "9UX/IbLmpGA0uRtFPJBQf+Ez9pcXuIR/0Q4quOJZwrw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GitGaurd-1.0.3.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "932111": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29437/932111/GitGaurd-1.0.4.zip?updateId=932111&pluginId=29437&family=INTELLIJ",
+      "sha256": "yxm2EPNAktzQ+A1E9FH2gcQSR2OedAK8Fanjte8PUpw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GitGaurd-1.0.4.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 917188,
       "1.0.1": 925611,
-      "1.0.2": 927690
+      "1.0.2": 927690,
+      "1.0.3": 932106,
+      "1.0.4": 932111
     }
   }
 }

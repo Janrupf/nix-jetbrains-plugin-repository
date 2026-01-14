@@ -1566,6 +1566,28 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "932092": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21704/932092/intellij-v253.25909.2.zip?updateId=932092&pluginId=21704&family=INTELLIJ",
+      "sha256": "epPnurOflf3FND9RRf4u+duMvJtS46Dt7Tm/d2WtOzo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "intellij-v253.25909.2.zip",
+      "since": "253.28294.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.23892",
+          "applies_until": "999.99999",
+          "compatible_since": "253.28294.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -1672,7 +1694,8 @@
       "253.24325.38": 871742,
       "253.25908.13": 874245,
       "253.25909.0": 907158,
-      "253.25909.1": 929589
+      "253.25909.1": 929589,
+      "253.25909.2": 932092
     }
   }
 }
