@@ -19,10 +19,29 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "933082": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29128/933082/Listing_Generator-0.10.0.zip?updateId=933082&pluginId=29128&family=INTELLIJ",
+      "sha256": "qhIIMIurxhBtvV5KHlH3NiFGy9a4WN2o1f+NyodlGHw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.github.copilot",
+        "com.intellij.ml.llm",
+        "org.jetbrains.junie"
+      ],
+      "file_name": "Listing_Generator-0.10.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 933082,
       "0.9.0": 899260
     }
   }

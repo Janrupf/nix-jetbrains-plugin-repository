@@ -118,9 +118,25 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "933009": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24543/933009/ij-language-pack-de-2025.3.zip?updateId=933009&pluginId=24543&family=INTELLIJ",
+      "sha256": "jADUCRGeTZP5BRwPubUypqRzQcFysD2fluQdL0qPUVE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ij-language-pack-de-2025.3.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "2025.3": 933009
+    },
     "stable": {
       "2024.1": 548074,
       "2024.1.1": 550321,

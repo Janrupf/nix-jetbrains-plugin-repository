@@ -14,11 +14,41 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "932624": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28933/932624/logi-actions-signed.zip?updateId=932624&pluginId=28933&family=INTELLIJ",
+      "sha256": "VxeBQG6Q2CIl5LFlDyNBYZr+UrLKWpaPirdG8h/Fs/8=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "logi-actions-signed.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "933013": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28933/933013/logi-actions-signed.zip?updateId=933013&pluginId=28933&family=INTELLIJ",
+      "sha256": "lR4nG1kJdepPA1pnirVpZwmD7bRrCBatEZgdEqPc3dg=",
+      "channel": "testing",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "logi-actions-signed.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "0.1.0-test.0": 932624
+    },
     "testing": {
-      "0.1.0": 910279
+      "0.1.0": 910279,
+      "0.1.0-test.1": 933013
     }
   }
 }
