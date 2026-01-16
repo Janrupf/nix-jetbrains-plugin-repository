@@ -2,20 +2,6 @@
   "xml_id": "org.metastacks.worktree-manager",
   "numeric_id": 29725,
   "updates": {
-    "930749": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29725/930749/worktree-manager-0.1.2.zip?updateId=930749&pluginId=29725&family=INTELLIJ",
-      "sha256": "UTssoThqyY1G3MhWGcoIgekOLFW4Wemu/UmMi1GyH+s=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "Git4Idea"
-      ],
-      "optional_dependencies": [],
-      "file_name": "worktree-manager-0.1.2.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "932144": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29725/932144/worktree-manager-0.1.5.zip?updateId=932144&pluginId=29725&family=INTELLIJ",
       "sha256": "HRsrL6+QOb9Z/njoK+NQBNbTFkMmKJrr5+uzMg3JZdo=",
@@ -29,12 +15,26 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "933527": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29725/933527/worktree-manager-0.1.6.zip?updateId=933527&pluginId=29725&family=INTELLIJ",
+      "sha256": "fCQEdNQCqca1TFUXNYLvD97KbCKuIM+wuOCItCM0+EU=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "worktree-manager-0.1.6.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.2": 930749,
-      "0.1.5": 932144
+      "0.1.5": 932144,
+      "0.1.6": 933527
     }
   }
 }

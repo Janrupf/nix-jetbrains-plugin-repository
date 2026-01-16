@@ -3946,7 +3946,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": "243.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3975,7 +3975,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": "243.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -17724,6 +17724,30 @@
       "since": "242.20224.91",
       "until": null,
       "compatibility_overrides": []
+    },
+    "933534": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/933534/zencoder-3.9.0-nightly.1.zip?updateId=933534&pluginId=24782&family=INTELLIJ",
+      "sha256": "VJkdQatqujhaXIZj12Oaqfa75nghZIXiajYch/8d+Vk=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "JavaScript"
+      ],
+      "file_name": "zencoder-3.9.0-nightly.1.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -18408,7 +18432,8 @@
       "3.8.0-nightly.6": 926863,
       "3.8.0-nightly.7": 928138,
       "3.8.0-nightly.8": 929034,
-      "3.8.0-nightly.9": 930730
+      "3.8.0-nightly.9": 930730,
+      "3.9.0-nightly.1": 933534
     },
     "stable": {
       "0.0.1": 570685,
