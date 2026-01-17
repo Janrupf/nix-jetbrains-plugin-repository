@@ -1588,6 +1588,21 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "935221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21704/935221/intellij-v253.25909.3-20260116-286425a6-pre.zip?updateId=935221&pluginId=21704&family=INTELLIJ",
+      "sha256": "9NDutjYaJrosgjeOx8WtKshKPXHsoJj/j9Xs4EGNXYY=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "intellij-v253.25909.3-20260116-286425a6-pre.zip",
+      "since": "253.28294.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1596,7 +1611,8 @@
       "253.25909.0": 907143
     },
     "nightly": {
-      "243.16718.22": 608262
+      "243.16718.22": 608262,
+      "253.25909.3-20260116-286425a6-pre": 935221
     },
     "stable": {
       "232.10072.27": 414887,
