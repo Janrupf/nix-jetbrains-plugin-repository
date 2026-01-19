@@ -15,11 +15,26 @@
       "since": "222.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "936118": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23964/936118/JBLMavenCleaner-1.2.zip?updateId=936118&pluginId=23964&family=INTELLIJ",
+      "sha256": "EJI44hgFGDw82MrLcAdbfsd/H4NFDntimEWMe6i+m2I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JBLMavenCleaner-1.2.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0": 503956
+      "1.0": 503956,
+      "1.2": 936118
     }
   }
 }
