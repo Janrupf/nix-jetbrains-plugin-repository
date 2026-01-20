@@ -2,6 +2,23 @@
   "xml_id": "com.jinja2enhanced",
   "numeric_id": 29804,
   "updates": {
+    "936133": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29804/936133/jinja2-enhanced-plugin-0.0.1.zip?updateId=936133&pluginId=29804&family=INTELLIJ",
+      "sha256": "CIl/ZBdZXnVeGiA+g0SXL+i4lXTkqVBOdzUoNsDX1nY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.modules.platform",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "jinja2-enhanced-plugin-0.0.1.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
     "936329": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29804/936329/jinja2-enhanced-plugin-1.0.zip?updateId=936329&pluginId=29804&family=INTELLIJ",
       "sha256": "k958a8QVoPmCntjtiLcRI80Qh7lOAnFG2kdEEhha2zc=",
@@ -20,6 +37,7 @@
   },
   "channels": {
     "stable": {
+      "0.0.1": 936133,
       "1.0": 936329
     }
   }

@@ -547,6 +547,32 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "936596": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14642/936596/IntelliJ_Platform_Plugin_Template-1.5.0.zip?updateId=936596&pluginId=14642&family=INTELLIJ",
+      "sha256": "SSmMQeCDT/E/p6AD7cBGcHD0GmVukLQ0K/wzFAEiNug=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ_Platform_Plugin_Template-1.5.0.zip",
+      "since": "221.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "936597": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14642/936597/IntelliJ_Platform_Plugin_Template-1.4.0-signed.zip?updateId=936597&pluginId=14642&family=INTELLIJ",
+      "sha256": "R+/wOPwP/jIdcWUF3PZOXMQ+MLnB7qv/jSJ2e10WPg8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ_Platform_Plugin_Template-1.4.0-signed.zip",
+      "since": "213.0",
+      "until": "223.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -583,6 +609,8 @@
       "1.14.0": 547938,
       "1.14.1": 558899,
       "1.14.2": 570840,
+      "1.4.0": 936597,
+      "1.5.0": 936596,
       "1.6.0": 319703,
       "1.7.0": 343917,
       "1.8.0": 358468,
