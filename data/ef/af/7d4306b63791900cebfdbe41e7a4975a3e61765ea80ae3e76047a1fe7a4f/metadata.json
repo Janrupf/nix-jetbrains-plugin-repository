@@ -111,6 +111,29 @@
       "since": "253.30387",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "937218": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29348/937218/code-provenance-261.17801.36.zip?updateId=937218&pluginId=29348&family=INTELLIJ",
+      "sha256": "DKKDuDG+enQEDYuRlD5pevlpKOqVTChTu2AZ19FF+DQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lvcs.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.codeGeneration",
+        "intellij.code.provenance.core",
+        "com.intellij.mcpServer",
+        "Git4Idea",
+        "intellij.code.provenance.core.git",
+        "intellij.ml.llm.nextEdits.backend",
+        "intellij.ml.llm.core",
+        "com.intellij.code.provenance"
+      ],
+      "file_name": "code-provenance-261.17801.36.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -119,7 +142,8 @@
       "253.29346.44": 911764,
       "253.29346.45": 911670,
       "253.29346.46": 911774,
-      "253.30387.23": 933568
+      "253.30387.23": 933568,
+      "261.17801.36": 937218
     }
   }
 }

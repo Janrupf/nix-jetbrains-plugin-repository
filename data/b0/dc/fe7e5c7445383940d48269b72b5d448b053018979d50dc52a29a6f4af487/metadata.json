@@ -2094,7 +2094,7 @@
       ],
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.51.0.zip",
-      "since": "241.0",
+      "since": "242",
       "until": "243.*",
       "compatibility_overrides": [
         {
@@ -2114,7 +2114,7 @@
       ],
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.51.0.zip",
-      "since": "241.0",
+      "since": "242",
       "until": "243.*",
       "compatibility_overrides": [
         {
@@ -6785,7 +6785,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "829589": {
@@ -6802,7 +6802,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "831735": {
@@ -6853,7 +6853,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.273.1.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "832444": {
@@ -6870,7 +6870,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.273.1.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "833546": {
@@ -8064,7 +8064,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.333.0-stable.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": "253.*",
       "compatibility_overrides": []
     },
     "885279": {
@@ -8080,7 +8080,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.333.0-stable.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": "253.*",
       "compatibility_overrides": []
     },
     "885293": {
@@ -9842,6 +9842,70 @@
       "since": "242.0",
       "until": "253.99999",
       "compatibility_overrides": []
+    },
+    "937845": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/937845/intellij-augment-0.411.0-nightly.zip?updateId=937845&pluginId=24072&family=INTELLIJ",
+      "sha256": "IMEh8yreGNWxZzM2lJ9o/vmSzlf+L83PYcibV4KIg1w=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.411.0-nightly.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
+    },
+    "937988": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/937988/intellij-augment-0.407.3-beta.zip?updateId=937988&pluginId=24072&family=INTELLIJ",
+      "sha256": "2GZyPXq/AhWfC/QO0ascQ47tvqiLsgTdMHC8J9aph+Y=",
+      "channel": "beta",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.407.3-beta.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
+    },
+    "937994": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/937994/intellij-augment-0.407.3-stable.zip?updateId=937994&pluginId=24072&family=INTELLIJ",
+      "sha256": "w4L6qD70/xhEephQyvtIDgYkqxy4rBgTBhaigKK/FJc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.407.3-stable.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
+    },
+    "937995": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/937995/intellij-augment-0.407.3-stable.zip?updateId=937995&pluginId=24072&family=INTELLIJ",
+      "sha256": "w4L6qD70/xhEephQyvtIDgYkqxy4rBgTBhaigKK/FJc=",
+      "channel": "release-candidate",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.407.3-stable.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10243,6 +10307,7 @@
       "0.407.0-beta": 932146,
       "0.407.1-beta": 933094,
       "0.407.2-beta": 935254,
+      "0.407.3-beta": 937988,
       "0.41.0": 619409,
       "0.42.0": 620571,
       "0.43.0": 621114,
@@ -10365,7 +10430,8 @@
       "0.406.0-nightly": 932089,
       "0.408.0-nightly": 933031,
       "0.409.0-nightly": 934063,
-      "0.410.0-nightly": 935217
+      "0.410.0-nightly": 935217,
+      "0.411.0-nightly": 937845
     },
     "release-candidate": {
       "0.258.2": 812176,
@@ -10384,7 +10450,8 @@
       "0.363.3-stable": 906556,
       "0.376.5-stable": 916542,
       "0.389.4-stable": 925616,
-      "0.389.5-stable": 928554
+      "0.389.5-stable": 928554,
+      "0.407.3-stable": 937995
     },
     "stable": {
       "0.0.25": 550479,
@@ -10447,6 +10514,7 @@
       "0.389.4-stable": 925615,
       "0.389.5-stable": 928553,
       "0.39.0": 618783,
+      "0.407.3-stable": 937994,
       "0.5.0": 598033,
       "0.51.0": 625303,
       "0.56.0": 628707,

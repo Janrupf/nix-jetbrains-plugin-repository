@@ -3363,6 +3363,39 @@
       "since": "253.30387",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "937348": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20202/937348/JPA-261.17801.55.zip?updateId=937348&pluginId=20202&family=INTELLIJ",
+      "sha256": "RQAtyzJK9NYQWSZLVj87Pk1aStD7dvbI+uveL8ZyFOE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.javaee.jpa.ql",
+        "com.intellij.jpa.jpb.model",
+        "com.intellij.database",
+        "com.intellij.modules.xml",
+        "intellij.javaee.platform",
+        "intellij.javaee.platform.impl",
+        "intellij.grid.core.impl",
+        "intellij.platform.langInjection",
+        "com.intellij.properties",
+        "com.intellij.java",
+        "intellij.properties.backend.psi",
+        "com.intellij.java-i18n",
+        "com.intellij.persistence",
+        "com.intellij.modules.ultimate",
+        "intellij.properties.backend",
+        "intellij.grid.plugin"
+      ],
+      "optional_dependencies": [
+        "intellij.yaml.backend",
+        "com.intellij.diagram",
+        "intellij.javaee.persistence.diagram",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "JPA-261.17801.55.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3497,7 +3530,8 @@
       "253.28294.251": 902526,
       "253.28294.51": 889782,
       "253.29346.50": 911697,
-      "253.30387.20": 932716
+      "253.30387.20": 932716,
+      "261.17801.55": 937348
     }
   }
 }

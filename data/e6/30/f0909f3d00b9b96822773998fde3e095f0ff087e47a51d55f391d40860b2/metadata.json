@@ -3325,6 +3325,50 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "937394": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20306/937394/quarkus-261.17801.55.zip?updateId=937394&pluginId=20306&family=INTELLIJ",
+      "sha256": "64LTHjSl6YVUATCkmfncHra6PBGJgFF612RiLDzAnMc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.cdi",
+        "intellij.spellchecker",
+        "com.intellij.properties",
+        "com.intellij.persistence",
+        "intellij.java.jam.impl",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.execution.dashboard",
+        "com.intellij.microservices.jvm",
+        "intellij.platform.execution.dashboard.backend",
+        "com.intellij.java",
+        "intellij.properties.backend.psi",
+        "intellij.properties.backend",
+        "com.intellij.modules.idea.ultimate",
+        "com.jetbrains.restWebServices",
+        "intellij.json.backend"
+      ],
+      "optional_dependencies": [
+        "intellij.microservices.jvm.cron",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.openRewrite",
+        "org.jetbrains.kotlin",
+        "intellij.javaee.persistence.database.config.yaml",
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.idea.gradle.dsl",
+        "com.intellij.hibernate",
+        "intellij.microservices.jvm.config.yaml",
+        "intellij.clouds.docker.remoteRun",
+        "intellij.profiler.ultimate",
+        "org.jetbrains.idea.maven",
+        "com.intellij.cron",
+        "intellij.profiler.common",
+        "com.intellij.modules.coverage",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "quarkus-261.17801.55.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3433,7 +3477,8 @@
       "253.27864.23": 881548,
       "253.28086.51": 887217,
       "253.28294.251": 902655,
-      "253.28294.51": 889893
+      "253.28294.51": 889893,
+      "261.17801.55": 937394
     }
   }
 }

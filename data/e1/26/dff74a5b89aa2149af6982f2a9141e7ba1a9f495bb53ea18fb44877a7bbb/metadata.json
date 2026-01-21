@@ -2682,6 +2682,49 @@
       "since": "253.30387",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "937272": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23076/937272/amper-261.17801.55.zip?updateId=937272&pluginId=23076&family=INTELLIJ",
+      "sha256": "rR3OXih8L8wnGH0eywYT0qjFXNW3R9p3fch6q/6NnpQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "intellij.libraries.plexus.utils",
+        "JUnit",
+        "intellij.spellchecker",
+        "intellij.json.backend",
+        "com.intellij.java",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.yaml.backend",
+        "org.jetbrains.plugins.gradle",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.spring.boot.run",
+        "intellij.c.core",
+        "kotlin-ultimate.kotlin-ocswift",
+        "intellij.ktor",
+        "org.jetbrains.kotlin",
+        "kotlin-ultimate.mobile-native",
+        "kotlin.gradle.gradle-java",
+        "intellij.kotlin.runConfigurations.jvm",
+        "intellij.cidr.workspaceModel",
+        "com.intellij.microservices.jvm",
+        "intellij.amper.kotlin",
+        "intellij.kotlin.projectWizard.idea",
+        "intellij.kotlin.gradle.gradle",
+        "intellij.apple.sdk",
+        "intellij.cidr.execution",
+        "intellij.cidr.runner",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.psi.base",
+        "intellij.kotlin.base.externalSystem",
+        "org.jetbrains.android"
+      ],
+      "file_name": "amper-261.17801.55.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2778,7 +2821,8 @@
       "253.28294.51": 889821,
       "253.29346.274": 929209,
       "253.29346.50": 911736,
-      "253.30387.20": 932703
+      "253.30387.20": 932703,
+      "261.17801.55": 937272
     }
   }
 }

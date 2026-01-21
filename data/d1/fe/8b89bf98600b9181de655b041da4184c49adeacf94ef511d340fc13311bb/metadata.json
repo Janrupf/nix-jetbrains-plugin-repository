@@ -3247,6 +3247,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "937044": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11220/937044/azure-toolkit-for-rider-4.7.1-signed.zip?updateId=937044&pluginId=11220&family=INTELLIJ",
+      "sha256": "fCQcrFNwpJowPStXpzUy3F3sujQBsopP5EnVNaCuPBs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.database",
+        "Docker",
+        "com.intellij.modules.rider",
+        "org.jetbrains.plugins.terminal",
+        "me.rafaelldi.aspire",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.remote-run",
+        "com.intellij.modules.ssh",
+        "com.jetbrains.restClient"
+      ],
+      "file_name": "azure-toolkit-for-rider-4.7.1-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3427,7 +3450,8 @@
       "4.6.3": 888963,
       "4.6.4": 896239,
       "4.6.5": 899099,
-      "4.7.0": 928078
+      "4.7.0": 928078,
+      "4.7.1": 937044
     }
   }
 }

@@ -3387,6 +3387,35 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "937498": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19237/937498/graalvm-261.17801.55.zip?updateId=937498&pluginId=19237&family=INTELLIJ",
+      "sha256": "+xZwZU4Jmc+q4m5DoA9mbrg01VRx0q4vQWWFI0zaLLo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.json.backend",
+        "com.intellij.nativeDebug",
+        "intellij.clouds.docker.remoteRun",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.idea.ultimate",
+        "org.jetbrains.plugins.terminal",
+        "intellij.cidr.runner",
+        "com.intellij.microservices.jvm",
+        "intellij.cidr.util.execution"
+      ],
+      "optional_dependencies": [
+        "intellij.graalvm.gradle.tooling",
+        "com.intellij.microservices.debugger",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.gradle",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "graalvm-261.17801.55.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3539,7 +3568,8 @@
       "253.27864.23": 881610,
       "253.28086.51": 887240,
       "253.28294.251": 902586,
-      "253.28294.51": 889949
+      "253.28294.51": 889949,
+      "261.17801.55": 937498
     }
   }
 }

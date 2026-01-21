@@ -4741,6 +4741,25 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "937513": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1816/937513/osgi-261.17801.55.zip?updateId=937513&pluginId=1816&family=INTELLIJ",
+      "sha256": "sEjaM1Y8Q4MvyD/j0YRkQGG5a+6Gd5+eykoKLMS6wRY=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.plexus.utils",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "intellij.javaee.platform",
+        "intellij.javaee.application",
+        "org.jetbrains.idea.maven",
+        "intellij.javaee.platform.impl"
+      ],
+      "file_name": "osgi-261.17801.55.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5039,7 +5058,8 @@
       "253.27864.23": 881530,
       "253.28086.51": 887204,
       "253.28294.251": 902542,
-      "253.28294.51": 889741
+      "253.28294.51": 889741,
+      "261.17801.55": 937513
     }
   }
 }

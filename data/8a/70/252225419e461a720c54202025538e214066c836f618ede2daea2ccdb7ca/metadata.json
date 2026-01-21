@@ -1208,6 +1208,29 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "937330": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23740/937330/flyway-261.17801.36.zip?updateId=937330&pluginId=23740&family=INTELLIJ",
+      "sha256": "b72Fy9pfEkv+MjcMiLaj+L8uwZu2r22JhO7u+cxMf0M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "intellij.flyway.diff",
+        "intellij.libraries.opencsv",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.ultimate",
+        "intellij.flyway.orm",
+        "intellij.flyway.core",
+        "com.intellij.jpa.jpb.model",
+        "com.intellij.persistence",
+        "intellij.liquibase.orm"
+      ],
+      "file_name": "flyway-261.17801.36.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1277,7 +1300,8 @@
       "253.27864.23": 881521,
       "253.28086.51": 887134,
       "253.28294.251": 902530,
-      "253.28294.51": 889726
+      "253.28294.51": 889726,
+      "261.17801.36": 937330
     }
   }
 }
