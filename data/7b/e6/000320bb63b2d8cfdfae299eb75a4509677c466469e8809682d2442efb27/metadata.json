@@ -35,12 +35,48 @@
       "since": "222.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "938561": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29707/938561/DeepSeek-AI-Check-3.0.2.zip?updateId=938561&pluginId=29707&family=INTELLIJ",
+      "sha256": "qvprwgcBeauxXr+F4ESxOE3oJJiLFbgKpKEwUOgMGHk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-AI-Check-3.0.2.zip",
+      "since": "243.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "938735": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29707/938735/DeepSeek-AI-Check-3.0.3.zip?updateId=938735&pluginId=29707&family=INTELLIJ",
+      "sha256": "oFPmcbFpEikVkOVMOAtsyPqDv+MaKeLOCjxIwx3T1qY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-AI-Check-3.0.3.zip",
+      "since": "222.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "3.0.0": 930471,
-      "3.0.1": 937120
+      "3.0.1": 937120,
+      "3.0.2": 938561,
+      "3.0.3": 938735
     }
   }
 }

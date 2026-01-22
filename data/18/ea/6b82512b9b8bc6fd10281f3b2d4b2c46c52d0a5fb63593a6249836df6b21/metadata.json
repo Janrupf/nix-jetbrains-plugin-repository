@@ -2,20 +2,6 @@
   "xml_id": "dev.unqueryvet",
   "numeric_id": 29733,
   "updates": {
-    "930956": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29733/930956/unqueryvet-goland-1.0.0.zip?updateId=930956&pluginId=29733&family=INTELLIJ",
-      "sha256": "hxjBNdAylQctIp3yE+X3O5948HiFTQoxKC57JkUkP18=",
-      "channel": "stable",
-      "dependencies": [
-        "org.jetbrains.plugins.go",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "unqueryvet-goland-1.0.0.zip",
-      "since": "233.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "937849": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29733/937849/unqueryvet-goland-1.5.2.zip?updateId=937849&pluginId=29733&family=INTELLIJ",
       "sha256": "eVXBIjzzkFXapCuoTpDqWy57zsnA6o2iaFm8uECYsnA=",
@@ -29,12 +15,26 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "938727": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29733/938727/unqueryvet-goland-1.5.3.zip?updateId=938727&pluginId=29733&family=INTELLIJ",
+      "sha256": "750t2/9Vxq62qlxNf3ZN1P5eynBezIMdeltpzgOCCdc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "unqueryvet-goland-1.5.3.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 930956,
-      "1.5.2": 937849
+      "1.5.2": 937849,
+      "1.5.3": 938727
     }
   }
 }

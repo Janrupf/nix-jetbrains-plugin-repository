@@ -2094,7 +2094,7 @@
       ],
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.51.0.zip",
-      "since": "242",
+      "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": [
         {
@@ -2114,7 +2114,7 @@
       ],
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.51.0.zip",
-      "since": "242",
+      "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": [
         {
@@ -6785,7 +6785,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "829589": {
@@ -6802,7 +6802,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "831735": {
@@ -6853,7 +6853,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.273.1.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "832444": {
@@ -6870,7 +6870,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.273.1.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "833546": {
@@ -9906,6 +9906,54 @@
       "since": "242.0",
       "until": "253.99999",
       "compatibility_overrides": []
+    },
+    "938738": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/938738/intellij-augment-0.412.0-nightly.zip?updateId=938738&pluginId=24072&family=INTELLIJ",
+      "sha256": "lpRqp0dA7lSTXnpsLDjJqcU2h9+2lbiuDhjT26aAhjI=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.412.0-nightly.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
+    },
+    "938795": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/938795/intellij-augment-0.413.0-nightly.zip?updateId=938795&pluginId=24072&family=INTELLIJ",
+      "sha256": "dNZh87c1JBJZqatNpbv32t4ccoExiHpLdwdIoZuD1ZA=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.413.0-nightly.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
+    },
+    "938801": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/938801/intellij-augment-0.413.0-beta.zip?updateId=938801&pluginId=24072&family=INTELLIJ",
+      "sha256": "13qiVTyl9Nc9F6xKa88K6JDFTfM770uqtXIOLnQYO3M=",
+      "channel": "beta",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.413.0-beta.zip",
+      "since": "242.0",
+      "until": "253.99999",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10309,6 +10357,7 @@
       "0.407.2-beta": 935254,
       "0.407.3-beta": 937988,
       "0.41.0": 619409,
+      "0.413.0-beta": 938801,
       "0.42.0": 620571,
       "0.43.0": 621114,
       "0.44.0": 621118,
@@ -10431,7 +10480,9 @@
       "0.408.0-nightly": 933031,
       "0.409.0-nightly": 934063,
       "0.410.0-nightly": 935217,
-      "0.411.0-nightly": 937845
+      "0.411.0-nightly": 937845,
+      "0.412.0-nightly": 938738,
+      "0.413.0-nightly": 938795
     },
     "release-candidate": {
       "0.258.2": 812176,

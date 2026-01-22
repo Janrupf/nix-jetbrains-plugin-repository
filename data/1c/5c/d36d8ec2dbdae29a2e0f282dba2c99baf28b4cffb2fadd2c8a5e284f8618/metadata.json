@@ -33,12 +33,29 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "938728": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28650/938728/infection-plugin-2026.1.0.zip?updateId=938728&pluginId=28650&family=INTELLIJ",
+      "sha256": "jLv47kN8mCXNU95agAWBpAi/pQSQ3chQHZDcTQRsJLM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "file_name": "infection-plugin-2026.1.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.0.1": 873596,
-      "2025.0.2": 877094
+      "2025.0.2": 877094,
+      "2026.1.0": 938728
     }
   }
 }

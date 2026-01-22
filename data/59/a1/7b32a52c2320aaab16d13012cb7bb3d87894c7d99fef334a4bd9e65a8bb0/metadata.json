@@ -157,9 +157,41 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "938023": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29152/938023/intelli-ai-engine-2025.3.1200-signed.zip?updateId=938023&pluginId=29152&family=INTELLIJ",
+      "sha256": "0hKRELrRkXpiUxbxaUsyq28g14Q8g/+D1bgcovRmdIU=",
+      "channel": "dong4j",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-engine-2025.3.1200-signed.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "938025": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29152/938025/intelli-ai-engine-2025.3.1200.zip?updateId=938025&pluginId=29152&family=INTELLIJ",
+      "sha256": "golS8gD3+K4IB9ggsbdhpD83pInnH1LDGHedESbwX20=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-engine-2025.3.1200.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "2025.3.1200": 938025
+    },
+    "dong4j": {
+      "2025.3.1200": 938023
+    },
     "stable": {
       "1.0.0": 900955,
       "1.1.0": 903700,
