@@ -627,7 +627,48 @@
       ],
       "optional_dependencies": [],
       "file_name": "micropython-tools-jetbrains-pro-2025.3.4.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "939648": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26227/939648/micropython-tools-jetbrains-pro-2026.1.1.243-251.zip?updateId=939648&pluginId=26227&family=INTELLIJ",
+      "sha256": "1xWOtJBTTAHNDVWHqIYsO+2N3jTd7rucYUhhsiiqvyM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "PythonCommon",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "micropython-tools-jetbrains-pro-2026.1.1.243-251.zip",
       "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "939650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26227/939650/micropython-tools-jetbrains-pro-2026.1.1.zip?updateId=939650&pluginId=26227&family=INTELLIJ",
+      "sha256": "Z8J+4npN9TRtk1MnW/w7Vb4Snmpz8pKwu6qqm3CFc5g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "micropython-tools-jetbrains-pro-2026.1.1.zip",
+      "since": "252.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -670,7 +711,9 @@
       "2025.3.1": 888488,
       "2025.3.2": 895302,
       "2025.3.3": 911354,
-      "2025.3.4": 912742
+      "2025.3.4": 912742,
+      "2026.1.1": 939650,
+      "2026.1.1.243-251": 939648
     }
   }
 }

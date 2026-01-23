@@ -31555,6 +31555,39 @@
       "since": "261.17801",
       "until": "261.17801.*",
       "compatibility_overrides": []
+    },
+    "939006": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/939006/gradle-253.30387.92.zip?updateId=939006&pluginId=13112&family=INTELLIJ",
+      "sha256": "SpLkQf3lCR5mBtk4Utr5mmPryIiwU36tyqJfmNwoloQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.properties"
+      ],
+      "file_name": "gradle-253.30387.92.zip",
+      "since": "253.30387",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "939038": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/939038/gradle-261.17801.73.zip?updateId=939038&pluginId=13112&family=INTELLIJ",
+      "sha256": "8dT35sZwqsuxXrIx0xnjo/LBBtrblUF6YAiSvBbyhtg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.lang",
+        "intellij.platform.externalSystem.impl"
+      ],
+      "optional_dependencies": [
+        "com.intellij.properties"
+      ],
+      "file_name": "gradle-261.17801.73.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -33541,10 +33574,12 @@
       "253.30387.23": 933567,
       "253.30387.24": 933605,
       "253.30387.30": 934045,
+      "253.30387.92": 939006,
       "261.17801.36": 937374,
       "261.17801.55": 937458,
       "261.17801.56": 938212,
-      "261.17801.57": 938217
+      "261.17801.57": 938217,
+      "261.17801.73": 939038
     }
   }
 }

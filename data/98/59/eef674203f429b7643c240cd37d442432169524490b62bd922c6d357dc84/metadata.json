@@ -140,6 +140,35 @@
       "since": "253.28294",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "939250": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28799/939250/clion-test-catch-261.17801.55.zip?updateId=939250&pluginId=28799&family=INTELLIJ",
+      "sha256": "YmXWWNqEFT5T2xlTwwyzcxgAwkrZ/WJ+CUK99V6pfjE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.lang.base",
+        "com.intellij.clion",
+        "intellij.cidr.execution",
+        "intellij.cidr.projectModel",
+        "intellij.clion.execution",
+        "com.intellij.cmake",
+        "intellij.cidr.runner"
+      ],
+      "optional_dependencies": [
+        "intellij.cidr.psi.base",
+        "intellij.rd.platform",
+        "intellij.clion.radler.testing",
+        "intellij.rider.model.generated",
+        "intellij.rd.ide.model.generated",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.c.core",
+        "intellij.rd.client",
+        "intellij.c.testing"
+      ],
+      "file_name": "clion-test-catch-261.17801.55.zip",
+      "since": "261.17801",
+      "until": "261.17801.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -148,7 +177,8 @@
       "253.28086.51": 887117,
       "253.28294.169": 895667,
       "253.28294.251": 902716,
-      "253.28294.51": 889753
+      "253.28294.51": 889753,
+      "261.17801.55": 939250
     }
   }
 }
