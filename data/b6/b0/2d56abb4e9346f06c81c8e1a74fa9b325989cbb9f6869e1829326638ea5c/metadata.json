@@ -52,9 +52,29 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "940560": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29870/940560/mermaid-studio-intellij-plugin-2026.1.1-eap.146.zip?updateId=940560&pluginId=29870&family=INTELLIJ",
+      "sha256": "T5FR7hfUz/e9uRAK98/d6BdCgrrJ01ptz91FIsNQO9k=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.plugins.markdown",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mermaid-studio-intellij-plugin-2026.1.1-eap.146.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "2026.1.1-eap.146": 940560
+    },
     "stable": {
       "2026.1.0": 938846,
       "2026.1.0.1": 939629,

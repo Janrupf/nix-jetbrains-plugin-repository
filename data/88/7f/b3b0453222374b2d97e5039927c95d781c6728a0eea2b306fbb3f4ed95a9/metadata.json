@@ -571,6 +571,40 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "940516": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23390/940516/codecov-2026.1.1.zip?updateId=940516&pluginId=23390&family=INTELLIJ",
+      "sha256": "7PtQVjy9UBRujrlMitpYfbHRjSljNk1Bw7nFrlQxXp0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.coverage",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codecov-2026.1.1.zip",
+      "since": "261.17801",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "940517": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23390/940517/codecov-2026.1.1.zip?updateId=940517&pluginId=23390&family=INTELLIJ",
+      "sha256": "eJpdWODs2eFG4cV+VQsKaQDwMa/L4VG1D91rlkvyXfU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.yaml",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codecov-2026.1.1.zip",
+      "since": "261.17801",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -586,7 +620,8 @@
       "2025.2.17": 889568,
       "2025.2.6": 817905,
       "2025.2.7": 818394,
-      "2025.2.9": 818789
+      "2025.2.9": 818789,
+      "2026.1.1": 940517
     },
     "stable": {
       "1.0.10": 569933,
@@ -612,7 +647,8 @@
       "2025.2.16": 855856,
       "2025.2.17": 889567,
       "2025.2.3": 815985,
-      "2025.3.1": 931160
+      "2025.3.1": 931160,
+      "2026.1.1": 940516
     }
   }
 }
