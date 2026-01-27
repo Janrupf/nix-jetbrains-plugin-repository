@@ -242,6 +242,63 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "941439": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28419/941439/intellij-gradle-project-version-plugin.gradle-with-me-1.2.3-0126.zip?updateId=941439&pluginId=28419&family=INTELLIJ",
+      "sha256": "eQBS0zZ1wMi8lpKqUyVD9BtQY00LgRbfhfxEVfB/G98=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.gradle",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "intellij-gradle-project-version-plugin.gradle-with-me-1.2.3-0126.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "941440": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28419/941440/intellij-gradle-project-version-plugin.gradle-with-me-1.2.2-0126.zip?updateId=941440&pluginId=28419&family=INTELLIJ",
+      "sha256": "KrkarXc4z8BEl8q3/aqhQwSVSk+5CiHVWoBXkjE1IYU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "intellij-gradle-project-version-plugin.gradle-with-me-1.2.2-0126.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "941444": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28419/941444/intellij-gradle-project-version-plugin.gradle-with-me-1.2.1-0126.zip?updateId=941444&pluginId=28419&family=INTELLIJ",
+      "sha256": "RIu1Oc6ep8t5eRJJl4Uic15yFw6b+d1JiZ/s+mdnJYI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.gradle",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "intellij-gradle-project-version-plugin.gradle-with-me-1.2.1-0126.zip",
+      "since": "191.0",
+      "until": "221.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -258,8 +315,11 @@
       "1.1.3.1": 879148,
       "1.1.3.2": 888957,
       "1.2.1": 927321,
+      "1.2.1-0126": 941444,
       "1.2.2": 927322,
-      "1.2.3": 927324
+      "1.2.2-0126": 941440,
+      "1.2.3": 927324,
+      "1.2.3-0126": 941439
     }
   }
 }

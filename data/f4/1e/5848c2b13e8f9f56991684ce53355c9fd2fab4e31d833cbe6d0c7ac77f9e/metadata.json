@@ -799,6 +799,27 @@
       "since": "222.3345.118",
       "until": null,
       "compatibility_overrides": []
+    },
+    "940705": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9742/940705/livepy-4.13.1.zip?updateId=940705&pluginId=9742&family=INTELLIJ",
+      "sha256": "oyeH3ex31v6hTmuvs3ZXuIxL6hy731fimocUkEnetM0=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCore",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "livepy-4.13.1.zip",
+      "since": "241.19416.15",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "222.3345.118",
+          "applies_until": "999.99999",
+          "compatible_since": "241.19416.15",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -832,6 +853,7 @@
       "4.11.4": 524445,
       "4.12.0": 640540,
       "4.13.0": 940668,
+      "4.13.1": 940705,
       "4.2.0": 91429,
       "4.3.0": 106812,
       "4.4.0": 116810,

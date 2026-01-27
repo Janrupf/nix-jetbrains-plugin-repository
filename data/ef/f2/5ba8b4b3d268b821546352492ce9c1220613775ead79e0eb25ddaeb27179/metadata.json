@@ -2139,9 +2139,60 @@
       "since": "211.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "941471": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23475/941471/comate-intellij-3.26.0.zip?updateId=941471&pluginId=23475&family=INTELLIJ",
+      "sha256": "KXec91+y/qOwQeSlr/8siyfbjja1r8V/HfEyn6DxmlI=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.clion",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.python",
+        "com.intellij.modules.java",
+        "JavaScript",
+        "Subversion"
+      ],
+      "file_name": "comate-intellij-3.26.0.zip",
+      "since": "211.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "941734": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23475/941734/comate-intellij-plugin-3.26.0-eap.1.zip?updateId=941734&pluginId=23475&family=INTELLIJ",
+      "sha256": "NqSJEDeV0tumCWZO+IjToljI/W3ZkkGzzSR417+yCs8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.go",
+        "Subversion",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.clion"
+      ],
+      "file_name": "comate-intellij-plugin-3.26.0-eap.1.zip",
+      "since": "211.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "3.26.0-eap.1": 941734
+    },
     "stable": {
       "1.13.3": 472491,
       "1.13.4": 479818,
@@ -2225,6 +2276,7 @@
       "3.24.1": 931744,
       "3.24.2": 933409,
       "3.25.0": 936539,
+      "3.26.0": 941471,
       "3.3.1": 693250,
       "3.3.2": 695181,
       "3.3.3": 698104,
