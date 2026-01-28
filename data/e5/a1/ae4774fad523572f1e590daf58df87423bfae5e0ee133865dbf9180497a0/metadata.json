@@ -43,12 +43,34 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "942238": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29679/942238/gatewayClient-sweepai-1.29.0.zip?updateId=942238&pluginId=29679&family=INTELLIJ",
+      "sha256": "4FJOYQClOHQQYcg5t+AqmRCLi7cvZL0FVjhRBoZYM28=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.ruby",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.python",
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "gatewayClient-sweepai-1.29.0.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.28.0": 928532,
-      "1.28.2": 934143
+      "1.28.2": 934143,
+      "1.29.0": 942238
     }
   }
 }

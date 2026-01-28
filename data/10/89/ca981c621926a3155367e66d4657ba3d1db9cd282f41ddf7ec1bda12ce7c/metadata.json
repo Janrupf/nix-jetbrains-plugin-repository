@@ -49,13 +49,30 @@
       "since": "243.3",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "941755": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27791/941755/plugin-1.1.0.zip?updateId=941755&pluginId=27791&family=INTELLIJ",
+      "sha256": "QyxfQNROjaQkTuKkR/jfVY3elpM6QKBxRAV1ftUGyh8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM"
+      ],
+      "file_name": "plugin-1.1.0.zip",
+      "since": "243.3",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 785312,
       "1.0.2": 786205,
-      "1.0.3": 812626
+      "1.0.3": 812626,
+      "1.1.0": 941755
     }
   }
 }

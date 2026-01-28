@@ -85,16 +85,48 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "942235": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29717/942235/Jetra-2026.260127.2.1.zip?updateId=942235&pluginId=29717&family=INTELLIJ",
+      "sha256": "HPhVO1cIdiwFn7CQ5TU45qXP8fqnGlBHAZX77oEtthY=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Jetra-2026.260127.2.1.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "942236": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29717/942236/Jetra-2026.260127.2.1.zip?updateId=942236&pluginId=29717&family=INTELLIJ",
+      "sha256": "HPhVO1cIdiwFn7CQ5TU45qXP8fqnGlBHAZX77oEtthY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Jetra-2026.260127.2.1.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "2026.260127.2.1": 942235
+    },
     "stable": {
       "1.0.2": 930706,
       "1.0.3": 930707,
       "1.0.4": 932104,
       "1.0.5": 936138,
       "2025.47382.1.0": 937984,
-      "2025.47382.2.0": 940582
+      "2025.47382.2.0": 940582,
+      "2026.260127.2.1": 942236
     }
   }
 }
