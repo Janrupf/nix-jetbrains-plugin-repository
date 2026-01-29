@@ -973,6 +973,42 @@
       "since": "252.23892",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "942547": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29075/942547/intellij-gitlab-plugin-14.8.0-SNAPSHOT-signed.zip?updateId=942547&pluginId=29075&family=INTELLIJ",
+      "sha256": "4+Vn96IPrUo+qjPpWjHnAJVvG7hCbgtF7+sr+umrUr8=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.platform.images",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.tasks",
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitlab-plugin-14.8.0-SNAPSHOT-signed.zip",
+      "since": "252.23892",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "942552": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29075/942552/intellij-gitlab-plugin-14.7.3-signed.zip?updateId=942552&pluginId=29075&family=INTELLIJ",
+      "sha256": "M9439tgmE1GMmCHDP4Z1eweLo4fKXtCSTqxQPu0VIms=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images",
+        "org.intellij.plugins.markdown",
+        "Git4Idea",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.tasks"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-gitlab-plugin-14.7.3-signed.zip",
+      "since": "252.23892",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1021,7 +1057,8 @@
       "14.7.0-SNAPSHOT+010": 930476,
       "14.7.1": 934486,
       "14.7.1-SNAPSHOT+002": 934485,
-      "14.7.2-SNAPSHOT+002": 940561
+      "14.7.2-SNAPSHOT+002": 940561,
+      "14.8.0-SNAPSHOT+004": 942547
     },
     "stable": {
       "14.0.1": 896036,
@@ -1032,7 +1069,8 @@
       "14.6.0": 929713,
       "14.7.0": 933575,
       "14.7.1": 934484,
-      "14.7.2": 940564
+      "14.7.2": 940564,
+      "14.7.3": 942552
     }
   }
 }
