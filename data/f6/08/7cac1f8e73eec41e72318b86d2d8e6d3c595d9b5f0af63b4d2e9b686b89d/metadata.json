@@ -58,13 +58,33 @@
       "since": "253.30387",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "943559": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29769/943559/jupyter-py-colab-plugin-261.19799.20.zip?updateId=943559&pluginId=29769&family=INTELLIJ",
+      "sha256": "SvemrtVJ2jOwMbCAE9DSmJcGz20NN/VoWI6G9u732Iw=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.collaborationTools.auth",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.notebooks.core",
+        "intellij.notebooks.jupyter.core",
+        "intellij.python.sdk",
+        "intellij.jupyter.core",
+        "intellij.jupyter.py"
+      ],
+      "file_name": "jupyter-py-colab-plugin-261.19799.20.zip",
+      "since": "261.19799",
+      "until": "261.19799.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "253.30387.20": 932647,
       "253.30387.92": 938999,
-      "261.17801.36": 937169
+      "261.17801.36": 937169,
+      "261.19799.20": 943559
     }
   }
 }

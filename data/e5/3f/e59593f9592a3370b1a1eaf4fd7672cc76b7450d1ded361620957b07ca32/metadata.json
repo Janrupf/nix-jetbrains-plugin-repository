@@ -25,11 +25,36 @@
       "since": "261.17801",
       "until": "261.17801.*",
       "compatibility_overrides": []
+    },
+    "943765": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29844/943765/indexing-shared-261.19799.20.zip?updateId=943765&pluginId=29844&family=INTELLIJ",
+      "sha256": "PvK8QQZkplPCEu27nvXqzzCRYmWQxwC6Dd9QqXJj1aA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.configurationScript"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.performancePlugin",
+        "intellij.indexing.shared.ultimate",
+        "intellij.platform.warmup",
+        "Git4Idea",
+        "com.intellij.modules.python",
+        "intellij.indexing.shared.java",
+        "com.intellij.modules.jetbrains",
+        "com.intellij.java",
+        "intellij.indexing.shared.core",
+        "intellij.indexing.shared.generator"
+      ],
+      "file_name": "indexing-shared-261.19799.20.zip",
+      "since": "261.19799",
+      "until": "261.19799.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "261.17801.55": 937413
+      "261.17801.55": 937413,
+      "261.19799.20": 943765
     }
   }
 }

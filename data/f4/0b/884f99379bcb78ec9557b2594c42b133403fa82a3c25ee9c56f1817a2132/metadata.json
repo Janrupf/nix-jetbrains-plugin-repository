@@ -931,6 +931,27 @@
       "since": "261.17801",
       "until": "261.17801.*",
       "compatibility_overrides": []
+    },
+    "943885": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27876/943885/java-frontend-split-261.19799.23.zip?updateId=943885&pluginId=27876&family=INTELLIJ",
+      "sha256": "1qrpVQqrR/rEOEREZCDQpK1w7yu71jZpHgJBolyd24o=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.debugger.impl",
+        "intellij.java.frontback.impl",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.java.execution.impl.shared",
+        "com.intellij.jetbrains.client",
+        "intellij.java.debugger.impl.shared",
+        "intellij.platform.debugger",
+        "intellij.platform.langInjection",
+        "intellij.platform.frontend"
+      ],
+      "optional_dependencies": [],
+      "file_name": "java-frontend-split-261.19799.23.zip",
+      "since": "261.19799",
+      "until": "261.19799.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -991,7 +1012,8 @@
       "253.28294.252": 902814,
       "253.29346.45": 911658,
       "253.30387.23": 933563,
-      "261.17801.36": 937138
+      "261.17801.36": 937138,
+      "261.19799.23": 943885
     }
   }
 }

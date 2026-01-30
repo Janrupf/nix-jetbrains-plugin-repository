@@ -20,11 +20,31 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "942935": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29936/942935/AIBox-1.0.3.zip?updateId=942935&pluginId=29936&family=INTELLIJ",
+      "sha256": "M7Yq3aAh2qLawX+C6rFgrlDeF6vlQApK80YQDlm12a8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "PythonCore",
+        "com.intellij.java",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "AIBox-1.0.3.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.2": 941738
+      "1.0.2": 941738,
+      "1.0.3": 942935
     }
   }
 }

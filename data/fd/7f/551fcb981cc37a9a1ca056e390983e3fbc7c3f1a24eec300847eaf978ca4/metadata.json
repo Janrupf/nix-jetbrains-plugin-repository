@@ -20,11 +20,73 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "944612": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29972/944612/ide-plugin-0.1.11-SNAPSHOT-20260129230237.zip?updateId=944612&pluginId=29972&family=INTELLIJ",
+      "sha256": "OM20DtCQzAg73gQW9dgOVqVFQyfxZYqqZfL01JXAwCE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.fueledbycaffeine.spotlight",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.platform",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "ide-plugin-0.1.11-SNAPSHOT-20260129230237.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "944616": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29972/944616/ide-plugin-0.1.11-SNAPSHOT-20260129233007.zip?updateId=944616&pluginId=29972&family=INTELLIJ",
+      "sha256": "lsuWLCTgVO4zg15wmbkghSXqw8sTvMD+w5fjhktkLsQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.fueledbycaffeine.spotlight",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "ide-plugin-0.1.11-SNAPSHOT-20260129233007.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "944643": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29972/944643/ide-plugin-0.1.11.zip?updateId=944643&pluginId=29972&family=INTELLIJ",
+      "sha256": "JJay3jtojIupTolwdkxih9forQ7JFLkeje/QUdSuZVQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.fueledbycaffeine.spotlight",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.gradle",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "ide-plugin-0.1.11.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "0.1.11-SNAPSHOT-20260129230237": 944612,
+      "0.1.11-SNAPSHOT-20260129233007": 944616
+    },
     "stable": {
-      "0.1.10": 942867
+      "0.1.10": 942867,
+      "0.1.11": 944643
     }
   }
 }

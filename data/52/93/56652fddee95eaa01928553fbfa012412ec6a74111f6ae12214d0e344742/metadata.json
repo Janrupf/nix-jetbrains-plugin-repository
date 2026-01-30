@@ -46,13 +46,29 @@
       "since": "242.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "943426": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29735/943426/split-module-2026.01.29.zip?updateId=943426&pluginId=29735&family=INTELLIJ",
+      "sha256": "hEwceWeqmDATLQ+nIJzefC5Q+keKmsjOf7mRM6zsyqY=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "split-module-2026.01.29.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.01.12": 930992,
       "2026.01.13": 931233,
-      "2026.01.14": 931274
+      "2026.01.14": 931274,
+      "2026.01.29": 943426
     }
   }
 }

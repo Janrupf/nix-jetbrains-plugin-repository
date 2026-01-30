@@ -134,6 +134,29 @@
       "since": "261.17801",
       "until": "261.17801.*",
       "compatibility_overrides": []
+    },
+    "943636": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28914/943636/clion-packageManager-261.19799.20.zip?updateId=943636&pluginId=28914&family=INTELLIJ",
+      "sha256": "RbfzdWknFQkIuQO0gcHvZwjY8JYkOlLwDNn0HGZh8AQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cmake.psi",
+        "intellij.clion.core",
+        "intellij.cidr.execution",
+        "intellij.clion.toolchains",
+        "intellij.cidr.util",
+        "intellij.cidr.util.execution",
+        "com.intellij.cmake",
+        "intellij.cidr.workspaceModel",
+        "com.intellij.clion"
+      ],
+      "optional_dependencies": [
+        "intellij.json.backend"
+      ],
+      "file_name": "clion-packageManager-261.19799.20.zip",
+      "since": "261.19799",
+      "until": "261.19799.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -143,7 +166,8 @@
       "253.28294.251": 902701,
       "253.28294.51": 889938,
       "253.29346.50": 911723,
-      "261.17801.55": 939239
+      "261.17801.55": 939239,
+      "261.19799.20": 943636
     }
   }
 }
