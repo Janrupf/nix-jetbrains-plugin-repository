@@ -31698,6 +31698,50 @@
       "since": "253.30387",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "945046": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/945046/gradle-261.19799.23.zip?updateId=945046&pluginId=13112&family=INTELLIJ",
+      "sha256": "7UJBpp5U+NIEdf8ix/tEBcjwVkL+LKJJwvwYDOu6V38=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jspecify",
+        "intellij.platform.externalSystem.impl",
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.repository.search.common",
+        "com.intellij.properties",
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.ktor.client",
+        "com.intellij.gradle"
+      ],
+      "file_name": "gradle-261.19799.23.zip",
+      "since": "261.19799",
+      "until": "261.19799.*",
+      "compatibility_overrides": []
+    },
+    "945049": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/945049/gradle-261.19799.25.zip?updateId=945049&pluginId=13112&family=INTELLIJ",
+      "sha256": "hHYzJA6MVrtyOzltkfr0cbcNuKJiVWEc2qtRHirL9zg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.lang",
+        "intellij.libraries.jspecify",
+        "intellij.platform.externalSystem.impl"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "intellij.repository.search.common",
+        "com.intellij.properties",
+        "intellij.libraries.ktor.client",
+        "intellij.libraries.kotlinx.io"
+      ],
+      "file_name": "gradle-261.19799.25.zip",
+      "since": "261.19799",
+      "until": "261.19799.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -33695,7 +33739,9 @@
       "261.17801.86": 941929,
       "261.17801.91": 942486,
       "261.19799.20": 943606,
-      "261.19799.22": 943915
+      "261.19799.22": 943915,
+      "261.19799.23": 945046,
+      "261.19799.25": 945049
     }
   }
 }

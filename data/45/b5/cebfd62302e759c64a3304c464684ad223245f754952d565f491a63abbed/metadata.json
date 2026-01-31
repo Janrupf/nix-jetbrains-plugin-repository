@@ -328,6 +328,24 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "945031": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/945031/jtools.zip?updateId=945031&pluginId=25448&family=INTELLIJ",
+      "sha256": "sDTi9LzfzhD2zJ9n2g7kl+YZQChUI7AOMgY+bgwjNsY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.gradle.dsl",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.gradle"
+      ],
+      "file_name": "jtools.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -349,7 +367,8 @@
       "1.1.2": 855686,
       "1.1.2.1": 856257,
       "1.1.2.2": 917605,
-      "1.1.2.3": 923771
+      "1.1.2.3": 923771,
+      "1.1.2.4": 945031
     }
   }
 }

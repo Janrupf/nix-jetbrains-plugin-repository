@@ -21,11 +21,53 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "944972": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29634/944972/wechat-miniprogram-1.1.0.jar?updateId=944972&pluginId=29634&family=INTELLIJ",
+      "sha256": "TOOWOKGrPZ/+IXyaLY0jdogix2deUVqaZ99nsfc1Acc=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.css"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.stylus",
+        "org.jetbrains.plugins.sass",
+        "org.jetbrains.plugins.less"
+      ],
+      "file_name": "wechat-miniprogram-1.1.0.jar",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "944990": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29634/944990/wechat-miniprogram-1.1.1.zip?updateId=944990&pluginId=29634&family=INTELLIJ",
+      "sha256": "VbrMLHZTSSuUOW2phaz3ZPu6ohQjAlS1Fx6sIHoaxy8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.css",
+        "JavaScript",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.sass",
+        "org.jetbrains.plugins.stylus",
+        "org.jetbrains.plugins.less"
+      ],
+      "file_name": "wechat-miniprogram-1.1.1.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 925240
+      "1.0.0": 925240,
+      "1.1.0": 944972,
+      "1.1.1": 944990
     }
   }
 }

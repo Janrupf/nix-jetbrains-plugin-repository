@@ -9633,6 +9633,38 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "945043": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8053/945043/azure-toolkit-for-intellij.zip?updateId=945043&pluginId=8053&family=INTELLIJ",
+      "sha256": "EMm71FCfV6yRU6B7udOL+j7tRyqxO+WulzOhsOc0BqI=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.gradle",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.remote-run",
+        "com.jetbrains.restClient",
+        "Docker",
+        "com.intellij.kubernetes",
+        "com.intellij.modules.ssh",
+        "Git4Idea",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.database",
+        "org.intellij.scala"
+      ],
+      "file_name": "azure-toolkit-for-intellij.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10056,7 +10088,8 @@
       "3.96.2-2025.2": 861249,
       "3.96.3-2025.1": 889379,
       "3.96.3-2025.2": 889380,
-      "3.96.3-2025.3": 889381
+      "3.96.3-2025.3": 889381,
+      "3.97.0-2025.3": 945043
     }
   }
 }

@@ -64,13 +64,35 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "945305": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29680/945305/gatewayHost-sweepai-1.29.2.zip?updateId=945305&pluginId=29680&family=INTELLIJ",
+      "sha256": "BC745KVxjIiTgbYVnyM8PkKEm9JO7yD5Dl30PyXVkl4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.ruby",
+        "JavaScript",
+        "com.intellij.modules.cidr.lang"
+      ],
+      "file_name": "gatewayHost-sweepai-1.29.2.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.28.0": 928534,
       "1.28.2": 934142,
-      "1.29.0": 942239
+      "1.29.0": 942239,
+      "1.29.2": 945305
     }
   }
 }

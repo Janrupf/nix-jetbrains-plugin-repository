@@ -1,6 +1,26 @@
 {
   "xml_id": "com.kronkcms.plugin",
   "numeric_id": 29886,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "945257": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29886/945257/kronk-jetbrains-2026.1.0.zip?updateId=945257&pluginId=29886&family=INTELLIJ",
+      "sha256": "973Y1E2VSIzkWyJlpW5kcpDH+hOfBNEKZZCQJ0BOMeQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "kronk-jetbrains-2026.1.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2026.1.0": 945257
+    }
+  }
 }
