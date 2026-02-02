@@ -4660,6 +4660,28 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "946398": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21173/946398/JetClient-2026.1.0-251-signed.zip?updateId=946398&pluginId=21173&family=INTELLIJ",
+      "sha256": "cIjwwdzDNVyafOy9hrEMfk78ZvGC99Wu1xY72x2PEoE=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.java",
+        "com.intellij.lang.jsgraphql",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "JetClient-2026.1.0-251-signed.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4868,7 +4890,8 @@
       "2025.1.0-243": 826003,
       "2025.1.0-251": 826002,
       "2025.1.0-252": 826000,
-      "2025.1.0-253": 896121
+      "2025.1.0-253": 896121,
+      "2026.1.0-251": 946398
     }
   }
 }
