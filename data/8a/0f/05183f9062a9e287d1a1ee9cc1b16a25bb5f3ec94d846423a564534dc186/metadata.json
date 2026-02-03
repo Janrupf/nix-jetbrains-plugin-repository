@@ -76,17 +76,65 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "947129": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28889/947129/AzureDevOps-2.2.zip?updateId=947129&pluginId=28889&family=INTELLIJ",
+      "sha256": "5qnooRtUPJoCYd/uEpRpMMtbuVY8M1p3JPYKEWmlPTM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AzureDevOps-2.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "947131": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28889/947131/AzureDevOps-2.5-rc1.zip?updateId=947131&pluginId=28889&family=INTELLIJ",
+      "sha256": "8p9GQEnFFb/s4QzJAMP+p/yUAQK2hXCzb9gMtJXXtV8=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AzureDevOps-2.5-rc1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "947132": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28889/947132/AzureDevOps-2.5-rc2.zip?updateId=947132&pluginId=28889&family=INTELLIJ",
+      "sha256": "UiJoMmLhMF8dqY/iMy+r7ECvA/iHNIYSRhxvKsCKR8A=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AzureDevOps-2.5-rc2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "preview": {
-      "2.0": 924085
+      "2.0": 924085,
+      "2.5-rc1": 947131,
+      "2.5-rc2": 947132
     },
     "stable": {
       "1.1": 896141,
       "1.2": 905969,
       "2.0": 924721,
-      "2.1": 935252
+      "2.1": 935252,
+      "2.2": 947129
     }
   }
 }

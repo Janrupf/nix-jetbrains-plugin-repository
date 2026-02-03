@@ -31742,6 +31742,44 @@
       "since": "261.19799",
       "until": "261.19799.*",
       "compatibility_overrides": []
+    },
+    "946754": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/946754/gradle-253.30387.173.zip?updateId=946754&pluginId=13112&family=INTELLIJ",
+      "sha256": "hsB2Ol4O7JpnQYZ2nXsaRs5XZyipiqZvJLyEXAzfhPA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.properties"
+      ],
+      "file_name": "gradle-253.30387.173.zip",
+      "since": "253.30387",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "946977": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/946977/gradle-261.19799.40.zip?updateId=946977&pluginId=13112&family=INTELLIJ",
+      "sha256": "31g91Z7HE/pCoAOVO9omuoEdoqJOKUiCE5CfG1jT80E=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.externalSystem.impl",
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.lang",
+        "intellij.libraries.jspecify"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.ktor.client",
+        "com.intellij.properties",
+        "intellij.libraries.kotlinx.io",
+        "com.intellij.gradle",
+        "intellij.repository.search.common"
+      ],
+      "file_name": "gradle-261.19799.40.zip",
+      "since": "261.19799",
+      "until": "261.19799.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -33726,6 +33764,7 @@
       "253.29346.53": 913180,
       "253.30387.127": 942141,
       "253.30387.154": 944144,
+      "253.30387.173": 946754,
       "253.30387.20": 932728,
       "253.30387.23": 933567,
       "253.30387.24": 933605,
@@ -33741,7 +33780,8 @@
       "261.19799.20": 943606,
       "261.19799.22": 943915,
       "261.19799.23": 945046,
-      "261.19799.25": 945049
+      "261.19799.25": 945049,
+      "261.19799.40": 946977
     }
   }
 }

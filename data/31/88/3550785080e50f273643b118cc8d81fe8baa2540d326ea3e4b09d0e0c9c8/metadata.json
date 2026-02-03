@@ -134,6 +134,23 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "946832": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27926/946832/trace-recorder-plugin-0.9.zip?updateId=946832&pluginId=27926&family=INTELLIJ",
+      "sha256": "pKiLutvDTHSMlefDhOwzulGHiCmJ9OTBDAqblxTRnd8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.compose",
+        "com.intellij.gradle",
+        "org.jetbrains.kotlin",
+        "com.intellij.java",
+        "JUnit"
+      ],
+      "optional_dependencies": [],
+      "file_name": "trace-recorder-plugin-0.9.zip",
+      "since": "252.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -145,7 +162,8 @@
       "0.5": 825717,
       "0.6": 858370,
       "0.7": 863418,
-      "0.8": 907748
+      "0.8": 907748,
+      "0.9": 946832
     }
   }
 }
