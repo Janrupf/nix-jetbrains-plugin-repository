@@ -1,6 +1,27 @@
 {
   "xml_id": "dev.dong4j.zeka.stack.idea.plugin.terminal",
   "numeric_id": 29989,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "948140": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29989/948140/intelli-ai-terminal-2025.3.1200-signed.zip?updateId=948140&pluginId=29989&family=INTELLIJ",
+      "sha256": "SsdhN5Mc+XlvyGmFsF5yDDchCFKpk9PlWDkwjW16tUc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-terminal-2025.3.1200-signed.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2025.3.1200": 948140
+    }
+  }
 }

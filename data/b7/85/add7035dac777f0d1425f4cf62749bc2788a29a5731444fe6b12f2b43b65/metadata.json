@@ -2,36 +2,6 @@
   "xml_id": "com.google.cloud.workstations.ide.jetbrains.connector",
   "numeric_id": 19900,
   "updates": {
-    "236853": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/236853/connector-22.10.3.zip?updateId=236853&pluginId=19900&family=INTELLIJ",
-      "sha256": "okgqQWV8p/53vSKjZX+fOq/HjIels52N9LVpl10Vink=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.jetbrains.gateway"
-      ],
-      "file_name": "connector-22.10.3.zip",
-      "since": "222.0",
-      "until": "223.*",
-      "compatibility_overrides": []
-    },
-    "240154": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/240154/connector.zip?updateId=240154&pluginId=19900&family=INTELLIJ",
-      "sha256": "oLN8mDYuSBNt5My6/FFtUopZJ0dpsxh3POL1VA6RzKs=",
-      "channel": "nightly",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.jetbrains.gateway"
-      ],
-      "file_name": "connector.zip",
-      "since": "222.0",
-      "until": "223.*",
-      "compatibility_overrides": []
-    },
     "240695": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/240695/google-cloud-workstations.zip?updateId=240695&pluginId=19900&family=INTELLIJ",
       "sha256": "d7OiXY4mjKS0Q/NryX7yB20+iPM0VTjhDkQ05A4Rlk8=",
@@ -456,21 +426,6 @@
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/327109/google-cloud-workstations.zip?updateId=327109&pluginId=19900&family=INTELLIJ",
       "sha256": "JNA6+QO/BLM0VUeJSgkp2VWWIK8OFCoIipCJ8qWS6Cs=",
       "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.jetbrains.gateway"
-      ],
-      "file_name": "google-cloud-workstations.zip",
-      "since": "231.5920",
-      "until": "231.*",
-      "compatibility_overrides": []
-    },
-    "330599": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/330599/google-cloud-workstations.zip?updateId=330599&pluginId=19900&family=INTELLIJ",
-      "sha256": "sBG3pBQffeMqfBfcda3Kjtq/U70gj2RIcY2DthTuKG8=",
-      "channel": "alpha",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
@@ -1081,6 +1036,51 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "948285": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/948285/google-cloud-workstations.zip?updateId=948285&pluginId=19900&family=INTELLIJ",
+      "sha256": "XnI2KxOQZLZgmN5OOvs9rWogrjvalJty52xZdtGsr38=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.gateway"
+      ],
+      "file_name": "google-cloud-workstations.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "948320": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/948320/google-cloud-workstations.zip?updateId=948320&pluginId=19900&family=INTELLIJ",
+      "sha256": "XnI2KxOQZLZgmN5OOvs9rWogrjvalJty52xZdtGsr38=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.gateway"
+      ],
+      "file_name": "google-cloud-workstations.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "948348": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19900/948348/google-cloud-workstations.zip?updateId=948348&pluginId=19900&family=INTELLIJ",
+      "sha256": "XnI2KxOQZLZgmN5OOvs9rWogrjvalJty52xZdtGsr38=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.gateway"
+      ],
+      "file_name": "google-cloud-workstations.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1090,7 +1090,6 @@
       "23.11.1-RC02-api-version-223": 437530,
       "23.11.1-RC02-api-version-231": 437529,
       "23.5.2-RC01-api-version-223": 330600,
-      "23.5.2-RC01-api-version-231": 330599,
       "23.5.2-api-version-223": 330601,
       "23.5.2-api-version-231": 330602,
       "23.6.1-RC01-api-version-223": 351171,
@@ -1108,10 +1107,10 @@
       "24.8.1-RC00-api-version-231": 582405,
       "25.4.1-api-version-242": 725306,
       "25.4.2-api-version-242": 727883,
-      "25.8.1-api-version-242": 841898
+      "25.8.1-api-version-242": 841898,
+      "26.1.1-api-version-242": 948285
     },
     "nightly": {
-      "20221019-nightly-api-version-222": 240154,
       "20221020-nightly-api-version-222": 240695,
       "20221021-nightly-api-version-222": 241276,
       "20221022-nightly-api-version-222": 242062,
@@ -1134,10 +1133,10 @@
       "23.3.2-test_RC01-api-version-222": 314218,
       "23.3.2-test_RC01-api-version-223": 314217,
       "25.4.1-api-version-242": 725307,
-      "25.4.2-api-version-242": 727885
+      "25.4.2-api-version-242": 727885,
+      "26.1.1-api-version-242": 948320
     },
     "stable": {
-      "22.10.3-api-version-222": 236853,
       "22.10.4-7255-api-version-223": 247153,
       "22.10.4-api-version-222": 242628,
       "22.10.4-api-version-223": 242660,
@@ -1160,7 +1159,8 @@
       "24.8.1-api-version-223": 582969,
       "24.8.1-api-version-231": 582968,
       "25.4.2-api-version-242": 727888,
-      "25.8.1-api-version-242": 841912
+      "25.8.1-api-version-242": 841912,
+      "26.1.1-api-version-242": 948348
     }
   }
 }

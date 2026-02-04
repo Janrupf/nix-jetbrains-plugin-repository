@@ -1,0 +1,58 @@
+{
+  "xml_id": "com.intellij.ml.llm.experimental",
+  "numeric_id": 30055,
+  "updates": {
+    "948325": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30055/948325/ml-llm-experimental-261.20429.0.zip?updateId=948325&pluginId=30055&family=INTELLIJ",
+      "sha256": "UYJk7KIWvgDzrZajjkuHhCkecJIHdiEHDPrfnbXWooM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.ml.llm"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.context",
+        "intellij.ml.llm.vcs.core",
+        "intellij.ml.llm.codeEngine",
+        "intellij.ml.llm.libraries.grazie",
+        "intellij.ml.llm.privacy"
+      ],
+      "file_name": "ml-llm-experimental-261.20429.0.zip",
+      "since": "261.20429",
+      "until": "261.20429.*",
+      "compatibility_overrides": []
+    },
+    "948331": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30055/948331/ml-llm-experimental-261.20433.0.zip?updateId=948331&pluginId=30055&family=INTELLIJ",
+      "sha256": "0cqqD1tyew/oTWyZ16zDoDCEfgmQO54c+BgPcmZNDKc=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.ml.llm"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.context",
+        "intellij.ml.llm.codeEngine",
+        "intellij.ml.llm.privacy",
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.libraries.grazie",
+        "Git4Idea",
+        "intellij.ml.llm.vcs.core"
+      ],
+      "file_name": "ml-llm-experimental-261.20433.0.zip",
+      "since": "261.20433",
+      "until": "261.20433.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "nightly": {
+      "261.20433.0": 948331
+    },
+    "stable": {
+      "261.20429.0": 948325
+    }
+  }
+}

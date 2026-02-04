@@ -1259,11 +1259,85 @@
       "since": "232.10335.12",
       "until": null,
       "compatibility_overrides": []
+    },
+    "947604": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16882/947604/idea-plugin-0.2.62.zip?updateId=947604&pluginId=16882&family=INTELLIJ",
+      "sha256": "iv2KjNt6pElkmkGyvw/revPZBt1pjFJjYDenjRNQrnw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.go",
+        "com.intellij.java",
+        "com.intellij.properties"
+      ],
+      "file_name": "idea-plugin-0.2.62.zip",
+      "since": "232.10335.12",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "947605": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16882/947605/idea-plugin-0.2.62-eap.zip?updateId=947605&pluginId=16882&family=INTELLIJ",
+      "sha256": "JIH//8hNgTl9ZHLB9ffpX61wDp2u4nKco/vD+cObT00=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.go",
+        "com.intellij.properties",
+        "com.intellij.java"
+      ],
+      "file_name": "idea-plugin-0.2.62-eap.zip",
+      "since": "232.10335.12",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "947607": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16882/947607/idea-plugin-0.2.63.zip?updateId=947607&pluginId=16882&family=INTELLIJ",
+      "sha256": "7J9h5jlfG+mQNy90zy/6NTaU7bCWJZZC9xz0XTkxHFI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.go",
+        "com.intellij.java",
+        "com.intellij.properties"
+      ],
+      "file_name": "idea-plugin-0.2.63.zip",
+      "since": "232.10335.12",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "947608": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16882/947608/idea-plugin-0.2.63-eap.zip?updateId=947608&pluginId=16882&family=INTELLIJ",
+      "sha256": "71uDBzJ/flcArG/a6io/eX3Z9e/ytO7HBRLXF+ZMZLk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.plugins.go",
+        "com.intellij.properties",
+        "com.intellij.gradle"
+      ],
+      "file_name": "idea-plugin-0.2.63-eap.zip",
+      "since": "232.10335.12",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "0.2.61-eap": 900946
+      "0.2.61-eap": 900946,
+      "0.2.62-eap": 947605,
+      "0.2.63-eap": 947608
     },
     "stable": {
       "0.2.10": 131114,
@@ -1332,6 +1406,8 @@
       "0.2.60": 731404,
       "0.2.60-eap": 731407,
       "0.2.61": 900945,
+      "0.2.62": 947604,
+      "0.2.63": 947607,
       "0.2.7": 129954,
       "0.2.8": 130161,
       "0.2.9": 131107
