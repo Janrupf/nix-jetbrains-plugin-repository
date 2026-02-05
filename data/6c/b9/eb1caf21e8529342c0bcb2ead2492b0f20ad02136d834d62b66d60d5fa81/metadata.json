@@ -1400,6 +1400,38 @@
       "since": "261.19799",
       "until": "261.19799.*",
       "compatibility_overrides": []
+    },
+    "949296": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/949296/ktor-261.20362.25.zip?updateId=949296&pluginId=16008&family=INTELLIJ",
+      "sha256": "IMY1DqN6+NtQ9SwIvRdk30cNFqJ/KBQXOeKmtlGXUwM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json.backend",
+        "intellij.java.backend",
+        "com.intellij.modules.jetbrains",
+        "org.jetbrains.kotlin",
+        "com.intellij.microservices.jvm",
+        "intellij.properties.backend",
+        "com.intellij.properties",
+        "intellij.kotlin.runConfigurations.jvm",
+        "intellij.properties.backend.psi",
+        "intellij.platform.execution.dashboard.backend"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "JUnit",
+        "intellij.microservices.jvm.config.yaml",
+        "org.jetbrains.idea.gradle.dsl",
+        "intellij.ktor.run.gradle.tooling",
+        "intellij.yaml.backend",
+        "org.intellij.plugins.markdown",
+        "com.intellij.swagger"
+      ],
+      "file_name": "ktor-261.20362.25.zip",
+      "since": "261.20362",
+      "until": "261.20362.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1458,7 +1490,8 @@
       "253.28294.251": 902536,
       "253.28294.51": 889875,
       "261.17801.55": 937493,
-      "261.19799.20": 943531
+      "261.19799.20": 943531,
+      "261.20362.25": 949296
     }
   }
 }

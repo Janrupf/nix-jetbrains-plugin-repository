@@ -45,11 +45,68 @@
       "since": "261.20433",
       "until": "261.20433.*",
       "compatibility_overrides": []
+    },
+    "948778": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30055/948778/ml-llm-experimental-261.20482.0.zip?updateId=948778&pluginId=30055&family=INTELLIJ",
+      "sha256": "SYbqrMsOv88EIsRLhtCyQr1+Hl6KiWhNa/0n1apWau4=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.ml.llm"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.context",
+        "intellij.ml.llm.codeEngine",
+        "intellij.ml.llm.privacy",
+        "intellij.ml.llm.vcs.core",
+        "intellij.ml.llm.libraries.grazie",
+        "Git4Idea",
+        "intellij.ml.llm.core"
+      ],
+      "file_name": "ml-llm-experimental-261.20482.0.zip",
+      "since": "261.20482",
+      "until": "261.20482.*",
+      "compatibility_overrides": []
+    },
+    "949491": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30055/949491/ml-llm-experimental-261.20513.0.zip?updateId=949491&pluginId=30055&family=INTELLIJ",
+      "sha256": "qb9ZQ89yj7IiX5be3WTGzF8ANVc3gBniDRWxShSCfZE=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.ml.llm",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.tasks",
+        "intellij.ml.llm.libraries.grazie",
+        "com.intellij.ml.llm.experimental",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log",
+        "intellij.platform.compose",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.ml.llm.core",
+        "intellij.platform.lvcs.impl",
+        "intellij.ml.llm.tokenizer",
+        "Git4Idea",
+        "intellij.ml.llm.vcs.core",
+        "intellij.ml.llm.codeEngine",
+        "intellij.ml.llm.context",
+        "intellij.ml.llm.privacy.shared",
+        "intellij.platform.compose.markdown",
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.privacy"
+      ],
+      "file_name": "ml-llm-experimental-261.20513.0.zip",
+      "since": "261.20513",
+      "until": "261.20513",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
-      "261.20433.0": 948331
+      "261.20433.0": 948331,
+      "261.20482.0": 948778,
+      "261.20513.0": 949491
     },
     "stable": {
       "261.20429.0": 948325
