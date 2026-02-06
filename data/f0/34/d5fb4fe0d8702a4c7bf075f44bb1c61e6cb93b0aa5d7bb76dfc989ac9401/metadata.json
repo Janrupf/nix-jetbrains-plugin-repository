@@ -2,17 +2,31 @@
   "xml_id": "com.github.btakita.python-intentions",
   "numeric_id": 30074,
   "updates": {
-    "949481": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30074/949481/python-intentions-0.1.0-signed.zip?updateId=949481&pluginId=30074&family=INTELLIJ",
-      "sha256": "p0Pi4caXQQU64IVhpHfJa51bBATeVKWWuF0V2uoxVuw=",
+    "950096": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30074/950096/python-intentions-0.3.1-signed.zip?updateId=950096&pluginId=30074&family=INTELLIJ",
+      "sha256": "4BVc8OjuxTcP1G5KJ9mHLTq8gjAamoSWVyRqRSXZF1I=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.python",
         "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "python-intentions-0.1.0-signed.zip",
+      "file_name": "python-intentions-0.3.1-signed.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "950652": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30074/950652/python-intentions-0.3.2.zip?updateId=950652&pluginId=30074&family=INTELLIJ",
+      "sha256": "Hx5hZbCG6j9sLKDExtimMZt91fWa1enDSGN1NHncgKY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "python-intentions-0.3.2.zip",
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
@@ -20,7 +34,8 @@
   },
   "channels": {
     "stable": {
-      "0.1.0": 949481
+      "0.3.1": 950096,
+      "0.3.2": 950652
     }
   }
 }

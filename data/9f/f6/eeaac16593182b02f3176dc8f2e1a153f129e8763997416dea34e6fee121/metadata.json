@@ -33,12 +33,28 @@
       "since": "213.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "950619": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21061/950619/mvntermenv-1.0.3.jar?updateId=950619&pluginId=21061&family=INTELLIJ",
+      "sha256": "BA7dp1Omayp569ivO7cSJO4HO9NttUVE9/k7Uqma0hs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mvntermenv-1.0.3.jar",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 292486,
-      "1.0.1": 402361
+      "1.0.1": 402361,
+      "1.0.3": 950619
     }
   }
 }

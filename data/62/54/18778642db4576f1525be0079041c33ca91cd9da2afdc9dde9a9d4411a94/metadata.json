@@ -91,6 +91,24 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "950423": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24173/950423/applive-android-studio-plugin-1.7-SNAPSHOT.zip?updateId=950423&pluginId=24173&family=INTELLIJ",
+      "sha256": "uRkZo8ah8xRQuzCyJ+NgCYc1I6WTqE6TatitfcV2Th4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "applive-android-studio-plugin-1.7-SNAPSHOT.zip",
+      "since": "231.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -99,7 +117,8 @@
       "1.3-SNAPSHOT": 529852,
       "1.4-SNAPSHOT": 538326,
       "1.5-SNAPSHOT": 770151,
-      "1.6-SNAPSHOT": 770287
+      "1.6-SNAPSHOT": 770287,
+      "1.7-SNAPSHOT": 950423
     }
   }
 }

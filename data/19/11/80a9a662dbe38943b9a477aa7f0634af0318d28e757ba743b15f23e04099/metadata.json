@@ -18,11 +18,27 @@
       "since": "203.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "950624": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18734/950624/spring-boot-patcher-1.1.1.jar?updateId=950624&pluginId=18734&family=INTELLIJ",
+      "sha256": "20gL5DRbRA/+wnTtBaHgbp9BtuIah5F/odjWeqWD7jU=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "spring-boot-patcher-1.1.1.jar",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.1": 161624
+      "1.1": 161624,
+      "1.1.1": 950624
     }
   }
 }

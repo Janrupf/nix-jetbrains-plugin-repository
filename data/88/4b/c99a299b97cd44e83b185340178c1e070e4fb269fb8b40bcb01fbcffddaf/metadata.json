@@ -499,6 +499,40 @@
       "since": "233.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "950273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29342/950273/idea-claude-code-gui-0.1.7.zip?updateId=950273&pluginId=29342&family=INTELLIJ",
+      "sha256": "2nxKGubAhXW3DpKO/Q2Rw9Co/8GhghnwFdha/cyMMHg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java"
+      ],
+      "file_name": "idea-claude-code-gui-0.1.7.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "950707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29342/950707/idea-claude-code-gui-0.1.7-fix.zip?updateId=950707&pluginId=29342&family=INTELLIJ",
+      "sha256": "PMG7ywOzHm+2YW8MjBePiIUZ4MeYc2e2gmNGV5Yw6+o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "idea-claude-code-gui-0.1.7-fix.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -535,9 +569,11 @@
       "0.1.6-beta1-fix": 937022,
       "0.1.6-beta2": 939595,
       "0.1.6-beta3": 940490,
+      "0.1.7": 950273,
       "0.1.7-beta1": 942210,
       "0.1.7-beta2": 942936,
-      "0.1.7-beta4": 945926
+      "0.1.7-beta4": 945926,
+      "0.1.7-fix": 950707
     }
   }
 }
