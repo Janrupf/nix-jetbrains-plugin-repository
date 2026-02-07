@@ -27,12 +27,26 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "950890": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29921/950890/redisfx-idea-26.2.4-beta-201.zip?updateId=950890&pluginId=29921&family=INTELLIJ",
+      "sha256": "xbi4Ucqg3wjlvK6QiKtsWe48Cz13tzdHo4RTaSVczGU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "redisfx-idea-26.2.4-beta-201.zip",
+      "since": "201.0",
+      "until": "223.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "26.1.1-beta": 941025,
-      "26.2.3-beta": 948688
+      "26.2.3-beta": 948688,
+      "26.2.4-beta-201": 950890
     }
   }
 }

@@ -351,9 +351,46 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "949667": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24481/949667/dhcoder-1.4.5.zip?updateId=949667&pluginId=24481&family=INTELLIJ",
+      "sha256": "RS8UG+v0ZvARLmVCEbLWa8v1rFUnAC1k0LRwj0gHnA4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "dhcoder-1.4.5.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "951493": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24481/951493/dhcoder-1.4.6-eap.zip?updateId=951493&pluginId=24481&family=INTELLIJ",
+      "sha256": "0d9WoE26vt6b+q4v8ty60RuwKejQpP+KMpPAWmjlN8s=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "dhcoder-1.4.6-eap.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.4.6-eap": 951493
+    },
     "stable": {
       "0.0.1": 544268,
       "0.0.2": 555106,
@@ -375,7 +412,8 @@
       "1.3.7": 834272,
       "1.3.8": 840347,
       "1.4.1": 908822,
-      "1.4.4": 945003
+      "1.4.4": 945003,
+      "1.4.5": 949667
     }
   }
 }
