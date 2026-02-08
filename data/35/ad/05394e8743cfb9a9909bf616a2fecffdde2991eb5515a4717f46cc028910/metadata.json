@@ -2,24 +2,25 @@
   "xml_id": "codesign.redtiger.markdown-live-image",
   "numeric_id": 30003,
   "updates": {
-    "945979": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30003/945979/jetbrains-live-markdown-1.0-SNAPSHOT.zip?updateId=945979&pluginId=30003&family=INTELLIJ",
-      "sha256": "35oPDe/FMdRsbntGU2f5Z6J2LavyGk+wvY5ZsWzkS/U=",
+    "952058": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30003/952058/jetbrains-live-markdown-1.0.0.zip?updateId=952058&pluginId=30003&family=INTELLIJ",
+      "sha256": "yCpJwch1+39Ub7LFnXcT3Z9gHsepawr44pag4sILqiQ=",
       "channel": "stable",
       "dependencies": [
-        "org.intellij.plugins.markdown",
         "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "jetbrains-live-markdown-1.0-SNAPSHOT.zip",
-      "since": "222.0",
-      "until": "232.*",
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "jetbrains-live-markdown-1.0.0.zip",
+      "since": "231.0",
+      "until": "231.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 945979
+      "1.0.0": 952058
     }
   }
 }
