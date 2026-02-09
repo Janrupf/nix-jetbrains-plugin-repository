@@ -19,9 +19,30 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "952638": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/952638/betterpy-2026.02.0-dev.20260208-161523.zip?updateId=952638&pluginId=29896&family=INTELLIJ",
+      "sha256": "DRPXGw0qf8NDSJ88rsN6XpAylXj9NyAKRiIFFzXXdyw=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "betterpy-2026.02.0-dev.20260208-161523.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "dev": {
+      "2026.02.0-dev.20260208-161523": 952638
+    },
     "stable": {
       "2026.01.0": 940450
     }

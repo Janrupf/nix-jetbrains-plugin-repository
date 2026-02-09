@@ -71,9 +71,27 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "952684": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30089/952684/intellij-beads-monitor-0.5.0-dev.zip?updateId=952684&pluginId=30089&family=INTELLIJ",
+      "sha256": "EvdzNdIlf0w2jjpQHTGS8kp8F21s1OsW8IoHgUj/9+Q=",
+      "channel": "dev",
+      "dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-beads-monitor-0.5.0-dev.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "dev": {
+      "0.5.0-dev": 952684
+    },
     "stable": {
       "0.3.3": 951738,
       "0.3.4": 952050,
