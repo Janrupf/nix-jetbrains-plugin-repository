@@ -87,21 +87,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "952684": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30089/952684/intellij-beads-monitor-0.5.0-dev.zip?updateId=952684&pluginId=30089&family=INTELLIJ",
-      "sha256": "EvdzNdIlf0w2jjpQHTGS8kp8F21s1OsW8IoHgUj/9+Q=",
-      "channel": "dev",
-      "dependencies": [
-        "Git4Idea",
-        "org.jetbrains.plugins.terminal",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-beads-monitor-0.5.0-dev.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "953338": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30089/953338/intellij-beads-monitor-0.5.1.zip?updateId=953338&pluginId=30089&family=INTELLIJ",
       "sha256": "NwYbbc1BDVzBC1Z/lImA34Ek7zeioYCZB36RMh+h3i4=",
@@ -131,11 +116,57 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "954220": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30089/954220/intellij-beads-monitor-0.5.3.zip?updateId=954220&pluginId=30089&family=INTELLIJ",
+      "sha256": "5+XfttzwwdH87o5jYBxs2O4bTxfvAIy+nUnCvqLlfTI=",
+      "channel": "dev",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-beads-monitor-0.5.3.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "954223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30089/954223/intellij-beads-monitor-0.5.4.zip?updateId=954223&pluginId=30089&family=INTELLIJ",
+      "sha256": "lAZRdaFmXopnJ4p8hryvkB9K9O88iUhkrgZJ5N5R5Kw=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-beads-monitor-0.5.4.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "954228": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30089/954228/intellij-beads-monitor-0.5.4.zip?updateId=954228&pluginId=30089&family=INTELLIJ",
+      "sha256": "IoUYQihPfzvCx2n3Epenbl7Ry8nildkGcSrw1fB4+Q4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-beads-monitor-0.5.4.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "dev": {
-      "0.5.0-dev": 952684
+      "0.5.3": 954220,
+      "0.5.4": 954223
     },
     "stable": {
       "0.3.3": 951738,
@@ -145,7 +176,8 @@
       "0.4.3": 952131,
       "0.5.0": 952299,
       "0.5.1": 953338,
-      "0.5.2": 953345
+      "0.5.2": 953345,
+      "0.5.4": 954228
     }
   }
 }

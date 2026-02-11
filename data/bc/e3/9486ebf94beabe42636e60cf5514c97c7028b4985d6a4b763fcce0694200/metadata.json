@@ -2,6 +2,21 @@
   "xml_id": "com.teixing.gitdiffbatch",
   "numeric_id": 30102,
   "updates": {
+    "952906": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30102/952906/gitdiffbatch-1.1-SNAPSHOT.jar?updateId=952906&pluginId=30102&family=INTELLIJ",
+      "sha256": "/L3irmBcV9x4a5fbm9/aUtwv7pUbaVlPehYtHZjqK3A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitdiffbatch-1.1-SNAPSHOT.jar",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
     "952909": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30102/952909/gitdiffbatch-1.0-SNAPSHOT.jar?updateId=952909&pluginId=30102&family=INTELLIJ",
       "sha256": "bUnlopx2s0IRF2ar/JaBPXxijmSflh4fRav+SFrdaSo=",
@@ -20,7 +35,8 @@
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 952909
+      "1.0-SNAPSHOT": 952909,
+      "1.1-SNAPSHOT": 952906
     }
   }
 }

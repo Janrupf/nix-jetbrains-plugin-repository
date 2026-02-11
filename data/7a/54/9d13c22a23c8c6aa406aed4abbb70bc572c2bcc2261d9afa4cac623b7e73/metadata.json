@@ -46,13 +46,30 @@
       "since": "223.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "954025": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29804/954025/jinja2-enhanced-plugin-2.0.0.zip?updateId=954025&pluginId=29804&family=INTELLIJ",
+      "sha256": "yI2Y8Gc3XFUnrFX30QXNituSHju4vmH1wZE2JRDh6EQ=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "jinja2-enhanced-plugin-2.0.0.zip",
+      "since": "231.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 936329,
       "1.0.1": 939323,
-      "1.1.0": 941952
+      "1.1.0": 941952,
+      "2.0.0": 954025
     }
   }
 }

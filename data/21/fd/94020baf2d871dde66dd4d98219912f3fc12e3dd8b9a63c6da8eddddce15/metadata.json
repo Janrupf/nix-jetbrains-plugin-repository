@@ -16,11 +16,27 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "954287": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26307/954287/RON_Extended_Support_for_Rust_Rover-0.3.6.zip?updateId=954287&pluginId=26307&family=INTELLIJ",
+      "sha256": "iHFJoZ5GRZ7HM1RkF8RnWYDd/YRL+JwuBw3Y9QSC7Aw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.rust"
+      ],
+      "file_name": "RON_Extended_Support_for_Rust_Rover-0.3.6.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.3.4": 664162
+      "0.3.4": 664162,
+      "0.3.6": 954287
     }
   }
 }

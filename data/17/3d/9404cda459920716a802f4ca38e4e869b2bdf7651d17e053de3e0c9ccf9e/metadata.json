@@ -1543,7 +1543,7 @@
       ],
       "file_name": "writerside-2025.04.8412.zip",
       "since": "243.0",
-      "until": null,
+      "until": "251.*",
       "compatibility_overrides": []
     },
     "709850": {
@@ -1565,7 +1565,7 @@
       ],
       "file_name": "writerside-2025.04.8412.zip",
       "since": "243.0",
-      "until": null,
+      "until": "251.*",
       "compatibility_overrides": []
     },
     "710084": {
@@ -1587,7 +1587,7 @@
       ],
       "file_name": "writerside-2025.04.8412.zip",
       "since": "243.0",
-      "until": null,
+      "until": "251.*",
       "compatibility_overrides": []
     },
     "710085": {
@@ -1609,7 +1609,7 @@
       ],
       "file_name": "writerside-2025.04.8412.zip",
       "since": "243.0",
-      "until": null,
+      "until": "251.*",
       "compatibility_overrides": []
     },
     "728161": {
@@ -1702,6 +1702,28 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "954044": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/954044/writerside-2026.02.8644.zip?updateId=954044&pluginId=20158&family=INTELLIJ",
+      "sha256": "kafv2yLydcRWQRhxcr3PGt62GBdrDd4tPEDgzYRu3Vg=",
+      "channel": "nightly",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "tanvd.grazi",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.writerside"
+      ],
+      "file_name": "writerside-2026.02.8644.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1749,7 +1771,8 @@
       "2025.03.8312": 695427,
       "2025.04.8412": 709850,
       "2025.04.8426": 728161,
-      "2025.11.8530": 896645
+      "2025.11.8530": 896645,
+      "2026.02.8644": 954044
     },
     "stable": {
       "2023.03.3401": 319402,
