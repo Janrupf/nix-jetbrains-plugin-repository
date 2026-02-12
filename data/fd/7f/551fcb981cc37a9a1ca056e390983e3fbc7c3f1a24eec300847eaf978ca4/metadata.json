@@ -84,6 +84,25 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "954936": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29972/954936/ide-plugin-0.1.12.zip?updateId=954936&pluginId=29972&family=INTELLIJ",
+      "sha256": "1GZnm3JcePZZ7+Jk2GDYdvrEI2/ha9EW3srFuKtu0fA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.fueledbycaffeine.spotlight",
+        "com.intellij.modules.platform",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "ide-plugin-0.1.12.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -93,7 +112,8 @@
     },
     "stable": {
       "0.1.10": 942867,
-      "0.1.11": 944643
+      "0.1.11": 944643,
+      "0.1.12": 954936
     }
   }
 }

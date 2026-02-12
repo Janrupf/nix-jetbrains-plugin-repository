@@ -17,11 +17,49 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "954501": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29693/954501/spel-validator-support-1.1.0.zip?updateId=954501&pluginId=29693&family=INTELLIJ",
+      "sha256": "NFJc5a6XMVbgDvyd0AVUjBVd1MkhWughLXboLBF0Ekk=",
+      "channel": "eap",
+      "dependencies": [
+        "org.intellij.intelliLang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "com.intellij.spring"
+      ],
+      "optional_dependencies": [],
+      "file_name": "spel-validator-support-1.1.0.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "954510": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29693/954510/spel-validator-support-1.1.0.zip?updateId=954510&pluginId=29693&family=INTELLIJ",
+      "sha256": "Wq7KVrPmieg+7wABF3F1rW8uw5QU7FeIwgGU3ouYTb4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.spring",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "spel-validator-support-1.1.0.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.1.0": 954501
+    },
     "stable": {
-      "1.0.0": 929058
+      "1.0.0": 929058,
+      "1.1.0": 954510
     }
   }
 }

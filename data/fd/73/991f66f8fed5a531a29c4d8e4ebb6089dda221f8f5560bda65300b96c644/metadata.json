@@ -2,18 +2,34 @@
   "xml_id": "com.github.iml885203.intellijgitmergeinto",
   "numeric_id": 30138,
   "updates": {
-    "953846": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30138/953846/intellij-git-merge-into-2026.2.1.zip?updateId=953846&pluginId=30138&family=INTELLIJ",
-      "sha256": "lsMVkOSkGVOkJKEL1Jm3kAohgSOG2ZPtSwwNVx8edjw=",
+    "954463": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30138/954463/intellij-git-merge-into-2026.2.2.zip?updateId=954463&pluginId=30138&family=INTELLIJ",
+      "sha256": "fhDNFUQ9kJN+cKxC9mSq9eiwnGSPEIGTpJWYV/Qddls=",
       "channel": "stable",
       "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [
         "com.github.iml885203.intellijgitopen"
       ],
-      "file_name": "intellij-git-merge-into-2026.2.1.zip",
+      "file_name": "intellij-git-merge-into-2026.2.2.zip",
+      "since": "232.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "954975": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30138/954975/intellij-git-merge-into-2026.2.3.zip?updateId=954975&pluginId=30138&family=INTELLIJ",
+      "sha256": "wCnfKuGbNkYIQvuaknjoo9HQm0ooy96des9QIobpI0c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "com.github.iml885203.intellijgitopen"
+      ],
+      "file_name": "intellij-git-merge-into-2026.2.3.zip",
       "since": "232.0",
       "until": "253.*",
       "compatibility_overrides": []
@@ -21,7 +37,8 @@
   },
   "channels": {
     "stable": {
-      "2026.2.1": 953846
+      "2026.2.2": 954463,
+      "2026.2.3": 954975
     }
   }
 }
