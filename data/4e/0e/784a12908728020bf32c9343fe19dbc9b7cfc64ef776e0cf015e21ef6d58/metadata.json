@@ -20,24 +20,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "954491": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/954491/betterpy-2026.02.0-dev.20260211-090632.zip?updateId=954491&pluginId=29896&family=INTELLIJ",
-      "sha256": "61P3ZAPHZbINyL6w9j5qCgkAWB+lrLKuujD8Uhf/l0Y=",
-      "channel": "dev",
-      "dependencies": [
-        "com.intellij.modules.python",
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform",
-        "PythonCommon"
-      ],
-      "optional_dependencies": [
-        "com.intellij.mcpServer"
-      ],
-      "file_name": "betterpy-2026.02.0-dev.20260211-090632.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "954500": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/954500/betterpy-2026.02.0-dev.20260211-095326.zip?updateId=954500&pluginId=29896&family=INTELLIJ",
       "sha256": "NMkHNghPUGYPwMspi5vctqIUogL3c2zrQDuxQ5dJD38=",
@@ -55,12 +37,30 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "955359": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/955359/betterpy-2026.02.0-dev.20260212-140017.zip?updateId=955359&pluginId=29896&family=INTELLIJ",
+      "sha256": "dLViQZZ4KXIH9GlO5mwsd3XPgEmsXgHj0ArgMVtbi4c=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "PythonCommon",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "betterpy-2026.02.0-dev.20260212-140017.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "dev": {
-      "2026.02.0-dev.20260211-090632": 954491,
-      "2026.02.0-dev.20260211-095326": 954500
+      "2026.02.0-dev.20260211-095326": 954500,
+      "2026.02.0-dev.20260212-140017": 955359
     },
     "stable": {
       "2026.01.0": 940450
