@@ -48,13 +48,30 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "956421": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24073/956421/IntelliGame-0.1.3.zip?updateId=956421&pluginId=24073&family=INTELLIJ",
+      "sha256": "/h+8wjfMh+IAeIebIUCzJb4fQvXbmlwhozyEKgLtMxY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliGame-0.1.3.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 522272,
       "0.1.1": 658367,
-      "0.1.2": 659635
+      "0.1.2": 659635,
+      "0.1.3": 956421
     }
   }
 }

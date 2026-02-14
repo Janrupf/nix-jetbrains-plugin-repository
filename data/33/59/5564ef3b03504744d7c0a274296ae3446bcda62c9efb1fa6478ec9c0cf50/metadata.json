@@ -7168,6 +7168,56 @@
       "since": "253.31033",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "956555": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17562/956555/javascript-debugger-261.20869.38.zip?updateId=956555&pluginId=17562&family=INTELLIJ",
+      "sha256": "5Tttlo1Ww/v7YobmY3PBfsMpCzZkhwduEtkr6CdeQz0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.debugger.impl",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.kotlinx.io",
+        "intellij.platform.debugger",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.platform.debugger.impl.shared"
+      ],
+      "optional_dependencies": [
+        "intellij.javascript.debugger.javaee",
+        "intellij.platform.ssh",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.scriptDebugger.backend",
+        "com.intellij.modules.xml",
+        "intellij.javascript.wip.protocol",
+        "com.intellij.modules.javascript",
+        "intellij.json.backend",
+        "intellij.javascript.wip.backend",
+        "intellij.css.common",
+        "intellij.json",
+        "intellij.css.common.psi",
+        "intellij.javascript.common",
+        "intellij.javascript.debugger.ui",
+        "intellij.javascript.debugger.backend.rpc",
+        "intellij.css",
+        "com.intellij.jsp",
+        "intellij.platform.frontend",
+        "intellij.javaee.platform",
+        "intellij.platform.scriptDebugger.protocolReaderRuntime",
+        "com.intellij.modules.coverage",
+        "intellij.platform.coverage",
+        "intellij.platform.dap",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.javascript.debugger.backend",
+        "intellij.javaee.platform.impl",
+        "intellij.platform.scriptDebugger.ui",
+        "com.intellij.modules.webstorm",
+        "intellij.javascript.debugger.common",
+        "intellij.css.psi",
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "file_name": "javascript-debugger-261.20869.38.zip",
+      "since": "261.20869",
+      "until": "261.20869.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -7440,7 +7490,8 @@
       "253.31033.53": 954533,
       "261.17801.55": 937501,
       "261.19799.20": 943568,
-      "261.20362.25": 949348
+      "261.20362.25": 949348,
+      "261.20869.38": 956555
     }
   }
 }

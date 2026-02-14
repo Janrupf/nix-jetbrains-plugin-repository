@@ -15526,6 +15526,56 @@
       "since": "253.30387",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "956492": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9568/956492/go-plugin-261.20869.38.zip?updateId=956492&pluginId=9568&family=INTELLIJ",
+      "sha256": "ymU8nB93CQMZTnYnqO6+5LKNezwgXk2cIQPFZbqjSU8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json.backend",
+        "com.intellij.modules.lang",
+        "intellij.platform.debugger",
+        "intellij.regexp",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.spellchecker",
+        "intellij.platform.structuralSearch",
+        "intellij.platform.debugger.impl",
+        "com.intellij.modules.go-capable",
+        "intellij.platform.duplicatesDetector",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.copyright",
+        "tanvd.grazi",
+        "Docker",
+        "intellij.platform.langInjection",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.execution.dashboard.backend",
+        "intellij.platform.frontend",
+        "intellij.indexing.shared.generator",
+        "intellij.platform.coverage",
+        "intellij.platform.compose",
+        "intellij.go.frontback",
+        "com.intellij.plugins.watcher",
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.profiler.asyncOne",
+        "org.jetbrains.plugins.go-template",
+        "com.intellij.completion.ml.ranking",
+        "intellij.clouds.docker",
+        "intellij.rml.dfa.impl",
+        "com.intellij.diagram",
+        "training",
+        "intellij.profiler.common",
+        "com.intellij.database",
+        "com.intellij.microservices.ui",
+        "intellij.sh.core"
+      ],
+      "file_name": "go-plugin-261.20869.38.zip",
+      "since": "261.20869",
+      "until": "261.20869.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -16232,7 +16282,8 @@
       "253.31033.53": 954530,
       "261.17801.55": 937454,
       "261.19799.20": 943589,
-      "261.20362.25": 949337
+      "261.20362.25": 949337,
+      "261.20869.38": 956492
     }
   }
 }

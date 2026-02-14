@@ -937,6 +937,27 @@
       "since": "261.20362",
       "until": "261.20362.*",
       "compatibility_overrides": []
+    },
+    "957145": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26071/957145/mcpserver-261.20869.49.zip?updateId=957145&pluginId=26071&family=INTELLIJ",
+      "sha256": "RHK79soKQb07sOKPQh6hL08Kz0Y1uZ0rIzmaAus3ylc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.ktor.server.cio",
+        "intellij.libraries.ktor.network.tls",
+        "intellij.libraries.ktor.client",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.libraries.ktor.io"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "mcpserver-261.20869.49.zip",
+      "since": "261.20869",
+      "until": "261.20869.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -996,7 +1017,8 @@
       "253.31033.23": 950949,
       "261.17801.91": 942485,
       "261.19799.40": 946979,
-      "261.20362.36": 951134
+      "261.20362.36": 951134,
+      "261.20869.49": 957145
     }
   }
 }

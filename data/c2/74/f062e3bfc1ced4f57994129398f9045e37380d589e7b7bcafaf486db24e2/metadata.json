@@ -29,12 +29,27 @@
       "since": "223.0",
       "until": "223.*",
       "compatibility_overrides": []
+    },
+    "956116": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30075/956116/sapi2md-1.0.3.zip?updateId=956116&pluginId=30075&family=INTELLIJ",
+      "sha256": "cqV8pxuO/cYTu0XHa0Avfg0+k9CAohhM7JbklxU0H2Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sapi2md-1.0.3.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 949498,
-      "1.0.2": 950921
+      "1.0.2": 950921,
+      "1.0.3": 956116
     }
   }
 }

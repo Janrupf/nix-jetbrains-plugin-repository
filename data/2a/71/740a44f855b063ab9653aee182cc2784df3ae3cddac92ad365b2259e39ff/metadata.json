@@ -2,21 +2,6 @@
   "xml_id": "com.gittraceintellij",
   "numeric_id": 30042,
   "updates": {
-    "947628": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30042/947628/gittrace-1.0-SNAPSHOT.zip?updateId=947628&pluginId=30042&family=INTELLIJ",
-      "sha256": "Z0NvSN6ftjwB8kJpcgmIScaIt4UyyMPbzNq1oFOhZXY=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.compose",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "gittrace-1.0-SNAPSHOT.zip",
-      "since": "252.25557",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "947805": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30042/947805/gittrace-1.0-4355030226.zip?updateId=947805&pluginId=30042&family=INTELLIJ",
       "sha256": "spaGI0qFxvzd8BGJgxJLWs5X/NrkTd/N4oVTOH/UidE=",
@@ -31,12 +16,27 @@
       "since": "252.25557",
       "until": null,
       "compatibility_overrides": []
+    },
+    "956417": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30042/956417/gittrace-1.0-202602131128.zip?updateId=956417&pluginId=30042&family=INTELLIJ",
+      "sha256": "VVGRhJsrhQswF5C2RzsC9fmqoAuoK4npGhNC9eoLGEA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.compose",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gittrace-1.0-202602131128.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-4355030226": 947805,
-      "1.0-SNAPSHOT": 947628
+      "1.0-202602131128": 956417,
+      "1.0-4355030226": 947805
     }
   }
 }

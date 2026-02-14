@@ -645,6 +645,58 @@
       "since": "253.31033",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "956549": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28794/956549/cmake-261.20869.38.zip?updateId=956549&pluginId=28794&family=INTELLIJ",
+      "sha256": "ZdAayyz1e2eUOX1HoS/6hDD79lqgR56+/jkS2isO/b8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.runner",
+        "intellij.cidr.lang.base",
+        "com.intellij.modules.ultimate",
+        "intellij.clion.toolchains",
+        "intellij.cidr.projectModel",
+        "intellij.cidr.util.execution",
+        "intellij.platform.ssh.nio",
+        "intellij.cidr.psi.base",
+        "intellij.cidr.execution",
+        "intellij.cidr.util",
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.clion.execution",
+        "intellij.cidr.util.ui",
+        "intellij.cidr.workspaceModel",
+        "intellij.cidr.core"
+      ],
+      "optional_dependencies": [
+        "intellij.clion.wizard",
+        "intellij.cmake.psi",
+        "intellij.platform.ide.impl",
+        "com.jetbrains.rider-cpp",
+        "com.intellij.clion",
+        "com.intellij.modules.python",
+        "intellij.clion.core",
+        "intellij.rider",
+        "intellij.json.backend",
+        "intellij.clion.projectStatus",
+        "intellij.cidr.util.serializer",
+        "intellij.rider.cpp.core.languages",
+        "intellij.clion.externalSystem",
+        "com.intellij.clion-compdb",
+        "intellij.rd.ide.model.generated",
+        "intellij.rd.platform",
+        "intellij.rider.cpp.core.projectModel",
+        "org.jetbrains.plugins.terminal",
+        "intellij.c.core",
+        "intellij.cidr.externalSystem",
+        "com.intellij.cmake",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.spellchecker",
+        "intellij.clion.ide.core"
+      ],
+      "file_name": "cmake-261.20869.38.zip",
+      "since": "261.20869",
+      "until": "261.20869.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -661,7 +713,8 @@
       "253.31033.19": 950364,
       "261.17801.55": 938991,
       "261.19799.20": 943640,
-      "261.20362.25": 949293
+      "261.20362.25": 949293,
+      "261.20869.38": 956549
     }
   }
 }

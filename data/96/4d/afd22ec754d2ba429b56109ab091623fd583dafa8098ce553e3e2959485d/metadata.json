@@ -5339,6 +5339,42 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "957282": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23257/957282/lsp4ij-0.19.2.zip?updateId=957282&pluginId=23257&family=INTELLIJ",
+      "sha256": "iuaW51gznoCdxkM6hu9hZHhXlZpCk3qpMZEJjkaJm44=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.json",
+        "com.redhat.devtools.intellij.telemetry"
+      ],
+      "file_name": "lsp4ij-0.19.2.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "957420": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23257/957420/lsp4ij-0.19.3-20260214-013553.zip?updateId=957420&pluginId=23257&family=INTELLIJ",
+      "sha256": "/GgZi0D9IVvuLiAIiu7nu2IC2e9XzAG6ac5WjTFWCpM=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.redhat.devtools.intellij.telemetry",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "lsp4ij-0.19.3-20260214-013553.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5627,7 +5663,8 @@
       "0.19.2-20260202-115859": 946711,
       "0.19.2-20260208-130359": 952462,
       "0.19.2-20260208-183856": 952651,
-      "0.19.2-20260208-210714": 952680
+      "0.19.2-20260208-210714": 952680,
+      "0.19.3-20260214-013553": 957420
     },
     "stable": {
       "0.0.1": 542971,
@@ -5645,6 +5682,7 @@
       "0.18.0": 883738,
       "0.19.0": 906991,
       "0.19.1": 914716,
+      "0.19.2": 957282,
       "0.3.0": 574364,
       "0.4.0": 590299,
       "0.5.0": 600505,
