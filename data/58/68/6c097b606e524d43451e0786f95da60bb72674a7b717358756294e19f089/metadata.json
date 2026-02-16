@@ -61,6 +61,40 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "958247": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30092/958247/jetwings-2026.1.25.zip?updateId=958247&pluginId=30092&family=INTELLIJ",
+      "sha256": "PjyCNrJMJg/JGGd9nYUm/daMYMkaND0e59LeDzsbyOA=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.sh"
+      ],
+      "file_name": "jetwings-2026.1.25.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "958468": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30092/958468/jetwings-2026.1.26.zip?updateId=958468&pluginId=30092&family=INTELLIJ",
+      "sha256": "HEYTq9osDKlIeGSw2gH02+fyZRYrrhnBE7UIjPp+BI4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.sh"
+      ],
+      "file_name": "jetwings-2026.1.26.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -70,7 +104,9 @@
     "stable": {
       "2026.1.13": 954938,
       "2026.1.21": 956021,
-      "2026.1.23": 957990
+      "2026.1.23": 957990,
+      "2026.1.25": 958247,
+      "2026.1.26": 958468
     }
   }
 }

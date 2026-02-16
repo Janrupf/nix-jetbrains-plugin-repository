@@ -1281,12 +1281,32 @@
       "since": "252.25557",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "958223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7897/958223/armory-1.60.10-dev6-2020.3.zip?updateId=958223&pluginId=7897&family=INTELLIJ",
+      "sha256": "khYEF6WKjfigf9Z/BSmsRfwVrIV3uNHAadhuYNXApAk=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.java",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "armory-1.60.10-dev6-2020.3.zip",
+      "since": "203.8084.24",
+      "until": "203.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "1.60.10-dev3-2020.3": 949423,
       "1.60.10-dev3-2025.3": 949424,
+      "1.60.10-dev6-2020.3": 958223,
       "1.60.2-2020.3": 924726,
       "1.60.2-2025.3": 924727,
       "1.60.3-2020.3": 925222,
