@@ -250,12 +250,39 @@
       "since": "252.23892",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "960510": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13185/960510/interface-pairing-rider-plugin-1.9.zip?updateId=960510&pluginId=13185&family=INTELLIJ",
+      "sha256": "1rC0XISP5V+H64Y8QbccyZ2cfGeshOpSYZPTwhhgJLA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "interface-pairing-rider-plugin-1.9.zip",
+      "since": "253.30387",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "960517": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13185/960517/interface-pairing-rider-plugin-1.10.zip?updateId=960517&pluginId=13185&family=INTELLIJ",
+      "sha256": "IkfgfuRBQ74JzCThEJcR8XXlBgCadTCTX2T3FYfr9oo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "interface-pairing-rider-plugin-1.10.zip",
+      "since": "253.30387",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 70663,
       "1.1": 70664,
+      "1.10": 960517,
       "1.2": 71616,
       "1.3": 71727,
       "1.4": 114480,
@@ -270,7 +297,8 @@
       "1.6.0": 557161,
       "1.6.1": 580860,
       "1.7": 658492,
-      "1.8": 875271
+      "1.8": 875271,
+      "1.9": 960510
     }
   }
 }

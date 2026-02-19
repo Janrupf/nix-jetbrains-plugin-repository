@@ -1,6 +1,40 @@
 {
   "xml_id": "org.armadillo.core",
   "numeric_id": 21566,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "327105": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21566/327105/project_model.zip?updateId=327105&pluginId=21566&family=INTELLIJ",
+      "sha256": "KQidH8NP0ckIm8Nev9c0ZzH1rcZSj0AxD8mRZLObkVI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "project_model.zip",
+      "since": "211.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    },
+    "354792": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21566/354792/project_model.zip?updateId=354792&pluginId=21566&family=INTELLIJ",
+      "sha256": "CFP1lohrOi8bPw7BLDU56xkcJLYGyWK1cEScXv58A2c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "project_model.zip",
+      "since": "211.0",
+      "until": "231.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2023.1.1": 327105,
+      "2023.1.2": 354792
+    }
+  }
 }

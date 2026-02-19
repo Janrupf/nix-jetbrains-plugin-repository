@@ -15,11 +15,26 @@
       "since": "252.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "960736": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30230/960736/adbhub-0.2.0-signed.zip?updateId=960736&pluginId=30230&family=INTELLIJ",
+      "sha256": "6ji7ZO8O9+zINqJdIXkF9pfvle7yzOhHoU0frXlq5cs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "adbhub-0.2.0-signed.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 958512
+      "0.1.0": 958512,
+      "0.2.0": 960736
     }
   }
 }

@@ -43,13 +43,58 @@
       "since": "252.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "960514": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30222/960514/metal-analyzer-intellij-0.1.8.zip?updateId=960514&pluginId=30222&family=INTELLIJ",
+      "sha256": "sxgoc95OlUda5I9qvfzHu1AgrD96gAgLKI4a3nEGd8Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "metal-analyzer-intellij-0.1.8.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "960518": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30222/960518/metal-analyzer-intellij-0.1.10.zip?updateId=960518&pluginId=30222&family=INTELLIJ",
+      "sha256": "GbsIAIs7fwEqfibk2baT6AxTLShTrykPqXchAQgSyeY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "metal-analyzer-intellij-0.1.10.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "960698": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30222/960698/metal-analyzer-intellij-0.1.11.zip?updateId=960698&pluginId=30222&family=INTELLIJ",
+      "sha256": "cwgDajQ+73OhSSlYJwnmEbHxqxR2BoAI0ipS4Pmm1BI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "metal-analyzer-intellij-0.1.11.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.1.10": 960518,
+      "0.1.11": 960698,
       "0.1.5": 957996,
       "0.1.6": 958779,
-      "0.1.7": 959391
+      "0.1.7": 959391,
+      "0.1.8": 960514
     }
   }
 }

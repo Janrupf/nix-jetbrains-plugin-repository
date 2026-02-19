@@ -6785,7 +6785,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "829589": {
@@ -6802,7 +6802,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "831735": {
@@ -8064,7 +8064,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.333.0-stable.zip",
       "since": "242.0",
-      "until": "253.*",
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "885279": {
@@ -8080,7 +8080,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.333.0-stable.zip",
       "since": "242.0",
-      "until": "253.*",
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "885293": {
@@ -10434,6 +10434,70 @@
       "since": "242.0",
       "until": "261.99999",
       "compatibility_overrides": []
+    },
+    "960714": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/960714/intellij-augment-0.431.0-nightly.zip?updateId=960714&pluginId=24072&family=INTELLIJ",
+      "sha256": "5xcGPpBDbbUP0nwyuA1ggpJdROhiYAnTuD9bbgzx504=",
+      "channel": "nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.431.0-nightly.zip",
+      "since": "242.0",
+      "until": "261.99999",
+      "compatibility_overrides": []
+    },
+    "960757": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/960757/intellij-augment-0.416.6-beta.zip?updateId=960757&pluginId=24072&family=INTELLIJ",
+      "sha256": "qr9Y5PlynTiDZ+JgsLPgKEmcD8zjHG7r6m6jXk19xVE=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.416.6-beta.zip",
+      "since": "242.0",
+      "until": "261.99999",
+      "compatibility_overrides": []
+    },
+    "960769": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/960769/intellij-augment-0.416.6-stable.zip?updateId=960769&pluginId=24072&family=INTELLIJ",
+      "sha256": "89wRQOd5ltUtjwfZDKtMXCQOZTb4z0vC+e6M5DLJp1k=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.416.6-stable.zip",
+      "since": "242.0",
+      "until": "261.99999",
+      "compatibility_overrides": []
+    },
+    "960770": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/960770/intellij-augment-0.416.6-stable.zip?updateId=960770&pluginId=24072&family=INTELLIJ",
+      "sha256": "89wRQOd5ltUtjwfZDKtMXCQOZTb4z0vC+e6M5DLJp1k=",
+      "channel": "release-candidate",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.416.6-stable.zip",
+      "since": "242.0",
+      "until": "261.99999",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10846,6 +10910,7 @@
       "0.416.2-beta": 945268,
       "0.416.4-beta": 952733,
       "0.416.5-beta": 957387,
+      "0.416.6-beta": 960757,
       "0.42.0": 620571,
       "0.43.0": 621114,
       "0.44.0": 621118,
@@ -10988,7 +11053,8 @@
       "0.427.0-nightly": 956030,
       "0.428.0-nightly": 957298,
       "0.429.0-nightly": 958952,
-      "0.430.0-nightly": 959578
+      "0.430.0-nightly": 959578,
+      "0.431.0-nightly": 960714
     },
     "release-candidate": {
       "0.258.2": 812176,
@@ -11010,7 +11076,8 @@
       "0.389.5-stable": 928554,
       "0.407.3-stable": 937995,
       "0.407.4-stable": 940425,
-      "0.407.5-stable": 945227
+      "0.407.5-stable": 945227,
+      "0.416.6-stable": 960770
     },
     "stable": {
       "0.0.25": 550479,
@@ -11076,6 +11143,7 @@
       "0.407.3-stable": 937994,
       "0.407.4-stable": 940424,
       "0.407.5-stable": 945226,
+      "0.416.6-stable": 960769,
       "0.5.0": 598033,
       "0.51.0": 625303,
       "0.56.0": 628707,

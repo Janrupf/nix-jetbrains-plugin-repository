@@ -2,9 +2,9 @@
   "xml_id": "io.github.wharflab.tally",
   "numeric_id": 30255,
   "updates": {
-    "959359": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30255/959359/tally-intellij-plugin-0.1.0-dev.zip?updateId=959359&pluginId=30255&family=INTELLIJ",
-      "sha256": "83k3m3S2aDfLNuXzQsPlXQYlZ6/GzjQph4z3paXX/yA=",
+    "960709": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30255/960709/tally-intellij-plugin-0.10.1.zip?updateId=960709&pluginId=30255&family=INTELLIJ",
+      "sha256": "cURZPwxprzYA5SIzzEzvh5w0YcDEiTcjZqsyBLGrhOQ=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
@@ -12,7 +12,22 @@
       "optional_dependencies": [
         "com.intellij.modules.lsp"
       ],
-      "file_name": "tally-intellij-plugin-0.1.0-dev.zip",
+      "file_name": "tally-intellij-plugin-0.10.1.zip",
+      "since": "252.25557",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "960781": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30255/960781/tally-intellij-plugin-0.10.2.zip?updateId=960781&pluginId=30255&family=INTELLIJ",
+      "sha256": "rpWhTax5Ylwj7d0YhKX0qych8jk5589JKJHWbZEVbMU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp"
+      ],
+      "file_name": "tally-intellij-plugin-0.10.2.zip",
       "since": "252.25557",
       "until": "252.*",
       "compatibility_overrides": []
@@ -20,7 +35,8 @@
   },
   "channels": {
     "stable": {
-      "0.1.0-dev": 959359
+      "0.10.1": 960709,
+      "0.10.2": 960781
     }
   }
 }
