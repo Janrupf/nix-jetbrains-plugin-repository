@@ -2,24 +2,6 @@
   "xml_id": "com.github.chbndrhnns.connexion",
   "numeric_id": 30253,
   "updates": {
-    "959180": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30253/959180/connexion-2026.01.0_20260217-095210.zip?updateId=959180&pluginId=30253&family=INTELLIJ",
-      "sha256": "cIMKJcJGQLgW/WBmZSz55WDv07SdH62wu2bie5nP1DY=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.python",
-        "PythonCommon"
-      ],
-      "optional_dependencies": [
-        "org.jetbrains.plugins.yaml"
-      ],
-      "file_name": "connexion-2026.01.0_20260217-095210.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "960732": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30253/960732/connexion-2026.02.0.zip?updateId=960732&pluginId=30253&family=INTELLIJ",
       "sha256": "dlb8pcYhDICzUPX9NuVh1hPfwz5X/SHgjis2OPDygts=",
@@ -37,12 +19,30 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "961211": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30253/961211/connexion-2026.02.1.zip?updateId=961211&pluginId=30253&family=INTELLIJ",
+      "sha256": "U4tosLKBz5OT7q/BqOjHWjh/kzonW8CM1atuku+v5aA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.python",
+        "PythonCommon",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "connexion-2026.02.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.01.0+20260217-095210": 959180,
-      "2026.02.0": 960732
+      "2026.02.0": 960732,
+      "2026.02.1": 961211
     }
   }
 }

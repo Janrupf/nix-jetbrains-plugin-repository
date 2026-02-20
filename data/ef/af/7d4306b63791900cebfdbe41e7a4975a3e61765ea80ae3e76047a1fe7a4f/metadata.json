@@ -247,6 +247,51 @@
       "since": "261.20869",
       "until": "261.20869.*",
       "compatibility_overrides": []
+    },
+    "960982": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29348/960982/code-provenance-253.31033.129.zip?updateId=960982&pluginId=29348&family=INTELLIJ",
+      "sha256": "ZN51/S1mUbxlQGMt/l+JTGe6h53B/XXH8cvyQhljLCo=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lvcs.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.codeGeneration",
+        "com.intellij.mcpServer",
+        "Git4Idea",
+        "com.intellij.code.provenance",
+        "intellij.ml.llm.core",
+        "intellij.code.provenance.core.git",
+        "intellij.code.provenance.core"
+      ],
+      "file_name": "code-provenance-253.31033.129.zip",
+      "since": "253.31033",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "961103": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29348/961103/code-provenance-261.21525.28.zip?updateId=961103&pluginId=29348&family=INTELLIJ",
+      "sha256": "d/f2q3DyR12mOqMQ5BQQswpzy7W/gkfC/jc38V6FBsw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lvcs.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.code.provenance.core.git",
+        "intellij.ml.llm.nextEdits.backend",
+        "com.intellij.mcpServer",
+        "Git4Idea",
+        "intellij.code.provenance.core",
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.codeGeneration",
+        "com.intellij.code.provenance",
+        "intellij.ml.llm.core"
+      ],
+      "file_name": "code-provenance-261.21525.28.zip",
+      "since": "261.21525",
+      "until": "261.21525.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -257,11 +302,13 @@
       "253.29346.46": 911774,
       "253.30387.173": 946749,
       "253.30387.23": 933568,
+      "253.31033.129": 960982,
       "253.31033.21": 950297,
       "261.17801.36": 937218,
       "261.19799.22": 943922,
       "261.20362.8": 949055,
-      "261.20869.34": 955414
+      "261.20869.34": 955414,
+      "261.21525.28": 961103
     }
   }
 }
