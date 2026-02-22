@@ -1,6 +1,24 @@
 {
   "xml_id": "com.galataj.plugin",
   "numeric_id": 30260,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "962034": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30260/962034/ide_v1.0.0_galataj-intellij-1.0.0.zip?updateId=962034&pluginId=30260&family=INTELLIJ",
+      "sha256": "VRnvW/ai86RZJnrhXbI/okvEsDI79jN4i9DZZfyOVqY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ide_v1.0.0_galataj-intellij-1.0.0.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 962034
+    }
+  }
 }

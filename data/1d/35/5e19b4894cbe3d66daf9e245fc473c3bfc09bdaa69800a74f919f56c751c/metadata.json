@@ -1,0 +1,50 @@
+{
+  "xml_id": "com.hyve",
+  "numeric_id": 30299,
+  "updates": {
+    "963057": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30299/963057/hyve-plugin-1.0.0-signed.zip?updateId=963057&pluginId=30299&family=INTELLIJ",
+      "sha256": "kF/m8NRzsz++sQeRpx0rAC+au8a0I6R4WIHInro6GSo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "intellij.platform.compose",
+        "org.jetbrains.java.decompiler",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "hyve-plugin-1.0.0-signed.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "963059": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30299/963059/hyve-plugin-1.0.1-signed.zip?updateId=963059&pluginId=30299&family=INTELLIJ",
+      "sha256": "s4TxcP0EDQEDZeX/tG402k6arvMGGDW0JiWcW0TkavM=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.java.decompiler",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.java",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "hyve-plugin-1.0.1-signed.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 963057,
+      "1.0.1": 963059
+    }
+  }
+}

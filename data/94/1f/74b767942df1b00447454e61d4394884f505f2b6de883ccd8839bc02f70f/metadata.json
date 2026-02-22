@@ -45,13 +45,29 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "963444": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28269/963444/RestApiClient-1.0.7.zip?updateId=963444&pluginId=28269&family=INTELLIJ",
+      "sha256": "B+DfbwzlFp3HIhCb85LtsuwqJC2U/C1UZvaftWHus8c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "RestApiClient-1.0.7.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.4": 837132,
       "1.0.5": 838143,
-      "1.0.6": 893396
+      "1.0.6": 893396,
+      "1.0.7": 963444
     }
   }
 }

@@ -18,11 +18,29 @@
       "since": "253.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "963482": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29108/963482/compose-multiplatform-wizard-plugin-0.1.1.zip?updateId=963482&pluginId=29108&family=INTELLIJ",
+      "sha256": "snKJcXVpvrL1y5CNzNmGICC8VpmNBhvkE/Lf1cowQwI=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.compose",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "compose-multiplatform-wizard-plugin-0.1.1.zip",
+      "since": "253.30387",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 900097
+      "0.1.0": 900097,
+      "0.1.1": 963482
     }
   }
 }
