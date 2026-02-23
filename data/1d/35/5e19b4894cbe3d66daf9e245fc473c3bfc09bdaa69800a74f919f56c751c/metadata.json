@@ -39,12 +39,32 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "963911": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30299/963911/hyve-plugin-1.0.3.zip?updateId=963911&pluginId=30299&family=INTELLIJ",
+      "sha256": "m9NcWAFNxP8i9Lr0CnpxF2tZHSRxbGfMM3N+O189Uqo=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.compose",
+        "com.intellij.modules.java",
+        "org.jetbrains.java.decompiler",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "hyve-plugin-1.0.3.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 963057,
-      "1.0.1": 963059
+      "1.0.1": 963059,
+      "1.0.3": 963911
     }
   }
 }
