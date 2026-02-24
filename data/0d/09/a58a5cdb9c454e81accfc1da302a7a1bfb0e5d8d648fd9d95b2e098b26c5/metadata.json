@@ -183,8 +183,8 @@
         "com.intellij.velocity"
       ],
       "file_name": "struts2-202.6109.22.zip",
-      "since": "202.6109",
-      "until": "202.6109.*",
+      "since": null,
+      "until": null,
       "compatibility_overrides": []
     },
     "91361": {
@@ -225,8 +225,8 @@
         "com.intellij.velocity"
       ],
       "file_name": "struts2-202.6397.20.zip",
-      "since": "202.6397",
-      "until": "202.6397.*",
+      "since": null,
+      "until": null,
       "compatibility_overrides": []
     },
     "92581": {
@@ -267,8 +267,8 @@
         "com.intellij.velocity"
       ],
       "file_name": "struts2-203.3645.34.zip",
-      "since": "203.3645",
-      "until": "203.3645.*",
+      "since": null,
+      "until": null,
       "compatibility_overrides": []
     },
     "98288": {
@@ -773,27 +773,6 @@
       "file_name": "struts2-212.4321.30.zip",
       "since": "212.4321",
       "until": "212.4321.*",
-      "compatibility_overrides": []
-    },
-    "123663": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/1698/123663/struts2-212.4418.zip?updateId=123663&pluginId=1698&family=INTELLIJ",
-      "sha256": "6F61klaHJq+dhCgkNTMAVi0L3p2MzrqySrIKrY8urMM=",
-      "channel": "goland-nightly",
-      "dependencies": [
-        "com.intellij.javaee",
-        "com.intellij.javaee.web",
-        "JavaScript",
-        "com.intellij.java-i18n"
-      ],
-      "optional_dependencies": [
-        "com.intellij.freemarker",
-        "com.intellij.spring",
-        "org.intellij.groovy",
-        "com.intellij.velocity"
-      ],
-      "file_name": "struts2-212.4418.zip",
-      "since": "212.4418",
-      "until": "212.4418",
       "compatibility_overrides": []
     },
     "124314": {
@@ -2425,11 +2404,34 @@
       "since": "252.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "964399": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1698/964399/struts2-252.18981-nightly.1-signed.zip?updateId=964399&pluginId=1698&family=INTELLIJ",
+      "sha256": "zB0vled2q9cgtpHNN2UycTf2gKmD7ItbMl+5tdhjKbs=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.java",
+        "JavaScript",
+        "com.intellij.jsp",
+        "com.intellij.javaee.web",
+        "com.intellij.javaee",
+        "com.intellij.java-i18n"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring",
+        "org.intellij.groovy",
+        "com.intellij.velocity",
+        "com.intellij.freemarker"
+      ],
+      "file_name": "struts2-252.18981-nightly.1-signed.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
-    "goland-nightly": {
-      "212.4418": 123663
+    "nightly": {
+      "252.18981-nightly.1": 964399
     },
     "stable": {
       "0.1": 4664,
