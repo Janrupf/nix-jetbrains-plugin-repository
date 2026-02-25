@@ -3754,9 +3754,16 @@
         "com.intellij.flex"
       ],
       "file_name": "intellij-haxe-2025.3_3_.zip",
-      "since": "251.0",
+      "since": "252.0",
       "until": "253.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {

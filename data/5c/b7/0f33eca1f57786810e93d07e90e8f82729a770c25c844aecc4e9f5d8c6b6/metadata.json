@@ -2179,8 +2179,8 @@
         "com.android.tools.apk"
       ],
       "file_name": "flutter-intellij.zip",
-      "since": "183.5429",
-      "until": "183.*",
+      "since": null,
+      "until": null,
       "compatibility_overrides": []
     },
     "63868": {
@@ -30298,6 +30298,29 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "964696": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9212/964696/flutter-intellij-kokoro.zip?updateId=964696&pluginId=9212&family=INTELLIJ",
+      "sha256": "WDaxK9z0JnPF9cW4E/z3yjNtePKwygHN39QeIQl7iHk=",
+      "channel": "dev",
+      "dependencies": [
+        "Git4Idea",
+        "Dart",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.java",
+        "com.intellij.modules.androidstudio"
+      ],
+      "file_name": "flutter-intellij-kokoro.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -31238,6 +31261,7 @@
       "90.0.0-dev.20260220-600f041": 961966,
       "90.0.0-dev.20260221-9fef30b": 963199,
       "90.0.0-dev.20260223-9fef30b": 964171,
+      "90.0.0-dev.20260224-9fef30b": 964696,
       "DEV": 97400,
       "DEV.1": 98650,
       "DEV.2": 98651,
