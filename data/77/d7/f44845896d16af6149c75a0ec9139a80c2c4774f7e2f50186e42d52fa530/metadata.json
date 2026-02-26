@@ -4761,24 +4761,6 @@
       "until": "233.*",
       "compatibility_overrides": []
     },
-    "877629": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/877629/TranslationPlugin-3.8.0-PREVIEW.zip?updateId=877629&pluginId=8579&family=INTELLIJ",
-      "sha256": "8ZFgll1M9Q3n3Gti3OPNBA/tIceW4X7QY6K+fPty8wo=",
-      "channel": "preview",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.jetbrains.php",
-        "intellij.jupyter",
-        "JavaScript",
-        "com.intellij.modules.lang"
-      ],
-      "file_name": "TranslationPlugin-3.8.0-PREVIEW.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "880153": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/880153/TranslationPlugin-3.8.0_231.zip?updateId=880153&pluginId=8579&family=INTELLIJ",
       "sha256": "ffUiD7fdfg1p5ZNnUi3t8ZGY8zI3kieZb+jJXfjWgo4=",
@@ -4962,12 +4944,71 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "966927": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/966927/TranslationPlugin-3.8.3_231.zip?updateId=966927&pluginId=8579&family=INTELLIJ",
+      "sha256": "10YsVyXGkfHbOhcnR+IjWcmqChywArHB4c7H2I13ElY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.ruby",
+        "org.intellij.groovy",
+        "com.jetbrains.restClient",
+        "org.rust.lang",
+        "com.intellij.modules.cidr.lang",
+        "com.intellij.modules.python",
+        "com.intellij.properties",
+        "org.intellij.scala",
+        "com.intellij.modules.swift.lang",
+        "intellij.jupyter",
+        "com.jetbrains.php",
+        "XPathView",
+        "com.jetbrains.rust",
+        "com.intellij.modules.sql",
+        "Dart",
+        "com.intellij.css",
+        "com.intellij.modules.lang",
+        "com.intellij.jsp",
+        "com.intellij.modules.json",
+        "com.intellij.modules.xml",
+        "org.jetbrains.plugins.vue",
+        "com.intellij.modules.rider",
+        "JavaScript",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.clion.radler"
+      ],
+      "file_name": "TranslationPlugin-3.8.3_231.zip",
+      "since": "231.8770.65",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "966928": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8579/966928/TranslationPlugin-3.8.3.zip?updateId=966928&pluginId=8579&family=INTELLIJ",
+      "sha256": "c7I0kI52tSu76gasOidZP+CZ2rBXLpbZ4+b+pK/fLFE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.jupyter",
+        "JavaScript",
+        "org.jetbrains.plugins.clion.radler",
+        "com.jetbrains.php"
+      ],
+      "file_name": "TranslationPlugin-3.8.3.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
-    "preview": {
-      "3.8.0-PREVIEW": 877629
-    },
     "stable": {
       "1.2": 27941,
       "1.2.1": 28017,
@@ -5111,6 +5152,8 @@
       "3.8.1+231": 890952,
       "3.8.2": 941486,
       "3.8.2+231": 941475,
+      "3.8.3": 966928,
+      "3.8.3+231": 966927,
       "v3.2.1": 150853,
       "v3.2.1-213": 151179
     }

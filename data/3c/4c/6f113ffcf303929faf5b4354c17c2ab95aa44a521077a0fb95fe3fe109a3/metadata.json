@@ -32385,6 +32385,64 @@
       "since": "261.21525",
       "until": "261.21525.*",
       "compatibility_overrides": []
+    },
+    "966311": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/966311/gradle-plugin-261.21849.20.zip?updateId=966311&pluginId=13112&family=INTELLIJ",
+      "sha256": "NPvBR8mI3g6CD9WLLfVON4jKYHieQXkfb4Z5HSSrkH0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.libraries.jspecify",
+        "intellij.platform.externalSystem.impl",
+        "intellij.gradle.toolingExtension",
+        "com.intellij.modules.externalSystem"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.ktor.client",
+        "intellij.properties.backend.psi",
+        "intellij.java.psi",
+        "com.intellij.properties",
+        "intellij.java.frontback.psi.impl",
+        "org.jetbrains.kotlin",
+        "intellij.libraries.kotlinx.io",
+        "intellij.toml.core",
+        "intellij.gradle",
+        "intellij.gradle.completion",
+        "intellij.repository.search.common"
+      ],
+      "file_name": "gradle-plugin-261.21849.20.zip",
+      "since": "261.21849",
+      "until": "261.21849.*",
+      "compatibility_overrides": []
+    },
+    "966943": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/966943/gradle-plugin-261.21849.25.zip?updateId=966943&pluginId=13112&family=INTELLIJ",
+      "sha256": "ec5K4b/aK+nqYat00hkjGpeHBFPZW/DdIk7gsO2EMzw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.externalSystem.impl",
+        "intellij.gradle.toolingExtension",
+        "com.intellij.modules.externalSystem",
+        "intellij.libraries.jspecify",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "intellij.java.frontback.psi.impl",
+        "intellij.gradle.completion",
+        "intellij.properties.backend.psi",
+        "intellij.gradle",
+        "intellij.libraries.ktor.client",
+        "intellij.java.psi",
+        "intellij.libraries.kotlinx.io",
+        "intellij.repository.search.common",
+        "intellij.toml.core",
+        "com.intellij.properties"
+      ],
+      "file_name": "gradle-plugin-261.21849.25.zip",
+      "since": "261.21849",
+      "until": "261.21849.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -34414,7 +34472,9 @@
       "261.21525.28": 961125,
       "261.21525.31": 961218,
       "261.21525.39": 962069,
-      "261.21525.48": 964180
+      "261.21525.48": 964180,
+      "261.21849.20": 966311,
+      "261.21849.25": 966943
     }
   }
 }

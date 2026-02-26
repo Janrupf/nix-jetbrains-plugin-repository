@@ -27715,13 +27715,30 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "966988": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6351/966988/Dart.zip?updateId=966988&pluginId=6351&family=INTELLIJ",
+      "sha256": "dpGPOuXOsbAcU2IcDwbpmfdDLqPOME0WZ7VVEqD2l9c=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.copyright",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "Dart.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "243.16718.22": 608798,
       "500.0.0": 895053,
-      "501.0.0": 915262
+      "501.0.0": 915262,
+      "503.0.0": 966988
     },
     "goland-nightly": {
       "212.4394": 123487,
