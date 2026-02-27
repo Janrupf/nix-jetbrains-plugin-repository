@@ -1,6 +1,40 @@
 {
   "xml_id": "com.frshaka.gitbot",
   "numeric_id": 30332,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "966982": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30332/966982/gitbot-1.0.0.zip?updateId=966982&pluginId=30332&family=INTELLIJ",
+      "sha256": "ENxfOYc4WBJb8QFMVG3TfthTa6pVFQWgwnTBiY4TX1w=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitbot-1.0.0.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "967768": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30332/967768/gitbot-1.0.1.zip?updateId=967768&pluginId=30332&family=INTELLIJ",
+      "sha256": "6fw5DkOmK3BY3/wrlgV/KPnlFqYsQXdRIHOuRM9ySE0=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitbot-1.0.1.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 966982,
+      "1.0.1": 967768
+    }
+  }
 }

@@ -40,13 +40,34 @@
       "since": "252.25557",
       "until": null,
       "compatibility_overrides": []
+    },
+    "967545": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30330/967545/tree-generator-1.4.jar?updateId=967545&pluginId=30330&family=INTELLIJ",
+      "sha256": "aenUMVj4Vm4TwGKPmqCCNXSBm86nx+9Wu3NNQV0691Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "tree-generator-1.4.jar",
+      "since": "253",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.25557",
+          "applies_until": "999.99999",
+          "compatible_since": "253",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "1.0": 964199,
       "1.1": 964202,
-      "1.3": 966604
+      "1.3": 966604,
+      "1.4": 967545
     }
   }
 }
