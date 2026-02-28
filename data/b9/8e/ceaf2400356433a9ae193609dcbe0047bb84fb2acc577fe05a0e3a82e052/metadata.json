@@ -14,11 +14,25 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "968193": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30377/968193/capnp-intellij-plugin-1.0.1.zip?updateId=968193&pluginId=30377&family=INTELLIJ",
+      "sha256": "KGhtnZ+QxdmA4Up+AGFW4DQxA7Sql+EOXgEz+0IZ7H0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "capnp-intellij-plugin-1.0.1.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 968114
+      "1.0.0": 968114,
+      "1.0.1": 968193
     }
   }
 }

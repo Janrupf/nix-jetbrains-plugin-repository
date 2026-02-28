@@ -1,6 +1,27 @@
 {
   "xml_id": "cn.myjdemo.auto-tips",
   "numeric_id": 29918,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "968615": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29918/968615/auto-tips-1.0.0.zip?updateId=968615&pluginId=29918&family=INTELLIJ",
+      "sha256": "/dc9xVWy/OpxgapXKeWbTJoqDQHDvGTzDQ28LVDK/TM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "auto-tips-1.0.0.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 968615
+    }
+  }
 }
