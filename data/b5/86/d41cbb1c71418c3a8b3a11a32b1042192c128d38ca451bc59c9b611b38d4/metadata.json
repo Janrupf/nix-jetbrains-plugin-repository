@@ -16,11 +16,27 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "970705": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30361/970705/GradleMcpTools-1.1.0.zip?updateId=970705&pluginId=30361&family=INTELLIJ",
+      "sha256": "2G6xVcVSyui2B2PngoTltbZBcA0cSoGcetocBaEZgjE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GradleMcpTools-1.1.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 967196
+      "1.0.0": 967196,
+      "1.1.0": 970705
     }
   }
 }
