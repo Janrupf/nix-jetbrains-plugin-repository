@@ -1541,6 +1541,25 @@
       "since": "252.25557",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "971275": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29075/971275/intellij-gitlab-plugin-15.0.2-251-signed.zip?updateId=971275&pluginId=29075&family=INTELLIJ",
+      "sha256": "v7TqVHeGBVyMbpsGCx/PL2e3/Jyn2cxIO0BrUvadXSk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "Git4Idea",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "intellij-gitlab-plugin-15.0.2-251-signed.zip",
+      "since": "251.25410",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1631,7 +1650,8 @@
       "14.7.4": 946191,
       "14.8.0": 947817,
       "14.9.0": 951705,
-      "15.0.0": 970724
+      "15.0.0": 970724,
+      "15.0.2-251": 971275
     }
   }
 }
