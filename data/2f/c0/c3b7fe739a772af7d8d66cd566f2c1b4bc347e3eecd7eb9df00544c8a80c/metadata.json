@@ -55,13 +55,32 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "972843": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30225/972843/kora-plugin-1.0.13.zip?updateId=972843&pluginId=30225&family=INTELLIJ",
+      "sha256": "HGVZtDEVDw8mFjfK3O0wKkmBiuxVa/P1E4QCRnsR5uw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.hocon"
+      ],
+      "file_name": "kora-plugin-1.0.13.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.10": 958219,
       "1.0.11": 962025,
-      "1.0.12": 962488
+      "1.0.12": 962488,
+      "1.0.13": 972843
     }
   }
 }

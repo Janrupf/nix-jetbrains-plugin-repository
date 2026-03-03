@@ -1560,6 +1560,65 @@
       "since": "251.25410",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "972844": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29075/972844/intellij-gitlab-plugin-15.0.3-251-signed.zip?updateId=972844&pluginId=29075&family=INTELLIJ",
+      "sha256": "jp30Zr48InEtO52C5dbDtKAuL5t1dE5NKwAXxFRoW74=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.plugins.markdown",
+        "Git4Idea",
+        "com.intellij.modules.vcs"
+      ],
+      "file_name": "intellij-gitlab-plugin-15.0.3-251-signed.zip",
+      "since": "251.25410",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "972846": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29075/972846/intellij-gitlab-plugin-15.0.1-SNAPSHOT-signed.zip?updateId=972846&pluginId=29075&family=INTELLIJ",
+      "sha256": "6DRUuvwdPBPcT+/CwwAQmbsnG0TBgmeh4xqeOk9tiIA=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.tasks",
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "Git4Idea",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.vcs"
+      ],
+      "file_name": "intellij-gitlab-plugin-15.0.1-SNAPSHOT-signed.zip",
+      "since": "252.25557",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "972870": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29075/972870/intellij-gitlab-plugin-15.0.1-signed.zip?updateId=972870&pluginId=29075&family=INTELLIJ",
+      "sha256": "UKxDCG3f8K82T7+18OlvueQK5aTLlFnZ3w1mkxWq7Q8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images",
+        "com.intellij.modules.tasks"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown",
+        "Git4Idea"
+      ],
+      "file_name": "intellij-gitlab-plugin-15.0.1-signed.zip",
+      "since": "252.25557",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1632,7 +1691,8 @@
       "14.9.1-SNAPSHOT+001": 957418,
       "15.0.0": 970972,
       "15.0.0-SNAPSHOT+004": 970713,
-      "15.0.0-SNAPSHOT+006": 970719
+      "15.0.0-SNAPSHOT+006": 970719,
+      "15.0.1-SNAPSHOT+001": 972846
     },
     "stable": {
       "14.0.1": 896036,
@@ -1651,7 +1711,9 @@
       "14.8.0": 947817,
       "14.9.0": 951705,
       "15.0.0": 970724,
-      "15.0.2-251": 971275
+      "15.0.1": 972870,
+      "15.0.2-251": 971275,
+      "15.0.3-251": 972844
     }
   }
 }

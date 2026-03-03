@@ -55,13 +55,31 @@
       "since": "244.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "972140": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24053/972140/MavenDevKit.zip?updateId=972140&pluginId=24053&family=INTELLIJ",
+      "sha256": "IvFSE7ii23lVzJqOzzNzxlutNTIByRvCMKsbr9zpzMY=",
+      "channel": "stable",
+      "dependencies": [
+        "DevKit",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MavenDevKit.zip",
+      "since": "244.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2024.3.28": 512927,
       "2024.4.15": 522756,
-      "2025.1.1": 968190
+      "2025.1.1": 968190,
+      "2025.1.2": 972140
     }
   }
 }
