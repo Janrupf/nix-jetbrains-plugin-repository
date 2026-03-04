@@ -23,11 +23,53 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "974125": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30415/974125/plugin-core-1.0.0.zip?updateId=974125&pluginId=30415&family=INTELLIJ",
+      "sha256": "nxL6+8xR3lltFFH4bapF4gqeXbbKO00IAO5HMuODhhw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "Git4Idea",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.plugins.terminal",
+        "org.sonarlint.idea"
+      ],
+      "file_name": "plugin-core-1.0.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "974850": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30415/974850/plugin-core-1.1.1.zip?updateId=974850&pluginId=30415&family=INTELLIJ",
+      "sha256": "mmvXZZETA1VQFSL9dQllt69sZDk+eW7bhUcy6KuC7mw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.sonarlint.idea",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "plugin-core-1.1.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.3.0": 972092
+      "0.3.0": 972092,
+      "1.0.0": 974125,
+      "1.1.1": 974850
     }
   }
 }
