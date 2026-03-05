@@ -6785,7 +6785,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "829589": {
@@ -6802,7 +6802,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "831735": {
@@ -10706,6 +10706,38 @@
       "since": "242.0",
       "until": "262.99999",
       "compatibility_overrides": []
+    },
+    "976336": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/976336/intellij-augment-0.428.7-beta.zip?updateId=976336&pluginId=24072&family=INTELLIJ",
+      "sha256": "SjFT6N2IFlkQAuErpabTxQfd7mzqs9oFxy7O1mu3yMk=",
+      "channel": "beta",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.428.7-beta.zip",
+      "since": "242.0",
+      "until": "261.99999",
+      "compatibility_overrides": []
+    },
+    "976346": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/976346/intellij-augment-0.439.0-nightly.zip?updateId=976346&pluginId=24072&family=INTELLIJ",
+      "sha256": "OHPY/95inXpvdd7RZEd3Nr2m1RXw4iwB6xAitwLZpsw=",
+      "channel": "nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.439.0-nightly.zip",
+      "since": "242.0",
+      "until": "262.99999",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -11126,6 +11158,7 @@
       "0.428.4-beta": 969469,
       "0.428.5-beta": 969824,
       "0.428.6-beta": 972057,
+      "0.428.7-beta": 976336,
       "0.43.0": 621114,
       "0.44.0": 621118,
       "0.45.0": 621134,
@@ -11275,7 +11308,8 @@
       "0.435.0-nightly": 965024,
       "0.436.0-nightly": 966961,
       "0.437.0-nightly": 969476,
-      "0.438.0-nightly": 973425
+      "0.438.0-nightly": 973425,
+      "0.439.0-nightly": 976346
     },
     "release-candidate": {
       "0.258.2": 812176,

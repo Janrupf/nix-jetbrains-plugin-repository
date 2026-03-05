@@ -29,12 +29,29 @@
       "since": "233.13135",
       "until": null,
       "compatibility_overrides": []
+    },
+    "976348": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23832/976348/idea-vuejs-plugin-1.1.0.zip?updateId=976348&pluginId=23832&family=INTELLIJ",
+      "sha256": "bIglEoixNeoMLEuNh1sdY3DJHuCB2GeGYBx3o/HeMx8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.vue",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "idea-vuejs-plugin-1.1.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1": 493221,
-      "1.0.0": 494432
+      "1.0.0": 494432,
+      "1.1.0": 976348
     }
   }
 }
