@@ -5926,6 +5926,55 @@
       "since": "251.22821.72",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "977628": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/977628/jmix-studio-2.7.3-251.zip?updateId=977628&pluginId=14340&family=INTELLIJ",
+      "sha256": "r2wdZ0BlzLXWTNrycuCocCA5+YsPcceRysP2Xt5zgOs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.database",
+        "Docker",
+        "JavaScript",
+        "com.intellij.liquibase",
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "jmix-studio-2.7.3-251.zip",
+      "since": "251.22821.72",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "977649": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/977649/jmix-studio-2.7.3-252.zip?updateId=977649&pluginId=14340&family=INTELLIJ",
+      "sha256": "MASRF+LJuqyzC2N0gERz8X/sr9qkE6LaJQ+v5996e4g=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
+        "org.intellij.groovy",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database",
+        "com.intellij.liquibase",
+        "org.jetbrains.kotlin",
+        "Docker"
+      ],
+      "file_name": "jmix-studio-2.7.3-252.zip",
+      "since": "252.23591.19",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6178,7 +6227,9 @@
       "2.7.1-253": 906335,
       "2.7.2-251": 942476,
       "2.7.2-252": 942472,
-      "2.7.2-253": 942466
+      "2.7.2-253": 942466,
+      "2.7.3-251": 977628,
+      "2.7.3-252": 977649
     }
   }
 }

@@ -145,20 +145,58 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "978248": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23694/978248/smart-hugo-2026.1-dist.zip?updateId=978248&pluginId=23694&family=INTELLIJ",
+      "sha256": "Mjpm3S7MKAzjKzwI/aCO4JCVaAyWGMCWEVAi+aILGjU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.yaml",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.platform.images"
+      ],
+      "file_name": "smart-hugo-2026.1-dist.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "978249": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23694/978249/smart-hugo-2026.1-dist.zip?updateId=978249&pluginId=23694&family=INTELLIJ",
+      "sha256": "Mjpm3S7MKAzjKzwI/aCO4JCVaAyWGMCWEVAi+aILGjU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.toml.lang",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.images",
+        "com.intellij.modules.xml"
+      ],
+      "file_name": "smart-hugo-2026.1-dist.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2024.1.2": 625437,
       "2025.1": 803534,
-      "2025.1.1": 821572
+      "2025.1.1": 821572,
+      "2026.1": 978249
     },
     "stable": {
       "2024.1": 479193,
       "2024.1.1": 492314,
       "2024.1.2": 625436,
       "2025.1": 803533,
-      "2025.1.1": 821571
+      "2025.1.1": 821571,
+      "2026.1": 978248
     }
   }
 }

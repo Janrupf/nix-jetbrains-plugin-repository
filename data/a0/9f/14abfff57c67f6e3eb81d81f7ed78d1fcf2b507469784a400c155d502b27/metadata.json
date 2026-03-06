@@ -2275,6 +2275,37 @@
       "since": "261.21849",
       "until": "261.21849.*",
       "compatibility_overrides": []
+    },
+    "977560": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23741/977560/liquibase-261.22158.36.zip?updateId=977560&pluginId=23741&family=INTELLIJ",
+      "sha256": "kgW8xqxI5HWbE1cqdMD+O1L4TnO5NyEGqEqkijyCS24=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "intellij.json.backend",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi"
+      ],
+      "optional_dependencies": [
+        "intellij.liquibase.yaml",
+        "intellij.liquibase.jpa",
+        "com.intellij.database",
+        "intellij.javaee.jpa.jpb.model.db",
+        "com.intellij.javaee.jpa",
+        "intellij.yaml.backend",
+        "com.intellij.jpa.jpb.model",
+        "intellij.liquibase.core",
+        "Git4Idea",
+        "intellij.liquibase.orm",
+        "intellij.libraries.opencsv",
+        "intellij.javaee.jpa.jpb.model.yaml",
+        "com.intellij.persistence",
+        "intellij.java.aetherDependencyResolver"
+      ],
+      "file_name": "liquibase-261.22158.36.zip",
+      "since": "261.22158",
+      "until": "261.22158.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2369,7 +2400,8 @@
       "261.20362.8": 949035,
       "261.20869.34": 955551,
       "261.21525.28": 961091,
-      "261.21849.20": 966268
+      "261.21849.20": 966268,
+      "261.22158.36": 977560
     }
   }
 }

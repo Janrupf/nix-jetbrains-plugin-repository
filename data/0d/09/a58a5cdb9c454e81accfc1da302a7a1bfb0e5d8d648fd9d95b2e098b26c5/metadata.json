@@ -2450,11 +2450,35 @@
       "since": "252.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "978306": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1698/978306/struts2-253.18979-nightly.2-signed.zip?updateId=978306&pluginId=1698&family=INTELLIJ",
+      "sha256": "78EaZofCsB7rTojcHdv5Nii6BqVSJEZZSk1DqldSMVk=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.javaee",
+        "com.intellij.javaee.web",
+        "com.intellij.java-i18n",
+        "JavaScript",
+        "com.intellij.jsp",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.freemarker",
+        "org.intellij.groovy",
+        "com.intellij.velocity",
+        "com.intellij.spring"
+      ],
+      "file_name": "struts2-253.18979-nightly.2-signed.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
       "253.18979-nightly.1": 967035,
+      "253.18979-nightly.2": 978306,
       "253.18981-nightly.1": 964676
     },
     "stable": {
