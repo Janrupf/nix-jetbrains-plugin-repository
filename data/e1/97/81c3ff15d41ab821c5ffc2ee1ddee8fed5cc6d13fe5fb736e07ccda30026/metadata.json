@@ -2353,13 +2353,57 @@
       "since": "261.21849",
       "until": null,
       "compatibility_overrides": []
+    },
+    "979288": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/979288/lang.embedded-2026.1-EAP.22158.46.zip?updateId=979288&pluginId=11340&family=INTELLIJ",
+      "sha256": "daEg2N1kVHvAvCA2/z2cOSYAPo0pSZPBiIpd09Wexn4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.perl5",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.backend.main",
+        "perl5.lang.embedded.common.main"
+      ],
+      "file_name": "lang.embedded-2026.1-EAP.22158.46.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "979296": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/979296/lang.embedded-2026.2-EAP.1357.zip?updateId=979296&pluginId=11340&family=INTELLIJ",
+      "sha256": "NbW6h98lHuAJN22OocLntUWXzG8QcgYt3J5ygVWjWsE=",
+      "channel": "eap",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.embedded.common.main",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.backend.main"
+      ],
+      "file_name": "lang.embedded-2026.2-EAP.1357.zip",
+      "since": "262.1357",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2026.1-EAP-20869.38": 959162,
       "2026.1-EAP-21849.20": 967483,
+      "2026.1-EAP.22158.46": 979288,
       "2026.2-EAP-646": 967357,
+      "2026.2-EAP.1357": 979296,
       "203-SNAPSHOT.8": 96403,
       "203.3645.34-EAP-SNAPSHOT": 98109,
       "203.5784.10-EAP-SNAPSHOT": 102535,

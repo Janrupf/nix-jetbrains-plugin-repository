@@ -2311,13 +2311,57 @@
       "since": "261.21849",
       "until": null,
       "compatibility_overrides": []
+    },
+    "979293": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/979293/lang.tt2-2026.1-EAP.22158.46.zip?updateId=979293&pluginId=11335&family=INTELLIJ",
+      "sha256": "Z0oGPeqeQq72joCfxzd/85mbxS+urGJYMn7R/Be1hF4=",
+      "channel": "eap",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.tt2.frontend.main",
+        "perl5.lang.tt2.common.main",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.plugin.backend.main"
+      ],
+      "file_name": "lang.tt2-2026.1-EAP.22158.46.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "979301": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/979301/lang.tt2-2026.2-EAP.1357.zip?updateId=979301&pluginId=11335&family=INTELLIJ",
+      "sha256": "hdfiG7cn8oFdhMXlSUvapv2qOo7Ykof5UcGNnxRUDBM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.plugin.backend.main",
+        "perl5.lang.tt2.frontend.main",
+        "perl5.lang.tt2.common.main"
+      ],
+      "file_name": "lang.tt2-2026.2-EAP.1357.zip",
+      "since": "262.1357",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2026.1-EAP-20869.38": 959168,
       "2026.1-EAP-21849.20": 967488,
+      "2026.1-EAP.22158.46": 979293,
       "2026.2-EAP-646": 967363,
+      "2026.2-EAP.1357": 979301,
       "203-SNAPSHOT.8": 96408,
       "203.3645.34-EAP-SNAPSHOT": 98114,
       "203.5784.10-EAP-SNAPSHOT": 102540,

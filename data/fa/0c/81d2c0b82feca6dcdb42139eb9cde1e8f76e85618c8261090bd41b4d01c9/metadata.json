@@ -347,9 +347,46 @@
       "since": "253.0",
       "until": "260.0",
       "compatibility_overrides": []
+    },
+    "979326": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10481/979326/intellij-hocon-2026.1.2-SNAPSHOT.zip?updateId=979326&pluginId=10481&family=INTELLIJ",
+      "sha256": "peV74AfycW0s2TNzemRmDr5u3lu1wr5wD9EM6mGoqto=",
+      "channel": "snapshot",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "intellij-hocon-2026.1.2-SNAPSHOT.zip",
+      "since": "253.0",
+      "until": "270.0",
+      "compatibility_overrides": []
+    },
+    "979340": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10481/979340/intellij-hocon-2026.1.2.zip?updateId=979340&pluginId=10481&family=INTELLIJ",
+      "sha256": "Uki71hO+5D0LsJJ5PEwDX4caKsF5OhjXO8OwXvw0KFI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "intellij-hocon-2026.1.2.zip",
+      "since": "253.0",
+      "until": "270.0",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "snapshot": {
+      "2026.1.2-SNAPSHOT": 979326
+    },
     "stable": {
       "0.0.1": 43663,
       "0.0.2": 43690,
@@ -371,7 +408,8 @@
       "2024.1.0": 477293,
       "2024.2.0": 583591,
       "2025.1.0": 671222,
-      "2026.1.1": 927382
+      "2026.1.1": 927382,
+      "2026.1.2": 979340
     }
   }
 }

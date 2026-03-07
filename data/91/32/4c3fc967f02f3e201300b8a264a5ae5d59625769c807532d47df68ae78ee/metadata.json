@@ -2437,13 +2437,57 @@
       "since": "261.21849",
       "until": null,
       "compatibility_overrides": []
+    },
+    "979292": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11336/979292/lang.mojo-2026.1-EAP.22158.46.zip?updateId=979292&pluginId=11336&family=INTELLIJ",
+      "sha256": "jr/dOQRaFkOtZgaBF7Tbmx5UZZ8MrZEpsK1yenax3AU=",
+      "channel": "eap",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend",
+        "perl5.lang.mojo.frontend.main",
+        "intellij.platform.frontend.split",
+        "perl5.lang.mojo.common.main"
+      ],
+      "file_name": "lang.mojo-2026.1-EAP.22158.46.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "979300": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11336/979300/lang.mojo-2026.2-EAP.1357.zip?updateId=979300&pluginId=11336&family=INTELLIJ",
+      "sha256": "fk/4O2WPqEcMgxJAVJVKuMuAxziAwz/ZJkVqGmk75jc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "perl5.lang.mojo.common.main",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend",
+        "perl5.lang.mojo.frontend.main"
+      ],
+      "file_name": "lang.mojo-2026.2-EAP.1357.zip",
+      "since": "262.1357",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2026.1-EAP-20869.38": 959167,
       "2026.1-EAP-21849.20": 967487,
+      "2026.1-EAP.22158.46": 979292,
       "2026.2-EAP-646": 967362,
+      "2026.2-EAP.1357": 979300,
       "203-SNAPSHOT.8": 96407,
       "203.3645.34-EAP-SNAPSHOT": 98113,
       "203.5784.10-EAP-SNAPSHOT": 102539,

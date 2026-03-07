@@ -147,6 +147,92 @@
       "since": "252.21735.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "979684": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28575/979684/Jira_Integration_Pro-signed.zip?updateId=979684&pluginId=28575&family=INTELLIJ",
+      "sha256": "X0qIYYgGN9yZ988PRZS1j1aNuxD2p3Nsf0beh3QghUg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.majera.jira.common-issues-domain",
+        "com.majera.jira.common-domain",
+        "com.majera.jira.common-interactor",
+        "com.majera.jira.framework-interactor",
+        "com.majera.jira.framework-util",
+        "com.majera.jira.jira-domain",
+        "com.majera.jira.framework-domain"
+      ],
+      "optional_dependencies": [
+        "com.majera.jira.jira-interactor",
+        "com.majera.jira.common-issues-interactor",
+        "com.majera.jira.common-issues-plugin",
+        "com.majera.jira.common-plugin.shared",
+        "com.intellij.modules.platform",
+        "intellij.platform.frontend",
+        "com.intellij.platform.images",
+        "com.majera.jira.common-plugin",
+        "com.majera.jira.framework-api",
+        "org.sonarlint.idea",
+        "org.intellij.plugins.markdown",
+        "intellij.tasks.jira",
+        "intellij.platform.compose",
+        "com.intellij.tasks",
+        "intellij.platform.backend",
+        "com.majera.jira.jira-plugin.backend",
+        "Git4Idea",
+        "com.majera.jira.framework-plugin",
+        "com.majera.jira.jira-api",
+        "com.majera.jira.common-issues.tasks",
+        "com.majera.jira.common-plugin.frontend",
+        "com.majera.jira.jira-plugin.shared",
+        "com.majera.jira.plugin-promotion"
+      ],
+      "file_name": "Jira_Integration_Pro-signed.zip",
+      "since": "253.25908.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "979692": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28575/979692/Jira_Integration_Pro-signed.zip?updateId=979692&pluginId=28575&family=INTELLIJ",
+      "sha256": "zaA3YPtlAjbVlusxcG+E0TZelmAs0+9rZvioi2K+DHI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.majera.jira.common-issues-domain",
+        "com.majera.jira.framework-util",
+        "com.majera.jira.jira-domain",
+        "com.majera.jira.common-interactor",
+        "com.majera.jira.framework-interactor",
+        "com.majera.jira.framework-domain",
+        "com.majera.jira.common-domain"
+      ],
+      "optional_dependencies": [
+        "com.majera.jira.jira-interactor",
+        "com.majera.jira.common-issues.tasks",
+        "com.majera.jira.jira-plugin.shared",
+        "com.majera.jira.framework-plugin",
+        "com.majera.jira.common-plugin.shared",
+        "intellij.platform.frontend",
+        "com.intellij.tasks",
+        "com.intellij.platform.images",
+        "com.majera.jira.common-issues-interactor",
+        "intellij.tasks.jira",
+        "com.intellij.modules.platform",
+        "intellij.platform.backend",
+        "com.majera.jira.common-plugin",
+        "org.sonarlint.idea",
+        "com.majera.jira.common-issues-plugin",
+        "org.intellij.plugins.markdown",
+        "com.majera.jira.common-plugin.frontend",
+        "intellij.platform.compose",
+        "com.majera.jira.plugin-promotion",
+        "com.majera.jira.jira-plugin.backend",
+        "Git4Idea",
+        "com.majera.jira.jira-api",
+        "com.majera.jira.framework-api"
+      ],
+      "file_name": "Jira_Integration_Pro-signed.zip",
+      "since": "261.20869.38",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -157,7 +243,9 @@
       "2025.4.2.252": 900749,
       "2025.4.2.253": 900868,
       "2025.4.3.252": 916551,
-      "2025.4.3.253": 916547
+      "2025.4.3.253": 916547,
+      "2026.1.0.253": 979684,
+      "2026.1.0.261": 979692
     }
   }
 }
