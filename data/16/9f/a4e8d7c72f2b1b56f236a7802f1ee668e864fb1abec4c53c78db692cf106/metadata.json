@@ -2,21 +2,6 @@
   "xml_id": "io.agnix.jetbrains",
   "numeric_id": 30087,
   "updates": {
-    "950672": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30087/950672/agnix-jetbrains-0.1.1.zip?updateId=950672&pluginId=30087&family=INTELLIJ",
-      "sha256": "O8F1+rN17zakq8b0tyKY2iZvun3aze36i44PcN87qFM=",
-      "channel": "stable",
-      "dependencies": [
-        "com.redhat.devtools.lsp4ij",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.json"
-      ],
-      "optional_dependencies": [],
-      "file_name": "agnix-jetbrains-0.1.1.zip",
-      "since": "233.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "950673": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30087/950673/agnix-jetbrains-0.1.2.zip?updateId=950673&pluginId=30087&family=INTELLIJ",
       "sha256": "gSatfbX1Qp24JiHbxwWfpa/a3y8vNawwRj2xEqHI1lI=",
@@ -316,11 +301,25 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "980227": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30087/980227/agnix-jetbrains-0.16.1.zip?updateId=980227&pluginId=30087&family=INTELLIJ",
+      "sha256": "HuJ5LqBT5lyPRKgUYJ1Ou+QFqJTjE+JU2S+k7gKaeCI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "agnix-jetbrains-0.16.1.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.1": 950672,
       "0.1.2": 950673,
       "0.10.0": 952076,
       "0.10.1": 952099,
@@ -337,6 +336,7 @@
       "0.13.0": 963296,
       "0.14.0": 968903,
       "0.15.0": 973481,
+      "0.16.1": 980227,
       "0.7.3": 950676,
       "0.9.1": 951463,
       "0.9.2": 951477,

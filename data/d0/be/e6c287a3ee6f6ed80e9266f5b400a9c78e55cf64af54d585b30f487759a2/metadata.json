@@ -196,6 +196,39 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "980169": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29351/980169/structurizr-dsl-plugin-2026.4.1.zip?updateId=980169&pluginId=29351&family=INTELLIJ",
+      "sha256": "zBWD8zpDBBOyWs+uwpqUyBiibeolzBcyxcQ1TDJdTbI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "structurizr-dsl-plugin-2026.4.1.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "980200": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29351/980200/structurizr-dsl-plugin-2026.4.2.zip?updateId=980200&pluginId=29351&family=INTELLIJ",
+      "sha256": "X1bPtsyakJ3XV8uz+ucjEJppTIvb0cKRGrAY/QChxDc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "structurizr-dsl-plugin-2026.4.2.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "999.99999",
+          "compatible_since": "242.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -214,7 +247,9 @@
       "2026.3.2": 978245,
       "2026.3.3": 978255,
       "2026.3.4": 978370,
-      "2026.3.5": 978643
+      "2026.3.5": 978643,
+      "2026.4.1": 980169,
+      "2026.4.2": 980200
     }
   }
 }
