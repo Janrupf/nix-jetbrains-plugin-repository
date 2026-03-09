@@ -16,20 +16,6 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "951459": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29900/951459/de.espend.ml.llm-0.4.3.zip?updateId=951459&pluginId=29900&family=INTELLIJ",
-      "sha256": "Sn51etEmRr9h3zFp4LcmJdtUiCYZeVJtl0ovxh125kA=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.ml.llm",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "de.espend.ml.llm-0.4.3.zip",
-      "since": "253.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "966975": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29900/966975/de.espend.ml.llm-0.5.0.zip?updateId=966975&pluginId=29900&family=INTELLIJ",
       "sha256": "xq/uUKueIuZvU2dq0cl5ky8PVqTI8RDVddEkj8lmdAI=",
@@ -93,16 +79,49 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "980856": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29900/980856/de.espend.ml.llm-0.7.0.zip?updateId=980856&pluginId=29900&family=INTELLIJ",
+      "sha256": "1ImJ8Zfm1jCzcs/RDSq3JgUaUquuk6MmtvpkAl2JY1Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.ml.llm"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "de.espend.ml.llm-0.7.0.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "980871": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29900/980871/de.espend.ml.llm-0.7.1.zip?updateId=980871&pluginId=29900&family=INTELLIJ",
+      "sha256": "1MX5lryH1plWaP3Yd8xcFxhqpcZABZEds8XCR99ku/E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.ml.llm"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "de.espend.ml.llm-0.7.1.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.4.2": 951361,
-      "0.4.3": 951459,
       "0.5.0": 966975,
       "0.5.1": 970935,
       "0.5.2": 970939,
-      "0.6.0": 980241
+      "0.6.0": 980241,
+      "0.7.0": 980856,
+      "0.7.1": 980871
     }
   }
 }

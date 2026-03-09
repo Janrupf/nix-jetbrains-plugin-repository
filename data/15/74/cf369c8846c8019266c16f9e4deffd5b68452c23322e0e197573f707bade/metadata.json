@@ -26605,6 +26605,56 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "980923": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/980923/github-copilot-intellij-1.6.0-243.zip?updateId=980923&pluginId=17718&family=INTELLIJ",
+      "sha256": "eSd6RUaiGYsdDTqkTy6zFhndmM1XA7RyOcB9GxubmcU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Pythonid",
+        "org.jetbrains.plugins.terminal",
+        "PythonCore",
+        "Git4Idea",
+        "IdeaVIM",
+        "com.intellij.java",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.github",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "github-copilot-intellij-1.6.0-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "980924": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/980924/github-copilot-intellij-1.6.0-242.zip?updateId=980924&pluginId=17718&family=INTELLIJ",
+      "sha256": "0NkyRglgPXWr+qYlllu+2GFeGW265TJUkSZyywLX+RM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM",
+        "com.intellij.java",
+        "Pythonid",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "org.jetbrains.plugins.github",
+        "PythonCore",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "github-copilot-intellij-1.6.0-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -27885,7 +27935,9 @@
       "1.5.66-243": 966120,
       "1.5.7.5758": 555539,
       "1.5.8.5775": 556037,
-      "1.5.9.5799": 556919
+      "1.5.9.5799": 556919,
+      "1.6.0-242": 980924,
+      "1.6.0-243": 980923
     }
   }
 }

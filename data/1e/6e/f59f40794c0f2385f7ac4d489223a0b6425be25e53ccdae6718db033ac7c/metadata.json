@@ -130,6 +130,28 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "980867": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29509/980867/intellij-mcp-1.6.0.zip?updateId=980867&pluginId=29509&family=INTELLIJ",
+      "sha256": "/vrUMfclN5Ez7UCSuUzRZpt08hYuUCLinWipCEH/GMo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "PythonCore",
+        "com.jetbrains.rust",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.vue"
+      ],
+      "file_name": "intellij-mcp-1.6.0.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -140,7 +162,8 @@
       "1.2.0": 923804,
       "1.3.0": 923811,
       "1.4.0": 927377,
-      "1.5.0": 973506
+      "1.5.0": 973506,
+      "1.6.0": 980867
     }
   }
 }
