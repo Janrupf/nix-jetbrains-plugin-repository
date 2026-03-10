@@ -453,13 +453,31 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "981146": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24481/981146/dhcoder-1.4.9-eap.zip?updateId=981146&pluginId=24481&family=INTELLIJ",
+      "sha256": "B6XaK8cAk4WC1n1VH/97SjQdgSV5BsxMhBFCPsjZQGI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "dhcoder-1.4.9-eap.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "1.4.6-eap": 951714,
       "1.4.7-eap": 955167,
-      "1.4.8-eap": 967527
+      "1.4.8-eap": 967527,
+      "1.4.9-eap": 981146
     },
     "stable": {
       "0.0.1": 544268,
