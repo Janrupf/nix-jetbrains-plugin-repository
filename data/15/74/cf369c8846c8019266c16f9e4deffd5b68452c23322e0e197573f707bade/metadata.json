@@ -26655,6 +26655,56 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "982712": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/982712/github-copilot-intellij-1.6.1-243.zip?updateId=982712&pluginId=17718&family=INTELLIJ",
+      "sha256": "Be4+Zh8bMQTvj96PaEIHWCH64+o6j3wl+Sd4Nssnlbo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "Pythonid",
+        "PythonCore",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea",
+        "IdeaVIM",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.vcs",
+        "com.intellij.java"
+      ],
+      "file_name": "github-copilot-intellij-1.6.1-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "982717": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/982717/github-copilot-intellij-1.6.1-242.zip?updateId=982717&pluginId=17718&family=INTELLIJ",
+      "sha256": "1+XDTPpDD7DFfYKiwcSIxmHrFGNfdddT8+0XrD2Nk6k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal",
+        "Pythonid",
+        "PythonCore",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "org.jetbrains.plugins.github",
+        "IdeaVIM",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "github-copilot-intellij-1.6.1-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -27937,7 +27987,9 @@
       "1.5.8.5775": 556037,
       "1.5.9.5799": 556919,
       "1.6.0-242": 980924,
-      "1.6.0-243": 980923
+      "1.6.0-243": 980923,
+      "1.6.1-242": 982717,
+      "1.6.1-243": 982712
     }
   }
 }

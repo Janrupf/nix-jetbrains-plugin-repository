@@ -17,11 +17,28 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "983031": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30575/983031/TestGit-1.1-SNAPSHOT.zip?updateId=983031&pluginId=30575&family=INTELLIJ",
+      "sha256": "hFxx4Nbf4gYbMHc1e0tk0AztgObcfVO99aTTdFbK6AE=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "TestNG-J",
+        "com.intellij.modules.java",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TestGit-1.1-SNAPSHOT.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "alpha": {
-      "1.0-SNAPSHOT": 981144
+      "1.0-SNAPSHOT": 981144,
+      "1.1-SNAPSHOT": 983031
     }
   }
 }

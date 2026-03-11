@@ -6785,7 +6785,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "829589": {
@@ -6802,7 +6802,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "831735": {
@@ -7125,7 +7125,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.288.0.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "852442": {
@@ -7159,7 +7159,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.288.0.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "853308": {
@@ -7176,7 +7176,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.288.0.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "853385": {
@@ -10786,6 +10786,54 @@
       "since": "242.0",
       "until": "262.99999",
       "compatibility_overrides": []
+    },
+    "982632": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/982632/intellij-augment-0.428.8-stable.zip?updateId=982632&pluginId=24072&family=INTELLIJ",
+      "sha256": "ALraWSYy6s6f2MpmCjusme0ESNYYQPxIFLvtpqDHikA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.428.8-stable.zip",
+      "since": "242.0",
+      "until": "261.99999",
+      "compatibility_overrides": []
+    },
+    "982633": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/982633/intellij-augment-0.428.8-stable.zip?updateId=982633&pluginId=24072&family=INTELLIJ",
+      "sha256": "ALraWSYy6s6f2MpmCjusme0ESNYYQPxIFLvtpqDHikA=",
+      "channel": "release-candidate",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.428.8-stable.zip",
+      "since": "242.0",
+      "until": "261.99999",
+      "compatibility_overrides": []
+    },
+    "982948": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/982948/intellij-augment-0.442.0-nightly.zip?updateId=982948&pluginId=24072&family=INTELLIJ",
+      "sha256": "YpHzdiA+YJblHa1o0N5tFTcipCgoeF5lhE0GD+BrNBs=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-augment-0.442.0-nightly.zip",
+      "since": "242.0",
+      "until": "262.99999",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -11360,7 +11408,8 @@
       "0.438.0-nightly": 973425,
       "0.439.0-nightly": 976346,
       "0.440.0-nightly": 978068,
-      "0.441.0-nightly": 982086
+      "0.441.0-nightly": 982086,
+      "0.442.0-nightly": 982948
     },
     "release-candidate": {
       "0.258.2": 812176,
@@ -11383,7 +11432,8 @@
       "0.407.3-stable": 937995,
       "0.407.4-stable": 940425,
       "0.407.5-stable": 945227,
-      "0.416.6-stable": 960770
+      "0.416.6-stable": 960770,
+      "0.428.8-stable": 982633
     },
     "stable": {
       "0.0.25": 550479,
@@ -11450,6 +11500,7 @@
       "0.407.4-stable": 940424,
       "0.407.5-stable": 945226,
       "0.416.6-stable": 960769,
+      "0.428.8-stable": 982632,
       "0.5.0": 598033,
       "0.51.0": 625303,
       "0.56.0": 628707,

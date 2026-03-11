@@ -420,10 +420,39 @@
       "since": "242.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "982691": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30313/982691/claude-code-gui-jetbrains-0.9.5.zip?updateId=982691&pluginId=30313&family=INTELLIJ",
+      "sha256": "B61OFLxnvaBUZeBWlZjvAi4kTirYUR/k9WZ802B+pVw=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "claude-code-gui-jetbrains-0.9.5.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "983001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30313/983001/claude-code-gui-jetbrains-0.10.0.zip?updateId=983001&pluginId=30313&family=INTELLIJ",
+      "sha256": "3ltdWhht85dPtpRom2OTrG28RSobbpwlCUkuryFiuEU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "claude-code-gui-jetbrains-0.10.0.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 983001,
       "0.2.0": 963693,
       "0.2.1": 964152,
       "0.3.0": 967506,
@@ -454,7 +483,8 @@
       "0.9.1": 981102,
       "0.9.2": 981122,
       "0.9.3": 981128,
-      "0.9.4": 982218
+      "0.9.4": 982218,
+      "0.9.5": 982691
     }
   }
 }
