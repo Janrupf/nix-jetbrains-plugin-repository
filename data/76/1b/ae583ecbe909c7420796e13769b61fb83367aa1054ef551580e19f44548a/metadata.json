@@ -2,26 +2,27 @@
   "xml_id": "dev.specbinder.intellij-plugin",
   "numeric_id": 30540,
   "updates": {
-    "980404": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30540/980404/spec-binder-intellij-plugin-0.1.0-plugin.zip?updateId=980404&pluginId=30540&family=INTELLIJ",
-      "sha256": "y8OBz+vmjoox6bx+4cMHmHByC3XcNmCmKe3C/y1KSb4=",
+    "983831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30540/983831/spec-binder-intellij-plugin-0.2.2.zip?updateId=983831&pluginId=30540&family=INTELLIJ",
+      "sha256": "iIA4b6jGDbHx7wxFW+1hSGQQlsUueW4arexpRwaestk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "JUnit"
       ],
-      "file_name": "spec-binder-intellij-plugin-0.1.0-plugin.zip",
+      "file_name": "spec-binder-intellij-plugin-0.2.2.zip",
       "since": "242.0",
-      "until": "252.*",
+      "until": "253.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 980404
+      "0.2.2": 983831
     }
   }
 }

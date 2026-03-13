@@ -2674,7 +2674,7 @@
       ],
       "file_name": "aem-ide-2024.2-dist-signed.zip",
       "since": "231.0",
-      "until": "242.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "583425": {
@@ -2692,7 +2692,7 @@
       ],
       "file_name": "aem-ide-2024.2-dist-signed.zip",
       "since": "231.0",
-      "until": "242.*",
+      "until": null,
       "compatibility_overrides": []
     },
     "605807": {
@@ -3392,6 +3392,46 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "984113": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9269/984113/aem-ide-2025.2.4-dist-signed.zip?updateId=984113&pluginId=9269&family=INTELLIJ",
+      "sha256": "nBwu5WjDD52o3jeMqnM/j5/lmBfyjNPmuBcoj9LNN3E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.java.decompiler",
+        "com.intellij.modules.xml",
+        "org.jetbrains.idea.maven",
+        "tanvd.grazi",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "aem-ide-2025.2.4-dist-signed.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "984114": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9269/984114/aem-ide-2025.2.4-dist-signed.zip?updateId=984114&pluginId=9269&family=INTELLIJ",
+      "sha256": "nBwu5WjDD52o3jeMqnM/j5/lmBfyjNPmuBcoj9LNN3E=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.java.decompiler",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.java",
+        "tanvd.grazi",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "aem-ide-2025.2.4-dist-signed.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3471,7 +3511,8 @@
       "2025.2-eap3": 863946,
       "2025.2.1": 871185,
       "2025.2.2": 888705,
-      "2025.2.3": 905161
+      "2025.2.3": 905161,
+      "2025.2.4": 984114
     },
     "stable": {
       "0.1": 30324,
@@ -3553,7 +3594,8 @@
       "2025.2": 867726,
       "2025.2.1": 871184,
       "2025.2.2": 888704,
-      "2025.2.3": 905160
+      "2025.2.3": 905160,
+      "2025.2.4": 984113
     }
   }
 }

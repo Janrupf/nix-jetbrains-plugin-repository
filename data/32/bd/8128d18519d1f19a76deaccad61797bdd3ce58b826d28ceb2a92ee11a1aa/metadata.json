@@ -15,11 +15,45 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "983338": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30548/983338/plugin-idea-0.1.3.zip?updateId=983338&pluginId=30548&family=INTELLIJ",
+      "sha256": "9APYKbI425T7ojoI+70wepa+bLlXzeZNEWzWwhxVVvw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-idea-0.1.3.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "983591": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30548/983591/plugin-idea-0.1.4.zip?updateId=983591&pluginId=30548&family=INTELLIJ",
+      "sha256": "DTg+1oUkdKY9sQZkEn5BoB0vq+GjcN2Lcw7T5wA2dFc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-idea-0.1.4.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.1": 980469
+      "0.1.1": 980469,
+      "0.1.3": 983338,
+      "0.1.4": 983591
     }
   }
 }

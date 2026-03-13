@@ -33,12 +33,42 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "983503": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30495/983503/FaahException-1.0.5.zip?updateId=983503&pluginId=30495&family=INTELLIJ",
+      "sha256": "iq3J/ocqy4jWVp8+3nWvXtIl4lelkl6A0omD4kVfSfI=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "FaahException-1.0.5.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "984037": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30495/984037/FaahException-1.1.0.zip?updateId=984037&pluginId=30495&family=INTELLIJ",
+      "sha256": "Orw8igP/ANl4yQbFZPA/ef6nFiEXo0/oCnX6qOFjqiY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "FaahException-1.1.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 976356,
-      "1.0.1": 976357
+      "1.0.1": 976357,
+      "1.0.5": 983503,
+      "1.1.0": 984037
     }
   }
 }

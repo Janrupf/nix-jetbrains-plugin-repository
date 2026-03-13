@@ -29,12 +29,28 @@
       "since": "203.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "983239": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29904/983239/devtrackr-jetbrains-1.0.3.zip?updateId=983239&pluginId=29904&family=INTELLIJ",
+      "sha256": "ILNYeiDbtolXc30bwvX+Y+Dr0xfDnOnLwjYp1QjaG84=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.rider"
+      ],
+      "file_name": "devtrackr-jetbrains-1.0.3.zip",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 940576,
-      "1.0.2": 945022
+      "1.0.2": 945022,
+      "1.0.3": 983239
     }
   }
 }
