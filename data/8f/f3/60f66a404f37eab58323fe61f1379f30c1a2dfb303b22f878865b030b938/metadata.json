@@ -14,11 +14,41 @@
       "since": "252.25557",
       "until": null,
       "compatibility_overrides": []
+    },
+    "984312": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30301/984312/lacak-asset-1.0.0.zip?updateId=984312&pluginId=30301&family=INTELLIJ",
+      "sha256": "QrSURN30ra+pNruY/oTygrjbmvs2aI/xI5ktDBhi0Ek=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lacak-asset-1.0.0.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "985496": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30301/985496/lacak-asset-1.0.1.zip?updateId=985496&pluginId=30301&family=INTELLIJ",
+      "sha256": "JZMUhdP7lkAQ3m0XXC3uzBHxv/YfoBC6+G+svKBEMbI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lacak-asset-1.0.1.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
-      "0.0.1": 963183
+      "0.0.1": 963183,
+      "1.0.0": 984312
+    },
+    "stable": {
+      "1.0.1": 985496
     }
   }
 }
