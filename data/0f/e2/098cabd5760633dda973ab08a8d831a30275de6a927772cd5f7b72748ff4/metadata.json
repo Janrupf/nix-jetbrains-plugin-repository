@@ -1,6 +1,25 @@
 {
   "xml_id": "com.action.codegen.plugin",
   "numeric_id": 30445,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "984147": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30445/984147/codegen-plugin-1.0.0.zip?updateId=984147&pluginId=30445&family=INTELLIJ",
+      "sha256": "9ByWoywjy5Krt0L8HxLpfxXFEG0A2gveMn9Sby96Fd8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codegen-plugin-1.0.0.zip",
+      "since": "232.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 984147
+    }
+  }
 }
