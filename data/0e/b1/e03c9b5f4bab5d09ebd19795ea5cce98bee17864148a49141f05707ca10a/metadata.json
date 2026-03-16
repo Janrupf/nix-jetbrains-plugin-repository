@@ -2353,12 +2353,34 @@
       "since": "262.1357",
       "until": null,
       "compatibility_overrides": []
+    },
+    "986839": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/986839/lang.tt2-2026.1-EAP.22158.121.zip?updateId=986839&pluginId=11335&family=INTELLIJ",
+      "sha256": "Ah37baQ1YgOjVkFxpj13N/vbD9oTXatXAEnpLPOXdq8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.perl5",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend.split",
+        "intellij.platform.frontend",
+        "perl5.lang.tt2.common.main",
+        "perl5.lang.tt2.frontend.main"
+      ],
+      "file_name": "lang.tt2-2026.1-EAP.22158.121.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2026.1-EAP-20869.38": 959168,
       "2026.1-EAP-21849.20": 967488,
+      "2026.1-EAP.22158.121": 986839,
       "2026.1-EAP.22158.46": 979293,
       "2026.2-EAP-646": 967363,
       "2026.2-EAP.1357": 979301,

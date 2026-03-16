@@ -2395,12 +2395,34 @@
       "since": "262.1357",
       "until": null,
       "compatibility_overrides": []
+    },
+    "986835": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/986835/lang.embedded-2026.1-EAP.22158.121.zip?updateId=986835&pluginId=11340&family=INTELLIJ",
+      "sha256": "+dksRmCKihH+4lQUy0nez7xQ5/6y7XESXtxPRJVc/RI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "intellij.platform.frontend",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.lang.embedded.common.main",
+        "perl5.plugin.backend.main"
+      ],
+      "file_name": "lang.embedded-2026.1-EAP.22158.121.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2026.1-EAP-20869.38": 959162,
       "2026.1-EAP-21849.20": 967483,
+      "2026.1-EAP.22158.121": 986835,
       "2026.1-EAP.22158.46": 979288,
       "2026.2-EAP-646": 967357,
       "2026.2-EAP.1357": 979296,
