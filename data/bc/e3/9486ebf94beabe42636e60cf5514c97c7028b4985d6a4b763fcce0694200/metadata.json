@@ -31,12 +31,44 @@
       "since": "203.0",
       "until": "222.*",
       "compatibility_overrides": []
+    },
+    "987494": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30102/987494/gitdiffbatch-1.0.1-SNAPSHOT.jar?updateId=987494&pluginId=30102&family=INTELLIJ",
+      "sha256": "MvolD2+Q632rYerGmfrAt+0jXwBoU+15riq9QmYWjis=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitdiffbatch-1.0.1-SNAPSHOT.jar",
+      "since": "203.0",
+      "until": "222.*",
+      "compatibility_overrides": []
+    },
+    "987831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30102/987831/gitdiffbatch-1.1.1-SNAPSHOT.jar?updateId=987831&pluginId=30102&family=INTELLIJ",
+      "sha256": "9IMcKQW5MJyBkyUPG4uc25UQyS1+qKcRjt+a7AbAJS8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitdiffbatch-1.1.1-SNAPSHOT.jar",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0-SNAPSHOT": 952909,
-      "1.1-SNAPSHOT": 952906
+      "1.0.1-SNAPSHOT": 987494,
+      "1.1-SNAPSHOT": 952906,
+      "1.1.1-SNAPSHOT": 987831
     }
   }
 }
