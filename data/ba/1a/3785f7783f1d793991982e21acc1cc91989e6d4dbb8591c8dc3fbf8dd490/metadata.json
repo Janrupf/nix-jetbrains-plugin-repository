@@ -29,12 +29,27 @@
       "since": "241.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "988422": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30604/988422/AIGit-1.2.1-plugin.zip?updateId=988422&pluginId=30604&family=INTELLIJ",
+      "sha256": "+LTPalwzdyuvMEtjhIBTDjaEUX30TxZP+sYS0/GCVuE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AIGit-1.2.1-plugin.zip",
+      "since": "231.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.2-SNAPSHOT": 982702,
-      "1.2.0": 983267
+      "1.2.0": 983267,
+      "1.2.1": 988422
     }
   }
 }
