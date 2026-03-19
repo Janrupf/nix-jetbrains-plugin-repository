@@ -26755,6 +26755,56 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "989715": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/989715/github-copilot-intellij-1.6.2-nightly.19110-242.zip?updateId=989715&pluginId=17718&family=INTELLIJ",
+      "sha256": "FiE7GAi/VC8E74HRyyCK7ACXIBopRwAnFEPJRcJf7a4=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "PythonCore",
+        "Pythonid",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "IdeaVIM",
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.github"
+      ],
+      "file_name": "github-copilot-intellij-1.6.2-nightly.19110-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "989716": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/989716/github-copilot-intellij-1.6.2-nightly.19110-243.zip?updateId=989716&pluginId=17718&family=INTELLIJ",
+      "sha256": "sRH/am72bQhAwku9wln3HqwlpYVz2xLR4200T/Y57GA=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore",
+        "Pythonid",
+        "org.jetbrains.kotlin",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.plugins.markdown",
+        "IdeaVIM",
+        "com.intellij.java",
+        "com.intellij.modules.vcs"
+      ],
+      "file_name": "github-copilot-intellij-1.6.2-nightly.19110-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -27854,7 +27904,9 @@
       "1.6.0-rc.6-242": 979316,
       "1.6.0-rc.6-243": 979315,
       "1.6.2-nightly.18931-242": 988423,
-      "1.6.2-nightly.18931-243": 988424
+      "1.6.2-nightly.18931-243": 988424,
+      "1.6.2-nightly.19110-242": 989715,
+      "1.6.2-nightly.19110-243": 989716
     },
     "stable": {
       "1.0.1": 142991,

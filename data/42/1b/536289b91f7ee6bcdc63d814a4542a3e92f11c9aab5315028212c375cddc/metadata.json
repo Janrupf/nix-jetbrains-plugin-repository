@@ -17,11 +17,28 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "989680": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28727/989680/armada-deep-intellij-plugin-2025.1.2.zip?updateId=989680&pluginId=28727&family=INTELLIJ",
+      "sha256": "t59jphGC2EStn9qIwGLIp+KQaaLY0uQY0ch72XFugA4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.github.davidseptimus.armada-syntax-highlighter"
+      ],
+      "optional_dependencies": [
+        "com.intellij.classic.ui"
+      ],
+      "file_name": "armada-deep-intellij-plugin-2025.1.2.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2025.1.1": 882967
+      "2025.1.1": 882967,
+      "2025.1.2": 989680
     }
   }
 }

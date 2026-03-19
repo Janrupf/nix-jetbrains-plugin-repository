@@ -46,13 +46,45 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "989653": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30583/989653/cursorj-0.9.0.zip?updateId=989653&pluginId=30583&family=INTELLIJ",
+      "sha256": "4TtbHzqIov5RCiWaLHoAao/ZK0fSEMhXu/RMZqBqDJw=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cursorj-0.9.0.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "989679": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30583/989679/cursorj-0.9.1.zip?updateId=989679&pluginId=30583&family=INTELLIJ",
+      "sha256": "MoF+Dt80bzk9RrWt14rAzttvVSDjfTaDyEHeW68CKyo=",
+      "channel": "beta",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cursorj-0.9.1.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "0.7.0": 984110,
       "0.8.0": 985272,
-      "0.8.1": 985342
+      "0.8.1": 985342,
+      "0.9.0": 989653,
+      "0.9.1": 989679
     }
   }
 }
