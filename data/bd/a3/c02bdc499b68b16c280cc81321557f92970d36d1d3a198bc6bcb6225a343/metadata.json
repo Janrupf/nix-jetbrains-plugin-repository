@@ -27,12 +27,42 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "990492": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30630/990492/flexible-haskell-2026.1.2.zip?updateId=990492&pluginId=30630&family=INTELLIJ",
+      "sha256": "lEsRhlB2SLKLwtSgt9wwoMKjiTI7URBDFHAoCnaElN4=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flexible-haskell-2026.1.2.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "990493": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30630/990493/flexible-haskell-2026.1.2.zip?updateId=990493&pluginId=30630&family=INTELLIJ",
+      "sha256": "lEsRhlB2SLKLwtSgt9wwoMKjiTI7URBDFHAoCnaElN4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flexible-haskell-2026.1.2.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "2026.1.2": 990492
+    },
     "stable": {
       "2026.1.0": 983562,
-      "2026.1.1": 989262
+      "2026.1.1": 989262,
+      "2026.1.2": 990493
     }
   }
 }

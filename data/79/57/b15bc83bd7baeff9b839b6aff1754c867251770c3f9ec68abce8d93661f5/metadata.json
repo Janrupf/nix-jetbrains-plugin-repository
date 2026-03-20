@@ -69,12 +69,30 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "990160": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28653/990160/app-mod-intellij-extension-1.1.0-SNAPSHOT-TEST.zip?updateId=990160&pluginId=28653&family=INTELLIJ",
+      "sha256": "RZAayj42XUYgwhe05hRBRnBstA2heBiykq3sWaDN6RE=",
+      "channel": "preview",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.idea.maven",
+        "com.intellij.platform.images",
+        "com.intellij.modules.platform",
+        "open-liberty.intellij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "app-mod-intellij-extension-1.1.0-SNAPSHOT-TEST.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "preview": {
       "1.0.1-SNAPSHOT": 915204,
-      "1.1.0-SNAPSHOT": 989080
+      "1.1.0-SNAPSHOT": 989080,
+      "1.1.0-SNAPSHOT-TEST": 990160
     },
     "stable": {
       "1.0.0": 875920,

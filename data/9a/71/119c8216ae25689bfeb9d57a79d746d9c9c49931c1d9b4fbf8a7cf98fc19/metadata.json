@@ -17,11 +17,62 @@
       "since": "252.25557",
       "until": null,
       "compatibility_overrides": []
+    },
+    "990200": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30711/990200/rescript-intellj-plugin-1.1.zip?updateId=990200&pluginId=30711&family=INTELLIJ",
+      "sha256": "egPuPudqczRPa1+UTWTh+0AL789H/L6Bd+UG+E4jEZs=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rescript-intellj-plugin-1.1.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "990480": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30711/990480/rescript-intellj-plugin-1.2.zip?updateId=990480&pluginId=30711&family=INTELLIJ",
+      "sha256": "vtlSIQoL+SJLKMq1eqMNGvcBFjnQyg4bly/dKi4XRfg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rescript-intellj-plugin-1.2.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "990484": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30711/990484/rescript-intellj-plugin-1.2.1.zip?updateId=990484&pluginId=30711&family=INTELLIJ",
+      "sha256": "wnT4v8IqQYM4YMMdQMnOeUxntoBPtUWdFPIoBcR2DGM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rescript-intellj-plugin-1.2.1.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 987047
+      "1.0-SNAPSHOT": 987047,
+      "1.1": 990200,
+      "1.2": 990480,
+      "1.2.1": 990484
     }
   }
 }

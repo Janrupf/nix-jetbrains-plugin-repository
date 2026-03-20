@@ -2,6 +2,20 @@
   "xml_id": "com.epochbyte.opencode-connector",
   "numeric_id": 30686,
   "updates": {
+    "988828": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30686/988828/opencode-connector-jetbrains-1.0.0.zip?updateId=988828&pluginId=30686&family=INTELLIJ",
+      "sha256": "ZTmwvSEHAk/QDZNf9NnvR7x5aFLFIVIDXX0EbZEkyUc=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "opencode-connector-jetbrains-1.0.0.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
     "989499": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30686/989499/opencode-connector-jetbrains-1.0.1.zip?updateId=989499&pluginId=30686&family=INTELLIJ",
       "sha256": "Hh84HDndqyQS80Btbx0SP0Wh4yecwVnHUdL5N7F1zAk=",
@@ -19,6 +33,7 @@
   },
   "channels": {
     "stable": {
+      "1.0.0": 988828,
       "1.0.1": 989499
     }
   }

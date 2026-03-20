@@ -418,6 +418,29 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
+    "989099": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26623/989099/idea-0.8.0.zip?updateId=989099&pluginId=26623&family=INTELLIJ",
+      "sha256": "nyLdiXtTVVSVVFeCLwaLeEtQQRBbrL66QKSnFIMbaQQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "JUnit",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-0.8.0.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.0",
+          "applies_until": "999.99999",
+          "compatible_since": "261.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
     "989503": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/26623/989503/idea-0.8.1.zip?updateId=989503&pluginId=26623&family=INTELLIJ",
       "sha256": "axifqaXHySK2819ypq31qTx+DtzFDl1U0i7QmU55elk=",
@@ -430,6 +453,22 @@
       ],
       "optional_dependencies": [],
       "file_name": "idea-0.8.1.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "990464": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26623/990464/idea-0.8.2.zip?updateId=990464&pluginId=26623&family=INTELLIJ",
+      "sha256": "/opbaueIJqIyNZ9SkOLRujbOHb24rKMOO+ftZ8pvGq8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.platform",
+        "JUnit",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-0.8.2.zip",
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
@@ -463,7 +502,9 @@
       "0.7.1": 915234,
       "0.7.2": 941690,
       "0.7.3": 942202,
-      "0.8.1": 989503
+      "0.8.0": 989099,
+      "0.8.1": 989503,
+      "0.8.2": 990464
     }
   }
 }

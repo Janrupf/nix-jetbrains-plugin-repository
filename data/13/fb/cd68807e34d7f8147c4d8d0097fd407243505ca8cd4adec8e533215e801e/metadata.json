@@ -1,6 +1,40 @@
 {
   "xml_id": "dev.multi.plugin",
   "numeric_id": 30672,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "989705": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30672/989705/Multi-0.0.1.zip?updateId=989705&pluginId=30672&family=INTELLIJ",
+      "sha256": "MlsERbC0opJwx/Dlj1DQ1MTaxGfGACmlJL3LQ4pMZYw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Multi-0.0.1.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "990541": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30672/990541/Multi-0.0.2.zip?updateId=990541&pluginId=30672&family=INTELLIJ",
+      "sha256": "XacCcdRRJ6oKhU5Urj3BxT4Bdybmqp8EGTgg0Mvczqc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Multi-0.0.2.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1": 989705,
+      "0.0.2": 990541
+    }
+  }
 }
