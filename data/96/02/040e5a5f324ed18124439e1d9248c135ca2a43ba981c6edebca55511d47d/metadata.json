@@ -2513,6 +2513,38 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "990806": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28011/990806/CodeGPT-Assistant-4.3.2.zip?updateId=990806&pluginId=28011&family=INTELLIJ",
+      "sha256": "EStVa1QXXxVBs7F0PNfivXpfNgwXmDGvGKrRPZnf0f0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "CodeGPT-Assistant-4.3.2.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "990817": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28011/990817/CodeGPT-Assistant-4.3.3.zip?updateId=990817&pluginId=28011&family=INTELLIJ",
+      "sha256": "pPPQIGk7F/X/oyVq/DjqEJQoWR6sKGWR2ZA+ma3akgo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "CodeGPT-Assistant-4.3.3.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2673,7 +2705,9 @@
       "4.2.8": 986446,
       "4.2.9": 986453,
       "4.3.0": 990603,
-      "4.3.1": 990633
+      "4.3.1": 990633,
+      "4.3.2": 990806,
+      "4.3.3": 990817
     }
   }
 }

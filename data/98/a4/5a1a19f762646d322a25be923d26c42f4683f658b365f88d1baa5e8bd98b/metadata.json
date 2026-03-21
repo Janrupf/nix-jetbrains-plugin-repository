@@ -1341,6 +1341,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "991046": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23289/991046/aspire-plugin-2.4.3-signed.zip?updateId=991046&pluginId=23289&family=INTELLIJ",
+      "sha256": "Rm7l5ZR+nkuHBszj4IXePKy3hdUuDn+mB4MCWVOZeuw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.aspire.core",
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "intellij.database.dialects.redis",
+        "intellij.clouds.docker.shared",
+        "rider.intellij.plugin.appender",
+        "com.intellij.diagram",
+        "intellij.clouds.docker",
+        "intellij.rider.plugins.appender/database",
+        "com.intellij.database"
+      ],
+      "file_name": "aspire-plugin-2.4.3-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1423,7 +1446,8 @@
       "2.3.1": 937036,
       "2.4.0": 947616,
       "2.4.1": 956592,
-      "2.4.2": 984509
+      "2.4.2": 984509,
+      "2.4.3": 991046
     }
   }
 }
