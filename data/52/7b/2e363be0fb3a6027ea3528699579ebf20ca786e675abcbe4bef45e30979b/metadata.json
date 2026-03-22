@@ -14,10 +14,25 @@
       "since": "212.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "991681": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21079/991681/Offensive360-IntelliJ-Plugin-1.0.0.zip?updateId=991681&pluginId=21079&family=INTELLIJ",
+      "sha256": "g5cBOCcccPSCf5qCuQ+JJEBt4T3nzBKfLXZQ56Xhyvg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Offensive360-IntelliJ-Plugin-1.0.0.zip",
+      "since": "221.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.1.0": 991681,
       "1.2.0": 327072
     }
   }
