@@ -15,11 +15,58 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "992997": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30809/992997/comment-consistency-plugin-1.0-SNAPSHOT.zip?updateId=992997&pluginId=30809&family=INTELLIJ",
+      "sha256": "uDY7DLOjZ1zxV2EHKdTg0x5GAoIWc8n8tk7hexVzXAE=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "comment-consistency-plugin-1.0-SNAPSHOT.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "993014": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30809/993014/comment-consistency-plugin-1.1.1.zip?updateId=993014&pluginId=30809&family=INTELLIJ",
+      "sha256": "sXD28IW1QtzS6XU1ByrPCxhpyJRMI4CjbnWsAMMkL1E=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "comment-consistency-plugin-1.1.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "993021": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30809/993021/comment-consistency-plugin-1.1.1.zip?updateId=993021&pluginId=30809&family=INTELLIJ",
+      "sha256": "Pohg/JJ6N+XE8Y/56tyKnGVD9c+cOrVuNVPyRBQtNY0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "comment-consistency-plugin-1.1.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.0-SNAPSHOT": 992997,
+      "1.1.1": 993014
+    },
     "stable": {
-      "1.0-SNAPSHOT": 990802
+      "1.0-SNAPSHOT": 990802,
+      "1.1.1": 993021
     }
   }
 }

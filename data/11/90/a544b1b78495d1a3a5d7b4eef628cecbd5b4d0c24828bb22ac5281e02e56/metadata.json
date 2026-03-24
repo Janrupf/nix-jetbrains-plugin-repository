@@ -31,12 +31,28 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "993004": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28189/993004/GitStat-3.0.0.jar?updateId=993004&pluginId=28189&family=INTELLIJ",
+      "sha256": "OiBpW1EWVbqsDjaEFMCRQpkGOhSAQDY9VhjNC5IqwfU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GitStat-3.0.0.jar",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.0": 827518,
-      "2.0.0": 878030
+      "2.0.0": 878030,
+      "3.0.0": 993004
     }
   }
 }

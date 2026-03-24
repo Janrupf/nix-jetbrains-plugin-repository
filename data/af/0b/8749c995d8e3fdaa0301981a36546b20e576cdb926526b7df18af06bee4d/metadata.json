@@ -52,13 +52,31 @@
       "since": "233.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "993012": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30666/993012/jetbrains-long-gui-0.3.1.zip?updateId=993012&pluginId=30666&family=INTELLIJ",
+      "sha256": "WZ8GgewVsRFPiZrN1gRXmnkCSZ2onCEmlDmUCD5+MW8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "jetbrains-long-gui-0.3.1.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.9": 985254,
       "0.2.9-fix": 987003,
-      "0.3": 987833
+      "0.3": 987833,
+      "0.3.1": 993012
     }
   }
 }

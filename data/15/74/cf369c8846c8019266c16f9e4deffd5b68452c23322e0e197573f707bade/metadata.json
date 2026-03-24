@@ -26855,6 +26855,56 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "992880": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/992880/github-copilot-intellij-1.7.0-rc.3-242.zip?updateId=992880&pluginId=17718&family=INTELLIJ",
+      "sha256": "2SUzx65Li6qTQWbfv2Gv0Cx4FPIz97/L+EzN4bP7FfU=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore",
+        "org.jetbrains.kotlin",
+        "Pythonid",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.vcs",
+        "com.intellij.java",
+        "IdeaVIM",
+        "Git4Idea"
+      ],
+      "file_name": "github-copilot-intellij-1.7.0-rc.3-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "992881": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/992881/github-copilot-intellij-1.7.0-rc.3-243.zip?updateId=992881&pluginId=17718&family=INTELLIJ",
+      "sha256": "Pk2UFkSJyLIxkpTIjxVGwuifVAflX1ShumxuXcNDt6A=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "Pythonid",
+        "PythonCore",
+        "org.jetbrains.plugins.github",
+        "com.intellij.java",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.yaml",
+        "IdeaVIM",
+        "Git4Idea"
+      ],
+      "file_name": "github-copilot-intellij-1.7.0-rc.3-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -27958,7 +28008,9 @@
       "1.6.2-nightly.19110-242": 989715,
       "1.6.2-nightly.19110-243": 989716,
       "1.7.0-rc.2-242": 990621,
-      "1.7.0-rc.2-243": 990622
+      "1.7.0-rc.2-243": 990622,
+      "1.7.0-rc.3-242": 992880,
+      "1.7.0-rc.3-243": 992881
     },
     "stable": {
       "1.0.1": 142991,
