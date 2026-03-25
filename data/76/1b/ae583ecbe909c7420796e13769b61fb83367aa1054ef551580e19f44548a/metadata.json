@@ -18,11 +18,47 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "994293": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30540/994293/spec-binder-intellij-plugin-0.3.0.zip?updateId=994293&pluginId=30540&family=INTELLIJ",
+      "sha256": "upIovWGqECqeMsDkRdMClZOJioYEkJHwmbVetRmvOok=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "spec-binder-intellij-plugin-0.3.0.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "994303": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30540/994303/spec-binder-intellij-plugin-0.3.3.zip?updateId=994303&pluginId=30540&family=INTELLIJ",
+      "sha256": "Fw+Tbpny/0Gal1U2jjVxTl300jTUWa8apvBN1a2VnMA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "JUnit"
+      ],
+      "file_name": "spec-binder-intellij-plugin-0.3.3.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.2": 983831
+      "0.2.2": 983831,
+      "0.3.0": 994293,
+      "0.3.3": 994303
     }
   }
 }
