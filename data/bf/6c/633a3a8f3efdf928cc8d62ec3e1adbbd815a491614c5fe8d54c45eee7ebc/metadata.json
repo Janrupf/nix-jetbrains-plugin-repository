@@ -1304,10 +1304,29 @@
       "since": "253.30387",
       "until": null,
       "compatibility_overrides": []
+    },
+    "995899": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7282/995899/LivePlugin.zip?updateId=995899&pluginId=7282&family=INTELLIJ",
+      "sha256": "Cxi7YuuPw6vXhGQllU2o1kXEjByAcvxWh12qXQ4jHXU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "org.jetbrains.plugins.github",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "LivePlugin.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 995899,
       "0.3 beta": 13693,
       "0.3.1 beta": 13703,
       "0.3.2 beta": 13909,

@@ -17,11 +17,28 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "995910": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30187/995910/DirenvLoader-1.0.1.zip?updateId=995910&pluginId=30187&family=INTELLIJ",
+      "sha256": "ACofVGcka/ijqbZlQt2PyhWhNzSeEbMHZz5RAxkNvqk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "DirenvLoader-1.0.1.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 957134
+      "1.0.0": 957134,
+      "1.0.1": 995910
     }
   }
 }

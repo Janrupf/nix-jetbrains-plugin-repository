@@ -2563,6 +2563,48 @@
       "since": "261.22158",
       "until": null,
       "compatibility_overrides": []
+    },
+    "994936": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11336/994936/lang.mojo-2026.1.zip?updateId=994936&pluginId=11336&family=INTELLIJ",
+      "sha256": "1zoR2Bb2MI0Ts0VvjC/1Y2Bmw3jMmXR9B9UFjpazNEc=",
+      "channel": "stable",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "com.perl5",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "perl5.lang.mojo.frontend.main",
+        "intellij.platform.frontend.split",
+        "perl5.lang.mojo.common.main",
+        "perl5.plugin.backend.main"
+      ],
+      "file_name": "lang.mojo-2026.1.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "994943": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11336/994943/lang.mojo-2026.2-EAP.2623.zip?updateId=994943&pluginId=11336&family=INTELLIJ",
+      "sha256": "jd4WSVhP214RaUtDq/o9TtyOlwLTS6uQLHfQZlsgTZ0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "intellij.platform.frontend",
+        "perl5.lang.mojo.frontend.main",
+        "perl5.lang.mojo.common.main",
+        "perl5.plugin.backend.main"
+      ],
+      "file_name": "lang.mojo-2026.2-EAP.2623.zip",
+      "since": "262.2623",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2576,6 +2618,7 @@
       "2026.2-EAP.1357": 979300,
       "2026.2-EAP.1996": 987292,
       "2026.2-EAP.2137": 989019,
+      "2026.2-EAP.2623": 994943,
       "203-SNAPSHOT.8": 96407,
       "203.3645.34-EAP-SNAPSHOT": 98113,
       "203.5784.10-EAP-SNAPSHOT": 102539,
@@ -2740,7 +2783,8 @@
       "2025.2": 817865,
       "2025.2.1": 842758,
       "2025.3": 909226,
-      "2025.3.1": 963685
+      "2025.3.1": 963685,
+      "2026.1": 994936
     }
   }
 }

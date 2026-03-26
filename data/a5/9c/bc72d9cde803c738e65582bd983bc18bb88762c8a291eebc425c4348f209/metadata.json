@@ -2948,6 +2948,56 @@
       "since": "261.22158",
       "until": null,
       "compatibility_overrides": []
+    },
+    "994935": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11338/994935/lang.mason.mason2-2026.1.zip?updateId=994935&pluginId=11338&family=INTELLIJ",
+      "sha256": "UnMnR6r96LSuv9VGx0r0/JOvajqYcfp2AyvyOLd426o=",
+      "channel": "stable",
+      "dependencies": [
+        "perl5.lang.mason.framework.common.main",
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang",
+        "com.perl5.lang.mason.framework",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.mason.mason2.frontend.main",
+        "perl5.lang.mason.framework.backend.main",
+        "perl5.lang.mason.framework.frontend.main",
+        "intellij.platform.frontend.split",
+        "perl5.lang.mason.mason2.common.main",
+        "perl5.lang.mason.framework.frontend.split.main",
+        "perl5.plugin.backend.main"
+      ],
+      "file_name": "lang.mason.mason2-2026.1.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "994942": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11338/994942/lang.mason.mason2-2026.2-EAP.2623.zip?updateId=994942&pluginId=11338&family=INTELLIJ",
+      "sha256": "YKIYhwjijEKNbaYgh4zp7//DEmFGtjvzDKlbWZeyobc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "perl5.plugin.common.main",
+        "perl5.lang.mason.framework.common.main",
+        "com.intellij.modules.lang",
+        "com.perl5.lang.mason.framework"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.mason.mason2.common.main",
+        "intellij.platform.frontend.split",
+        "perl5.plugin.backend.main",
+        "perl5.lang.mason.framework.frontend.split.main",
+        "perl5.lang.mason.framework.backend.main",
+        "perl5.lang.mason.mason2.frontend.main",
+        "perl5.lang.mason.framework.frontend.main"
+      ],
+      "file_name": "lang.mason.mason2-2026.2-EAP.2623.zip",
+      "since": "262.2623",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2989,6 +3039,7 @@
       "2026.2-EAP.1357": 979299,
       "2026.2-EAP.1996": 987291,
       "2026.2-EAP.2137": 989018,
+      "2026.2-EAP.2623": 994942,
       "203-SNAPSHOT.7": 95281,
       "203-SNAPSHOT.8": 96406,
       "212-SNAPSHOT": 113165,
@@ -3146,7 +3197,8 @@
       "2025.2": 817864,
       "2025.2.1": 842757,
       "2025.3": 909225,
-      "2025.3.1": 963684
+      "2025.3.1": 963684,
+      "2026.1": 994935
     }
   }
 }

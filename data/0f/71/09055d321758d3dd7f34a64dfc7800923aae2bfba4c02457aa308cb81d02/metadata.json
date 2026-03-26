@@ -59,10 +59,30 @@
       "since": "253.28294",
       "until": null,
       "compatibility_overrides": []
+    },
+    "995500": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30395/995500/plugin.zip?updateId=995500&pluginId=30395&family=INTELLIJ",
+      "sha256": "kUtHXs/Qa1MxjjxX2FrRS+mTwyOlUnv8pl1lSjKr6nc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "OtpDiagnostic.shared",
+        "intellij.platform.kernel.backend",
+        "com.jetbrains.codeWithMe",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "plugin.zip",
+      "since": "253.28294",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.12": 995500,
       "1.0.7": 969466,
       "1.0.8": 974027,
       "1.0.9.1": 983846,

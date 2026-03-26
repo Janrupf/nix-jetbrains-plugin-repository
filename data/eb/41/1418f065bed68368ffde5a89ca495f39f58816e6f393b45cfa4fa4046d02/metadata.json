@@ -2643,6 +2643,50 @@
       "since": "261.22158",
       "until": null,
       "compatibility_overrides": []
+    },
+    "994932": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11337/994932/lang.mason.framework-2026.1.zip?updateId=994932&pluginId=11337&family=INTELLIJ",
+      "sha256": "i3PkEz+vA81vb55HpEYYsBZs5tdKW7aT2NK02ApHZW0=",
+      "channel": "stable",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.mason.framework.frontend.main",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend",
+        "perl5.plugin.frontend.main",
+        "intellij.platform.frontend.split",
+        "perl5.plugin.frontend.split.main",
+        "perl5.lang.mason.framework.common.main"
+      ],
+      "file_name": "lang.mason.framework-2026.1.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "994940": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11337/994940/lang.mason.framework-2026.2-EAP.2623.zip?updateId=994940&pluginId=11337&family=INTELLIJ",
+      "sha256": "zjeZuB/E4/1upFGgay+JkLhjGjxwsPiJc2cCGg1uSv4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "perl5.plugin.frontend.split.main",
+        "perl5.lang.mason.framework.common.main",
+        "perl5.lang.mason.framework.frontend.main",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend",
+        "perl5.plugin.frontend.main"
+      ],
+      "file_name": "lang.mason.framework-2026.2-EAP.2623.zip",
+      "since": "262.2623",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2661,6 +2705,7 @@
       "2026.2-EAP.1357": 979297,
       "2026.2-EAP.1996": 987289,
       "2026.2-EAP.2137": 989016,
+      "2026.2-EAP.2623": 994940,
       "203-SNAPSHOT": 89070,
       "203-SNAPSHOT.1": 89361,
       "203-SNAPSHOT.8": 96404,
@@ -2835,6 +2880,7 @@
       "2025.2.1": 842755,
       "2025.3": 909223,
       "2025.3.1": 963682,
+      "2026.1": 994932,
       "213.3": 148309
     }
   }

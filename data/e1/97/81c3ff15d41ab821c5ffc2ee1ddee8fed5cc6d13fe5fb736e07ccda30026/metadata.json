@@ -2479,6 +2479,48 @@
       "since": "261.22158",
       "until": null,
       "compatibility_overrides": []
+    },
+    "994931": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/994931/lang.embedded-2026.1.zip?updateId=994931&pluginId=11340&family=INTELLIJ",
+      "sha256": "kRMqJhWGs6/D+hySzl1TjpmlJhAhrThIotE2Dhkrkvk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.lang.embedded.common.main"
+      ],
+      "file_name": "lang.embedded-2026.1.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "994939": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/994939/lang.embedded-2026.2-EAP.2623.zip?updateId=994939&pluginId=11340&family=INTELLIJ",
+      "sha256": "HeEt4OeE7lB83vwvwHy9q/fP+PhdKtPrsYqQjyKychA=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "perl5.lang.embedded.common.main",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "lang.embedded-2026.2-EAP.2623.zip",
+      "since": "262.2623",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2492,6 +2534,7 @@
       "2026.2-EAP.1357": 979296,
       "2026.2-EAP.1996": 987288,
       "2026.2-EAP.2137": 989015,
+      "2026.2-EAP.2623": 994939,
       "203-SNAPSHOT.8": 96403,
       "203.3645.34-EAP-SNAPSHOT": 98109,
       "203.5784.10-EAP-SNAPSHOT": 102535,
@@ -2658,7 +2701,8 @@
       "2025.2": 817861,
       "2025.2.1": 842754,
       "2025.3": 909222,
-      "2025.3.1": 963681
+      "2025.3.1": 963681,
+      "2026.1": 994931
     }
   }
 }
