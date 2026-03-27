@@ -43,13 +43,28 @@
       "since": "252.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "996387": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25737/996387/Backlog-2025.3.0-signed.zip?updateId=996387&pluginId=25737&family=INTELLIJ",
+      "sha256": "9LqsjqiKuT2fMTPSfRNiHdUlVRthDqKu1j86EQqW8b8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.tasks",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Backlog-2025.3.0-signed.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2024.2.2": 628210,
       "2024.3.0": 635537,
-      "2025.2.0": 827558
+      "2025.2.0": 827558,
+      "2025.3.0": 996387
     }
   }
 }

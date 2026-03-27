@@ -28,11 +28,32 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "996808": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30402/996808/SpatialPlugin_Global_-debug-local_test-2025-0.10.1-a8993b9.zip?updateId=996808&pluginId=30402&family=INTELLIJ",
+      "sha256": "KaKhMNU79QjJ5g5ji0XshuhFdowSHGn2FGwc3VDlUJA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.kotlin",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SpatialPlugin_Global_-debug-local_test-2025-0.10.1-a8993b9.zip",
+      "since": "250.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.10.0": 969848
+      "0.10.0": 969848,
+      "0.10.1": 996808
     }
   }
 }

@@ -54,6 +54,19 @@
       "until": null,
       "compatibility_overrides": []
     },
+    "969771": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29915/969771/soapdesk-2026.0.0.7-beta-signed.zip?updateId=969771&pluginId=29915&family=INTELLIJ",
+      "sha256": "FEc8H+Ns46T3UATZqrYyqfRAHlqRZN7QrFv9qO93jqE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "soapdesk-2026.0.0.7-beta-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
     "994953": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29915/994953/soapdesk-2026.0.0.8-beta-signed.zip?updateId=994953&pluginId=29915&family=INTELLIJ",
       "sha256": "cNGvegLMMRRyaqibH0ugSxm8U3IzJFt37EhfT+UHWCU=",
@@ -66,15 +79,46 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "997629": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29915/997629/soapdesk-2026.0.0.9-beta-signed.zip?updateId=997629&pluginId=29915&family=INTELLIJ",
+      "sha256": "BBmfnzpg4Cs8GYrjlWdwb9LTZXaKl3c5VGzQGSo03Vk=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "soapdesk-2026.0.0.9-beta-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "997638": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29915/997638/soapdesk-2026.0.0.9-beta-signed.zip?updateId=997638&pluginId=29915&family=INTELLIJ",
+      "sha256": "BBmfnzpg4Cs8GYrjlWdwb9LTZXaKl3c5VGzQGSo03Vk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "soapdesk-2026.0.0.9-beta-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "dev": {
+      "2026.0.0.9-beta": 997629
+    },
     "stable": {
       "2026.0.0.1-beta": 940661,
       "2026.0.0.4-beta": 958046,
       "2026.0.0.5-beta": 960750,
       "2026.0.0.6-beta": 963187,
-      "2026.0.0.8-beta": 994953
+      "2026.0.0.7-beta": 969771,
+      "2026.0.0.8-beta": 994953,
+      "2026.0.0.9-beta": 997638
     }
   }
 }

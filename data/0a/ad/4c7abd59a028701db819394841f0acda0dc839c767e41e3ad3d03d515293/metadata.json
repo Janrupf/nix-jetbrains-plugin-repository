@@ -2934,9 +2934,30 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "997705": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16825/997705/Paradox-Language-Support-2.1.7-dev-1.zip?updateId=997705&pluginId=16825&family=INTELLIJ",
+      "sha256": "SIeZV4dqabFKX6a5lns9UVqxWgGVfBRE1pKFKPqv6W4=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.platform.images",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "cn.yiiguxing.plugin.translate",
+        "org.intellij.plugins.markdown",
+        "com.intellij.diagram"
+      ],
+      "file_name": "Paradox-Language-Support-2.1.7-dev-1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "dev": {
+      "2.1.7-dev-1": 997705
+    },
     "stable": {
       "0.10.1": 333611,
       "0.10.2": 335084,

@@ -27005,6 +27005,56 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "996794": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/996794/github-copilot-intellij-1.7.0-243.zip?updateId=996794&pluginId=17718&family=INTELLIJ",
+      "sha256": "YPFa51qnWGOxyFsbBWLam4gM/5XmE+3Ubi9+6GCx7us=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.intellij.plugins.markdown",
+        "IdeaVIM",
+        "Pythonid",
+        "org.jetbrains.plugins.github",
+        "com.intellij.java",
+        "PythonCore",
+        "org.jetbrains.kotlin",
+        "Git4Idea",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "github-copilot-intellij-1.7.0-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "997697": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/997697/github-copilot-intellij-1.7.0-242.zip?updateId=997697&pluginId=17718&family=INTELLIJ",
+      "sha256": "HNKAhTQSIq2WpjVfPBX5qG7XfiocstJoEA4yv7flNpM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "Pythonid",
+        "PythonCore",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java",
+        "Git4Idea",
+        "IdeaVIM"
+      ],
+      "file_name": "github-copilot-intellij-1.7.0-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -28301,7 +28351,9 @@
       "1.6.0-242": 980924,
       "1.6.0-243": 980923,
       "1.6.1-242": 982717,
-      "1.6.1-243": 982712
+      "1.6.1-243": 982712,
+      "1.7.0-242": 997697,
+      "1.7.0-243": 996794
     }
   }
 }
