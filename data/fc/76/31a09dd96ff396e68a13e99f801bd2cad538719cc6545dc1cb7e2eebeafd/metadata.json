@@ -29,12 +29,27 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "999388": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29636/999388/quick-commands-plugin-1.3.1-signed.zip?updateId=999388&pluginId=29636&family=INTELLIJ",
+      "sha256": "kkiklcsc9f/UZDeUjfwLA0Jv8s47GVCGK0nXnJMQO10=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "quick-commands-plugin-1.3.1-signed.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.0": 925251,
-      "1.1.2": 928136
+      "1.1.2": 928136,
+      "1.3.1": 999388
     }
   }
 }

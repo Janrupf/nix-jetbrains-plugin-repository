@@ -2,20 +2,6 @@
   "xml_id": "com.dependencyscreamer",
   "numeric_id": 30914,
   "updates": {
-    "995894": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30914/995894/dependency-screamer-1.0.0.zip?updateId=995894&pluginId=30914&family=INTELLIJ",
-      "sha256": "BxCZqCS4L5npNKzmayJneJaz3ITPm/MN3v8T7B7LTAw=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.xml",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "dependency-screamer-1.0.0.zip",
-      "since": "243.0",
-      "until": "251.*",
-      "compatibility_overrides": []
-    },
     "996821": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30914/996821/dependency-screamer-1.0.1.zip?updateId=996821&pluginId=30914&family=INTELLIJ",
       "sha256": "jyvDyjbbSoJnbbDOS8wY/xpD6GMMCebdtXy7oXpLe8g=",
@@ -29,12 +15,26 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "999413": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30914/999413/dependency-screamer-1.1.0.zip?updateId=999413&pluginId=30914&family=INTELLIJ",
+      "sha256": "NptuEMDEQyd+1+8YDDuGJ8w4RQLaXJ5IYpBj3vdgdQw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dependency-screamer-1.1.0.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 995894,
-      "1.0.1": 996821
+      "1.0.1": 996821,
+      "1.1.0": 999413
     }
   }
 }

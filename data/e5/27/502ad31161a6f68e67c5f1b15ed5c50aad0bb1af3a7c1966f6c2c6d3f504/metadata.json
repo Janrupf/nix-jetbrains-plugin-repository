@@ -387,6 +387,26 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "999123": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7861/999123/EnvFile-5.0.1.zip?updateId=999123&pluginId=7861&family=INTELLIJ",
+      "sha256": "MDJ+L1tZsAw0+rPKOFoRbGwcEKzDgWerzKqRMxJvNIg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ruby",
+        "org.intellij.scala",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.go",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "EnvFile-5.0.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -407,7 +427,8 @@
       "3.4.1": 232809,
       "3.4.2": 458756,
       "4.0.0": 933011,
-      "5.0.0": 941485
+      "5.0.0": 941485,
+      "5.0.1": 999123
     }
   }
 }
