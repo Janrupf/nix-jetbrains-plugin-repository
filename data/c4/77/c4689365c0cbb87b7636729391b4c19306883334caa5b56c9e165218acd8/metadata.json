@@ -145,6 +145,24 @@
       "since": "241.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "999916": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30716/999916/korext-jetbrains-0.8.2.zip?updateId=999916&pluginId=30716&family=INTELLIJ",
+      "sha256": "mYifdSsobreDqGvVimaVd8XWS9Entq8GaSooZ2+jlNo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "com.intellij.java",
+        "JavaScript",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "korext-jetbrains-0.8.2.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -156,7 +174,8 @@
       "0.6.0": 990249,
       "0.7.0": 990463,
       "0.8.0": 999429,
-      "0.8.1": 999445
+      "0.8.1": 999445,
+      "0.8.2": 999916
     }
   }
 }

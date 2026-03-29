@@ -33,12 +33,46 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1000240": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30187/1000240/DirenvLoader-1.0.3.zip?updateId=1000240&pluginId=30187&family=INTELLIJ",
+      "sha256": "9rnrpkb9bMfsnBQiPMkihBVCTEE9fXFR7PyZpcEyqvo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "DirenvLoader-1.0.3.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1000542": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30187/1000542/DirenvLoader-1.0.4.zip?updateId=1000542&pluginId=30187&family=INTELLIJ",
+      "sha256": "TA+KfCYVvzAqFApMDk55f7yXHkzPDBQcfqyfyGJRezQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "DirenvLoader-1.0.4.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 957134,
-      "1.0.1": 995910
+      "1.0.1": 995910,
+      "1.0.3": 1000240,
+      "1.0.4": 1000542
     }
   }
 }
