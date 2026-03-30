@@ -16,11 +16,43 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1000700": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30956/1000700/open-project-everywhere-2026.03.29.zip?updateId=1000700&pluginId=30956&family=INTELLIJ",
+      "sha256": "Jj39TH5NjpxgZSbC/3DQo/RFqidu9c+J4xJSFTpp0UU=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.github",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "open-project-everywhere-2026.03.29.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1001265": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30956/1001265/open-project-everywhere-2026.03.30.zip?updateId=1001265&pluginId=30956&family=INTELLIJ",
+      "sha256": "gzDPvR4AlItpYYyFOZunPkHE08dR5JaHot9fsdEe3u8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.github",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "open-project-everywhere-2026.03.30.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.03.28": 999921
+      "2026.03.28": 999921,
+      "2026.03.29": 1000700,
+      "2026.03.30": 1001265
     }
   }
 }

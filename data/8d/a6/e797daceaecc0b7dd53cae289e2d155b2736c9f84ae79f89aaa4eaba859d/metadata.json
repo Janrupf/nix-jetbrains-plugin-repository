@@ -2,20 +2,6 @@
   "xml_id": "me.vennen.ansible-lsp",
   "numeric_id": 30908,
   "updates": {
-    "995466": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30908/995466/ansible-lsp-1.0-SNAPSHOT.zip?updateId=995466&pluginId=30908&family=INTELLIJ",
-      "sha256": "beg/lSxoRBOYomecZMwNOLexaSXlXfksj65KbdhzR3I=",
-      "channel": "stable",
-      "dependencies": [
-        "org.jetbrains.plugins.yaml",
-        "com.redhat.devtools.lsp4ij"
-      ],
-      "optional_dependencies": [],
-      "file_name": "ansible-lsp-1.0-SNAPSHOT.zip",
-      "since": "252.25557",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "995491": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30908/995491/ansible-lsp-1.0.0.zip?updateId=995491&pluginId=30908&family=INTELLIJ",
       "sha256": "zlAHC1LtrPzLYhoRbs15REF9jnofK0T0riqdDjwyRVk=",
@@ -31,12 +17,28 @@
       "since": "252.25557",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1001225": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30908/1001225/ansible-lsp-1.1.0.zip?updateId=1001225&pluginId=30908&family=INTELLIJ",
+      "sha256": "9NhVri1R2ijtRW7NrTFxaqoD5ItXfO77gxrqWYdrOPc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ansible-lsp-1.1.0.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 995466,
-      "1.0.0": 995491
+      "1.0.0": 995491,
+      "1.1.0": 1001225
     }
   }
 }

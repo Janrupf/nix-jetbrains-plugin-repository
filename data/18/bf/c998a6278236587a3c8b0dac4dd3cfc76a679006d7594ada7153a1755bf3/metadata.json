@@ -1137,6 +1137,38 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1000702": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28906/1000702/DeepSeek-Coder-4.6.9.zip?updateId=1000702&pluginId=28906&family=INTELLIJ",
+      "sha256": "zwt96lK58WUbVV0ATymS64A649GTbXCufK4+US2lgEY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Coder-4.6.9.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1000819": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28906/1000819/DeepSeek-Coder-4.6.10.zip?updateId=1000819&pluginId=28906&family=INTELLIJ",
+      "sha256": "rSzGmkqZ7gNH1SsuH/fLDycDOOXFeXkQPtABBEHm1MU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Coder-4.6.10.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1205,13 +1237,15 @@
       "4.5.9": 992233,
       "4.6.0": 996822,
       "4.6.1": 997700,
+      "4.6.10": 1000819,
       "4.6.2": 997722,
       "4.6.3": 997940,
       "4.6.4": 998520,
       "4.6.5": 1000267,
       "4.6.6": 1000293,
       "4.6.7": 1000525,
-      "4.6.8": 1000540
+      "4.6.8": 1000540,
+      "4.6.9": 1000702
     }
   }
 }

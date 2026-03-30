@@ -29,12 +29,27 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1001251": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30914/1001251/dependency-screamer-1.1.1.zip?updateId=1001251&pluginId=30914&family=INTELLIJ",
+      "sha256": "iioRTW2vVRaic0CJGUzBX80HgTKhiQFpZ2OQ0Z6O1uI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dependency-screamer-1.1.1.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 996821,
-      "1.1.0": 999413
+      "1.1.0": 999413,
+      "1.1.1": 1001251
     }
   }
 }

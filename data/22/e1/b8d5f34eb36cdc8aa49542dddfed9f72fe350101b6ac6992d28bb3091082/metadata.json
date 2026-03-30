@@ -1,6 +1,24 @@
 {
   "xml_id": "com.agentprobe.plugin",
   "numeric_id": 30953,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1001179": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30953/1001179/agentprobe-intellij-5.0.0.zip?updateId=1001179&pluginId=30953&family=INTELLIJ",
+      "sha256": "OUakDRBSJ/RU3XohQnBIy8AAk6pUPYTUe30W2nMcRa4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "agentprobe-intellij-5.0.0.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 1001179
+    }
+  }
 }
