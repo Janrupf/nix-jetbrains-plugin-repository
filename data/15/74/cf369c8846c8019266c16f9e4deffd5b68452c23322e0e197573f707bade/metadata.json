@@ -27105,6 +27105,106 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1001464": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1001464/github-copilot-intellij-1.7.1-rc.1-243.zip?updateId=1001464&pluginId=17718&family=INTELLIJ",
+      "sha256": "DdL3OjCAsBGAGVfLR3/EAUKA69opYV0ewIII/dWqVhg=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.github",
+        "Git4Idea",
+        "Pythonid",
+        "com.intellij.java",
+        "IdeaVIM",
+        "org.jetbrains.plugins.yaml",
+        "PythonCore"
+      ],
+      "file_name": "github-copilot-intellij-1.7.1-rc.1-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1001465": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1001465/github-copilot-intellij-1.7.1-rc.1-242.zip?updateId=1001465&pluginId=17718&family=INTELLIJ",
+      "sha256": "J6JkPdDJafkTP+RI2qOm0wsDEo1zhxx1MchKJRTvBNc=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal",
+        "Pythonid",
+        "com.intellij.java",
+        "IdeaVIM",
+        "org.jetbrains.kotlin",
+        "PythonCore"
+      ],
+      "file_name": "github-copilot-intellij-1.7.1-rc.1-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1001590": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1001590/github-copilot-intellij-1.7.1-243.zip?updateId=1001590&pluginId=17718&family=INTELLIJ",
+      "sha256": "YXW1pRQ2V5bVh/0pTMuAeVsRJ36mPDYh26tOAfoFpVU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "com.intellij.java",
+        "org.jetbrains.plugins.github",
+        "Pythonid",
+        "org.jetbrains.plugins.yaml",
+        "IdeaVIM",
+        "Git4Idea",
+        "PythonCore"
+      ],
+      "file_name": "github-copilot-intellij-1.7.1-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1001591": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1001591/github-copilot-intellij-1.7.1-242.zip?updateId=1001591&pluginId=17718&family=INTELLIJ",
+      "sha256": "wCGNVAHdSRdPBVfmz2Od/f0XUzz87XfDIiOcn8HpHJ4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.github",
+        "com.intellij.modules.vcs",
+        "Pythonid",
+        "com.intellij.java",
+        "IdeaVIM",
+        "Git4Idea",
+        "org.jetbrains.kotlin",
+        "PythonCore"
+      ],
+      "file_name": "github-copilot-intellij-1.7.1-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -28216,7 +28316,9 @@
       "1.7.0-rc.4-242": 993936,
       "1.7.0-rc.4-243": 993935,
       "1.7.1-nightly.19730-242": 998891,
-      "1.7.1-nightly.19730-243": 998892
+      "1.7.1-nightly.19730-243": 998892,
+      "1.7.1-rc.1-242": 1001465,
+      "1.7.1-rc.1-243": 1001464
     },
     "stable": {
       "1.0.1": 142991,
@@ -28405,7 +28507,9 @@
       "1.6.1-242": 982717,
       "1.6.1-243": 982712,
       "1.7.0-242": 997697,
-      "1.7.0-243": 996794
+      "1.7.0-243": 996794,
+      "1.7.1-242": 1001591,
+      "1.7.1-243": 1001590
     }
   }
 }

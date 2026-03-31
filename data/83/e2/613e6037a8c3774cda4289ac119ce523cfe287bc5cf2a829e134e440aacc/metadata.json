@@ -15,11 +15,26 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "1003075": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30981/1003075/clauditor-0.2.0.zip?updateId=1003075&pluginId=30981&family=INTELLIJ",
+      "sha256": "+/PkRl+/SRdVNMUD5jtPGTQD70UNQ+XH9467ZYKLp9Y=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "clauditor-0.2.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1001236
+      "0.1.0": 1001236,
+      "0.2.0": 1003075
     }
   }
 }
