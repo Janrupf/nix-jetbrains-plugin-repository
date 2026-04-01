@@ -14,9 +14,25 @@
       "since": "251.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1003628": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30885/1003628/figbridge-1.0.1.zip?updateId=1003628&pluginId=30885&family=INTELLIJ",
+      "sha256": "oZkJYtCRZ1St604qwuw3QnjWw82pNwLMb637LgV+K7w=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "figbridge-1.0.1.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.0.1": 1003628
+    },
     "stable": {
       "1.0.1": 993806
     }

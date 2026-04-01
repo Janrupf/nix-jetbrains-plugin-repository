@@ -970,6 +970,44 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1003176": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/1003176/hexana-0.7.zip?updateId=1003176&pluginId=29090&family=INTELLIJ",
+      "sha256": "87QeXdEj+GtQoKdHJl9NwYBuKW7e4kpasTxsyuWnj+o=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.mcpServer",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hexana-0.7.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1004446": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/1004446/hexana-0.7.57-nightly.zip?updateId=1004446&pluginId=29090&family=INTELLIJ",
+      "sha256": "0IGSP9Bgw61AV9oINAwoCH0pZZo1g7x7P7G3F6OyfSk=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.mcpServer",
+        "intellij.platform.compose",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hexana-0.7.57-nightly.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1018,7 +1056,8 @@
       "0.6.53-nightly": 999444,
       "0.6.54-nightly": 1000509,
       "0.6.55-nightly": 1001257,
-      "0.6.56-nightly": 1003079
+      "0.6.56-nightly": 1003079,
+      "0.7.57-nightly": 1004446
     },
     "stable": {
       "0.1-SNAPSHOT": 896430,
@@ -1026,7 +1065,8 @@
       "0.3": 909028,
       "0.4": 913411,
       "0.5": 936781,
-      "0.6": 988467
+      "0.6": 988467,
+      "0.7": 1003176
     }
   }
 }

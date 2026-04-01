@@ -381,9 +381,26 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1003786": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24163/1003786/CodeReadingMarkNotePro-3.7.2.zip?updateId=1003786&pluginId=24163&family=INTELLIJ",
+      "sha256": "Jxx/nN9264dgbMgBudmCspDYA0sNiswB1XrYqpU+H48=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CodeReadingMarkNotePro-3.7.2.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "3.7.2": 1003786
+    },
     "stable": {
       "2.0.0": 851345,
       "2020.2": 523856,

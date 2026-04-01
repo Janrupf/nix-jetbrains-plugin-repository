@@ -198,6 +198,29 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1003631": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29509/1003631/intellij-mcp-1.9.0.zip?updateId=1003631&pluginId=29509&family=INTELLIJ",
+      "sha256": "4tVUtOnfYt+tFreY4rE7z2xCGX07M/Z9UowWWNUUh2k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.rust",
+        "Dart",
+        "PythonCore",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.vue"
+      ],
+      "file_name": "intellij-mcp-1.9.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -211,7 +234,8 @@
       "1.5.0": 973506,
       "1.6.0": 980867,
       "1.7.0": 990376,
-      "1.8.0": 992872
+      "1.8.0": 992872,
+      "1.9.0": 1003631
     }
   }
 }

@@ -128,12 +128,41 @@
       "since": "231.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1004101": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29773/1004101/karate-debug-intellij-0.2.3.zip?updateId=1004101&pluginId=29773&family=INTELLIJ",
+      "sha256": "z7P8NQx6FspRHGF+1NRY+eqQE0hTUOC0CcJA/vPVM1Y=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "karate-debug-intellij-0.2.3.zip",
+      "since": "231.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1004254": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29773/1004254/karate-debug-intellij-0.2.3.zip?updateId=1004254&pluginId=29773&family=INTELLIJ",
+      "sha256": "Vfr2jWuMUNVfR7ybJnIE2rvqo+1oDAMfzA7w+H2yONs=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "karate-debug-intellij-0.2.3.zip",
+      "since": "231.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "0.2.0": 954247,
-      "0.2.2": 982077
+      "0.2.2": 982077,
+      "0.2.3": 1004254
     },
     "stable": {
       "0.1.2": 934054,
@@ -142,7 +171,8 @@
       "0.1.5": 939805,
       "0.2.0": 954244,
       "0.2.1": 969820,
-      "0.2.2": 982072
+      "0.2.2": 982072,
+      "0.2.3": 1004101
     }
   }
 }

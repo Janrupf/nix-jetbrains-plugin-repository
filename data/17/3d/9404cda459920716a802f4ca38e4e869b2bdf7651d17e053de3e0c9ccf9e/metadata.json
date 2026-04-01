@@ -1746,6 +1746,28 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1003171": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1003171/writerside-2026.03.8694.zip?updateId=1003171&pluginId=20158&family=INTELLIJ",
+      "sha256": "eHSCWlIyDp7OFVnM/cxfV+sYKCQBtw8JyIJ2HHIeXxw=",
+      "channel": "nightly",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.writerside",
+        "org.jetbrains.plugins.textmate",
+        "tanvd.grazi"
+      ],
+      "file_name": "writerside-2026.03.8694.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1794,7 +1816,8 @@
       "2025.04.8412": 709850,
       "2025.04.8426": 728161,
       "2025.11.8530": 896645,
-      "2026.02.8644": 954044
+      "2026.02.8644": 954044,
+      "2026.03.8694": 1003171
     },
     "stable": {
       "2023.03.3401": 319402,

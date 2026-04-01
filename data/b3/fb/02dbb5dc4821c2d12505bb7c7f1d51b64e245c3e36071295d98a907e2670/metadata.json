@@ -290,19 +290,34 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "997720": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14815/997720/JsonEditor.jar?updateId=997720&pluginId=14815&family=INTELLIJ",
-      "sha256": "lTIIRjfPZz56/z8hAZtC/gK5Znx4bpSCKSrCUsNzMB0=",
+    "1003154": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14815/1003154/JsonEditor-2.9.3.zip?updateId=1003154&pluginId=14815&family=INTELLIJ",
+      "sha256": "09e59xd/rQIDBlupZE6jh4+YWJ8JZg+LKz1hsZpwnno=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JsonEditor-2.9.3.zip",
+      "since": "232.*",
+      "until": "261.22158.277",
+      "compatibility_overrides": []
+    },
+    "1003162": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14815/1003162/JsonEditor-2.9.4.zip?updateId=1003162&pluginId=14815&family=INTELLIJ",
+      "sha256": "Xnx2oC87LIWOIkUeSuAXMQmtFw8u4jXDjwmIU4ZMGaw=",
+      "channel": "stable",
+      "dependencies": [
         "com.intellij.modules.platform",
+        "com.intellij.modules.java",
         "com.intellij.modules.json"
       ],
       "optional_dependencies": [],
-      "file_name": "JsonEditor.jar",
-      "since": "243.*",
-      "until": null,
+      "file_name": "JsonEditor-2.9.4.zip",
+      "since": "232.9559.62",
+      "until": "261.22158.277",
       "compatibility_overrides": []
     }
   },
@@ -329,7 +344,8 @@
       "2.8.4": 105183,
       "2.9": 107166,
       "2.9.1": 107483,
-      "2.9.2": 997720
+      "2.9.3": 1003154,
+      "2.9.4": 1003162
     }
   }
 }

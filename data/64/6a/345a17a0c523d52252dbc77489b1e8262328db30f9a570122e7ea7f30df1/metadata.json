@@ -45,10 +45,26 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "1003373": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30265/1003373/LocalizePipe-0.0.10-signed.zip?updateId=1003373&pluginId=30265&family=INTELLIJ",
+      "sha256": "637FVlDQmpoiTqrXR70j2NXIlx1feP3SIZI7oFnFbcU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.compose",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LocalizePipe-0.0.10-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.0.10": 1003373,
       "0.0.8": 961006,
       "0.0.9": 961521
     }
