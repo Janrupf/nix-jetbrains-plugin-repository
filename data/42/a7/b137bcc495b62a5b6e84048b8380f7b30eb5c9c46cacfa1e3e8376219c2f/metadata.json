@@ -15,11 +15,43 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1004814": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30965/1004814/function-hcl-0.2.0-rc7.zip?updateId=1004814&pluginId=30965&family=INTELLIJ",
+      "sha256": "Awfxf+Oy78BW4cGBwr5VzS81XQJ3tHAQlboy5UAPZ0g=",
+      "channel": "rc7",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "function-hcl-0.2.0-rc7.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1005804": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30965/1005804/function-hcl-0.0.2009-signed.zip?updateId=1005804&pluginId=30965&family=INTELLIJ",
+      "sha256": "Ug3ezhmRyRlBP25His/7i9aWWJcL5aHFYu6j5W/7BQ0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "function-hcl-0.0.2009-signed.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "rc7": {
+      "0.2.0-rc7": 1004814
+    },
     "stable": {
-      "0.0.1": 1000510
+      "0.0.1": 1000510,
+      "0.0.2009": 1005804
     }
   }
 }

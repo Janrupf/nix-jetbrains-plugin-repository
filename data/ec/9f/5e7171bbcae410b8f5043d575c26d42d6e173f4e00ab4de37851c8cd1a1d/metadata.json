@@ -98,22 +98,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "995404": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/995404/intellij-plugin-pmd-1.0.6.20260325100757-SNAPSHOT.zip?updateId=995404&pluginId=28935&family=INTELLIJ",
-      "sha256": "0IprNHO8UGBc21Y7TlVDqNpU2ekXVoVEKfQ30Rkn5bE=",
-      "channel": "snapshot",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin"
-      ],
-      "file_name": "intellij-plugin-pmd-1.0.6.20260325100757-SNAPSHOT.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "995407": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/995407/intellij-plugin-pmd-1.0.6.zip?updateId=995407&pluginId=28935&family=INTELLIJ",
       "sha256": "ShYrjofrg6ZkNi0q8VWxSNJfgLJq5O1WiPWKyc6ofac=",
@@ -145,11 +129,43 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1004964": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1004964/intellij-plugin-pmd-1.0.8.20260401080955-SNAPSHOT.zip?updateId=1004964&pluginId=28935&family=INTELLIJ",
+      "sha256": "CJRLZzlp1iGWnZBgAR27oWNdzI5Me2Ibt3DOXIgMXYc=",
+      "channel": "snapshot",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "intellij-plugin-pmd-1.0.8.20260401080955-SNAPSHOT.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1005130": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1005130/intellij-plugin-pmd-1.0.8.zip?updateId=1005130&pluginId=28935&family=INTELLIJ",
+      "sha256": "UTu5i/xFrK/ExeJ7y9yKGpFhvRAmckG3A15k2o4AyEA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "intellij-plugin-pmd-1.0.8.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "snapshot": {
-      "1.0.6.20260325100757-SNAPSHOT": 995404
+      "1.0.8.20260401080955-SNAPSHOT": 1004964
     },
     "stable": {
       "1.0.0": 889005,
@@ -159,7 +175,8 @@
       "1.0.4": 948752,
       "1.0.5": 972811,
       "1.0.6": 995407,
-      "1.0.7": 1001584
+      "1.0.7": 1001584,
+      "1.0.8": 1005130
     }
   }
 }

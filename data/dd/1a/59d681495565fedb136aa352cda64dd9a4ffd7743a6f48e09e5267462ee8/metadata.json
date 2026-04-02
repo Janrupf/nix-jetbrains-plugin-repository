@@ -2,27 +2,6 @@
   "xml_id": "com.rescript.plugin",
   "numeric_id": 30430,
   "updates": {
-    "972800": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30430/972800/rescript-intellij-plugin-0.1.1-2025.3.2.zip?updateId=972800&pluginId=30430&family=INTELLIJ",
-      "sha256": "q93G6ep7E2vkrjLF3y4cLHtWKbYus7bJiTUHXwpyJDY=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.spellchecker",
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.json",
-        "tanvd.grazi",
-        "org.intellij.plugins.markdown",
-        "JavaScriptDebugger",
-        "NodeJS",
-        "JavaScript"
-      ],
-      "file_name": "rescript-intellij-plugin-0.1.1-2025.3.2.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "973984": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30430/973984/rescript-intellij-plugin-0.1.2-2025.3.2.zip?updateId=973984&pluginId=30430&family=INTELLIJ",
       "sha256": "DSYLtNxL9E08TWeDNMz7VrH+/njbnidKFeSnMQToe3s=",
@@ -211,12 +190,33 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1004955": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30430/1004955/rescript-intellij-plugin-0.1.11.zip?updateId=1004955&pluginId=30430&family=INTELLIJ",
+      "sha256": "VJ65ZrYlKdzYIlyT3ompoeWiOyRv+6yDNioGb4lmnr4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.spellchecker"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "NodeJS",
+        "JavaScript",
+        "JavaScriptDebugger",
+        "tanvd.grazi",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "rescript-intellij-plugin-0.1.11.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.1-2025.3.2": 972800,
       "0.1.10": 989604,
+      "0.1.11": 1004955,
       "0.1.2-2025.3.2": 973984,
       "0.1.3-2025.3.2": 977482,
       "0.1.4-2025.3.2": 977660,

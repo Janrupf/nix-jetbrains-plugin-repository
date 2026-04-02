@@ -156,13 +156,48 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1004953": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/1004953/intellij-typespec-plugin-0.2.9.zip?updateId=1004953&pluginId=25850&family=INTELLIJ",
+      "sha256": "D3fNZtLIZLqkgU1riAS2DC+o4H0Qi1ENQVScBdZTQUI=",
+      "channel": "stable",
+      "dependencies": [
+        "NodeJS",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.ultimate",
+        "JavaScript",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-typespec-plugin-0.2.9.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1004954": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25850/1004954/intellij-typespec-plugin-0.2.9.zip?updateId=1004954&pluginId=25850&family=INTELLIJ",
+      "sha256": "D3fNZtLIZLqkgU1riAS2DC+o4H0Qi1ENQVScBdZTQUI=",
+      "channel": "nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.ultimate",
+        "NodeJS",
+        "JavaScript",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-typespec-plugin-0.2.9.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
       "0.2.6": 718525,
       "0.2.7": 818720,
-      "0.2.8": 904868
+      "0.2.8": 904868,
+      "0.2.9": 1004954
     },
     "stable": {
       "0.1.4": 637418,
@@ -170,7 +205,8 @@
       "0.2.5": 675001,
       "0.2.6": 718524,
       "0.2.7": 818719,
-      "0.2.8": 904867
+      "0.2.8": 904867,
+      "0.2.9": 1004953
     }
   }
 }

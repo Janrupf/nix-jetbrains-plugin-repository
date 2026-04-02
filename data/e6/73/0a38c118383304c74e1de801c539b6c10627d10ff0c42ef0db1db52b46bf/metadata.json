@@ -17,11 +17,47 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1005681": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29189/1005681/RepoGate-3.0.2.zip?updateId=1005681&pluginId=29189&family=INTELLIJ",
+      "sha256": "zgnBVtO1+wywKrkXuIWnM+3AWoUvHZQmCoNJMfrdswY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "RepoGate-3.0.2.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "1005684": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29189/1005684/RepoGate-3.0.3.zip?updateId=1005684&pluginId=29189&family=INTELLIJ",
+      "sha256": "pJIJSqG7jUcm05h8hJEs53RpL1Qsw+y9L2zLxu2kv3U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "RepoGate-3.0.3.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.0.1": 904046
+      "2.0.1": 904046,
+      "3.0.2": 1005681,
+      "3.0.3": 1005684
     }
   }
 }

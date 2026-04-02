@@ -33,12 +33,29 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1005980": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29989/1005980/intelli-ai-terminal-2026.1.1000-signed.zip?updateId=1005980&pluginId=29989&family=INTELLIJ",
+      "sha256": "1t8+GOp40oc7hGQEuBlr1A0P72Ouu7ocyf9ckXhARMA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-terminal-2026.1.1000-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.3.1200": 948140,
-      "2025.3.1210": 954284
+      "2025.3.1210": 954284,
+      "2026.1.1000": 1005980
     }
   }
 }

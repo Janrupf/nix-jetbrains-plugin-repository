@@ -40,13 +40,41 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1004672": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30692/1004672/ProjectManager-1.9.zip?updateId=1004672&pluginId=30692&family=INTELLIJ",
+      "sha256": "EoJeTmlG1UzQKwYH27p0NYhehcrpSg6q7eU8sHsKOKk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ProjectManager-1.9.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1005333": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30692/1005333/ProjectManager-1.10.zip?updateId=1005333&pluginId=30692&family=INTELLIJ",
+      "sha256": "14vLfv4CH9OtaVe0ZtFcUNspV6Q8DF1Q+POyxkVjFhg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ProjectManager-1.10.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.10": 1005333,
       "1.6": 987287,
       "1.7": 993789,
-      "1.8": 997885
+      "1.8": 997885,
+      "1.9": 1004672
     }
   }
 }
