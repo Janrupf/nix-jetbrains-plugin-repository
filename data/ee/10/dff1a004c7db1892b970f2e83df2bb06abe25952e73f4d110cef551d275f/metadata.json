@@ -2,20 +2,6 @@
   "xml_id": "com.ali.dependencyresolver",
   "numeric_id": 30986,
   "updates": {
-    "1001279": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30986/1001279/dependency-resolver-0.0.2.zip?updateId=1001279&pluginId=30986&family=INTELLIJ",
-      "sha256": "Ujor5Jy4NhGLk61IhLCgVkC2hEtFLxNnGz8vZtSFFgs=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "dependency-resolver-0.0.2.zip",
-      "since": "242.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1001715": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30986/1001715/dependency-resolver-0.0.5.zip?updateId=1001715&pluginId=30986&family=INTELLIJ",
       "sha256": "e9k47anOqvIXWiMxxuUj5Ns0sOkmuvarylZkg0MXZGU=",
@@ -29,12 +15,26 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1006433": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30986/1006433/dependency-resolver-0.0.7.zip?updateId=1006433&pluginId=30986&family=INTELLIJ",
+      "sha256": "6NFW6vTFnrEewUAdpAL2P1+zNKD2BWD+vOcz+9P7etM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dependency-resolver-0.0.7.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.2": 1001279,
-      "0.0.5": 1001715
+      "0.0.5": 1001715,
+      "0.0.7": 1006433
     }
   }
 }

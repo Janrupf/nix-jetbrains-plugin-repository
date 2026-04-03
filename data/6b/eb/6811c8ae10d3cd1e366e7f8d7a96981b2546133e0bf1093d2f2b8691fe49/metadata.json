@@ -18,9 +18,9 @@
       "compatibility_overrides": [
         {
           "applies_since": "232.0",
-          "applies_until": "999.99999",
+          "applies_until": "252.*",
           "compatible_since": "251.0",
-          "compatible_until": "999.99999"
+          "compatible_until": "252.*"
         }
       ]
     },
@@ -173,6 +173,21 @@
       "since": "242.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1006057": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28767/1006057/compose-stability-analyzer-idea-0.7.2.zip?updateId=1006057&pluginId=28767&family=INTELLIJ",
+      "sha256": "Q4EOC6D9hge3/xU172YAAlB7nrTT+yoHhV3aNIBYDyE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "compose-stability-analyzer-idea-0.7.2.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -187,7 +202,8 @@
       "0.6.3": 912320,
       "0.6.7": 953818,
       "0.7.0": 956605,
-      "0.7.1": 992015
+      "0.7.1": 992015,
+      "0.7.2": 1006057
     }
   }
 }

@@ -33,12 +33,29 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1006450": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30684/1006450/BasicComposeActivityPlugin-1.0.2.zip?updateId=1006450&pluginId=30684&family=INTELLIJ",
+      "sha256": "OBSOjVFkhyrHZs/I4+tLeVyyKU8nRmTuU8JqRneSuJ0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "BasicComposeActivityPlugin-1.0.2.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 986105,
-      "1.0.1": 988469
+      "1.0.1": 988469,
+      "1.0.2": 1006450
     }
   }
 }

@@ -511,7 +511,14 @@
       "file_name": "Firebender-0.11.10.zip",
       "since": "243.0",
       "until": "252.1",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "999.99999",
+          "compatible_since": "243.0",
+          "compatible_until": "252.1"
+        }
+      ]
     },
     "808780": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/808780/Firebender-0.11.11.zip?updateId=808780&pluginId=25224&family=INTELLIJ",
@@ -533,7 +540,14 @@
       "file_name": "Firebender-0.11.11.zip",
       "since": "243.0",
       "until": "252.1",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "999.99999",
+          "compatible_since": "243.0",
+          "compatible_until": "252.1"
+        }
+      ]
     },
     "817118": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/817118/Firebender-0.11.12.zip?updateId=817118&pluginId=25224&family=INTELLIJ",
@@ -555,7 +569,14 @@
       "file_name": "Firebender-0.11.12.zip",
       "since": "243.0",
       "until": "252.1",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "999.99999",
+          "compatible_since": "243.0",
+          "compatible_until": "252.1"
+        }
+      ]
     },
     "819312": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/819312/Firebender-0.11.13.zip?updateId=819312&pluginId=25224&family=INTELLIJ",
@@ -818,7 +839,7 @@
       ],
       "file_name": "Firebender-0.12.9.zip",
       "since": "243.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "864739": {
@@ -862,7 +883,7 @@
       ],
       "file_name": "Firebender-0.12.11.zip",
       "since": "243.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "865871": {
@@ -884,7 +905,7 @@
       ],
       "file_name": "Firebender-0.12.12.zip",
       "since": "243.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "866707": {
@@ -928,7 +949,7 @@
       ],
       "file_name": "Firebender-0.12.14.zip",
       "since": "243.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "870400": {
@@ -950,7 +971,7 @@
       ],
       "file_name": "Firebender-0.12.15.zip",
       "since": "243.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "873379": {
@@ -972,7 +993,7 @@
       ],
       "file_name": "Firebender-0.12.16.zip",
       "since": "243.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "875666": {
@@ -994,7 +1015,7 @@
       ],
       "file_name": "Firebender-0.12.17.zip",
       "since": "243.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": []
     },
     "877357": {
@@ -1266,7 +1287,7 @@
       ],
       "file_name": "Firebender-0.13.7.zip",
       "since": "251.0",
-      "until": null,
+      "until": "253.*",
       "compatibility_overrides": []
     },
     "898927": {
@@ -1324,7 +1345,7 @@
       ],
       "file_name": "Firebender-0.14.1.zip",
       "since": "251.0",
-      "until": null,
+      "until": "253.*",
       "compatibility_overrides": []
     },
     "911392": {
@@ -2139,6 +2160,35 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1006031": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25224/1006031/Firebender-1.0.0.zip?updateId=1006031&pluginId=25224&family=INTELLIJ",
+      "sha256": "Es1iJ5c8MaC7YlHqImHqpZghGN3GENWtHANuSfsNYE8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.jewel.foundation",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.android",
+        "Git4Idea",
+        "org.jetbrains.plugins.gradle",
+        "com.android.tools.design"
+      ],
+      "file_name": "Firebender-1.0.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2230,7 +2280,8 @@
       "0.15.6": 946646,
       "0.15.7": 949465,
       "0.15.8": 958698,
-      "0.15.9": 961930
+      "0.15.9": 961930,
+      "1.0.0": 1006031
     }
   }
 }

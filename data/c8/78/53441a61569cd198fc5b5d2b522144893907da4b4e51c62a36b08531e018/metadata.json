@@ -145,7 +145,14 @@
       "file_name": "redis-client-2023.0.7.zip",
       "since": "223.0",
       "until": "232.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "223.0",
+          "applies_until": "999.99999",
+          "compatible_since": "223.0",
+          "compatible_until": "232.*"
+        }
+      ]
     },
     "837106": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19360/837106/redis-client-2023.3.0.zip?updateId=837106&pluginId=19360&family=INTELLIJ",

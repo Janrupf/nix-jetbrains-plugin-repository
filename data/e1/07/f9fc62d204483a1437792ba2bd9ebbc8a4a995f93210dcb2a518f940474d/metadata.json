@@ -46,6 +46,21 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1006018": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30583/1006018/cursorj-1.2.0.zip?updateId=1006018&pluginId=30583&family=INTELLIJ",
+      "sha256": "rSlc4uqlMe87iDy60CtFWuEXLxCNTVW0wj58NUBePiA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cursorj-1.2.0.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -54,7 +69,8 @@
     },
     "stable": {
       "1.1.1": 994421,
-      "1.1.2": 995892
+      "1.1.2": 995892,
+      "1.2.0": 1006018
     }
   }
 }

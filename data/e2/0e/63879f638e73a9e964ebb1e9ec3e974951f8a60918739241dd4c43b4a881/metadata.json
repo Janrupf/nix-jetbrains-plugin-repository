@@ -753,7 +753,7 @@
       "compatibility_overrides": [
         {
           "applies_since": "173.0",
-          "applies_until": "999.99999",
+          "applies_until": "999.*",
           "compatible_since": "181.0",
           "compatible_until": "192.0"
         }
@@ -5884,6 +5884,20 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1006025": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10057/1006025/manifold-ij-2026.1.2.zip?updateId=1006025&pluginId=10057&family=INTELLIJ",
+      "sha256": "7kt3wQMRcyf/DVymOIqQUWnR24sjEpvmvNhut4d/+fc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "manifold-ij-2026.1.2.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6341,7 +6355,8 @@
       "2025.3.2": 914015,
       "2025.3.3": 940435,
       "2026.1.0": 958951,
-      "2026.1.1": 984142
+      "2026.1.1": 984142,
+      "2026.1.2": 1006025
     }
   }
 }

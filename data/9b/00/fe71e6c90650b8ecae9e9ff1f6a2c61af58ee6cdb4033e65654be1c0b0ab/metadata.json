@@ -1,6 +1,42 @@
 {
   "xml_id": "io.github.yueryou.easydev",
   "numeric_id": 31033,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1004816": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31033/1004816/Easy-Dev-1.5.1-223.zip?updateId=1004816&pluginId=31033&family=INTELLIJ",
+      "sha256": "azxxlL0HCtfM1Vi5ih/fdXawNTB5d4OXwvhNhjK6mfA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Easy-Dev-1.5.1-223.zip",
+      "since": "223.8836",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1006075": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31033/1006075/Easy-Dev-1.5.2-223.zip?updateId=1006075&pluginId=31033&family=INTELLIJ",
+      "sha256": "+/q6lg/1vWaNxFG//DT3sjTzxQe7sgJfmqNMHVAHh18=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Easy-Dev-1.5.2-223.zip",
+      "since": "223.8836",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.5.1-223": 1004816,
+      "1.5.2-223": 1006075
+    }
+  }
 }

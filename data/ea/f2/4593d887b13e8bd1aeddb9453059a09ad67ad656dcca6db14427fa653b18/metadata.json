@@ -263,12 +263,55 @@
       "since": "243.1",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1006048": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25925/1006048/Apidog_Fast_Request-2.0.11-193.zip?updateId=1006048&pluginId=25925&family=INTELLIJ",
+      "sha256": "rrLILM710pPfkNBd2Bin48QRuW5Lqv0ICuk51cO6hHc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.all",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.intellij.scala"
+      ],
+      "file_name": "Apidog_Fast_Request-2.0.11-193.zip",
+      "since": "193.5662.53",
+      "until": "243.1",
+      "compatibility_overrides": []
+    },
+    "1006087": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25925/1006087/Apidog_Fast_Request-2.0.11-243.zip?updateId=1006087&pluginId=25925&family=INTELLIJ",
+      "sha256": "bbe7itBgPRqAbTThG8xTXEYGUBAfebV9di8zRdYGpHU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.all"
+      ],
+      "optional_dependencies": [
+        "org.intellij.scala",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Apidog_Fast_Request-2.0.11-243.zip",
+      "since": "243.1",
+      "until": "273.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.0.10-193": 679316,
       "2.0.10-243": 679317,
+      "2.0.11-193": 1006048,
+      "2.0.11-243": 1006087,
       "2.0.4-193": 639390,
       "2.0.4-243": 639884,
       "2.0.5-193": 643489,

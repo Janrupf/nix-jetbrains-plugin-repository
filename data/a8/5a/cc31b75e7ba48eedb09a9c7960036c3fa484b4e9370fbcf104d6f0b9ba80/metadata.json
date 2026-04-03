@@ -16,11 +16,29 @@
       "since": "243.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1006824": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30696/1006824/aro-language-1.4.0.zip?updateId=1006824&pluginId=30696&family=INTELLIJ",
+      "sha256": "RvpcsfNAnEkPEx/2og2leTq0UMkdMVogtqzCQwfPu4A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "aro-language-1.4.0.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "1.2.0": 986428
+    },
+    "stable": {
+      "1.4.0": 1006824
     }
   }
 }

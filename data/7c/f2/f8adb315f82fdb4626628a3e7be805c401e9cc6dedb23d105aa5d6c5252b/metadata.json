@@ -9512,7 +9512,7 @@
       "compatibility_overrides": [
         {
           "applies_since": "253.31033",
-          "applies_until": "999.99999",
+          "applies_until": "253.*",
           "compatible_since": "253.31033",
           "compatible_until": "253.31033.129"
         }
@@ -10273,6 +10273,78 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1006406": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22814/1006406/jupyter-plugin-261.22158.354.zip?updateId=1006406&pluginId=22814&family=INTELLIJ",
+      "sha256": "NqkRjP7Y+g5eOV7XjdCvowoU812WCUCWHBDQMmbUFjA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.notebooks.core"
+      ],
+      "optional_dependencies": [
+        "intellij.jupyter.py.psi",
+        "intellij.python.pydev",
+        "intellij.python.featuresTrainer",
+        "intellij.platform.debugger",
+        "intellij.grid.csv.core.impl",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.debugger.impl.frontend",
+        "Git4Idea",
+        "intellij.notebooks.ui",
+        "intellij.jupyter",
+        "intellij.charts",
+        "intellij.python.dap.plugin",
+        "org.jetbrains.plugins.github",
+        "com.intellij.modules.ultimate",
+        "intellij.rd.ui",
+        "intellij.jupyter.tables",
+        "intellij.python.wsl",
+        "intellij.platform.lang",
+        "intellij.jupyter.convert",
+        "intellij.dataspell.jupyter.customCells",
+        "com.intellij.modules.python",
+        "intellij.notebooks.core",
+        "intellij.platform.dap",
+        "intellij.python.scientific",
+        "intellij.scientific.tables",
+        "intellij.jupyter.split.common",
+        "intellij.scientific.py.tables",
+        "com.intellij.platform.images",
+        "com.intellij.modules.python-single-distributive-capable",
+        "training",
+        "intellij.jupyter.psi",
+        "com.intellij.completion.ml.ranking",
+        "intellij.jupyter.execution",
+        "intellij.notebooks.jupyter.core",
+        "com.intellij.mcpServer",
+        "intellij.python.frontend",
+        "intellij.python.community.execService",
+        "org.jetbrains.plugins.wsl.remoteSdk",
+        "intellij.rd.ide.model.generated",
+        "intellij.dataspell.jupyter.customCells.sql.common",
+        "intellij.platform.backend.split",
+        "intellij.platform.debugger.impl",
+        "intellij.grid.impl",
+        "intellij.platform.vcs.impl",
+        "intellij.python.parser",
+        "intellij.database.impl",
+        "com.intellij.database",
+        "intellij.database.dialects.generic",
+        "intellij.platform.frontend",
+        "intellij.grid.core.impl",
+        "intellij.rd.platform",
+        "intellij.platform.editor",
+        "intellij.notebooks.visualization",
+        "intellij.jupyter.py",
+        "intellij.platform.frontend.split",
+        "intellij.jupyter.core",
+        "intellij.database"
+      ],
+      "file_name": "jupyter-plugin-261.22158.354.zip",
+      "since": "261.22158",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10545,6 +10617,7 @@
       "261.22158.195": 990234,
       "261.22158.274": 995423,
       "261.22158.299": 997600,
+      "261.22158.354": 1006406,
       "261.22158.36": 977517
     }
   }

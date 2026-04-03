@@ -376,7 +376,14 @@
       "file_name": "gitlab-plugin-2025.4.0-signed.zip",
       "since": "253.0",
       "until": "253.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.0",
+          "applies_until": "999.99999",
+          "compatible_since": "253.0",
+          "compatible_until": "253.*"
+        }
+      ]
     },
     "995877": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22202/995877/gitlab-plugin-2026.1.0-signed.zip?updateId=995877&pluginId=22202&family=INTELLIJ",
