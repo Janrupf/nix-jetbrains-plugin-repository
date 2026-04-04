@@ -56,13 +56,34 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1007643": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30555/1007643/dep-lens-jetbrains-0.2.2.zip?updateId=1007643&pluginId=30555&family=INTELLIJ",
+      "sha256": "ENGf2ZpXJ6bOLIX7b/BQYbCK5Aep2TyoJhYHMulw4TA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.javascript"
+      ],
+      "file_name": "dep-lens-jetbrains-0.2.2.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 980687,
       "0.2.0": 1003137,
-      "0.2.1": 1004813
+      "0.2.1": 1004813,
+      "0.2.2": 1007643
     }
   }
 }

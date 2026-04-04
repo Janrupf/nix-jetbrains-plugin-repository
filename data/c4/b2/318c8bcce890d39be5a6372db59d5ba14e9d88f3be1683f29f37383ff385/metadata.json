@@ -29,12 +29,27 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1007933": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30895/1007933/Project_Intelligence_Bridge-1.3.0-signed.zip?updateId=1007933&pluginId=30895&family=INTELLIJ",
+      "sha256": "UAg+dDR8HgvYxNnJ25nLsg71feyYojraJbQYm3T329M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Project_Intelligence_Bridge-1.3.0-signed.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.2.0": 994281,
-      "1.2.1": 994288
+      "1.2.1": 994288,
+      "1.3.0": 1007933
     }
   }
 }

@@ -2,20 +2,6 @@
   "xml_id": "com.fc.plugin.fc-commit-validator",
   "numeric_id": 29841,
   "updates": {
-    "941024": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29841/941024/fc-commit-validator-2.0.0.zip?updateId=941024&pluginId=29841&family=INTELLIJ",
-      "sha256": "7rCQf6VNhLo8VOBG8QL91tggEUnSLxwnhXso1cdoREk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.vcs",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "fc-commit-validator-2.0.0.zip",
-      "since": "231.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "946478": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29841/946478/fc-commit-validator-1.0.0.zip?updateId=946478&pluginId=29841&family=INTELLIJ",
       "sha256": "n0A/3X5R0KP8Do5gPmrpwPHhMjUSbB5f0GHpLVN8ldg=",
@@ -29,12 +15,26 @@
       "since": "211.0",
       "until": "223.*",
       "compatibility_overrides": []
+    },
+    "1007651": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29841/1007651/fc-commit-validator-2.0.1.zip?updateId=1007651&pluginId=29841&family=INTELLIJ",
+      "sha256": "tPSIj7WUZ2B6WJPc+IDBoCLbpDw9CQjDvyPqF2WJs+A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fc-commit-validator-2.0.1.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 946478,
-      "2.0.0": 941024
+      "2.0.1": 1007651
     }
   }
 }

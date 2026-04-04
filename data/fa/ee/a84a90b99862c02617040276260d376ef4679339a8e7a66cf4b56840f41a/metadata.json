@@ -2,16 +2,100 @@
   "xml_id": "io.nimbly.mcp-companion",
   "numeric_id": 31060,
   "updates": {
-    "1006817": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1006817/mcp-intellij-all-1.2.1.zip?updateId=1006817&pluginId=31060&family=INTELLIJ",
-      "sha256": "jAbp4i2W3SFSTSWjE2CoBsRgfduC16i7JW2rSogYLs8=",
+    "1007337": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1007337/mcp-intellij-all-1.4.0.zip?updateId=1007337&pluginId=31060&family=INTELLIJ",
+      "sha256": "nIpgVgiXbilnGu4aFwz0hcUCBBXNy5CNe7sHvYoF2Vs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-intellij-all-1.4.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1007599": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1007599/mcp-intellij-all-1.5.0.zip?updateId=1007599&pluginId=31060&family=INTELLIJ",
+      "sha256": "B+I5aWhz7vrca2EIEkaBd08E46xQU+dgiieljGKVPrQ=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.mcpServer",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "mcp-intellij-all-1.2.1.zip",
+      "file_name": "mcp-intellij-all-1.5.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1007703": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1007703/mcp-intellij-all-1.6.2.zip?updateId=1007703&pluginId=31060&family=INTELLIJ",
+      "sha256": "KzTtMlLI7y86pGd0lfflFbaBghNihMuQ43g4hjiPMHI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-intellij-all-1.6.2.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1007713": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1007713/mcp-intellij-all-1.8.1.zip?updateId=1007713&pluginId=31060&family=INTELLIJ",
+      "sha256": "vnFcZrcsx79B02XIbCTVf3pSP0ZFY4r97J4ReRHKlzE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-intellij-all-1.8.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1007896": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1007896/mcp-intellij-all-1.10.3.zip?updateId=1007896&pluginId=31060&family=INTELLIJ",
+      "sha256": "UnIP3svQ+nL+kSMV74P0Gwgfrd3kkdHQkiQENpdnSuY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-intellij-all-1.10.3.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1007972": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1007972/mcp-intellij-all-1.11.0.zip?updateId=1007972&pluginId=31060&family=INTELLIJ",
+      "sha256": "bBLDnygyp0tzZ0B0onctBiqwyyq+hzICAUiUSupm+cM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-intellij-all-1.11.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1007973": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1007973/mcp-intellij-all-1.12.0.zip?updateId=1007973&pluginId=31060&family=INTELLIJ",
+      "sha256": "HhH85QCgZZlFwDhRbNgRWDWW5wNQYmuDk0lzUKm+Osc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-intellij-all-1.12.0.zip",
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
@@ -19,7 +103,13 @@
   },
   "channels": {
     "stable": {
-      "1.2.1": 1006817
+      "1.10.3": 1007896,
+      "1.11.0": 1007972,
+      "1.12.0": 1007973,
+      "1.4.0": 1007337,
+      "1.5.0": 1007599,
+      "1.6.2": 1007703,
+      "1.8.1": 1007713
     }
   }
 }

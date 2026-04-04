@@ -45,12 +45,28 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1006783": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30291/1006783/salt-idea-plugin-2.0.1.zip?updateId=1006783&pluginId=30291&family=INTELLIJ",
+      "sha256": "sodNDzANjFjYIlU61h6wqF4ydnyRDwzy95BjMgHoMfY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jinja2enhanced",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "salt-idea-plugin-2.0.1.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 962391,
-      "2.0.0": 988761
+      "2.0.0": 988761,
+      "2.0.1": 1006783
     },
     "unstable": {
       "1.1.0-rc1": 982957
