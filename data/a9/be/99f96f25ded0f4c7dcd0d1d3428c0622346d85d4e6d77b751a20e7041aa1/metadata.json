@@ -2,21 +2,6 @@
   "xml_id": "com.github.andrelmv.kotbox",
   "numeric_id": 30324,
   "updates": {
-    "966109": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30324/966109/kotbox-0.0.1.jar?updateId=966109&pluginId=30324&family=INTELLIJ",
-      "sha256": "0HjaxmcqzfwV4oIIoQkuykDHrv+Ojjl3lJcN0muHQtw=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "kotbox-0.0.1.jar",
-      "since": "252.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "986816": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30324/986816/kotbox-1.0.0.zip?updateId=986816&pluginId=30324&family=INTELLIJ",
       "sha256": "shDzY4DnS/JodM7BxjuVlnGkl5xgSHKMAL0GWTTQQcQ=",
@@ -46,13 +31,28 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1008696": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30324/1008696/kotbox-2.0.1.zip?updateId=1008696&pluginId=30324&family=INTELLIJ",
+      "sha256": "Y2zQGZtrpwcd89u9pircn1a+APhetXg5SROrLTqRJw8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kotbox-2.0.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 966109,
       "1.0.0": 986816,
-      "2.0.0": 995909
+      "2.0.0": 995909,
+      "2.0.1": 1008696
     }
   }
 }

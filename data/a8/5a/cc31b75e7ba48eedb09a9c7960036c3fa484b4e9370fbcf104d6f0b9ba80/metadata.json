@@ -31,6 +31,36 @@
       "since": "243.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1008184": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30696/1008184/aro-language-1.4.1.zip?updateId=1008184&pluginId=30696&family=INTELLIJ",
+      "sha256": "iaosI12fgAfHt4Vtp/bk0rjFDV2kmU4TIpwEBRZUFAM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "aro-language-1.4.1.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1008507": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30696/1008507/aro-language-0.4.2.zip?updateId=1008507&pluginId=30696&family=INTELLIJ",
+      "sha256": "iB8Am+ix+9TSZACST9WmGaeBCmPDKdVEW1b6rlhMGUk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "aro-language-0.4.2.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -38,7 +68,9 @@
       "1.2.0": 986428
     },
     "stable": {
-      "1.4.0": 1006824
+      "0.4.2": 1008507,
+      "1.4.0": 1006824,
+      "1.4.1": 1008184
     }
   }
 }
