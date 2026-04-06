@@ -33,12 +33,27 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1009499": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30025/1009499/CloudNativePG-Connector-2.0.0.zip?updateId=1009499&pluginId=30025&family=INTELLIJ",
+      "sha256": "jhnVkP8vSpXSoeVxRPNVERuD0G0+Ex7sU7pxuen2iqg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CloudNativePG-Connector-2.0.0.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 946490,
-      "1.0.2": 949486
+      "1.0.2": 949486,
+      "2.0.0": 1009499
     }
   }
 }

@@ -43,13 +43,30 @@
       "since": "232.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1009444": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30919/1009444/lazygit-intellij-0.1.3.zip?updateId=1009444&pluginId=30919&family=INTELLIJ",
+      "sha256": "E56m9amMoMDJ9TRwMkLVP0wJQHQauThA2yxMFbtLciU=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM"
+      ],
+      "file_name": "lazygit-intellij-0.1.3.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 996415,
       "0.1.1": 999427,
-      "0.1.2": 1001226
+      "0.1.2": 1001226,
+      "0.1.3": 1009444
     }
   }
 }
