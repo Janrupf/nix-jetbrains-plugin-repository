@@ -16,11 +16,27 @@
       "since": "232.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1009712": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25645/1009712/hleb2-integration-1.2.0.zip?updateId=1009712&pluginId=25645&family=INTELLIJ",
+      "sha256": "1xLyuv35mj6XOTvR8i4hFxPTijG+QzTRx4YPOhHeMsQ=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "com.intellij.modules.lang",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "hleb2-integration-1.2.0.zip",
+      "since": "232.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 623162
+      "1.0.0": 623162,
+      "1.2.0": 1009712
     }
   }
 }
