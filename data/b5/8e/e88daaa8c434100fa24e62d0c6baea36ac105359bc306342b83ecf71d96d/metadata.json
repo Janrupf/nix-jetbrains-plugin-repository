@@ -15,11 +15,26 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1010087": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31037/1010087/debug_map-1.0.1.zip?updateId=1010087&pluginId=31037&family=INTELLIJ",
+      "sha256": "iouzFj1RKoZZvOMw13k7gF3TNb4i/8e/XMLkuTs50Cc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.compose",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "debug_map-1.0.1.zip",
+      "since": "261.22158",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1004952
+      "1.0.0": 1004952,
+      "1.0.1": 1010087
     }
   }
 }

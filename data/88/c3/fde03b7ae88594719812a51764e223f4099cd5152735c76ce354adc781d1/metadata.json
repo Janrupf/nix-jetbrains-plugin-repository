@@ -35,12 +35,30 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1010740": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29167/1010740/PyTest_Yaml-1.3.0.zip?updateId=1010740&pluginId=29167&family=INTELLIJ",
+      "sha256": "XxCUFxmXJeswDejG1U6fYLyVkAmGDKFPpwjsYzafU5U=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "PyTest_Yaml-1.3.0.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.1": 902357,
-      "1.2.0": 922913
+      "1.2.0": 922913,
+      "1.3.0": 1010740
     }
   }
 }

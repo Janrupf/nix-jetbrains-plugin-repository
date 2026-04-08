@@ -3236,6 +3236,94 @@
       "since": "261.20869.38",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1010748": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18689/1010748/JetLab___Integration_for_GitLab-signed.zip?updateId=1010748&pluginId=18689&family=INTELLIJ",
+      "sha256": "62hmcZP1m0xXEuDcRNlS6xcGYmmcQ5+op4bcD+dI1OY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.majera.intellij.codereview.gitlab.common-plugin.shared",
+        "org.intellij.plugins.markdown",
+        "com.majera.intellij.codereview.gitlab.common-issues-interactor",
+        "com.majera.intellij.codereview.gitlab.common-issues-domain"
+      ],
+      "optional_dependencies": [
+        "com.majera.intellij.codereview.gitlab.gitlab-api",
+        "com.intellij.modules.platform",
+        "com.majera.intellij.codereview.gitlab.framework-domain",
+        "intellij.platform.backend",
+        "org.sonarlint.idea",
+        "com.majera.intellij.codereview.gitlab.common-domain",
+        "com.intellij.platform.images",
+        "intellij.platform.frontend",
+        "com.intellij.tasks",
+        "com.majera.intellij.codereview.gitlab.framework-api",
+        "com.majera.intellij.codereview.gitlab.common-plugin.bundle",
+        "com.majera.intellij.codereview.gitlab.gitlab-plugin.backend",
+        "com.majera.intellij.codereview.gitlab.common-interactor",
+        "com.majera.intellij.codereview.gitlab.ai-api",
+        "com.majera.intellij.codereview.gitlab.framework-interactor",
+        "com.majera.intellij.codereview.gitlab.gitlab-domain",
+        "com.majera.intellij.codereview.gitlab.framework-plugin",
+        "com.majera.intellij.codereview.gitlab.common-issues.tasks",
+        "com.majera.intellij.codereview.gitlab.common-plugin",
+        "intellij.platform.compose",
+        "com.majera.intellij.codereview.gitlab.common-issues-plugin",
+        "com.majera.intellij.codereview.gitlab.framework-util",
+        "com.majera.intellij.codereview.gitlab.gitlab-interactor",
+        "com.majera.intellij.codereview.gitlab.gitlab-plugin.shared",
+        "com.majera.intellij.codereview.gitlab.common-plugin.frontend",
+        "com.majera.intellij.codereview.gitlab.plugin-promotion",
+        "Git4Idea"
+      ],
+      "file_name": "JetLab___Integration_for_GitLab-signed.zip",
+      "since": "261.20869.38",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1010752": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18689/1010752/JetLab___Integration_for_GitLab-signed.zip?updateId=1010752&pluginId=18689&family=INTELLIJ",
+      "sha256": "okfvXsguEprJ3NQGlBZIbJa8JEbIOWsuRDVLeLd7txs=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.majera.intellij.codereview.gitlab.common-issues-interactor",
+        "com.majera.intellij.codereview.gitlab.common-plugin.shared",
+        "com.majera.intellij.codereview.gitlab.common-issues-domain"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.platform",
+        "com.majera.intellij.codereview.gitlab.framework-domain",
+        "Git4Idea",
+        "intellij.platform.backend",
+        "com.intellij.platform.images",
+        "com.majera.intellij.codereview.gitlab.common-plugin",
+        "org.sonarlint.idea",
+        "com.majera.intellij.codereview.gitlab.common-domain",
+        "com.majera.intellij.codereview.gitlab.gitlab-domain",
+        "com.majera.intellij.codereview.gitlab.framework-api",
+        "com.intellij.tasks",
+        "com.majera.intellij.codereview.gitlab.common-plugin.bundle",
+        "com.majera.intellij.codereview.gitlab.gitlab-api",
+        "com.majera.intellij.codereview.gitlab.framework-plugin",
+        "com.majera.intellij.codereview.gitlab.gitlab-plugin.backend",
+        "com.majera.intellij.codereview.gitlab.common-interactor",
+        "com.majera.intellij.codereview.gitlab.common-issues.tasks",
+        "com.majera.intellij.codereview.gitlab.plugin-promotion",
+        "com.majera.intellij.codereview.gitlab.common-plugin.frontend",
+        "com.majera.intellij.codereview.gitlab.ai-api",
+        "intellij.platform.frontend",
+        "com.majera.intellij.codereview.gitlab.common-issues-plugin",
+        "com.majera.intellij.codereview.gitlab.gitlab-interactor",
+        "com.majera.intellij.codereview.gitlab.gitlab-plugin.shared",
+        "com.majera.intellij.codereview.gitlab.framework-interactor",
+        "com.majera.intellij.codereview.gitlab.framework-util",
+        "intellij.platform.compose"
+      ],
+      "file_name": "JetLab___Integration_for_GitLab-signed.zip",
+      "since": "253.25908.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3411,7 +3499,9 @@
       "2026.1.0.253": 966443,
       "2026.1.0.261": 966110,
       "2026.1.1.253": 979686,
-      "2026.1.1.261": 979694
+      "2026.1.1.261": 979694,
+      "2026.2.0.253": 1010752,
+      "2026.2.0.261": 1010748
     }
   }
 }

@@ -272,6 +272,25 @@
           "compatible_until": "253.*"
         }
       ]
+    },
+    "1010917": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28187/1010917/codeium-1.4.3.zip?updateId=1010917&pluginId=28187&family=INTELLIJ",
+      "sha256": "5AX9fsfyMcxeC/cbcqrRtFkaFFr3xxcM5T1Fjp9Ju3Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "codeium.shared.main",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "codeium-1.4.3.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -288,7 +307,8 @@
       "1.2.2": 919188,
       "1.4.0": 926871,
       "1.4.1": 942908,
-      "1.4.2": 968148
+      "1.4.2": 968148,
+      "1.4.3": 1010917
     }
   }
 }

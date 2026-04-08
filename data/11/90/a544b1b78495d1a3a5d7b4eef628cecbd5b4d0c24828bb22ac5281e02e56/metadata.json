@@ -46,13 +46,29 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1010543": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28189/1010543/GitStat-3.1.0.jar?updateId=1010543&pluginId=28189&family=INTELLIJ",
+      "sha256": "7welfpaXYGBPYecKPCA8T3QI86EBaELa1CFT7OU7qfQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GitStat-3.1.0.jar",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.0": 827518,
       "2.0.0": 878030,
-      "3.0.0": 993004
+      "3.0.0": 993004,
+      "3.1.0": 1010543
     }
   }
 }
