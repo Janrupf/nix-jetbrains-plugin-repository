@@ -29,12 +29,27 @@
       "since": "241.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1012179": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29433/1012179/difffrog-1.1.0.zip?updateId=1012179&pluginId=29433&family=INTELLIJ",
+      "sha256": "4xCGwYq5kKWjdgyUbf+Z7SsgC6fKQwZCPyYiVgPe+vM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "difffrog-1.1.0.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 917007,
-      "1.0.1": 917197
+      "1.0.1": 917197,
+      "1.1.0": 1012179
     }
   }
 }

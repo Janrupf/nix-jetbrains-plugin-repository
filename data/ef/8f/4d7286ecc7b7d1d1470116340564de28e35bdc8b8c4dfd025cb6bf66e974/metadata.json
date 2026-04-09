@@ -14,11 +14,25 @@
       "since": "232.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "1013002": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30653/1013002/jira-bitbucket-plugin-1.1-SNAPSHOT.zip?updateId=1013002&pluginId=30653&family=INTELLIJ",
+      "sha256": "4wG5DGJnJm+6Gzq7v7dNAwyk8JTvCWlPnb56eXFPMDc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jira-bitbucket-plugin-1.1-SNAPSHOT.zip",
+      "since": "232.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 984115
+      "1.0-SNAPSHOT": 984115,
+      "1.1-SNAPSHOT": 1013002
     }
   }
 }
