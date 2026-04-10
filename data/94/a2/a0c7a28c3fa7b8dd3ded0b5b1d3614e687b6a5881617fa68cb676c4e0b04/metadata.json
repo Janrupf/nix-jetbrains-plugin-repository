@@ -2,21 +2,6 @@
   "xml_id": "co.anbora.labs.nushell.lint",
   "numeric_id": 31165,
   "updates": {
-    "1012611": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31165/1012611/nushell-lint-intellij-1.0.0.zip?updateId=1012611&pluginId=31165&family=INTELLIJ",
-      "sha256": "xzzIxxyB5TKXT+kJycxdiAcwQOsK5socBWBPOkDm62g=",
-      "channel": "stable",
-      "dependencies": [
-        "co.anbora.labs.nushell.community",
-        "com.intellij.modules.platform",
-        "com.redhat.devtools.lsp4ij"
-      ],
-      "optional_dependencies": [],
-      "file_name": "nushell-lint-intellij-1.0.0.zip",
-      "since": "252.0",
-      "until": "261.*",
-      "compatibility_overrides": []
-    },
     "1013001": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31165/1013001/nushell-lint-intellij-1.0.1-signed.zip?updateId=1013001&pluginId=31165&family=INTELLIJ",
       "sha256": "zoaC/XfWbyB8ckU4tNw+MFt69PL6mqv8pduyo3/bFM0=",
@@ -31,12 +16,27 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1014340": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31165/1014340/nushell-lint-intellij-1.0.2-signed.zip?updateId=1014340&pluginId=31165&family=INTELLIJ",
+      "sha256": "uR1oJ6+rMphxZPfCsWW9s23zPZzSSSjC+bdSML4Ta+o=",
+      "channel": "stable",
+      "dependencies": [
+        "co.anbora.labs.nushell.community",
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nushell-lint-intellij-1.0.2-signed.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1012611,
-      "1.0.1": 1013001
+      "1.0.1": 1013001,
+      "1.0.2": 1014340
     }
   }
 }

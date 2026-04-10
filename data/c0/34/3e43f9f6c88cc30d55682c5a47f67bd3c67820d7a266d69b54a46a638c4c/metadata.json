@@ -13021,6 +13021,28 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1014275": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13362/1014275/space-261.23567.28.zip?updateId=1014275&pluginId=13362&family=INTELLIJ",
+      "sha256": "vBAta7mZD4Hy59aap4j2BIQwr28OHXRXYGI59HeuIF8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.libraries.kotlinx.coroutines.slf4j"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "intellij.java.backend",
+        "com.jetbrains.php",
+        "intellij.space.vcs",
+        "intellij.indexing.shared.core",
+        "com.intellij.modules.vcs"
+      ],
+      "file_name": "space-261.23567.28.zip",
+      "since": "261.23567",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -13719,7 +13741,8 @@
       "261.21849.20": 966155,
       "261.22158.121": 984543,
       "261.22158.185": 989224,
-      "261.22158.36": 977529
+      "261.22158.36": 977529,
+      "261.23567.28": 1014275
     },
     "super-early-bird": {
       "2019.internal.4": 74826

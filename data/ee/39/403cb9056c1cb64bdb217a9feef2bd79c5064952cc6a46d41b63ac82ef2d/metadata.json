@@ -16,11 +16,29 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1014336": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31134/1014336/claude-code-sessions-1.3.0.zip?updateId=1014336&pluginId=31134&family=INTELLIJ",
+      "sha256": "9yalpQPnPrdnATg37Lurz8Nt1gA8iW7wRsNLIwHvEgc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "claude-code-sessions-1.3.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "0.0.1-beta": 1010541
+    },
+    "stable": {
+      "1.3.0": 1014336
     }
   }
 }

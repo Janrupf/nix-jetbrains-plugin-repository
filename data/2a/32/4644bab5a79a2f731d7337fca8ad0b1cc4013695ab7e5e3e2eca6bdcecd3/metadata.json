@@ -2,22 +2,22 @@
   "xml_id": "LiveDebugger",
   "numeric_id": 30451,
   "updates": {
-    "984594": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/984594/live-debugger-plugin-0.1.1.zip?updateId=984594&pluginId=30451&family=INTELLIJ",
-      "sha256": "BFE6XvOVS4lfRTu9syV5qtVMiK2Wn33l4XEClz+075w=",
+    "1014376": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/1014376/live-debugger-plugin-0.5.4.zip?updateId=1014376&pluginId=30451&family=INTELLIJ",
+      "sha256": "+0MOOG2xKp2Fpggpd2G1KY7tmueUAi42WaWPPXvPpSM=",
       "channel": "eap",
       "dependencies": [
-        "org.jetbrains.kotlin",
-        "com.intellij.mcpServer",
-        "com.intellij.gradle",
-        "JUnit",
         "com.intellij.java",
-        "intellij.platform.compose"
+        "JUnit",
+        "intellij.platform.compose",
+        "com.intellij.gradle",
+        "com.intellij.mcpServer",
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [
         "com.intellij.ml.llm"
       ],
-      "file_name": "live-debugger-plugin-0.1.1.zip",
+      "file_name": "live-debugger-plugin-0.5.4.zip",
       "since": "253",
       "until": "263.*",
       "compatibility_overrides": []
@@ -25,7 +25,7 @@
   },
   "channels": {
     "eap": {
-      "0.1.1": 984594
+      "0.5.4": 1014376
     }
   }
 }

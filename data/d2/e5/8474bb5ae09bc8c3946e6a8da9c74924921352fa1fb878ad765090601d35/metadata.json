@@ -925,6 +925,49 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1014279": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27367/1014279/gradle-java-plugin-261.23567.28.zip?updateId=1014279&pluginId=27367&family=INTELLIJ",
+      "sha256": "mtojIYXjdpYALl9vVjEfDgjnJyTrl7PTSWgH19VMnR0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.properties.backend.psi",
+        "intellij.java.debugger.impl",
+        "intellij.java.compiler.impl",
+        "intellij.java.indexing",
+        "intellij.java.compiler",
+        "intellij.java",
+        "intellij.gradle",
+        "intellij.java.execution.impl",
+        "intellij.java.execution",
+        "intellij.java.impl",
+        "intellij.platform.jps.build",
+        "intellij.java.debugger.impl.shared",
+        "intellij.java.ui"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.gradle.dsl",
+        "com.intellij.modules.ultimate",
+        "intellij.properties.psi",
+        "Coverage",
+        "intellij.gradle.toolingExtension",
+        "intellij.toml.core",
+        "intellij.gradle.java.toml",
+        "org.jetbrains.idea.reposearch",
+        "org.jetbrains.idea.maven",
+        "intellij.gradle.java",
+        "com.intellij.completion.ml.ranking",
+        "intellij.profiler.ultimate",
+        "intellij.platform.uast",
+        "org.intellij.groovy",
+        "intellij.gradle.java.groovy",
+        "intellij.java.psi",
+        "com.jetbrains.performancePlugin"
+      ],
+      "file_name": "gradle-java-plugin-261.23567.28.zip",
+      "since": "261.23567",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -960,7 +1003,8 @@
       "261.21849.20": 966349,
       "261.22158.121": 984481,
       "261.22158.182": 989298,
-      "261.22158.46": 978065
+      "261.22158.46": 978065,
+      "261.23567.28": 1014279
     }
   }
 }

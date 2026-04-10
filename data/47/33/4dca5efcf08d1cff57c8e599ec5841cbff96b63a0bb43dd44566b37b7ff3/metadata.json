@@ -1,6 +1,26 @@
 {
   "xml_id": "co.anbora.labs.nushell.lsp",
   "numeric_id": 31106,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1011366": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31106/1011366/nushell-lsp-intellij-1.0.3-signed.zip?updateId=1011366&pluginId=31106&family=INTELLIJ",
+      "sha256": "fH41cO4ckbU8TCfPY8V9tV18jY9nakkm/i0J0P7CmcQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform",
+        "co.anbora.labs.nushell.community"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nushell-lsp-intellij-1.0.3-signed.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.3": 1011366
+    }
+  }
 }

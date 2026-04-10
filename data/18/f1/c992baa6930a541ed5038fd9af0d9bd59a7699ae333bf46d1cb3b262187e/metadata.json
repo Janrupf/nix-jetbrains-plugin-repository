@@ -62,12 +62,45 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1013871": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30926/1013871/agent-workbench-plugin-261.23567.28.zip?updateId=1013871&pluginId=30926&family=INTELLIJ",
+      "sha256": "ycB3Oa27APXBJz21DolfakttpOMtJtLvOV5EhQ7EWbQ=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.agent.workbench.sessions",
+        "intellij.markdown",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.vcs.log.impl",
+        "intellij.agent.workbench.common",
+        "intellij.agent.workbench.prompt.core",
+        "intellij.platform.compose",
+        "intellij.agent.workbench.sessions.actions",
+        "intellij.agent.workbench.chat",
+        "intellij.agent.workbench.filewatch",
+        "intellij.platform.vcs.log",
+        "intellij.agent.workbench.claude.common",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.agent.workbench.sessions.core",
+        "intellij.platform.backend",
+        "intellij.agent.workbench.codex.common",
+        "intellij.agent.workbench.json",
+        "intellij.terminal.frontend"
+      ],
+      "file_name": "agent-workbench-plugin-261.23567.28.zip",
+      "since": "261.23567",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
       "0.1.0": 997647,
       "261.1.0": 999397
+    },
+    "stable": {
+      "261.23567.28": 1013871
     }
   }
 }
