@@ -174,27 +174,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1012959": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/19275/1012959/better_direnv-1.3.0-pre1.zip?updateId=1012959&pluginId=19275&family=INTELLIJ",
-      "sha256": "6Sd/xYFcuCaSFU7Q0crzXk54l4lf5I1KNlaCY1UrtPY=",
-      "channel": "pre1",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.jetbrains.sh",
-        "org.jetbrains.plugins.ruby",
-        "org.jetbrains.plugins.go",
-        "com.intellij.java",
-        "JavaScript",
-        "com.jetbrains.php",
-        "com.intellij.modules.python"
-      ],
-      "file_name": "better_direnv-1.3.0-pre1.zip",
-      "since": "253.3",
-      "until": "261.*",
-      "compatibility_overrides": []
-    },
     "1014810": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/19275/1014810/better_direnv-1.3.0.zip?updateId=1014810&pluginId=19275&family=INTELLIJ",
       "sha256": "x4wR7XYchyFAqGlTervi36ggP5k3MQ7yFIFzF8DDxs8=",
@@ -215,12 +194,30 @@
       "since": "253.3",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1016196": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19275/1016196/better_direnv-1.4.0.zip?updateId=1016196&pluginId=19275&family=INTELLIJ",
+      "sha256": "93boeV5xUD9WdfOvTa63RGNgcNmArNjTiQF9qqtiP1w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.java",
+        "JavaScript",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.ruby"
+      ],
+      "file_name": "better_direnv-1.4.0.zip",
+      "since": "253.3",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
-    "pre1": {
-      "1.3.0-pre1": 1012959
-    },
     "stable": {
       "0.0.4": 180618,
       "0.1.1": 181108,
@@ -231,7 +228,8 @@
       "1.2.0": 355570,
       "1.2.1": 355571,
       "1.2.2": 355572,
-      "1.3.0": 1014810
+      "1.3.0": 1014810,
+      "1.4.0": 1016196
     }
   }
 }

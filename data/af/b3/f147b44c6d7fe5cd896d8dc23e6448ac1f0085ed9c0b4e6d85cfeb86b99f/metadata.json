@@ -39,12 +39,32 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1015302": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31040/1015302/configiq-airflow-kafka-connect-0.1.3.zip?updateId=1015302&pluginId=31040&family=INTELLIJ",
+      "sha256": "mxrDLH/7z3K3vR5wZxnMVa/T2iC2Ak8kqFnVDpGrK7U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "com.intellij.modules.json",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.yaml",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "configiq-airflow-kafka-connect-0.1.3.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1005326,
-      "0.1.1": 1005936
+      "0.1.1": 1005936,
+      "0.1.3": 1015302
     }
   }
 }

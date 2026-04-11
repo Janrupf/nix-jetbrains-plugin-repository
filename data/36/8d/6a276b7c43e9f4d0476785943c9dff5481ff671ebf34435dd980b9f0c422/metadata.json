@@ -29,12 +29,45 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1014872": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30951/1014872/emacsJump-213.7172.48.1.zip?updateId=1014872&pluginId=30951&family=INTELLIJ",
+      "sha256": "E8G75XTNX+l5PNzEQLWTzrfmC/8uNe9B0+hAtFk8S4g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "emacsJump-213.7172.48.1.zip",
+      "since": "213.7172.48",
+      "until": "213.*",
+      "compatibility_overrides": []
+    },
+    "1015294": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30951/1015294/emacsJump-253.30387.90.3.zip?updateId=1015294&pluginId=30951&family=INTELLIJ",
+      "sha256": "FVlYm2G5Zjat0I25YzcJLWkhAfSSNZTvhIe/0hWpKqk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "emacsJump-253.30387.90.3.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.5.0": 999483,
-      "253.30387.90.1": 1004804
+      "213.7172.48.1": 1014872,
+      "253.30387.90.1": 1004804,
+      "253.30387.90.3": 1015294
     }
   }
 }
