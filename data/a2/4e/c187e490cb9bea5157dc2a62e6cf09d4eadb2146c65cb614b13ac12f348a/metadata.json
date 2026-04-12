@@ -459,6 +459,27 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1017025": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22165/1017025/MybatisFlex-Hepler-1.8-RELEASE.zip?updateId=1017025&pluginId=22165&family=INTELLIJ",
+      "sha256": "eYr42AQIvUl1vmanwGmb0NYPq+zxDnxmVce3NVCn+ws=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.lang",
+        "com.intellij.spring.boot",
+        "com.intellij.spring",
+        "com.intellij.database",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MybatisFlex-Hepler-1.8-RELEASE.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -487,7 +508,8 @@
       "1.6.6-RELEASE": 618487,
       "1.6.7-RELEASE": 635405,
       "1.6.7.1-RELEASE": 648830,
-      "1.7-RELEASE": 827910
+      "1.7-RELEASE": 827910,
+      "1.8-RELEASE": 1017025
     }
   }
 }

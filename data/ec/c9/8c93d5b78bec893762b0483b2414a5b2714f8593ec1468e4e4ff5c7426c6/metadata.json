@@ -14,11 +14,25 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1017221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31138/1017221/jetbrains-plugin.zip?updateId=1017221&pluginId=31138&family=INTELLIJ",
+      "sha256": "aHYa1pbZFDrUxNvUFD6pW0+t+iYdStUOay1x7OvC/SM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jetbrains-plugin.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1010771
+      "1.0.0": 1010771,
+      "1.1.0": 1017221
     }
   }
 }
