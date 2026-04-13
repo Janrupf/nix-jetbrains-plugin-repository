@@ -37334,7 +37334,7 @@
       ],
       "file_name": "scala-intellij-bin-2020.3.19.zip",
       "since": "203.5981.41",
-      "until": "211.*",
+      "until": "203.*",
       "compatibility_overrides": [
         {
           "applies_since": "203.5981.41",
@@ -37479,7 +37479,7 @@
       ],
       "file_name": "scala-intellij-bin-2020.3.19.zip",
       "since": "203.5981.41",
-      "until": "211.*",
+      "until": "203.*",
       "compatibility_overrides": [
         {
           "applies_since": "203.5981.41",
@@ -40245,7 +40245,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.2.12.zip",
       "since": "212.4321",
-      "until": "212.*",
+      "until": "213.*",
       "compatibility_overrides": [
         {
           "applies_since": "212.4321",
@@ -40285,7 +40285,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.2.12.zip",
       "since": "212.4321",
-      "until": "212.*",
+      "until": "213.*",
       "compatibility_overrides": [
         {
           "applies_since": "212.4321",
@@ -42661,7 +42661,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.3.8.zip",
       "since": "213.4631",
-      "until": "221.*",
+      "until": "213.5744.202",
       "compatibility_overrides": [
         {
           "applies_since": "213.4631",
@@ -42701,7 +42701,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.3.8.zip",
       "since": "213.4631",
-      "until": "221.*",
+      "until": "213.5744.202",
       "compatibility_overrides": [
         {
           "applies_since": "213.4631",
@@ -43316,7 +43316,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.3.13.zip",
       "since": "213.4631",
-      "until": "221.*",
+      "until": "213.5744.202",
       "compatibility_overrides": [
         {
           "applies_since": "213.4631",
@@ -43356,7 +43356,7 @@
       ],
       "file_name": "scala-intellij-bin-2021.3.13.zip",
       "since": "213.4631",
-      "until": "221.*",
+      "until": "213.5744.202",
       "compatibility_overrides": [
         {
           "applies_since": "213.4631",
@@ -100019,6 +100019,85 @@
       "since": "262.2302",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1018405": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1347/1018405/scala-intellij-bin-2026.2.195.zip?updateId=1018405&pluginId=1347&family=INTELLIJ",
+      "sha256": "nPmrS82e+gAB3YlnZrUupO+AdRnggyYt3NFmoL5+/HI=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.java.backend",
+        "org.intellij.intelliLang"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.java",
+        "org.jetbrains.completion.full.line",
+        "org.jetbrains.bazel",
+        "scalaUltimate.ml-inline-completion",
+        "intellij.ml.llm.core",
+        "org.jetbrains.security.package-checker",
+        "scalaUltimate.js",
+        "intellij.ml.llm.completion",
+        "intellij.xml.emmet",
+        "intellij.platform.uast",
+        "tanvd.grazi",
+        "intellij.fullLine.core.impl",
+        "com.jetbrains.performancePlugin",
+        "com.intellij.gradle",
+        "intellij.ml.llm.nextEdits.backend",
+        "Coverage",
+        "com.intellij.java-i18n",
+        "com.intellij.modules.ultimate",
+        "com.intellij.completion.evaluation",
+        "intellij.javascript.debugger.ui",
+        "org.jetbrains.idea.reposearch",
+        "intellij.properties.psi",
+        "com.intellij.copyright",
+        "scalaCommunity.debugger",
+        "scalaCommunity.properties",
+        "scalaCommunity.compiler-integration",
+        "intellij.dependencyAnalysis.core",
+        "JavaScriptDebugger",
+        "org.jetbrains.plugins.workspace",
+        "com.intellij.searcheverywhere.ml",
+        "intellij.debugger.collections.visualizer.jvm",
+        "training",
+        "intellij.platform.uast.ide",
+        "scalaUltimate.workspace-kotlin-utils",
+        "com.intellij.properties",
+        "intellij.ml.llm.privacy",
+        "intellij.bazel.java.common",
+        "org.intellij.plugins.markdown",
+        "intellij.java.ultimate.icons",
+        "org.jetbrains.java.decompiler",
+        "scalaCommunity.bsp",
+        "com.intellij.completion.ml.ranking",
+        "intellij.ml.llm.codeGeneration",
+        "scalaCommunity.mlCompletion",
+        "intellij.fullLine.core.completion",
+        "intellij.bazel.importer",
+        "intellij.javascript.debugger.backend",
+        "intellij.css",
+        "scalaCommunity.testing-support",
+        "com.intellij.modules.duplicatesDetector",
+        "scalaUltimate.llm",
+        "JUnit",
+        "JavaScript",
+        "org.intellij.qodana",
+        "org.jetbrains.plugins.terminal",
+        "scalaCommunity.intelliLang",
+        "intellij.platform.inline.completion",
+        "intellij.ml.llm.embeddings",
+        "org.jetbrains.idea.maven",
+        "intellij.fullLine.core",
+        "intellij.packageChecker.java",
+        "intellij.platform.structuralSearch",
+        "scalaUltimate.play"
+      ],
+      "file_name": "scala-intellij-bin-2026.2.195.zip",
+      "since": "262.2302",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -103237,6 +103316,7 @@
       "2026.2.190": 1014868,
       "2026.2.192": 1016293,
       "2026.2.193": 1017292,
+      "2026.2.195": 1018405,
       "3.0.102": 24907,
       "3.0.117": 24958,
       "3.0.125": 25000,

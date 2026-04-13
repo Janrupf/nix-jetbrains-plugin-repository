@@ -480,6 +480,24 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1018104": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22933/1018104/odin-intellij-1.0.3.zip?updateId=1018104&pluginId=22933&family=INTELLIJ",
+      "sha256": "RBFMBC7Kt/e5EaJgTDG0BgWmCJd64IKLt3F5ZotyK9w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.clion.ide",
+        "com.intellij.modules.rider",
+        "com.intellij.nativeDebug",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "odin-intellij-1.0.3.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -514,7 +532,8 @@
       "0.9.0": 658341,
       "1.0.0": 888911,
       "1.0.1": 897775,
-      "1.0.2": 930064
+      "1.0.2": 930064,
+      "1.0.3": 1018104
     }
   }
 }

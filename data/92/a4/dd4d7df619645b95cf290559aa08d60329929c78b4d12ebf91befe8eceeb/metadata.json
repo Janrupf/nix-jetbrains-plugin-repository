@@ -48,13 +48,30 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1018135": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31208/1018135/madock-idea-plugin-0.0.4.zip?updateId=1018135&pluginId=31208&family=INTELLIJ",
+      "sha256": "4B22OYaQz7V1AZFwp8E8fbDbzeZ/DpIj/NZTVaT3rlo=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php"
+      ],
+      "file_name": "madock-idea-plugin-0.0.4.zip",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1": 1016216,
       "0.0.2": 1017029,
-      "0.0.3": 1017242
+      "0.0.3": 1017242,
+      "0.0.4": 1018135
     }
   }
 }
