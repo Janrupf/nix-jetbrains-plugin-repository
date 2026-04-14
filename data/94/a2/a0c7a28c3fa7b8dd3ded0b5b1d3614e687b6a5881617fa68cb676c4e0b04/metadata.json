@@ -31,12 +31,28 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1018498": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31165/1018498/nushell-lint-intellij-1.0.3-signed.zip?updateId=1018498&pluginId=31165&family=INTELLIJ",
+      "sha256": "ZG19Tg0ZWHZobPBUGy5GnVQYREnAvwkH+SDKj+8HTf8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "co.anbora.labs.nushell.community",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nushell-lint-intellij-1.0.3-signed.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 1013001,
-      "1.0.2": 1014340
+      "1.0.2": 1014340,
+      "1.0.3": 1018498
     }
   }
 }

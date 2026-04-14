@@ -40,8 +40,8 @@
       ],
       "optional_dependencies": [],
       "file_name": "aws-jetbrains-toolkit-1.0.zip",
-      "since": "183.0",
-      "until": "183.*",
+      "since": "203.0",
+      "until": "203.*",
       "compatibility_overrides": []
     },
     "53749": {
@@ -6531,8 +6531,8 @@
         "org.jetbrains.plugins.go"
       ],
       "file_name": "aws-toolkit-jetbrains.zip",
-      "since": "183.0",
-      "until": "183.*",
+      "since": "203.0",
+      "until": "203.*",
       "compatibility_overrides": []
     },
     "115842": {
@@ -80278,6 +80278,70 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1019212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11349/1019212/aws-toolkit-jetbrains-standalone-4.0.261.zip?updateId=1019212&pluginId=11349&family=INTELLIJ",
+      "sha256": "NYBR71PuEN+n3V5IOgn+ZoqZ2p9fmfDEOhzzovdldM0=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.rider",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.python",
+        "Docker",
+        "com.jetbrains.codeWithMe",
+        "Git4Idea",
+        "com.intellij.database",
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lsp",
+        "JavaScriptDebugger",
+        "org.jetbrains.plugins.gradle",
+        "com.jetbrains.gateway"
+      ],
+      "file_name": "aws-toolkit-jetbrains-standalone-4.0.261.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1019213": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11349/1019213/aws-toolkit-jetbrains-standalone-4.0.261.zip?updateId=1019213&pluginId=11349&family=INTELLIJ",
+      "sha256": "NYBR71PuEN+n3V5IOgn+ZoqZ2p9fmfDEOhzzovdldM0=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.rider",
+        "Docker",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.python",
+        "com.jetbrains.codeWithMe",
+        "Git4Idea",
+        "JavaScriptDebugger",
+        "com.intellij.database",
+        "com.intellij.modules.externalSystem",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lsp",
+        "com.jetbrains.gateway",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "aws-toolkit-jetbrains-standalone-4.0.261.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -81580,6 +81644,7 @@
       "4.0.251": 1016261,
       "4.0.252": 1016259,
       "4.0.253": 1016258,
+      "4.0.261": 1019213,
       "GW-1.55-222": 260156,
       "GW-1.55-223": 260163,
       "GW-1.56-222": 263522,
@@ -82656,6 +82721,7 @@
       "4.0.251": 1016260,
       "4.0.252": 1016257,
       "4.0.253": 1016256,
+      "4.0.261": 1019212,
       "GW-1.55-222": 260155,
       "GW-1.55-223": 260162,
       "GW-1.56-222": 263521,

@@ -1714,6 +1714,58 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1019264": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29075/1019264/sciak.flow.gitlab.plugin-16.0.0-SNAPSHOT-signed.zip?updateId=1019264&pluginId=29075&family=INTELLIJ",
+      "sha256": "FGRx0RTtC/9gqkxp2Y/Yeb8Ii81T8cPGm8HFuVMfnCE=",
+      "channel": "beta",
+      "dependencies": [],
+      "optional_dependencies": [
+        "Git4Idea",
+        "intellij.platform.backend",
+        "intellij.platform.tasks",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.tasks.impl",
+        "intellij.platform.frontend",
+        "org.intellij.plugins.markdown",
+        "sciak.flow.gitlab.plugin.shared",
+        "intellij.platform.vcs.log.impl",
+        "sciak.flow.gitlab.plugin.dependencies",
+        "intellij.platform.vcs.dvcs.impl",
+        "org.jetbrains.plugins.yaml",
+        "intellij.platform.rpc.backend"
+      ],
+      "file_name": "sciak.flow.gitlab.plugin-16.0.0-SNAPSHOT-signed.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1019298": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29075/1019298/sciak.flow.gitlab.plugin-16.0.0-signed.zip?updateId=1019298&pluginId=29075&family=INTELLIJ",
+      "sha256": "xPJfGLRIeEssySyZ3+FSDmW96JGysuTdhhL4OjF/Zhg=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "Git4Idea",
+        "intellij.platform.backend",
+        "sciak.flow.gitlab.plugin.shared",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.tasks.impl",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs.log.impl",
+        "org.intellij.plugins.markdown",
+        "intellij.platform.tasks",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.vcs.dvcs.impl",
+        "org.jetbrains.plugins.yaml",
+        "sciak.flow.gitlab.plugin.dependencies"
+      ],
+      "file_name": "sciak.flow.gitlab.plugin-16.0.0-signed.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1791,7 +1843,8 @@
       "15.0.1-SNAPSHOT+001": 972846,
       "16.0.0-SNAPSHOT+006": 986082,
       "16.0.0-SNAPSHOT+009": 986451,
-      "16.0.0-SNAPSHOT+028": 1017940
+      "16.0.0-SNAPSHOT+028": 1017940,
+      "16.0.0-SNAPSHOT+030": 1019264
     },
     "stable": {
       "14.0.1": 896036,
@@ -1812,7 +1865,8 @@
       "15.0.0": 970724,
       "15.0.1": 972870,
       "15.0.2-251": 971275,
-      "15.0.3-251": 972844
+      "15.0.3-251": 972844,
+      "16.0.0": 1019298
     }
   }
 }

@@ -16,8 +16,15 @@
       ],
       "file_name": "compose-multiplatform-wizard-plugin-0.1.0.zip",
       "since": "253.0",
-      "until": "263.*",
-      "compatibility_overrides": []
+      "until": "253.30387",
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.0",
+          "applies_until": "263.*",
+          "compatible_since": "253.0",
+          "compatible_until": "253.30387"
+        }
+      ]
     },
     "963482": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29108/963482/compose-multiplatform-wizard-plugin-0.1.1.zip?updateId=963482&pluginId=29108&family=INTELLIJ",
@@ -33,6 +40,31 @@
       ],
       "file_name": "compose-multiplatform-wizard-plugin-0.1.1.zip",
       "since": "253.30387",
+      "until": "253.30387.89",
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.30387",
+          "applies_until": "263.*",
+          "compatible_since": "253.30387",
+          "compatible_until": "253.30387.89"
+        }
+      ]
+    },
+    "1019642": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29108/1019642/compose-multiplatform-wizard-plugin-0.1.2.zip?updateId=1019642&pluginId=29108&family=INTELLIJ",
+      "sha256": "0hyWw8awsFqdP+fXpJRPT76PphIzpv2OBlKuSjC6cxQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.compose",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "compose-multiplatform-wizard-plugin-0.1.2.zip",
+      "since": "253.30387.90",
       "until": "263.*",
       "compatibility_overrides": []
     }
@@ -40,7 +72,8 @@
   "channels": {
     "stable": {
       "0.1.0": 900097,
-      "0.1.1": 963482
+      "0.1.1": 963482,
+      "0.1.2": 1019642
     }
   }
 }
