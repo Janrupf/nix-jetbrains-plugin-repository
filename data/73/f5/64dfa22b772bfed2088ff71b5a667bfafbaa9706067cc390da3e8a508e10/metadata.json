@@ -14,11 +14,39 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1020910": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31194/1020910/serial-port-plugin-1.0.1.zip?updateId=1020910&pluginId=31194&family=INTELLIJ",
+      "sha256": "iaub22rWT161ZOy5HvVLWicJYtt+pneXmIzMG2eiqRM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "serial-port-plugin-1.0.1.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1020912": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31194/1020912/serial-port-plugin-1.0.2.zip?updateId=1020912&pluginId=31194&family=INTELLIJ",
+      "sha256": "TIdYINXciuxv5EHQZ2KMmy8ePKylltd0466/fZyfCOI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "serial-port-plugin-1.0.2.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1014860
+      "1.0.0": 1014860,
+      "1.0.1": 1020910,
+      "1.0.2": 1020912
     }
   }
 }

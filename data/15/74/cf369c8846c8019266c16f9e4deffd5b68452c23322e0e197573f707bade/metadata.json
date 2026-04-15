@@ -27505,6 +27505,56 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "1019744": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1019744/github-copilot-intellij-1.8.0-rc.3-242.zip?updateId=1019744&pluginId=17718&family=INTELLIJ",
+      "sha256": "RMGP3yQiD+gnmblN9AfTgQWOWmp3wdeDqXtnomdSpOY=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "Pythonid",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java",
+        "IdeaVIM",
+        "PythonCore",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "github-copilot-intellij-1.8.0-rc.3-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1019809": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1019809/github-copilot-intellij-1.8.0-rc.3-243.zip?updateId=1019809&pluginId=17718&family=INTELLIJ",
+      "sha256": "SugotwCWr/nAq2BhytgzxqySESO2NluUaZsRPY2lXN0=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "Git4Idea",
+        "com.intellij.java",
+        "Pythonid",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.terminal",
+        "IdeaVIM",
+        "org.jetbrains.plugins.yaml",
+        "PythonCore"
+      ],
+      "file_name": "github-copilot-intellij-1.8.0-rc.3-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -28630,7 +28680,9 @@
       "1.8.0-rc.1-242": 1011730,
       "1.8.0-rc.1-243": 1011731,
       "1.8.0-rc.2-242": 1015291,
-      "1.8.0-rc.2-243": 1015175
+      "1.8.0-rc.2-243": 1015175,
+      "1.8.0-rc.3-242": 1019744,
+      "1.8.0-rc.3-243": 1019809
     },
     "stable": {
       "1.0.1": 142991,

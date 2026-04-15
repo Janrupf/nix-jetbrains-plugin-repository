@@ -2,16 +2,30 @@
   "xml_id": "com.lant.ai.gitcommit.assistant",
   "numeric_id": 31097,
   "updates": {
-    "1008918": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31097/1008918/ai-git-commit-helper-1.0.0.zip?updateId=1008918&pluginId=31097&family=INTELLIJ",
-      "sha256": "k9FOyrMy3o4p/wgfE353iwDFJzElCXewtH3/mcl/lsw=",
+    "1020398": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31097/1020398/ai-git-commit-helper-1.0.1.zip?updateId=1020398&pluginId=31097&family=INTELLIJ",
+      "sha256": "XaLNEREomEWodtsjblOf/5QsivCQzql4XlcHe0FviBM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ai-git-commit-helper-1.0.1.zip",
+      "since": "231.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1020488": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31097/1020488/ai-git-commit-helper-1.0.2.zip?updateId=1020488&pluginId=31097&family=INTELLIJ",
+      "sha256": "YT3ZrJDANX3b/eEY+SoahHEvLn/wR1PeMLFZQpZ0wnQ=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
         "Git4Idea"
       ],
       "optional_dependencies": [],
-      "file_name": "ai-git-commit-helper-1.0.0.zip",
+      "file_name": "ai-git-commit-helper-1.0.2.zip",
       "since": "231.0",
       "until": "261.*",
       "compatibility_overrides": []
@@ -19,7 +33,8 @@
   },
   "channels": {
     "stable": {
-      "1.0.0": 1008918
+      "1.0.1": 1020398,
+      "1.0.2": 1020488
     }
   }
 }

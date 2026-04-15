@@ -287,10 +287,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1020820": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29900/1020820/de.espend.ml.llm-0.10.0.zip?updateId=1020820&pluginId=29900&family=INTELLIJ",
+      "sha256": "w6UivM6u8XSCSF9cBkmIeHIDxg6HwSIJ14HRCyvoD18=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.ml.llm",
+        "Git4Idea",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "de.espend.ml.llm-0.10.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 1020820,
       "0.4.2": 951361,
       "0.5.2": 970939,
       "0.6.0": 980241,
