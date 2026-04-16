@@ -2,57 +2,9 @@
   "xml_id": "fr.mathbou.mayarecharm",
   "numeric_id": 31239,
   "updates": {
-    "1018519": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31239/1018519/MayaReCharm-3.3.0.zip?updateId=1018519&pluginId=31239&family=INTELLIJ",
-      "sha256": "CPvEx6KMl6olP+ekB72Dl4v2zAuLoXDRLR3kIeJFK6Q=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "PythonCommon",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.xdebugger",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "MayaReCharm-3.3.0.zip",
-      "since": "251.0",
-      "until": "254.0",
-      "compatibility_overrides": [
-        {
-          "applies_since": "251.0",
-          "applies_until": "999.99999",
-          "compatible_since": "251.0",
-          "compatible_until": "254.0"
-        }
-      ]
-    },
-    "1018524": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31239/1018524/MayaReCharm-3.4.0.zip?updateId=1018524&pluginId=31239&family=INTELLIJ",
-      "sha256": "Ov8sLjBGLl519RT7ktYBYGsaySzJvYA2RNtXOgyNIqk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.python",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "PythonCommon",
-        "com.intellij.modules.xdebugger"
-      ],
-      "optional_dependencies": [],
-      "file_name": "MayaReCharm-3.4.0.zip",
-      "since": "251.0",
-      "until": "254.0",
-      "compatibility_overrides": [
-        {
-          "applies_since": "251.0",
-          "applies_until": "999.99999",
-          "compatible_since": "251.0",
-          "compatible_until": "254.0"
-        }
-      ]
-    },
-    "1018531": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31239/1018531/MayaReCharm-4.0.0.zip?updateId=1018531&pluginId=31239&family=INTELLIJ",
-      "sha256": "pfZjxOJUt3CTIQeqtzQTmFh7lr3cgRIwxOBcO6w59t0=",
+    "1022375": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31239/1022375/MayaReCharm-4.1.0.zip?updateId=1022375&pluginId=31239&family=INTELLIJ",
+      "sha256": "YdM62KxbEn7XK/HBDAmOUn1hv14kRJMH5flWfPzAfkQ=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.lang",
@@ -62,24 +14,33 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "MayaReCharm-4.0.0.zip",
+      "file_name": "MayaReCharm-4.1.0.zip",
       "since": "261.0",
-      "until": "270",
-      "compatibility_overrides": [
-        {
-          "applies_since": "261.0",
-          "applies_until": "999.99999",
-          "compatible_since": "261.0",
-          "compatible_until": "270"
-        }
-      ]
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1022376": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31239/1022376/MayaReCharm-5.0.0.zip?updateId=1022376&pluginId=31239&family=INTELLIJ",
+      "sha256": "mKltXaUkmFjyiCLaZyS4f8Xvoiy2kER1I5EggS54H5I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MayaReCharm-5.0.0.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "3.3.0": 1018519,
-      "3.4.0": 1018524,
-      "4.0.0": 1018531
+      "4.1.0": 1022375,
+      "5.0.0": 1022376
     }
   }
 }

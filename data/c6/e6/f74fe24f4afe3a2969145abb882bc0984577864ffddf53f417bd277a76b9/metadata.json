@@ -16,10 +16,42 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1022013": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31213/1022013/supersigil-intellij-0.10.0.zip?updateId=1022013&pluginId=31213&family=INTELLIJ",
+      "sha256": "fRAZiQza7DXQ7Ch5fuVpvxlJm4V4hGnZEUO3qbhXFT0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "supersigil-intellij-0.10.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1022276": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31213/1022276/supersigil-intellij-0.11.0.zip?updateId=1022276&pluginId=31213&family=INTELLIJ",
+      "sha256": "lGXSW57znFW+DUjORqYE0bZIJTdwa0reicOKWXxO/KE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "supersigil-intellij-0.11.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 1022013,
+      "0.11.0": 1022276,
       "0.2.0": 1016993
     }
   }

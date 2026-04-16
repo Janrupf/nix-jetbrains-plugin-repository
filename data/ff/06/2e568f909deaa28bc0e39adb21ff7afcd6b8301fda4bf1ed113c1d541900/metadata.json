@@ -15,11 +15,26 @@
       "since": "251.0",
       "until": "265.*",
       "compatibility_overrides": []
+    },
+    "1021345": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31256/1021345/gala-intellij-plugin_18_.zip?updateId=1021345&pluginId=31256&family=INTELLIJ",
+      "sha256": "7A9fnie3bG59rsakwwc/YcQcr9wJg3lEQEI1c8tAC4g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gala-intellij-plugin_18_.zip",
+      "since": "251.0",
+      "until": "265.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.30.2": 1019944
+      "0.30.2": 1019944,
+      "0.30.4": 1021345
     }
   }
 }

@@ -2,39 +2,108 @@
   "xml_id": "devsidd.sapcommerce.test.runner.helper",
   "numeric_id": 31205,
   "updates": {
-    "1016199": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31205/1016199/sap-commerce-test-helper-plugin-1.0.0.zip?updateId=1016199&pluginId=31205&family=INTELLIJ",
-      "sha256": "Z1yvWdQKfAbYc9aNLLIWXqhUqSEswenAtsbumuUtocA=",
+    "1021846": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31205/1021846/sap-commerce-test-helper-plugin-2022.0.0.zip?updateId=1021846&pluginId=31205&family=INTELLIJ",
+      "sha256": "lggEsI4vV3RLlmd1YAunDtjyvUyxzbsePXqpFAoPU+c=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "sap-commerce-test-helper-plugin-1.0.0.zip",
-      "since": "221.0",
-      "until": "261.*",
-      "compatibility_overrides": []
-    },
-    "1020394": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31205/1020394/sap-commerce-test-helper-plugin-1.0.1.zip?updateId=1020394&pluginId=31205&family=INTELLIJ",
-      "sha256": "fMWH3nv5C3fV5TwF0wCcZ2DerdPFtNrbTs6yGbCXVuA=",
-      "channel": "stable",
-      "dependencies": [
+        "JUnit",
         "com.intellij.modules.java",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "sap-commerce-test-helper-plugin-1.0.1.zip",
+      "file_name": "sap-commerce-test-helper-plugin-2022.0.0.zip",
       "since": "221.0",
+      "until": "223.*",
+      "compatibility_overrides": []
+    },
+    "1021848": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31205/1021848/sap-commerce-test-helper-plugin-2023.0.0.zip?updateId=1021848&pluginId=31205&family=INTELLIJ",
+      "sha256": "o+a+eRztpVu8UmvfsLcqXi/3LO39lKzFoFsZkcc4Um0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "JUnit"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sap-commerce-test-helper-plugin-2023.0.0.zip",
+      "since": "231.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "1021849": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31205/1021849/sap-commerce-test-helper-plugin-2024.0.0.zip?updateId=1021849&pluginId=31205&family=INTELLIJ",
+      "sha256": "o5/FuOD9RW1gLlhpP7jRhsIoRIdnnynfMs3u8AjjORU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "JUnit"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sap-commerce-test-helper-plugin-2024.0.0.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1022301": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31205/1022301/sap-commerce-test-helper-plugin-2022.0.1.zip?updateId=1022301&pluginId=31205&family=INTELLIJ",
+      "sha256": "AULTkkojlszZKnB7WCJ5EFuQO6+unEwKHbcoU5t3S0o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "JUnit",
+        "com.intellij.idea.plugin.sap.commerce",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sap-commerce-test-helper-plugin-2022.0.1.zip",
+      "since": "221.0",
+      "until": "223.*",
+      "compatibility_overrides": []
+    },
+    "1022302": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31205/1022302/sap-commerce-test-helper-plugin-2023.0.1.zip?updateId=1022302&pluginId=31205&family=INTELLIJ",
+      "sha256": "feErJp5jLX7H+ZrTq7hKOBJxxxvxOa7sZVr3Yka+fsc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.idea.plugin.sap.commerce",
+        "com.intellij.modules.platform",
+        "JUnit",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sap-commerce-test-helper-plugin-2023.0.1.zip",
+      "since": "231.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "1022303": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31205/1022303/sap-commerce-test-helper-plugin-2024.0.1.zip?updateId=1022303&pluginId=31205&family=INTELLIJ",
+      "sha256": "bJdTYWTdLqQmO7xFJf0poYCsbpXnTtt20f6T0KjrlNY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.idea.plugin.sap.commerce",
+        "com.intellij.modules.platform",
+        "JUnit",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sap-commerce-test-helper-plugin-2024.0.1.zip",
+      "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1016199,
-      "1.0.1": 1020394
+      "2022.0.0": 1021846,
+      "2022.0.1": 1022301,
+      "2023.0.0": 1021848,
+      "2023.0.1": 1022302,
+      "2024.0.0": 1021849,
+      "2024.0.1": 1022303
     }
   }
 }
