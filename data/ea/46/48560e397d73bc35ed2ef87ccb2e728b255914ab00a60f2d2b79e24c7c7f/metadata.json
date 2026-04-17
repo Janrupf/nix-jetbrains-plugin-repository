@@ -3418,7 +3418,7 @@
       ],
       "file_name": "zencoder-1.11.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3446,7 +3446,7 @@
       ],
       "file_name": "zencoder-1.11.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3946,7 +3946,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3975,7 +3975,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -20052,6 +20052,78 @@
       "since": "242.20224.91",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1023200": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/1023200/zencoder-3.21.0-RC.2.zip?updateId=1023200&pluginId=24782&family=INTELLIJ",
+      "sha256": "yq9kI3K8Rc5xbg1nUYcukymOgJ+xiTx2IaFQ5AUh76o=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "JavaScript",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "zencoder-3.21.0-RC.2.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1023212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/1023212/zencoder-3.21.0.zip?updateId=1023212&pluginId=24782&family=INTELLIJ",
+      "sha256": "XUZgERKm6IHHxlbCPeEJqFIaK58viXlRfFCa33Jc7j8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "JavaScript",
+        "com.intellij.modules.python",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php"
+      ],
+      "file_name": "zencoder-3.21.0.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1024153": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/1024153/zencoder-3.22.0-nightly.1.zip?updateId=1024153&pluginId=24782&family=INTELLIJ",
+      "sha256": "nktCURUYzB9c7NktUWV7GjKe6QpTEck/dvuoiTnu67s=",
+      "channel": "nightly",
+      "dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.textmate",
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "JavaScript"
+      ],
+      "file_name": "zencoder-3.22.0-nightly.1.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -20765,9 +20837,11 @@
       "3.20.0-nightly.8": 1006877,
       "3.20.0-nightly.9": 1008759,
       "3.21.0-RC.1": 1022017,
+      "3.21.0-RC.2": 1023200,
       "3.21.0-nightly.1": 1014835,
       "3.21.0-nightly.2": 1016244,
       "3.21.0-nightly.3": 1020891,
+      "3.22.0-nightly.1": 1024153,
       "3.3.0": 907530,
       "3.3.0-RC.1": 906980,
       "3.3.0-RC.2": 907523,
@@ -20935,6 +21009,7 @@
       "3.2.0": 901520,
       "3.2.1": 902077,
       "3.20.0": 1012800,
+      "3.21.0": 1023212,
       "3.3.0": 907531,
       "3.3.1": 909208,
       "3.4.0": 911620,

@@ -22,11 +22,26 @@
           "compatible_until": "253.*"
         }
       ]
+    },
+    "1023215": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31075/1023215/binder-intellij-plugin-0.1.1.zip?updateId=1023215&pluginId=31075&family=INTELLIJ",
+      "sha256": "ysBx+vDGLvmIbXX1ZaUBaqJIcT7f7HaIVShhNNiMeFI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "binder-intellij-plugin-0.1.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1007694
+      "0.1.0": 1007694,
+      "0.1.1": 1023215
     }
   }
 }

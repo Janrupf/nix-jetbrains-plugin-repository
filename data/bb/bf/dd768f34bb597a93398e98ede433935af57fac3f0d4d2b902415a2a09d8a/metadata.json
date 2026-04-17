@@ -41,11 +41,53 @@
       "since": "261.23567",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1022744": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31283/1022744/dfa-analysis-rml-devtools-plugin-261.23567.68.zip?updateId=1022744&pluginId=31283&family=INTELLIJ",
+      "sha256": "Ejr4rL/T0LPSrhgjYhngFW9nNumRnjtxlWLVQ43+XD0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.dfa.analysis.rml.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.opengrep.taint",
+        "intellij.opengrep",
+        "intellij.dfa.analysis.rml",
+        "intellij.opengrep.lsp",
+        "intellij.dfa.analysis.rml.taint",
+        "intellij.dfa.analysis.rml.devtools"
+      ],
+      "file_name": "dfa-analysis-rml-devtools-plugin-261.23567.68.zip",
+      "since": "261.23567",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1023196": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31283/1023196/dfa-analysis-rml-devtools-plugin-261.23567.72.zip?updateId=1023196&pluginId=31283&family=INTELLIJ",
+      "sha256": "LLpxso4RbVzmSxTPmSkCUXXln665OoA57+d2WY0oLME=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.dfa.analysis.rml.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.opengrep",
+        "intellij.dfa.analysis.rml.taint",
+        "intellij.dfa.analysis.rml",
+        "intellij.opengrep.lsp",
+        "intellij.opengrep.taint",
+        "intellij.dfa.analysis.rml.devtools"
+      ],
+      "file_name": "dfa-analysis-rml-devtools-plugin-261.23567.72.zip",
+      "since": "261.23567",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "261.23567.68": 1022744,
       "261.23567.71": 1022052,
+      "261.23567.72": 1023196,
       "261.23567.73": 1022243
     }
   }

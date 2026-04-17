@@ -73,6 +73,36 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1024183": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30887/1024183/ide-database-mcp-0.1.6-legacy.zip?updateId=1024183&pluginId=30887&family=INTELLIJ",
+      "sha256": "9Hx9RUI8mRG0NRAs1OKk8ATffyVcbmgPwo96pgGmWO8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ide-database-mcp-0.1.6-legacy.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1024184": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30887/1024184/ide-database-mcp-0.1.6.zip?updateId=1024184&pluginId=30887&family=INTELLIJ",
+      "sha256": "j2XK0664/OJ91cqMxfk6NZllh2erGbmMh/pxq/ZAEfE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "ide-database-mcp-0.1.6.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -81,7 +111,9 @@
       "0.1.4": 996758,
       "0.1.4-legacy": 996756,
       "0.1.5": 1010504,
-      "0.1.5-legacy": 1010503
+      "0.1.5-legacy": 1010503,
+      "0.1.6": 1024184,
+      "0.1.6-legacy": 1024183
     }
   }
 }
