@@ -106,6 +106,58 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1024589": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30202/1024589/technical-debt-accountant-2026.3.9.zip?updateId=1024589&pluginId=30202&family=INTELLIJ",
+      "sha256": "wDJWvWcGzZ3kx+9xYL8V736hDIJvkHfB9RAfDBGDFso=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "technical-debt-accountant-2026.3.9.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1024631": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30202/1024631/technical-debt-accountant-2026.3.10.zip?updateId=1024631&pluginId=30202&family=INTELLIJ",
+      "sha256": "BCfitxmPH9M7IsPN382Ik0iLAGjD3rNEYcalnPyTNYE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "technical-debt-accountant-2026.3.10.zip",
+      "since": "251",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "232.0",
+          "applies_until": "999.99999",
+          "compatible_since": "251",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "1024808": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30202/1024808/technical-debt-accountant-2026.4.1.zip?updateId=1024808&pluginId=30202&family=INTELLIJ",
+      "sha256": "IxlPqq3uwOTPu48KNV/waUYAaySYHxgMVLSAOmfEyLw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "technical-debt-accountant-2026.4.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -115,8 +167,11 @@
       "2026.2.14": 963238,
       "2026.2.15": 963278,
       "2026.2.16": 977471,
+      "2026.3.10": 1024631,
       "2026.3.4": 980201,
-      "2026.3.5": 983256
+      "2026.3.5": 983256,
+      "2026.3.9": 1024589,
+      "2026.4.1": 1024808
     }
   }
 }

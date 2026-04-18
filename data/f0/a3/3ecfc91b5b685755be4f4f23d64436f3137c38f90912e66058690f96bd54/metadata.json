@@ -17,11 +17,28 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1024525": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29943/1024525/rumdl-intellij-0.1.1.zip?updateId=1024525&pluginId=29943&family=INTELLIJ",
+      "sha256": "ipGw20rXQyJW6dKPDAU/g0qc0U0e0lJo8Oo2aJSPiiY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "PythonCore"
+      ],
+      "file_name": "rumdl-intellij-0.1.1.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 941966
+      "0.1.0": 941966,
+      "0.1.1": 1024525
     }
   }
 }

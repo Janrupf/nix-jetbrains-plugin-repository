@@ -52,13 +52,31 @@
       "since": "243.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1024637": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31277/1024637/codesense-ai-plugin-0.2.1.zip?updateId=1024637&pluginId=31277&family=INTELLIJ",
+      "sha256": "rHKjPOuPKqiqU93SSGDa0mHeVt/Jt0nu6ypS0iqgQ5I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "codesense-ai-plugin-0.2.1.zip",
+      "since": "243.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.2": 1020920,
       "0.1.3": 1022579,
-      "0.2.0": 1024157
+      "0.2.0": 1024157,
+      "0.2.1": 1024637
     }
   }
 }

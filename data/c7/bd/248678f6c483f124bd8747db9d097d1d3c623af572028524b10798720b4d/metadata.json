@@ -2,22 +2,6 @@
   "xml_id": "com.github.prepushchecker",
   "numeric_id": 31297,
   "updates": {
-    "1023224": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31297/1023224/Pre-Push_Compilation_Checker-1.0.0.zip?updateId=1023224&pluginId=31297&family=INTELLIJ",
-      "sha256": "CitY5QsVYZi9D+TrrlLc+QS1xHu+taF26+kG0pVPqjA=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Pre-Push_Compilation_Checker-1.0.0.zip",
-      "since": "233.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1023226": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31297/1023226/Pre-Push_Compilation_Checker-1.0.1.zip?updateId=1023226&pluginId=31297&family=INTELLIJ",
       "sha256": "Y4hAYZUYozSisdY2/FzEaDgnq9h39ev2d20WEBIibW8=",
@@ -33,12 +17,45 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1024516": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31297/1024516/Pre-Push_Compilation_Checker-1.1.0.zip?updateId=1024516&pluginId=31297&family=INTELLIJ",
+      "sha256": "4uCfJ1KL01lWstdSfsGgBZ87K5tfZ50Ewi9NpR3yqoY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Pre-Push_Compilation_Checker-1.1.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1024557": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31297/1024557/Pre-Push_Compilation_Checker-1.2.0.zip?updateId=1024557&pluginId=31297&family=INTELLIJ",
+      "sha256": "EAcA10S3Z9GuIF5JGzViXb0Q+xoeyCdKJpAA5WpOHzY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Pre-Push_Compilation_Checker-1.2.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1023224,
-      "1.0.1": 1023226
+      "1.0.1": 1023226,
+      "1.1.0": 1024516,
+      "1.2.0": 1024557
     }
   }
 }
