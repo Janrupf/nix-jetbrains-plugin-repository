@@ -33,12 +33,29 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1027035": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25626/1027035/changed-tests-runner-0.0.3-signed.zip?updateId=1027035&pluginId=25626&family=INTELLIJ",
+      "sha256": "bJ1m8DR53bCVD0YQGhcJZNmNfx9UJPmWD82uAZva8fE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "JUnit",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "changed-tests-runner-0.0.3-signed.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1": 638777,
-      "0.0.2": 640551
+      "0.0.2": 640551,
+      "0.0.3": 1027035
     }
   }
 }
