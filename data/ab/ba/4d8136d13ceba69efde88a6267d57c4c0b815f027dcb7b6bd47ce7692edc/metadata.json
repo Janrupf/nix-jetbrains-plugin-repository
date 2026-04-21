@@ -697,6 +697,42 @@
       "since": "251.23774",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1028275": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12541/1028275/intellij-dependency-analytics-1.3.1.zip?updateId=1028275&pluginId=12541&family=INTELLIJ",
+      "sha256": "CzMQvumWjPcByhUdXS2hX2xO4D+8zK304QFj4bKkuVU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.intellij.telemetry",
+        "org.toml.lang",
+        "com.intellij.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-dependency-analytics-1.3.1.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1028326": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12541/1028326/intellij-dependency-analytics-1.4.0-nightly.20260421.zip?updateId=1028326&pluginId=12541&family=INTELLIJ",
+      "sha256": "7nb61rQWqd4SSP+2K664KZoTC04JCvlHt5q33YQpG/U=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.toml.lang",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.redhat.devtools.intellij.telemetry",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-dependency-analytics-1.4.0-nightly.20260421.zip",
+      "since": "251.23774",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -726,7 +762,8 @@
       "1.3.0-nightly.20260327": 997733,
       "1.3.0-nightly.20260328": 999488,
       "1.3.0-nightly.20260331": 1003116,
-      "1.4.0-nightly.20260415": 1020914
+      "1.4.0-nightly.20260415": 1020914,
+      "1.4.0-nightly.20260421": 1028326
     },
     "stable": {
       "0.0.1.7": 63789,
@@ -744,7 +781,8 @@
       "1.0.0.114": 527553,
       "1.1.0": 846161,
       "1.2.0": 915468,
-      "1.3.0": 1020801
+      "1.3.0": 1020801,
+      "1.3.1": 1028275
     }
   }
 }
