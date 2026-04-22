@@ -360,6 +360,27 @@
       "optional_dependencies": [],
       "file_name": "karate-intellij-3.0.2.70.zip",
       "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "999.99999",
+          "compatible_since": "243.0",
+          "compatible_until": "253.*"
+        }
+      ]
+    },
+    "1028510": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19232/1028510/karate-intellij-4.0.0.73.zip?updateId=1028510&pluginId=19232&family=INTELLIJ",
+      "sha256": "x5gTrGM42E1XaI/YBLkAVnnnKckVa3t0hmWhfg7isgo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "karate-intellij-4.0.0.73.zip",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -388,7 +409,8 @@
       "2.2.2": 925174,
       "3.0.0": 996395,
       "3.0.1": 1010187,
-      "3.0.2": 1027203
+      "3.0.2": 1027203,
+      "4.0.0": 1028510
     }
   }
 }

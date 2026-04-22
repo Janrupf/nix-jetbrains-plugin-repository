@@ -52,9 +52,47 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1028560": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31099/1028560/kensa-intellij-plugin-0.7.0-eap.1.zip?updateId=1028560&pluginId=31099&family=INTELLIJ",
+      "sha256": "vUGBdtZH6OXMVKbmvgr++kx8Dkqg736zqmgVkv/2kq0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "JUnit",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kensa-intellij-plugin-0.7.0-eap.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1028753": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31099/1028753/kensa-intellij-plugin-0.7.0-eap.2.zip?updateId=1028753&pluginId=31099&family=INTELLIJ",
+      "sha256": "3zdczX73ZR+rY0qKA0Wz14oZTx2ZVmVrwQ85Sdf+YMQ=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "JUnit",
+        "com.intellij.modules.platform",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kensa-intellij-plugin-0.7.0-eap.2.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "0.7.0-eap.1": 1028560,
+      "0.7.0-eap.2": 1028753
+    },
     "stable": {
       "0.6.5": 1009257,
       "0.6.6": 1009728,
