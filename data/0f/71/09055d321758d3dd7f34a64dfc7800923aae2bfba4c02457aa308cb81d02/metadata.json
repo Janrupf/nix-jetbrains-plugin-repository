@@ -156,8 +156,15 @@
       ],
       "file_name": "plugin.zip",
       "since": "253.28294",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "253.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.28294",
+          "applies_until": "999.99999",
+          "compatible_since": "253.28294",
+          "compatible_until": "253.*"
+        }
+      ]
     }
   },
   "channels": {
