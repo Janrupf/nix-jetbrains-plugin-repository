@@ -36507,6 +36507,110 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1030754": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/1030754/intellij-rust-261.23567.140.zip?updateId=1030754&pluginId=22407&family=INTELLIJ",
+      "sha256": "LfINNf+kglfXoIsc+eJSO+FWQCXA2PeA1EfgbvMHTdI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.regexp",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.vcs.impl",
+        "com.intellij.modules.spellchecker",
+        "org.toml.lang",
+        "com.intellij.modules.rust-capable",
+        "intellij.json.backend",
+        "intellij.toml.json"
+      ],
+      "optional_dependencies": [
+        "intellij.cidr.execution",
+        "com.intellij.database",
+        "intellij.platform.coverage",
+        "intellij.clion.execution",
+        "com.intellij.modules.rustrover",
+        "intellij.profiler.clion",
+        "tanvd.grazi",
+        "intellij.cidr.profiling",
+        "intellij.cidr.debugger.core",
+        "JavaScript",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.workspaceModel",
+        "intellij.rustrover.debugger",
+        "intellij.cidr.util.execution",
+        "intellij.platform.duplicatesDetector",
+        "intellij.cidr.debugger.backend",
+        "intellij.database.dialects.sqlite",
+        "intellij.profiler.asyncOne",
+        "intellij.clion.toolchains",
+        "intellij.java.backend",
+        "com.intellij.clion",
+        "intellij.database.dialects.maria",
+        "intellij.cidr.runner",
+        "com.intellij.copyright",
+        "com.intellij.mcpServer",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.diagram",
+        "intellij.clion.projectStatus",
+        "intellij.profiler.common"
+      ],
+      "file_name": "intellij-rust-261.23567.140.zip",
+      "since": "261.23567",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1030819": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22407/1030819/intellij-rust-261.23567.148.zip?updateId=1030819&pluginId=22407&family=INTELLIJ",
+      "sha256": "DqBR2uVghR/W17tcji4bKVDVThaxcNCrw2wfcuACKPs=",
+      "channel": "unstable",
+      "dependencies": [
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.ultimate",
+        "org.toml.lang",
+        "com.intellij.modules.rust-capable",
+        "intellij.json.backend",
+        "intellij.toml.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.regexp",
+        "intellij.platform.vcs.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.cidr.util.execution",
+        "intellij.cidr.debugger.backend",
+        "intellij.platform.duplicatesDetector",
+        "intellij.database.dialects.sqlite",
+        "intellij.clion.toolchains",
+        "intellij.profiler.asyncOne",
+        "com.intellij.clion",
+        "intellij.java.backend",
+        "intellij.rustrover.debugger",
+        "intellij.database.dialects.maria",
+        "intellij.cidr.runner",
+        "com.intellij.copyright",
+        "com.intellij.mcpServer",
+        "com.intellij.completion.ml.ranking",
+        "com.intellij.diagram",
+        "intellij.clion.projectStatus",
+        "intellij.profiler.common",
+        "intellij.cidr.execution",
+        "com.intellij.database",
+        "org.jetbrains.plugins.terminal",
+        "intellij.clion.execution",
+        "com.intellij.modules.rustrover",
+        "intellij.profiler.clion",
+        "tanvd.grazi",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.profiling",
+        "intellij.platform.coverage",
+        "JavaScript",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.workspaceModel"
+      ],
+      "file_name": "intellij-rust-261.23567.148.zip",
+      "since": "261.23567",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -37446,7 +37550,8 @@
       "261.22158.130": 984629,
       "261.22158.214": 990887,
       "261.22158.311": 998865,
-      "261.22158.49": 979303
+      "261.22158.49": 979303,
+      "261.23567.140": 1030754
     },
     "super-early-bird": {
       "0.4.201.5469-232-super-early-bird": 385597,
@@ -37469,7 +37574,8 @@
       "5489": 403480
     },
     "unstable": {
-      "261.22158.415": 1028055
+      "261.22158.415": 1028055,
+      "261.23567.148": 1030819
     }
   }
 }

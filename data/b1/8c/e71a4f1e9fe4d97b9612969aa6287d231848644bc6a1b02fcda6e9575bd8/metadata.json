@@ -94,6 +94,44 @@
       "since": "243.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1031001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30971/1031001/i18n_Support_Plus-1.0.6.zip?updateId=1031001&pluginId=30971&family=INTELLIJ",
+      "sha256": "Va2dJBZGIA/n5zv0FeHxpDndMcL/kmkTVd3jRU5ZHiQ=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.localization",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.vue"
+      ],
+      "file_name": "i18n_Support_Plus-1.0.6.zip",
+      "since": "243.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1031045": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30971/1031045/i18n_Support_Plus-1.0.7.zip?updateId=1031045&pluginId=30971&family=INTELLIJ",
+      "sha256": "ZSp/z78Aa/MUUJuYsbVT23Wq75EWmCQD+CzdMRzfXSo=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.vue",
+        "org.jetbrains.plugins.localization"
+      ],
+      "file_name": "i18n_Support_Plus-1.0.7.zip",
+      "since": "243.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -102,7 +140,9 @@
       "1.0.2": 1008013,
       "1.0.3": 1020810,
       "1.0.4": 1020917,
-      "1.0.5": 1021346
+      "1.0.5": 1021346,
+      "1.0.6": 1031001,
+      "1.0.7": 1031045
     }
   }
 }

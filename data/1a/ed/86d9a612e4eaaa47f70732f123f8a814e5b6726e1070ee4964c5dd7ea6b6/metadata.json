@@ -15,11 +15,41 @@
       "since": "241.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1030765": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31192/1030765/flow-intellij-plugin-1.0.0.3.zip?updateId=1030765&pluginId=31192&family=INTELLIJ",
+      "sha256": "ehTA2y+ENktxxZBmGs5/I/lriOw7boWaJrfhEqf1ihY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flow-intellij-plugin-1.0.0.3.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1030787": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31192/1030787/flow-intellij-plugin-1.0.0.4.zip?updateId=1030787&pluginId=31192&family=INTELLIJ",
+      "sha256": "++OxH5dXvK+fA6udGuOhUkMytYw1BVMZMdzMIfyPNgw=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flow-intellij-plugin-1.0.0.4.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1014782
+      "1.0.0": 1014782,
+      "1.0.0.3": 1030765,
+      "1.0.0.4": 1030787
     }
   }
 }

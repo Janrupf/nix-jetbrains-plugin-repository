@@ -27809,6 +27809,56 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1031139": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1031139/github-copilot-intellij-1.8.2-242.zip?updateId=1031139&pluginId=17718&family=INTELLIJ",
+      "sha256": "FkRapKzvMeFWM3S+lYyAbMGbBlmZbmnHKvZJi4kFUpw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM",
+        "Pythonid",
+        "com.intellij.java",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.kotlin",
+        "PythonCore",
+        "Git4Idea"
+      ],
+      "file_name": "github-copilot-intellij-1.8.2-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1031140": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1031140/github-copilot-intellij-1.8.2-243.zip?updateId=1031140&pluginId=17718&family=INTELLIJ",
+      "sha256": "q5iHK6gGHfE6bs3JVEBgzPDsDt/5dFtYrubn6+GstkQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "Pythonid",
+        "org.jetbrains.plugins.github",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "IdeaVIM",
+        "com.intellij.java",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "PythonCore"
+      ],
+      "file_name": "github-copilot-intellij-1.8.2-243.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -29137,7 +29187,9 @@
       "1.8.0-242": 1022361,
       "1.8.0-243": 1022367,
       "1.8.1-242": 1029468,
-      "1.8.1-243": 1029467
+      "1.8.1-243": 1029467,
+      "1.8.2-242": 1031139,
+      "1.8.2-243": 1031140
     }
   }
 }

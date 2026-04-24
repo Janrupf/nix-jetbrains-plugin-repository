@@ -22,11 +22,33 @@
       "since": "232.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1030651": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28062/1030651/earthly-intellij-plugin-1.0.2-signed.zip?updateId=1030651&pluginId=28062&family=INTELLIJ",
+      "sha256": "zWmHnnke+pLDe8gNdePA2MGxo6Berdd6tF3peHmD7vo=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.ruby",
+        "com.jetbrains.php",
+        "com.intellij.java",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "earthly-intellij-plugin-1.0.2-signed.zip",
+      "since": "232.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 817580
+      "1.0.1": 817580,
+      "1.0.2": 1030651
     }
   }
 }

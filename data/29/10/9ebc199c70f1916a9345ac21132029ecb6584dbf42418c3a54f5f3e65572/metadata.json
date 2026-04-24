@@ -16,11 +16,43 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1031083": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31407/1031083/MixinMCP-1.0.0.zip?updateId=1031083&pluginId=31407&family=INTELLIJ",
+      "sha256": "Ukhh7f6TGQ4Nn/k3rSnJKUvAYKjJ6L4UF9+bBfVLuao=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MixinMCP-1.0.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1031089": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31407/1031089/MixinMCP-1.0.1.zip?updateId=1031089&pluginId=31407&family=INTELLIJ",
+      "sha256": "NKXU9gG+4IWN3xVrqR4rqXx6FxiaYwgODWbYzHpEjd4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MixinMCP-1.0.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.9.0": 1030389
+      "0.9.0": 1030389,
+      "1.0.0": 1031083,
+      "1.0.1": 1031089
     }
   }
 }
