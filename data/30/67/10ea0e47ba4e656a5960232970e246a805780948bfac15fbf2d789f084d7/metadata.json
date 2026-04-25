@@ -2,21 +2,6 @@
   "xml_id": "com.llamatik.teammate.LlamatikTeammate",
   "numeric_id": 31304,
   "updates": {
-    "1030126": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31304/1030126/LlamatikCode-1.0.0.zip?updateId=1030126&pluginId=31304&family=INTELLIJ",
-      "sha256": "7SJOPz6+qhuL0YHvIBJDmO5C18WBmFpuFJuKzqY3BQQ=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "LlamatikCode-1.0.0.zip",
-      "since": "252.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1031081": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31304/1031081/LlamatikCode-1.0.1.zip?updateId=1031081&pluginId=31304&family=INTELLIJ",
       "sha256": "Nbfgtn00esAErSdVhZzBdBVMO9jjOlHeT5Y30ANjIb4=",
@@ -31,12 +16,27 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1031201": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31304/1031201/LlamatikCode-1.0.2.zip?updateId=1031201&pluginId=31304&family=INTELLIJ",
+      "sha256": "BxeH43+trG9XkEgIehQlObVBHEqoLUcNo5hGMdp5PqA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LlamatikCode-1.0.2.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1030126,
-      "1.0.1": 1031081
+      "1.0.1": 1031081,
+      "1.0.2": 1031201
     }
   }
 }
