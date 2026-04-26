@@ -100,20 +100,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1008518": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1008518/mcp-intellij-all-1.14.0.zip?updateId=1008518&pluginId=31060&family=INTELLIJ",
-      "sha256": "D14dtYfW+Vqji8nfHRToHEVS9XOo7hG3BD46cz+bCzA=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.mcpServer"
-      ],
-      "optional_dependencies": [],
-      "file_name": "mcp-intellij-all-1.14.0.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1008667": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1008667/mcp-intellij-all-1.15.0.zip?updateId=1008667&pluginId=31060&family=INTELLIJ",
       "sha256": "qCu7IfNTkVcoufl2G2vHjQ+gI4ymmaXxwQMn3G0iZHE=",
@@ -124,20 +110,6 @@
       ],
       "optional_dependencies": [],
       "file_name": "mcp-intellij-all-1.15.0.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1008676": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1008676/mcp-intellij-all-1.16.0.zip?updateId=1008676&pluginId=31060&family=INTELLIJ",
-      "sha256": "qE6YCmP3tOiVqi8vZspY01BHj5olLDOG7B6f/dlN1tQ=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.mcpServer",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "mcp-intellij-all-1.16.0.zip",
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
@@ -422,20 +394,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1030797": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1030797/mcp-intellij-all-2.13.0.zip?updateId=1030797&pluginId=31060&family=INTELLIJ",
-      "sha256": "p+GpG0KeQfjibLvlf9h2HYdhJGhuiuFuVHNXm4+i5LY=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.mcpServer"
-      ],
-      "optional_dependencies": [],
-      "file_name": "mcp-intellij-all-2.13.0.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1031044": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1031044/mcp-intellij-all-2.13.1.zip?updateId=1031044&pluginId=31060&family=INTELLIJ",
       "sha256": "jV6/UL4ZZO7NjZ0Kqa5t437zFx/7fg8pEZ/MQavJUtI=",
@@ -450,16 +408,32 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1031817": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1031817/mcp-intellij-all-2.15.0.zip?updateId=1031817&pluginId=31060&family=INTELLIJ",
-      "sha256": "FREn5TUMThbZqC5Lm1i7amxzKEx24HPKh7qBeIyJZfA=",
+    "1032433": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1032433/mcp-intellij-all-2.15.1.zip?updateId=1032433&pluginId=31060&family=INTELLIJ",
+      "sha256": "b65aB4tmd2yrw/y/MjTMdBLEVOfEJKBF2N5rnaPrqTo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-intellij-all-2.15.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1032683": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31060/1032683/mcp-intellij-all-2.17.0.zip?updateId=1032683&pluginId=31060&family=INTELLIJ",
+      "sha256": "i+SHbLbdFUE7l0CK2CHCIFFQHjer5m4ZzFhk5A9Mcm4=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.mcpServer",
         "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "mcp-intellij-all-2.15.0.zip",
+      "optional_dependencies": [
+        "com.intellij.gradle"
+      ],
+      "file_name": "mcp-intellij-all-2.17.0.zip",
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
@@ -470,9 +444,7 @@
       "1.10.3": 1007896,
       "1.11.0": 1007972,
       "1.12.0": 1007973,
-      "1.14.0": 1008518,
       "1.15.0": 1008667,
-      "1.16.0": 1008676,
       "1.17.0": 1008935,
       "1.4.0": 1007337,
       "1.5.0": 1007599,
@@ -486,9 +458,9 @@
       "2.11.3": 1026430,
       "2.11.4": 1029071,
       "2.12.0": 1030111,
-      "2.13.0": 1030797,
       "2.13.1": 1031044,
-      "2.15.0": 1031817,
+      "2.15.1": 1032433,
+      "2.17.0": 1032683,
       "2.2.0": 1009242,
       "2.3.0": 1009442,
       "2.4.0": 1009757,

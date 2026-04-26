@@ -40,13 +40,27 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1032011": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21729/1032011/ambient-1.5.3.zip?updateId=1032011&pluginId=21729&family=INTELLIJ",
+      "sha256": "4x9v27uw9FEmgve1km3oJpga0G3YDpF4pm7RX40ACOE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ambient-1.5.3.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.3": 332913,
       "1.4": 655454,
-      "1.5.2": 930296
+      "1.5.2": 930296,
+      "1.5.3": 1032011
     }
   }
 }
