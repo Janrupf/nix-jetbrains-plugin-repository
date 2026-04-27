@@ -18,10 +18,28 @@
       "since": "242.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "1033169": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31112/1033169/GEEIntelliJPlugin-2.0.0.zip?updateId=1033169&pluginId=31112&family=INTELLIJ",
+      "sha256": "K1dK36OXU3EKVvRHz26aZ9G/E1EZR/HWnr7PeHG0+c0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GEEIntelliJPlugin-2.0.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2.0.0": 1033169,
       "2.0.0.RC1": 1009677
     }
   }

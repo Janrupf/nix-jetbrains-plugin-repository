@@ -55,13 +55,32 @@
       "since": "251.27812.49",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1033102": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31004/1033102/Extra_Tools_Pack_lifetime_2026.1.8.1.zip?updateId=1033102&pluginId=31004&family=INTELLIJ",
+      "sha256": "ad6Kqnys863nxtAGet2W7GQCk1i7YsmUR90LBhkBtvA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.marketplace",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "file_name": "Extra_Tools_Pack_lifetime_2026.1.8.1.zip",
+      "since": "251.27812.49",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.1.6": 1003001,
       "2026.1.7": 1012994,
-      "2026.1.8": 1031114
+      "2026.1.8": 1031114,
+      "2026.1.8.1": 1033102
     }
   }
 }

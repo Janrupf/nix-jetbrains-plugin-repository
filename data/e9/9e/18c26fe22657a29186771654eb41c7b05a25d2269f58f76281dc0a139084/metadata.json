@@ -52,13 +52,31 @@
       "since": "253.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1033134": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31378/1033134/idegram-0.3.5.zip?updateId=1033134&pluginId=31378&family=INTELLIJ",
+      "sha256": "fzCbYfovD3OKgOCJCNk7v6IDvWla42LcproU6/5hZP0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idegram-0.3.5.zip",
+      "since": "253.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.11": 1028271,
       "0.2.13": 1030251,
-      "0.2.14": 1030625
+      "0.2.14": 1030625,
+      "0.3.5": 1033134
     }
   }
 }
