@@ -2203,6 +2203,67 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1034013": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14837/1034013/intellij-openapi-5.5.zip?updateId=1034013&pluginId=14837&family=INTELLIJ",
+      "sha256": "BNoyrxgB7mS9Yf74oRUVVlYI44bkTL+0G5rTmCkOV1Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-openapi-5.5.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1034014": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14837/1034014/intellij-openapi-5.5-242.zip?updateId=1034014&pluginId=14837&family=INTELLIJ",
+      "sha256": "Tdht4BxNWawFxOBnIQzCGBjpSf1+nTdlUgPTq5kYsFc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-openapi-5.5-242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1034015": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14837/1034015/intellij-openapi-5.5-241.zip?updateId=1034015&pluginId=14837&family=INTELLIJ",
+      "sha256": "hD4yTLRwOHC1xal8GRPNUuCFdW1z55/vlimBlN/Nt2g=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-openapi-5.5-241.zip",
+      "since": "231.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "1034016": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14837/1034016/intellij-openapi-5.5-222.zip?updateId=1034016&pluginId=14837&family=INTELLIJ",
+      "sha256": "bjYvs3hzAYsJjSw+hOCTX/RS98sdf5QLd3IJ2EdH8Mg=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-openapi-5.5-222.zip",
+      "since": "222.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2336,7 +2397,11 @@
       "5.4": 1014788,
       "5.4-222": 1014785,
       "5.4-241": 1014786,
-      "5.4-242": 1014787
+      "5.4-242": 1014787,
+      "5.5": 1034013,
+      "5.5-222": 1034016,
+      "5.5-241": 1034015,
+      "5.5-242": 1034014
     }
   }
 }

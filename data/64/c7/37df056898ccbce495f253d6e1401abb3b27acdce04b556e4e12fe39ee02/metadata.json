@@ -368,6 +368,48 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1033547": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30415/1033547/agentbridge-1.81.0.zip?updateId=1033547&pluginId=30415&family=INTELLIJ",
+      "sha256": "dadQnQxQI0bHT3+gJzCVKgkfjHcgJ1sW2BeYV4TV0MA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "Git4Idea",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal",
+        "org.sonarlint.idea",
+        "com.intellij.database"
+      ],
+      "file_name": "agentbridge-1.81.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1034009": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30415/1034009/agentbridge-1.82.0.zip?updateId=1034009&pluginId=30415&family=INTELLIJ",
+      "sha256": "QnhPWoYdZIOTVmK7YxdVJ3oOfiit8UHBvwjzFOVFqTQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.idea.maven",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.database",
+        "org.sonarlint.idea"
+      ],
+      "file_name": "agentbridge-1.82.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -389,7 +431,9 @@
       "1.6.0": 977871,
       "1.61.4": 1022564,
       "1.64.1": 1024607,
-      "1.7.0": 978252
+      "1.7.0": 978252,
+      "1.81.0": 1033547,
+      "1.82.0": 1034009
     }
   }
 }
