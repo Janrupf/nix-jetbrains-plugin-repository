@@ -120,13 +120,31 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1034562": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31099/1034562/kensa-intellij-plugin-0.7.2-eap.zip?updateId=1034562&pluginId=31099&family=INTELLIJ",
+      "sha256": "q5iGxjO/wJxxLhcwe9I8EgV40XMq9EfkX5RA6jiaDWo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.gradle",
+        "JUnit",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kensa-intellij-plugin-0.7.2-eap.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "0.7.0-eap.1": 1028560,
       "0.7.0-eap.2": 1028753,
-      "0.7.0-eap.3": 1029523
+      "0.7.0-eap.3": 1029523,
+      "0.7.2-eap": 1034562
     },
     "stable": {
       "0.6.5": 1009257,
