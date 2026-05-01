@@ -244,6 +244,24 @@
       "since": "253.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1036069": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26143/1036069/fleet-plugins-devkit-intellij-262.5040.0.zip?updateId=1036069&pluginId=26143&family=INTELLIJ",
+      "sha256": "5RPud3cnFM1tUfXb1DQJrvbWgiymOCejraQiTZWrFkk=",
+      "channel": "nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.kotlin",
+        "intellij.devkit.core",
+        "intellij.java.backend",
+        "com.intellij.modules.lang",
+        "DevKit"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fleet-plugins-devkit-intellij-262.5040.0.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -258,7 +276,8 @@
       "253.881.0": 780100,
       "261.1454.0": 883694,
       "261.5558.0": 891248,
-      "262.2355.0": 990881
+      "262.2355.0": 990881,
+      "262.5040.0": 1036069
     },
     "stable": {
       "251.20833": 677620,

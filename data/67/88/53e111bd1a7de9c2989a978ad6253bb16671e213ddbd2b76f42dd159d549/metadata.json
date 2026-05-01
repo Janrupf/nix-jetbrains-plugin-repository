@@ -310,9 +310,27 @@
       "since": "251.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1036306": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27986/1036306/project-dashboard-ai-1.5.0.zip?updateId=1036306&pluginId=27986&family=INTELLIJ",
+      "sha256": "tL9FNS+Nznf913Q0VxN3o0Hsu2gbvn3KlHp5UrZVhPk=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "project-dashboard-ai-1.5.0.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.5.0": 1036306
+    },
     "stable": {
       "1.0.1": 804128,
       "1.0.2": 812989,
