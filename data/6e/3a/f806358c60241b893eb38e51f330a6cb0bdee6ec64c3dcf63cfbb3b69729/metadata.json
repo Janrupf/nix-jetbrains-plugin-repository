@@ -15,11 +15,41 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1038461": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31130/1038461/idea-yamlviewer-0.1.1.zip?updateId=1038461&pluginId=31130&family=INTELLIJ",
+      "sha256": "dy/tgT2kura6og8Qpv1lyRtfLIvFmXCSAONxn6eSQK4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-yamlviewer-0.1.1.zip",
+      "since": "241.0",
+      "until": "299.*",
+      "compatibility_overrides": []
+    },
+    "1038466": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31130/1038466/idea-yamlviewer-0.1.2.zip?updateId=1038466&pluginId=31130&family=INTELLIJ",
+      "sha256": "2xHcG8nT3nxVTQeDyS0nEYkTy/k3Z6k+Lcsx+DNmuV4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-yamlviewer-0.1.2.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1010013
+      "0.1.0": 1010013,
+      "0.1.1": 1038461,
+      "0.1.2": 1038466
     }
   }
 }

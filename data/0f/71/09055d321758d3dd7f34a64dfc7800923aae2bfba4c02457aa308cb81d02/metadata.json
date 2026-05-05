@@ -165,6 +165,46 @@
           "compatible_until": "253.*"
         }
       ]
+    },
+    "1038647": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30395/1038647/plugin.zip?updateId=1038647&pluginId=30395&family=INTELLIJ",
+      "sha256": "ppAyrssaauBmO4wDDw0Pb+R509+Zo5JuqjCmO2xjl4E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.remoteDevelopment",
+        "intellij.platform.backend",
+        "intellij.platform.rpc",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.rpc.backend",
+        "OtpDiagnostic.shared"
+      ],
+      "file_name": "plugin.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1038649": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30395/1038649/plugin.zip?updateId=1038649&pluginId=30395&family=INTELLIJ",
+      "sha256": "mVKA6zdUYfqE9IDso6S2T92btgF0P2TYkoUJB+Rk8ts=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.backend",
+        "OtpDiagnostic.shared",
+        "com.jetbrains.codeWithMe",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "plugin.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -174,6 +214,8 @@
       "1.0.13.1": 999145,
       "1.0.14.1": 1028730,
       "1.0.15": 1028732,
+      "1.0.17": 1038647,
+      "1.0.17.3": 1038649,
       "1.0.7": 969466,
       "1.0.8": 974027,
       "1.0.9.1": 983846,
