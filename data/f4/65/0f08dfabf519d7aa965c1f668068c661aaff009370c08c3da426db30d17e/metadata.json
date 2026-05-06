@@ -14,10 +14,38 @@
       "since": "241.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "1040010": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31110/1040010/lean-ai-plugin-0.19.0.zip?updateId=1040010&pluginId=31110&family=INTELLIJ",
+      "sha256": "IEEVlyTs0YqGr6/Tawh3/FpBp9I69KtWyxJ3ltRy18U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lean-ai-plugin-0.19.0.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "1040392": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31110/1040392/lean-ai-plugin-0.19.1.zip?updateId=1040392&pluginId=31110&family=INTELLIJ",
+      "sha256": "bN7Vg7BAD9P6WhXEhComDbm0skiWphz74YtDCZhk+uc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lean-ai-plugin-0.19.1.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.19.0": 1040010,
+      "0.19.1": 1040392,
       "0.7.6": 1009490
     }
   }

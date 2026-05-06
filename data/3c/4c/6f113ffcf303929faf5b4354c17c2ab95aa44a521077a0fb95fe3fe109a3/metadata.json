@@ -34164,6 +34164,62 @@
       "since": "261.24374",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1040003": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/1040003/gradle-plugin-261.24374.56.zip?updateId=1040003&pluginId=13112&family=INTELLIJ",
+      "sha256": "kLLY9bBToUQlxMs+J5Ps2BV/hz9XmtD+lr5hJPguMaY=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.gradle.toolingExtension",
+        "com.intellij.modules.externalSystem",
+        "intellij.libraries.jspecify",
+        "intellij.platform.externalSystem.impl",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.properties.backend.psi",
+        "intellij.java.psi",
+        "intellij.repository.search.common",
+        "intellij.libraries.ktor.client",
+        "org.jetbrains.kotlin",
+        "intellij.toml.core",
+        "intellij.libraries.kotlinx.io",
+        "intellij.gradle",
+        "intellij.gradle.completion",
+        "com.intellij.properties",
+        "intellij.java.frontback.psi.impl"
+      ],
+      "file_name": "gradle-plugin-261.24374.56.zip",
+      "since": "261.24374",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1040197": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/1040197/gradle-plugin-262.4852.34.zip?updateId=1040197&pluginId=13112&family=INTELLIJ",
+      "sha256": "0Yw4ClLepzwmUjvLje5iuBDMQ1zG2mRU3f40ft0/F38=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.gradle.toolingExtension",
+        "intellij.gradle.toolingProxy",
+        "intellij.libraries.jspecify",
+        "intellij.gradle.toolingExtension.impl",
+        "intellij.platform.externalSystem.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.properties.backend.psi",
+        "intellij.gradle.java",
+        "intellij.java.psi",
+        "intellij.repository.search.completion",
+        "intellij.toml.core",
+        "org.jetbrains.kotlin",
+        "intellij.gradle",
+        "intellij.gradle.completion",
+        "intellij.java.frontback.psi.impl"
+      ],
+      "file_name": "gradle-plugin-262.4852.34.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -36266,7 +36322,9 @@
       "261.24374.30": 1035860,
       "261.24374.34": 1035887,
       "261.24374.36": 1036334,
-      "261.24374.39": 1038153
+      "261.24374.39": 1038153,
+      "261.24374.56": 1040003,
+      "262.4852.34": 1040197
     }
   }
 }

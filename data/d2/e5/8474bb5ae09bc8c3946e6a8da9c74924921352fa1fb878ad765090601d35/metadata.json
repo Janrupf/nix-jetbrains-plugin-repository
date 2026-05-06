@@ -1011,6 +1011,52 @@
       "since": "261.24374",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1040255": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27367/1040255/gradle-java-plugin-262.4852.34.zip?updateId=1040255&pluginId=27367&family=INTELLIJ",
+      "sha256": "YFhgb/6l6pUcWsxHSD3FPH4snDL9bg++NOoesbY8ZBU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.indexing",
+        "intellij.properties.backend.psi",
+        "intellij.java.compiler",
+        "intellij.java.ui",
+        "intellij.gradle",
+        "intellij.java.execution.impl",
+        "intellij.java.frontback.psi",
+        "intellij.java.impl",
+        "intellij.java.debugger.impl.shared",
+        "intellij.java.psi",
+        "intellij.java.execution",
+        "intellij.java",
+        "intellij.gradle.toolingExtension.impl",
+        "intellij.java.debugger.impl",
+        "intellij.java.compiler.impl",
+        "intellij.platform.jps.build",
+        "intellij.java.syntax"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.gradle.dsl",
+        "com.jetbrains.performancePlugin",
+        "intellij.repository.search.common",
+        "intellij.gradle.java.toml",
+        "intellij.gradle.java",
+        "intellij.properties.psi",
+        "org.intellij.groovy",
+        "Coverage",
+        "intellij.gradle.java.groovy",
+        "intellij.profiler.ultimate",
+        "intellij.maven.performanceTesting",
+        "com.intellij.completion.ml.ranking",
+        "intellij.java.psi.impl",
+        "intellij.platform.uast",
+        "intellij.maven",
+        "intellij.toml.core"
+      ],
+      "file_name": "gradle-java-plugin-262.4852.34.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1048,7 +1094,8 @@
       "261.22158.182": 989298,
       "261.22158.46": 978065,
       "261.23567.28": 1014279,
-      "261.24374.34": 1035926
+      "261.24374.34": 1035926,
+      "262.4852.34": 1040255
     }
   }
 }

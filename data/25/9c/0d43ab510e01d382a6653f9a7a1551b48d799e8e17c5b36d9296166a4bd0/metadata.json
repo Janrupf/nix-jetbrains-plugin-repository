@@ -22134,8 +22134,8 @@
         "tanvd.grazi"
       ],
       "file_name": "toml-243.23654.183.zip",
-      "since": null,
-      "until": null,
+      "since": "243.23654",
+      "until": "243.*",
       "compatibility_overrides": []
     },
     "673704": {
@@ -24108,6 +24108,28 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1040182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8195/1040182/toml-262.4852.34.zip?updateId=1040182&pluginId=8195&family=INTELLIJ",
+      "sha256": "4+oVehGwzBiDGq1YiSEFWSQjY/bMeJ2BXoM9WQkAy6s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.json.backend",
+        "intellij.rd.client",
+        "intellij.grazie.core",
+        "intellij.toml.core",
+        "intellij.platform.frontend.split",
+        "intellij.platform.split.protocol",
+        "intellij.platform.backend",
+        "tanvd.grazi"
+      ],
+      "file_name": "toml-262.4852.34.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -25783,7 +25805,8 @@
       "261.21849.20": 966276,
       "261.22158.121": 984553,
       "261.22158.185": 989161,
-      "261.22158.36": 977566
+      "261.22158.36": 977566,
+      "262.4852.34": 1040182
     }
   }
 }

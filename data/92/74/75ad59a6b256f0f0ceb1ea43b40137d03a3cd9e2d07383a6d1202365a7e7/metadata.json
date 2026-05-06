@@ -455,6 +455,24 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1040200": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27376/1040200/repository-search-262.4852.34.zip?updateId=1040200&pluginId=27376&family=INTELLIJ",
+      "sha256": "1a6RHJTqi+5D2/wMqvP+gfScdw0sqUG256WLTdyh2Lc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.document.store.mvstore"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.kotlinx.io",
+        "intellij.maven.model",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.libraries.ktor.client"
+      ],
+      "file_name": "repository-search-262.4852.34.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -489,7 +507,8 @@
       "261.21849.20": 966136,
       "261.22158.121": 984556,
       "261.22158.185": 989221,
-      "261.22158.36": 977609
+      "261.22158.36": 977609,
+      "262.4852.34": 1040200
     }
   }
 }
