@@ -42024,6 +42024,74 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1040881": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24198/1040881/google-cloud-aiplugin-20260506-dogfood-261.zip?updateId=1040881&pluginId=24198&family=INTELLIJ",
+      "sha256": "n29Jr4GmhSX895AXXckELg3P+HlABKqsexSAPS+dh18=",
+      "channel": "dogfood",
+      "dependencies": [
+        "intellij.platform.lvcs.impl",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.log",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.libraries.grpc",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.vcs.log.graph",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.markdown.extensions.gfmStrikethrough",
+        "intellij.platform.jewel.markdown.extensions.gfmAlerts",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log.impl",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.skiko"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "google-cloud-aiplugin-20260506-dogfood-261.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1040886": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24198/1040886/google-cloud-aiplugin-20260506-dogfood-253.zip?updateId=1040886&pluginId=24198&family=INTELLIJ",
+      "sha256": "XfLj4g0awDK0GgyNnttqFW8g0/NivRQAMueAssD0M6U=",
+      "channel": "dogfood",
+      "dependencies": [
+        "intellij.libraries.grpc",
+        "intellij.platform.lvcs.impl",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.vcs.log.graph",
+        "intellij.platform.vcs.log",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.libraries.compose.runtime.desktop",
+        "com.intellij.modules.platform",
+        "intellij.libraries.skiko",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.jewel.markdown.extensions.gfmStrikethrough",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.jewel.markdown.extensions.gfmAlerts",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "intellij.platform.jewel.markdown.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "google-cloud-aiplugin-20260506-dogfood-253.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -44000,7 +44068,9 @@
       "20260504-dogfood-253": 1038215,
       "20260504-dogfood-261": 1038182,
       "20260505-dogfood-253": 1039545,
-      "20260505-dogfood-261": 1039542
+      "20260505-dogfood-261": 1039542,
+      "20260506-dogfood-253": 1040886,
+      "20260506-dogfood-261": 1040881
     },
     "stable": {
       "1.0.0-233": 598717,

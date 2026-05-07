@@ -16,11 +16,27 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1040963": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31132/1040963/mend-security-check-1.2.0.zip?updateId=1040963&pluginId=31132&family=INTELLIJ",
+      "sha256": "bG7Nd2xYAXStxei59yqIf8tlXAH6GXIY/tcVB3Rt/ak=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "mend-security-check-1.2.0.zip",
+      "since": "251.25410.109",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.1.6": 1029890
+      "1.1.6": 1029890,
+      "1.2.0": 1040963
     }
   }
 }

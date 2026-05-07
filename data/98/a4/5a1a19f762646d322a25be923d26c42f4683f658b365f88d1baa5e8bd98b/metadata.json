@@ -1498,6 +1498,32 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1040741": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23289/1040741/aspire-plugin-2.6.0-signed.zip?updateId=1040741&pluginId=23289&family=INTELLIJ",
+      "sha256": "5NI/MtpGKMhKas2KKvCRU02dGoT6b7y6cdlP3e1S2To=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.aspire.core",
+        "intellij.rd.client",
+        "intellij.rider.languages",
+        "com.intellij.modules.rider",
+        "intellij.rider.rdclient.dotnet"
+      ],
+      "optional_dependencies": [
+        "intellij.rider.plugins.appender.database",
+        "rider.intellij.plugin.appender",
+        "intellij.clouds.docker",
+        "Docker",
+        "com.intellij.database",
+        "intellij.database.dialects.redis",
+        "intellij.clouds.docker.shared",
+        "com.intellij.diagram"
+      ],
+      "file_name": "aspire-plugin-2.6.0-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1585,7 +1611,8 @@
       "2.5.0": 998904,
       "2.5.1": 1001599,
       "2.5.2": 1019134,
-      "2.5.3": 1023223
+      "2.5.3": 1023223,
+      "2.6.0": 1040741
     }
   }
 }

@@ -43,13 +43,28 @@
       "since": "242.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1040978": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31385/1040978/envforge-intellij-0.1.3.zip?updateId=1040978&pluginId=31385&family=INTELLIJ",
+      "sha256": "yYJZgSEw0gZNnJExpuZnMLsRf746MXxzPUycqhH1piA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "envforge-intellij-0.1.3.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1028747,
       "0.1.1": 1030630,
-      "0.1.2": 1037425
+      "0.1.2": 1037425,
+      "0.1.3": 1040978
     }
   }
 }
