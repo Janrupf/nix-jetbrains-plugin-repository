@@ -1260,6 +1260,57 @@
       "since": "261.24374",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041857": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28794/1041857/cmake-262.4852.50.zip?updateId=1041857&pluginId=28794&family=INTELLIJ",
+      "sha256": "EF31AbtWEfbowWASOU3u5oEOOiG5GFU/L+lC10+yjv8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ssh.nio",
+        "intellij.cidr.util.ui",
+        "intellij.cidr.lang.base",
+        "com.intellij.modules.ultimate",
+        "intellij.cidr.core",
+        "intellij.cmake.psi",
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.cidr.execution",
+        "intellij.cidr.psi.base"
+      ],
+      "optional_dependencies": [
+        "intellij.rd.platform",
+        "intellij.rider.cpp.core.projectModel",
+        "intellij.clion.externalSystem",
+        "com.intellij.clion-compdb",
+        "intellij.cmake.core",
+        "intellij.rd.ide.model.generated",
+        "intellij.clion.ide.core",
+        "intellij.clion.toolchains",
+        "intellij.cidr.workspaceModel",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.c.core",
+        "intellij.cidr.util",
+        "intellij.cidr.util.serializer",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.clion",
+        "intellij.cidr.projectModel",
+        "com.jetbrains.rider-cpp",
+        "intellij.spellchecker",
+        "intellij.clion.wizard",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.externalSystem",
+        "intellij.json.backend",
+        "intellij.clion.execution",
+        "intellij.clion.projectStatus",
+        "com.intellij.modules.python",
+        "intellij.clion.core",
+        "intellij.rider",
+        "intellij.cidr.runner",
+        "intellij.rider.cpp.core.languages"
+      ],
+      "file_name": "cmake-262.4852.50.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1288,7 +1339,8 @@
       "261.23567.138": 1030721,
       "261.23567.28": 1013903,
       "261.23567.71": 1022057,
-      "261.24374.34": 1035885
+      "261.24374.34": 1035885,
+      "262.4852.50": 1041857
     }
   }
 }

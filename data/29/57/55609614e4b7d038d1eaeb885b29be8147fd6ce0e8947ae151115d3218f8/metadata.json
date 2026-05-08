@@ -369,6 +369,34 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041704": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28793/1041704/clion-test-google-262.4852.50.zip?updateId=1041704&pluginId=28793&family=INTELLIJ",
+      "sha256": "8evF2fPSivvzjVJBoTIgrk1Fe0Ac/iZ5+5mFBxqXWDY=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.runner",
+        "intellij.cidr.lang.base",
+        "intellij.cidr.projectModel",
+        "intellij.cidr.execution",
+        "intellij.clion.execution",
+        "com.intellij.clion"
+      ],
+      "optional_dependencies": [
+        "intellij.c.core",
+        "intellij.c.testing",
+        "intellij.rd.client",
+        "intellij.rd.platform",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.rd.ide.model.generated",
+        "intellij.rider.model.generated",
+        "intellij.cidr.psi.base",
+        "intellij.clion.radler.testing"
+      ],
+      "file_name": "clion-test-google-262.4852.50.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -385,7 +413,8 @@
       "261.21525.39": 962132,
       "261.21849.20": 966319,
       "261.22158.182": 989332,
-      "261.22158.46": 977993
+      "261.22158.46": 977993,
+      "262.4852.50": 1041704
     }
   }
 }

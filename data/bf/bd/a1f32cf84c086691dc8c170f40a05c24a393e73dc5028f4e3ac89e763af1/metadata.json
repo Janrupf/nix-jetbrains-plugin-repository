@@ -1555,6 +1555,54 @@
       "since": "253.33514",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1041612": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27370/1041612/aiplayground-261.24374.71.zip?updateId=1041612&pluginId=27370&family=INTELLIJ",
+      "sha256": "ipiY1WMjQpNxbiI/vFvMheSvxl4Egs/w8CA1T2XBMns=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.aiplayground.settings",
+        "intellij.aiplayground.models",
+        "com.intellij.modules.python-pro-capable",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "intellij.aiplayground.langchain",
+        "intellij.aiplayground.ui",
+        "intellij.libraries.kotlinx.io",
+        "com.intellij.modules.python",
+        "intellij.libraries.ktor.client"
+      ],
+      "file_name": "aiplayground-261.24374.71.zip",
+      "since": "261.24374",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1041815": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27370/1041815/aiplayground-262.4852.50.zip?updateId=1041815&pluginId=27370&family=INTELLIJ",
+      "sha256": "oJNPkmOLu+MRtRN4sMFUf6LjoWxIkqL97P8POXtUFqg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.aiplayground.models",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.compose",
+        "com.intellij.modules.python-pro-capable",
+        "com.intellij.modules.ultimate",
+        "intellij.aiplayground.settings"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.kotlinx.io",
+        "intellij.aiplayground.ui",
+        "intellij.libraries.ktor.client",
+        "intellij.aiplayground.langchain",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "aiplayground-262.4852.50.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1626,7 +1674,9 @@
       "261.23567.80": 1023405,
       "261.24374.34": 1035898,
       "261.24374.39": 1038151,
-      "261.24374.66": 1040876
+      "261.24374.66": 1040876,
+      "261.24374.71": 1041612,
+      "262.4852.50": 1041815
     }
   }
 }

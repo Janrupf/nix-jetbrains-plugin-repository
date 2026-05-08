@@ -1159,6 +1159,47 @@
       "since": "261.23567",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041896": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27164/1041896/maven-plugin-262.4852.50.zip?updateId=1041896&pluginId=27164&family=INTELLIJ",
+      "sha256": "uP5pHZE/bdr9fbl6sk2m6+74sYzvIkIoJSDWco5X/Ys=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.ui",
+        "intellij.properties.backend",
+        "intellij.properties.backend.psi",
+        "intellij.java.execution",
+        "intellij.spellchecker",
+        "intellij.java.execution.impl",
+        "intellij.java.compiler",
+        "intellij.java.aetherDependencyResolver",
+        "intellij.java.debugger.impl.shared",
+        "intellij.properties.psi",
+        "intellij.java.psi",
+        "intellij.java.compiler.impl",
+        "intellij.java.debugger.impl",
+        "intellij.java.syntax",
+        "intellij.java",
+        "intellij.java.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.repository.search.common",
+        "intellij.grazie.core",
+        "intellij.maven.jps",
+        "tanvd.grazi",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.plexus.utils",
+        "intellij.profiler.ultimate",
+        "org.intellij.groovy",
+        "com.jetbrains.performancePlugin",
+        "Error-prone plugin",
+        "intellij.platform.jps.build",
+        "intellij.maven"
+      ],
+      "file_name": "maven-plugin-262.4852.50.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1213,7 +1254,8 @@
       "261.22158.182": 989432,
       "261.22158.277": 995454,
       "261.22158.46": 977887,
-      "261.23567.28": 1014117
+      "261.23567.28": 1014117,
+      "262.4852.50": 1041896
     }
   }
 }

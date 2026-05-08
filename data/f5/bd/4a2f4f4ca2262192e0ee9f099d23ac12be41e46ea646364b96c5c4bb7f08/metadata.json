@@ -9927,6 +9927,27 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041808": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7569/1041808/blade-262.4852.50.zip?updateId=1041808&pluginId=7569&family=INTELLIJ",
+      "sha256": "jQhtvRXOyCBx+JIC2vdaL8jGx0FQwOh1AYLo04VaN8A=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.xml.parser",
+        "intellij.xml.analysis",
+        "intellij.xml.psi",
+        "intellij.css.common.psi",
+        "intellij.xml.impl",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.langInjection",
+        "com.jetbrains.php.blade"
+      ],
+      "file_name": "blade-262.4852.50.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10547,7 +10568,8 @@
       "261.21525.39": 962105,
       "261.21849.20": 966301,
       "261.22158.182": 989369,
-      "261.22158.46": 978064
+      "261.22158.46": 978064,
+      "262.4852.50": 1041808
     }
   }
 }

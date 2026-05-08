@@ -152,13 +152,35 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1042046": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30883/1042046/mermaid-studio-intellij-plugin-core-androidstudio-2026.2.5-eap.605_as.zip?updateId=1042046&pluginId=30883&family=INTELLIJ",
+      "sha256": "kYMIfMGiBCjw/KDHXM4FNbuIMHZk05pzpSfQWmRZyvQ=",
+      "channel": "eap",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "com.intellij.css",
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "mermaid-studio-intellij-plugin-core-androidstudio-2026.2.5-eap.605_as.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2026.1.12-eap.1": 993786,
       "2026.2.2-eap.472": 1016572,
-      "2026.2.4-eap.538": 1031155
+      "2026.2.4-eap.538": 1031155,
+      "2026.2.5-eap.605+as": 1042046
     },
     "stable": {
       "2026.2.1": 1012303,

@@ -1710,8 +1710,8 @@
         "Git4Idea"
       ],
       "file_name": "CodeGPT-Assistant-5.0.9.zip",
-      "since": "222.0",
-      "until": "242.*",
+      "since": null,
+      "until": null,
       "compatibility_overrides": []
     },
     "1035966": {
@@ -1726,8 +1726,8 @@
         "Git4Idea"
       ],
       "file_name": "CodeGPT-Assistant-5.0.10.zip",
-      "since": "243.0",
-      "until": "251.*",
+      "since": null,
+      "until": null,
       "compatibility_overrides": []
     },
     "1036150": {
@@ -2001,6 +2001,38 @@
       "since": "252.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1041527": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28906/1041527/CodeGPT-Assistant-5.1.8.zip?updateId=1041527&pluginId=28906&family=INTELLIJ",
+      "sha256": "csaeACFBxRM05y7aX6IVWWDp4z8QX6ZU+SdDtVM9JT0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "CodeGPT-Assistant-5.1.8.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1041539": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28906/1041539/CodeGPT-Assistant-5.1.9.zip?updateId=1041539&pluginId=28906&family=INTELLIJ",
+      "sha256": "MCmfDbcWojCu4fz6PGtgaq3f0TOV1MK9pn5mW2Q4fjM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "CodeGPT-Assistant-5.1.9.zip",
+      "since": "222.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2129,7 +2161,9 @@
       "5.1.4": 1040945,
       "5.1.5": 1041003,
       "5.1.6": 1041233,
-      "5.1.7": 1041249
+      "5.1.7": 1041249,
+      "5.1.8": 1041527,
+      "5.1.9": 1041539
     }
   }
 }

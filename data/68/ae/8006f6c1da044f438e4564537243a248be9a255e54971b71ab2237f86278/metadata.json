@@ -2259,6 +2259,28 @@
       "since": "261.23567",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041862": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18722/1041862/weblogicIntegration-262.4852.50.zip?updateId=1041862&pluginId=18722&family=INTELLIJ",
+      "sha256": "POmzdQt/0airNTVU5mbVvWEF4PJyIFqZalXADBFMwvk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.javaee.platform.impl",
+        "intellij.xml.psi",
+        "intellij.javaee.application",
+        "com.intellij.javaee.app.servers.integration",
+        "intellij.javaee.platform",
+        "intellij.database",
+        "intellij.database.impl"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee.ejb",
+        "intellij.xml.dom"
+      ],
+      "file_name": "weblogicIntegration-262.4852.50.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2405,7 +2427,8 @@
       "261.21849.20": 966409,
       "261.22158.182": 989386,
       "261.22158.46": 977967,
-      "261.23567.28": 1014270
+      "261.23567.28": 1014270,
+      "262.4852.50": 1041862
     }
   }
 }

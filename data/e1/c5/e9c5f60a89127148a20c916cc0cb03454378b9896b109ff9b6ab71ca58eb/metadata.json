@@ -2523,6 +2523,29 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041939": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18505/1041939/spring-batch-262.4852.50.zip?updateId=1041939&pluginId=18505&family=INTELLIJ",
+      "sha256": "JeRBhQomLEfVNmIfTlNmtkeT6fMSlLMit8OZT7VJn7M=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.spring.core",
+        "intellij.xml.psi",
+        "intellij.xml.psi.impl",
+        "intellij.platform.langInjection",
+        "com.intellij.modules.idea.ultimate",
+        "intellij.xml.analysis",
+        "intellij.spring",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee.el",
+        "intellij.spring.el"
+      ],
+      "file_name": "spring-batch-262.4852.50.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2674,7 +2697,8 @@
       "261.21849.20": 966244,
       "261.22158.121": 984525,
       "261.22158.182": 989374,
-      "261.22158.46": 978034
+      "261.22158.46": 978034,
+      "262.4852.50": 1041939
     }
   }
 }

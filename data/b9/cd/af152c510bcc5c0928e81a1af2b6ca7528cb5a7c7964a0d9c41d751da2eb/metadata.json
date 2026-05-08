@@ -18,11 +18,30 @@
       "since": "242.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041621": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31390/1041621/test-beam-1.1.0.zip?updateId=1041621&pluginId=31390&family=INTELLIJ",
+      "sha256": "ohUficloLzwZ4Mgj3j/kKCvQk5UYlUuSpnm9RJS3ScU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.kotlin",
+        "Coverage"
+      ],
+      "file_name": "test-beam-1.1.0.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1029125
+      "1.0.0": 1029125,
+      "1.1.0": 1041621
     }
   }
 }

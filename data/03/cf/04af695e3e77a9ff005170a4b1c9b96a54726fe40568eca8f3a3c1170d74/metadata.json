@@ -3703,6 +3703,49 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19984/1041999/pricefx-studio-16.1.2-252.eap.zip?updateId=1041999&pluginId=19984&family=INTELLIJ",
+      "sha256": "chQTi3GgugUv0oR1crm0Ao38mFlmJFwYSnLWTl9WvNQ=",
+      "channel": "pricefx-eap",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "Git4Idea",
+        "org.intellij.groovy",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "CodeNarc"
+      ],
+      "file_name": "pricefx-studio-16.1.2-252.eap.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1042012": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19984/1042012/pricefx-studio-16.1.2-243.eap.zip?updateId=1042012&pluginId=19984&family=INTELLIJ",
+      "sha256": "gFuKAl2HmoBiuF/LUZNYjG6R2rnESGvhfj30B/C6+r0=",
+      "channel": "pricefx-eap",
+      "dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "Git4Idea",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "CodeNarc"
+      ],
+      "file_name": "pricefx-studio-16.1.2-243.eap.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3797,7 +3840,9 @@
       "16.1.0-241.eap": 1014806,
       "16.1.0-243.eap": 1014807,
       "16.1.0-252.eap": 1014809,
-      "16.1.1-252.eap": 1030271
+      "16.1.1-252.eap": 1030271,
+      "16.1.2-243.eap": 1042012,
+      "16.1.2-252.eap": 1041999
     },
     "stable": {
       "10.0.1808-223": 307346,

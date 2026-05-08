@@ -1770,6 +1770,27 @@
       "since": "261.23567",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041889": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20209/1041889/javaee-appServers-tomcat-262.4852.50.zip?updateId=1041889&pluginId=20209&family=INTELLIJ",
+      "sha256": "9ubO/fd+HdsJZAUggLKbq9l2NSiW6ZhthssBccgyS2M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.javaee.app.servers.integration",
+        "intellij.java.syntax",
+        "intellij.javaee.platform.impl",
+        "com.intellij.modules.ultimate",
+        "intellij.java.psi",
+        "intellij.javaee.platform",
+        "intellij.javaee.app.servers"
+      ],
+      "optional_dependencies": [
+        "intellij.profiler.ultimate"
+      ],
+      "file_name": "javaee-appServers-tomcat-262.4852.50.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1879,7 +1900,8 @@
       "261.21849.20": 966389,
       "261.22158.182": 989300,
       "261.22158.46": 977922,
-      "261.23567.28": 1014248
+      "261.23567.28": 1014248,
+      "262.4852.50": 1041889
     }
   }
 }

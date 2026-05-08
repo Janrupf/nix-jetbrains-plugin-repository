@@ -2,20 +2,6 @@
   "xml_id": "net.sysrqassociates.jetbrains.plugins.optima.od",
   "numeric_id": 29792,
   "updates": {
-    "936535": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29792/936535/Optima.OD-0.8.0.zip?updateId=936535&pluginId=29792&family=INTELLIJ",
-      "sha256": "b9ygf6Yp/xhi5avlSpfrf87HwUHS+WsuCPfmolcU10Y=",
-      "channel": "testing",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "Git4Idea"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Optima.OD-0.8.0.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "940566": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/29792/940566/Optima.OD-0.9.0.zip?updateId=940566&pluginId=29792&family=INTELLIJ",
       "sha256": "FN17Khw2jH2jJoa3rC5dkBdFWXvrpJnZ2njELrJdU2Q=",
@@ -43,13 +29,27 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1042076": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29792/1042076/Optima.OD-0.9.8.zip?updateId=1042076&pluginId=29792&family=INTELLIJ",
+      "sha256": "ensZ6AGWZwRzjeZStuYE6AKGvq+M25SpNEM5kjKSBqk=",
+      "channel": "testing",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Optima.OD-0.9.8.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "testing": {
-      "0.8.0": 936535,
       "0.9.0": 940566,
-      "0.9.5": 944648
+      "0.9.5": 944648,
+      "0.9.8": 1042076
     }
   }
 }

@@ -2455,6 +2455,88 @@
       "since": "261.21849.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1042015": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22150/1042015/noctule-plugin-signed-2.0.0.442-253-eap.zip?updateId=1042015&pluginId=22150&family=INTELLIJ",
+      "sha256": "sJX+7E7cBPFE7MlE7xoXKRMydccO3tkjnETAoE55DoE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.kernel.backend",
+        "noctule.core.sourcekit.shared",
+        "intellij.spellchecker",
+        "noctule.core.tooling.xcode.all.shared",
+        "noctule.core.shared",
+        "com.intellij.modules.vcs",
+        "noctule.core.tooling.shared",
+        "noctule.library.cloner",
+        "noctule.core.lang.backend",
+        "noctule.core.tooling.spm.shared",
+        "noctule.core.tooling.backend",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.json",
+        "com.intellij.modules.os.mac",
+        "intellij.platform.frontend",
+        "noctule.core.tooling.swiftlint.backend",
+        "noctule.library.lsp.client",
+        "noctule.core.tooling.xcode.all.backend",
+        "noctule.library.telemetry",
+        "noctule.core.tooling.xcode.shared",
+        "com.jetbrains.kmm",
+        "intellij.platform.backend",
+        "org.intellij.plugins.markdown",
+        "noctule.core.lang.shared",
+        "noctule.core.sourcekit.backend"
+      ],
+      "file_name": "noctule-plugin-signed-2.0.0.442-253-eap.zip",
+      "since": "253.28294",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1042017": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22150/1042017/noctule-plugin-signed-2.0.0.442-261-eap.zip?updateId=1042017&pluginId=22150&family=INTELLIJ",
+      "sha256": "s29AIgdEx2IJ5mz8TadpAdhxgp+rI7g2E+P23S6AlKk=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "noctule.core.shared",
+        "intellij.platform.kernel.backend",
+        "intellij.spellchecker",
+        "com.intellij.modules.vcs",
+        "noctule.core.tooling.shared",
+        "noctule.core.sourcekit.shared",
+        "noctule.core.tooling.xcode.all.shared",
+        "noctule.core.tooling.spm.shared",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.os.mac",
+        "intellij.platform.frontend",
+        "noctule.core.lang.backend",
+        "noctule.core.tooling.backend",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.json",
+        "noctule.library.lsp.client",
+        "noctule.core.tooling.swiftlint.backend",
+        "org.intellij.plugins.markdown",
+        "noctule.core.tooling.xcode.all.backend",
+        "noctule.library.telemetry",
+        "noctule.library.cloner",
+        "com.jetbrains.kmm",
+        "noctule.core.tooling.xcode.shared",
+        "intellij.platform.backend",
+        "noctule.core.lang.shared",
+        "noctule.core.sourcekit.backend"
+      ],
+      "file_name": "noctule-plugin-signed-2.0.0.442-261-eap.zip",
+      "since": "261.23567.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2501,7 +2583,9 @@
       "1.6.1.419-243-eap": 925433,
       "1.6.1.419-251-eap": 925434,
       "1.6.1.419-252-eap": 925435,
-      "1.6.1.419-253-eap": 925437
+      "1.6.1.419-253-eap": 925437,
+      "2.0.0.442-253-eap": 1042015,
+      "2.0.0.442-261-eap": 1042017
     },
     "stable": {
       "0.0.2.0-232-EAP": 353374,

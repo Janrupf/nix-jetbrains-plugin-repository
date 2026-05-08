@@ -241,6 +241,108 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1041695": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1041695/jcef-plugin-262.4852.50-windows-x86_64.zip?updateId=1041695&pluginId=31360&family=INTELLIJ",
+      "sha256": "NMV8en1lK6i+TZHYGGSZOrvET9xLds3AaPc9c+nEDLU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.4852.50-windows-x86_64.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
+    },
+    "1041727": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1041727/jcef-plugin-262.4852.50-linux-x86_64.zip?updateId=1041727&pluginId=31360&family=INTELLIJ",
+      "sha256": "6uv7eTUto6peqXIQjLtoO0334YRNy9Ry+/2XryOHPcw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.linux",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.4852.50-linux-x86_64.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
+    },
+    "1041824": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1041824/jcef-plugin-262.4852.50-windows-arm64.zip?updateId=1041824&pluginId=31360&family=INTELLIJ",
+      "sha256": "DBkRz7HICJmvgA69bKpCtGdSlRxveTenVt79EK99uGY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.4852.50-windows-arm64.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
+    },
+    "1041835": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1041835/jcef-plugin-262.4852.50-linux-arm64.zip?updateId=1041835&pluginId=31360&family=INTELLIJ",
+      "sha256": "Oqo7K0aNIhUJ2wFHuo8cBgtAl02hM2OYXtEelHe/hbo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.os.linux"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.4852.50-linux-arm64.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
+    },
+    "1041885": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1041885/jcef-plugin-262.4852.50-mac-arm64.zip?updateId=1041885&pluginId=31360&family=INTELLIJ",
+      "sha256": "wsmoagKrJWGbcVgqaGwgfRXQaELiO93LdYxpJlrUsxQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.mac",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.arm64"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.4852.50-mac-arm64.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
+    },
+    "1041953": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1041953/jcef-plugin-262.4852.50-mac-x86_64.zip?updateId=1041953&pluginId=31360&family=INTELLIJ",
+      "sha256": "BBOrXTmZJ+MzMa8Ro6IEBS3oJW0OKapjcVttofNm0G0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.mac",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.4852.50-mac-x86_64.zip",
+      "since": "262.4852",
+      "until": "262.4852.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -260,7 +362,13 @@
       "261.22158.414-mac-arm64": 1028047,
       "261.22158.414-mac-x86_64": 1028048,
       "261.22158.414-windows-arm64": 1028208,
-      "261.22158.414-windows-x86_64": 1028107
+      "261.22158.414-windows-x86_64": 1028107,
+      "262.4852.50-linux-arm64": 1041835,
+      "262.4852.50-linux-x86_64": 1041727,
+      "262.4852.50-mac-arm64": 1041885,
+      "262.4852.50-mac-x86_64": 1041953,
+      "262.4852.50-windows-arm64": 1041824,
+      "262.4852.50-windows-x86_64": 1041695
     }
   }
 }
