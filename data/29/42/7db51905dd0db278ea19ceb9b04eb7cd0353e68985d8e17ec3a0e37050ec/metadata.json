@@ -2,15 +2,21 @@
   "xml_id": "net.sysrqassociates.yarnstudio.lite",
   "numeric_id": 29757,
   "updates": {
-    "1025299": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29757/1025299/YarnStudio-Lite-0.6.1.8c6eff7.zip?updateId=1025299&pluginId=29757&family=INTELLIJ",
-      "sha256": "P9Ngp1EfKRii1VLDMRcb/ocZGUQkAhy6HG2HthtYMQA=",
+    "1043630": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29757/1043630/YarnStudio-Lite-0.7.1.zip?updateId=1043630&pluginId=29757&family=INTELLIJ",
+      "sha256": "BIa5Wr9oHIyDZMdW5RTUOMUtwOQ8NJBIlq5BPh0RfgU=",
       "channel": "testing",
       "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "intellij.libraries.compose.runtime.desktop",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "YarnStudio-Lite-0.6.1.8c6eff7.zip",
+      "file_name": "YarnStudio-Lite-0.7.1.zip",
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
@@ -18,7 +24,7 @@
   },
   "channels": {
     "testing": {
-      "0.6.1.8c6eff7": 1025299
+      "0.7.1": 1043630
     }
   }
 }
