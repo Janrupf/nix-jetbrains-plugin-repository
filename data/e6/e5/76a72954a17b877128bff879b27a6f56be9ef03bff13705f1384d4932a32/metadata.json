@@ -17,11 +17,45 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1043875": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31595/1043875/xonsh-jetbrains-1.2.0.zip?updateId=1043875&pluginId=31595&family=INTELLIJ",
+      "sha256": "x5lpilKdbCM8aIrwlGmL/Lhzf6WZzEbQ7i3Gd2S07jI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "xonsh-jetbrains-1.2.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1043893": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31595/1043893/xonsh-jetbrains-1.2.1.zip?updateId=1043893&pluginId=31595&family=INTELLIJ",
+      "sha256": "Qumbkb/C8FPmJ9FF98pT3+I3NrGYbAbpytkxFvon1i0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "xonsh-jetbrains-1.2.1.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.1.1": 1038791
+      "1.1.1": 1038791,
+      "1.2.0": 1043875,
+      "1.2.1": 1043893
     }
   }
 }

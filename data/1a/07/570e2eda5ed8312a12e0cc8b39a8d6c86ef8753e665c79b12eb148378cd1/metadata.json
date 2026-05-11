@@ -43,13 +43,28 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1043598": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31358/1043598/seq-mcp-plugin-2026.1.3.zip?updateId=1043598&pluginId=31358&family=INTELLIJ",
+      "sha256": "UIYPBaNpaQpaJ9MNmDkwWjbJtRxzKvALVRV8+Sym66w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "seq-mcp-plugin-2026.1.3.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.1.0": 1026752,
       "2026.1.1": 1032435,
-      "2026.1.2": 1033186
+      "2026.1.2": 1033186,
+      "2026.1.3": 1043598
     }
   }
 }

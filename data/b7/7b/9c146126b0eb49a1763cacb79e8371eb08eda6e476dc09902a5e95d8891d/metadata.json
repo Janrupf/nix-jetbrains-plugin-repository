@@ -24,11 +24,28 @@
           "compatible_until": "261.*"
         }
       ]
+    },
+    "1043819": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31651/1043819/ddot.it-intellij-0.1.1.zip?updateId=1043819&pluginId=31651&family=INTELLIJ",
+      "sha256": "SOAkgSTRIl0Fce/evtwCXigrwI4PelIKbdu/V6nJPRQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.asciidoctor.intellij.asciidoc",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "ddot.it-intellij-0.1.1.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1042654
+      "0.1.0": 1042654,
+      "0.1.1": 1043819
     }
   }
 }

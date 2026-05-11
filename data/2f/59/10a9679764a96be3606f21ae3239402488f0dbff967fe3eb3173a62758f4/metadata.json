@@ -396,6 +396,28 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1044128": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23382/1044128/intellij-ton-4.1.0.zip?updateId=1044128&pluginId=23382&family=INTELLIJ",
+      "sha256": "AStQPV2OXxkj01abucO9aS7en5fJtdHny45Y356h6d4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.dap",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "intellij.platform.coverage",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.toml.lang",
+        "intellij.profiler.clion",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.dev"
+      ],
+      "file_name": "intellij-ton-4.1.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -425,7 +447,8 @@
       "2.5.7.5": 786808,
       "2.57.6": 788795,
       "3.0.0": 856449,
-      "4.0.0": 1040358
+      "4.0.0": 1040358,
+      "4.1.0": 1044128
     }
   }
 }
