@@ -137,12 +137,31 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1044401": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28690/1044401/FlavorAutocompletePlugin-1.0.13.zip?updateId=1044401&pluginId=28690&family=INTELLIJ",
+      "sha256": "K07cUo2IALddCcu2PE8BHZ8bYw1FYygpf3w//OA/ZFE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.kotlin",
+        "org.intellij.groovy",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "FlavorAutocompletePlugin-1.0.13.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.10": 1012982,
       "1.0.11": 1012987,
+      "1.0.13": 1044401,
       "1.0.2": 876351,
       "1.0.4": 1004934,
       "1.0.5": 1004938,

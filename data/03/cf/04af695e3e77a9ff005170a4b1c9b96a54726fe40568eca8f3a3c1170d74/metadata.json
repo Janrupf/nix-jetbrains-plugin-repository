@@ -3746,6 +3746,26 @@
       "since": "243.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1044344": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19984/1044344/pricefx-studio-16.1.2-241.eap.zip?updateId=1044344&pluginId=19984&family=INTELLIJ",
+      "sha256": "6PHN0Bugcjo0nB4F/gSP51glGYzNXgo6VjyE/uKBzyo=",
+      "channel": "pricefx-eap",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "Git4Idea",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "CodeNarc"
+      ],
+      "file_name": "pricefx-studio-16.1.2-241.eap.zip",
+      "since": "241.0",
+      "until": "242.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3841,6 +3861,7 @@
       "16.1.0-243.eap": 1014807,
       "16.1.0-252.eap": 1014809,
       "16.1.1-252.eap": 1030271,
+      "16.1.2-241.eap": 1044344,
       "16.1.2-243.eap": 1042012,
       "16.1.2-252.eap": 1041999
     },

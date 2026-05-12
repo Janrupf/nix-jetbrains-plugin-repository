@@ -1,6 +1,44 @@
 {
   "xml_id": "dev.jetplugins.nix-pro",
   "numeric_id": 31649,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1044395": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31649/1044395/nix-pro-2026.1.0.zip?updateId=1044395&pluginId=31649&family=INTELLIJ",
+      "sha256": "JRb8toW37IYdFch1jT5njqUe147agjwsU1NJxyUAcLc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "org.toml.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nix-pro-2026.1.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1044399": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31649/1044399/nix-pro-2026.1.1.zip?updateId=1044399&pluginId=31649&family=INTELLIJ",
+      "sha256": "TBcctQs9cxiz9Z7hDRss/arPYOPDu26wEbdSf5g4EB0=",
+      "channel": "stable",
+      "dependencies": [
+        "org.toml.lang",
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nix-pro-2026.1.1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2026.1.0": 1044395,
+      "2026.1.1": 1044399
+    }
+  }
 }

@@ -205,6 +205,40 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1044355": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31099/1044355/intellij-plugin-0.8.0-eap.1.zip?updateId=1044355&pluginId=31099&family=INTELLIJ",
+      "sha256": "hRXYkS6uUvnC0GAxtBNAEvN8wGGh9OI4r8BP2GQtdSQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "JUnit",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-plugin-0.8.0-eap.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1044447": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31099/1044447/intellij-plugin-0.8.0.zip?updateId=1044447&pluginId=31099&family=INTELLIJ",
+      "sha256": "NrdOzSqo65RH66BGwp2RDPC+YV8N4BIc6YQpqYHoDI4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "JUnit",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-plugin-0.8.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -216,13 +250,15 @@
       "0.7.2-eap.2": 1034948,
       "0.7.2-eap.3": 1036147,
       "0.7.2-eap.4": 1041794,
-      "0.7.2-eap.5": 1042678
+      "0.7.2-eap.5": 1042678,
+      "0.8.0-eap.1": 1044355
     },
     "stable": {
       "0.6.5": 1009257,
       "0.6.6": 1009728,
       "0.6.7": 1015979,
-      "0.7.1": 1033139
+      "0.7.1": 1033139,
+      "0.8.0": 1044447
     }
   }
 }
