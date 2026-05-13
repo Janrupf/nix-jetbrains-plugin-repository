@@ -1,6 +1,37 @@
 {
   "xml_id": "dev.jkamsker.forgejo",
   "numeric_id": 31556,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1045347": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31556/1045347/forgejo-rider-2-1.0.2.jar?updateId=1045347&pluginId=31556&family=INTELLIJ",
+      "sha256": "1YcTZWsEa4770TZ9mDV03ui64cXYZoUgEdQkm2EHIjc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json.backend",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.platform.vcs.log",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.vcs.dvcs.impl.shared",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.vcs.impl.shared",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "com.intellij.tasks"
+      ],
+      "file_name": "forgejo-rider-2-1.0.2.jar",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.2": 1045347
+    }
+  }
 }

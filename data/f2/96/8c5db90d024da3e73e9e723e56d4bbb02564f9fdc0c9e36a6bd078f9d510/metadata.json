@@ -235,9 +235,43 @@
       "since": "261.22158",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1045091": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31535/1045091/clion-cph-target-runner-1.1.4-eap.1.zip?updateId=1045091&pluginId=31535&family=INTELLIJ",
+      "sha256": "27idSitWxgnTSAFeYyrOiGNi+Y9CDrpB9hlwUR3zJic=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.clion.runFile",
+        "com.intellij.modules.clion"
+      ],
+      "optional_dependencies": [],
+      "file_name": "clion-cph-target-runner-1.1.4-eap.1.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1045127": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31535/1045127/clion-cph-target-runner-1.4.1-eap.2.zip?updateId=1045127&pluginId=31535&family=INTELLIJ",
+      "sha256": "NsHF/AUd3lF1Rdtzoyql3aHziGM8zEqYcDvNnyZ3DQo=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.clion",
+        "intellij.clion.runFile"
+      ],
+      "optional_dependencies": [],
+      "file_name": "clion-cph-target-runner-1.4.1-eap.2.zip",
+      "since": "261.22158",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.1.4-eap.1": 1045091,
+      "1.4.1-eap.2": 1045127
+    },
     "stable": {
       "1.0.0": 1035783,
       "1.0.1": 1036902,

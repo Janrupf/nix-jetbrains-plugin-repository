@@ -1,6 +1,25 @@
 {
   "xml_id": "com.sshdeploy.SshDeploy",
   "numeric_id": 31698,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1044291": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31698/1044291/ssh-deploy-0.0.1.zip?updateId=1044291&pluginId=31698&family=INTELLIJ",
+      "sha256": "YZU2BiFNv8iCY2uXOp3yB2JQwMNW4rIdNgyB2DbIWzQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ssh-deploy-0.0.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1": 1044291
+    }
+  }
 }
