@@ -478,6 +478,31 @@
       "since": "261.24374",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1046289": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29422/1046289/python-lsp-262.5752.1.zip?updateId=1046289&pluginId=29422&family=INTELLIJ",
+      "sha256": "CmsRq00/tDIge0KZmcoL48j0gyizvInq1L4Wdra50Gs=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json",
+        "intellij.python.sdk",
+        "intellij.python.community.impl",
+        "intellij.platform.lsp.impl",
+        "intellij.python.lsp.core",
+        "intellij.python.ty",
+        "org.toml.lang",
+        "com.intellij.modules.json",
+        "intellij.python.community.core.impl",
+        "intellij.python.pyrefly",
+        "intellij.toml.core",
+        "intellij.python.ruff",
+        "intellij.python.pyright"
+      ],
+      "optional_dependencies": [],
+      "file_name": "python-lsp-262.5752.1.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -506,7 +531,8 @@
       "261.24374.34": 1035941,
       "261.24374.66": 1040879,
       "261.24374.91": 1044317,
-      "262.4852.34": 1040206
+      "262.4852.34": 1040206,
+      "262.5752.1": 1046289
     }
   }
 }

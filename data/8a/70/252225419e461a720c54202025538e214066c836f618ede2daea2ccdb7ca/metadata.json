@@ -1533,6 +1533,39 @@
       "since": "262.4852",
       "until": "262.4852.*",
       "compatibility_overrides": []
+    },
+    "1046277": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23740/1046277/flyway-262.5752.1.zip?updateId=1046277&pluginId=23740&family=INTELLIJ",
+      "sha256": "8ttKFg+nQAegcv4bclA8e2jjCrrCgLtvGDNBM+aoxCg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "intellij.liquibase.orm",
+        "intellij.database.sql.core.impl",
+        "intellij.java.psi",
+        "intellij.database",
+        "intellij.flyway.core",
+        "com.intellij.persistence",
+        "intellij.database.core.impl",
+        "intellij.java.execution.impl",
+        "com.intellij.javaee.jpa",
+        "intellij.database.impl",
+        "intellij.flyway.diff",
+        "com.intellij.modules.ultimate",
+        "intellij.database.connectivity",
+        "intellij.libraries.opencsv",
+        "intellij.grid.core.impl",
+        "com.intellij.jpa.jpb.model",
+        "intellij.javaee.jpa.jpb.model.db",
+        "intellij.flyway.orm",
+        "intellij.flyway.rt"
+      ],
+      "file_name": "flyway-262.5752.1.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1614,7 +1647,8 @@
       "261.22158.36": 977605,
       "261.23567.28": 1013869,
       "261.24374.30": 1035858,
-      "262.4852.34": 1040237
+      "262.4852.34": 1040237,
+      "262.5752.1": 1046277
     }
   }
 }

@@ -2952,6 +2952,58 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1046221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29782/1046221/antigravity_plugin_20260513_261.zip?updateId=1046221&pluginId=29782&family=INTELLIJ",
+      "sha256": "qYEpLSwbjT6eVlkGpseV2Nj0F+1ZrpLFBwDtngxOmvA=",
+      "channel": "dogfood",
+      "dependencies": [
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "antigravity_plugin_20260513_261.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1046224": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29782/1046224/antigravity_plugin_20260513_253.zip?updateId=1046224&pluginId=29782&family=INTELLIJ",
+      "sha256": "8AMBDw+0w09I6aQCoJsqKTMROCvO4ExhyGyCaBMJcXg=",
+      "channel": "dogfood",
+      "dependencies": [
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "antigravity_plugin_20260513_253.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1046824": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29782/1046824/antigravity_plugin_1.5.0_261.zip?updateId=1046824&pluginId=29782&family=INTELLIJ",
+      "sha256": "vO4c+CZqapVZHesdA/CdZQFbJQDTLdyRAWSprtVSQIo=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "antigravity_plugin_1.5.0_261.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1046866": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29782/1046866/antigravity_plugin_1.5.0_253.zip?updateId=1046866&pluginId=29782&family=INTELLIJ",
+      "sha256": "sxdEvmYG5COpcDKAG7GqSyXRv91zJ3rx0NYwHXQYyLs=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "antigravity_plugin_1.5.0_253.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2969,7 +3021,9 @@
       "1.3.0-alpha-252": 983621,
       "1.3.0-alpha-253": 983620,
       "1.4.0-alpha-252": 995967,
-      "1.4.0-alpha-253": 995958
+      "1.4.0-alpha-253": 995958,
+      "1.5.0-alpha-253": 1046866,
+      "1.5.0-alpha-261": 1046824
     },
     "dogfood": {
       "0.0.1": 938772,
@@ -3183,7 +3237,9 @@
       "20260511-dogfood-253": 1044358,
       "20260511-dogfood-261": 1044354,
       "20260512-dogfood-253": 1045156,
-      "20260512-dogfood-261": 1045153
+      "20260512-dogfood-261": 1045153,
+      "20260513-dogfood-253": 1046224,
+      "20260513-dogfood-261": 1046221
     },
     "stable": {
       "0.0.1": 933978

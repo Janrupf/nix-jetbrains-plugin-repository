@@ -2965,6 +2965,29 @@
       "since": "262.4852",
       "until": "262.4852.*",
       "compatibility_overrides": []
+    },
+    "1046281": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13126/1046281/yaml-262.5752.1.zip?updateId=1046281&pluginId=13126&family=INTELLIJ",
+      "sha256": "kZ6SHATN1AeQweRSzrcFvARsn65qiWsO3T9tvPgsTe8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json"
+      ],
+      "optional_dependencies": [
+        "intellij.rd.client",
+        "intellij.json.backend",
+        "intellij.spellchecker",
+        "intellij.platform.searchEverywhere.backend",
+        "intellij.yaml.backend",
+        "intellij.yaml",
+        "intellij.platform.frontend.split",
+        "org.jetbrains.plugins.go-template",
+        "intellij.platform.backend"
+      ],
+      "file_name": "yaml-262.5752.1.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3153,7 +3176,8 @@
       "261.22158.46": 977889,
       "261.23567.28": 1014070,
       "261.24374.34": 1035946,
-      "262.4852.50": 1041681
+      "262.4852.50": 1041681,
+      "262.5752.1": 1046281
     }
   }
 }

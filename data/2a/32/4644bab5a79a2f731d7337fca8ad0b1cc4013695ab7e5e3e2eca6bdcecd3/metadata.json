@@ -2,30 +2,67 @@
   "xml_id": "LiveDebugger",
   "numeric_id": 30451,
   "updates": {
-    "1014376": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/1014376/live-debugger-plugin-0.5.4.zip?updateId=1014376&pluginId=30451&family=INTELLIJ",
-      "sha256": "+0MOOG2xKp2Fpggpd2G1KY7tmueUAi42WaWPPXvPpSM=",
+    "1046772": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/1046772/live-debugger-plugin-0.4.zip?updateId=1046772&pluginId=30451&family=INTELLIJ",
+      "sha256": "rAfQ8HAPmV6boXj3PWiVMU0ICSUjhKAuEpAka/jxZCQ=",
       "channel": "eap",
       "dependencies": [
+        "intellij.platform.compose",
+        "com.intellij.mcpServer",
+        "org.jetbrains.kotlin",
         "com.intellij.java",
         "JUnit",
-        "intellij.platform.compose",
-        "com.intellij.gradle",
-        "com.intellij.mcpServer",
-        "org.jetbrains.kotlin"
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.ml.llm"
       ],
-      "file_name": "live-debugger-plugin-0.5.4.zip",
-      "since": "253",
+      "file_name": "live-debugger-plugin-0.4.zip",
+      "since": "261.*",
       "until": "263.*",
-      "compatibility_overrides": []
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "263.*",
+          "compatible_since": "261.*",
+          "compatible_until": "263.*"
+        }
+      ]
+    },
+    "1046773": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/1046773/live-debugger-plugin-0.4.zip?updateId=1046773&pluginId=30451&family=INTELLIJ",
+      "sha256": "rAfQ8HAPmV6boXj3PWiVMU0ICSUjhKAuEpAka/jxZCQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "intellij.platform.compose",
+        "com.intellij.mcpServer",
+        "org.jetbrains.kotlin",
+        "JUnit",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "live-debugger-plugin-0.4.zip",
+      "since": "261.*",
+      "until": "263.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "263.*",
+          "compatible_since": "261.*",
+          "compatible_until": "263.*"
+        }
+      ]
     }
   },
   "channels": {
     "eap": {
-      "0.5.4": 1014376
+      "0.4": 1046772
+    },
+    "stable": {
+      "0.4": 1046773
     }
   }
 }
