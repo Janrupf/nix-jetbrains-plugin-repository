@@ -1287,6 +1287,28 @@
       "since": "262.4852",
       "until": "262.4852.*",
       "compatibility_overrides": []
+    },
+    "1048125": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24765/1048125/ide-workspace-262.5752.32.zip?updateId=1048125&pluginId=24765&family=INTELLIJ",
+      "sha256": "pZnHBtdyNX8TrYXGJI8L5mo/pFaVX6BThlZMtGesm58=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "intellij.java.backend",
+        "intellij.platform.vcs.dvcs",
+        "com.intellij.modules.idea"
+      ],
+      "optional_dependencies": [
+        "intellij.vcs.github",
+        "intellij.maven",
+        "intellij.gradle",
+        "Git4Idea",
+        "intellij.vcs.github.git"
+      ],
+      "file_name": "ide-workspace-262.5752.32.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1357,7 +1379,8 @@
       "261.22158.182": 989392,
       "261.22158.46": 978029,
       "261.23567.28": 1013948,
-      "262.4852.50": 1041760
+      "262.4852.50": 1041760,
+      "262.5752.32": 1048125
     }
   }
 }

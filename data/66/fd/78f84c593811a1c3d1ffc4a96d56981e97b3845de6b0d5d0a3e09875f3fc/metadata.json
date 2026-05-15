@@ -363,8 +363,15 @@
       "optional_dependencies": [],
       "file_name": "plugin-dataframe-viewer-0.20.1.zip",
       "since": "251.23774",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "263.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.23774",
+          "applies_until": "999.99999",
+          "compatible_since": "251.23774",
+          "compatible_until": "263.*"
+        }
+      ]
     }
   },
   "channels": {

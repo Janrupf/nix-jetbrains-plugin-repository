@@ -1345,9 +1345,28 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1048175": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28350/1048175/kilo.jetbrains-7.0.1-rc.1.zip?updateId=1048175&pluginId=28350&family=INTELLIJ",
+      "sha256": "wDv2oAa9qlN0a93co43SL+X1R87+hkUDkfjExbJvzmw=",
+      "channel": "eap",
+      "dependencies": [],
+      "optional_dependencies": [
+        "kilo.jetbrains.shared",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "kilo.jetbrains-7.0.1-rc.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "7.0.1-rc.1": 1048175
+    },
     "stable": {
       "4.107.0": 880191,
       "4.109.0": 881082,

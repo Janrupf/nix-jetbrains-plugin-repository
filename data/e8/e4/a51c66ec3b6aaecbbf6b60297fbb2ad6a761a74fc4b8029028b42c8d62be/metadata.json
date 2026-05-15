@@ -563,6 +563,46 @@
       "since": "262.4852",
       "until": "262.4852.*",
       "compatibility_overrides": []
+    },
+    "1047689": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28372/1047689/cpp-frontend-split-262.5752.26.zip?updateId=1047689&pluginId=28372&family=INTELLIJ",
+      "sha256": "WIpZHP91ip4wYxyTf53Ijk0oL9Xh0SkqSsnwpnuktbM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lang.core",
+        "intellij.rd.client.base",
+        "intellij.libraries.fastutil",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang.impl",
+        "intellij.resharper.cpp.assist",
+        "intellij.rider.cpp.core.languages",
+        "intellij.platform.editor.ui",
+        "intellij.platform.frontend.split",
+        "intellij.resharper.assist",
+        "intellij.resharper.cpp.lexer",
+        "intellij.rd.platform",
+        "intellij.platform.identifiers.highlighting.frontend.split",
+        "intellij.platform.codeStyle",
+        "intellij.rider.icons",
+        "intellij.platform.core",
+        "intellij.cpp.common.protocol",
+        "intellij.platform.editor.ex",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.rd.client",
+        "intellij.platform.core.ui",
+        "com.intellij.jetbrains.client",
+        "intellij.platform.core.impl",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.rd.ide.model.generated",
+        "intellij.cidr.psi.base",
+        "intellij.platform.lang",
+        "intellij.platform.analysis"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cpp-frontend-split-262.5752.26.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -590,7 +630,8 @@
       "261.22158.185": 989107,
       "261.22158.36": 977490,
       "261.23567.28": 1013835,
-      "262.4852.34": 1040160
+      "262.4852.34": 1040160,
+      "262.5752.26": 1047689
     }
   }
 }

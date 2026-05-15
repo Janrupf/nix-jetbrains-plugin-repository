@@ -325,6 +325,24 @@
       "since": "262.4852",
       "until": "262.4852.*",
       "compatibility_overrides": []
+    },
+    "1048008": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28632/1048008/completionMlRanking-262.5752.32.zip?updateId=1048008&pluginId=28632&family=INTELLIJ",
+      "sha256": "vTjzc5qb5VWmvaZEbgDJm5Sndie30P27Zcgnx5Itvrg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ml.impl",
+        "com.intellij.modules.lang",
+        "intellij.platform.vcs.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.fullLine.core.completion",
+        "com.intellij.completion.ml.ranking"
+      ],
+      "file_name": "completionMlRanking-262.5752.32.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -346,7 +364,8 @@
       "261.22158.121": 984460,
       "261.22158.182": 989350,
       "261.22158.46": 977883,
-      "262.4852.50": 1041926
+      "262.4852.50": 1041926,
+      "262.5752.32": 1048008
     }
   }
 }

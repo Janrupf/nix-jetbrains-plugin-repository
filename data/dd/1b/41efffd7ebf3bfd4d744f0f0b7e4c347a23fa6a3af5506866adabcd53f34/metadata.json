@@ -2526,6 +2526,40 @@
       "since": "262.4852",
       "until": "262.4852.*",
       "compatibility_overrides": []
+    },
+    "1048065": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21673/1048065/bigdatatools-zeppelin-262.5752.32.zip?updateId=1048065&pluginId=21673&family=INTELLIJ",
+      "sha256": "i/Xd0ti44XG0OHyzESNJ8QLU2CHev+W9sTQ6PCW1vP4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.bigdatatools.binary.files",
+        "intellij.java.aetherDependencyResolver",
+        "com.intellij.bigdatatools.core",
+        "intellij.bigdatatools.coreUi",
+        "intellij.bigdatatools.awsBase",
+        "com.intellij.bigdatatools.metastore.core",
+        "intellij.database.dialects.hivebase",
+        "com.intellij.bigdatatools.spark",
+        "intellij.database.dialects.base",
+        "intellij.database.dialects.hive",
+        "com.intellij.bigdatatools.rfs",
+        "intellij.database.impl",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.database.dialects.spark"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.jetbrains.sh",
+        "org.intellij.scala",
+        "org.jetbrains.kotlin",
+        "intellij.platform.frontend",
+        "com.intellij.database"
+      ],
+      "file_name": "bigdatatools-zeppelin-262.5752.32.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2630,7 +2664,8 @@
       "261.22158.121": 984501,
       "261.22158.182": 989440,
       "261.22158.46": 977979,
-      "262.4852.50": 1041709
+      "262.4852.50": 1041709,
+      "262.5752.32": 1048065
     }
   }
 }

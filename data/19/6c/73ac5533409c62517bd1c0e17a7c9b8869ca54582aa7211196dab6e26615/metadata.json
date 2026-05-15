@@ -2201,6 +2201,30 @@
       "since": "262.4852",
       "until": "262.4852.*",
       "compatibility_overrides": []
+    },
+    "1048040": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20218/1048040/javaee-jax-rs-262.5752.32.zip?updateId=1048040&pluginId=20218&family=INTELLIJ",
+      "sha256": "yWLHLE5/UQo4tOpbU9TA7oU85lDHMJrOJzJc1l7x+Po=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.backend",
+        "intellij.java.psi",
+        "com.intellij.microservices.jvm",
+        "intellij.java.frontback.psi",
+        "intellij.javaee.platform.impl",
+        "intellij.platform.langInjection",
+        "com.intellij.modules.ultimate",
+        "intellij.javaee.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.restClient",
+        "com.intellij.cdi",
+        "com.intellij.swagger"
+      ],
+      "file_name": "javaee-jax-rs-262.5752.32.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2314,7 +2338,8 @@
       "261.22158.121": 984511,
       "261.22158.182": 989304,
       "261.22158.46": 978000,
-      "262.4852.50": 1041844
+      "262.4852.50": 1041844,
+      "262.5752.32": 1048040
     }
   }
 }

@@ -2,22 +2,6 @@
   "xml_id": "org.openprojectx.cqa",
   "numeric_id": 31247,
   "updates": {
-    "1020456": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31247/1020456/plugin-idea-0.1.6.zip?updateId=1020456&pluginId=31247&family=INTELLIJ",
-      "sha256": "ZwV81q1gqPcNhOysv/f1e1rYdkiQJOzK/4EOI4i3lu0=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.vcs",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "Git4Idea"
-      ],
-      "optional_dependencies": [],
-      "file_name": "plugin-idea-0.1.6.zip",
-      "since": "241.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "1020647": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31247/1020647/plugin-idea-0.1.7.zip?updateId=1020647&pluginId=31247&family=INTELLIJ",
       "sha256": "tH/wBUehOcprVOT4mkIUUuJe63UUFpY6UE+wB1dRAYc=",
@@ -241,6 +225,22 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1048244": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31247/1048244/plugin-idea-0.1.24-SNAPSHOT.zip?updateId=1048244&pluginId=31247&family=INTELLIJ",
+      "sha256": "nuYRk2p8bTgK4zs83Ampi6Ovol4/nuuWziwsi3cr6No=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-idea-0.1.24-SNAPSHOT.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -257,7 +257,7 @@
       "0.1.20": 1040904,
       "0.1.21": 1042096,
       "0.1.22": 1042099,
-      "0.1.6": 1020456,
+      "0.1.23": 1048244,
       "0.1.7": 1020647,
       "0.1.9": 1022327
     }
