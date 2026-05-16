@@ -17,11 +17,28 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1049273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31761/1049273/bracketbow-0.3.7.zip?updateId=1049273&pluginId=31761&family=INTELLIJ",
+      "sha256": "cUBJKlDJXfzGO5U2QqMiNoFW+o8lQi6rJM+KkOf6KPs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.java"
+      ],
+      "file_name": "bracketbow-0.3.7.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.3.5": 1048191
+      "0.3.5": 1048191,
+      "0.3.7": 1049273
     }
   }
 }

@@ -2831,6 +2831,42 @@
       "since": "252.23892",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1048464": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13922/1048464/clion-embedded-platformio-262.5752.34.zip?updateId=1048464&pluginId=13922&family=INTELLIJ",
+      "sha256": "GbBYvNJTc7vzCqdxtaRwagNechIgv728PiMx6Zt1s2I=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.core",
+        "intellij.profiler.clion",
+        "intellij.cidr.execution",
+        "intellij.cidr.psi.base",
+        "intellij.clion.execution",
+        "intellij.cidr.projectModel",
+        "intellij.cidr.runner",
+        "intellij.cidr.debugger.backend",
+        "intellij.clion.embedded.core",
+        "intellij.clion.toolchains",
+        "intellij.cidr.util",
+        "intellij.cidr.debugger.core",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.profiling",
+        "com.jetbrains.plugins.ini4idea",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.projectStatus",
+        "intellij.clion.externalSystem",
+        "intellij.clion.ide.core",
+        "intellij.cidr.lang.base",
+        "com.intellij.clion.embedded",
+        "intellij.cidr.util.execution"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "clion-embedded-platformio-262.5752.34.zip",
+      "since": "262.5752",
+      "until": "262.5752.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2989,7 +3025,8 @@
       "252.21735.27": 772037,
       "252.23309.24": 779993,
       "252.23892.173": 794628,
-      "252.23892.298": 804732
+      "252.23892.298": 804732,
+      "262.5752.34": 1048464
     }
   }
 }

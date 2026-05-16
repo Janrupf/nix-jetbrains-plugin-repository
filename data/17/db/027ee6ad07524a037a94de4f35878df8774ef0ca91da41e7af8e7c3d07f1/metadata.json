@@ -37,12 +37,31 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1048919": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30253/1048919/connexion-2026.05.1.zip?updateId=1048919&pluginId=30253&family=INTELLIJ",
+      "sha256": "G7PmIPU4TFLQwVbkUXofbgYAQfHF5a9sQvpZ0xR2e1Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.python",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "connexion-2026.05.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.02.0": 960732,
-      "2026.02.1": 961211
+      "2026.02.1": 961211,
+      "2026.05.1": 1048919
     }
   }
 }

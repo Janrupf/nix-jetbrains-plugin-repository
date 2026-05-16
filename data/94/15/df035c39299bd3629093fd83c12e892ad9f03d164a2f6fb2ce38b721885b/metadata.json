@@ -503,6 +503,52 @@
       "since": "262.5752",
       "until": "262.5752.*",
       "compatibility_overrides": []
+    },
+    "1048451": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29422/1048451/python-lsp-261.24374.125.zip?updateId=1048451&pluginId=29422&family=INTELLIJ",
+      "sha256": "gO8QS4LA1prjtJlqFsxUl5txE/UBngN7bw5SaSxLaxk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "intellij.python.community.impl",
+        "intellij.python.pyrefly",
+        "intellij.python.sdk",
+        "intellij.python.lsp.core",
+        "org.toml.lang",
+        "intellij.platform.lsp.impl",
+        "intellij.python.pyright",
+        "intellij.python.ty",
+        "intellij.python.community.core.impl",
+        "intellij.python.ruff"
+      ],
+      "optional_dependencies": [],
+      "file_name": "python-lsp-261.24374.125.zip",
+      "since": "261.24374",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1048592": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29422/1048592/python-lsp-261.24374.154.zip?updateId=1048592&pluginId=29422&family=INTELLIJ",
+      "sha256": "DVjPAzQmRb4b1kfKbLPo8m78uP6hrzxXoRhpQOqPkqw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.python.sdk",
+        "intellij.python.pyright",
+        "intellij.python.lsp.core",
+        "org.toml.lang",
+        "intellij.platform.lsp.impl",
+        "intellij.python.pyrefly",
+        "intellij.python.ruff",
+        "intellij.python.ty",
+        "com.intellij.modules.json",
+        "intellij.python.community.impl",
+        "intellij.python.community.core.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "python-lsp-261.24374.154.zip",
+      "since": "261.24374",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -527,6 +573,8 @@
       "261.23567.28": 1014058,
       "261.23567.31": 1014371,
       "261.23567.71": 1022046,
+      "261.24374.125": 1048451,
+      "261.24374.154": 1048592,
       "261.24374.30": 1035879,
       "261.24374.34": 1035941,
       "261.24374.66": 1040879,
