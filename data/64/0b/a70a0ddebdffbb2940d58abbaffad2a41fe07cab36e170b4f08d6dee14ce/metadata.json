@@ -1,6 +1,26 @@
 {
   "xml_id": "org.berrycrush",
   "numeric_id": 31742,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1049295": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31742/1049295/berrycrush-intellij-1.0.0__1_.zip?updateId=1049295&pluginId=31742&family=INTELLIJ",
+      "sha256": "ArJNjSNf/DxHx72hku97PA5Bdbnd1LaiMLHehbHhU9I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "JUnit",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "berrycrush-intellij-1.0.0__1_.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1049295
+    }
+  }
 }

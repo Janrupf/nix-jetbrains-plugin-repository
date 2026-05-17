@@ -2,32 +2,6 @@
   "xml_id": "com.austinv11.nextflow",
   "numeric_id": 31666,
   "updates": {
-    "1044898": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31666/1044898/jetbrains-nextflow-lsp-1.0.2-signed.zip?updateId=1044898&pluginId=31666&family=INTELLIJ",
-      "sha256": "eWerKP7m5QscB42xBzdtQLcQ/9LudOPNBM8XVVeySUU=",
-      "channel": "stable",
-      "dependencies": [
-        "org.jetbrains.plugins.textmate",
-        "intellij.textmate",
-        "org.intellij.groovy",
-        "org.jetbrains.plugins.terminal",
-        "com.jetbrains.sh",
-        "intellij.platform.lsp",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "jetbrains-nextflow-lsp-1.0.2-signed.zip",
-      "since": "261.0",
-      "until": null,
-      "compatibility_overrides": [
-        {
-          "applies_since": "253.0",
-          "applies_until": "999.99999",
-          "compatible_since": "261.0",
-          "compatible_until": "999.99999"
-        }
-      ]
-    },
     "1044901": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31666/1044901/jetbrains-nextflow-lsp-1.0.3-signed.zip?updateId=1044901&pluginId=31666&family=INTELLIJ",
       "sha256": "87giRI4UuQ9TnwebzNx0x9d3IJ7ySP5dQc9zBbJGxcI=",
@@ -46,12 +20,54 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1049765": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31666/1049765/JetbrainsNextflowPlugin-1.1.1-signed.zip?updateId=1049765&pluginId=31666&family=INTELLIJ",
+      "sha256": "BPPl1DJ9IrDopQfvVcjv3Kse+1EtMQcJVjPIqnz+bMI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.sh",
+        "intellij.textmate",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "org.intellij.groovy",
+        "com.intellij.modules.java",
+        "intellij.platform.lsp",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JetbrainsNextflowPlugin-1.1.1-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1049812": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31666/1049812/JetbrainsNextflowPlugin-1.1.2-signed.zip?updateId=1049812&pluginId=31666&family=INTELLIJ",
+      "sha256": "yBXo/nwr1cpXnWzEw/Vsm9IKAT1ocLSAxuL0pDd63us=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.textmate",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate",
+        "intellij.platform.lsp",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "JetbrainsNextflowPlugin-1.1.2-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.2": 1044898,
-      "1.0.3": 1044901
+      "1.0.3": 1044901,
+      "1.1.1": 1049765,
+      "1.1.2": 1049812
     }
   }
 }

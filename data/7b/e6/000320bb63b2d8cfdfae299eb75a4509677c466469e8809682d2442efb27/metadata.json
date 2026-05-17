@@ -171,12 +171,30 @@
       "since": "222.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "1049501": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29707/1049501/AI-Code-Review-3.0.10.zip?updateId=1049501&pluginId=29707&family=INTELLIJ",
+      "sha256": "6TQPjAVfZ8N4vMA8Nce0QLZfQATL+yjENRnIYnqo0jg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "AI-Code-Review-3.0.10.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "3.0.0": 930471,
       "3.0.1": 937120,
+      "3.0.10": 1049501,
       "3.0.2": 938561,
       "3.0.3": 938735,
       "3.0.4": 942004,

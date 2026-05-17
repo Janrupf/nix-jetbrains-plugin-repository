@@ -1,6 +1,26 @@
 {
   "xml_id": "io.ritely.rite",
   "numeric_id": 31139,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1049523": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31139/1049523/rite-intellij-0.1.0.zip?updateId=1049523&pluginId=31139&family=INTELLIJ",
+      "sha256": "JFmmvVaWNBoQceeU9orWW/fuKXTvWLmwnyzrXqJ4B7c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lsp",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rite-intellij-0.1.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 1049523
+    }
+  }
 }
