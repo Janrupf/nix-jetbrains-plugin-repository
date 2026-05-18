@@ -128,6 +128,23 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1050212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28160/1050212/direnv-plugin-intellij-1.2.0-signed.zip?updateId=1050212&pluginId=28160&family=INTELLIJ",
+      "sha256": "/4cczUKv4hDU0Sr01E5gPMrXEhsDkQBY8z9HX/ekiuk=",
+      "channel": "stable",
+      "dependencies": [
+        "ru.adelf.idea.dotenv",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "direnv-plugin-intellij-1.2.0-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -139,7 +156,8 @@
       "1.1.0": 946408,
       "1.1.1": 987373,
       "1.1.2": 1003939,
-      "1.1.3": 1030996
+      "1.1.3": 1030996,
+      "1.2.0": 1050212
     }
   }
 }

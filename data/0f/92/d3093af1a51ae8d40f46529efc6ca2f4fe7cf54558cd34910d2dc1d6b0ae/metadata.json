@@ -40,6 +40,30 @@
       "optional_dependencies": [],
       "file_name": "MayaReCharm-5.0.0.zip",
       "since": "261.0",
+      "until": "262.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "261.0",
+          "applies_until": "263.*",
+          "compatible_since": "261.0",
+          "compatible_until": "262.0"
+        }
+      ]
+    },
+    "1050275": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31239/1050275/MayaReCharm-5.0.1.zip?updateId=1050275&pluginId=31239&family=INTELLIJ",
+      "sha256": "3M8TfUvebQr6EQKX793q2IigmJCN/hWDS65x/JVJidc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.lang",
+        "PythonCommon",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MayaReCharm-5.0.1.zip",
+      "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
     }
@@ -47,7 +71,8 @@
   "channels": {
     "stable": {
       "4.0.0": 1022019,
-      "5.0.0": 1040366
+      "5.0.0": 1040366,
+      "5.0.1": 1050275
     }
   }
 }

@@ -29,12 +29,46 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1050037": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31757/1050037/cursive-js-support-0.3.0-SNAPSHOT.zip?updateId=1050037&pluginId=31757&family=INTELLIJ",
+      "sha256": "Ug9qmczdIq0aeKur8ApK2wSlpatXBMSpG57vYZFF7L8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.cursiveclojure.cursive"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "cursive-js-support-0.3.0-SNAPSHOT.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1050217": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31757/1050217/cursive-js-support-0.3.5-SNAPSHOT.zip?updateId=1050217&pluginId=31757&family=INTELLIJ",
+      "sha256": "61qUL7KnaSRbm+xEyByi59Z3+nDqd7nHvBuVjnnjP5U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.cursiveclojure.cursive",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "cursive-js-support-0.3.5-SNAPSHOT.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0-SNAPSHOT": 1048137,
-      "0.2.0-SNAPSHOT": 1048426
+      "0.2.0-SNAPSHOT": 1048426,
+      "0.3.0-SNAPSHOT": 1050037,
+      "0.3.5-SNAPSHOT": 1050217
     }
   }
 }

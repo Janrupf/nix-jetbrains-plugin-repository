@@ -15,11 +15,29 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1049998": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31714/1049998/nexus-jetbrains-0.6.2.zip?updateId=1049998&pluginId=31714&family=INTELLIJ",
+      "sha256": "9mB2BzFpX8l3Z3hC7TbT9Tzs1w3YWIFN7zkH5Xvw4I4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "nexus-jetbrains-0.6.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1044943
+      "0.1.0": 1044943,
+      "0.6.2": 1049998
     }
   }
 }
