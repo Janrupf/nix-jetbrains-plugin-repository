@@ -14,11 +14,25 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1051005": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31238/1051005/nuon-intellij-1.1.0-signed.zip?updateId=1051005&pluginId=31238&family=INTELLIJ",
+      "sha256": "Bo/c4pxM7m7J06OjdhKbjebVtdj4Ye8kndghbcWqo/E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nuon-intellij-1.1.0-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 1018310
+      "1.0.1": 1018310,
+      "1.1.0": 1051005
     }
   }
 }

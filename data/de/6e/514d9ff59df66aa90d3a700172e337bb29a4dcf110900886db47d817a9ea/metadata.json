@@ -47,13 +47,30 @@
       "since": "232.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1050466": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25328/1050466/thymeleaf-support-1.2.1.zip?updateId=1050466&pluginId=25328&family=INTELLIJ",
+      "sha256": "GdDQKyLO+klSJ/4ANV6Ab9XjvGYH89vBz3pmaZUKWNU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "thymeleaf-support-1.2.1.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 605878,
       "1.1.0": 605877,
-      "1.2.0": 888467
+      "1.2.0": 888467,
+      "1.2.1": 1050466
     }
   }
 }

@@ -46,13 +46,29 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1051001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29479/1051001/apiBlueprintViewer-1.2.0-signed.zip?updateId=1051001&pluginId=29479&family=INTELLIJ",
+      "sha256": "O5FNg1UR/cubSYas9S5iBaZ26kPctcjCQ1lcNWneG7Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "apiBlueprintViewer-1.2.0-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 918888,
       "1.1.0": 946413,
-      "1.1.1": 987369
+      "1.1.1": 987369,
+      "1.2.0": 1051001
     }
   }
 }

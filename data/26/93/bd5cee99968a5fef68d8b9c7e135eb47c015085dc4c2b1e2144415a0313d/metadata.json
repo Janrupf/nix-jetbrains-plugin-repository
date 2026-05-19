@@ -79,11 +79,38 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1050531": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31556/1050531/forgejo-rider-2-1.0.12-obfuscated.zip?updateId=1050531&pluginId=31556&family=INTELLIJ",
+      "sha256": "XNdpN31veOG2gxy9H5t688VYdiajaW47IVHfXx4oclc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.json.backend",
+        "intellij.platform.vcs.log",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.vcs.dvcs.impl.shared",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log.impl",
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "intellij.platform.collaborationTools"
+      ],
+      "optional_dependencies": [
+        "com.intellij.tasks"
+      ],
+      "file_name": "forgejo-rider-2-1.0.12-obfuscated.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.11": 1048251,
+      "1.0.12": 1050531,
       "1.0.2": 1045347,
       "1.0.9": 1046251
     }

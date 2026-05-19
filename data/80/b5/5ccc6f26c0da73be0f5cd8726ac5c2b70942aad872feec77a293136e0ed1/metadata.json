@@ -40,13 +40,27 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1051015": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30145/1051015/faker-1.1.0-signed.zip?updateId=1051015&pluginId=30145&family=INTELLIJ",
+      "sha256": "IKoLqK45aFRqx9XaarvhXfTzUFGDqPQ/jhAn+RGbq7c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "faker-1.1.0-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 954290,
       "1.0.1": 956077,
-      "1.0.2": 993252
+      "1.0.2": 993252,
+      "1.1.0": 1051015
     }
   }
 }
