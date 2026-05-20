@@ -18,11 +18,47 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1051260": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31795/1051260/IntelliJ_Dependency_Helper_Plugin-1.0.1.zip?updateId=1051260&pluginId=31795&family=INTELLIJ",
+      "sha256": "joyJvxLxMtST3WczYvNcv1okEdVYb5Zn9N0rQGWAtd0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "IntelliJ_Dependency_Helper_Plugin-1.0.1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1051480": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31795/1051480/IntelliJ_Dependency_Helper_Plugin-1.0.2.zip?updateId=1051480&pluginId=31795&family=INTELLIJ",
+      "sha256": "kMQzeQiMbJYWcpbNpcyFjtDFZp0X73qVbhXsOaM6Jkg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "org.jetbrains.idea.maven",
+        "com.intellij.gradle"
+      ],
+      "file_name": "IntelliJ_Dependency_Helper_Plugin-1.0.2.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1049799
+      "1.0.0": 1049799,
+      "1.0.1": 1051260,
+      "1.0.2": 1051480
     }
   }
 }

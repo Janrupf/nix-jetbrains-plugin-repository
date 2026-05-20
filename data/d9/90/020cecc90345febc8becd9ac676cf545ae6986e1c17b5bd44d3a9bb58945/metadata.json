@@ -16,11 +16,27 @@
       "since": "232.0",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "1051490": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31824/1051490/sqlvigil-1.0.2.zip?updateId=1051490&pluginId=31824&family=INTELLIJ",
+      "sha256": "R9En3ziQVYApFiwVHDJyqejBEF8dOwNCp03zkevpwV0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sqlvigil-1.0.2.zip",
+      "since": "232.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1051022
+      "1.0.0": 1051022,
+      "1.0.2": 1051490
     }
   }
 }
