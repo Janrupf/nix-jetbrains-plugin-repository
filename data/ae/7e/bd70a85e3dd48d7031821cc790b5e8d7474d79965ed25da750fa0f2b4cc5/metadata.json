@@ -5347,6 +5347,29 @@
       "since": "261.24374",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1052830": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7511/1052830/php-remoteInterpreter-262.6228.19.zip?updateId=1052830&pluginId=7511&family=INTELLIJ",
+      "sha256": "H3nFYq0g45VPssb/AnM5LjFRiH2wv8Y/V9/wwYVNWV8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.modules.php-capable",
+        "org.jetbrains.plugins.remote-run",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.os.windows",
+        "intellij.php.coverage",
+        "intellij.platform.coverage",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "org.jetbrains.plugins.wsl.remoteSdk",
+        "intellij.php.remoteInterpreter.coverage"
+      ],
+      "file_name": "php-remoteInterpreter-262.6228.19.zip",
+      "since": "262.6228",
+      "until": "262.6228.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5662,7 +5685,8 @@
       "261.22158.46": 977932,
       "261.24374.185": 1051419,
       "262.4852.50": 1041708,
-      "262.5752.32": 1048014
+      "262.5752.32": 1048014,
+      "262.6228.19": 1052830
     }
   }
 }

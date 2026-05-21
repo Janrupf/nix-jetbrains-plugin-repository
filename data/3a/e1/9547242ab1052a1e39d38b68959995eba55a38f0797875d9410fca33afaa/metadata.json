@@ -3782,6 +3782,39 @@
       "since": "262.5752",
       "until": "262.5752.*",
       "compatibility_overrides": []
+    },
+    "1052908": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19237/1052908/graalvm-262.6228.19.zip?updateId=1052908&pluginId=19237&family=INTELLIJ",
+      "sha256": "gMF2mqT66YNSsN4Ez+QjxbqWb05Y106u6JqLb/BLMG0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.util.execution",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.idea.ultimate",
+        "intellij.java.backend",
+        "intellij.cidr.runner",
+        "intellij.cidr.debugger.backend",
+        "org.intellij.groovy",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker.remoteRun",
+        "com.intellij.nativeDebug",
+        "intellij.cidr.debugger.core",
+        "org.jetbrains.plugins.terminal",
+        "intellij.maven",
+        "intellij.json.backend"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.jspecify",
+        "org.jetbrains.kotlin",
+        "com.intellij.microservices.debugger",
+        "intellij.gradle",
+        "intellij.gradle.toolingExtension",
+        "intellij.graalvm.gradle.tooling"
+      ],
+      "file_name": "graalvm-262.6228.19.zip",
+      "since": "262.6228",
+      "until": "262.6228.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3947,7 +3980,8 @@
       "261.22158.46": 978049,
       "261.23567.28": 1014257,
       "262.4852.50": 1041897,
-      "262.5752.32": 1048039
+      "262.5752.32": 1048039,
+      "262.6228.19": 1052908
     }
   }
 }

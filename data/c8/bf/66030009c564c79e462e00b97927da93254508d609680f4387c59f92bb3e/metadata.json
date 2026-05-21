@@ -5147,6 +5147,30 @@
       "since": "262.5752",
       "until": "262.5752.*",
       "compatibility_overrides": []
+    },
+    "1052764": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8595/1052764/php-docker-262.6228.19.zip?updateId=1052764&pluginId=8595&family=INTELLIJ",
+      "sha256": "m8Lj6EWrV99vEYIXw69MJvTK0WQ1R3DuylDKuRVU+iA=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.clouds.docker.remoteRun",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "Docker",
+        "org.jetbrains.plugins.remote-run",
+        "com.jetbrains.php",
+        "com.jetbrains.plugins.webDeployment",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "intellij.php.remoteInterpreter.coverage",
+        "org.jetbrains.plugins.phpstorm-docker",
+        "intellij.clouds.docker.agent",
+        "intellij.clouds.docker"
+      ],
+      "file_name": "php-docker-262.6228.19.zip",
+      "since": "262.6228",
+      "until": "262.6228.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5429,7 +5453,8 @@
       "261.22158.182": 989412,
       "261.22158.46": 977914,
       "262.4852.50": 1041840,
-      "262.5752.32": 1048115
+      "262.5752.32": 1048115,
+      "262.6228.19": 1052764
     }
   }
 }

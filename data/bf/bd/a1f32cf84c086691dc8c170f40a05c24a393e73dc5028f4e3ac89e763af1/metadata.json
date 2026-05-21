@@ -1651,6 +1651,30 @@
       "since": "261.24374",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1052978": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27370/1052978/aiplayground-262.6228.19.zip?updateId=1052978&pluginId=27370&family=INTELLIJ",
+      "sha256": "iaRj9WbHypJGgqhupgGgsPgOErawAxJuzP+onOIw4u8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.aiplayground.settings",
+        "com.intellij.modules.python-pro-capable",
+        "intellij.aiplayground.models",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "intellij.libraries.kotlinx.io",
+        "intellij.aiplayground.ui",
+        "intellij.libraries.ktor.client",
+        "intellij.aiplayground.langchain"
+      ],
+      "file_name": "aiplayground-262.6228.19.zip",
+      "since": "262.6228",
+      "until": "262.6228.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1726,7 +1750,8 @@
       "261.24374.66": 1040876,
       "261.24374.71": 1041612,
       "262.4852.50": 1041815,
-      "262.5752.32": 1048022
+      "262.5752.32": 1048022,
+      "262.6228.19": 1052978
     }
   }
 }

@@ -21,26 +21,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1049765": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31666/1049765/JetbrainsNextflowPlugin-1.1.1-signed.zip?updateId=1049765&pluginId=31666&family=INTELLIJ",
-      "sha256": "BPPl1DJ9IrDopQfvVcjv3Kse+1EtMQcJVjPIqnz+bMI=",
-      "channel": "stable",
-      "dependencies": [
-        "com.jetbrains.sh",
-        "intellij.textmate",
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal",
-        "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "intellij.platform.lsp",
-        "org.jetbrains.plugins.textmate"
-      ],
-      "optional_dependencies": [],
-      "file_name": "JetbrainsNextflowPlugin-1.1.1-signed.zip",
-      "since": "261.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1049812": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31666/1049812/JetbrainsNextflowPlugin-1.1.2-signed.zip?updateId=1049812&pluginId=31666&family=INTELLIJ",
       "sha256": "yBXo/nwr1cpXnWzEw/Vsm9IKAT1ocLSAxuL0pDd63us=",
@@ -61,13 +41,34 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1052665": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31666/1052665/JetbrainsNextflowPlugin-1.1.3-signed.zip?updateId=1052665&pluginId=31666&family=INTELLIJ",
+      "sha256": "/uJgLrig/pxmWOmxSPyRmBH9mfhOkK4/uvHrolDlFV8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lsp",
+        "com.intellij.modules.platform",
+        "intellij.textmate",
+        "org.jetbrains.plugins.terminal",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.intellij.groovy"
+      ],
+      "file_name": "JetbrainsNextflowPlugin-1.1.3-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.3": 1044901,
-      "1.1.1": 1049765,
-      "1.1.2": 1049812
+      "1.1.2": 1049812,
+      "1.1.3": 1052665
     }
   }
 }

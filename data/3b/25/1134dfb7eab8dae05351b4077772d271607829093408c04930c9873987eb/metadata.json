@@ -1843,6 +1843,52 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1052221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/1052221/hexana-0.9.1.zip?updateId=1052221&pluginId=29090&family=INTELLIJ",
+      "sha256": "hEJ4HKhcryxDQ0D3ezv8NbKcNu7zhDeaNtgLaPxUbcw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.compose",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "hexana-0.9.1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1053073": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/1053073/hexana-0.9.93-nightly.zip?updateId=1053073&pluginId=29090&family=INTELLIJ",
+      "sha256": "gGHjpm27RBKxsKcy9Hmo9EjfcVDdDKii0SmbhpXVHBI=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.mcpServer",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "hexana-0.9.93-nightly.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1927,7 +1973,8 @@
       "0.9.89-nightly": 1049766,
       "0.9.90-nightly": 1050256,
       "0.9.91-nightly": 1051062,
-      "0.9.92-nightly": 1051895
+      "0.9.92-nightly": 1051895,
+      "0.9.93-nightly": 1053073
     },
     "stable": {
       "0.1-SNAPSHOT": 896430,
@@ -1941,7 +1988,8 @@
       "0.8": 1028561,
       "0.8.1": 1030683,
       "0.8.2": 1036143,
-      "0.9": 1041597
+      "0.9": 1041597,
+      "0.9.1": 1052221
     }
   }
 }

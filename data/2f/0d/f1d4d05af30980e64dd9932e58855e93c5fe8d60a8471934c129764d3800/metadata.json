@@ -1361,6 +1361,57 @@
       "since": "262.5752",
       "until": "262.5752.*",
       "compatibility_overrides": []
+    },
+    "1052765": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28794/1052765/cmake-262.6228.19.zip?updateId=1052765&pluginId=28794&family=INTELLIJ",
+      "sha256": "t5vJO9FpC1fvqaKuioo6VMgFsB6+63nn+QhiF7kXzv8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.execution",
+        "intellij.cidr.psi.base",
+        "intellij.cidr.core",
+        "intellij.cidr.util.ui",
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.platform.structureView.impl",
+        "intellij.cmake.psi",
+        "intellij.cidr.lang.base",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.ssh.nio"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "com.jetbrains.rider-cpp",
+        "intellij.spellchecker",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.c.core",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.ide.core",
+        "intellij.rider",
+        "intellij.rider.cpp.core.languages",
+        "intellij.cidr.runner",
+        "intellij.clion.core",
+        "intellij.clion.execution",
+        "intellij.rd.platform",
+        "intellij.cmake.core",
+        "intellij.clion.externalSystem",
+        "intellij.rd.ide.model.generated",
+        "com.intellij.clion-compdb",
+        "org.jetbrains.plugins.terminal",
+        "intellij.json.backend",
+        "intellij.clion.projectStatus",
+        "intellij.clion.toolchains",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.util",
+        "intellij.cidr.util.serializer",
+        "intellij.clion.wizard",
+        "intellij.rider.cpp.core.projectModel",
+        "com.intellij.clion",
+        "intellij.cidr.projectModel"
+      ],
+      "file_name": "cmake-262.6228.19.zip",
+      "since": "262.6228",
+      "until": "262.6228.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1391,7 +1442,8 @@
       "261.23567.71": 1022057,
       "261.24374.34": 1035885,
       "262.4852.50": 1041857,
-      "262.5752.32": 1048129
+      "262.5752.32": 1048129,
+      "262.6228.19": 1052765
     }
   }
 }

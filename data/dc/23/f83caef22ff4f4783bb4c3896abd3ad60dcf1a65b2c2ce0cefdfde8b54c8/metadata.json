@@ -6787,6 +6787,52 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1052970": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/1052970/clion-2025.3-2026.05.20.0.zip?updateId=1052970&pluginId=9554&family=INTELLIJ",
+      "sha256": "MTx/mr472QJg2pXTrSeiCC70iZ9YPSy9SL+YvJ94rj8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion",
+        "intellij.platform.lvcs.impl",
+        "com.intellij.nativeDebug",
+        "org.jetbrains.plugins.clion.test.google",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.clion.radler",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.python",
+        "JavaScript",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "clion-2025.3-2026.05.20.0.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1052971": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/1052971/clion-2026.1-2026.05.20.0.zip?updateId=1052971&pluginId=9554&family=INTELLIJ",
+      "sha256": "WLtoNP/mXLeZAeH1PQ+rbM3EWV0OoAS4fEqebomYSbk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lvcs.impl",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.nativeDebug",
+        "com.intellij.modules.clion",
+        "org.jetbrains.plugins.clion.test.google"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.python",
+        "com.intellij.cidr.lang",
+        "JavaScript"
+      ],
+      "file_name": "clion-2026.1-2026.05.20.0.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -7124,7 +7170,9 @@
       "2026.05.05.0-api-version-253": 1042706,
       "2026.05.05.0-api-version-261": 1042705,
       "2026.05.11.0-api-version-253": 1044410,
-      "2026.05.11.0-api-version-261": 1044409
+      "2026.05.11.0-api-version-261": 1044409,
+      "2026.05.20.0-api-version-253": 1052970,
+      "2026.05.20.0-api-version-261": 1052971
     }
   }
 }

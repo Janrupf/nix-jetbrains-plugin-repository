@@ -5844,8 +5844,8 @@
         "com.intellij.diagram"
       ],
       "file_name": "intellij-go-192.5728.12.238.zip",
-      "since": null,
-      "until": null,
+      "since": "192.5728",
+      "until": "192.5728.*",
       "compatibility_overrides": []
     },
     "66084": {
@@ -16331,6 +16331,68 @@
       "since": "261.24374",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1052982": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9568/1052982/go-plugin-262.6228.19.zip?updateId=1052982&pluginId=9568&family=INTELLIJ",
+      "sha256": "PNRnAA0VEZpXrMWFIdRKkSBWRNw99QLrAf4rT1z5gos=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.go-capable",
+        "intellij.platform.structuralSearch",
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.platform.vcs.impl",
+        "com.intellij.modules.lang",
+        "intellij.regexp",
+        "intellij.json.backend",
+        "intellij.platform.debugger",
+        "intellij.platform.webide.impl",
+        "intellij.spellchecker",
+        "intellij.platform.debugger.impl",
+        "intellij.platform.structureView.impl",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.duplicatesDetector"
+      ],
+      "optional_dependencies": [
+        "com.intellij.plugins.watcher",
+        "intellij.profiler.asyncOne",
+        "org.jetbrains.plugins.go-template",
+        "intellij.platform.execution.dashboard.backend",
+        "intellij.indexing.shared.generator",
+        "intellij.rml.dfa",
+        "intellij.rml.dfa.impl",
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.go.frontback",
+        "intellij.database",
+        "intellij.platform.frontend",
+        "intellij.database.impl",
+        "intellij.grazie.core",
+        "intellij.sh.core",
+        "intellij.terminal.frontend",
+        "intellij.platform.langInjection",
+        "intellij.xml.parser",
+        "intellij.clouds.docker",
+        "tanvd.grazi",
+        "intellij.platform.vcs",
+        "intellij.go.impl",
+        "com.intellij.diagram",
+        "training",
+        "com.intellij.completion.ml.ranking",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.coverage",
+        "intellij.platform.compose",
+        "intellij.profiler.common",
+        "com.intellij.database",
+        "intellij.platform.graph",
+        "com.intellij.copyright",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.graph.impl",
+        "com.intellij.microservices.ui",
+        "Docker"
+      ],
+      "file_name": "go-plugin-262.6228.19.zip",
+      "since": "262.6228",
+      "until": "262.6228.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -17053,7 +17115,8 @@
       "261.24374.34": 1035900,
       "261.24374.66": 1040892,
       "262.4852.50": 1041919,
-      "262.5752.32": 1048042
+      "262.5752.32": 1048042,
+      "262.6228.19": 1052982
     }
   }
 }
