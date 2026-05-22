@@ -29,12 +29,27 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1053370": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31815/1053370/local-ai-plugin.zip?updateId=1053370&pluginId=31815&family=INTELLIJ",
+      "sha256": "lOhzendzFT22xgt2mWhTWt6v7U5e46nK3yFacGlITB0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "local-ai-plugin.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1050447,
-      "1.0.1": 1052157
+      "1.0.1": 1052157,
+      "1.0.2": 1053370
     }
   }
 }

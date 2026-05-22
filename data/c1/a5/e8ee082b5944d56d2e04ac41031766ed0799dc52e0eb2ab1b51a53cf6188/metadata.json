@@ -17,11 +17,28 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1053608": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30693/1053608/pycharm-plot-toggle-1.1.0.zip?updateId=1053608&pluginId=30693&family=INTELLIJ",
+      "sha256": "kUDN9Gr8X8YgGdHP4AKb3Od/Xyn5dd9vn8NQbIwuwcw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "intellij.python.scientific",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pycharm-plot-toggle-1.1.0.zip",
+      "since": "243.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 986402
+      "1.0.0": 986402,
+      "1.1.0": 1053608
     }
   }
 }

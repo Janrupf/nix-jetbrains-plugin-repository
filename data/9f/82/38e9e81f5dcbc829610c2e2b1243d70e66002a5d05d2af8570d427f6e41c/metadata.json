@@ -289,11 +289,28 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1053954": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27520/1053954/CraftsNet-Intellij-Plugin-2026.2-1.0.7-EAP.jar?updateId=1053954&pluginId=27520&family=INTELLIJ",
+      "sha256": "hf+q0mp8i+4sSPyvog6x4FXR4KE4IDf+Zly9kyxkwDc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CraftsNet-Intellij-Plugin-2026.2-1.0.7-EAP.jar",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "2025.2-1.0.2": 781718
+      "2025.2-1.0.2": 781718,
+      "2026.2-1.0.7-EAP": 1053954
     },
     "stable": {
       "2025.1-1.0.0": 763112,

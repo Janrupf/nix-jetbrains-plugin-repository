@@ -658,6 +658,24 @@
       "since": "223.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1054272": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28896/1054272/infcode-intellij-extension-1.9.7.zip?updateId=1054272&pluginId=28896&family=INTELLIJ",
+      "sha256": "dgY6JvauSOomY+CrQYdvJdZ6hoMtB7HjyJxLbrI8sUU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.java",
+        "JavaScript"
+      ],
+      "file_name": "infcode-intellij-extension-1.9.7.zip",
+      "since": "223.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -700,7 +718,8 @@
       "1.9.3": 1029457,
       "1.9.4": 1035785,
       "1.9.5": 1040898,
-      "1.9.6": 1045164
+      "1.9.6": 1045164,
+      "1.9.7": 1054272
     }
   }
 }

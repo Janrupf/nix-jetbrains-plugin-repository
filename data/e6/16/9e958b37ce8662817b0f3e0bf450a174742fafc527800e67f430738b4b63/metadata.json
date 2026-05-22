@@ -16729,6 +16729,84 @@
       "since": "262.5752",
       "until": "262.5752.*",
       "compatibility_overrides": []
+    },
+    "1053388": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/1053388/clouds-docker-impl-262.6228.31.zip?updateId=1053388&pluginId=7724&family=INTELLIJ",
+      "sha256": "KUzLHpktPPzaoRVKs4QGjpvyTlisD5IsPuHfTrsnPJ8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.execution.serviceView",
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.jackson.dataformat.yaml",
+        "intellij.libraries.javax.activation",
+        "intellij.clouds.docker.agent",
+        "intellij.platform.execution.dashboard",
+        "intellij.libraries.ktor.client",
+        "intellij.clouds.docker.dependencies"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.vcs.impl",
+        "intellij.java.remoteServers",
+        "intellij.rd.client",
+        "intellij.clouds.docker.file",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker",
+        "intellij.yaml",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
+        "com.intellij.modules.remoteServers",
+        "intellij.yaml.backend",
+        "intellij.platform.structureView.impl",
+        "com.intellij.modules.ssh",
+        "intellij.java.backend",
+        "intellij.platform.backend",
+        "intellij.clouds.docker.shared",
+        "org.jetbrains.plugins.terminal",
+        "intellij.spellchecker",
+        "intellij.platform.clouds"
+      ],
+      "file_name": "clouds-docker-impl-262.6228.31.zip",
+      "since": "262.6228",
+      "until": "262.6228.*",
+      "compatibility_overrides": []
+    },
+    "1053619": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7724/1053619/clouds-docker-impl-261.25134.16.zip?updateId=1053619&pluginId=7724&family=INTELLIJ",
+      "sha256": "9Dv6m45fsqWoy/Y0HBPsNAfDXzhnlUsxyzK6ULjcwmw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.javax.activation",
+        "intellij.libraries.guava",
+        "intellij.clouds.docker.agent",
+        "intellij.platform.execution.serviceView",
+        "intellij.libraries.ktor.client",
+        "intellij.clouds.docker.dependencies",
+        "intellij.libraries.jackson.dataformat.yaml"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "com.intellij.modules.remoteServers",
+        "com.intellij.modules.ultimate",
+        "intellij.java.remoteServers",
+        "intellij.clouds.docker.file",
+        "org.jetbrains.plugins.terminal",
+        "intellij.clouds.docker",
+        "intellij.platform.frontend.split",
+        "intellij.java.backend",
+        "intellij.platform.backend",
+        "intellij.clouds.docker.shared",
+        "intellij.yaml.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.spellchecker",
+        "com.intellij.modules.ssh",
+        "intellij.platform.clouds",
+        "intellij.platform.vcs.impl"
+      ],
+      "file_name": "clouds-docker-impl-261.25134.16.zip",
+      "since": "261.25134",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -17556,8 +17634,10 @@
       "261.23567.72": 1023198,
       "261.24374.36": 1036335,
       "261.24374.91": 1044321,
+      "261.25134.16": 1053619,
       "262.4852.70": 1044306,
       "262.5752.1": 1046290,
+      "262.6228.31": 1053388,
       "3.0.0": 36829,
       "3.0.1": 37263
     }

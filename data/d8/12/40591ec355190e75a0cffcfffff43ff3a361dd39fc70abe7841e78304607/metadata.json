@@ -45,13 +45,29 @@
       "since": "233.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1054167": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26269/1054167/groom-0.5.0.zip?updateId=1054167&pluginId=26269&family=INTELLIJ",
+      "sha256": "K0UiZvgZoafnxMZKFqizJH9MzA+AerDpJGdxJ80PMSE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.intellij.groovy",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "groom-0.5.0.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1": 664025,
       "0.2.0": 671238,
-      "0.3.0": 792571
+      "0.3.0": 792571,
+      "0.5.0": 1054167
     }
   }
 }
