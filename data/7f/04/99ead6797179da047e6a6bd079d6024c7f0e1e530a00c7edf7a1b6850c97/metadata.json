@@ -120,12 +120,30 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1054849": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31099/1054849/intellij-plugin-0.8.1-eap.1.zip?updateId=1054849&pluginId=31099&family=INTELLIJ",
+      "sha256": "2VMs38Pxy/BIMGA11NdY33C6zUUU6Ri56myqgSO/hTI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "JUnit"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-plugin-0.8.1-eap.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "0.7.2-eap.5": 1042678,
-      "0.8.0-eap.1": 1044355
+      "0.8.0-eap.1": 1044355,
+      "0.8.1-eap.1": 1054849
     },
     "stable": {
       "0.6.5": 1009257,

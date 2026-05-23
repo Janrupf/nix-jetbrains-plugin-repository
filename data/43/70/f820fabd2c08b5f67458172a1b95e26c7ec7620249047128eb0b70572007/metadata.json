@@ -1,6 +1,24 @@
 {
   "xml_id": "com.btcsolutions.flowix.jbplugin",
   "numeric_id": 31323,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1053382": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31323/1053382/flowix-idea-plugin.zip?updateId=1053382&pluginId=31323&family=INTELLIJ",
+      "sha256": "cJ/U5dWH0S6mGHSvu3U/hIdv9ZDCFITngKN3YYCbw8Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flowix-idea-plugin.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1053382
+    }
+  }
 }

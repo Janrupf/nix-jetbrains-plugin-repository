@@ -131,6 +131,26 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1053436": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28738/1053436/fdm-plugin-1.2.3.zip?updateId=1053436&pluginId=28738&family=INTELLIJ",
+      "sha256": "zIfcHNWg5GqAP18VfWR/fnENbti/JI21I2lTG6bUnPE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fdm-plugin-1.2.3.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "231.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -144,7 +164,8 @@
       "1.1.9": 882326,
       "1.2.0": 986413,
       "1.2.1": 988415,
-      "1.2.2.1": 1019196
+      "1.2.2.1": 1019196,
+      "1.2.3": 1053436
     }
   }
 }

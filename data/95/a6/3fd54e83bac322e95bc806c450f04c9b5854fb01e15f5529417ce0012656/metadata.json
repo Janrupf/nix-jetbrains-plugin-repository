@@ -32,12 +32,29 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1055230": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31904/1055230/autodeps-1.0.2.zip?updateId=1055230&pluginId=31904&family=INTELLIJ",
+      "sha256": "SYvZDizkXB4lPxO6KSu8FjdS5qwQqckOJObq9UYHNsw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "autodeps-1.0.2.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1054230,
-      "1.0.1": 1054234
+      "1.0.1": 1054234,
+      "1.0.2": 1055230
     }
   }
 }
