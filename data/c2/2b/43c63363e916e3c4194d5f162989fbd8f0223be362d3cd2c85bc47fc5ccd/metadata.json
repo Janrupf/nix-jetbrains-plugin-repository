@@ -560,12 +560,34 @@
       "since": "243.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1055494": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27395/1055494/Xeon_RobotFramework_Support-0.7.4-beta-3.zip?updateId=1055494&pluginId=27395&family=INTELLIJ",
+      "sha256": "VSc5xrUYFDcvHWEyNN40DLf/lK4p3beJLBfaf25HBwg=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "PythonCore",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.langInjection",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "Xeon_RobotFramework_Support-0.7.4-beta-3.zip",
+      "since": "243.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "0.7.4-beta-1": 1047781,
-      "0.7.4-beta-2": 1049503
+      "0.7.4-beta-2": 1049503,
+      "0.7.4-beta-3": 1055494
     },
     "stable": {
       "0.2.8": 744296,
