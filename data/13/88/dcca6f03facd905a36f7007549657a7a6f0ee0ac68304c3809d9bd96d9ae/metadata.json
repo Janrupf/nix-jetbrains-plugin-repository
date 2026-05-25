@@ -35,12 +35,30 @@
       "since": "222.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1056157": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31333/1056157/DeepSeek-Code-Review-2.1.2.zip?updateId=1056157&pluginId=31333&family=INTELLIJ",
+      "sha256": "K2Tocv1H8YFUH7WkarpXrSVRaVhms2w9lh8kfLWD09c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Code-Review-2.1.2.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.1.0": 1025503,
-      "2.1.1": 1051079
+      "2.1.1": 1051079,
+      "2.1.2": 1056157
     }
   }
 }

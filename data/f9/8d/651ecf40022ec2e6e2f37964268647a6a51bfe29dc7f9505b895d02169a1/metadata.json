@@ -15,11 +15,41 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1056079": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29835/1056079/rst-preview-plugin-1.1.0.zip?updateId=1056079&pluginId=29835&family=INTELLIJ",
+      "sha256": "YosYgoDQ/YWZYXRWhDEkL3VsxgdUj407zzfnEsfIEic=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.rest"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rst-preview-plugin-1.1.0.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1056106": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29835/1056106/rst-preview-plugin-1.2.0.zip?updateId=1056106&pluginId=29835&family=INTELLIJ",
+      "sha256": "/jPuOYS10hjEOH7U7C245TwRrzJIOQKrCa9TFgDjXaU=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.rest",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rst-preview-plugin-1.2.0.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.3": 936843
+      "1.0.3": 936843,
+      "1.1.0": 1056079,
+      "1.2.0": 1056106
     }
   }
 }

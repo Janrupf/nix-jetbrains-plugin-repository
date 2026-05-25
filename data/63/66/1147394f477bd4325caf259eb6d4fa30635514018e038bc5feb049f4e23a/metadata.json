@@ -43334,6 +43334,42 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1055882": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24198/1055882/google-cloud-aiplugin-20260524-dogfood-261.zip?updateId=1055882&pluginId=24198&family=INTELLIJ",
+      "sha256": "qfjAImhp9nLGxCluLA8psxgzvhXYFY/+Fdow5dM3fPs=",
+      "channel": "dogfood",
+      "dependencies": [
+        "intellij.platform.lvcs.impl",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.libraries.coil",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.vcs.impl",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.markdown.extensions.gfmStrikethrough",
+        "intellij.platform.vcs.log.impl",
+        "org.jetbrains.plugins.terminal",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.jewel.markdown.extensions.gfmAlerts",
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform",
+        "intellij.libraries.grpc",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.vcs.log",
+        "com.intellij.modules.lang",
+        "intellij.platform.vcs.log.graph",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "google-cloud-aiplugin-20260524-dogfood-261.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -45346,7 +45382,8 @@
       "20260520-dogfood-261": 1052132,
       "20260521-dogfood-253": 1053359,
       "20260521-dogfood-261": 1053357,
-      "20260523-dogfood-261": 1055485
+      "20260523-dogfood-261": 1055485,
+      "20260524-dogfood-261": 1055882
     },
     "stable": {
       "1.0.0-233": 598717,

@@ -29,12 +29,27 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1056174": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30931/1056174/memory-leak-detector-1.0.2.jar?updateId=1056174&pluginId=30931&family=INTELLIJ",
+      "sha256": "n0SJb24PljGxtvoGnk1KU92RnsQGLFe00QDmcnzyO+8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "memory-leak-detector-1.0.2.jar",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 997888,
-      "1.0.1": 1000544
+      "1.0.1": 1000544,
+      "1.0.2": 1056174
     }
   }
 }

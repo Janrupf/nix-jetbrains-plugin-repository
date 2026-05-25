@@ -145,19 +145,6 @@
       "until": "242.*",
       "compatibility_overrides": []
     },
-    "659592": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/22013/659592/Bookmark-X-2.2.0.zip?updateId=659592&pluginId=22013&family=INTELLIJ",
-      "sha256": "X2bjleWAc2EmOw6jMUaGk5cNPtdAlO9W7z6cpl2KWbA=",
-      "channel": "beta",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Bookmark-X-2.2.0.zip",
-      "since": "210.0",
-      "until": "242.*",
-      "compatibility_overrides": []
-    },
     "693975": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/22013/693975/Bookmark-X-2.2.1.zip?updateId=693975&pluginId=22013&family=INTELLIJ",
       "sha256": "8BOwdCps1jPdgEvRLQnz1lGm792L/JE4OQ5L6afiUcs=",
@@ -235,12 +222,23 @@
       "since": "210.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1056182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22013/1056182/Bookmark-X-3.0.0.zip?updateId=1056182&pluginId=22013&family=INTELLIJ",
+      "sha256": "iNR/bTp0Zyle43uUJbLnwAkDbCirei/H/1D0a3+iXBU=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Bookmark-X-3.0.0.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
-    "beta": {
-      "2.2.0": 659592
-    },
     "stable": {
       "1.0.1": 350362,
       "1.1.2": 497848,
@@ -258,7 +256,8 @@
       "2.3.1": 874897,
       "2.3.2": 903684,
       "2.3.3": 913763,
-      "2.3.4": 942468
+      "2.3.4": 942468,
+      "3.0.0": 1056182
     }
   }
 }

@@ -53,6 +53,26 @@
       "since": "253.28294",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1055888": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25595/1055888/ic10-plugin-jetbrains-2.0.zip?updateId=1055888&pluginId=25595&family=INTELLIJ",
+      "sha256": "/ivziAN2szvUYJM3NvdSIViB26ht1RuwuH26fXHHE6A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ic10-plugin-jetbrains-2.0.zip",
+      "since": "253.28294",
+      "until": "262",
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.28294",
+          "applies_until": "999.99999",
+          "compatible_since": "253.28294",
+          "compatible_until": "262"
+        }
+      ]
     }
   },
   "channels": {
@@ -60,7 +80,8 @@
       "1.1": 625443,
       "1.2": 625687,
       "1.4": 652302,
-      "1.5": 917647
+      "1.5": 917647,
+      "2.0": 1055888
     }
   }
 }
