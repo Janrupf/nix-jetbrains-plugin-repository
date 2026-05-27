@@ -28,11 +28,39 @@
           "compatible_until": "263.*"
         }
       ]
+    },
+    "1057775": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/1057775/appglass-debugger-plugin-0.1.3.1.zip?updateId=1057775&pluginId=30451&family=INTELLIJ",
+      "sha256": "CYkutEkQ3IzYcD/7ln1Q3zU9dVy4cza8lxCsPPCTDwo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "JUnit",
+        "com.intellij.gradle",
+        "intellij.platform.compose",
+        "org.jetbrains.kotlin",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "appglass-debugger-plugin-0.1.3.1.zip",
+      "since": "261",
+      "until": "263.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "263.*",
+          "compatible_since": "261",
+          "compatible_until": "263.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "0.1.3": 1049209
+      "0.1.3": 1049209,
+      "0.1.3.1": 1057775
     }
   }
 }

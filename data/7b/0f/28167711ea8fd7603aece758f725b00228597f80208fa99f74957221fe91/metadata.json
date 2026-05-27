@@ -17,11 +17,28 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1057416": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31743/1057416/ansible-2.0.0.zip?updateId=1057416&pluginId=31743&family=INTELLIJ",
+      "sha256": "SaEJsvQcrH4Morc/EN99tNLnmWGSYdjqNQ76tiMp8ec=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ansible-2.0.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1046573
+      "1.0.0": 1046573,
+      "2.0.0": 1057416
     }
   }
 }

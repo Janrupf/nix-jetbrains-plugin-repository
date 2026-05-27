@@ -2,23 +2,37 @@
   "xml_id": "com.aicoder.jetbrains",
   "numeric_id": 31717,
   "updates": {
-    "1045126": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31717/1045126/aicoder-jetbrains-win32-x64-0.9.15.zip?updateId=1045126&pluginId=31717&family=INTELLIJ",
-      "sha256": "MZULpf8kILA4TWzabTUaMx5GPdFnhWbmrzTwX5PRjgo=",
+    "1056941": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31717/1056941/lingrui-aicoder-jetbrains-darwin-arm64-1.1.4.zip?updateId=1056941&pluginId=31717&family=INTELLIJ",
+      "sha256": "SBwi72/9DzMx37jgd3Xh0hUVMa8Kgn9oQyBDRmFM8kk=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "aicoder-jetbrains-win32-x64-0.9.15.zip",
-      "since": null,
+      "file_name": "lingrui-aicoder-jetbrains-darwin-arm64-1.1.4.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1056967": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31717/1056967/lingrui-aicoder-jetbrains-1.1.5.zip?updateId=1056967&pluginId=31717&family=INTELLIJ",
+      "sha256": "uF52BlpFMaiT9Mn482dXDvkqJ2QTUWxgEnD9WF+Ijzs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lingrui-aicoder-jetbrains-1.1.5.zip",
+      "since": "243.0",
       "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.9.15": 1045126
+      "1.1.4": 1056941,
+      "1.1.5": 1056967
     }
   }
 }

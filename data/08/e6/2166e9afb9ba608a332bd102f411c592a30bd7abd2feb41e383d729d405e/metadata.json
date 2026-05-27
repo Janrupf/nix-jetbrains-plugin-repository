@@ -29,12 +29,32 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1056977": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30937/1056977/core-1.2.0.zip?updateId=1056977&pluginId=30937&family=INTELLIJ",
+      "sha256": "fsnbJHvhLsIObXhSK3gYU94SV6eVFKrY068PBUAn3yQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.compose",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui"
+      ],
+      "file_name": "core-1.2.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.2": 1003155,
-      "1.1.0": 1006062
+      "1.1.0": 1006062,
+      "1.2.0": 1056977
     }
   }
 }
