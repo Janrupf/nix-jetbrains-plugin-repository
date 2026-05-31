@@ -2,25 +2,41 @@
   "xml_id": "com.jetbrains.jseval",
   "numeric_id": 31974,
   "updates": {
-    "1057530": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31974/1057530/jseval-0.2.0.zip?updateId=1057530&pluginId=31974&family=INTELLIJ",
-      "sha256": "WlgU1S7KiZ9p7qoHC4coKBj+Eh6GNaGkzFzUln+n4uY=",
+    "1058334": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31974/1058334/jseval-0.2.4.zip?updateId=1058334&pluginId=31974&family=INTELLIJ",
+      "sha256": "cwfoH9lWowl4Di/VuGL+F2Uc/Aq4JzwjAgRLAL9NZaY=",
       "channel": "stable",
       "dependencies": [
-        "NodeJS",
         "com.intellij.modules.platform",
-        "JavaScript"
+        "JavaScript",
+        "NodeJS"
       ],
       "optional_dependencies": [],
-      "file_name": "jseval-0.2.0.zip",
-      "since": "261.25134",
+      "file_name": "jseval-0.2.4.zip",
+      "since": "261.*",
       "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1059397": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31974/1059397/jseval-0.2.6.zip?updateId=1059397&pluginId=31974&family=INTELLIJ",
+      "sha256": "y7SkPj+nb2gv993RcFM7kf9BzYGL0dAMjJhp4krU/kQ=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "NodeJS",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jseval-0.2.6.zip",
+      "since": "261.23567",
+      "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.0": 1057530
+      "0.2.4": 1058334,
+      "0.2.6": 1059397
     }
   }
 }

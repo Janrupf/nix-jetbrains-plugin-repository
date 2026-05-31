@@ -992,12 +992,40 @@
       "since": "253.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1061463": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17501/1061463/Notes.zip?updateId=1061463&pluginId=17501&family=INTELLIJ",
+      "sha256": "yBzBPIXgirYai+B09redUyWhd4j1ba1sTq7iAFSNSFY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.python",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "com.intellij.ml.llm",
+        "org.intellij.plugins.markdown",
+        "com.intellij.mcpServer",
+        "Git4Idea",
+        "org.asciidoctor.intellij.asciidoc"
+      ],
+      "file_name": "Notes.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2022.1.0-EAP": 155683,
-      "2024.2.0.1 EAP": 560869
+      "2024.2.0.1 EAP": 560869,
+      "2026.2.0": 1061463
     },
     "stable": {
       "2020.3.1": 135046,

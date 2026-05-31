@@ -1147,6 +1147,51 @@
       "since": "262.6228",
       "until": "262.6228.*",
       "compatibility_overrides": []
+    },
+    "1059251": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27367/1059251/gradle-java-plugin-262.6653.22.zip?updateId=1059251&pluginId=27367&family=INTELLIJ",
+      "sha256": "q4zUNvMXW6012RNSAO2jjgJXpf8kAbMYcnXWx2sbACo=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.properties.backend.psi",
+        "intellij.java.compiler.impl",
+        "intellij.java.syntax",
+        "intellij.java.debugger.impl",
+        "intellij.java",
+        "intellij.java.debugger.impl.shared",
+        "intellij.platform.jps.build",
+        "intellij.java.impl",
+        "intellij.java.psi",
+        "intellij.java.ui",
+        "intellij.java.indexing",
+        "intellij.java.execution",
+        "intellij.gradle.toolingExtension.impl",
+        "intellij.gradle",
+        "intellij.java.frontback.psi",
+        "intellij.java.compiler",
+        "intellij.java.execution.impl"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.performancePlugin",
+        "Coverage",
+        "intellij.gradle.java",
+        "intellij.gradle.java.groovy",
+        "intellij.toml.core",
+        "intellij.maven",
+        "com.intellij.completion.ml.ranking",
+        "intellij.platform.uast",
+        "intellij.maven.performanceTesting",
+        "org.intellij.groovy",
+        "intellij.gradle.java.toml",
+        "intellij.properties.psi",
+        "intellij.profiler.ultimate",
+        "intellij.java.psi.impl",
+        "org.jetbrains.idea.gradle.dsl"
+      ],
+      "file_name": "gradle-java-plugin-262.6653.22.zip",
+      "since": "262.6653",
+      "until": "262.6653.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1187,7 +1232,8 @@
       "261.24374.34": 1035926,
       "262.4852.34": 1040255,
       "262.5752.1": 1046364,
-      "262.6228.19": 1052902
+      "262.6228.19": 1052902,
+      "262.6653.22": 1059251
     }
   }
 }

@@ -2454,8 +2454,8 @@
         "com.jetbrains.php"
       ],
       "file_name": "packageChecker-242.23726.55.zip",
-      "since": null,
-      "until": null,
+      "since": "242.23726",
+      "until": "242.*",
       "compatibility_overrides": []
     },
     "620322": {
@@ -2624,8 +2624,8 @@
         "com.jetbrains.php"
       ],
       "file_name": "packageChecker-242.23726.107.zip",
-      "since": null,
-      "until": null,
+      "since": "242.23726",
+      "until": "242.*",
       "compatibility_overrides": []
     },
     "623491": {
@@ -8962,6 +8962,40 @@
       "since": "261.25134",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1059259": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18337/1059259/packageChecker-262.6653.22.zip?updateId=1059259&pluginId=18337&family=INTELLIJ",
+      "sha256": "Q2VzyjdT9jnU2ixR3FLTW11WT+CWF7tsQdRabEUclhE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json.backend",
+        "intellij.platform.vcs.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.gradle.dependencyUpdater",
+        "intellij.javascript.common",
+        "org.jetbrains.plugins.go",
+        "intellij.javascript.backend",
+        "intellij.java.psi",
+        "org.intellij.groovy",
+        "intellij.toml.core",
+        "intellij.javascript.analysis.impl",
+        "intellij.javascript.psi.impl",
+        "com.intellij.modules.python",
+        "intellij.maven",
+        "JavaScript",
+        "intellij.java.backend",
+        "intellij.packageChecker.java",
+        "org.jetbrains.idea.gradle.dsl",
+        "intellij.packageChecker.maven",
+        "org.jetbrains.kotlin-toolchain",
+        "intellij.json",
+        "com.jetbrains.php"
+      ],
+      "file_name": "packageChecker-262.6653.22.zip",
+      "since": "262.6653",
+      "until": "262.6653.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -9286,7 +9320,8 @@
       "261.25134.16": 1053625,
       "262.4852.39": 1041585,
       "262.5752.1": 1046324,
-      "262.6228.19": 1052876
+      "262.6228.19": 1052876,
+      "262.6653.22": 1059259
     }
   }
 }

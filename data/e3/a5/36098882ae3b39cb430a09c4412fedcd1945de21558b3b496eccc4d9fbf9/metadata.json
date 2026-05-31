@@ -2,19 +2,6 @@
   "xml_id": "com.acedatacloud.mcp.wan",
   "numeric_id": 31103,
   "updates": {
-    "1036371": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31103/1036371/mcp-plugin-2026.4.30.0.zip?updateId=1036371&pluginId=31103&family=INTELLIJ",
-      "sha256": "TRaIshbKcCw63cNhrwTOJrOcJVb8DGxd8o7HB7FoFVE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "mcp-plugin-2026.4.30.0.zip",
-      "since": "252.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1047645": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31103/1047645/mcp-plugin-2026.5.14.0.zip?updateId=1047645&pluginId=31103&family=INTELLIJ",
       "sha256": "jg/EFv7r6iRXptj49bSuGmKhoEMOey8Q28SprGT/BQE=",
@@ -53,14 +40,27 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1061997": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31103/1061997/mcp-plugin-2026.5.31.0.zip?updateId=1061997&pluginId=31103&family=INTELLIJ",
+      "sha256": "yqpDFIH1Ha5ldhLs428ZrAXU9sR+SjLSFqKYwXmnZug=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-plugin-2026.5.31.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.4.30.0": 1036371,
       "2026.5.14.0": 1047645,
       "2026.5.24.0": 1056094,
-      "2026.5.25.0": 1056669
+      "2026.5.25.0": 1056669,
+      "2026.5.31.0": 1061997
     }
   }
 }

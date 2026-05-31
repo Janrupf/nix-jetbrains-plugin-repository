@@ -5171,6 +5171,31 @@
       "since": "262.6228",
       "until": "262.6228.*",
       "compatibility_overrides": []
+    },
+    "1059201": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8595/1059201/php-docker-262.6653.22.zip?updateId=1059201&pluginId=8595&family=INTELLIJ",
+      "sha256": "oeulNqyja6Zy0A4kE7khmI7P32Qk1vHt7avgmLsHk38=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.remoteServers.impl",
+        "com.jetbrains.php",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.clouds.docker.remoteRun",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "Docker",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-docker",
+        "intellij.clouds.docker.agent",
+        "intellij.php.remoteInterpreter.coverage",
+        "intellij.clouds.docker"
+      ],
+      "file_name": "php-docker-262.6653.22.zip",
+      "since": "262.6653",
+      "until": "262.6653.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5454,7 +5479,8 @@
       "261.22158.46": 977914,
       "262.4852.50": 1041840,
       "262.5752.32": 1048115,
-      "262.6228.19": 1052764
+      "262.6228.19": 1052764,
+      "262.6653.22": 1059201
     }
   }
 }

@@ -76,10 +76,26 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1059800": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24045/1059800/replany-1.0.10.zip?updateId=1059800&pluginId=24045&family=INTELLIJ",
+      "sha256": "F0irDh41ZrvfnC5rQzZbvpkljM50NtotOnSi/GKzAbw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "replany-1.0.10.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.10": 1059800,
       "1.0.5": 583753,
       "1.0.6": 668248,
       "1.0.7": 672304,

@@ -3836,8 +3836,8 @@
         "Git4Idea"
       ],
       "file_name": "lingma-jetbrains-2.7.1.zip",
-      "since": null,
-      "until": null,
+      "since": "203.0",
+      "until": "253.*",
       "compatibility_overrides": []
     },
     "941979": {
@@ -3862,8 +3862,8 @@
         "Git4Idea"
       ],
       "file_name": "lingma-jetbrains-2.7.1.zip",
-      "since": null,
-      "until": null,
+      "since": "203.0",
+      "until": "253.*",
       "compatibility_overrides": []
     },
     "942530": {
@@ -4602,6 +4602,64 @@
       "since": "203.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1060320": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17809/1060320/qoder-cn-jetbrains-3.1.0__3_.zip?updateId=1060320&pluginId=17809&family=INTELLIJ",
+      "sha256": "Lc+col3/H73pSBoq1qTmI9ZWFmyzhIWEgc4c+2xqsqk=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.rust",
+        "com.intellij.cidr.lang",
+        "com.intellij.tasks",
+        "JavaScript",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.python",
+        "Git4Idea",
+        "com.intellij.database",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.php",
+        "com.intellij.modules.ruby",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "qoder-cn-jetbrains-3.1.0__3_.zip",
+      "since": "203.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1060322": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17809/1060322/qoder-cn-jetbrains-3.1.0__3_.zip?updateId=1060322&pluginId=17809&family=INTELLIJ",
+      "sha256": "Lc+col3/H73pSBoq1qTmI9ZWFmyzhIWEgc4c+2xqsqk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.jetbrains.rust",
+        "com.intellij.modules.ruby",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.python",
+        "com.intellij.tasks",
+        "JavaScript",
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea",
+        "com.intellij.database",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "qoder-cn-jetbrains-3.1.0__3_.zip",
+      "since": "203.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4694,7 +4752,8 @@
       "2.8.2": 970715,
       "2.9.0": 984339,
       "3.0.0": 1051505,
-      "3.0.2": 1054854
+      "3.0.2": 1054854,
+      "3.1.0": 1060320
     },
     "stable": {
       "0.10.1-beta": 164238,
@@ -4817,7 +4876,8 @@
       "2.9.0": 984338,
       "3.0.0": 1051515,
       "3.0.1": 1052380,
-      "3.0.2": 1054855
+      "3.0.2": 1054855,
+      "3.1.0": 1060322
     }
   }
 }

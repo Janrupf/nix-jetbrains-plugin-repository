@@ -92,6 +92,39 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1061057": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30764/1061057/qonqrete-intellij-v1.4.6.zip?updateId=1061057&pluginId=30764&family=INTELLIJ",
+      "sha256": "N/poexWR3VHtLyERF3Ql9fN6wBhsMaRny+lp+v7kpdg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "qonqrete-intellij-v1.4.6.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "999.99999",
+          "compatible_since": "253.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "1061437": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30764/1061437/qonqrete-intellij-v1.4.7.zip?updateId=1061437&pluginId=30764&family=INTELLIJ",
+      "sha256": "qlGG8QAOIYHvAI3tNU44owUaP0r7fCpIGLSV6hVk1Xs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "qonqrete-intellij-v1.4.7.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -102,7 +135,9 @@
       "1.4.2": 1043623,
       "1.4.3": 1043626,
       "1.4.4": 1043635,
-      "1.4.5": 1043647
+      "1.4.5": 1043647,
+      "1.4.6": 1061057,
+      "1.4.7": 1061437
     }
   }
 }

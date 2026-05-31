@@ -3493,6 +3493,52 @@
       "since": "251.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1060327": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23758/1060327/plugin.zip?updateId=1060327&pluginId=23758&family=INTELLIJ",
+      "sha256": "tZA0ZBUFjKoojsSSP+CHyL8L+Vo0mlwq+SxXIKiz0eM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.microservices",
+        "com.intellij.microservices.jvm",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.ultimate",
+        "JavaScript",
+        "com.intellij.css"
+      ],
+      "file_name": "plugin.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1060329": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23758/1060329/plugin.zip?updateId=1060329&pluginId=23758&family=INTELLIJ",
+      "sha256": "/c0eMVxDvXBA/FyRUpNe6DxEME4kcPnwGGUqdF9JvGs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "com.intellij.css",
+        "com.intellij.modules.ultimate",
+        "com.intellij.microservices.jvm",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.microservices",
+        "JavaScript"
+      ],
+      "file_name": "plugin.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3576,6 +3622,7 @@
       "1.0.0.eap218": 948144,
       "1.0.0.eap220": 982688,
       "1.0.0.eap222": 996800,
+      "1.0.0.eap224": 1060327,
       "1.0.0.eap34": 597644,
       "1.0.0.eap35": 598416,
       "1.0.0.eap36": 598529,
@@ -3678,7 +3725,8 @@
       "1.5.7": 901653,
       "1.5.8": 930962,
       "1.5.9": 947620,
-      "1.6.0": 996803
+      "1.6.0": 996803,
+      "1.6.1": 1060329
     }
   }
 }

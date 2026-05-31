@@ -7687,6 +7687,40 @@
       "since": "262.6228",
       "until": "262.6228.*",
       "compatibility_overrides": []
+    },
+    "1059024": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15184/1059024/phpstan-262.6653.22.zip?updateId=1059024&pluginId=15184&family=INTELLIJ",
+      "sha256": "NRwGD2wrtd0HxV+zwpAAXTYeVFzMMGD0tQ1pXGPBRb0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.webide.impl"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "com.intellij.php.tools.quality.phpstan"
+      ],
+      "file_name": "phpstan-262.6653.22.zip",
+      "since": "262.6653",
+      "until": "262.6653.*",
+      "compatibility_overrides": []
+    },
+    "1059780": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15184/1059780/phpstan-261.25134.54.zip?updateId=1059780&pluginId=15184&family=INTELLIJ",
+      "sha256": "S1TIdlrN/fHQIaPy+IwLzsv2t+rcodaTdSed4ei8WHE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "file_name": "phpstan-261.25134.54.zip",
+      "since": "261.25134",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -8172,9 +8206,11 @@
       "261.22158.46": 977972,
       "261.23567.28": 1014037,
       "261.24374.185": 1051421,
+      "261.25134.54": 1059780,
       "262.4852.50": 1041935,
       "262.5752.32": 1047958,
-      "262.6228.19": 1052846
+      "262.6228.19": 1052846,
+      "262.6653.22": 1059024
     }
   }
 }

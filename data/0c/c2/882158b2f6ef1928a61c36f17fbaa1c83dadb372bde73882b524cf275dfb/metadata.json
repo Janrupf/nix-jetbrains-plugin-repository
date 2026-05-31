@@ -14,11 +14,25 @@
       "since": "223.0",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "1060309": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23003/1060309/openurl-1.0.2.zip?updateId=1060309&pluginId=23003&family=INTELLIJ",
+      "sha256": "gfwHUz4HVsk/S0LuvhR1unp1Sxc7tQRS7YK949kMYnA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "openurl-1.0.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 423386
+      "1.0.0": 423386,
+      "1.0.2": 1060309
     }
   }
 }
