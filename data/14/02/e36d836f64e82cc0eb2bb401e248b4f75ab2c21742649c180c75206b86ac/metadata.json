@@ -4621,7 +4621,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.49.zip",
       "since": "252.0",
-      "until": "252.2.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -4645,7 +4645,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.49.zip",
       "since": "252.0",
-      "until": "252.2.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -4669,7 +4669,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.49.zip",
       "since": "252.0",
-      "until": "252.2.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -8648,6 +8648,44 @@
       "since": "261.17801",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1063617": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/1063617/azuredevops-2026.1.68.zip?updateId=1063617&pluginId=22319&family=INTELLIJ",
+      "sha256": "1EZ8cUHdRmhFywLRHoNFqEZqDufT2iXyJVLlUodTsTk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.tasks",
+        "com.intellij.modules.json",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "Git4Idea",
+        "intellij.platform.collaborationTools.auth"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2026.1.68.zip",
+      "since": "261.17801",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1063618": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/1063618/azuredevops-2026.1.68.zip?updateId=1063618&pluginId=22319&family=INTELLIJ",
+      "sha256": "tFdfk3GxabRtMpNtHOC3RPzmjIZEA4NiR97/tYZd96c=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.tasks",
+        "Git4Idea",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json",
+        "intellij.platform.collaborationTools.auth"
+      ],
+      "optional_dependencies": [],
+      "file_name": "azuredevops-2026.1.68.zip",
+      "since": "261.17801",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -8898,6 +8936,7 @@
       "2026.1.65": 1059753,
       "2026.1.66": 1061409,
       "2026.1.67": 1061792,
+      "2026.1.68": 1063618,
       "2026.1.9": 976398
     },
     "stable": {
@@ -9143,6 +9182,7 @@
       "2026.1.64": 1059363,
       "2026.1.65": 1059751,
       "2026.1.67": 1061791,
+      "2026.1.68": 1063617,
       "2026.1.9": 976383
     }
   }

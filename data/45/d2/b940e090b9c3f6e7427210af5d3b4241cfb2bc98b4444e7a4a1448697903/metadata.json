@@ -2,28 +2,13 @@
   "xml_id": "com.composepreviewpro",
   "numeric_id": 31976,
   "updates": {
-    "1057541": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31976/1057541/plugin.zip?updateId=1057541&pluginId=31976&family=INTELLIJ",
-      "sha256": "vqVPuhOVS0EmTGzUUFk+n9Y6+VflV3grjAqbopv2Qts=",
+    "1062540": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31976/1062540/plugin.zip?updateId=1062540&pluginId=31976&family=INTELLIJ",
+      "sha256": "db5bqoJFfrapW2K1a8xqvnsq7oxd49sU8oKbaukONVc=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "plugin.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1060236": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31976/1060236/plugin.zip?updateId=1060236&pluginId=31976&family=INTELLIJ",
-      "sha256": "7nUyBZ/z3AyWJwdPPG3NWsuFFIAMD7ygFGlXPkNCAW0=",
-      "channel": "stable",
-      "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
         "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
@@ -31,12 +16,27 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1063534": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31976/1063534/plugin-signed.zip?updateId=1063534&pluginId=31976&family=INTELLIJ",
+      "sha256": "ixMof7SmXWWF3w0VFRFu2uTYQ17X1MxGFN4eGCAnkEM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin-signed.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1057541,
-      "0.3.8": 1060236
+      "0.3.9": 1062540,
+      "0.4.0": 1063534
     }
   }
 }
