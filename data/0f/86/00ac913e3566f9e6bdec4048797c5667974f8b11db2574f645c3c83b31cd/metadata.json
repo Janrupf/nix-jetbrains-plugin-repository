@@ -2,25 +2,41 @@
   "xml_id": "io.nimbly.cucumber.python",
   "numeric_id": 32043,
   "updates": {
-    "1062454": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32043/1062454/cucumber-python-1.0.1.zip?updateId=1062454&pluginId=32043&family=INTELLIJ",
-      "sha256": "5H4zo2fotTkLFRJp5SZnkLyE34OV8+goU7K4zHDTrZQ=",
+    "1065168": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32043/1065168/cucumber-python-1.0.2.zip?updateId=1065168&pluginId=32043&family=INTELLIJ",
+      "sha256": "mLgE6KTRY10V318d8uo8E7ubw8+uioo5L86o8uDWXr0=",
       "channel": "stable",
       "dependencies": [
-        "gherkin",
         "PythonCommon",
+        "gherkin",
         "com.intellij.modules.python"
       ],
       "optional_dependencies": [],
-      "file_name": "cucumber-python-1.0.1.zip",
+      "file_name": "cucumber-python-1.0.2.zip",
       "since": "253.0",
       "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1065177": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32043/1065177/cucumber-python-1.1.0.zip?updateId=1065177&pluginId=32043&family=INTELLIJ",
+      "sha256": "EykWMZa9Bth1Bxq9HYXNMqFezXg+Cfrja3/zahMX5Ig=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "PythonCommon",
+        "gherkin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cucumber-python-1.1.0.zip",
+      "since": "261.0",
+      "until": "261.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 1062454
+      "1.0.2": 1065168,
+      "1.1.0": 1065177
     }
   }
 }

@@ -1723,6 +1723,26 @@
       "since": "231.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "1064163": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9193/1064163/osql-plugin-intellij-4.3.4.zip?updateId=1064163&pluginId=9193&family=INTELLIJ",
+      "sha256": "HK+dPqFfkeficxvEl+wDO0BbluZDIBIbgVdiPwUDvhY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "osql-plugin-intellij-4.3.4.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1799,7 +1819,8 @@
       "4.3.0": 646429,
       "4.3.1": 710650,
       "4.3.2": 735028,
-      "4.3.3": 750034
+      "4.3.3": 750034,
+      "4.3.4": 1064163
     }
   }
 }

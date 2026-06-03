@@ -1,6 +1,42 @@
 {
   "xml_id": "com.sonarwhale",
   "numeric_id": 32058,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1064613": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32058/1064613/Sonarwhale-1.0.0-signed.zip?updateId=1064613&pluginId=32058&family=INTELLIJ",
+      "sha256": "3b7SAYHaVoXBil+kDTTRpsAPA406JHplWIRJLRikfH8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "Sonarwhale-1.0.0-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1064972": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32058/1064972/Sonarwhale-1.0.1-signed.zip?updateId=1064972&pluginId=32058&family=INTELLIJ",
+      "sha256": "07J/XJbNQZcEaUJuM1oh42J2KPo/UCtoXej9iQsW6vQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "Sonarwhale-1.0.1-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1064613,
+      "1.0.1": 1064972
+    }
+  }
 }
