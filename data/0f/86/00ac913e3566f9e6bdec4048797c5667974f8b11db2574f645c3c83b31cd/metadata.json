@@ -31,12 +31,28 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1065391": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32043/1065391/cucumber-python-1.2.0.zip?updateId=1065391&pluginId=32043&family=INTELLIJ",
+      "sha256": "WYV/9ueIlQrJqAdy6XaBQgwpkl3rTuL2zxCaabPNhLs=",
+      "channel": "stable",
+      "dependencies": [
+        "gherkin",
+        "com.intellij.modules.python",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cucumber-python-1.2.0.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.2": 1065168,
-      "1.1.0": 1065177
+      "1.1.0": 1065177,
+      "1.2.0": 1065391
     }
   }
 }

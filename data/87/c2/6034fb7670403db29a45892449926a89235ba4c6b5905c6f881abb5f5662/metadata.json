@@ -31,12 +31,35 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1065394": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32058/1065394/Sonarwhale-1.1.0-signed.zip?updateId=1065394&pluginId=32058&family=INTELLIJ",
+      "sha256": "+xh5+TLvcAgRGl8POTBjpPaY7QtHVYTkmE8kAYij2LE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "Sonarwhale-1.1.0-signed.zip",
+      "since": "261.*",
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "261.0",
+          "applies_until": "261.*",
+          "compatible_since": "261.*",
+          "compatible_until": "261.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1064613,
-      "1.0.1": 1064972
+      "1.0.1": 1064972,
+      "1.1.0": 1065394
     }
   }
 }

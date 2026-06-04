@@ -2,15 +2,28 @@
   "xml_id": "com.aladinsws.plugins",
   "numeric_id": 32073,
   "updates": {
-    "1065162": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32073/1065162/MybatisLogFormatSQL-0.1.0-beta.zip?updateId=1065162&pluginId=32073&family=INTELLIJ",
-      "sha256": "kXeqn5AQjwsudRYlfYAJ7jPM+NvY/6sCM+EuVsDUt/8=",
+    "1065936": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32073/1065936/MybatisLogFormatSQL-0.1.0.zip?updateId=1065936&pluginId=32073&family=INTELLIJ",
+      "sha256": "Jz5ipKqTU95k+AQkqOKqcUS5xwy8TUpwJGB15J7HXZQ=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.idea"
       ],
       "optional_dependencies": [],
-      "file_name": "MybatisLogFormatSQL-0.1.0-beta.zip",
+      "file_name": "MybatisLogFormatSQL-0.1.0.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1065968": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32073/1065968/MybatisLogFormatSQL-0.2.0.zip?updateId=1065968&pluginId=32073&family=INTELLIJ",
+      "sha256": "XT5YxHhQsYZQ5PqSMKUO2dDakwdkQiQbt7E7AT5OZbA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MybatisLogFormatSQL-0.2.0.zip",
       "since": "251.0",
       "until": "261.*",
       "compatibility_overrides": []
@@ -18,7 +31,8 @@
   },
   "channels": {
     "stable": {
-      "0.1.0-beta": 1065162
+      "0.1.0": 1065936,
+      "0.2.0": 1065968
     }
   }
 }

@@ -43479,6 +43479,42 @@
       "until": "261.*",
       "compatibility_overrides": []
     },
+    "1058759": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24198/1058759/google-cloud-aiplugin-1.53.1-253_261.zip?updateId=1058759&pluginId=24198&family=INTELLIJ",
+      "sha256": "jVm8I6ULvcCKjBXCYIyl9wYFz1pk8qv60wwpKG+7NPU=",
+      "channel": "alpha",
+      "dependencies": [
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.platform.lvcs.impl",
+        "intellij.platform.vcs.log.graph",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.vcs.log",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log.impl",
+        "intellij.libraries.coil",
+        "intellij.platform.jewel.markdown.extensions.gfmStrikethrough",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.skiko",
+        "com.intellij.modules.lang",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.markdown.extensions.gfmAlerts",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "intellij.platform.jewel.ui",
+        "org.jetbrains.plugins.terminal",
+        "intellij.libraries.grpc",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.foundation"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "google-cloud-aiplugin-1.53.1-253_261.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
     "1059353": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24198/1059353/google-cloud-aiplugin-20260528-dogfood-253_261.zip?updateId=1059353&pluginId=24198&family=INTELLIJ",
       "sha256": "Bqguq+9XjebsUwAmQfqiX9bT5FEityFCVvDDK48I3v0=",
@@ -43766,6 +43802,42 @@
       "since": "253.31033.145",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1065458": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24198/1065458/google-cloud-aiplugin-20260603-dogfood-253.zip?updateId=1065458&pluginId=24198&family=INTELLIJ",
+      "sha256": "M4l3X8MMf0ho7k3VWwJU+i8iZbHtkG16e9dyYCBLTnk=",
+      "channel": "dogfood",
+      "dependencies": [
+        "intellij.platform.vcs.log.impl",
+        "intellij.libraries.grpc.netty.shaded",
+        "com.intellij.modules.lang",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.markdown.extensions.gfmAlerts",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.markdown.extensions.gfmStrikethrough",
+        "org.jetbrains.plugins.terminal",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.vcs.log.graph",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.lvcs.impl",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform",
+        "intellij.libraries.coil",
+        "intellij.platform.jewel.foundation",
+        "intellij.libraries.grpc",
+        "intellij.platform.vcs.log"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "google-cloud-aiplugin-20260603-dogfood-253.zip",
+      "since": "253.31033.145",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -44017,6 +44089,7 @@
       "1.51.1-253": 1042931,
       "1.51.1-261": 1042930,
       "1.51.2-261": 1055384,
+      "1.53.1-253:261": 1058759,
       "1.53.2-253": 1065148,
       "1.6.0-RC00-233": 644209,
       "1.6.0-RC00-241": 644208,
@@ -45789,7 +45862,8 @@
       "20260530-dogfood-253:261": 1061063,
       "20260531-dogfood-253:261": 1061772,
       "20260601-dogfood-253:261": 1062827,
-      "20260602-dogfood-253:261": 1064623
+      "20260602-dogfood-253:261": 1064623,
+      "20260603-dogfood-253": 1065458
     },
     "stable": {
       "1.0.0-233": 598717,
