@@ -1,6 +1,24 @@
 {
   "xml_id": "ai.cybrium.plugin",
   "numeric_id": 31520,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1067337": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31520/1067337/intellij-cybrium-0.2.0.zip?updateId=1067337&pluginId=31520&family=INTELLIJ",
+      "sha256": "cqce3wvBebv3adWdwt8dNe/72i4E+Er97IjBC8Tw/b8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-cybrium-0.2.0.zip",
+      "since": "241.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.2.0": 1067337
+    }
+  }
 }

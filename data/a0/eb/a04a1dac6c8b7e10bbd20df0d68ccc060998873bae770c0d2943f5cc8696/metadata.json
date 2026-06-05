@@ -1323,6 +1323,51 @@
       "since": "262.6653",
       "until": "262.6653.*",
       "compatibility_overrides": []
+    },
+    "1066730": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27164/1066730/maven-plugin-262.7132.23.zip?updateId=1066730&pluginId=27164&family=INTELLIJ",
+      "sha256": "SVZ5RftKD55YpvVuJDZjnAReL2VOI2k9vvYzA1mLwnw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.psi",
+        "intellij.properties.backend",
+        "intellij.java.execution",
+        "intellij.java.debugger.impl.shared",
+        "intellij.properties.psi",
+        "intellij.java.compiler",
+        "intellij.spellchecker",
+        "intellij.java.compiler.impl",
+        "intellij.properties.backend.psi",
+        "intellij.java.execution.impl",
+        "intellij.platform.buildScripts.downloader",
+        "intellij.java.aetherDependencyResolver",
+        "intellij.java.ui",
+        "intellij.java.impl",
+        "intellij.java",
+        "intellij.java.debugger.impl",
+        "intellij.java.syntax"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.jps.build",
+        "intellij.repository.search.common",
+        "org.intellij.groovy",
+        "intellij.profiler.ultimate",
+        "intellij.libraries.plexus.utils",
+        "tanvd.grazi",
+        "intellij.maven.completion",
+        "intellij.repository.search.ultimate",
+        "com.intellij.modules.ultimate",
+        "com.jetbrains.performancePlugin",
+        "intellij.maven",
+        "intellij.maven.jps",
+        "intellij.repository.search.completion",
+        "intellij.grazie.core",
+        "Error-prone plugin"
+      ],
+      "file_name": "maven-plugin-262.7132.23.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1381,7 +1426,8 @@
       "262.4852.50": 1041896,
       "262.5752.32": 1047989,
       "262.6228.19": 1052906,
-      "262.6653.22": 1059100
+      "262.6653.22": 1059100,
+      "262.7132.23": 1066730
     }
   }
 }

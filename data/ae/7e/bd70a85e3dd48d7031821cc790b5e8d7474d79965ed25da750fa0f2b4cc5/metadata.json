@@ -5393,6 +5393,52 @@
       "since": "262.6653",
       "until": "262.6653.*",
       "compatibility_overrides": []
+    },
+    "1066413": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7511/1066413/php-remoteInterpreter-261.25134.95.zip?updateId=1066413&pluginId=7511&family=INTELLIJ",
+      "sha256": "qH1UIFP7mHf5llCibYCulI5x9kOCOpjUlgvCfkaDPa0=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.remote-run",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.php-capable"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.wsl.remoteSdk",
+        "com.intellij.modules.os.windows",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "file_name": "php-remoteInterpreter-261.25134.95.zip",
+      "since": "261.25134",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1066720": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7511/1066720/php-remoteInterpreter-262.7132.23.zip?updateId=1066720&pluginId=7511&family=INTELLIJ",
+      "sha256": "ChlrWTWZmrmpOSF00JJK2xgyijl4UM4QZNKU5mJa+U8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.php-capable",
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.remote-run",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.wsl.remoteSdk",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "com.intellij.modules.os.windows",
+        "intellij.platform.ide.impl.wsl",
+        "org.jetbrains.plugins.terminal",
+        "intellij.php.coverage",
+        "intellij.php.terminal",
+        "intellij.php.remoteInterpreter.coverage",
+        "intellij.platform.coverage"
+      ],
+      "file_name": "php-remoteInterpreter-262.7132.23.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5707,10 +5753,12 @@
       "261.22158.182": 989327,
       "261.22158.46": 977932,
       "261.24374.185": 1051419,
+      "261.25134.95": 1066413,
       "262.4852.50": 1041708,
       "262.5752.32": 1048014,
       "262.6228.19": 1052830,
-      "262.6653.22": 1059243
+      "262.6653.22": 1059243,
+      "262.7132.23": 1066720
     }
   }
 }

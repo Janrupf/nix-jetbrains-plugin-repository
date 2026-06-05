@@ -649,6 +649,91 @@
       "since": "262.6653",
       "until": "262.6653.*",
       "compatibility_overrides": []
+    },
+    "1066702": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1066702/jcef-plugin-262.7132.23-mac-arm64.zip?updateId=1066702&pluginId=31360&family=INTELLIJ",
+      "sha256": "/PD898dn47hHcDsbJg/PFMaOgsvcm8Xh4commr77tag=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.os.mac"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.7132.23-mac-arm64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
+    },
+    "1066707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1066707/jcef-plugin-262.7132.23-windows-arm64.zip?updateId=1066707&pluginId=31360&family=INTELLIJ",
+      "sha256": "xmvJkCL+hc1eUCU4X9NGoC0zHEFVGoT57Y1cgaPwIXA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.os.windows"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.7132.23-windows-arm64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
+    },
+    "1066976": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1066976/jcef-plugin-262.7132.23-windows-x86_64.zip?updateId=1066976&pluginId=31360&family=INTELLIJ",
+      "sha256": "UZO+cGzakdIiBiAWHqZD/uunqESUm+twXXNiQtTG5is=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.x86_64"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.7132.23-windows-x86_64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
+    },
+    "1067021": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1067021/jcef-plugin-262.7132.23-linux-arm64.zip?updateId=1067021&pluginId=31360&family=INTELLIJ",
+      "sha256": "ttH00E3wl9RkqsndA0/Zw831pTjhdO7RWJDscn03OqM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.os.linux"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.7132.23-linux-arm64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
+    },
+    "1067079": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1067079/jcef-plugin-262.7132.23-linux-x86_64.zip?updateId=1067079&pluginId=31360&family=INTELLIJ",
+      "sha256": "BACnyc29N9aN2KZ8tOWcrDAs0tEeYRnEUSuXaI/67Zk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.os.linux"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "file_name": "jcef-plugin-262.7132.23-linux-x86_64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -692,7 +777,12 @@
       "262.6653.22-mac-arm64": 1059171,
       "262.6653.22-mac-x86_64": 1059183,
       "262.6653.22-windows-arm64": 1059071,
-      "262.6653.22-windows-x86_64": 1059271
+      "262.6653.22-windows-x86_64": 1059271,
+      "262.7132.23-linux-arm64": 1067021,
+      "262.7132.23-linux-x86_64": 1067079,
+      "262.7132.23-mac-arm64": 1066702,
+      "262.7132.23-windows-arm64": 1066707,
+      "262.7132.23-windows-x86_64": 1066976
     }
   }
 }

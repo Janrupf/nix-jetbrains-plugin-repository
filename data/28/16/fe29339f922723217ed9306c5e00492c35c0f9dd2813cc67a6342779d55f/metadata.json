@@ -21,11 +21,32 @@
       "since": "250.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1066463": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30402/1066463/SpatialPlugin_Global_-release-update-2025-0.13.2-314aa52.zip?updateId=1066463&pluginId=30402&family=INTELLIJ",
+      "sha256": "JXiKc07IBQE17+UHtSgQ+WU22EjyYurO2KwPb06FLR0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
+        "com.intellij.modules.lang",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SpatialPlugin_Global_-release-update-2025-0.13.2-314aa52.zip",
+      "since": "250.*",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.10.1": 996808
+      "0.10.1": 996808,
+      "0.13.2": 1066463
     }
   }
 }

@@ -1351,6 +1351,81 @@
       "since": "262.6653",
       "until": "262.6653.*",
       "compatibility_overrides": []
+    },
+    "1066723": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1066723/platform-ijent-additionalBinaries-262.7132.23-linux-x86_64.zip?updateId=1066723&pluginId=31874&family=INTELLIJ",
+      "sha256": "IqAPjUWTWik+13vw8Y1VuT5cQNuZsOeerBMpBDJPLpk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.linux",
+        "intellij.platform.ijent.impl",
+        "com.intellij.modules.arch.x86_64"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-262.7132.23-linux-x86_64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
+    },
+    "1066749": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1066749/platform-ijent-additionalBinaries-262.7132.23-mac-x86_64.zip?updateId=1066749&pluginId=31874&family=INTELLIJ",
+      "sha256": "p28zaRDjTH/giIzjtFrwi8xfU1sKgU7McI+I/hrPQkc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.mac",
+        "intellij.platform.ijent.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-262.7132.23-mac-x86_64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
+    },
+    "1066811": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1066811/platform-ijent-additionalBinaries-262.7132.23-windows-x86_64.zip?updateId=1066811&pluginId=31874&family=INTELLIJ",
+      "sha256": "PEVOfjyEsv3yFoZ5h1YQzjRd9MsirP/XNJKVsau/9Wk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.windows",
+        "intellij.platform.ijent.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-262.7132.23-windows-x86_64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
+    },
+    "1066920": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1066920/platform-ijent-additionalBinaries-262.7132.23-linux-arm64.zip?updateId=1066920&pluginId=31874&family=INTELLIJ",
+      "sha256": "Hyri46fPxSXttuqG/EAtEoke3JI19nyPueCfAjF/CBs=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ijent.impl",
+        "com.intellij.modules.os.linux",
+        "com.intellij.modules.arch.arm64"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-262.7132.23-linux-arm64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
+    },
+    "1067063": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1067063/platform-ijent-additionalBinaries-262.7132.23-windows-arm64.zip?updateId=1067063&pluginId=31874&family=INTELLIJ",
+      "sha256": "0/wo15Z7a/UY6Yh3fiu9oxux3DBsCz9U+Fg+Pbc56q4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ijent.impl",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.os.windows"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-262.7132.23-windows-arm64.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1444,7 +1519,12 @@
       "262.6653.43-mac-arm64": 1060688,
       "262.6653.43-mac-x86_64": 1060685,
       "262.6653.43-windows-arm64": 1060585,
-      "262.6653.43-windows-x86_64": 1060687
+      "262.6653.43-windows-x86_64": 1060687,
+      "262.7132.23-linux-arm64": 1066920,
+      "262.7132.23-linux-x86_64": 1066723,
+      "262.7132.23-mac-x86_64": 1066749,
+      "262.7132.23-windows-arm64": 1067063,
+      "262.7132.23-windows-x86_64": 1066811
     }
   }
 }

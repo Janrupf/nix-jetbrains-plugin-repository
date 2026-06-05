@@ -177,6 +177,33 @@
       "since": "262.6653",
       "until": "262.6653.*",
       "compatibility_overrides": []
+    },
+    "1066763": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31283/1066763/dfa-analysis-rml-devtools-plugin-262.7132.23.zip?updateId=1066763&pluginId=31283&family=INTELLIJ",
+      "sha256": "lpGqJzX240UHuwt2ocAMUhj/tDBiw78pALpyHseeM2U=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.dfa.analysis.rml.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.dfa.analysis.rml.taint",
+        "intellij.opengrep",
+        "intellij.opengrep.lsp",
+        "intellij.opengrep.taint",
+        "intellij.dfa.analysis.rml.protobuf",
+        "intellij.dfa.analysis.rml",
+        "intellij.java.psi",
+        "intellij.dfa.analysis.rml.devtools",
+        "intellij.jvm.dfa.analysis.inspections",
+        "intellij.dfa.analysis.rml.intellij.impl",
+        "intellij.jvm.dfa.analysis.java",
+        "com.intellij.jvm.dfa.analysis",
+        "intellij.jvm.dfa.analysis.dev"
+      ],
+      "file_name": "dfa-analysis-rml-devtools-plugin-262.7132.23.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -188,7 +215,8 @@
       "262.4852.34": 1040204,
       "262.5752.1": 1046315,
       "262.6228.19": 1052704,
-      "262.6653.22": 1059294
+      "262.6653.22": 1059294,
+      "262.7132.23": 1066763
     }
   }
 }

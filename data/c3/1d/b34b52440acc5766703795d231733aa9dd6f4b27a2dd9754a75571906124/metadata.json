@@ -1813,6 +1813,37 @@
       "since": "262.6653",
       "until": "262.6653.*",
       "compatibility_overrides": []
+    },
+    "1066901": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23814/1066901/openRewrite-262.7132.23.zip?updateId=1066901&pluginId=23814&family=INTELLIJ",
+      "sha256": "wWR0LGWylrRUzl+XZvIwJGYiiXvcbXXi/IwAAiIJEnQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.microservices.jvm.config.yaml",
+        "com.intellij.modules.lang",
+        "intellij.java.aetherDependencyResolver",
+        "intellij.java.backend",
+        "intellij.yaml.backend",
+        "com.intellij.modules.ultimate",
+        "com.intellij.microservices.jvm",
+        "intellij.platform.backend",
+        "intellij.platform.lvcs.impl",
+        "intellij.json.backend",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "intellij.spring.boot.shared",
+        "com.intellij.openRewrite",
+        "com.intellij.quarkus",
+        "intellij.maven",
+        "intellij.gradle",
+        "com.intellij.micronaut",
+        "intellij.java.impl"
+      ],
+      "file_name": "openRewrite-262.7132.23.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1897,7 +1928,8 @@
       "262.4852.50": 1041809,
       "262.5752.32": 1048046,
       "262.6228.19": 1052943,
-      "262.6653.22": 1059099
+      "262.6653.22": 1059099,
+      "262.7132.23": 1066901
     }
   }
 }

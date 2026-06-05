@@ -15,11 +15,41 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1066636": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32089/1066636/pixel-agents-jetbrains-0.2.0.zip?updateId=1066636&pluginId=32089&family=INTELLIJ",
+      "sha256": "YL4+i86Jhd4vFJVvyAUoTSXmr334PwxxeA6YoxAS9pA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pixel-agents-jetbrains-0.2.0.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1066646": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32089/1066646/pixel-agents-jetbrains-0.3.0.zip?updateId=1066646&pluginId=32089&family=INTELLIJ",
+      "sha256": "rQf1E5AkfooFjFKOJXUrhCp1tO7bfUlyywzKKtlrtRE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pixel-agents-jetbrains-0.3.0.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1065933
+      "0.1.0": 1065933,
+      "0.2.0": 1066636,
+      "0.3.0": 1066646
     }
   }
 }

@@ -723,6 +723,29 @@
       "since": "262.6653",
       "until": "262.6653.*",
       "compatibility_overrides": []
+    },
+    "1066982": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27377/1066982/dev-262.7132.23.zip?updateId=1066982&pluginId=27377&family=INTELLIJ",
+      "sha256": "+qmrwi3b7dJEVlVy5TFIiX51buAxO8QOjZ9Xt5bn3t4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.java.backend",
+        "intellij.dev.psiViewer",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "intellij.dev.codeInsight",
+        "intellij.platform.backend",
+        "intellij.platform.debugger.impl",
+        "org.intellij.groovy",
+        "intellij.json.backend"
+      ],
+      "file_name": "dev-262.7132.23.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -759,7 +782,8 @@
       "262.4852.50": 1041871,
       "262.5752.32": 1048077,
       "262.6228.19": 1052828,
-      "262.6653.22": 1059144
+      "262.6653.22": 1059144,
+      "262.7132.23": 1066982
     }
   }
 }
