@@ -2455,7 +2455,7 @@
         "intellij.platform.frontend"
       ],
       "file_name": "lang.tt2-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -2668,10 +2668,53 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1067619": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/1067619/lang.tt2-2026.1.zip?updateId=1067619&pluginId=11335&family=INTELLIJ",
+      "sha256": "O8S1qyZ/BnU6lVH6qN9wybbnJhaSn0vfmv3NBo+WYak=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.tt2.frontend.main",
+        "perl5.plugin.backend.main",
+        "perl5.lang.tt2.common.main",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split"
+      ],
+      "file_name": "lang.tt2-2026.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1067659": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/1067659/lang.tt2-2026.2-EAP.7132.23.zip?updateId=1067659&pluginId=11335&family=INTELLIJ",
+      "sha256": "1hXGcD1KboHE6pcRnYSEiUqfm5Emn6viQl7wNprVBsM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "perl5.lang.tt2.frontend.main",
+        "perl5.plugin.backend.main",
+        "perl5.lang.tt2.common.main",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "lang.tt2-2026.2-EAP.7132.23.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
+      "2026.1": 1067619,
       "2026.1-EAP-20869.38": 959168,
       "2026.1-EAP-21849.20": 967488,
       "2026.1-EAP.22158.121": 986839,
@@ -2691,6 +2734,7 @@
       "2026.2-EAP.6228.19": 1054562,
       "2026.2-EAP.6653.22": 1060092,
       "2026.2-EAP.6653.22.1": 1065363,
+      "2026.2-EAP.7132.23": 1067659,
       "203-SNAPSHOT.8": 96408,
       "203.3645.34-EAP-SNAPSHOT": 98114,
       "203.5784.10-EAP-SNAPSHOT": 102540,

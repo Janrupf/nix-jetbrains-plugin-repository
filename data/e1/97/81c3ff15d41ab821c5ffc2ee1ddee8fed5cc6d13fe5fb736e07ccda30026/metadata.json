@@ -2497,7 +2497,7 @@
         "perl5.lang.embedded.common.main"
       ],
       "file_name": "lang.embedded-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -2735,10 +2735,55 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1067614": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1067614/lang.embedded-2026.1.zip?updateId=1067614&pluginId=11340&family=INTELLIJ",
+      "sha256": "L7mXC9q+R8GpR4ZK/Q5pxUf5hEDfRPqZsHd0zlypNbA=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.plugin.backend.main",
+        "perl5.lang.embedded.common.main",
+        "perl5.lang.embedded.frontend.main"
+      ],
+      "file_name": "lang.embedded-2026.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1067654": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1067654/lang.embedded-2026.2-EAP.7132.23.zip?updateId=1067654&pluginId=11340&family=INTELLIJ",
+      "sha256": "jaJP8WMjRTVudz4/DaLm4m2yzZRkFRZd3WLMjGAu7EQ=",
+      "channel": "eap",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.structureView.main",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.plugin.backend.main",
+        "perl5.lang.embedded.backend.main",
+        "perl5.lang.embedded.common.main"
+      ],
+      "file_name": "lang.embedded-2026.2-EAP.7132.23.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
+      "2026.1": 1067614,
       "2026.1-EAP-20869.38": 959162,
       "2026.1-EAP-21849.20": 967483,
       "2026.1-EAP.22158.121": 986835,
@@ -2759,6 +2804,7 @@
       "2026.2-EAP.6228.19": 1054555,
       "2026.2-EAP.6653.22": 1060087,
       "2026.2-EAP.6653.22.1": 1065358,
+      "2026.2-EAP.7132.23": 1067654,
       "203-SNAPSHOT.8": 96403,
       "203.3645.34-EAP-SNAPSHOT": 98109,
       "203.5784.10-EAP-SNAPSHOT": 102535,

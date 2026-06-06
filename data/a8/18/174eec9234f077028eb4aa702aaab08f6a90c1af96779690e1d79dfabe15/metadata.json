@@ -15,11 +15,41 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1068201": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32112/1068201/datagrip-ssh-tunnel-exporter-0.3.0-signed.zip?updateId=1068201&pluginId=32112&family=INTELLIJ",
+      "sha256": "VWoz+aNf+u2gihPIfQ16H50gTUBIbAskgVzQREOttlY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "datagrip-ssh-tunnel-exporter-0.3.0-signed.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1068243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32112/1068243/datagrip-ssh-tunnel-exporter-0.3.1-signed.zip?updateId=1068243&pluginId=32112&family=INTELLIJ",
+      "sha256": "DFPU/noyBVH5dqW2cjvBmDDyC9L0w5pCYxkO7rSxSss=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "datagrip-ssh-tunnel-exporter-0.3.1-signed.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.0": 1067522
+      "0.2.0": 1067522,
+      "0.3.0": 1068201,
+      "0.3.1": 1068243
     }
   }
 }

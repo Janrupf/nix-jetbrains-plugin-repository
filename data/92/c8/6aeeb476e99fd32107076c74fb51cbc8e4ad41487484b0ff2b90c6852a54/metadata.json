@@ -39,11 +39,50 @@
       "since": "262.6653",
       "until": "262.6653.*",
       "compatibility_overrides": []
+    },
+    "1067685": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32000/1067685/clion-west-262.7132.28.zip?updateId=1067685&pluginId=32000&family=INTELLIJ",
+      "sha256": "Pm4hWViidNIoHwK/c7FLIAscKjgX1+MsE3rxQBmz3DE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.util",
+        "com.intellij.cmake",
+        "intellij.cmake.core",
+        "intellij.clion.util",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.runner",
+        "intellij.clion.execution",
+        "intellij.cidr.execution",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.projectModel",
+        "com.intellij.modules.clion.ide",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.projectStatus",
+        "intellij.cmake.clion",
+        "intellij.clion.toolchains",
+        "com.intellij.clion",
+        "intellij.clion.profiles"
+      ],
+      "optional_dependencies": [
+        "intellij.cmake.python",
+        "intellij.python.community.plugin.minor",
+        "intellij.textmate",
+        "com.intellij.modules.python",
+        "intellij.dts.cmake",
+        "com.jetbrains.plugins.ini4idea",
+        "com.intellij.dts"
+      ],
+      "file_name": "clion-west-262.7132.28.zip",
+      "since": "262.7132",
+      "until": "262.7132.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "262.6653.16": 1059335
+      "262.6653.16": 1059335,
+      "262.7132.28": 1067685
     }
   }
 }

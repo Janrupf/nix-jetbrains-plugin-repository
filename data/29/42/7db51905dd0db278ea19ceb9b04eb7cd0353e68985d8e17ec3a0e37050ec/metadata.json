@@ -20,11 +20,31 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1067652": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29757/1067652/YarnStudio-Lite-0.8.0.zip?updateId=1067652&pluginId=29757&family=INTELLIJ",
+      "sha256": "h9o4Egx+1EaULyB2ZAx8zVnAMhCXuZbQ8IWqjASKXtg=",
+      "channel": "testing",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [],
+      "file_name": "YarnStudio-Lite-0.8.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "testing": {
-      "0.7.1": 1043630
+      "0.7.1": 1043630,
+      "0.8.0": 1067652
     }
   }
 }
