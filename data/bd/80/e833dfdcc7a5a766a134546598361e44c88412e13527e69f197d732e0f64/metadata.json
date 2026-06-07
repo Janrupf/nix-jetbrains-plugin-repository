@@ -16,11 +16,27 @@
       "since": "252.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1068616": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31435/1068616/pycharm-api-tester-2.0.1.zip?updateId=1068616&pluginId=31435&family=INTELLIJ",
+      "sha256": "gAu0VBS1rpdQJyL7hWXN6aJ/1SoBZXxg+ZlwD4RgRHA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "PythonCommon",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pycharm-api-tester-2.0.1.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.0.0": 1031629
+      "2.0.0": 1031629,
+      "2.0.1": 1068616
     }
   }
 }

@@ -559,6 +559,23 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1067606": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24202/1067606/srd-codefree-jetbrains-2.6.0.zip?updateId=1067606&pluginId=24202&family=INTELLIJ",
+      "sha256": "2mTuZDXfrvo3GQas8EIgB4dob2sMyiIrI7frv6/QTGM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "srd-codefree-jetbrains-2.6.0.zip",
+      "since": "223.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -591,7 +608,8 @@
       "2.3.0": 938978,
       "2.4.0": 984355,
       "2.4.3": 1007668,
-      "2.5.0": 1043321
+      "2.5.0": 1043321,
+      "2.6.0": 1067606
     }
   }
 }

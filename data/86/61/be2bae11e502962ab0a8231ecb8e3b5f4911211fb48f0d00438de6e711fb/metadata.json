@@ -18,11 +18,28 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1068873": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30878/1068873/konvoy-intellij-1.0.1.zip?updateId=1068873&pluginId=30878&family=INTELLIJ",
+      "sha256": "HztDbG8k4fqP0wuVwwJsX+rOBI9GqfmhdWYtPOEeMHQ=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java",
+        "org.toml.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "konvoy-intellij-1.0.1.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 993760
+      "1.0.0": 993760,
+      "1.0.1": 1068873
     }
   }
 }
