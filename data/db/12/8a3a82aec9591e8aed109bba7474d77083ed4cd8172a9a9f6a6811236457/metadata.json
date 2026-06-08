@@ -58,13 +58,33 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1069344": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31065/1069344/piko-idea-0.0.0-alpha.23.zip?updateId=1069344&pluginId=31065&family=INTELLIJ",
+      "sha256": "e3gTArIWbRkgt04lIxVadzGTT1cRXwK51w8pxodO4m4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "com.intellij.css",
+        "JavaScript",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "file_name": "piko-idea-0.0.0-alpha.23.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.0-alpha.20": 1043637,
       "0.0.0-alpha.21": 1045138,
-      "0.0.0-alpha.22": 1050469
+      "0.0.0-alpha.22": 1050469,
+      "0.0.0-alpha.23": 1069344
     }
   }
 }
