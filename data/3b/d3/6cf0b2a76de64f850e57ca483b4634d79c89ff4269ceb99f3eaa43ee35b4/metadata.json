@@ -17,11 +17,28 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1070019": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32083/1070019/OpenCode_UI-1.41.jar?updateId=1070019&pluginId=32083&family=INTELLIJ",
+      "sha256": "MkfRVqAxPvLg4hgr9FNQhH+4BXPoe8bjQT9L2N7GX4k=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "OpenCode_UI-1.41.jar",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.4.0": 1065560
+      "1.4.0": 1065560,
+      "1.41": 1070019
     }
   }
 }

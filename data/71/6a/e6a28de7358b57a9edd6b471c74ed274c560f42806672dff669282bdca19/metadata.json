@@ -737,6 +737,38 @@
       "since": "222.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "1069385": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29586/1069385/DeepSeek-Assistant-3.7.1.zip?updateId=1069385&pluginId=29586&family=INTELLIJ",
+      "sha256": "JgOIFygSL75DH0DRa3xApKi9frZmj3GM3GgJbFbHjNk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Assistant-3.7.1.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1069556": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29586/1069556/DeepSeek-Assistant-3.7.2.zip?updateId=1069556&pluginId=29586&family=INTELLIJ",
+      "sha256": "XoSA2bhoBKE3dtgxHLackmyFGd04c2LZBISidFuVqQE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Assistant-3.7.2.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -786,7 +818,9 @@
       "3.6.7": 1064332,
       "3.6.8": 1064611,
       "3.6.9": 1066405,
-      "3.7.0": 1069345
+      "3.7.0": 1069345,
+      "3.7.1": 1069385,
+      "3.7.2": 1069556
     }
   }
 }

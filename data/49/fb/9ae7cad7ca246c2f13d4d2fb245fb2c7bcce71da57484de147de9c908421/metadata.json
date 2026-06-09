@@ -19,11 +19,30 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1069725": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32165/1069725/CommitGenius-0.0.2.zip?updateId=1069725&pluginId=32165&family=INTELLIJ",
+      "sha256": "lIxQ+K53X8Rvlav8boNGvEhGmyfsh7tPvUdbDe1tX/c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.idea",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CommitGenius-0.0.2.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 1069350
+      "0.0.1": 1069350,
+      "0.0.2": 1069725
     }
   }
 }
