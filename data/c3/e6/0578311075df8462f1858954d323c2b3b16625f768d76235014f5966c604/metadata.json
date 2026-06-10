@@ -1801,6 +1801,30 @@
       "since": "251.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1071835": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24169/1071835/DevoxxGenie-1.7.3.zip?updateId=1071835&pluginId=24169&family=INTELLIJ",
+      "sha256": "cubIOnVKm5SQEBaxvI8BTAwEX+VyQ5C7rCDqMOwHtpU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.rust",
+        "com.intellij.modules.python",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.clion",
+        "JavaScript",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "DevoxxGenie-1.7.3.zip",
+      "since": "253.31033",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1909,7 +1933,8 @@
       "1.5.0": 1050866,
       "1.6.0": 1055913,
       "1.7.0": 1060510,
-      "1.7.1": 1069876
+      "1.7.1": 1069876,
+      "1.7.3": 1071835
     }
   }
 }
