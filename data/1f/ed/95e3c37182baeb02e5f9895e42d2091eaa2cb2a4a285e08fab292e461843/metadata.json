@@ -22657,6 +22657,116 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1072347": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/164/1072347/IdeaVIM-2.37.0-eap.7.zip?updateId=1072347&pluginId=164&family=INTELLIJ",
+      "sha256": "LdyHv+t71ZfXKhfcNzL/iy0uAqnDDfcCYy3NWcCDpzc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "com.intellij.modules.rider",
+        "AceJump",
+        "intellij.platform.backend",
+        "IdeaVIM.ideavim-common",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "IdeaVIM-2.37.0-eap.7.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1072481": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/164/1072481/IdeaVIM-2.38.0.zip?updateId=1072481&pluginId=164&family=INTELLIJ",
+      "sha256": "44kzQIDa/u4uhzLXLX0RhexbDaNT5BV71nmjzoSoZFc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.kernel.backend",
+        "IdeaVIM.ideavim-common",
+        "intellij.platform.frontend",
+        "intellij.platform.backend",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.rider",
+        "org.jetbrains.plugins.clion.radler",
+        "AceJump"
+      ],
+      "file_name": "IdeaVIM-2.38.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1072482": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/164/1072482/IdeaVIM-2.38.0.zip?updateId=1072482&pluginId=164&family=INTELLIJ",
+      "sha256": "44kzQIDa/u4uhzLXLX0RhexbDaNT5BV71nmjzoSoZFc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.clion.radler",
+        "intellij.platform.kernel.backend",
+        "IdeaVIM.ideavim-common",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "AceJump",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.rider"
+      ],
+      "file_name": "IdeaVIM-2.38.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1072483": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/164/1072483/IdeaVIM-2.38.0.zip?updateId=1072483&pluginId=164&family=INTELLIJ",
+      "sha256": "44kzQIDa/u4uhzLXLX0RhexbDaNT5BV71nmjzoSoZFc=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM.ideavim-common",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
+        "com.intellij.modules.rider",
+        "AceJump",
+        "intellij.platform.backend"
+      ],
+      "file_name": "IdeaVIM-2.38.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1073079": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/164/1073079/IdeaVIM-2.39.0-dev.4.zip?updateId=1073079&pluginId=164&family=INTELLIJ",
+      "sha256": "ymQXOINSrp5qfHa4Z9fXSfuTJfNwnDF1E8ST3jBMGOc=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.rider",
+        "AceJump",
+        "IdeaVIM.ideavim-common",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "IdeaVIM-2.39.0-dev.4.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -23444,6 +23554,8 @@
       "2.37.0-dev.39": 1068287,
       "2.37.0-dev.41": 1070294,
       "2.37.0-dev.42": 1071875,
+      "2.38.0": 1072483,
+      "2.39.0-dev.4": 1073079,
       "2.4.0": 364024,
       "2.4.0-dev.1": 348179,
       "2.4.0-dev.10": 358580,
@@ -23823,6 +23935,8 @@
       "2.37.0-eap.4": 1062538,
       "2.37.0-eap.5": 1064634,
       "2.37.0-eap.6": 1067662,
+      "2.37.0-eap.7": 1072347,
+      "2.38.0": 1072482,
       "2.4.0": 364023,
       "2.4.0-eap.1": 356103,
       "2.4.1": 369534,
@@ -23987,6 +24101,7 @@
       "2.35.2": 1050517,
       "2.36.0": 1054862,
       "2.37.0": 1064641,
+      "2.38.0": 1072481,
       "2.4.0": 364022,
       "2.4.1": 369533,
       "2.5.0": 386508,
