@@ -574,6 +574,28 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1074234": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27376/1074234/repository-search-262.7581.3.zip?updateId=1074234&pluginId=27376&family=INTELLIJ",
+      "sha256": "j6iNtA7rhbMr/KINHYDW5XgphPO1Mm9YckU5VQrtcII=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.document.store.mvstore"
+      ],
+      "optional_dependencies": [
+        "intellij.repository.search.completion",
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.maven.model",
+        "intellij.libraries.grpc",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.libraries.ktor.client",
+        "com.intellij.modules.ultimate"
+      ],
+      "file_name": "repository-search-262.7581.3.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -614,7 +636,8 @@
       "262.5752.1": 1046333,
       "262.6228.19": 1052751,
       "262.6653.22": 1059076,
-      "262.7132.23": 1066898
+      "262.7132.23": 1066898,
+      "262.7581.3": 1074234
     }
   }
 }

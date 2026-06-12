@@ -49,13 +49,30 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1074715": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30704/1074715/clion-waveform-plotter-1.3.4.zip?updateId=1074715&pluginId=30704&family=INTELLIJ",
+      "sha256": "m+A4enUjvQ1i4HyoHlypDW3MHKtIOxq9Iuv4gRZPh/I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.clion",
+        "com.intellij.nativeDebug"
+      ],
+      "optional_dependencies": [],
+      "file_name": "clion-waveform-plotter-1.3.4.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.3.0": 986820,
       "1.3.2": 990510,
-      "1.3.3": 990511
+      "1.3.3": 990511,
+      "1.3.4": 1074715
     }
   }
 }

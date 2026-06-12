@@ -2625,6 +2625,35 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1074251": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22857/1074251/vcs-gitlab-262.7581.3.zip?updateId=1074251&pluginId=22857&family=INTELLIJ",
+      "sha256": "Pvm7rM1poZNaV1FZAT6KiihYD6E+oVNIimD8Ika3TSM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.vcs.dvcs.impl.shared",
+        "intellij.platform.vcs.log.impl",
+        "intellij.vcs.git.backend",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.vcs.git.shared",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log",
+        "Git4Idea",
+        "intellij.platform.collaborationTools"
+      ],
+      "optional_dependencies": [
+        "intellij.vcs.gitlab",
+        "intellij.yaml",
+        "intellij.vcs.gitlab.ultimate.features",
+        "intellij.sh.core",
+        "intellij.yaml.backend",
+        "com.intellij.modules.ultimate"
+      ],
+      "file_name": "vcs-gitlab-262.7581.3.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2751,6 +2780,7 @@
       "262.6228.19": 1052756,
       "262.6653.22": 1059306,
       "262.7132.23": 1066991,
+      "262.7581.3": 1074251,
       "IU-251.14649.49": 665865,
       "IU-251.17181.16": 669763,
       "IU-251.18673.35": 673695,

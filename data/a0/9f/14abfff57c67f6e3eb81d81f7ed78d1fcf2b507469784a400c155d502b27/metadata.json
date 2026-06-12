@@ -2651,6 +2651,56 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1074227": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23741/1074227/liquibase-262.7581.3.zip?updateId=1074227&pluginId=23741&family=INTELLIJ",
+      "sha256": "IvZDdVQmpHGdfQdd/70K5hmp2l4nLWp3rlkh8WZ5XoU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json.backend",
+        "intellij.properties.backend.psi",
+        "intellij.properties.backend",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "intellij.grid.core.impl",
+        "intellij.vcs.git.backend",
+        "intellij.database",
+        "intellij.database.jdbcConsole",
+        "intellij.platform.structureView",
+        "intellij.yaml",
+        "intellij.yaml.backend",
+        "intellij.database.impl",
+        "intellij.liquibase.core",
+        "intellij.java.frontback.psi.impl",
+        "com.intellij.jpa.jpb.model",
+        "intellij.database.connectivity",
+        "intellij.javaee.jpa.jpb.model.db",
+        "intellij.java.psi",
+        "intellij.javaee.jpa.jpb.model.core",
+        "intellij.javaee.jpa.jpb.model.yaml",
+        "intellij.liquibase.yaml",
+        "intellij.java.aetherDependencyResolver",
+        "com.intellij.persistence",
+        "intellij.database.core.impl",
+        "intellij.liquibase.jpa",
+        "com.intellij.javaee.jpa",
+        "intellij.properties",
+        "com.intellij.modules.ultimate",
+        "intellij.java.execution.impl",
+        "intellij.database.dialects.db2",
+        "intellij.database.dialects.postgresgreenplumbase",
+        "intellij.database.sql",
+        "intellij.libraries.opencsv",
+        "com.intellij.database",
+        "Git4Idea",
+        "intellij.liquibase.orm",
+        "intellij.libraries.xstream"
+      ],
+      "file_name": "liquibase-262.7581.3.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2755,7 +2805,8 @@
       "262.5752.1": 1046382,
       "262.6228.19": 1052730,
       "262.6653.22": 1058995,
-      "262.7132.23": 1066854
+      "262.7132.23": 1066854,
+      "262.7581.3": 1074227
     }
   }
 }

@@ -28518,6 +28518,50 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1074232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/1074232/clouds-kubernetes-262.7581.3.zip?updateId=1074232&pluginId=10485&family=INTELLIJ",
+      "sha256": "qSipavomRH/sODmLUSa4QUAz2wRg2f3bafb+os6aa7A=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.yaml",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.ktor.client.cio",
+        "Docker",
+        "intellij.platform.execution.serviceView",
+        "org.jetbrains.plugins.yaml",
+        "intellij.json"
+      ],
+      "optional_dependencies": [
+        "intellij.spellchecker",
+        "org.jetbrains.plugins.go-template",
+        "intellij.database.core.impl",
+        "intellij.platform.kernel.backend",
+        "intellij.clouds.docker.frontend",
+        "intellij.clouds.docker",
+        "com.intellij.database",
+        "intellij.database.util",
+        "intellij.yaml.helm",
+        "intellij.clouds.kubernetes.libraries",
+        "intellij.platform.vcs.impl",
+        "intellij.clouds.kubernetes.backend",
+        "intellij.clouds.kubernetes",
+        "intellij.platform.vcs",
+        "intellij.platform.editor.frontend",
+        "com.intellij.cron",
+        "intellij.platform.backend",
+        "intellij.database.impl",
+        "intellij.clouds.docker.agent",
+        "intellij.yaml.backend",
+        "intellij.platform.frontend",
+        "intellij.clouds.docker.compose",
+        "intellij.platform.commercial.verifier",
+        "intellij.json.backend"
+      ],
+      "file_name": "clouds-kubernetes-262.7581.3.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -29958,7 +30002,8 @@
       "262.5752.1": 1046395,
       "262.6228.24": 1053316,
       "262.6653.16": 1059319,
-      "262.7132.27": 1067552
+      "262.7132.27": 1067552,
+      "262.7581.3": 1074232
     }
   }
 }

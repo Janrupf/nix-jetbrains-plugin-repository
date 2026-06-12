@@ -762,6 +762,38 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1074237": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29348/1074237/code-provenance-262.7581.3.zip?updateId=1074237&pluginId=29348&family=INTELLIJ",
+      "sha256": "wQCG4x/1dkQI5FTgDzg73U7Wyrmte6EqZcoHo1giEaY=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lvcs.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.codeGeneration",
+        "intellij.vcs.git.backend",
+        "intellij.code.provenance.core",
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.nextEdits.backend",
+        "intellij.ml.llm.nextEdits.frontend",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.vcs.git.shared",
+        "Git4Idea",
+        "com.intellij.code.provenance",
+        "intellij.ml.llm.core",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log",
+        "intellij.platform.vcs.log.impl",
+        "com.intellij.mcpServer",
+        "intellij.code.provenance.core.git"
+      ],
+      "file_name": "code-provenance-262.7581.3.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -796,7 +828,8 @@
       "262.6228.24": 1053314,
       "262.6653.16": 1059322,
       "262.7132.25": 1067564,
-      "262.7132.27": 1067560
+      "262.7132.27": 1067560,
+      "262.7581.3": 1074237
     }
   }
 }

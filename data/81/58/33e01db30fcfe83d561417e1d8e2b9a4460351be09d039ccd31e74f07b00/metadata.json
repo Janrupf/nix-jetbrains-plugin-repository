@@ -2,25 +2,59 @@
   "xml_id": "com.itsjeel01.remoteVcsManager",
   "numeric_id": 32218,
   "updates": {
-    "1073028": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32218/1073028/anchor-1.0.0-beta.2.zip?updateId=1073028&pluginId=32218&family=INTELLIJ",
-      "sha256": "X7ht3hboytw2/BXG90AVtEvIPTYm8aqf2/4nPfHDCOw=",
-      "channel": "stable",
+    "1073655": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32218/1073655/anchor-1.0.0-beta.3.zip?updateId=1073655&pluginId=32218&family=INTELLIJ",
+      "sha256": "XCg8rHRYlr+u4nZzdL3+xbACouebq8CkkmR3iIdGAmw=",
+      "channel": "beta",
       "dependencies": [
-        "com.intellij.modules.jcef",
         "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
         "Git4Idea"
       ],
       "optional_dependencies": [],
-      "file_name": "anchor-1.0.0-beta.2.zip",
+      "file_name": "anchor-1.0.0-beta.3.zip",
+      "since": "253.1",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1073803": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32218/1073803/anchor-1.0.0-beta.4.zip?updateId=1073803&pluginId=32218&family=INTELLIJ",
+      "sha256": "1J2kv8FDV9/rU+VdREOSLTcki/6PlHJgRj58Xq5UYv0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "anchor-1.0.0-beta.4.zip",
+      "since": "253.1",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1073804": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32218/1073804/anchor-1.0.0-beta.4.zip?updateId=1073804&pluginId=32218&family=INTELLIJ",
+      "sha256": "1J2kv8FDV9/rU+VdREOSLTcki/6PlHJgRj58Xq5UYv0=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "anchor-1.0.0-beta.4.zip",
       "since": "253.1",
       "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.0.0-beta.3": 1073655,
+      "1.0.0-beta.4": 1073804
+    },
     "stable": {
-      "1.0.0-beta.2": 1073028
+      "1.0.0-beta.4": 1073803
     }
   }
 }

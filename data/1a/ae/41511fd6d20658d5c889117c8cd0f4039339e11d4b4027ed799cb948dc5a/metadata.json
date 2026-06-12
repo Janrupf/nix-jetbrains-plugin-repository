@@ -426,6 +426,32 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1074258": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28677/1074258/opengrep-262.7581.3.zip?updateId=1074258&pluginId=28677&family=INTELLIJ",
+      "sha256": "+mT9qQGKgPVyUDRxv6ZeTSL5lUe4SvLLa93iSkjnTrY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "intellij.dfa.analysis.rml.protobuf",
+        "org.intellij.qodana",
+        "intellij.dfa.analysis.rml.intellij",
+        "intellij.opengrep.lsp",
+        "intellij.platform.lsp",
+        "intellij.platform.backend",
+        "intellij.dfa.analysis.ui",
+        "intellij.opengrep",
+        "intellij.dfa.analysis.rml",
+        "intellij.platform.lsp.impl",
+        "intellij.dfa.analysis.rml.taint",
+        "intellij.qodana.util"
+      ],
+      "file_name": "opengrep-262.7581.3.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -450,7 +476,8 @@
       "262.5752.1": 1046297,
       "262.6228.19": 1052879,
       "262.6653.22": 1059046,
-      "262.7132.23": 1066793
+      "262.7132.23": 1066793,
+      "262.7581.3": 1074258
     }
   }
 }
