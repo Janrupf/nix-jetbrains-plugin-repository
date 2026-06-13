@@ -1702,6 +1702,46 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1075999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25302/1075999/spring-debugger-262.7581.18.zip?updateId=1075999&pluginId=25302&family=INTELLIJ",
+      "sha256": "VvStMtRhUNflkz4umzOKzWfvTzb5evNX2z3+60PM6NU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.execution.impl",
+        "com.intellij.modules.ultimate",
+        "intellij.spring",
+        "intellij.java.debugger.impl",
+        "intellij.spring.core",
+        "intellij.spring.core.analysis.services",
+        "intellij.java.psi"
+      ],
+      "optional_dependencies": [
+        "intellij.maven",
+        "intellij.spring.boot.core",
+        "intellij.spring.boot.run",
+        "TestNG-J",
+        "intellij.platform.structureView",
+        "intellij.platform.testRunner",
+        "com.intellij.spring.mvc",
+        "intellij.platform.smRunner",
+        "com.jetbrains.restClient",
+        "intellij.gradle",
+        "intellij.database.util",
+        "com.intellij.javaee.jpa",
+        "com.intellij.spring.debugger",
+        "JUnit",
+        "intellij.spring.debugger.boot",
+        "intellij.yaml.backend",
+        "intellij.spring.debugger.mvc",
+        "intellij.database.impl",
+        "intellij.yaml",
+        "intellij.java.debugger"
+      ],
+      "file_name": "spring-debugger-262.7581.18.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1779,7 +1819,8 @@
       "262.5752.1": 1046302,
       "262.6228.19": 1052855,
       "262.6653.22": 1059053,
-      "262.7132.23": 1066719
+      "262.7132.23": 1066719,
+      "262.7581.18": 1075999
     }
   }
 }

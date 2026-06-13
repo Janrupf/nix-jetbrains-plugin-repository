@@ -1112,6 +1112,28 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1076020": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/137/1076020/testng-262.7581.18.zip?updateId=1076020&pluginId=137&family=INTELLIJ",
+      "sha256": "gOWVIZ3l0stItCRolb1bIN0/ClupcoB4/iz9H5ghC+4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.testRunner",
+        "intellij.java.debugger.impl",
+        "intellij.java.syntax",
+        "intellij.platform.smRunner",
+        "intellij.java.psi",
+        "intellij.java.execution.impl",
+        "com.intellij.java",
+        "intellij.java.frontback.psi"
+      ],
+      "optional_dependencies": [
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "testng-262.7581.18.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1202,7 +1224,8 @@
       "262.5752.32": 1047970,
       "262.6228.19": 1052937,
       "262.6653.22": 1059197,
-      "262.7132.23": 1066987
+      "262.7132.23": 1066987,
+      "262.7581.18": 1076020
     }
   }
 }

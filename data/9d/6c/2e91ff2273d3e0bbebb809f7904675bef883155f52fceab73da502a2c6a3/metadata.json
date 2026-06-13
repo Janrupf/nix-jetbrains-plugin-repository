@@ -31,12 +31,29 @@
       "since": "252.25557",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1076583": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30056/1076583/aiken-lang-2.0.zip?updateId=1076583&pluginId=30056&family=INTELLIJ",
+      "sha256": "chN4qnyVA0NlkPeqPgCAPvp/IaJTslrPJi4BRjaBCdA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "aiken-lang-2.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1": 948724,
-      "1.2": 950963
+      "1.2": 950963,
+      "2.0": 1076583
     }
   }
 }

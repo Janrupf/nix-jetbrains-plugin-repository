@@ -3062,6 +3062,32 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1076062": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18260/1076062/microservices-debugger-262.7581.18.zip?updateId=1076062&pluginId=18260&family=INTELLIJ",
+      "sha256": "IwDrIRxTvQy65PvB8JgLSkyU/7FbpzaaV88O55hmTdM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.java.backend",
+        "org.jetbrains.kotlin",
+        "intellij.java.jam",
+        "intellij.java.debugger.impl",
+        "intellij.java.psi"
+      ],
+      "optional_dependencies": [
+        "intellij.spring.core",
+        "intellij.spring.boot.core",
+        "intellij.spring",
+        "intellij.spring.boot.run",
+        "intellij.spring.boot.mvc",
+        "com.intellij.micronaut",
+        "com.jetbrains.restClient"
+      ],
+      "file_name": "microservices-debugger-262.7581.18.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3218,7 +3244,8 @@
       "262.5752.32": 1048071,
       "262.6228.19": 1052797,
       "262.6653.22": 1059037,
-      "262.7132.23": 1066865
+      "262.7132.23": 1066865,
+      "262.7581.18": 1076062
     }
   }
 }

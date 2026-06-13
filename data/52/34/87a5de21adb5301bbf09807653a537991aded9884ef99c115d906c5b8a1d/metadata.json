@@ -589,6 +589,29 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1076102": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27374/1076102/java-coverage-262.7581.18.zip?updateId=1076102&pluginId=27374&family=INTELLIJ",
+      "sha256": "b52o7ubHIe/QLmwkLnUQweVnLdMoj10ND9LjxHidFyU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.psi.impl",
+        "intellij.java.psi",
+        "intellij.platform.testRunner",
+        "intellij.java.syntax",
+        "intellij.platform.coverage",
+        "intellij.java.execution.impl",
+        "intellij.java.backend",
+        "intellij.java.frontback.psi"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "TestNG-J"
+      ],
+      "file_name": "java-coverage-262.7581.18.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -625,7 +648,8 @@
       "262.5752.32": 1048011,
       "262.6228.19": 1052993,
       "262.6653.22": 1059129,
-      "262.7132.23": 1066698
+      "262.7132.23": 1066698,
+      "262.7581.18": 1076102
     }
   }
 }

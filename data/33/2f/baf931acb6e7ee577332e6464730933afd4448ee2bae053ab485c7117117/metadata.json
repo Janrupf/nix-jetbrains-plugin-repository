@@ -4801,6 +4801,28 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1076108": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14636/1076108/pest-262.7581.18.zip?updateId=1076108&pluginId=14636&family=INTELLIJ",
+      "sha256": "b1EerbMg7l5k6lAAg3ShXqXZ5gkgYmjgkMLH/W4uVik=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.structureView",
+        "intellij.platform.testRunner",
+        "com.jetbrains.php",
+        "intellij.platform.smRunner",
+        "intellij.xml.psi.impl",
+        "intellij.xml.dom.impl"
+      ],
+      "optional_dependencies": [
+        "com.pestphp.pest-intellij",
+        "intellij.platform.coverage",
+        "intellij.php.coverage"
+      ],
+      "file_name": "pest-262.7581.18.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5108,7 +5130,8 @@
       "262.5752.32": 1047959,
       "262.6228.19": 1052720,
       "262.6653.22": 1059282,
-      "262.7132.23": 1067107
+      "262.7132.23": 1067107,
+      "262.7581.18": 1076108
     }
   }
 }

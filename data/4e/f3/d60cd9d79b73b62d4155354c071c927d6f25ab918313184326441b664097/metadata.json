@@ -5160,6 +5160,39 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1075986": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12175/1075986/grazie-262.7581.18.zip?updateId=1075986&pluginId=12175&family=INTELLIJ",
+      "sha256": "fukPL104pUjYcvnCQRup0zYWBsltBHBp26SRqueTUGQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ai.grazie.spell.gec.engine.local",
+        "intellij.spellchecker",
+        "intellij.platform.vcs.impl",
+        "intellij.libraries.commons.text",
+        "intellij.libraries.lucene.common",
+        "intellij.libraries.javax.activation",
+        "intellij.libraries.grpc"
+      ],
+      "optional_dependencies": [
+        "intellij.java.psi",
+        "intellij.spellchecker.xml",
+        "intellij.markdown",
+        "intellij.grazie.core",
+        "intellij.properties.backend.psi",
+        "org.intellij.plugins.markdown",
+        "intellij.yaml",
+        "intellij.java.backend",
+        "intellij.properties.backend",
+        "intellij.json.backend",
+        "com.intellij.modules.xml",
+        "com.intellij.properties",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "grazie-262.7581.18.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5439,7 +5472,8 @@
       "262.5752.32": 1047985,
       "262.6228.19": 1052905,
       "262.6653.22": 1059336,
-      "262.7132.23": 1066999
+      "262.7132.23": 1066999,
+      "262.7581.18": 1075986
     }
   }
 }

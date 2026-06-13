@@ -18,11 +18,29 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1076589": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32003/1076589/intellij-0.0.1-alpha.zip?updateId=1076589&pluginId=32003&family=INTELLIJ",
+      "sha256": "xoh6keGV2y8dXF+ceRDKmccfvVjjLagN1Xkc+aet5o0=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "file_name": "intellij-0.0.1-alpha.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.0": 1059435
+      "0.0.0": 1059435,
+      "0.0.1-alpha": 1076589
     }
   }
 }

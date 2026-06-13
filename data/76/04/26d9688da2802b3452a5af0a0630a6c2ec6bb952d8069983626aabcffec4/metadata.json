@@ -2463,6 +2463,35 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1076134": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20215/1076134/spring-security-262.7581.18.zip?updateId=1076134&pluginId=20215&family=INTELLIJ",
+      "sha256": "arktTrdub6I5ahf+lytmYfen0Wfeq+U0lqs2ez8ew04=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.psi",
+        "com.intellij.modules.idea.ultimate",
+        "intellij.javaee.platform",
+        "intellij.java.frontback.psi",
+        "intellij.javaee.platform.impl",
+        "intellij.spring",
+        "intellij.spring.core",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "intellij.spring.aop",
+        "com.intellij.aop",
+        "intellij.platform.langInjection",
+        "intellij.javaee.jsp.shared",
+        "com.intellij.spring.mvc",
+        "com.intellij.javaee.el",
+        "intellij.spring.el",
+        "intellij.platform.structureView"
+      ],
+      "file_name": "spring-security-262.7581.18.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2576,7 +2605,8 @@
       "262.5752.32": 1048017,
       "262.6228.19": 1052697,
       "262.6653.22": 1058999,
-      "262.7132.23": 1066862
+      "262.7132.23": 1066862,
+      "262.7581.18": 1076134
     }
   }
 }

@@ -777,6 +777,39 @@
       "since": "262.7132",
       "until": "262.7132.*",
       "compatibility_overrides": []
+    },
+    "1075892": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27879/1075892/go-frontend-262.7581.17.zip?updateId=1075892&pluginId=27879&family=INTELLIJ",
+      "sha256": "v7Sfo52v1tFzWS+NMqk7HLnSFPo84Cp97lC4CqEg4a8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client",
+        "intellij.platform.frontend.split"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.platform.kernel",
+        "intellij.platform.util.ui",
+        "intellij.platform.compose",
+        "intellij.platform.editor.ui",
+        "intellij.go.frontback",
+        "intellij.platform.core",
+        "intellij.platform.ide",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "fleet.rhizomedb",
+        "intellij.go.impl",
+        "intellij.platform.statistics",
+        "intellij.go.common.frontend",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.ide.impl",
+        "intellij.platform.frontend",
+        "intellij.go.welcomeScreen.featuresTrainer"
+      ],
+      "file_name": "go-frontend-262.7581.17.zip",
+      "since": "262.7581",
+      "until": "262.7581.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -817,7 +850,8 @@
       "262.5752.26": 1047688,
       "262.6228.24": 1053305,
       "262.6653.16": 1059279,
-      "262.7132.24": 1067143
+      "262.7132.24": 1067143,
+      "262.7581.17": 1075892
     }
   }
 }
