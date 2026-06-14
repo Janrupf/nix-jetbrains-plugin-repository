@@ -58,10 +58,42 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1076850": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31116/1076850/maho-phpstorm-0.10.0.zip?updateId=1076850&pluginId=31116&family=INTELLIJ",
+      "sha256": "XoZi2TnW2a+xdez6RDHpootOSitVOQEdJnnuSjhtvKE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "maho-phpstorm-0.10.0.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1076852": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31116/1076852/maho-phpstorm-0.10.1.zip?updateId=1076852&pluginId=31116&family=INTELLIJ",
+      "sha256": "+P+iYFK+Trq6/M+GVzmDzcW15fm/fkFrc5q/ZNdeK5U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "maho-phpstorm-0.10.1.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 1076850,
+      "0.10.1": 1076852,
       "0.4.0": 1009742,
       "0.9.0": 1014312,
       "0.9.2": 1014316,

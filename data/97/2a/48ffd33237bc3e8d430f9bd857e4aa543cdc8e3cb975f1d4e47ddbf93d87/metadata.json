@@ -311,6 +311,64 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1076836": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30883/1076836/dev.tachilabs.mermaidstudio-core-2026.2.6-eap.688.zip?updateId=1076836&pluginId=30883&family=INTELLIJ",
+      "sha256": "i5KD2yZFdZpgJ5+y/+F2idiwn7bclm+VhVXWLf8YndU=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "intellij.yaml",
+        "intellij.platform.backend",
+        "dev.tachilabs.mermaidstudio.shared",
+        "intellij.platform.rpc.backend",
+        "intellij.json.backend",
+        "intellij.platform.frontend",
+        "intellij.css.common.psi",
+        "intellij.markdown",
+        "intellij.platform.kernel.backend",
+        "com.intellij.css",
+        "com.intellij.mcpServer",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "dev.tachilabs.mermaidstudio-core-2026.2.6-eap.688.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1076840": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30883/1076840/dev.tachilabs.mermaidstudio-core-androidstudio-2026.2.6-eap.688_as.zip?updateId=1076840&pluginId=30883&family=INTELLIJ",
+      "sha256": "RNdl6Eos9F6Ci8eRoH0zLTD433sP8fl0WPP8KzYygVw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.androidstudio"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.rpc.backend",
+        "intellij.json.backend",
+        "com.intellij.mcpServer",
+        "intellij.css.common.psi",
+        "intellij.markdown",
+        "intellij.platform.kernel.backend",
+        "com.intellij.css",
+        "intellij.yaml",
+        "intellij.platform.backend",
+        "dev.tachilabs.mermaidstudio.shared",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "dev.tachilabs.mermaidstudio-core-androidstudio-2026.2.6-eap.688_as.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -322,7 +380,9 @@
       "2026.2.5-eap.637": 1052215,
       "2026.2.5-eap.637+as": 1052217,
       "2026.2.6-eap.683": 1076593,
-      "2026.2.6-eap.683+as": 1076592
+      "2026.2.6-eap.683+as": 1076592,
+      "2026.2.6-eap.688": 1076836,
+      "2026.2.6-eap.688+as": 1076840
     },
     "stable": {
       "2026.2.1": 1012303,
