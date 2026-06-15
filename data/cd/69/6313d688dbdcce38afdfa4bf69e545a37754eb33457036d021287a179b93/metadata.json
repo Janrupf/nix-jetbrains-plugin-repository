@@ -721,6 +721,38 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1077594": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28856/1077594/CodeGPT-Assistant-2.7.3.zip?updateId=1077594&pluginId=28856&family=INTELLIJ",
+      "sha256": "iCutm1EkhbiKXK+uVdiuUEyW1OErjJdp3WNuwH3Yppk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "CodeGPT-Assistant-2.7.3.zip",
+      "since": "222.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1077602": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28856/1077602/CodeGPT-Assistant-2.7.4.zip?updateId=1077602&pluginId=28856&family=INTELLIJ",
+      "sha256": "5QyZo2RbmZE9/efHX+fmOpVtEx/RDu6SG3A2kSu3uHg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "CodeGPT-Assistant-2.7.4.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -769,7 +801,9 @@
       "2.6.9": 1070583,
       "2.7.0": 1076996,
       "2.7.1": 1077324,
-      "2.7.2": 1077329
+      "2.7.2": 1077329,
+      "2.7.3": 1077594,
+      "2.7.4": 1077602
     }
   }
 }

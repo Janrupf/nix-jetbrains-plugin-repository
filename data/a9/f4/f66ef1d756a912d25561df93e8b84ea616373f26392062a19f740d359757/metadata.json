@@ -149,6 +149,40 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1077652": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32233/1077652/vertex-workbench-pycharm-0.4.0-pycharm-2025.3.x-build-253.zip?updateId=1077652&pluginId=32233&family=INTELLIJ",
+      "sha256": "8WtMtJRiTjF0S2xvt5vi2YheN+8tvLPcSKTkiyWnhb8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.jupyter",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vertex-workbench-pycharm-0.4.0-pycharm-2025.3.x-build-253.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1077653": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32233/1077653/vertex-workbench-pycharm-0.4.0-261-pycharm-2026.1.x-build-261.zip?updateId=1077653&pluginId=32233&family=INTELLIJ",
+      "sha256": "n3aNf6asaDhHrpmT7bGxnhuTZq97q5FYJyZzoe0C7x0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "intellij.jupyter",
+        "com.intellij.modules.python",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vertex-workbench-pycharm-0.4.0-261-pycharm-2026.1.x-build-261.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -160,7 +194,9 @@
       "0.3.50": 1076207,
       "0.3.50-261": 1076209,
       "0.3.51": 1076388,
-      "0.3.51-261": 1076389
+      "0.3.51-261": 1076389,
+      "0.4.0": 1077652,
+      "0.4.0-261": 1077653
     }
   }
 }

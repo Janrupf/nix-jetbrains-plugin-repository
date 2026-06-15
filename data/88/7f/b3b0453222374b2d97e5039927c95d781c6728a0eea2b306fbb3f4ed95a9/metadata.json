@@ -892,6 +892,44 @@
       "since": "261.17801",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1077644": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23390/1077644/codecov-2026.2.2.zip?updateId=1077644&pluginId=23390&family=INTELLIJ",
+      "sha256": "35wmJUpceeGD/Rx/Ro5c3wYH85+gJc07QGIacGXcrOM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.coverage",
+        "intellij.platform.collaborationTools.auth",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codecov-2026.2.2.zip",
+      "since": "262.7132.23",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1077647": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23390/1077647/codecov-2026.2.2.zip?updateId=1077647&pluginId=23390&family=INTELLIJ",
+      "sha256": "2BYvNT5x41OebudorIL6Eds+0Bp3n3W4IKzA5JSeVCg=",
+      "channel": "eap",
+      "dependencies": [
+        "Git4Idea",
+        "intellij.platform.collaborationTools.auth",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json",
+        "com.intellij.modules.coverage",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codecov-2026.2.2.zip",
+      "since": "262.7132.23",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -911,7 +949,8 @@
       "2026.1.1": 940517,
       "2026.1.10": 1026777,
       "2026.1.11": 1032641,
-      "2026.1.12": 1032907
+      "2026.1.12": 1032907,
+      "2026.2.2": 1077647
     },
     "stable": {
       "1.0.10": 569933,
@@ -949,7 +988,8 @@
       "2026.1.6": 1005281,
       "2026.1.7": 1009437,
       "2026.1.8": 1024092,
-      "2026.1.9": 1025886
+      "2026.1.9": 1025886,
+      "2026.2.2": 1077644
     }
   }
 }
