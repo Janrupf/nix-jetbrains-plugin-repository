@@ -1,0 +1,43 @@
+{
+  "xml_id": "dev.flaticols.applecontainer",
+  "numeric_id": 32292,
+  "updates": {
+    "1078202": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32292/1078202/apple-container-0.0.5.zip?updateId=1078202&pluginId=32292&family=INTELLIJ",
+      "sha256": "9FS27oDbc5WjKB7IBbcRcfKvitO4GrIXGguTPi+qscM=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "apple-container-0.0.5.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1078590": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32292/1078590/apple-container-0.0.12.zip?updateId=1078590&pluginId=32292&family=INTELLIJ",
+      "sha256": "4sCfEagCfA6z9OWMBtqhbvFSSjh4zzQJv2UqIqPbHt4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "Docker"
+      ],
+      "file_name": "apple-container-0.0.12.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.12": 1078590,
+      "0.0.5": 1078202
+    }
+  }
+}

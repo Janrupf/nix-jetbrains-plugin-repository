@@ -293,6 +293,29 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1078182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30395/1078182/plugin.zip?updateId=1078182&pluginId=30395&family=INTELLIJ",
+      "sha256": "7WGnBkX+IPlgP0Jy7w8CU2T1Kop0APOH2qjjZ5Hhnz8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.remoteDevelopment",
+        "intellij.platform.backend",
+        "OtpDiagnostic.shared",
+        "intellij.platform.frontend.split",
+        "intellij.rd.platform",
+        "intellij.platform.rpc",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.remoteController.backend"
+      ],
+      "file_name": "plugin.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -308,6 +331,7 @@
       "1.0.19": 1059437,
       "1.0.20": 1063463,
       "1.0.21.2": 1074481,
+      "1.0.22": 1078182,
       "1.0.7": 969466,
       "1.0.8": 974027,
       "1.0.9.1": 983846,

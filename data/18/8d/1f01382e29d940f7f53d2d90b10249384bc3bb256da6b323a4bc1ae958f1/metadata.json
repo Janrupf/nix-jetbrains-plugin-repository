@@ -43,13 +43,28 @@
       "since": "251.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1078180": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32046/1078180/dp-connection-2.1.0.zip?updateId=1078180&pluginId=32046&family=INTELLIJ",
+      "sha256": "6Xx0AQTflMrVUePqa+DMVryK3d9048vITTdvrJC6xSs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dp-connection-2.1.0.zip",
+      "since": "241.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.3": 1065392,
       "1.0.4": 1067539,
-      "2.0.2": 1076829
+      "2.0.2": 1076829,
+      "2.1.0": 1078180
     }
   }
 }

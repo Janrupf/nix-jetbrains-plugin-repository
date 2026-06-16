@@ -3539,6 +3539,29 @@
       "since": "251.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1078583": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23758/1078583/plugin.zip?updateId=1078583&pluginId=23758&family=INTELLIJ",
+      "sha256": "58XKk/OujR7T460mx93gUPZhZ8DgDpIirAaaOn4ThVs=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.properties",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ultimate",
+        "JavaScript",
+        "com.intellij.css",
+        "org.intellij.intelliLang",
+        "com.intellij.modules.microservices",
+        "com.intellij.microservices.jvm"
+      ],
+      "file_name": "plugin.zip",
+      "since": "251.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3623,6 +3646,7 @@
       "1.0.0.eap220": 982688,
       "1.0.0.eap222": 996800,
       "1.0.0.eap224": 1060327,
+      "1.0.0.eap226": 1078583,
       "1.0.0.eap34": 597644,
       "1.0.0.eap35": 598416,
       "1.0.0.eap36": 598529,

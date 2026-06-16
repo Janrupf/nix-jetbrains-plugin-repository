@@ -2,25 +2,6 @@
   "xml_id": "io.politepixels.piko",
   "numeric_id": 31065,
   "updates": {
-    "1045138": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31065/1045138/piko-idea-0.0.0-alpha.21.zip?updateId=1045138&pluginId=31065&family=INTELLIJ",
-      "sha256": "3qB8dLWIXmnFkWJ8g7pGi9nXDlqyNMHvGt8tKJEPFPs=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.intellij.css",
-        "JavaScript",
-        "org.jetbrains.plugins.go",
-        "com.redhat.devtools.lsp4ij"
-      ],
-      "file_name": "piko-idea-0.0.0-alpha.21.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1050469": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31065/1050469/piko-idea-0.0.0-alpha.22.zip?updateId=1050469&pluginId=31065&family=INTELLIJ",
       "sha256": "uyMqTOWlavwDrVAxWDiEm9T6zWKXn66I2nCUGX4ODxk=",
@@ -77,14 +58,33 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1078653": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31065/1078653/piko-idea-0.0.0-alpha.25.zip?updateId=1078653&pluginId=31065&family=INTELLIJ",
+      "sha256": "+TTYbsZzByfafi1LtpNIhoQCjJFqFV3pNSp+O0g8sHI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "com.intellij.css"
+      ],
+      "file_name": "piko-idea-0.0.0-alpha.25.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.0-alpha.21": 1045138,
       "0.0.0-alpha.22": 1050469,
       "0.0.0-alpha.23": 1069344,
-      "0.0.0-alpha.24": 1071846
+      "0.0.0-alpha.24": 1071846,
+      "0.0.0-alpha.25": 1078653
     }
   }
 }
