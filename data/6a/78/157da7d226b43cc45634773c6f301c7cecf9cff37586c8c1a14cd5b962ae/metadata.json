@@ -1,6 +1,25 @@
 {
   "xml_id": "cn.enaium.jimmer.buddy.lsp",
   "numeric_id": 32285,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1078203": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32285/1078203/intellij-0.4.0.zip?updateId=1078203&pluginId=32285&family=INTELLIJ",
+      "sha256": "r4FhjYGTeq4dbXWinXAmqusUhOrxm/FCcJOwlHwLOTk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-0.4.0.zip",
+      "since": "233.0",
+      "until": "272.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.4.0": 1078203
+    }
+  }
 }

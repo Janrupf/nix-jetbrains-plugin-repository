@@ -685,6 +685,28 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1079034": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27488/1079034/open-telemetry-plugin-1.3.4-signed.zip?updateId=1079034&pluginId=27488&family=INTELLIJ",
+      "sha256": "JvHV4i6w9yZJSkGT9uTnfMC6PYw+NlHZ51n7w7L0cdU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.rd.platform",
+        "com.intellij.modules.rider",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.diagram",
+        "intellij.opentelemetry.core",
+        "intellij.aspire.core",
+        "com.intellij.mcpServer",
+        "intellij.rider.rdclient.dotnet",
+        "me.rafaelldi.aspire"
+      ],
+      "file_name": "open-telemetry-plugin-1.3.4-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -716,7 +738,8 @@
       "1.3.0": 1050500,
       "1.3.1": 1062811,
       "1.3.2": 1069857,
-      "1.3.3": 1072183
+      "1.3.3": 1072183,
+      "1.3.4": 1079034
     }
   }
 }

@@ -1,6 +1,26 @@
 {
   "xml_id": "de.rechenwerk.kte",
   "numeric_id": 32254,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1078172": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32254/1078172/kte-intellij.zip?updateId=1078172&pluginId=32254&family=INTELLIJ",
+      "sha256": "LxYbIcZ6uwEqPnBfL7gE0mD+Kcl245bW8I87hgZrnaI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kte-intellij.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 1078172
+    }
+  }
 }

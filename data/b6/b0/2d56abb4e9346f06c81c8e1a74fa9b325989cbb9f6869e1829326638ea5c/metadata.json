@@ -294,61 +294,63 @@
       "until": "261.*",
       "compatibility_overrides": []
     },
-    "1076839": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29870/1076839/dev.tachilabs.mermaidstudio-2026.2.6-eap.688.zip?updateId=1076839&pluginId=29870&family=INTELLIJ",
-      "sha256": "AbkgxccSX93cP0R9g5+k+1vufxE9s+BBQYqLbUSYNWo=",
+    "1079519": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29870/1079519/dev.tachilabs.mermaidstudio-2026.2.6-eap.705.zip?updateId=1079519&pluginId=29870&family=INTELLIJ",
+      "sha256": "k94o3FDh8AvwtmlqOydQEShQAe1Kikb1By7uNgRE720=",
       "channel": "eap",
       "dependencies": [
+        "com.intellij.modules.platform",
         "com.intellij.modules.json",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.modules.platform"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "intellij.platform.frontend",
-        "intellij.json.backend",
         "intellij.platform.rpc.backend",
+        "dev.tachilabs.mermaidstudio.shared",
+        "dev.tachilabs.mermaidstudio.markdown-common",
+        "intellij.yaml",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "org.intellij.plugins.markdown",
+        "com.intellij.css",
+        "intellij.platform.kernel.backend",
+        "intellij.markdown",
         "com.intellij.mcpServer",
         "intellij.css.common.psi",
-        "com.intellij.css",
-        "intellij.markdown",
-        "intellij.platform.kernel.backend",
-        "intellij.yaml",
-        "dev.tachilabs.mermaidstudio.shared",
-        "org.intellij.plugins.markdown",
-        "intellij.platform.backend"
+        "intellij.json.backend"
       ],
-      "file_name": "dev.tachilabs.mermaidstudio-2026.2.6-eap.688.zip",
+      "file_name": "dev.tachilabs.mermaidstudio-2026.2.6-eap.705.zip",
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
     },
-    "1077882": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/29870/1077882/dev.tachilabs.mermaidstudio-androidstudio-2026.2.6-eap.697_as.zip?updateId=1077882&pluginId=29870&family=INTELLIJ",
-      "sha256": "Q2g0OnEwlvI6uO9ScyxSWYowN1I8Qlz+GkUYFRsT/F4=",
+    "1079522": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29870/1079522/dev.tachilabs.mermaidstudio-androidstudio-2026.2.6-eap.705_as.zip?updateId=1079522&pluginId=29870&family=INTELLIJ",
+      "sha256": "B/2RSW8ZaMHUaKWGpIfDLoIOdFgxF5OPNzAJ8r3T+pU=",
       "channel": "eap",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.jcef",
         "com.intellij.modules.androidstudio",
         "com.intellij.modules.json",
         "com.intellij.marketplace",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.jcef"
       ],
       "optional_dependencies": [
-        "org.intellij.plugins.markdown",
-        "intellij.css.common.psi",
-        "com.intellij.css",
+        "dev.tachilabs.mermaidstudio.markdown-common",
         "intellij.yaml",
         "intellij.platform.backend",
+        "intellij.platform.rpc.backend",
         "dev.tachilabs.mermaidstudio.shared",
-        "intellij.markdown",
-        "intellij.platform.frontend",
         "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
+        "com.intellij.css",
         "com.intellij.mcpServer",
+        "intellij.markdown",
+        "org.intellij.plugins.markdown",
         "intellij.json.backend",
-        "intellij.platform.rpc.backend"
+        "intellij.css.common.psi"
       ],
-      "file_name": "dev.tachilabs.mermaidstudio-androidstudio-2026.2.6-eap.697_as.zip",
+      "file_name": "dev.tachilabs.mermaidstudio-androidstudio-2026.2.6-eap.705_as.zip",
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
@@ -356,8 +358,8 @@
   },
   "channels": {
     "eap": {
-      "2026.2.6-eap.688": 1076839,
-      "2026.2.6-eap.697+as": 1077882
+      "2026.2.6-eap.705": 1079519,
+      "2026.2.6-eap.705+as": 1079522
     },
     "stable": {
       "2026.1.10": 968630,

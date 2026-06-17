@@ -1,0 +1,44 @@
+{
+  "xml_id": "pl.artoledev.dependencyupdater",
+  "numeric_id": 32315,
+  "updates": {
+    "1079414": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32315/1079414/DependencyUpdaterPlugin-1.0-SNAPSHOT.jar?updateId=1079414&pluginId=32315&family=INTELLIJ",
+      "sha256": "T+vexi5VeMM0gOI9k4TMe/+s66DyXFqrWeTZMGJX5dQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "DependencyUpdaterPlugin-1.0-SNAPSHOT.jar",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1079443": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32315/1079443/DependencyUpdaterPlugin-1.1.jar?updateId=1079443&pluginId=32315&family=INTELLIJ",
+      "sha256": "pvcKhG0n3GlayuVpfMwNXwvc+skc4UFOXs8uBzyNeW8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "DependencyUpdaterPlugin-1.1.jar",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0": 1079414,
+      "1.1": 1079443
+    }
+  }
+}

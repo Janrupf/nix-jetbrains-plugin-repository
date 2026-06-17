@@ -3818,6 +3818,33 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1079471": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6873/1079471/intellij-haxe-2026.1_1_.zip?updateId=1079471&pluginId=6873&family=INTELLIJ",
+      "sha256": "mKkTUUv0xTyB8McQXjibABotn+GdmKWr9uTdrSZiSEo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json",
+        "com.intellij.modules.spellchecker"
+      ],
+      "optional_dependencies": [
+        "com.intellij.flex",
+        "tanvd.grazi",
+        "OpenGL-Plugin"
+      ],
+      "file_name": "intellij-haxe-2026.1_1_.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.0",
+          "applies_until": "261.*",
+          "compatible_since": "261.0",
+          "compatible_until": "261.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -4064,7 +4091,8 @@
       "1.7.7": 908817,
       "1.7.8": 913980,
       "1.7.9": 949443,
-      "1.8.0": 993342
+      "1.8.0": 993342,
+      "1.8.1": 1079471
     }
   }
 }
