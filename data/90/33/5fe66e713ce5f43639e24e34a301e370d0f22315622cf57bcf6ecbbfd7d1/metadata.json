@@ -2,22 +2,6 @@
   "xml_id": "com.adbpro.plugin",
   "numeric_id": 32100,
   "updates": {
-    "1066300": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32100/1066300/adbpro-1.1.1.zip?updateId=1066300&pluginId=32100&family=INTELLIJ",
-      "sha256": "UwlnEfFhf9hveiBd5BHaYtO8V7z3l2JT6npWvOBOj98=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "org.jetbrains.android"
-      ],
-      "file_name": "adbpro-1.1.1.zip",
-      "since": "223.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "1068786": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32100/1068786/adbpro-1.1.2-obfuscated.zip?updateId=1068786&pluginId=32100&family=INTELLIJ",
       "sha256": "8SsQTVBSz1IWQdvBe07jt77K70PAa0VS/+RjqFMMNmU=",
@@ -34,9 +18,9 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "1079727": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32100/1079727/adbpro-1.2.7-obfuscated.zip?updateId=1079727&pluginId=32100&family=INTELLIJ",
-      "sha256": "eXiD6CZsIEcVVLP3o5k63p7hVC2MzDNoiofmXqyLpYY=",
+    "1080454": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32100/1080454/adbpro-1.2.8-obfuscated.zip?updateId=1080454&pluginId=32100&family=INTELLIJ",
+      "sha256": "X86lBbeizlESfqbBEWJvHiBgN+F3FlLXDVd7/nY4Tjg=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.java",
@@ -45,7 +29,23 @@
       "optional_dependencies": [
         "org.jetbrains.android"
       ],
-      "file_name": "adbpro-1.2.7-obfuscated.zip",
+      "file_name": "adbpro-1.2.8-obfuscated.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1080591": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32100/1080591/adbpro-1.2.9-obfuscated.zip?updateId=1080591&pluginId=32100&family=INTELLIJ",
+      "sha256": "MB9pULaWwQ5SNEFD3nVJIKcSiHHRZnuEI0PM8fmZr8o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "adbpro-1.2.9-obfuscated.zip",
       "since": "223.0",
       "until": "253.*",
       "compatibility_overrides": []
@@ -53,9 +53,9 @@
   },
   "channels": {
     "stable": {
-      "1.1.1": 1066300,
       "1.1.2": 1068786,
-      "1.2.7": 1079727
+      "1.2.8": 1080454,
+      "1.2.9": 1080591
     }
   }
 }

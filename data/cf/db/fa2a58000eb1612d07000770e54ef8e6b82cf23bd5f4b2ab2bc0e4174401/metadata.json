@@ -33,12 +33,27 @@
       "since": "251.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1080451": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32315/1080451/DependencyUpdaterPlugin-1.2.jar?updateId=1080451&pluginId=32315&family=INTELLIJ",
+      "sha256": "1xqRjEgIvjyipr74CdmoqtYeGWnwLH1AkFM0zhz86io=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "DependencyUpdaterPlugin-1.2.jar",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 1079414,
-      "1.1": 1079443
+      "1.1": 1079443,
+      "1.2": 1080451
     }
   }
 }

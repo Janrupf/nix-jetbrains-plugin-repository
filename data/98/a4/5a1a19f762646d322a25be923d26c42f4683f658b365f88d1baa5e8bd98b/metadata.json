@@ -1640,6 +1640,35 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1079973": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23289/1079973/aspire-plugin-2.7.4-signed.zip?updateId=1079973&pluginId=23289&family=INTELLIJ",
+      "sha256": "+BL/dNB0DMDroUVUzXgqGElvMDoak6+8r9vRUdK9FYE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider",
+        "intellij.libraries.grpc",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.rd.client",
+        "intellij.aspire.core",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.rider.languages",
+        "intellij.rd.client.base"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database",
+        "com.intellij.diagram",
+        "intellij.clouds.docker.shared",
+        "rider.intellij.plugin.appender",
+        "intellij.clouds.docker",
+        "intellij.database.dialects.redis",
+        "intellij.rider.plugins.appender.database",
+        "Docker"
+      ],
+      "file_name": "aspire-plugin-2.7.4-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1732,7 +1761,8 @@
       "2.7.0": 1048521,
       "2.7.1": 1051476,
       "2.7.2": 1054800,
-      "2.7.3": 1062544
+      "2.7.3": 1062544,
+      "2.7.4": 1079973
     }
   }
 }
