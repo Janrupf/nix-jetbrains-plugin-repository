@@ -810,6 +810,26 @@
       "since": "262.7581",
       "until": "262.7581.*",
       "compatibility_overrides": []
+    },
+    "1081925": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27879/1081925/go-frontend-262.8117.20.zip?updateId=1081925&pluginId=27879&family=INTELLIJ",
+      "sha256": "wn1E0jg3/fAA29lFJx6qpe+jrkIECuDczDYh3BavYBA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client",
+        "intellij.platform.frontend.split"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.compose",
+        "intellij.go.frontback",
+        "intellij.platform.ide.nonModalWelcomeScreen"
+      ],
+      "file_name": "go-frontend-262.8117.20.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -851,7 +871,8 @@
       "262.6228.24": 1053305,
       "262.6653.16": 1059279,
       "262.7132.24": 1067143,
-      "262.7581.17": 1075892
+      "262.7581.17": 1075892,
+      "262.8117.20": 1081925
     }
   }
 }

@@ -1,6 +1,38 @@
 {
   "xml_id": "com.iamkurtgoz.termanagerplugin",
   "numeric_id": 32321,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1080635": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32321/1080635/termanagerplugin-1.0.0.zip?updateId=1080635&pluginId=32321&family=INTELLIJ",
+      "sha256": "0FzojD/gV4pouFjuPfCm7ShvYmmwIJhg0QV85EygkZ0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "termanagerplugin-1.0.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1080899": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32321/1080899/termanagerplugin-1.0.1.zip?updateId=1080899&pluginId=32321&family=INTELLIJ",
+      "sha256": "WKanpMI41NI067os9Mmt9Paa79sZ8EU0GoKMO6oHS0M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "termanagerplugin-1.0.1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1080635,
+      "1.0.1": 1080899
+    }
+  }
 }

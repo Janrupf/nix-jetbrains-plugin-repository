@@ -394,6 +394,34 @@
       "since": "262.7581",
       "until": "262.7581.*",
       "compatibility_overrides": []
+    },
+    "1081796": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29844/1081796/indexing-shared-262.8117.19.zip?updateId=1081796&pluginId=29844&family=INTELLIJ",
+      "sha256": "WCWS8mgCyMLKNun1r8t5blvfs3VqQ9OMy0dxL92ugPY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.configurationScript"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.performancePlugin",
+        "Git4Idea",
+        "intellij.java.execution.impl",
+        "intellij.java.backend",
+        "com.intellij.modules.jetbrains",
+        "intellij.indexing.shared.core",
+        "intellij.indexing.shared.ultimate",
+        "com.intellij.modules.python",
+        "intellij.indexing.shared.generator",
+        "intellij.platform.warmup",
+        "intellij.indexing.shared.java",
+        "intellij.vcs.git.backend",
+        "intellij.java.ui",
+        "intellij.performanceTesting.backend"
+      ],
+      "file_name": "indexing-shared-262.8117.19.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -413,7 +441,8 @@
       "262.6228.19": 1052769,
       "262.6653.22": 1059338,
       "262.7132.23": 1066848,
-      "262.7581.18": 1075964
+      "262.7581.18": 1075964,
+      "262.8117.19": 1081796
     }
   }
 }

@@ -67,12 +67,48 @@
       "since": "262.7581",
       "until": "262.7581.*",
       "compatibility_overrides": []
+    },
+    "1081931": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32117/1081931/clion-stm32-262.8117.20.zip?updateId=1081931&pluginId=32117&family=INTELLIJ",
+      "sha256": "BWgwppzruRTVZDOm0UW8W/kOQDafydgBlx/EG2S8Q+Q=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.clion.ide.core",
+        "intellij.cidr.util",
+        "intellij.clion.util",
+        "intellij.cidr.util.execution",
+        "intellij.clion.toolchains"
+      ],
+      "optional_dependencies": [
+        "intellij.cmake.psi",
+        "intellij.cidr.execution",
+        "intellij.cmake.core",
+        "intellij.cidr.debugger.backend",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.clion.embedded.core",
+        "intellij.cidr.workspaceModel",
+        "intellij.cmake.clion",
+        "intellij.cidr.debugger.core",
+        "intellij.clion.stm32.core",
+        "intellij.cidr.runner",
+        "intellij.clion.execution",
+        "intellij.clion.stm32.wrapper",
+        "intellij.cidr.debugger.profiles",
+        "intellij.libraries.commons.text",
+        "intellij.cidr.projectModel"
+      ],
+      "file_name": "clion-stm32-262.8117.20.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "262.7132.28": 1067830,
-      "262.7581.22": 1076056
+      "262.7581.22": 1076056,
+      "262.8117.20": 1081931
     }
   }
 }

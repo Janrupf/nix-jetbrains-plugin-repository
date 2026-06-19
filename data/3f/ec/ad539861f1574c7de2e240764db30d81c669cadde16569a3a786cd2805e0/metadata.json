@@ -4140,6 +4140,67 @@
       "since": "262.7581",
       "until": "262.7581.*",
       "compatibility_overrides": []
+    },
+    "1081900": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20305/1081900/micronaut-262.8117.19.zip?updateId=1081900&pluginId=20305&family=INTELLIJ",
+      "sha256": "QU7Znf8xlG/gdhYvEbw7vqPfKunpqod/WcVetIHjWMo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.persistence",
+        "intellij.java.execution.impl",
+        "intellij.spellchecker",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.backend",
+        "intellij.properties.backend",
+        "intellij.platform.execution.dashboard",
+        "intellij.java.frontback.psi",
+        "intellij.java.backend",
+        "intellij.database",
+        "com.intellij.properties",
+        "intellij.properties.psi",
+        "intellij.database.core.impl",
+        "intellij.java.psi",
+        "com.intellij.microservices.jvm",
+        "intellij.properties.backend.psi",
+        "intellij.java.ui",
+        "intellij.platform.execution.dashboard.backend",
+        "com.intellij.modules.idea.ultimate"
+      ],
+      "optional_dependencies": [
+        "intellij.micronaut.gradle.tooling",
+        "com.intellij.javaee.jpa",
+        "intellij.database.dialects.base",
+        "intellij.database.sql",
+        "intellij.javaee.jpa.ql",
+        "intellij.javaee.platform",
+        "intellij.json.backend",
+        "intellij.javaee.platform.impl",
+        "intellij.maven",
+        "intellij.javaee.persistence.impl/mongodbjson",
+        "intellij.yaml.backend",
+        "intellij.micronaut.data",
+        "intellij.database.dialects.mongo",
+        "intellij.gradle.toolingExtension",
+        "com.jetbrains.restClient",
+        "intellij.microservices.jvm.cron",
+        "com.intellij.swagger",
+        "intellij.java.jam",
+        "intellij.microservices.jvm.config.yaml",
+        "intellij.javaee.persistence.database.config.yaml",
+        "com.intellij.javaee.el",
+        "com.intellij.database",
+        "intellij.yaml",
+        "intellij.gradle.java",
+        "intellij.database.impl",
+        "intellij.platform.langInjection",
+        "intellij.java.jam.impl",
+        "intellij.database.util",
+        "com.intellij.cron"
+      ],
+      "file_name": "micronaut-262.8117.19.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4264,7 +4325,8 @@
       "262.6228.19": 1052935,
       "262.6653.22": 1059153,
       "262.7132.23": 1067092,
-      "262.7581.18": 1076036
+      "262.7581.18": 1076036,
+      "262.8117.19": 1081900
     }
   }
 }

@@ -29,12 +29,27 @@
       "since": "233.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1082018": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30321/1082018/tx3-toolkit-2.0.0.zip?updateId=1082018&pluginId=30321&family=INTELLIJ",
+      "sha256": "Scw2j45Fc3kQPW99oWeDbBJ+l6twhJUjCmZCjif4f+Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "tx3-toolkit-2.0.0.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.2": 963922,
-      "1.0.4": 964204
+      "1.0.4": 964204,
+      "2.0.0": 1082018
     }
   }
 }

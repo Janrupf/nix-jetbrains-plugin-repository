@@ -28562,6 +28562,50 @@
       "since": "262.7581",
       "until": "262.7581.*",
       "compatibility_overrides": []
+    },
+    "1081937": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/1081937/clouds-kubernetes-262.8117.20.zip?updateId=1081937&pluginId=10485&family=INTELLIJ",
+      "sha256": "XPzpv4DaPfKIfPWI0+1Foqs2dOjorHOL+FdsWoAVMAs=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "intellij.yaml",
+        "intellij.platform.execution.serviceView",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.json",
+        "Docker"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker",
+        "intellij.database.core.impl",
+        "intellij.clouds.docker.frontend",
+        "org.jetbrains.plugins.go-template",
+        "intellij.clouds.kubernetes",
+        "intellij.clouds.docker.agent",
+        "intellij.spellchecker",
+        "intellij.clouds.kubernetes.libraries",
+        "intellij.clouds.kubernetes.backend",
+        "intellij.platform.backend",
+        "intellij.platform.editor.frontend",
+        "com.intellij.database",
+        "intellij.platform.vcs",
+        "com.intellij.cron",
+        "intellij.clouds.docker.compose",
+        "intellij.json.backend",
+        "intellij.database.impl",
+        "intellij.yaml.backend",
+        "intellij.yaml.helm",
+        "intellij.database.util",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.commercial.verifier",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "clouds-kubernetes-262.8117.20.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -30003,7 +30047,8 @@
       "262.6228.24": 1053316,
       "262.6653.16": 1059319,
       "262.7132.27": 1067552,
-      "262.7581.3": 1074232
+      "262.7581.3": 1074232,
+      "262.8117.20": 1081937
     }
   }
 }

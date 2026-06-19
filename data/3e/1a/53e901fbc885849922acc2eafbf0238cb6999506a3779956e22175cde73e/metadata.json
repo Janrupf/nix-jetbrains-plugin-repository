@@ -362,15 +362,8 @@
       ],
       "file_name": "mdlcode-1.6.2-signed.zip",
       "since": "253.0",
-      "until": "261.*",
-      "compatibility_overrides": [
-        {
-          "applies_since": "253.0",
-          "applies_until": "999.99999",
-          "compatible_since": "253.0",
-          "compatible_until": "261.*"
-        }
-      ]
+      "until": null,
+      "compatibility_overrides": []
     },
     "1080637": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28229/1080637/mdlcode-1.6.3-signed.zip?updateId=1080637&pluginId=28229&family=INTELLIJ",
@@ -388,6 +381,24 @@
       "file_name": "mdlcode-1.6.3-signed.zip",
       "since": "253.0",
       "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1081966": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28229/1081966/mdlcode-1.6.4.zip?updateId=1081966&pluginId=28229&family=INTELLIJ",
+      "sha256": "Rl3CNjbvIITsMpJ/5u+IYbdyhq2+BRdSBMHxzk2YY7s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.dmarcotte.handlebars",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform",
+        "JavaScript"
+      ],
+      "optional_dependencies": [
+        "gherkin"
+      ],
+      "file_name": "mdlcode-1.6.4.zip",
+      "since": "261.0",
+      "until": null,
       "compatibility_overrides": []
     }
   },
@@ -415,7 +426,8 @@
       "1.6.0": 964432,
       "1.6.1": 995444,
       "1.6.2": 1038057,
-      "1.6.3": 1080637
+      "1.6.3": 1080637,
+      "1.6.4": 1081966
     }
   }
 }

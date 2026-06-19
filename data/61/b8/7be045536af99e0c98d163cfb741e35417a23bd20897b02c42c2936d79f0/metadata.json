@@ -4267,6 +4267,47 @@
       "since": "262.7581",
       "until": "262.7581.*",
       "compatibility_overrides": []
+    },
+    "1081902": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7819/1081902/performanceTesting-262.8117.19.zip?updateId=1081902&pluginId=7819&family=INTELLIJ",
+      "sha256": "XR4p+X0KNRUwm3p3Dhc4YuzEbR56CvFeU5xrrSQfLpI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.structureView"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.split",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.backend.split",
+        "intellij.platform.frontend.split.connection",
+        "intellij.rd.ui",
+        "intellij.performanceTesting.remoteDriver",
+        "com.jetbrains.performancePlugin",
+        "intellij.platform.split.connection",
+        "intellij.libraries.jcef",
+        "intellij.platform.backend",
+        "intellij.profiler.asyncOne",
+        "intellij.driver.client",
+        "intellij.rd.ide.model.generated",
+        "intellij.platform.recentFiles.frontend",
+        "intellij.platform.compose",
+        "intellij.profiler.common",
+        "intellij.driver.model",
+        "intellij.rd.client",
+        "intellij.profiler.ultimate.ideaAsyncProfiler",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.frontend.split",
+        "intellij.platform.split.protocol",
+        "intellij.driver.frontend.split",
+        "intellij.platform.frontend",
+        "intellij.libraries.assertj.core",
+        "intellij.rd.platform",
+        "intellij.platform.structureView.frontend"
+      ],
+      "file_name": "performanceTesting-262.8117.19.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4549,7 +4590,8 @@
       "261.24374.171": 1049514,
       "262.6653.22": 1059179,
       "262.7132.23": 1066980,
-      "262.7581.18": 1076078
+      "262.7581.18": 1076078,
+      "262.8117.19": 1081902
     }
   }
 }

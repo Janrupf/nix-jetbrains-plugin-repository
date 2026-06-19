@@ -1,6 +1,26 @@
 {
   "xml_id": "cn.wdf.api",
   "numeric_id": 32256,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1080043": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32256/1080043/fu-api-plugin-251.1.8.9.zip?updateId=1080043&pluginId=32256&family=INTELLIJ",
+      "sha256": "HWP8XenxnYdvmxf3tf7Yu51QptTXtc/6Sqh7LZito0o=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fu-api-plugin-251.1.8.9.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "251.1.8.9": 1080043
+    }
+  }
 }

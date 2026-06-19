@@ -589,6 +589,32 @@
       "since": "262.7581",
       "until": "262.7581.*",
       "compatibility_overrides": []
+    },
+    "1081878": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28631/1081878/searchEverywhereMl-262.8117.19.zip?updateId=1081878&pluginId=28631&family=INTELLIJ",
+      "sha256": "DpU8gMPC04sET0HN2KG8Veq3orVzbUbLA7ZGrFu1erQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json.backend"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.ai.grazie.spell.gec.engine.local",
+        "com.intellij.modules.vcs",
+        "intellij.java.psi",
+        "intellij.grazie.core",
+        "intellij.java.backend",
+        "intellij.platform.ml.impl",
+        "intellij.searchEverywhereMl.ranking.ext",
+        "tanvd.grazi",
+        "intellij.platform.searchEverywhere.frontend",
+        "intellij.platform.backend",
+        "intellij.yaml.backend",
+        "intellij.searchEverywhereMl.ranking.core"
+      ],
+      "file_name": "searchEverywhereMl-262.8117.19.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -617,7 +643,8 @@
       "262.6228.19": 1052870,
       "262.6653.22": 1059086,
       "262.7132.23": 1066815,
-      "262.7581.18": 1076116
+      "262.7581.18": 1076116,
+      "262.8117.19": 1081878
     }
   }
 }

@@ -470,7 +470,7 @@
       ],
       "file_name": "Mermaid-0.0.10-231.8109.zip",
       "since": "231.8109",
-      "until": "231.8770",
+      "until": "231.*",
       "compatibility_overrides": [
         {
           "applies_since": "231.8109",
@@ -492,7 +492,7 @@
       ],
       "file_name": "Mermaid-0.0.10-231.8109.zip",
       "since": "231.8109",
-      "until": "231.8770",
+      "until": "231.*",
       "compatibility_overrides": [
         {
           "applies_since": "231.8109",
@@ -1858,7 +1858,7 @@
       ],
       "file_name": "Mermaid-0.0.17_IJ.232.zip",
       "since": "232.8660",
-      "until": "233.*",
+      "until": "241.*",
       "compatibility_overrides": [
         {
           "applies_since": "232.8660",
@@ -1881,7 +1881,7 @@
       ],
       "file_name": "Mermaid-0.0.17_IJ.232.zip",
       "since": "232.8660",
-      "until": "233.*",
+      "until": "241.*",
       "compatibility_overrides": [
         {
           "applies_since": "232.8660",
@@ -2898,6 +2898,27 @@
       "since": "253.30387",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1081727": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20146/1081727/mermaid-262.8117.19.zip?updateId=1081727&pluginId=20146&family=INTELLIJ",
+      "sha256": "njEsmLCZ4Pw5iGJB7rGUJcBfnVtm2FAYUDpGyAzOnqI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.spellchecker",
+        "intellij.json.backend",
+        "intellij.markdown",
+        "intellij.platform.ui.jcef",
+        "intellij.yaml",
+        "intellij.json",
+        "intellij.libraries.jcef"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mermaid"
+      ],
+      "file_name": "mermaid-262.8117.19.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3082,7 +3103,8 @@
       "0.0.6": 278089,
       "0.0.7": 279493,
       "0.0.8": 292472,
-      "0.0.9": 294104
+      "0.0.9": 294104,
+      "262.8117.19": 1081727
     }
   }
 }
