@@ -15,11 +15,28 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1082415": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32227/1082415/antlr4-helper-2026.6.11.0619.zip?updateId=1082415&pluginId=32227&family=INTELLIJ",
+      "sha256": "TCzh/tUG00O14KHbuGjiNJCfCf7bA5b+wsm1uze2jEk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "antlr4-helper-2026.6.11.0619.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2026.6": 1073813
+    },
+    "stable": {
+      "2026.6.11.0619": 1082415
     }
   }
 }

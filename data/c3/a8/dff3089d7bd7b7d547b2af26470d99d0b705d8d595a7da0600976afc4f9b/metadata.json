@@ -1321,6 +1321,36 @@
       "since": "262.7581",
       "until": "262.7581.*",
       "compatibility_overrides": []
+    },
+    "1082407": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26071/1082407/mcpserver-262.8117.23.zip?updateId=1082407&pluginId=26071&family=INTELLIJ",
+      "sha256": "06VhBffrvwtAn6X5sT95u9MmHoCxkzcEKsy4I5c8c9E=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ktor.client",
+        "intellij.platform.compose",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.libraries.ktor.io",
+        "intellij.libraries.ktor.server.cio",
+        "intellij.libraries.ktor.network.tls",
+        "intellij.libraries.kotlinx.io"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "Git4Idea",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.sh.core",
+        "org.jetbrains.plugins.terminal",
+        "intellij.terminal.backend",
+        "intellij.terminal.frontend",
+        "com.intellij.mcpServer",
+        "intellij.vcs.git.backend",
+        "intellij.platform.vcs.impl"
+      ],
+      "file_name": "mcpserver-262.8117.23.zip",
+      "since": "262.8117",
+      "until": "262.8117.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1397,7 +1427,8 @@
       "262.6228.39": 1054881,
       "262.6653.28": 1059481,
       "262.7132.31": 1068042,
-      "262.7581.27": 1078390
+      "262.7581.27": 1078390,
+      "262.8117.23": 1082407
     }
   }
 }

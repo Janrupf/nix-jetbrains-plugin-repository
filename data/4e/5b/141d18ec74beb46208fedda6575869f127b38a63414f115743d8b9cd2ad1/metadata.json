@@ -14,11 +14,25 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1082420": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29147/1082420/DevExpress.ReportDesigner-1.1.0-signed.zip?updateId=1082420&pluginId=29147&family=INTELLIJ",
+      "sha256": "IZI/2MDnU6mJi4Md+yjiafMCNhg+rwCT71N2I6hZnkg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "DevExpress.ReportDesigner-1.1.0-signed.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0": 911637
+      "1.0": 911637,
+      "1.1.0": 1082420
     }
   }
 }

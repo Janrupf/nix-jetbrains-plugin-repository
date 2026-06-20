@@ -2,20 +2,6 @@
   "xml_id": "com.github.wooju.oracle-dictionary-inspector",
   "numeric_id": 31857,
   "updates": {
-    "1051917": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31857/1051917/oracle-dictionary-inspector-1.0.0.zip?updateId=1051917&pluginId=31857&family=INTELLIJ",
-      "sha256": "XKxGg1k33kiKQPHXAitUoswrmgn/s5Xoc0taloGtSFM=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.database",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "oracle-dictionary-inspector-1.0.0.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1054439": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31857/1054439/oracle-dictionary-inspector-1.0.1.zip?updateId=1054439&pluginId=31857&family=INTELLIJ",
       "sha256": "LLiO42bKYBbrNTFqrHqHRvsRMhnCfiWM9p3jDYes6DY=",
@@ -57,14 +43,28 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1082568": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31857/1082568/oracle-dictionary-inspector-1.0.7.zip?updateId=1082568&pluginId=31857&family=INTELLIJ",
+      "sha256": "Ga2qeMA0U9gcJZd+8OPFOe5R2h4gPMZo7Rx5H7RYqIM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "oracle-dictionary-inspector-1.0.7.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1051917,
       "1.0.1": 1054439,
       "1.0.3": 1058781,
-      "1.0.5": 1058951
+      "1.0.5": 1058951,
+      "1.0.7": 1082568
     }
   }
 }
