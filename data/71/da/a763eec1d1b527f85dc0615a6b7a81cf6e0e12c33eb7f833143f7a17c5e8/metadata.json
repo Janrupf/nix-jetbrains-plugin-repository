@@ -1447,20 +1447,37 @@
       "until": "252.*",
       "compatibility_overrides": []
     },
-    "1082819": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24549/1082819/intellij-shire-IU-2024.1-1.3.6.zip?updateId=1082819&pluginId=24549&family=INTELLIJ",
-      "sha256": "QBrqx5akhfVv5BRFV5m0qQrgCerjnwaN88tcANzti7U=",
+    "1083162": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24549/1083162/intellij-shire-IU-2024.1-1.3.7.zip?updateId=1083162&pluginId=24549&family=INTELLIJ",
+      "sha256": "Uuq0OTvGVTkJH81LDE2U2NmvbzLqnkEhKcz1DsjD4lw=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.openRewrite",
-        "Docker",
+        "com.jetbrains.restClient",
+        "com.jetbrains.sh",
+        "com.intellij.modules.python",
+        "PlantUML integration",
         "com.intellij.wiremock",
-        "com.intellij.modules.json"
+        "idea.plugin.protoeditor",
+        "com.intellij.mermaid",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.openRewrite",
+        "com.intellij.modules.json",
+        "com.intellij.database",
+        "Docker",
+        "org.jetbrains.plugins.terminal",
+        "JavaScript",
+        "NodeJS",
+        "com.intellij.modules.go-capable",
+        "Git4Idea"
       ],
-      "file_name": "intellij-shire-IU-2024.1-1.3.6.zip",
+      "file_name": "intellij-shire-IU-2024.1-1.3.7.zip",
       "since": "232.0",
       "until": "261.*",
       "compatibility_overrides": []
@@ -1520,7 +1537,7 @@
       "1.3.3": 665415,
       "1.3.4": 676265,
       "1.3.5": 676925,
-      "1.3.6": 1082819
+      "1.3.7": 1083162
     }
   }
 }
