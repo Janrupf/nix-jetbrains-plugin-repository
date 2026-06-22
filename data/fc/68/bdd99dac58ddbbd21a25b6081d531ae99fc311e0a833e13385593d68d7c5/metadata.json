@@ -2,6 +2,20 @@
   "xml_id": "de.ml.argocd.gitops-cockpit",
   "numeric_id": 30719,
   "updates": {
+    "1037859": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30719/1037859/argocd-intellij-plugin-1.1.5-obfuscated-signed.zip?updateId=1037859&pluginId=30719&family=INTELLIJ",
+      "sha256": "B3OQNyNFEHep9EZct1AQAmjuZD0hfUqbq9MdkMl68Cs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.compose",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "argocd-intellij-plugin-1.1.5-obfuscated-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
     "1038765": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30719/1038765/argocd-intellij-plugin-1.1.6-obfuscated-signed.zip?updateId=1038765&pluginId=30719&family=INTELLIJ",
       "sha256": "kC1tq9yleumPFLIPccnqGErXuZF4Xx2czDbqXrAZiZs=",
@@ -33,6 +47,7 @@
   },
   "channels": {
     "stable": {
+      "1.1.5": 1037859,
       "1.1.6": 1038765,
       "1.1.7": 1043883
     }
