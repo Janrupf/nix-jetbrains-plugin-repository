@@ -33,12 +33,29 @@
       "since": "232.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1084109": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28952/1084109/nop-idea-plugin-1.0-20260622.zip?updateId=1084109&pluginId=28952&family=INTELLIJ",
+      "sha256": "BRSi8C7ghmlOPWWawxWCcRJAopXiVRu7e92MiM7mo6M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.lang",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nop-idea-plugin-1.0-20260622.zip",
+      "since": "232.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0-20251109": 890737,
-      "1.0-20251220": 917446
+      "1.0-20251220": 917446,
+      "1.0-20260622": 1084109
     }
   }
 }

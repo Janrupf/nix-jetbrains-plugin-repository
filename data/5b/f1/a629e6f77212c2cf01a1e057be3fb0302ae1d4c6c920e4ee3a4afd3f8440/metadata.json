@@ -14,11 +14,26 @@
       "since": "243.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1084350": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32304/1084350/mockserver-jetbrains-7.2.0.zip?updateId=1084350&pluginId=32304&family=INTELLIJ",
+      "sha256": "YWxAD9PBYJOoFKryOmPwuIQJIbUL3EyhYYLeZ1Bb1kQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mockserver-jetbrains-7.2.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "7.1.0": 1078658
+      "7.1.0": 1078658,
+      "7.2.0": 1084350
     }
   }
 }

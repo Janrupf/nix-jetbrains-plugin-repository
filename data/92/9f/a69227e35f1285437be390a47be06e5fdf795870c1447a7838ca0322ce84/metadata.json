@@ -134,6 +134,48 @@
       "since": "223.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1084308": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31014/1084308/jetplay-0.6.0.zip?updateId=1084308&pluginId=31014&family=INTELLIJ",
+      "sha256": "+jVNQjEFtB3ih5Od6OvTysh5NCHkCbgXAGALB1MH5ZQ=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "dev.twango.jetplay.frontend",
+        "dev.twango.jetplay.shared",
+        "intellij.platform.backend",
+        "intellij.platform.frontend.split",
+        "intellij.rd.platform",
+        "intellij.platform.kernel.backend",
+        "intellij.rd.client",
+        "intellij.rd.ide.model.generated",
+        "intellij.rd.ui"
+      ],
+      "file_name": "jetplay-0.6.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1084342": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31014/1084342/jetplay-0.6.1.zip?updateId=1084342&pluginId=31014&family=INTELLIJ",
+      "sha256": "JGVKU9bn/ZGhLIqNgXhYg415RD2um2UbT5w2EohoJCM=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "dev.twango.jetplay.shared",
+        "intellij.platform.frontend.split",
+        "dev.twango.jetplay.frontend",
+        "intellij.platform.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.rd.platform",
+        "intellij.rd.ui",
+        "intellij.rd.client",
+        "intellij.rd.ide.model.generated"
+      ],
+      "file_name": "jetplay-0.6.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -146,7 +188,9 @@
       "0.4.0": 1076632,
       "0.4.1": 1083109,
       "0.5.0": 1077888,
-      "0.5.1": 1078715
+      "0.5.1": 1078715,
+      "0.6.0": 1084308,
+      "0.6.1": 1084342
     }
   }
 }

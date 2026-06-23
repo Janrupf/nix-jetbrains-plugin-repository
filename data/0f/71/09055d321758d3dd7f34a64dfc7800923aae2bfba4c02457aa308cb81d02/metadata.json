@@ -316,6 +316,54 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1084309": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30395/1084309/plugin.zip?updateId=1084309&pluginId=30395&family=INTELLIJ",
+      "sha256": "rMyCRfahCP3GIhaAySsaJhi4M6JS6swodqzd1m5sqTY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "OtpDiagnostic.shared",
+        "intellij.rd.platform",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.rpc",
+        "intellij.platform.frontend.split",
+        "com.jetbrains.remoteDevelopment",
+        "intellij.rd.client.base",
+        "intellij.platform.backend",
+        "intellij.platform.remoteController.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.rd.client"
+      ],
+      "file_name": "plugin.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1084310": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30395/1084310/plugin.zip?updateId=1084310&pluginId=30395&family=INTELLIJ",
+      "sha256": "y5qf42f1VUI5+HkaZ88XcvukS+fCzXv2Sl7GcNYo3hI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "OtpDiagnostic.shared",
+        "com.jetbrains.remoteDevelopment",
+        "intellij.platform.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.rd.platform",
+        "intellij.platform.remoteController.backend",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.rpc"
+      ],
+      "file_name": "plugin.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -332,6 +380,8 @@
       "1.0.20": 1063463,
       "1.0.21.2": 1074481,
       "1.0.22": 1078182,
+      "1.0.23": 1084310,
+      "1.0.23.2": 1084309,
       "1.0.7": 969466,
       "1.0.8": 974027,
       "1.0.9.1": 983846,

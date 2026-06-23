@@ -12,7 +12,7 @@
       "optional_dependencies": [],
       "file_name": "CodeNote.zip",
       "since": "232.0",
-      "until": "261.0",
+      "until": null,
       "compatibility_overrides": []
     },
     "1079574": {
@@ -25,12 +25,25 @@
       "optional_dependencies": [],
       "file_name": "CodeNote.zip",
       "since": "232.0",
-      "until": "261.0",
+      "until": null,
       "compatibility_overrides": []
     },
     "1079985": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32311/1079985/CodeNote.zip?updateId=1079985&pluginId=32311&family=INTELLIJ",
       "sha256": "U4B76ivQ5r1jhkCst2y0SRMl7Nr+uoYX6u2PYwHgY8M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CodeNote.zip",
+      "since": "232.0",
+      "until": "299.*",
+      "compatibility_overrides": []
+    },
+    "1084051": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32311/1084051/CodeNote.zip?updateId=1084051&pluginId=32311&family=INTELLIJ",
+      "sha256": "sbV+I3QDk3MgaIb/Az0C4ctSOQ4P8lZL5I8m21ifXYU=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
@@ -48,7 +61,8 @@
     },
     "stable": {
       "1.0.0": 1079574,
-      "1.0.1": 1079985
+      "1.0.1": 1079985,
+      "1.0.2": 1084051
     }
   }
 }

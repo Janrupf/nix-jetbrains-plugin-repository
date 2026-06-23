@@ -477,6 +477,23 @@
       "since": "222.0",
       "until": "242.*",
       "compatibility_overrides": []
+    },
+    "1083801": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22884/1083801/drypush.zip?updateId=1083801&pluginId=22884&family=INTELLIJ",
+      "sha256": "FyWivpDGzpwX+HL9+zTJXqZedHEy0w6L2ptH0uuoCpY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.java",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "drypush.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -511,6 +528,7 @@
       "2026.03.31-v.23": 1005961,
       "2026.05.07": 1041619,
       "2026.05.07-v.23": 1041642,
+      "2026.06.12": 1083801,
       "2026.06.12-v.23": 1076585
     }
   }
