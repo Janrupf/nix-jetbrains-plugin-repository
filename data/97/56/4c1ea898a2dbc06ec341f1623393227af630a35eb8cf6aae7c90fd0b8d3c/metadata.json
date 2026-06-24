@@ -29,12 +29,44 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1084833": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32391/1084833/procfile-intellij-1.0.2-signed.zip?updateId=1084833&pluginId=32391&family=INTELLIJ",
+      "sha256": "x8KRPWwMS+i3t/sZEvED+LPn3HM1ySRJqnJvD7FLk98=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.sh"
+      ],
+      "file_name": "procfile-intellij-1.0.2-signed.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1084834": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32391/1084834/procfile-intellij-1.1.1-signed.zip?updateId=1084834&pluginId=32391&family=INTELLIJ",
+      "sha256": "8dvdftv4aaI7UHO+hWbkf9yOxJXb37+s5gDM6OW5Nbc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.sh"
+      ],
+      "file_name": "procfile-intellij-1.1.1-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 1083784,
-      "1.1.0": 1083791
+      "1.0.2": 1084833,
+      "1.1.0": 1083791,
+      "1.1.1": 1084834
     }
   }
 }
