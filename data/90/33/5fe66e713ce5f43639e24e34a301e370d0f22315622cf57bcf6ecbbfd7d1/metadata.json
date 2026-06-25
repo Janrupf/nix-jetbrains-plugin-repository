@@ -49,11 +49,28 @@
       "since": "223.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1085837": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32100/1085837/adbpro-1.2.10-obfuscated.zip?updateId=1085837&pluginId=32100&family=INTELLIJ",
+      "sha256": "atG0Pn061AQPAxewqYSWBhimxqByMYrRGWsTa7KQEFw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "adbpro-1.2.10-obfuscated.zip",
+      "since": "223.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.2": 1068786,
+      "1.2.10": 1085837,
       "1.2.8": 1080454,
       "1.2.9": 1080591
     }

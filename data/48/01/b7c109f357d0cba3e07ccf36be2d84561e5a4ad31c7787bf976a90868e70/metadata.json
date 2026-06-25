@@ -3845,6 +3845,26 @@
           "compatible_until": "261.*"
         }
       ]
+    },
+    "1085854": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6873/1085854/intellij-haxe-2026.1_2_.zip?updateId=1085854&pluginId=6873&family=INTELLIJ",
+      "sha256": "QAXQUKW+gE79/T/rqxJd9xpngwkUnQm14mlVoAd7olA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "tanvd.grazi",
+        "com.intellij.flex",
+        "OpenGL-Plugin"
+      ],
+      "file_name": "intellij-haxe-2026.1_2_.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4092,7 +4112,8 @@
       "1.7.8": 913980,
       "1.7.9": 949443,
       "1.8.0": 993342,
-      "1.8.1": 1079471
+      "1.8.1": 1079471,
+      "1.8.2": 1085854
     }
   }
 }

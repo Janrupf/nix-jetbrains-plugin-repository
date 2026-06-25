@@ -2,20 +2,6 @@
   "xml_id": "com.jpa3d",
   "numeric_id": 31936,
   "updates": {
-    "1056416": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31936/1056416/idea-plugin-0.2.0.zip?updateId=1056416&pluginId=31936&family=INTELLIJ",
-      "sha256": "HqQcpT8LS79JYYH4OhC2tzQaIyEEj5hBQPE5OMZRu2c=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "idea-plugin-0.2.0.zip",
-      "since": "242.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1056422": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31936/1056422/idea-plugin-0.2.1.zip?updateId=1056422&pluginId=31936&family=INTELLIJ",
       "sha256": "HYS4EW6zg++cThGMSZpFMFKivT0Ggaibf+0/3oyBHME=",
@@ -253,11 +239,24 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1085658": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31936/1085658/idea-plugin-1.0.2.zip?updateId=1085658&pluginId=31936&family=INTELLIJ",
+      "sha256": "uEN5xUxb+nQ0gPMtq/xfH94nLWHhUiMh1O/Vgc/fMo4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-plugin-1.0.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.0": 1056416,
       "0.2.1": 1056422,
       "0.2.2": 1061794,
       "0.2.3": 1061981,
@@ -274,7 +273,8 @@
       "0.5.5": 1070181,
       "0.6.0": 1076409,
       "1.0.0": 1077821,
-      "1.0.1": 1078378
+      "1.0.1": 1078378,
+      "1.0.2": 1085658
     }
   }
 }

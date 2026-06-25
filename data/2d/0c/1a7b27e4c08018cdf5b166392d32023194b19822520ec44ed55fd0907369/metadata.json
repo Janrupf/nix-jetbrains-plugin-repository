@@ -15,11 +15,26 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1085819": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32411/1085819/threadmap-intellij-0.1.1.zip?updateId=1085819&pluginId=32411&family=INTELLIJ",
+      "sha256": "SCzNfDtuU4Udp30U4VbkBxM/WXNECqABGss8Br0ucEw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "threadmap-intellij-0.1.1.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1084078
+      "0.1.0": 1084078,
+      "0.1.2": 1085819
     }
   }
 }
