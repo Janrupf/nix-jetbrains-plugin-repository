@@ -57,11 +57,68 @@
       "since": "262.8117",
       "until": "262.8117.*",
       "compatibility_overrides": []
+    },
+    "1086712": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32355/1086712/c-262.8377.40.zip?updateId=1086712&pluginId=32355&family=INTELLIJ",
+      "sha256": "R8uQZESnSjUhJtpOWTi/IZUylislFreZOUF6YTfLBU4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.execution",
+        "intellij.cidr.runner",
+        "intellij.cidr.util",
+        "intellij.cidr.debugger.core",
+        "intellij.platform.structureView",
+        "intellij.cidr.asm",
+        "intellij.cidr.util.serializer",
+        "intellij.spellchecker",
+        "intellij.cidr.workspaceModel",
+        "intellij.cidr.lang.base.icons",
+        "intellij.c.core",
+        "intellij.cidr.lang.base",
+        "intellij.cidr.util.execution",
+        "intellij.cidr.core",
+        "intellij.cidr.projectModel",
+        "intellij.libraries.objenesis",
+        "com.intellij.modules.c-capable",
+        "intellij.c.core.base",
+        "intellij.cidr.modulemap.language",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.psi.base",
+        "intellij.xml.structureView.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.c.doxygen",
+        "intellij.clion.runFile",
+        "intellij.platform.backend.split",
+        "intellij.platform.split.protocol",
+        "intellij.profiler.clion",
+        "com.jetbrains.performancePlugin",
+        "training",
+        "intellij.cidr.profiling",
+        "intellij.cpp.common.protocol",
+        "intellij.clion.projectStatus",
+        "com.intellij.modules.nativeDebug",
+        "org.intellij.plugins.markdown",
+        "intellij.clion.toolchains",
+        "intellij.platform.langInjection",
+        "intellij.rd.platform",
+        "tanvd.grazi",
+        "intellij.rd.ide.model.generated",
+        "intellij.markdown",
+        "intellij.cidr.debugger.profiles",
+        "intellij.clion.execution",
+        "intellij.clion.featuresTrainer"
+      ],
+      "file_name": "c-262.8377.40.zip",
+      "since": "262.8377",
+      "until": "262.8377.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "262.8117.20": 1081946
+      "262.8117.20": 1081946,
+      "262.8377.40": 1086712
     }
   }
 }

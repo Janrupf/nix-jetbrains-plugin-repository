@@ -627,6 +627,37 @@
       "since": "262.8117",
       "until": "262.8117.*",
       "compatibility_overrides": []
+    },
+    "1086876": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28798/1086876/clion-test-doctest-262.8377.35.zip?updateId=1086876&pluginId=28798&family=INTELLIJ",
+      "sha256": "7RVz7ZRc8mgVzw9GiP6U3YQS0YYPrn642U3Eq6BRbVo=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.execution",
+        "intellij.cidr.projectModel",
+        "intellij.cidr.lang.base",
+        "com.intellij.clion",
+        "intellij.cidr.runner",
+        "intellij.platform.testRunner",
+        "intellij.clion.execution",
+        "intellij.platform.smRunner"
+      ],
+      "optional_dependencies": [
+        "intellij.rd.client",
+        "intellij.rider.model.generated",
+        "intellij.rd.platform",
+        "intellij.rd.ide.model.generated",
+        "intellij.c.core.base",
+        "intellij.clion.radler.testing",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.c.testing",
+        "intellij.c.core",
+        "intellij.cidr.psi.base"
+      ],
+      "file_name": "clion-test-doctest-262.8377.35.zip",
+      "since": "262.8377",
+      "until": "262.8377.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -652,7 +683,8 @@
       "262.6653.22": 1059206,
       "262.7132.23": 1066813,
       "262.7581.18": 1076159,
-      "262.8117.19": 1081849
+      "262.8117.19": 1081849,
+      "262.8377.35": 1086876
     }
   }
 }

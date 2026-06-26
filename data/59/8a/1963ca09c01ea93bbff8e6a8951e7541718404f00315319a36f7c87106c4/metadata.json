@@ -17,11 +17,45 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1087582": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32398/1087582/otelcol-jetbrains-0.5.0.zip?updateId=1087582&pluginId=32398&family=INTELLIJ",
+      "sha256": "PZTww/kGo2DUpgNG9r1uXhofABC0L/FZoJLMZbyQZHI=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "otelcol-jetbrains-0.5.0.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1087584": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32398/1087584/otelcol-jetbrains-0.5.1.zip?updateId=1087584&pluginId=32398&family=INTELLIJ",
+      "sha256": "JGqiXcjOwFBs93l6tgUR/uQeCFjxP0tZQ3fuehRQ/oY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.plugins.textmate",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "otelcol-jetbrains-0.5.1.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.4.0": 1083796
+      "0.4.0": 1083796,
+      "0.5.0": 1087582,
+      "0.5.1": 1087584
     }
   }
 }

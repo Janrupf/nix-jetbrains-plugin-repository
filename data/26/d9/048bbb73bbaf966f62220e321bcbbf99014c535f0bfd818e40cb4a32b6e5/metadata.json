@@ -2465,6 +2465,37 @@
       "since": "262.8117",
       "until": "262.8117.*",
       "compatibility_overrides": []
+    },
+    "1086702": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20203/1086702/javaee-app-servers-impl-262.8377.35.zip?updateId=1086702&pluginId=20203&family=INTELLIJ",
+      "sha256": "/EoDHsC3gNOlDgZIgMgYs2RYAaORWgLhTC3ZCkvHh7U=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.ultimate.icons",
+        "intellij.java.ui",
+        "intellij.java.execution.impl",
+        "intellij.javaee.platform.impl",
+        "intellij.java.debugger.impl",
+        "intellij.javaee.platform",
+        "intellij.platform.jps.build",
+        "intellij.javaee.app.servers",
+        "intellij.properties.backend.psi",
+        "com.intellij.java-i18n",
+        "com.intellij.properties",
+        "intellij.properties.backend",
+        "intellij.java.backend",
+        "intellij.platform.execution.dashboard",
+        "com.intellij.database",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "intellij.profiler.ultimate",
+        "intellij.java.remoteServers"
+      ],
+      "file_name": "javaee-app-servers-impl-262.8377.35.zip",
+      "since": "262.8377",
+      "until": "262.8377.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2587,7 +2618,8 @@
       "262.6653.22": 1059253,
       "262.7132.23": 1066717,
       "262.7581.18": 1076141,
-      "262.8117.19": 1081854
+      "262.8117.19": 1081854,
+      "262.8377.35": 1086702
     }
   }
 }

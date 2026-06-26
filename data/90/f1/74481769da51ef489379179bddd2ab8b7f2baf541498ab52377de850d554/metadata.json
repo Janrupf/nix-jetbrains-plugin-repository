@@ -2,16 +2,44 @@
   "xml_id": "com.raphaelmoral.commitclaude",
   "numeric_id": 32472,
   "updates": {
-    "1085887": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32472/1085887/claude-commit-message-0.1.0.zip?updateId=1085887&pluginId=32472&family=INTELLIJ",
-      "sha256": "IWuDcc+lKHdM1+OJJxDPxmKIM7yuHBz09AcUKvgmIRM=",
+    "1087542": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32472/1087542/claude-commit-message-0.1.1.zip?updateId=1087542&pluginId=32472&family=INTELLIJ",
+      "sha256": "qhsi8LkqufkIhOTSatePZ5mwqdZttTzz3IRoPCvW8tg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "claude-commit-message-0.1.1.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1087561": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32472/1087561/claude-commit-message-0.1.2.zip?updateId=1087561&pluginId=32472&family=INTELLIJ",
+      "sha256": "sE6fun6t+nRDYYy2r3Joh+2u21uN/olrpULq3RqRjoM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "claude-commit-message-0.1.2.zip",
+      "since": "242.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1087570": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32472/1087570/claude-commit-message-0.1.3.zip?updateId=1087570&pluginId=32472&family=INTELLIJ",
+      "sha256": "UnKjWpnzdwXG32JpN4PGqvaobxbVJkJbmiaW9gtd0+I=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
         "com.intellij.modules.vcs"
       ],
       "optional_dependencies": [],
-      "file_name": "claude-commit-message-0.1.0.zip",
+      "file_name": "claude-commit-message-0.1.3.zip",
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
@@ -19,7 +47,9 @@
   },
   "channels": {
     "stable": {
-      "0.1.0": 1085887
+      "0.1.1": 1087542,
+      "0.1.2": 1087561,
+      "0.1.3": 1087570
     }
   }
 }

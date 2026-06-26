@@ -1,6 +1,38 @@
 {
   "xml_id": "online.mofish.tool",
   "numeric_id": 31771,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1086153": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31771/1086153/mofish-tool-1.0.0.zip?updateId=1086153&pluginId=31771&family=INTELLIJ",
+      "sha256": "PqtZKDiHMeqYeL8vJRE2qET4AropGanaWuV7BI4WIew=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mofish-tool-1.0.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1087624": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31771/1087624/mofish-tool-1.0.1.zip?updateId=1087624&pluginId=31771&family=INTELLIJ",
+      "sha256": "a1J9K7KUH+rrKQDhRNxOjddJTXb7JhZHuafBDQ1oPyw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mofish-tool-1.0.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1086153,
+      "1.0.1": 1087624
+    }
+  }
 }

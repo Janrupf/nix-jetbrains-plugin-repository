@@ -3965,6 +3965,47 @@
       "since": "262.8117",
       "until": "262.8117.*",
       "compatibility_overrides": []
+    },
+    "1086882": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19237/1086882/graalvm-262.8377.35.zip?updateId=1086882&pluginId=19237&family=INTELLIJ",
+      "sha256": "Ju0qLDPJcWmF2ricc9f9wPV03b/1xlnym/rB0kirRas=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.psi",
+        "intellij.platform.debugger.impl.ui",
+        "intellij.platform.testRunner",
+        "intellij.platform.remoteServers.impl",
+        "intellij.platform.jps.build",
+        "org.intellij.groovy",
+        "intellij.cidr.debugger.backend",
+        "intellij.maven",
+        "intellij.json.backend",
+        "intellij.cidr.util.execution",
+        "intellij.platform.smRunner",
+        "com.intellij.microservices.jvm",
+        "com.intellij.modules.ultimate",
+        "intellij.clouds.docker.remoteRun",
+        "intellij.cidr.runner",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.idea.ultimate",
+        "intellij.java.debugger.impl",
+        "com.intellij.nativeDebug",
+        "intellij.java.backend",
+        "intellij.java.execution.impl",
+        "intellij.cidr.debugger.core"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "intellij.gradle",
+        "com.intellij.microservices.debugger",
+        "intellij.libraries.jspecify",
+        "intellij.graalvm.gradle.tooling",
+        "intellij.gradle.toolingExtension"
+      ],
+      "file_name": "graalvm-262.8377.35.zip",
+      "since": "262.8377",
+      "until": "262.8377.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4135,7 +4176,8 @@
       "262.6653.22": 1059333,
       "262.7132.23": 1066675,
       "262.7581.18": 1076067,
-      "262.8117.19": 1081738
+      "262.8117.19": 1081738,
+      "262.8377.35": 1086882
     }
   }
 }

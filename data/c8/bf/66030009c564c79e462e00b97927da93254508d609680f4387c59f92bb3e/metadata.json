@@ -5271,6 +5271,50 @@
       "since": "262.8117",
       "until": "262.8117.*",
       "compatibility_overrides": []
+    },
+    "1086347": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8595/1086347/php-docker-261.26222.22.zip?updateId=1086347&pluginId=8595&family=INTELLIJ",
+      "sha256": "FtHDzU1rg+duijKHXIzZwnj/a8dio3/iaG+GxkqyH1o=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.clouds.docker.remoteRun",
+        "com.jetbrains.plugins.webDeployment",
+        "org.jetbrains.plugins.remote-run",
+        "Docker",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "com.jetbrains.php",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "php-docker-261.26222.22.zip",
+      "since": "261.26222",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1086734": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8595/1086734/php-docker-262.8377.35.zip?updateId=1086734&pluginId=8595&family=INTELLIJ",
+      "sha256": "xQM4KW+jut8KnzSmxbXt+GZn0zPETNAFI3T8wexRHV8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "intellij.clouds.docker.remoteRun",
+        "org.jetbrains.plugins.remote-run",
+        "Docker",
+        "com.jetbrains.php",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.platform.remoteServers.impl",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-docker",
+        "intellij.php.remoteInterpreter.coverage",
+        "intellij.clouds.docker.agent",
+        "intellij.clouds.docker"
+      ],
+      "file_name": "php-docker-262.8377.35.zip",
+      "since": "262.8377",
+      "until": "262.8377.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5552,13 +5596,15 @@
       "261.21849.20": 966154,
       "261.22158.182": 989412,
       "261.22158.46": 977914,
+      "261.26222.22": 1086347,
       "262.4852.50": 1041840,
       "262.5752.32": 1048115,
       "262.6228.19": 1052764,
       "262.6653.22": 1059201,
       "262.7132.23": 1066801,
       "262.7581.18": 1076148,
-      "262.8117.19": 1081855
+      "262.8117.19": 1081855,
+      "262.8377.35": 1086734
     }
   }
 }

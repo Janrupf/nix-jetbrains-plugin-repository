@@ -46,13 +46,29 @@
       "since": "231.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1086515": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32187/1086515/protectt-android-studio-plugin-1.0.4.zip?updateId=1086515&pluginId=32187&family=INTELLIJ",
+      "sha256": "hSQpaU8hEl5zek67YJvWyG7bim6upjBo+AFW/guIMBc=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "protectt-android-studio-plugin-1.0.4.zip",
+      "since": "231.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "1.0.0": 1070595,
       "1.0.2": 1079219,
-      "1.0.3": 1085268
+      "1.0.3": 1085268,
+      "1.0.4": 1086515
     }
   }
 }

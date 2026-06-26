@@ -13,12 +13,101 @@
       ],
       "optional_dependencies": [],
       "file_name": "BuildBell-1.0.0.zip",
-      "since": "213.0",
+      "since": "233",
+      "until": "263.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "213.0",
+          "applies_until": "263.*",
+          "compatible_since": "233",
+          "compatible_until": "263.*"
+        }
+      ]
+    },
+    "1087559": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32401/1087559/BuildBell-1.0.0-rc.1-signed.zip?updateId=1087559&pluginId=32401&family=INTELLIJ",
+      "sha256": "0gGasP9L/qrOScfpC3CscJQmySWjZcIGuYFRAmK6aO4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "BuildBell-1.0.0-rc.1-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1087560": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32401/1087560/BuildBell-1.0.0-rc.2-signed.zip?updateId=1087560&pluginId=32401&family=INTELLIJ",
+      "sha256": "X3EE+nlosivXOFyuR3OiEKtp6IeipTAgY4LAnBpP2yM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "BuildBell-1.0.0-rc.2-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1087568": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32401/1087568/BuildBell-1.0.0-rc.3-signed.zip?updateId=1087568&pluginId=32401&family=INTELLIJ",
+      "sha256": "/RdXG+B4ALCfQBEeFKKZO+UQn4oaS2l3GCci+5YI4/Q=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "BuildBell-1.0.0-rc.3-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1087597": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32401/1087597/BuildBell-1.0.0-rc.4-signed.zip?updateId=1087597&pluginId=32401&family=INTELLIJ",
+      "sha256": "ciNiRg7t6n8OcvGxoHy/1GgnK6YqIC4lT2sU7Dk+vQ8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "BuildBell-1.0.0-rc.4-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1087602": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32401/1087602/BuildBell-1.0.0-rc.5-signed.zip?updateId=1087602&pluginId=32401&family=INTELLIJ",
+      "sha256": "prrbNFp8xEl6Z9QY/RGKlu0cVq5kmJWpy1HNmyBu0IM=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.android",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.androidstudio"
+      ],
+      "optional_dependencies": [],
+      "file_name": "BuildBell-1.0.0-rc.5-signed.zip",
+      "since": "233.0",
       "until": "263.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.0.0-rc.1": 1087559,
+      "1.0.0-rc.2": 1087560,
+      "1.0.0-rc.3": 1087568,
+      "1.0.0-rc.4": 1087597,
+      "1.0.0-rc.5": 1087602
+    },
     "stable": {
       "1.0.0": 1083823
     }

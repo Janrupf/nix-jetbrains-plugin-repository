@@ -1683,8 +1683,8 @@
         "org.jetbrains.plugins.yaml"
       ],
       "file_name": "puppet.zip",
-      "since": "201.7223",
-      "until": "201.*",
+      "since": null,
+      "until": null,
       "compatibility_overrides": []
     },
     "85502": {
@@ -18572,6 +18572,24 @@
       "since": "262.8117",
       "until": "262.8117.*",
       "compatibility_overrides": []
+    },
+    "1086577": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7180/1086577/puppet-262.8377.20.zip?updateId=1086577&pluginId=7180&family=INTELLIJ",
+      "sha256": "erHZpwasC4KwdHQh/EBfbx5wegwNeCaWVhYm+3NMZYg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json.backend",
+        "com.intellij.modules.lang",
+        "intellij.regexp",
+        "intellij.yaml"
+      ],
+      "optional_dependencies": [
+        "intellij.yaml.backend"
+      ],
+      "file_name": "puppet-262.8377.20.zip",
+      "since": "262.8377",
+      "until": "262.8377.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -19789,6 +19807,7 @@
       "262.7132.23": 1067071,
       "262.7581.3": 1074231,
       "262.8117.14": 1081252,
+      "262.8377.20": 1086577,
       "5.0.0.20130314": 12908,
       "5.4.0.20130404": 13082,
       "5.4.0.20130618": 13554,

@@ -1462,6 +1462,53 @@
       "since": "262.8117",
       "until": "262.8117.*",
       "compatibility_overrides": []
+    },
+    "1086822": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27164/1086822/maven-plugin-262.8377.35.zip?updateId=1086822&pluginId=27164&family=INTELLIJ",
+      "sha256": "ICGT8bwGNkjelcKcJTDeL29HrOFq64n+BDiEuimn94E=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.execution",
+        "intellij.java.psi",
+        "intellij.java.impl",
+        "intellij.platform.testRunner",
+        "intellij.spellchecker",
+        "intellij.properties.psi",
+        "intellij.properties.backend",
+        "intellij.java",
+        "intellij.java.ui",
+        "intellij.java.xml.dom.impl",
+        "intellij.platform.buildScripts.downloader",
+        "intellij.java.debugger.impl.shared",
+        "intellij.properties.backend.psi",
+        "intellij.java.compiler",
+        "intellij.java.compiler.impl",
+        "intellij.java.debugger.impl",
+        "intellij.java.syntax",
+        "intellij.java.execution.impl",
+        "intellij.java.aetherDependencyResolver"
+      ],
+      "optional_dependencies": [
+        "intellij.maven.completion",
+        "intellij.platform.jps.build",
+        "intellij.libraries.plexus.utils",
+        "org.intellij.groovy",
+        "intellij.profiler.ultimate",
+        "intellij.repository.search.completion",
+        "tanvd.grazi",
+        "com.jetbrains.performancePlugin",
+        "intellij.repository.search.common",
+        "intellij.maven.jps",
+        "intellij.grazie.core",
+        "com.intellij.modules.ultimate",
+        "intellij.repository.search.ultimate",
+        "intellij.maven",
+        "Error-prone plugin"
+      ],
+      "file_name": "maven-plugin-262.8377.35.zip",
+      "since": "262.8377",
+      "until": "262.8377.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1523,7 +1570,8 @@
       "262.6653.22": 1059100,
       "262.7132.23": 1066730,
       "262.7581.18": 1076095,
-      "262.8117.19": 1081776
+      "262.8117.19": 1081776,
+      "262.8377.35": 1086822
     }
   }
 }

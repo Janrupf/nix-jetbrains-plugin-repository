@@ -146,22 +146,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1034315": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1034315/intellij-plugin-pmd-1.0.9.20260428074048-SNAPSHOT.zip?updateId=1034315&pluginId=28935&family=INTELLIJ",
-      "sha256": "wC3aHwrhIxO7ncq3gneR3gOfnBYfqkRUVejDBSrpQcc=",
-      "channel": "snapshot",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin"
-      ],
-      "file_name": "intellij-plugin-pmd-1.0.9.20260428074048-SNAPSHOT.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1034326": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1034326/intellij-plugin-pmd-1.1.0.20260428081020-SNAPSHOT.zip?updateId=1034326&pluginId=28935&family=INTELLIJ",
       "sha256": "fsIpa7rwEqEj7C/3ykHfFT98ARQ5upQYLKbbMXVSCwA=",
@@ -225,12 +209,28 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1086133": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1086133/intellij-plugin-pmd-1.1.3.20260625090743-SNAPSHOT.zip?updateId=1086133&pluginId=28935&family=INTELLIJ",
+      "sha256": "w1ZuAu4RNv9CB6lHOUcjjO4/V8GBGMCdDDKlZOQzud0=",
+      "channel": "snapshot",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "intellij-plugin-pmd-1.1.3.20260625090743-SNAPSHOT.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "snapshot": {
-      "1.0.9.20260428074048-SNAPSHOT": 1034315,
-      "1.1.0.20260428081020-SNAPSHOT": 1034326
+      "1.1.0.20260428081020-SNAPSHOT": 1034326,
+      "1.1.3.20260625090743-SNAPSHOT": 1086133
     },
     "stable": {
       "1.0.0": 889005,
