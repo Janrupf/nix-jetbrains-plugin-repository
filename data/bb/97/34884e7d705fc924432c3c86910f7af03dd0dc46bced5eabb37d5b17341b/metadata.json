@@ -29,11 +29,40 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1088855": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32492/1088855/sigil-1.1.41-signed.zip?updateId=1088855&pluginId=32492&family=INTELLIJ",
+      "sha256": "rbhT8KnRaKUoOYD9X1e6BHjtyk7+j7n3FTVz6j+cW1Q=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.jewel.markdown.extensions.autolink",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "com.intellij.modules.lang",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.markdown.extensions.gfmAlerts",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "intellij.platform.jewel.foundation",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.markdown.extensions.gfmStrikethrough",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "sigil-1.1.41-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1087572
+      "1.0.0": 1087572,
+      "1.1.41": 1088855
     }
   }
 }

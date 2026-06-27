@@ -46,13 +46,47 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1088835": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32426/1088835/intellij-shoaku-0.1.0-beta.3.zip?updateId=1088835&pluginId=32426&family=INTELLIJ",
+      "sha256": "9AkpmRvuEQLdRfSVtMgTYkcx9um/EREwg5Y1aF7DLyw=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-shoaku-0.1.0-beta.3.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1088845": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32426/1088845/intellij-shoaku-0.1.0.zip?updateId=1088845&pluginId=32426&family=INTELLIJ",
+      "sha256": "zcG4EelkG3lv+zwU8uPgjPaHU+7gz0/j5yHJC5fV3H4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.compose",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-shoaku-0.1.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "0.1.0-beta.0": 1084651,
       "0.1.0-beta.1": 1084674,
-      "0.1.0-beta.2": 1086512
+      "0.1.0-beta.2": 1086512,
+      "0.1.0-beta.3": 1088835
+    },
+    "stable": {
+      "0.1.0": 1088845
     }
   }
 }
