@@ -2,17 +2,32 @@
   "xml_id": "com.ecds.deploy.helper",
   "numeric_id": 32481,
   "updates": {
-    "1086140": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32481/1086140/ECDS_Deploy_Helper-0.1.0.zip?updateId=1086140&pluginId=32481&family=INTELLIJ",
-      "sha256": "aUXQxOasAnFwC2QFtvJgtUWF4KXfXwnJHzDYgydlYgY=",
+    "1087935": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32481/1087935/ECDS_Deploy_Helper-0.1.1.zip?updateId=1087935&pluginId=32481&family=INTELLIJ",
+      "sha256": "mRu9ZmtzW1bKfP9cInGdfW2J4S++bDGz/gr1aamOAVE=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.idea.maven",
         "com.intellij.java",
-        "com.intellij.modules.platform",
-        "org.jetbrains.idea.maven"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ECDS_Deploy_Helper-0.1.0.zip",
+      "file_name": "ECDS_Deploy_Helper-0.1.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1089905": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32481/1089905/ECDS_Deploy_Helper-0.1.2.zip?updateId=1089905&pluginId=32481&family=INTELLIJ",
+      "sha256": "F9xTGb1EERsXc6QqxxCZhLahB1DIVHrNTmxv9hX1M34=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ECDS_Deploy_Helper-0.1.2.zip",
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
@@ -20,7 +35,8 @@
   },
   "channels": {
     "stable": {
-      "0.1.0": 1086140
+      "0.1.1": 1087935,
+      "0.1.2": 1089905
     }
   }
 }

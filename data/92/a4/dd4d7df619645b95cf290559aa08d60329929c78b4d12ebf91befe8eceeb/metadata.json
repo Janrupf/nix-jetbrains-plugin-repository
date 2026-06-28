@@ -49,13 +49,30 @@
       "since": "242.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1089362": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31208/1089362/madock-idea-plugin-2026.3.1.zip?updateId=1089362&pluginId=31208&family=INTELLIJ",
+      "sha256": "0D/mWZ/gZTVLXX3ZzSkPLl9jCG2N6LOwW+xSPZFp1Gw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php"
+      ],
+      "file_name": "madock-idea-plugin-2026.3.1.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.1.0": 1022279,
       "2026.2.0": 1052184,
-      "2026.3.0": 1052226
+      "2026.3.0": 1052226,
+      "2026.3.1": 1089362
     }
   }
 }

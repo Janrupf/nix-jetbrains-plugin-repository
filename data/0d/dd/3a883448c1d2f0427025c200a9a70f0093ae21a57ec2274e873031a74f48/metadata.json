@@ -15,11 +15,26 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1089906": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28107/1089906/nacos-search-1.1.0.zip?updateId=1089906&pluginId=28107&family=INTELLIJ",
+      "sha256": "2KukcZfe2GgjzsGpprW27T0kqhCNtvkDDMty4ASL8wY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nacos-search-1.1.0.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 818224
+      "1.0.0": 818224,
+      "1.1.0": 1089906
     }
   }
 }

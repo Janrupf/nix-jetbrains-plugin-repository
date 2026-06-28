@@ -16,11 +16,27 @@
       "since": "232.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1090055": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31273/1090055/flink-reactor-intellij-1.0.1.zip?updateId=1090055&pluginId=31273&family=INTELLIJ",
+      "sha256": "/EevuUpobJyOVByeeuE0lcydrFBNVqHn2yfiavLw3mE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "flink-reactor-intellij-1.0.1.zip",
+      "since": "232.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1020851
+      "1.0.0": 1020851,
+      "1.0.1": 1090055
     }
   }
 }
