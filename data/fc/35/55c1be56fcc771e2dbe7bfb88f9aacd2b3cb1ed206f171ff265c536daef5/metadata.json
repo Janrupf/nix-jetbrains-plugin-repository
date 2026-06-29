@@ -16,11 +16,27 @@
       "since": "241.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "1090190": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32408/1090190/check-jetbrains-1.0.1.zip?updateId=1090190&pluginId=32408&family=INTELLIJ",
+      "sha256": "EEl+KpN8c4hbr8WUx1EUdILM221kg6ZYlrqXQis9Lb8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "check-jetbrains-1.0.1.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1084047
+      "1.0.0": 1084047,
+      "1.0.1": 1090190
     }
   }
 }
