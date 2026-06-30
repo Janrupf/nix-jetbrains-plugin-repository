@@ -46,13 +46,30 @@
       "since": "251.26094",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1090838": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32211/1090838/Firebase_Co-Pilot_Build_Uploader-2.0.2.zip?updateId=1090838&pluginId=32211&family=INTELLIJ",
+      "sha256": "rWkAfwaKWvt4Ht33JiMx9yAo29Ti99mNVP8bT6MoLL8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Firebase_Co-Pilot_Build_Uploader-2.0.2.zip",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1072489,
       "2.0.0": 1078176,
-      "2.0.1": 1084564
+      "2.0.1": 1084564,
+      "2.0.2": 1090838
     }
   }
 }

@@ -1076,9 +1076,32 @@
       "since": "262.8377",
       "until": "262.8377.*",
       "compatibility_overrides": []
+    },
+    "1091187": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31360/1091187/jcef-plugin-262.8377.35-windows-x86_64.zip?updateId=1091187&pluginId=31360&family=INTELLIJ",
+      "sha256": "xZii6XNjsrdRkj9lL448A93+rwX6WQVxXNtVKf4y51E=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.x86_64"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.libraries.jcef",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.ide.newUiOnboarding"
+      ],
+      "file_name": "jcef-plugin-262.8377.35-windows-x86_64.zip",
+      "since": "262.8377",
+      "until": "262.8377.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "nightly": {
+      "262.8377.35-windows-x86_64": 1091187
+    },
     "stable": {
       "261.22158.409-linux-x86_64": 1026759,
       "261.22158.409-mac-arm64": 1026758,

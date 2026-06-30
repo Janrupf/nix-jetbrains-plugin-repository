@@ -7686,6 +7686,102 @@
       "since": "261.22158.182",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1091052": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1091052/jmix-studio-3.0.0-261.zip?updateId=1091052&pluginId=14340&family=INTELLIJ",
+      "sha256": "r9SNCRvMry5wbROVquOE4u8JRkTCqXUwOJS6e12l1+0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.groovy",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "com.intellij.liquibase"
+      ],
+      "file_name": "jmix-studio-3.0.0-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1091053": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1091053/jmix-studio-3.0.0-253.zip?updateId=1091053&pluginId=14340&family=INTELLIJ",
+      "sha256": "i+QODuA5LnFx/+AruY3qz1UIMXrbO8alo0sy4YZf61k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database"
+      ],
+      "file_name": "jmix-studio-3.0.0-253.zip",
+      "since": "253.28086.51",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1091616": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1091616/jmix-studio-3.0.NIGHTLY1729-253.zip?updateId=1091616&pluginId=14340&family=INTELLIJ",
+      "sha256": "Bs8DhxYVdyLaOeH1l182NgW7QlKIwxEUnULUaWdAjrs=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-3.0.NIGHTLY1729-253.zip",
+      "since": "253.28086.51",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1091620": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1091620/jmix-studio-3.0.NIGHTLY1730-261.zip?updateId=1091620&pluginId=14340&family=INTELLIJ",
+      "sha256": "KlpkMYPEiItlLVlIxH05mEXtsZ8Vt9ruCT2YkuqahpY=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot",
+        "Docker",
+        "com.intellij.javaee.jpa"
+      ],
+      "file_name": "jmix-studio-3.0.NIGHTLY1730-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -7836,7 +7932,9 @@
       "3.0.NIGHTLY1725-253": 1087585,
       "3.0.NIGHTLY1726-261": 1087592,
       "3.0.NIGHTLY1727-253": 1089025,
-      "3.0.NIGHTLY1728-261": 1089030
+      "3.0.NIGHTLY1728-261": 1089030,
+      "3.0.NIGHTLY1729-253": 1091616,
+      "3.0.NIGHTLY1730-261": 1091620
     },
     "stable": {
       "0.2-202": 105670,
@@ -8011,7 +8109,9 @@
       "2.8.1-253": 1030656,
       "2.8.1-261": 1030657,
       "2.8.2-253": 1065369,
-      "2.8.2-261": 1065368
+      "2.8.2-261": 1065368,
+      "3.0.0-253": 1091053,
+      "3.0.0-261": 1091052
     }
   }
 }
