@@ -37,12 +37,31 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1093551": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32489/1093551/dependencyscout-1.1.0.zip?updateId=1093551&pluginId=32489&family=INTELLIJ",
+      "sha256": "YKp7sq4DQMtk1rJfxBeQkO50xgkmApW4VN+3XAnhLWg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "org.toml.lang"
+      ],
+      "file_name": "dependencyscout-1.1.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1087064,
-      "1.0.1": 1088150
+      "1.0.1": 1088150,
+      "1.1.0": 1093551
     }
   }
 }

@@ -17,11 +17,28 @@
       "since": "202",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1093728": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22463/1093728/MavenHelperPro-1.1.0-obfuscated.zip?updateId=1093728&pluginId=22463&family=INTELLIJ",
+      "sha256": "LGLwDZ4zzR2A/SmdBuUusutc5o4lZY3x4defGjcDD1s=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.idea",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MavenHelperPro-1.1.0-obfuscated.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 375619
+      "1.0.0": 375619,
+      "1.1.0": 1093728
     }
   }
 }
