@@ -15,11 +15,26 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1095036": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32097/1095036/branch-guard-0.0.2.zip?updateId=1095036&pluginId=32097&family=INTELLIJ",
+      "sha256": "Ecd/yGXJpJvzCdzUbXqFy64SSlSrrTsyeEpmdZZFGEc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "branch-guard-0.0.2.zip",
+      "since": "243.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 1066067
+      "0.0.1": 1066067,
+      "0.0.2": 1095036
     }
   }
 }

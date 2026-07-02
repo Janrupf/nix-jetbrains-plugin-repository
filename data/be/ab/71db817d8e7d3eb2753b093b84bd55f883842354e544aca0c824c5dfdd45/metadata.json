@@ -6446,6 +6446,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1094905": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9473/1094905/TeXiFy-IDEA-1.0.1.zip?updateId=1094905&pluginId=9473&family=INTELLIJ",
+      "sha256": "+pPRcKiUNKg97WtiyFhpUY+vp2SdSCHBZpImVExmykk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "tanvd.grazi",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "TeXiFy-IDEA-1.0.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "261.0",
+          "applies_until": "999.99999",
+          "compatible_since": "262.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -6864,7 +6887,8 @@
       "0.9.7": 570666,
       "0.9.8": 630927,
       "0.9.9": 642596,
-      "1.0.0": 1084050
+      "1.0.0": 1084050,
+      "1.0.1": 1094905
     }
   }
 }

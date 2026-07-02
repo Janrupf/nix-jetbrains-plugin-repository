@@ -2,20 +2,6 @@
   "xml_id": "com.qrowsolutions.stack-doctor",
   "numeric_id": 32506,
   "updates": {
-    "1088684": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32506/1088684/stack-doctor-0.1.0-signed.zip?updateId=1088684&pluginId=32506&family=INTELLIJ",
-      "sha256": "YnbYXyOoWuDKiFjLFOcDQLXS623gY3q2y4TjCZP6Vnc=",
-      "channel": "stable",
-      "dependencies": [
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "stack-doctor-0.1.0-signed.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1088852": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32506/1088852/stack-doctor-0.1.1-signed.zip?updateId=1088852&pluginId=32506&family=INTELLIJ",
       "sha256": "WZKzKCAa9JGG3HaRJ02UVFPU4ZYlwgkffSLfoXsSJRc=",
@@ -43,13 +29,27 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1094682": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32506/1094682/stack-doctor-0.3.0-signed.zip?updateId=1094682&pluginId=32506&family=INTELLIJ",
+      "sha256": "OBnFleCatS0ucNDgZX55ylZ0ZP3MoZl28Omjmr04pF0=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "stack-doctor-0.3.0-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1088684,
       "0.1.1": 1088852,
-      "0.2.1": 1093706
+      "0.2.1": 1093706,
+      "0.3.0": 1094682
     }
   }
 }

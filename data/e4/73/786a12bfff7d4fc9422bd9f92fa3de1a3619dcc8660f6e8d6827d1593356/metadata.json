@@ -18,11 +18,29 @@
       "since": "261.22158",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1094885": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32138/1094885/kcp-clion-plugin-0.1.1.zip?updateId=1094885&pluginId=32138&family=INTELLIJ",
+      "sha256": "a7fjmKmQcgNj5xTRZMELx6NSrF2I+fOBXAS7ofEfvUg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.nativeDebug",
+        "com.intellij.modules.platform",
+        "intellij.cidr.execution",
+        "intellij.cidr.runner"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kcp-clion-plugin-0.1.1.zip",
+      "since": "262.8117",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1068782
+      "0.1.0": 1068782,
+      "0.1.1": 1094885
     }
   }
 }

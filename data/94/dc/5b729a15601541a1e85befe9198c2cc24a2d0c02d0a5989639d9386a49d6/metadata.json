@@ -2,36 +2,6 @@
   "xml_id": "com.yapi.generator.qiyun.YApiImporter",
   "numeric_id": 17845,
   "updates": {
-    "142932": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/17845/142932/YApi_Importer-1.0.1.zip?updateId=142932&pluginId=17845&family=INTELLIJ",
-      "sha256": "xxQC87nvYXnJhCCj4xz+od4ZfhqowLLWodblGs7e6yg=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "YApi_Importer-1.0.1.zip",
-      "since": "181.*",
-      "until": "212.*",
-      "compatibility_overrides": []
-    },
-    "143578": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/17845/143578/YApi_Importer-1.0.2.zip?updateId=143578&pluginId=17845&family=INTELLIJ",
-      "sha256": "gzbr4o1bozFdzx+It6PlljARGXfHbK+V5dqmC8Jj2+c=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "YApi_Importer-1.0.2.zip",
-      "since": "181.*",
-      "until": "212.*",
-      "compatibility_overrides": []
-    },
     "144533": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17845/144533/YApi_Importer-1.0.3.zip?updateId=144533&pluginId=17845&family=INTELLIJ",
       "sha256": "exp7Z+MB+RRuW/IuGckqXPqX0JymxYbMTKAWtdacLiI=",
@@ -61,14 +31,44 @@
       "since": "181.*",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1094456": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17845/1094456/YApi_Importer-1.2.0-obfuscated.zip?updateId=1094456&pluginId=17845&family=INTELLIJ",
+      "sha256": "j8pemAnNzZPdej0AW2WZBA8lnBISpMZ5B/UjAlFnDE4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "YApi_Importer-1.2.0-obfuscated.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1094506": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17845/1094506/YApi_Importer-1.2.1-obfuscated.zip?updateId=1094506&pluginId=17845&family=INTELLIJ",
+      "sha256": "TLBZiNCJy7HeLfUWqTxeMcVv3j5clGk+BAWJ9nOMpA0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "YApi_Importer-1.2.1-obfuscated.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 142932,
-      "1.0.2": 143578,
       "1.0.3": 144533,
-      "1.0.4": 300546
+      "1.0.4": 300546,
+      "1.2.0": 1094456,
+      "1.2.1": 1094506
     }
   }
 }
