@@ -52,13 +52,31 @@
       "since": "261.23567",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1096300": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31739/1096300/gimlet-0.1.5.zip?updateId=1096300&pluginId=31739&family=INTELLIJ",
+      "sha256": "fqEwovPcZfdU7qRQfemlk+wIiXaVAUoangWyHmU+g7o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.cidr.debugger",
+        "intellij.rustrover.debugger.runners",
+        "com.intellij.modules.platform",
+        "com.jetbrains.rust",
+        "com.intellij.modules.rustrover"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gimlet-0.1.5.zip",
+      "since": "261.23567",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.2": 1049994,
       "0.1.3": 1051433,
-      "0.1.4": 1083825
+      "0.1.4": 1083825,
+      "0.1.5": 1096300
     }
   }
 }

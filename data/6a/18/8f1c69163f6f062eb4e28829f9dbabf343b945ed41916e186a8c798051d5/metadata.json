@@ -18,11 +18,47 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1096109": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32555/1096109/go-doc-goland-plugin-0.13.4.zip?updateId=1096109&pluginId=32555&family=INTELLIJ",
+      "sha256": "VxHbOsISQ5C9zAhlQ3mZ+HLRktT2kEkIsX30jtA9BcM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.go-template"
+      ],
+      "optional_dependencies": [],
+      "file_name": "go-doc-goland-plugin-0.13.4.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1096112": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32555/1096112/go-doc-goland-plugin-0.13.5.zip?updateId=1096112&pluginId=32555&family=INTELLIJ",
+      "sha256": "XBKsNI/S/wwZN/GateGoOLSpasZZNOkZQAqLAMVGh5Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.go-template",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "go-doc-goland-plugin-0.13.5.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.13.3": 1091555
+      "0.13.3": 1091555,
+      "0.13.4": 1096109,
+      "0.13.5": 1096112
     }
   }
 }

@@ -1157,6 +1157,39 @@
       "since": "262.8377",
       "until": "262.8377.*",
       "compatibility_overrides": []
+    },
+    "1095705": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28488/1095705/bigdatatools-awsBase-261.26222.65.zip?updateId=1095705&pluginId=28488&family=INTELLIJ",
+      "sha256": "7i1y2tG2OQClz9xhX+rV1b9so43mMAVNh09HcdQ/6Og=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.bigdatatools.coreUi",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.grpc"
+      ],
+      "optional_dependencies": [],
+      "file_name": "bigdatatools-awsBase-261.26222.65.zip",
+      "since": "261.26222",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1095987": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28488/1095987/bigdatatools-awsBase-262.8665.65.zip?updateId=1095987&pluginId=28488&family=INTELLIJ",
+      "sha256": "bgaoq/C9toQzqfjkCqL15O74BC7cVzref7GbM70PASM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.platform.ssh",
+        "intellij.bigdatatools.coreUi",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.jettison",
+        "intellij.libraries.grpc"
+      ],
+      "optional_dependencies": [],
+      "file_name": "bigdatatools-awsBase-262.8665.65.zip",
+      "since": "262.8665",
+      "until": "262.8665.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1208,6 +1241,7 @@
       "261.25134.67": 1060292,
       "261.25134.95": 1066432,
       "261.26222.22": 1086409,
+      "261.26222.65": 1095705,
       "262.4852.50": 1041827,
       "262.5752.32": 1048004,
       "262.6228.19": 1052896,
@@ -1232,7 +1266,8 @@
       "262.8117.46": 1084069,
       "262.8377.35": 1086747,
       "262.8377.40": 1086764,
-      "262.8377.43": 1087418
+      "262.8377.43": 1087418,
+      "262.8665.65": 1095987
     }
   }
 }

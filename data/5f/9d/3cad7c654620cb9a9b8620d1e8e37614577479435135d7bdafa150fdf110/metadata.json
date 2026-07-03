@@ -28689,6 +28689,50 @@
       "since": "262.8377",
       "until": "262.8377.*",
       "compatibility_overrides": []
+    },
+    "1096045": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/1096045/clouds-kubernetes-262.8665.65.zip?updateId=1096045&pluginId=10485&family=INTELLIJ",
+      "sha256": "KrsIxc6jthmCWdbeMw71i4NEL9lliFJ1sXuwP91xKMo=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.ktor.client.cio",
+        "org.jetbrains.plugins.yaml",
+        "Docker",
+        "intellij.json",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.execution.serviceView",
+        "intellij.yaml"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.vcs",
+        "intellij.json.backend",
+        "com.intellij.cron",
+        "intellij.platform.editor.frontend",
+        "intellij.yaml.backend",
+        "intellij.platform.frontend",
+        "intellij.clouds.kubernetes.libraries",
+        "intellij.clouds.kubernetes",
+        "intellij.yaml.helm",
+        "intellij.database.util",
+        "intellij.platform.vcs.impl",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.frontend",
+        "org.jetbrains.plugins.go-template",
+        "intellij.spellchecker",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.commercial.verifier",
+        "intellij.clouds.kubernetes.backend",
+        "intellij.platform.backend",
+        "com.intellij.database",
+        "intellij.clouds.docker.compose",
+        "intellij.database.impl",
+        "intellij.clouds.docker.agent",
+        "intellij.database.core.impl"
+      ],
+      "file_name": "clouds-kubernetes-262.8665.65.zip",
+      "since": "262.8665",
+      "until": "262.8665.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -30133,7 +30177,8 @@
       "262.7132.27": 1067552,
       "262.7581.3": 1074232,
       "262.8117.20": 1081937,
-      "262.8377.20": 1086606
+      "262.8377.20": 1086606,
+      "262.8665.65": 1096045
     }
   }
 }

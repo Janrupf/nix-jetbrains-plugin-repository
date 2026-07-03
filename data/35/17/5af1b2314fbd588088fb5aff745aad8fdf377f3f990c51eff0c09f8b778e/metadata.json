@@ -113,12 +113,64 @@
       "since": "262.8377",
       "until": "262.8377.*",
       "compatibility_overrides": []
+    },
+    "1095995": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32355/1095995/c-262.8665.65.zip?updateId=1095995&pluginId=32355&family=INTELLIJ",
+      "sha256": "Ot8e8ojETkYOlgWl+8Fb4vldKOii1VV9ZcDicU2PwrI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.cidr.core",
+        "intellij.cidr.projectModel",
+        "com.intellij.modules.c-capable",
+        "intellij.cidr.debugger.backend",
+        "intellij.cidr.asm",
+        "intellij.cidr.lang.base",
+        "intellij.cidr.util.execution",
+        "intellij.c.core.base",
+        "intellij.libraries.objenesis",
+        "intellij.cidr.runner",
+        "intellij.xml.structureView.impl",
+        "intellij.cidr.psi.base",
+        "intellij.cidr.util",
+        "intellij.cidr.modulemap.language",
+        "intellij.cidr.execution",
+        "intellij.platform.structureView",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.util.serializer",
+        "intellij.spellchecker",
+        "intellij.cidr.workspaceModel",
+        "intellij.c.core",
+        "intellij.cidr.lang.base.icons"
+      ],
+      "optional_dependencies": [
+        "intellij.clion.toolchains",
+        "intellij.clion.projectStatus",
+        "com.intellij.modules.nativeDebug",
+        "intellij.platform.langInjection",
+        "intellij.markdown",
+        "intellij.clion.featuresTrainer",
+        "intellij.clion.runFile",
+        "intellij.clion.execution",
+        "intellij.cidr.debugger.profiles",
+        "intellij.profiler.clion",
+        "com.jetbrains.performancePlugin",
+        "intellij.c.doxygen",
+        "tanvd.grazi",
+        "org.intellij.plugins.markdown",
+        "training",
+        "intellij.cidr.profiling"
+      ],
+      "file_name": "c-262.8665.65.zip",
+      "since": "262.8665",
+      "until": "262.8665.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "262.8117.20": 1081946,
-      "262.8377.40": 1086712
+      "262.8377.40": 1086712,
+      "262.8665.65": 1095995
     }
   }
 }

@@ -193,6 +193,32 @@
       "since": "262.8377",
       "until": "262.8377.*",
       "compatibility_overrides": []
+    },
+    "1095942": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9696/1095942/debugger-streams-plugin-262.8665.65.zip?updateId=1095942&pluginId=9696&family=INTELLIJ",
+      "sha256": "hU99rwd8dBU6ZpniS6xSK13oVX9MHVsRvL2YhDokBLU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.debugger.streams.shared",
+        "intellij.platform.debugger.impl.ui"
+      ],
+      "optional_dependencies": [
+        "intellij.java.psi",
+        "intellij.java.debugger.impl",
+        "intellij.java.debugger.impl.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.debugger.streams.core",
+        "intellij.platform.rpc.backend",
+        "intellij.java.backend",
+        "intellij.java.frontback.psi",
+        "intellij.java",
+        "intellij.java.debugger",
+        "intellij.java.impl"
+      ],
+      "file_name": "debugger-streams-plugin-262.8665.65.zip",
+      "since": "262.8665",
+      "until": "262.8665.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -206,7 +232,8 @@
       "0.1.6": 42116,
       "262.7581.3": 1074217,
       "262.8117.14": 1081305,
-      "262.8377.20": 1086637
+      "262.8377.20": 1086637,
+      "262.8665.65": 1095942
     }
   }
 }
