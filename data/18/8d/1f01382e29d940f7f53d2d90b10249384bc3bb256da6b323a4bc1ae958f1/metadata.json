@@ -2,20 +2,6 @@
   "xml_id": "com.deepseek.plugin",
   "numeric_id": 32046,
   "updates": {
-    "1065392": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32046/1065392/dp-connection-1.0.3.zip?updateId=1065392&pluginId=32046&family=INTELLIJ",
-      "sha256": "xXDz+cqAHrFxoBcTK1ZdafWATxOEpY2d9npCWXK9qNE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "dp-connection-1.0.3.zip",
-      "since": "251.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "1067539": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32046/1067539/dp-connection-1.0.4.zip?updateId=1067539&pluginId=32046&family=INTELLIJ",
       "sha256": "k+qMh1eWzwX2FsY9EQrULYGn0qDkpSkw2l0xNYNLcE0=",
@@ -227,11 +213,25 @@
       "since": "241.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1097163": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32046/1097163/dp-connection-2.4.4.zip?updateId=1097163&pluginId=32046&family=INTELLIJ",
+      "sha256": "Sgoy0DrWXNtTkinY8O1AOpJwJZB7OBn72o3FlYh70Nc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "dp-connection-2.4.4.zip",
+      "since": "241.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.3": 1065392,
       "1.0.4": 1067539,
       "2.0.2": 1076829,
       "2.1.0": 1078180,
@@ -246,7 +246,8 @@
       "2.3.4": 1089893,
       "2.3.5": 1090984,
       "2.4.0": 1091365,
-      "2.4.1": 1093817
+      "2.4.1": 1093817,
+      "2.4.4": 1097163
     }
   }
 }

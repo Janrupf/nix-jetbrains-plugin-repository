@@ -6857,29 +6857,6 @@
       "until": "253.*",
       "compatibility_overrides": []
     },
-    "1084635": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/1084635/clion-2026.2-2026.06.23.0.zip?updateId=1084635&pluginId=9554&family=INTELLIJ",
-      "sha256": "8xIMiCxa96Qsz9XzBqjlwvrDC25JQdJZl5Wm7B+ZdwM=",
-      "channel": "stable",
-      "dependencies": [
-        "intellij.platform.lvcs.impl",
-        "org.jetbrains.plugins.textmate",
-        "com.intellij.nativeDebug",
-        "com.intellij.modules.clion",
-        "org.jetbrains.plugins.clion.test.google"
-      ],
-      "optional_dependencies": [
-        "org.jetbrains.plugins.clion.radler",
-        "org.jetbrains.plugins.terminal",
-        "com.intellij.cidr.lang",
-        "com.intellij.modules.python",
-        "JavaScript"
-      ],
-      "file_name": "clion-2026.2-2026.06.23.0.zip",
-      "since": "262.6653",
-      "until": "262.*",
-      "compatibility_overrides": []
-    },
     "1084636": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/1084636/clion-2026.1-2026.06.23.0.zip?updateId=1084636&pluginId=9554&family=INTELLIJ",
       "sha256": "G7slznh//i0loncNWjMfw/epPUKwIBIGsu0UwkIIGIk=",
@@ -6901,6 +6878,74 @@
       "file_name": "clion-2026.1-2026.06.23.0.zip",
       "since": "261.0",
       "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1097223": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/1097223/clion-2025.3-2026.07.03.0.zip?updateId=1097223&pluginId=9554&family=INTELLIJ",
+      "sha256": "RWVxveNPrgsZltoL4Bxh7V0Dpjg/DDhtND8LSAQO8B4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.nativeDebug",
+        "intellij.platform.lvcs.impl",
+        "org.jetbrains.plugins.textmate",
+        "org.jetbrains.plugins.clion.test.google",
+        "com.intellij.modules.clion"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.clion.radler",
+        "org.jetbrains.plugins.terminal",
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "clion-2025.3-2026.07.03.0.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1097224": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/1097224/clion-2026.1-2026.07.03.0.zip?updateId=1097224&pluginId=9554&family=INTELLIJ",
+      "sha256": "W9Y/hlrp/IzNo4dRjrwKB9+ZwkgTzLF6FrqzO8bClKo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.nativeDebug",
+        "intellij.platform.lvcs.impl",
+        "org.jetbrains.plugins.textmate",
+        "org.jetbrains.plugins.clion.test.google",
+        "com.intellij.modules.clion"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "JavaScript",
+        "org.jetbrains.plugins.clion.radler",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "clion-2026.1-2026.07.03.0.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1097225": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9554/1097225/clion-2026.2-2026.07.03.0.zip?updateId=1097225&pluginId=9554&family=INTELLIJ",
+      "sha256": "oyTmEcdltiguXUwx50GxPr1ykhecy/O6FKBsaKqDeHc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.nativeDebug",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.clion",
+        "org.jetbrains.plugins.clion.test.google",
+        "intellij.platform.lvcs.impl"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "JavaScript",
+        "org.jetbrains.plugins.clion.radler",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "clion-2026.2-2026.07.03.0.zip",
+      "since": "262.8377",
+      "until": "262.*",
       "compatibility_overrides": []
     }
   },
@@ -7244,7 +7289,9 @@
       "2026.05.20.0-api-version-261": 1052971,
       "2026.06.23.0-api-version-253": 1084634,
       "2026.06.23.0-api-version-261": 1084636,
-      "2026.06.23.0-api-version-262": 1084635
+      "2026.07.03.0-api-version-253": 1097223,
+      "2026.07.03.0-api-version-261": 1097224,
+      "2026.07.03.0-api-version-262": 1097225
     }
   }
 }

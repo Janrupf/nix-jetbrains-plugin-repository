@@ -645,6 +645,59 @@
       "since": "262.8377",
       "until": "262.8377.*",
       "compatibility_overrides": []
+    },
+    "1097063": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31850/1097063/amper-262.8665.81.zip?updateId=1097063&pluginId=31850&family=INTELLIJ",
+      "sha256": "qg1PQlp4EyAIVmP/PMCXtPbC+UIdnqKd03BYdLLP3gI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.gradle.java.toml",
+        "intellij.json.backend",
+        "JUnit",
+        "intellij.yaml.backend",
+        "org.jetbrains.kotlin",
+        "intellij.platform.testRunner",
+        "intellij.platform.smRunner",
+        "intellij.java.backend",
+        "intellij.gradle",
+        "intellij.java.execution.impl",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.spellchecker",
+        "intellij.libraries.plexus.utils",
+        "intellij.java.syntax",
+        "intellij.java.debugger.impl",
+        "org.toml.lang",
+        "intellij.java.psi",
+        "intellij.java.ui"
+      ],
+      "optional_dependencies": [
+        "intellij.kotlin.base.externalSystem",
+        "com.intellij.microservices.jvm",
+        "intellij.kotlin.projectWizard.idea",
+        "intellij.amper.jvm.microservices",
+        "intellij.kotlin.runConfigurations.jvm",
+        "intellij.kotlin.codeInsight.shared",
+        "kotlin.gradle.gradle-java",
+        "intellij.compose.ide.plugin.shared",
+        "intellij.kotlin.gradle.gradle",
+        "intellij.amper.kotlin",
+        "org.jetbrains.android",
+        "intellij.ktor",
+        "intellij.java.execution",
+        "intellij.profiler.ultimate",
+        "intellij.spring.boot.run",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.rpc.backend",
+        "intellij.yaml",
+        "intellij.platform.backend",
+        "intellij.profiler.common",
+        "intellij.java",
+        "org.jetbrains.kotlin-toolchain"
+      ],
+      "file_name": "amper-262.8665.81.zip",
+      "since": "262.8665",
+      "until": "262.8665.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -660,7 +713,8 @@
       "262.7132.23": 1066805,
       "262.7581.18": 1076147,
       "262.8117.19": 1081859,
-      "262.8377.35": 1086783
+      "262.8377.35": 1086783,
+      "262.8665.81": 1097063
     }
   }
 }

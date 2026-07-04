@@ -368,6 +368,29 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1097128": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20611/1097128/intellij-idea-plugin-1.7.0.jar?updateId=1097128&pluginId=20611&family=INTELLIJ",
+      "sha256": "xNZnSAAA2LMC+f7Oo7h8QL5oxRvKIxVfJmoPQLuI0v4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.idea.gradle.dsl",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-idea-plugin-1.7.0.jar",
+      "since": "233.0",
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "233.0",
+          "applies_until": "999.99999",
+          "compatible_since": "233.0",
+          "compatible_until": "261.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -390,7 +413,8 @@
       "1.4.0": 863655,
       "1.5.0": 916509,
       "1.6.0": 1014327,
-      "1.6.0-SNAPSHOT": 961378
+      "1.6.0-SNAPSHOT": 961378,
+      "1.7.0": 1097128
     }
   }
 }
