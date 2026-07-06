@@ -106,9 +106,27 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1098813": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30357/1098813/mcp-extension-unity-1.0.8-eap.1-signed.zip?updateId=1098813&pluginId=30357&family=INTELLIJ",
+      "sha256": "tXzlPwo++W8zMqXSGt/Cgwr0nD77OguLEh05pFZ04tE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.resharper.unity",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-extension-unity-1.0.8-eap.1-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.0.8-eap.1": 1098813
+    },
     "stable": {
       "1.0.0": 966972,
       "1.0.1": 970739,
