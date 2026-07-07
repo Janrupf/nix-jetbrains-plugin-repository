@@ -154,6 +154,42 @@
       "since": "233.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1099222": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27097/1099222/NestKit-1.3.0.zip?updateId=1099222&pluginId=27097&family=INTELLIJ",
+      "sha256": "a+X0aWwyQHaPYlcow8nmRQPWpWnkrw0Iji13tIjGAy4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.restClient",
+        "com.intellij.modules.platform",
+        "JavaScript",
+        "com.intellij.modules.microservices"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "NestKit-1.3.0.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1099224": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27097/1099224/NestKit-1.3.1-alpha.2654417282.44b1f00.zip?updateId=1099224&pluginId=27097&family=INTELLIJ",
+      "sha256": "2x/hbOIPTDLmfvLBTopIIEDjFyhLrt1XFrlN3WVDOBI=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.jetbrains.restClient",
+        "com.intellij.modules.platform",
+        "JavaScript",
+        "com.intellij.modules.microservices"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "NestKit-1.3.1-alpha.2654417282.44b1f00.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -165,11 +201,13 @@
       "1.0.1-alpha.2639174771.07a4e3e": 1092099,
       "1.0.1-alpha.2639216816.010db97": 1092104,
       "1.0.1-alpha.2639237574.2872360": 1092320,
-      "1.0.1785838898": 724936
+      "1.0.1785838898": 724936,
+      "1.3.1-alpha.2654417282.44b1f00": 1099224
     },
     "stable": {
       "1.1.0": 1092336,
-      "1.2.0": 1092650
+      "1.2.0": 1092650,
+      "1.3.0": 1099222
     }
   }
 }

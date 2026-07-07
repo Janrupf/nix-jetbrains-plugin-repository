@@ -17,11 +17,45 @@
       "since": "222.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1099687": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32677/1099687/Simple-Code-Assistant-1.0.6.zip?updateId=1099687&pluginId=32677&family=INTELLIJ",
+      "sha256": "1TJ8dezuRiTqOGvK/UPYD7Ec7GpOrb3874hjyKSKmXc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "Simple-Code-Assistant-1.0.6.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1099691": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32677/1099691/Simple-Code-Assistant-1.0.7.zip?updateId=1099691&pluginId=32677&family=INTELLIJ",
+      "sha256": "AzM4A8/is6s2EvdP/yjbwnKX/IsUaIHkbmomqoGb+EA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "Simple-Code-Assistant-1.0.7.zip",
+      "since": "222.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.5": 1098568
+      "1.0.5": 1098568,
+      "1.0.6": 1099687,
+      "1.0.7": 1099691
     }
   }
 }

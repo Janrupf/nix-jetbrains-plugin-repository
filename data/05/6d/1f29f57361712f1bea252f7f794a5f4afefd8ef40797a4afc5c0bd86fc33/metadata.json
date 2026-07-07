@@ -1,6 +1,26 @@
 {
   "xml_id": "cosmoteer-language-server",
   "numeric_id": 32667,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1098563": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32667/1098563/cosmoteer-lsp-0.4.0.zip?updateId=1098563&pluginId=32667&family=INTELLIJ",
+      "sha256": "W0KlbYsLnxHaSFadZM1xOyggI7U01PitcoNtm08Nfzo=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cosmoteer-lsp-0.4.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.4.0": 1098563
+    }
+  }
 }
