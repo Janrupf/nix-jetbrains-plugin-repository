@@ -17,11 +17,31 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1100923": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32580/1100923/iHomeCoder-Linux-V6.0.1.0707001_release_universal-linux-x64.zip?updateId=1100923&pluginId=32580&family=INTELLIJ",
+      "sha256": "Ld2HowPCk6Du9F6ZTE6MS/kL7S39T7SBNOwYv9P4mvQ=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "iHomeCoder-Linux-V6.0.1.0707001_release_universal-linux-x64.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "release": {
       "6.0.0": 1093255
+    },
+    "stable": {
+      "6.0.1": 1100923
     }
   }
 }

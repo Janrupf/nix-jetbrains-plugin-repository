@@ -15,11 +15,26 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1100936": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32777/1100936/doris-intellij-plugin.zip?updateId=1100936&pluginId=32777&family=INTELLIJ",
+      "sha256": "AQs28kFgom7CichjdKaqu4G/6fM71ikLIYl076WrLZo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "doris-intellij-plugin.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.2": 1099650
+      "0.2.2": 1099650,
+      "0.2.3": 1100936
     }
   }
 }

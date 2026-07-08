@@ -33,12 +33,29 @@
       "since": "203.0",
       "until": "213.*",
       "compatibility_overrides": []
+    },
+    "1101326": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18440/1101326/awsl-intellij-0.1.3.jar?updateId=1101326&pluginId=18440&family=INTELLIJ",
+      "sha256": "r9ErkgUcfm2aoPH93rjPrp09kiT+UaxwV7VKWuz4afI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "FluentLanguage",
+        "org.jetbrains.plugins.sass"
+      ],
+      "file_name": "awsl-intellij-0.1.3.jar",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.1": 154138,
-      "0.1.2": 154358
+      "0.1.2": 154358,
+      "0.1.3": 1101326
     }
   }
 }

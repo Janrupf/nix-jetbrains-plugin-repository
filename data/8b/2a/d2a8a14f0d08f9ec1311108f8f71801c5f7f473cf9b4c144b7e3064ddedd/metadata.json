@@ -62,6 +62,21 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1101201": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31954/1101201/cucumber-go-1.1.2.zip?updateId=1101201&pluginId=31954&family=INTELLIJ",
+      "sha256": "rw9qcnbSPBrcRNh+w0+yUUCo4JrIt6HXvWtj/gRxc5Q=",
+      "channel": "stable",
+      "dependencies": [
+        "gherkin",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cucumber-go-1.1.2.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -69,7 +84,8 @@
       "1.0.0": 1056692,
       "1.0.1": 1056706,
       "1.1.0": 1063661,
-      "1.1.1": 1067596
+      "1.1.1": 1067596,
+      "1.1.2": 1101201
     }
   }
 }
