@@ -670,8 +670,8 @@
       ],
       "optional_dependencies": [],
       "file_name": "javaee-appServers-websphere-231.6471.13.zip",
-      "since": null,
-      "until": null,
+      "since": "231.6471",
+      "until": "231.6471.*",
       "compatibility_overrides": []
     },
     "290080": {
@@ -2086,6 +2086,22 @@
       "since": "262.8665",
       "until": "262.8665.*",
       "compatibility_overrides": []
+    },
+    "1102588": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18723/1102588/javaee-appServers-websphere-262.8665.176.zip?updateId=1102588&pluginId=18723&family=INTELLIJ",
+      "sha256": "ZI+SuRql01N1lJpclVOHyPhOWI2fEsqyqlVN97IBKaQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.xml.psi",
+        "com.intellij.javaee",
+        "com.intellij.javaee.app.servers.integration",
+        "intellij.platform.jps.build"
+      ],
+      "optional_dependencies": [],
+      "file_name": "javaee-appServers-websphere-262.8665.176.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2241,6 +2257,7 @@
       "262.7581.18": 1076086,
       "262.8117.19": 1081882,
       "262.8377.35": 1086878,
+      "262.8665.176": 1102588,
       "262.8665.81": 1096996
     }
   }

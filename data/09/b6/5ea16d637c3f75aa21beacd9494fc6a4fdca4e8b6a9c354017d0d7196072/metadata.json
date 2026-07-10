@@ -5519,6 +5519,33 @@
       "since": "262.8665",
       "until": "262.8665.*",
       "compatibility_overrides": []
+    },
+    "1102501": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7535/1102501/gauge-262.8665.176.zip?updateId=1102501&pluginId=7535&family=INTELLIJ",
+      "sha256": "Mu9fWPV62glo5Cp/H4rmbNRdrmQIR8FzAu1mPVP2+uo=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.maven",
+        "com.intellij.modules.json",
+        "intellij.java.backend",
+        "intellij.properties.backend",
+        "intellij.platform.testRunner",
+        "intellij.java.debugger.impl",
+        "intellij.libraries.grpc",
+        "intellij.java.psi",
+        "intellij.java.execution.impl",
+        "intellij.platform.smRunner",
+        "intellij.json.backend"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "gauge-262.8665.176.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5834,6 +5861,7 @@
       "262.7581.18": 1075957,
       "262.8117.19": 1081792,
       "262.8377.35": 1086854,
+      "262.8665.176": 1102501,
       "262.8665.81": 1097048
     }
   }

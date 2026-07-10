@@ -1674,6 +1674,31 @@
       "since": "262.8665",
       "until": "262.8665.*",
       "compatibility_overrides": []
+    },
+    "1102524": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22070/1102524/jdbi-262.8665.176.zip?updateId=1102524&pluginId=22070&family=INTELLIJ",
+      "sha256": "NqX8ygkwTqCvDt2qrHbFqdZVFzRNQAdtvyTPvPZ2nto=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.psi",
+        "intellij.platform.langInjection",
+        "intellij.database",
+        "intellij.java.backend",
+        "intellij.database.sql",
+        "com.intellij.modules.ultimate",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "intellij.spring.core.analysis.jvm",
+        "intellij.spring.core",
+        "intellij.spring.core.analysis.xml",
+        "intellij.spring.core.analysis.services",
+        "intellij.spring"
+      ],
+      "file_name": "jdbi-262.8665.176.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1771,6 +1796,7 @@
       "262.7581.18": 1075969,
       "262.8117.19": 1081847,
       "262.8377.35": 1086849,
+      "262.8665.176": 1102524,
       "262.8665.81": 1096934
     }
   }

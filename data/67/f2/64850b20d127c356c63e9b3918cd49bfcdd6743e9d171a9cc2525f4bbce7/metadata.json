@@ -95,7 +95,7 @@
       "optional_dependencies": [],
       "file_name": "liberty-tools-intellij-24.0.9.zip",
       "since": "241.0",
-      "until": "241.*",
+      "until": "242.*",
       "compatibility_overrides": []
     },
     "643650": {
@@ -115,7 +115,7 @@
       "optional_dependencies": [],
       "file_name": "liberty-tools-intellij-24.0.9.zip",
       "since": "241.0",
-      "until": "241.*",
+      "until": "242.*",
       "compatibility_overrides": []
     },
     "649486": {
@@ -297,6 +297,46 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1103500": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/1103500/liberty-tools-intellij-26.0.6-SNAPSHOT.zip?updateId=1103500&pluginId=14856&family=INTELLIJ",
+      "sha256": "mCVfdtuU6p8HHWvhnleKXwFHOvoI7bMG0i1JYVhv3WQ=",
+      "channel": "preview",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "liberty-tools-intellij-26.0.6-SNAPSHOT.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1103507": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/1103507/liberty-tools-intellij-26.0.6-SNAPSHOT-COMPATIBILITY-FIX.zip?updateId=1103507&pluginId=14856&family=INTELLIJ",
+      "sha256": "BM6JHmxyt+XthYcCDJOOfARZYWB6mgJw+61X3K0Ky4A=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.terminal",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "liberty-tools-intellij-26.0.6-SNAPSHOT-COMPATIBILITY-FIX.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -305,7 +345,9 @@
       "25.0.12-SNAPSHOT": 909467,
       "25.0.5": 841262,
       "25.0.9": 857015,
-      "26.0.3-SNAPSHOT": 996398
+      "26.0.3-SNAPSHOT": 996398,
+      "26.0.6-SNAPSHOT": 1103500,
+      "26.0.6-SNAPSHOT-COMPATIBILITY-FIX": 1103507
     },
     "stable": {
       "23.0.12": 446485,

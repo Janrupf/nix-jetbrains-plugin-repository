@@ -276,6 +276,27 @@
       "since": "262.8665",
       "until": "262.8665.*",
       "compatibility_overrides": []
+    },
+    "1102449": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31184/1102449/dfa-analysis-plugin-262.8665.173.zip?updateId=1102449&pluginId=31184&family=INTELLIJ",
+      "sha256": "+5kEx03WTdOEkYt82tsmnHGpTqRBVRUM2a3hgpLx2sg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.dfa.analysis.rml.taint",
+        "intellij.dfa.analysis.rml.intellij",
+        "intellij.platform.collaborationTools"
+      ],
+      "optional_dependencies": [
+        "intellij.dfa.analysis.rml",
+        "intellij.java.frontback.psi",
+        "intellij.dfa.analysis.ui",
+        "intellij.java",
+        "intellij.dfa.analysis.rml.impl"
+      ],
+      "file_name": "dfa-analysis-plugin-262.8665.173.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -293,6 +314,7 @@
       "262.7581.3": 1074289,
       "262.8117.14": 1081323,
       "262.8377.20": 1086541,
+      "262.8665.173": 1102449,
       "262.8665.65": 1096055
     }
   }

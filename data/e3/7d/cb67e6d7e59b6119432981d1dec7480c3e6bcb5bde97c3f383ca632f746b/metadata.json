@@ -2063,6 +2063,27 @@
       "since": "262.8665",
       "until": "262.8665.*",
       "compatibility_overrides": []
+    },
+    "1102541": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21712/1102541/bigdatatools-metastore-core-262.8665.176.zip?updateId=1102541&pluginId=21712&family=INTELLIJ",
+      "sha256": "1B112Ft7XukDfrt2BTW4JSMOAVTvlFHBIs+0tZIBemQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.bigdatatools.awsBase",
+        "com.intellij.bigdatatools.binary.files",
+        "com.intellij.bigdatatools.core",
+        "intellij.bigdatatools.coreUi",
+        "intellij.bigdatatools.gcloud",
+        "com.intellij.bigdatatools.rfs"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "file_name": "bigdatatools-metastore-core-262.8665.176.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2181,6 +2202,7 @@
       "262.7581.18": 1076161,
       "262.8117.19": 1081788,
       "262.8377.35": 1086790,
+      "262.8665.176": 1102541,
       "262.8665.81": 1096994
     }
   }

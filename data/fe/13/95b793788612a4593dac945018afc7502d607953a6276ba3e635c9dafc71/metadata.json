@@ -3747,6 +3747,27 @@
       "since": "262.8665",
       "until": "262.8665.*",
       "compatibility_overrides": []
+    },
+    "1102535": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21706/1102535/bigdatatools-plugin-rfs-262.8665.176.zip?updateId=1102535&pluginId=21706&family=INTELLIJ",
+      "sha256": "Fn66HQAHA79T+nRUd1BeA/GLyE5U3gTk4bQ/uq+uCFU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.bigdatatools.gcloud",
+        "com.intellij.bigdatatools.core",
+        "intellij.bigdatatools.coreUi",
+        "intellij.bigdatatools.azure",
+        "com.intellij.modules.ultimate",
+        "intellij.bigdatatools.awsBase",
+        "com.intellij.bigdatatools.binary.files"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.remote-run"
+      ],
+      "file_name": "bigdatatools-plugin-rfs-262.8665.176.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3967,6 +3988,7 @@
       "262.7581.18": 1076023,
       "262.8117.19": 1081801,
       "262.8377.35": 1086888,
+      "262.8665.176": 1102535,
       "262.8665.81": 1097014
     }
   }

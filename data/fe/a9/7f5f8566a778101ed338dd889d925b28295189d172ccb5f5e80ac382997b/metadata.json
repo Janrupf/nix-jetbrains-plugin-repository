@@ -23819,6 +23819,31 @@
       "since": "262.8665",
       "until": "262.8665.*",
       "compatibility_overrides": []
+    },
+    "1103006": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1103006/nodeJS-remoteInterpreter-262.8665.177.zip?updateId=1103006&pluginId=8116&family=INTELLIJ",
+      "sha256": "AsOihfYwFLC4junMWJmLy7ARo9pS2WuwPT/Yhj/zOG4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.javascript.backend",
+        "JavaScript",
+        "intellij.platform.ssh",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.clouds.docker.agent",
+        "JavaScriptDebugger",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.javascript.parser",
+        "intellij.platform.ssh.core",
+        "com.intellij.modules.ultimate",
+        "NodeJS"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-262.8665.177.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -25020,6 +25045,7 @@
       "262.7581.19": 1076176,
       "262.8117.14": 1081358,
       "262.8377.37": 1087093,
+      "262.8665.177": 1103006,
       "262.8665.86": 1097174
     }
   }

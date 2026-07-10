@@ -28733,6 +28733,50 @@
       "since": "262.8665",
       "until": "262.8665.*",
       "compatibility_overrides": []
+    },
+    "1102338": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/1102338/clouds-kubernetes-262.8665.173.zip?updateId=1102338&pluginId=10485&family=INTELLIJ",
+      "sha256": "ByVULK64FNewBCxIWTDN6LqA7p4VtXqbMqj4b8Ng9G8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.ktor.client.cio",
+        "org.jetbrains.plugins.yaml",
+        "intellij.yaml",
+        "intellij.json",
+        "intellij.platform.execution.serviceView",
+        "Docker"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.compose",
+        "com.intellij.cron",
+        "intellij.database.impl",
+        "intellij.platform.frontend",
+        "com.intellij.database",
+        "intellij.platform.vcs",
+        "intellij.platform.vcs.impl",
+        "intellij.yaml.helm",
+        "intellij.clouds.kubernetes.libraries",
+        "intellij.spellchecker",
+        "intellij.clouds.kubernetes.backend",
+        "intellij.platform.editor.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.database.core.impl",
+        "intellij.clouds.kubernetes",
+        "intellij.platform.backend",
+        "intellij.database.util",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.agent",
+        "intellij.clouds.docker.frontend",
+        "intellij.json.backend",
+        "intellij.yaml.backend",
+        "intellij.platform.commercial.verifier",
+        "org.jetbrains.plugins.go-template"
+      ],
+      "file_name": "clouds-kubernetes-262.8665.173.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -30178,6 +30222,7 @@
       "262.7581.3": 1074232,
       "262.8117.20": 1081937,
       "262.8377.20": 1086606,
+      "262.8665.173": 1102338,
       "262.8665.65": 1096045
     }
   }
