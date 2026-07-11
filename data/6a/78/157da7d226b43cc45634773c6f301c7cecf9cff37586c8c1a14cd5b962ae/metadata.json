@@ -15,11 +15,26 @@
       "since": "233.0",
       "until": "272.*",
       "compatibility_overrides": []
+    },
+    "1103657": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32285/1103657/intellij-0.4.1.zip?updateId=1103657&pluginId=32285&family=INTELLIJ",
+      "sha256": "dQjj7mgD4DrN7gj321Ycg7gEsJkWHQaaL4/wto/apMk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-0.4.1.zip",
+      "since": "233.0",
+      "until": "272.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.4.0": 1078203
+      "0.4.0": 1078203,
+      "0.4.1": 1103657
     }
   }
 }

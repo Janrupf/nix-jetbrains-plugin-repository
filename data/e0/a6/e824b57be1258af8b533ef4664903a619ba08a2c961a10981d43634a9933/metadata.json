@@ -2,16 +2,30 @@
   "xml_id": "cn.enaium.pixi",
   "numeric_id": 32792,
   "updates": {
-    "1101208": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32792/1101208/intellij-pixi-1.0.0.zip?updateId=1101208&pluginId=32792&family=INTELLIJ",
-      "sha256": "zH5FFtPVMwfz8fVqNnepyE7bytV+UU31DJ/ScqSiXYk=",
+    "1103851": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32792/1103851/intellij-pixi-1.1.0.zip?updateId=1103851&pluginId=32792&family=INTELLIJ",
+      "sha256": "spVgHzwz0s/5zD+r6wEdCFmK0uahCOJQ8TkTloJpA/Y=",
       "channel": "stable",
       "dependencies": [
-        "org.toml.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "org.toml.lang"
       ],
       "optional_dependencies": [],
-      "file_name": "intellij-pixi-1.0.0.zip",
+      "file_name": "intellij-pixi-1.1.0.zip",
+      "since": "231.0",
+      "until": "272.*",
+      "compatibility_overrides": []
+    },
+    "1104100": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32792/1104100/intellij-pixi-1.1.1.zip?updateId=1104100&pluginId=32792&family=INTELLIJ",
+      "sha256": "CYyeg8b3rm68HvRVLTbE32yfgIDC3UfK3LTVakIm+hc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-pixi-1.1.1.zip",
       "since": "231.0",
       "until": "272.*",
       "compatibility_overrides": []
@@ -19,7 +33,8 @@
   },
   "channels": {
     "stable": {
-      "1.0.0": 1101208
+      "1.1.0": 1103851,
+      "1.1.1": 1104100
     }
   }
 }

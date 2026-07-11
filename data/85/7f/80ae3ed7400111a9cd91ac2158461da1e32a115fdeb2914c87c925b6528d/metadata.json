@@ -1747,6 +1747,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1103920": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23695/1103920/wiremock-261.3.0.zip?updateId=1103920&pluginId=23695&family=INTELLIJ",
+      "sha256": "Z4bX/B1WCdWiz853Hgp+Gr9ty+mS+6NxXEnMBb9P2xo=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json",
+        "intellij.platform.langInjection",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.microservices.jvm",
+        "com.intellij.swagger",
+        "com.dmarcotte.handlebars",
+        "com.intellij.microservices.ui",
+        "com.intellij.java"
+      ],
+      "file_name": "wiremock-261.3.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1837,7 +1860,8 @@
       "253.1.0": 917006,
       "253.2.0": 947079,
       "261.1.0": 997590,
-      "261.2.0": 1079450
+      "261.2.0": 1079450,
+      "261.3.0": 1103920
     }
   }
 }

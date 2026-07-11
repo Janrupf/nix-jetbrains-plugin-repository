@@ -181,11 +181,27 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1103879": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31801/1103879/tcl-lsp-jetbrains-2.1.5.zip?updateId=1103879&pluginId=31801&family=INTELLIJ",
+      "sha256": "9+iNJLCxy++aRhYrZv6fhs0ylZlQOtvIHvZSy0YUCbM=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "tcl-lsp-jetbrains-2.1.5.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "2.1.4": 1101649
+      "2.1.4": 1101649,
+      "2.1.5": 1103879
     },
     "stable": {
       "1.10.10": 1060756,

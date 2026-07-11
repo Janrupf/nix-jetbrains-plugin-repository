@@ -553,6 +553,24 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1103900": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31297/1103900/pre-push-compiler-plugin-1.9.3.zip?updateId=1103900&pluginId=31297&family=INTELLIJ",
+      "sha256": "NMXsLjPFjOsmwyDcuZBEOSp4vMS6jv+bsEmeQWDyBK0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "pre-push-compiler-plugin-1.9.3.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -589,7 +607,8 @@
       "1.8.8": 1101604,
       "1.9.0": 1102265,
       "1.9.1": 1102293,
-      "1.9.2": 1102302
+      "1.9.2": 1102302,
+      "1.9.3": 1103900
     }
   }
 }

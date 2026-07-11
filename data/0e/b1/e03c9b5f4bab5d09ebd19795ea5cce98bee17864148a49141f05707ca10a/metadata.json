@@ -2455,7 +2455,7 @@
         "intellij.platform.frontend"
       ],
       "file_name": "lang.tt2-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -2686,7 +2686,7 @@
         "intellij.platform.frontend.split"
       ],
       "file_name": "lang.tt2-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -2794,6 +2794,48 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1103821": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/1103821/lang.tt2-2026.2-EAP.8665.176.zip?updateId=1103821&pluginId=11335&family=INTELLIJ",
+      "sha256": "O1edvyY07tfptGhZeVUFOWWVpp/tU5+K0ZpuVQDIbPM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend.split",
+        "perl5.lang.tt2.frontend.main",
+        "perl5.lang.tt2.common.main"
+      ],
+      "file_name": "lang.tt2-2026.2-EAP.8665.176.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1103833": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/1103833/lang.tt2-2026.3-EAP.1433.zip?updateId=1103833&pluginId=11335&family=INTELLIJ",
+      "sha256": "qOP55DwNYXyR9j/bNFBXT/3Wwv5aqyaSekn7qF+l+bI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "perl5.lang.tt2.frontend.main",
+        "perl5.lang.tt2.common.main",
+        "intellij.platform.frontend",
+        "perl5.plugin.backend.main"
+      ],
+      "file_name": "lang.tt2-2026.3-EAP.1433.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2822,7 +2864,9 @@
       "2026.2-EAP.7581.18": 1076809,
       "2026.2-EAP.8117.19": 1082375,
       "2026.2-EAP.8377.35": 1087928,
+      "2026.2-EAP.8665.176": 1103821,
       "2026.2-EAP.8665.81": 1098266,
+      "2026.3-EAP.1433": 1103833,
       "203-SNAPSHOT.8": 96408,
       "203.3645.34-EAP-SNAPSHOT": 98114,
       "203.5784.10-EAP-SNAPSHOT": 102540,
