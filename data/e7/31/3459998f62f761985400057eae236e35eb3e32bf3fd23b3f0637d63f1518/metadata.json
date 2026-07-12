@@ -29,12 +29,27 @@
       "since": "213.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1104614": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27912/1104614/ideagitswitch-1.1.1.zip?updateId=1104614&pluginId=27912&family=INTELLIJ",
+      "sha256": "oUWRU0b4Ig5TyKH6HsElDtHAS0Y3eFl5YqSkZuVPTM4=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ideagitswitch-1.1.1.zip",
+      "since": "203.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 794288,
-      "1.1.0": 795878
+      "1.1.0": 795878,
+      "1.1.1": 1104614
     }
   }
 }

@@ -33,12 +33,48 @@
       "since": "241.19072",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1104595": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28356/1104595/IntellijShopwarePlugin-1.3.2-alpha.2669309385.g7c63100.zip?updateId=1104595&pluginId=28356&family=INTELLIJ",
+      "sha256": "IjBjEKWU5KJ8RHkcrWHkWITd7k+qIspSrAEnR8osMD4=",
+      "channel": "alpha",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.jetbrains.twig"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntellijShopwarePlugin-1.3.2-alpha.2669309385.g7c63100.zip",
+      "since": "241.19072",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "1104596": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28356/1104596/IntellijShopwarePlugin-1.3.1.zip?updateId=1104596&pluginId=28356&family=INTELLIJ",
+      "sha256": "ktzqG8N/YpDHrpy3FxiONMBuZcfmCGGE9YVfjaMBCQY=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform",
+        "com.jetbrains.twig"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntellijShopwarePlugin-1.3.1.zip",
+      "since": "241.19072",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "alpha": {
+      "1.3.2-alpha.2669309385.g7c63100": 1104595
+    },
     "stable": {
       "1.2.2": 906975,
-      "1.2.3": 908520
+      "1.2.3": 908520,
+      "1.3.1": 1104596
     }
   }
 }
