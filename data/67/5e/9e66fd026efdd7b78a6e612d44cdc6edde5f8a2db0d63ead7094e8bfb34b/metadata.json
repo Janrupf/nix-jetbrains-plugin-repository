@@ -15,11 +15,26 @@
       "since": "251.23774",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1105406": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32537/1105406/archguard-intellij-plugin-0.1.1-signed.zip?updateId=1105406&pluginId=32537&family=INTELLIJ",
+      "sha256": "4UITuxsm3CgYC2EslSQMBfDX2f7k4lUlWN9PFFZfE3w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "archguard-intellij-plugin-0.1.1-signed.zip",
+      "since": "241.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1090650
+      "0.1.0": 1090650,
+      "0.1.1": 1105406
     }
   }
 }

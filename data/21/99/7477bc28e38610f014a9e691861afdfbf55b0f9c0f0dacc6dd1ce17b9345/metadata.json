@@ -21,11 +21,39 @@
           "compatible_until": "251.0"
         }
       ]
+    },
+    "1105219": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32859/1105219/klikor-ide-bridge-1.1.0.zip?updateId=1105219&pluginId=32859&family=INTELLIJ",
+      "sha256": "CopKjA8a6qiKORYxnMqSyU1gN1HIOdBz4wOtZUjD24A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "klikor-ide-bridge-1.1.0.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1105220": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32859/1105220/klikor-ide-bridge-1.2.0.zip?updateId=1105220&pluginId=32859&family=INTELLIJ",
+      "sha256": "HjwyN3b/HwkD83cnDazP03syOzaD1Un2K8H5mU6CoVc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "klikor-ide-bridge-1.2.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1104880
+      "1.0.0": 1104880,
+      "1.1.0": 1105219,
+      "1.2.0": 1105220
     }
   }
 }

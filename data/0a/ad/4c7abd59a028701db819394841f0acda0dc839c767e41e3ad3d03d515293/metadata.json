@@ -3085,6 +3085,44 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1105484": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16825/1105484/Paradox-Chronicle-3.0.0-signed.zip?updateId=1105484&pluginId=16825&family=INTELLIJ",
+      "sha256": "qS9Md5bxGgc+U051K0NrGPlkoz7WY08vpexkw1J1+tc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.platform.images"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.diagram",
+        "cn.yiiguxing.plugin.translate",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "Paradox-Chronicle-3.0.0-signed.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1105486": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16825/1105486/Paradox-Chronicle-3.0.0-262-signed.zip?updateId=1105486&pluginId=16825&family=INTELLIJ",
+      "sha256": "aCbP03pX0ORYhIMvcmrIAd3LrXnJjdzzH7cg6KUFatg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.platform.images"
+      ],
+      "optional_dependencies": [
+        "com.intellij.diagram",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.json",
+        "cn.yiiguxing.plugin.translate"
+      ],
+      "file_name": "Paradox-Chronicle-3.0.0-262-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3251,7 +3289,9 @@
       "2.1.7": 1000291,
       "2.1.8": 1043605,
       "2.1.9": 1055058,
-      "2.2.0": 1098370
+      "2.2.0": 1098370,
+      "3.0.0": 1105484,
+      "3.0.0-262": 1105486
     }
   }
 }

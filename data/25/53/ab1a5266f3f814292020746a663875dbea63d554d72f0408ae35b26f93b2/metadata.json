@@ -262,6 +262,42 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1105469": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26143/1105469/fleet-plugins-devkit-intellij-262.9156.0.zip?updateId=1105469&pluginId=26143&family=INTELLIJ",
+      "sha256": "HvJvaLLQB+8E4XP0TbfuAcTgbhdbBKVBbnwDTj/L2z8=",
+      "channel": "nightly",
+      "dependencies": [
+        "DevKit",
+        "intellij.devkit.core",
+        "intellij.java.backend",
+        "com.intellij.modules.lang",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fleet-plugins-devkit-intellij-262.9156.0.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1105471": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26143/1105471/fleet-plugins-devkit-intellij-263.1540.0.zip?updateId=1105471&pluginId=26143&family=INTELLIJ",
+      "sha256": "WsALIlw0Cs10KLpXaIS59vKju7NCMuWQX7xpDgtG0F0=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.java.backend",
+        "org.jetbrains.kotlin",
+        "DevKit",
+        "org.jetbrains.plugins.yaml",
+        "intellij.devkit.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "fleet-plugins-devkit-intellij-263.1540.0.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -277,7 +313,9 @@
       "261.1454.0": 883694,
       "261.5558.0": 891248,
       "262.2355.0": 990881,
-      "262.5040.0": 1036069
+      "262.5040.0": 1036069,
+      "262.9156.0": 1105469,
+      "263.1540.0": 1105471
     },
     "stable": {
       "251.20833": 677620,

@@ -10081,6 +10081,39 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1105518": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8053/1105518/azure-intellij-20260711.10.zip?updateId=1105518&pluginId=8053&family=INTELLIJ",
+      "sha256": "RNhbuGRt/qbxBdpGiH5FvuppjDs0JHIlhC/DH+mjAtg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.plugins.markdown",
+        "com.intellij.gradle",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.restClient",
+        "com.intellij.database",
+        "org.intellij.scala",
+        "Git4Idea",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.kubernetes",
+        "com.intellij.modules.ssh",
+        "Docker",
+        "org.jetbrains.plugins.remote-run"
+      ],
+      "file_name": "azure-intellij-20260711.10.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10518,7 +10551,8 @@
       "3.97.5-2025.3": 1023396,
       "3.97.5-2026.1": 1024546,
       "3.97.6-2025.3": 1050274,
-      "3.97.6-2026.1": 1050276
+      "3.97.6-2026.1": 1050276,
+      "3.97.6-2026.2": 1105518
     }
   }
 }
