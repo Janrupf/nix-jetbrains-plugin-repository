@@ -103,6 +103,23 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1106237": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28653/1106237/app-mod-intellij-extension-2.0.0-20260713-0619_signed.zip?updateId=1106237&pluginId=28653&family=INTELLIJ",
+      "sha256": "M9rtKZJbPFcCPmqzp/nCGzkvol9XBHKzKP2gdhfEzVM=",
+      "channel": "stable",
+      "dependencies": [
+        "open-liberty.intellij",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images"
+      ],
+      "optional_dependencies": [],
+      "file_name": "app-mod-intellij-extension-2.0.0-20260713-0619_signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -114,7 +131,8 @@
     "stable": {
       "1.0.0": 875920,
       "1.0.1": 916559,
-      "1.1.0": 998831
+      "1.1.0": 998831,
+      "2.0.0": 1106237
     }
   }
 }
