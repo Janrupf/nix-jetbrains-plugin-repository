@@ -33,12 +33,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1107610": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31813/1107610/chill_code_companion-0.3.0-signed.zip?updateId=1107610&pluginId=31813&family=INTELLIJ",
+      "sha256": "iZNdVJkLjgW6XerHaNJme8cI11o5H9JT6Q5Hvi+Uazw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.terminal.frontend",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "chill_code_companion-0.3.0-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1050283,
-      "0.2.0": 1090219
+      "0.2.0": 1090219,
+      "0.3.0": 1107610
     }
   }
 }
