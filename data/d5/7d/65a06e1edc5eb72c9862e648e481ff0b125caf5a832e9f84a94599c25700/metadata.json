@@ -2,18 +2,20 @@
   "xml_id": "cg.creamgod45.LanguageManage",
   "numeric_id": 32901,
   "updates": {
-    "1107598": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32901/1107598/LanguageManage-1.4.1.zip?updateId=1107598&pluginId=32901&family=INTELLIJ",
-      "sha256": "W+ISZ+eoUZRj3qMWov06L3kykAnIksuiPkU79YO9bRI=",
+    "1108825": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32901/1108825/LanguageManage-1.5.1.zip?updateId=1108825&pluginId=32901&family=INTELLIJ",
+      "sha256": "zJIs3BjqFIbCTgZgFleEdSVseOSyIBozejHIZExPpy8=",
       "channel": "stable",
-      "dependencies": [],
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
       "optional_dependencies": [
-        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
         "intellij.platform.backend",
         "LanguageManage.shared",
-        "intellij.platform.frontend"
+        "intellij.platform.kernel.backend"
       ],
-      "file_name": "LanguageManage-1.4.1.zip",
+      "file_name": "LanguageManage-1.5.1.zip",
       "since": "253.5",
       "until": null,
       "compatibility_overrides": []
@@ -21,7 +23,7 @@
   },
   "channels": {
     "stable": {
-      "1.4.1": 1107598
+      "1.5.1": 1108825
     }
   }
 }

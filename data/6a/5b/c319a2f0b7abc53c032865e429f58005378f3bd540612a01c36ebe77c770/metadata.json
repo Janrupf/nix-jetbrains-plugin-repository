@@ -149,8 +149,15 @@
       "optional_dependencies": [],
       "file_name": "tcl-lsp-jetbrains-1.11.2.zip",
       "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "261.*"
+        }
+      ]
     },
     "1087066": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31801/1087066/tcl-lsp-jetbrains-1.11.4.zip?updateId=1087066&pluginId=31801&family=INTELLIJ",
@@ -164,8 +171,15 @@
       "optional_dependencies": [],
       "file_name": "tcl-lsp-jetbrains-1.11.4.zip",
       "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "261.26222.65",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "261.26222.65"
+        }
+      ]
     },
     "1101649": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31801/1101649/tcl-lsp-jetbrains-2.1.4.zip?updateId=1101649&pluginId=31801&family=INTELLIJ",
@@ -241,6 +255,21 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1108073": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31801/1108073/tcl-lsp-jetbrains-2.1.9.zip?updateId=1108073&pluginId=31801&family=INTELLIJ",
+      "sha256": "uo/UBb/NMFUwuPcjqBR1XZ/WA9o4NAtfRoesFdeQBzY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "tcl-lsp-jetbrains-2.1.9.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -249,7 +278,8 @@
       "2.1.5": 1103879,
       "2.1.6": 1105244,
       "2.1.7": 1105705,
-      "2.1.8": 1105904
+      "2.1.8": 1105904,
+      "2.1.9": 1108073
     },
     "stable": {
       "1.10.10": 1060756,

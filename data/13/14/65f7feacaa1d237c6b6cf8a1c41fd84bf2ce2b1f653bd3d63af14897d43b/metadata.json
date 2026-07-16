@@ -34,12 +34,30 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1108421": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32576/1108421/iHomeCoder-macOS-ARM-V6.0.2.0715001_release_universal-darwin-arm64.zip?updateId=1108421&pluginId=32576&family=INTELLIJ",
+      "sha256": "CG/boYw89khHHXrD9iTWCVRVnhrISSz+QKw7pYNVpeQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "Git4Idea"
+      ],
+      "file_name": "iHomeCoder-macOS-ARM-V6.0.2.0715001_release_universal-darwin-arm64.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "6.0.0": 1095561,
-      "6.0.1": 1100898
+      "6.0.1": 1100898,
+      "6.0.2": 1108421
     }
   }
 }

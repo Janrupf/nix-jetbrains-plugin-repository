@@ -321,8 +321,15 @@
       ],
       "file_name": "ddev-intellij-plugin-1.2.6.zip",
       "since": "251.23774",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "251.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.23774",
+          "applies_until": "999.99999",
+          "compatible_since": "251.23774",
+          "compatible_until": "251.*"
+        }
+      ]
     },
     "834912": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18813/834912/ddev-intellij-plugin-1.2.7.zip?updateId=834912&pluginId=18813&family=INTELLIJ",
@@ -341,8 +348,15 @@
       ],
       "file_name": "ddev-intellij-plugin-1.2.7.zip",
       "since": "251.23774",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "253.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.23774",
+          "applies_until": "999.99999",
+          "compatible_since": "251.23774",
+          "compatible_until": "253.*"
+        }
+      ]
     },
     "974730": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18813/974730/ddev-intellij-plugin-1.2.8.zip?updateId=974730&pluginId=18813&family=INTELLIJ",
@@ -361,6 +375,51 @@
       ],
       "file_name": "ddev-intellij-plugin-1.2.8.zip",
       "since": "251.23774",
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.23774",
+          "applies_until": "999.99999",
+          "compatible_since": "251.23774",
+          "compatible_until": "261.*"
+        }
+      ]
+    },
+    "1108594": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18813/1108594/ddev-intellij-plugin-1.2.9-beta1.zip?updateId=1108594&pluginId=18813&family=INTELLIJ",
+      "sha256": "bhcYQAOOrqgTkoCo0owC60q25zTYrASuQy1VxpEkA04=",
+      "channel": "beta",
+      "dependencies": [
+        "Docker",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-docker",
+        "com.intellij.database",
+        "org.jetbrains.plugins.node-remote-interpreter",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "ddev-intellij-plugin-1.2.9-beta1.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1108595": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18813/1108595/ddev-intellij-plugin-1.3.0-alpha1.zip?updateId=1108595&pluginId=18813&family=INTELLIJ",
+      "sha256": "ynGwXlsY2qDNuBJPSXoVWO/CW1izE0cWtQzf4BWW9XI=",
+      "channel": "alpha",
+      "dependencies": [
+        "Docker",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.phpstorm-docker",
+        "com.intellij.database",
+        "org.jetbrains.plugins.node-remote-interpreter"
+      ],
+      "file_name": "ddev-intellij-plugin-1.3.0-alpha1.zip",
+      "since": "262.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -369,11 +428,13 @@
     "alpha": {
       "1.0-ALPHA-1": 163540,
       "1.0.0-alpha2": 168387,
-      "1.0.0-alpha3": 173504
+      "1.0.0-alpha3": 173504,
+      "1.3.0-alpha1": 1108595
     },
     "beta": {
       "0.0.1-dev": 182266,
-      "1.0.0-beta1": 182644
+      "1.0.0-beta1": 182644,
+      "1.2.9-beta1": 1108594
     },
     "stable": {
       "1.0.0": 189928,

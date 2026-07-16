@@ -226,6 +226,32 @@
       "file_name": "i18n_Support_Plus-1.2.0.zip",
       "since": "251.0",
       "until": "263.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "243.0",
+          "applies_until": "263.*",
+          "compatible_since": "251.0",
+          "compatible_until": "263.*"
+        }
+      ]
+    },
+    "1107782": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30971/1107782/i18n_Support_Plus-1.2.1.zip?updateId=1107782&pluginId=30971&family=INTELLIJ",
+      "sha256": "1+oofLgOe02P2dwa9cmy8eow/Gb/VxLOfDaR9L6Rw+M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "JavaScript"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.localization",
+        "org.jetbrains.plugins.vue",
+        "org.jetbrains.plugins.yaml",
+        "com.jetbrains.php"
+      ],
+      "file_name": "i18n_Support_Plus-1.2.1.zip",
+      "since": "251.0",
+      "until": "263.*",
       "compatibility_overrides": []
     }
   },
@@ -242,7 +268,8 @@
       "1.0.7": 1031045,
       "1.0.9": 1034612,
       "1.1.0": 1065375,
-      "1.2.0": 1107559
+      "1.2.0": 1107559,
+      "1.2.1": 1107782
     }
   }
 }
