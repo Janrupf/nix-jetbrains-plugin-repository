@@ -422,6 +422,25 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1109314": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18813/1109314/ddev-intellij-plugin-1.2.9.zip?updateId=1109314&pluginId=18813&family=INTELLIJ",
+      "sha256": "6cgQNmZhwJtlg5rA6z+Rav4+tl70Y6ENNkAwKpQ/nzg=",
+      "channel": "stable",
+      "dependencies": [
+        "Docker",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database",
+        "org.jetbrains.plugins.phpstorm-docker",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.node-remote-interpreter"
+      ],
+      "file_name": "ddev-intellij-plugin-1.2.9.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -451,7 +470,8 @@
       "1.2.5": 638750,
       "1.2.6": 718023,
       "1.2.7": 834912,
-      "1.2.8": 974730
+      "1.2.8": 974730,
+      "1.2.9": 1109314
     }
   }
 }

@@ -20,11 +20,51 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1109270": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32937/1109270/yii2-navigator-1.0.3-signed.zip?updateId=1109270&pluginId=32937&family=INTELLIJ",
+      "sha256": "dpjJlktV6KJJQogmXxpO+3ftbX72K7tstO0x7s0myYw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.twig",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "file_name": "yii2-navigator-1.0.3-signed.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1109356": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32937/1109356/yii2-navigator-1.1.0-signed.zip?updateId=1109356&pluginId=32937&family=INTELLIJ",
+      "sha256": "NNBUtE9JE2s15Rj2WIJDnXDhJ7w8cdzJytueoO/4GU0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "com.jetbrains.twig",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "yii2-navigator-1.1.0-signed.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1108090
+      "1.0.0": 1108090,
+      "1.0.3": 1109270,
+      "1.1.0": 1109356
     }
   }
 }

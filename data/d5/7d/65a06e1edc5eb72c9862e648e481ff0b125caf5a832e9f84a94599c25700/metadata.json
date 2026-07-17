@@ -19,11 +19,30 @@
       "since": "253.5",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1108872": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32901/1108872/LanguageManage-1.5.2.zip?updateId=1108872&pluginId=32901&family=INTELLIJ",
+      "sha256": "vlYHcaFEL0/oanoyZLI2Lnz3eNl6Ntjg7diGbOHSf10=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "LanguageManage.shared"
+      ],
+      "file_name": "LanguageManage-1.5.2.zip",
+      "since": "253.5",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.5.1": 1108825
+      "1.5.1": 1108825,
+      "1.5.2": 1108872
     }
   }
 }

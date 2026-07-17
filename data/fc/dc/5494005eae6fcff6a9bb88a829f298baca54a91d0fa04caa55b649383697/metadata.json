@@ -52,13 +52,31 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1109406": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32575/1109406/iHomeCoder-Win-V6.0.3.0717001_release_universal-win32-x64.zip?updateId=1109406&pluginId=32575&family=INTELLIJ",
+      "sha256": "nN9l29BfMsgBhGL2/8uaQNOrpg5NdsBJFz30Wf6ftMc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "iHomeCoder-Win-V6.0.3.0717001_release_universal-win32-x64.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "6.0.0": 1099215,
       "6.0.1": 1100899,
-      "6.0.2": 1108419
+      "6.0.2": 1108419,
+      "6.0.3": 1109406
     }
   }
 }
