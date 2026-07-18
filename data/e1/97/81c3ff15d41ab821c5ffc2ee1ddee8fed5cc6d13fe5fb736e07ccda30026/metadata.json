@@ -2917,6 +2917,29 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1109571": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1109571/lang.embedded-2026.2.zip?updateId=1109571&pluginId=11340&family=INTELLIJ",
+      "sha256": "Dp0vfNBEjxs3jKASBtdL8EGCkYbeqhHXKm329DhaIaQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.embedded.common.main",
+        "perl5.lang.embedded.backend.main",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend.split",
+        "intellij.platform.frontend",
+        "perl5.plugin.structureView.main",
+        "perl5.lang.embedded.frontend.main"
+      ],
+      "file_name": "lang.embedded-2026.2.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3116,7 +3139,8 @@
       "2025.2.1": 842754,
       "2025.3": 909222,
       "2025.3.1": 963681,
-      "2026.1": 994931
+      "2026.1": 994931,
+      "2026.2": 1109571
     }
   }
 }

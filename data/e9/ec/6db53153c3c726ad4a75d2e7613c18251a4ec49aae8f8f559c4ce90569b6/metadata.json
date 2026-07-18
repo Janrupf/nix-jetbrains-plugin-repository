@@ -15,11 +15,26 @@
       "since": "242.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1109703": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32960/1109703/opencode-bridge-0.2.0.zip?updateId=1109703&pluginId=32960&family=INTELLIJ",
+      "sha256": "YYbfliljKKLOxNwueHI+HQq/Nd4dv8FuTIpQQBGtapM=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "opencode-bridge-0.2.0.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1109086
+      "0.1.0": 1109086,
+      "0.2.0": 1109703
     }
   }
 }

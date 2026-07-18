@@ -314,15 +314,29 @@
       "optional_dependencies": [],
       "file_name": "SQLServerBackupAndRestore-1.0.9-signed.zip",
       "since": "251.0",
-      "until": null,
+      "until": "262.0",
       "compatibility_overrides": [
         {
           "applies_since": "241.0",
           "applies_until": "999.99999",
           "compatible_since": "251.0",
-          "compatible_until": "999.99999"
+          "compatible_until": "262.0"
         }
       ]
+    },
+    "1110286": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13913/1110286/SQLServerBackupAndRestore-1.0.10-signed.zip?updateId=1110286&pluginId=13913&family=INTELLIJ",
+      "sha256": "9v3na/NROvGnt4s1EeXswjChvAAvsDxQcYITRxAmMUg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SQLServerBackupAndRestore-1.0.10-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -339,6 +353,7 @@
       "0.8.0": 108444,
       "0.8.1": 115035,
       "1.0": 141683,
+      "1.0.10": 1110286,
       "1.0.2": 176951,
       "1.0.3": 232821,
       "1.0.4": 460071,

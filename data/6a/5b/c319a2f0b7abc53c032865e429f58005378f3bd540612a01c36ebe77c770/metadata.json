@@ -122,21 +122,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1080606": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31801/1080606/tcl-lsp-jetbrains-1.11.1.zip?updateId=1080606&pluginId=31801&family=INTELLIJ",
-      "sha256": "s4/mTVY+t2Pw6zSAIZHwn5tOsciVBD02wUjJIz8H2eY=",
-      "channel": "stable",
-      "dependencies": [
-        "org.jetbrains.plugins.textmate",
-        "com.intellij.modules.ultimate",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "tcl-lsp-jetbrains-1.11.1.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1082011": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31801/1082011/tcl-lsp-jetbrains-1.11.2.zip?updateId=1082011&pluginId=31801&family=INTELLIJ",
       "sha256": "yQRcE3JbOXsPUCqZpfsOdKHFY2BV5wNnYhOKx/MM9+E=",
@@ -270,10 +255,26 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1110367": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31801/1110367/tcl-lsp-jetbrains-2.1.10.zip?updateId=1110367&pluginId=31801&family=INTELLIJ",
+      "sha256": "XLWwwweSeAgRePg3dH9M3jC2vnvNNGH0rDmZS96myhU=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "tcl-lsp-jetbrains-2.1.10.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
+      "2.1.10": 1110367,
       "2.1.4": 1101649,
       "2.1.5": 1103879,
       "2.1.6": 1105244,
@@ -290,7 +291,6 @@
       "1.10.8": 1058751,
       "1.10.9": 1059785,
       "1.11.0": 1073045,
-      "1.11.1": 1080606,
       "1.11.2": 1082011,
       "1.11.4": 1087066
     }

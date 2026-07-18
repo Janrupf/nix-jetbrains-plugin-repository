@@ -46,13 +46,29 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1110003": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32547/1110003/http-client-companion-1.0.0-262.zip?updateId=1110003&pluginId=32547&family=INTELLIJ",
+      "sha256": "WhfQR+qJgGCKu7uGKNLiLSTx4VoVCMHnCr7TJHCXWqQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.restClient",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "http-client-companion-1.0.0-262.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0-252": 1091056,
       "1.0.0-253": 1091065,
-      "1.0.0-261": 1091042
+      "1.0.0-261": 1091042,
+      "1.0.0-262": 1110003
     }
   }
 }

@@ -647,6 +647,26 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1109987": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22472/1109987/datagraph-intellij-plugin-1.1.2-262.zip?updateId=1109987&pluginId=22472&family=INTELLIJ",
+      "sha256": "qm92tBNZl/wRGGOlAg5ZycVh39dDHA0bm8tH8HZzFg8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jcef",
+        "intellij.platform.ui.jcef",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "datagraph-intellij-plugin-1.1.2-262.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -688,7 +708,8 @@
       "1.1.2-251": 1045356,
       "1.1.2-252": 1045353,
       "1.1.2-253": 1045351,
-      "1.1.2-261": 1045346
+      "1.1.2-261": 1045346,
+      "1.1.2-262": 1109987
     }
   }
 }
