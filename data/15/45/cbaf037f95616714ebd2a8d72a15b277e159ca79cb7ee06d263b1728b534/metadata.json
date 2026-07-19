@@ -35,12 +35,48 @@
       "since": "254.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1110930": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32970/1110930/component-preview-plugin-1.0.5.zip?updateId=1110930&pluginId=32970&family=INTELLIJ",
+      "sha256": "RNuocMObs4rdpSOzuVH2XcCf/8pacE/gN+OketUQx/4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "org.jetbrains.plugins.vue"
+      ],
+      "file_name": "component-preview-plugin-1.0.5.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1110943": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32970/1110943/component-preview-plugin-1.0.6.zip?updateId=1110943&pluginId=32970&family=INTELLIJ",
+      "sha256": "+z98vtVn3PKZn3KXfY/QXiyl6iPzlHMySKxHZkhCqZk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.vue",
+        "JavaScript"
+      ],
+      "file_name": "component-preview-plugin-1.0.6.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1109711,
-      "1.0.1": 1110386
+      "1.0.1": 1110386,
+      "1.0.5": 1110930,
+      "1.0.6": 1110943
     }
   }
 }

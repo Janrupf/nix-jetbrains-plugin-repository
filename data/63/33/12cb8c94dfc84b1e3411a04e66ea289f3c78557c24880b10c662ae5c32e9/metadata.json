@@ -23,11 +23,27 @@
           "compatible_until": "261.*"
         }
       ]
+    },
+    "1110707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32935/1110707/tas-FrameworkSupport-2026.1-1.2.zip?updateId=1110707&pluginId=32935&family=INTELLIJ",
+      "sha256": "5j0uzkyWzr5cTjvqewsgreLT0UuXcbrnfVTnCgx9ls4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "tas-FrameworkSupport-2026.1-1.2.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.1-1.1": 1108072
+      "2026.1-1.1": 1108072,
+      "2026.1-1.2": 1110707
     }
   }
 }

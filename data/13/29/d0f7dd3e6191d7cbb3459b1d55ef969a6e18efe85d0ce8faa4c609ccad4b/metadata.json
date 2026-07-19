@@ -2,6 +2,19 @@
   "xml_id": "com.codenote.plugin.CodeNote",
   "numeric_id": 32311,
   "updates": {
+    "1079041": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32311/1079041/CodeNote.zip?updateId=1079041&pluginId=32311&family=INTELLIJ",
+      "sha256": "X+Kq5+4LpgTDhMRsugrk1DWanfdxHilw8JVmDvEzU4Q=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CodeNote.zip",
+      "since": "232.0",
+      "until": "261.0",
+      "compatibility_overrides": []
+    },
     "1079985": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32311/1079985/CodeNote.zip?updateId=1079985&pluginId=32311&family=INTELLIJ",
       "sha256": "U4B76ivQ5r1jhkCst2y0SRMl7Nr+uoYX6u2PYwHgY8M=",
@@ -43,6 +56,9 @@
     }
   },
   "channels": {
+    "beta": {
+      "1.0.0": 1079041
+    },
     "stable": {
       "1.0.1": 1079985,
       "1.0.2": 1084051,

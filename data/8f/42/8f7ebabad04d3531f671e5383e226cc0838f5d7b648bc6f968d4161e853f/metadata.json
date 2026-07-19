@@ -58,13 +58,31 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1110737": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32937/1110737/yii2-navigator-1.2.0-signed.zip?updateId=1110737&pluginId=32937&family=INTELLIJ",
+      "sha256": "MjyaOhxBr+ogEveg2Y0ZIs2DOTo4X1a1lxdf5OxUAeY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.twig"
+      ],
+      "file_name": "yii2-navigator-1.2.0-signed.zip",
+      "since": "241.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1108090,
       "1.0.3": 1109270,
-      "1.1.0": 1109356
+      "1.1.0": 1109356,
+      "1.2.0": 1110737
     }
   }
 }

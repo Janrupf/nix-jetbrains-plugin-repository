@@ -971,6 +971,69 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1110711": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30883/1110711/dev.tachilabs.mermaidstudio-core-2026.3.3.zip?updateId=1110711&pluginId=30883&family=INTELLIJ",
+      "sha256": "3uMMqSESyXm5SkfFnNmr8L6d3v23u/8FCS8Wu1WEKUQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.json",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.json.backend",
+        "intellij.platform.rpc.backend",
+        "com.intellij.mcpServer",
+        "intellij.spellchecker",
+        "intellij.css.common.psi",
+        "com.intellij.css",
+        "intellij.markdown",
+        "intellij.platform.kernel.backend",
+        "com.intellij.modules.jcef",
+        "dev.tachilabs.mermaidstudio.markdown-common",
+        "intellij.yaml",
+        "dev.tachilabs.mermaidstudio.shared",
+        "org.intellij.plugins.markdown",
+        "intellij.platform.backend"
+      ],
+      "file_name": "dev.tachilabs.mermaidstudio-core-2026.3.3.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1110712": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30883/1110712/dev.tachilabs.mermaidstudio-core-androidstudio-2026.3.3_as.zip?updateId=1110712&pluginId=30883&family=INTELLIJ",
+      "sha256": "pKfpiN/yt+nhpEhtB0dAlyN8/6iE98T4mtULLLvOEpI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.androidstudio"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.rpc.backend",
+        "intellij.json.backend",
+        "intellij.spellchecker",
+        "com.intellij.mcpServer",
+        "intellij.css.common.psi",
+        "intellij.markdown",
+        "dev.tachilabs.mermaidstudio.markdown-common",
+        "intellij.platform.kernel.backend",
+        "com.intellij.css",
+        "intellij.yaml",
+        "intellij.platform.backend",
+        "dev.tachilabs.mermaidstudio.shared",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "dev.tachilabs.mermaidstudio-core-androidstudio-2026.3.3_as.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1013,7 +1076,9 @@
       "2026.3.1": 1093986,
       "2026.3.1+as": 1093985,
       "2026.3.2": 1098048,
-      "2026.3.2+as": 1098049
+      "2026.3.2+as": 1098049,
+      "2026.3.3": 1110711,
+      "2026.3.3+as": 1110712
     }
   }
 }

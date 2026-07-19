@@ -29,12 +29,27 @@
       "since": "231.0",
       "until": "272.*",
       "compatibility_overrides": []
+    },
+    "1110772": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32792/1110772/intellij-pixi-1.2.0.zip?updateId=1110772&pluginId=32792&family=INTELLIJ",
+      "sha256": "obG3xwrUirIBd6lceie4GqZV+jwHdo4lN4XzzFfruJw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-pixi-1.2.0.zip",
+      "since": "231.0",
+      "until": "272.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.0": 1103851,
-      "1.1.1": 1104100
+      "1.1.1": 1104100,
+      "1.2.0": 1110772
     }
   }
 }
