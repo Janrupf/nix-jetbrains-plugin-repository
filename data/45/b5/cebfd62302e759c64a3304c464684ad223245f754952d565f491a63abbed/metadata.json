@@ -724,6 +724,25 @@
       "since": "251.0",
       "until": "265.*",
       "compatibility_overrides": []
+    },
+    "1111299": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/1111299/jtools-1.1.0.2.zip?updateId=1111299&pluginId=25448&family=INTELLIJ",
+      "sha256": "h5VTkUmXX2syZsVaX0dOf6F+ZjA+ldgnlG1U1r9OscU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle.dependency.updater",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.java"
+      ],
+      "file_name": "jtools-1.1.0.2.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -741,6 +760,7 @@
       "1.0.9": 805705,
       "1.1.0": 855690,
       "1.1.0.1": 856255,
+      "1.1.0.2": 1111299,
       "1.1.1": 849905,
       "1.1.2": 855686,
       "1.1.2.1": 856257,

@@ -43,10 +43,25 @@
       "since": "261.22158",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1111486": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24114/1111486/cbook-prod-2016.2.15.1.zip?updateId=1111486&pluginId=24114&family=INTELLIJ",
+      "sha256": "9ewfDzh6YF88fK25etxh0O3rd2jHi3bdfsH49sqNPFM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.intellij.scala"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cbook-prod-2016.2.15.1.zip",
+      "since": "262.7574",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2016.2.15.1": 1111486,
       "2024.1.25.1": 574351,
       "2026.1.18.4": 1056891,
       "2026.1.18.5": 1058977

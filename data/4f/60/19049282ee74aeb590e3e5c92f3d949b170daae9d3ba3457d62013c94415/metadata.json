@@ -14,11 +14,26 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1111233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30681/1111233/p4rth-opencode-jetbrains-2.0.0.zip?updateId=1111233&pluginId=30681&family=INTELLIJ",
+      "sha256": "tlYBV/ErD9/nlFvMDzwkRxQgGTrKv+rB/u+TrVsMeug=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "p4rth-opencode-jetbrains-2.0.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 986057
+      "1.0.0": 986057,
+      "2.0.0": 1111233
     }
   }
 }

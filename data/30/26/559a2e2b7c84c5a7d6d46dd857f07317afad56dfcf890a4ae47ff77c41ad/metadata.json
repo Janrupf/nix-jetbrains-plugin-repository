@@ -16,10 +16,26 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1111221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32996/1111221/MCUtils-1.0.0.jar?updateId=1111221&pluginId=32996&family=INTELLIJ",
+      "sha256": "yaAEMXSitYLpokq6ekRoinyqyaJHiNb1uZ+wKJ+qUug=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lsp",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MCUtils-1.0.0.jar",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.0": 1111221,
       "1.0.0-SNAPSHOT": 1111202
     }
   }

@@ -3467,12 +3467,51 @@
       "since": "253.0",
       "until": "290.*",
       "compatibility_overrides": []
+    },
+    "1111462": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1111462/gmaven-262.1.zip?updateId=1111462&pluginId=22370&family=INTELLIJ",
+      "sha256": "37+hcSLl6z/um2obLYhTg7GPXSZOj0hOYIa2PcT4sp0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "com.intellij.properties",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.intellij.groovy"
+      ],
+      "file_name": "gmaven-262.1.zip",
+      "since": "262.0",
+      "until": "290.*",
+      "compatibility_overrides": []
+    },
+    "1111465": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1111465/gmaven-262.1.1.zip?updateId=1111465&pluginId=22370&family=INTELLIJ",
+      "sha256": "gRj0mPQGSIOLUxavMuDjvaSIBG8PpywHyiBXdfLXo7o=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "com.intellij.properties",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.intellij.groovy"
+      ],
+      "file_name": "gmaven-262.1.1.zip",
+      "since": "262.0",
+      "until": "290.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "253.5.2": 926139,
-      "253.5.3": 928147
+      "253.5.3": 928147,
+      "262.1.1": 1111465
     },
     "stable": {
       "213.15": 429861,
@@ -3663,7 +3702,8 @@
       "253.5.1": 921813,
       "253.6": 936125,
       "253.7": 1008668,
-      "253.8": 1018125
+      "253.8": 1018125,
+      "262.1": 1111462
     }
   }
 }
