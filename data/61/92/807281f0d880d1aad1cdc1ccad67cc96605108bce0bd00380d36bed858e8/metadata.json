@@ -16,11 +16,27 @@
       "since": "233.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1111980": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32096/1111980/turbodebug-1.0.1.jar?updateId=1111980&pluginId=32096&family=INTELLIJ",
+      "sha256": "cHVcZB24p/QTw14K0BVsHFi+EK65poBQocNx1XzniBE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "PythonCommon",
+        "com.intellij.modules.pycharm"
+      ],
+      "optional_dependencies": [],
+      "file_name": "turbodebug-1.0.1.jar",
+      "since": "233.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1066028
+      "1.0.0": 1066028,
+      "1.0.1": 1111980
     }
   }
 }

@@ -39,7 +39,29 @@
       "optional_dependencies": [],
       "file_name": "model3d-viewer-1.2.0.zip",
       "since": "252.25557",
-      "until": null,
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.25557",
+          "applies_until": "999.99999",
+          "compatible_since": "252.25557",
+          "compatible_until": "261.*"
+        }
+      ]
+    },
+    "1112416": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29933/1112416/model3d-viewer-1.4.1.zip?updateId=1112416&pluginId=29933&family=INTELLIJ",
+      "sha256": "iEbnatE05cLkwLAwSqlBNcN97fWQPgY5XO092ccMAD0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.json",
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "model3d-viewer-1.4.1.zip",
+      "since": "262.0",
+      "until": "262.*",
       "compatibility_overrides": []
     }
   },
@@ -47,7 +69,8 @@
     "stable": {
       "1.0.2": 941643,
       "1.0.3": 1101691,
-      "1.2.0": 1109269
+      "1.2.0": 1109269,
+      "1.4.1": 1112416
     }
   }
 }
