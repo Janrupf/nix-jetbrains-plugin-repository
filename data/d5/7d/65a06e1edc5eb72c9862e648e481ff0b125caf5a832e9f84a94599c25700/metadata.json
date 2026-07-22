@@ -2,24 +2,6 @@
   "xml_id": "cg.creamgod45.LanguageManage",
   "numeric_id": 32901,
   "updates": {
-    "1108825": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32901/1108825/LanguageManage-1.5.1.zip?updateId=1108825&pluginId=32901&family=INTELLIJ",
-      "sha256": "zJIs3BjqFIbCTgZgFleEdSVseOSyIBozejHIZExPpy8=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "intellij.platform.frontend",
-        "intellij.platform.backend",
-        "LanguageManage.shared",
-        "intellij.platform.kernel.backend"
-      ],
-      "file_name": "LanguageManage-1.5.1.zip",
-      "since": null,
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1108872": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32901/1108872/LanguageManage-1.5.2.zip?updateId=1108872&pluginId=32901&family=INTELLIJ",
       "sha256": "vlYHcaFEL0/oanoyZLI2Lnz3eNl6Ntjg7diGbOHSf10=",
@@ -37,12 +19,30 @@
       "since": "253.5",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1112669": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32901/1112669/LanguageManage-1.5.3.zip?updateId=1112669&pluginId=32901&family=INTELLIJ",
+      "sha256": "uuAJ7m+PuY9iPzHhWXMYo5n0ucGf4W8uaQWOKl+cY8k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.kernel.backend",
+        "LanguageManage.shared",
+        "intellij.platform.backend",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "LanguageManage-1.5.3.zip",
+      "since": "253.5",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.5.1": 1108825,
-      "1.5.2": 1108872
+      "1.5.2": 1108872,
+      "1.5.3": 1112669
     }
   }
 }

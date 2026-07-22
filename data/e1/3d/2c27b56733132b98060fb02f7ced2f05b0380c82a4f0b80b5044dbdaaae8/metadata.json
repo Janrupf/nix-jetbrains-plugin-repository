@@ -16,11 +16,27 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1113219": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33010/1113219/swagger-viewer-1.0.1.jar?updateId=1113219&pluginId=33010&family=INTELLIJ",
+      "sha256": "uokEJlS3/KOp7h3UBF00b+pA9QLpSVwO8tgRHN+Phfk=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "swagger-viewer-1.0.1.jar",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1111734
+      "1.0.0": 1111734,
+      "1.0.1": 1113219
     }
   }
 }

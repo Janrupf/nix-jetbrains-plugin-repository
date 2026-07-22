@@ -724,6 +724,62 @@
       "since": "251.0",
       "until": "265.*",
       "compatibility_overrides": []
+    },
+    "1111825": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/1111825/jtools-1.1.0.2.zip?updateId=1111825&pluginId=25448&family=INTELLIJ",
+      "sha256": "bjogEYKowOEL1tgfpuN356OOIdF82pJTQuJ9TNWK0Bs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "org.jetbrains.plugins.gradle.dependency.updater",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "jtools-1.1.0.2.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1112695": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/1112695/jtools-1.1.0.3.zip?updateId=1112695&pluginId=25448&family=INTELLIJ",
+      "sha256": "qn7+6PIOJKJ0yP617poTlO6Rl4wO07+l4p00BVaPuLE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.gradle.dependency.updater",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java"
+      ],
+      "file_name": "jtools-1.1.0.3.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1112813": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/1112813/jtools-1.1.4.6.zip?updateId=1112813&pluginId=25448&family=INTELLIJ",
+      "sha256": "VgmSW4cHBa4FISm/AfYvxoHQQobsycryTaRpPJXUgdY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.gradle.dsl"
+      ],
+      "file_name": "jtools-1.1.4.6.zip",
+      "since": "251.0",
+      "until": "265.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -741,6 +797,8 @@
       "1.0.9": 805705,
       "1.1.0": 855690,
       "1.1.0.1": 856255,
+      "1.1.0.2": 1111825,
+      "1.1.0.3": 1112695,
       "1.1.1": 849905,
       "1.1.2": 855686,
       "1.1.2.1": 856257,
@@ -767,7 +825,8 @@
       "1.1.4.2-fix": 1050006,
       "1.1.4.3": 1057296,
       "1.1.4.4": 1061089,
-      "1.1.4.5": 1110777
+      "1.1.4.5": 1110777,
+      "1.1.4.6": 1112813
     }
   }
 }

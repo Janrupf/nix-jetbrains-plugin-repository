@@ -61,13 +61,34 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1111752": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29634/1111752/wechat-miniprogram-1.2.0.zip?updateId=1111752&pluginId=29634&family=INTELLIJ",
+      "sha256": "w+keeqL730ZYOxJzo4KVXmIer0o17d41h70Xil1TGAM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "JavaScript",
+        "com.intellij.css"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.less",
+        "org.jetbrains.plugins.sass",
+        "org.jetbrains.plugins.stylus"
+      ],
+      "file_name": "wechat-miniprogram-1.2.0.zip",
+      "since": "253.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 925240,
       "1.1.0": 944972,
-      "1.1.1": 944990
+      "1.1.1": 944990,
+      "1.2.0": 1111752
     }
   }
 }
