@@ -31,12 +31,44 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1113732": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30817/1113732/phpstorm-mcp-2025.3.1.zip?updateId=1113732&pluginId=30817&family=INTELLIJ",
+      "sha256": "OyWJHr+wf+aQGnwHwiRhLPWseFnUui5XLUoN4CEcQWc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "phpstorm-mcp-2025.3.1.zip",
+      "since": "251.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1113738": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30817/1113738/phpstorm-mcp-2026.2.2.zip?updateId=1113738&pluginId=30817&family=INTELLIJ",
+      "sha256": "DtIKA/AFEz+/wUnHqES7LsTfvKJUeVfNehKdEXHiCyM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "phpstorm-mcp-2026.2.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.6.0": 995829,
-      "0.7.0": 1080457
+      "0.7.0": 1080457,
+      "2025.3.1": 1113732,
+      "2026.2.2": 1113738
     }
   }
 }

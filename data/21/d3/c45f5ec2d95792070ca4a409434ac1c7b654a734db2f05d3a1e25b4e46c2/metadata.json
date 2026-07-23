@@ -29,12 +29,29 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1113649": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33019/1113649/claude-commit-plugin.jar?updateId=1113649&pluginId=33019&family=INTELLIJ",
+      "sha256": "V9EmiAVY2r/azaXTbLmYgDZ1dpr2puOgGGp4KtalijI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "claude-commit-plugin.jar",
+      "since": "253.33813.25",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1112162,
-      "1.0.1": 1112509
+      "1.0.1": 1112509,
+      "1.2.0": 1113649
     }
   }
 }

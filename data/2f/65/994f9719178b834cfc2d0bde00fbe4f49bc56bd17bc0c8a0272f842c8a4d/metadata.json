@@ -1019,13 +1019,70 @@
       "since": "253.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1113721": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17501/1113721/Notes.zip?updateId=1113721&pluginId=17501&family=INTELLIJ",
+      "sha256": "V9hLHkwmdXxawCjOB0OGB2DZWdb+FMCSd97GGHI/RSI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.platform.bookmarks",
+        "com.intellij.platform.images",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.ml.llm",
+        "JavaScript",
+        "Git4Idea",
+        "org.asciidoctor.intellij.asciidoc",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.python",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.textmate",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "Notes.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1114066": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17501/1114066/Notes.zip?updateId=1114066&pluginId=17501&family=INTELLIJ",
+      "sha256": "wjUZuvxYpI78IEKB3gr0ypc/QF/HIb+kKemazfBZoyI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.platform.images",
+        "intellij.platform.bookmarks",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.ml.llm",
+        "com.intellij.modules.python",
+        "JavaScript",
+        "com.intellij.mcpServer",
+        "org.intellij.plugins.markdown",
+        "org.asciidoctor.intellij.asciidoc",
+        "com.jetbrains.php"
+      ],
+      "file_name": "Notes.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "2022.1.0-EAP": 155683,
       "2024.2.0.1 EAP": 560869,
-      "2026.2.0": 1061463
+      "2026.2.0": 1061463,
+      "2026.2.0 EAP": 1113721
     },
     "stable": {
       "2020.3.1": 135046,
@@ -1069,7 +1126,8 @@
       "2025.2.2": 837474,
       "2025.3.0": 941959,
       "2025.3.1": 960964,
-      "2026.1.0": 987286
+      "2026.1.0": 987286,
+      "2026.2.0": 1114066
     }
   }
 }

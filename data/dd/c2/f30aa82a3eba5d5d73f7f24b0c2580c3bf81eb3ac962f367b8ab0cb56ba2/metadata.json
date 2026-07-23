@@ -242,6 +242,46 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1114073": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8620/1114073/undo-clion-2.11.101121-classic.jar?updateId=1114073&pluginId=8620&family=INTELLIJ",
+      "sha256": "xq0Wa160X7i3EvtYPo3XhrR81usQORlpjMqwrTm2QWM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [],
+      "file_name": "undo-clion-2.11.101121-classic.jar",
+      "since": "233.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1114074": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8620/1114074/undo-clion-2.11.101121-modular.zip?updateId=1114074&pluginId=8620&family=INTELLIJ",
+      "sha256": "tAPZgNLC3DB1iJbz++XXNpSMpNq/fdiJH9fnaiUMg7s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.nativeDebug",
+        "intellij.platform.kernel.backend",
+        "undo-clion.shared",
+        "intellij.platform.frontend",
+        "intellij.clion.toolchains",
+        "intellij.platform.debugger.impl.shared",
+        "intellij.platform.debugger.impl.ui",
+        "com.intellij.clion",
+        "intellij.clion.execution",
+        "intellij.platform.backend"
+      ],
+      "file_name": "undo-clion-2.11.101121-modular.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -252,6 +292,8 @@
       "2.0.1": 64714,
       "2.0.2": 121076,
       "2.1.0": 161558,
+      "2.11.101121-classic": 1114073,
+      "2.11.101121-modular": 1114074,
       "2.2.0": 327933,
       "2.2.84700": 385420,
       "2.3.86698": 472658,

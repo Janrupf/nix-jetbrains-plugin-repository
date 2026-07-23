@@ -29,12 +29,28 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1113703": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32451/1113703/PhpDebugTools-1.2.3.zip?updateId=1113703&pluginId=32451&family=INTELLIJ",
+      "sha256": "OGmIx71Wv+7nfCuwrPiUq9e4TFgE4st9cs9RpeamlEs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "PhpDebugTools-1.2.3.zip",
+      "since": "262.8665.265",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1085270,
-      "1.0.4": 1091007
+      "1.0.4": 1091007,
+      "1.2.3": 1113703
     }
   }
 }
