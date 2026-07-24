@@ -183,6 +183,20 @@
       "since": "234.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1115065": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22779/1115065/intellij-plugin.zip?updateId=1115065&pluginId=22779&family=INTELLIJ",
+      "sha256": "ogR/YJEqHutDngp+u/uPM8GfZb99ISQPL635+fquxNg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-plugin.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -202,7 +216,8 @@
       "1.2.1": 565913,
       "1.3.0": 584448,
       "1.4.0": 606929,
-      "1.5.0": 666402
+      "1.5.0": 666402,
+      "2.0.0": 1115065
     }
   }
 }

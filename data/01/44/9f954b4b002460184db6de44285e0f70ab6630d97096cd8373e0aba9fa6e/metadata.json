@@ -24,10 +24,34 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1115024": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33007/1115024/git-focus-0.10.0_902184b.zip?updateId=1115024&pluginId=33007&family=INTELLIJ",
+      "sha256": "XkQ+Dwj/8dTBe0eIQlKGg+6TeBxsr+NQW+Aw+rbxl5g=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.ruby",
+        "JavaScript",
+        "com.jetbrains.php",
+        "com.jetbrains.rust",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "git-focus-0.10.0_902184b.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0+902184b": 1115024,
       "0.8.0+619b23e": 1111527
     }
   }

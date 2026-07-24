@@ -3418,7 +3418,7 @@
       ],
       "file_name": "zencoder-1.11.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3446,7 +3446,7 @@
       ],
       "file_name": "zencoder-1.11.0.zip",
       "since": "241.14494.127",
-      "until": null,
+      "until": "243.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3946,7 +3946,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": "243.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -3975,7 +3975,7 @@
       ],
       "file_name": "zencoder-1.12.0.zip",
       "since": "241.14494.127",
-      "until": "243.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "241.14494.127",
@@ -21564,6 +21564,30 @@
       "since": "242.20224.91",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1115113": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24782/1115113/zencoder-3.32.0-nightly.3.zip?updateId=1115113&pluginId=24782&family=INTELLIJ",
+      "sha256": "gLLOQo9P+OEZ0sKKGZMlfbT3kVoCrM6p3kWJbfeBAbI=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.php"
+      ],
+      "file_name": "zencoder-3.32.0-nightly.3.zip",
+      "since": "242.20224.91",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -22344,6 +22368,7 @@
       "3.31.0-nightly.3": 1103867,
       "3.32.0-nightly.1": 1104900,
       "3.32.0-nightly.2": 1109371,
+      "3.32.0-nightly.3": 1115113,
       "3.4.0": 911619,
       "3.4.0-RC.1": 911103,
       "3.4.0-RC.2": 911169,

@@ -52,13 +52,31 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1114696": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30288/1114696/cipher-decryptor-plugin-1.0.3.zip?updateId=1114696&pluginId=30288&family=INTELLIJ",
+      "sha256": "gZbuTCLXFSX/O99n5zCH6asLuVnDG7TdXqG4P4OxpqA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
+      ],
+      "file_name": "cipher-decryptor-plugin-1.0.3.zip",
+      "since": "253.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 962032,
       "1.0.1": 967521,
-      "1.0.2": 996407
+      "1.0.2": 996407,
+      "1.0.3": 1114696
     }
   }
 }

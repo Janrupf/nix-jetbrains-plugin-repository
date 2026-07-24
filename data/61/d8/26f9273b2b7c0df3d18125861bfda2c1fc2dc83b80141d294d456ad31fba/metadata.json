@@ -1686,7 +1686,35 @@
       ],
       "file_name": "RestfulBox-6.11.0.zip",
       "since": "241.0",
-      "until": null,
+      "until": "261",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "999.99999",
+          "compatible_since": "241.0",
+          "compatible_until": "261"
+        }
+      ]
+    },
+    "1115133": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14723/1115133/RestfulBox-6.12.0.zip?updateId=1115133&pluginId=14723&family=INTELLIJ",
+      "sha256": "4KuAHJ+NwZ/d3PlAdmb7OETXduXWZrAfvZgdLygyic0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "Git4Idea",
+        "com.intellij.gradle",
+        "com.jetbrains.rust",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "RestfulBox-6.12.0.zip",
+      "since": "241.0",
+      "until": "261.*",
       "compatibility_overrides": []
     }
   },
@@ -1762,6 +1790,7 @@
       "6.1.1": 789686,
       "6.10.0": 938198,
       "6.11.0": 954895,
+      "6.12.0": 1115133,
       "6.2.0": 795896,
       "6.2.1": 796910,
       "6.2.3": 803235,
