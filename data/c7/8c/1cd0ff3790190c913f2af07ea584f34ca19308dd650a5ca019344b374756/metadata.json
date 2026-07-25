@@ -41,12 +41,33 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1115894": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31349/1115894/token-slayer-jb-0.3.0.zip?updateId=1115894&pluginId=31349&family=INTELLIJ",
+      "sha256": "IdLUKIRQEU3vd/YfvMLQRKr/lpEWrMX+goHRlSLcMNY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.python",
+        "com.github.copilot",
+        "org.jetbrains.plugins.go",
+        "JavaScript"
+      ],
+      "file_name": "token-slayer-jb-0.3.0.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1026346,
-      "0.2.0": 1055442
+      "0.2.0": 1055442,
+      "0.3.0": 1115894
     }
   }
 }

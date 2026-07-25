@@ -419,6 +419,25 @@
       "since": "242.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1115006": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16141/1115006/k6-1.6.1.zip?updateId=1115006&pluginId=16141&family=INTELLIJ",
+      "sha256": "zFsdtaUHEqGID81+PEBgppbq/VEZ/kipJPocf8MVjDk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jcef",
+        "NodeJS",
+        "intellij.platform.ui.jcef",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "k6-1.6.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -447,7 +466,8 @@
       "1.4.1": 807166,
       "1.4.2": 843507,
       "1.5.0": 895437,
-      "1.6.0": 946192
+      "1.6.0": 946192,
+      "1.6.1": 1115006
     }
   }
 }

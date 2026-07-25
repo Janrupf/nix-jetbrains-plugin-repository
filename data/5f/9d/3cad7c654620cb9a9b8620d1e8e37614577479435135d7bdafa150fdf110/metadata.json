@@ -28777,6 +28777,50 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1115930": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/1115930/clouds-kubernetes-262.9437.27.zip?updateId=1115930&pluginId=10485&family=INTELLIJ",
+      "sha256": "1QeC9B/sAH+bpZ8epppElIu2lqlZveI9T8pruhJLrwQ=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "intellij.libraries.ktor.client.cio",
+        "Docker",
+        "intellij.json",
+        "intellij.yaml",
+        "intellij.platform.execution.serviceView",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.kernel.backend",
+        "intellij.clouds.docker.agent",
+        "intellij.database.core.impl",
+        "intellij.clouds.kubernetes",
+        "org.jetbrains.plugins.go-template",
+        "intellij.yaml.backend",
+        "intellij.spellchecker",
+        "intellij.clouds.kubernetes.libraries",
+        "intellij.yaml.helm",
+        "com.intellij.cron",
+        "intellij.database.util",
+        "intellij.platform.vcs.impl",
+        "intellij.clouds.docker.frontend",
+        "intellij.clouds.docker.compose",
+        "com.intellij.database",
+        "intellij.database.impl",
+        "intellij.platform.frontend",
+        "intellij.clouds.kubernetes.backend",
+        "intellij.platform.vcs",
+        "intellij.platform.commercial.verifier",
+        "intellij.json.backend",
+        "intellij.platform.editor.frontend",
+        "intellij.clouds.docker",
+        "intellij.platform.backend"
+      ],
+      "file_name": "clouds-kubernetes-262.9437.27.zip",
+      "since": "262.9437",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -30223,7 +30267,8 @@
       "262.8117.20": 1081937,
       "262.8377.20": 1086606,
       "262.8665.173": 1102338,
-      "262.8665.65": 1096045
+      "262.8665.65": 1096045,
+      "262.9437.27": 1115930
     }
   }
 }

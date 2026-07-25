@@ -2049,6 +2049,48 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1115354": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16008/1115354/ktor-262.9437.22.zip?updateId=1115354&pluginId=16008&family=INTELLIJ",
+      "sha256": "WJiAlt82d45apHjhAg8cFXF36PJru0pOhks8T93gyY8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "intellij.java.psi",
+        "intellij.java.execution.impl",
+        "intellij.java.backend",
+        "intellij.java.debugger.impl",
+        "intellij.kotlin.codeInsight.shared",
+        "intellij.platform.execution.dashboard.backend",
+        "org.jetbrains.kotlin",
+        "intellij.gradle.java",
+        "intellij.json.backend",
+        "com.intellij.microservices.jvm",
+        "intellij.java.ui",
+        "intellij.kotlin.jvm.debugger.coroutines",
+        "intellij.kotlin.runConfigurations.jvm",
+        "intellij.properties.backend",
+        "intellij.java.structuralSearch",
+        "com.intellij.modules.jetbrains",
+        "intellij.properties.backend.psi"
+      ],
+      "optional_dependencies": [
+        "intellij.gradle.toolingExtension.impl",
+        "intellij.yaml.backend",
+        "intellij.gradle.toolingExtension",
+        "intellij.gradle",
+        "intellij.ktor.run.gradle.tooling",
+        "intellij.maven",
+        "JUnit",
+        "org.jetbrains.idea.gradle.dsl",
+        "intellij.microservices.jvm.config.yaml",
+        "com.intellij.swagger",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "ktor-262.9437.22.zip",
+      "since": "262.9437",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2125,7 +2167,8 @@
       "262.8117.19": 1081898,
       "262.8377.35": 1086847,
       "262.8665.176": 1102625,
-      "262.8665.81": 1096922
+      "262.8665.81": 1096922,
+      "262.9437.22": 1115354
     }
   }
 }

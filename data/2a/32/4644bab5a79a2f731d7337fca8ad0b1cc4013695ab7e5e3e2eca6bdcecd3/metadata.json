@@ -129,6 +129,46 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1115908": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/1115908/live-debugger-plugin-0.2.0.zip?updateId=1115908&pluginId=30451&family=INTELLIJ",
+      "sha256": "/Sq09LHWMANqU/05GEu8VRM6Gc/bpzUpmnY1EpPpTBo=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.compose",
+        "com.intellij.mcpServer",
+        "org.jetbrains.kotlin",
+        "com.intellij.java",
+        "com.intellij.gradle",
+        "JUnit"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "live-debugger-plugin-0.2.0.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1115982": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/1115982/live-debugger-plugin-0.2.1.zip?updateId=1115982&pluginId=30451&family=INTELLIJ",
+      "sha256": "UnIkF9gcmw5EQG1X8Wq0UEtF1r4wo+gYbEPB5+rOagw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.kotlin",
+        "com.intellij.mcpServer",
+        "JUnit",
+        "com.intellij.java",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "live-debugger-plugin-0.2.1.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -137,7 +177,9 @@
       "0.1.3.1": 1057775,
       "0.1.5": 1065387,
       "0.1.6": 1065736,
-      "0.1.7": 1105888
+      "0.1.7": 1105888,
+      "0.2.0": 1115908,
+      "0.2.1": 1115982
     }
   }
 }
