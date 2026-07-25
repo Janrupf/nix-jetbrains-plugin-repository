@@ -1,8 +1,5 @@
 { lib
 , pkgs
-, runCommandLocal
-
-, glibcLocalesUtf8
 
 , ... }:
 rec {
@@ -21,6 +18,7 @@ rec {
     until ? updateData.until,
     compatibilityOverrides ? updateData.compatibility_overrides,
     channel ? updateData.channel,
+    dependencies ? updateData.dependencies or [],
   }: let
     passthru = {
       rawData = data;
@@ -28,7 +26,7 @@ rec {
       inherit updateId;
       inherit updateData;
       compatibility = {
-        inherit since until compatibilityOverrides;
+        inherit since until compatibilityOverrides dependencies;
       };
     };
 

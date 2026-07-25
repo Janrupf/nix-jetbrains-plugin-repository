@@ -5,6 +5,7 @@ let
   versionLib = pkgs.callPackage ./version.nix {};
   packaging = pkgs.callPackage ./packaging.nix {};
   fixup = pkgs.callPackage ./fixup.nix {};
+  ideaModules = pkgs.callPackage ./idea-modules.nix {};
 in rec {
   mergeAttrsListRecursive = list:
     let
@@ -72,9 +73,10 @@ in rec {
     mergeAttrsListRecursive (lib.attrsets.mapAttrsToList mapToKeyValuePair set);
 
   # Check wether a plugin is compatible with a given IDE build
-  isCompatibleWith = build: plugin: let
-    buildNumber = if build ? buildNumber then build.buildNumber else build;
+  isCompatibleWith = ide: plugin: let
+    buildNumber = if ide ? buildNumber then ide.buildNumber else ide;
     compatData = plugin.compatibility or (throw (lib.trace plugin.type "Missing compatibility information"));
+    platformModulesCompatible = ideaModules.platformModulesCompatible ide.stdenv compatData.dependencies;
 
     isInValidRange = versionLib.inRange buildNumber compatData.since compatData.until;
     isInWorkingCondition = lib.lists.foldl (state: compatOverride: state && (
@@ -82,13 +84,13 @@ in rec {
         then versionLib.inRange buildNumber compatOverride.compatible_since compatOverride.compatible_until
         else true
     )) true compatData.compatibilityOverrides; 
-  in isInValidRange && isInWorkingCondition;
+  in isInValidRange && isInWorkingCondition && platformModulesCompatible;
 
   # Select the latest compatible version of the version set, or null, if
   # no compatible version is found
-  selectLatestCompatibleVersion = ideBuildNumber: pluginVersionSet: (lib.attrsets.foldlAttrs
+  selectLatestCompatibleVersion = idePkg: pluginVersionSet: (lib.attrsets.foldlAttrs
     ({ selectedVersion, selectedPkg }@selected: version: pkg:
-      if (pkg ? type && lib.isDerivation pkg) && isCompatibleWith ideBuildNumber pkg
+      if (pkg ? type && lib.isDerivation pkg) && isCompatibleWith idePkg pkg
         then if selectedVersion == null 
           then { selectedVersion = version; selectedPkg = pkg; } # No compatible plugin selected yet, take anything we can
         else if lib.strings.versionAtLeast version selectedVersion 
@@ -114,7 +116,7 @@ in rec {
 
     pluginPkgs = map (plugin: if plugin ? type && plugin.type == "versionset"
       then let
-          selectedPlugin = selectLatestCompatibleVersion ideBuildNumber plugin;
+          selectedPlugin = selectLatestCompatibleVersion idePkg plugin;
         in if selectedPlugin == null
           then throw "no compatible plugin ${plugin.name} found for IDE build ${ideBuildNumber}"
           else selectedPlugin
