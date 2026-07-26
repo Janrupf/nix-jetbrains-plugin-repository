@@ -261,6 +261,40 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1116868": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31841/1116868/task-worktree-plugin-0.1.4-unstable.7.zip?updateId=1116868&pluginId=31841&family=INTELLIJ",
+      "sha256": "zdAcoWs/LpePNvgRK7ZT0hB+HaiYUPd4oU9AETDfgVg=",
+      "channel": "unstable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.tasks",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github"
+      ],
+      "file_name": "task-worktree-plugin-0.1.4-unstable.7.zip",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1116871": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31841/1116871/task-worktree-plugin-0.1.4.zip?updateId=1116871&pluginId=31841&family=INTELLIJ",
+      "sha256": "+qIC1ZGiJNfSvHqtvbL5QXaNV6zWirkBSP/EzXktTKM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.tasks",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github"
+      ],
+      "file_name": "task-worktree-plugin-0.1.4.zip",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -273,7 +307,8 @@
       "0.0.7": 1080909,
       "0.1.0": 1087062,
       "0.1.2": 1087260,
-      "0.1.3": 1101994
+      "0.1.3": 1101994,
+      "0.1.4": 1116871
     },
     "unstable": {
       "0.1.2": 1087254,
@@ -282,7 +317,8 @@
       "0.1.2-unstable.3": 1101981,
       "0.1.3-unstable.4": 1101984,
       "0.1.3-unstable.5": 1101985,
-      "0.1.3-unstable.6": 1101993
+      "0.1.3-unstable.6": 1101993,
+      "0.1.4-unstable.7": 1116868
     }
   }
 }

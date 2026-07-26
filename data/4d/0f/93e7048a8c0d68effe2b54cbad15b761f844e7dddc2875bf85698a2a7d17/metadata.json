@@ -15,11 +15,26 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1116489": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33124/1116489/trino-intellij-plugin.zip?updateId=1116489&pluginId=33124&family=INTELLIJ",
+      "sha256": "CNX4dzdglgbrWVlHJQpepIKxOqghfNwRmFtdrzQ93Qs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "trino-intellij-plugin.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1116242
+      "0.1.0": 1116242,
+      "0.2.0": 1116489
     }
   }
 }

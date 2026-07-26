@@ -42,9 +42,26 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1116910": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31104/1116910/arf-2.1.zip?updateId=1116910&pluginId=31104&family=INTELLIJ",
+      "sha256": "ifFLoRVSsawtJBBv2B3p65Dw0mVTmfeoiX/8LtqWrag=",
+      "channel": "internal",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "arf-2.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "internal": {
+      "2.1": 1116910
+    },
     "stable": {
       "1.0": 1009432,
       "1.1": 1043876,
