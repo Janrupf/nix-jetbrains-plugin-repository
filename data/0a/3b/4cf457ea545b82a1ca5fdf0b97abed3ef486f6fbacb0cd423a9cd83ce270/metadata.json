@@ -119,6 +119,38 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1117119": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32777/1117119/doris-intellij-plugin.zip?updateId=1117119&pluginId=32777&family=INTELLIJ",
+      "sha256": "k8ONGS6FyJpesL4ba2Rkm2OhfNpbr+7CnAyDN751c60=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "dev.sort.sql-transpiler-intellij-plugin"
+      ],
+      "file_name": "doris-intellij-plugin.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1117306": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32777/1117306/doris-intellij-plugin.zip?updateId=1117306&pluginId=32777&family=INTELLIJ",
+      "sha256": "gzbLev033H3MbtnC7RMXZjDH8gNP77Vny3vMQOPVtDY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "dev.sort.sql-transpiler-intellij-plugin"
+      ],
+      "file_name": "doris-intellij-plugin.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -130,7 +162,9 @@
       "0.6.0": 1105754,
       "0.7.1": 1108626,
       "0.9.0": 1109313,
-      "1.0.0": 1115007
+      "1.0.0": 1115007,
+      "1.1.0": 1117119,
+      "1.2.0": 1117306
     }
   }
 }

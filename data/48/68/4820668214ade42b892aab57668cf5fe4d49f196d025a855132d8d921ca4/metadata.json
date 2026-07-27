@@ -15,8 +15,15 @@
       ],
       "file_name": "doki-theme-jetbrains-88.5-1.16.3.zip",
       "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.0",
+          "applies_until": "999.99999",
+          "compatible_since": "253.0",
+          "compatible_until": "261.*"
+        }
+      ]
     },
     "1083565": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30534/1083565/doki-theme-jetbrains-88.5-1.16.4-signed.zip?updateId=1083565&pluginId=30534&family=INTELLIJ",
@@ -37,15 +44,32 @@
           "applies_since": "253.0",
           "applies_until": "999.99999",
           "compatible_since": "253.0",
-          "compatible_until": "261.99"
+          "compatible_until": "261.*"
         }
       ]
+    },
+    "1117074": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30534/1117074/doki-theme-jetbrains-88.5-1.16.5-signed.zip?updateId=1117074&pluginId=30534&family=INTELLIJ",
+      "sha256": "hyILMfiSHGr84csr9zwIHelrCeCz7qWL9vX8ByUFq7w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lang",
+        "XPathView"
+      ],
+      "file_name": "doki-theme-jetbrains-88.5-1.16.5-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "88.5-1.16.3": 982730,
-      "88.5-1.16.4": 1083565
+      "88.5-1.16.4": 1083565,
+      "88.5-1.16.5": 1117074
     }
   }
 }
