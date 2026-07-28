@@ -1190,6 +1190,46 @@
       "since": "262.9437",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1117629": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27879/1117629/go-frontend-262.9437.26.zip?updateId=1117629&pluginId=27879&family=INTELLIJ",
+      "sha256": "kOlUGTQVuXZ4+6UVB6ZEKU6qiI1BAFbw6wlejqWwxB4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.frontend.split",
+        "com.intellij.jetbrains.client"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.go.frontback",
+        "intellij.platform.frontend",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.compose"
+      ],
+      "file_name": "go-frontend-262.9437.26.zip",
+      "since": "262.9437",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1117914": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27879/1117914/go-frontend-262.8665.369.zip?updateId=1117914&pluginId=27879&family=INTELLIJ",
+      "sha256": "OPIN3c2Wrs6RHKDSj6Rj7X/XCPxQOmM+FEF50t0/bmk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client",
+        "intellij.platform.frontend.split"
+      ],
+      "optional_dependencies": [
+        "intellij.go.frontback",
+        "intellij.platform.frontend",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.compose",
+        "intellij.platform.ide.nonModalWelcomeScreen"
+      ],
+      "file_name": "go-frontend-262.8665.369.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1247,8 +1287,10 @@
       "262.8665.325": 1114781,
       "262.8665.337": 1114727,
       "262.8665.341": 1114793,
+      "262.8665.369": 1117914,
       "262.8665.65": 1095927,
       "262.9437.22": 1115312,
+      "262.9437.26": 1117629,
       "262.9437.27": 1115920,
       "262.9437.28": 1115933
     }

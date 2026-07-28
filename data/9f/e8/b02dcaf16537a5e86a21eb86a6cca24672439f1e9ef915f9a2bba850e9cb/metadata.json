@@ -2064,6 +2064,28 @@
       "since": "261.21849",
       "until": "261.21849.*",
       "compatibility_overrides": []
+    },
+    "1118010": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13123/1118010/terminal-253.33813.51.zip?updateId=1118010&pluginId=13123&family=INTELLIJ",
+      "sha256": "DN/bYM89nlyTy6xF8PGSUsIbEJ7ueExPY6bOjNBVido=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.inline.completion",
+        "intellij.sh.core",
+        "intellij.platform.backend",
+        "com.intellij.modules.remoteServers",
+        "intellij.terminal.frontend",
+        "intellij.platform.frontend.split"
+      ],
+      "file_name": "terminal-253.33813.51.zip",
+      "since": "253.33813",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2192,6 +2214,7 @@
       "253.29346.125": 915485,
       "253.30387.92": 938998,
       "253.31033.21": 950308,
+      "253.33813.51": 1118010,
       "261.20869.40": 956897,
       "261.21849.37": 968948
     }

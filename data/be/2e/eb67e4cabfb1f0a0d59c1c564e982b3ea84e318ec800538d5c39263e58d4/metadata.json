@@ -802,8 +802,15 @@
       "optional_dependencies": [],
       "file_name": "spring-boot-assistant-601.0.6_242.zip",
       "since": "242.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "999.99999",
+          "compatible_since": "242.0",
+          "compatible_until": "261.*"
+        }
+      ]
     }
   },
   "channels": {

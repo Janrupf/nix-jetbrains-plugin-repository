@@ -40,13 +40,27 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1117649": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32995/1117649/prism-log-viewer.zip?updateId=1117649&pluginId=32995&family=INTELLIJ",
+      "sha256": "P42x/2pEsystzAlrhgSAL20CYDLHoo1xvtwn7qYr26g=",
+      "channel": "prism-private",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "prism-log-viewer.zip",
+      "since": "252.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "prism-private": {
       "1.0.0": 1110994,
       "1.0.1": 1111019,
-      "1.0.2": 1111482
+      "1.0.2": 1111482,
+      "1.0.3": 1117649
     }
   }
 }

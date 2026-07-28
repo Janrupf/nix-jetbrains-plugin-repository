@@ -1792,7 +1792,7 @@
       ],
       "file_name": "writerside-2026.02.8644.zip",
       "since": "253.0",
-      "until": "253.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "253.0",
@@ -1821,7 +1821,7 @@
       ],
       "file_name": "writerside-2026.02.8644.zip",
       "since": "253.0",
-      "until": "253.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "253.0",
@@ -1971,6 +1971,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1117640": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1117640/writerside-2026.07.8907.zip?updateId=1117640&pluginId=20158&family=INTELLIJ",
+      "sha256": "kPKTmTS1VfYgEpQIMRGU4eGtYARDT2+t+s8MfBi8cwg=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "tanvd.grazi",
+        "org.jetbrains.toolbox-enterprise-client",
+        "com.intellij.modules.writerside"
+      ],
+      "file_name": "writerside-2026.07.8907.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2023,7 +2046,8 @@
       "2026.03.8694": 1003171,
       "2026.04.8711": 1012284,
       "2026.07.8903": 1113145,
-      "2026.07.8904": 1113158
+      "2026.07.8904": 1113158,
+      "2026.07.8907": 1117640
     },
     "stable": {
       "2023.03.3401": 319402,
