@@ -603,11 +603,66 @@
       "since": "262.5752",
       "until": "262.5752.*",
       "compatibility_overrides": []
+    },
+    "1118406": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28372/1118406/cpp-frontend-split-252.28539.90.zip?updateId=1118406&pluginId=28372&family=INTELLIJ",
+      "sha256": "Y6JNLPzw1DM2D4S97s9uoK+zVD61ymksFKoJTF2fQ10=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.identifiers.highlighting.frontend.split",
+        "intellij.platform.frontend.split",
+        "com.intellij.jetbrains.client"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cpp-frontend-split-252.28539.90.zip",
+      "since": "252.28539",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "1118634": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28372/1118634/cpp-frontend-split-253.33813.50.zip?updateId=1118634&pluginId=28372&family=INTELLIJ",
+      "sha256": "Qcgbf5a7CzDq1fLMgsCmqKZ//HfMsqkQZ+n+3b2ygyQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.rider.icons",
+        "intellij.cpp.common.protocol",
+        "intellij.rd.ide.model.generated",
+        "intellij.rider.cpp.core.languages",
+        "intellij.cidr.psi.base",
+        "com.intellij.jetbrains.client",
+        "intellij.platform.identifiers.highlighting.frontend.split",
+        "intellij.resharper.cpp.lexer",
+        "intellij.platform.frontend.split",
+        "intellij.rd.platform",
+        "intellij.resharper.assist"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cpp-frontend-split-253.33813.50.zip",
+      "since": "253.33813",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1118639": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28372/1118639/cpp-frontend-split-252.28539.97.zip?updateId=1118639&pluginId=28372&family=INTELLIJ",
+      "sha256": "3iZfkCbnt3Nu4GqTESD33QYRT7XC8uzZkE7jHiP/Rq4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client",
+        "intellij.platform.frontend.split",
+        "intellij.platform.identifiers.highlighting.frontend.split"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cpp-frontend-split-252.28539.97.zip",
+      "since": "252.28539",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "252.26199.7": 849061,
+      "252.28539.90": 1118406,
+      "252.28539.97": 1118639,
       "253.17525.95": 857273,
       "253.20558.43": 861443,
       "253.22441.33": 866015,
@@ -620,6 +675,7 @@
       "253.28294.169": 895619,
       "253.28294.251": 902496,
       "253.29346.50": 911653,
+      "253.33813.50": 1118634,
       "261.17801.55": 937130,
       "261.19799.20": 943469,
       "261.20362.25": 949227,
