@@ -2,22 +2,6 @@
   "xml_id": "io.mp.sightline",
   "numeric_id": 33022,
   "updates": {
-    "1117566": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33022/1117566/sightline-0.4.0-beta.zip?updateId=1117566&pluginId=33022&family=INTELLIJ",
-      "sha256": "hXRdBC24W45gMvj4bqRdbDP4pAMhQmBMsDt5R2wEs5E=",
-      "channel": "beta",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "org.jetbrains.android"
-      ],
-      "file_name": "sightline-0.4.0-beta.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1117579": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33022/1117579/sightline-0.5.0-beta.zip?updateId=1117579&pluginId=33022&family=INTELLIJ",
       "sha256": "ckqSMxbbyffoODSwRmJLQqtPVHp/Z3yaSEv2rHERslY=",
@@ -49,15 +33,31 @@
       "since": "261.25134",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1119184": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33022/1119184/sightline-0.6.0.zip?updateId=1119184&pluginId=33022&family=INTELLIJ",
+      "sha256": "twFh6dAqJIzWoiAO6+yycZKA+e5aPI+/vDX/hKJHjQ8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "sightline-0.6.0.zip",
+      "since": "261.25134",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
-      "0.4.0-beta": 1117566,
       "0.5.0-beta": 1117579
     },
     "stable": {
-      "0.5.0": 1117586
+      "0.5.0": 1117586,
+      "0.6.0": 1119184
     }
   }
 }

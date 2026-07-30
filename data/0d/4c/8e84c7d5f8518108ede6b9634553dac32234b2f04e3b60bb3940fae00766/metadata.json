@@ -93,12 +93,36 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1119386": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28700/1119386/codescoring-intellij-2026.30.2.zip?updateId=1119386&pluginId=28700&family=INTELLIJ",
+      "sha256": "GsE8Y0OZj2sHoaAemD0QxAQFFGrKNaAmOzZC6i8E+jA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.ruby",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.groovy",
+        "org.toml.lang",
+        "com.intellij.modules.python",
+        "com.intellij.modules.xml",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "codescoring-intellij-2026.30.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.33.6": 895549,
       "2026.30.1": 1115981,
+      "2026.30.2": 1119386,
       "2026.8.0": 958762,
       "2026.8.1": 973972
     }

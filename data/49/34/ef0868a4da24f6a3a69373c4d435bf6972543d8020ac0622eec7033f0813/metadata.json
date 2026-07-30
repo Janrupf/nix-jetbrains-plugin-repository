@@ -833,6 +833,24 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1118622": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15728/1118622/avro-schema-support-252.0.0.zip?updateId=1118622&pluginId=15728&family=INTELLIJ",
+      "sha256": "RVIqU4nRefr6usMpRc0oIdNwivGP5xb+luOhcWBPXyw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "avro-schema-support-252.0.0.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -881,7 +899,8 @@
       "243.0.1": 891453,
       "243.0.2": 905958,
       "243.0.3": 913936,
-      "243.0.4": 993192
+      "243.0.4": 993192,
+      "252.0.0": 1118622
     }
   }
 }
