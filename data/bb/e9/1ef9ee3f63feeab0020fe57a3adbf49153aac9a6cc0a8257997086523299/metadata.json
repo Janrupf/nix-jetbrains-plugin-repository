@@ -10114,6 +10114,71 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1119858": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8053/1119858/azure-intellij-20260729.9.zip?updateId=1119858&pluginId=8053&family=INTELLIJ",
+      "sha256": "U/pxr90ym3CKLBWxNfrhty4EqwtGYrp5Anf/UD9pHBA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml",
+        "com.intellij.properties",
+        "org.intellij.plugins.markdown",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.textmate",
+        "org.intellij.scala",
+        "com.intellij.database",
+        "org.jetbrains.plugins.remote-run",
+        "com.intellij.modules.ssh",
+        "com.intellij.kubernetes",
+        "Docker",
+        "com.jetbrains.restClient"
+      ],
+      "file_name": "azure-intellij-20260729.9.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1119993": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8053/1119993/azure-intellij-20260729.10.zip?updateId=1119993&pluginId=8053&family=INTELLIJ",
+      "sha256": "LZIk1Q+DWpdMe4Y59C3VRJ/986/RnCYDOnpv1YuYvm8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.xml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "org.intellij.scala",
+        "com.intellij.kubernetes",
+        "com.intellij.database",
+        "Git4Idea",
+        "com.jetbrains.restClient",
+        "org.jetbrains.plugins.remote-run",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.ssh"
+      ],
+      "file_name": "azure-intellij-20260729.10.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10552,7 +10617,9 @@
       "3.97.5-2026.1": 1024546,
       "3.97.6-2025.3": 1050274,
       "3.97.6-2026.1": 1050276,
-      "3.97.6-2026.2": 1105518
+      "3.97.6-2026.2": 1105518,
+      "3.97.7-2026.1": 1119858,
+      "3.97.7-2026.2": 1119993
     }
   }
 }

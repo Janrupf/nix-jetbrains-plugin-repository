@@ -2,19 +2,6 @@
   "xml_id": "com.codotchi.pycharm-codotchi",
   "numeric_id": 33203,
   "updates": {
-    "1118596": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33203/1118596/pycharm-codotchi-2.17.3.zip?updateId=1118596&pluginId=33203&family=INTELLIJ",
-      "sha256": "pn31wELz6/ugGlPLeODzTlK4alku0Wxhl7uPBOQ5jEU=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "pycharm-codotchi-2.17.3.zip",
-      "since": "241.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1119379": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33203/1119379/pycharm-codotchi-2.17.5.zip?updateId=1119379&pluginId=33203&family=INTELLIJ",
       "sha256": "nMHBSSbFLxv9Q3HWd0CZLI3V6xTO/r+Iqjmm0qrhVqs=",
@@ -29,12 +16,27 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1120027": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33203/1120027/pycharm-codotchi-2.18.0.zip?updateId=1120027&pluginId=33203&family=INTELLIJ",
+      "sha256": "64up9IUrkCOJbUsneE7d1dLUMguiJhfeIzHnwaMF39M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "pycharm-codotchi-2.18.0.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.17.3": 1118596,
-      "2.17.5": 1119379
+      "2.17.5": 1119379,
+      "2.18.0": 1120027
     }
   }
 }

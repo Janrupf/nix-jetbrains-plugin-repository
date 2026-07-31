@@ -1948,6 +1948,66 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1119892": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1119892/writerside-2026.07.8925.zip?updateId=1119892&pluginId=20158&family=INTELLIJ",
+      "sha256": "89PL8iueraardiHIip0BfG+SpFcL5OUPtZewI5UO15Y=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "tanvd.grazi",
+        "org.jetbrains.toolbox-enterprise-client",
+        "com.intellij.modules.writerside"
+      ],
+      "file_name": "writerside-2026.07.8925.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "261.0",
+          "applies_until": "999.99999",
+          "compatible_since": "261.0",
+          "compatible_until": "262.*"
+        }
+      ]
+    },
+    "1120198": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1120198/writerside-2026.07.8925.zip?updateId=1120198&pluginId=20158&family=INTELLIJ",
+      "sha256": "89PL8iueraardiHIip0BfG+SpFcL5OUPtZewI5UO15Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "tanvd.grazi",
+        "com.intellij.modules.writerside",
+        "org.jetbrains.toolbox-enterprise-client"
+      ],
+      "file_name": "writerside-2026.07.8925.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "261.0",
+          "applies_until": "999.99999",
+          "compatible_since": "261.0",
+          "compatible_until": "262.*"
+        }
+      ]
     }
   },
   "channels": {
@@ -1999,7 +2059,8 @@
       "2026.02.8644": 954044,
       "2026.03.8694": 1003171,
       "2026.04.8711": 1012284,
-      "2026.07.8918": 1118396
+      "2026.07.8918": 1118396,
+      "2026.07.8925": 1119892
     },
     "stable": {
       "2023.03.3401": 319402,
@@ -2026,7 +2087,8 @@
       "2025.11.8530": 897148,
       "2026.02.8644": 954561,
       "2026.04.8711": 1012603,
-      "2026.06.8817": 1072484
+      "2026.06.8817": 1072484,
+      "2026.07.8925": 1120198
     },
     "super-early-bird": {
       "2022.09.2731": 238058,

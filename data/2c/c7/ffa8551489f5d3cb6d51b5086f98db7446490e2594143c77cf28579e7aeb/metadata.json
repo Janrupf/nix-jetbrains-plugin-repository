@@ -81,6 +81,27 @@
       "since": "243.1",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1119663": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24225/1119663/UploadToApidog-2.1.0-262.zip?updateId=1119663&pluginId=24225&family=INTELLIJ",
+      "sha256": "pb5HCNnjBi0S1g8+MkgMUf6q5R7JocTkVEJkyt7jVoo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.all",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "org.intellij.scala",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "UploadToApidog-2.1.0-262.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -88,7 +109,8 @@
       "1.2.5": 525882,
       "2.0.5-193": 643486,
       "2.0.6-193": 648267,
-      "2.0.6-243": 648269
+      "2.0.6-243": 648269,
+      "2.1.0-262": 1119663
     }
   }
 }

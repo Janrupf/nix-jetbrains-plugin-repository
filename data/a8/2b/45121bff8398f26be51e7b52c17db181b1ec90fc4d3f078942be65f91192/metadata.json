@@ -11,9 +11,16 @@
       ],
       "optional_dependencies": [],
       "file_name": "BrowserX-1.0.0-SNAPSHOT.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
+      "since": "253.*",
+      "until": "254.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.0",
+          "applies_until": "999.99999",
+          "compatible_since": "253.*",
+          "compatible_until": "254.*"
+        }
+      ]
     },
     "1118363": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33130/1118363/BrowserX-1.0.0.zip?updateId=1118363&pluginId=33130&family=INTELLIJ",
