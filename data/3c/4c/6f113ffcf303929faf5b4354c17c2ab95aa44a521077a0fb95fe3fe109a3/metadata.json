@@ -23258,6 +23258,54 @@
       "since": "253.33813",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1121835": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/1121835/gradle-plugin-262.9437.71.zip?updateId=1121835&pluginId=13112&family=INTELLIJ",
+      "sha256": "1RjIm89D6TlWhHwhH26BV5XPM8X9pOrM1LjDGW9iqEU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.testRunner",
+        "intellij.gradle.toolingProxy",
+        "intellij.libraries.jspecify",
+        "intellij.gradle.toolingExtension.impl",
+        "intellij.gradle.toolingExtension",
+        "intellij.platform.externalSystem.impl",
+        "intellij.platform.smRunner"
+      ],
+      "optional_dependencies": [
+        "intellij.gradle.completion",
+        "intellij.repository.search.completion",
+        "com.intellij.modules.ultimate",
+        "intellij.toml.core",
+        "org.jetbrains.kotlin",
+        "intellij.gradle",
+        "intellij.gradle.settings",
+        "intellij.java.psi",
+        "intellij.gradle.java",
+        "intellij.properties.backend.psi",
+        "intellij.repository.search.ultimate",
+        "intellij.java.frontback.psi.impl"
+      ],
+      "file_name": "gradle-plugin-262.9437.71.zip",
+      "since": "262.9437",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1122115": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13112/1122115/gradle-251.29188.81.zip?updateId=1122115&pluginId=13112&family=INTELLIJ",
+      "sha256": "10AIeUwCzLGhOQLIqQsKIMsk+jBFQtZhYHlrPWjylgc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.externalSystem"
+      ],
+      "optional_dependencies": [
+        "com.intellij.properties"
+      ],
+      "file_name": "gradle-251.29188.81.zip",
+      "since": "251.29188",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -24171,6 +24219,7 @@
       "251.29188.71": 1118349,
       "251.29188.73": 1118428,
       "251.29188.80": 1119836,
+      "251.29188.81": 1122115,
       "251.29188.9": 885114,
       "252.13776.59": 741425,
       "252.13776.68": 742774,
@@ -24589,7 +24638,8 @@
       "262.9437.28": 1115944,
       "262.9437.65": 1119963,
       "262.9437.67": 1119970,
-      "262.9437.70": 1120038
+      "262.9437.70": 1120038,
+      "262.9437.71": 1121835
     }
   }
 }

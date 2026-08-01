@@ -928,6 +928,43 @@
       "since": "223.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1121159": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/1121159/jtools-1.1.5.1.zip?updateId=1121159&pluginId=25448&family=INTELLIJ",
+      "sha256": "eLBNqXH4TDXeyTVwILsL/TCXK5UV39ybyOImni7M5Gk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.idea.gradle.dsl",
+        "com.intellij.java"
+      ],
+      "file_name": "jtools-1.1.5.1.zip",
+      "since": "251.0",
+      "until": "265.*",
+      "compatibility_overrides": []
+    },
+    "1121464": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25448/1121464/jtools-1.1.0.8.zip?updateId=1121464&pluginId=25448&family=INTELLIJ",
+      "sha256": "+F+93hBHLPzfSumoGOL7YByI86odIxZiQBY7ard/Ulg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.gradle.dependency.updater",
+        "org.jetbrains.idea.maven",
+        "org.intellij.groovy",
+        "com.intellij.java"
+      ],
+      "file_name": "jtools-1.1.0.8.zip",
+      "since": "223.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -951,6 +988,7 @@
       "1.1.0.5": 1115142,
       "1.1.0.6": 1117569,
       "1.1.0.7": 1118215,
+      "1.1.0.8": 1121464,
       "1.1.1": 849905,
       "1.1.2": 855686,
       "1.1.2.1": 856257,
@@ -982,7 +1020,8 @@
       "1.1.4.7": 1113507,
       "1.1.4.8": 1115140,
       "1.1.4.9": 1117570,
-      "1.1.5.0": 1118214
+      "1.1.5.0": 1118214,
+      "1.1.5.1": 1121159
     }
   }
 }
