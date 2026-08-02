@@ -722,39 +722,28 @@
       "until": "262.*",
       "compatibility_overrides": []
     },
-    "1112455": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1112455/Smart_Input_Pro-2.4.2-goland.zip?updateId=1112455&pluginId=25280&family=INTELLIJ",
-      "sha256": "t001dSRVvPT9lx4nMMnUXZW67OAeSSTqqOppxKyCRpY=",
-      "channel": "stable",
+    "1123267": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1123267/Smart_Input_Pro-2.4.3-pycharm.zip?updateId=1123267&pluginId=25280&family=INTELLIJ",
+      "sha256": "YRIHk5wYK7lQDByJ72WnN9lNbNFp4scIL0Wlysm1G2g=",
+      "channel": "pycharm",
       "dependencies": [
         "com.intellij.modules.platform",
-        "org.jetbrains.plugins.go"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Smart_Input_Pro-2.4.2-goland.zip",
-      "since": "233.0",
-      "until": "262.*",
-      "compatibility_overrides": []
-    },
-    "1112456": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1112456/Smart_Input_Pro-2.4.3.zip?updateId=1112456&pluginId=25280&family=INTELLIJ",
-      "sha256": "BTlKLTWOKaXtW8VJy4P8Km0yyFtUv4nlKamzsYXXZGI=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
+        "Pythonid"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "JavaScript"
+        "IdeaVIM",
+        "AceJump"
       ],
-      "file_name": "Smart_Input_Pro-2.4.3.zip",
+      "file_name": "Smart_Input_Pro-2.4.3-pycharm.zip",
       "since": "233.0",
       "until": "262.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
+    "pycharm": {
+      "2.4.3-pycharm": 1123267
+    },
     "stable": {
       "2.3.10": 856258,
       "2.3.10+212u213": 856267,
@@ -800,9 +789,7 @@
       "2.4.0-goland": 1000257,
       "2.4.0-pycharm": 1000260,
       "2.4.1": 1050042,
-      "2.4.2": 1051516,
-      "2.4.2-goland": 1112455,
-      "2.4.3": 1112456
+      "2.4.2": 1051516
     }
   }
 }

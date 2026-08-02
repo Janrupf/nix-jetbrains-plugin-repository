@@ -5412,62 +5412,6 @@
       "until": "261.*",
       "compatibility_overrides": []
     },
-    "1107377": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/8079/1107377/google-cloud-code.zip?updateId=1107377&pluginId=8079&family=INTELLIJ",
-      "sha256": "XPSDh+vPJ7zKXz6c/2K4vxZ0wgs1MwY7PlUrgcnLKVg=",
-      "channel": "duet-trusted-testers",
-      "dependencies": [
-        "Git4Idea",
-        "org.jetbrains.plugins.terminal",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.vcs",
-        "org.intellij.plugins.markdown",
-        "org.jetbrains.plugins.yaml"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.modules.python",
-        "com.intellij.javaee.web",
-        "org.jetbrains.idea.maven",
-        "org.jetbrains.android",
-        "com.intellij.modules.java",
-        "org.jetbrains.plugins.go",
-        "com.intellij.gradle",
-        "JavaScriptDebugger"
-      ],
-      "file_name": "google-cloud-code.zip",
-      "since": "223.0",
-      "until": "232.*",
-      "compatibility_overrides": []
-    },
-    "1108448": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/8079/1108448/google-cloud-code.zip?updateId=1108448&pluginId=8079&family=INTELLIJ",
-      "sha256": "8cS4qoQGi7POsWXsXmb+oaY++awW1a0XJZslnxbIsBg=",
-      "channel": "duet-trusted-testers",
-      "dependencies": [
-        "com.intellij.modules.vcs",
-        "org.intellij.plugins.markdown",
-        "org.jetbrains.plugins.yaml",
-        "Git4Idea",
-        "org.jetbrains.plugins.terminal",
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [
-        "org.jetbrains.android",
-        "org.jetbrains.plugins.go",
-        "com.intellij.modules.java",
-        "org.jetbrains.idea.maven",
-        "JavaScriptDebugger",
-        "com.intellij.gradle",
-        "com.intellij.modules.database",
-        "com.intellij.javaee.web",
-        "com.intellij.modules.python"
-      ],
-      "file_name": "google-cloud-code.zip",
-      "since": "242.0",
-      "until": "261.*",
-      "compatibility_overrides": []
-    },
     "1109107": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/8079/1109107/google-cloud-code.zip?updateId=1109107&pluginId=8079&family=INTELLIJ",
       "sha256": "xNKqyGG+VeTvseklMEDcc7xGjn/SiOb2/o0a2NmOHEs=",
@@ -6167,6 +6111,62 @@
       "since": "223.0",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "1122709": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8079/1122709/google-cloud-code.zip?updateId=1122709&pluginId=8079&family=INTELLIJ",
+      "sha256": "d/aGYb+VWWL0xoU8mhx7BWAkYmCF8GU+GJJCIzuZkII=",
+      "channel": "duet-trusted-testers",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.android",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.python",
+        "com.intellij.javaee.web",
+        "com.intellij.modules.database",
+        "JavaScriptDebugger"
+      ],
+      "file_name": "google-cloud-code.zip",
+      "since": "223.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "1122711": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8079/1122711/google-cloud-code.zip?updateId=1122711&pluginId=8079&family=INTELLIJ",
+      "sha256": "FgWGBDeNn1gYTNeEcSnvgXxiHPdcAmrFJqjANOTOWLU=",
+      "channel": "duet-trusted-testers",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.android",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java",
+        "com.intellij.modules.python",
+        "com.intellij.javaee.web",
+        "com.intellij.modules.database",
+        "JavaScriptDebugger"
+      ],
+      "file_name": "google-cloud-code.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6305,8 +6305,6 @@
       "20240812-duet-recitation-limited-api-version-223": 585783
     },
     "duet-trusted-testers": {
-      "20260714-duet-trusted-testers-232-api-version-223": 1107377,
-      "20260715-duet-trusted-testers-233-api-version-223": 1108448,
       "20260716-duet-trusted-testers-232-api-version-223": 1109107,
       "20260716-duet-trusted-testers-233-api-version-223": 1109266,
       "20260717-duet-trusted-testers-232-api-version-223": 1109942,
@@ -6328,7 +6326,9 @@
       "20260729-duet-trusted-testers-232-api-version-223": 1119130,
       "20260729-duet-trusted-testers-233-api-version-223": 1119128,
       "20260731-duet-trusted-testers-232-api-version-223": 1121476,
-      "20260731-duet-trusted-testers-233-api-version-223": 1121475
+      "20260731-duet-trusted-testers-233-api-version-223": 1121475,
+      "20260801-duet-trusted-testers-232-api-version-223": 1122709,
+      "20260801-duet-trusted-testers-233-api-version-223": 1122711
     },
     "insiders": {
       "24.1.4-IB.1-api-version-223": 476949,
