@@ -16,11 +16,26 @@
       "since": "242.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1123309": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33166/1123309/grok-jetbrains-0.1.15-signed.zip?updateId=1123309&pluginId=33166&family=INTELLIJ",
+      "sha256": "ZySMyJlh4n7ShdrBpT1vMswibYIeLK6Bzy04O1UW0zU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "grok-jetbrains-0.1.15-signed.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1117663
+      "0.1.0": 1117663,
+      "0.1.15": 1123309
     }
   }
 }
