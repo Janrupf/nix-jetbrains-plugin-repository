@@ -2,20 +2,6 @@
   "xml_id": "com.silverile.ide",
   "numeric_id": 30499,
   "updates": {
-    "1043622": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30499/1043622/Silverile.AI-1.0.3.zip?updateId=1043622&pluginId=30499&family=INTELLIJ",
-      "sha256": "GcPZhRljE1+xQPclP1G3SO2nBgnk5Slp5Si1a7wY+lE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Silverile.AI-1.0.3.zip",
-      "since": "232.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1056136": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30499/1056136/silver-intellij-plugin-1.0.5.zip?updateId=1056136&pluginId=30499&family=INTELLIJ",
       "sha256": "FA1BZybb6H3ehNrLaKUO7MY3Bqk8At0AVKXlHVg5leY=",
@@ -29,12 +15,26 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1125015": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30499/1125015/silver-intellij-plugin-1.1.1.zip?updateId=1125015&pluginId=30499&family=INTELLIJ",
+      "sha256": "2mWf3f1KPucRMcUm8hyBWXWeusNEOS5mFdM7M9ajnb4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "silver-intellij-plugin-1.1.1.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.3": 1043622,
-      "1.0.5": 1056136
+      "1.0.5": 1056136,
+      "1.1.1": 1125015
     }
   }
 }

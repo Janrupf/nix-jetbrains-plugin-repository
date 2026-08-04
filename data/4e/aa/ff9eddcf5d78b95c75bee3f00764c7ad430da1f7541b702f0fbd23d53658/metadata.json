@@ -337,22 +337,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "961378": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/20611/961378/intellij-idea-plugin-1.6.0-SNAPSHOT.jar?updateId=961378&pluginId=20611&family=INTELLIJ",
-      "sha256": "Xs1zYGLtTW4GbvsOj8iAtjJkd1NI/Lat9murOPstScM=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.gradle",
-        "com.intellij.java",
-        "com.intellij.modules.platform",
-        "org.jetbrains.idea.gradle.dsl"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-idea-plugin-1.6.0-SNAPSHOT.jar",
-      "since": "233.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1014327": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/20611/1014327/intellij-idea-plugin-1.6.0.jar?updateId=1014327&pluginId=20611&family=INTELLIJ",
       "sha256": "5mWYSB4tBLoPKUovPKce/J381Kg6neUp8cNXFMUvZlI=",
@@ -391,6 +375,22 @@
           "compatible_until": "261.*"
         }
       ]
+    },
+    "1124165": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20611/1124165/intellij-idea-plugin-1.8.0-SNAPSHOT.jar?updateId=1124165&pluginId=20611&family=INTELLIJ",
+      "sha256": "xyhDd6+oG03K3xdr4lMEFGgG+OWtrTPWnQmCo6kuRC8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.gradle.dsl",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-idea-plugin-1.8.0-SNAPSHOT.jar",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -413,8 +413,8 @@
       "1.4.0": 863655,
       "1.5.0": 916509,
       "1.6.0": 1014327,
-      "1.6.0-SNAPSHOT": 961378,
-      "1.7.0": 1097128
+      "1.7.0": 1097128,
+      "1.8.0-SNAPSHOT": 1124165
     }
   }
 }

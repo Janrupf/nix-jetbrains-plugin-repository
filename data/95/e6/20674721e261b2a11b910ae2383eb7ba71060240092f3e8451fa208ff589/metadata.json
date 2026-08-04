@@ -29,12 +29,27 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1124834": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28900/1124834/floxy-goland-plugin.zip?updateId=1124834&pluginId=28900&family=INTELLIJ",
+      "sha256": "mH/3wmsOjcYxLThnM6VxevFjhMXOk+FzP33ZjRVfg0s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "floxy-goland-plugin.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 885757,
-      "0.2.0": 1056929
+      "0.2.0": 1056929,
+      "0.3.0": 1124834
     }
   }
 }

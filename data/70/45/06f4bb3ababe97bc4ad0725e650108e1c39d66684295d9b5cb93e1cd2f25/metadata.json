@@ -180,9 +180,40 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1125187": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23903/1125187/TerminalTabTailor-1.5.0.jar?updateId=1125187&pluginId=23903&family=INTELLIJ",
+      "sha256": "0RouKBDpC1g2Ai/ZM8k0pDf4GITYqCsRH7Oxrr3W/Hk=",
+      "channel": "in review",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TerminalTabTailor-1.5.0.jar",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1125189": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23903/1125189/TerminalTabTailor-1.5.0.jar?updateId=1125189&pluginId=23903&family=INTELLIJ",
+      "sha256": "7AxOz+q8KQxJbQ1yyM56CPUJaGFKsXSTZsZbsNKxj9M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TerminalTabTailor-1.5.0.jar",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "in review": {
+      "1.5.0": 1125187
+    },
     "stable": {
       "1.0.0": 498828,
       "1.0.1": 499570,
@@ -196,7 +227,8 @@
       "1.4.0": 510014,
       "1.4.1": 586728,
       "1.4.2": 615130,
-      "1.4.3": 714058
+      "1.4.3": 714058,
+      "1.5.0": 1125189
     }
   }
 }

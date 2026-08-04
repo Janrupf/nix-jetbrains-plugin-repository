@@ -1,6 +1,27 @@
 {
   "xml_id": "org.kanan",
   "numeric_id": 25490,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1123726": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25490/1123726/Quick_Maven_Package-1.1.6.jar?updateId=1123726&pluginId=25490&family=INTELLIJ",
+      "sha256": "yvD3Ca+lbw9K7XboneDxQrSyobzphhLwCiLGDh9vYpo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Quick_Maven_Package-1.1.6.jar",
+      "since": "211.0",
+      "until": "271.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.1.6": 1123726
+    }
+  }
 }
