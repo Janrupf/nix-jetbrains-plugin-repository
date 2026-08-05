@@ -6606,6 +6606,70 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1126045": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22456/1126045/com.falsepattern.zigbrains-31.0.0-253-signed.zip?updateId=1126045&pluginId=22456&family=INTELLIJ",
+      "sha256": "kE9oP41M26JOD89mtV23a99FZpccCVS9hHXO0aw/8Jg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.spellchecker",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "intellij.clion.execution",
+        "com.falsepattern.zigbrains.shared",
+        "intellij.clion.toolchains",
+        "intellij.cidr.debugger.core",
+        "com.falsepattern.zigbrains.cidr"
+      ],
+      "file_name": "com.falsepattern.zigbrains-31.0.0-253-signed.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1126046": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22456/1126046/com.falsepattern.zigbrains-31.0.0-261-signed.zip?updateId=1126046&pluginId=22456&family=INTELLIJ",
+      "sha256": "daIt/LQ2IdlwrDQnAvpsUcMd1qKeQ2poA+fUs/E0/BI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "intellij.clion.execution",
+        "intellij.clion.toolchains",
+        "com.falsepattern.zigbrains.shared",
+        "com.falsepattern.zigbrains.cidr",
+        "intellij.cidr.debugger.core"
+      ],
+      "file_name": "com.falsepattern.zigbrains-31.0.0-261-signed.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1126047": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22456/1126047/com.falsepattern.zigbrains-31.0.0-262-signed.zip?updateId=1126047&pluginId=22456&family=INTELLIJ",
+      "sha256": "cS31mgNhtzLCTXoAzNx03oWTEwpGLt1sp8zlYTmheAA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "intellij.clion.execution",
+        "intellij.cidr.debugger.backend",
+        "com.falsepattern.zigbrains.shared",
+        "com.falsepattern.zigbrains.cidr",
+        "intellij.cidr.debugger.core",
+        "intellij.clion.toolchains"
+      ],
+      "file_name": "com.falsepattern.zigbrains-31.0.0-262-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6988,7 +7052,10 @@
       "30.0.1-251": 1025887,
       "30.0.1-252": 1025888,
       "30.0.1-253": 1025889,
-      "30.0.1-261": 1025890
+      "30.0.1-261": 1025890,
+      "31.0.0-253": 1126045,
+      "31.0.0-261": 1126046,
+      "31.0.0-262": 1126047
     }
   }
 }

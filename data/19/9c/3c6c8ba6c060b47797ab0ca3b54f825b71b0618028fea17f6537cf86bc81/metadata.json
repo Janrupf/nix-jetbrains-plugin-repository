@@ -27,12 +27,27 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1126214": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28711/1126214/manpage-editor-1.2.0.zip?updateId=1126214&pluginId=28711&family=INTELLIJ",
+      "sha256": "0Ag3yb97A/3FXsov9vp/Im6O9kMuj2oD3SwffUdfBJE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ui.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "manpage-editor-1.2.0.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 877832,
-      "1.1.0": 1018129
+      "1.1.0": 1018129,
+      "1.2.0": 1126214
     }
   }
 }

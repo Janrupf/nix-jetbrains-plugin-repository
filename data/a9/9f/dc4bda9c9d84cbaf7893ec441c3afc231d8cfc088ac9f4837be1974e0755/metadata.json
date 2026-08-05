@@ -17,11 +17,28 @@
       "since": "242.2",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1126014": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31935/1126014/skillsjars-helper-2026.2.1000-signed.zip?updateId=1126014&pluginId=31935&family=INTELLIJ",
+      "sha256": "CcPP2uXwgWE91MXs4OmfsHKI8dt3Fk5O5upI0vE3bxs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "skillsjars-helper-2026.2.1000-signed.zip",
+      "since": "242.2",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.1.1000": 1055992
+      "2026.1.1000": 1055992,
+      "2026.2.1000": 1126014
     }
   }
 }

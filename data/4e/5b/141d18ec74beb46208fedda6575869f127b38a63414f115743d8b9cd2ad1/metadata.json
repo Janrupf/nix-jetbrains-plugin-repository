@@ -27,12 +27,40 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1125668": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29147/1125668/DevExpress.ReportDesigner-2.2.0-signed.zip?updateId=1125668&pluginId=29147&family=INTELLIJ",
+      "sha256": "iENX2xnYnf7e9yJqliuSxtxMr8JbLF1xyyBtnXSXr8k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "DevExpress.ReportDesigner-2.2.0-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1125669": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29147/1125669/DevExpress.ReportDesigner-2.1.0-signed.zip?updateId=1125669&pluginId=29147&family=INTELLIJ",
+      "sha256": "dkjMNnA1s1CQe51sn8S6un5+t3+ke2WASJtLZqW8KJo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "DevExpress.ReportDesigner-2.1.0-signed.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 911637,
-      "1.1.0": 1082420
+      "1.1.0": 1082420,
+      "2.1.0": 1125669,
+      "2.2.0": 1125668
     }
   }
 }

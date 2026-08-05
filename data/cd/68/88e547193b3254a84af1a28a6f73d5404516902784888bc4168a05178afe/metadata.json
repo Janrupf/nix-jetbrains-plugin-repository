@@ -85,10 +85,32 @@
       "since": "262.9437",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1125617": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33251/1125617/figma-262.9437.111.zip?updateId=1125617&pluginId=33251&family=INTELLIJ",
+      "sha256": "vQiVA5UQn+D8fXiYGiArYRoj5RkTCmUi3nLNGkXJILw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.figma.model"
+      ],
+      "optional_dependencies": [
+        "intellij.figma.codegen",
+        "intellij.llmInstaller",
+        "intellij.platform.frontend",
+        "intellij.platform.backend",
+        "intellij.figma.shared",
+        "intellij.platform.rpc.backend",
+        "intellij.figma.backend"
+      ],
+      "file_name": "figma-262.9437.111.zip",
+      "since": "262.9437",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "262.9437.111": 1125617,
       "262.9437.65": 1119923,
       "262.9437.66": 1120004,
       "262.9437.67": 1119977,
