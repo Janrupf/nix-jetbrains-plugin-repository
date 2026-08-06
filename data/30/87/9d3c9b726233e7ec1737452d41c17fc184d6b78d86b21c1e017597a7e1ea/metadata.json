@@ -1,6 +1,25 @@
 {
   "xml_id": "com.mcp.deploy",
   "numeric_id": 33271,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1125406": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33271/1125406/maven-deploy-plugin-1.0.0.zip?updateId=1125406&pluginId=33271&family=INTELLIJ",
+      "sha256": "LsCk1nPxk4aWJUdPy7kNd6VgpxxL1pmuhNX4EqOzAxU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "maven-deploy-plugin-1.0.0.zip",
+      "since": "222.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1125406
+    }
+  }
 }

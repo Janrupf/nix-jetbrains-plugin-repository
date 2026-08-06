@@ -7789,7 +7789,7 @@
       ],
       "file_name": "kotlin-plugin-1.1.60-release-Studio3.0-1.zip",
       "since": "171.1",
-      "until": "171.4249.39",
+      "until": "172.*",
       "compatibility_overrides": []
     },
     "40489": {
@@ -7841,7 +7841,7 @@
       ],
       "file_name": "kotlin-plugin-1.1.61-release-Studio3.0-1.zip",
       "since": "171.1",
-      "until": "171.4249.39",
+      "until": "172.*",
       "compatibility_overrides": []
     },
     "40704": {
@@ -9413,7 +9413,7 @@
       "optional_dependencies": [],
       "file_name": "kotlin-plugin-1.2.21-release-Studio3.1-1.zip",
       "since": "173.1",
-      "until": "173.*",
+      "until": "173.4547",
       "compatibility_overrides": [
         {
           "applies_since": "173.1",
@@ -9500,7 +9500,7 @@
       "optional_dependencies": [],
       "file_name": "kotlin-plugin-1.2.21-release-Studio3.1-1.zip",
       "since": "173.1",
-      "until": "173.*",
+      "until": "173.4547",
       "compatibility_overrides": [
         {
           "applies_since": "173.1",
@@ -9914,7 +9914,7 @@
       "optional_dependencies": [],
       "file_name": "kotlin-plugin-1.2.30-release-Studio3.1-1.zip",
       "since": "173.1",
-      "until": "173.4301",
+      "until": "173.4302",
       "compatibility_overrides": [
         {
           "applies_since": "173.1",
@@ -9935,7 +9935,7 @@
       "optional_dependencies": [],
       "file_name": "kotlin-plugin-1.2.30-release-Studio3.1-1.zip",
       "since": "173.1",
-      "until": "173.4301",
+      "until": "173.4302",
       "compatibility_overrides": [
         {
           "applies_since": "173.1",
@@ -23326,7 +23326,7 @@
       ],
       "file_name": "kotlin-plugin-1.3.61-release-Studio3.6-1.zip",
       "since": "192.4787.16.36.5737808",
-      "until": "192.*",
+      "until": "192.7142",
       "compatibility_overrides": [
         {
           "applies_since": "192.4787.16.36.5737808",
@@ -23550,7 +23550,7 @@
       ],
       "file_name": "kotlin-plugin-1.3.61-release-Studio3.6-1.zip",
       "since": "192.4787.16.36.5737808",
-      "until": "192.*",
+      "until": "192.7142",
       "compatibility_overrides": [
         {
           "applies_since": "192.4787.16.36.5737808",
@@ -24430,7 +24430,7 @@
         "TestNG-J"
       ],
       "file_name": "kotlin-plugin-1.3.70-release-IJ2019.3-1.zip",
-      "since": "193.6494",
+      "since": "193.4099.13",
       "until": "193.*",
       "compatibility_overrides": [
         {
@@ -24594,7 +24594,7 @@
         "TestNG-J"
       ],
       "file_name": "kotlin-plugin-1.3.70-release-IJ2019.3-1.zip",
-      "since": "193.6494",
+      "since": "193.4099.13",
       "until": "193.*",
       "compatibility_overrides": [
         {
@@ -26834,7 +26834,7 @@
       ],
       "file_name": "kotlin-plugin-1.3.72-release-IJ2020.1-5.zip",
       "since": "201.6487",
-      "until": "202.*",
+      "until": "203.*",
       "compatibility_overrides": []
     },
     "89045": {
@@ -27091,7 +27091,7 @@
       ],
       "file_name": "kotlin-plugin-1.3.72-release-IJ2020.1-5.zip",
       "since": "201.6487",
-      "until": "202.*",
+      "until": "203.*",
       "compatibility_overrides": []
     },
     "89199": {
@@ -27338,7 +27338,7 @@
       ],
       "file_name": "kotlin-plugin-1.3.72-release-IJ2020.1-5.zip",
       "since": "201.6487",
-      "until": "202.*",
+      "until": "203.*",
       "compatibility_overrides": []
     },
     "89209": {
@@ -58395,6 +58395,137 @@
       "since": "252.28539",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1126822": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6954/1126822/Kotlin-262.9437.142-IJ.zip?updateId=1126822&pluginId=6954&family=INTELLIJ",
+      "sha256": "IuaVbXB9ZCEB8SF6RS9elwNLLBPvQ/EaKt4HA+QtMRc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.scriptDebugger.ui",
+        "intellij.platform.smRunner",
+        "intellij.java.debugger.impl",
+        "intellij.kotlin.base.resources",
+        "intellij.java.psi",
+        "intellij.java.compiler",
+        "intellij.java.execution.impl",
+        "intellij.java.debugger.impl.shared",
+        "intellij.java.structureView",
+        "intellij.platform.structureView.backend",
+        "intellij.java.backend",
+        "com.intellij.java",
+        "intellij.kotlin.jvm.debugger.base.util",
+        "intellij.platform.debugger.impl.ui",
+        "intellij.platform.collaborationTools",
+        "com.intellij.modules.java-capable",
+        "intellij.java",
+        "intellij.java.debugger",
+        "intellij.java.indexing",
+        "intellij.java.impl",
+        "intellij.java.frontback.psi",
+        "intellij.libraries.maven.resolver.provider"
+      ],
+      "optional_dependencies": [
+        "intellij.kotlin.codeInsight.fixes",
+        "com.intellij.modules.duplicatesDetector",
+        "intellij.kotlin.searching",
+        "intellij.repository.search.completion",
+        "intellij.gradle.completion",
+        "intellij.gradle.java",
+        "intellij.jvm.analysis",
+        "com.intellij.modules.lang",
+        "intellij.debugger.jvm.advanced.java",
+        "intellij.kotlin.completion.impl",
+        "intellij.gradle.toolingExtension.impl",
+        "intellij.kotlin.projectStructure",
+        "intellij.kotlin.codeInsight.shared",
+        "intellij.kotlin.gradle.gradle",
+        "intellij.gradle",
+        "kotlin.base.injection",
+        "intellij.kotlin.gradle.codeInsight.common",
+        "intellij.platform.langInjection.backend",
+        "intellij.kotlin.codeInsight.inspections",
+        "Git4Idea",
+        "intellij.java.psi.impl",
+        "intellij.kotlin.runConfigurations.jvm",
+        "JavaScript",
+        "intellij.platform.structuralSearch",
+        "intellij.kotlin.refactorings",
+        "intellij.kotlin.maven",
+        "JavaScriptDebugger",
+        "intellij.kotlin.codeInsight.intentions",
+        "kotlin.gradle.gradle-java",
+        "intellij.platform.testRunner",
+        "intellij.javascript.codeinsight",
+        "intellij.java.compiler.impl",
+        "intellij.libraries.jackson.dataformat.toml",
+        "intellij.vcs.git.backend",
+        "intellij.java.langInjection",
+        "intellij.kotlin.base.scripting.scratch.definition",
+        "intellij.kotlin.gradle.tooling",
+        "kotlin-ultimate.native-debugger",
+        "intellij.kotlin.codeInsight.liveTemplates",
+        "tanvd.grazi",
+        "training",
+        "Coverage",
+        "intellij.kotlin.compilerPlugins.support.maven",
+        "intellij.kotlin.onboarding",
+        "intellij.javascript.testing",
+        "org.jetbrains.java.decompiler",
+        "intellij.kotlin.codeInsight",
+        "com.intellij.modules.kotlin.k2",
+        "intellij.kotlin.highlighting.minimal",
+        "intellij.cidr.debugger.core",
+        "intellij.maven",
+        "kotlin.jvm.shared",
+        "com.intellij.java-i18n",
+        "org.toml.lang",
+        "com.jetbrains.performancePlugin",
+        "intellij.gradle.toolingExtension",
+        "intellij.kotlin.analysis.platform",
+        "intellij.cidr.core",
+        "intellij.java.frontback.psi.impl",
+        "intellij.platform.jps.build",
+        "com.intellij.copyright",
+        "intellij.javascript.debugger.backend",
+        "intellij.toml.core",
+        "intellij.cidr.debugger.backend",
+        "intellij.kotlin.jvm.debugger.coroutines",
+        "intellij.kotlin.base.scripting.shared",
+        "intellij.cidr.util.execution",
+        "intellij.debugger.logpoints.shared",
+        "intellij.gradle.java.toml",
+        "intellij.java.ui",
+        "kotlin-ultimate.common-native",
+        "intellij.kotlin.compilerPlugins.support.gradle",
+        "intellij.kotlin.base.scripting",
+        "JUnit",
+        "intellij.properties.psi",
+        "intellij.debugger.logpoints.backend",
+        "intellij.grazie.core",
+        "kotlin.gradle.scripting.shared",
+        "com.intellij.completion.ml.ranking",
+        "intellij.java.syntax",
+        "intellij.kotlin.highlighting",
+        "intellij.platform.structureView",
+        "intellij.java.featuresTrainer",
+        "intellij.cidr.runner",
+        "intellij.javascript.backend",
+        "com.intellij.modules.nativeDebug",
+        "com.intellij.LineProfiler",
+        "intellij.kotlin.projectWizard.idea",
+        "intellij.performanceTesting.vcs",
+        "NodeJS",
+        "intellij.gradle.java.properties",
+        "intellij.platform.langInjection",
+        "intellij.kotlin.base.externalSystem",
+        "TestNG-J",
+        "intellij.kotlin.base.analysis.platform",
+        "org.intellij.groovy"
+      ],
+      "file_name": "Kotlin-262.9437.142-IJ.zip",
+      "since": "262.9437",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -60604,6 +60735,7 @@
       "262.8665.258-IJ": 1109009,
       "262.8665.337-IJ": 1114742,
       "262.8665.81-IJ": 1096912,
+      "262.9437.142-IJ": 1126822,
       "262.9437.22-IJ": 1115411
     },
     "staging": {

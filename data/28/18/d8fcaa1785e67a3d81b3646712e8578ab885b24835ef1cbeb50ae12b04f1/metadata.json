@@ -6167,6 +6167,34 @@
       "since": "223.0",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "1127381": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8079/1127381/google-cloud-code.zip?updateId=1127381&pluginId=8079&family=INTELLIJ",
+      "sha256": "bgiQTR8oSnLtyQK9D7NfhS+P6LcR1o/JHME90phE3bs=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.android",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.python",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.web",
+        "JavaScriptDebugger"
+      ],
+      "file_name": "google-cloud-code.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6194,7 +6222,8 @@
       "25.8.1-233-RC00-api-version-223": 821585,
       "26.3.1-233-api-version-223": 976352,
       "26.7.2_RC00-api-version-223": 1110371,
-      "26.7.3-233-api-version-223": 1117905
+      "26.7.3-233-api-version-223": 1117905,
+      "26.8.1-233-api-version-223": 1127381
     },
     "dev": {
       "20230304-221": 302371,

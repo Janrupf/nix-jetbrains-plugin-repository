@@ -1,6 +1,61 @@
 {
   "xml_id": "com.lsyf.LsyfOllama",
   "numeric_id": 28088,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "829927": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28088/829927/LsyfOllama-1.0-0816.zip?updateId=829927&pluginId=28088&family=INTELLIJ",
+      "sha256": "5MEki15s10GG6LsYrfCI/dRoUrY/q2RTmAvvW2jeCPM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LsyfOllama-1.0-0816.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "894170": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28088/894170/LsyfOllama-1.0-SNAPSHOT.zip?updateId=894170&pluginId=28088&family=INTELLIJ",
+      "sha256": "tAAcrBx+SaOO+38b76wSSASELwaxylkK87qeUbLSHzc=",
+      "channel": "2025-11-16-01",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LsyfOllama-1.0-SNAPSHOT.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1125831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28088/1125831/LsyfOllama-1.0-SNAPSHOT.zip?updateId=1125831&pluginId=28088&family=INTELLIJ",
+      "sha256": "VsG5ggwdydZ/zFkjVcU3f6qlyjX+BuIqoG5uGIRbIEw=",
+      "channel": "2026-08-04",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LsyfOllama-1.0-SNAPSHOT.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "2025-11-16-01": {
+      "1.0-SNAPSHOT": 894170
+    },
+    "2026-08-04": {
+      "1.0-SNAPSHOT": 1125831
+    },
+    "stable": {
+      "1.0-SNAPSHOT": 829927
+    }
+  }
 }

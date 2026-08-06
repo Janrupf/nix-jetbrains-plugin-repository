@@ -99,6 +99,25 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1127043": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33221/1127043/run-in-terminal-1.2.0.zip?updateId=1127043&pluginId=33221&family=INTELLIJ",
+      "sha256": "fclVCwbfHeg5YJ/akhCSaMgjqV9Zix+eOLZ7JWYVdrs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.backend",
+        "dev.alvol.runinterminal.shared",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "run-in-terminal-1.2.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -109,7 +128,8 @@
       "1.0.3": 1119842,
       "1.1.0": 1123085,
       "1.1.1": 1123499,
-      "1.1.2": 1125640
+      "1.1.2": 1125640,
+      "1.2.0": 1127043
     }
   }
 }

@@ -3254,6 +3254,54 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1127044": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/1127044/hexana-0.16.zip?updateId=1127044&pluginId=29090&family=INTELLIJ",
+      "sha256": "xn3tGtfDLvcRIPzk2UYRN5vpZWbnBa+GEaP+P0eV/oA=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.mcpServer",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
+        "JavaScript",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "hexana-0.16.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1127563": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29090/1127563/hexana-0.16.160-nightly.zip?updateId=1127563&pluginId=29090&family=INTELLIJ",
+      "sha256": "cBbRRtskkOaf45Mr6jl3GFCpEGAv5HD2tv0JZdAiDQk=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.jewel.foundation",
+        "com.intellij.mcpServer",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.ui",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
+        "JavaScript"
+      ],
+      "file_name": "hexana-0.16.160-nightly.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3309,6 +3357,7 @@
       "0.13.144-nightly": 1106313,
       "0.15.155-nightly": 1119458,
       "0.15.159-nightly": 1126226,
+      "0.16.160-nightly": 1127563,
       "0.2.20-nightly": 906594,
       "0.2.21-nightly": 907223,
       "0.2.22-nightly": 907812,
@@ -3399,6 +3448,7 @@
       "0.13.1": 1108074,
       "0.14": 1114645,
       "0.15": 1119384,
+      "0.16": 1127044,
       "0.2": 906393,
       "0.3": 909028,
       "0.4": 913411,

@@ -12401,8 +12401,8 @@
         "PythonCore"
       ],
       "file_name": "github-copilot-intellij-1.5.29.8042-242-nightly.zip",
-      "since": null,
-      "until": null,
+      "since": "242.0",
+      "until": "243.*",
       "compatibility_overrides": []
     },
     "645000": {
@@ -31119,6 +31119,72 @@
       "since": "251.25410",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1126425": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1126425/github-copilot-intellij-1.15.0-rc.4-251.zip?updateId=1126425&pluginId=17718&family=INTELLIJ",
+      "sha256": "9ND50i5fU6R8JKfqVkGCAkn73FfctbZg6qCeO91UNgg=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "Git4Idea",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.terminal",
+        "Pythonid",
+        "IdeaVIM",
+        "PythonCore",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown",
+        "com.intellij.java",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "github-copilot-intellij-1.15.0-rc.4-251.zip",
+      "since": "251.25410",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1127606": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17718/1127606/github-copilot-intellij-1.15.0-rc.5-251.zip?updateId=1127606&pluginId=17718&family=INTELLIJ",
+      "sha256": "xs0kW88rvyDG2179Ln3vdyvYnU/p1IrsaSrsPbj83nk=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "com.intellij.modules.platform",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.jetbrains.idea.maven",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal",
+        "Pythonid",
+        "org.jetbrains.plugins.github",
+        "com.intellij.java",
+        "org.intellij.plugins.markdown",
+        "IdeaVIM",
+        "com.intellij.modules.vcs",
+        "PythonCore",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "github-copilot-intellij-1.15.0-rc.5-251.zip",
+      "since": "251.25410",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -31291,6 +31357,8 @@
       "1.15.0-rc.1-251": 1119843,
       "1.15.0-rc.2-251": 1123567,
       "1.15.0-rc.3-251": 1125372,
+      "1.15.0-rc.4-251": 1126425,
+      "1.15.0-rc.5-251": 1127606,
       "1.2.0.2324-nightly": 279718,
       "1.2.0.2334-nightly": 282015,
       "1.2.1.2350-nightly": 283216,
