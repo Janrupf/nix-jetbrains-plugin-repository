@@ -45,6 +45,54 @@
       "since": "75.7821",
       "until": "75.7999",
       "compatibility_overrides": []
+    },
+    "1127853": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1524/1127853/groovy-262.9437.161.zip?updateId=1127853&pluginId=1524&family=INTELLIJ",
+      "sha256": "sIb9QYD7ZZUag1u4x7MehcQt7vCYwZwg4AOvlp1Jofw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jps.build.javac.rt",
+        "intellij.platform.testRunner",
+        "intellij.java.psi",
+        "intellij.java.backend",
+        "intellij.properties.backend",
+        "intellij.properties.psi",
+        "com.intellij.properties",
+        "intellij.java.execution.impl",
+        "intellij.spellchecker",
+        "intellij.java.frontback.psi",
+        "intellij.java.langInjection",
+        "intellij.platform.smRunner",
+        "intellij.platform.structureView",
+        "intellij.java.debugger.impl",
+        "intellij.java.syntax",
+        "com.intellij.groovy.scripting",
+        "intellij.properties.backend.psi",
+        "intellij.java.ui",
+        "intellij.java.unscramble",
+        "intellij.regexp",
+        "intellij.platform.jps.build"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.structuralsearch",
+        "Git4Idea",
+        "intellij.platform.duplicatesDetector",
+        "intellij.java.copyright",
+        "JUnit",
+        "org.intellij.groovy",
+        "ByteCodeViewer",
+        "intellij.java.psi.impl",
+        "com.intellij.modules.ultimate",
+        "org.intellij.intelliLang",
+        "intellij.platform.duplicates",
+        "com.intellij.copyright",
+        "intellij.vcs.git.backend",
+        "AntSupport"
+      ],
+      "file_name": "groovy-262.9437.161.zip",
+      "since": "262.9437",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -52,7 +100,8 @@
       "1.0.14616": 5205,
       "1.5.17497": 5573,
       "1.6.19053": 5793,
-      "1.6.20679": 6122
+      "1.6.20679": 6122,
+      "262.9437.161": 1127853
     }
   }
 }
