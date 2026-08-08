@@ -1,6 +1,26 @@
 {
   "xml_id": "com.yonyou.iuap.yms",
   "numeric_id": 24829,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1128679": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1128679/yms-ide-2.5.zip?updateId=1128679&pluginId=24829&family=INTELLIJ",
+      "sha256": "gnwUWkDjQAE2KxB3iN1XS8mUc1zVydX0VFbpSUatm/E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yms-ide-2.5.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.5": 1128679
+    }
+  }
 }

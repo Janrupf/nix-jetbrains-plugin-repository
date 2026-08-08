@@ -161,12 +161,31 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1130395": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26365/1130395/actionate-2025.1.12.zip?updateId=1130395&pluginId=26365&family=INTELLIJ",
+      "sha256": "2QgrPJgNZBUCiFh58MjaDpnUpc+OrSEekn3n7eH/WtE=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.github",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "actionate-2025.1.12.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2025.1.10": 924723,
       "2025.1.11": 997016,
+      "2025.1.12": 1130395,
       "2025.1.2": 669553,
       "2025.1.3": 681719,
       "2025.1.4": 689903,

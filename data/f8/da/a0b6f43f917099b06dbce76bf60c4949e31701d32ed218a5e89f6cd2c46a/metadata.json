@@ -15,11 +15,41 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1129234": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30867/1129234/jetbrains-jaspr-0.3.2.zip?updateId=1129234&pluginId=30867&family=INTELLIJ",
+      "sha256": "hygSOsLpyTnQkI2esrsHUfWPWbLDPKwpnB91HcPko+g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Dart"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jetbrains-jaspr-0.3.2.zip",
+      "since": "243.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1129816": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30867/1129816/jetbrains-jaspr-0.4.4.zip?updateId=1129816&pluginId=30867&family=INTELLIJ",
+      "sha256": "nh9a7RDj4FkVkKshdf4+ftFzUUjfZ9w1M9579cNTp9Y=",
+      "channel": "stable",
+      "dependencies": [
+        "Dart",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jetbrains-jaspr-0.4.4.zip",
+      "since": "243.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.3.1": 1009747
+      "0.3.1": 1009747,
+      "0.3.2": 1129234,
+      "0.4.4": 1129816
     }
   }
 }

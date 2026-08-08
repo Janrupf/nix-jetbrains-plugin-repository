@@ -3487,21 +3487,91 @@
       "until": "290.*",
       "compatibility_overrides": []
     },
-    "1111465": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1111465/gmaven-262.1.1.zip?updateId=1111465&pluginId=22370&family=INTELLIJ",
-      "sha256": "gRj0mPQGSIOLUxavMuDjvaSIBG8PpywHyiBXdfLXo7o=",
-      "channel": "eap",
+    "1129075": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1129075/gmaven-251.9.zip?updateId=1129075&pluginId=22370&family=INTELLIJ",
+      "sha256": "iHK/7Zsd87MGoM9BP7X9HbdVB7DkrpP7pOIeW3BPVcw=",
+      "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.jcef",
         "com.intellij.properties",
         "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "gmaven-251.9.zip",
+      "since": "251.18673.35",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1129079": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1129079/gmaven-252.11.zip?updateId=1129079&pluginId=22370&family=INTELLIJ",
+      "sha256": "+/dLA5bNfQ5RR78LbQuMw+JSAvf0cxit4THOT0ckGqo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
         "org.intellij.groovy"
       ],
-      "file_name": "gmaven-262.1.1.zip",
+      "file_name": "gmaven-252.11.zip",
+      "since": "252.23892.409",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "1129082": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1129082/gmaven-253.9.zip?updateId=1129082&pluginId=22370&family=INTELLIJ",
+      "sha256": "43WbVDo+rRk/x9wVb93U0DIHz8yRfN5NXIiJNzzI6fQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "gmaven-253.9.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1129092": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1129092/gmaven-262.2.zip?updateId=1129092&pluginId=22370&family=INTELLIJ",
+      "sha256": "ajkOpiLeYa6c/FalJ8ugVdFlBtOtS/wNCj4feZpdypc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "gmaven-262.2.zip",
+      "since": "262.0",
+      "until": "290.*",
+      "compatibility_overrides": []
+    },
+    "1129817": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1129817/gmaven-262.2.1.zip?updateId=1129817&pluginId=22370&family=INTELLIJ",
+      "sha256": "ze55YGgbjslTRwsvShaf3MLFvSFFHt9yu5Deiaw9w0k=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.jcef",
+        "com.intellij.properties",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.intellij.groovy"
+      ],
+      "file_name": "gmaven-262.2.1.zip",
       "since": "262.0",
       "until": "290.*",
       "compatibility_overrides": []
@@ -3511,7 +3581,7 @@
     "eap": {
       "253.5.2": 926139,
       "253.5.3": 928147,
-      "262.1.1": 1111465
+      "262.2.1": 1129817
     },
     "stable": {
       "213.15": 429861,
@@ -3688,7 +3758,9 @@
       "251.6": 921809,
       "251.7": 936123,
       "251.8": 1008674,
+      "251.9": 1129075,
       "252.10": 1008670,
+      "252.11": 1129079,
       "252.3": 868103,
       "252.4": 887602,
       "252.5": 893810,
@@ -3703,7 +3775,9 @@
       "253.6": 936125,
       "253.7": 1008668,
       "253.8": 1018125,
-      "262.1": 1111462
+      "253.9": 1129082,
+      "262.1": 1111462,
+      "262.2": 1129092
     }
   }
 }
