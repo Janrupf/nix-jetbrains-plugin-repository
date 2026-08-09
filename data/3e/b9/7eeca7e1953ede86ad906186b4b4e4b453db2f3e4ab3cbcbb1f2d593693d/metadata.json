@@ -3575,13 +3575,33 @@
       "since": "262.0",
       "until": "290.*",
       "compatibility_overrides": []
+    },
+    "1130767": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22370/1130767/gmaven-262.2.2.zip?updateId=1130767&pluginId=22370&family=INTELLIJ",
+      "sha256": "GV0dJ23d42J/onsDhcOAdN0jhx2/zAUfDBcRq5L2MII=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.intellij.groovy"
+      ],
+      "file_name": "gmaven-262.2.2.zip",
+      "since": "262.0",
+      "until": "290.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "253.5.2": 926139,
       "253.5.3": 928147,
-      "262.2.1": 1129817
+      "262.2.1": 1129817,
+      "262.2.2": 1130767
     },
     "stable": {
       "213.15": 429861,
