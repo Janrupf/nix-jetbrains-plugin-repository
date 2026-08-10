@@ -19,11 +19,30 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1131343": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33418/1131343/pulsemonitor-1.0.1.zip?updateId=1131343&pluginId=33418&family=INTELLIJ",
+      "sha256": "tMjFJZ6ju+objKYBQS3ZrjN+JKJKR6z0/4GZP+3niZY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pulsemonitor-1.0.1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1130357
+      "1.0.0": 1130357,
+      "1.0.1": 1131343
     }
   }
 }
