@@ -49,13 +49,34 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1132912": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31171/1132912/eggshell-2.1.0.zip?updateId=1132912&pluginId=31171&family=INTELLIJ",
+      "sha256": "fnfCjUbJj0nIMEfzxZYAW7/vtJi4WhhGpQGDfVP+kUY=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "com.eggshell.shared",
+        "intellij.terminal.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.backend"
+      ],
+      "file_name": "eggshell-2.1.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1013012,
       "1.0.1": 1016169,
-      "2.0.0": 1030253
+      "2.0.0": 1030253,
+      "2.1.0": 1132912
     }
   }
 }

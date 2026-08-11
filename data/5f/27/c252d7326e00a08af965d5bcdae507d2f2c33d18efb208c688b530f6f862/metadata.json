@@ -2,19 +2,6 @@
   "xml_id": "ru.stas-sor.ai-free",
   "numeric_id": 33364,
   "updates": {
-    "1127368": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33364/1127368/ai-free-jetbrains-0.4.20.zip?updateId=1127368&pluginId=33364&family=INTELLIJ",
-      "sha256": "hsCNPj5u8amjLbrUA5ewgc65EUVb2ueU5KwGPUlXMG4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "ai-free-jetbrains-0.4.20.zip",
-      "since": "252.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1127966": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33364/1127966/ai-free-jetbrains-0.4.21.zip?updateId=1127966&pluginId=33364&family=INTELLIJ",
       "sha256": "/0O1USyXDtlm/usqUxMAgUyHJqpvPEeIZsf9aaQ1miI=",
@@ -29,12 +16,27 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1132973": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33364/1132973/ai-free-jetbrains-0.4.22.zip?updateId=1132973&pluginId=33364&family=INTELLIJ",
+      "sha256": "HGWm4k/x6lnkAz/9pYooOBHBV8TP9Il7oBJMUAwUfYo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "ai-free-jetbrains-0.4.22.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.4.20": 1127368,
-      "0.4.21": 1127966
+      "0.4.21": 1127966,
+      "0.4.22": 1132973
     }
   }
 }

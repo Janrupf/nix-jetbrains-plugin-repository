@@ -16,11 +16,43 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1132066": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1132066/yms-ide-2.5.2.zip?updateId=1132066&pluginId=24829&family=INTELLIJ",
+      "sha256": "VJC//ndEULKjNVUxEFIudy5xNt6lo/ZlcDGdaEerA8w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yms-ide-2.5.2.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1133001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1133001/yms-ide-2.5.3.zip?updateId=1133001&pluginId=24829&family=INTELLIJ",
+      "sha256": "J3eNOlf5Y5Qc/5EOB1bjOKpoOue/+s5xWLlev4aYuzM=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yms-ide-2.5.3.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.5": 1128679
+      "2.5": 1128679,
+      "2.5.2": 1132066,
+      "2.5.3": 1133001
     }
   }
 }

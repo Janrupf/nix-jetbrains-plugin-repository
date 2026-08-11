@@ -31,6 +31,21 @@
       "since": "241.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1132551": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31085/1132551/devbeer-2.1.0.zip?updateId=1132551&pluginId=31085&family=INTELLIJ",
+      "sha256": "T34F6PxJH9i0jEyWbYQnw/NWFbKvX4y+CR4Dn/NthKc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java"
+      ],
+      "file_name": "devbeer-2.1.0.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -38,7 +53,8 @@
       "1.0.0": 1007962
     },
     "stable": {
-      "2.0.0": 1128415
+      "2.0.0": 1128415,
+      "2.1.0": 1132551
     }
   }
 }

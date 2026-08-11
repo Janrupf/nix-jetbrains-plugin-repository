@@ -65,14 +65,50 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1132712": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23896/1132712/intellij-plugin-openrewriter-1.0.4.20260810115335-SNAPSHOT.zip?updateId=1132712&pluginId=23896&family=INTELLIJ",
+      "sha256": "o3mEC9SwV/alGHLTV3sUVs5bg6ExZc7YgJaR6BKpSEs=",
+      "channel": "snapshot",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.gradle"
+      ],
+      "file_name": "intellij-plugin-openrewriter-1.0.4.20260810115335-SNAPSHOT.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1132716": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23896/1132716/intellij-plugin-openrewriter-1.0.4.zip?updateId=1132716&pluginId=23896&family=INTELLIJ",
+      "sha256": "rQr85x7VQO/dlz1EI3VG02hgVtVd8P6Kr8o7ui+DyWE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "intellij-plugin-openrewriter-1.0.4.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "snapshot": {
+      "1.0.4.20260810115335-SNAPSHOT": 1132712
+    },
     "stable": {
       "1.0.0": 498732,
       "1.0.1": 550954,
       "1.0.2": 605548,
-      "1.0.3": 635603
+      "1.0.3": 635603,
+      "1.0.4": 1132716
     }
   }
 }

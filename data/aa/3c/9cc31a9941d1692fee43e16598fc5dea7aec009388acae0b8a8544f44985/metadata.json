@@ -547,9 +547,25 @@
       "since": "251.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1132726": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29580/1132726/jetbrains-inspection-api-1.14.0-canary.2.zip?updateId=1132726&pluginId=29580&family=INTELLIJ",
+      "sha256": "bHRwo/pv4J+E+pFN3+UNcN01QbKIdEMFtbW2j62N13Q=",
+      "channel": "canary",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jetbrains-inspection-api-1.14.0-canary.2.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "canary": {
+      "1.14.0-canary.2": 1132726
+    },
     "stable": {
       "1.11.10": 1019591,
       "1.11.11": 1031454,
