@@ -39,12 +39,52 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1134639": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33469/1134639/oauthlint-jetbrains-0.2.0.zip?updateId=1134639&pluginId=33469&family=INTELLIJ",
+      "sha256": "gL9A9WxH5nvox7PZAFxfl3D8S7+4WjOQ2TMs4U3rdm4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.rust",
+        "com.intellij.modules.python",
+        "com.intellij.java",
+        "org.jetbrains.plugins.go",
+        "JavaScript"
+      ],
+      "file_name": "oauthlint-jetbrains-0.2.0.zip",
+      "since": "242.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "1134645": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33469/1134645/oauthlint-jetbrains-0.2.1.zip?updateId=1134645&pluginId=33469&family=INTELLIJ",
+      "sha256": "0UxCjvShrIEAiXCnxBAatItynp++Wb7eSZuztcGzq9U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.java",
+        "com.jetbrains.rust",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "oauthlint-jetbrains-0.2.1.zip",
+      "since": "242.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1132921,
-      "0.1.1": 1132978
+      "0.1.1": 1132978,
+      "0.2.0": 1134639,
+      "0.2.1": 1134645
     }
   }
 }

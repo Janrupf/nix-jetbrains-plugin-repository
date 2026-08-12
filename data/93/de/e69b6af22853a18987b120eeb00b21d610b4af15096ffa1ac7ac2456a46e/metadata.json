@@ -51,13 +51,31 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1134134": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33051/1134134/chalk-intellij-plugin-1.2.0-signed.zip?updateId=1134134&pluginId=33051&family=INTELLIJ",
+      "sha256": "wRyi3+x6QklYj4yE1oD3YoIRhpyab6su54ZXgB1QASQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "PythonCore"
+      ],
+      "file_name": "chalk-intellij-plugin-1.2.0-signed.zip",
+      "since": "261.27258.27",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.1": 1113174,
       "1.1.2": 1115063,
-      "1.1.3": 1116007
+      "1.1.3": 1116007,
+      "1.2.0": 1134134
     }
   }
 }

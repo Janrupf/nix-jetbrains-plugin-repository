@@ -41,12 +41,33 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1134635": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33423/1134635/Curly-Embedded-Tools-1.0.2.zip?updateId=1134635&pluginId=33423&family=INTELLIJ",
+      "sha256": "oC/pIE2RRUADXY/pPxVTwZJDETE5i9s/6m+RIeuMI/E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.platform.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.lsp",
+        "Curly.Embedded.Tools.shared",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "Curly-Embedded-Tools-1.0.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1130569,
-      "1.0.1": 1130572
+      "1.0.1": 1130572,
+      "1.0.2": 1134635
     }
   }
 }
