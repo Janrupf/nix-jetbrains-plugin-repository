@@ -60,13 +60,29 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1135929": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30291/1135929/salt-idea-plugin-codebase-2026.2.0.zip?updateId=1135929&pluginId=30291&family=INTELLIJ",
+      "sha256": "dtd7pcI5UuHRsTQaAU/gV+ztQC7eAAx4a57U4bGRwEw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jinja2enhanced",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "salt-idea-plugin-codebase-2026.2.0.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 962391,
       "2.0.0": 988761,
-      "2.0.1": 1006783
+      "2.0.1": 1006783,
+      "2026.2.0": 1135929
     },
     "unstable": {
       "1.1.0-rc1": 982957
