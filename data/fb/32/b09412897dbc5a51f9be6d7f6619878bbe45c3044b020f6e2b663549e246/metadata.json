@@ -31,12 +31,44 @@
       "since": "231.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1137314": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33460/1137314/knowledge-archiver-1.9.0.zip?updateId=1137314&pluginId=33460&family=INTELLIJ",
+      "sha256": "l99aksPfyFryxgWjFjh8LQu6Z4afe1SAk1UdpOZaSnE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "knowledge-archiver-1.9.0.zip",
+      "since": "231.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1137319": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33460/1137319/knowledge-archiver-1.9.1.zip?updateId=1137319&pluginId=33460&family=INTELLIJ",
+      "sha256": "qb0sH1rPolqoMhYL4aD7fo7ThmZUqX1I0DNaSp3UlJ8=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "knowledge-archiver-1.9.1.zip",
+      "since": "231.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.6.0": 1132013,
-      "1.8.0": 1133021
+      "1.8.0": 1133021,
+      "1.9.0": 1137314,
+      "1.9.1": 1137319
     }
   }
 }

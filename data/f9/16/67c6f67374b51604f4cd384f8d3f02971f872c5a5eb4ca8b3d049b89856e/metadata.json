@@ -32,12 +32,29 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1137267": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33272/1137267/IntelliJ_Platform_Plugin_Template-2.6.2.zip?updateId=1137267&pluginId=33272&family=INTELLIJ",
+      "sha256": "NwVuwEeY5pNWPWoMN0Piyy7bqdoIkRxfqwerKSqAPMw=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github"
+      ],
+      "file_name": "IntelliJ_Platform_Plugin_Template-2.6.2.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.6.0": 1121813,
-      "2.6.1": 1121823
+      "2.6.1": 1121823,
+      "2.6.2": 1137267
     }
   }
 }

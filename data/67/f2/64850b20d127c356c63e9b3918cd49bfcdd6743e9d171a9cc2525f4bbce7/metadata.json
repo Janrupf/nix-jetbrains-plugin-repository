@@ -297,6 +297,26 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1134839": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14856/1134839/liberty-tools-intellij-26.0.7-SNAPSHOT.zip?updateId=1134839&pluginId=14856&family=INTELLIJ",
+      "sha256": "kL2NGf7mRDh/e1xxDm1EGdxFLdOVUHiuH5CZLSWSkVk=",
+      "channel": "preview",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.properties",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "liberty-tools-intellij-26.0.7-SNAPSHOT.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -305,7 +325,8 @@
       "25.0.12-SNAPSHOT": 909467,
       "25.0.5": 841262,
       "25.0.9": 857015,
-      "26.0.3-SNAPSHOT": 996398
+      "26.0.3-SNAPSHOT": 996398,
+      "26.0.7-SNAPSHOT": 1134839
     },
     "stable": {
       "23.0.12": 446485,

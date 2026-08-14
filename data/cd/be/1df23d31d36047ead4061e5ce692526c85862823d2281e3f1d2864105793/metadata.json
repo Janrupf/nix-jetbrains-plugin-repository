@@ -374,9 +374,40 @@
       "since": "223.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1137235": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17166/1137235/leetcode-editor-pro-2026.2.0-alpha.1.zip?updateId=1137235&pluginId=17166&family=INTELLIJ",
+      "sha256": "yu7MIQpaLdxobUFrU9XCVxhZesf+A7M2BaxZC8S/ITU=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "leetcode-editor-pro-2026.2.0-alpha.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1137250": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17166/1137250/leetcode-editor-pro-2026.2.0.zip?updateId=1137250&pluginId=17166&family=INTELLIJ",
+      "sha256": "sNBH97XV4tX9YOhBo/zSNdiNgHR1M0Krb37Mw8YLjzg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "leetcode-editor-pro-2026.2.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "alpha": {
+      "2026.2.0-alpha.1": 1137235
+    },
     "stable": {
       "2021.1.1": 125671,
       "2021.1.2": 132911,
@@ -404,7 +435,8 @@
       "2024.1.5": 585832,
       "2024.1.6": 864787,
       "2024.1.7": 885079,
-      "2024.1.8": 885510
+      "2024.1.8": 885510,
+      "2026.2.0": 1137250
     }
   }
 }

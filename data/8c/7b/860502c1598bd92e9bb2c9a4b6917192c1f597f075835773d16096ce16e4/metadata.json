@@ -15,10 +15,35 @@
       "since": "213.0",
       "until": "223.*",
       "compatibility_overrides": []
+    },
+    "1137523": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20538/1137523/TaoTaoToolKit-2026.09.zip?updateId=1137523&pluginId=20538&family=INTELLIJ",
+      "sha256": "63zN2OJad2W6/pM/uJ8QRr2/dcUvF9RwPSHb7TcbGfM=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "org.intellij.groovy",
+        "com.intellij.copyright",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json",
+        "com.intellij.spring.boot",
+        "com.intellij.gradle",
+        "org.intellij.intelliLang",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.spring",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "TaoTaoToolKit-2026.09.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2026.09": 1137523,
       "3.2022.15": 261733
     }
   }

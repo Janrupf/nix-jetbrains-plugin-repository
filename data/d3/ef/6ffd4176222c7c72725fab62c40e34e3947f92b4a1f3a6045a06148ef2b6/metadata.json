@@ -49,13 +49,31 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1137295": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33370/1137295/qodercli-launcher-1.3.0.zip?updateId=1137295&pluginId=33370&family=INTELLIJ",
+      "sha256": "27pAmoRyossHmf+ef7e/L9WMLOC2EHsSj7f8HBycEzw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.vcs"
+      ],
+      "file_name": "qodercli-launcher-1.3.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1132225,
       "1.1.0": 1133332,
-      "1.2.0": 1133368
+      "1.2.0": 1133368,
+      "1.3.0": 1137295
     }
   }
 }

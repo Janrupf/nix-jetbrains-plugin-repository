@@ -44,12 +44,31 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1138386": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33259/1138386/intellij-fortify-code-security_26.3.0.0528.zip?updateId=1138386&pluginId=33259&family=INTELLIJ",
+      "sha256": "i9OrrFuxBOR9kUoez4G4kDuIkHQh2moX395v4tXcOGM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm",
+        "com.intellij.terminal",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "intellij-fortify-code-security_26.3.0.0528.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "26.3.0.0521": 1120908,
-      "26.3.0.0526": 1128419
+      "26.3.0.0526": 1128419,
+      "26.3.0.0528": 1138386
     }
   }
 }

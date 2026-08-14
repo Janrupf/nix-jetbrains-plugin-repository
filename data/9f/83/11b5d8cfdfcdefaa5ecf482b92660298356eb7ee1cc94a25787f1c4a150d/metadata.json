@@ -32,17 +32,19 @@
       "until": "262.*",
       "compatibility_overrides": []
     },
-    "1133670": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/23640/1133670/fittencode-1.1.1-242.zip?updateId=1133670&pluginId=23640&family=INTELLIJ",
-      "sha256": "KMNxEOejE3obFXV58F/Lr3cl14uquvLkJkibPWjSRwo=",
+    "1137322": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23640/1137322/fittencode-1.1.3-242.zip?updateId=1137322&pluginId=23640&family=INTELLIJ",
+      "sha256": "qxISL3z6YDaK28DnhQQ8t5elG8m7mFacFt2oLc/Iki4=",
       "channel": "stable",
       "dependencies": [
         "Git4Idea",
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "fittencode-1.1.1-242.zip",
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "fittencode-1.1.3-242.zip",
       "since": "241.0",
       "until": "262.*",
       "compatibility_overrides": []
@@ -51,8 +53,8 @@
   "channels": {
     "stable": {
       "1.1.1-241": 1099250,
-      "1.1.1-242": 1133670,
-      "1.1.2-241": 1115145
+      "1.1.2-241": 1115145,
+      "1.1.3-242": 1137322
     }
   }
 }

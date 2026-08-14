@@ -16,11 +16,45 @@
       "since": "262.8665",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1137938": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33513/1137938/webview-0.6.0-eap.6.zip?updateId=1137938&pluginId=33513&family=INTELLIJ",
+      "sha256": "2tnYiej/pKc9ec/cebgfcf52RyMaLOs6jm9vA7CQ0eI=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "io.github.nerzhulart.webview",
+        "intellij.libraries.jcef",
+        "intellij.platform.ui.jcef"
+      ],
+      "file_name": "webview-0.6.0-eap.6.zip",
+      "since": "262.8665",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1137957": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33513/1137957/webview-0.6.0-eap.7.zip?updateId=1137957&pluginId=33513&family=INTELLIJ",
+      "sha256": "EB6vC7HG1Lq4M3/cZMg0LDo0UGazODRdfiDpzItAkMM=",
+      "channel": "eap",
+      "dependencies": [],
+      "optional_dependencies": [
+        "io.github.nerzhulart.webview",
+        "intellij.libraries.jcef",
+        "intellij.platform.ui.jcef"
+      ],
+      "file_name": "webview-0.6.0-eap.7.zip",
+      "since": "262.8665",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "0.6.0-eap.2": 1136883
+      "0.6.0-eap.2": 1136883,
+      "0.6.0-eap.7": 1137957
+    },
+    "stable": {
+      "0.6.0-eap.6": 1137938
     }
   }
 }

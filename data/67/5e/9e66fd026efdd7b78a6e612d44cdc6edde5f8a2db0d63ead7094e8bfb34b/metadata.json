@@ -43,13 +43,48 @@
       "since": "241.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1137316": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32537/1137316/archguard-intellij-plugin-0.1.3-signed.zip?updateId=1137316&pluginId=32537&family=INTELLIJ",
+      "sha256": "avtwg5xYWJDD58pu4xH9kdCSdySU9ZQKCc3qJU/xcfY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "archguard-intellij-plugin-0.1.3-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1137346": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32537/1137346/archguard-intellij-plugin-0.1.4-signed.zip?updateId=1137346&pluginId=32537&family=INTELLIJ",
+      "sha256": "HJ+gF+aQEpEoshd9g3uddjLcCbTGocuEbLUG8j0XEUc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "archguard-intellij-plugin-0.1.4-signed.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1090650,
       "0.1.1": 1105406,
-      "0.1.2": 1108780
+      "0.1.2": 1108780,
+      "0.1.3": 1137316,
+      "0.1.4": 1137346
     }
   }
 }

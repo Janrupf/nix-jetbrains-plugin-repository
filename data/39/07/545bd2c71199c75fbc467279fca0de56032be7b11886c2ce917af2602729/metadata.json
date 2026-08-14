@@ -358,6 +358,35 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1138375": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32654/1138375/engram-0.8.6-261.zip?updateId=1138375&pluginId=32654&family=INTELLIJ",
+      "sha256": "fG43bivb1HleV0OG6NlggUnKayrj2vgrGK34+ccpltA=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "engram-0.8.6-261.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1138376": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32654/1138376/engram-0.8.6.zip?updateId=1138376&pluginId=32654&family=INTELLIJ",
+      "sha256": "Rj6XufvM+M+mFvkNJZm7gxhJH1fL6yYSIwpWCCKIK54=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.ui.jcef",
+        "intellij.platform.backend",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "engram-0.8.6.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -387,7 +416,9 @@
       "0.8.2": 1131319,
       "0.8.3": 1132927,
       "0.8.4": 1136876,
-      "0.8.5": 1137020
+      "0.8.5": 1137020,
+      "0.8.6": 1138376,
+      "0.8.6-261": 1138375
     }
   }
 }
