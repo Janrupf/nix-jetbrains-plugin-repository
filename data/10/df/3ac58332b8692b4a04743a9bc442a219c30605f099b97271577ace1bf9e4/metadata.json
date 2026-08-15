@@ -71,6 +71,28 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1139527": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31813/1139527/chill-code-companion-0.5.0-release-minified-signed.zip?updateId=1139527&pluginId=31813&family=INTELLIJ",
+      "sha256": "Z2mbvcwHIZyF4B9TD9sSfEw66AHgruKQYGMu054QDIY=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.vcs.log.graph",
+        "Git4Idea",
+        "intellij.terminal.frontend",
+        "intellij.platform.vcs.log",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "com.intellij.air"
+      ],
+      "file_name": "chill-code-companion-0.5.0-release-minified-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -78,7 +100,8 @@
       "0.1.0": 1050283,
       "0.2.0": 1090219,
       "0.3.0": 1107610,
-      "0.4.0": 1119189
+      "0.4.0": 1119189,
+      "0.5.0": 1139527
     }
   }
 }

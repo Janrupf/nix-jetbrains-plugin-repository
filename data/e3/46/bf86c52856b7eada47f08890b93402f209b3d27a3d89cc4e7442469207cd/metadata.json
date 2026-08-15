@@ -146,6 +146,28 @@
       "optional_dependencies": [],
       "file_name": "dblookup-1.0.6.zip",
       "since": "261.22158",
+      "until": "261.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "261.22158",
+          "applies_until": "999.99999",
+          "compatible_since": "261.22158",
+          "compatible_until": "261.*"
+        }
+      ]
+    },
+    "1139432": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27270/1139432/dblookup-1.0.7.zip?updateId=1139432&pluginId=27270&family=INTELLIJ",
+      "sha256": "GAPpiWqqh9UIgQK2QKRe7T+Xvwv93RcXKg3OmXl2NIE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.grid.plugin",
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dblookup-1.0.7.zip",
+      "since": "262.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -158,7 +180,8 @@
       "1.0.3": 820415,
       "1.0.4": 849342,
       "1.0.5": 865503,
-      "1.0.6": 1005675
+      "1.0.6": 1005675,
+      "1.0.7": 1139432
     }
   }
 }
