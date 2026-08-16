@@ -14,11 +14,40 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1140143": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33377/1140143/jetbrains-1.8.0.zip?updateId=1140143&pluginId=33377&family=INTELLIJ",
+      "sha256": "hggzDBSp1r44U115BfoQNi20nxymegP025+ygYEsESY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jetbrains-1.8.0.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "1140156": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33377/1140156/jetbrains-1.9.0.zip?updateId=1140156&pluginId=33377&family=INTELLIJ",
+      "sha256": "7jbZGgQFz8fQgqhVfgcCgGdufJVewwydPqLhSgSmWR4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jetbrains-1.9.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 1127871
+      "1.0.1": 1127871,
+      "1.8.0": 1140143,
+      "1.9.0": 1140156
     }
   }
 }

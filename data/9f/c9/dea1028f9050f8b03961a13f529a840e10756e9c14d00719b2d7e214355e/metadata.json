@@ -215,6 +215,27 @@
       "since": "253.3",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1139989": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19275/1139989/better_direnv-1.4.2.zip?updateId=1139989&pluginId=19275&family=INTELLIJ",
+      "sha256": "Vsg2pl+liN4ffKS8OvdtXFlxbmSKEYXbQ1gWqDBMAeQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.python",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.ruby",
+        "com.jetbrains.php"
+      ],
+      "file_name": "better_direnv-1.4.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -229,7 +250,8 @@
       "1.2.1": 355571,
       "1.2.2": 355572,
       "1.3.0": 1014810,
-      "1.4.0": 1016196
+      "1.4.0": 1016196,
+      "1.4.2": 1139989
     }
   }
 }

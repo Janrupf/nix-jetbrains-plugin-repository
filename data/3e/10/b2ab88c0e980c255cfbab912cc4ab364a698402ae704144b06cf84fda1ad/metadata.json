@@ -268,9 +268,10 @@
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9397/38594/aemtools-0.8.1.zip?updateId=38594&pluginId=9397&family=INTELLIJ",
       "sha256": "ZFBKoQ/kjTl/xsLV0uiz+lME8GrIonSQ3uix8hae5qY=",
       "channel": "stable",
-      "dependencies": [],
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
       "optional_dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.java"
       ],
       "file_name": "aemtools-0.8.1.zip",
@@ -329,9 +330,10 @@
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9397/168166/IC-aemtools-0.9.1.zip?updateId=168166&pluginId=9397&family=INTELLIJ",
       "sha256": "k2Mlk+tuF8jLm6oLivfwasbZITaJOh9vdYxoS/yCymM=",
       "channel": "stable",
-      "dependencies": [],
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
       "optional_dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.java"
       ],
       "file_name": "IC-aemtools-0.9.1.zip",
@@ -343,9 +345,10 @@
       "download_url": "https://downloads.marketplace.jetbrains.com/files/9397/168871/IC-aemtools-0.9.1.1.zip?updateId=168871&pluginId=9397&family=INTELLIJ",
       "sha256": "48uQvtSubbxIwogUirM4kGzBVwlStVDxAVy1qdUYWBs=",
       "channel": "stable",
-      "dependencies": [],
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
       "optional_dependencies": [
-        "com.intellij.modules.lang",
         "com.intellij.modules.java"
       ],
       "file_name": "IC-aemtools-0.9.1.1.zip",
@@ -613,6 +616,23 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1139945": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9397/1139945/aemtools-1.1.0.zip?updateId=1139945&pluginId=9397&family=INTELLIJ",
+      "sha256": "ASBTxcKTDM0890ol6RoHer5/KYO8F2G4mog0USuQUf4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java"
+      ],
+      "file_name": "aemtools-1.1.0.zip",
+      "since": "243.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -651,7 +671,8 @@
       "1.0.6": 636101,
       "1.0.7": 733654,
       "1.0.8": 837122,
-      "1.0.9": 918833
+      "1.0.9": 918833,
+      "1.1.0": 1139945
     }
   }
 }

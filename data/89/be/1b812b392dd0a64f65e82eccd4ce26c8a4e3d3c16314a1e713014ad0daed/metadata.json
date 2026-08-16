@@ -12526,6 +12526,30 @@
       "since": "261.23567",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1139984": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7499/1139984/gittoolbox-600.3.3_261-signed.zip?updateId=1139984&pluginId=7499&family=INTELLIJ",
+      "sha256": "C/69IBWrjbLaB5zD8TfbhyQn1BIqOZMcGy65fHNcR4M=",
+      "channel": "test",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php",
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java",
+        "com.jetbrains.rust",
+        "gr.jchrist.gitextender",
+        "JavaScript",
+        "Pythonid"
+      ],
+      "file_name": "gittoolbox-600.3.3_261-signed.zip",
+      "since": "261.23567",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -13198,7 +13222,8 @@
       "600.3.2+261": 1098832
     },
     "test": {
-      "600.3.1+261": 1095041
+      "600.3.1+261": 1095041,
+      "600.3.3+261": 1139984
     }
   }
 }

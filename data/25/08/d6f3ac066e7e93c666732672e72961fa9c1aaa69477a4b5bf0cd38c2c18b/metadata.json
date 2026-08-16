@@ -35,12 +35,30 @@
       "since": "222.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1140203": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33479/1140203/helixlang-ide-2026.8.2.zip?updateId=1140203&pluginId=33479&family=INTELLIJ",
+      "sha256": "gte53XYBwL90Tg4r4JmaSVlnYNjVMWMUTc5rICAc6Ko=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.lang",
+        "PythonCommon",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "helixlang-ide-2026.8.2.zip",
+      "since": "222.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1133365,
-      "2026.8.1": 1138816
+      "2026.8.1": 1138816,
+      "2026.8.2": 1140203
     }
   }
 }
