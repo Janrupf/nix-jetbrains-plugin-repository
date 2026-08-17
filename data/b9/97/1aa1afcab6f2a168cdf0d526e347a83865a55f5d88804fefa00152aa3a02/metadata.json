@@ -588,6 +588,32 @@
       "since": "231.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1140845": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19499/1140845/unix-timestamp-8.0.0.zip?updateId=1140845&pluginId=19499&family=INTELLIJ",
+      "sha256": "Rei6idDidvKNJUsYviJIemnsmTHqVipPaEcwXygkgOU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.scala",
+        "org.jetbrains.kotlin",
+        "PythonCore",
+        "com.jetbrains.php",
+        "com.intellij.java",
+        "com.jetbrains.restClient",
+        "com.intellij.css",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "org.intellij.groovy",
+        "com.intellij.database"
+      ],
+      "file_name": "unix-timestamp-8.0.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -618,7 +644,8 @@
       "6.6.0": 687184,
       "7.0.0": 698963,
       "7.0.1": 701386,
-      "7.1.0": 709874
+      "7.1.0": 709874,
+      "8.0.0": 1140845
     }
   }
 }

@@ -741,51 +741,27 @@
       "until": "262.*",
       "compatibility_overrides": []
     },
-    "1123294": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1123294/Smart_Input_Pro-2.4.4-goland.zip?updateId=1123294&pluginId=25280&family=INTELLIJ",
-      "sha256": "F48L029KPydz8y9W8C46djglP6TF11rKgrxG9KWKM00=",
-      "channel": "goland",
+    "1140429": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1140429/Smart_Input_Pro-2.4.4.zip?updateId=1140429&pluginId=25280&family=INTELLIJ",
+      "sha256": "rqQDzuHl6b2LZhn88mv2+MmnrLJXsCogo2E5C5cDR6w=",
+      "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.goland",
-        "org.jetbrains.plugins.go"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "AceJump",
-        "IdeaVIM"
-      ],
-      "file_name": "Smart_Input_Pro-2.4.4-goland.zip",
-      "since": "233.0",
-      "until": "262.*",
-      "compatibility_overrides": []
-    },
-    "1123490": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1123490/Smart_Input_Pro-2.4.4-pycharm.zip?updateId=1123490&pluginId=25280&family=INTELLIJ",
-      "sha256": "NyaGL5kTyagtWxFtGBRzAA8Vg8CbfMSjq4SLwUjBFoM=",
-      "channel": "pycharm",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.pycharm"
-      ],
-      "optional_dependencies": [
-        "PythonCore",
-        "Pythonid",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java",
         "IdeaVIM",
-        "AceJump"
+        "JavaScript"
       ],
-      "file_name": "Smart_Input_Pro-2.4.4-pycharm.zip",
+      "file_name": "Smart_Input_Pro-2.4.4.zip",
       "since": "233.0",
       "until": "262.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
-    "goland": {
-      "2.4.4-goland": 1123294
-    },
-    "pycharm": {
-      "2.4.4-pycharm": 1123490
-    },
     "stable": {
       "2.3.10": 856258,
       "2.3.10+212u213": 856267,
@@ -832,7 +808,8 @@
       "2.4.0-pycharm": 1000260,
       "2.4.1": 1050042,
       "2.4.2": 1051516,
-      "2.4.3": 1123110
+      "2.4.3": 1123110,
+      "2.4.4": 1140429
     }
   }
 }
