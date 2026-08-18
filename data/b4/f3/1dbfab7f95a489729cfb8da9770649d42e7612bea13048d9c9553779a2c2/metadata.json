@@ -741,6 +741,43 @@
       "until": "262.*",
       "compatibility_overrides": []
     },
+    "1140415": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1140415/Smart_Input_Pro-2.4.4-pycharm.zip?updateId=1140415&pluginId=25280&family=INTELLIJ",
+      "sha256": "mwNwEVkJ28hl1kSCiWwVZImBXGmaACxPKHmnmf8yImE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.pycharm",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM",
+        "AceJump",
+        "PythonCore",
+        "Pythonid"
+      ],
+      "file_name": "Smart_Input_Pro-2.4.4-pycharm.zip",
+      "since": "233.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1140416": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1140416/Smart_Input_Pro-2.4.4-goland.zip?updateId=1140416&pluginId=25280&family=INTELLIJ",
+      "sha256": "YMRlMmGGu4Ve6h2w3+QK/Cq82KvUiyciegrmkX9b5vk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.goland",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "IdeaVIM",
+        "AceJump"
+      ],
+      "file_name": "Smart_Input_Pro-2.4.4-goland.zip",
+      "since": "233.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
     "1140429": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/25280/1140429/Smart_Input_Pro-2.4.4.zip?updateId=1140429&pluginId=25280&family=INTELLIJ",
       "sha256": "rqQDzuHl6b2LZhn88mv2+MmnrLJXsCogo2E5C5cDR6w=",
@@ -809,7 +846,9 @@
       "2.4.1": 1050042,
       "2.4.2": 1051516,
       "2.4.3": 1123110,
-      "2.4.4": 1140429
+      "2.4.4": 1140429,
+      "2.4.4-goland": 1140416,
+      "2.4.4-pycharm": 1140415
     }
   }
 }

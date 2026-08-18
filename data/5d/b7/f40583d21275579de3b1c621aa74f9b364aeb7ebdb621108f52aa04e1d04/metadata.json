@@ -18,11 +18,30 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1142296": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33571/1142296/Staleguard-1.2.0.zip?updateId=1142296&pluginId=33571&family=INTELLIJ",
+      "sha256": "NECoLspb8Xgj3Zn8tte/guZF5bkrCLOyt/I04PMscbI=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.toml.lang",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "Staleguard-1.2.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1140157
+      "1.0.0": 1140157,
+      "1.2.0": 1142296
     }
   }
 }

@@ -2497,7 +2497,7 @@
         "perl5.lang.embedded.common.main"
       ],
       "file_name": "lang.embedded-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -2753,7 +2753,7 @@
         "perl5.lang.embedded.frontend.main"
       ],
       "file_name": "lang.embedded-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -2940,6 +2940,52 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1141004": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1141004/lang.embedded-2026.2.1.zip?updateId=1141004&pluginId=11340&family=INTELLIJ",
+      "sha256": "K0gsjS0aM36zB+5FjcIAbx6OeBOHZvnm5OY5irseTlM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.perl5",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.lang.embedded.common.main",
+        "perl5.plugin.structureView.main",
+        "perl5.lang.embedded.backend.main",
+        "perl5.plugin.backend.main"
+      ],
+      "file_name": "lang.embedded-2026.2.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1141145": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1141145/lang.embedded-2026.3-EAP.3455.zip?updateId=1141145&pluginId=11340&family=INTELLIJ",
+      "sha256": "OxKUWn9nFSOJ3aIKY1QBNjV9DEg/Gfl9G3w3EtffmLE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "intellij.platform.frontend",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.structureView.main",
+        "perl5.lang.embedded.backend.main",
+        "perl5.plugin.backend.main",
+        "perl5.lang.embedded.common.main"
+      ],
+      "file_name": "lang.embedded-2026.3-EAP.3455.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2972,6 +3018,7 @@
       "2026.2-EAP.8665.176": 1103816,
       "2026.2-EAP.8665.81": 1098261,
       "2026.3-EAP.1433": 1103828,
+      "2026.3-EAP.3455": 1141145,
       "203-SNAPSHOT.8": 96403,
       "203.3645.34-EAP-SNAPSHOT": 98109,
       "203.5784.10-EAP-SNAPSHOT": 102535,
@@ -3140,7 +3187,8 @@
       "2025.3": 909222,
       "2025.3.1": 963681,
       "2026.1": 994931,
-      "2026.2": 1109571
+      "2026.2": 1109571,
+      "2026.2.1": 1141004
     }
   }
 }

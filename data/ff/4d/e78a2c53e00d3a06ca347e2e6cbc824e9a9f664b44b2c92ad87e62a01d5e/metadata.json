@@ -3377,6 +3377,62 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1141006": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11339/1141006/lang.mason.htmlmason-2026.2.1.zip?updateId=1141006&pluginId=11339&family=INTELLIJ",
+      "sha256": "RotWXO/MB3rlfKoFr3D8qt1k+Wn7csYYVa6MGn+J3no=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.perl5.lang.mason.framework",
+        "perl5.plugin.common.main",
+        "com.perl5",
+        "perl5.lang.mason.framework.common.main"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.mason.htmlmason.frontend.main",
+        "intellij.platform.frontend.split",
+        "perl5.lang.mason.framework.frontend.split.main",
+        "perl5.plugin.structureView.main",
+        "perl5.lang.mason.htmlmason.backend.main",
+        "perl5.lang.mason.framework.frontend.main",
+        "perl5.plugin.backend.main",
+        "perl5.lang.mason.framework.backend.main",
+        "perl5.lang.mason.htmlmason.common.main",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "lang.mason.htmlmason-2026.2.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1141147": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11339/1141147/lang.mason.htmlmason-2026.3-EAP.3455.zip?updateId=1141147&pluginId=11339&family=INTELLIJ",
+      "sha256": "W3HYTuXgDuMNEwPcQENlbzsWcFWydgl3f394+gu2eDM=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "perl5.plugin.common.main",
+        "perl5.lang.mason.framework.common.main",
+        "com.intellij.modules.lang",
+        "com.perl5.lang.mason.framework"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.mason.framework.backend.main",
+        "perl5.lang.mason.htmlmason.common.main",
+        "perl5.lang.mason.framework.frontend.main",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.lang.mason.htmlmason.frontend.main",
+        "perl5.plugin.structureView.main",
+        "perl5.lang.mason.framework.frontend.split.main",
+        "perl5.plugin.backend.main",
+        "perl5.lang.mason.htmlmason.backend.main"
+      ],
+      "file_name": "lang.mason.htmlmason-2026.3-EAP.3455.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3420,6 +3476,7 @@
       "2026.2-EAP.8665.176": 1103818,
       "2026.2-EAP.8665.81": 1098263,
       "2026.3-EAP.1433": 1103830,
+      "2026.3-EAP.3455": 1141147,
       "203-SNAPSHOT.4": 93318,
       "203-SNAPSHOT.5": 93782,
       "203-SNAPSHOT.6": 94709,
@@ -3587,7 +3644,8 @@
       "2025.3": 909224,
       "2025.3.1": 963683,
       "2026.1": 994934,
-      "2026.2": 1109573
+      "2026.2": 1109573,
+      "2026.2.1": 1141006
     }
   }
 }

@@ -2,19 +2,6 @@
   "xml_id": "dev.cachly.brain",
   "numeric_id": 32059,
   "updates": {
-    "1111023": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32059/1111023/cachly-brain-intellij-0.7.0.zip?updateId=1111023&pluginId=32059&family=INTELLIJ",
-      "sha256": "Kv2bAyDAWLWgdRSNonR6g61T4qUADbK97KPETW42kyI=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "cachly-brain-intellij-0.7.0.zip",
-      "since": "241.0",
-      "until": "252.*",
-      "compatibility_overrides": []
-    },
     "1137253": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32059/1137253/cachly-brain-intellij-0.7.1.zip?updateId=1137253&pluginId=32059&family=INTELLIJ",
       "sha256": "jyPHi+fcnRIAnn1q0ZT/E5rm9P3cGi6c2fbMbM0LWvI=",
@@ -40,13 +27,26 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1141205": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32059/1141205/cachly-brain-intellij-0.8.0.zip?updateId=1141205&pluginId=32059&family=INTELLIJ",
+      "sha256": "iRnk4qPWCgXpO5Scn8Pzh8YIbe7XIJ2n8WpcFBNtxGQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cachly-brain-intellij-0.8.0.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.7.0": 1111023,
       "0.7.1": 1137253,
-      "0.7.2": 1137971
+      "0.7.2": 1137971,
+      "0.8.0": 1141205
     }
   }
 }

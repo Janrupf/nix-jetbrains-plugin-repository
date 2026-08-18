@@ -3941,6 +3941,76 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1141010": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7796/1141010/plugin-2026.2.1.zip?updateId=1141010&pluginId=7796&family=INTELLIJ",
+      "sha256": "jE7YZX/NEl3CJetLi/J2JCuolu6MK9KUsrNEHC5kZ0Q=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.spellchecker",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.smRunner",
+        "intellij.platform.frontend.split",
+        "intellij.platform.langInjection",
+        "com.intellij.modules.java",
+        "perl5.plugin.cpanminus.common.main",
+        "intellij.platform.backend",
+        "org.jetbrains.plugins.remote-run",
+        "perl5.plugin.perlInstall.main",
+        "intellij.platform.structureView.impl",
+        "perl5.plugin.frontend.main",
+        "perl5.plugin.backend.main",
+        "com.intellij.modules.ultimate",
+        "perl5.plugin.common.main",
+        "org.intellij.intelliLang",
+        "intellij.profiler.common",
+        "intellij.platform.frontend",
+        "com.intellij.copyright",
+        "com.intellij.modules.coverage",
+        "intellij.rd.client",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "plugin-2026.2.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1141151": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7796/1141151/plugin-2026.3-EAP.3455.zip?updateId=1141151&pluginId=7796&family=INTELLIJ",
+      "sha256": "D+zZXZi8XEkYQLT/LUiMDn75Pcn3QTDI/BA6iPYKfTc=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.structureView.impl",
+        "perl5.plugin.backend.main",
+        "com.intellij.copyright",
+        "com.intellij.modules.ultimate",
+        "org.intellij.intelliLang",
+        "intellij.platform.frontend",
+        "intellij.rd.client",
+        "org.jetbrains.plugins.terminal",
+        "perl5.plugin.frontend.main",
+        "intellij.platform.smRunner",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.java",
+        "perl5.plugin.cpanminus.common.main",
+        "perl5.plugin.common.main",
+        "intellij.platform.frontend.split",
+        "intellij.profiler.common",
+        "intellij.platform.backend",
+        "perl5.plugin.perlInstall.main",
+        "intellij.platform.langInjection",
+        "org.jetbrains.plugins.remote-run"
+      ],
+      "file_name": "plugin-2026.3-EAP.3455.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3998,6 +4068,7 @@
       "2026.2-EAP.8665.176": 1103822,
       "2026.2-EAP.8665.81": 1098267,
       "2026.3-EAP.1433": 1103834,
+      "2026.3-EAP.3455": 1141151,
       "203.5784.10-EAP-SNAPSHOT": 102541,
       "223-SNAPSHOT.1": 185839,
       "223.7571.123-EAP-SNAPSHOT": 257354,
@@ -4160,7 +4231,8 @@
       "2025.3": 909228,
       "2025.3.1": 963687,
       "2026.1": 994938,
-      "2026.2": 1109578
+      "2026.2": 1109578,
+      "2026.2.1": 1141010
     }
   }
 }

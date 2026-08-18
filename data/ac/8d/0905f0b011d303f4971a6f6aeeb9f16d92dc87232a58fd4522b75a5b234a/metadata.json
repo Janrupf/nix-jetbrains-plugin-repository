@@ -49,13 +49,30 @@
       "since": "242.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1141899": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33137/1141899/specshield-intellij-1.0.3.zip?updateId=1141899&pluginId=33137&family=INTELLIJ",
+      "sha256": "aEvEhOQU/hQvHCf3gwXI0fknVDTb56Q3XxvpbLIxJ9M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "specshield-intellij-1.0.3.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1116870,
       "1.0.1": 1122348,
-      "1.0.2": 1122349
+      "1.0.2": 1122349,
+      "1.0.3": 1141899
     }
   }
 }
