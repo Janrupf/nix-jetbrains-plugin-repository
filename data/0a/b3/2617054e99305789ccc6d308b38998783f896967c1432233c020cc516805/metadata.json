@@ -292,7 +292,7 @@
       ],
       "file_name": "intellij-pdf-viewer-0.17.0.zip",
       "since": "241.0",
-      "until": "261",
+      "until": "299.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.0",
@@ -315,7 +315,7 @@
       ],
       "file_name": "intellij-pdf-viewer-0.17.0.zip",
       "since": "241.0",
-      "until": "261",
+      "until": "299.*",
       "compatibility_overrides": [
         {
           "applies_since": "241.0",
@@ -855,6 +855,24 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1143770": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14494/1143770/intellij-pdf-viewer-0.18.6-alpha.1.zip?updateId=1143770&pluginId=14494&family=INTELLIJ",
+      "sha256": "n+LyONubvVWazIg8buxob3P0Z2RZXIyfXHG2uweHVfE=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "intellij.structureView.plugin"
+      ],
+      "optional_dependencies": [
+        "com.intellij.jetbrains.client",
+        "nl.rubensten.texifyidea"
+      ],
+      "file_name": "intellij-pdf-viewer-0.18.6-alpha.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -890,7 +908,8 @@
       "0.18.3-alpha.1": 1093726,
       "0.18.3-alpha.2": 1093727,
       "0.18.4-alpha.1": 1114995,
-      "0.18.5-alpha.1": 1130952
+      "0.18.5-alpha.1": 1130952,
+      "0.18.6-alpha.1": 1143770
     },
     "stable": {
       "0.0.6.1": 88991,

@@ -308,6 +308,23 @@
       "since": "251.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1144016": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31965/1144016/claude-code-native-5.5.0-signed.zip?updateId=1144016&pluginId=31965&family=INTELLIJ",
+      "sha256": "hJvcwVY+jIK+ea/i5z5xKFc+5W8Rxam96AwKXDery3w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "claude-code-native-5.5.0-signed.zip",
+      "since": "253.29346.138",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -332,7 +349,8 @@
       "5.0.0": 1128418,
       "5.0.1": 1132715,
       "5.1.0": 1132907,
-      "5.1.1": 1132979
+      "5.1.1": 1132979,
+      "5.5.0": 1144016
     }
   }
 }

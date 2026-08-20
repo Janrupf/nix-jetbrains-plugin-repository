@@ -151,6 +151,39 @@
       "since": "241.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1143948": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33221/1143948/run-in-terminal-legacy-1.1.6.zip?updateId=1143948&pluginId=33221&family=INTELLIJ",
+      "sha256": "rfl88FwMMpMo99AVtQ5WUW9N7nGBaTSh1MLlOL7F3MM=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "run-in-terminal-legacy-1.1.6.zip",
+      "since": "241.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1143949": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33221/1143949/run-in-terminal-1.2.4.zip?updateId=1143949&pluginId=33221&family=INTELLIJ",
+      "sha256": "JyFSb6AhL05JqP0O/tGG0oknd/G4hxEpuYsizwmP574=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "dev.alvol.runinterminal.shared",
+        "intellij.platform.backend",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "run-in-terminal-1.2.4.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -163,8 +196,10 @@
       "1.1.1": 1123499,
       "1.1.4": 1133696,
       "1.1.5": 1139439,
+      "1.1.6": 1143948,
       "1.2.2": 1130384,
-      "1.2.3": 1139438
+      "1.2.3": 1139438,
+      "1.2.4": 1143949
     }
   }
 }
