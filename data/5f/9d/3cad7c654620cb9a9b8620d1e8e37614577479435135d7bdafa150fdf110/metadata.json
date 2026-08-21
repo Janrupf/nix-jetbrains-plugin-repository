@@ -12351,6 +12351,50 @@
       "since": "261.27258",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1145362": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10485/1145362/clouds-kubernetes-262.10315.24.zip?updateId=1145362&pluginId=10485&family=INTELLIJ",
+      "sha256": "rEAo1W45AUvy0jx6lUsUVuYSTw2F5IdZ2NU5X63ZOOo=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "intellij.yaml",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.json",
+        "intellij.platform.execution.serviceView",
+        "Docker"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.frontend",
+        "org.jetbrains.plugins.go-template",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.agent",
+        "intellij.spellchecker",
+        "intellij.database.core.impl",
+        "intellij.database.util",
+        "intellij.clouds.kubernetes",
+        "intellij.clouds.kubernetes.libraries",
+        "intellij.platform.backend",
+        "com.intellij.database",
+        "intellij.clouds.kubernetes.backend",
+        "intellij.platform.editor.frontend",
+        "com.intellij.cron",
+        "intellij.platform.vcs",
+        "intellij.clouds.docker.compose",
+        "intellij.database.impl",
+        "intellij.platform.commercial.verifier",
+        "intellij.platform.vcs.impl",
+        "intellij.yaml.helm",
+        "intellij.json.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "clouds-kubernetes-262.10315.24.zip",
+      "since": "262.10315",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -12907,6 +12951,7 @@
       "261.25134.10": 1053505,
       "261.26222.18": 1086323,
       "261.27258.29": 1127896,
+      "262.10315.24": 1145362,
       "262.4852.39": 1041575,
       "262.5752.1": 1046395,
       "262.6228.24": 1053316,

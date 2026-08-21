@@ -589,6 +589,32 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1145370": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26511/1145370/remoteRun-262.10315.24.zip?updateId=1145370&pluginId=26511&family=INTELLIJ",
+      "sha256": "M6XGyvd4SkNGHfK2qnBu1skBuh8aKXAtogQDw70RN1g=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ssh.core",
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.ssh",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.platform.eel.tcp",
+        "intellij.libraries.jsch.agent.proxy.sshj",
+        "intellij.platform.ssh.ui"
+      ],
+      "optional_dependencies": [
+        "intellij.sh.terminal",
+        "intellij.sh.core",
+        "intellij.gradle",
+        "intellij.terminal.backend.split",
+        "intellij.maven"
+      ],
+      "file_name": "remoteRun-262.10315.24.zip",
+      "since": "262.10315",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -616,6 +642,7 @@
       "261.22158.195": 990238,
       "261.22158.354": 1006404,
       "261.24374.56": 1039995,
+      "262.10315.24": 1145370,
       "262.5752.1": 1046293,
       "262.6653.38": 1060399,
       "262.7581.3": 1074196,

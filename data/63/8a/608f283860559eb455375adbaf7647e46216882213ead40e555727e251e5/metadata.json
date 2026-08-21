@@ -15,6 +15,24 @@
         "com.intellij.modules.json"
       ],
       "file_name": "oid-intellij-1.0.0-signed.zip",
+      "since": "261",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1145744": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33640/1145744/oid-intellij-1.0.1.zip?updateId=1145744&pluginId=33640&family=INTELLIJ",
+      "sha256": "QiFY6Fo1jif52SX4AYwaqgw6IpVhuQGjAlDVf8S2bm8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "oid-intellij-1.0.1.zip",
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
@@ -22,7 +40,8 @@
   },
   "channels": {
     "stable": {
-      "1.0.0": 1143353
+      "1.0.0": 1143353,
+      "1.0.1": 1145744
     }
   }
 }

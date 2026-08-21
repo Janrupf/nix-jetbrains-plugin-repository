@@ -31,12 +31,28 @@
       "since": "212.0",
       "until": "222.*",
       "compatibility_overrides": []
+    },
+    "1145623": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19179/1145623/windget-1.3.zip?updateId=1145623&pluginId=19179&family=INTELLIJ",
+      "sha256": "Fqz307y1Pndw680TLAovuexnpdC6sPS0S8tphrSOlpE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "PythonCommon",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [],
+      "file_name": "windget-1.3.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1": 175734,
-      "1.2": 176589
+      "1.2": 176589,
+      "1.3": 1145623
     }
   }
 }

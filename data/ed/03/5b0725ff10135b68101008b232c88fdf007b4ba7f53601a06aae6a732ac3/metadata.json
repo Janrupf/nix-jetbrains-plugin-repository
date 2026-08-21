@@ -359,8 +359,15 @@
       "optional_dependencies": [],
       "file_name": "gitlab-quickmr-plugin-24.zip",
       "since": "213.0",
-      "until": null,
-      "compatibility_overrides": []
+      "until": "252.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "213.0",
+          "applies_until": "999.99999",
+          "compatible_since": "213.0",
+          "compatible_until": "252.*"
+        }
+      ]
     },
     "810638": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/11149/810638/gitlab-quickmr-plugin-25.zip?updateId=810638&pluginId=11149&family=INTELLIJ",
@@ -406,6 +413,21 @@
       "since": "233.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1145717": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11149/1145717/gitlab-quickmr-plugin-28.zip?updateId=1145717&pluginId=11149&family=INTELLIJ",
+      "sha256": "H/BXlgAW3K8XMDjaF5UhzYU1gwSSfIm7FnJc6aFNTcU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitlab-quickmr-plugin-28.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -430,6 +452,7 @@
       "25": 810638,
       "26": 948942,
       "27": 964710,
+      "28": 1145717,
       "3": 51226,
       "4": 51452,
       "5": 52869,

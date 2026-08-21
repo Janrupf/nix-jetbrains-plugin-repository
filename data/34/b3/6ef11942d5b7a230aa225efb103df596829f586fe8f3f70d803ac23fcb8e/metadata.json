@@ -16,6 +16,20 @@
       "until": null,
       "compatibility_overrides": []
     },
+    "1144525": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33600/1144525/IntelliJ_Spring_Helm_Env_Hints-1.1.0.zip?updateId=1144525&pluginId=33600&family=INTELLIJ",
+      "sha256": "PnbMnHtVoQwCh9gSuaoB1adR8MN/0ebJCqgU19ruE+4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ_Spring_Helm_Env_Hints-1.1.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
     "1144540": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33600/1144540/IntelliJ_Spring_Helm_Env_Hints-1.2.0.zip?updateId=1144540&pluginId=33600&family=INTELLIJ",
       "sha256": "rbcUNNeIrbyg+tbeTyLkbuImu4bFL4poC+IwutFjR4U=",
@@ -29,12 +43,28 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1145633": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33600/1145633/IntelliJ_Spring_Helm_Env_Hints-1.3.0.zip?updateId=1145633&pluginId=33600&family=INTELLIJ",
+      "sha256": "suA5bElutpU2ieT7MoFPszfKX+uOFRKDf6M3G5Nk+Uw=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ_Spring_Helm_Env_Hints-1.3.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1141194,
-      "1.2.0": 1144540
+      "1.1.0": 1144525,
+      "1.2.0": 1144540,
+      "1.3.0": 1145633
     }
   }
 }
