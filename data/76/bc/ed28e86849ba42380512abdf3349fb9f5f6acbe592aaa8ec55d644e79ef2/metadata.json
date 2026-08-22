@@ -85,10 +85,25 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1146456": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32132/1146456/stig-idea-plugin-1.10.0-signed.zip?updateId=1146456&pluginId=32132&family=INTELLIJ",
+      "sha256": "K1LzNvZW0lAbdfRXCLlDcrycNEQen+VE/frDJuZ1UT4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "stig-idea-plugin-1.10.0-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.10.0": 1146456,
       "1.4.0": 1083146,
       "1.6.0": 1089865,
       "1.7.0": 1106690,

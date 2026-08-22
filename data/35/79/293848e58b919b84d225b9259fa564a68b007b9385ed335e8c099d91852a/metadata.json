@@ -2,19 +2,6 @@
   "xml_id": "it.consciousdreams.commit-prompt-configurator",
   "numeric_id": 33698,
   "updates": {
-    "1145643": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33698/1145643/Commit_Prompt_Configurator-1.0.0.zip?updateId=1145643&pluginId=33698&family=INTELLIJ",
-      "sha256": "bLSq+WWh0X5Oriz225sW+uR8Hu6XfeIyw7zK30LYFfE=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Commit_Prompt_Configurator-1.0.0.zip",
-      "since": "261.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1145708": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33698/1145708/Commit_Prompt_Configurator-1.0.1.zip?updateId=1145708&pluginId=33698&family=INTELLIJ",
       "sha256": "/rVYSBH+22DcgRruSNJd9tySGzViDDjx16oJ9s4P3i0=",
@@ -29,12 +16,27 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1146297": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33698/1146297/Commit_Prompt_Configurator-1.0.2.zip?updateId=1146297&pluginId=33698&family=INTELLIJ",
+      "sha256": "N8LOgMzR0gkKvHWO3ak6UNqDxG52cXw2hN5FXy77ASA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "Commit_Prompt_Configurator-1.0.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1145643,
-      "1.0.1": 1145708
+      "1.0.1": 1145708,
+      "1.0.2": 1146297
     }
   }
 }

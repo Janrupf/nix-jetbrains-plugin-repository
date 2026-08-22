@@ -2,19 +2,6 @@
   "xml_id": "com.github.teinnsei.compiler_explorer",
   "numeric_id": 18924,
   "updates": {
-    "166782": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/18924/166782/compiler-explorer-idea-plugin-0.0.1.zip?updateId=166782&pluginId=18924&family=INTELLIJ",
-      "sha256": "pusvghAEw21iN7/yljZ3SHEdNnszFS/WHrpZuICQq9c=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "compiler-explorer-idea-plugin-0.0.1.zip",
-      "since": "213.0",
-      "until": "213.*",
-      "compatibility_overrides": []
-    },
     "168324": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/18924/168324/compiler-explorer-idea-plugin-0.0.2.zip?updateId=168324&pluginId=18924&family=INTELLIJ",
       "sha256": "TvHiEQfWYKOQGF+lFG76cT33hKcl2Huz2h/CnIIjbCg=",
@@ -27,12 +14,26 @@
       "since": "221.0",
       "until": "221.*",
       "compatibility_overrides": []
+    },
+    "1146688": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18924/1146688/compiler-explorer-plugin-1.0.0.zip?updateId=1146688&pluginId=18924&family=INTELLIJ",
+      "sha256": "d04fzcy+EyYVlYdutyP6lcbqv0HbhBsKmb75xCB9tic=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "compiler-explorer-plugin-1.0.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 166782,
-      "0.0.2": 168324
+      "0.0.2": 168324,
+      "1.0.0": 1146688
     }
   }
 }

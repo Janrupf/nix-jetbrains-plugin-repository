@@ -2,27 +2,63 @@
   "xml_id": "com.msxf.pai.flyway-guard",
   "numeric_id": 33651,
   "updates": {
-    "1143756": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33651/1143756/flyway-guard-1.0.0.jar?updateId=1143756&pluginId=33651&family=INTELLIJ",
-      "sha256": "5zGzSsIs+iwR7QXB3bAEGDBz1upRIfUjI0lTqNE+nRM=",
+    "1145754": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33651/1145754/flyway-guard-2.0.0.jar?updateId=1145754&pluginId=33651&family=INTELLIJ",
+      "sha256": "NRKgVL6KweOqKSTr8LF+KLe0GKXVqLZLlnDKzlXQnlk=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.java",
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
         "Git4Idea",
+        "com.intellij.modules.java",
         "com.intellij.modules.vcs"
       ],
       "optional_dependencies": [],
-      "file_name": "flyway-guard-1.0.0.jar",
-      "since": "232.0",
+      "file_name": "flyway-guard-2.0.0.jar",
+      "since": "242.0",
       "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1146623": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33651/1146623/flyway-guard-3.0.0.jar?updateId=1146623&pluginId=33651&family=INTELLIJ",
+      "sha256": "kOeH+30ez8Zr9JqmIRQ19MvztAreIgVn9Sq18BYYtpk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flyway-guard-3.0.0.jar",
+      "since": "242.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "1146643": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33651/1146643/flyway-guard-4.0.0.jar?updateId=1146643&pluginId=33651&family=INTELLIJ",
+      "sha256": "16yTbgEqrtMYL9e5LFyN9DOU8wZF+fHS1Rqp76vGCIU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.vcs",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flyway-guard-4.0.0.jar",
+      "since": "242.0",
+      "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1143756
+      "2.0.0": 1145754,
+      "3.0.0": 1146623,
+      "4.0.0": 1146643
     }
   }
 }

@@ -40,13 +40,27 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1146081": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33686/1146081/maven-search-2.2.0.zip?updateId=1146081&pluginId=33686&family=INTELLIJ",
+      "sha256": "vzgafYM1aS07Oi4KP8mDMkciL+gZinOYKuKb/LtThak=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "maven-search-2.2.0.zip",
+      "since": "211.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.5.7": 1145010,
       "2.0.0": 1145342,
-      "2.1.0": 1145750
+      "2.1.0": 1145750,
+      "2.2.0": 1146081
     }
   }
 }
