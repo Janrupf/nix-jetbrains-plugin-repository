@@ -612,13 +612,53 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1147976": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18257/1147976/jbang-idea-plugin-0.100.1-eap.274.zip?updateId=1147976&pluginId=18257&family=INTELLIJ",
+      "sha256": "zjIZBQix30Hg3G2iwrUAx9cQaz8gm+otBfN2VLopsgI=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.idea.reposearch",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.intellij.groovy"
+      ],
+      "file_name": "jbang-idea-plugin-0.100.1-eap.274.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1148331": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18257/1148331/jbang-idea-plugin-0.100.1-eap.276.zip?updateId=1148331&pluginId=18257&family=INTELLIJ",
+      "sha256": "F1KEdogNILjZHmJDTCZIZ6WIZpZZUpVi6+INDj0cRGE=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.json",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.reposearch"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jbang-idea-plugin-0.100.1-eap.276.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "0.100.1-eap.270": 1147332,
       "0.100.1-eap.272": 1147379,
-      "0.100.1-eap.273": 1147383
+      "0.100.1-eap.273": 1147383,
+      "0.100.1-eap.274": 1147976,
+      "0.100.1-eap.276": 1148331
     },
     "stable": {
       "0.1.0": 151428,

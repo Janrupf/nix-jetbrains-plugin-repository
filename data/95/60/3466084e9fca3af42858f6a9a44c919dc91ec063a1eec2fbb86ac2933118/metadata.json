@@ -2,64 +2,6 @@
   "xml_id": "com.vednovak.devops",
   "numeric_id": 33734,
   "updates": {
-    "1147355": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33734/1147355/devops-lens-1.0.0.zip?updateId=1147355&pluginId=33734&family=INTELLIJ",
-      "sha256": "2zIJGpE3d9yH7ImfDe3pHTEsii0A8egKBsm9Mfl+vNg=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "Git4Idea",
-        "intellij.platform.collaborationTools",
-        "intellij.platform.searchEverywhere",
-        "org.intellij.plugins.markdown",
-        "intellij.libraries.ktor.client",
-        "intellij.platform.monolith"
-      ],
-      "optional_dependencies": [
-        "devops-lens.split.shared",
-        "org.jetbrains.plugins.yaml",
-        "intellij.platform.backend",
-        "com.vednovak.devops",
-        "intellij.platform.kernel.backend",
-        "intellij.platform.frontend",
-        "intellij.platform.rpc.topics",
-        "intellij.platform.rpc.backend",
-        "com.intellij.mcpServer"
-      ],
-      "file_name": "devops-lens-1.0.0.zip",
-      "since": "262.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1147526": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33734/1147526/devops-lens-1.0.1.zip?updateId=1147526&pluginId=33734&family=INTELLIJ",
-      "sha256": "naZ7fVkHavVSBOnkL46DUQulIJ0LhZZmeQL8/dKIPsc=",
-      "channel": "stable",
-      "dependencies": [
-        "intellij.platform.collaborationTools",
-        "intellij.libraries.ktor.client",
-        "Git4Idea",
-        "intellij.platform.monolith",
-        "com.intellij.modules.platform",
-        "intellij.platform.searchEverywhere",
-        "org.intellij.plugins.markdown"
-      ],
-      "optional_dependencies": [
-        "com.vednovak.devops",
-        "intellij.platform.backend",
-        "intellij.platform.frontend",
-        "intellij.platform.kernel.backend",
-        "intellij.platform.rpc.backend",
-        "com.intellij.mcpServer",
-        "org.jetbrains.plugins.yaml",
-        "intellij.platform.rpc.topics",
-        "devops-lens.split.shared"
-      ],
-      "file_name": "devops-lens-1.0.1.zip",
-      "since": "262.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1147528": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33734/1147528/devops-lens-1.0.2.zip?updateId=1147528&pluginId=33734&family=INTELLIJ",
       "sha256": "A6CzDS+7lgdDF2FocKr78HICLJbbNUd3rqFWMeZQE9g=",
@@ -88,13 +30,34 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1148343": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33734/1148343/devops-lens-1.0.3-signed.zip?updateId=1148343&pluginId=33734&family=INTELLIJ",
+      "sha256": "t/ra3mcjQ4ZsnccQCn9qAOm1BLfzTgV4yuoJrQhyiTk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.libraries.ktor.client",
+        "intellij.platform.monolith",
+        "intellij.platform.collaborationTools",
+        "org.intellij.plugins.markdown",
+        "intellij.platform.searchEverywhere",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "devops-lens-1.0.3-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1147355,
-      "1.0.1": 1147526,
-      "1.0.2": 1147528
+      "1.0.2": 1147528,
+      "1.0.3": 1148343
     }
   }
 }

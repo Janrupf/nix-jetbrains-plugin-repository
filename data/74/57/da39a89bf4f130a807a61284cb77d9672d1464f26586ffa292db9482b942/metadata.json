@@ -44,13 +44,47 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1148165": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33190/1148165/plugin.zip?updateId=1148165&pluginId=33190&family=INTELLIJ",
+      "sha256": "ESluBaY9TRFOA8AnRY+aPqfQwu6y/6aPL9cxxqljOGk=",
+      "channel": "extension",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "plugin.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1148310": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33190/1148310/plugin.zip?updateId=1148310&pluginId=33190&family=INTELLIJ",
+      "sha256": "ESluBaY9TRFOA8AnRY+aPqfQwu6y/6aPL9cxxqljOGk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "plugin.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "extension": {
+      "10.2.3": 1148165
+    },
     "stable": {
       "10.2.0": 1118056,
       "10.2.1": 1144830,
-      "10.2.2": 1146729
+      "10.2.2": 1146729,
+      "10.2.3": 1148310
     }
   }
 }
