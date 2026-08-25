@@ -49,13 +49,30 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1150006": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32944/1150006/recorder-signed.zip?updateId=1150006&pluginId=32944&family=INTELLIJ",
+      "sha256": "l4kzsYHOn1xAyErxxj6ZaruyG+UMkmywii/HJ7FGayU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "recorder-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1108628,
       "0.2.0": 1137052,
-      "0.2.1": 1143565
+      "0.2.1": 1143565,
+      "0.3.0": 1150006
     }
   }
 }

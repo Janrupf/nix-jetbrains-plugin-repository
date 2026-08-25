@@ -52,12 +52,35 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1149976": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33734/1149976/devops-lens-1.0.4.zip?updateId=1149976&pluginId=33734&family=INTELLIJ",
+      "sha256": "mxaN9D89pQq3fP0NkZRd7Hfq92U2EG5NvqU9By2WTZU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.libraries.ktor.client",
+        "intellij.platform.monolith",
+        "intellij.platform.collaborationTools",
+        "Git4Idea",
+        "intellij.platform.searchEverywhere",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "devops-lens-1.0.4.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.2": 1147528,
-      "1.0.3": 1148343
+      "1.0.3": 1148343,
+      "1.0.4": 1149976
     }
   }
 }

@@ -18,11 +18,29 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1149092": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33650/1149092/flow-lens-1.1.0.zip?updateId=1149092&pluginId=33650&family=INTELLIJ",
+      "sha256": "CM2BRlhw/DRUYsHWaLH4JItCKmEcq1YAa5XClrrODRA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "flow-lens-1.1.0.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1143747
+      "1.0.0": 1143747,
+      "1.1.0": 1149092
     }
   }
 }

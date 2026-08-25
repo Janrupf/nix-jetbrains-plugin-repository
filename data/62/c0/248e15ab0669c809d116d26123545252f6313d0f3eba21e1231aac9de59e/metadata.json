@@ -2,38 +2,6 @@
   "xml_id": "user.kk.mavenquickpackage",
   "numeric_id": 33579,
   "updates": {
-    "1140406": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33579/1140406/Quick_Maven_Package-1.1.11.jar?updateId=1140406&pluginId=33579&family=INTELLIJ",
-      "sha256": "qpLlYkJNDr3Q6ZKHjhdX7oZWChW6ptaOge13gk4CQ00=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal",
-        "org.jetbrains.idea.maven",
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Quick_Maven_Package-1.1.11.jar",
-      "since": null,
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1142842": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33579/1142842/Quick_Maven_Package-1.1.12.jar?updateId=1142842&pluginId=33579&family=INTELLIJ",
-      "sha256": "lEzw49Gz5SdbboIFKTe37DBv23fIkNGm4M0z5Ka9wKA=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.terminal",
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "Quick_Maven_Package-1.1.12.jar",
-      "since": null,
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1143480": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33579/1143480/Quick_Maven_Package-1.1.13.jar?updateId=1143480&pluginId=33579&family=INTELLIJ",
       "sha256": "MMtTkeuYQxPHdRgzmKPIvLssQXeM+6HMHkdcyKIAV2o=",
@@ -129,18 +97,33 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1148723": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33579/1148723/Quick_Maven_Package-1.1.19.jar?updateId=1148723&pluginId=33579&family=INTELLIJ",
+      "sha256": "8pmDXSkObCg9/tYhq7KMh4M1xqJd7hlo4OdFwB7Nef4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Quick_Maven_Package-1.1.19.jar",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.1.11": 1140406,
-      "1.1.12": 1142842,
       "1.1.13": 1143480,
       "1.1.14": 1143726,
       "1.1.15": 1146436,
       "1.1.16": 1146738,
       "1.1.17": 1147161,
-      "1.1.18": 1148152
+      "1.1.18": 1148152,
+      "1.1.19": 1148723
     }
   }
 }
