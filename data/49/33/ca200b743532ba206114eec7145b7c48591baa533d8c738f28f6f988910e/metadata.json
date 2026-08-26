@@ -25,11 +25,36 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1151526": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33335/1151526/rustrover-solana-262.9437.292.zip?updateId=1151526&pluginId=33335&family=INTELLIJ",
+      "sha256": "OUVKd3rQCv/Frs4ejJ36AtJRwoHip53Q1rjxhouXujA=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.smRunner",
+        "intellij.platform.testRunner",
+        "intellij.javascript.backend",
+        "NodeJS",
+        "intellij.json.backend",
+        "intellij.toml.json",
+        "intellij.libraries.jackson.dataformat.toml",
+        "intellij.rustrover.common",
+        "intellij.toml.core",
+        "intellij.rustrover.core",
+        "com.jetbrains.rust",
+        "com.intellij.modules.rustrover"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rustrover-solana-262.9437.292.zip",
+      "since": "262.9437",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "262.9437.152": 1127794
+      "262.9437.152": 1127794,
+      "262.9437.292": 1151526
     }
   }
 }

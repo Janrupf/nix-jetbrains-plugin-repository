@@ -242,6 +242,26 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1151287": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15155/1151287/afas.bazelbuild.2026.2.1.zip?updateId=1151287&pluginId=15155&family=INTELLIJ",
+      "sha256": "+DrhcWAo4K4UluKDqCcKwPWgxxK/jtjd8zCdtS3rk04=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "afas.bazelbuild.2026.2.1.zip",
+      "since": "262.1",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.2",
+          "applies_until": "999.99999",
+          "compatible_since": "262.1",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -263,7 +283,8 @@
       "0.0.6": 130961,
       "0.0.7": 131831,
       "0.0.8": 149405,
-      "2026.1.0": 1040976
+      "2026.1.0": 1040976,
+      "2026.2.1": 1151287
     }
   }
 }

@@ -100,18 +100,52 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1149968": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32180/1149968/intellij-crystal-0.2.3.zip?updateId=1149968&pluginId=32180&family=INTELLIJ",
-      "sha256": "GcH7PmkK6f/SHBSm8kO+oteBqS9cQUK92+kb3bOfn7s=",
+    "1150225": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32180/1150225/intellij-crystal-0.2.4.zip?updateId=1150225&pluginId=32180&family=INTELLIJ",
+      "sha256": "xxC9aULYuBH3Rmqr5PkbGqsAyhi36p/R9osW0NkaXwk=",
       "channel": "stable",
       "dependencies": [
         "intellij.platform.dap",
         "HtmlTools",
         "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "intellij-crystal-0.2.3.zip",
+      "optional_dependencies": [
+        "intellij.platform.smRunner"
+      ],
+      "file_name": "intellij-crystal-0.2.4.zip",
       "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1150845": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32180/1150845/intellij-crystal-0.2.5.zip?updateId=1150845&pluginId=32180&family=INTELLIJ",
+      "sha256": "T0BkND+F0MRd01Uk18uO/2lIpraP8h4F2NWWuAXF2wg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.dap",
+        "com.intellij.modules.platform",
+        "HtmlTools"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-crystal-0.2.5.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1151562": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32180/1151562/intellij-crystal-0.2.7.zip?updateId=1151562&pluginId=32180&family=INTELLIJ",
+      "sha256": "u36wSsgAl7Rneifz0kOKyLvUi0whvx0du5RXFkpWOY0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.smRunner",
+        "intellij.platform.structureView",
+        "HtmlTools",
+        "intellij.platform.dap"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-crystal-0.2.7.zip",
+      "since": "262.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -125,7 +159,9 @@
       "0.1.17": 1098578,
       "0.1.7": 1070254,
       "0.1.9": 1074664,
-      "0.2.3": 1149968
+      "0.2.4": 1150225,
+      "0.2.5": 1150845,
+      "0.2.7": 1151562
     }
   }
 }

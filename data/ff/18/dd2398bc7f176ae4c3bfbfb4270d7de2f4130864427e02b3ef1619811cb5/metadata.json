@@ -39,12 +39,52 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1150212": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33380/1150212/agent-config-1.0.3.zip?updateId=1150212&pluginId=33380&family=INTELLIJ",
+      "sha256": "igHPR5+yYQ9YDFmOcPNEDvZaw3EKLIqXmKS647+DOFE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "agent-config-1.0.3.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1150703": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33380/1150703/agent-config-1.0.4.zip?updateId=1150703&pluginId=33380&family=INTELLIJ",
+      "sha256": "cEIGD9q27uJU9ALiSUKAR+MPFdwC+GMC1nfbopcLaLA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.lang",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "agent-config-1.0.4.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1127893,
-      "1.0.1": 1128498
+      "1.0.1": 1128498,
+      "1.0.3": 1150212,
+      "1.0.4": 1150703
     }
   }
 }

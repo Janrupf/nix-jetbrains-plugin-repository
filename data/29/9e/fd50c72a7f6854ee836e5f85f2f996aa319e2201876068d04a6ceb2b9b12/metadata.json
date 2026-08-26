@@ -17,11 +17,35 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1150186": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29413/1150186/event-library-plugin-1.0.1.zip?updateId=1150186&pluginId=29413&family=INTELLIJ",
+      "sha256": "jMS/Mh5E8Akx7/6xWVOkqhfMzpIcLXUN8lJE0VDCIDI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.intellij.scala",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "event-library-plugin-1.0.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "261.0",
+          "applies_until": "999.99999",
+          "compatible_since": "262.0",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 915471
+      "1.0.0": 915471,
+      "1.0.1": 1150186
     }
   }
 }

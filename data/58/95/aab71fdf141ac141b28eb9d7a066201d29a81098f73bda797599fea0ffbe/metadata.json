@@ -189,6 +189,29 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1150910": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31508/1150910/agent-dock-1.7.0-signed.zip?updateId=1150910&pluginId=31508&family=INTELLIJ",
+      "sha256": "uif5PccUG6Orqo1XTn1zO8VXL6G7++3WrfTGBj72Rzc=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.rpc.backend",
+        "agent-dock.shared",
+        "intellij.platform.vcs.impl.shared",
+        "agent-dock.backend-libraries",
+        "intellij.platform.vcs",
+        "intellij.terminal.frontend",
+        "intellij.platform.frontend",
+        "agent-dock.frontend",
+        "intellij.platform.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.ui.jcef"
+      ],
+      "file_name": "agent-dock-1.7.0-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -205,7 +228,8 @@
       "1.4.1": 1105470,
       "1.4.2": 1111248,
       "1.5.0": 1117572,
-      "1.6.0": 1141908
+      "1.6.0": 1141908,
+      "1.7.0": 1150910
     }
   }
 }

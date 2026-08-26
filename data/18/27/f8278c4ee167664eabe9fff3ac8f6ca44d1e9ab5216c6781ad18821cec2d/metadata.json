@@ -16,11 +16,27 @@
       "since": "251.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1151502": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31305/1151502/jaspr_intellij-1.2.0.jar?updateId=1151502&pluginId=31305&family=INTELLIJ",
+      "sha256": "F5pwSCj0flUct6XhFsHCJBGAijDVkn83ygcRBuAxWqg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "Dart"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jaspr_intellij-1.2.0.jar",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.1.0": 1038480
+      "1.1.0": 1038480,
+      "1.2.0": 1151502
     }
   }
 }
