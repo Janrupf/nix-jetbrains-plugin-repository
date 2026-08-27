@@ -1,6 +1,25 @@
 {
   "xml_id": "com.mc1.sqlagent",
   "numeric_id": 33670,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1150905": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33670/1150905/sqlagent-datagrip-0.1.0-SNAPSHOT.zip?updateId=1150905&pluginId=33670&family=INTELLIJ",
+      "sha256": "kbJbOKmkO8xp1A2CIfx1dL3thXYGbJWFPOGcMdRUJzE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sqlagent-datagrip-0.1.0-SNAPSHOT.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0-SNAPSHOT": 1150905
+    }
+  }
 }

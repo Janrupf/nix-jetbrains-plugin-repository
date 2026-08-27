@@ -21,9 +21,32 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1151900": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33732/1151900/EnvUi-1.0.0.zip?updateId=1151900&pluginId=33732&family=INTELLIJ",
+      "sha256": "kaSWh1ZdxWX8BbVEF4ytuYCkQOVJftOdPLVzu22QnMI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.properties",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [],
+      "file_name": "EnvUi-1.0.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "stable": {
+      "1.0.0": 1151900
+    },
     "staging": {
       "1.0.0-rc.1": 1147519
     }

@@ -35,12 +35,30 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1152443": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32957/1152443/ai-terminal-tools-0.7.1-signed.zip?updateId=1152443&pluginId=32957&family=INTELLIJ",
+      "sha256": "I867YWelxcIQkRTv0S1E9nMOIidIzKrejXijtpXcTJ0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.terminal.frontend"
+      ],
+      "file_name": "ai-terminal-tools-0.7.1-signed.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.4.1": 1109004,
-      "0.5.6": 1127910
+      "0.5.6": 1127910,
+      "0.7.1": 1152443
     }
   }
 }
