@@ -33,12 +33,27 @@
       "since": "231.*",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "1153868": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22495/1153868/mongo-shell-format-2.0.1.zip?updateId=1153868&pluginId=22495&family=INTELLIJ",
+      "sha256": "7+NdNlZOEv8w7fqnwCqCNdPql9keRBPjew5jf5tlA4Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mongo-shell-format-2.0.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.2": 377775,
-      "1.0.3": 378900
+      "1.0.3": 378900,
+      "2.0.1": 1153868
     }
   }
 }

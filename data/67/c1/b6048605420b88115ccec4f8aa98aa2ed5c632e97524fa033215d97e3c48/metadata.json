@@ -52,13 +52,32 @@
       "since": "261.25134",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1155247": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33290/1155247/viewcompose-studio-plugin-1.2.0.zip?updateId=1155247&pluginId=33290&family=INTELLIJ",
+      "sha256": "O7VLULGfQbLNYRQMMn7BIibeT2E0Qz3nCoIC3ERumXo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.kotlin",
+        "com.intellij.gradle",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "viewcompose-studio-plugin-1.2.0.zip",
+      "since": "261.25134",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1123284,
       "1.0.1": 1123962,
-      "1.1.0": 1145177
+      "1.1.0": 1145177,
+      "1.2.0": 1155247
     }
   }
 }

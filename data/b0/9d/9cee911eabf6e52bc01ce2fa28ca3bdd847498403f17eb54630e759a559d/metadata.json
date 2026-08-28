@@ -2,18 +2,34 @@
   "xml_id": "dev.localebreeze.jetbrains",
   "numeric_id": 33774,
   "updates": {
-    "1149380": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1149380/locale-breeze-jetbrains-0.1.0.zip?updateId=1149380&pluginId=33774&family=INTELLIJ",
-      "sha256": "r4rFuIh4e2PrcW8BvQrzcQhxKYHZNoMFuSWHzboYKcA=",
+    "1153872": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1153872/locale-breeze-jetbrains-0.1.3.zip?updateId=1153872&pluginId=33774&family=INTELLIJ",
+      "sha256": "pZVef0rPa7YfWLbeJmlildkbe+aJHr2WH9MHk2sNX3Q=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.ultimate",
         "com.intellij.modules.lsp",
         "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate",
         "JavaScript"
       ],
       "optional_dependencies": [],
-      "file_name": "locale-breeze-jetbrains-0.1.0.zip",
+      "file_name": "locale-breeze-jetbrains-0.1.3.zip",
+      "since": "262.9437.145",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1154923": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1154923/locale-breeze-jetbrains-0.2.0.zip?updateId=1154923&pluginId=33774&family=INTELLIJ",
+      "sha256": "6WYYxwKcZpZrpdDHMxPL0oh3sZQvG8kyTg+vdWVCNOU=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "locale-breeze-jetbrains-0.2.0.zip",
       "since": "262.9437.145",
       "until": "262.*",
       "compatibility_overrides": []
@@ -21,7 +37,8 @@
   },
   "channels": {
     "stable": {
-      "0.1.0": 1149380
+      "0.1.3": 1153872,
+      "0.2.0": 1154923
     }
   }
 }
