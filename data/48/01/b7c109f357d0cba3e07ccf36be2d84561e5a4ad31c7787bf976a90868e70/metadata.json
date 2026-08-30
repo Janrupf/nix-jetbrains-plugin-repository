@@ -4025,6 +4025,27 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1156634": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6873/1156634/intellij-haxe-2026.2.zip?updateId=1156634&pluginId=6873&family=INTELLIJ",
+      "sha256": "uwIAJYhPXDpcfo08g0C57SW13ts44qi3cdh0omEBpLE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "tanvd.grazi",
+        "com.intellij.modules.profiler",
+        "com.intellij.flex",
+        "OpenGL-Plugin"
+      ],
+      "file_name": "intellij-haxe-2026.2.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4072,7 +4093,8 @@
       "1.5.12": 635322,
       "1.8.0": 993208,
       "1.8.8": 1111544,
-      "1.9.0": 1122363
+      "1.9.0": 1122363,
+      "2.0.0": 1156634
     },
     "stable": {
       "0.1": 10817,
