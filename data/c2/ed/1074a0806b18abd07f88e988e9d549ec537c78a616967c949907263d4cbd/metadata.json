@@ -20,10 +20,31 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1157237": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33744/1157237/devenv-intellij-1.0.0.zip?updateId=1157237&pluginId=33744&family=INTELLIJ",
+      "sha256": "a0F+q/qslUPj+B4XrQ7RCfUKcEmMla6EfOsL1FwO5SM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "JavaScript",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "devenv-intellij-1.0.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.0": 1157237,
       "1.0.0-SNAPSHOT": 1148167
     }
   }
