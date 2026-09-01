@@ -46,10 +46,33 @@
       "since": "223.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1157601": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28762/1157601/hypium-pycharm-plugin-26.0.0.500.zip?updateId=1157601&pluginId=28762&family=INTELLIJ",
+      "sha256": "+BwnWti3xJHtrl5C/SFmaGFijWiiIP1XWceYTqPswS0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python"
+      ],
+      "file_name": "hypium-pycharm-plugin-26.0.0.500.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "999.99999",
+          "compatible_since": "242.0",
+          "compatible_until": "263.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
+      "26.0.0.500": 1157601,
       "6.0.7.202": 897119,
       "6.0.7.210": 940704,
       "6.1.0.210": 1054807

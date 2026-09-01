@@ -31,12 +31,44 @@
       "since": "232.0",
       "until": "241.*",
       "compatibility_overrides": []
+    },
+    "1157557": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33846/1157557/ColorPeek-1.1.0.zip?updateId=1157557&pluginId=33846&family=INTELLIJ",
+      "sha256": "kiW9LHcmnHpMQS41JYl0BGn0Qg3ZOoPPGIhZWfVfn4A=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ColorPeek-1.1.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1157558": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33846/1157558/ColorPeek-1.1.0-legacy.232.zip?updateId=1157558&pluginId=33846&family=INTELLIJ",
+      "sha256": "l6sHVDQJzHoNYZKjksnNubPfGVb1RDAwH3G9DDOIaQ0=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ColorPeek-1.1.0-legacy.232.zip",
+      "since": "232.0",
+      "until": "241.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1152441,
-      "1.0.0-legacy.232": 1152442
+      "1.0.0-legacy.232": 1152442,
+      "1.1.0": 1157557,
+      "1.1.0-legacy.232": 1157558
     }
   }
 }

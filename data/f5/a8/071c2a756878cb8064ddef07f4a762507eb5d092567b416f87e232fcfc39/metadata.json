@@ -4437,6 +4437,46 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1157567": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13234/1157567/intellij-quarkus-2.6.0.zip?updateId=1157567&pluginId=13234&family=INTELLIJ",
+      "sha256": "tHc6OkwS6+buxauJjfYy1dlxPl5cMqQv2BjvDlqCMvE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.properties",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "intellij-quarkus-2.6.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1158261": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13234/1158261/intellij-quarkus-2.6.1-20260901-012546.zip?updateId=1158261&pluginId=13234&family=INTELLIJ",
+      "sha256": "Lel/oPfhMO8BDsYZGS2I3KuPPremqx3UzlFnFuU38LY=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.java",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "intellij-quarkus-2.6.1-20260901-012546.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4586,7 +4626,8 @@
       "2.5.1-20260723-013325": 1114294,
       "2.5.1-20260818-233517": 1143484,
       "2.5.1-20260819-012951": 1143525,
-      "2.5.1-20260819-083231": 1143913
+      "2.5.1-20260819-083231": 1143913,
+      "2.6.1-20260901-012546": 1158261
     },
     "stable": {
       "0.0.1.12": 72704,
@@ -4642,7 +4683,8 @@
       "2.3.0": 840419,
       "2.4.0": 917634,
       "2.4.1": 918471,
-      "2.5.0": 1041537
+      "2.5.0": 1041537,
+      "2.6.0": 1157567
     }
   }
 }
