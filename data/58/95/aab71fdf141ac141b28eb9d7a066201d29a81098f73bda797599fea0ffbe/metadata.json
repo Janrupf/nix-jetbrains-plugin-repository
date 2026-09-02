@@ -212,6 +212,45 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1158647": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31508/1158647/agent-dock-1.7.1-signed.zip?updateId=1158647&pluginId=31508&family=INTELLIJ",
+      "sha256": "q+zqGvkJdUl0eX8WULbn329rhUNzH+JSesN50MLSPM8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "agent-dock-1.7.1-signed.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1158925": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31508/1158925/agent-dock-1.7.2-signed.zip?updateId=1158925&pluginId=31508&family=INTELLIJ",
+      "sha256": "/UEh+thc9ib6LiM8lnt69Tk3XgFATjOoJQvNEQR1pBI=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.ui.jcef",
+        "intellij.platform.vcs",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.terminal.frontend",
+        "intellij.platform.rpc.backend",
+        "agent-dock.shared",
+        "agent-dock.frontend",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "agent-dock.backend-libraries",
+        "intellij.platform.backend"
+      ],
+      "file_name": "agent-dock-1.7.2-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -229,7 +268,9 @@
       "1.4.2": 1111248,
       "1.5.0": 1117572,
       "1.6.0": 1141908,
-      "1.7.0": 1150910
+      "1.7.0": 1150910,
+      "1.7.1": 1158647,
+      "1.7.2": 1158925
     }
   }
 }

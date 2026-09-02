@@ -2,36 +2,6 @@
   "xml_id": "com.yonyou.iuap.yms",
   "numeric_id": 24829,
   "updates": {
-    "1128679": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1128679/yms-ide-2.5.zip?updateId=1128679&pluginId=24829&family=INTELLIJ",
-      "sha256": "gnwUWkDjQAE2KxB3iN1XS8mUc1zVydX0VFbpSUatm/E=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.idea.maven",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "yms-ide-2.5.zip",
-      "since": "261.0",
-      "until": "262.*",
-      "compatibility_overrides": []
-    },
-    "1132066": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1132066/yms-ide-2.5.2.zip?updateId=1132066&pluginId=24829&family=INTELLIJ",
-      "sha256": "VJC//ndEULKjNVUxEFIudy5xNt6lo/ZlcDGdaEerA8w=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
-      ],
-      "optional_dependencies": [],
-      "file_name": "yms-ide-2.5.2.zip",
-      "since": "261.0",
-      "until": "262.*",
-      "compatibility_overrides": []
-    },
     "1133001": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1133001/yms-ide-2.5.3.zip?updateId=1133001&pluginId=24829&family=INTELLIJ",
       "sha256": "J3eNOlf5Y5Qc/5EOB1bjOKpoOue/+s5xWLlev4aYuzM=",
@@ -46,13 +16,83 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1158610": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1158610/yms-ide-2.5.7.zip?updateId=1158610&pluginId=24829&family=INTELLIJ",
+      "sha256": "GL+3sO7gCglrn8GaHBbLsa3eAABQG8+Z+sdowGShWQw=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "yms-ide-2.5.7.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1158635": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1158635/yms-ide-2.5.8.zip?updateId=1158635&pluginId=24829&family=INTELLIJ",
+      "sha256": "Ucmqkyltrycz0sC1Q/uEEznH10Jiq0RUPrY2AQaZ310=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "yms-ide-2.5.8.zip",
+      "since": "253.31033.145",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1159066": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1159066/yms-ide-2.5.9.zip?updateId=1159066&pluginId=24829&family=INTELLIJ",
+      "sha256": "ayJ6LyvBTW1USmJjYWYPPrEpu4m4WQFF9/wMAJvcG9Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "yms-ide-2.5.9.zip",
+      "since": "253.31033.145",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1159098": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1159098/yms-ide-2.5.10.zip?updateId=1159098&pluginId=24829&family=INTELLIJ",
+      "sha256": "bOFsgtiGbhSX1KkFjyBQul1tKpn5Sb/QuuX1VnuiG9I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "yms-ide-2.5.10.zip",
+      "since": "253.31033.145",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.5": 1128679,
-      "2.5.2": 1132066,
-      "2.5.3": 1133001
+      "2.5.10": 1159098,
+      "2.5.3": 1133001,
+      "2.5.7": 1158610,
+      "2.5.8": 1158635,
+      "2.5.9": 1159066
     }
   }
 }

@@ -29,11 +29,27 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1158791": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26040/1158791/slang-intellij-0.2.0-alpha.1.zip?updateId=1158791&pluginId=26040&family=INTELLIJ",
+      "sha256": "kbaQIM9uUHP9cASo+45R/OxJXcBQIJioh8j62n6vdug=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp"
+      ],
+      "file_name": "slang-intellij-0.2.0-alpha.1.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "alpha": {
-      "0.0.2": 647144
+      "0.0.2": 647144,
+      "0.2.0-alpha.1": 1158791
     },
     "beta": {
       "0.1.0": 656246

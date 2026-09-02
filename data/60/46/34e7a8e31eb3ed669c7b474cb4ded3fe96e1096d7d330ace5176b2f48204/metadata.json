@@ -16,11 +16,43 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1158989": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33965/1158989/canopy-2.12.0.zip?updateId=1158989&pluginId=33965&family=INTELLIJ",
+      "sha256": "uQZZGg3TyZgtadxkX5W3JDMvk6LmB/K8X9N64Hw5wjc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "canopy-2.12.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1158999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33965/1158999/canopy-2.13.0.zip?updateId=1158999&pluginId=33965&family=INTELLIJ",
+      "sha256": "VnDhhHsvpfsmtnZZNnJCp2SkC289fNR/jS2GDd9aBbE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "canopy-2.13.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.65.0": 1158193
+      "1.65.0": 1158193,
+      "2.12.0": 1158989,
+      "2.13.0": 1158999
     }
   }
 }

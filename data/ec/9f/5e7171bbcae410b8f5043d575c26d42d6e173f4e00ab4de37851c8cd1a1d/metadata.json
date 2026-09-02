@@ -226,23 +226,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1124123": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1124123/intellij-plugin-pmd-2.0.0.20260803112452-SNAPSHOT.zip?updateId=1124123&pluginId=28935&family=INTELLIJ",
-      "sha256": "hj2HImy7YVmDSTPb6ah2QDg260Wf4F/IuhFsBiWsf2Q=",
-      "channel": "snapshot",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [
-        "org.jetbrains.idea.maven",
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin"
-      ],
-      "file_name": "intellij-plugin-pmd-2.0.0.20260803112452-SNAPSHOT.zip",
-      "since": "262.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1124126": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1124126/intellij-plugin-pmd-2.0.0.zip?updateId=1124126&pluginId=28935&family=INTELLIJ",
       "sha256": "n4OP8r9PVFsPamJr/Lo9uNWIVbKetQq+qfu+jYM9Kaw=",
@@ -276,11 +259,45 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1158784": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1158784/intellij-plugin-pmd-2.1.0.20260901134227-SNAPSHOT.zip?updateId=1158784&pluginId=28935&family=INTELLIJ",
+      "sha256": "XTVK6QixZcFT9bB3wZ5dx4XLSWY5Aky6aWYApo4oouA=",
+      "channel": "snapshot",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "intellij-plugin-pmd-2.1.0.20260901134227-SNAPSHOT.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1158939": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28935/1158939/intellij-plugin-pmd-2.1.0.zip?updateId=1158939&pluginId=28935&family=INTELLIJ",
+      "sha256": "2bHuiWhzAzHB+O3iLXItSthBqooT3yjQeIGVJatTheI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "intellij-plugin-pmd-2.1.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "snapshot": {
-      "2.0.0.20260803112452-SNAPSHOT": 1124123
+      "2.1.0.20260901134227-SNAPSHOT": 1158784
     },
     "stable": {
       "1.0.0": 889005,
@@ -298,7 +315,8 @@
       "1.1.3": 1094227,
       "1.1.4": 1111968,
       "2.0.0": 1124126,
-      "2.0.1": 1124138
+      "2.0.1": 1124138,
+      "2.1.0": 1158939
     }
   }
 }
