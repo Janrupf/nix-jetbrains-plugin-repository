@@ -46,13 +46,61 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1160140": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33965/1160140/canopy-2.29.0.zip?updateId=1160140&pluginId=33965&family=INTELLIJ",
+      "sha256": "4rO4mHnYK1Ey0/94OJp/krgzqWFKNq++L29QJF8d6Vc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "canopy-2.29.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1160420": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33965/1160420/canopy-2.30.0.zip?updateId=1160420&pluginId=33965&family=INTELLIJ",
+      "sha256": "jXbRv5IQH0TKrM+fuYaloHEvm2R32bXX9I3DJOqFevw=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "canopy-2.30.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1160422": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33965/1160422/canopy-2.31.0.zip?updateId=1160422&pluginId=33965&family=INTELLIJ",
+      "sha256": "6rpGZRCslTUjpLYpaDiM2ipztFho2om8RJS4Jw07jYc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "canopy-2.31.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.65.0": 1158193,
       "2.12.0": 1158989,
-      "2.13.0": 1158999
+      "2.13.0": 1158999,
+      "2.29.0": 1160140,
+      "2.30.0": 1160420,
+      "2.31.0": 1160422
     }
   }
 }

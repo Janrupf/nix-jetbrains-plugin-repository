@@ -5615,6 +5615,55 @@
       "since": "262.9437",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159927": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7511/1159927/php-remoteInterpreter-263.3889.65.zip?updateId=1159927&pluginId=7511&family=INTELLIJ",
+      "sha256": "H9XoL6X3zvr2WYTGniqCQyYaWL7Vwvdy1IUCcM4e9bI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.ide.remote",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.analysis",
+        "intellij.php.backend",
+        "intellij.platform.coverage",
+        "intellij.platform.util.ui",
+        "com.intellij.modules.php-capable",
+        "intellij.platform.core.ui",
+        "intellij.libraries.guava",
+        "intellij.platform.lang.core",
+        "intellij.platform.projectModel.impl",
+        "intellij.platform.statistics",
+        "intellij.platform.core",
+        "intellij.platform.lang.impl",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.editor.ui",
+        "intellij.platform.remote.core",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ex",
+        "intellij.libraries.stream",
+        "intellij.platform.projectModel",
+        "intellij.platform.debugger",
+        "intellij.platform.execution",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.execution.impl",
+        "intellij.php.remoteInterpreter.coverage",
+        "com.intellij.modules.os.windows",
+        "intellij.php.coverage",
+        "intellij.php.terminal.backend",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.wsl.remoteSdk",
+        "intellij.libraries.jetbrains.annotations",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "intellij.platform.ide.impl.wsl"
+      ],
+      "file_name": "php-remoteInterpreter-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5941,7 +5990,8 @@
       "262.8377.35": 1086829,
       "262.8665.176": 1102485,
       "262.8665.81": 1096993,
-      "262.9437.22": 1115385
+      "262.9437.22": 1115385,
+      "263.3889.65": 1159927
     }
   }
 }

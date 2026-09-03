@@ -1672,6 +1672,63 @@
       "since": "262.9437",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159735": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25724/1159735/jvm-dfa-analysis-263.3889.65.zip?updateId=1159735&pluginId=25724&family=INTELLIJ",
+      "sha256": "9okdyZKP8ITnsGZQE8trj7Tb1mLs8Q4xkAx1MLL6brw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.dfa.analysis.rml.taint",
+        "intellij.platform.analysis",
+        "intellij.platform.analysis.impl",
+        "intellij.dfa.analysis.rml.configurator",
+        "com.intellij.dfa.analysis",
+        "intellij.java.backend",
+        "intellij.platform.core",
+        "intellij.platform.ide",
+        "intellij.dfa.analysis.rml",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.core"
+      ],
+      "optional_dependencies": [
+        "intellij.dfa.analysis.ui",
+        "intellij.platform.indexing",
+        "intellij.javaee.persistence.impl/intelliLang",
+        "intellij.jvm.dfa.analysis.java",
+        "intellij.qodana.inspectionKts",
+        "intellij.platform.core.impl",
+        "intellij.platform.lang",
+        "intellij.platform.util.ui",
+        "intellij.platform.execution",
+        "intellij.jvm.dfa.analysis.lang",
+        "intellij.kotlin.references",
+        "intellij.java.psi",
+        "com.intellij.modules.kotlin",
+        "intellij.dfa.analysis.rml.protobuf",
+        "intellij.kotlin.base.resources",
+        "intellij.platform.editor.ui",
+        "intellij.kotlin.base.codeInsight",
+        "intellij.jvm.dfa.analysis.inspections",
+        "intellij.libraries.guava",
+        "intellij.platform.core.ui",
+        "intellij.libraries.kotlinc.kotlin.compiler.common",
+        "intellij.platform.util.ex",
+        "intellij.platform.statistics",
+        "intellij.dfa.analysis.rml.intellij",
+        "intellij.platform.ide.progress",
+        "intellij.platform.lang.impl",
+        "intellij.dfa.analysis.rml.configurator.jvm",
+        "intellij.libraries.kotlinc.symbol.light.classes",
+        "org.jetbrains.kotlin",
+        "intellij.libraries.kotlinc.analysis.api",
+        "intellij.platform.ide.impl",
+        "org.intellij.qodana",
+        "intellij.qodana.sarif"
+      ],
+      "file_name": "jvm-dfa-analysis-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1745,7 +1802,8 @@
       "262.8377.35": 1086872,
       "262.8665.176": 1102486,
       "262.8665.81": 1097059,
-      "262.9437.22": 1115410
+      "262.9437.22": 1115410,
+      "263.3889.65": 1159735
     }
   }
 }

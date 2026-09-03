@@ -277,10 +277,52 @@
       "since": "262.9437",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159883": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32117/1159883/clion-stm32-262.10315.131.zip?updateId=1159883&pluginId=32117&family=INTELLIJ",
+      "sha256": "CLOV2KIGOcZswAa9t4Uer04ghCb0DNqfnC+oknGqVnU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.clion.ide.customization"
+      ],
+      "optional_dependencies": [
+        "intellij.cmake.core",
+        "org.jetbrains.plugins.terminal",
+        "intellij.cidr.execution",
+        "intellij.cidr.util",
+        "intellij.platform.frontend",
+        "intellij.terminal.frontend",
+        "intellij.clion.embedded.core",
+        "intellij.cidr.workspaceModel",
+        "intellij.clion.util",
+        "intellij.cidr.runner",
+        "intellij.clion.execution",
+        "intellij.cidr.debugger.profiles",
+        "intellij.cidr.debugger.core",
+        "intellij.cidr.debugger.backend",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.clion.stm32.wrapper",
+        "intellij.clion.stm32.wrapper.shared",
+        "intellij.clion.stm32.core",
+        "intellij.libraries.commons.text",
+        "intellij.platform.rpc.backend",
+        "intellij.clion.toolchains",
+        "intellij.cidr.projectModel",
+        "intellij.cidr.util.execution",
+        "intellij.cmake.clion",
+        "intellij.cmake.psi",
+        "intellij.platform.backend"
+      ],
+      "file_name": "clion-stm32-262.10315.131.zip",
+      "since": "262.10315",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "262.10315.131": 1159883,
       "262.7132.28": 1067830,
       "262.7581.22": 1076056,
       "262.8117.20": 1081931,

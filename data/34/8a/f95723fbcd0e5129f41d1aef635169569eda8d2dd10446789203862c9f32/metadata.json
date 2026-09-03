@@ -1590,6 +1590,47 @@
       "since": "262.10315",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159706": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27879/1159706/go-frontend-263.3889.65.zip?updateId=1159706&pluginId=27879&family=INTELLIJ",
+      "sha256": "G9mHAchEQJE7UgbZ4Q0JTbn3N/2eP2YDUScdE+le93Y=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis",
+        "com.intellij.jetbrains.client",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.codeStyle",
+        "intellij.platform.editor.ui",
+        "intellij.platform.frontend.split",
+        "intellij.libraries.guava",
+        "intellij.libraries.fastutil",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core.impl",
+        "intellij.platform.lang",
+        "intellij.platform.rpc",
+        "intellij.libraries.stream",
+        "intellij.platform.projectModel"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.util.ui",
+        "fleet.rhizomedb",
+        "intellij.platform.core.ui",
+        "intellij.platform.project",
+        "intellij.platform.statistics",
+        "intellij.platform.ide",
+        "intellij.go.frontback",
+        "intellij.platform.core",
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.kernel",
+        "intellij.platform.frontend",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl"
+      ],
+      "file_name": "go-frontend-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1670,7 +1711,8 @@
       "262.9437.66": 1120000,
       "262.9437.67": 1119967,
       "262.9437.68": 1120232,
-      "262.9437.71": 1121827
+      "262.9437.71": 1121827,
+      "263.3889.65": 1159706
     }
   }
 }

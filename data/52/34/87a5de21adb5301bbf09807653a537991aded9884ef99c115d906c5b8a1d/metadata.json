@@ -727,6 +727,52 @@
       "since": "262.9437",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159982": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27374/1159982/java-coverage-263.3889.65.zip?updateId=1159982&pluginId=27374&family=INTELLIJ",
+      "sha256": "OG1xTuaM9falbDHGJoOWZ3BlDpDACS9yVTEyyCSi8v8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.frontback.psi",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.lang.impl",
+        "intellij.platform.lang.core",
+        "intellij.libraries.fastutil",
+        "intellij.platform.statistics",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.platform.core",
+        "intellij.platform.ide.core",
+        "intellij.platform.testRunner",
+        "intellij.java.syntax",
+        "intellij.platform.ide.impl",
+        "intellij.platform.ide.progress",
+        "intellij.platform.core.impl",
+        "intellij.java.backend",
+        "intellij.platform.execution",
+        "intellij.platform.projectModel",
+        "intellij.platform.core.ui",
+        "intellij.platform.ide.concurrency",
+        "intellij.platform.coverage",
+        "intellij.platform.execution.impl",
+        "intellij.java.execution.impl",
+        "intellij.platform.lang",
+        "intellij.java.psi",
+        "intellij.java.psi.impl",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.analysis",
+        "intellij.platform.editor.ui",
+        "intellij.platform.refactoring",
+        "intellij.platform.util.ui"
+      ],
+      "optional_dependencies": [
+        "JUnit",
+        "TestNG-J",
+        "intellij.java.coverage.rt"
+      ],
+      "file_name": "java-coverage-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -769,7 +815,8 @@
       "262.8377.35": 1086893,
       "262.8665.176": 1102481,
       "262.8665.81": 1096919,
-      "262.9437.22": 1115321
+      "262.9437.22": 1115321,
+      "263.3889.65": 1159982
     }
   }
 }

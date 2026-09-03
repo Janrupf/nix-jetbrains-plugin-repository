@@ -1458,6 +1458,37 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159923": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20208/1159923/javaee-el-core-263.3889.65.zip?updateId=1159923&pluginId=20208&family=INTELLIJ",
+      "sha256": "I/7y0cEc2g3QUbs+lqXh1JzErg/DJWLOpOendpqF7kc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis.impl",
+        "intellij.platform.projectModel",
+        "intellij.properties.backend",
+        "intellij.java.frontback.psi",
+        "intellij.javaee.platform",
+        "intellij.platform.editor.ui",
+        "intellij.platform.analysis",
+        "intellij.xml.psi",
+        "intellij.xml.psi.impl",
+        "intellij.java.psi",
+        "intellij.platform.core",
+        "intellij.java.psi.impl",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.core.impl",
+        "intellij.properties.psi",
+        "intellij.platform.ide.impl",
+        "intellij.platform.refactoring"
+      ],
+      "optional_dependencies": [],
+      "file_name": "javaee-el-core-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1574,7 +1605,8 @@
       "262.8117.19": 1081804,
       "262.8377.35": 1086816,
       "262.8665.176": 1102521,
-      "262.8665.81": 1096989
+      "262.8665.81": 1096989,
+      "263.3889.65": 1159923
     }
   }
 }

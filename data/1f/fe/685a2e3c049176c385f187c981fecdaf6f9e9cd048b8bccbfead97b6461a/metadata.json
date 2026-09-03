@@ -7803,6 +7803,41 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159723": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15183/1159723/psalm-263.3889.65.zip?updateId=1159723&pluginId=15183&family=INTELLIJ",
+      "sha256": "NIp/1gfwQ6GRDdwmqWRkdU6a4nWJTEGtiuGWgAGV8lY=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.gson",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.platform.core.impl",
+        "intellij.platform.remote.core",
+        "intellij.platform.ide",
+        "intellij.php.backend",
+        "intellij.libraries.fastutil",
+        "intellij.platform.projectModel",
+        "intellij.libraries.stream",
+        "intellij.platform.execution",
+        "intellij.platform.lang",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.analysis",
+        "intellij.platform.ide.core",
+        "intellij.platform.lang.impl",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.core"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.projectModel.impl",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "com.intellij.php.psalm"
+      ],
+      "file_name": "psalm-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -8297,7 +8332,8 @@
       "262.8117.19": 1081899,
       "262.8377.35": 1086868,
       "262.8665.176": 1102637,
-      "262.8665.81": 1096992
+      "262.8665.81": 1096992,
+      "263.3889.65": 1159723
     }
   }
 }

@@ -127,6 +127,65 @@
       "since": "262.10315",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33251/1159999/figma-263.3889.65.zip?updateId=1159999&pluginId=33251&family=INTELLIJ",
+      "sha256": "jWYkNVwMpVYrD57u5+lHImEonaRccpP2568NzgJKsww=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.util.coroutines",
+        "intellij.platform.core.ui",
+        "intellij.platform.lang.impl",
+        "intellij.platform.codeStyle",
+        "fleet.rpc",
+        "intellij.platform.codeStyle.impl",
+        "intellij.platform.core",
+        "intellij.platform.ide.core",
+        "intellij.figma.model",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.project",
+        "intellij.platform.refactoring",
+        "intellij.platform.util.ui",
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.ide",
+        "intellij.platform.kernel",
+        "intellij.platform.lang",
+        "intellij.platform.rpc",
+        "intellij.platform.statistics",
+        "intellij.libraries.kotlinx.serialization.core"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.credentialStore",
+        "intellij.platform.frontend",
+        "intellij.libraries.ktor.network.tls",
+        "intellij.libraries.ktor.utils",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.core.plugins",
+        "intellij.libraries.ktor.client",
+        "intellij.figma.codegen",
+        "intellij.figma.frontend",
+        "intellij.xml.psi.impl",
+        "intellij.figma.backend",
+        "intellij.llmInstaller",
+        "intellij.libraries.ktor.server.cio",
+        "intellij.platform.backend",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.libraries.ktor.io",
+        "intellij.css.common.psi",
+        "intellij.figma.shared",
+        "intellij.libraries.caffeine",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.execution"
+      ],
+      "file_name": "figma-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -136,7 +195,8 @@
       "262.9437.65": 1119923,
       "262.9437.66": 1120004,
       "262.9437.67": 1119977,
-      "262.9437.70": 1120033
+      "262.9437.70": 1120033,
+      "263.3889.65": 1159999
     }
   }
 }

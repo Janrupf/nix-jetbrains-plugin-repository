@@ -1191,6 +1191,53 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159822": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28461/1159822/debugger-collections-visualizer-263.3889.65.zip?updateId=1159822&pluginId=28461&family=INTELLIJ",
+      "sha256": "t4nIamRumWeQFouO2zztIzj/2OqRP0RA+jbG8ttK3cQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.debugger.impl",
+        "intellij.platform.debugger.impl.rpc",
+        "fleet.rhizomedb",
+        "intellij.platform.debugger",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.kernel",
+        "intellij.platform.rpc",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.core",
+        "intellij.platform.debugger.impl.shared"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.debugger.impl.ui",
+        "intellij.platform.core.ui",
+        "intellij.java.psi",
+        "intellij.platform.util.coroutines",
+        "intellij.debugger.collections.visualizer.core",
+        "intellij.platform.ide.impl",
+        "intellij.platform.projectModel",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.execution.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.editor.ui",
+        "intellij.platform.backend",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.java.debugger.impl",
+        "intellij.debugger.collections.visualizer.core.backend",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.grid.core.impl",
+        "intellij.platform.statistics",
+        "intellij.platform.frontend",
+        "intellij.grid.impl",
+        "intellij.platform.ide.core",
+        "intellij.platform.kernel.backend",
+        "intellij.java.backend"
+      ],
+      "file_name": "debugger-collections-visualizer-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1249,7 +1296,8 @@
       "262.8117.14": 1081307,
       "262.8377.20": 1086567,
       "262.8665.173": 1102460,
-      "262.8665.65": 1095986
+      "262.8665.65": 1095986,
+      "263.3889.65": 1159822
     }
   }
 }

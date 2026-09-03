@@ -41,12 +41,33 @@
       "since": "250.*",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1159517": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30401/1159517/SpatialPlugin_CN_-release-update-2025-6.1.1-18c45ab.zip?updateId=1159517&pluginId=30401&family=INTELLIJ",
+      "sha256": "7epHSenTbkhhQ7c4vz43kEASrcwcd2TsM/yNvhakaDc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.android",
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SpatialPlugin_CN_-release-update-2025-6.1.1-18c45ab.zip",
+      "since": "251.0",
+      "until": "251.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.13.2": 1066462,
-      "6.0.0": 1132393
+      "6.0.0": 1132393,
+      "6.1.1": 1159517
     }
   }
 }

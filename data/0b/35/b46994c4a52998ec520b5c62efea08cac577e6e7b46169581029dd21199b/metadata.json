@@ -4448,6 +4448,38 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1159899": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7379/1159899/vagrant-263.3889.65.zip?updateId=1159899&pluginId=7379&family=INTELLIJ",
+      "sha256": "9Z+SIzXOmeHpfbZcmMGRF57wPqDPZ1x6dCUiZYIAwsU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ide.remote",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.analysis",
+        "intellij.libraries.jackson",
+        "intellij.platform.ide.core",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.guava",
+        "intellij.platform.core",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.libraries.jackson.databind",
+        "intellij.platform.execution.impl",
+        "intellij.platform.ide",
+        "intellij.platform.remote.core",
+        "intellij.platform.projectModel",
+        "intellij.platform.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.remote-run",
+        "org.jetbrains.plugins.vagrant"
+      ],
+      "file_name": "vagrant-263.3889.65.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4753,7 +4785,8 @@
       "262.8117.14": 1081352,
       "262.8377.20": 1086557,
       "262.8665.173": 1102373,
-      "262.8665.65": 1095941
+      "262.8665.65": 1095941,
+      "263.3889.65": 1159899
     }
   }
 }
