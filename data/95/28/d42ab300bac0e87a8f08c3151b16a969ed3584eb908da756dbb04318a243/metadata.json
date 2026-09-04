@@ -14,11 +14,27 @@
       "since": "251.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1160919": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34022/1160919/intellij-plugin-0.1.1.zip?updateId=1160919&pluginId=34022&family=INTELLIJ",
+      "sha256": "RzwUe4pRZcXofaYO7CSoijfgdjDpYoLp2FfLA6S2LeE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "intellij-plugin-0.1.1.zip",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1159659
+      "0.1.0": 1159659,
+      "0.1.1": 1160919
     }
   }
 }

@@ -29,12 +29,29 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1160590": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33015/1160590/cfmlextracompletion-1.0.0.zip?updateId=1160590&pluginId=33015&family=INTELLIJ",
+      "sha256": "U3t98iLoA8pKSSuEaLubuWchbjjHUodnvdJP22u/s9A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "CFML Support"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "cfmlextracompletion-1.0.0.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.1": 1112150,
-      "0.1.2": 1112911
+      "0.1.2": 1112911,
+      "1.0.0": 1160590
     }
   }
 }

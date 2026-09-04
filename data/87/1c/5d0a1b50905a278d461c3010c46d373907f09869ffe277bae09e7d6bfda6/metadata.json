@@ -339,6 +339,53 @@
       "since": "262.10315",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1160485": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31184/1160485/dfa-analysis-plugin-263.3889.67.zip?updateId=1160485&pluginId=31184&family=INTELLIJ",
+      "sha256": "xidNYFljOhsAI0SgZL0WnLQ9QI+FpncDQ2ZZkQ7Dggs=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.refactoring",
+        "intellij.dfa.analysis.rml.configurator",
+        "intellij.platform.util.ui",
+        "intellij.platform.core.impl",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.ide.core",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.impl",
+        "intellij.platform.core.ui",
+        "intellij.dfa.analysis.rml.taint",
+        "intellij.platform.statistics",
+        "intellij.dfa.analysis.rml",
+        "intellij.platform.editor.ui",
+        "intellij.platform.analysis",
+        "intellij.libraries.gson",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.lang.core",
+        "intellij.dfa.analysis.rml.intellij",
+        "intellij.platform.core",
+        "intellij.platform.lang.impl",
+        "intellij.platform.editor.ex",
+        "intellij.platform.problemView.ui"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.caffeine",
+        "intellij.java",
+        "intellij.libraries.qodana.sarif",
+        "intellij.dfa.analysis.rml.impl",
+        "intellij.libraries.protobuf",
+        "intellij.dfa.analysis.ui",
+        "intellij.java.frontback.psi",
+        "intellij.platform.util.ex",
+        "intellij.platform.analysis.impl",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.ide.progress"
+      ],
+      "file_name": "dfa-analysis-plugin-263.3889.67.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -359,7 +406,8 @@
       "262.8377.20": 1086541,
       "262.8665.173": 1102449,
       "262.8665.65": 1096055,
-      "262.9437.27": 1115924
+      "262.9437.27": 1115924,
+      "263.3889.67": 1160485
     }
   }
 }

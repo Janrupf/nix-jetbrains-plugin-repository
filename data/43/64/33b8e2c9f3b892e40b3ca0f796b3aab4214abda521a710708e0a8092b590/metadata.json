@@ -44,6 +44,21 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1160986": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26040/1160986/slang-intellij-0.2.0-beta.1.zip?updateId=1160986&pluginId=26040&family=INTELLIJ",
+      "sha256": "w0+mEdt0QyIbJ00R7fJJKpfl3VAbHuJrB4etOnQvkqs=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp"
+      ],
+      "file_name": "slang-intellij-0.2.0-beta.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -52,7 +67,8 @@
       "0.2.0-alpha.1": 1158791
     },
     "beta": {
-      "0.1.0": 656246
+      "0.1.0": 656246,
+      "0.2.0-beta.1": 1160986
     }
   }
 }

@@ -6024,6 +6024,73 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1160507": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1160507/nodeJS-remoteInterpreter-262.10315.135.zip?updateId=1160507&pluginId=8116&family=INTELLIJ",
+      "sha256": "b90scfegbs07XrEfHSe7Td3jPJ0DWoKIZ+9duxZs7+o=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.clouds.docker.agent",
+        "NodeJS",
+        "intellij.javascript.backend",
+        "com.jetbrains.plugins.webDeployment",
+        "org.jetbrains.plugins.remote-run",
+        "com.intellij.modules.ultimate",
+        "JavaScriptDebugger",
+        "intellij.javascript.parser",
+        "intellij.platform.ssh",
+        "JavaScript",
+        "intellij.platform.ssh.core"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-262.10315.135.zip",
+      "since": "262.10315",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1160539": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1160539/nodeJS-remoteInterpreter-263.3889.70.zip?updateId=1160539&pluginId=8116&family=INTELLIJ",
+      "sha256": "rNEyVWELq5oiRGwEaEnc59pcpg0mcE2Y3GWurox6D9U=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.clouds.docker.agent",
+        "intellij.platform.ide.impl",
+        "NodeJS",
+        "intellij.platform.ide.core",
+        "intellij.javascript.backend",
+        "com.jetbrains.plugins.webDeployment",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.lang.impl",
+        "intellij.libraries.guava",
+        "intellij.platform.core",
+        "intellij.platform.remoteServers.impl",
+        "intellij.javascript.parser",
+        "intellij.platform.core.impl",
+        "intellij.platform.execution",
+        "intellij.platform.execution.impl",
+        "intellij.platform.remote.core",
+        "intellij.platform.projectModel",
+        "intellij.platform.debugger",
+        "intellij.platform.ssh.core",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.ide.remote",
+        "com.intellij.modules.ultimate",
+        "JavaScriptDebugger",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.platform.ssh",
+        "JavaScript",
+        "intellij.platform.remoteServers"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-263.3889.70.zip",
+      "since": "263.3889",
+      "until": "263.3889.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6324,6 +6391,7 @@
       "261.22158.216": 990844,
       "261.22158.42": 977811,
       "261.23567.143": 1031010,
+      "262.10315.135": 1160507,
       "262.4852.34": 1040245,
       "262.5752.31": 1047762,
       "262.6228.35": 1053698,
@@ -6333,7 +6401,8 @@
       "262.8117.14": 1081358,
       "262.8377.37": 1087093,
       "262.8665.177": 1103006,
-      "262.8665.86": 1097174
+      "262.8665.86": 1097174,
+      "263.3889.70": 1160539
     }
   }
 }

@@ -16,11 +16,43 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1160544": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34035/1160544/java-refactoring-mcp-tools-1.0.3-signed.zip?updateId=1160544&pluginId=34035&family=INTELLIJ",
+      "sha256": "T/YLirt3jODy7XwY0ItmUl9rrVp6MqPoE+HBQHiKdxk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "java-refactoring-mcp-tools-1.0.3-signed.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1160932": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34035/1160932/java-refactoring-mcp-tools-1.0.4-signed.zip?updateId=1160932&pluginId=34035&family=INTELLIJ",
+      "sha256": "PmoYgcN2tKF63a2iKHkAG8sBUDoAyDCofGuJGOn7qTI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "java-refactoring-mcp-tools-1.0.4-signed.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1160145
+      "1.0.0": 1160145,
+      "1.0.3": 1160544,
+      "1.0.4": 1160932
     }
   }
 }

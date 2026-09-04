@@ -2,27 +2,27 @@
   "xml_id": "pro.zhimu.cangjie",
   "numeric_id": 33295,
   "updates": {
-    "1126441": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33295/1126441/CangjieBrains-1.0.2.zip?updateId=1126441&pluginId=33295&family=INTELLIJ",
-      "sha256": "nhfZCiQCfad5mEXaAYJSx14MiuZjRl3Yw1Zf03bRwlY=",
+    "1160547": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33295/1160547/CangjieBrains-1.0.3.zip?updateId=1160547&pluginId=33295&family=INTELLIJ",
+      "sha256": "neOeRGUIYatC5bM1ZVHBQzdIMhxGoKlxlD+h1cLFZTQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lsp",
         "com.intellij.modules.platform",
-        "com.intellij.modules.json",
         "com.intellij.modules.lang",
-        "org.toml.lang"
+        "org.toml.lang",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.json"
       ],
       "optional_dependencies": [],
-      "file_name": "CangjieBrains-1.0.2.zip",
+      "file_name": "CangjieBrains-1.0.3.zip",
       "since": "262.0",
-      "until": null,
+      "until": "262.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.2": 1126441
+      "1.0.3": 1160547
     }
   }
 }

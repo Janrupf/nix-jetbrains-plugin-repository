@@ -153,18 +153,60 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1160899": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31943/1160899/Mojo_Pro-2026.1.9.zip?updateId=1160899&pluginId=31943&family=INTELLIJ",
+      "sha256": "JplQNqLEL9BQHBFeJCQHJAze8VUizsIxidBPkB71sS8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "org.toml.lang",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp",
+        "intellij.testRunner.plugin",
+        "com.intellij.java"
+      ],
+      "file_name": "Mojo_Pro-2026.1.9.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1161049": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31943/1161049/Mojo_Pro-2026.1.10.zip?updateId=1161049&pluginId=31943&family=INTELLIJ",
+      "sha256": "wKeFj9zUvQSeaDRw971Cmux+Vojr3VCOUZhXct7Q8w4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.lsp",
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "Mojo_Pro-2026.1.10.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.1.0": 1059361,
+      "2026.1.10": 1161049,
       "2026.1.2": 1117588,
       "2026.1.3": 1117999,
       "2026.1.4": 1141195,
       "2026.1.5": 1142563,
       "2026.1.6": 1147985,
       "2026.1.7": 1149068,
-      "2026.1.8": 1158244
+      "2026.1.8": 1158244,
+      "2026.1.9": 1160899
     }
   }
 }
