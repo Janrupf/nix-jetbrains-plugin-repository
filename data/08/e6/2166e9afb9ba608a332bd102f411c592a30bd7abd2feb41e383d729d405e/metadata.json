@@ -48,13 +48,33 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1161321": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30937/1161321/android-studio-terminal-alert-1.2.1.zip?updateId=1161321&pluginId=30937&family=INTELLIJ",
+      "sha256": "5t5Et3/J9vwkOukQRjUcTxQ1mz/zPeT93rwuyQwbka8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.foundation"
+      ],
+      "file_name": "android-studio-terminal-alert-1.2.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.2": 1003155,
       "1.1.0": 1006062,
-      "1.2.0": 1056977
+      "1.2.0": 1056977,
+      "1.2.1": 1161321
     }
   }
 }

@@ -342,7 +342,27 @@
       "optional_dependencies": [],
       "file_name": "EditorGroups-4.2.1.zip",
       "since": "261.0",
-      "until": "271.*",
+      "until": "262.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "261.0",
+          "applies_until": "271.*",
+          "compatible_since": "261.0",
+          "compatible_until": "262.*"
+        }
+      ]
+    },
+    "1161997": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10897/1161997/EditorGroups-5.0.0.zip?updateId=1161997&pluginId=10897&family=INTELLIJ",
+      "sha256": "UFmCXtygbaOb4wi2v8ecs9ui5wBYCXMoYE5wfu4p1Cg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "EditorGroups-5.0.0.zip",
+      "since": "263.0",
+      "until": null,
       "compatibility_overrides": []
     }
   },
@@ -368,7 +388,8 @@
       "4.1.0": 875896,
       "4.1.1": 920795,
       "4.2.0": 940394,
-      "4.2.1": 1000869
+      "4.2.1": 1000869,
+      "5.0.0": 1161997
     }
   }
 }

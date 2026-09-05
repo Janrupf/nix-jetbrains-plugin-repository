@@ -30,20 +30,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1160978": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32157/1160978/key-explorer-2.0.0-rc.zip?updateId=1160978&pluginId=32157&family=INTELLIJ",
-      "sha256": "rKVt4yavEn26Qoh4MZ6d11ux5QllBih7tbDqM3tkQ+o=",
-      "channel": "rc",
-      "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "key-explorer-2.0.0-rc.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1160991": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32157/1160991/key-explorer-lite-1.0.4.zip?updateId=1160991&pluginId=32157&family=INTELLIJ",
       "sha256": "AW7WEXnms7jycBlF9HfvaR+NONbQBvcleuBx+yg3UkE=",
@@ -57,16 +43,27 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1161958": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32157/1161958/key-explorer-2026.2.1.zip?updateId=1161958&pluginId=32157&family=INTELLIJ",
+      "sha256": "Zcpys1V+oNJBJ0F/5d2sViO0CJJD06IJz71KwBTOC1Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "key-explorer-2026.2.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
-    "rc": {
-      "2.0.0-rc": 1160978
-    },
     "stable": {
       "1.0.2": 1069713,
       "1.0.3": 1079445,
-      "1.0.4": 1160991
+      "1.0.4": 1160991,
+      "2026.2.1": 1161958
     }
   }
 }

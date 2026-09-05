@@ -19,11 +19,51 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1161279": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33935/1161279/intellij-gleam-2026.2.2.zip?updateId=1161279&pluginId=33935&family=INTELLIJ",
+      "sha256": "BM2o5HM+haCF5lYWWMiCtcJCjYsp50u/MSw2ikbB+pM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin",
+        "org.toml.lang"
+      ],
+      "file_name": "intellij-gleam-2026.2.2.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1161921": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33935/1161921/intellij-gleam-2026.2.3.zip?updateId=1161921&pluginId=33935&family=INTELLIJ",
+      "sha256": "neamvPIaTB9N+4446h8jcnv76LIN418RjNY00pMVi0A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.spellchecker"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin",
+        "org.toml.lang"
+      ],
+      "file_name": "intellij-gleam-2026.2.3.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.2.1": 1157056
+      "2026.2.1": 1157056,
+      "2026.2.2": 1161279,
+      "2026.2.3": 1161921
     }
   }
 }

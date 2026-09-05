@@ -1,6 +1,30 @@
 {
   "xml_id": "dev.basedpython.ide",
   "numeric_id": 33922,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1160445": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33922/1160445/basedpython-intellij-0.0.1.zip?updateId=1160445&pluginId=33922&family=INTELLIJ",
+      "sha256": "n0kgYR63w738ceEpd9JI6fTL2DV99+iDBEvxumuZe58=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "org.toml.lang",
+        "intellij.platform.dap"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "basedpython-intellij-0.0.1.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1": 1160445
+    }
+  }
 }

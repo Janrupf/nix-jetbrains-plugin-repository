@@ -41,14 +41,77 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1161943": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33732/1161943/EnvUi-1.0.1-rc.1.zip?updateId=1161943&pluginId=33732&family=INTELLIJ",
+      "sha256": "1ztWI1Y8EcC/bO1MgS7XPI6G4xbBRFq9KxflJ28G20w=",
+      "channel": "staging",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.compose",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform",
+        "com.intellij.properties",
+        "intellij.platform.jewel.foundation"
+      ],
+      "optional_dependencies": [],
+      "file_name": "EnvUi-1.0.1-rc.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1162006": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33732/1162006/EnvUi-1.0.1-rc.2.zip?updateId=1162006&pluginId=33732&family=INTELLIJ",
+      "sha256": "a+IDnt0cDFumw1cNfEv6DZEwUZiGs6U40XQVL6eCtFk=",
+      "channel": "staging",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.compose",
+        "com.intellij.modules.platform",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [],
+      "file_name": "EnvUi-1.0.1-rc.2.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1162009": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33732/1162009/EnvUi-1.0.1.zip?updateId=1162009&pluginId=33732&family=INTELLIJ",
+      "sha256": "kAOpElqMjgP8E35MgMwn5pEVhkiVKtPLA98yaEdHMy4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.skiko",
+        "intellij.platform.compose",
+        "intellij.libraries.compose.foundation.desktop",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.properties",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [],
+      "file_name": "EnvUi-1.0.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1151900
+      "1.0.0": 1151900,
+      "1.0.1": 1162009
     },
     "staging": {
-      "1.0.0-rc.1": 1147519
+      "1.0.0-rc.1": 1147519,
+      "1.0.1-rc.1": 1161943,
+      "1.0.1-rc.2": 1162006
     }
   }
 }
