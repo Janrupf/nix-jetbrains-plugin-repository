@@ -2,6 +2,21 @@
   "xml_id": "com.github.aemtoolkit",
   "numeric_id": 33356,
   "updates": {
+    "1126432": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33356/1126432/aem-toolkit-0.9.4.zip?updateId=1126432&pluginId=33356&family=INTELLIJ",
+      "sha256": "IKFhneUqjO3383nUZAB7/iMBOjvfCZ6LdYEVXNnhzpo=",
+      "channel": "snapshot",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "aem-toolkit-0.9.4.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
     "1127601": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33356/1127601/aem-toolkit-0.10.0.zip?updateId=1127601&pluginId=33356&family=INTELLIJ",
       "sha256": "rrFkbYs8fL78XPxo44ZWTVegY37+FUmIi7qzn34uZOs=",
@@ -19,6 +34,9 @@
     }
   },
   "channels": {
+    "snapshot": {
+      "0.9.4": 1126432
+    },
     "stable": {
       "0.10.0": 1127601
     }

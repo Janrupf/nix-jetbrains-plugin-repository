@@ -15,10 +15,40 @@
       "since": "201.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1162991": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33940/1162991/oneagent-intellij-1.0.10.zip?updateId=1162991&pluginId=33940&family=INTELLIJ",
+      "sha256": "HtmfKqJ9decLfPhw1dZBnFmrFjD/YFnK3SmXxwWw9f0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "oneagent-intellij-1.0.10.zip",
+      "since": "201.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "1162995": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33940/1162995/oneagent-intellij-1.0.11.zip?updateId=1162995&pluginId=33940&family=INTELLIJ",
+      "sha256": "MmeQxkVZINezB6qIcPIQ1rPvmO4AB8aghk1HUH8Mz6A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "oneagent-intellij-1.0.11.zip",
+      "since": "201.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.10": 1162991,
+      "1.0.11": 1162995,
       "1.0.5": 1157311
     }
   }

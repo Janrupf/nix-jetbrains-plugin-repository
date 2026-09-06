@@ -125,6 +125,44 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1162726": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34061/1162726/node-spark-241.0.5.0-signed.zip?updateId=1162726&pluginId=34061&family=INTELLIJ",
+      "sha256": "3UeJ6wCy1v2qF8X2VY3KuYMsaW5ZLUzQ3GUDtwUoyz8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "node-spark-241.0.5.0-signed.zip",
+      "since": "241.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1162727": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34061/1162727/node-spark-262.0.5.0-signed.zip?updateId=1162727&pluginId=34061&family=INTELLIJ",
+      "sha256": "tBXc6asEfMbUn8QTQYwcyphZHjpVFhfnGdiSXmJhXQc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "intellij.platform.testRunner",
+        "intellij.platform.smRunner",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "node-spark-262.0.5.0-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -133,9 +171,11 @@
       "241.0.3.0": 1161341,
       "241.0.3.1": 1161348,
       "241.0.4.0": 1161367,
+      "241.0.5.0": 1162726,
       "262.0.3.0": 1161342,
       "262.0.3.1": 1161349,
-      "262.0.4.0": 1161368
+      "262.0.4.0": 1161368,
+      "262.0.5.0": 1162727
     }
   }
 }
