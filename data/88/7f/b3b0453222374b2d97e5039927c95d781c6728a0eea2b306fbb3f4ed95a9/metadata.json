@@ -501,7 +501,7 @@
       "optional_dependencies": [],
       "file_name": "codecov-2025.2.16.zip",
       "since": "252.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -525,7 +525,7 @@
       "optional_dependencies": [],
       "file_name": "codecov-2025.2.16.zip",
       "since": "252.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -987,6 +987,25 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1163157": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23390/1163157/codecov-2026.3.1.zip?updateId=1163157&pluginId=23390&family=INTELLIJ",
+      "sha256": "NulbU9wcLEesgYdbGRougy4JAY3YHbExRBwhy5r+3RU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools.auth",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "com.intellij.modules.json",
+        "com.intellij.modules.coverage",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codecov-2026.3.1.zip",
+      "since": "263.3889",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1049,7 +1068,8 @@
       "2026.2.2": 1077644,
       "2026.2.3": 1098094,
       "2026.2.4": 1111294,
-      "2026.2.5": 1147187
+      "2026.2.5": 1147187,
+      "2026.3.1": 1163157
     }
   }
 }

@@ -2,16 +2,32 @@
   "xml_id": "ai.exida.stig.idea",
   "numeric_id": 32132,
   "updates": {
-    "1161045": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32132/1161045/stig-idea-plugin-2.0.0-signed.zip?updateId=1161045&pluginId=32132&family=INTELLIJ",
-      "sha256": "lA5ZQzlEeMUuksywjiQFDFWrAZNCvT1vRa2z3/Dy17g=",
+    "1163199": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32132/1163199/stig-idea-plugin-2.1.0-signed.zip?updateId=1163199&pluginId=32132&family=INTELLIJ",
+      "sha256": "tp5sutmRve9dhvriZ4K7apEPchxu57B/dpiXgdVgP3A=",
       "channel": "stable",
       "dependencies": [
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "stig-idea-plugin-2.0.0-signed.zip",
+      "file_name": "stig-idea-plugin-2.1.0-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1163360": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32132/1163360/stig-idea-plugin-2.1.1-signed.zip?updateId=1163360&pluginId=32132&family=INTELLIJ",
+      "sha256": "dWKzn3+KOqnZjyKQ5MBxZxa7At53ZEHxMYT13hv/gSE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "stig-idea-plugin-2.1.1-signed.zip",
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
@@ -19,7 +35,8 @@
   },
   "channels": {
     "stable": {
-      "2.0.0": 1161045
+      "2.1.0": 1163199,
+      "2.1.1": 1163360
     }
   }
 }
