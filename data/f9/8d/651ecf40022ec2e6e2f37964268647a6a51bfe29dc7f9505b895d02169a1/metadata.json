@@ -43,13 +43,30 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1163928": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29835/1163928/rst-preview-plugin-1.2.1.zip?updateId=1163928&pluginId=29835&family=INTELLIJ",
+      "sha256": "uVkdPN6bNtYMxPQckMBAeZkCa+FZzlV3V8LmFjiGtcc=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.rest",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "rst-preview-plugin-1.2.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.3": 936843,
       "1.1.0": 1056079,
-      "1.2.0": 1056106
+      "1.2.0": 1056106,
+      "1.2.1": 1163928
     }
   }
 }

@@ -45,6 +45,54 @@
       "since": "75.7821",
       "until": "75.7999",
       "compatibility_overrides": []
+    },
+    "1163672": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/1524/1163672/groovy-262.10315.167.zip?updateId=1163672&pluginId=1524&family=INTELLIJ",
+      "sha256": "7KvVcUJcicFvcwDvCv6i2V7VzhO+exfj0JasgQ6lwq8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.debugger.impl",
+        "intellij.java.syntax",
+        "intellij.java.execution.impl",
+        "intellij.platform.smRunner",
+        "intellij.java.unscramble",
+        "intellij.platform.structureView",
+        "intellij.spellchecker",
+        "intellij.java.frontback.psi",
+        "intellij.java.langInjection",
+        "intellij.properties.backend.psi",
+        "com.intellij.groovy.scripting",
+        "com.intellij.properties",
+        "intellij.properties.psi",
+        "intellij.platform.jps.build",
+        "intellij.platform.testRunner",
+        "intellij.properties.backend",
+        "intellij.java.backend",
+        "intellij.java.psi",
+        "intellij.java.ui",
+        "intellij.platform.jps.build.javac.rt",
+        "intellij.regexp"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.duplicates",
+        "intellij.platform.duplicatesDetector",
+        "JUnit",
+        "intellij.java.psi.impl",
+        "com.intellij.modules.structuralsearch",
+        "com.intellij.modules.ultimate",
+        "org.intellij.groovy",
+        "ByteCodeViewer",
+        "Git4Idea",
+        "intellij.java.copyright",
+        "com.intellij.copyright",
+        "intellij.vcs.git.backend",
+        "AntSupport",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "groovy-262.10315.167.zip",
+      "since": "262.10315",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -52,7 +100,8 @@
       "1.0.14616": 5205,
       "1.5.17497": 5573,
       "1.6.19053": 5793,
-      "1.6.20679": 6122
+      "1.6.20679": 6122,
+      "262.10315.167": 1163672
     }
   }
 }

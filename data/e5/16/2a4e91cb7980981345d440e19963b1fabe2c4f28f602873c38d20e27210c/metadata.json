@@ -9572,6 +9572,54 @@
       "since": "262.8377.35",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1164010": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1164010/jmix-studio-3.0.NIGHTLY1804-253.zip?updateId=1164010&pluginId=14340&family=INTELLIJ",
+      "sha256": "c20SGUazZa7iO57Grjj3dmZ22l2Z27xuiO7rIPMy8LE=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot",
+        "com.intellij.liquibase",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
+        "Docker"
+      ],
+      "file_name": "jmix-studio-3.0.NIGHTLY1804-253.zip",
+      "since": "253.28086.51",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1164022": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1164022/jmix-studio-3.0.NIGHTLY1805-261.zip?updateId=1164022&pluginId=14340&family=INTELLIJ",
+      "sha256": "4A4UkvUePhGwOTt4I99qu9omwrrecJRUnhZJ3066VbY=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.liquibase",
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa"
+      ],
+      "file_name": "jmix-studio-3.0.NIGHTLY1805-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -9787,7 +9835,9 @@
       "3.0.NIGHTLY1800-262": 1154636,
       "3.0.NIGHTLY1801-253": 1161063,
       "3.0.NIGHTLY1802-261": 1161078,
-      "3.0.NIGHTLY1803-262": 1161093
+      "3.0.NIGHTLY1803-262": 1161093,
+      "3.0.NIGHTLY1804-253": 1164010,
+      "3.0.NIGHTLY1805-261": 1164022
     },
     "stable": {
       "0.2-202": 105670,
