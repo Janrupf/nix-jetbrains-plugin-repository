@@ -71,10 +71,26 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1164683": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30719/1164683/argocd-intellij-plugin-1.1.10-obfuscated-signed.zip?updateId=1164683&pluginId=30719&family=INTELLIJ",
+      "sha256": "EHfSeGQAaF5AOc8njOO3yrWi9EL4A/i/sbfvYE3ECbE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.compose",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "argocd-intellij-plugin-1.1.10-obfuscated-signed.zip",
+      "since": "263.3889.65",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.1.10": 1164683,
       "1.1.5": 1037859,
       "1.1.6": 1038765,
       "1.1.7": 1043883,

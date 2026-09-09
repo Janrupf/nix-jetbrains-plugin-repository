@@ -460,6 +460,25 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1164837": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18813/1164837/ddev-intellij-plugin-1.2.10-beta1.zip?updateId=1164837&pluginId=18813&family=INTELLIJ",
+      "sha256": "KrfTTsWAA9WlRDALiOCPiofHWwUuseO9dDJnXbpNO3Y=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Docker"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.node-remote-interpreter",
+        "org.jetbrains.plugins.phpstorm-docker",
+        "com.intellij.database"
+      ],
+      "file_name": "ddev-intellij-plugin-1.2.10-beta1.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -473,6 +492,7 @@
     "beta": {
       "0.0.1-dev": 182266,
       "1.0.0-beta1": 182644,
+      "1.2.10-beta1": 1164837,
       "1.2.9-beta1": 1108594
     },
     "stable": {
