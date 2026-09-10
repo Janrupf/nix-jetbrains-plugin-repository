@@ -1812,6 +1812,47 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1165638": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23289/1165638/aspire-plugin-2.9.1-signed.zip?updateId=1165638&pluginId=23289&family=INTELLIJ",
+      "sha256": "JJxiVGQG1rAMVtpk9kNITrsfeP+3CidjMSH8defjKB8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.rd.client",
+        "intellij.rider.languages",
+        "intellij.libraries.ktor.network.tls",
+        "intellij.rd.client.base",
+        "intellij.libraries.ktor.utils",
+        "intellij.libraries.netty.codec.http",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.platform.debugger",
+        "intellij.libraries.protobuf",
+        "intellij.libraries.grpc",
+        "com.intellij.modules.rider",
+        "intellij.libraries.ktor.server.cio",
+        "intellij.libraries.netty.buffer",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.platform.debugger.impl",
+        "intellij.libraries.ktor.client",
+        "intellij.aspire.core",
+        "intellij.libraries.ktor.io",
+        "intellij.libraries.protobuf.kotlin"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.shared",
+        "intellij.clouds.docker",
+        "com.intellij.diagram",
+        "intellij.database.dialects.redis",
+        "Docker",
+        "rider.intellij.plugin.appender",
+        "com.intellij.database",
+        "intellij.rider.plugins.appender.database"
+      ],
+      "file_name": "aspire-plugin-2.9.1-signed.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1909,7 +1950,8 @@
       "2.7.5": 1108917,
       "2.8.0": 1124142,
       "2.8.1": 1155426,
-      "2.9.0": 1160879
+      "2.9.0": 1160879,
+      "2.9.1": 1165638
     }
   }
 }

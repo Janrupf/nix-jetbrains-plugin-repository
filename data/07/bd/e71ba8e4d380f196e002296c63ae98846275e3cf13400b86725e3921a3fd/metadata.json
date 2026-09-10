@@ -1,6 +1,40 @@
 {
   "xml_id": "com.jc.starrocks",
   "numeric_id": 34050,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1164943": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34050/1164943/starrocks-database-support-1.0.0.jar?updateId=1164943&pluginId=34050&family=INTELLIJ",
+      "sha256": "/KCrsKzXL9EvEo96G0QnBvyezJwrMQ/qTpfaVFS8Q8s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "starrocks-database-support-1.0.0.jar",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1166328": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34050/1166328/starrocks-database-support-1.0.1.jar?updateId=1166328&pluginId=34050&family=INTELLIJ",
+      "sha256": "d+rQ1ScXPfHclOa0XXq1AG1kSCkS2mr/apccvRVpxgQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "starrocks-database-support-1.0.1.jar",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1164943,
+      "1.0.1": 1166328
+    }
+  }
 }

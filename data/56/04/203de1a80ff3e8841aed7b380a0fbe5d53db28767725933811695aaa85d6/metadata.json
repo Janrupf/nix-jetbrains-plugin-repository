@@ -18,9 +18,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1165812": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33865/1165812/WISE-1.0-SNAPSHOT.zip?updateId=1165812&pluginId=33865&family=INTELLIJ",
+      "sha256": "2V6TXVUX+qfHdUUvdBhg6FKWcbqtuTySK/f5ZEX+Pec=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm",
+        "Git4Idea",
+        "com.intellij.modules.xdebugger"
+      ],
+      "file_name": "WISE-1.0-SNAPSHOT.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.0-SNAPSHOT": 1165812
+    },
     "stable": {
       "1.0-SNAPSHOT": 1153880
     }
