@@ -48,11 +48,59 @@
       "since": "263.3889",
       "until": "263.3889.*",
       "compatibility_overrides": []
+    },
+    "1166892": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33386/1166892/storybook-263.4732.7.zip?updateId=1166892&pluginId=33386&family=INTELLIJ",
+      "sha256": "9yEJMcBCdlaBiHKRF0et4TysS8W0FuRXo5YZ203MJ24=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.project",
+        "intellij.platform.kernel",
+        "intellij.platform.ide.impl",
+        "JavaScript",
+        "intellij.platform.core",
+        "intellij.platform.projectModel",
+        "fleet.rpc",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.rpc",
+        "intellij.libraries.kotlinx.serialization.json"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.vcs",
+        "intellij.platform.feedback",
+        "intellij.platform.frontend",
+        "intellij.platform.lang.impl",
+        "intellij.platform.vcs.impl",
+        "intellij.javascript.backend",
+        "intellij.platform.lang",
+        "intellij.storybook.shared",
+        "intellij.javascript.psi.impl",
+        "intellij.platform.execution",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.util.coroutines",
+        "intellij.platform.core.ui",
+        "intellij.platform.ide.core",
+        "intellij.platform.backend",
+        "intellij.platform.statistics",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.execution.impl",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.analysis",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide"
+      ],
+      "file_name": "storybook-263.4732.7.zip",
+      "since": "263.4732",
+      "until": "263.4732.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "263.3889.65": 1159786
+      "263.3889.65": 1159786,
+      "263.4732.7": 1166892
     }
   }
 }

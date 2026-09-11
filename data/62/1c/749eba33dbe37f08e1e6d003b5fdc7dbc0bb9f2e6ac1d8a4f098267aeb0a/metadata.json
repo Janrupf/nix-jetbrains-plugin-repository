@@ -533,6 +533,52 @@
       "since": "263.3889",
       "until": "263.3889.*",
       "compatibility_overrides": []
+    },
+    "1166898": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28632/1166898/completionMlRanking-263.4732.7.zip?updateId=1166898&pluginId=28632&family=INTELLIJ",
+      "sha256": "WnsqEhh7PYZjHRpZiL2lQU11MAEOD5hzPxX5wJXy34Q=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlin.reflect",
+        "intellij.libraries.opentelemetry.semconv",
+        "intellij.platform.statistics",
+        "intellij.platform.diagnostic.telemetry",
+        "intellij.platform.ml.impl",
+        "intellij.libraries.jackson.jr.objects",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang.impl",
+        "intellij.libraries.caffeine",
+        "intellij.platform.diagnostic.telemetry.impl",
+        "com.intellij.modules.lang",
+        "intellij.platform.core",
+        "intellij.libraries.jackson",
+        "intellij.platform.ide.core",
+        "intellij.platform.core.impl",
+        "intellij.platform.diff.impl",
+        "intellij.platform.analysis.impl",
+        "intellij.libraries.opentelemetry",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.analysis",
+        "intellij.platform.projectModel",
+        "intellij.platform.lang",
+        "intellij.platform.ide.internal",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.vcs",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.ml",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui"
+      ],
+      "optional_dependencies": [
+        "intellij.fullLine.core.completion",
+        "com.intellij.completion.ml.ranking"
+      ],
+      "file_name": "completionMlRanking-263.4732.7.zip",
+      "since": "263.4732",
+      "until": "263.4732.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -564,7 +610,8 @@
       "262.8377.35": 1086690,
       "262.8665.173": 1102426,
       "262.8665.65": 1095951,
-      "263.3889.65": 1159981
+      "263.3889.65": 1159981,
+      "263.4732.7": 1166898
     }
   }
 }

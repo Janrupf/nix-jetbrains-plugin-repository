@@ -6091,6 +6091,48 @@
       "since": "263.3889",
       "until": "263.3889.*",
       "compatibility_overrides": []
+    },
+    "1167032": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1167032/nodeJS-remoteInterpreter-263.4732.20.zip?updateId=1167032&pluginId=8116&family=INTELLIJ",
+      "sha256": "Ii8u4onSDLsCqbe+eA3aAAZU+lv5ZWgoy256SZYJJIE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.clouds.docker.agent",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl",
+        "intellij.libraries.guava",
+        "NodeJS",
+        "intellij.platform.ssh.core",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core",
+        "intellij.platform.ssh",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.projectModel",
+        "intellij.platform.core.impl",
+        "intellij.platform.remoteServers.impl",
+        "intellij.platform.debugger",
+        "intellij.platform.execution",
+        "intellij.javascript.backend",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.ide.remote",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.remote.core",
+        "intellij.platform.execution.impl",
+        "JavaScriptDebugger",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.javascript.parser",
+        "intellij.platform.remoteServers",
+        "JavaScript"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-263.4732.20.zip",
+      "since": "263.4732",
+      "until": "263.4732.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6402,7 +6444,8 @@
       "262.8377.37": 1087093,
       "262.8665.177": 1103006,
       "262.8665.86": 1097174,
-      "263.3889.70": 1160539
+      "263.3889.70": 1160539,
+      "263.4732.20": 1167032
     }
   }
 }

@@ -109,6 +109,114 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1166483": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1166483/acpira-1.2.1-mac-arm64.zip?updateId=1166483&pluginId=34192&family=INTELLIJ",
+      "sha256": "D31N2sDv+7Xb358t4/dAppVWNcnTG/tYDy3v4pOJZ48=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.os.mac",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "acpira-1.2.1-mac-arm64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1166485": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1166485/acpira-1.2.1-mac-x86_64.zip?updateId=1166485&pluginId=34192&family=INTELLIJ",
+      "sha256": "A0YUnqg/guTXjPYjDKosfFNcx/83V5pA42lS7U/2hbY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.mac",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.arch.x86_64"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "acpira-1.2.1-mac-x86_64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1166486": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1166486/acpira-1.2.1-linux-arm64.zip?updateId=1166486&pluginId=34192&family=INTELLIJ",
+      "sha256": "jBbswi8MaMc/EJL4WN/cMBFU4m7//c2WN4dp3ETHVi0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.os.linux",
+        "com.intellij.modules.arch.arm64"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "acpira-1.2.1-linux-arm64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1166487": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1166487/acpira-1.2.1-linux-x86_64.zip?updateId=1166487&pluginId=34192&family=INTELLIJ",
+      "sha256": "ncXepHC2D3hWlecwZiQY+Ix1OxM7GemvocfI8uq+V2g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.os.linux"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "acpira-1.2.1-linux-x86_64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1166488": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1166488/acpira-1.2.1-windows-arm64.zip?updateId=1166488&pluginId=34192&family=INTELLIJ",
+      "sha256": "zZw5d+nvNko9TbyI2mBXzmbf472+E+hYVMjJ6DHUbao=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "acpira-1.2.1-windows-arm64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1166489": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1166489/acpira-1.2.1-windows-x86_64.zip?updateId=1166489&pluginId=34192&family=INTELLIJ",
+      "sha256": "nsULYFr7YEPYsm/95uewr4RDDyv6FueModB8OUHqTqs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "acpira-1.2.1-windows-x86_64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -118,7 +226,13 @@
       "1.2.0-mac-arm64": 1166334,
       "1.2.0-mac-x86_64": 1166338,
       "1.2.0-windows-arm64": 1166339,
-      "1.2.0-windows-x86_64": 1166336
+      "1.2.0-windows-x86_64": 1166336,
+      "1.2.1-linux-arm64": 1166486,
+      "1.2.1-linux-x86_64": 1166487,
+      "1.2.1-mac-arm64": 1166483,
+      "1.2.1-mac-x86_64": 1166485,
+      "1.2.1-windows-arm64": 1166488,
+      "1.2.1-windows-x86_64": 1166489
     }
   }
 }

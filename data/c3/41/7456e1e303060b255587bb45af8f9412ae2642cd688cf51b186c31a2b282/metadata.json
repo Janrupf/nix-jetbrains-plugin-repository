@@ -25,11 +25,37 @@
       "since": "263.3889",
       "until": "263.3889.*",
       "compatibility_overrides": []
+    },
+    "1166951": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34030/1166951/lsp-ui-263.4732.7.zip?updateId=1166951&pluginId=34030&family=INTELLIJ",
+      "sha256": "93th7ri8XumSRp8lGSdtltsyZP8SqWDk2Ii7rDy4PP4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.gson",
+        "intellij.platform.lang",
+        "intellij.platform.util.ui",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.core",
+        "intellij.platform.core.ui",
+        "intellij.platform.frontend",
+        "intellij.platform.ide.impl",
+        "intellij.platform.editor.ui",
+        "intellij.platform.lsp.impl",
+        "intellij.platform.statistics",
+        "intellij.platform.core",
+        "intellij.platform.execution.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lsp-ui-263.4732.7.zip",
+      "since": "263.4732",
+      "until": "263.4732.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "263.3889.65": 1160041
+      "263.3889.65": 1160041,
+      "263.4732.7": 1166951
     }
   }
 }
