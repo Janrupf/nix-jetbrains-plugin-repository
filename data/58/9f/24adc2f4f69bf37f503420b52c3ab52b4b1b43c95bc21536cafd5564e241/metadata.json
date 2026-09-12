@@ -49,11 +49,61 @@
       "since": "263.3889",
       "until": "263.3889.*",
       "compatibility_overrides": []
+    },
+    "1167793": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1167793/java-aetherDependencyResolver-plugin-263.4732.28.zip?updateId=1167793&pluginId=34026&family=INTELLIJ",
+      "sha256": "Gk0HDe2YxekS8WVn7hoY2k1FQpZc1VUfEdHrSGswS30=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.commons.logging",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.http.client",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.commons.codec",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.commons.lang3"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.gson",
+        "intellij.platform.core.impl",
+        "intellij.libraries.javax.annotation",
+        "intellij.repository.search.completion",
+        "intellij.platform.lang",
+        "intellij.libraries.grpc",
+        "intellij.platform.analysis",
+        "intellij.libraries.kotlinx.document.store.mvstore",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.guava",
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.util.ex",
+        "intellij.platform.ide",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.statistics",
+        "intellij.platform.externalSystem",
+        "intellij.platform.ide.impl",
+        "intellij.libraries.ktor.client",
+        "intellij.libraries.package.search.api.client",
+        "intellij.libraries.mvstore",
+        "intellij.libraries.protobuf",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core",
+        "intellij.maven.model"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-263.4732.28.zip",
+      "since": "263.4732",
+      "until": "263.4732.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "263.3889.65": 1159792
+      "263.3889.65": 1159792,
+      "263.4732.28": 1167793
     }
   }
 }

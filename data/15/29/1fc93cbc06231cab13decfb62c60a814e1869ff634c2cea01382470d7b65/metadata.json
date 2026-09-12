@@ -2,9 +2,9 @@
   "xml_id": "com.nexonest.nexorhino",
   "numeric_id": 34207,
   "updates": {
-    "1167430": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34207/1167430/nexorhino-pycharm-0.1.0-alpha.1.zip?updateId=1167430&pluginId=34207&family=INTELLIJ",
-      "sha256": "BrsGz0hv0pM8lPnRNxQNJFRk7v1pomfhVE/CFA7REMM=",
+    "1167960": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34207/1167960/nexorhino-pycharm-0.1.2-alpha.1.zip?updateId=1167960&pluginId=34207&family=INTELLIJ",
+      "sha256": "VClByUIAOVwfR780nhCpaeEaJLSLE0M1ZfIpJbiIi4w=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.python",
@@ -12,7 +12,22 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "nexorhino-pycharm-0.1.0-alpha.1.zip",
+      "file_name": "nexorhino-pycharm-0.1.2-alpha.1.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1167983": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34207/1167983/nexorhino-pycharm-0.1.4.zip?updateId=1167983&pluginId=34207&family=INTELLIJ",
+      "sha256": "7n6frnQxeslW0Wf8+0+z/3uA63BvScHbHe9pCb0HzU4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nexorhino-pycharm-0.1.4.zip",
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
@@ -20,7 +35,8 @@
   },
   "channels": {
     "stable": {
-      "0.1.0-alpha.1": 1167430
+      "0.1.2-alpha.1": 1167960,
+      "0.1.4": 1167983
     }
   }
 }

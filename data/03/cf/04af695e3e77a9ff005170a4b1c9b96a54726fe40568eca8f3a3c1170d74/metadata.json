@@ -2675,6 +2675,70 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1168315": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19984/1168315/pricefx-studio-17.0.4-243.eap.zip?updateId=1168315&pluginId=19984&family=INTELLIJ",
+      "sha256": "GYoy8h+2nSa6bFN5n/FW3FgUBQX2Jfd9R4sKYJUdHVo=",
+      "channel": "pricefx-eap",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "org.intellij.groovy",
+        "org.intellij.plugins.markdown",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "CodeNarc"
+      ],
+      "file_name": "pricefx-studio-17.0.4-243.eap.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1168316": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19984/1168316/pricefx-studio-17.0.4-241.eap.zip?updateId=1168316&pluginId=19984&family=INTELLIJ",
+      "sha256": "x0BheaEBDQ26ntHpA2k1vuTrYCadzlQMtmhJxUROcxs=",
+      "channel": "pricefx-eap",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.intellij.groovy",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "CodeNarc"
+      ],
+      "file_name": "pricefx-studio-17.0.4-241.eap.zip",
+      "since": "241.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1168448": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19984/1168448/pricefx-studio-17.0.4-252.eap.zip?updateId=1168448&pluginId=19984&family=INTELLIJ",
+      "sha256": "wAu2FceAZbl6qvLH/TkkiWN+nX4WZjci3PIPz9nNhDQ=",
+      "channel": "pricefx-eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.intellij.groovy",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.json",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "CodeNarc"
+      ],
+      "file_name": "pricefx-studio-17.0.4-252.eap.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2724,7 +2788,10 @@
       "17.0.1-252.eap": 1150237,
       "17.0.3-241.eap": 1158597,
       "17.0.3-243.eap": 1158601,
-      "17.0.3-252.eap": 1158604
+      "17.0.3-252.eap": 1158604,
+      "17.0.4-241.eap": 1168316,
+      "17.0.4-243.eap": 1168315,
+      "17.0.4-252.eap": 1168448
     },
     "stable": {
       "10.0.1808-223": 307346,

@@ -5633,6 +5633,57 @@
       "since": "263.3889",
       "until": "263.3889.*",
       "compatibility_overrides": []
+    },
+    "1167762": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7535/1167762/gauge-263.4732.28.zip?updateId=1167762&pluginId=7535&family=INTELLIJ",
+      "sha256": "wqRoZPqpSI8I114UQPO3BRJmzh0iD7W4xVRMOo0V6cg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.execution.impl",
+        "intellij.java.debugger.impl",
+        "intellij.platform.execution.impl",
+        "intellij.libraries.grpc",
+        "intellij.platform.smRunner",
+        "intellij.platform.execution",
+        "intellij.platform.analysis",
+        "intellij.platform.indexing",
+        "intellij.platform.lang",
+        "intellij.platform.projectModel",
+        "intellij.platform.externalSystem.impl",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.platform.refactoring",
+        "intellij.libraries.commons.io",
+        "intellij.libraries.gson",
+        "intellij.platform.core.ui",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.util.ui",
+        "intellij.properties.backend",
+        "intellij.platform.statistics",
+        "intellij.platform.lang.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.debugger",
+        "intellij.java.psi",
+        "intellij.platform.ide.core.impl",
+        "intellij.json.backend",
+        "com.intellij.modules.json",
+        "intellij.platform.core",
+        "intellij.platform.ide.core",
+        "intellij.platform.testRunner",
+        "intellij.platform.core.impl",
+        "intellij.java.backend",
+        "intellij.libraries.protobuf"
+      ],
+      "optional_dependencies": [
+        "intellij.maven",
+        "com.thoughtworks.gauge",
+        "intellij.gradle.settings",
+        "intellij.gradle"
+      ],
+      "file_name": "gauge-263.4732.28.zip",
+      "since": "263.4732",
+      "until": "263.4732.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5952,7 +6003,8 @@
       "262.8377.35": 1086854,
       "262.8665.176": 1102501,
       "262.8665.81": 1097048,
-      "263.3889.65": 1160031
+      "263.3889.65": 1160031,
+      "263.4732.28": 1167762
     }
   }
 }
