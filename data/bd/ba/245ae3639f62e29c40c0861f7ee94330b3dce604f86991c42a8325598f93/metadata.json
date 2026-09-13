@@ -71,9 +71,43 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1168839": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28073/1168839/structured-highlights-2.0.0.zip?updateId=1168839&pluginId=28073&family=INTELLIJ",
+      "sha256": "Ru7tEZI+eR+lluiTOMnbVpYLAtn7c2TPsX3cCNu8Fz8=",
+      "channel": "beta",
+      "dependencies": [
+        "intellij.platform.monolith",
+        "structured-highlights.shared"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "structured-highlights.lang-css",
+        "intellij.java.psi",
+        "intellij.python.ast",
+        "intellij.css.common.psi",
+        "com.jetbrains.php",
+        "intellij.rustrover.core",
+        "intellij.toml.core",
+        "intellij.rustrover.common",
+        "org.jetbrains.kotlin",
+        "intellij.sass",
+        "intellij.python.psi",
+        "intellij.rider.languages",
+        "intellij.css",
+        "intellij.javascript.psi.impl",
+        "intellij.java"
+      ],
+      "file_name": "structured-highlights-2.0.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "2.0.0": 1168839
+    },
     "stable": {
       "0.0.1": 815567,
       "0.0.2": 828252,

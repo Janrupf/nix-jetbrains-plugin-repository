@@ -1,6 +1,28 @@
 {
   "xml_id": "com.jetbrains.ps.wise",
   "numeric_id": 33865,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1168605": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33865/1168605/WISE-1.0.zip?updateId=1168605&pluginId=33865&family=INTELLIJ",
+      "sha256": "SdgVzZLIlGiSsO6N+RRX/EJeFTPBhaH/e7IhloW+V+o=",
+      "channel": "release",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "WISE-1.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "release": {
+      "1.0": 1168605
+    }
+  }
 }

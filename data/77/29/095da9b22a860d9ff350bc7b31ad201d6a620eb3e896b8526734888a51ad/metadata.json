@@ -361,9 +361,87 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1169037": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27706/1169037/java-auto-unit-tests-2.0.0-beta.1.zip?updateId=1169037&pluginId=27706&family=INTELLIJ",
+      "sha256": "tJyQk7jwznr3ZTe3niAifozs6TXgJCS3X6g0ep7yvBY=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "JUnit"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.plugins.github"
+      ],
+      "file_name": "java-auto-unit-tests-2.0.0-beta.1.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1169043": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27706/1169043/java-auto-unit-tests-2.0.0-beta.2.zip?updateId=1169043&pluginId=27706&family=INTELLIJ",
+      "sha256": "ifNPUORnkDseMobCNNIsqBWkhf0tUiaX5RfXfnJ4tM4=",
+      "channel": "beta",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "Git4Idea"
+      ],
+      "file_name": "java-auto-unit-tests-2.0.0-beta.2.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1169073": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27706/1169073/JAIPilot-2.0.0.zip?updateId=1169073&pluginId=27706&family=INTELLIJ",
+      "sha256": "3GoX9tMRY5pGKCpjPPmNh/iW5dFn28u4LR1YiSOYsJY=",
+      "channel": "beta",
+      "dependencies": [
+        "JUnit",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "Git4Idea"
+      ],
+      "file_name": "JAIPilot-2.0.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1169080": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27706/1169080/JAIPilot-2.0.1-beta.1.zip?updateId=1169080&pluginId=27706&family=INTELLIJ",
+      "sha256": "pAVYY6+U6zuek4KB9K9eeiggvdrb9t0bW6RecJj8oD0=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "JUnit"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "Git4Idea"
+      ],
+      "file_name": "JAIPilot-2.0.1-beta.1.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "2.0.0": 1169073,
+      "2.0.0-beta.1": 1169037,
+      "2.0.0-beta.2": 1169043,
+      "2.0.1-beta.1": 1169080
+    },
     "stable": {
       "0.0.10": 827012,
       "0.0.12": 834796,
