@@ -18,90 +18,31 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1166102": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33954/1166102/Jira-2026.3.3.zip?updateId=1166102&pluginId=33954&family=INTELLIJ",
-      "sha256": "UunhjTk8N9D/l4Oa2RZfhDwt0Ay14oSkk7zs1EJqo6k=",
-      "channel": "eap",
-      "dependencies": [
-        "intellij.platform.rpc"
-      ],
-      "optional_dependencies": [
-        "intellij.platform.backend",
-        "intellij.platform.frontend",
-        "Jira.shared",
-        "intellij.platform.kernel.backend"
-      ],
-      "file_name": "Jira-2026.3.3.zip",
-      "since": "263.3889.65",
-      "until": null,
-      "compatibility_overrides": [
-        {
-          "applies_since": "263.0",
-          "applies_until": "999.99999",
-          "compatible_since": "263.3889.65",
-          "compatible_until": "999.99999"
-        }
-      ]
-    },
-    "1166104": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33954/1166104/Jira-2026.3.3.zip?updateId=1166104&pluginId=33954&family=INTELLIJ",
-      "sha256": "UunhjTk8N9D/l4Oa2RZfhDwt0Ay14oSkk7zs1EJqo6k=",
+    "1169264": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33954/1169264/Jira-2026.3.4.zip?updateId=1169264&pluginId=33954&family=INTELLIJ",
+      "sha256": "z6Fx4+vUQ5sWhVyLBGM6loeTdbwINu/misWrH/zuAcg=",
       "channel": "stable",
       "dependencies": [
         "intellij.platform.rpc"
       ],
       "optional_dependencies": [
-        "intellij.platform.backend",
-        "intellij.platform.frontend",
-        "Jira.shared",
-        "intellij.platform.kernel.backend"
-      ],
-      "file_name": "Jira-2026.3.3.zip",
-      "since": "263.3889.65",
-      "until": null,
-      "compatibility_overrides": [
-        {
-          "applies_since": "263.0",
-          "applies_until": "999.99999",
-          "compatible_since": "263.3889.65",
-          "compatible_until": "999.99999"
-        }
-      ]
-    },
-    "1167177": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33954/1167177/Jira-2026.3.2.zip?updateId=1167177&pluginId=33954&family=INTELLIJ",
-      "sha256": "13F9dF6qNtMOxBZFHsuHXXys7lkvVXGFFvN8y2LyXnQ=",
-      "channel": "stable",
-      "dependencies": [
-        "intellij.platform.rpc"
-      ],
-      "optional_dependencies": [
-        "intellij.platform.backend",
         "Jira.shared",
         "intellij.platform.frontend",
-        "intellij.platform.kernel.backend"
+        "intellij.platform.kernel.backend",
+        "intellij.platform.backend"
       ],
-      "file_name": "Jira-2026.3.2.zip",
-      "since": "263.3889.65",
+      "file_name": "Jira-2026.3.4.zip",
+      "since": "263.0",
       "until": null,
-      "compatibility_overrides": [
-        {
-          "applies_since": "263.0",
-          "applies_until": "999.99999",
-          "compatible_since": "263.3889.65",
-          "compatible_until": "999.99999"
-        }
-      ]
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "1.0.0-beta.1": 1157591,
-      "2026.3.3": 1166102
+      "1.0.0-beta.1": 1157591
     },
     "stable": {
-      "2026.3.2": 1167177,
-      "2026.3.3": 1166104
+      "2026.3.4": 1169264
     }
   }
 }
