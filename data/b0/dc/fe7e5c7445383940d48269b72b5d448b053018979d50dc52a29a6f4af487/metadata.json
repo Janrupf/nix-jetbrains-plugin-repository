@@ -2094,7 +2094,7 @@
       ],
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.51.0.zip",
-      "since": "241.0",
+      "since": "242",
       "until": "243.*",
       "compatibility_overrides": [
         {
@@ -2114,7 +2114,7 @@
       ],
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.51.0.zip",
-      "since": "241.0",
+      "since": "242",
       "until": "243.*",
       "compatibility_overrides": [
         {
@@ -6632,7 +6632,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.265.2.zip",
       "since": "243.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "243.0",
@@ -6656,7 +6656,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.265.2.zip",
       "since": "243.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "243.0",
@@ -6680,7 +6680,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.265.2.zip",
       "since": "243.0",
-      "until": "252.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "243.0",
@@ -6806,7 +6806,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "242.0",
@@ -6830,7 +6830,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.269.2.zip",
       "since": "242.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "242.0",
@@ -7803,7 +7803,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.317.0.zip",
       "since": "242.0",
-      "until": "253.*",
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "242.0",
@@ -7874,7 +7874,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.317.0.zip",
       "since": "242.0",
-      "until": "253.*",
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "242.0",
@@ -7897,7 +7897,7 @@
       "optional_dependencies": [],
       "file_name": "intellij-augment-0.317.0.zip",
       "since": "242.0",
-      "until": "253.*",
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "242.0",
@@ -12336,6 +12336,42 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1170413": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/1170413/intellij-augment-0.491.0-stable.zip?updateId=1170413&pluginId=24072&family=INTELLIJ",
+      "sha256": "icIZtX+go4OHr//fnhqXcdigyU0bv/RloC7h9nVADvU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lang",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "intellij-augment-0.491.0-stable.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1170415": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24072/1170415/intellij-augment-0.491.0-stable.zip?updateId=1170415&pluginId=24072&family=INTELLIJ",
+      "sha256": "icIZtX+go4OHr//fnhqXcdigyU0bv/RloC7h9nVADvU=",
+      "channel": "release-candidate",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "intellij-augment-0.491.0-stable.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -13015,7 +13051,8 @@
       "0.482.1-stable": 1093720,
       "0.482.3-stable": 1095253,
       "0.487.0-stable": 1133041,
-      "0.488.0-stable": 1141846
+      "0.488.0-stable": 1141846,
+      "0.491.0-stable": 1170415
     },
     "stable": {
       "0.0.25": 550479,
@@ -13088,6 +13125,7 @@
       "0.466.6-stable": 1046732,
       "0.482.3-stable": 1095252,
       "0.488.0-stable": 1141845,
+      "0.491.0-stable": 1170413,
       "0.5.0": 598033,
       "0.51.0": 625303,
       "0.56.0": 628707,

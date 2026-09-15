@@ -84,11 +84,29 @@
       "since": "253.31033.145",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1170023": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24829/1170023/yms-ide-2.5.12-signed.zip?updateId=1170023&pluginId=24829&family=INTELLIJ",
+      "sha256": "l3ck2ORBxnX0ZUSnbhR9gUKODS/kvEFiNwaHW1Yv1IQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "yms-ide-2.5.12-signed.zip",
+      "since": "253.31033.145",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.5.10": 1159098,
+      "2.5.12": 1170023,
       "2.5.3": 1133001,
       "2.5.7": 1158610,
       "2.5.8": 1158635,

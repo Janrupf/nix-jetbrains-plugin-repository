@@ -18,11 +18,29 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1170221": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33865/1170221/WISE-1.0.1.zip?updateId=1170221&pluginId=33865&family=INTELLIJ",
+      "sha256": "4fiG5JKemcBnzlfJqeJPZ0o97JZHdlG2AdW65PCzjRI=",
+      "channel": "release",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.ml.llm"
+      ],
+      "file_name": "WISE-1.0.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "release": {
-      "1.0": 1168605
+      "1.0": 1168605,
+      "1.0.1": 1170221
     }
   }
 }
