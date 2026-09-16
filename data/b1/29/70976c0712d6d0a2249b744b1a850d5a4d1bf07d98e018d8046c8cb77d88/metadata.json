@@ -33,11 +33,46 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1171729": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34234/1171729/archverity-2.0.2-paid-unsigned-protected-20260916-signed.zip?updateId=1171729&pluginId=34234&family=INTELLIJ",
+      "sha256": "fY9JVHJYTkha/Tgr1Cq9WlMjEuNMuA/pvb4rDFKbE3w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "archflow.developer.core",
+        "archflow.domain",
+        "com.intellij.modules.platform",
+        "intellij.platform.rpc"
+      ],
+      "optional_dependencies": [
+        "archflow.shared",
+        "archflow.protocol.kafka",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.yaml",
+        "archflow.backend",
+        "intellij.platform.rpc.backend",
+        "archflow.config.yaml",
+        "com.intellij.mcpServer",
+        "archflow.protocol.http",
+        "archflow.java.analyzer",
+        "intellij.platform.kernel.backend",
+        "archflow.kotlin.analyzer",
+        "org.jetbrains.kotlin",
+        "intellij.platform.backend",
+        "intellij.platform.ide",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "archverity-2.0.2-paid-unsigned-protected-20260916-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.0.1": 1169048
+      "2.0.1": 1169048,
+      "2.0.2": 1171729
     }
   }
 }

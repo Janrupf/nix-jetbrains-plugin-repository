@@ -35,6 +35,42 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1171269": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33954/1171269/Jira-2026.3.5.zip?updateId=1171269&pluginId=33954&family=INTELLIJ",
+      "sha256": "nzldE7nihxQoF0pAaCWlWgBRdyvrRneA1qRU9TUKdQM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.rpc"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.backend",
+        "Jira.shared"
+      ],
+      "file_name": "Jira-2026.3.5.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1171448": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33954/1171448/Jira-2026.3.6.zip?updateId=1171448&pluginId=33954&family=INTELLIJ",
+      "sha256": "mlXXZwe2zYnahlFXj5gsjJu6WW1hULiTe4BjKfILmcg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.rpc"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "Jira.shared",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "Jira-2026.3.6.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -42,7 +78,9 @@
       "1.0.0-beta.1": 1157591
     },
     "stable": {
-      "2026.3.4": 1169264
+      "2026.3.4": 1169264,
+      "2026.3.5": 1171269,
+      "2026.3.6": 1171448
     }
   }
 }

@@ -29,10 +29,85 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1171110": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34264/1171110/rider-mcp-0.11.0.zip?updateId=1171110&pluginId=34264&family=INTELLIJ",
+      "sha256": "3j9RZKi/J1Cy8V9//VWwdQvqRJVR4Rp5LeIYDSVTzJI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rider-mcp-0.11.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1171259": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34264/1171259/rider-mcp-0.10.0.zip?updateId=1171259&pluginId=34264&family=INTELLIJ",
+      "sha256": "rvbrTivoOCPt6ckuC2GDiOihh+OLGg6aoQLuMNMHcuU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rider-mcp-0.10.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1171272": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34264/1171272/mcp-server-extension-0.12.0.zip?updateId=1171272&pluginId=34264&family=INTELLIJ",
+      "sha256": "K7+99u9aQDFEV4SUrXLxkxqtJ4RTp8Ql5PheutE/ofs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-server-extension-0.12.0.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1171458": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34264/1171458/mcp-server-extension-0.12.1.zip?updateId=1171458&pluginId=34264&family=INTELLIJ",
+      "sha256": "Mg989naurmg0vzrcW4uZ4xi41i96d6ryxJT4kjyvGO8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-server-extension-0.12.1.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1171509": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34264/1171509/mcp-server-extension-0.12.2.zip?updateId=1171509&pluginId=34264&family=INTELLIJ",
+      "sha256": "GQkBzXWguiMi1D1etsqScdw2lwrBotQuty8qMaenJXE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-server-extension-0.12.2.zip",
+      "since": "243.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 1171259,
+      "0.11.0": 1171110,
+      "0.12.0": 1171272,
+      "0.12.1": 1171458,
+      "0.12.2": 1171509,
       "0.8.1": 1170828,
       "0.9.0": 1170833
     }
