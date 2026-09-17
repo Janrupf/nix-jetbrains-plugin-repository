@@ -2,23 +2,6 @@
   "xml_id": "dev.specbinder.intellij-plugin",
   "numeric_id": 30540,
   "updates": {
-    "983831": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/30540/983831/spec-binder-intellij-plugin-0.2.2.zip?updateId=983831&pluginId=30540&family=INTELLIJ",
-      "sha256": "iIA4b6jGDbHx7wxFW+1hSGQQlsUueW4arexpRwaestk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [
-        "com.intellij.modules.java",
-        "JUnit"
-      ],
-      "file_name": "spec-binder-intellij-plugin-0.2.2.zip",
-      "since": "242.0",
-      "until": "253.*",
-      "compatibility_overrides": []
-    },
     "994293": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/30540/994293/spec-binder-intellij-plugin-0.3.0.zip?updateId=994293&pluginId=30540&family=INTELLIJ",
       "sha256": "upIovWGqECqeMsDkRdMClZOJioYEkJHwmbVetRmvOok=",
@@ -266,11 +249,29 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1172043": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30540/1172043/spec-binder-intellij-plugin-2026.18.0.zip?updateId=1172043&pluginId=30540&family=INTELLIJ",
+      "sha256": "q2/klHTosSfeVvhyNIbTeunR+slu+xvpAGt7Q/Nm1lI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "JUnit",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "spec-binder-intellij-plugin-2026.18.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.2": 983831,
       "0.3.0": 994293,
       "0.3.3": 994303,
       "0.4.0": 1008181,
@@ -284,7 +285,8 @@
       "2026.14.0": 1121806,
       "2026.15.0": 1121961,
       "2026.16.0": 1122307,
-      "2026.17.0": 1156641
+      "2026.17.0": 1156641,
+      "2026.18.0": 1172043
     }
   }
 }

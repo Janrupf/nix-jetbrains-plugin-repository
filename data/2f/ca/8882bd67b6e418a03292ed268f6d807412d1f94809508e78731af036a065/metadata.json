@@ -56,13 +56,33 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1172680": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32872/1172680/vulnspotter-plugin-1.0.3.zip?updateId=1172680&pluginId=32872&family=INTELLIJ",
+      "sha256": "+6PQM2XyqebW+5SSvqP417W7R0cMn93Wc2IN3TfyD6U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.gradle",
+        "org.intellij.groovy",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "vulnspotter-plugin-1.0.3.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1105895,
       "1.0.1": 1116273,
-      "1.0.2": 1169521
+      "1.0.2": 1169521,
+      "1.0.3": 1172680
     }
   }
 }

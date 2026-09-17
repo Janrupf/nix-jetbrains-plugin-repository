@@ -2,18 +2,34 @@
   "xml_id": "com.composeatlas.plugin",
   "numeric_id": 34256,
   "updates": {
-    "1170164": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34256/1170164/compose-atlas-0.1.2-signed.zip?updateId=1170164&pluginId=34256&family=INTELLIJ",
-      "sha256": "ebYD9DiQYKhGmYHFGF772lnUuBwcbaLrkzvrHeq/nxo=",
+    "1171890": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34256/1171890/compose-atlas-1.0.0-beta.zip?updateId=1171890&pluginId=34256&family=INTELLIJ",
+      "sha256": "wEo0PP+WBKEry2yyF/wDw2dBSm7QNXaXGMQqm8AAZAU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
+        "org.jetbrains.android",
         "com.intellij.modules.platform",
-        "org.jetbrains.android"
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
-      "file_name": "compose-atlas-0.1.2-signed.zip",
+      "file_name": "compose-atlas-1.0.0-beta.zip",
+      "since": "241.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1172663": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34256/1172663/compose-atlas-1.0.1-obfuscated-signed.zip?updateId=1172663&pluginId=34256&family=INTELLIJ",
+      "sha256": "5yYEbqFLlRHijQNrIB0lALD4YJ+AG2JfKEuDzbM83pk=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.kotlin",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "compose-atlas-1.0.1-obfuscated-signed.zip",
       "since": "241.0",
       "until": "263.*",
       "compatibility_overrides": []
@@ -21,7 +37,8 @@
   },
   "channels": {
     "stable": {
-      "0.1.2": 1170164
+      "1.0.0-beta": 1171890,
+      "1.0.1": 1172663
     }
   }
 }

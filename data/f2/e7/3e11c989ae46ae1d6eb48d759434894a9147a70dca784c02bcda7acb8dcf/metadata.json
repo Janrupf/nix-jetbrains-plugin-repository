@@ -2,34 +2,6 @@
   "xml_id": "ai.mipham.code",
   "numeric_id": 33597,
   "updates": {
-    "1141168": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33597/1141168/mipham-code-jetbrains-0.44.0.zip?updateId=1141168&pluginId=33597&family=INTELLIJ",
-      "sha256": "DDWtf5NaFkxOcfEF65KLqW8mQ50ncea7hf3nzxOkuOg=",
-      "channel": "stale",
-      "dependencies": [
-        "org.jetbrains.plugins.terminal",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "mipham-code-jetbrains-0.44.0.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1141221": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/33597/1141221/mipham-code-jetbrains-0.44.3.zip?updateId=1141221&pluginId=33597&family=INTELLIJ",
-      "sha256": "IxiTq6mh9cgWaUHTdEb7hanknK0IuXnoJeSKHhDIOMk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
-      ],
-      "optional_dependencies": [],
-      "file_name": "mipham-code-jetbrains-0.44.3.zip",
-      "since": "243.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1142469": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/33597/1142469/mipham-code-jetbrains-0.48.0.zip?updateId=1142469&pluginId=33597&family=INTELLIJ",
       "sha256": "coj0ccbVuDM7m22raMzwpYIdsrTwy+l/LbO6upT1WjI=",
@@ -645,11 +617,24 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1172755": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33597/1172755/mipham-code-jetbrains-0.81.7.zip?updateId=1172755&pluginId=33597&family=INTELLIJ",
+      "sha256": "XW2gpm5ojUlM4cm5JUQHqcMS5o+99JASXmk/kXu3BNY=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mipham-code-jetbrains-0.81.7.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.44.3": 1141221,
       "0.48.0": 1142469,
       "0.49.0": 1142707,
       "0.50.0": 1143774,
@@ -693,10 +678,8 @@
       "0.81.2": 1170218,
       "0.81.3": 1170229,
       "0.81.5": 1170374,
-      "0.81.6": 1170877
-    },
-    "stale": {
-      "0.44.0": 1141168
+      "0.81.6": 1170877,
+      "0.81.7": 1172755
     }
   }
 }

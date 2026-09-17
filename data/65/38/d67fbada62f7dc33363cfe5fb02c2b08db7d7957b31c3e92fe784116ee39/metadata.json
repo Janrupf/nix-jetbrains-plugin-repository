@@ -40,13 +40,29 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1172014": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31590/1172014/docker-4.0.0-signed.zip?updateId=1172014&pluginId=31590&family=INTELLIJ",
+      "sha256": "ru92qPxAMZ3T2cUiP4kjPGydIRskdJGirBAEnYP6Q9A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "docker-4.0.0-signed.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1038447,
       "2.0.0": 1077646,
-      "3.0.0": 1130764
+      "3.0.0": 1130764,
+      "4.0.0": 1172014
     }
   }
 }

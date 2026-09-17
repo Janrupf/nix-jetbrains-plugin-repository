@@ -1685,6 +1685,37 @@
       "since": "263.4732",
       "until": "263.4732.*",
       "compatibility_overrides": []
+    },
+    "1172001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24367/1172001/exposed-262.10968.63.zip?updateId=1172001&pluginId=24367&family=INTELLIJ",
+      "sha256": "17D/G3oHm6a6sgbnSlbVehXY2KJfpVQARj9hXR/cSYc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.persistence",
+        "intellij.java.psi",
+        "intellij.database.core.impl",
+        "intellij.database.sql.impl",
+        "intellij.kotlin.codeInsight.liveTemplates",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.sql",
+        "intellij.platform.backend",
+        "intellij.database.util",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.idea.ultimate",
+        "com.intellij.database",
+        "intellij.java.ultimate.icons"
+      ],
+      "optional_dependencies": [
+        "intellij.javaee.jpa.jpb.model.core",
+        "intellij.database",
+        "com.intellij.javaee.reverseEngineering",
+        "intellij.platform.monolith",
+        "com.intellij.jpa.jpb.model"
+      ],
+      "file_name": "exposed-262.10968.63.zip",
+      "since": "262.10968",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1757,6 +1788,7 @@
       "261.22158.121": 984464,
       "261.22158.182": 989413,
       "261.22158.46": 977934,
+      "262.10968.63": 1172001,
       "262.4852.50": 1041933,
       "262.5752.32": 1048118,
       "262.6228.19": 1052774,

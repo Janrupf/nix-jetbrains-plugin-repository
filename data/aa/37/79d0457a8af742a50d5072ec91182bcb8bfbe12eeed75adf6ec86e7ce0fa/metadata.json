@@ -3653,12 +3653,38 @@
       "since": "242.20224.300",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1171973": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7973/1171973/sonarlint-intellij-12.10.0.85287.zip?updateId=1171973&pluginId=7973&family=INTELLIJ",
+      "sha256": "omTnCjhJnwbjcJD/Cw2+k1zCPcb1E8ENDBwrLZCLd/g=",
+      "channel": "dogfood",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.plugins.clion.radler",
+        "intellij.jupyter",
+        "JavaScript",
+        "com.intellij.cidr.lang",
+        "com.intellij.modules.rider",
+        "com.intellij.modules.java",
+        "com.intellij.clion",
+        "com.intellij.modules.jcef",
+        "com.intellij.database",
+        "Git4Idea"
+      ],
+      "file_name": "sonarlint-intellij-12.10.0.85287.zip",
+      "since": "242.20224.300",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "dogfood": {
       "12.10.0.85278": 1171093,
       "12.10.0.85285": 1171312,
+      "12.10.0.85287": 1171973,
       "12.8.0.85125": 1143997,
       "12.8.0.85127": 1144521,
       "12.8.0.85129": 1144539,
