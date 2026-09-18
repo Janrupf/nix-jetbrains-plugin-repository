@@ -20,11 +20,31 @@
       "since": "262.10315",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1173124": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33375/1173124/eclipse-262.10968.75.zip?updateId=1173124&pluginId=33375&family=INTELLIJ",
+      "sha256": "IeM0MH1VkG+Vl6BUJVfiABvPfEXlobsOXG9xzOGl6+Q=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.impl",
+        "intellij.java.compiler",
+        "intellij.java.frontback.psi",
+        "intellij.java.syntax",
+        "intellij.java.ui",
+        "intellij.java.psi",
+        "intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "eclipse-262.10968.75.zip",
+      "since": "262.10968",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "262.10315.167": 1163679
+      "262.10315.167": 1163679,
+      "262.10968.75": 1173124
     }
   }
 }

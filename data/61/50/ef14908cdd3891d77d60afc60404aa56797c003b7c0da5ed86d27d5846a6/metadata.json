@@ -14,11 +14,25 @@
       "since": "212.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1173154": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31244/1173154/graphnode-sast.zip?updateId=1173154&pluginId=31244&family=INTELLIJ",
+      "sha256": "tyN2nhRnnOHHepCQqssLLZ+SwfomAA/ra89yX7N9lLw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "graphnode-sast.zip",
+      "since": "212.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.4": 1020417
+      "1.0.4": 1020417,
+      "1.0.5": 1173154
     }
   }
 }

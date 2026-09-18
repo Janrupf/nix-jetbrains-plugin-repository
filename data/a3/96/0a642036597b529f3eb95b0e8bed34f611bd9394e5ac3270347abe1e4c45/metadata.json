@@ -41,11 +41,53 @@
       "since": "263.5160",
       "until": "263.5160",
       "compatibility_overrides": []
+    },
+    "1173182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34198/1173182/extendedToolWindowsUi-263.5153.33.zip?updateId=1173182&pluginId=34198&family=INTELLIJ",
+      "sha256": "9k+6u+e8OYs3ZmvykzMOmmMT2TtkYLdC85l6MfwbqXY=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.ide.core",
+        "intellij.platform.util.ui",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.projectModel",
+        "intellij.platform.core.ui"
+      ],
+      "file_name": "extendedToolWindowsUi-263.5153.33.zip",
+      "since": "263.5153",
+      "until": "263.5153.*",
+      "compatibility_overrides": []
+    },
+    "1173685": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34198/1173685/extendedToolWindowsUi-263.4732.28.zip?updateId=1173685&pluginId=34198&family=INTELLIJ",
+      "sha256": "6BAggu5xo6vfeSGyOklj9iWA+OUj4zpJRdJLi3JKAMI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.frontend"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.ide.core",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.projectModel"
+      ],
+      "file_name": "extendedToolWindowsUi-263.4732.28.zip",
+      "since": "263.4732",
+      "until": "263.4732.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "263.4732.28": 1173685,
       "263.4897.0": 1166660,
+      "263.5153.33": 1173182,
       "263.5160.0": 1171100
     }
   }

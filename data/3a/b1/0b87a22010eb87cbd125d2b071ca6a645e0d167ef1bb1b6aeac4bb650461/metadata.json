@@ -95,12 +95,63 @@
       "since": "263.4732",
       "until": "263.4732.*",
       "compatibility_overrides": []
+    },
+    "1173258": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33386/1173258/storybook-263.5153.33.zip?updateId=1173258&pluginId=33386&family=INTELLIJ",
+      "sha256": "Jy55UO8uk/HIM2/8NpYccd6X/cr3C13Gr1DcrpTgheI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.projectModel",
+        "intellij.platform.rpc",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.kernel",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.project",
+        "intellij.platform.ide.impl",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "JavaScript",
+        "intellij.platform.core",
+        "fleet.rpc"
+      ],
+      "optional_dependencies": [
+        "intellij.storybook.frontend",
+        "intellij.javascript.psi.impl",
+        "intellij.platform.core.impl",
+        "intellij.platform.core.ui",
+        "intellij.platform.lang",
+        "intellij.platform.util.coroutines",
+        "intellij.javascript.backend",
+        "intellij.platform.ide.core",
+        "intellij.platform.util.ui",
+        "intellij.storybook.shared",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.statistics",
+        "intellij.platform.editor.ui",
+        "intellij.platform.analysis",
+        "intellij.platform.execution.impl",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.execution",
+        "intellij.platform.vcs",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.ide",
+        "intellij.terminal.frontend",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.feedback",
+        "intellij.platform.lang.impl",
+        "intellij.platform.vcs.impl"
+      ],
+      "file_name": "storybook-263.5153.33.zip",
+      "since": "263.5153",
+      "until": "263.5153.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "263.3889.65": 1159786,
-      "263.4732.7": 1166892
+      "263.4732.7": 1166892,
+      "263.5153.33": 1173258
     }
   }
 }

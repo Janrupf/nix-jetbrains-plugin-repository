@@ -2216,6 +2216,67 @@
       "since": null,
       "until": null,
       "compatibility_overrides": []
+    },
+    "1173110": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27879/1173110/go-frontend-262.10968.75.zip?updateId=1173110&pluginId=27879&family=INTELLIJ",
+      "sha256": "5cRV+JzaR6U+0v0+9TDD2ZrrSKlYEAksayGXRBWLKY0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.jetbrains.client",
+        "intellij.platform.frontend.split"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.platform.frontend",
+        "intellij.go.frontback",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.compose"
+      ],
+      "file_name": "go-frontend-262.10968.75.zip",
+      "since": "262.10968",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1173156": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27879/1173156/go-frontend-263.5153.33.zip?updateId=1173156&pluginId=27879&family=INTELLIJ",
+      "sha256": "ymL/2s4E1l1F2ysH2nIz2Hk/Jk7D9lAlJTdK45J4MP8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lang.impl",
+        "intellij.platform.frontend.split",
+        "intellij.libraries.guava",
+        "intellij.platform.core.impl",
+        "intellij.platform.lang",
+        "intellij.platform.codeStyle",
+        "com.intellij.jetbrains.client",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.editor.ui",
+        "intellij.platform.rpc",
+        "intellij.libraries.fastutil",
+        "intellij.libraries.stream",
+        "intellij.platform.analysis",
+        "intellij.platform.projectModel"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.ide",
+        "fleet.rhizomedb",
+        "intellij.platform.project",
+        "intellij.platform.core.ui",
+        "intellij.platform.core",
+        "intellij.go.frontback",
+        "intellij.platform.ide.core",
+        "intellij.platform.util.ui",
+        "intellij.platform.ide.nonModalWelcomeScreen",
+        "intellij.platform.frontend",
+        "intellij.platform.ide.impl",
+        "intellij.platform.kernel",
+        "intellij.platform.statistics"
+      ],
+      "file_name": "go-frontend-263.5153.33.zip",
+      "since": "263.5153",
+      "until": "263.5153.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2258,6 +2319,7 @@
       "262.10315.29": 1146223,
       "262.10315.32": 1146261,
       "262.10968.63": 1171902,
+      "262.10968.75": 1173110,
       "262.4852.39": 1041570,
       "262.5752.26": 1047688,
       "262.6228.24": 1053305,
@@ -2312,7 +2374,8 @@
       "263.4732.31": 1168580,
       "263.4732.34": 1168116,
       "263.4732.41": 1168151,
-      "263.4732.7": 1166807
+      "263.4732.7": 1166807,
+      "263.5153.33": 1173156
     }
   }
 }

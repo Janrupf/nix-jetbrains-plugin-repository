@@ -2,21 +2,6 @@
   "xml_id": "io.openapiprocessor.intellij",
   "numeric_id": 17008,
   "updates": {
-    "123191": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/17008/123191/openapi-processor-intellij-2021.1-SNAPSHOT.zip?updateId=123191&pluginId=17008&family=INTELLIJ",
-      "sha256": "L0SsW9endQ9hlRoodXHIHLkTWBn/VAb04cfjZukfdoM=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "openapi-processor-intellij-2021.1-SNAPSHOT.zip",
-      "since": "202.0",
-      "until": "211.*",
-      "compatibility_overrides": []
-    },
     "129143": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/17008/129143/openapi-processor-intellij-2021.1-SNAPSHOT.3.zip?updateId=129143&pluginId=17008&family=INTELLIJ",
       "sha256": "Irbe4EPbSjwMMDe9oEn0FAUwFV2XihsC6AK93l9c+Iw=",
@@ -554,6 +539,22 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1173510": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17008/1173510/openapi-processor-intellij-2026.2-SNAPSHOT.1.zip?updateId=1173510&pluginId=17008&family=INTELLIJ",
+      "sha256": "DVXSBFzU9IXDnmngDCrNCeScfMw2nOqa6qjTKeAcp1E=",
+      "channel": "snapshot",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "openapi-processor-intellij-2026.2-SNAPSHOT.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -579,10 +580,10 @@
       "2025.2-SNAPSHOT.3": 780247,
       "2025.2-SNAPSHOT.4": 787472,
       "2026.1-SNAPSHOT.1": 1014705,
-      "2026.1-SNAPSHOT.2": 1017048
+      "2026.1-SNAPSHOT.2": 1017048,
+      "2026.2-SNAPSHOT.1": 1173510
     },
     "stable": {
-      "2021.1-SNAPSHOT": 123191,
       "2022.1": 169091,
       "2022.2.1": 201415,
       "2022.3": 234378,

@@ -173,6 +173,27 @@
       "since": "261.0",
       "until": "271.*",
       "compatibility_overrides": []
+    },
+    "1172011": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29113/1172011/intellij-quanta-ai-plugin-2026.09.16.zip?updateId=1172011&pluginId=29113&family=INTELLIJ",
+      "sha256": "Ozg2qElhq1ejPKAfBmmaUrGHpVVK89dZ4Yot2p9IhHY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.backend",
+        "com.intellij.gradle",
+        "intellij-quanta-ai-plugin.shared",
+        "com.intellij.java",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.compose"
+      ],
+      "file_name": "intellij-quanta-ai-plugin-2026.09.16.zip",
+      "since": "261.0",
+      "until": "271.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -185,7 +206,8 @@
       "2026.07.29": 1119032,
       "2026.08.03": 1142846,
       "2026.08.21": 1146041,
-      "2026.09.04": 1161954
+      "2026.09.04": 1161954,
+      "2026.09.16": 1172011
     }
   }
 }

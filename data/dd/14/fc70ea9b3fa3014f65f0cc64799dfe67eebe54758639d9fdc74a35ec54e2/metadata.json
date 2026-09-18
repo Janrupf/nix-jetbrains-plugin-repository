@@ -95,12 +95,60 @@
       "since": "263.4732",
       "until": "263.4732.*",
       "compatibility_overrides": []
+    },
+    "1173273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34029/1173273/embark-263.5153.33.zip?updateId=1173273&pluginId=34029&family=INTELLIJ",
+      "sha256": "OBF44SeaEJgOMOHGupzqsbP3BaaqpxCYrhE8MkxBVPs=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.projectModel",
+        "intellij.ml.llm.activation.platform",
+        "intellij.ml.llm.activation.data.model",
+        "intellij.platform.ide.core",
+        "intellij.ml.llm.activation.facade",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.ide",
+        "intellij.platform.ide.progress",
+        "intellij.platform.ide.core.impl",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.util.coroutines",
+        "com.intellij.modules.ultimate",
+        "com.intellij.ml.llm"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "intellij.platform.backend",
+        "intellij.platform.lang.impl",
+        "intellij.vcs.git.shared",
+        "intellij.platform.rpc.backend",
+        "intellij.embark.backend",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.platform.searchEverywhere",
+        "intellij.platform.lang",
+        "intellij.platform.kernel.backend",
+        "intellij.vcs.git.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.searchEverywhere.frontend",
+        "intellij.embark.searcheverywhere.shared",
+        "intellij.platform.core.ui",
+        "com.intellij.embark",
+        "intellij.platform.util.ui"
+      ],
+      "file_name": "embark-263.5153.33.zip",
+      "since": "263.5153",
+      "until": "263.5153.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "263.3889.65": 1160025,
-      "263.4732.7": 1166896
+      "263.4732.7": 1166896,
+      "263.5153.33": 1173273
     }
   }
 }
