@@ -7913,6 +7913,40 @@
       "since": "263.4732",
       "until": "263.4732.*",
       "compatibility_overrides": []
+    },
+    "1174028": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15184/1174028/phpstan-263.5153.40.zip?updateId=1174028&pluginId=15184&family=INTELLIJ",
+      "sha256": "rJJu7zng544t7oMAPwyR6MOhddXjgIaib/xgi2QMt3I=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis.impl",
+        "intellij.platform.projectModel",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.execution",
+        "intellij.platform.util.ui",
+        "intellij.platform.core.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.ide.core",
+        "intellij.platform.webide.impl",
+        "intellij.libraries.snakeyaml",
+        "intellij.platform.analysis",
+        "intellij.platform.remote.core",
+        "intellij.platform.core.impl",
+        "intellij.libraries.gson",
+        "intellij.php.backend",
+        "intellij.platform.editor.ui",
+        "intellij.platform.core",
+        "intellij.platform.ide"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "intellij.platform.projectModel.impl",
+        "com.intellij.php.tools.quality.phpstan"
+      ],
+      "file_name": "phpstan-263.5153.40.zip",
+      "since": "263.5153",
+      "until": "263.5153.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -8411,7 +8445,8 @@
       "262.8665.176": 1102526,
       "262.8665.81": 1097126,
       "263.3889.65": 1159885,
-      "263.4732.28": 1167801
+      "263.4732.28": 1167801,
+      "263.5153.40": 1174028
     }
   }
 }

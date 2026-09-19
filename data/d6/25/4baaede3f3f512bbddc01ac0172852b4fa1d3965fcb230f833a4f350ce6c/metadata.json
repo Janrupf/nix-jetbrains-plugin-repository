@@ -615,6 +615,57 @@
       "since": "262.10315",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1174363": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26511/1174363/remoteRun-263.5153.34.zip?updateId=1174363&pluginId=26511&family=INTELLIJ",
+      "sha256": "yG2V7IK+qVB4Hz+3ekllPX5G1baouzG+ymPIaOZxgi0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.eel.tcp",
+        "intellij.platform.ssh.ui",
+        "intellij.platform.ssh",
+        "intellij.platform.execution.impl",
+        "intellij.platform.macro",
+        "intellij.platform.lang.impl",
+        "intellij.platform.ssh.core",
+        "intellij.platform.projectModel",
+        "intellij.platform.statistics",
+        "intellij.platform.execution",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang",
+        "intellij.platform.ide.core",
+        "intellij.libraries.jsch.agent.proxy.sshj",
+        "intellij.platform.analysis",
+        "intellij.libraries.commons.compress",
+        "intellij.libraries.sshj",
+        "intellij.platform.ide.remote",
+        "intellij.platform.remote.core",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.ide",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.guava",
+        "intellij.platform.util.ui",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.libraries.jediterm.core",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.core.ui"
+      ],
+      "optional_dependencies": [
+        "intellij.gradle",
+        "intellij.maven",
+        "intellij.platform.externalSystem.impl",
+        "intellij.sh.terminal",
+        "intellij.sh.core",
+        "intellij.terminal.backend.split"
+      ],
+      "file_name": "remoteRun-263.5153.34.zip",
+      "since": "263.5153",
+      "until": "263.5153.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -647,7 +698,8 @@
       "262.6653.38": 1060399,
       "262.7581.3": 1074196,
       "262.8377.20": 1086647,
-      "262.8665.185": 1103146
+      "262.8665.185": 1103146,
+      "263.5153.34": 1174363
     }
   }
 }

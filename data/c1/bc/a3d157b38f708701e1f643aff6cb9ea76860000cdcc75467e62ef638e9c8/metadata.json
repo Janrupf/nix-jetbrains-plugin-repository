@@ -93,45 +93,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "641700": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/16209/641700/intellij-redhat-telemetry-1.2.2-20241129-013507.zip?updateId=641700&pluginId=16209&family=INTELLIJ",
-      "sha256": "N0ss2U3lCB4kmpWGaxCf6gFAFmIpu87uK8TYZJjGZlk=",
-      "channel": "nightly",
-      "dependencies": [
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-redhat-telemetry-1.2.2-20241129-013507.zip",
-      "since": "211.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "678059": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/16209/678059/intellij-redhat-telemetry-1.2.2-20250208-012803.zip?updateId=678059&pluginId=16209&family=INTELLIJ",
-      "sha256": "fmeF1zp3PmDyGkyBbowiXpPZe0AOPc8FtgSjsmtlxpo=",
-      "channel": "nightly",
-      "dependencies": [
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-redhat-telemetry-1.2.2-20250208-012803.zip",
-      "since": "231.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "681085": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/16209/681085/intellij-redhat-telemetry-1.2.2-20250214-012844.zip?updateId=681085&pluginId=16209&family=INTELLIJ",
-      "sha256": "GM7h0ei+22kHDoVXWa36YCjohyH7gxU6HYhrbsXK6Mk=",
-      "channel": "nightly",
-      "dependencies": [
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-redhat-telemetry-1.2.2-20250214-012844.zip",
-      "since": "231.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "827081": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/16209/827081/intellij-redhat-telemetry-1.2.2-20250813-013021.zip?updateId=827081&pluginId=16209&family=INTELLIJ",
       "sha256": "i0DJd686UPcBZskaD+8LsjUc0lxNXP93uE3xDr7l4eg=",
@@ -144,13 +105,23 @@
       "since": "231.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1174376": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16209/1174376/intellij-redhat-telemetry-1.2.2.8.zip?updateId=1174376&pluginId=16209&family=INTELLIJ",
+      "sha256": "mxrl1SosjRAABRHekWS2y8LK9YGkdVQ+/7Z2KS4yslI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-redhat-telemetry-1.2.2.8.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
-      "1.2.2-20241129-013507": 641700,
-      "1.2.2-20250208-012803": 678059,
-      "1.2.2-20250214-012844": 681085,
       "1.2.2-20250813-013021": 827081
     },
     "stable": {
@@ -160,7 +131,8 @@
       "1.0.0.44": 319318,
       "1.1.0.52": 457482,
       "1.2.0.59": 573927,
-      "1.2.1.62": 584619
+      "1.2.1.62": 584619,
+      "1.2.2.8": 1174376
     }
   }
 }

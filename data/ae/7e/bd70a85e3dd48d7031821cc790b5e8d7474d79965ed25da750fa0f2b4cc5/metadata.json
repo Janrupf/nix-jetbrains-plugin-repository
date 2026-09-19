@@ -5713,6 +5713,55 @@
       "since": "263.4732",
       "until": "263.4732.*",
       "compatibility_overrides": []
+    },
+    "1174073": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7511/1174073/php-remoteInterpreter-263.5153.40.zip?updateId=1174073&pluginId=7511&family=INTELLIJ",
+      "sha256": "D15u35q0oq9H8humPKg3Tt27JYNISZnR+Rpi4Rlhwx8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis",
+        "intellij.platform.remote.core",
+        "intellij.platform.coverage",
+        "intellij.platform.ide.remote",
+        "intellij.platform.util.ui",
+        "com.intellij.modules.php-capable",
+        "intellij.libraries.guava",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.core.ui",
+        "intellij.libraries.stream",
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.projectModel.impl",
+        "intellij.php.backend",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.lang.core",
+        "intellij.platform.debugger",
+        "intellij.platform.lang.impl",
+        "intellij.platform.statistics",
+        "intellij.platform.execution",
+        "intellij.platform.util.ex",
+        "intellij.platform.projectModel",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.impl",
+        "intellij.platform.ide.core"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.execution.impl",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.php.remoteInterpreter.coverage",
+        "org.jetbrains.plugins.terminal",
+        "intellij.php.terminal.backend",
+        "com.intellij.modules.os.windows",
+        "intellij.php.coverage",
+        "org.jetbrains.plugins.wsl.remoteSdk",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "intellij.platform.ide.impl.wsl"
+      ],
+      "file_name": "php-remoteInterpreter-263.5153.40.zip",
+      "since": "263.5153",
+      "until": "263.5153.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6041,7 +6090,8 @@
       "262.8665.81": 1096993,
       "262.9437.22": 1115385,
       "263.3889.65": 1159927,
-      "263.4732.28": 1167756
+      "263.4732.28": 1167756,
+      "263.5153.40": 1174073
     }
   }
 }
