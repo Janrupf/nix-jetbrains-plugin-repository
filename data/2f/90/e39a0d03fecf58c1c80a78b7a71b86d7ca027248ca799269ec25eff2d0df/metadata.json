@@ -2,20 +2,6 @@
   "xml_id": "com.github.ycyz.starrocks.support",
   "numeric_id": 32243,
   "updates": {
-    "1078170": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32243/1078170/starrocks-datagrip-plugin-1.2.7.zip?updateId=1078170&pluginId=32243&family=INTELLIJ",
-      "sha256": "g+Wgu/SRGlzdCHGzVz/BngaKjkfal6I3h2z137uD8C4=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.database"
-      ],
-      "optional_dependencies": [],
-      "file_name": "starrocks-datagrip-plugin-1.2.7.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1105211": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32243/1105211/starrocks-datagrip-plugin-1.2.8.zip?updateId=1105211&pluginId=32243&family=INTELLIJ",
       "sha256": "2uEaYR5KJtXUfElihQOTJNL0Gcta3P/ATrXQewguj1A=",
@@ -99,17 +85,31 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1175565": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32243/1175565/starrocks-datagrip-plugin-2.0.5.zip?updateId=1175565&pluginId=32243&family=INTELLIJ",
+      "sha256": "TqM8nt7MRkLUU/W8bJX2kEU5vVHIo+bYwTvDFq44L+Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "starrocks-datagrip-plugin-2.0.5.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.2.7": 1078170,
       "1.2.8": 1105211,
       "2.0.0": 1108909,
       "2.0.1": 1113510,
       "2.0.2": 1119010,
       "2.0.3": 1119818,
-      "2.0.4": 1135601
+      "2.0.4": 1135601,
+      "2.0.5": 1175565
     }
   }
 }

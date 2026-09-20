@@ -261,6 +261,28 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1175388": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1175388/acpira-1.4.0-universal.zip?updateId=1175388&pluginId=34192&family=INTELLIJ",
+      "sha256": "kE9SScYXfm/4Ux9fow0cHEPdPm+ZFz8EYPOh+SlVhBc=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.libraries.jcef",
+        "acpira.shared",
+        "intellij.platform.backend",
+        "intellij.platform.ui.jcef",
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal",
+        "acpira.backend",
+        "acpira.frontend",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "acpira-1.4.0-universal.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -278,7 +300,8 @@
       "1.2.1-windows-arm64": 1166488,
       "1.2.1-windows-x86_64": 1166489,
       "1.3.0": 1169034,
-      "1.3.1": 1170835
+      "1.3.1": 1170835,
+      "1.4.0": 1175388
     }
   }
 }
