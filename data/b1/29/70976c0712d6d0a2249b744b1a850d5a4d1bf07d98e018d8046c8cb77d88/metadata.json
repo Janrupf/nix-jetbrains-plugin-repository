@@ -67,12 +67,48 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1176079": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34234/1176079/archverity-2.0.3-20260921-unsigned-protected-signed.zip?updateId=1176079&pluginId=34234&family=INTELLIJ",
+      "sha256": "pTz5kNr3PQYToJGrNfUViPsv6pF7owSmdao5tYV8b4o=",
+      "channel": "stable",
+      "dependencies": [
+        "archflow.domain",
+        "archflow.developer.core",
+        "com.intellij.modules.platform",
+        "intellij.platform.rpc",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "archflow.shared",
+        "intellij.platform.rpc.backend",
+        "archflow.protocol.http",
+        "archflow.java.analyzer",
+        "archflow.kotlin.analyzer",
+        "intellij.platform.kernel.backend",
+        "org.jetbrains.kotlin",
+        "intellij.platform.backend",
+        "archflow.config.yaml",
+        "com.intellij.mcpServer",
+        "archflow.backend",
+        "com.intellij.modules.jcef",
+        "intellij.platform.ide",
+        "intellij.xml.psi.impl",
+        "archflow.protocol.kafka",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "archverity-2.0.3-20260921-unsigned-protected-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.0.1": 1169048,
-      "2.0.2": 1171729
+      "2.0.2": 1171729,
+      "2.0.3": 1176079
     }
   }
 }

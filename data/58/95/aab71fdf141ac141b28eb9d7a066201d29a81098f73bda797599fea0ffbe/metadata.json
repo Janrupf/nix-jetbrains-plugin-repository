@@ -329,6 +329,61 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1176227": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31508/1176227/agent-dock-1.10.0-signed.zip?updateId=1176227&pluginId=31508&family=INTELLIJ",
+      "sha256": "XAouYeb89C9SZV/h7D/Alf4nQmSVguDaRCkCHFR5XRI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "agent-dock-1.10.0-signed.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1176369": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31508/1176369/agent-dock-1.10.1-signed.zip?updateId=1176369&pluginId=31508&family=INTELLIJ",
+      "sha256": "XLGHTJ6Y+XGwK9+LxmXEwiKZNX7B0a8sREAOuG4qrEs=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "agent-dock.shared",
+        "intellij.platform.rpc.backend",
+        "agent-dock.backend-libraries",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.vcs",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.frontend",
+        "agent-dock.frontend",
+        "intellij.platform.backend",
+        "intellij.terminal.frontend"
+      ],
+      "file_name": "agent-dock-1.10.1-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1176372": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31508/1176372/agent-dock-1.10.2-signed.zip?updateId=1176372&pluginId=31508&family=INTELLIJ",
+      "sha256": "cwMxptIAqnIgDdYOg83JCOWqAlSsj4ZIXU3SFLizNU0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "agent-dock-1.10.2-signed.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -336,6 +391,9 @@
       "1.0.0": 1034355,
       "1.1.1": 1038095,
       "1.1.2": 1040909,
+      "1.10.0": 1176227,
+      "1.10.1": 1176369,
+      "1.10.2": 1176372,
       "1.2.0": 1046182,
       "1.2.1": 1056661,
       "1.2.2": 1067601,

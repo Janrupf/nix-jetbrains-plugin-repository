@@ -16,11 +16,27 @@
       "since": "242.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1176411": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34391/1176411/teal-intellij-0.2.0.zip?updateId=1176411&pluginId=34391&family=INTELLIJ",
+      "sha256": "yCcUv/uJyNRyytN2HM66g0+VMWefWlNEl7nsTgYOW5s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.textmate",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "teal-intellij-0.2.0.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1175818
+      "0.1.0": 1175818,
+      "0.2.0": 1176411
     }
   }
 }
