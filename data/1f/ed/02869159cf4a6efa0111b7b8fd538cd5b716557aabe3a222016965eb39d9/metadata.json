@@ -4078,6 +4078,71 @@
       "since": "262.10968",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1176773": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9525/1176773/dotenv-263.5153.49.zip?updateId=1176773&pluginId=9525&family=INTELLIJ",
+      "sha256": "rJ2FSNQSoKDWnv7guROkbGFbjT8bhnuy10wIORDEmq8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.platform.lang.impl",
+        "intellij.platform.refactoring",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.core.impl",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.core",
+        "intellij.platform.core",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.analysis",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang.core",
+        "intellij.platform.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.dotenv.java",
+        "intellij.java.psi",
+        "com.intellij.modules.python",
+        "org.jetbrains.kotlin",
+        "intellij.java.backend",
+        "intellij.platform.core.ui",
+        "intellij.libraries.kotlinc.kotlin.compiler.common"
+      ],
+      "file_name": "dotenv-263.5153.49.zip",
+      "since": "263.5153",
+      "until": "263.5153.*",
+      "compatibility_overrides": []
+    },
+    "1176999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9525/1176999/dotenv-262.10968.117.zip?updateId=1176999&pluginId=9525&family=INTELLIJ",
+      "sha256": "XnpV0HpddJgW3VOgJ9NO+0mMgldFpmOohj0JRFnbOts=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.clouds.docker.file.backend",
+        "ru.adelf.idea.dotenv",
+        "intellij.rustrover.common",
+        "intellij.dotenv.java",
+        "intellij.java.psi",
+        "com.intellij.modules.python",
+        "com.intellij.modules.ruby",
+        "com.jetbrains.php",
+        "intellij.rustrover.core",
+        "intellij.java.backend",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.kotlin",
+        "intellij.php.frontback.impl",
+        "intellij.yaml",
+        "intellij.yaml.backend",
+        "Docker",
+        "intellij.clouds.docker.file",
+        "intellij.ruby.backend"
+      ],
+      "file_name": "dotenv-262.10968.117.zip",
+      "since": "262.10968",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4220,6 +4285,7 @@
       "262.10315.19": 1145197,
       "262.10315.23": 1146078,
       "262.10315.69": 1152063,
+      "262.10968.117": 1176999,
       "262.10968.63": 1171928,
       "262.10968.92": 1174755,
       "262.4852.34": 1040184,
@@ -4260,7 +4326,8 @@
       "263.3889.77": 1161365,
       "263.4732.31": 1168588,
       "263.4732.7": 1166943,
-      "263.5153.33": 1173301
+      "263.5153.33": 1173301,
+      "263.5153.49": 1176773
     }
   }
 }

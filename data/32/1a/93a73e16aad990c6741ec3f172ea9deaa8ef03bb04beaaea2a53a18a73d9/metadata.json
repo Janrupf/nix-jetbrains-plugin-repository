@@ -397,6 +397,27 @@
       "since": "253.29346.138",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1177373": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31965/1177373/claude-code-native-6.0.1-signed.zip?updateId=1177373&pluginId=31965&family=INTELLIJ",
+      "sha256": "a+1ka43eMCxT8hCXYY4SA2q+T9iXQ0/jYVNkRLrGUNs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "Git4Idea",
+        "org.jetbrains.plugins.github",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.database",
+        "org.intellij.intelliLang"
+      ],
+      "file_name": "claude-code-native-6.0.1-signed.zip",
+      "since": "253.29346.138",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -426,7 +447,8 @@
       "5.7.0": 1155415,
       "5.8.0": 1155846,
       "5.8.1": 1157273,
-      "6.0.0": 1169449
+      "6.0.0": 1169449,
+      "6.0.1": 1177373
     }
   }
 }

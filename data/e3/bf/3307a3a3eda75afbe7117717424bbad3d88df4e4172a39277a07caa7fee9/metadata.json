@@ -48,13 +48,49 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1176020": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34264/1176020/mcp-server-extension-1.1.0.zip?updateId=1176020&pluginId=34264&family=INTELLIJ",
+      "sha256": "UG6BoPhSjWmYdBXtB2yKxkTXJ7iIc6qzvQ5l+z0dB8g=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.testRunner.plugin",
+        "com.intellij.modules.rider",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "mcp-server-extension-1.1.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1176831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34264/1176831/mcp-server-extension-1.1.2.zip?updateId=1176831&pluginId=34264&family=INTELLIJ",
+      "sha256": "9cyQxA93eFxsGaL4JbaXSBhMkynkPs0SWCRwL+uo7qo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "intellij.testRunner.plugin",
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "mcp-server-extension-1.1.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1172921,
       "1.0.3": 1173748,
-      "1.0.6": 1174778
+      "1.0.6": 1174778,
+      "1.1.0": 1176020,
+      "1.1.2": 1176831
     }
   }
 }

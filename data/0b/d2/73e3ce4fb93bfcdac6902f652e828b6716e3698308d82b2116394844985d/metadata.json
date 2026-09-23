@@ -16,11 +16,43 @@
       "since": "262.9437.286",
       "until": "262.9437.286",
       "compatibility_overrides": []
+    },
+    "1176986": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34389/1176986/ReqWS-0.1.6-goland-plugin.zip?updateId=1176986&pluginId=34389&family=INTELLIJ",
+      "sha256": "ImhJUd2Eyl3Uu8BFeSOp3ws0IQFQ/RkQ3SzhYn1Sm0o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.goland",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ReqWS-0.1.6-goland-plugin.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1177315": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34389/1177315/plugin.zip?updateId=1177315&pluginId=34389&family=INTELLIJ",
+      "sha256": "VD5lnDQ0afbuCIu9N06Un90vBI28UBt7hZneN0EBzaM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.goland",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "plugin.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.5": 1175775
+      "0.1.5": 1175775,
+      "0.1.6": 1176986,
+      "0.1.7": 1177315
     }
   }
 }

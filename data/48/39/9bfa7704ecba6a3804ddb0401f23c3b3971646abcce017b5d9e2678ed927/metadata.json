@@ -72,20 +72,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1133849": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32210/1133849/atlassian_assistant-5.0-signed.zip?updateId=1133849&pluginId=32210&family=INTELLIJ",
-      "sha256": "FHyYGcf51as4YK11+USxBrwd+2YXlWVphU7UBZt4Dhc=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "atlassian_assistant-5.0-signed.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1176048": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/32210/1176048/atlassian_assistant-5.2-signed.zip?updateId=1176048&pluginId=32210&family=INTELLIJ",
       "sha256": "j5kNksV9w+h3/x5x2dT5cErr2G+Ikhiz+Sb0EbXJOKg=",
@@ -101,6 +87,22 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1177012": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32210/1177012/atlassian_assistant-5.3-signed.zip?updateId=1177012&pluginId=32210&family=INTELLIJ",
+      "sha256": "49NGUvQKgsxFk54UdHf1Q8sGX6NI5JFrwAk9Y6Ey1uc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "atlassian_assistant-5.3-signed.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -110,8 +112,8 @@
       "2.4": 1097134,
       "3.0": 1101664,
       "4.0": 1126758,
-      "5.0": 1133849,
-      "5.2": 1176048
+      "5.2": 1176048,
+      "5.3": 1177012
     }
   }
 }
