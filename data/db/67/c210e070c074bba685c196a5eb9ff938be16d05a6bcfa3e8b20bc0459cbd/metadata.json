@@ -27,12 +27,42 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1177648": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33403/1177648/siphrix-jetbrains-2.3.0.zip?updateId=1177648&pluginId=33403&family=INTELLIJ",
+      "sha256": "1iJEicYIRnHCid8PmQHWzfMjt9FPofBsPfSlHKyPn2g=",
+      "channel": "default",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "siphrix-jetbrains-2.3.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1177650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33403/1177650/siphrix-jetbrains-2.3.0.zip?updateId=1177650&pluginId=33403&family=INTELLIJ",
+      "sha256": "YuqP8h4N0zP7EjROIM7y8pSKwkrxpjGwZ4UrMqOPipg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "siphrix-jetbrains-2.3.0.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "default": {
+      "2.3.0": 1177648
+    },
     "stable": {
       "0.1.2": 1131804,
-      "2.0.0": 1145675
+      "2.0.0": 1145675,
+      "2.3.0": 1177650
     }
   }
 }
