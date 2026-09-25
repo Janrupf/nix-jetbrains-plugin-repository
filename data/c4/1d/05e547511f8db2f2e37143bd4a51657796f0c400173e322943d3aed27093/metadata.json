@@ -1,0 +1,62 @@
+{
+  "xml_id": "am.ghi.language",
+  "numeric_id": 34508,
+  "updates": {
+    "1179050": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34508/1179050/ghi-goland-0.1.0.zip?updateId=1179050&pluginId=34508&family=INTELLIJ",
+      "sha256": "kSoViy6g5DYWncnQY8Y7BAKyEuYBzScpVVT+O4sv0u8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ghi-goland-0.1.0.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1179200": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34508/1179200/ghi-goland-0.1.1.zip?updateId=1179200&pluginId=34508&family=INTELLIJ",
+      "sha256": "L0KqD7lgECfldgrK+rXImbLMMAeEZCW/bEXmdbYF5e8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ghi-goland-0.1.1.zip",
+      "since": "262.*",
+      "until": "262.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "262.0",
+          "applies_until": "262.*",
+          "compatible_since": "262.*",
+          "compatible_until": "262.*"
+        }
+      ]
+    },
+    "1179203": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34508/1179203/ghi-goland-0.1.2.zip?updateId=1179203&pluginId=34508&family=INTELLIJ",
+      "sha256": "Pz/nmfkTPCpfJxBBTuMtoHZKNwmSikB5ScRa6z4wcGc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.go"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ghi-goland-0.1.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 1179050,
+      "0.1.1": 1179200,
+      "0.1.2": 1179203
+    }
+  }
+}

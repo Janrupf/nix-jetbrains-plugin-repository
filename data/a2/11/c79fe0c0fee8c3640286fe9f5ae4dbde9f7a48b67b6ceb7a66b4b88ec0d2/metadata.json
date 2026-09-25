@@ -29,12 +29,44 @@
       "since": "262.10315.125",
       "until": "262.10968.63",
       "compatibility_overrides": []
+    },
+    "1178334": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34221/1178334/merkzeug-1.2.0.zip?updateId=1178334&pluginId=34221&family=INTELLIJ",
+      "sha256": "RaTVeEMLVzPJ87DcSjLcINjZEb4BA32J/AbZ52pDynQ=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "merkzeug-1.2.0.zip",
+      "since": "262.10315.125",
+      "until": "262.10968.63",
+      "compatibility_overrides": []
+    },
+    "1178352": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34221/1178352/merkzeug-1.2.0.zip?updateId=1178352&pluginId=34221&family=INTELLIJ",
+      "sha256": "S4pt65PO1iyBm+8vYO+WksMDMM8OAA6jn3w/Z2WLZgs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "merkzeug-1.2.0.zip",
+      "since": "262.10315.125",
+      "until": "262.10968.63",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "1.0.0": 1168301,
-      "1.0.1": 1176838
+      "1.0.1": 1176838,
+      "1.2.0": 1178334
+    },
+    "stable": {
+      "1.2.0": 1178352
     }
   }
 }

@@ -142,13 +142,66 @@
       "since": "263.5153",
       "until": "263.5153.*",
       "compatibility_overrides": []
+    },
+    "1178806": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34029/1178806/embark-263.5701.34.zip?updateId=1178806&pluginId=34029&family=INTELLIJ",
+      "sha256": "sjFZg1KiuJA7YBHEld/JEFmwFyknX6n8wr/7BBeUXWM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.core",
+        "intellij.platform.projectFrame",
+        "intellij.platform.projectModel",
+        "intellij.ml.llm.activation.platform",
+        "intellij.ml.llm.activation.data.model",
+        "com.intellij.ml.llm",
+        "intellij.ml.llm.activation.facade",
+        "intellij.platform.ide.progress",
+        "intellij.platform.eel.provider",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.concurrency",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.util.coroutines",
+        "intellij.platform.util.progress",
+        "intellij.platform.ide",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.kotlinx.serialization.json"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "Git4Idea",
+        "intellij.platform.rpc.backend",
+        "intellij.embark.backend",
+        "intellij.platform.searchEverywhere",
+        "intellij.vcs.git.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.searchEverywhere.frontend",
+        "intellij.platform.lang.impl",
+        "intellij.vcs.git.shared",
+        "intellij.platform.vcs.impl",
+        "intellij.embark.searcheverywhere.shared",
+        "intellij.platform.frontend",
+        "intellij.platform.ide.rpc",
+        "intellij.platform.lang",
+        "intellij.libraries.jetbrains.annotations",
+        "com.intellij.embark",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.platform.vcs.dvcs.impl"
+      ],
+      "file_name": "embark-263.5701.34.zip",
+      "since": "263.5701",
+      "until": "263.5701.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "263.3889.65": 1160025,
       "263.4732.7": 1166896,
-      "263.5153.33": 1173273
+      "263.5153.33": 1173273,
+      "263.5701.34": 1178806
     }
   }
 }

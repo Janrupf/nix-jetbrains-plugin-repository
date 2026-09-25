@@ -20,11 +20,51 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1178368": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33475/1178368/docker-compose-visualizer-1.1.0.zip?updateId=1178368&pluginId=33475&family=INTELLIJ",
+      "sha256": "FYDOMg2OktyZgwtqhRXtJf2DR3+y6fptPk3boI9aVY0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "org.jetbrains.plugins.yaml",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.foundation"
+      ],
+      "optional_dependencies": [],
+      "file_name": "docker-compose-visualizer-1.1.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1178894": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33475/1178894/docker-compose-visualizer-1.1.1.zip?updateId=1178894&pluginId=33475&family=INTELLIJ",
+      "sha256": "mwbtMgFNNmISWYuCCV2U5K706HuduyTmRcHgTLGvp2M=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "docker-compose-visualizer-1.1.1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1168145
+      "1.0.0": 1168145,
+      "1.1.0": 1178368,
+      "1.1.1": 1178894
     }
   }
 }

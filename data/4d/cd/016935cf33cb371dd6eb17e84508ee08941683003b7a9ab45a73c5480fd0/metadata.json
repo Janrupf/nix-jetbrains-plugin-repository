@@ -1,6 +1,42 @@
 {
   "xml_id": "com.mobcoding.okhttpsniffer",
   "numeric_id": 34462,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1178315": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34462/1178315/OkHttpSniffer-1.2.1.zip?updateId=1178315&pluginId=34462&family=INTELLIJ",
+      "sha256": "MLT1FHNwxebBWGNCsp1mlm6CAm/YbOBOPGTj8XMCMpU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.android",
+        "com.intellij.modules.androidstudio"
+      ],
+      "optional_dependencies": [],
+      "file_name": "OkHttpSniffer-1.2.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1178558": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34462/1178558/OkHttpSniffer-1.2.2.zip?updateId=1178558&pluginId=34462&family=INTELLIJ",
+      "sha256": "nEkdswRJAFV/YZ0vJ7Tzxg3I8s1Bn14MIHiUbz3Ljus=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "OkHttpSniffer-1.2.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.2.1": 1178315,
+      "1.2.2": 1178558
+    }
+  }
 }
