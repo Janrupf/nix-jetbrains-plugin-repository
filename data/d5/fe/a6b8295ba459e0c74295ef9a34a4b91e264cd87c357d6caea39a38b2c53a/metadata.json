@@ -39,11 +39,50 @@
       "since": "263.5153",
       "until": "263.5153.*",
       "compatibility_overrides": []
+    },
+    "1179876": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34352/1179876/rider-verse-263.5701.40.zip?updateId=1179876&pluginId=34352&family=INTELLIJ",
+      "sha256": "mCvjR3Hhk5ZLdTJU2iZn3nQhisL1nMfte2kpspjrHpQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jackson.databind",
+        "intellij.rd.platform",
+        "intellij.platform.ide",
+        "com.intellij.modules.rider",
+        "intellij.libraries.jackson.module.kotlin",
+        "intellij.platform.core",
+        "intellij.platform.editor.ex",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.libraries.rd.core",
+        "intellij.platform.execution",
+        "intellij.platform.util.ui",
+        "intellij.rd.client",
+        "intellij.platform.core.ui",
+        "intellij.platform.lsp",
+        "intellij.platform.core.impl",
+        "intellij.rd.ide.model.generated",
+        "intellij.libraries.eclipse.lsp4j",
+        "intellij.libraries.rd.framework",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.json",
+        "intellij.libraries.jackson",
+        "intellij.platform.ide.core",
+        "rider.intellij.plugin.appender",
+        "intellij.platform.projectModel",
+        "intellij.platform.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rider-verse-263.5701.40.zip",
+      "since": "263.5701",
+      "until": "263.5701.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "263.5153.35": 1174457
+      "263.5153.35": 1174457,
+      "263.5701.40": 1179876
     }
   }
 }

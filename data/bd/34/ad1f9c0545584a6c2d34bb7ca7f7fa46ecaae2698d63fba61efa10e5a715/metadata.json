@@ -239,9 +239,26 @@
       "since": "241.0",
       "until": "301.*",
       "compatibility_overrides": []
+    },
+    "1179881": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22435/1179881/values-1.10.0-eap.51.zip?updateId=1179881&pluginId=22435&family=INTELLIJ",
+      "sha256": "3DnJeDiZ+JYTtMNvl3IKmX3NhnFkFH1YO02PWJAQ0/8=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "values-1.10.0-eap.51.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.10.0-eap.51": 1179881
+    },
     "stable": {
       "1.1": 374012,
       "1.2": 374131,

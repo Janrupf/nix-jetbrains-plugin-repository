@@ -33,12 +33,48 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1179893": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28726/1179893/armada-dark-purple-intellij-plugin-2026.1.0-eap.1.zip?updateId=1179893&pluginId=28726&family=INTELLIJ",
+      "sha256": "GNvjVG/hU6NXsfz7PjUv5tEXS56v2Xq/eq7hdEBn9VQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.github.davidseptimus.armada-syntax-highlighter"
+      ],
+      "optional_dependencies": [
+        "com.intellij.classic.ui"
+      ],
+      "file_name": "armada-dark-purple-intellij-plugin-2026.1.0-eap.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1179926": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28726/1179926/armada-dark-purple-intellij-plugin-2026.1.0.zip?updateId=1179926&pluginId=28726&family=INTELLIJ",
+      "sha256": "cBCen02N0Q1RF9k7NbOj+c4fdDwDXaNx00eiapZvDIA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.github.davidseptimus.armada-syntax-highlighter"
+      ],
+      "optional_dependencies": [
+        "com.intellij.classic.ui"
+      ],
+      "file_name": "armada-dark-purple-intellij-plugin-2026.1.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "2026.1.0-eap.1": 1179893
+    },
     "stable": {
       "2025.1.1": 882968,
-      "2025.1.2": 989681
+      "2025.1.2": 989681,
+      "2026.1.0": 1179926
     }
   }
 }

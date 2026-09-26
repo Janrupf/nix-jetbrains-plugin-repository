@@ -6175,6 +6175,49 @@
       "since": "263.5153",
       "until": "263.5153.*",
       "compatibility_overrides": []
+    },
+    "1180090": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1180090/nodeJS-remoteInterpreter-263.5701.47.zip?updateId=1180090&pluginId=8116&family=INTELLIJ",
+      "sha256": "z4R7b9s7Irn2ZeXk439QHdl9idUR2P5zEQU98mMbxGQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.javascript.backend",
+        "intellij.platform.remoteServers.impl",
+        "intellij.platform.ssh",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.core",
+        "intellij.clouds.docker.agent",
+        "intellij.platform.execution",
+        "NodeJS",
+        "intellij.platform.lang.impl",
+        "intellij.platform.ssh.core",
+        "intellij.platform.projectModel",
+        "JavaScriptDebugger",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl",
+        "intellij.platform.core.impl",
+        "JavaScript",
+        "intellij.javascript.parser",
+        "intellij.platform.ide.remote",
+        "intellij.platform.debugger",
+        "intellij.platform.remote.core",
+        "intellij.platform.remoteServers",
+        "intellij.platform.execution.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.core.ui",
+        "intellij.libraries.guava",
+        "intellij.platform.concurrency",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.kotlinx.collections.immutable"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-263.5701.47.zip",
+      "since": "263.5701",
+      "until": "263.5701.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6488,7 +6531,8 @@
       "262.8665.86": 1097174,
       "263.3889.70": 1160539,
       "263.4732.20": 1167032,
-      "263.5153.37": 1173687
+      "263.5153.37": 1173687,
+      "263.5701.47": 1180090
     }
   }
 }

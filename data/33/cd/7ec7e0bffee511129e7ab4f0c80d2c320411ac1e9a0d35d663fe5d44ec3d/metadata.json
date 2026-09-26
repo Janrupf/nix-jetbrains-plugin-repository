@@ -2253,6 +2253,42 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1180129": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28350/1180129/kilo.jetbrains-7.1.8-rc.2.zip?updateId=1180129&pluginId=28350&family=INTELLIJ",
+      "sha256": "E5dYP6gLjyoGrwaxbocjvbI8WsFjYJO9Jq0/3XWrM+M=",
+      "channel": "eap",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.terminal.frontend",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.frontend",
+        "kilo.jetbrains.shared"
+      ],
+      "file_name": "kilo.jetbrains-7.1.8-rc.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1180148": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28350/1180148/kilo.jetbrains-7.1.8.zip?updateId=1180148&pluginId=28350&family=INTELLIJ",
+      "sha256": "4MtfuwHQkEAZqrVROu6xor1XPAIzkL3iyjHV6OSW5MI=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.terminal.frontend",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
+        "kilo.jetbrains.shared"
+      ],
+      "file_name": "kilo.jetbrains-7.1.8.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2287,7 +2323,8 @@
       "7.1.7-rc.3": 1176416,
       "7.1.7-rc.4": 1177340,
       "7.1.7-rc.5": 1177855,
-      "7.1.8-rc.1": 1178909
+      "7.1.8-rc.1": 1178909,
+      "7.1.8-rc.2": 1180129
     },
     "stable": {
       "4.107.0": 880191,
@@ -2408,7 +2445,8 @@
       "7.1.4": 1158938,
       "7.1.5": 1158975,
       "7.1.6": 1164851,
-      "7.1.7": 1177919
+      "7.1.7": 1177919,
+      "7.1.8": 1180148
     }
   }
 }

@@ -1792,7 +1792,7 @@
       ],
       "file_name": "writerside-2026.02.8644.zip",
       "since": "253.0",
-      "until": null,
+      "until": "253.*",
       "compatibility_overrides": [
         {
           "applies_since": "253.0",
@@ -1821,7 +1821,7 @@
       ],
       "file_name": "writerside-2026.02.8644.zip",
       "since": "253.0",
-      "until": null,
+      "until": "253.*",
       "compatibility_overrides": [
         {
           "applies_since": "253.0",
@@ -1969,7 +1969,7 @@
       ],
       "file_name": "writerside-2026.07.8925.zip",
       "since": "261.0",
-      "until": null,
+      "until": "262.*",
       "compatibility_overrides": [
         {
           "applies_since": "261.0",
@@ -1999,7 +1999,7 @@
       ],
       "file_name": "writerside-2026.07.8925.zip",
       "since": "261.0",
-      "until": null,
+      "until": "262.*",
       "compatibility_overrides": [
         {
           "applies_since": "261.0",
@@ -2051,6 +2051,52 @@
         "tanvd.grazi"
       ],
       "file_name": "writerside-2026.08.0328.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1179832": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1179832/plugin.zip?updateId=1179832&pluginId=20158&family=INTELLIJ",
+      "sha256": "Hp76LBeGIrPUPgKV7CC1FNpzR8zYhx2Mkcyadqw4lGk=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "org.jetbrains.toolbox-enterprise-client",
+        "com.intellij.modules.writerside",
+        "tanvd.grazi"
+      ],
+      "file_name": "plugin.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1179837": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1179837/plugin.zip?updateId=1179837&pluginId=20158&family=INTELLIJ",
+      "sha256": "Hp76LBeGIrPUPgKV7CC1FNpzR8zYhx2Mkcyadqw4lGk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.toolbox-enterprise-client",
+        "tanvd.grazi",
+        "com.intellij.modules.writerside",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "plugin.zip",
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
@@ -2107,7 +2153,8 @@
       "2026.04.8711": 1012284,
       "2026.07.8918": 1118396,
       "2026.07.8925": 1119892,
-      "2026.08.0328": 1158018
+      "2026.08.0328": 1158018,
+      "2026.09.0357": 1179832
     },
     "stable": {
       "2023.03.3401": 319402,
@@ -2136,7 +2183,8 @@
       "2026.04.8711": 1012603,
       "2026.06.8817": 1072484,
       "2026.07.8925": 1120198,
-      "2026.08.0328": 1158177
+      "2026.08.0328": 1158177,
+      "2026.09.0357": 1179837
     },
     "super-early-bird": {
       "2022.09.2731": 238058,

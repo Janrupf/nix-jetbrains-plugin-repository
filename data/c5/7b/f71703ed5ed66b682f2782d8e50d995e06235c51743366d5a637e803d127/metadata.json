@@ -989,6 +989,41 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1179561": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27488/1179561/open-telemetry-plugin-2.3.1-signed.zip?updateId=1179561&pluginId=27488&family=INTELLIJ",
+      "sha256": "/Q4XCq0qZAJMqmRm8RNwcw92h6LXpXPXevIEhLrLbTw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.libraries.protobuf",
+        "com.intellij.modules.json",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.grpc",
+        "intellij.libraries.protobuf.kotlin"
+      ],
+      "optional_dependencies": [
+        "intellij.opentelemetry.core",
+        "com.intellij.mcpServer",
+        "intellij.python.community.execService",
+        "intellij.aspire.core",
+        "JavaScript",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java",
+        "org.jetbrains.plugins.go",
+        "intellij.javascript.backend",
+        "com.intellij.diagram",
+        "PythonCore",
+        "com.intellij.modules.rider",
+        "intellij.java.execution.impl",
+        "intellij.python.community.impl",
+        "intellij.rider.rdclient.dotnet",
+        "me.rafaelldi.aspire"
+      ],
+      "file_name": "open-telemetry-plugin-2.3.1-signed.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1030,7 +1065,8 @@
       "2.1.4": 1149678,
       "2.1.5": 1176053,
       "2.2.0": 1176082,
-      "2.3.0": 1178570
+      "2.3.0": 1178570,
+      "2.3.1": 1179561
     }
   }
 }

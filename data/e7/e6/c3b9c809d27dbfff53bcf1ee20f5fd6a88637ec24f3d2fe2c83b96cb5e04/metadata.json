@@ -11661,6 +11661,50 @@
       "since": "263.5153",
       "until": "263.5153.*",
       "compatibility_overrides": []
+    },
+    "1179676": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/6631/1179676/phing-263.5701.42.zip?updateId=1179676&pluginId=6631&family=INTELLIJ",
+      "sha256": "aTqNsBGI7ec6SufeYfjJ59o90rABZpfglFb3QXnH9yU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ide",
+        "intellij.libraries.fastutil",
+        "intellij.platform.analysis",
+        "intellij.platform.lvcs",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.concurrency",
+        "intellij.platform.util.ui",
+        "intellij.xml.dom.impl",
+        "intellij.xml.parser",
+        "intellij.platform.core.ui",
+        "intellij.xml.analysis",
+        "intellij.xml.impl",
+        "intellij.platform.core.impl",
+        "intellij.platform.lang",
+        "intellij.platform.execution",
+        "intellij.xml.dom",
+        "intellij.platform.core",
+        "intellij.platform.execution.impl",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.concurrency",
+        "intellij.xml.psi",
+        "intellij.php.backend",
+        "intellij.platform.macro",
+        "intellij.platform.lang.impl",
+        "intellij.platform.projectModel",
+        "intellij.platform.statistics",
+        "intellij.platform.ide.impl",
+        "com.intellij.modules.xml",
+        "intellij.platform.ide.core"
+      ],
+      "optional_dependencies": [
+        "intellij.properties.psi",
+        "com.intellij.phing"
+      ],
+      "file_name": "phing-263.5701.42.zip",
+      "since": "263.5701",
+      "until": "263.5701.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -12389,7 +12433,8 @@
       "262.8665.81": 1097011,
       "263.3889.65": 1159997,
       "263.4732.28": 1167920,
-      "263.5153.40": 1174103
+      "263.5153.40": 1174103,
+      "263.5701.42": 1179676
     }
   }
 }

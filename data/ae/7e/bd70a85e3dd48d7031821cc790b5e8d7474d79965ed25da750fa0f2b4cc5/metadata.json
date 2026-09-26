@@ -5762,6 +5762,57 @@
       "since": "263.5153",
       "until": "263.5153.*",
       "compatibility_overrides": []
+    },
+    "1179736": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7511/1179736/php-remoteInterpreter-263.5701.42.zip?updateId=1179736&pluginId=7511&family=INTELLIJ",
+      "sha256": "/7GX895qzFKV9BbwJtjxCktdkBQKIuE+W8RANx0IZ5E=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis",
+        "intellij.platform.debugger",
+        "intellij.platform.ide.remote",
+        "intellij.platform.remote.core",
+        "com.intellij.modules.php-capable",
+        "intellij.platform.core.ui",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.libraries.guava",
+        "intellij.platform.concurrency",
+        "intellij.platform.util.ui",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.stream",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.php.backend",
+        "intellij.platform.projectModel.impl",
+        "intellij.platform.execution",
+        "intellij.platform.projectModel",
+        "intellij.platform.statistics",
+        "intellij.platform.lang.core",
+        "intellij.platform.coverage",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ex",
+        "intellij.platform.ide.core"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.eel.provider",
+        "intellij.php.remoteInterpreter.coverage",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.php.terminal.backend",
+        "com.intellij.modules.os.windows",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.wsl.remoteSdk",
+        "intellij.platform.execution.impl",
+        "intellij.php.coverage",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "intellij.platform.ide.impl.wsl"
+      ],
+      "file_name": "php-remoteInterpreter-263.5701.42.zip",
+      "since": "263.5701",
+      "until": "263.5701.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6091,7 +6142,8 @@
       "262.9437.22": 1115385,
       "263.3889.65": 1159927,
       "263.4732.28": 1167756,
-      "263.5153.40": 1174073
+      "263.5153.40": 1174073,
+      "263.5701.42": 1179736
     }
   }
 }

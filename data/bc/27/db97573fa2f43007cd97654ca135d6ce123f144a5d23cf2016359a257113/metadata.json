@@ -5073,6 +5073,48 @@
       "since": "263.5153",
       "until": "263.5153.*",
       "compatibility_overrides": []
+    },
+    "1179694": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7512/1179694/behat-263.5701.42.zip?updateId=1179694&pluginId=7512&family=INTELLIJ",
+      "sha256": "cPgEAaR8NikpO/A7ygNEa9t0/zxxvvT+pQeZk11f/VU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.guava",
+        "intellij.platform.concurrency",
+        "intellij.platform.testRunner",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl",
+        "intellij.platform.codeStyle",
+        "intellij.platform.core.impl",
+        "intellij.platform.core",
+        "intellij.platform.codeStyle.impl",
+        "intellij.platform.smRunner",
+        "intellij.php.backend",
+        "intellij.platform.lang.impl",
+        "gherkin",
+        "intellij.platform.util.text.matching",
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.platform.core.ui",
+        "intellij.platform.ide",
+        "intellij.libraries.oro.matcher",
+        "intellij.platform.util.ui",
+        "intellij.platform.lang",
+        "intellij.platform.execution",
+        "intellij.platform.analysis",
+        "intellij.platform.execution.impl",
+        "intellij.libraries.fastutil",
+        "intellij.platform.editor.ui",
+        "intellij.libraries.gson"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php.behat",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "file_name": "behat-263.5701.42.zip",
+      "since": "263.5701",
+      "until": "263.5701.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5374,7 +5416,8 @@
       "262.8665.81": 1097107,
       "263.3889.65": 1160035,
       "263.4732.28": 1167750,
-      "263.5153.40": 1174099
+      "263.5153.40": 1174099,
+      "263.5701.42": 1179694
     }
   }
 }
