@@ -11,8 +11,8 @@
       ],
       "optional_dependencies": [],
       "file_name": "LsyfOllama-1.0-0816.zip",
-      "since": "251.26927",
-      "until": null,
+      "since": "261.0",
+      "until": "261.*",
       "compatibility_overrides": []
     },
     "1125831": {
@@ -27,8 +27,8 @@
       ],
       "optional_dependencies": [],
       "file_name": "LsyfOllama-1.0-SNAPSHOT.zip",
-      "since": "251.26927",
-      "until": null,
+      "since": "261.0",
+      "until": "261.*",
       "compatibility_overrides": []
     },
     "1147982": {
@@ -62,6 +62,22 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1180470": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28088/1180470/LsyfOllama-0.0.3.zip?updateId=1180470&pluginId=28088&family=INTELLIJ",
+      "sha256": "Xg0aYMU8e2AMXJqRvA3FlmPOhsWJMjJnX0zoyuwFjcg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "Git4Idea",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LsyfOllama-0.0.3.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -71,6 +87,7 @@
     "stable": {
       "0.0.1": 1147982,
       "0.0.2": 1156851,
+      "0.0.3": 1180470,
       "1.0-SNAPSHOT": 829927
     }
   }
