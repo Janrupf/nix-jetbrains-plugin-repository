@@ -207,6 +207,41 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1181287": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34234/1181287/archverity-2.0.9-premium-signed.zip?updateId=1181287&pluginId=34234&family=INTELLIJ",
+      "sha256": "VJPNGQ+6NDDeGSkfOKCCBLRjrTZnTG81NpccJ/xviuQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "intellij.platform.rpc",
+        "archflow.domain",
+        "archflow.developer.core"
+      ],
+      "optional_dependencies": [
+        "intellij.xml.psi.impl",
+        "com.intellij.mcpServer",
+        "org.jetbrains.plugins.yaml",
+        "intellij.platform.ide",
+        "archflow.shared",
+        "archflow.protocol.kafka",
+        "com.jetbrains.sh",
+        "com.intellij.modules.jcef",
+        "intellij.platform.backend",
+        "org.jetbrains.kotlin",
+        "archflow.config.yaml",
+        "archflow.protocol.http",
+        "archflow.backend",
+        "intellij.platform.kernel.backend",
+        "archflow.kotlin.analyzer",
+        "intellij.platform.rpc.backend",
+        "archflow.java.analyzer"
+      ],
+      "file_name": "archverity-2.0.9-premium-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -216,7 +251,8 @@
       "2.0.3": 1176079,
       "2.0.4": 1177322,
       "2.0.6": 1177690,
-      "2.0.7": 1178350
+      "2.0.7": 1178350,
+      "2.0.9": 1181287
     }
   }
 }

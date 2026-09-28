@@ -12944,6 +12944,73 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1181126": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13441/1181126/laravel-idea-13.4.1.253.zip?updateId=1181126&pluginId=13441&family=INTELLIJ",
+      "sha256": "SrRKkeXex3QIk0BeHHGhPN/0XPf6aERsMvDzQCAOzFM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.css",
+        "org.intellij.qodana",
+        "ru.adelf.idea.dotenv",
+        "com.jetbrains.php.blade",
+        "com.jetbrains.twig",
+        "Git4Idea",
+        "org.jetbrains.plugins.vue",
+        "com.intellij.database",
+        "com.intellij.microservices.ui",
+        "com.intellij.ml.llm",
+        "org.jetbrains.plugins.terminal",
+        "JavaScript"
+      ],
+      "file_name": "laravel-idea-13.4.1.253.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "253.0",
+          "applies_until": "999.99999",
+          "compatible_since": "253.0",
+          "compatible_until": "253.*"
+        }
+      ]
+    },
+    "1181127": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13441/1181127/laravel-idea-13.4.1.261.zip?updateId=1181127&pluginId=13441&family=INTELLIJ",
+      "sha256": "7kfE030YcfCGXd5oCyhpQy627tQjASzfOH3yUr5GzP4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.qodana",
+        "com.intellij.css",
+        "com.jetbrains.php.blade",
+        "ru.adelf.idea.dotenv",
+        "com.jetbrains.twig",
+        "com.intellij.database",
+        "Git4Idea",
+        "org.jetbrains.plugins.vue",
+        "com.intellij.ml.llm",
+        "com.intellij.microservices.ui",
+        "org.jetbrains.plugins.terminal",
+        "JavaScript"
+      ],
+      "file_name": "laravel-idea-13.4.1.261.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -13059,6 +13126,8 @@
       "13.3.1.261": 1130770,
       "13.4.0.253": 1175357,
       "13.4.0.261": 1175358,
+      "13.4.1.253": 1181126,
+      "13.4.1.261": 1181127,
       "2.0": 76622,
       "2.1": 77788,
       "2.2": 79164,
