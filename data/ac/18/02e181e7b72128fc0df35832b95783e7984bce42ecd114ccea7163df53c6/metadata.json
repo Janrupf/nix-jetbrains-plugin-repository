@@ -2,23 +2,25 @@
   "xml_id": "io.prismio",
   "numeric_id": 32192,
   "updates": {
-    "1120905": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/32192/1120905/PrismioPlugin-base.jar?updateId=1120905&pluginId=32192&family=INTELLIJ",
-      "sha256": "v/JcgjuNw1EZOwdJb6yV25kqXoMdwKIwxvPx45FmioE=",
+    "1182102": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32192/1182102/PrismioPlugin-0.1.0-pre.jar?updateId=1182102&pluginId=32192&family=INTELLIJ",
+      "sha256": "7tfpGUlligBvTfzBT1lfXFs9kwr/nxO2eWoy87SQ6Po=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.spellchecker"
       ],
       "optional_dependencies": [],
-      "file_name": "PrismioPlugin-base.jar",
-      "since": "242.0",
-      "until": "253.*",
+      "file_name": "PrismioPlugin-0.1.0-pre.jar",
+      "since": "262.0",
+      "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1120905
+      "0.1.0-pre": 1182102
     }
   }
 }

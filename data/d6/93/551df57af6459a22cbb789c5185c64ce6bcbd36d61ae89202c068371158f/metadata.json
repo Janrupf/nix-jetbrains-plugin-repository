@@ -2,23 +2,39 @@
   "xml_id": "com.tss.lark",
   "numeric_id": 34537,
   "updates": {
-    "1179863": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34537/1179863/LarkTaskPlugin-1.0.0.zip?updateId=1179863&pluginId=34537&family=INTELLIJ",
-      "sha256": "yUcrLnOGliutNBPjvx9H7HzHNsZBd35RGI2JgRJYoFA=",
+    "1181566": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34537/1181566/LarkTaskPlugin-1.0.1.zip?updateId=1181566&pluginId=34537&family=INTELLIJ",
+      "sha256": "MtnrcYewLTYF9JZaAeXZytVrUekD12a/oG4hcEvI6u8=",
       "channel": "beta",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "LarkTaskPlugin-1.0.0.zip",
+      "file_name": "LarkTaskPlugin-1.0.1.zip",
       "since": "233.0",
       "until": null,
+      "compatibility_overrides": []
+    },
+    "1181640": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34537/1181640/LarkTaskPlugin-1.0.2.zip?updateId=1181640&pluginId=34537&family=INTELLIJ",
+      "sha256": "J6/QetkURLvXzmG7xhxsFpAqCnUca9zLKBo6yse+eok=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "LarkTaskPlugin-1.0.2.zip",
+      "since": "241.0",
+      "until": "262.*",
       "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
-      "1.0.0": 1179863
+      "1.0.1": 1181566
+    },
+    "stable": {
+      "1.0.2": 1181640
     }
   }
 }

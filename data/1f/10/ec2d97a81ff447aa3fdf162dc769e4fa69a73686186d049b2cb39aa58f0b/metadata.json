@@ -2,19 +2,6 @@
   "xml_id": "com.dearlordylord.bend.idea",
   "numeric_id": 34452,
   "updates": {
-    "1178547": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34452/1178547/bend-idea-0.1.4-signed.zip?updateId=1178547&pluginId=34452&family=INTELLIJ",
-      "sha256": "2P0wR/UDLm729NcI13AYJWRZ1VhGQfP6Mifj2O0uHyk=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "bend-idea-0.1.4-signed.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1181339": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/34452/1181339/bend-idea-0.1.7-signed.zip?updateId=1181339&pluginId=34452&family=INTELLIJ",
       "sha256": "svr1VKiX9X3HQBqpvGvbmwZ8vvq2sSfCeOq395xVH7s=",
@@ -27,12 +14,27 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1181912": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34452/1181912/bend-idea-0.1.8.zip?updateId=1181912&pluginId=34452&family=INTELLIJ",
+      "sha256": "m+rE0oHTlbsutn7W4OBOzzfkIknilFzk8Ih/YS71wrQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.editorconfig.editorconfigjetbrains"
+      ],
+      "file_name": "bend-idea-0.1.8.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.4": 1178547,
-      "0.1.7": 1181339
+      "0.1.7": 1181339,
+      "0.1.8": 1181912
     }
   }
 }

@@ -2,20 +2,6 @@
   "xml_id": "com.joptimize.guard",
   "numeric_id": 31460,
   "updates": {
-    "1046219": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31460/1046219/JOptimize-1.4.1.zip?updateId=1046219&pluginId=31460&family=INTELLIJ",
-      "sha256": "PE4xL8RbzFNoBFv8atB2PmGANCgINg48IGxPYu1k5EU=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java"
-      ],
-      "optional_dependencies": [],
-      "file_name": "JOptimize-1.4.1.zip",
-      "since": "233.0",
-      "until": "261.*",
-      "compatibility_overrides": []
-    },
     "1050013": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/31460/1050013/JOptimize-1.4.2.zip?updateId=1050013&pluginId=31460&family=INTELLIJ",
       "sha256": "Ml3n4oA3A1SyuG7i+QweoAvbp3TDYYK5fJwxhjgIArQ=",
@@ -127,11 +113,38 @@
       "since": "233.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1181882": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31460/1181882/JOptimize-1.6.0.zip?updateId=1181882&pluginId=31460&family=INTELLIJ",
+      "sha256": "hSUJZ01+r67uOTL69mSoXSbAigC6Eat/uRGMTMPcwzo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JOptimize-1.6.0.zip",
+      "since": "233.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1181887": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31460/1181887/JOptimize-1.6.1.zip?updateId=1181887&pluginId=31460&family=INTELLIJ",
+      "sha256": "7XfZD2SJsAbiXzaA35GPU/Tg77aIWS7J3IvK8siVLHA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "JOptimize-1.6.1.zip",
+      "since": "233.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.4.1": 1046219,
       "1.4.2": 1050013,
       "1.4.3": 1051058,
       "1.4.4": 1053415,
@@ -139,7 +152,9 @@
       "1.4.6": 1076866,
       "1.4.7": 1077831,
       "1.4.8": 1095040,
-      "1.5.0": 1171306
+      "1.5.0": 1171306,
+      "1.6.0": 1181882,
+      "1.6.1": 1181887
     }
   }
 }

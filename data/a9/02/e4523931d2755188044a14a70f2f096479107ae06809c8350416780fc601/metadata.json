@@ -58,13 +58,33 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1181855": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33475/1181855/docker-compose-visualizer-1.2.0.zip?updateId=1181855&pluginId=33475&family=INTELLIJ",
+      "sha256": "1ycUP0aSbnYZl9GjfD9XkccX3X4t3WBdzc9l4xO4rwU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "docker-compose-visualizer-1.2.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1168145,
       "1.1.0": 1178368,
-      "1.1.1": 1178894
+      "1.1.1": 1178894,
+      "1.2.0": 1181855
     }
   }
 }

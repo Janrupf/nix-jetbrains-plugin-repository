@@ -15,11 +15,41 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1181562": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34539/1181562/opencode-plugin-gui-only-26.9.2802.zip?updateId=1181562&pluginId=34539&family=INTELLIJ",
+      "sha256": "BTon8PdK6wb/37s2XXL0inpfWdBnnwgJ9+FHHYAGTZI=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "opencode-plugin-gui-only-26.9.2802.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1182087": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34539/1182087/opencode-plugin-gui-only-26.9.2903.zip?updateId=1182087&pluginId=34539&family=INTELLIJ",
+      "sha256": "hhnetU9tleQZXdBgkDuLbPEqaZmENtrh/wI2D+lLXEA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "opencode-plugin-gui-only-26.9.2903.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "26.9.2518": 1179898
+      "26.9.2518": 1179898,
+      "26.9.2802": 1181562,
+      "26.9.2903": 1182087
     }
   }
 }
