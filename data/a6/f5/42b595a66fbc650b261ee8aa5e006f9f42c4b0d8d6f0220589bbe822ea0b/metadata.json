@@ -27,12 +27,27 @@
       "since": "203.0",
       "until": "222.*",
       "compatibility_overrides": []
+    },
+    "1182829": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18376/1182829/intellij-jss-0.2.2.zip?updateId=1182829&pluginId=18376&family=INTELLIJ",
+      "sha256": "kcznhjo5RNI0gw/HGtDLnIk1XyB46wVYQ6QukMtCx0k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-jss-0.2.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.1": 153286,
-      "0.2.1": 195771
+      "0.2.1": 195771,
+      "0.2.2": 1182829
     }
   }
 }

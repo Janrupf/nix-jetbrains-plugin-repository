@@ -39,12 +39,32 @@
       "since": "233.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1182385": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34526/1182385/idea-mycode-1.2.zip?updateId=1182385&pluginId=34526&family=INTELLIJ",
+      "sha256": "zKFQ3tpy2WpvG1Rf/DAxY0xkThauUIoV+x3Dvk0wbhQ=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "idea-mycode-1.2.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 1179575,
-      "1.1": 1181564
+      "1.1": 1181564,
+      "1.2": 1182385
     }
   }
 }

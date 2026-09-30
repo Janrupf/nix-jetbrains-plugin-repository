@@ -243,37 +243,37 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1181934": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34234/1181934/archverity-2.0.10-protected-unsigned-r4-signed.zip?updateId=1181934&pluginId=34234&family=INTELLIJ",
-      "sha256": "6NfQr5gt4U7MGJPbMR3fGVYhxH+KyGQtvP//Nr9g7kY=",
+    "1182265": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34234/1182265/archverity-2.0.11-protected-unsigned-r2-signed.zip?updateId=1182265&pluginId=34234&family=INTELLIJ",
+      "sha256": "paZSXcdQyX7fIQLI5TKx+eGmvKXj5HCfoAFKfQA1lmk=",
       "channel": "stable",
       "dependencies": [
+        "intellij.platform.rpc",
+        "archflow.domain",
         "archflow.developer.core",
         "com.intellij.modules.platform",
-        "com.intellij.java",
-        "intellij.platform.rpc",
-        "archflow.domain"
+        "com.intellij.java"
       ],
       "optional_dependencies": [
-        "intellij.platform.rpc.backend",
-        "archflow.protocol.kafka",
-        "com.intellij.modules.jcef",
-        "com.jetbrains.sh",
-        "archflow.protocol.http",
-        "intellij.platform.backend",
         "org.jetbrains.kotlin",
-        "archflow.shared",
         "intellij.platform.kernel.backend",
         "archflow.kotlin.analyzer",
+        "archflow.protocol.http",
+        "archflow.backend",
+        "intellij.platform.rpc.backend",
+        "archflow.config.yaml",
+        "archflow.java.analyzer",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.mcpServer",
         "intellij.platform.ide",
         "intellij.xml.psi.impl",
-        "archflow.java.analyzer",
-        "org.jetbrains.plugins.yaml",
-        "archflow.backend",
-        "archflow.config.yaml"
+        "archflow.protocol.kafka",
+        "archflow.shared",
+        "com.jetbrains.sh",
+        "com.intellij.modules.jcef",
+        "intellij.platform.backend"
       ],
-      "file_name": "archverity-2.0.10-protected-unsigned-r4-signed.zip",
+      "file_name": "archverity-2.0.11-protected-unsigned-r2-signed.zip",
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
@@ -282,7 +282,7 @@
   "channels": {
     "stable": {
       "2.0.1": 1169048,
-      "2.0.10": 1181934,
+      "2.0.11": 1182265,
       "2.0.2": 1171729,
       "2.0.3": 1176079,
       "2.0.4": 1177322,

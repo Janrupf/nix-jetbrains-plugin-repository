@@ -46,13 +46,45 @@
       "since": "242.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1182871": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34391/1182871/teal-intellij-0.4.0.zip?updateId=1182871&pluginId=34391&family=INTELLIJ",
+      "sha256": "uSaZ3G/DLltMhKmfJ0lt8ZATKn1xr7+2rrCQlHiwZIc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "teal-intellij-0.4.0.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1182880": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34391/1182880/teal-intellij-0.5.0.zip?updateId=1182880&pluginId=34391&family=INTELLIJ",
+      "sha256": "ndaFDWuo/HTKg6WDPvdjH4g6C6Fr2rJKbhvz2S4865s=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "teal-intellij-0.5.0.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1175818,
       "0.2.0": 1176411,
-      "0.3.0": 1181867
+      "0.3.0": 1181867,
+      "0.4.0": 1182871,
+      "0.5.0": 1182880
     }
   }
 }
