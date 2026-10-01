@@ -16,11 +16,27 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1183243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32828/1183243/skunk-intellij-0.1.1.zip?updateId=1183243&pluginId=32828&family=INTELLIJ",
+      "sha256": "O0mN2DaMOlSvp1qzhDGl0vzhLF7wQbQzAHDhxqF8D4s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.intellij.scala"
+      ],
+      "optional_dependencies": [],
+      "file_name": "skunk-intellij-0.1.1.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1103488
+      "0.1.0": 1103488,
+      "0.1.1": 1183243
     }
   }
 }

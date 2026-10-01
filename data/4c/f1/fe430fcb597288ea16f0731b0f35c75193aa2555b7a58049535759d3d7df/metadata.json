@@ -20,11 +20,51 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1183587": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34425/1183587/idea-bpmn-compare-1.0.1.zip?updateId=1183587&pluginId=34425&family=INTELLIJ",
+      "sha256": "nZ7ZsU+WC8qlsn9i12UNiJBbY4aKHC8Gwhtk1/qrPFA=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jcef",
+        "intellij.platform.ui.jcef",
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.vcs.dvcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-bpmn-compare-1.0.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1184152": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34425/1184152/idea-bpmn-compare-1.1.0.zip?updateId=1184152&pluginId=34425&family=INTELLIJ",
+      "sha256": "d6bQV1Ug7NLZ856ohWIt9rPHuDx0gzsDdXx5q307vVg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.dvcs",
+        "com.intellij.modules.jcef",
+        "intellij.libraries.jcef",
+        "intellij.platform.vcs.dvcs.impl",
+        "Git4Idea",
+        "intellij.platform.ui.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-bpmn-compare-1.1.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1176987
+      "1.0.0": 1176987,
+      "1.0.1": 1183587,
+      "1.1.0": 1184152
     }
   }
 }

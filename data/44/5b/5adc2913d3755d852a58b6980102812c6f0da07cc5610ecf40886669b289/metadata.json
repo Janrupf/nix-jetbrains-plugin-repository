@@ -16,11 +16,45 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1183873": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34293/1183873/ij-git-reflog-0.1.1-beta.1-signed.zip?updateId=1183873&pluginId=34293&family=INTELLIJ",
+      "sha256": "p7yCfMcxGxm9Sl18eloLuLufSY4oYcaxw1jIot24AQc=",
+      "channel": "beta",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ij-git-reflog-0.1.1-beta.1-signed.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1184146": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34293/1184146/ij-git-reflog-0.1.1-signed.zip?updateId=1184146&pluginId=34293&family=INTELLIJ",
+      "sha256": "UMpqnzY+2psZF0ps8UwuFJeLcx7Ri6cu5fRIx6F0hss=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ij-git-reflog-0.1.1-signed.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "0.1.1-beta.1": 1183873
+    },
     "stable": {
-      "0.1.0": 1171455
+      "0.1.0": 1171455,
+      "0.1.1": 1184146
     }
   }
 }
