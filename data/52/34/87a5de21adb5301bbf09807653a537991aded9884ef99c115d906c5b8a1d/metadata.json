@@ -913,6 +913,54 @@
       "since": "263.5701",
       "until": "263.5701.*",
       "compatibility_overrides": []
+    },
+    "1185084": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27374/1185084/java-coverage-263.6259.32.zip?updateId=1185084&pluginId=27374&family=INTELLIJ",
+      "sha256": "ohDsEEI8RyiKnnUi84npgU1JWnrxpBV3rnlMc719S3M=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.core.impl",
+        "intellij.platform.lang",
+        "intellij.platform.refactoring",
+        "intellij.platform.core.ui",
+        "intellij.java.psi",
+        "intellij.java.psi.impl",
+        "intellij.platform.ide.concurrency",
+        "intellij.platform.execution.impl",
+        "intellij.platform.projectModel",
+        "intellij.platform.execution",
+        "intellij.java.execution.impl",
+        "intellij.platform.coverage",
+        "intellij.platform.lang.impl",
+        "intellij.java.syntax",
+        "intellij.platform.ide.impl",
+        "intellij.platform.core",
+        "intellij.java.backend",
+        "intellij.platform.ide.core",
+        "intellij.platform.testRunner",
+        "intellij.java.frontback.psi",
+        "intellij.platform.ide.progress",
+        "intellij.platform.analysis",
+        "intellij.platform.statistics",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.platform.lang.core",
+        "intellij.libraries.fastutil",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.editor.ui",
+        "intellij.platform.util.progress",
+        "intellij.platform.concurrency",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.util.ui"
+      ],
+      "optional_dependencies": [
+        "intellij.java.coverage.rt",
+        "TestNG-J",
+        "JUnit"
+      ],
+      "file_name": "java-coverage-263.6259.32.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -959,7 +1007,8 @@
       "263.3889.65": 1159982,
       "263.4732.28": 1167820,
       "263.5153.40": 1174019,
-      "263.5701.42": 1179787
+      "263.5701.42": 1179787,
+      "263.6259.32": 1185084
     }
   }
 }

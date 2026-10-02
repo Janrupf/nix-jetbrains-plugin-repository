@@ -1381,6 +1381,55 @@
       "since": "263.5701",
       "until": "263.5701.*",
       "compatibility_overrides": []
+    },
+    "1184776": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28461/1184776/debugger-collections-visualizer-263.6259.36.zip?updateId=1184776&pluginId=28461&family=INTELLIJ",
+      "sha256": "BNqKFJjfmdMjmgsdfsf8oEpOfIA5bXekoXH3YpqHz+4=",
+      "channel": "stable",
+      "dependencies": [
+        "fleet.rhizomedb",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.debugger.impl.shared",
+        "intellij.platform.rpc",
+        "intellij.platform.debugger.impl.rpc",
+        "intellij.platform.debugger",
+        "intellij.platform.kernel",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.core",
+        "intellij.platform.debugger.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.debugger.collections.visualizer.core",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.grid.impl",
+        "intellij.platform.execution.impl",
+        "intellij.java.debugger.impl",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl",
+        "intellij.platform.frontend",
+        "intellij.java.psi",
+        "intellij.platform.ide.rpc",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.statistics",
+        "intellij.debugger.collections.visualizer.core.backend",
+        "intellij.grid.core.impl",
+        "intellij.platform.projectModel",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.concurrency",
+        "intellij.java.backend",
+        "intellij.platform.backend",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.debugger.impl.ui",
+        "intellij.platform.debugger.impl.frontend",
+        "intellij.platform.util.coroutines"
+      ],
+      "file_name": "debugger-collections-visualizer-263.6259.36.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1443,7 +1492,8 @@
       "263.3889.65": 1159822,
       "263.4732.7": 1166928,
       "263.5153.33": 1173163,
-      "263.5701.34": 1178841
+      "263.5701.34": 1178841,
+      "263.6259.36": 1184776
     }
   }
 }

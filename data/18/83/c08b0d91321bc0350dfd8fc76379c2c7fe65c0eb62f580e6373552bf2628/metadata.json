@@ -3286,6 +3286,96 @@
       "since": "263.5701",
       "until": "263.5701.*",
       "compatibility_overrides": []
+    },
+    "1184722": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1184722/platform-ijent-additionalBinaries-263.6259.36-windows-x86_64.zip?updateId=1184722&pluginId=31874&family=INTELLIJ",
+      "sha256": "ehTxWj6mQbvOcBzP09AloxUTrsdbSPm25p8Ly7ki5Os=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.windows",
+        "intellij.platform.ijent.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-263.6259.36-windows-x86_64.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
+    },
+    "1184737": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1184737/platform-ijent-additionalBinaries-263.6259.36-linux-x86_64.zip?updateId=1184737&pluginId=31874&family=INTELLIJ",
+      "sha256": "5garQ143QWX9R+GbddRX7C6dGWEFdu3QrKdbX/1TNZs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.linux",
+        "intellij.platform.ijent.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-263.6259.36-linux-x86_64.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
+    },
+    "1184797": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1184797/platform-ijent-additionalBinaries-263.6259.36-windows-arm64.zip?updateId=1184797&pluginId=31874&family=INTELLIJ",
+      "sha256": "baSvvvQNNsu63BKVqaC7Qrr3up9BzCyNYC4SVfTYcu8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ijent.impl",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.os.windows"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-263.6259.36-windows-arm64.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
+    },
+    "1184801": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1184801/platform-ijent-additionalBinaries-263.6259.36-linux-arm64.zip?updateId=1184801&pluginId=31874&family=INTELLIJ",
+      "sha256": "VYZvsyUIiB7EHunF0lzMSAVXSHOa7YOrtJZvtT8O1GY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.linux",
+        "com.intellij.modules.arch.arm64",
+        "intellij.platform.ijent.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-263.6259.36-linux-arm64.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
+    },
+    "1184825": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1184825/platform-ijent-additionalBinaries-263.6259.36-mac-x86_64.zip?updateId=1184825&pluginId=31874&family=INTELLIJ",
+      "sha256": "B0FTYYaC3QRd+718WsRMO+HeU1Wgzr3m2CYGwE93nOE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.mac",
+        "intellij.platform.ijent.impl",
+        "com.intellij.modules.arch.x86_64"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-263.6259.36-mac-x86_64.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
+    },
+    "1184830": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31874/1184830/platform-ijent-additionalBinaries-263.6259.36-mac-arm64.zip?updateId=1184830&pluginId=31874&family=INTELLIJ",
+      "sha256": "cukudEKEw8MkB1JX1e2JtQbgG4hz3XIDC7macuEgX58=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.mac",
+        "intellij.platform.ijent.impl",
+        "com.intellij.modules.arch.arm64"
+      ],
+      "optional_dependencies": [],
+      "file_name": "platform-ijent-additionalBinaries-263.6259.36-mac-arm64.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3508,7 +3598,13 @@
       "263.5701.34-mac-arm64": 1178756,
       "263.5701.34-mac-x86_64": 1178763,
       "263.5701.34-windows-arm64": 1178812,
-      "263.5701.34-windows-x86_64": 1178740
+      "263.5701.34-windows-x86_64": 1178740,
+      "263.6259.36-linux-arm64": 1184801,
+      "263.6259.36-linux-x86_64": 1184737,
+      "263.6259.36-mac-arm64": 1184830,
+      "263.6259.36-mac-x86_64": 1184825,
+      "263.6259.36-windows-arm64": 1184797,
+      "263.6259.36-windows-x86_64": 1184722
     }
   }
 }

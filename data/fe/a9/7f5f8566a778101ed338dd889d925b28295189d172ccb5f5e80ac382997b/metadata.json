@@ -6218,6 +6218,49 @@
       "since": "263.5701",
       "until": "263.5701.*",
       "compatibility_overrides": []
+    },
+    "1185120": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1185120/nodeJS-remoteInterpreter-263.6259.35.zip?updateId=1185120&pluginId=8116&family=INTELLIJ",
+      "sha256": "ge5sqhC3x0KfKH3AS0aaqw9YQnd2q3DvXkp4EE5ofSI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.javascript.parser",
+        "intellij.platform.concurrency",
+        "intellij.platform.debugger",
+        "intellij.platform.lang.impl",
+        "intellij.platform.remote.core",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.ide.remote",
+        "intellij.clouds.docker.agent",
+        "intellij.libraries.guava",
+        "JavaScript",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.platform.projectModel",
+        "intellij.platform.core.impl",
+        "intellij.platform.remoteServers.impl",
+        "intellij.platform.execution",
+        "intellij.platform.remoteServers",
+        "com.jetbrains.plugins.webDeployment",
+        "org.jetbrains.plugins.remote-run",
+        "JavaScriptDebugger",
+        "intellij.platform.execution.impl",
+        "intellij.platform.ssh",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl",
+        "intellij.platform.core",
+        "NodeJS",
+        "intellij.platform.ssh.core",
+        "intellij.javascript.backend"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-263.6259.35.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6532,7 +6575,8 @@
       "263.3889.70": 1160539,
       "263.4732.20": 1167032,
       "263.5153.37": 1173687,
-      "263.5701.47": 1180090
+      "263.5701.47": 1180090,
+      "263.6259.35": 1185120
     }
   }
 }

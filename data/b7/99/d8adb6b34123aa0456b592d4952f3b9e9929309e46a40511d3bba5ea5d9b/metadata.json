@@ -331,6 +331,35 @@
       "since": "253.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1185425": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33623/1185425/agents-deck-2026.2.14-signed.zip?updateId=1185425&pluginId=33623&family=INTELLIJ",
+      "sha256": "5BJ092S42gBxPlkgUTsfrqzR3wgzFjOIPbE8/YB6xLE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "agentsdeck.remote",
+        "intellij.platform.kernel.backend",
+        "com.intellij.modules.spellchecker",
+        "intellij.terminal.frontend",
+        "org.jetbrains.plugins.terminal",
+        "agentsdeck.api",
+        "intellij.vcs.plugin",
+        "agentsdeck.backend.terminal",
+        "agentsdeck.backend",
+        "intellij.platform.rpc.backend",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.vcs"
+      ],
+      "file_name": "agents-deck-2026.2.14-signed.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -346,6 +375,7 @@
       "2026.2.10": 1178719,
       "2026.2.11": 1182263,
       "2026.2.13": 1183437,
+      "2026.2.14": 1185425,
       "2026.2.2": 1163635,
       "2026.2.3": 1171510,
       "2026.2.4": 1174433,

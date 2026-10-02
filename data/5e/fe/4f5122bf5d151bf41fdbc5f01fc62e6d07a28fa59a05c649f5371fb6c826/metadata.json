@@ -396,6 +396,24 @@
       "since": "233.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1183288": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26237/1183288/chatcode.jetbrains-1.2.2.zip?updateId=1183288&pluginId=26237&family=INTELLIJ",
+      "sha256": "5q2hJC2UhFLNuHldtXHS1i7FwLq9OcOoXydPicsPo4g=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.terminal.frontend",
+        "chatcode.jetbrains.shared",
+        "intellij.platform.kernel.backend",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.backend"
+      ],
+      "file_name": "chatcode.jetbrains-1.2.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -426,7 +444,8 @@
       "1.1.6": 1007903,
       "1.1.7": 1024639,
       "1.1.8": 1033098,
-      "1.1.9": 1051426
+      "1.1.9": 1051426,
+      "1.2.2": 1183288
     }
   }
 }

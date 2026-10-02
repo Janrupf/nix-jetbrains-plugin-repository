@@ -666,6 +666,59 @@
       "since": "263.5153",
       "until": "263.5153.*",
       "compatibility_overrides": []
+    },
+    "1184764": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26511/1184764/remoteRun-263.6259.36.zip?updateId=1184764&pluginId=26511&family=INTELLIJ",
+      "sha256": "FTFbRrW35OoO8sE4SVVwKjL4JwyGRaljYvl/SX+Svuk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.core.impl",
+        "intellij.platform.lang",
+        "intellij.platform.ssh",
+        "intellij.platform.core.ui",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.platform.execution.impl",
+        "intellij.platform.macro",
+        "intellij.platform.projectModel",
+        "intellij.platform.execution",
+        "intellij.platform.ssh.ui",
+        "intellij.platform.ssh.core",
+        "intellij.platform.statistics",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core",
+        "intellij.platform.eel.provider",
+        "intellij.libraries.commons.compress",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide",
+        "org.jetbrains.plugins.terminal",
+        "intellij.libraries.jsch.agent.proxy.sshj",
+        "intellij.platform.analysis",
+        "intellij.libraries.sshj",
+        "intellij.platform.ide.remote",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.remote.core",
+        "intellij.platform.eel.tcp",
+        "intellij.libraries.guava",
+        "intellij.libraries.jediterm.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.concurrency",
+        "intellij.platform.util.ui",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.kotlinx.collections.immutable"
+      ],
+      "optional_dependencies": [
+        "intellij.sh.terminal",
+        "intellij.maven",
+        "intellij.gradle",
+        "intellij.platform.externalSystem.impl",
+        "intellij.sh.core",
+        "intellij.terminal.backend.split"
+      ],
+      "file_name": "remoteRun-263.6259.36.zip",
+      "since": "263.6259",
+      "until": "263.6259.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -699,7 +752,8 @@
       "262.7581.3": 1074196,
       "262.8377.20": 1086647,
       "262.8665.185": 1103146,
-      "263.5153.34": 1174363
+      "263.5153.34": 1174363,
+      "263.6259.36": 1184764
     }
   }
 }

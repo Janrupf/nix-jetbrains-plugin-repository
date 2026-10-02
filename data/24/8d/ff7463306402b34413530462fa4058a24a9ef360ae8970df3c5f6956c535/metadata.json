@@ -27,11 +27,38 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1184647": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34160/1184647/LibsHelperPlugin-1.1.0.zip?updateId=1184647&pluginId=34160&family=INTELLIJ",
+      "sha256": "x1MBIop/1LHsqn0+mrTqhZrDQljaB7QZuAZKsN2Nvjg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "org.jetbrains.plugins.gradle",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.androidstudio",
+        "Git4Idea",
+        "org.jetbrains.android",
+        "org.toml.lang"
+      ],
+      "file_name": "LibsHelperPlugin-1.1.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1164663
+      "1.0.0": 1164663,
+      "1.1.0": 1184647
     }
   }
 }

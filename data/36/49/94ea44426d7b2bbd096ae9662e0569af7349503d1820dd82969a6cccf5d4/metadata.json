@@ -89,10 +89,27 @@
           "compatible_until": "193.*"
         }
       ]
+    },
+    "1185549": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13734/1185549/ReactJava-2.0.6.zip?updateId=1185549&pluginId=13734&family=INTELLIJ",
+      "sha256": "vnGrLiiaT5PNCgUVhX1hOb6ukYX24hAgze3w5rAhwYU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.giavaneers.intellijplugin.GiavaneersJ2CLPlugin",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ReactJava-2.0.6.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2.0.6": 1185549,
       "SNAPSHOT-1.200129.1": 76873,
       "SNAPSHOT-1.200206.1": 77576,
       "SNAPSHOT-1.200207.1": 77688,
