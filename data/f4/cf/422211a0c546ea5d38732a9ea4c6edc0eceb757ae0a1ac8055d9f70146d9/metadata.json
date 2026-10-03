@@ -64,9 +64,47 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1185895": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28149/1185895/intelliJ-MLIR-plugin-0.2.0.zip?updateId=1185895&pluginId=28149&family=INTELLIJ",
+      "sha256": "+wkFgi4xe+qtNClHCd6XS+M2+YhcwDGP/dK8biAnUmE=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.clion"
+      ],
+      "file_name": "intelliJ-MLIR-plugin-0.2.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1185900": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28149/1185900/intelliJ-MLIR-plugin-0.2.1.zip?updateId=1185900&pluginId=28149&family=INTELLIJ",
+      "sha256": "Wj8CE/hNQt44F1XP23woGN1XkaNAeTzaheaZQarfXcM=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.clion"
+      ],
+      "file_name": "intelliJ-MLIR-plugin-0.2.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "0.2.0": 1185895,
+      "0.2.1": 1185900
+    },
     "stable": {
       "0.1.1": 824865,
       "0.1.2": 827045,

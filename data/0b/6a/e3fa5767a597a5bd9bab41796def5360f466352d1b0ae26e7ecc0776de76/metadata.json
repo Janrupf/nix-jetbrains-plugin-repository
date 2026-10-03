@@ -1,6 +1,40 @@
 {
   "xml_id": "com.lgguan.linuxdo.plugin",
   "numeric_id": 34669,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1185426": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34669/1185426/linuxdo-jetbrains-plugin-1.0.0.zip?updateId=1185426&pluginId=34669&family=INTELLIJ",
+      "sha256": "s8twdvWboivkAjUA0SeXmlfrFwl9eThpSWdE4n5f/TA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "linuxdo-jetbrains-plugin-1.0.0.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1185916": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34669/1185916/linuxdo-jetbrains-plugin-1.0.1.zip?updateId=1185916&pluginId=34669&family=INTELLIJ",
+      "sha256": "b45ZljfEXdLm9vL3GAb213Khb8FiQFqB5f7rfBw4opE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "linuxdo-jetbrains-plugin-1.0.1.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1185426,
+      "1.0.1": 1185916
+    }
+  }
 }

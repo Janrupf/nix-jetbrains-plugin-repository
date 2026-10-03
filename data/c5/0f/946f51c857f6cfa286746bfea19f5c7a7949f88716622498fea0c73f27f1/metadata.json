@@ -1,0 +1,76 @@
+{
+  "xml_id": "com.circleci.idea",
+  "numeric_id": 34719,
+  "updates": {
+    "1186088": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34719/1186088/circleci-idea-plugin-1.3.1-signed.zip?updateId=1186088&pluginId=34719&family=INTELLIJ",
+      "sha256": "UZU38+KU5kI6KIcn8gX0xdMWCmen0q4PUpfAGp4r5iE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.compose",
+        "intellij.platform.vcs.dvcs.impl",
+        "com.intellij.modules.lsp",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.vcs.log.impl",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea",
+        "intellij.ssh.plugin"
+      ],
+      "file_name": "circleci-idea-plugin-1.3.1-signed.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1186108": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34719/1186108/circleci-idea-plugin-1.4.0-signed.zip?updateId=1186108&pluginId=34719&family=INTELLIJ",
+      "sha256": "v6/sV3pMArb0DtfjtUT3PNyPQbm2v6SuemKXi84SaR8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.jewel.ideLafBridge",
+        "com.intellij.modules.lsp",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.platform.compose",
+        "intellij.platform.vcs.dvcs.impl",
+        "com.intellij.modules.platform",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.collaborationTools.auth"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "Git4Idea",
+        "intellij.ssh.plugin"
+      ],
+      "file_name": "circleci-idea-plugin-1.4.0-signed.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.3.1": 1186088,
+      "1.4.0": 1186108
+    }
+  }
+}
