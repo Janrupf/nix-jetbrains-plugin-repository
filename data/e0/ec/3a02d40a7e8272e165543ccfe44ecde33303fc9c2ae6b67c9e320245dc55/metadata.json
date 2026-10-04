@@ -2,26 +2,94 @@
   "xml_id": "com.github.meymchen.lspfanalysis",
   "numeric_id": 34670,
   "updates": {
-    "1183864": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34670/1183864/lspf-analysis-0.1.0-windows-x86_64.zip?updateId=1183864&pluginId=34670&family=INTELLIJ",
-      "sha256": "RZhCC3knk4guqVXC+TDkXkeY/LZ/ATooJgm8PE1taDM=",
+    "1186485": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34670/1186485/lspf-analysis-0.1.0-windows-arm64.zip?updateId=1186485&pluginId=34670&family=INTELLIJ",
+      "sha256": "3w1rf3uN+uYLE0z3q3u8WuiE7bA3G/rD4qFH3+9IULU=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.arm64",
         "com.intellij.modules.os.windows",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lspf-analysis-0.1.0-windows-arm64.zip",
+      "since": "261.26222",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1186486": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34670/1186486/lspf-analysis-0.1.0-mac-x86_64.zip?updateId=1186486&pluginId=34670&family=INTELLIJ",
+      "sha256": "U1oOR2rz29bZt/c/v77IR+NJ8TSwk9BmnpTW10fGi4Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.os.mac"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lspf-analysis-0.1.0-mac-x86_64.zip",
+      "since": "261.26222",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1186487": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34670/1186487/lspf-analysis-0.1.0-mac-arm64.zip?updateId=1186487&pluginId=34670&family=INTELLIJ",
+      "sha256": "RzN9BIYtld48doXf7cBMm4jI0N5/YIlBRgJiFXzvohU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.os.mac",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lspf-analysis-0.1.0-mac-arm64.zip",
+      "since": "261.26222",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1186488": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34670/1186488/lspf-analysis-0.1.0-linux-x86_64.zip?updateId=1186488&pluginId=34670&family=INTELLIJ",
+      "sha256": "qVzBWEhBSrg5kSvB5Kr/51V+0pBdCQZswLazOsmX8fM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.linux",
         "com.intellij.modules.platform",
         "com.intellij.modules.arch.x86_64",
         "com.intellij.modules.lsp"
       ],
       "optional_dependencies": [],
-      "file_name": "lspf-analysis-0.1.0-windows-x86_64.zip",
+      "file_name": "lspf-analysis-0.1.0-linux-x86_64.zip",
       "since": "261.26222",
-      "until": "262.*",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1186489": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34670/1186489/lspf-analysis-0.1.0-linux-arm64.zip?updateId=1186489&pluginId=34670&family=INTELLIJ",
+      "sha256": "Dn2RdlCkZzbGMQirPNWH16SRP/Rks4Q0KlTXXKR/KhE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.linux",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.arch.arm64"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lspf-analysis-0.1.0-linux-arm64.zip",
+      "since": "261.26222",
+      "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0-windows-x86_64": 1183864
+      "0.1.0-linux-arm64": 1186489,
+      "0.1.0-linux-x86_64": 1186488,
+      "0.1.0-mac-arm64": 1186487,
+      "0.1.0-mac-x86_64": 1186486,
+      "0.1.0-windows-arm64": 1186485
     }
   }
 }
