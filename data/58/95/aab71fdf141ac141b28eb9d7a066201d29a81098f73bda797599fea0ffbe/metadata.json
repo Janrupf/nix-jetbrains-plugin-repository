@@ -462,6 +462,45 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1187516": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31508/1187516/agent-dock-1.11.4.zip?updateId=1187516&pluginId=31508&family=INTELLIJ",
+      "sha256": "rc7/DDf5mC5JlGqXiE56mDFrzKCfSL5g1p8OFXAC/+g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "agent-dock-1.11.4.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1187649": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31508/1187649/agent-dock-1.12.0.zip?updateId=1187649&pluginId=31508&family=INTELLIJ",
+      "sha256": "zCg5HJxnPU6V7M/F3ed3OVLZpbJVwzRo/MGkV4JCIHU=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.terminal.frontend",
+        "intellij.platform.kernel.backend",
+        "agent-dock.backend-libraries",
+        "intellij.platform.frontend",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.vcs",
+        "agent-dock.frontend",
+        "agent-dock.shared"
+      ],
+      "file_name": "agent-dock-1.12.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -476,6 +515,8 @@
       "1.11.1": 1181594,
       "1.11.2": 1182334,
       "1.11.3": 1182356,
+      "1.11.4": 1187516,
+      "1.12.0": 1187649,
       "1.2.0": 1046182,
       "1.2.1": 1056661,
       "1.2.2": 1067601,
