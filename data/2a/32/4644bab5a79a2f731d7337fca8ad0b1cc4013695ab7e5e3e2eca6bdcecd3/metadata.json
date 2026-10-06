@@ -291,6 +291,27 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1187767": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30451/1187767/live-debugger-plugin-0.7.0.zip?updateId=1187767&pluginId=30451&family=INTELLIJ",
+      "sha256": "PCOuTEKnHySJDBMuW9WvZ0OUK47rX6G1VZ46J1996UU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "intellij.platform.compose"
+      ],
+      "optional_dependencies": [
+        "com.intellij.ml.llm",
+        "PythonCore",
+        "JUnit",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java"
+      ],
+      "file_name": "live-debugger-plugin-0.7.0.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -307,7 +328,8 @@
       "0.3.0": 1165643,
       "0.4.0": 1176110,
       "0.5.0": 1178076,
-      "0.6.0": 1181654
+      "0.6.0": 1181654,
+      "0.7.0": 1187767
     }
   }
 }
