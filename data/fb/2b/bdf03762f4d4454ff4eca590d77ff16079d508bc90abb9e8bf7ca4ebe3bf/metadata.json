@@ -15,10 +15,25 @@
       "since": "242.0",
       "until": "252.*",
       "compatibility_overrides": []
+    },
+    "1188291": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28610/1188291/client-0.0.1.zip?updateId=1188291&pluginId=28610&family=INTELLIJ",
+      "sha256": "Fo+iphua14Uq69kqSm7/7lr4DSKGNfWKz8U6c2TUMVU=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "client-0.0.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.0.1": 1188291,
       "2.0.0": 869284
     }
   }

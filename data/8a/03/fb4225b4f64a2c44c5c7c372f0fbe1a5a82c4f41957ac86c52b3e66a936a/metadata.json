@@ -19,11 +19,30 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1188654": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34714/1188654/squire-0.2.0.zip?updateId=1188654&pluginId=34714&family=INTELLIJ",
+      "sha256": "qwMQg7b9pMwD3QcgNNKQbbea2d2uZfr2jBlFCC0FtAI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.platform.images",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "squire-0.2.0.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1185865
+      "0.1.0": 1185865,
+      "0.2.0": 1188654
     }
   }
 }
