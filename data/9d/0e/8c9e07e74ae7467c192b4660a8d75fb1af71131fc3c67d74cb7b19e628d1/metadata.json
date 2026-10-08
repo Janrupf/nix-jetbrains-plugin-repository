@@ -22,11 +22,25 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "1188917": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34575/1188917/scopelock-ai-jetbrains.zip?updateId=1188917&pluginId=34575&family=INTELLIJ",
+      "sha256": "DL5A5iJ7OFia3eUX5aDgMO0UEnviusXwlviz0u+4yac=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "scopelock-ai-jetbrains.zip",
+      "since": "231.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1181090
+      "1.0.0": 1181090,
+      "1.0.2": 1188917
     }
   }
 }

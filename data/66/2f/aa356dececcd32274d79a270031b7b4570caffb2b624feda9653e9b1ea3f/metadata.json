@@ -292,6 +292,23 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1188920": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/1188920/idf-for-clion.zip?updateId=1188920&pluginId=23886&family=INTELLIJ",
+      "sha256": "pk/+GXNjU73YWIsgEumY8NtU2s4T9cN3PpWoVuUmYK0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.clion.embedded",
+        "com.jetbrains.sh",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.clion"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idf-for-clion.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -316,7 +333,8 @@
       "0.7.2": 999385,
       "0.8.0": 1044596,
       "0.8.1": 1090195,
-      "0.9": 1109303
+      "0.9": 1109303,
+      "0.9.1": 1188920
     }
   }
 }

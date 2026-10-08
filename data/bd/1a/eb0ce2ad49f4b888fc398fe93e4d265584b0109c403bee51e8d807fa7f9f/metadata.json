@@ -187,12 +187,27 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1188710": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31117/1188710/agent-cli-plugin-1.1.0-eap.3-signed.zip?updateId=1188710&pluginId=31117&family=INTELLIJ",
+      "sha256": "7QUYXWM/zVnaPvc9Hp7nzB7QWVydv7UhglmRtFYd4+U=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "agent-cli-plugin-1.1.0-eap.3-signed.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
       "1.0.1-eap.1": 1114255,
-      "1.1.0-eap.2": 1188268
+      "1.1.0-eap.2": 1188268,
+      "1.1.0-eap.3": 1188710
     },
     "stable": {
       "0.2.0": 1009924,
