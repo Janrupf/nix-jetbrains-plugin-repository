@@ -39,9 +39,35 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1189815": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34787/1189815/gitea-pr-review-1.1.0.zip?updateId=1189815&pluginId=34787&family=INTELLIJ",
+      "sha256": "uT4j+L3dfHr/wGN6ayNFkoO7ExGrc6PY7oMZPpbi9Gk=",
+      "channel": "eap",
+      "dependencies": [
+        "intellij.platform.vcs.dvcs",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "Git4Idea",
+        "intellij.platform.collaborationTools.shared",
+        "intellij.platform.vcs",
+        "intellij.libraries.jackson.module.kotlin",
+        "intellij.libraries.jackson.databind",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.vcs.impl",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gitea-pr-review-1.1.0.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.1.0": 1189815
+    },
     "stable": {
       "1.0.0-alpha": 1187677,
       "1.1.0": 1188902
