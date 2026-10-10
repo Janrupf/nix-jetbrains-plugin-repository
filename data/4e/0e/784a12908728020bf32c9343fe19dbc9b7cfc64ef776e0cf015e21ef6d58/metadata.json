@@ -536,6 +536,84 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1190593": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/1190593/betterpy-2026.10.1_261.zip?updateId=1190593&pluginId=29896&family=INTELLIJ",
+      "sha256": "sMK8keFXpnnXSLqVa5FnEz6s+gqvaqFBwOWSytE1fOY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "PythonCommon",
+        "PythonCore",
+        "com.intellij.modules.json",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer",
+        "org.jetbrains.plugins.yaml",
+        "intellij.structureView.plugin",
+        "com.intellij.microservices.ui",
+        "intellij.libraries.misc.plugin",
+        "com.intellij.modules.structuralsearch",
+        "intellij.testRunner.plugin",
+        "intellij.structuralSearch.plugin"
+      ],
+      "file_name": "betterpy-2026.10.1_261.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1190613": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/1190613/betterpy-2026.10.1_262.zip?updateId=1190613&pluginId=29896&family=INTELLIJ",
+      "sha256": "GF3AQYKqv6pjo4xlyZFFljrHO+or56Vi012KT31G5y0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "PythonCommon",
+        "PythonCore",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin",
+        "intellij.structuralSearch.plugin",
+        "com.intellij.modules.structuralsearch",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.microservices.ui",
+        "intellij.libraries.misc.plugin",
+        "com.intellij.mcpServer",
+        "intellij.structureView.plugin"
+      ],
+      "file_name": "betterpy-2026.10.1_262.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1190832": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/1190832/betterpy-2026.10.1_263.zip?updateId=1190832&pluginId=29896&family=INTELLIJ",
+      "sha256": "i/yX82VWLXJelBDAcbRMiAs/+eVU2OuIc4UGZyuY6Vs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.python",
+        "com.intellij.modules.platform",
+        "PythonCommon",
+        "PythonCore"
+      ],
+      "optional_dependencies": [
+        "com.intellij.microservices.ui",
+        "intellij.structuralSearch.plugin",
+        "intellij.testRunner.plugin",
+        "com.intellij.modules.structuralsearch",
+        "com.intellij.mcpServer",
+        "org.jetbrains.plugins.yaml",
+        "intellij.structureView.plugin",
+        "intellij.libraries.misc.plugin"
+      ],
+      "file_name": "betterpy-2026.10.1_263.zip",
+      "since": "263.6259.38",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -562,7 +640,10 @@
       "2026.09.1": 1163190,
       "2026.09.2": 1164367,
       "2026.09.3": 1171505,
-      "2026.09.4": 1174346
+      "2026.09.4": 1174346,
+      "2026.10.1+261": 1190593,
+      "2026.10.1+262": 1190613,
+      "2026.10.1+263": 1190832
     }
   }
 }

@@ -25,11 +25,29 @@
           "compatible_until": "262.*"
         }
       ]
+    },
+    "1190508": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34609/1190508/nexora-intellij-extension-1.0.63.zip?updateId=1190508&pluginId=34609&family=INTELLIJ",
+      "sha256": "joAt6xi0nf8YdL4sgZfc7AJh7a4aWK+ywdwYGLvoKmY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "nexora-intellij-extension-1.0.63.zip",
+      "since": "241.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.62": 1181822
+      "1.0.62": 1181822,
+      "1.0.63": 1190508
     }
   }
 }

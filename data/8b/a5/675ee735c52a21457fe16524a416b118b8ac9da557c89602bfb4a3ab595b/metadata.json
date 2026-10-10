@@ -22,11 +22,33 @@
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1190261": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34901/1190261/ikasanstudio-1.0.0-beta.2.zip?updateId=1190261&pluginId=34901&family=INTELLIJ",
+      "sha256": "rAorELLuJ7mhAN2d1xa0WQr0nBYvinElAIz8hISJhRc=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.realisticsolutions.ikasanstudio.community",
+        "com.intellij.mcpServer",
+        "intellij.mcpserver.terminal"
+      ],
+      "file_name": "ikasanstudio-1.0.0-beta.2.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0-beta.1": 1189884
+      "1.0.0-beta.1": 1189884,
+      "1.0.0-beta.2": 1190261
     }
   }
 }

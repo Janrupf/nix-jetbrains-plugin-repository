@@ -82,6 +82,28 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1190559": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32155/1190559/Pascal-7.0.0-signed.zip?updateId=1190559&pluginId=32155&family=INTELLIJ",
+      "sha256": "gFaE3c14jTdbA3LEVMrTdj/W3/8Y5fNy0n2H1jb3i+8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "dev.meanmail.pascal",
+        "Pascal.dependency-shared",
+        "intellij.platform.frontend",
+        "com.intellij.modules.jcef",
+        "intellij.platform.kernel.backend",
+        "intellij.structureView.plugin",
+        "intellij.platform.rpc.backend"
+      ],
+      "file_name": "Pascal-7.0.0-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -91,7 +113,8 @@
       "3.0.0": 1083764,
       "4.0.0": 1086127,
       "5.0.0": 1099606,
-      "6.0.0": 1159507
+      "6.0.0": 1159507,
+      "7.0.0": 1190559
     }
   }
 }
