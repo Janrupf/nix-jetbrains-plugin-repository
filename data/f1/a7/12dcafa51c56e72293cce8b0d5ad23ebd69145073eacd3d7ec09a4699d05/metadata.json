@@ -43,13 +43,43 @@
       "since": "232.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1191080": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34911/1191080/intellij-cvs-plugin-262.0.6.zip?updateId=1191080&pluginId=34911&family=INTELLIJ",
+      "sha256": "BV5NoIjCdVGIUTcA07OKcwQGeYPa9pZLuFV6Sf7Jl0c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-cvs-plugin-262.0.6.zip",
+      "since": "232.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1191344": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34911/1191344/intellij-cvs-plugin-262.0.7.zip?updateId=1191344&pluginId=34911&family=INTELLIJ",
+      "sha256": "ASu6SUPaxO9yonJ8WLQeUIOaYv3L8km/UZrEA2mTQgo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-cvs-plugin-262.0.7.zip",
+      "since": "232.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "262.0.3": 1190253,
       "262.0.4": 1190288,
-      "262.0.5": 1190327
+      "262.0.5": 1190327,
+      "262.0.6": 1191080,
+      "262.0.7": 1191344
     }
   }
 }

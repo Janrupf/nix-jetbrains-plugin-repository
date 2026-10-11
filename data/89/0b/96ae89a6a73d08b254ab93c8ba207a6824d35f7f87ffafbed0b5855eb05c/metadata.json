@@ -39,12 +39,32 @@
       "since": "233.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1191091": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34842/1191091/qwen-mate-1.0.0-beta3-signed.zip?updateId=1191091&pluginId=34842&family=INTELLIJ",
+      "sha256": "1ik1YVsMRIdpXA7Gfwj7c3xCBJEaU7UtnuAVXK3BNLk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.python",
+        "com.intellij.modules.jcef",
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "qwen-mate-1.0.0-beta3-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0-beta1": 1188322,
-      "1.0.0-beta2": 1190816
+      "1.0.0-beta2": 1190816,
+      "1.0.0-beta3": 1191091
     }
   }
 }

@@ -9,7 +9,8 @@
       "dependencies": [
         "com.intellij.modules.clion.cmake",
         "com.intellij.modules.platform",
-        "com.intellij.clion"
+        "com.intellij.clion",
+        "intellij.cidr.util.execution"
       ],
       "optional_dependencies": [],
       "file_name": "cmake-mux-2025.2-signed.zip",
@@ -24,7 +25,8 @@
       "dependencies": [
         "com.intellij.modules.platform",
         "com.intellij.modules.clion.cmake",
-        "com.intellij.clion"
+        "com.intellij.clion",
+        "intellij.cidr.util.execution"
       ],
       "optional_dependencies": [],
       "file_name": "cmake-mux-2025.2.1.zip",
@@ -39,7 +41,8 @@
       "dependencies": [
         "com.intellij.modules.clion.cmake",
         "com.intellij.modules.platform",
-        "com.intellij.clion"
+        "com.intellij.clion",
+        "intellij.cidr.util.execution"
       ],
       "optional_dependencies": [],
       "file_name": "cmake-mux-2025.2.2.zip",
@@ -54,7 +57,8 @@
       "dependencies": [
         "com.intellij.clion",
         "com.intellij.modules.clion.cmake",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "intellij.cidr.util.execution"
       ],
       "optional_dependencies": [],
       "file_name": "cmake-mux-2025.3.zip",
@@ -69,7 +73,8 @@
       "dependencies": [
         "com.intellij.modules.platform",
         "com.intellij.clion",
-        "com.intellij.modules.clion.cmake"
+        "com.intellij.modules.clion.cmake",
+        "intellij.cidr.util.execution"
       ],
       "optional_dependencies": [],
       "file_name": "cmake-mux-2026.1.zip",
@@ -84,11 +89,27 @@
       "dependencies": [
         "com.intellij.modules.clion.cmake",
         "com.intellij.clion",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "intellij.cidr.util.execution"
       ],
       "optional_dependencies": [],
       "file_name": "cmake-mux-2026.1.1.zip",
       "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1191151": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28231/1191151/cmake-mux-2026.2.zip?updateId=1191151&pluginId=28231&family=INTELLIJ",
+      "sha256": "t2rl/Gaf2PpbfN1kzJqMMvC4an7FKQhlkCd8ooz1igU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.clion",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.clion.cmake"
+      ],
+      "optional_dependencies": [],
+      "file_name": "cmake-mux-2026.2.zip",
+      "since": "262.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -100,7 +121,8 @@
       "2025.2.2": 856429,
       "2025.3": 911380,
       "2026.1": 1007723,
-      "2026.1.1": 1083584
+      "2026.1.1": 1083584,
+      "2026.2": 1191151
     }
   }
 }
