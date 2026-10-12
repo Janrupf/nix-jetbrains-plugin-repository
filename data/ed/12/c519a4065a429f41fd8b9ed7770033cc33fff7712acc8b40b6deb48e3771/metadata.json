@@ -1040,10 +1040,67 @@
       "since": "233.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1191876": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27647/1191876/intellij-maven-project-version-plugin.maven-with-me-2.10.1-1012.zip?updateId=1191876&pluginId=27647&family=INTELLIJ",
+      "sha256": "jLI1K8qKPkmglIbUf0l3HM6Hmb7SJXdg64vu1ppCN2g=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-with-me-2.10.1-1012.zip",
+      "since": "191.0",
+      "until": "221.*",
+      "compatibility_overrides": []
+    },
+    "1191880": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27647/1191880/intellij-maven-project-version-plugin.maven-with-me-2.10.2-1012.zip?updateId=1191880&pluginId=27647&family=INTELLIJ",
+      "sha256": "NVTn5B1LkiSUxSCwoxUg38hAJuKTDSP3mD8/nwaTg8U=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-with-me-2.10.2-1012.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "1191885": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27647/1191885/intellij-maven-project-version-plugin.maven-with-me-2.10.3-1012.zip?updateId=1191885&pluginId=27647&family=INTELLIJ",
+      "sha256": "jXyD2SqE1ko++r2x7RgsAtOGoRi8A4BntfSDYM3pv94=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-with-me-2.10.3-1012.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2.10.1-1012": 1191876,
+      "2.10.2-1012": 1191880,
+      "2.10.3-1012": 1191885,
       "2.2.1.1": 775167,
       "2.2.2.1": 775176,
       "2.2.3.1": 775177,

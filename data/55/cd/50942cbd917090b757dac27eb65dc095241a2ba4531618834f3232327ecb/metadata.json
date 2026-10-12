@@ -14,11 +14,43 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1191580": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34772/1191580/Lattice-0.0.2-smoke.1.zip?updateId=1191580&pluginId=34772&family=INTELLIJ",
+      "sha256": "tUgAOMmRM8/GshJJRW4XlhBEJiCsQKAVcKvao4D43EI=",
+      "channel": "smoke",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Lattice-0.0.2-smoke.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1191585": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34772/1191585/Lattice-0.0.2-alpha.zip?updateId=1191585&pluginId=34772&family=INTELLIJ",
+      "sha256": "xGNp42+n1l71u6hu3GA1cjmReR8UQ0aODaZc4822MKM=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Lattice-0.0.2-alpha.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "smoke": {
+      "0.0.2-smoke.1": 1191580
+    },
     "stable": {
-      "0.0.1-alpha": 1187446
+      "0.0.1-alpha": 1187446,
+      "0.0.2-alpha": 1191585
     }
   }
 }

@@ -562,6 +562,58 @@
       "since": "263.6259.38",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1190870": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/1190870/betterpy-2026.10.1_261.zip?updateId=1190870&pluginId=29896&family=INTELLIJ",
+      "sha256": "sMK8keFXpnnXSLqVa5FnEz6s+gqvaqFBwOWSytE1fOY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "PythonCommon",
+        "PythonCore",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin",
+        "intellij.structuralSearch.plugin",
+        "com.intellij.modules.structuralsearch",
+        "com.intellij.microservices.ui",
+        "intellij.libraries.misc.plugin",
+        "com.intellij.mcpServer",
+        "intellij.structureView.plugin",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "betterpy-2026.10.1_261.zip",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1190919": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29896/1190919/betterpy-2026.10.1_262.zip?updateId=1190919&pluginId=29896&family=INTELLIJ",
+      "sha256": "Bx+tqwtlqBW9vykOmKX0I26j8Z8BZ8VY+8kMml4l9R0=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "PythonCore",
+        "com.intellij.modules.python",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.misc.plugin",
+        "com.intellij.mcpServer",
+        "com.intellij.microservices.ui",
+        "org.jetbrains.plugins.yaml",
+        "intellij.structureView.plugin",
+        "intellij.structuralSearch.plugin",
+        "com.intellij.modules.structuralsearch",
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "betterpy-2026.10.1_262.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -589,6 +641,8 @@
       "2026.09.2": 1164367,
       "2026.09.3": 1171505,
       "2026.09.4": 1174346,
+      "2026.10.1+261": 1190870,
+      "2026.10.1+262": 1190919,
       "2026.10.1+263": 1190832
     }
   }

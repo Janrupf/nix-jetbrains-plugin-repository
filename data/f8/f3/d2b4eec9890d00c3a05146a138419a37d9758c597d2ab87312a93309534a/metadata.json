@@ -657,10 +657,33 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1191632": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1191632/acpira-1.10.1-universal.zip?updateId=1191632&pluginId=34192&family=INTELLIJ",
+      "sha256": "KC9Fppe9MXHwedLO+Bg7ZEDiN/mCChUYDgzush77YWw=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "acpira.shared",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "intellij.libraries.jcef",
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal",
+        "acpira.frontend",
+        "intellij.platform.kernel.backend",
+        "acpira.backend",
+        "intellij.platform.ui.jcef"
+      ],
+      "file_name": "acpira-1.10.1-universal.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.10.1": 1191632,
       "1.2.0-linux-arm64": 1166340,
       "1.2.0-linux-x86_64": 1166337,
       "1.2.0-mac-arm64": 1166334,
