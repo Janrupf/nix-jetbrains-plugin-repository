@@ -2179,6 +2179,46 @@
       "since": "263.6259",
       "until": "263.6259.*",
       "compatibility_overrides": []
+    },
+    "1192046": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20209/1192046/javaee-appServers-tomcat-263.6800.24.zip?updateId=1192046&pluginId=20209&family=INTELLIJ",
+      "sha256": "KocgfGwRhLRxMvlrFYzC5Jb1wFrZcClYY55jSOKHrwc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.psi",
+        "intellij.platform.ide.core",
+        "intellij.platform.execution.dashboard",
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.util.ui",
+        "intellij.javaee.platform.impl",
+        "intellij.platform.core.ui",
+        "intellij.javaee.platform",
+        "intellij.platform.lang.core",
+        "intellij.platform.remoteServers",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.analysis",
+        "com.intellij.javaee.app.servers.integration",
+        "intellij.java.syntax",
+        "intellij.javaee.app.servers",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.execution",
+        "intellij.java.ui",
+        "intellij.platform.projectModel",
+        "intellij.platform.lang",
+        "intellij.platform.execution.impl",
+        "intellij.platform.statistics",
+        "intellij.xml.psi"
+      ],
+      "optional_dependencies": [
+        "intellij.profiler.ultimate",
+        "Tomcat"
+      ],
+      "file_name": "javaee-appServers-tomcat-263.6800.24.zip",
+      "since": "263.6800",
+      "until": "263.6800.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2303,7 +2343,8 @@
       "263.4732.28": 1167775,
       "263.5153.40": 1174085,
       "263.5701.42": 1179640,
-      "263.6259.32": 1185059
+      "263.6259.32": 1185059,
+      "263.6800.24": 1192046
     }
   }
 }

@@ -4277,6 +4277,34 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1192269": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15499/1192269/intellij-emberjs-experimental-2026.2.1.zip?updateId=1192269&pluginId=15499&family=INTELLIJ",
+      "sha256": "BAsxc46UI0743XrddsCPTo5HMKZwRxJ4SVy48EePDkI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.testRunner",
+        "intellij.platform.smRunner",
+        "intellij.platform.structureView",
+        "com.intellij.modules.json",
+        "com.intellij.css",
+        "intellij.xml.structureView.impl",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "JavaScript",
+        "intellij.xml.structureView",
+        "com.dmarcotte.handlebars",
+        "intellij.platform.lsp.impl"
+      ],
+      "optional_dependencies": [
+        "org.intellij.intelliLang",
+        "org.jetbrains.plugins.yaml",
+        "intellij.javascript.eslint"
+      ],
+      "file_name": "intellij-emberjs-experimental-2026.2.1.zip",
+      "since": "262.10968",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4506,7 +4534,8 @@
       "2025.3.1": 990488,
       "2026.1.0": 1165221,
       "2026.1.1": 1171314,
-      "2026.2.0": 1190557
+      "2026.2.0": 1190557,
+      "2026.2.1": 1192269
     }
   }
 }

@@ -237,6 +237,45 @@
       "since": "263.6259",
       "until": "263.6259.*",
       "compatibility_overrides": []
+    },
+    "1191991": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1191991/java-aetherDependencyResolver-plugin-263.6800.24.zip?updateId=1191991&pluginId=34026&family=INTELLIJ",
+      "sha256": "dfix5Ubn2DiOsWQMh3zOv/iH6/4hyigkPZvoMumnoCc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.commons.codec",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.http.client",
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.commons.logging"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.grpc",
+        "intellij.platform.analysis",
+        "intellij.libraries.protobuf",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.kotlinx.serialization.core",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.libraries.javax.annotation",
+        "intellij.platform.util.text.matching",
+        "intellij.platform.statistics",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.repository.search.completion",
+        "intellij.platform.ide",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.platform.core",
+        "intellij.libraries.guava",
+        "intellij.platform.lang.impl"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-263.6800.24.zip",
+      "since": "263.6800",
+      "until": "263.6800.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -245,7 +284,8 @@
       "263.4732.28": 1167793,
       "263.5153.40": 1174033,
       "263.5701.42": 1179764,
-      "263.6259.32": 1184988
+      "263.6259.32": 1184988,
+      "263.6800.24": 1191991
     }
   }
 }

@@ -5157,6 +5157,49 @@
       "since": "263.6259",
       "until": "263.6259.*",
       "compatibility_overrides": []
+    },
+    "1192017": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7512/1192017/behat-263.6800.24.zip?updateId=1192017&pluginId=7512&family=INTELLIJ",
+      "sha256": "fAbZfo30d9sHIepZFFirgGqSDvNtboNALbRsOkOh+Cs=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.consoleView",
+        "intellij.platform.codeStyle",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.impl",
+        "intellij.libraries.guava",
+        "intellij.platform.util.ui",
+        "intellij.platform.ide.core",
+        "intellij.platform.testRunner",
+        "intellij.platform.core.ui",
+        "intellij.platform.lang.impl",
+        "intellij.php.backend",
+        "intellij.platform.codeStyle.impl",
+        "intellij.platform.smRunner",
+        "gherkin",
+        "intellij.platform.concurrency",
+        "intellij.platform.execution.impl",
+        "intellij.platform.execution",
+        "intellij.platform.lang",
+        "intellij.platform.util.text.matching",
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.libraries.oro.matcher",
+        "intellij.libraries.gson",
+        "intellij.platform.ide",
+        "intellij.libraries.fastutil",
+        "intellij.platform.analysis"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php.behat",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "file_name": "behat-263.6800.24.zip",
+      "since": "263.6800",
+      "until": "263.6800.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5460,7 +5503,8 @@
       "263.4732.28": 1167750,
       "263.5153.40": 1174099,
       "263.5701.42": 1179694,
-      "263.6259.32": 1185058
+      "263.6259.32": 1185058,
+      "263.6800.24": 1192017
     }
   }
 }

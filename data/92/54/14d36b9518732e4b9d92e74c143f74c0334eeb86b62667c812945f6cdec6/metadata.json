@@ -33,12 +33,29 @@
       "since": "262.10968.63",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1192255": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34833/1192255/vernac-intellij-0.3.0-plugin.zip?updateId=1192255&pluginId=34833&family=INTELLIJ",
+      "sha256": "EeJ816Gtvrmjk/ktxwlqt7gV+NFZuZTgsV9sSgwDqTM=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "vernac-intellij-0.3.0-plugin.zip",
+      "since": "262.10968.63",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1188261,
-      "0.2.0": 1191618
+      "0.2.0": 1191618,
+      "0.3.0": 1192255
     }
   }
 }
