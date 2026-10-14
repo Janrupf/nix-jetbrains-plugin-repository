@@ -3526,6 +3526,54 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1192982": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11220/1192982/azure-toolkit-for-rider-4.8.5-signed.zip?updateId=1192982&pluginId=11220&family=INTELLIJ",
+      "sha256": "ZwcWfa05gsYL9I7Oz8NiKxoNjTp5QRl1dK7S2QmW7jc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "rider.intellij.plugin.appender",
+        "com.jetbrains.restClient",
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.rider",
+        "Docker",
+        "com.intellij.modules.json",
+        "intellij.rider.ssh",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.remote-run",
+        "com.intellij.modules.ssh"
+      ],
+      "file_name": "azure-toolkit-for-rider-4.8.5-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193205": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11220/1193205/azure-toolkit-for-rider-4.8.6-signed.zip?updateId=1193205&pluginId=11220&family=INTELLIJ",
+      "sha256": "oHYxn4x4VbVlX+7FnMRvjA4ts1iH0kRusZZgN4o+sO0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.restClient",
+        "intellij.rider.ssh",
+        "org.jetbrains.plugins.textmate",
+        "rider.intellij.plugin.appender",
+        "Docker",
+        "com.intellij.database",
+        "com.intellij.modules.json",
+        "com.intellij.modules.rider",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ssh",
+        "org.jetbrains.plugins.remote-run"
+      ],
+      "file_name": "azure-toolkit-for-rider-4.8.6-signed.zip",
+      "since": "262.2.3.1",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3715,7 +3763,9 @@
       "4.8.1": 1059364,
       "4.8.2": 1064730,
       "4.8.3": 1091059,
-      "4.8.4": 1123789
+      "4.8.4": 1123789,
+      "4.8.5": 1192982,
+      "4.8.6": 1193205
     }
   }
 }

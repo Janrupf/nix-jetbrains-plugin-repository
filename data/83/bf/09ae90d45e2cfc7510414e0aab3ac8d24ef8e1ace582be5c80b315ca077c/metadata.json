@@ -20,11 +20,52 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193161": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33832/1193161/flexible-spryker-2026.1.2.zip?updateId=1193161&pluginId=33832&family=INTELLIJ",
+      "sha256": "7ub7wTtEjUqgXmlSoeMZgpcqW9MaTJdATEaL9FuNoMM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.marketplace",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php",
+        "com.jetbrains.twig",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "flexible-spryker-2026.1.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193162": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33832/1193162/flexible-spryker-2026.1.2-243.zip?updateId=1193162&pluginId=33832&family=INTELLIJ",
+      "sha256": "wffhvQ4wqDzu7Mrg0YxWVTf3u5k+bwfgOnxMs3brZbM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.jetbrains.twig",
+        "com.jetbrains.php"
+      ],
+      "file_name": "flexible-spryker-2026.1.2-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.1.1": 1151471
+      "2026.1.1": 1151471,
+      "2026.1.2": 1193161,
+      "2026.1.2-243": 1193162
     }
   }
 }

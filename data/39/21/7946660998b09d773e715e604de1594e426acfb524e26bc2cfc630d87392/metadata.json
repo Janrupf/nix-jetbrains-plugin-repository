@@ -18,11 +18,48 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193170": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32216/1193170/flexible-for-daisy-ui-2026.1.1.zip?updateId=1193170&pluginId=32216&family=INTELLIJ",
+      "sha256": "5eFP+sczX6soW5g5IYCoZCP5KRAXw/p40fs8CJRv2ls=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.xml",
+        "JavaScript",
+        "com.intellij.css"
+      ],
+      "file_name": "flexible-for-daisy-ui-2026.1.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193171": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32216/1193171/flexible-for-daisy-ui-2026.1.1-243.zip?updateId=1193171&pluginId=32216&family=INTELLIJ",
+      "sha256": "W4RJDSFswpldremHtmp725vR9uUqfOvQTf/T6C4O7UA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.xml",
+        "JavaScript",
+        "com.intellij.css"
+      ],
+      "file_name": "flexible-for-daisy-ui-2026.1.1-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.1.0": 1072506
+      "2026.1.0": 1072506,
+      "2026.1.1": 1193170,
+      "2026.1.1-243": 1193171
     }
   }
 }

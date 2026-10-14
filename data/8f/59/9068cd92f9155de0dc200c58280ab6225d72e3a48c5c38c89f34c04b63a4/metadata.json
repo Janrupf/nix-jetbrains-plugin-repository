@@ -278,6 +278,39 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193180": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23556/1193180/magnolia-integration-2026.2.9-243.zip?updateId=1193180&pluginId=23556&family=INTELLIJ",
+      "sha256": "DirQ7u1xoP/aQ8s5m4KF0JRBSh9uUTUmqiRWAekS340=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "magnolia-integration-2026.2.9-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "1193181": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23556/1193181/magnolia-integration-2026.2.9.zip?updateId=1193181&pluginId=23556&family=INTELLIJ",
+      "sha256": "qU67n70iQEZp7OO89xRgPKLUqnMESydK7wgQCJXeGq4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.idea.maven",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [],
+      "file_name": "magnolia-integration-2026.2.9.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -299,7 +332,9 @@
       "2026.2.4": 1050811,
       "2026.2.5": 1097606,
       "2026.2.7": 1151475,
-      "2026.2.8": 1185913
+      "2026.2.8": 1185913,
+      "2026.2.9": 1193181,
+      "2026.2.9-243": 1193180
     }
   }
 }

@@ -954,6 +954,41 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193154": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12108/1193154/scipio-editor-2026.2.1-243.zip?updateId=1193154&pluginId=12108&family=INTELLIJ",
+      "sha256": "nrXyEg95n4PtQrcFQBiwTLjc0dTYLxiUpWR20/5dCLU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "AntSupport",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle"
+      ],
+      "file_name": "scipio-editor-2026.2.1-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "1193155": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12108/1193155/scipio-editor-2026.2.1.zip?updateId=1193155&pluginId=12108&family=INTELLIJ",
+      "sha256": "/nZsEyS9mvepzf05d90ftUsDZbp3N7fwb6DX5QP3x8U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.java",
+        "AntSupport",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle"
+      ],
+      "file_name": "scipio-editor-2026.2.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -997,6 +1032,8 @@
       "2026.1.0": 962695,
       "2026.1.1": 965032,
       "2026.2.0": 1177153,
+      "2026.2.1": 1193155,
+      "2026.2.1-243": 1193154,
       "3.0": 66180,
       "3.1": 68271,
       "4.0": 73799,

@@ -308,6 +308,39 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29536/1193182/pygui-2026.2.14.zip?updateId=1193182&pluginId=29536&family=INTELLIJ",
+      "sha256": "0NLhByVpiqqh/my3iJaQWp2qWvEIHyUnfmtTkmXIeY8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "org.toml.lang"
+      ],
+      "file_name": "pygui-2026.2.14.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193183": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29536/1193183/pygui-2026.2.14-243.zip?updateId=1193183&pluginId=29536&family=INTELLIJ",
+      "sha256": "Vq0W5TmY8pL1QBiPpNwBuVzbTMEMY1Jy8zZ2/+PAgIw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.toml.lang",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "pygui-2026.2.14-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -324,6 +357,8 @@
       "2026.2.11": 1079420,
       "2026.2.12": 1118269,
       "2026.2.13": 1118277,
+      "2026.2.14": 1193182,
+      "2026.2.14-243": 1193183,
       "2026.2.2": 953302,
       "2026.2.3": 956641,
       "2026.2.4": 962019,

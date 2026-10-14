@@ -31,12 +31,45 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193166": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32232/1193166/flexible-for-mantine-2026.1.2.zip?updateId=1193166&pluginId=32232&family=INTELLIJ",
+      "sha256": "YcnCw1ZxXsm6tXuWNzIycXWvIfzhAzSXJZaNSVs3OVU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "flexible-for-mantine-2026.1.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193167": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32232/1193167/flexible-for-mantine-2026.1.2-243.zip?updateId=1193167&pluginId=32232&family=INTELLIJ",
+      "sha256": "ZeoaP9kVoRMPKiyu7q1NuT9VLtyIVhXNsmBWxy+60DI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "flexible-for-mantine-2026.1.2-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.1.0": 1074486,
-      "2026.1.1": 1074488
+      "2026.1.1": 1074488,
+      "2026.1.2": 1193166,
+      "2026.1.2-243": 1193167
     }
   }
 }

@@ -181,10 +181,57 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193482": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29781/1193482/antlr4plus-2026.1.12.1-legacy.zip?updateId=1193482&pluginId=29781&family=INTELLIJ",
+      "sha256": "FOnXjlh95UpIHNzJpai32aOtevSg8zQoZ8dZJKe4uU0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.compose"
+      ],
+      "file_name": "antlr4plus-2026.1.12.1-legacy.zip",
+      "since": "232.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1193506": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29781/1193506/antlr4plus-2026.1.12.2-modern.zip?updateId=1193506&pluginId=29781&family=INTELLIJ",
+      "sha256": "3Vxl8fqer/Jm5XyPSODDN2p3jk54Afi1eCTpfrZ034c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.compose"
+      ],
+      "file_name": "antlr4plus-2026.1.12.2-modern.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "1193508": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29781/1193508/antlr4plus-2026.1.12.3-newer.zip?updateId=1193508&pluginId=29781&family=INTELLIJ",
+      "sha256": "OnEN19N2/aUggNX764kNuOp60Ubcq+Ch2H7dQjRBkXg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "antlr4plus-2026.1.12.3-newer.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "2026.1.12.1": 1193482,
+      "2026.1.12.2": 1193506,
+      "2026.1.12.3": 1193508,
       "2026.1.3.1": 945960,
       "2026.1.3.2": 945963,
       "2026.1.3.3": 945964,

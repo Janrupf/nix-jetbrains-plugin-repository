@@ -43,13 +43,44 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193168": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34930/1193168/flexible-delphi-2026.1.3.zip?updateId=1193168&pluginId=34930&family=INTELLIJ",
+      "sha256": "coOT7dqGrdr1EOcv/P8EtmxdDTbYLGZWUgFZI1TRZ7Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flexible-delphi-2026.1.3.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193169": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34930/1193169/flexible-delphi-2026.1.3-243.zip?updateId=1193169&pluginId=34930&family=INTELLIJ",
+      "sha256": "B6bpqdZrD5J/b/z6RPVr2X+5G0cASOMJ1NdgYs4ArVM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "flexible-delphi-2026.1.3-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.1.0": 1190499,
       "2026.1.1": 1190523,
-      "2026.1.2": 1190912
+      "2026.1.2": 1190912,
+      "2026.1.3": 1193168,
+      "2026.1.3-243": 1193169
     }
   }
 }

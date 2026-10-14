@@ -35,12 +35,54 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193201": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33865/1193201/WISE-1.0.1.zip?updateId=1193201&pluginId=33865&family=INTELLIJ",
+      "sha256": "X2JZTxH3PBACKj3P6VVWIUdxTR638Ysw2v1PSHGhpbA=",
+      "channel": "staging",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.ml.llm",
+        "com.intellij.modules.xdebugger"
+      ],
+      "file_name": "WISE-1.0.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193202": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33865/1193202/WISE-1.1.0.zip?updateId=1193202&pluginId=33865&family=INTELLIJ",
+      "sha256": "BootML1VJQs4Zv4LGI4O7quM/UrZQESXpiL0kgzC5qc=",
+      "channel": "staging",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.air.backend.session.log",
+        "Git4Idea",
+        "com.intellij.air",
+        "com.intellij.ml.llm",
+        "intellij.air.backend.session.log.storage",
+        "intellij.air.backend.session.api",
+        "com.intellij.modules.xdebugger"
+      ],
+      "file_name": "WISE-1.1.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "release": {
       "1.0": 1168605,
       "1.0.1": 1170221
+    },
+    "staging": {
+      "1.0.1": 1193201,
+      "1.1.0": 1193202
     }
   }
 }

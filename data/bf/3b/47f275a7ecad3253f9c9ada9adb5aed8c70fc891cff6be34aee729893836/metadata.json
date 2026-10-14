@@ -120,11 +120,44 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1193176": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32015/1193176/flexible-scad-2026.1.10.zip?updateId=1193176&pluginId=32015&family=INTELLIJ",
+      "sha256": "z72pYOLnhzDObUbSxGYRnQhNdsJXnVfgVu3ilQOnqWA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "flexible-scad-2026.1.10.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193177": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32015/1193177/flexible-scad-2026.1.10-243.zip?updateId=1193177&pluginId=32015&family=INTELLIJ",
+      "sha256": "WspQO/Kif+1rHFY2b3BBm1zRf3nWU7VQFeXh3fFEG+c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "flexible-scad-2026.1.10-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.1.1": 1061758,
+      "2026.1.10": 1193176,
+      "2026.1.10-243": 1193177,
       "2026.1.2": 1061978,
       "2026.1.3": 1068212,
       "2026.1.4": 1078364,
