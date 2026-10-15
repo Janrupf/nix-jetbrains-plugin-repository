@@ -18,11 +18,31 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1193683": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35035/1193683/anvil-intellij-1.0.0.zip?updateId=1193683&pluginId=35035&family=INTELLIJ",
+      "sha256": "I4sW7BAtI68h0kFCJgAHlKTJjMHGAfXHP2o54LtvD0U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "anvil-intellij-1.0.0.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
       "1.0.0-beta.1": 1192444
+    },
+    "stable": {
+      "1.0.0": 1193683
     }
   }
 }

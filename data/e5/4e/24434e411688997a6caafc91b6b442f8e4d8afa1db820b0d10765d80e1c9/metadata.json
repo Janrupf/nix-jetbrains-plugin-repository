@@ -31,12 +31,36 @@
       "since": "241.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1194166": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31736/1194166/JetPilot-1.0.0.zip?updateId=1194166&pluginId=31736&family=INTELLIJ",
+      "sha256": "GqKXfEDSc23/g7Z3H1KBo66g3mqvF88PsvvbgEbsqsY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "JetPilot-1.0.0.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "241.0",
+          "applies_until": "262.*",
+          "compatible_since": "262.0",
+          "compatible_until": "262.*"
+        }
+      ]
     }
   },
   "channels": {
     "stable": {
       "0.3.0": 1046230,
-      "0.3.1": 1087266
+      "0.3.1": 1087266,
+      "1.0.0": 1194166
     }
   }
 }
