@@ -540,6 +540,27 @@
       "since": "263.6800",
       "until": "263.6800.*",
       "compatibility_overrides": []
+    },
+    "1194845": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28630/1194845/findUsagesMl-263.7031.23.zip?updateId=1194845&pluginId=28630&family=INTELLIJ",
+      "sha256": "pdekVh/SUrDbcrUYlxwfVQp3wx+NSr1y4zPeUEDz6Rk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.indexing",
+        "intellij.platform.core",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.impl",
+        "com.intellij.modules.json",
+        "intellij.platform.ml.logs",
+        "intellij.libraries.commons.text",
+        "intellij.platform.statistics",
+        "intellij.java.backend"
+      ],
+      "optional_dependencies": [],
+      "file_name": "findUsagesMl-263.7031.23.zip",
+      "since": "263.7031",
+      "until": "263.7031.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -574,7 +595,8 @@
       "263.5153.40": 1174158,
       "263.5701.42": 1179807,
       "263.6259.32": 1184983,
-      "263.6800.24": 1192009
+      "263.6800.24": 1192009,
+      "263.7031.23": 1194845
     }
   }
 }

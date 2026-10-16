@@ -1409,6 +1409,42 @@
       "since": "263.6800",
       "until": "263.6800.*",
       "compatibility_overrides": []
+    },
+    "1194901": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23091/1194901/editSuggestion-263.7031.23.zip?updateId=1194901&pluginId=23091&family=INTELLIJ",
+      "sha256": "rjPRQpijRUd6SNJB2uAoUCDPwr78Z/BZ2R0Xi5wb4ZA=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.refactoring",
+        "intellij.platform.codeStyle",
+        "intellij.platform.lang",
+        "intellij.platform.util.ui",
+        "intellij.platform.util.diff",
+        "intellij.platform.diff.impl",
+        "intellij.platform.concurrency",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.impl",
+        "intellij.platform.ide.core",
+        "intellij.platform.core.ui",
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.kotlin",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.statistics",
+        "intellij.java.backend",
+        "intellij.platform.editor.ui",
+        "intellij.platform.core",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.lang.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.kotlinc.kotlin.compiler.common",
+        "intellij.platform.core.impl",
+        "intellij.java.psi"
+      ],
+      "file_name": "editSuggestion-263.7031.23.zip",
+      "since": "263.7031",
+      "until": "263.7031.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1501,7 +1537,8 @@
       "263.5153.40": 1174097,
       "263.5701.42": 1179647,
       "263.6259.32": 1184994,
-      "263.6800.24": 1191960
+      "263.6800.24": 1191960,
+      "263.7031.23": 1194901
     }
   }
 }

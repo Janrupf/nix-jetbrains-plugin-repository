@@ -547,9 +547,27 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1195277": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29580/1195277/jetbrains-inspection-api-1.14.2.518.zip?updateId=1195277&pluginId=29580&family=INTELLIJ",
+      "sha256": "iKo/hSiEof6fTP6V136eaL36sYKz+Tl+5oe2cgua+0I=",
+      "channel": "agents",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "jetbrains-inspection-api-1.14.2.518.zip",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "agents": {
+      "1.14.2.518": 1195277
+    },
     "canary": {
       "1.14.0-canary.2": 1132726
     },

@@ -225,9 +225,30 @@
       "since": "251.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1194599": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27749/1194599/testBalloon-intellij-plugin-1.0.2-beta1-signed.zip?updateId=1194599&pluginId=27749&family=INTELLIJ",
+      "sha256": "Y47MoGc7/WKqOh+W6jvOb9TrZt0nwUgW7y54PkpRzys=",
+      "channel": "eap",
+      "dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "testBalloon-intellij-plugin-1.0.2-beta1-signed.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "1.0.2-beta1": 1194599
+    },
     "stable": {
       "0.2.5": 781727,
       "0.2.6": 813255,

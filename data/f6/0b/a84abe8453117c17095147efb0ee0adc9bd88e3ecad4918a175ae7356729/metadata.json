@@ -2,20 +2,6 @@
   "xml_id": "com.cornmell.superjump",
   "numeric_id": 34717,
   "updates": {
-    "1192939": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34717/1192939/SuperJump-0.0.2.zip?updateId=1192939&pluginId=34717&family=INTELLIJ",
-      "sha256": "C/heTRnM0Fdai9c9nWpZP8qiCifOELxo+fVZQ9qv6+Q=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "Git4Idea"
-      ],
-      "optional_dependencies": [],
-      "file_name": "SuperJump-0.0.2.zip",
-      "since": "253.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1193141": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/34717/1193141/SuperJump-0.0.3.zip?updateId=1193141&pluginId=34717&family=INTELLIJ",
       "sha256": "6K5NM2iFilVMWGZDOfOfs8Im8EHFkyS/U5qeZo2Z64w=",
@@ -29,12 +15,26 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1195001": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34717/1195001/SuperJump-1.0.0.zip?updateId=1195001&pluginId=34717&family=INTELLIJ",
+      "sha256": "KiP4lE7pz0YgQuUz/n9Efu5uX4PrxVDmoyZ19vzF7h4=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SuperJump-1.0.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.2": 1192939,
-      "0.0.3": 1193141
+      "0.0.3": 1193141,
+      "1.0.0": 1195001
     }
   }
 }

@@ -6261,6 +6261,49 @@
       "since": "263.6259",
       "until": "263.6259.*",
       "compatibility_overrides": []
+    },
+    "1195318": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1195318/nodeJS-remoteInterpreter-263.7031.36.zip?updateId=1195318&pluginId=8116&family=INTELLIJ",
+      "sha256": "0sUAdd/9q5xuUfJLG+dj6jyiJbMs2P3/cEh+ZLtj0lA=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.remoteServers.impl",
+        "intellij.platform.ssh",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.javascript.backend",
+        "intellij.platform.execution",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.projectModel",
+        "intellij.platform.core.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.ide.core",
+        "JavaScriptDebugger",
+        "intellij.platform.remoteServers",
+        "intellij.platform.core",
+        "intellij.platform.ide.remote",
+        "intellij.platform.lang.impl",
+        "intellij.platform.remote.core",
+        "intellij.javascript.parser",
+        "intellij.platform.debugger",
+        "intellij.platform.concurrency",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "JavaScript",
+        "intellij.libraries.guava",
+        "com.intellij.modules.ultimate",
+        "NodeJS",
+        "intellij.platform.ssh.core",
+        "intellij.platform.execution.impl",
+        "intellij.clouds.docker.agent",
+        "org.jetbrains.plugins.remote-run"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-263.7031.36.zip",
+      "since": "263.7031",
+      "until": "263.7031.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6576,7 +6619,8 @@
       "263.4732.20": 1167032,
       "263.5153.37": 1173687,
       "263.5701.47": 1180090,
-      "263.6259.35": 1185120
+      "263.6259.35": 1185120,
+      "263.7031.36": 1195318
     }
   }
 }

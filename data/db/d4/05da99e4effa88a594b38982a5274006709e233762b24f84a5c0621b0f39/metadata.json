@@ -1,6 +1,100 @@
 {
   "xml_id": "com.intellij.experimental.lua-lsp",
   "numeric_id": 35067,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1193955": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35067/1193955/lua.lsp-1.0.0-linux-arm64.zip?updateId=1193955&pluginId=35067&family=INTELLIJ",
+      "sha256": "RWurN+qqb7h2lSMDQolAUz5iI/W14wyuYO9AR8ty7lQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.arm64",
+        "intellij.platform.lsp.impl",
+        "intellij.platform.lsp",
+        "com.intellij.modules.os.linux",
+        "intellij.platform.frontend"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lua.lsp-1.0.0-linux-arm64.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193956": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35067/1193956/lua.lsp-1.0.0-linux-x86_64.zip?updateId=1193956&pluginId=35067&family=INTELLIJ",
+      "sha256": "Mf6qZX3Ia16noWJL/SWFBBzZSX1CiSj8jt0XTFOAcYs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.linux",
+        "intellij.platform.lsp.impl",
+        "com.intellij.modules.arch.x86_64",
+        "intellij.platform.frontend",
+        "intellij.platform.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lua.lsp-1.0.0-linux-x86_64.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193957": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35067/1193957/lua.lsp-1.0.0-mac-arm64.zip?updateId=1193957&pluginId=35067&family=INTELLIJ",
+      "sha256": "f9h8CblqkEhQDQNz4+MnnACBSWHC9t4VFftyG8rnpb0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lsp.impl",
+        "com.intellij.modules.os.mac",
+        "intellij.platform.frontend",
+        "com.intellij.modules.arch.arm64",
+        "intellij.platform.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lua.lsp-1.0.0-mac-arm64.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193958": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35067/1193958/lua.lsp-1.0.0-mac-x86_64.zip?updateId=1193958&pluginId=35067&family=INTELLIJ",
+      "sha256": "7YHMZLf9rVQQ8fM4fW3JA/s4/wW8woDqFmy/7yeeOXs=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lsp",
+        "intellij.platform.lsp.impl",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.mac",
+        "intellij.platform.frontend"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lua.lsp-1.0.0-mac-x86_64.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1193959": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35067/1193959/lua.lsp-1.0.0-windows-x86_64.zip?updateId=1193959&pluginId=35067&family=INTELLIJ",
+      "sha256": "eXke23KRwq36PiGXecEO+VpkpjURoBw46Pez56n81t0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lsp",
+        "intellij.platform.frontend",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.windows",
+        "intellij.platform.lsp.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lua.lsp-1.0.0-windows-x86_64.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0-linux-arm64": 1193955,
+      "1.0.0-linux-x86_64": 1193956,
+      "1.0.0-mac-arm64": 1193957,
+      "1.0.0-mac-x86_64": 1193958,
+      "1.0.0-windows-x86_64": 1193959
+    }
+  }
 }

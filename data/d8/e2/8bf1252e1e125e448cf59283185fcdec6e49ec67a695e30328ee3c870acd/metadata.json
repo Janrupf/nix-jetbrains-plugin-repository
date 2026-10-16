@@ -40,13 +40,27 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1195345": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34960/1195345/mdl-ide.jar?updateId=1195345&pluginId=34960&family=INTELLIJ",
+      "sha256": "dh3te6tTVCP7WPQWpsdzwJGTqFCAj9ulrFQEo9/d2+s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mdl-ide.jar",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1190849,
       "1.0.2": 1190864,
-      "1.0.3": 1190872
+      "1.0.3": 1190872,
+      "1.0.4": 1195345
     }
   }
 }

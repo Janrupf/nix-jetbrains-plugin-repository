@@ -1070,6 +1070,65 @@
       "since": "263.6800",
       "until": "263.6800.*",
       "compatibility_overrides": []
+    },
+    "1194887": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28631/1194887/searchEverywhereMl-263.7031.23.zip?updateId=1194887&pluginId=28631&family=INTELLIJ",
+      "sha256": "hmQ/pwrOjtTB7FyGrXuAUD2u2vVxHCN+bZfDO3i/xo4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.statistics",
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.lang.impl",
+        "intellij.platform.ide",
+        "intellij.platform.lang",
+        "intellij.json.backend",
+        "intellij.platform.projectModel"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.caffeine",
+        "intellij.platform.concurrency",
+        "intellij.platform.usageView",
+        "intellij.java.backend",
+        "intellij.platform.backend",
+        "intellij.libraries.ai.grazie.spell.gec.engine.local",
+        "intellij.libraries.search.everywhere.find.ec.model",
+        "intellij.platform.ide.progress",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.ml.impl",
+        "intellij.libraries.fastutil",
+        "intellij.platform.vcs",
+        "intellij.libraries.jackson3",
+        "intellij.libraries.mlapi.core",
+        "tanvd.grazi",
+        "intellij.libraries.search.everywhere.find.all.model",
+        "intellij.platform.core.ui",
+        "intellij.libraries.jackson3.module.kotlin",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.refactoring",
+        "intellij.platform.execution.impl",
+        "intellij.platform.indexing",
+        "intellij.platform.util.ui",
+        "intellij.platform.core.impl",
+        "intellij.platform.execution",
+        "intellij.libraries.jackson3.databind",
+        "intellij.platform.ide.internal",
+        "com.intellij.modules.vcs",
+        "intellij.java.psi",
+        "intellij.platform.searchEverywhere.frontend",
+        "intellij.grazie.core",
+        "intellij.searchEverywhereMl.ranking.core",
+        "intellij.searchEverywhereMl.ranking.ext",
+        "intellij.platform.analysis",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.platform.ide.impl",
+        "intellij.yaml.backend",
+        "intellij.platform.ide.core"
+      ],
+      "file_name": "searchEverywhereMl-263.7031.23.zip",
+      "since": "263.7031",
+      "until": "263.7031.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1109,7 +1168,8 @@
       "263.5153.40": 1174118,
       "263.5701.42": 1179678,
       "263.6259.32": 1184991,
-      "263.6800.24": 1192004
+      "263.6800.24": 1192004,
+      "263.7031.23": 1194887
     }
   }
 }

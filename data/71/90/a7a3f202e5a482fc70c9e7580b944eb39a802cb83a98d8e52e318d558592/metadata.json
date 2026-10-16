@@ -546,9 +546,44 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1195043": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31306/1195043/Angular-Architect-2.0.0.zip?updateId=1195043&pluginId=31306&family=INTELLIJ",
+      "sha256": "h57XfLqWNscJ9d2CNfvA2fDdQ1nlMSCRtiA931x00yQ=",
+      "channel": "pro",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "JavaScript"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "Angular-Architect-2.0.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1195051": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31306/1195051/Angular-Architect-1.6.4.zip?updateId=1195051&pluginId=31306&family=INTELLIJ",
+      "sha256": "chMP+CVNW0BpxWl6d9HyOYLfMgT0VIlJeJh01dsvPYk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "JavaScript"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "Angular-Architect-1.6.4.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "pro": {
+      "2.0.0": 1195043
+    },
     "stable": {
       "1.0.2": 1024603,
       "1.1.0": 1026952,
@@ -585,7 +620,8 @@
       "1.6.0": 1173312,
       "1.6.1": 1180124,
       "1.6.2": 1190314,
-      "1.6.3": 1190365
+      "1.6.3": 1190365,
+      "1.6.4": 1195051
     }
   }
 }
