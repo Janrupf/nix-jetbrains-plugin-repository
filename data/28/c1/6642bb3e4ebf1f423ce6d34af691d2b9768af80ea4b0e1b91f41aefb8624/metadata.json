@@ -732,11 +732,73 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1195732": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27375/1195732/configurationScript-271.767.0.zip?updateId=1195732&pluginId=27375&family=INTELLIJ",
+      "sha256": "Utn2nR+/RgfNXGga5uxOI0IaLJCYQM4pyw5FGl8jyO8=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.serviceContainer",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ex",
+        "intellij.platform.lang",
+        "intellij.platform.objectSerializer",
+        "intellij.platform.workspace.jps",
+        "intellij.platform.ide.impl",
+        "intellij.platform.configurationStore.impl",
+        "intellij.platform.ide.core",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.projectModel",
+        "intellij.json.backend",
+        "intellij.platform.execution",
+        "intellij.libraries.snakeyaml.engine",
+        "intellij.platform.core",
+        "intellij.platform.execution.impl",
+        "intellij.platform.analysis"
+      ],
+      "optional_dependencies": [],
+      "file_name": "configurationScript-271.767.0.zip",
+      "since": "271.767",
+      "until": "271.767",
+      "compatibility_overrides": []
+    },
+    "1196084": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27375/1196084/configurationScript-271.815.0.zip?updateId=1196084&pluginId=27375&family=INTELLIJ",
+      "sha256": "PLOX3s2KsSq4//6Aa7biLTJI706X6/zRKDrCvRlcVXk=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.serviceContainer",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ex",
+        "intellij.platform.lang",
+        "intellij.platform.objectSerializer",
+        "intellij.platform.workspace.jps",
+        "intellij.platform.ide.impl",
+        "intellij.platform.configurationStore.impl",
+        "intellij.platform.ide.core",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.projectModel",
+        "intellij.platform.execution",
+        "intellij.platform.core",
+        "intellij.platform.execution.impl",
+        "intellij.json.backend",
+        "intellij.libraries.snakeyaml.engine",
+        "intellij.platform.analysis"
+      ],
+      "optional_dependencies": [],
+      "file_name": "configurationScript-271.815.0.zip",
+      "since": "271.815",
+      "until": "271.815",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
-      "271.684.0": 1194519
+      "271.684.0": 1194519,
+      "271.767.0": 1195732,
+      "271.815.0": 1196084
     },
     "stable": {
       "252.13776.59": 741622,

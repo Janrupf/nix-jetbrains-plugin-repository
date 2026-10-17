@@ -77,6 +77,44 @@
       "since": "233.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1195823": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34842/1195823/qwen-mate-1.1.0-beta1-signed.zip?updateId=1195823&pluginId=34842&family=INTELLIJ",
+      "sha256": "7zIh+1Udg4gg0rQ7RSdlukgjGxsPe8C7VUAzyrY+Fxk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.jcef",
+        "com.intellij.java"
+      ],
+      "file_name": "qwen-mate-1.1.0-beta1-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1196117": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34842/1196117/qwen-mate-1.1.0-signed.zip?updateId=1196117&pluginId=34842&family=INTELLIJ",
+      "sha256": "CJQr8bt7DsbEurz21bCNbk+xqcwcsnKYePcU6E7gdRE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.java",
+        "com.intellij.modules.python",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "qwen-mate-1.1.0-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -84,7 +122,9 @@
       "1.0.0": 1192831,
       "1.0.0-beta1": 1188322,
       "1.0.0-beta2": 1190816,
-      "1.0.0-beta3": 1191091
+      "1.0.0-beta3": 1191091,
+      "1.1.0": 1196117,
+      "1.1.0-beta1": 1195823
     }
   }
 }

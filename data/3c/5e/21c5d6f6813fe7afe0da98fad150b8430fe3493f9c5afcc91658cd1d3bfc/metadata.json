@@ -3157,11 +3157,93 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1195727": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13114/1195727/copyright-271.767.0.zip?updateId=1195727&pluginId=13114&family=INTELLIJ",
+      "sha256": "iaopDSpjd5dktMvnT/79JkPeK8J0D+KNywFA8zcJB0A=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl",
+        "com.intellij.modules.xml",
+        "intellij.libraries.velocity",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.concurrency",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.lang.core",
+        "intellij.platform.core.ui",
+        "intellij.platform.lang.impl",
+        "intellij.xml.psi.impl",
+        "intellij.platform.analysis",
+        "intellij.platform.externalSystem",
+        "intellij.platform.externalSystem.impl",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.xml.psi",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.projectModel",
+        "intellij.platform.lang",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.util.progress",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.ide",
+        "intellij.platform.vcs"
+      ],
+      "file_name": "copyright-271.767.0.zip",
+      "since": "271.767",
+      "until": "271.767",
+      "compatibility_overrides": []
+    },
+    "1196091": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13114/1196091/copyright-271.815.0.zip?updateId=1196091&pluginId=13114&family=INTELLIJ",
+      "sha256": "ix2k3wWeAy2pwhMAGfKxw2KoU/3br5SwFhPsxy4l3xY=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.concurrency",
+        "intellij.xml.psi.impl",
+        "intellij.platform.ide.core.impl",
+        "com.intellij.modules.lang",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.editor.ui",
+        "intellij.platform.analysis",
+        "intellij.platform.core.ui",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ui",
+        "intellij.xml.psi",
+        "intellij.platform.lang",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl",
+        "com.intellij.modules.xml",
+        "intellij.platform.externalSystem.impl",
+        "intellij.platform.lang.core",
+        "intellij.platform.lang.impl",
+        "intellij.libraries.velocity",
+        "intellij.platform.core"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.vcs",
+        "intellij.platform.ide",
+        "intellij.platform.util.progress",
+        "intellij.platform.vcs.impl"
+      ],
+      "file_name": "copyright-271.815.0.zip",
+      "since": "271.815",
+      "until": "271.815",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
-      "271.684.0": 1194493
+      "271.684.0": 1194493,
+      "271.767.0": 1195727,
+      "271.815.0": 1196091
     },
     "stable": {
       "193.4193": 69933,

@@ -354,11 +354,91 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1195728": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1195728/java-aetherDependencyResolver-plugin-271.767.0.zip?updateId=1195728&pluginId=34026&family=INTELLIJ",
+      "sha256": "pZ2zy2WoyaUFdRJ+d/CIVSgP2O6BcOQnzmaEybXXGe0=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.http.client",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.commons.codec",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.commons.logging"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.protobuf",
+        "intellij.libraries.javax.annotation",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.ide",
+        "intellij.repository.search.completion",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.platform.analysis",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.util.text.matching",
+        "intellij.platform.externalSystem",
+        "intellij.platform.statistics",
+        "intellij.libraries.guava",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.grpc"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-271.767.0.zip",
+      "since": "271.767",
+      "until": "271.767",
+      "compatibility_overrides": []
+    },
+    "1196060": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1196060/java-aetherDependencyResolver-plugin-271.815.0.zip?updateId=1196060&pluginId=34026&family=INTELLIJ",
+      "sha256": "b2JYKU1av6BGLOFJVE3AknSfrKuyQ1o6CxF+HHteF0U=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.commons.codec",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.http.client",
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.commons.logging"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.protobuf",
+        "intellij.platform.analysis",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.grpc",
+        "intellij.platform.util.text.matching",
+        "intellij.platform.statistics",
+        "intellij.libraries.guava",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.ide",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.libraries.javax.annotation",
+        "intellij.repository.search.completion",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-271.815.0.zip",
+      "since": "271.815",
+      "until": "271.815",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
-      "271.684.0": 1194520
+      "271.684.0": 1194520,
+      "271.767.0": 1195728,
+      "271.815.0": 1196060
     },
     "stable": {
       "263.3889.65": 1159792,

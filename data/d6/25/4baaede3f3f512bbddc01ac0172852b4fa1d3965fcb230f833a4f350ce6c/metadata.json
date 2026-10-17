@@ -719,6 +719,61 @@
       "since": "263.6259",
       "until": "263.6259.*",
       "compatibility_overrides": []
+    },
+    "1195792": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26511/1195792/remoteRun-263.7031.43.zip?updateId=1195792&pluginId=26511&family=INTELLIJ",
+      "sha256": "DwuRdY9/ayuJxQEnGW/1tweE97fjhcMuGxBGnMNkiYM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis",
+        "intellij.libraries.commons.compress",
+        "org.jetbrains.plugins.terminal",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.concurrency",
+        "intellij.platform.projectModel",
+        "intellij.platform.statistics",
+        "intellij.platform.eel.provider",
+        "intellij.platform.execution.impl",
+        "intellij.platform.ide",
+        "intellij.platform.lang",
+        "intellij.platform.execution",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.remote.core",
+        "intellij.platform.ssh.core",
+        "intellij.libraries.jsch.agent.proxy.sshj",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.core.impl",
+        "intellij.platform.consoleView",
+        "intellij.platform.core.ui",
+        "intellij.platform.ide.core",
+        "intellij.platform.consoleView.impl",
+        "intellij.libraries.guava",
+        "intellij.platform.util.ui",
+        "intellij.platform.macro",
+        "intellij.libraries.jediterm.core",
+        "intellij.platform.lang.impl",
+        "intellij.platform.ssh",
+        "intellij.platform.ssh.ui",
+        "intellij.libraries.sshj",
+        "intellij.platform.ide.remote",
+        "intellij.platform.eel.tcp"
+      ],
+      "optional_dependencies": [
+        "intellij.terminal.backend.split",
+        "intellij.sh.core",
+        "intellij.maven",
+        "intellij.gradle",
+        "intellij.sh.terminal",
+        "intellij.platform.externalSystem.impl"
+      ],
+      "file_name": "remoteRun-263.7031.43.zip",
+      "since": "263.7031",
+      "until": "263.7031.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -753,7 +808,8 @@
       "262.8377.20": 1086647,
       "262.8665.185": 1103146,
       "263.5153.34": 1174363,
-      "263.6259.36": 1184764
+      "263.6259.36": 1184764,
+      "263.7031.43": 1195792
     }
   }
 }

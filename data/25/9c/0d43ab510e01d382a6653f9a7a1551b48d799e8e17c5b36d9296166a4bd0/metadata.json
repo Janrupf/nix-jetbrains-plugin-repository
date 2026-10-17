@@ -12745,6 +12745,88 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1195731": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8195/1195731/toml-271.767.0.zip?updateId=1195731&pluginId=8195&family=INTELLIJ",
+      "sha256": "gxmbnVWcg9s4WqKAlVham+czJPQ9SjPobBeM1qj4bGc=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.codeStyle",
+        "intellij.platform.core",
+        "intellij.platform.lang",
+        "intellij.platform.ide.core",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.lang.impl",
+        "intellij.platform.codeStyle.impl",
+        "com.intellij.modules.lang",
+        "intellij.platform.concurrency",
+        "intellij.platform.editor.ui",
+        "intellij.platform.analysis"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.stream",
+        "intellij.platform.backend",
+        "intellij.platform.frontend.split",
+        "intellij.platform.core.ui",
+        "intellij.libraries.rd.core",
+        "intellij.platform.split.protocol",
+        "tanvd.grazi",
+        "intellij.grazie.core",
+        "intellij.platform.indexing.impl",
+        "intellij.toml.core",
+        "intellij.rd.client",
+        "intellij.platform.ide",
+        "intellij.platform.indexing",
+        "intellij.json.backend",
+        "intellij.libraries.rd.framework"
+      ],
+      "file_name": "toml-271.767.0.zip",
+      "since": "271.767",
+      "until": "271.767",
+      "compatibility_overrides": []
+    },
+    "1196096": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8195/1196096/toml-271.815.0.zip?updateId=1196096&pluginId=8195&family=INTELLIJ",
+      "sha256": "qTCG5Ki+P5LyN7bmADQEKlJWDV68nLPeg1FJjxf2Pw8=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.codeStyle",
+        "intellij.platform.lang",
+        "intellij.platform.codeStyle.impl",
+        "com.intellij.modules.lang",
+        "intellij.platform.core",
+        "intellij.platform.ide.impl",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.core",
+        "intellij.platform.lang.impl",
+        "intellij.platform.analysis",
+        "intellij.platform.editor.ui",
+        "intellij.platform.util.ui",
+        "intellij.platform.concurrency"
+      ],
+      "optional_dependencies": [
+        "intellij.rd.client",
+        "intellij.platform.core.ui",
+        "intellij.libraries.stream",
+        "intellij.platform.indexing",
+        "intellij.libraries.rd.framework",
+        "intellij.platform.frontend.split",
+        "intellij.platform.split.protocol",
+        "intellij.grazie.core",
+        "intellij.platform.ide",
+        "intellij.platform.indexing.impl",
+        "intellij.toml.core",
+        "intellij.json.backend",
+        "intellij.libraries.rd.core",
+        "intellij.platform.backend",
+        "tanvd.grazi"
+      ],
+      "file_name": "toml-271.815.0.zip",
+      "since": "271.815",
+      "until": "271.815",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -13288,7 +13370,9 @@
       "0.2.155.4075-212-nightly": 134170,
       "0.2.156.4100-211-nightly": 135698,
       "0.2.156.4100-212-nightly": 135699,
-      "271.684.0": 1194504
+      "271.684.0": 1194504,
+      "271.767.0": 1195731,
+      "271.815.0": 1196096
     },
     "stable": {
       "0.0.1": 30612,

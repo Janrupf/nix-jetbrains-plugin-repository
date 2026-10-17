@@ -36,9 +36,28 @@
       "since": "222.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1195690": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13886/1195690/Copy_as_SQL-1.0.8.zip?updateId=1195690&pluginId=13886&family=INTELLIJ",
+      "sha256": "Nfbgrovhwf7K6s5kd/1kGzxa3o+S4o3wzPWbleftnmI=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.grid.core.plugin"
+      ],
+      "file_name": "Copy_as_SQL-1.0.8.zip",
+      "since": "222.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.0.8": 1195690
+    },
     "stable": {
       "1.0.4": 80263,
       "1.0.5": 197579

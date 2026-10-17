@@ -523,6 +523,38 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1195820": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34719/1195820/circleci-jetbrains-plugin-1.19.0-signed.zip?updateId=1195820&pluginId=34719&family=INTELLIJ",
+      "sha256": "UItuNbZaT0gT+kKwJ/+wZxhMmF3fvF8XvfCZvUS5ipU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.compose",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.vcs.dvcs",
+        "intellij.libraries.skiko",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.libraries.compose.foundation.desktop",
+        "com.intellij.modules.lsp",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.libraries.compose.runtime.desktop",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal",
+        "intellij.ssh.plugin"
+      ],
+      "file_name": "circleci-jetbrains-plugin-1.19.0-signed.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -536,6 +568,7 @@
       "1.16.0": 1193764,
       "1.17.0": 1194548,
       "1.18.0": 1195370,
+      "1.19.0": 1195820,
       "1.3.1": 1186088,
       "1.4.0": 1186108,
       "1.5.0": 1187787,
