@@ -18,11 +18,30 @@
       "since": "262.8665",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1196817": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35116/1196817/intellij-dbt-1.1.0.zip?updateId=1196817&pluginId=35116&family=INTELLIJ",
+      "sha256": "Wex+jRisj3UEQfZB0Vof5cM9LhdZb+b0xdbQKnwCydE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-dbt-1.1.0.zip",
+      "since": "262.8665",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1194108
+      "1.0.0": 1194108,
+      "1.1.0": 1196817
     }
   }
 }

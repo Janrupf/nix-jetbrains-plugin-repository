@@ -43,13 +43,30 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1196748": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32900/1196748/sql-transpiler-intellij-plugin-0.5.1.zip?updateId=1196748&pluginId=32900&family=INTELLIJ",
+      "sha256": "TPfC/N+oUHTw/5zvDxlwr+IaL6X9mgTURmfRc7Z3rcc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "sql-transpiler-intellij-plugin-0.5.1.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1106507,
       "0.2.0": 1107948,
-      "0.3.0": 1108624
+      "0.3.0": 1108624,
+      "0.5.1": 1196748
     }
   }
 }

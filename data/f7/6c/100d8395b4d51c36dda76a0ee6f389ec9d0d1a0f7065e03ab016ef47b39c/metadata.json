@@ -35,12 +35,32 @@
       "since": "241.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1196877": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31067/1196877/run-claude-code-cmd-anywhere-1.0.19.zip?updateId=1196877&pluginId=31067&family=INTELLIJ",
+      "sha256": "0qofhFCZFTO4gxt8zu5S2X80vNbj1jYj3oNvd8tn9B4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "run-claude-code-cmd-anywhere-1.0.19.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.11": 1007324,
-      "1.0.18": 1115549
+      "1.0.18": 1115549,
+      "1.0.19": 1196877
     }
   }
 }
