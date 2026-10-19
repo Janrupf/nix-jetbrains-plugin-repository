@@ -471,6 +471,45 @@
       "since": "271.893",
       "until": "271.893",
       "compatibility_overrides": []
+    },
+    "1197802": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1197802/java-aetherDependencyResolver-plugin-271.936.0.zip?updateId=1197802&pluginId=34026&family=INTELLIJ",
+      "sha256": "BaeyvaxwP18vMlJefIc0Zxp2CCXJQYRiDYkQQ1Tc/go=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.commons.logging",
+        "intellij.libraries.http.client",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.commons.codec"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.statistics",
+        "intellij.platform.lang.impl",
+        "intellij.libraries.guava",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.core",
+        "intellij.platform.ide",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.grpc",
+        "intellij.platform.util.text.matching",
+        "com.intellij.modules.ultimate",
+        "intellij.repository.search.completion",
+        "intellij.platform.analysis",
+        "intellij.libraries.javax.annotation",
+        "intellij.libraries.protobuf",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.kotlinx.serialization.core"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-271.936.0.zip",
+      "since": "271.936",
+      "until": "271.936",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -478,7 +517,8 @@
       "271.684.0": 1194520,
       "271.767.0": 1195728,
       "271.815.0": 1196060,
-      "271.893.0": 1197064
+      "271.893.0": 1197064,
+      "271.936.0": 1197802
     },
     "stable": {
       "263.3889.65": 1159792,
