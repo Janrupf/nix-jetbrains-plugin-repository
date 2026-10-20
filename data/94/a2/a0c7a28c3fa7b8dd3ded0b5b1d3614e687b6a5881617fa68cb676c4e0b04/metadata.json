@@ -91,6 +91,51 @@
       "since": "263.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1198196": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31165/1198196/nushell-lint-intellij-1.0.4-signed.zip?updateId=1198196&pluginId=31165&family=INTELLIJ",
+      "sha256": "GZMZdTxMnaTU0vwX3pGizzOZu7kOl4KWvEnwtu3qStQ=",
+      "channel": "stable",
+      "dependencies": [
+        "co.anbora.labs.nushell.community",
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nushell-lint-intellij-1.0.4-signed.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1198198": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31165/1198198/nushell-lint-intellij-1.1.2-signed.zip?updateId=1198198&pluginId=31165&family=INTELLIJ",
+      "sha256": "CKMRJbCz31mLnM/j1NVL/e0eLTgoS7bMMzTRNpGCc4Q=",
+      "channel": "stable",
+      "dependencies": [
+        "co.anbora.labs.nushell.community",
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nushell-lint-intellij-1.1.2-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1198200": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31165/1198200/nushell-lint-intellij-1.2.1-signed.zip?updateId=1198200&pluginId=31165&family=INTELLIJ",
+      "sha256": "icCOUS58dy8Y+YvZa30wMRT222D/XkMbgWZ+jpnDXxk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "co.anbora.labs.nushell.community"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nushell-lint-intellij-1.2.1-signed.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -98,9 +143,12 @@
       "1.0.1": 1013001,
       "1.0.2": 1014340,
       "1.0.3": 1018498,
+      "1.0.4": 1198196,
       "1.1.0": 1051002,
       "1.1.1": 1127384,
-      "1.2.0": 1163378
+      "1.1.2": 1198198,
+      "1.2.0": 1163378,
+      "1.2.1": 1198200
     }
   }
 }

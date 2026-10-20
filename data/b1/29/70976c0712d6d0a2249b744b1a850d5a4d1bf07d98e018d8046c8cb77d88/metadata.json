@@ -926,6 +926,71 @@
       "since": "243.21565.193",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1198281": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34234/1198281/archverity-protected-signed.zip?updateId=1198281&pluginId=34234&family=INTELLIJ",
+      "sha256": "5jrElV7BAzPy2tM12Tt6wEXnzwj06GtmVCx97jqeeOk=",
+      "channel": "stable",
+      "dependencies": [
+        "archflow.developer.core",
+        "archflow.domain",
+        "intellij.rd.platform",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "archflow.backend",
+        "archflow.config.yaml",
+        "intellij.platform.rpc.backend",
+        "archflow.java.analyzer",
+        "intellij.platform.backend",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.mcpServer",
+        "archflow.protocol.kafka",
+        "com.jetbrains.sh",
+        "archflow.frontend",
+        "intellij.platform.ui.jcef",
+        "org.jetbrains.kotlin",
+        "archflow.shared",
+        "intellij.platform.kernel.backend",
+        "archflow.kotlin.analyzer",
+        "com.intellij.modules.xml",
+        "archflow.protocol.http"
+      ],
+      "file_name": "archverity-protected-signed.zip",
+      "since": "253.33813.55",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1198282": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34234/1198282/archverity-protected-signed.zip?updateId=1198282&pluginId=34234&family=INTELLIJ",
+      "sha256": "PraFWXZubT3rDgt5+N6c/LxeCsyfxgt5yMk8s0Yi/yE=",
+      "channel": "stable",
+      "dependencies": [
+        "archflow.developer.core",
+        "archflow.domain",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "archflow.backend",
+        "archflow.config.yaml",
+        "archflow.java.analyzer",
+        "org.jetbrains.kotlin",
+        "archflow.protocol.kafka",
+        "com.jetbrains.sh",
+        "org.jetbrains.plugins.yaml",
+        "archflow.frontend",
+        "archflow.shared",
+        "intellij.platform.kernel.backend",
+        "archflow.kotlin.analyzer",
+        "archflow.protocol.http",
+        "com.intellij.modules.xml"
+      ],
+      "file_name": "archverity-protected-signed.zip",
+      "since": "243.21565.193",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -957,7 +1022,9 @@
       "4.3.1": 1193148,
       "4.3.1-2024.3": 1193149,
       "4.4.0": 1193276,
-      "4.4.0-2024.3": 1193277
+      "4.4.0-2024.3": 1193277,
+      "5.0.0": 1198281,
+      "5.0.0-2024.3": 1198282
     }
   }
 }

@@ -510,10 +510,51 @@
       "since": "271.936",
       "until": "271.936",
       "compatibility_overrides": []
+    },
+    "1198478": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1198478/java-aetherDependencyResolver-plugin-271.1021.0.zip?updateId=1198478&pluginId=34026&family=INTELLIJ",
+      "sha256": "dqW9xj70QcAxQNvbcnFHZm2bS9M7WykAhFMj/PeI4po=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.http.client",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.commons.codec",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.commons.logging"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.platform.analysis",
+        "intellij.libraries.protobuf",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.platform.ide",
+        "intellij.libraries.javax.annotation",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.repository.search.completion",
+        "intellij.platform.externalSystem",
+        "intellij.platform.statistics",
+        "intellij.platform.util.text.matching",
+        "intellij.libraries.guava",
+        "intellij.platform.backend",
+        "intellij.platform.core",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.platform.lang.impl",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.grpc"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-271.1021.0.zip",
+      "since": "271.1021",
+      "until": "271.1021",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
+      "271.1021.0": 1198478,
       "271.684.0": 1194520,
       "271.767.0": 1195728,
       "271.815.0": 1196060,

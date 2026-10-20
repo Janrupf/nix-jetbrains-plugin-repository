@@ -852,10 +852,41 @@
       "since": "271.936",
       "until": "271.936",
       "compatibility_overrides": []
+    },
+    "1198477": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27375/1198477/configurationScript-271.1021.0.zip?updateId=1198477&pluginId=27375&family=INTELLIJ",
+      "sha256": "8xUFImt+Vqqa5lF20fco2ASxYGLO3c++EYH7WYhA2Xk=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.analysis",
+        "intellij.platform.core",
+        "intellij.platform.objectSerializer",
+        "intellij.platform.ide.core",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ex",
+        "intellij.platform.execution.impl",
+        "intellij.platform.projectModel",
+        "intellij.json.backend",
+        "intellij.platform.configurationStore.impl",
+        "intellij.platform.workspace.jps",
+        "intellij.libraries.snakeyaml.engine",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.ide.impl",
+        "intellij.platform.serviceContainer",
+        "intellij.platform.execution",
+        "intellij.platform.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "configurationScript-271.1021.0.zip",
+      "since": "271.1021",
+      "until": "271.1021",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
+      "271.1021.0": 1198477,
       "271.684.0": 1194519,
       "271.767.0": 1195732,
       "271.815.0": 1196084,

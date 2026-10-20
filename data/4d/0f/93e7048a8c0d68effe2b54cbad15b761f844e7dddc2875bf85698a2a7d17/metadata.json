@@ -48,13 +48,31 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1198184": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33124/1198184/trino-intellij-plugin-0.4.4.zip?updateId=1198184&pluginId=33124&family=INTELLIJ",
+      "sha256": "hpDoVEr/UQ/gXzRm+OGU1TdDeycSc9G6zgdgIcib7Fk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "dev.sort.sql-transpiler-intellij-plugin",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "trino-intellij-plugin-0.4.4.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.0": 1116489,
       "0.4.2": 1197185,
-      "0.4.3": 1197810
+      "0.4.3": 1197810,
+      "0.4.4": 1198184
     }
   }
 }

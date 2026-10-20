@@ -1792,7 +1792,7 @@
       ],
       "file_name": "writerside-2026.02.8644.zip",
       "since": "253.0",
-      "until": null,
+      "until": "253.*",
       "compatibility_overrides": [
         {
           "applies_since": "253.0",
@@ -1821,7 +1821,7 @@
       ],
       "file_name": "writerside-2026.02.8644.zip",
       "since": "253.0",
-      "until": null,
+      "until": "253.*",
       "compatibility_overrides": [
         {
           "applies_since": "253.0",
@@ -2100,6 +2100,90 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1198122": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1198122/writerside-2026.10.0403.zip?updateId=1198122&pluginId=20158&family=INTELLIJ",
+      "sha256": "y8S9iICzBLuzoNk1TlWM23bkWIc7YIHyGAJjOwQpDAw=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.jcef",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.lang",
+        "intellij.platform.ui.jcef",
+        "Git4Idea",
+        "intellij.libraries.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.xml.structureView.impl",
+        "intellij.xml.structureView",
+        "org.jetbrains.plugins.textmate",
+        "com.jetbrains.writerside",
+        "org.jetbrains.toolbox-enterprise-client",
+        "tanvd.grazi"
+      ],
+      "file_name": "writerside-2026.10.0403.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1198159": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1198159/writerside-2026.10.0404.zip?updateId=1198159&pluginId=20158&family=INTELLIJ",
+      "sha256": "ZhSZYDR/x5tFSgcsS2xHMyPPSx3jCzTS7Pw3VfQTWY0=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "intellij.libraries.jcef",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "intellij.platform.ui.jcef"
+      ],
+      "optional_dependencies": [
+        "intellij.xml.structureView",
+        "org.jetbrains.plugins.textmate",
+        "com.jetbrains.writerside",
+        "org.jetbrains.toolbox-enterprise-client",
+        "tanvd.grazi",
+        "intellij.xml.structureView.impl"
+      ],
+      "file_name": "writerside-2026.10.0404.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1198235": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1198235/writerside-2026.10.0408.zip?updateId=1198235&pluginId=20158&family=INTELLIJ",
+      "sha256": "QqCOkvSH2b3ktBKgxKmoBGm1+YoS4pcgaqn+tpKKvPo=",
+      "channel": "nightly",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "intellij.libraries.jcef",
+        "intellij.platform.ui.jcef",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.jcef",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "tanvd.grazi",
+        "intellij.xml.structureView.impl",
+        "intellij.xml.structureView",
+        "org.jetbrains.plugins.textmate",
+        "com.jetbrains.writerside",
+        "org.jetbrains.toolbox-enterprise-client"
+      ],
+      "file_name": "writerside-2026.10.0408.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2154,7 +2238,10 @@
       "2026.07.8918": 1118396,
       "2026.07.8925": 1119892,
       "2026.08.0328": 1158018,
-      "2026.09.0357": 1179832
+      "2026.09.0357": 1179832,
+      "2026.10.0403": 1198122,
+      "2026.10.0404": 1198159,
+      "2026.10.0408": 1198235
     },
     "stable": {
       "2023.03.3401": 319402,
