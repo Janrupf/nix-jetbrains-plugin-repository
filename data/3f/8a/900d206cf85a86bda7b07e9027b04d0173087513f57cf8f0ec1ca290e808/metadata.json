@@ -1,6 +1,29 @@
 {
   "xml_id": "com.felixastner.projects",
   "numeric_id": 32571,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1198729": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32571/1198729/projects-2025.3.12-signed.zip?updateId=1198729&pluginId=32571&family=INTELLIJ",
+      "sha256": "39ClFrJ1kFYxIaYVaROQHxWcgtK1Y9h5KSOxSDaboIA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.tasks"
+      ],
+      "file_name": "projects-2025.3.12-signed.zip",
+      "since": "243.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2025.3.12": 1198729
+    }
+  }
 }

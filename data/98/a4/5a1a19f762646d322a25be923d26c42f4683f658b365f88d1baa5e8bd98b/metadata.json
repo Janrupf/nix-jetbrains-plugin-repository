@@ -2081,6 +2081,52 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1198732": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23289/1198732/aspire-plugin-2.9.7-signed.zip?updateId=1198732&pluginId=23289&family=INTELLIJ",
+      "sha256": "qWWADusMH5nMUG7un5+/Wcn8oybWVvmcKpGQh/xoNro=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.aspire.shared",
+        "intellij.libraries.grpc",
+        "com.intellij.modules.rider",
+        "intellij.libraries.protobuf",
+        "intellij.libraries.ktor.network.tls",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.debugger",
+        "intellij.libraries.ktor.utils",
+        "intellij.rd.client",
+        "intellij.libraries.netty.codec.http",
+        "intellij.libraries.kotlinx.datetime",
+        "intellij.libraries.ktor.client",
+        "intellij.libraries.ktor.io",
+        "intellij.rider.languages",
+        "intellij.aspire.core",
+        "intellij.libraries.protobuf.kotlin",
+        "intellij.libraries.ktor.server.cio",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.execution.multilaunch.core",
+        "intellij.platform.debugger.impl",
+        "intellij.libraries.rd.core",
+        "intellij.libraries.netty.buffer"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database",
+        "intellij.platform.remoteServers",
+        "Docker",
+        "intellij.database.dialects.redis",
+        "intellij.execution.serviceView.plugin",
+        "rider.intellij.plugin.appender",
+        "com.intellij.diagram",
+        "intellij.rider.plugins.appender.database",
+        "intellij.clouds.docker",
+        "intellij.clouds.docker.shared"
+      ],
+      "file_name": "aspire-plugin-2.9.7-signed.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2184,7 +2230,8 @@
       "2.9.3": 1177632,
       "2.9.4": 1185908,
       "2.9.5": 1192941,
-      "2.9.6": 1193671
+      "2.9.6": 1193671,
+      "2.9.7": 1198732
     }
   }
 }

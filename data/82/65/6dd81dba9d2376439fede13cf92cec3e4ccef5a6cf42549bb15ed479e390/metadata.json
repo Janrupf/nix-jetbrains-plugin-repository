@@ -26,11 +26,37 @@
       "since": "253.28294",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1198905": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35256/1198905/scons-workbench-1.0.1.zip?updateId=1198905&pluginId=35256&family=INTELLIJ",
+      "sha256": "BsGc+MuX0UrNQPBufFzQmXQ182bYMLDO6CErSPHHwKY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.clion-compdb"
+      ],
+      "optional_dependencies": [
+        "intellij.cidr.debugger.backend",
+        "com.intellij.nativeDebug",
+        "intellij.python.psi",
+        "intellij.clion.toolchains",
+        "intellij.clion.execution",
+        "intellij.python.parser",
+        "intellij.python.psi.impl",
+        "PythonCore",
+        "intellij.cidr.debugger.core"
+      ],
+      "file_name": "scons-workbench-1.0.1.zip",
+      "since": "253.28294",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1197421
+      "1.0.0": 1197421,
+      "1.0.1": 1198905
     }
   }
 }

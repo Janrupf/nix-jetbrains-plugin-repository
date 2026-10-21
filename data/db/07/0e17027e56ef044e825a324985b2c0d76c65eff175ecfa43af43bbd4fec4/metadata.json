@@ -2,20 +2,6 @@
   "xml_id": "com.microaether.riveter",
   "numeric_id": 35254,
   "updates": {
-    "1197475": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35254/1197475/plugin-0.13.1-signed.zip?updateId=1197475&pluginId=35254&family=INTELLIJ",
-      "sha256": "uSz42CbBrY1ubDmfaWFDUKlVM0zz8BDETX/SmntXO7I=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.xml"
-      ],
-      "optional_dependencies": [],
-      "file_name": "plugin-0.13.1-signed.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1197871": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/35254/1197871/plugin-0.14.0-signed.zip?updateId=1197871&pluginId=35254&family=INTELLIJ",
       "sha256": "LmsjsZaGHvcIFGT3EQ8FOzEDozMpF3rqcCIiziDypvA=",
@@ -31,12 +17,28 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1198960": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35254/1198960/plugin-0.14.1-signed.zip?updateId=1198960&pluginId=35254&family=INTELLIJ",
+      "sha256": "+ngx94zHUeUZNKx9Z2Z4mAg4NI3RmK4rK7sFO+0UEy8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "plugin-0.14.1-signed.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.13.1": 1197475,
-      "0.14.0": 1197871
+      "0.14.0": 1197871,
+      "0.14.1": 1198960
     }
   }
 }

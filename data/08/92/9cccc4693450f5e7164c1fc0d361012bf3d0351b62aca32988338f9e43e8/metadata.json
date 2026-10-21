@@ -1058,9 +1058,48 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1198978": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24736/1198978/uppercut-3.3.0-cheap.zip?updateId=1198978&pluginId=24736&family=INTELLIJ",
+      "sha256": "3+rsHziBU4XQlQNgNPpZBJ8QFvD0ZpOdAsusqDHtuSQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "uppercut-3.3.0-cheap.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1198995": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24736/1198995/uppercut-3.2.2-2026.2.zip?updateId=1198995&pluginId=24736&family=INTELLIJ",
+      "sha256": "GIRdH+XJzf3n5BYnvHEL9EMHF+Wnmcig9T+ctOeIRmY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "JavaScript"
+      ],
+      "file_name": "uppercut-3.2.2-2026.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "eap": {
+      "3.3.0-cheap": 1198978
+    },
     "stable": {
       "0.0.4": 562371,
       "0.0.6": 562674,
@@ -1122,7 +1161,8 @@
       "3.0.0": 1162955,
       "3.1.0": 1163636,
       "3.2.0": 1163923,
-      "3.2.1": 1165821
+      "3.2.1": 1165821,
+      "3.2.2-2026.2": 1198995
     }
   }
 }

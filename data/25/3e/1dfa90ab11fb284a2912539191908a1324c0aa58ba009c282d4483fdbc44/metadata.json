@@ -4251,30 +4251,30 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1192269": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/15499/1192269/intellij-emberjs-experimental-2026.2.1.zip?updateId=1192269&pluginId=15499&family=INTELLIJ",
-      "sha256": "BAsxc46UI0743XrddsCPTo5HMKZwRxJ4SVy48EePDkI=",
+    "1198688": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15499/1198688/intellij-emberjs-experimental-2026.2.3.zip?updateId=1198688&pluginId=15499&family=INTELLIJ",
+      "sha256": "mv1F0LlKOeXIY2HYt+wwXT3i7/YwHgLUMTaPwNYWgIQ=",
       "channel": "stable",
       "dependencies": [
-        "intellij.platform.testRunner",
+        "com.intellij.modules.platform",
+        "com.dmarcotte.handlebars",
+        "intellij.xml.structureView.impl",
         "intellij.platform.smRunner",
+        "intellij.xml.structureView",
+        "intellij.platform.lsp.impl",
+        "com.intellij.css",
+        "com.intellij.modules.lang",
         "intellij.platform.structureView",
         "com.intellij.modules.json",
-        "com.intellij.css",
-        "intellij.xml.structureView.impl",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
         "JavaScript",
-        "intellij.xml.structureView",
-        "com.dmarcotte.handlebars",
-        "intellij.platform.lsp.impl"
+        "intellij.platform.testRunner"
       ],
       "optional_dependencies": [
-        "org.intellij.intelliLang",
         "org.jetbrains.plugins.yaml",
-        "intellij.javascript.eslint"
+        "intellij.javascript.eslint",
+        "org.intellij.intelliLang"
       ],
-      "file_name": "intellij-emberjs-experimental-2026.2.1.zip",
+      "file_name": "intellij-emberjs-experimental-2026.2.3.zip",
       "since": "262.10968",
       "until": "262.*",
       "compatibility_overrides": []
@@ -4507,7 +4507,7 @@
       "2025.3.1": 990488,
       "2026.1.0": 1165221,
       "2026.1.1": 1171314,
-      "2026.2.1": 1192269
+      "2026.2.3": 1198688
     }
   }
 }

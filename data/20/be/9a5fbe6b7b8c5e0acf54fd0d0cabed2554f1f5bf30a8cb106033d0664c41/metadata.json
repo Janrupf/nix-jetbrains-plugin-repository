@@ -2,21 +2,6 @@
   "xml_id": "dev.bettergit",
   "numeric_id": 35267,
   "updates": {
-    "1197566": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35267/1197566/intellij-better-git-1.0.0.zip?updateId=1197566&pluginId=35267&family=INTELLIJ",
-      "sha256": "j2lzTT/lKaNc9bcpXQN6yWSCTswtyd4hYkcs0NVgtoA=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "Git4Idea"
-      ],
-      "optional_dependencies": [],
-      "file_name": "intellij-better-git-1.0.0.zip",
-      "since": "262.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1197827": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/35267/1197827/intellij-better-git-1.0.1.zip?updateId=1197827&pluginId=35267&family=INTELLIJ",
       "sha256": "CVg+lDmQIgMRi5iLumv+5gj+2GJFzpgmbsoa/3SQCaw=",
@@ -31,12 +16,27 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1199005": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35267/1199005/intellij-better-git-1.1.0.zip?updateId=1199005&pluginId=35267&family=INTELLIJ",
+      "sha256": "mddVe2gVr5KsDMucrxJgldtb5Qp4oOj/swe3sYu8R9E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-better-git-1.1.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1197566,
-      "1.0.1": 1197827
+      "1.0.1": 1197827,
+      "1.1.0": 1199005
     }
   }
 }

@@ -449,27 +449,24 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1198513": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/27706/1198513/java-auto-unit-tests-2.0.9-beta.4.zip?updateId=1198513&pluginId=27706&family=INTELLIJ",
-      "sha256": "UzpgXVzRvWLi6wVw3AImRhY83YaWM6GuuA9U2+alMww=",
-      "channel": "beta",
+    "1198648": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27706/1198648/java-auto-unit-tests-2.0.9.zip?updateId=1198648&pluginId=27706&family=INTELLIJ",
+      "sha256": "noC7BFVdg3A3dhoKVkD1ZJF29ZxzZnw/b2P9N1hQli4=",
+      "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.vcs",
-        "JUnit",
+        "com.intellij.modules.java",
         "com.intellij.modules.platform",
-        "com.intellij.modules.java"
+        "com.intellij.modules.vcs",
+        "JUnit"
       ],
       "optional_dependencies": [],
-      "file_name": "java-auto-unit-tests-2.0.9-beta.4.zip",
+      "file_name": "java-auto-unit-tests-2.0.9.zip",
       "since": "242.0",
       "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
-    "beta": {
-      "2.0.9-beta.4": 1198513
-    },
     "stable": {
       "0.0.10": 827012,
       "0.0.12": 834796,
@@ -499,7 +496,8 @@
       "2.0.2": 1169694,
       "2.0.6": 1171566,
       "2.0.7": 1175593,
-      "2.0.8": 1181312
+      "2.0.8": 1181312,
+      "2.0.9": 1198648
     }
   }
 }
