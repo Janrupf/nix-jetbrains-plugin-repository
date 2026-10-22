@@ -326,6 +326,39 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1199557": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18760/1199557/OpenOCD___ESP32_Support_for_embedded_development-0.4.7.zip?updateId=1199557&pluginId=18760&family=INTELLIJ",
+      "sha256": "oV8F2h0bm7BwuOmclhjhLpK+pFsUGTHBFh8rcWu1XYI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion"
+      ],
+      "optional_dependencies": [],
+      "file_name": "OpenOCD___ESP32_Support_for_embedded_development-0.4.7.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "252.0",
+          "applies_until": "999.99999",
+          "compatible_since": "252.0",
+          "compatible_until": "262.*"
+        }
+      ]
+    },
+    "1199693": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/18760/1199693/OpenOCD___ESP32_Support_for_embedded_development-0.4.8.zip?updateId=1199693&pluginId=18760&family=INTELLIJ",
+      "sha256": "Dao0hJS556EEi8BFqMXHanDoRqA/3QQ497s0oLkoJu4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion"
+      ],
+      "optional_dependencies": [],
+      "file_name": "OpenOCD___ESP32_Support_for_embedded_development-0.4.8.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -354,7 +387,9 @@
       "0.4.3": 735662,
       "0.4.4": 858726,
       "0.4.5": 989667,
-      "0.4.6": 1109739
+      "0.4.6": 1109739,
+      "0.4.7": 1199557,
+      "0.4.8": 1199693
     }
   }
 }

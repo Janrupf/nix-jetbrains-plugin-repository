@@ -1,6 +1,66 @@
 {
   "xml_id": "org.inferna.core",
   "numeric_id": 35311,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1199241": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35311/1199241/inferna-core-1.1.1-beta.1.jar?updateId=1199241&pluginId=35311&family=INTELLIJ",
+      "sha256": "2OZQ/ZQhF0ND3d0A30qTIfJ+HLL+MN3yT+2GDS9R3aY=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "inferna-core-1.1.1-beta.1.jar",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1199245": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35311/1199245/inferna-core-1.1.2-eap.zip?updateId=1199245&pluginId=35311&family=INTELLIJ",
+      "sha256": "YtRvM3o+oSh95GqavuFu9U+GLrFMekHocNa+h4rLSU0=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "org.intellij.scala"
+      ],
+      "file_name": "inferna-core-1.1.2-eap.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1199250": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35311/1199250/inferna-core-2.0.0.zip?updateId=1199250&pluginId=35311&family=INTELLIJ",
+      "sha256": "Q+N67QaI4OW6J68Ns+6osteZcX3z0Am3wjsTDJVPEH0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "org.intellij.scala",
+        "org.intellij.groovy"
+      ],
+      "file_name": "inferna-core-2.0.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "eap": {
+      "1.1.1-beta.1": 1199241,
+      "1.1.2-eap": 1199245
+    },
+    "stable": {
+      "2.0.0": 1199250
+    }
+  }
 }

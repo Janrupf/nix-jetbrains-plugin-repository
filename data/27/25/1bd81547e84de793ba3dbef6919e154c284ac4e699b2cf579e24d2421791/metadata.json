@@ -16,11 +16,27 @@
       "since": "243.23654.189",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1199330": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34567/1199330/agent-bridge-0.9.5.zip?updateId=1199330&pluginId=34567&family=INTELLIJ",
+      "sha256": "xg8Pm8oyFFjIhkkJkTy1/gp6CI35UZsLeyUzH32hdss=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "agent-bridge-0.9.5.zip",
+      "since": "243.23654.189",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.9.2": 1180614
+      "0.9.2": 1180614,
+      "0.9.5": 1199330
     }
   }
 }
