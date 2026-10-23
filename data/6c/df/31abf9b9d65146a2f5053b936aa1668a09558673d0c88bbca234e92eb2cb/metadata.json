@@ -33,12 +33,46 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1200187": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35228/1200187/upstack-0.13.0.zip?updateId=1200187&pluginId=35228&family=INTELLIJ",
+      "sha256": "Cy6ukSugefI+nEtkobccYZRxx/ro5inJpwHMqMSkYEw=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github"
+      ],
+      "file_name": "upstack-0.13.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1200478": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35228/1200478/upstack-0.14.0.zip?updateId=1200478&pluginId=35228&family=INTELLIJ",
+      "sha256": "l6inOkCTYkYtKOYwVXKU2WPjJnpspdqta5hhJkfTUsE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github"
+      ],
+      "file_name": "upstack-0.14.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.12.2": 1196812,
-      "0.12.3": 1199375
+      "0.12.3": 1199375,
+      "0.13.0": 1200187,
+      "0.14.0": 1200478
     }
   }
 }

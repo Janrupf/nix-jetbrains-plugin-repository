@@ -2,32 +2,6 @@
   "xml_id": "com.hnikan.sharpstudiodark",
   "numeric_id": 34577,
   "updates": {
-    "1181098": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34577/1181098/sharp-studio-dark-1.0.0.zip?updateId=1181098&pluginId=34577&family=INTELLIJ",
-      "sha256": "x5L+RHYEjheKZlKlDX//bPahUO09qvJI3SzO0V7fFhw=",
-      "channel": "eap",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "sharp-studio-dark-1.0.0.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1181100": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34577/1181100/sharp-studio-dark-1.0.0.zip?updateId=1181100&pluginId=34577&family=INTELLIJ",
-      "sha256": "nqJZ00sMpU74JLuJEESWi+93k0nfyudoCUfnTSjlbLM=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "sharp-studio-dark-1.0.0.zip",
-      "since": "251.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1184012": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/34577/1184012/sharp-studio-dark-1.0.1.zip?updateId=1184012&pluginId=34577&family=INTELLIJ",
       "sha256": "bWbNSJ+4NM25t6/uDk9qdN0vyD/GOutwTu7Eg+s/WdU=",
@@ -41,15 +15,26 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1200160": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34577/1200160/sharp-studio-dark-1.0.2.zip?updateId=1200160&pluginId=34577&family=INTELLIJ",
+      "sha256": "qMDWa8Ewf4hOJYJpKwCx4oyzDlh2VqPKMd8gvYghzDs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sharp-studio-dark-1.0.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
-    "eap": {
-      "1.0.0": 1181098
-    },
     "stable": {
-      "1.0.0": 1181100,
-      "1.0.1": 1184012
+      "1.0.1": 1184012,
+      "1.0.2": 1200160
     }
   }
 }

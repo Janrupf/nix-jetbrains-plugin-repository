@@ -10576,6 +10576,88 @@
       "since": "261.22158.182",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1200750": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1200750/jmix-studio-3.1.0-261.zip?updateId=1200750&pluginId=14340&family=INTELLIJ",
+      "sha256": "QdgwxpBHwV8VndS4XNbPwEzFkWDJn+F1r7pqVlFDDgE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.liquibase"
+      ],
+      "file_name": "jmix-studio-3.1.0-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1200751": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1200751/jmix-studio-3.1.999.NIGHTLY1847-262.zip?updateId=1200751&pluginId=14340&family=INTELLIJ",
+      "sha256": "qU8SHulDa+3olxz2YDbY0PV1mJZMHgjDZ4hwFG8JtaI=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "intellij.platform.collaborationTools",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.xml.structureView"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "com.intellij.liquibase"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1847-262.zip",
+      "since": "262.8377.35",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1200753": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1200753/jmix-studio-3.1.0-262.zip?updateId=1200753&pluginId=14340&family=INTELLIJ",
+      "sha256": "peBTQCoofJ6muB+qRmWKspVtC3TvREWlx6y7BC1/pbE=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.groovy",
+        "intellij.platform.collaborationTools",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.xml.structureView"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.modules.jcef",
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase"
+      ],
+      "file_name": "jmix-studio-3.1.0-262.zip",
+      "since": "262.8377.35",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -10826,6 +10908,7 @@
       "3.1.999.NIGHTLY1841-262": 1196195,
       "3.1.999.NIGHTLY1842-261": 1198268,
       "3.1.999.NIGHTLY1844-261": 1199769,
+      "3.1.999.NIGHTLY1847-262": 1200751,
       "3.2.999.NIGHTLY1831-261": 1194231,
       "3.2.999.NIGHTLY1832-262": 1194244
     },
@@ -11016,7 +11099,9 @@
       "3.0.3-262": 1155220,
       "3.0.4-253": 1187668,
       "3.0.4-261": 1187673,
-      "3.0.4-262": 1187667
+      "3.0.4-262": 1187667,
+      "3.1.0-261": 1200750,
+      "3.1.0-262": 1200753
     }
   }
 }
