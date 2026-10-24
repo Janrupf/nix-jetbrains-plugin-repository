@@ -29,12 +29,30 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1201299": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31604/1201299/cliq-ai-companion-1.0.0.zip?updateId=1201299&pluginId=31604&family=INTELLIJ",
+      "sha256": "LPXq/OfJlTWA1M2ovkmhnUjfu9sugJJL3JuWr8ygP7o=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "file_name": "cliq-ai-companion-1.0.0.zip",
+      "since": "243.0",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.2": 1040562,
-      "0.1.3": 1056717
+      "0.1.3": 1056717,
+      "1.0.0": 1201299
     }
   }
 }

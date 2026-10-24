@@ -1,6 +1,27 @@
 {
   "xml_id": "com.github.linuxchina.locals3",
   "numeric_id": 35345,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1200864": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35345/1200864/local-s3-jb-plugin-0.1.0.zip?updateId=1200864&pluginId=35345&family=INTELLIJ",
+      "sha256": "4uybg0eoAa0ZhZlVMK/XOBM/5oceoBpZiNFYW7Oy4ZI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.bigdatatools.rfs",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "local-s3-jb-plugin-0.1.0.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 1200864
+    }
+  }
 }

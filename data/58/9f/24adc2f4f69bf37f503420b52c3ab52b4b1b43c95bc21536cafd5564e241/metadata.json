@@ -670,6 +670,85 @@
       "since": "271.1242",
       "until": "271.1242",
       "compatibility_overrides": []
+    },
+    "1201181": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1201181/java-aetherDependencyResolver-plugin-263.7307.44.zip?updateId=1201181&pluginId=34026&family=INTELLIJ",
+      "sha256": "8/6OQivTe1rUtj9HoY6I/AnndH9sV+8GbtMcLOOxz2E=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.commons.logging",
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.commons.codec",
+        "intellij.libraries.http.client",
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.maven.resolver.provider"
+      ],
+      "optional_dependencies": [
+        "intellij.repository.search.completion",
+        "intellij.libraries.javax.annotation",
+        "intellij.platform.util.text.matching",
+        "intellij.platform.core",
+        "intellij.platform.lang.impl",
+        "intellij.platform.ide",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.libraries.protobuf",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.grpc",
+        "intellij.platform.statistics",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.guava",
+        "intellij.platform.analysis",
+        "intellij.libraries.kotlinx.coroutines.slf4j"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-263.7307.44.zip",
+      "since": "263.7307",
+      "until": "263.7307.*",
+      "compatibility_overrides": []
+    },
+    "1201882": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1201882/java-aetherDependencyResolver-plugin-271.1333.0.zip?updateId=1201882&pluginId=34026&family=INTELLIJ",
+      "sha256": "LyPxbx3CTgFgpp9y18A7UmCk/xUIMPH11qlmckMd3Bo=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.commons.codec",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.http.client",
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.commons.logging",
+        "intellij.libraries.commons.lang3"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.libraries.protobuf",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.grpc",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.guava",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.statistics",
+        "intellij.platform.backend",
+        "intellij.platform.util.text.matching",
+        "intellij.repository.search.completion",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.platform.analysis",
+        "intellij.platform.ide",
+        "intellij.libraries.javax.annotation",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-271.1333.0.zip",
+      "since": "271.1333",
+      "until": "271.1333",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -678,6 +757,7 @@
       "271.1173.0": 1199993,
       "271.1203.0": 1200194,
       "271.1242.0": 1200744,
+      "271.1333.0": 1201882,
       "271.684.0": 1194520,
       "271.767.0": 1195728,
       "271.815.0": 1196060,
@@ -691,7 +771,8 @@
       "263.5701.42": 1179764,
       "263.6259.32": 1184988,
       "263.6800.24": 1191991,
-      "263.7031.23": 1194939
+      "263.7031.23": 1194939,
+      "263.7307.44": 1201181
     }
   }
 }

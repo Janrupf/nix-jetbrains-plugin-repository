@@ -14,11 +14,25 @@
       "since": "223.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1200565": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35180/1200565/codeGeneration-1.0-SNAPSHOT-OLD.jar?updateId=1200565&pluginId=35180&family=INTELLIJ",
+      "sha256": "L5HNyPlfc9rDpgL9GfUiCAAHON0CI46usXMQlD8OUzk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeGeneration-1.0-SNAPSHOT-OLD.jar",
+      "since": "203.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0-SNAPSHOT": 1196366
+      "1.0-SNAPSHOT": 1196366,
+      "1.0-SNAPSHOT-OLD": 1200565
     }
   }
 }

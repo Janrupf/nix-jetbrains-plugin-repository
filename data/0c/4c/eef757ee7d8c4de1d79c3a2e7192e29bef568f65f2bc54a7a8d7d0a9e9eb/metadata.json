@@ -88,13 +88,43 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1201190": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34691/1201190/charts-plugin-263.7307.44.zip?updateId=1201190&pluginId=34691&family=INTELLIJ",
+      "sha256": "VRn8JW/CMaJ4YJeaJWC6vEIoh/XnSAX1QilHDAm6kPc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jsvg",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.statistics",
+        "intellij.libraries.kotlin.logging",
+        "intellij.platform.core",
+        "intellij.platform.core.impl",
+        "intellij.libraries.gson",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.platform.util.coroutines",
+        "intellij.platform.projectModel",
+        "com.intellij.modules.lang",
+        "intellij.platform.concurrency",
+        "com.intellij.platform.charts",
+        "intellij.libraries.opencsv",
+        "intellij.platform.ide.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "charts-plugin-263.7307.44.zip",
+      "since": "263.7307",
+      "until": "263.7307.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "263.6259.32": 1185055,
       "263.6800.24": 1191980,
-      "263.7031.23": 1194927
+      "263.7031.23": 1194927,
+      "263.7307.44": 1201190
     }
   }
 }

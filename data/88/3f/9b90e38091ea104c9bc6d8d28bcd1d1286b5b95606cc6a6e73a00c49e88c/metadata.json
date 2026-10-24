@@ -16,11 +16,41 @@
       "since": "253.33813.55",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1201287": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35398/1201287/bottom-panel-toggle-1.0.2.zip?updateId=1201287&pluginId=35398&family=INTELLIJ",
+      "sha256": "76vTMr8j9RbxewSmmLl6JO9XXZWdLJHqZOtia7iA2nU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "bottom-panel-toggle-1.0.2.zip",
+      "since": "241.14494.240",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1201288": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35398/1201288/bottom-panel-toggle-1.0.3.zip?updateId=1201288&pluginId=35398&family=INTELLIJ",
+      "sha256": "EMSR7XBiErrA8Je+LWvjC6uZeeYNz0SzSVEnYbScQBA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "bottom-panel-toggle-1.0.3.zip",
+      "since": "253.33813.55",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 1200440
+      "1.0.1": 1200440,
+      "1.0.2": 1201287,
+      "1.0.3": 1201288
     }
   }
 }

@@ -573,12 +573,99 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1200841": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33251/1200841/figma-262.11879.74.zip?updateId=1200841&pluginId=33251&family=INTELLIJ",
+      "sha256": "3PkaajXj5eVhS88AZhOOulKLYtAyRw2NWMVmPKuP23o=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.figma.model"
+      ],
+      "optional_dependencies": [
+        "intellij.css.common.psi",
+        "intellij.platform.rpc.backend",
+        "intellij.llmInstaller",
+        "intellij.platform.backend",
+        "intellij.figma.shared",
+        "intellij.figma.codegen",
+        "intellij.figma.backend",
+        "intellij.xml.psi.impl",
+        "intellij.platform.frontend",
+        "intellij.figma.frontend"
+      ],
+      "file_name": "figma-262.11879.74.zip",
+      "since": "262.11879",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1201012": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33251/1201012/figma-263.7307.35.zip?updateId=1201012&pluginId=33251&family=INTELLIJ",
+      "sha256": "p1qkfmeJQni5nzMs/V1vpNsQc3rHWZvb6+lzE3XQK4g=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.lang",
+        "intellij.platform.util.coroutines",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.platform.ide.core",
+        "intellij.platform.codeStyle.impl",
+        "intellij.platform.kernel",
+        "intellij.platform.editor.ui",
+        "intellij.platform.indexing",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.rpc",
+        "intellij.platform.codeStyle",
+        "intellij.platform.refactoring",
+        "intellij.figma.model",
+        "intellij.platform.project",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core",
+        "fleet.rpc",
+        "intellij.platform.ide",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.statistics",
+        "intellij.platform.ide.impl",
+        "intellij.platform.analysis",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.observable"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.ktor.client",
+        "intellij.llmInstaller",
+        "intellij.platform.credentialStore",
+        "intellij.libraries.jcef",
+        "intellij.platform.execution",
+        "intellij.libraries.caffeine",
+        "intellij.libraries.ktor.server.cio",
+        "intellij.platform.backend",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.core.plugins",
+        "intellij.figma.backend",
+        "intellij.figma.frontend",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.figma.codegen",
+        "intellij.libraries.ktor.io",
+        "intellij.xml.psi.impl",
+        "intellij.platform.frontend",
+        "intellij.css.common.psi",
+        "intellij.libraries.ktor.network.tls",
+        "intellij.figma.shared",
+        "intellij.libraries.ktor.utils",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.ui.jcef"
+      ],
+      "file_name": "figma-263.7307.35.zip",
+      "since": "263.7307",
+      "until": "263.7307.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "262.10315.19": 1145238,
       "262.10968.63": 1171911,
+      "262.11879.74": 1200841,
       "262.9437.111": 1125617,
       "262.9437.65": 1119923,
       "262.9437.66": 1120004,
@@ -590,7 +677,8 @@
       "263.5701.34": 1178743,
       "263.6259.36": 1184719,
       "263.6800.10": 1189776,
-      "263.7031.19": 1194664
+      "263.7031.19": 1194664,
+      "263.7307.35": 1201012
     }
   }
 }

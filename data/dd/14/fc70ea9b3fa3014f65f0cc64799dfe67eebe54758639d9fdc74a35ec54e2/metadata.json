@@ -350,6 +350,58 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1200971": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34029/1200971/embark-263.7307.35.zip?updateId=1200971&pluginId=34029&family=INTELLIJ",
+      "sha256": "GRQ7Of8QYv8UOeRS6Oob7pc19cY1F3M5AOoo+AcGmNg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ide.core",
+        "intellij.ml.llm.activation.data.model",
+        "intellij.platform.editor.ui",
+        "intellij.platform.core",
+        "intellij.platform.util.coroutines",
+        "intellij.platform.concurrency",
+        "intellij.platform.projectFrame",
+        "intellij.platform.util.progress",
+        "com.intellij.ml.llm",
+        "intellij.ml.llm.activation.facade",
+        "intellij.libraries.kotlinx.serialization.core",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.ide",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.ide.progress",
+        "intellij.platform.projectModel",
+        "intellij.ml.llm.activation.platform",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.eel.provider"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.rpc.backend",
+        "Git4Idea",
+        "intellij.vcs.git.shared",
+        "intellij.platform.lang.impl",
+        "intellij.platform.util.ui",
+        "com.intellij.embark",
+        "intellij.platform.core.ui",
+        "intellij.platform.searchEverywhere.frontend",
+        "intellij.embark.searcheverywhere.shared",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.ide.rpc",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.searchEverywhere",
+        "intellij.vcs.git.backend",
+        "intellij.platform.lang",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
+        "intellij.embark.backend"
+      ],
+      "file_name": "embark-263.7307.35.zip",
+      "since": "263.7307",
+      "until": "263.7307.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -360,7 +412,8 @@
       "263.5701.34": 1178806,
       "263.6259.36": 1184795,
       "263.6800.10": 1189732,
-      "263.7031.19": 1194700
+      "263.7031.19": 1194700,
+      "263.7307.35": 1200971
     }
   }
 }

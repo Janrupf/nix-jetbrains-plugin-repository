@@ -6304,6 +6304,49 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1201360": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1201360/nodeJS-remoteInterpreter-263.7307.43.zip?updateId=1201360&pluginId=8116&family=INTELLIJ",
+      "sha256": "zzy5jKv8wTECraHKl6qzPHzdA93QzYO9S7BKAKGhbfA=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "intellij.platform.remote.core",
+        "intellij.javascript.parser",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.concurrency",
+        "intellij.platform.execution.impl",
+        "intellij.platform.ide.impl",
+        "intellij.platform.projectModel",
+        "NodeJS",
+        "intellij.platform.debugger",
+        "intellij.platform.execution",
+        "intellij.platform.ssh.core",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.javascript.backend",
+        "intellij.platform.core",
+        "intellij.platform.ssh",
+        "intellij.platform.core.ui",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.ide.core",
+        "intellij.platform.util.ui",
+        "intellij.clouds.docker.agent",
+        "intellij.libraries.guava",
+        "intellij.platform.core.impl",
+        "intellij.platform.remoteServers.impl",
+        "intellij.platform.lang.impl",
+        "com.intellij.modules.ultimate",
+        "JavaScriptDebugger",
+        "intellij.platform.ide.remote",
+        "intellij.platform.remoteServers"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-263.7307.43.zip",
+      "since": "263.7307",
+      "until": "263.7307.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6620,7 +6663,8 @@
       "263.5153.37": 1173687,
       "263.5701.47": 1180090,
       "263.6259.35": 1185120,
-      "263.7031.36": 1195318
+      "263.7031.36": 1195318,
+      "263.7307.43": 1201360
     }
   }
 }

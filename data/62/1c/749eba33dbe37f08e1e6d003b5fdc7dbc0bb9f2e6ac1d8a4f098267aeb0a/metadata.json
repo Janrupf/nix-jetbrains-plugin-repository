@@ -813,6 +813,53 @@
       "since": "263.7031",
       "until": "263.7031.*",
       "compatibility_overrides": []
+    },
+    "1200995": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28632/1200995/completionMlRanking-263.7307.35.zip?updateId=1200995&pluginId=28632&family=INTELLIJ",
+      "sha256": "ZnL/XuV0cZzWc8p+t3WX/WyoZW+qPCiuxyc0h9Fek7g=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.opentelemetry",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.vcs.impl",
+        "intellij.libraries.jackson3",
+        "intellij.platform.analysis",
+        "intellij.platform.projectModel",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.ide.internal",
+        "intellij.platform.vcs",
+        "com.intellij.modules.lang",
+        "intellij.platform.lang",
+        "intellij.platform.core",
+        "intellij.platform.ide.core",
+        "intellij.platform.core.impl",
+        "intellij.platform.diff.impl",
+        "intellij.libraries.opentelemetry.semconv",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.ide.codeinsight.inline",
+        "intellij.platform.statistics",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang.impl",
+        "intellij.platform.ml.impl",
+        "intellij.platform.editor.ui",
+        "intellij.libraries.caffeine",
+        "intellij.platform.diagnostic.telemetry.impl",
+        "intellij.platform.diagnostic.telemetry",
+        "intellij.libraries.jackson3.jr.objects",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.ml",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.libraries.kotlinx.collections.immutable"
+      ],
+      "optional_dependencies": [
+        "intellij.fullLine.core.completion",
+        "com.intellij.completion.ml.ranking"
+      ],
+      "file_name": "completionMlRanking-263.7307.35.zip",
+      "since": "263.7307",
+      "until": "263.7307.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -850,7 +897,8 @@
       "263.5701.42": 1179698,
       "263.6259.34": 1184891,
       "263.6800.10": 1189629,
-      "263.7031.19": 1194666
+      "263.7031.19": 1194666,
+      "263.7307.35": 1200995
     }
   }
 }
