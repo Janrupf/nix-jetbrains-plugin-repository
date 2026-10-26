@@ -279,6 +279,42 @@
       "since": "251.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1202803": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27749/1202803/testBalloon-intellij-plugin-1.1.0-263-signed.zip?updateId=1202803&pluginId=27749&family=INTELLIJ",
+      "sha256": "qxzBQbFjSdjdc1stB51J0Xq5uZBCjb34Lzqy8rQ6KD4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "testBalloon-intellij-plugin-1.1.0-263-signed.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1202807": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27749/1202807/testBalloon-intellij-plugin-1.1.0-251-signed.zip?updateId=1202807&pluginId=27749&family=INTELLIJ",
+      "sha256": "aAcVRx2mm2k88H0d8BHSo0paPP1O/dotWoAizMPY6O8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "testBalloon-intellij-plugin-1.1.0-251-signed.zip",
+      "since": "251.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -300,7 +336,9 @@
       "0.7.0": 1042721,
       "0.7.1": 1043318,
       "1.0.0": 1074671,
-      "1.0.1": 1144602
+      "1.0.1": 1144602,
+      "1.1.0-251": 1202807,
+      "1.1.0-263": 1202803
     }
   }
 }

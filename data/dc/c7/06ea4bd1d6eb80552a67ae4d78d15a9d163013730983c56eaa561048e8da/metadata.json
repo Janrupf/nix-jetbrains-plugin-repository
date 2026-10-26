@@ -17,11 +17,28 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1203092": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35345/1203092/local-s3-jb-plugin-0.1.1.zip?updateId=1203092&pluginId=35345&family=INTELLIJ",
+      "sha256": "7HKCAtcQa/nofycNXMATQ0eYIGMO8uja1JpDE54u6bw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.bigdatatools.rfs"
+      ],
+      "file_name": "local-s3-jb-plugin-0.1.1.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1200864
+      "0.1.0": 1200864,
+      "0.1.1": 1203092
     }
   }
 }
