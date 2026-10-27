@@ -185,11 +185,36 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1203635": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34295/1203635/pacmon-jetbrains-0.11.0.zip?updateId=1203635&pluginId=34295&family=INTELLIJ",
+      "sha256": "LEqsEulE/M8aglkHxZo/zuSuqlOMk6YVsb8kX8Dvm2k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.go",
+        "org.elixir_lang",
+        "com.intellij.modules.python",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.ruby",
+        "org.intellij.plugins.markdown",
+        "com.falsepattern.zigbrains",
+        "org.toml.lang"
+      ],
+      "file_name": "pacmon-jetbrains-0.11.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.10.0": 1186121,
+      "0.11.0": 1203635,
       "0.3.1": 1171483,
       "0.3.2": 1172067,
       "0.3.3": 1177627,

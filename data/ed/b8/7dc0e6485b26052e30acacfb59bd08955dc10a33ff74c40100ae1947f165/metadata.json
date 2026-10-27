@@ -16,11 +16,27 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1203338": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35273/1203338/gmm-haproxy-jetbrains-0.1.1-signed.zip?updateId=1203338&pluginId=35273&family=INTELLIJ",
+      "sha256": "+v83wJZfs0Hmz+U6GarqtmKWsd8D5OI6xLq6zjGIt6g=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "gmm-haproxy-jetbrains-0.1.1-signed.zip",
+      "since": "261.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1197842
+      "0.1.0": 1197842,
+      "0.1.1": 1203338
     }
   }
 }

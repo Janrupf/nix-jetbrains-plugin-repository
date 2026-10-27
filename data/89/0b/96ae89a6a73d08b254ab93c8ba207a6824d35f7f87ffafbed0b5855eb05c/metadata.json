@@ -115,6 +115,25 @@
       "since": "233.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1203550": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34842/1203550/qwen-mate-1.1.1-signed.zip?updateId=1203550&pluginId=34842&family=INTELLIJ",
+      "sha256": "poQ5Ca2kgm1mCvmLrjnO50LS3z6IzORHrpcHWH6+6FA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "qwen-mate-1.1.1-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -124,7 +143,8 @@
       "1.0.0-beta2": 1190816,
       "1.0.0-beta3": 1191091,
       "1.1.0": 1196117,
-      "1.1.0-beta1": 1195823
+      "1.1.0-beta1": 1195823,
+      "1.1.1": 1203550
     }
   }
 }

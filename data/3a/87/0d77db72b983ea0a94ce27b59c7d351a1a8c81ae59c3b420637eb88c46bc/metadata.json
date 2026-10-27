@@ -3512,6 +3512,66 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1203188": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9269/1203188/aem-ide-2026.1-eap5-dist-signed.zip?updateId=1203188&pluginId=9269&family=INTELLIJ",
+      "sha256": "LWhK0XkbF9PFdiCHqylMYPf3o+5pSJx2jksCNr+KUSw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.xml",
+        "org.jetbrains.java.decompiler",
+        "com.intellij.modules.java",
+        "tanvd.grazi",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "aem-ide-2026.1-eap5-dist-signed.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1203552": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9269/1203552/aem-ide-2026.1-dist-signed.zip?updateId=1203552&pluginId=9269&family=INTELLIJ",
+      "sha256": "ZzeUb9ho0j3eeIfEdonV+I8tSMXX43QrMWCjr8sI0jw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.java.decompiler",
+        "tanvd.grazi",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.xml"
+      ],
+      "file_name": "aem-ide-2026.1-dist-signed.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1203553": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9269/1203553/aem-ide-2026.1-dist-signed.zip?updateId=1203553&pluginId=9269&family=INTELLIJ",
+      "sha256": "ZzeUb9ho0j3eeIfEdonV+I8tSMXX43QrMWCjr8sI0jw=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.java.decompiler",
+        "com.intellij.modules.xml",
+        "org.jetbrains.idea.maven",
+        "tanvd.grazi"
+      ],
+      "file_name": "aem-ide-2026.1-dist-signed.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3593,10 +3653,12 @@
       "2025.2.2": 888705,
       "2025.2.3": 905161,
       "2025.2.4": 984114,
+      "2026.1": 1203553,
       "2026.1-eap1": 1049571,
       "2026.1-eap2": 1051890,
       "2026.1-eap3": 1199343,
-      "2026.1-eap4": 1199744
+      "2026.1-eap4": 1199744,
+      "2026.1-eap5": 1203188
     },
     "stable": {
       "0.1": 30324,
@@ -3679,7 +3741,8 @@
       "2025.2.1": 871184,
       "2025.2.2": 888704,
       "2025.2.3": 905160,
-      "2025.2.4": 984113
+      "2025.2.4": 984113,
+      "2026.1": 1203552
     }
   }
 }

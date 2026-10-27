@@ -31,10 +31,26 @@
       "since": "261.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1203304": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32324/1203304/component-investigation-1.0.10.zip?updateId=1203304&pluginId=32324&family=INTELLIJ",
+      "sha256": "iw3G4HPPdfRStnzRnjxrZY8D2FyraykapR+svOCk7E4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "component-investigation-1.0.10.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "1.0.10": 1203304,
       "1.0.7": 1080632,
       "1.0.8": 1085875
     }
