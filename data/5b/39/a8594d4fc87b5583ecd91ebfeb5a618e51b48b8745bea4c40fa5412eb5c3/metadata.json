@@ -1231,6 +1231,36 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1203710": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/13668/1203710/intellij-sfcc-2026.3.zip?updateId=1203710&pluginId=13668&family=INTELLIJ",
+      "sha256": "owrIEvuIfYs11kVGwFLv488ja04Cue59r19j5J04QZM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.lang",
+        "com.intellij.css",
+        "JavaScript",
+        "com.intellij.properties",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.sass"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.platform.vcs",
+        "com.intellij.modules.spellchecker",
+        "intellij.structureView.plugin",
+        "JavaScriptDebugger",
+        "com.intellij.xml"
+      ],
+      "file_name": "intellij-sfcc-2026.3.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1285,7 +1315,8 @@
       "2025.3": 891943,
       "2025.4": 1001216,
       "2026.2": 1116840,
-      "2026.2.1": 1118796
+      "2026.2.1": 1118796,
+      "2026.3": 1203710
     }
   }
 }

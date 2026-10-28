@@ -18,11 +18,29 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1204020": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35539/1204020/nim-pro-2026.1.1.zip?updateId=1204020&pluginId=35539&family=INTELLIJ",
+      "sha256": "89HV5m4ynxMUIcylVINw3sVbnCn66O+U3lAqUElZxJQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "nim-pro-2026.1.1.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.1.0": 1203891
+      "2026.1.0": 1203891,
+      "2026.1.1": 1204020
     }
   }
 }

@@ -1792,7 +1792,7 @@
       ],
       "file_name": "writerside-2026.02.8644.zip",
       "since": "253.0",
-      "until": "253.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "253.0",
@@ -1821,7 +1821,7 @@
       ],
       "file_name": "writerside-2026.02.8644.zip",
       "since": "253.0",
-      "until": "253.*",
+      "until": null,
       "compatibility_overrides": [
         {
           "applies_since": "253.0",
@@ -2268,6 +2268,34 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1204062": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20158/1204062/writerside-2026.10.0423.zip?updateId=1204062&pluginId=20158&family=INTELLIJ",
+      "sha256": "746yWv1sO0YUG+HSszXeoeapaxQlqhJeyJwni/5j4Hs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "intellij.libraries.jcef",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "intellij.platform.ui.jcef",
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "intellij.xml.structureView.impl",
+        "intellij.xml.structureView",
+        "org.jetbrains.plugins.textmate",
+        "tanvd.grazi",
+        "com.jetbrains.writerside",
+        "org.jetbrains.toolbox-enterprise-client"
+      ],
+      "file_name": "writerside-2026.10.0423.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2358,7 +2386,8 @@
       "2026.06.8817": 1072484,
       "2026.07.8925": 1120198,
       "2026.08.0328": 1158177,
-      "2026.09.0357": 1179837
+      "2026.09.0357": 1179837,
+      "2026.10.0423": 1204062
     },
     "super-early-bird": {
       "2022.09.2731": 238058,

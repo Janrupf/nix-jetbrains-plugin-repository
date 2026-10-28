@@ -60,6 +60,23 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1204342": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33098/1204342/duckdb-intellij-plugin-0.5.1.zip?updateId=1204342&pluginId=33098&family=INTELLIJ",
+      "sha256": "/Hjn9JMdMoehVyma7PCwDmKHE9RhOvtR9U9UlwPA2ZI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "dev.sort.sql-transpiler-intellij-plugin",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "duckdb-intellij-plugin-0.5.1.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -67,7 +84,8 @@
       "0.1.0": 1115082,
       "0.1.1": 1116229,
       "0.2.0": 1116486,
-      "0.4.4": 1198183
+      "0.4.4": 1198183,
+      "0.5.1": 1204342
     }
   }
 }

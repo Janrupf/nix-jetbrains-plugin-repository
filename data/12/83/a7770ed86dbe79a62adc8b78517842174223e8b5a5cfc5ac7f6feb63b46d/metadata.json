@@ -31,12 +31,29 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1204373": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35220/1204373/plugin-1.0.2-signed.zip?updateId=1204373&pluginId=35220&family=INTELLIJ",
+      "sha256": "U9ecXoPYaWSbPy6P8yOJoVXMt6RNNSpn/KmWymEQOhg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.marketplace"
+      ],
+      "file_name": "plugin-1.0.2-signed.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1196724,
-      "1.0.1": 1199684
+      "1.0.1": 1199684,
+      "1.0.2": 1204373
     }
   }
 }
