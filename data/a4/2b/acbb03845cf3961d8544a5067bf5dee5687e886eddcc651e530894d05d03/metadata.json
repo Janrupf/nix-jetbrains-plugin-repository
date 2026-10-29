@@ -19,11 +19,30 @@
       "since": "261.25134",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1205515": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35288/1205515/UnrealAngelscript-1.0.1.zip?updateId=1205515&pluginId=35288&family=INTELLIJ",
+      "sha256": "wwFXm41qA2OMMyJV6HF3WiRWTE+gWnQsw4q7WebOZ9Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.rider"
+      ],
+      "optional_dependencies": [
+        "org.editorconfig.editorconfigjetbrains"
+      ],
+      "file_name": "UnrealAngelscript-1.0.1.zip",
+      "since": "261.25134",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1198171
+      "1.0.0": 1198171,
+      "1.0.1": 1205515
     }
   }
 }

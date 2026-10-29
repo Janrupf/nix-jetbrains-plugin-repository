@@ -165,11 +165,52 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1205601": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34961/1205601/doppler-plugin-1.9.1-signed.zip?updateId=1205601&pluginId=34961&family=INTELLIJ",
+      "sha256": "UHsuO1ST9QKPLU++VmPxt8QFj1wfZWyqfU7PD+LvVHU=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "PythonCore",
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "JavaScript"
+      ],
+      "file_name": "doppler-plugin-1.9.1-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1205604": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34961/1205604/doppler-plugin-1.10.0-signed.zip?updateId=1205604&pluginId=34961&family=INTELLIJ",
+      "sha256": "mIEqjZSjr3s4oDeXZSIN7YXAxDqCh3IZyHLYWM7pT3E=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "JavaScript",
+        "Docker",
+        "com.intellij.gradle",
+        "PythonCore"
+      ],
+      "file_name": "doppler-plugin-1.10.0-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.1.0": 1191623,
+      "1.10.0": 1205604,
       "1.2.0": 1193273,
       "1.3.0": 1194162,
       "1.4.0": 1195298,
@@ -178,7 +219,8 @@
       "1.7.0": 1197910,
       "1.7.1": 1199723,
       "1.8.0": 1202188,
-      "1.9.0": 1202229
+      "1.9.0": 1202229,
+      "1.9.1": 1205601
     }
   }
 }

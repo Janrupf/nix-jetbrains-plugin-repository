@@ -17,11 +17,28 @@
       "since": "232.10072.31",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "1205316": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35469/1205316/odoo-runner-0.34.0.zip?updateId=1205316&pluginId=35469&family=INTELLIJ",
+      "sha256": "XIsIh4e7lj7NvDozEszMwwj2a+nEdiq8LPk+15XRv5Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "odoo-runner-0.34.0.zip",
+      "since": "232.10072.31",
+      "until": "232.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.24.1": 1202749
+      "0.24.1": 1202749,
+      "0.34.0": 1205316
     }
   }
 }

@@ -51,12 +51,38 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1205022": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35567/1205022/idea.plugin.template-0.2.7.zip?updateId=1205022&pluginId=35567&family=INTELLIJ",
+      "sha256": "fbu6q1SDH5OmlN7prBnuwfSEs3kctCGHhiR0TEZzPb0=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.java.frontback.psi",
+        "intellij.properties.psi",
+        "com.jetbrains.rust",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.backend",
+        "intellij.markdown",
+        "org.jetbrains.kotlin",
+        "idea.plugin.template.shared",
+        "intellij.properties",
+        "intellij.xml.psi",
+        "intellij.platform.lsp",
+        "intellij.xml.psi.impl"
+      ],
+      "file_name": "idea.plugin.template-0.2.7.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.2.3": 1204708,
-      "0.2.6": 1204867
+      "0.2.6": 1204867,
+      "0.2.7": 1205022
     }
   }
 }

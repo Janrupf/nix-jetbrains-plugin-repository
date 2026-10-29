@@ -55,13 +55,32 @@
       "since": "233.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1204969": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34304/1204969/opencode-buddy-jetbrains-2.0.2.zip?updateId=1204969&pluginId=34304&family=INTELLIJ",
+      "sha256": "MmzYjuFfgkA0Dm+h15684TSu0DpoaCEx4yTOKbxRUbw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.python",
+        "com.intellij.modules.jcef",
+        "com.intellij.java"
+      ],
+      "file_name": "opencode-buddy-jetbrains-2.0.2.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1": 1171888,
       "0.0.3": 1173153,
-      "0.0.4": 1177155
+      "0.0.4": 1177155,
+      "2.0.2": 1204969
     }
   }
 }
