@@ -595,6 +595,60 @@
       "since": "263.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1206180": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35436/1206180/agent-doc-jetbrains-0.2.889.zip?updateId=1206180&pluginId=35436&family=INTELLIJ",
+      "sha256": "785WSvlROChvo62G/6G2tYZ0Q2hQGOLB3YF6Eeee7ec=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "agent-doc-jetbrains-0.2.889.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1206181": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35436/1206181/agent-doc-jetbrains-262-0.2.890.zip?updateId=1206181&pluginId=35436&family=INTELLIJ",
+      "sha256": "0zkOJCsOutN1B5dSRD6vPusE17U6hXFAi8WVOuBsaoI=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.vcs",
+        "org.jetbrains.plugins.terminal",
+        "agent.doc.shared",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.backend",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "agent-doc-jetbrains-262-0.2.890.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1206182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35436/1206182/agent-doc-jetbrains-263-0.2.891.zip?updateId=1206182&pluginId=35436&family=INTELLIJ",
+      "sha256": "CoAGdf/nO7vHh4A1BL7SKPevoHOG7TZ+VVEaZjZGv9o=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.vcs",
+        "org.jetbrains.plugins.terminal",
+        "agent.doc.shared",
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.backend",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "agent-doc-jetbrains-263-0.2.891.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -631,7 +685,10 @@
       "0.2.873": 1204967,
       "0.2.877": 1205578,
       "0.2.878": 1205579,
-      "0.2.879": 1205580
+      "0.2.879": 1205580,
+      "0.2.889": 1206180,
+      "0.2.890": 1206181,
+      "0.2.891": 1206182
     }
   }
 }

@@ -46,13 +46,29 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1205943": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34207/1205943/nexorhino-pycharm-1.1.1.zip?updateId=1205943&pluginId=34207&family=INTELLIJ",
+      "sha256": "u33whxfJdBV0/4lVttTR/jDxyZZg7aKihQt2AbXbWPw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.modules.platform",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nexorhino-pycharm-1.1.1.zip",
+      "since": "233.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.2-alpha.1": 1167960,
       "0.1.4": 1167983,
-      "1.1.0": 1205557
+      "1.1.0": 1205557,
+      "1.1.1": 1205943
     }
   }
 }

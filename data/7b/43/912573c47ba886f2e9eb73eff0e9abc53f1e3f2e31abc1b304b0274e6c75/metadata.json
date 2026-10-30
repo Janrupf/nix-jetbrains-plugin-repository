@@ -18,11 +18,29 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1206220": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35612/1206220/tera-1.3.1.zip?updateId=1206220&pluginId=35612&family=INTELLIJ",
+      "sha256": "VWt19EmPLnDELph7jGOyk9L58B0YJBoSn4kYRGA6H1E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.rust",
+        "org.rust.lang"
+      ],
+      "file_name": "tera-1.3.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.3.0": 1205657
+      "1.3.0": 1205657,
+      "1.3.1": 1206220
     }
   }
 }

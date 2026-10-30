@@ -33,12 +33,46 @@
       "since": "232.10072.31",
       "until": "232.*",
       "compatibility_overrides": []
+    },
+    "1205940": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35469/1205940/odoo-runner-0.35.0.zip?updateId=1205940&pluginId=35469&family=INTELLIJ",
+      "sha256": "d4d9oJdTY5wA/ZAz+bllKcxRVxVymdYm1szuUgd/9gg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "PythonCommon"
+      ],
+      "optional_dependencies": [],
+      "file_name": "odoo-runner-0.35.0.zip",
+      "since": "232.10072.31",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "1205991": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35469/1205991/odoo-runner-0.36.0.zip?updateId=1205991&pluginId=35469&family=INTELLIJ",
+      "sha256": "iwvd4BwZg7sB73RIltRO7EntN5hanwXt97fVWmolI1Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.modules.platform",
+        "PythonCommon",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "odoo-runner-0.36.0.zip",
+      "since": "232.10072.31",
+      "until": "232.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.24.1": 1202749,
-      "0.34.0": 1205316
+      "0.34.0": 1205316,
+      "0.35.0": 1205940,
+      "0.36.0": 1205991
     }
   }
 }

@@ -64,13 +64,35 @@
       "since": "232.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1206176": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35174/1206176/MybatisTools-2.5.0.zip?updateId=1206176&pluginId=35174&family=INTELLIJ",
+      "sha256": "Jf6bpNHNANwOfYouUm6A1/pinOzN57c7r5EKw9YosLk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
+        "org.intellij.intelliLang",
+        "com.intellij.database",
+        "com.intellij.spring"
+      ],
+      "file_name": "MybatisTools-2.5.0.zip",
+      "since": "232.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1197973,
       "2.0.0": 1200143,
-      "2.2.0": 1201723
+      "2.2.0": 1201723,
+      "2.5.0": 1206176
     }
   }
 }
