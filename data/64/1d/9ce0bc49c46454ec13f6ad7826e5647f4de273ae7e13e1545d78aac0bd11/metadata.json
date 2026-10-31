@@ -126,6 +126,31 @@
       "since": "262.8665.309",
       "until": "262.8665.369",
       "compatibility_overrides": []
+    },
+    "1208430": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35450/1208430/odoo-devkit-1.0.9.3.zip?updateId=1208430&pluginId=35450&family=INTELLIJ",
+      "sha256": "r3qpm6g7NnG/B5MA34w3+m6Al9LbG3SP26UQwXTjbXg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "PythonCommon",
+        "com.intellij.modules.python",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.rest",
+        "com.intellij.diagram",
+        "org.jetbrains.plugins.localization",
+        "com.jetbrains.plugins.ini4idea",
+        "JavaScript",
+        "com.intellij.css",
+        "com.intellij.database"
+      ],
+      "file_name": "odoo-devkit-1.0.9.3.zip",
+      "since": "262.9437.214",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -134,7 +159,8 @@
       "1.0.9.251": 1203884,
       "1.0.9.252": 1203885,
       "1.0.9.253": 1203887,
-      "1.0.9.262": 1203888
+      "1.0.9.262": 1203888,
+      "1.0.9.3": 1208430
     }
   }
 }

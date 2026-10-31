@@ -43,10 +43,56 @@
       "since": "263.7307",
       "until": "263.7307.*",
       "compatibility_overrides": []
+    },
+    "1206958": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35419/1206958/chromeConnect-263.7307.113.zip?updateId=1206958&pluginId=35419&family=INTELLIJ",
+      "sha256": "NWldp3USr2PYO49p79c+fl8cGNx9HWZM+0SbYnxxfFU=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.backend",
+        "intellij.mcpserver",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.jetbrains",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.ide.core",
+        "intellij.mcpserver.toolsets",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.platform.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "chromeConnect-263.7307.113.zip",
+      "since": "263.7307",
+      "until": "263.7307.*",
+      "compatibility_overrides": []
+    },
+    "1207600": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35419/1207600/chromeConnect-263.7307.117.zip?updateId=1207600&pluginId=35419&family=INTELLIJ",
+      "sha256": "kpCWz3SyW2nVPU2O+wLzQ6ce3eQEAzJmo0tqduNCEvs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "intellij.platform.backend",
+        "intellij.libraries.kotlinx.serialization.core",
+        "com.intellij.modules.jetbrains",
+        "intellij.platform.ide.core",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.mcpserver",
+        "intellij.platform.core",
+        "intellij.mcpserver.toolsets",
+        "intellij.libraries.kotlinx.serialization.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "chromeConnect-263.7307.117.zip",
+      "since": "263.7307",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "263.7307.113": 1206958,
+      "263.7307.117": 1207600,
       "263.7307.35": 1200901,
       "263.7307.44": 1201148,
       "263.7307.47": 1201283

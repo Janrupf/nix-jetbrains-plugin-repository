@@ -1264,6 +1264,71 @@
       "since": "271.1768",
       "until": "271.1768",
       "compatibility_overrides": []
+    },
+    "1207325": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27375/1207325/configurationScript-263.7307.112.zip?updateId=1207325&pluginId=27375&family=INTELLIJ",
+      "sha256": "vfw/UswZoyXXlHhC1LdrzGtixa2XRoxOwBkAdaZZyCc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis.impl",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.json.backend",
+        "intellij.platform.configurationStore.impl",
+        "intellij.platform.workspace.jps",
+        "intellij.platform.execution",
+        "intellij.platform.ide.core",
+        "intellij.platform.lang",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.impl",
+        "intellij.platform.serviceContainer",
+        "intellij.platform.analysis",
+        "intellij.platform.core.impl",
+        "intellij.platform.objectSerializer",
+        "intellij.libraries.snakeyaml.engine",
+        "intellij.platform.util.ex",
+        "intellij.platform.core",
+        "intellij.platform.execution.impl"
+      ],
+      "optional_dependencies": [],
+      "file_name": "configurationScript-263.7307.112.zip",
+      "since": "263.7307",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1208463": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27375/1208463/configurationScript-271.1836.0.zip?updateId=1208463&pluginId=27375&family=INTELLIJ",
+      "sha256": "T/MelxhxgDOsb8ikgWa0nLvp29PyoQJvN/Kq50guBpA=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.serviceContainer",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ex",
+        "intellij.platform.analysis",
+        "intellij.libraries.snakeyaml.engine",
+        "intellij.platform.objectSerializer",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.core",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.projectModel",
+        "intellij.platform.configurationStore.impl",
+        "intellij.platform.ide.core",
+        "intellij.platform.workspace.jps",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.ide.json",
+        "intellij.platform.projectModel.impl",
+        "com.intellij.configurationScript",
+        "intellij.json",
+        "intellij.platform.execution.impl",
+        "intellij.json.backend",
+        "intellij.platform.execution"
+      ],
+      "file_name": "configurationScript-271.1836.0.zip",
+      "since": "271.1836",
+      "until": "271.1836",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1280,6 +1345,7 @@
       "271.1588.0": 1204886,
       "271.1691.0": 1205847,
       "271.1768.0": 1206621,
+      "271.1836.0": 1208463,
       "271.684.0": 1194519,
       "271.767.0": 1195732,
       "271.815.0": 1196084,
@@ -1332,6 +1398,7 @@
       "263.6259.32": 1184951,
       "263.6800.24": 1191957,
       "263.7031.23": 1194905,
+      "263.7307.112": 1207325,
       "263.7307.44": 1201115
     }
   }

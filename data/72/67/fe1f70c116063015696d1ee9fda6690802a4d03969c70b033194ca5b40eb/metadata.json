@@ -49,12 +49,48 @@
           "compatible_until": "261.*"
         }
       ]
+    },
+    "1206796": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31175/1206796/RestfulSearch-1.2.0.zip?updateId=1206796&pluginId=31175&family=INTELLIJ",
+      "sha256": "prkV0J7xNfQjoVrZyeeLZ3Qzt9eyCoTquV8ppUaFmvs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
+      ],
+      "optional_dependencies": [],
+      "file_name": "RestfulSearch-1.2.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1206810": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31175/1206810/RestfulSearch-1.2.1.zip?updateId=1206810&pluginId=31175&family=INTELLIJ",
+      "sha256": "JUfmSJCMR+jTGLEH0NBByrGeKIYBwX1hJha94CqiqvE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "RestfulSearch-1.2.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1013748,
-      "1.1.0": 1015753
+      "1.1.0": 1015753,
+      "1.2.0": 1206796,
+      "1.2.1": 1206810
     }
   }
 }

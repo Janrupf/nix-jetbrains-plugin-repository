@@ -5696,6 +5696,47 @@
       "since": "263.7307",
       "until": "263.7307.*",
       "compatibility_overrides": []
+    },
+    "1207276": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8595/1207276/php-docker-263.7307.112.zip?updateId=1207276&pluginId=8595&family=INTELLIJ",
+      "sha256": "skreMpO9rcxKVkCK3NiLDopdSi++TiOX0yh85W6PjhM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.platform.remoteServers.impl",
+        "intellij.php.backend",
+        "intellij.platform.core",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.remoteServers",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.concurrency",
+        "intellij.libraries.guava",
+        "intellij.platform.util.ui",
+        "intellij.platform.projectModel.impl",
+        "intellij.clouds.docker.remoteRun",
+        "intellij.platform.core.ui",
+        "intellij.platform.analysis",
+        "intellij.platform.remote.core",
+        "intellij.platform.ide.remote",
+        "Docker",
+        "intellij.platform.lang.impl",
+        "intellij.platform.projectModel",
+        "intellij.platform.execution",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter",
+        "intellij.platform.ide.core"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.agent",
+        "intellij.clouds.docker",
+        "org.jetbrains.plugins.phpstorm-docker",
+        "intellij.php.remoteInterpreter.coverage"
+      ],
+      "file_name": "php-docker-263.7307.112.zip",
+      "since": "263.7307",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5993,6 +6034,7 @@
       "263.6259.32": 1185028,
       "263.6800.24": 1191939,
       "263.7031.23": 1194976,
+      "263.7307.112": 1207276,
       "263.7307.44": 1201238
     }
   }

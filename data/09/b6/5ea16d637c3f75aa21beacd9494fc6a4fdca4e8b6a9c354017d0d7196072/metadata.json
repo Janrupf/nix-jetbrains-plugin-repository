@@ -5998,6 +5998,77 @@
       "since": "263.7307",
       "until": "263.7307.*",
       "compatibility_overrides": []
+    },
+    "1207037": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7535/1207037/gauge-252.28539.149.zip?updateId=1207037&pluginId=7535&family=INTELLIJ",
+      "sha256": "mQNTDNy/gDiT4FQFWD4R2Uk6WAajm6c+cHxUoYSquTI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.properties",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "gauge-252.28539.149.zip",
+      "since": "252.28539",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "1207333": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7535/1207333/gauge-263.7307.112.zip?updateId=1207333&pluginId=7535&family=INTELLIJ",
+      "sha256": "AXAlEIvCjAk5obToG4bTBKlzUx0sUffzFJKmzctwBS0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.collections.immutable",
+        "com.intellij.modules.json",
+        "intellij.libraries.grpc",
+        "intellij.java.debugger.impl",
+        "intellij.java.execution.impl",
+        "intellij.platform.analysis",
+        "intellij.platform.externalSystem.impl",
+        "intellij.platform.smRunner",
+        "intellij.platform.execution",
+        "intellij.platform.lang",
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.java.backend",
+        "intellij.libraries.protobuf",
+        "intellij.platform.core.impl",
+        "intellij.platform.testRunner",
+        "intellij.platform.ide.core",
+        "intellij.java.psi",
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.impl",
+        "intellij.platform.statistics",
+        "intellij.platform.lang.core",
+        "intellij.platform.debugger",
+        "intellij.json.backend",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.libraries.gson",
+        "intellij.platform.ide.core.impl",
+        "intellij.libraries.commons.io",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.platform.execution.impl",
+        "intellij.platform.refactoring",
+        "intellij.properties.backend",
+        "intellij.platform.consoleView",
+        "intellij.platform.concurrency"
+      ],
+      "optional_dependencies": [
+        "intellij.maven",
+        "intellij.gradle.settings",
+        "intellij.gradle",
+        "com.thoughtworks.gauge"
+      ],
+      "file_name": "gauge-263.7307.112.zip",
+      "since": "263.7307",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6286,6 +6357,7 @@
       "252.27397.28": 878476,
       "252.28238.7": 896620,
       "252.28539.13": 910621,
+      "252.28539.149": 1207037,
       "252.28539.33": 930671,
       "252.28539.54": 1030107,
       "252.28539.97": 1118660,
@@ -6324,6 +6396,7 @@
       "263.6259.32": 1185018,
       "263.6800.24": 1191999,
       "263.7031.23": 1194806,
+      "263.7307.112": 1207333,
       "263.7307.44": 1201259
     }
   }

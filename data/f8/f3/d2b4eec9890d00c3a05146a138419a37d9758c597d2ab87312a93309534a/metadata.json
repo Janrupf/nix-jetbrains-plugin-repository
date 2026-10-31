@@ -833,6 +833,50 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1206795": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1206795/acpira-2.0.0-universal.zip?updateId=1206795&pluginId=34192&family=INTELLIJ",
+      "sha256": "PMXQ58jhhCX5L/cV5JtkG/Yj9sfzTsMsC4ghct+cUs0=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.libraries.jcef",
+        "intellij.platform.frontend",
+        "acpira.shared",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.backend",
+        "acpira.backend",
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal",
+        "acpira.frontend",
+        "intellij.platform.kernel.backend"
+      ],
+      "file_name": "acpira-2.0.0-universal.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1208249": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34192/1208249/acpira-2.0.1-universal.zip?updateId=1208249&pluginId=34192&family=INTELLIJ",
+      "sha256": "/5CkFAZ5AzkfHbYDLS8j1cUhrCW4xxcFFe87RbTnsqI=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "acpira.shared",
+        "intellij.libraries.jcef",
+        "intellij.platform.frontend",
+        "intellij.platform.backend",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.jcef",
+        "intellij.platform.kernel.backend",
+        "acpira.frontend",
+        "intellij.platform.ui.jcef",
+        "acpira.backend"
+      ],
+      "file_name": "acpira-2.0.1-universal.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -876,7 +920,9 @@
       "1.8.7": 1187838,
       "1.8.8": 1187965,
       "1.9.0": 1189849,
-      "1.9.1": 1190560
+      "1.9.1": 1190560,
+      "2.0.0": 1206795,
+      "2.0.1": 1208249
     }
   }
 }

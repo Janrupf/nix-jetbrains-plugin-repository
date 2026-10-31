@@ -21,11 +21,32 @@
       "since": "262.10968",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1206933": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33374/1206933/java-ide-customization-262.11879.102.zip?updateId=1206933&pluginId=33374&family=INTELLIJ",
+      "sha256": "gijJS4OwvN8+h3DYYfJRQJeevSfFzl92lOkiDm2E7HE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.java.frontback.psi",
+        "intellij.platform.testRunner",
+        "intellij.java.ui",
+        "intellij.java.backend",
+        "intellij.java.psi"
+      ],
+      "optional_dependencies": [
+        "training",
+        "intellij.java.featuresTrainer"
+      ],
+      "file_name": "java-ide-customization-262.11879.102.zip",
+      "since": "262.11879",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "262.10968.211": 1189313
+      "262.10968.211": 1189313,
+      "262.11879.102": 1206933
     }
   }
 }

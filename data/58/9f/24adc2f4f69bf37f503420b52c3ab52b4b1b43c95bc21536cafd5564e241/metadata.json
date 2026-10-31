@@ -1029,6 +1029,85 @@
       "since": "271.1768",
       "until": "271.1768",
       "compatibility_overrides": []
+    },
+    "1207374": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1207374/java-aetherDependencyResolver-plugin-263.7307.112.zip?updateId=1207374&pluginId=34026&family=INTELLIJ",
+      "sha256": "5P5ChhLn7idgHdtR9eFglnliuKYvFknW3z/pH6u3Gho=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.http.client",
+        "intellij.libraries.commons.codec",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.commons.logging",
+        "intellij.libraries.plexus.utils"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.grpc",
+        "intellij.libraries.protobuf",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.platform.analysis",
+        "intellij.platform.ide",
+        "intellij.libraries.javax.annotation",
+        "intellij.platform.statistics",
+        "intellij.platform.util.text.matching",
+        "intellij.platform.core",
+        "intellij.libraries.guava",
+        "intellij.platform.lang.impl",
+        "intellij.repository.search.completion",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.kotlinx.serialization.json",
+        "com.intellij.modules.ultimate"
+      ],
+      "file_name": "java-aetherDependencyResolver-plugin-263.7307.112.zip",
+      "since": "263.7307",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1208471": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1208471/java-aetherDependencyResolver-271.1836.0.zip?updateId=1208471&pluginId=34026&family=INTELLIJ",
+      "sha256": "QlSV53Ojox26d3hOmtCX5P4eftef3SyDVmE8SZnqHbc=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.commons.logging",
+        "intellij.libraries.commons.codec",
+        "intellij.platform.backend",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.http.client",
+        "intellij.libraries.jetbrains.annotations"
+      ],
+      "optional_dependencies": [
+        "intellij.repository.search.completion",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.platform.core",
+        "intellij.libraries.guava",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.lang.impl",
+        "intellij.libraries.grpc",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.platform.ide",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.libraries.protobuf",
+        "intellij.platform.analysis",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.javax.annotation",
+        "intellij.platform.util.text.matching",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.statistics"
+      ],
+      "file_name": "java-aetherDependencyResolver-271.1836.0.zip",
+      "since": "271.1836",
+      "until": "271.1836",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1045,6 +1124,7 @@
       "271.1588.0": 1204895,
       "271.1691.0": 1205849,
       "271.1768.0": 1206626,
+      "271.1836.0": 1208471,
       "271.684.0": 1194520,
       "271.767.0": 1195728,
       "271.815.0": 1196060,
@@ -1059,6 +1139,7 @@
       "263.6259.32": 1184988,
       "263.6800.24": 1191991,
       "263.7031.23": 1194939,
+      "263.7307.112": 1207374,
       "263.7307.44": 1201181
     }
   }

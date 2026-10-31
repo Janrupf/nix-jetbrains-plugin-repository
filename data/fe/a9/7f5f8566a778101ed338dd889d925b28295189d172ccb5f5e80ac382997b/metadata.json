@@ -6347,6 +6347,49 @@
       "since": "263.7307",
       "until": "263.7307.*",
       "compatibility_overrides": []
+    },
+    "1207497": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8116/1207497/nodeJS-remoteInterpreter-263.7307.110.zip?updateId=1207497&pluginId=8116&family=INTELLIJ",
+      "sha256": "CMjcoYFJHK2J4xFIC7NEX0zaIM1lGN799qpM4okFJxk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.core",
+        "com.jetbrains.plugins.webDeployment",
+        "intellij.platform.remoteServers.impl",
+        "NodeJS",
+        "intellij.platform.ssh.core",
+        "intellij.clouds.docker.agent",
+        "org.jetbrains.plugins.remote-run",
+        "intellij.platform.ssh",
+        "intellij.platform.concurrency",
+        "intellij.platform.execution.impl",
+        "intellij.platform.util.ui",
+        "intellij.javascript.parser",
+        "intellij.platform.remoteServers",
+        "intellij.libraries.guava",
+        "com.intellij.modules.ultimate",
+        "JavaScript",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.core.ui",
+        "intellij.platform.remote.core",
+        "JavaScriptDebugger",
+        "intellij.platform.ide.remote",
+        "intellij.platform.projectModel",
+        "intellij.platform.debugger",
+        "intellij.platform.lang.impl",
+        "intellij.platform.execution",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.impl",
+        "intellij.javascript.backend",
+        "intellij.platform.ide.core"
+      ],
+      "optional_dependencies": [
+        "intellij.clouds.docker.remoteRun"
+      ],
+      "file_name": "nodeJS-remoteInterpreter-263.7307.110.zip",
+      "since": "263.7307",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -6664,6 +6707,7 @@
       "263.5701.47": 1180090,
       "263.6259.35": 1185120,
       "263.7031.36": 1195318,
+      "263.7307.110": 1207497,
       "263.7307.43": 1201360
     }
   }

@@ -243,6 +243,24 @@
           "compatible_until": "262.*"
         }
       ]
+    },
+    "1208230": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32180/1208230/intellij-crystal-0.3.2.zip?updateId=1208230&pluginId=32180&family=INTELLIJ",
+      "sha256": "DXoHWJWO+yCtTjovCb/lkn9UicssOYomvGvcXP+5+G0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.structureView",
+        "com.intellij.modules.platform",
+        "HtmlTools",
+        "intellij.platform.dap",
+        "intellij.platform.langInjection",
+        "intellij.platform.smRunner"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-crystal-0.3.2.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -257,7 +275,8 @@
       "0.2.4": 1150225,
       "0.2.5": 1150845,
       "0.2.7": 1151562,
-      "0.2.8": 1156988
+      "0.2.8": 1156988,
+      "0.3.2": 1208230
     }
   }
 }

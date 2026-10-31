@@ -20,11 +20,31 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1208180": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35595/1208180/idea-agent-tools-0.2.0.zip?updateId=1208180&pluginId=35595&family=INTELLIJ",
+      "sha256": "J1Mk6Av8NJReUvMmj2sZbyiNjN6iFnvPUQlbOCc3wy8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "intellij.testRunner.plugin",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer",
+        "Coverage"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-agent-tools-0.2.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1205513
+      "0.1.0": 1205513,
+      "0.2.0": 1208180
     }
   }
 }
