@@ -19,11 +19,30 @@
       "since": "243.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1208841": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32571/1208841/projects-2025.3.13-signed.zip?updateId=1208841&pluginId=32571&family=INTELLIJ",
+      "sha256": "h6QI5kVHRgj39yxaF+kd21diYPmJMSjqnwaFfheY+v0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.vcs",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.tasks"
+      ],
+      "file_name": "projects-2025.3.13-signed.zip",
+      "since": "243.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2025.3.12": 1198729
+      "2025.3.12": 1198729,
+      "2025.3.13": 1208841
     }
   }
 }

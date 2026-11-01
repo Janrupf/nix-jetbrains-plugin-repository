@@ -52,13 +52,31 @@
       "since": "241.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1209077": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32578/1209077/iHomeCoder-macOS-Intel-V6.10.0.1030001_release_universal-darwin-x64.zip?updateId=1209077&pluginId=32578&family=INTELLIJ",
+      "sha256": "6T2IuOT8w1N7qP7flILr/SPK6LS9gmapCrQlieKbbRc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "Git4Idea"
+      ],
+      "file_name": "iHomeCoder-macOS-Intel-V6.10.0.1030001_release_universal-darwin-x64.zip",
+      "since": "241.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "6.0.1": 1100903,
       "6.0.2": 1108422,
-      "6.0.4": 1118242
+      "6.0.4": 1118242,
+      "6.10.0": 1209077
     }
   }
 }

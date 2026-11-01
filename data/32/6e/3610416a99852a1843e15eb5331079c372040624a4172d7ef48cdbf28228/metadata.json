@@ -16,11 +16,27 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1208800": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34035/1208800/java-refactoring-mcp-tools-1.0.5.zip?updateId=1208800&pluginId=34035&family=INTELLIJ",
+      "sha256": "euDdoya5nSOphsSvnteVXlPWTdwiHzfyC5F2k4bWUzU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "java-refactoring-mcp-tools-1.0.5.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.4": 1160932
+      "1.0.4": 1160932,
+      "1.0.5": 1208800
     }
   }
 }

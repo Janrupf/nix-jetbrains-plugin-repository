@@ -15,11 +15,26 @@
       "since": "262.10968.1",
       "until": "262.10968.*",
       "compatibility_overrides": []
+    },
+    "1208782": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34498/1208782/ai-chat-selection.zip?updateId=1208782&pluginId=34498&family=INTELLIJ",
+      "sha256": "PRShO72BLCsTjr+emCUpAb7eLAtIFovRinZLSTHpH3c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.ml.llm",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ai-chat-selection.zip",
+      "since": "262.10968.1",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1178723
+      "1.0.0": 1178723,
+      "1.0.1": 1208782
     }
   }
 }

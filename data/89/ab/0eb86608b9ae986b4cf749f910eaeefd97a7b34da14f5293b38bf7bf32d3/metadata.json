@@ -264,6 +264,24 @@
       "since": "233.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1208838": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27097/1208838/NestKit-1.3.3-signed.zip?updateId=1208838&pluginId=27097&family=INTELLIJ",
+      "sha256": "o6DwpcZYiKwVa94SHUfGVX1rRTg8QOeZxIMLBF1HGTo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.microservices",
+        "com.intellij.modules.platform",
+        "JavaScript",
+        "com.jetbrains.restClient"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "NestKit-1.3.3-signed.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -285,7 +303,8 @@
     "stable": {
       "1.1.0": 1092336,
       "1.3.1": 1163920,
-      "1.3.2": 1198710
+      "1.3.2": 1198710,
+      "1.3.3": 1208838
     }
   }
 }
