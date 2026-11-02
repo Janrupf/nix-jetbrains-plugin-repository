@@ -24,11 +24,28 @@
           "compatible_until": "999.99999"
         }
       ]
+    },
+    "1209532": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34612/1209532/shpe-pycharm-0.2.3.zip?updateId=1209532&pluginId=34612&family=INTELLIJ",
+      "sha256": "aiTkyreD2dEIabKTm0IQy3WTBihWjoiH6QWkCHLwug4=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "shpe-pycharm-0.2.3.zip",
+      "since": "261.1",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.2": 1181839
+      "0.2.2": 1181839,
+      "0.2.3": 1209532
     }
   }
 }

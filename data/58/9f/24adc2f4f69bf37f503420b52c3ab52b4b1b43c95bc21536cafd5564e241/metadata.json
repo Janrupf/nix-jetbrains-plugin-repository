@@ -1108,6 +1108,46 @@
       "since": "271.1836",
       "until": "271.1836",
       "compatibility_overrides": []
+    },
+    "1209784": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34026/1209784/java-aetherDependencyResolver-271.1913.0.zip?updateId=1209784&pluginId=34026&family=INTELLIJ",
+      "sha256": "coAp1p+XtrSldTqU++THFSFWhRTmJAJAk5UijFvzepM=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.libraries.plexus.utils",
+        "intellij.libraries.commons.logging",
+        "intellij.libraries.commons.lang3",
+        "intellij.libraries.commons.codec",
+        "intellij.platform.backend",
+        "intellij.libraries.maven.resolver.provider",
+        "intellij.libraries.maven.resolver.transport",
+        "intellij.libraries.http.client",
+        "intellij.libraries.jetbrains.annotations"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.javax.annotation",
+        "intellij.repository.search.completion",
+        "intellij.libraries.kotlinx.coroutines.slf4j",
+        "intellij.platform.core",
+        "intellij.libraries.guava",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.lang.impl",
+        "intellij.libraries.grpc",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.ide",
+        "intellij.libraries.protobuf",
+        "intellij.platform.analysis",
+        "intellij.platform.statistics",
+        "intellij.platform.util.text.matching",
+        "intellij.platform.externalSystem",
+        "intellij.libraries.kotlinx.serialization.core"
+      ],
+      "file_name": "java-aetherDependencyResolver-271.1913.0.zip",
+      "since": "271.1913",
+      "until": "271.1913",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1125,6 +1165,7 @@
       "271.1691.0": 1205849,
       "271.1768.0": 1206626,
       "271.1836.0": 1208471,
+      "271.1913.0": 1209784,
       "271.684.0": 1194520,
       "271.767.0": 1195728,
       "271.815.0": 1196060,

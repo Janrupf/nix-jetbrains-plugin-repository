@@ -52,13 +52,31 @@
       "since": "262.10968",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1209268": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35576/1209268/ShanHlsl-0.2.1.zip?updateId=1209268&pluginId=35576&family=INTELLIJ",
+      "sha256": "Xez3pyqbNtpz7nGE4W4ZAE8pI9/JtBlfOFUw9iEuA20=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ShanHlsl-0.2.1.zip",
+      "since": "262.10968",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.1": 1204972,
       "0.1.2": 1204974,
-      "0.2.0": 1204987
+      "0.2.0": 1204987,
+      "0.2.1": 1209268
     }
   }
 }
