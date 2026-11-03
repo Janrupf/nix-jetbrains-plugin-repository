@@ -101,6 +101,41 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1209889": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31388/1209889/flexible-flox-2026.1.8.zip?updateId=1209889&pluginId=31388&family=INTELLIJ",
+      "sha256": "JTzVRAnv9ypX6+ZDZJOpOvfk6kxSXCVgb+G/B1P/aek=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java"
+      ],
+      "file_name": "flexible-flox-2026.1.8.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1209894": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31388/1209894/flexible-flox-2026.1.8-243.zip?updateId=1209894&pluginId=31388&family=INTELLIJ",
+      "sha256": "jxlp0aYJPpSlQOJ9SXnP29Av2P8MlhJ3Zlh/BaZijhg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "flexible-flox-2026.1.8-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -110,7 +145,9 @@
       "2026.1.5": 1042433,
       "2026.1.6": 1044419,
       "2026.1.7": 1193194,
-      "2026.1.7-243": 1193196
+      "2026.1.7-243": 1193196,
+      "2026.1.8": 1209889,
+      "2026.1.8-243": 1209894
     }
   }
 }

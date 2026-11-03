@@ -43,13 +43,28 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1210527": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35634/1210527/mock-snap-2026.1.3.zip?updateId=1210527&pluginId=35634&family=INTELLIJ",
+      "sha256": "WibSeH7NsFM7OFJ+iKL8zUUlqaY/PwHtuvmSx0dChCo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mock-snap-2026.1.3.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2026.1.0": 1206027,
       "2026.1.1": 1206033,
-      "2026.1.2": 1206038
+      "2026.1.2": 1206038,
+      "2026.1.3": 1210527
     }
   }
 }

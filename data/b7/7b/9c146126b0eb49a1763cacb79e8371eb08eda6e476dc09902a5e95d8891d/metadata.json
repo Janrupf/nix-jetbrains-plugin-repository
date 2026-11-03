@@ -17,11 +17,29 @@
       "since": "242.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1209817": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31651/1209817/ddotit-intellij-0.1.4.zip?updateId=1209817&pluginId=31651&family=INTELLIJ",
+      "sha256": "oH8gXtGjKX5AhWXaHrRxPLeNU6/qvB7gIgnXQY5dJFA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.json",
+        "org.asciidoctor.intellij.asciidoc"
+      ],
+      "file_name": "ddotit-intellij-0.1.4.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.2": 1044403
+      "0.1.2": 1044403,
+      "0.1.4": 1209817
     }
   }
 }

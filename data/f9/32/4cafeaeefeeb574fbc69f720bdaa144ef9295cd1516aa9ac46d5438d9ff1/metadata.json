@@ -1,6 +1,26 @@
 {
   "xml_id": "studio.milda.jetbrains",
   "numeric_id": 33132,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1210107": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33132/1210107/milda-jetbrains-0.3.0.zip?updateId=1210107&pluginId=33132&family=INTELLIJ",
+      "sha256": "M0zLO+11RZ8wgROpMgCjdbNIXkwkkV83rgym91wXObk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp"
+      ],
+      "file_name": "milda-jetbrains-0.3.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.3.0": 1210107
+    }
+  }
 }

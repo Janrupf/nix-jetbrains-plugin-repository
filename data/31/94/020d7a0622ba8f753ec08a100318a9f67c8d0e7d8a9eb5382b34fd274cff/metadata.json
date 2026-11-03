@@ -241,6 +241,39 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1209891": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29996/1209891/shadcn-helper-2026.1.23.zip?updateId=1209891&pluginId=29996&family=INTELLIJ",
+      "sha256": "EEiG1AmV1Zu4dzc3f4N/PsYuqfICtSphmMSwWSFg/lo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "JavaScript"
+      ],
+      "file_name": "shadcn-helper-2026.1.23.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1209896": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29996/1209896/shadcn-helper-2026.1.23-243.zip?updateId=1209896&pluginId=29996&family=INTELLIJ",
+      "sha256": "CjQoETB6CZu8eC5H5TDdldCTQZ7gy83guhdxQ6dvVcE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.json"
+      ],
+      "file_name": "shadcn-helper-2026.1.23-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -259,7 +292,9 @@
       "2026.1.20": 1061984,
       "2026.1.21": 1173137,
       "2026.1.22": 1193142,
-      "2026.1.22-243": 1193143
+      "2026.1.22-243": 1193143,
+      "2026.1.23": 1209891,
+      "2026.1.23-243": 1209896
     }
   }
 }

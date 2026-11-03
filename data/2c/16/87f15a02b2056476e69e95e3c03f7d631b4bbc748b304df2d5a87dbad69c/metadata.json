@@ -486,6 +486,31 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1210579": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24142/1210579/SalvoRsTool-2.4.1.zip?updateId=1210579&pluginId=24142&family=INTELLIJ",
+      "sha256": "591flIreWv8T44OQw35syixQhzzdBxlKLzi06emkAn4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.markdown.core",
+        "com.jetbrains.rust",
+        "intellij.libraries.compose.foundation.desktop",
+        "com.intellij.modules.json",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "com.intellij.database",
+        "com.intellij.modules.platform",
+        "JavaScript",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.ideLafBridge",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SalvoRsTool-2.4.1.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -518,7 +543,8 @@
       "2.3.1": 819278,
       "2.3.2": 832823,
       "2.3.3": 851330,
-      "2.4.0": 990207
+      "2.4.0": 990207,
+      "2.4.1": 1210579
     }
   }
 }

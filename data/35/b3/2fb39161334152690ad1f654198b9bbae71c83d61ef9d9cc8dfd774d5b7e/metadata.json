@@ -45,12 +45,28 @@
           "compatible_until": "262.*"
         }
       ]
+    },
+    "1210122": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32254/1210122/kte-intellij.zip?updateId=1210122&pluginId=32254&family=INTELLIJ",
+      "sha256": "LQoFy+l81XK8w7K0sNycerkX9sqL/Q5YV/Kws1wM5Eg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "kte-intellij.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1078172,
-      "0.2.0": 1173135
+      "0.2.0": 1173135,
+      "0.2.1": 1210122
     }
   }
 }

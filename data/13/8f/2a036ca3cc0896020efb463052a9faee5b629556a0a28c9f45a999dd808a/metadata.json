@@ -67,13 +67,36 @@
       "since": "271.1913",
       "until": "271.1913",
       "compatibility_overrides": []
+    },
+    "1210753": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35647/1210753/kotlin-cri-bazel-271.2034.0.zip?updateId=1210753&pluginId=35647&family=INTELLIJ",
+      "sha256": "cLS68vL6gv2KwSA2Hi3+1Yiw7weNbrEAESrid2zI+74=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.kotlin.compilerReferenceIndex",
+        "intellij.platform.ide.core.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.core",
+        "intellij.platform.analysis",
+        "intellij.platform.util.coroutines",
+        "intellij.libraries.kotlinc.kotlin.compiler.common",
+        "intellij.platform.jps.build",
+        "intellij.yaml",
+        "intellij.platform.lang.impl"
+      ],
+      "file_name": "kotlin-cri-bazel-271.2034.0.zip",
+      "since": "271.2034",
+      "until": "271.2034",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "nightly": {
       "271.1768.0": 1206608,
       "271.1836.0": 1208490,
-      "271.1913.0": 1209769
+      "271.1913.0": 1209769,
+      "271.2034.0": 1210753
     }
   }
 }

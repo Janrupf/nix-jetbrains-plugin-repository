@@ -2,25 +2,41 @@
   "xml_id": "in.puzaricloud.ansiblestudio",
   "numeric_id": 35443,
   "updates": {
-    "1201953": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35443/1201953/ansible-studio-1.0.0.zip?updateId=1201953&pluginId=35443&family=INTELLIJ",
-      "sha256": "kSa/zTSz0o/zifnnAH2/xcw7VFCFOWwUU6wFHa83Ksw=",
+    "1210367": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35443/1210367/ansible-studio-1.0.1.zip?updateId=1210367&pluginId=35443&family=INTELLIJ",
+      "sha256": "cnS5UjQK9ooMFpsVHiB1xyFEaVd5OCn8uiPVrwk9JfA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
         "org.jetbrains.plugins.yaml",
-        "com.redhat.devtools.lsp4ij"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
-      "file_name": "ansible-studio-1.0.0.zip",
-      "since": null,
+      "file_name": "ansible-studio-1.0.1.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1210409": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35443/1210409/ansible-studio-1.1.0.zip?updateId=1210409&pluginId=35443&family=INTELLIJ",
+      "sha256": "GbPtI6Z1mjKlWHRtKlFVLMG0Rs9jaOhfTWqYyAHP09Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ansible-studio-1.1.0.zip",
+      "since": "252.0",
       "until": null,
       "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1201953
+      "1.0.1": 1210367,
+      "1.1.0": 1210409
     }
   }
 }
