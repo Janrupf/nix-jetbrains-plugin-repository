@@ -20,11 +20,31 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1211284": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35632/1211284/mcpp-clion-0.2.0.zip?updateId=1211284&pluginId=35632&family=INTELLIJ",
+      "sha256": "fj/sgRhtiX5BhUE/+/O2mwj5GF8Np4hC9IJvJAjSdLo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.cidr.debugger",
+        "io.github.sunrisepeak.mcppls",
+        "com.intellij.modules.clion",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "mcpp-clion-0.2.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.1": 1206014
+      "0.1.1": 1206014,
+      "0.2.0": 1211284
     }
   }
 }

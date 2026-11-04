@@ -18,11 +18,29 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1211230": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35242/1211230/clickhouse-intellij-plugin-0.3.0.zip?updateId=1211230&pluginId=35242&family=INTELLIJ",
+      "sha256": "bgKea+VeeFFIwv2FelSBuebZ34D03PNNIh78Qp7Id7M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "dev.sort.sql-transpiler-intellij-plugin"
+      ],
+      "file_name": "clickhouse-intellij-plugin-0.3.0.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.2.2": 1198185
+      "0.2.2": 1198185,
+      "0.3.0": 1211230
     }
   }
 }

@@ -2,20 +2,6 @@
   "xml_id": "net.sjrx.plugins.avecmoi",
   "numeric_id": 34784,
   "updates": {
-    "1187495": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34784/1187495/avec-moi-261.260914.45-294eba79.zip?updateId=1187495&pluginId=34784&family=INTELLIJ",
-      "sha256": "y7rj2ioQJ9vHaTWe+MwtNz+/ssmSt4+v2vZ+SE8Xjuo=",
-      "channel": "development",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
-      ],
-      "optional_dependencies": [],
-      "file_name": "avec-moi-261.260914.45-294eba79.zip",
-      "since": "261.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1202232": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/34784/1202232/avec-moi-261.261024.2.zip?updateId=1202232&pluginId=34784&family=INTELLIJ",
       "sha256": "Joloz+ec+LZ3Dbio71Fb417Nee3QkaMdMqPwophPcJM=",
@@ -197,6 +183,34 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1211340": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34784/1211340/avec-moi-261.261103.13-dev.zip?updateId=1211340&pluginId=34784&family=INTELLIJ",
+      "sha256": "llPWy6N8dFBuJ+Gh/m4VR09AkoeGM+7C2iQ16xEv8+Q=",
+      "channel": "dev",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "avec-moi-261.261103.13-dev.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1211730": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34784/1211730/avec-moi-261.261103.13.zip?updateId=1211730&pluginId=34784&family=INTELLIJ",
+      "sha256": "SwAKuoiS74z7Wn2V5P5cv49wDKpO/5O4JTMF2LYDJdg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "avec-moi-261.261103.13.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -210,15 +224,14 @@
       "261.261030.8-dev": 1207609,
       "261.261103.10-dev": 1210581,
       "261.261103.11-dev": 1210574,
+      "261.261103.13-dev": 1211340,
       "261.261103.9-dev": 1210572
-    },
-    "development": {
-      "261.260914.45-294eba79": 1187495
     },
     "stable": {
       "261.261027.6": 1204651,
       "261.261030.8": 1207727,
-      "261.261103.11": 1210584
+      "261.261103.11": 1210584,
+      "261.261103.13": 1211730
     }
   }
 }
