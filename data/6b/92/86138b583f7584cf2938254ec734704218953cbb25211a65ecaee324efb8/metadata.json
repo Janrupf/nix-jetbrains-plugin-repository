@@ -87,12 +87,35 @@
       "since": "263.7307",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1212634": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35419/1212634/chromeConnect-263.7307.210.zip?updateId=1212634&pluginId=35419&family=INTELLIJ",
+      "sha256": "w4idNSCvc1pEksyjKFpMoh8/vhm3Sx+kPBWCVOSZwwY=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.platform.core",
+        "intellij.platform.backend",
+        "intellij.mcpserver.toolsets",
+        "intellij.libraries.kotlinx.serialization.json",
+        "com.intellij.modules.jetbrains",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.ide.core",
+        "com.intellij.mcpServer",
+        "intellij.mcpserver"
+      ],
+      "optional_dependencies": [],
+      "file_name": "chromeConnect-263.7307.210.zip",
+      "since": "263.7307",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "263.7307.113": 1206958,
       "263.7307.117": 1207600,
+      "263.7307.210": 1212634,
       "263.7307.35": 1200901,
       "263.7307.44": 1201148,
       "263.7307.47": 1201283

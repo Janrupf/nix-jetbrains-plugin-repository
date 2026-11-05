@@ -2,6 +2,20 @@
   "xml_id": "dev.vtspp.chatassistantx",
   "numeric_id": 34694,
   "updates": {
+    "1185560": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34694/1185560/chatassistantx-1.0.0-signed.zip?updateId=1185560&pluginId=34694&family=INTELLIJ",
+      "sha256": "fiwvG7mFgIxUR57ses7ifS12+Nfj9J1brnfXr9tGdjk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "chatassistantx-1.0.0-signed.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
     "1203190": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/34694/1203190/chatassistantx-1.0.1-signed.zip?updateId=1203190&pluginId=34694&family=INTELLIJ",
       "sha256": "zS+VrXL4KDZh3Jst3iUAzXhA6CUebKAPWSVlL7EEPVU=",
@@ -19,6 +33,7 @@
   },
   "channels": {
     "stable": {
+      "1.0.0": 1185560,
       "1.0.1": 1203190
     }
   }

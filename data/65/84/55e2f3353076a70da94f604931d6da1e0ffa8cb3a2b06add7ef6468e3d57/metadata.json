@@ -29,12 +29,29 @@
       "since": "223.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1211824": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35099/1211824/Sauce_Labs-1.0.2.zip?updateId=1211824&pluginId=35099&family=INTELLIJ",
+      "sha256": "QBFMq6ojfKuMLwQvAvmKGgjbeuhn0B4L6z7wUlkV+0A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "Sauce_Labs-1.0.2.zip",
+      "since": "223.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1193708,
-      "1.0.1": 1205979
+      "1.0.1": 1205979,
+      "1.0.2": 1211824
     }
   }
 }

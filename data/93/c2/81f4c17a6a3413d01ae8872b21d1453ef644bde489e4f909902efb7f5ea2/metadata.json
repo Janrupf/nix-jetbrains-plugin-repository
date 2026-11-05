@@ -21,11 +21,32 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1211834": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35773/1211834/phpstorm-git-history-search-1.0.1.zip?updateId=1211834&pluginId=35773&family=INTELLIJ",
+      "sha256": "aotpZEpYZRhhhmuKcuFkHcbb3gyDI9zxcNfx2Iq0EWA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log",
+        "Git4Idea",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.vcs.dvcs.impl",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "phpstorm-git-history-search-1.0.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1211357
+      "1.0.0": 1211357,
+      "1.0.1": 1211834
     }
   }
 }
