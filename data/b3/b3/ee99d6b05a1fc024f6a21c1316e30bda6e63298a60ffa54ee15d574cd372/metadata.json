@@ -210,12 +210,38 @@
       "since": "242.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1213059": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26793/1213059/CodeAwareTypo-1.0.11.zip?updateId=1213059&pluginId=26793&family=INTELLIJ",
+      "sha256": "V07x9uHuqfG8nINTPDKm90HLCvs6c2JK8KelTCr7+u0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.spellchecker"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.sh",
+        "com.intellij.modules.sql",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.json",
+        "com.intellij.properties",
+        "JavaScript",
+        "com.intellij.css",
+        "com.jetbrains.php",
+        "com.intellij.modules.python-core-capable",
+        "com.intellij.java"
+      ],
+      "file_name": "CodeAwareTypo-1.0.11.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 695562,
       "1.0.10": 1116228,
+      "1.0.11": 1213059,
       "1.0.3": 696759,
       "1.0.4": 700172,
       "1.0.5": 764331,

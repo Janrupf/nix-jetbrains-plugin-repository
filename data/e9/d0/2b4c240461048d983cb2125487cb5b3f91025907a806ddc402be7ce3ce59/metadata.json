@@ -61,10 +61,26 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1213323": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26381/1213323/Home_Assistant_IntelliJ_Plugin-0.0.10.zip?updateId=1213323&pluginId=26381&family=INTELLIJ",
+      "sha256": "HIr8ggB9f0kgmwKSHYfWYFF7Jv6RCqqPQbnlL73dNEI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "Home_Assistant_IntelliJ_Plugin-0.0.10.zip",
+      "since": "252.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.0.10": 1213323,
       "0.0.4": 727940,
       "0.0.5": 821139,
       "0.0.6": 913718,

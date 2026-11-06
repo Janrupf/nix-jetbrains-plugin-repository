@@ -2,40 +2,6 @@
   "xml_id": "com.github.fnunezkanut.bbcloud",
   "numeric_id": 35502,
   "updates": {
-    "1206215": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35502/1206215/bbcloud-1.2.0.zip?updateId=1206215&pluginId=35502&family=INTELLIJ",
-      "sha256": "P6T9MFRBltrcPykIKB2JnPq17O0C70zS1FMSAIbgQck=",
-      "channel": "stable",
-      "dependencies": [
-        "org.intellij.plugins.markdown",
-        "com.intellij.modules.platform",
-        "Git4Idea"
-      ],
-      "optional_dependencies": [
-        "com.intellij.platform.vcs"
-      ],
-      "file_name": "bbcloud-1.2.0.zip",
-      "since": "262.10968.63",
-      "until": "262.*",
-      "compatibility_overrides": []
-    },
-    "1207743": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35502/1207743/bbcloud-1.3.0.zip?updateId=1207743&pluginId=35502&family=INTELLIJ",
-      "sha256": "/RBVY5wryu2Xt7gG2LgdiLPDifQNf9Fdc2TEA/bUeuY=",
-      "channel": "stable",
-      "dependencies": [
-        "Git4Idea",
-        "com.intellij.modules.platform",
-        "org.intellij.plugins.markdown"
-      ],
-      "optional_dependencies": [
-        "com.intellij.platform.vcs"
-      ],
-      "file_name": "bbcloud-1.3.0.zip",
-      "since": "262.10968.63",
-      "until": "263.*",
-      "compatibility_overrides": []
-    },
     "1209308": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/35502/1209308/bbcloud-1.4.0.zip?updateId=1209308&pluginId=35502&family=INTELLIJ",
       "sha256": "8xpGW4oC3xmWzAB6HwVMoHJURVpzA+JiedbF8NJ7lT8=",
@@ -103,16 +69,33 @@
       "since": "262.10968.63",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1213338": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35502/1213338/bbcloud-1.8.0.zip?updateId=1213338&pluginId=35502&family=INTELLIJ",
+      "sha256": "bCxgbGbJea22FbACvghnB/Ceh+RojpmRpFp2PWMzQ+s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.vcs",
+        "Git4Idea",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "com.intellij.air"
+      ],
+      "file_name": "bbcloud-1.8.0.zip",
+      "since": "263.7307.200",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.2.0": 1206215,
-      "1.3.0": 1207743,
       "1.4.0": 1209308,
       "1.5.0": 1210115,
       "1.6.0": 1210950,
-      "1.7.0": 1212372
+      "1.7.0": 1212372,
+      "1.8.0": 1213338
     }
   }
 }

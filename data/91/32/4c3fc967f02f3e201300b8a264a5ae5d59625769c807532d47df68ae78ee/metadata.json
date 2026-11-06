@@ -2581,7 +2581,7 @@
         "perl5.plugin.backend.main"
       ],
       "file_name": "lang.mojo-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -2816,7 +2816,7 @@
         "intellij.platform.frontend.split"
       ],
       "file_name": "lang.mojo-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -3325,6 +3325,52 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1213613": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11336/1213613/lang.mojo-2026.3.zip?updateId=1213613&pluginId=11336&family=INTELLIJ",
+      "sha256": "JIugxEs3vrGJN8NpgoilHpoVTjex6Qt/k7Y8347zIfg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.plugin.structureView.main",
+        "intellij.platform.frontend.split",
+        "perl5.lang.mojo.frontend.main",
+        "intellij.platform.frontend",
+        "perl5.lang.mojo.backend.main",
+        "perl5.plugin.backend.main",
+        "perl5.lang.mojo.common.main"
+      ],
+      "file_name": "lang.mojo-2026.3.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1213620": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11336/1213620/lang.mojo-2027.1-EAP.2140.zip?updateId=1213620&pluginId=11336&family=INTELLIJ",
+      "sha256": "/uQsf88K4dF+Lc/0iERSdWIBlKUjRWs9zSitpFs/3tQ=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.mojo.backend.main",
+        "intellij.platform.frontend.split",
+        "perl5.lang.mojo.common.main",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend",
+        "perl5.lang.mojo.frontend.main",
+        "perl5.plugin.structureView.main"
+      ],
+      "file_name": "lang.mojo-2027.1-EAP.2140.zip",
+      "since": "271.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3367,6 +3413,7 @@
       "2026.3-EAP.7307.112": 1209941,
       "2026.3-EAP.7307.44": 1203114,
       "2027.1-EAP.1395": 1203137,
+      "2027.1-EAP.2140": 1213620,
       "2027.1-EAP.43": 1188718,
       "2027.1-EAP.676": 1195006,
       "203-SNAPSHOT.8": 96407,
@@ -3536,7 +3583,8 @@
       "2025.3.1": 963685,
       "2026.1": 994936,
       "2026.2": 1109575,
-      "2026.2.1": 1141008
+      "2026.2.1": 1141008,
+      "2026.3": 1213613
     }
   }
 }

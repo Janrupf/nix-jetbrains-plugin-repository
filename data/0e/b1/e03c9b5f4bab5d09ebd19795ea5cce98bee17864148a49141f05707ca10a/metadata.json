@@ -3151,6 +3151,48 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1213614": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/1213614/lang.tt2-2026.3.zip?updateId=1213614&pluginId=11335&family=INTELLIJ",
+      "sha256": "33qX2jIhl6xIu4+3dw4Nlk1swjrEcA2lysxKMmo4KSw=",
+      "channel": "stable",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "com.intellij.modules.lang",
+        "com.perl5"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.tt2.common.main",
+        "perl5.lang.tt2.frontend.main",
+        "intellij.platform.frontend.split",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "lang.tt2-2026.3.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1213621": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/1213621/lang.tt2-2027.1-EAP.2140.zip?updateId=1213621&pluginId=11335&family=INTELLIJ",
+      "sha256": "ZUBpN1cb7KDSrLTG0e8ee2tn2/FBkF9gEc9La9/Kep4=",
+      "channel": "eap",
+      "dependencies": [
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend.split",
+        "intellij.platform.frontend",
+        "perl5.plugin.backend.main",
+        "perl5.lang.tt2.frontend.main",
+        "perl5.lang.tt2.common.main"
+      ],
+      "file_name": "lang.tt2-2027.1-EAP.2140.zip",
+      "since": "271.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3193,6 +3235,7 @@
       "2026.3-EAP.7307.112": 1209942,
       "2026.3-EAP.7307.44": 1203115,
       "2027.1-EAP.1395": 1203138,
+      "2027.1-EAP.2140": 1213621,
       "2027.1-EAP.43": 1188719,
       "2027.1-EAP.676": 1195007,
       "203-SNAPSHOT.8": 96408,
@@ -3361,7 +3404,8 @@
       "2025.3.1": 963686,
       "2026.1": 994937,
       "2026.2": 1109576,
-      "2026.2.1": 1141009
+      "2026.2.1": 1141009,
+      "2026.3": 1213614
     }
   }
 }

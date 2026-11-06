@@ -16,11 +16,28 @@
       "since": "241.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1213340": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34653/1213340/rally-plugin-1.0.2.zip?updateId=1213340&pluginId=34653&family=INTELLIJ",
+      "sha256": "GzHqqyauWSv+i//p/mIHjRyOhCYU3eY3k4hYDCUpHnw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.vcs",
+        "Git4Idea"
+      ],
+      "file_name": "rally-plugin-1.0.2.zip",
+      "since": "241.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.1": 1182893
+      "1.0.1": 1182893,
+      "1.0.2": 1213340
     }
   }
 }

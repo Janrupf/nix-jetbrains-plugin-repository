@@ -3262,6 +3262,52 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1213609": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1213609/lang.embedded-2026.3.zip?updateId=1213609&pluginId=11340&family=INTELLIJ",
+      "sha256": "Yz6fdE4YoEyxW8cE5v2/A/osxHTXmtOg1vzt2acnldQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "perl5.plugin.backend.main",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.structureView.main",
+        "perl5.lang.embedded.common.main",
+        "perl5.lang.embedded.backend.main",
+        "intellij.platform.frontend.split"
+      ],
+      "file_name": "lang.embedded-2026.3.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1213616": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1213616/lang.embedded-2027.1-EAP.2140.zip?updateId=1213616&pluginId=11340&family=INTELLIJ",
+      "sha256": "+75RmMQPbze8MPRkWp7bQKjdyubuMZCM2ByZZ2Id+j0=",
+      "channel": "eap",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "com.perl5",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "perl5.plugin.structureView.main",
+        "perl5.lang.embedded.backend.main",
+        "perl5.lang.embedded.common.main",
+        "intellij.platform.frontend.split",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.backend.main",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "lang.embedded-2027.1-EAP.2140.zip",
+      "since": "271.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3305,6 +3351,7 @@
       "2026.3-EAP.7307.112": 1209937,
       "2026.3-EAP.7307.44": 1203110,
       "2027.1-EAP.1395": 1203133,
+      "2027.1-EAP.2140": 1213616,
       "2027.1-EAP.43": 1188714,
       "2027.1-EAP.676": 1195002,
       "203-SNAPSHOT.8": 96403,
@@ -3476,7 +3523,8 @@
       "2025.3.1": 963681,
       "2026.1": 994931,
       "2026.2": 1109571,
-      "2026.2.1": 1141004
+      "2026.2.1": 1141004,
+      "2026.3": 1213609
     }
   }
 }

@@ -33,12 +33,29 @@
       "since": "222.0",
       "until": "273.*",
       "compatibility_overrides": []
+    },
+    "1213370": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35105/1213370/DeepSeek-Tool-0.0.8.zip?updateId=1213370&pluginId=35105&family=INTELLIJ",
+      "sha256": "BdArBMjzHeLp29QCj3UFudk+pu+KJ9Q2CJIeSqBxZUg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "Git4Idea"
+      ],
+      "file_name": "DeepSeek-Tool-0.0.8.zip",
+      "since": "222.0",
+      "until": "273.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.5": 1193745,
-      "0.0.6": 1206389
+      "0.0.6": 1206389,
+      "0.0.8": 1213370
     }
   }
 }

@@ -43,13 +43,28 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1212960": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34033/1212960/pannonico-jetbrains.zip?updateId=1212960&pluginId=34033&family=INTELLIJ",
+      "sha256": "KpGwgPVtqbjxnZod8sPPryE7KHUvONIKJvNEh3vvkCo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pannonico-jetbrains.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.5.1": 1160107,
       "0.6.0": 1170027,
-      "0.7.0": 1211043
+      "0.7.0": 1211043,
+      "0.7.1": 1212960
     }
   }
 }

@@ -17,11 +17,63 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1212953": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35797/1212953/pycharm-hydra-nav-0.1.1.zip?updateId=1212953&pluginId=35797&family=INTELLIJ",
+      "sha256": "NnO0aU5ll1ca6Tin/u8hsFGVDX4+i112hHWfwzbLNmY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "PythonCommon",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pycharm-hydra-nav-0.1.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1212956": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35797/1212956/pycharm-hydra-nav-0.1.2.zip?updateId=1212956&pluginId=35797&family=INTELLIJ",
+      "sha256": "jFPywBsu9ut2QLMWl/GNW1jmaHHSo/VzWHODsJw26Kw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "PythonCommon",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pycharm-hydra-nav-0.1.2.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1213019": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35797/1213019/pycharm-hydra-nav-0.1.3-beta.1.zip?updateId=1213019&pluginId=35797&family=INTELLIJ",
+      "sha256": "ULFtpsRyMkvUGsz7G9fwRoAxDQSeEzMb6qBVX5Y0OxM=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "PythonCore"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pycharm-hydra-nav-0.1.3-beta.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "0.1.3-beta.1": 1213019
+    },
     "stable": {
-      "0.1.0": 1212231
+      "0.1.0": 1212231,
+      "0.1.1": 1212953,
+      "0.1.2": 1212956
     }
   }
 }

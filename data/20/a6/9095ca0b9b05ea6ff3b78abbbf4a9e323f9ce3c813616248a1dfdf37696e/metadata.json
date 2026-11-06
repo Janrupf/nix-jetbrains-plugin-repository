@@ -884,6 +884,46 @@
       ],
       "file_name": "magento-support-2026.2.1.jar.zip",
       "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": [
+        {
+          "applies_since": "262.0",
+          "applies_until": "271.*",
+          "compatible_since": "262.0",
+          "compatible_until": "262.*"
+        }
+      ]
+    },
+    "1213311": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/20554/1213311/magento-support-2026.3.0.jar.zip?updateId=1213311&pluginId=20554&family=INTELLIJ",
+      "sha256": "+R22Ra3K4L/m5WU7JwRgYkd46+EKY+JLARS8hSDwy9o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.xml",
+        "com.intellij.diagram",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.less",
+        "intellij.javascript.backend",
+        "com.intellij.copyright",
+        "com.intellij.platform.images",
+        "JavaScript",
+        "com.intellij.modules.platform",
+        "com.intellij.platform.vcs",
+        "com.intellij.modules.lang",
+        "intellij.css.copyright",
+        "com.intellij.css",
+        "com.intellij.modules.xdebugger",
+        "com.jetbrains.php",
+        "intellij.php.backend",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "magento-support-2026.3.0.jar.zip",
+      "since": "263.0",
       "until": "271.*",
       "compatibility_overrides": []
     }
@@ -920,7 +960,8 @@
       "2025.2.3": 983865,
       "2026.1.0": 995838,
       "2026.2.0": 1112390,
-      "2026.2.1": 1120200
+      "2026.2.1": 1120200,
+      "2026.3.0": 1213311
     }
   }
 }
