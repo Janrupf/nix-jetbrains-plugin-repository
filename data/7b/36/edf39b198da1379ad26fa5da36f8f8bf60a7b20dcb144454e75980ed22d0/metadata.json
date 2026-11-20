@@ -10,8 +10,8 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Dart",
         "com.intellij.java",
+        "Dart",
         "org.jetbrains.kotlin"
       ],
       "file_name": "CsleInspection-signed.zip",
@@ -27,9 +27,9 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Dart",
+        "org.jetbrains.kotlin",
         "com.intellij.java",
-        "org.jetbrains.kotlin"
+        "Dart"
       ],
       "file_name": "CsleInspection-signed.zip",
       "since": "242.0",
@@ -44,8 +44,8 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Dart",
         "com.intellij.java",
+        "Dart",
         "org.jetbrains.kotlin"
       ],
       "file_name": "CsleInspection-signed.zip",
@@ -61,10 +61,10 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Dart",
-        "com.intellij.java",
         "org.jetbrains.kotlin",
-        "JavaScript"
+        "JavaScript",
+        "com.intellij.java",
+        "Dart"
       ],
       "file_name": "CsleInspection-signed.zip",
       "since": "243.0",
@@ -79,11 +79,11 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Dart",
-        "com.intellij.java",
-        "org.jetbrains.kotlin",
         "JavaScript",
-        "com.jetbrains.php"
+        "com.intellij.java",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin",
+        "Dart"
       ],
       "file_name": "CsleInspection-signed.zip",
       "since": "243.0",
@@ -98,11 +98,11 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "JavaScript",
+        "com.jetbrains.php",
         "Dart",
         "com.intellij.java",
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.jetbrains.php"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "CsleInspection-signed.zip",
       "since": "243.0",
@@ -117,11 +117,11 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Dart",
-        "com.intellij.java",
-        "org.jetbrains.kotlin",
-        "JavaScript",
         "com.jetbrains.php",
+        "com.intellij.java",
+        "JavaScript",
+        "org.jetbrains.kotlin",
+        "Dart",
         "PythonCore"
       ],
       "file_name": "CsleInspection-signed.zip",
@@ -137,12 +137,12 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Dart",
-        "com.intellij.java",
         "org.jetbrains.kotlin",
-        "JavaScript",
+        "Dart",
+        "PythonCore",
         "com.jetbrains.php",
-        "PythonCore"
+        "com.intellij.java",
+        "JavaScript"
       ],
       "file_name": "CsleInspection-signed.zip",
       "since": "243.0",
@@ -264,6 +264,30 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1219667": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26834/1219667/CsleInspection-0.9.0-signed.zip?updateId=1219667&pluginId=26834&family=INTELLIJ",
+      "sha256": "MrJ99aEE3Xir8NcP0gxX6vMHI0ovDev8kJpruTpgOBA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "PythonCore",
+        "com.intellij.css",
+        "HtmlTools",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.json",
+        "Dart",
+        "com.jetbrains.php",
+        "com.intellij.java",
+        "com.intellij.modules.xml"
+      ],
+      "file_name": "CsleInspection-0.9.0-signed.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -280,7 +304,8 @@
       "0.5.0": 1055487,
       "0.6.0": 1199215,
       "0.7.0": 1203731,
-      "0.8.0": 1213552
+      "0.8.0": 1213552,
+      "0.9.0": 1219667
     }
   }
 }

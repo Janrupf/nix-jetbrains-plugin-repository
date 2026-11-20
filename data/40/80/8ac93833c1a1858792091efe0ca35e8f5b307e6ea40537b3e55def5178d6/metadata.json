@@ -14,11 +14,39 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1223132": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35545/1223132/35545.zip?updateId=1223132&pluginId=35545&family=INTELLIJ",
+      "sha256": "M5s0Mg5var7j3ytpO1fSompjnr42DpJza8bctaV2T1g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "35545.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1223774": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35545/1223774/querydock-upload.zip?updateId=1223774&pluginId=35545&family=INTELLIJ",
+      "sha256": "R6tcKxPF+ffCYF80shMG7lnaQ2/nGrQQjAul6XTze28=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "querydock-upload.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1204044
+      "1.0.0": 1204044,
+      "1.0.1": 1223132,
+      "1.0.2": 1223774
     }
   }
 }

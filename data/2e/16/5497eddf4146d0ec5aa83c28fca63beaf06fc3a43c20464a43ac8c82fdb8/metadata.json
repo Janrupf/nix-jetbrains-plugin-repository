@@ -22,11 +22,33 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1219035": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34297/1219035/SixExit-2026.1.0-beta.2.zip?updateId=1219035&pluginId=34297&family=INTELLIJ",
+      "sha256": "PHi9tVCnEztyfZa1kZ5Y7J2thnhBTwISEcajOXmIF5Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "intellij.xml.structureView",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "JavaScript",
+        "intellij.xml.structureView.impl",
+        "intellij.navbar.plugin",
+        "intellij.structureView.plugin",
+        "com.intellij.css"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SixExit-2026.1.0-beta.2.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2026.1.0-beta.1": 1171561
+      "2026.1.0-beta.1": 1171561,
+      "2026.1.0-beta.2": 1219035
     }
   }
 }

@@ -1,6 +1,70 @@
 {
   "xml_id": "io.whitespots.appsecplugin",
-  "numeric_id": 28061,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 28070,
+  "updates": {
+    "815321": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28070/815321/whitespots-application-security-portal-0.0.14.zip?updateId=815321&pluginId=28070&family=INTELLIJ",
+      "sha256": "BUZyFtBsc276nv0rrNDcab0pxiTg05o+iyDVSYJZ7zI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "whitespots-application-security-portal-0.0.14.zip",
+      "since": "242.0",
+      "until": "262.2.*",
+      "compatibility_overrides": []
+    },
+    "819999": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28070/819999/whitespots-application-security-portal-25.8.1.zip?updateId=819999&pluginId=28070&family=INTELLIJ",
+      "sha256": "6x18CRvWu71nUh1oeqdA4KytfUKtetgQ6WAEfZLbiIE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "whitespots-application-security-portal-25.8.1.zip",
+      "since": "242.0",
+      "until": "262.2.*",
+      "compatibility_overrides": []
+    },
+    "870319": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28070/870319/whitespots-application-security-portal-25.10.1.zip?updateId=870319&pluginId=28070&family=INTELLIJ",
+      "sha256": "PxU+k/ijgie34vnGnwtMNanOdqRUKTMj3dBEMaCnfhg=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "whitespots-application-security-portal-25.10.1.zip",
+      "since": "250.0",
+      "until": "262.2.*",
+      "compatibility_overrides": []
+    },
+    "891990": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28070/891990/whitespots-application-security-portal-25.11.1.zip?updateId=891990&pluginId=28070&family=INTELLIJ",
+      "sha256": "bKZIn2vrEKiIB767ej5ijftnnyytt3SO8j/dfFRic4s=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "whitespots-application-security-portal-25.11.1.zip",
+      "since": "242.0",
+      "until": "262.2.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.14": 815321,
+      "25.10.1": 870319,
+      "25.11.1": 891990,
+      "25.8.1": 819999
+    }
+  }
 }

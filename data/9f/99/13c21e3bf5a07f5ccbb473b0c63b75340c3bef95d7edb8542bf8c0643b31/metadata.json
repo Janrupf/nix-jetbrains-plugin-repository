@@ -215,8 +215,8 @@
       "sha256": "SOKvVqVXaXC+2+UqtETdJZTnfubJSJjZF1IE/byR6LA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.ultimate"
+        "com.intellij.modules.ultimate",
+        "com.intellij.java"
       ],
       "optional_dependencies": [],
       "file_name": "java-pwa-252.18003.27.zip",
@@ -229,8 +229,8 @@
       "sha256": "pYPnmIIh9qdXDYuYdS8S+EZl9VVhbD4RHmua1i3A2ug=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.ultimate"
+        "com.intellij.modules.ultimate",
+        "com.intellij.java"
       ],
       "optional_dependencies": [],
       "file_name": "java-pwa-251.26094.98.zip",
@@ -243,8 +243,8 @@
       "sha256": "KkgGTT8t4B4g0+aw530rLqmI/WNpNlroxS1dIsUwaHM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.ultimate"
+        "com.intellij.modules.ultimate",
+        "com.intellij.java"
       ],
       "optional_dependencies": [],
       "file_name": "java-pwa-251.26094.121.zip",
@@ -271,8 +271,8 @@
       "sha256": "oKvWrjHH8Jz3X3U9e1cPGXK4PRx52SnAfs/g8Y4gC1k=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.ultimate"
+        "com.intellij.modules.ultimate",
+        "com.intellij.java"
       ],
       "optional_dependencies": [],
       "file_name": "java-pwa-252.21735.32.zip",
@@ -285,8 +285,8 @@
       "sha256": "F0G/WC9pE9KcWpuZamkDr9+M0jg8eKi3QJU0SaoQIxY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.java",
-        "com.intellij.modules.ultimate"
+        "com.intellij.modules.ultimate",
+        "com.intellij.java"
       ],
       "optional_dependencies": [],
       "file_name": "java-pwa-252.23309.22.zip",
@@ -327,8 +327,8 @@
       "sha256": "HKz/ovqj8azZk/OBsoFeA171CO79PdjWxCtsWJK5YbQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.ultimate",
-        "com.intellij.java"
+        "com.intellij.java",
+        "com.intellij.modules.ultimate"
       ],
       "optional_dependencies": [],
       "file_name": "java-pwa-251.26927.70.zip",
@@ -2349,6 +2349,68 @@
       "since": "263.7307",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1219653": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26698/1219653/java-pwa-262.12573.28.zip?updateId=1219653&pluginId=26698&family=INTELLIJ",
+      "sha256": "BFeibxex5ElpsAJ0rmKJov79xrJuuHWLFq6JXeRkrB8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.commercial.verifier",
+        "intellij.java.psi",
+        "intellij.java.backend",
+        "com.intellij.modules.ultimate",
+        "intellij.java.syntax",
+        "intellij.platform.backend"
+      ],
+      "optional_dependencies": [],
+      "file_name": "java-pwa-262.12573.28.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1224625": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26698/1224625/java-pwa-263.8311.30.zip?updateId=1224625&pluginId=26698&family=INTELLIJ",
+      "sha256": "f0A9h9HL8BSaIhwUkGr3Lq1ESyCq51wjVQ+Ttv41pxk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.concurrency",
+        "intellij.platform.commercial",
+        "intellij.platform.lang.impl",
+        "intellij.platform.statistics",
+        "intellij.java.backend",
+        "intellij.platform.util.ex",
+        "intellij.platform.backend",
+        "intellij.libraries.fastutil",
+        "intellij.platform.problemView.shared",
+        "intellij.platform.ide.core.impl",
+        "intellij.platform.analysis",
+        "intellij.platform.core",
+        "intellij.platform.problemView.ui",
+        "intellij.java.syntax",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.impl",
+        "intellij.platform.ide.core",
+        "intellij.libraries.licenseDecoder",
+        "intellij.platform.projectModel",
+        "intellij.platform.workspace.storage",
+        "intellij.platform.util.ui",
+        "intellij.platform.commercial.verifier",
+        "com.intellij.problemsView",
+        "intellij.platform.indexing",
+        "intellij.platform.lang",
+        "intellij.platform.backend.workspace",
+        "intellij.java.psi",
+        "intellij.platform.editor.ui",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.workspace.jps",
+        "intellij.platform.core.ui",
+        "intellij.libraries.kotlinx.coroutines.core"
+      ],
+      "optional_dependencies": [],
+      "file_name": "java-pwa-263.8311.30.zip",
+      "since": "263.8311",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2466,6 +2528,7 @@
       "262.10968.75": 1173125,
       "262.11879.100": 1206906,
       "262.11879.102": 1206929,
+      "262.12573.28": 1219653,
       "262.4852.50": 1041874,
       "262.5752.32": 1048124,
       "262.6228.19": 1052739,
@@ -2492,7 +2555,8 @@
       "263.7031.23": 1194946,
       "263.7307.112": 1207353,
       "263.7307.200": 1212251,
-      "263.7307.44": 1201140
+      "263.7307.44": 1201140,
+      "263.8311.30": 1224625
     }
   }
 }

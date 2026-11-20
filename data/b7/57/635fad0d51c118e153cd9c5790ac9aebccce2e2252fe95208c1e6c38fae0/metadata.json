@@ -515,6 +515,32 @@
       "since": "261.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1214038": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21226/1214038/CommandLineArguments-3.0.4.zip?updateId=1214038&pluginId=21226&family=INTELLIJ",
+      "sha256": "JmsU3lq5plZj6fSagZOb5BPW139D71aS4SZjoz8ciQw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.execution"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "com.jetbrains.rust",
+        "name.kropp.intellij.makefile",
+        "com.intellij.clion",
+        "com.jetbrains.sh",
+        "com.intellij.java",
+        "org.jetbrains.kotlin",
+        "intellij.execution.multilaunch",
+        "com.intellij.modules.rider",
+        "com.intellij.clion-makefile"
+      ],
+      "file_name": "CommandLineArguments-3.0.4.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -550,7 +576,8 @@
       "2.1.5": 892469,
       "3.0.1": 1009241,
       "3.0.2": 1018149,
-      "3.0.3": 1097632
+      "3.0.3": 1097632,
+      "3.0.4": 1214038
     }
   }
 }

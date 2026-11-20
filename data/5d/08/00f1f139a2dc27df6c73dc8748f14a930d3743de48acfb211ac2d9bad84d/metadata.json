@@ -1,6 +1,83 @@
 {
   "xml_id": "com.spring-rs.plugin",
-  "numeric_id": 29988,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 30040,
+  "updates": {
+    "947599": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30040/947599/spring-rs-0.1.0-252.zip?updateId=947599&pluginId=30040&family=INTELLIJ",
+      "sha256": "DnRQtsvgpjPpyTC+gu3Eo+/yTEfNPmkgg7ypIid4h0k=",
+      "channel": "stable",
+      "dependencies": [
+        "org.toml.lang",
+        "com.jetbrains.rust",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "spring-rs-0.1.0-252.zip",
+      "since": "252.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "948527": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30040/948527/spring-rs-0.1.0-233.zip?updateId=948527&pluginId=30040&family=INTELLIJ",
+      "sha256": "KvuvPxPG498BjNvqLPfuFL+iCJyjnbgUYVJa1W9pb/w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.rust",
+        "org.toml.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "spring-rs-0.1.0-233.zip",
+      "since": "233.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "952712": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30040/952712/spring-rs-0.2.0-251.zip?updateId=952712&pluginId=30040&family=INTELLIJ",
+      "sha256": "XNfuKRCFEIdsEhLFNuFF5pTBCCojRD1Qmdc+t2wp3kk=",
+      "channel": "stable",
+      "dependencies": [
+        "org.toml.lang",
+        "com.intellij.modules.platform",
+        "com.jetbrains.rust"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.database"
+      ],
+      "file_name": "spring-rs-0.2.0-251.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "984071": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30040/984071/summer-rs-0.2.1-251.zip?updateId=984071&pluginId=30040&family=INTELLIJ",
+      "sha256": "RjHbF0u46+n3Ashsd+u8PRGvmOt/4Kb8eCW3MlDiIpQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.rust",
+        "org.toml.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "summer-rs-0.2.1-251.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0-233": 948527,
+      "0.1.0-252": 947599,
+      "0.2.0-251": 952712,
+      "0.2.1-251": 984071
+    }
+  }
 }

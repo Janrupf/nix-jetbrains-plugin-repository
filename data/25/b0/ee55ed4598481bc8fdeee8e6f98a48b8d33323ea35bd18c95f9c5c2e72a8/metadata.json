@@ -1,0 +1,54 @@
+{
+  "xml_id": "plugin.lean",
+  "numeric_id": 36231,
+  "updates": {
+    "1223158": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36231/1223158/plugin.lean-0.1.0.zip?updateId=1223158&pluginId=36231&family=INTELLIJ",
+      "sha256": "X6eGAS3QXfN7i4eUrzj4jtp0aAQtaxwYQ09Bo3XQo3c=",
+      "channel": "stable",
+      "dependencies": [
+        "plugin.lean.tooling",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "plugin.lean.shared",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.backend",
+        "com.intellij.modules.jcef",
+        "intellij.platform.frontend",
+        "intellij.platform.lsp"
+      ],
+      "file_name": "plugin.lean-0.1.0.zip",
+      "since": "261.26222",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1225000": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36231/1225000/plugin.lean-0.1.1.zip?updateId=1225000&pluginId=36231&family=INTELLIJ",
+      "sha256": "78U+JpuM1L/issTJs68eGDxyeiVfrjq99hhOrxfNIAA=",
+      "channel": "stable",
+      "dependencies": [
+        "plugin.lean.tooling",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.kernel.backend",
+        "plugin.lean.shared",
+        "intellij.platform.backend",
+        "intellij.platform.lsp",
+        "intellij.platform.frontend",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "plugin.lean-0.1.1.zip",
+      "since": "261.26222",
+      "until": "263.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 1223158,
+      "0.1.1": 1225000
+    }
+  }
+}

@@ -21,8 +21,8 @@
       "sha256": "bufJi4YaJAypj2H6VlOkkqTzL8tkkuhzbz5lKfKql9k=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "QueryTester-1.2.0.zip",
@@ -35,8 +35,8 @@
       "sha256": "IXdL/SqyNN3Ju11rKDIfqsPe2JuVZ1rGBjpEY8k45OY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "QueryTester-1.3.0.zip",
@@ -105,8 +105,8 @@
       "sha256": "3GJ6AGRG9ACnNiF0gLqU03CZijTPzNnm1ai+Og9sx8U=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "QueryTester-1.4.2.zip",
@@ -119,8 +119,8 @@
       "sha256": "pjQWwyRWRIOWkCRNJb9PzmdKd2ojt3mGNHvAIgegUbY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "QueryTester-1.4.3.zip",
@@ -169,6 +169,20 @@
       "since": "243.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1215809": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19985/1215809/querytester-1.5.2.zip?updateId=1215809&pluginId=19985&family=INTELLIJ",
+      "sha256": "QAN0BmrHYz1PH3nr9RoxVMJs4jYsNftXuWOLcud7Wo8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "querytester-1.5.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -184,7 +198,8 @@
       "1.4.3": 517928,
       "1.4.5": 701350,
       "1.5.0": 1200862,
-      "1.5.1": 1205926
+      "1.5.1": 1205926,
+      "1.5.2": 1215809
     }
   }
 }

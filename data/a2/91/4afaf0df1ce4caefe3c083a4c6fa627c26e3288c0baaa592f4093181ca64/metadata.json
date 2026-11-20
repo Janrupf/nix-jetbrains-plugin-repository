@@ -1,6 +1,40 @@
 {
   "xml_id": "com.wilsonhub.executionflow",
-  "numeric_id": 32252,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 32643,
+  "updates": {
+    "1097227": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32643/1097227/execution-flow-preview-2.2.0.zip?updateId=1097227&pluginId=32643&family=INTELLIJ",
+      "sha256": "pOpqIUtvDkWCRChp5e2IFwrwm9zCc5Z5zdRLCWj/HkQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "execution-flow-preview-2.2.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1098077": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32643/1098077/execution-flow-preview-2.3.0.zip?updateId=1098077&pluginId=32643&family=INTELLIJ",
+      "sha256": "W3CUUghfWe5ki1MV1PQeofMXu6nWrr7nEifeJSRuN/I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "execution-flow-preview-2.3.0.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.2.0": 1097227,
+      "2.3.0": 1098077
+    }
+  }
 }

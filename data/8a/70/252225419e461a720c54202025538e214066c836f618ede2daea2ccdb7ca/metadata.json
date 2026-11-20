@@ -632,10 +632,10 @@
         "com.intellij.modules.ultimate"
       ],
       "optional_dependencies": [
+        "intellij.liquibase.database",
         "com.intellij.database",
         "com.intellij.javaee.jpa",
-        "com.intellij.persistence",
-        "intellij.liquibase.database"
+        "com.intellij.persistence"
       ],
       "file_name": "flyway-243.22562.117.zip",
       "since": "243.22562",
@@ -2439,6 +2439,66 @@
       "since": "263.7307",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1224668": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23740/1224668/flyway-263.8311.30.zip?updateId=1224668&pluginId=23740&family=INTELLIJ",
+      "sha256": "g6XBvrotvi7PlCuSmZWyhuK0YfPwyt7PZlkoOw8OWPY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee.jpa",
+        "intellij.platform.lang.impl",
+        "intellij.libraries.miglayout.swing",
+        "intellij.javaee.jpa.jpb.model",
+        "intellij.libraries.opencsv",
+        "intellij.platform.lang.core",
+        "intellij.platform.ide.core.impl",
+        "intellij.libraries.jgoodies.common",
+        "intellij.platform.util.ex",
+        "intellij.platform.editor.ui",
+        "intellij.platform.backend",
+        "intellij.platform.core",
+        "intellij.flyway.core",
+        "intellij.grid.core.impl",
+        "com.intellij.persistence",
+        "intellij.database.core.impl",
+        "intellij.javaee.jpa",
+        "intellij.java.psi",
+        "intellij.platform.analysis",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.impl",
+        "intellij.platform.lang",
+        "intellij.database.impl",
+        "intellij.database.sql.core.impl",
+        "intellij.database.connectivity",
+        "intellij.platform.execution",
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.platform.execution.impl",
+        "com.intellij.modules.ultimate",
+        "intellij.java.execution.impl",
+        "intellij.javaee.jpa.jpb.model.ui",
+        "intellij.flyway.diff",
+        "intellij.xml.psi",
+        "intellij.database",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.consoleView",
+        "intellij.javaee.jpa.jpb.model.core",
+        "intellij.flyway.rt",
+        "intellij.libraries.jgoodies.binding",
+        "intellij.platform.core.ui",
+        "intellij.flyway.orm",
+        "intellij.liquibase.orm",
+        "intellij.properties.psi",
+        "intellij.javaee.jpa.jpb.model.db"
+      ],
+      "file_name": "flyway-263.8311.30.zip",
+      "since": "263.8311",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2540,7 +2600,8 @@
       "263.6800.10": 1189725,
       "263.7031.19": 1194671,
       "263.7307.101": 1207170,
-      "263.7307.35": 1200948
+      "263.7307.35": 1200948,
+      "263.8311.30": 1224668
     }
   }
 }

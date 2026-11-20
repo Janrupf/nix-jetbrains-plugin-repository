@@ -7,8 +7,8 @@
       "sha256": "E1KYGO+UIBFhlu8sjsVVy6Aa6hutxsJeFiV2fioCKS8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-jenkinsfile-1.0.0.zip",
@@ -91,8 +91,8 @@
       "sha256": "dG5MClnLSlkuxe9DIbvyURmDPYUp7x0AlvErSfjDhbM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-jenkinsfile-1.1.2.zip",
@@ -105,8 +105,8 @@
       "sha256": "64Mh0ibX+L2CAbSaVpJAWjcy5t3zdEstUkzVpe+8qwM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-jenkinsfile-1.1.3.zip",
@@ -119,8 +119,8 @@
       "sha256": "Bp0ZImZbZ1uzYGwL59DDLLmMMVufpIatevDuhSU6tes=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-jenkinsfile-1.1.4.zip",
@@ -133,8 +133,8 @@
       "sha256": "YqrQxEcGAf/qdiL+fLgWVEAtqwyULenFp2BpZzPNC5g=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-jenkinsfile-1.1.5.zip",
@@ -217,8 +217,8 @@
       "sha256": "QJrUTJE33KegvHm2TNmp7kSn8ODwlvK7mzJgM0hI+80=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-jenkinsfile-1.3.1.zip",
@@ -662,6 +662,50 @@
       "since": "263.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1222238": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26270/1222238/intellij-jenkinsfile-1.5.13-signed.zip?updateId=1222238&pluginId=26270&family=INTELLIJ",
+      "sha256": "C5ED1HJhbFZPU+FXD2KxvBYeUBl24tIi9TCATzufBd4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-jenkinsfile-1.5.13-signed.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1222241": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26270/1222241/intellij-jenkinsfile-1.6.5-signed.zip?updateId=1222241&pluginId=26270&family=INTELLIJ",
+      "sha256": "Ggq+ZHCTLKrR9UFuvHThnLqQ9cMK8mIROUV8xqcF508=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.structureView",
+        "intellij.structureView.plugin",
+        "intellij.platform.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-jenkinsfile-1.6.5-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1222247": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26270/1222247/intellij-jenkinsfile-1.7.3-signed.zip?updateId=1222247&pluginId=26270&family=INTELLIJ",
+      "sha256": "kqUVwGiZ2L5twHNZzEBWq5kCE9WWsBSx9WO1NlVjRNA=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.structureView.plugin",
+        "intellij.platform.lang",
+        "intellij.platform.structureView"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-jenkinsfile-1.7.3-signed.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -698,6 +742,7 @@
       "1.5.10": 1048135,
       "1.5.11": 1116237,
       "1.5.12": 1168165,
+      "1.5.13": 1222238,
       "1.5.3": 947291,
       "1.5.4": 947318,
       "1.5.5": 949441,
@@ -710,9 +755,11 @@
       "1.6.2": 1070033,
       "1.6.3": 1116502,
       "1.6.4": 1168161,
+      "1.6.5": 1222241,
       "1.7.0": 1161955,
       "1.7.1": 1163419,
-      "1.7.2": 1168299
+      "1.7.2": 1168299,
+      "1.7.3": 1222247
     }
   }
 }

@@ -53,12 +53,112 @@
           "compatible_until": "262.*"
         }
       ]
+    },
+    "1220086": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34134/1220086/y-review-1.0.2.zip?updateId=1220086&pluginId=34134&family=INTELLIJ",
+      "sha256": "fp6lk9vSjkJBN2u40nQR+QxJuJUMmrCJNarIzBzQCiM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.collaborationTools",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.mcpServer",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "y-review-1.0.2.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1222048": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34134/1222048/y-review-1.1.0.zip?updateId=1222048&pluginId=34134&family=INTELLIJ",
+      "sha256": "2oPFjDJZ515G0Np9FYU08ZpfwIZaXsbf/8nDe62EBK8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.intellij.plugins.markdown",
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "y-review-1.1.0.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1223852": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34134/1223852/y-review-1.2.0.zip?updateId=1223852&pluginId=34134&family=INTELLIJ",
+      "sha256": "0o4PFiFr8VJLI0gi+n7c4nCps+QXuHnK4UU6UzKJRX4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "org.intellij.plugins.markdown",
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "y-review-1.2.0.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1223873": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34134/1223873/y-review-1.2.1.zip?updateId=1223873&pluginId=34134&family=INTELLIJ",
+      "sha256": "cRNd2PWMdS6iDzSh+c+OsP3YY3yrLXY1YPH6IYxgZ+4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.collaborationTools",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "y-review-1.2.1.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1224079": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34134/1224079/y-review-1.2.2.zip?updateId=1224079&pluginId=34134&family=INTELLIJ",
+      "sha256": "eVr+QXPDUC7B9fatafl3nE3UfOIn2ngjNtacfu96eMA=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.mcpServer",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "y-review-1.2.2.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1163427,
-      "1.0.1": 1164041
+      "1.0.1": 1164041,
+      "1.0.2": 1220086,
+      "1.1.0": 1222048,
+      "1.2.0": 1223852,
+      "1.2.1": 1223873,
+      "1.2.2": 1224079
     }
   }
 }

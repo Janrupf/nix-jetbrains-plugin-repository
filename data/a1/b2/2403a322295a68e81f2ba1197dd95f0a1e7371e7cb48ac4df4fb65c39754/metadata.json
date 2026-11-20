@@ -1,0 +1,51 @@
+{
+  "xml_id": "com.brunox.plugin",
+  "numeric_id": 36187,
+  "updates": {
+    "1222076": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36187/1222076/brunoX-1.0.0.zip?updateId=1222076&pluginId=36187&family=INTELLIJ",
+      "sha256": "WoNh6stX6GvUUQQhBTRN2ILJJi29AsPo3ESob/AoW+w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.restClient"
+      ],
+      "file_name": "brunoX-1.0.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "242.0",
+          "applies_until": "999.99999",
+          "compatible_since": "243.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "1223742": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36187/1223742/brunoX-1.1.0.zip?updateId=1223742&pluginId=36187&family=INTELLIJ",
+      "sha256": "f3/3+HWPcWsr3RQPUQ2UYT7Uki2i8qQ3GEEJbcqoDGU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "com.intellij.modules.ultimate"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.restClient"
+      ],
+      "file_name": "brunoX-1.1.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1222076,
+      "1.1.0": 1223742
+    }
+  }
+}

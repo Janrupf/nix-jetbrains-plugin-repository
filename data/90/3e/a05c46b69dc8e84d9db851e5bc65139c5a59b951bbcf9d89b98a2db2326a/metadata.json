@@ -33,12 +33,52 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1219466": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32416/1219466/jetbrains-marimo-0.2.0-signed.zip?updateId=1219466&pluginId=32416&family=INTELLIJ",
+      "sha256": "F3dkFZXLi7ZZnlUsHuYnXy1FjkxRCFObjJuNNrO1UYQ=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.python"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "jetbrains-marimo-0.2.0-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1223073": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32416/1223073/jetbrains-marimo-0.2.1-signed.zip?updateId=1223073&pluginId=32416&family=INTELLIJ",
+      "sha256": "0PGWlDjjUwXUC5wFdX6rqgjuVxkK2Y6D1keGzXcCtys=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.python",
+        "PythonCommon",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "jetbrains-marimo-0.2.1-signed.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1": 1084358,
-      "0.1.2": 1116182
+      "0.1.2": 1116182,
+      "0.2.0": 1219466,
+      "0.2.1": 1223073
     }
   }
 }

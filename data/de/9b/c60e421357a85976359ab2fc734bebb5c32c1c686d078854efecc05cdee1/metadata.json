@@ -453,6 +453,25 @@
       "since": "242.2",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1221902": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28835/1221902/intelli-ai-javadoc-2026.3.1000-signed.zip?updateId=1221902&pluginId=28835&family=INTELLIJ",
+      "sha256": "nMSWT6x1rSr5gcZPlfss/qVZZ8zM9cCM3lPpMeSZ+So=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai",
+        "com.intellij.modules.platform",
+        "intellij.platform.externalSystem",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intelli-ai-javadoc-2026.3.1000-signed.zip",
+      "since": "242.2",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -484,7 +503,8 @@
       "2026.1.1000": 1005978,
       "2026.2.1000": 1125833,
       "2026.2.1001": 1127365,
-      "2026.2.1002": 1181297
+      "2026.2.1002": 1181297,
+      "2026.3.1000": 1221902
     }
   }
 }

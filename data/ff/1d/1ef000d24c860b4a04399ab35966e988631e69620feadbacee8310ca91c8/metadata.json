@@ -1,6 +1,44 @@
 {
   "xml_id": "com.eval.composite-build-manager",
-  "numeric_id": 31669,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 31720,
+  "updates": {
+    "1045319": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31720/1045319/composite-build-plugin-1.0.12.zip?updateId=1045319&pluginId=31720&family=INTELLIJ",
+      "sha256": "rsuw12JG8I9IoEypXMZEXq2SZ7V4tHhEuYTPZ+qdPmw=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.android",
+        "com.intellij.modules.platform",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "composite-build-plugin-1.0.12.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1047276": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31720/1047276/composite-build-plugin-1.0.13.zip?updateId=1047276&pluginId=31720&family=INTELLIJ",
+      "sha256": "8BvS+rvU2EWb+/B31nPiARmWSldyiCVAOFQRU/QUlsw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.gradle",
+        "org.jetbrains.android"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "composite-build-plugin-1.0.13.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.12": 1045319,
+      "1.0.13": 1047276
+    }
+  }
 }

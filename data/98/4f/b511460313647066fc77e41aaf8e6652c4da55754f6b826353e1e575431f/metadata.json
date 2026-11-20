@@ -31,12 +31,45 @@
       "since": "241.0",
       "until": "251.*",
       "compatibility_overrides": []
+    },
+    "1220531": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33724/1220531/yaml-config-navigator-1.2.2.jar?updateId=1220531&pluginId=33724&family=INTELLIJ",
+      "sha256": "AYnYQHBO9wliX3oGqJtDFXuMDVu+0yXjyQUaNI6QOSA=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCore",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yaml-config-navigator-1.2.2.jar",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1221154": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33724/1221154/yaml-config-navigator-1.2.3.jar?updateId=1221154&pluginId=33724&family=INTELLIJ",
+      "sha256": "SQV8GxHvLl+SZ2czuWeUd7mtc0U/mrjnYBP6aK3r4k0=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.python",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "yaml-config-navigator-1.2.3.jar",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 1146889,
-      "1.2.0": 1156991
+      "1.2.0": 1156991,
+      "1.2.2": 1220531,
+      "1.2.3": 1221154
     }
   }
 }

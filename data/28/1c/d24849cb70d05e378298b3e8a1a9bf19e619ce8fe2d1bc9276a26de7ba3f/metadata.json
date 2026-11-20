@@ -41,12 +41,33 @@
       "since": "253.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1216923": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34829/1216923/rust-intellij-plugin-1.0.3-signed.zip?updateId=1216923&pluginId=34829&family=INTELLIJ",
+      "sha256": "jZJBXjpNx1kd0U8ZGdA7apr/Pp0RfifgZf7KOcuFDUY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.spellchecker",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optional_dependencies": [
+        "intellij.structureView.plugin",
+        "intellij.testRunner.plugin",
+        "org.toml.lang"
+      ],
+      "file_name": "rust-intellij-plugin-1.0.3-signed.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.1": 1188665,
-      "1.0.2": 1194473
+      "1.0.2": 1194473,
+      "1.0.3": 1216923
     }
   }
 }

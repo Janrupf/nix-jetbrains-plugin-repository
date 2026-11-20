@@ -29,12 +29,27 @@
       "since": "262.10968.77",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1215831": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35826/1215831/intellij-worktree-mcp-1.0.2.zip?updateId=1215831&pluginId=35826&family=INTELLIJ",
+      "sha256": "dmCqAuDKvEabiqZVsznj0oMGYBgzPiSUQ6/vc8L2FSk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-worktree-mcp-1.0.2.zip",
+      "since": "262.10968.77",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1213055,
-      "1.0.1": 1213219
+      "1.0.1": 1213219,
+      "1.0.2": 1215831
     }
   }
 }

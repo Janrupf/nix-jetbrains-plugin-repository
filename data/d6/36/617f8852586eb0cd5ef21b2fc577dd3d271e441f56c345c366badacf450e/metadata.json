@@ -1,6 +1,40 @@
 {
   "xml_id": "ThriftRequest",
-  "numeric_id": 27676,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 27684,
+  "updates": {
+    "779963": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27684/779963/thrift-request-idea-2025.1.1_7_.zip?updateId=779963&pluginId=27684&family=INTELLIJ",
+      "sha256": "ugde4407l4VLudwg97B44HjxgkjJ7fd3JvAHcZsQjC0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "thrift-request-idea-2025.1.1_7_.zip",
+      "since": "212.5712.43",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "831755": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27684/831755/thrift-request-idea-2025.1.2.zip?updateId=831755&pluginId=27684&family=INTELLIJ",
+      "sha256": "3v2cEu50k6bnPmm3w4GGS6ZLORb7BIGsSYb4UTOf+rI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "thrift-request-idea-2025.1.2.zip",
+      "since": "212.5712.43",
+      "until": "252.25557.23",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2025.1.1": 779963,
+      "2025.1.2": 831755
+    }
+  }
 }

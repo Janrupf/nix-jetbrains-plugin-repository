@@ -7,11 +7,11 @@
       "sha256": "F6UQjTowUH9WBwB5h71FgOF8bQ0iJSHaTILvLW8MQDo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.androidstudio",
         "org.jetbrains.android",
-        "com.intellij.modules.androidstudio"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "meta-horizon-intellij-243-signed.jar",
@@ -24,11 +24,11 @@
       "sha256": "qwYPLBxqC23COymqhjE9h4/TBEFeUieqpdCXcvtuSzs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "com.intellij.modules.androidstudio",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
         "org.jetbrains.android",
-        "com.intellij.modules.androidstudio"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "meta-horizon-intellij-241-signed.jar",
@@ -42,10 +42,10 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "org.jetbrains.android",
-        "com.intellij.modules.androidstudio"
+        "com.intellij.modules.java",
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
       "file_name": "meta-horizon-intellij-242-signed.jar",
@@ -59,10 +59,10 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "org.jetbrains.android",
-        "com.intellij.modules.androidstudio"
+        "com.intellij.modules.androidstudio",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "meta-horizon-intellij-241-signed.jar",
@@ -75,11 +75,11 @@
       "sha256": "ruyHFoTikNIWlc0NiHZWMYBRow4CcwyMdP1ZbLmKvyk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "org.jetbrains.android",
-        "com.intellij.modules.androidstudio"
+        "com.intellij.modules.java",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.platform",
+        "org.jetbrains.android"
       ],
       "optional_dependencies": [],
       "file_name": "meta-horizon-intellij-243-signed.jar",
@@ -92,11 +92,11 @@
       "sha256": "EK9oY0DcX9b+LUCGyV5RKIaGzJNok4+9fNMuskHsDT0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "org.jetbrains.android",
-        "com.intellij.modules.androidstudio"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
       "file_name": "meta-horizon-intellij-242-signed.jar",
@@ -109,11 +109,11 @@
       "sha256": "Os9d2PQcA0I7+COxaJNJMmrkWcPthYY+lagxXkvfkEk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.android",
-        "com.intellij.modules.androidstudio",
         "com.intellij.modules.java",
-        "org.jetbrains.kotlin"
+        "org.jetbrains.kotlin",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.androidstudio"
       ],
       "optional_dependencies": [],
       "file_name": "signed-meta-horizon-intellij.jar",
@@ -887,6 +887,63 @@
       "since": "253.0",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1214241": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/1214241/meta-horizon-intellij-signed.jar?updateId=1214241&pluginId=26861&family=INTELLIJ",
+      "sha256": "CETsGY06rP0pqXbdzO6m7VQ6ANLEj5+cMmcSc2FMK9Q=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "meta-horizon-intellij-signed.jar",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1214242": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/1214242/meta-horizon-intellij-signed.jar?updateId=1214242&pluginId=26861&family=INTELLIJ",
+      "sha256": "2IFncUPPAkZOdYv0CalDVRp1CwZOq7+ihy3SQM57byo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "meta-horizon-intellij-signed.jar",
+      "since": "261.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1214243": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26861/1214243/meta-horizon-intellij-signed.jar?updateId=1214243&pluginId=26861&family=INTELLIJ",
+      "sha256": "bKKkN2Ly5SxVw6NVNuDiu6zOsbJw4oJ22RWX/V2hX/s=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.androidstudio",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.android",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "meta-horizon-intellij-signed.jar",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -936,12 +993,15 @@
       "253.2.0.1.49": 1096652,
       "253.2.0.1.64": 1176010,
       "253.2.0.1.76": 1212787,
+      "253.2.0.1.77": 1214243,
       "261.2.0.1.47": 1093988,
       "261.2.0.1.48": 1096453,
       "261.2.0.1.49": 1096649,
       "261.2.0.1.64": 1176009,
       "261.2.0.1.76": 1212786,
-      "262.2.0.1.76": 1212784
+      "261.2.0.1.77": 1214242,
+      "262.2.0.1.76": 1212784,
+      "262.2.0.1.77": 1214241
     }
   }
 }

@@ -1,6 +1,40 @@
 {
   "xml_id": "top.allhere.apinavigator",
-  "numeric_id": 32487,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 32630,
+  "updates": {
+    "1095757": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32630/1095757/api-navigator-2.0.1.zip?updateId=1095757&pluginId=32630&family=INTELLIJ",
+      "sha256": "lwAQ4UzkTzYUOF6z1G6BxPMJEjFFQ2pg3xgYDM/W5no=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "api-navigator-2.0.1.zip",
+      "since": "231.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1097749": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32630/1097749/api-navigator-2.0.2.zip?updateId=1097749&pluginId=32630&family=INTELLIJ",
+      "sha256": "bZxhRhoJyZigDEpFisfCxTY5oFlV3QbzRYzBjHxp1TI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "api-navigator-2.0.2.zip",
+      "since": "231.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.0.1": 1095757,
+      "2.0.2": 1097749
+    }
+  }
 }

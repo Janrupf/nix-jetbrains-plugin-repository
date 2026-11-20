@@ -165,12 +165,48 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1214583": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31743/1214583/ansible-11.0.0-signed.zip?updateId=1214583&pluginId=31743&family=INTELLIJ",
+      "sha256": "ueTPVk6VcGy7Q2xZlU1ipEPYIuoN01Gbu9v/hEev5ww=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "com.intellij.modules.lsp",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ansible-11.0.0-signed.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1218021": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31743/1218021/ansible-12.0.0.zip?updateId=1218021&pluginId=31743&family=INTELLIJ",
+      "sha256": "/qS9x1HVp6KgJAMT796A0N/TRc9z3fIF0FsSzy9NfVA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.lsp",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ansible-12.0.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1046573,
       "10.0.0": 1212805,
+      "11.0.0": 1214583,
+      "12.0.0": 1218021,
       "2.0.0": 1057416,
       "3.0.0": 1077634,
       "4.0.0": 1090199,

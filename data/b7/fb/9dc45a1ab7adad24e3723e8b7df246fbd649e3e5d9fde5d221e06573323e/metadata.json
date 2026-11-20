@@ -1,6 +1,29 @@
 {
   "xml_id": "com.lxy.curdo",
-  "numeric_id": 32849,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 33311,
+  "updates": {
+    "1123556": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33311/1123556/CurdoAI-1.0.0-241.1.zip?updateId=1123556&pluginId=33311&family=INTELLIJ",
+      "sha256": "17aNNGbvfZbZ93ZiK47QMRLGflhjFyX6j3wW2SlyPBU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "CurdoAI-1.0.0-241.1.zip",
+      "since": "241.1",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0-241.1": 1123556
+    }
+  }
 }

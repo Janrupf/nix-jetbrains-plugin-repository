@@ -65,14 +65,68 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1214210": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35516/1214210/lo-tek-intellij-0.8.0.zip?updateId=1214210&pluginId=35516&family=INTELLIJ",
+      "sha256": "TQmrK3VYBbSuX9XSffwC7owOcoO0GGn69zT3oms5f0Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "lo-tek-intellij-0.8.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1222280": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35516/1222280/lo-tek-intellij-0.9.0.zip?updateId=1222280&pluginId=35516&family=INTELLIJ",
+      "sha256": "XhgSrTpTF5hcBUW8aVWhS9JI53vRb4ltmNXRFhPas74=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "lo-tek-intellij-0.9.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1224497": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35516/1224497/lo-tek-intellij-0.10.0.zip?updateId=1224497&pluginId=35516&family=INTELLIJ",
+      "sha256": "MnE3Qhd3wK15cPRMoprSzz9VXml8jPo9fHPFiE7iRok=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "lo-tek-intellij-0.10.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.10.0": 1224497,
       "0.4.0": 1203599,
       "0.5.0": 1209042,
       "0.6.0": 1211299,
-      "0.7.0": 1213058
+      "0.7.0": 1213058,
+      "0.8.0": 1214210,
+      "0.9.0": 1222280
     }
   }
 }

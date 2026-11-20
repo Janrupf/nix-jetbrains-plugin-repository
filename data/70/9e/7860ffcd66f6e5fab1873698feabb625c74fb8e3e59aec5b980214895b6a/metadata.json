@@ -117,8 +117,8 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.python",
-        "com.intellij.java"
+        "com.intellij.java",
+        "com.intellij.modules.python"
       ],
       "file_name": "sdk-import-plugin-1.3.0.zip",
       "since": "243.0",
@@ -252,6 +252,22 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1220866": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24223/1220866/sdk-import-plugin-1.10.0.zip?updateId=1220866&pluginId=24223&family=INTELLIJ",
+      "sha256": "wUHybb/SODy5nVESa6cymV9bUHzC0Dz2C4QfPoxzB44=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.python",
+        "com.intellij.java"
+      ],
+      "file_name": "sdk-import-plugin-1.10.0.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -260,6 +276,7 @@
       "1.0.1": 529122,
       "1.1.0": 531018,
       "1.1.1": 536035,
+      "1.10.0": 1220866,
       "1.2.0": 600376,
       "1.3.0": 653420,
       "1.4.0": 744088,

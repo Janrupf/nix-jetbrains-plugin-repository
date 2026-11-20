@@ -31,12 +31,44 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1215151": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35734/1215151/intellij-github-mcp-tools-0.2.0.zip?updateId=1215151&pluginId=35734&family=INTELLIJ",
+      "sha256": "AAnqISiYAtFsmo75XKRzvVpgbfqgtke4QrgSMiExAds=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.github"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-github-mcp-tools-0.2.0.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1215226": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35734/1215226/intellij-github-mcp-tools-0.2.1.zip?updateId=1215226&pluginId=35734&family=INTELLIJ",
+      "sha256": "ZDtMN2tmmuKSZxc+D1NcbTrEz5nFiw983LtTrJQpmDo=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.github",
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-github-mcp-tools-0.2.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.0": 1210119,
-      "0.1.2": 1213225
+      "0.1.2": 1213225,
+      "0.2.0": 1215151,
+      "0.2.1": 1215226
     }
   }
 }

@@ -7,11 +7,11 @@
       "sha256": "6eLJSW5xyzyKONMXRK2/kEl9EILdEpk9ZklVP6caFE8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.java",
         "com.intellij.modules.lang",
+        "org.jetbrains.plugins.gradle",
         "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-maven-project-version-plugin.maven-with-me-2.2.1.1.zip",
@@ -25,10 +25,10 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "com.intellij.modules.lang",
         "org.jetbrains.idea.maven",
-        "com.intellij.gradle"
+        "com.intellij.modules.lang",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-maven-project-version-plugin.maven-with-me-2.2.2.1.zip",
@@ -41,10 +41,10 @@
       "sha256": "jEE9pqf9x8K6EEsHwgOMboemifFVA6d4RN6zIpeSLhg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.java",
-        "com.intellij.modules.lang",
         "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [],
@@ -1148,16 +1148,73 @@
       "since": "191.0",
       "until": "221.*",
       "compatibility_overrides": []
+    },
+    "1217877": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27647/1217877/intellij-maven-project-version-plugin.maven-with-me-2.10.1-1111.zip?updateId=1217877&pluginId=27647&family=INTELLIJ",
+      "sha256": "YlXhKLwKyaHEcapLgL4aGaVqrWiX4gL6INlKoMbKPXg=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.gradle",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-with-me-2.10.1-1111.zip",
+      "since": "191.0",
+      "until": "221.*",
+      "compatibility_overrides": []
+    },
+    "1217883": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27647/1217883/intellij-maven-project-version-plugin.maven-with-me-2.10.2-1111.zip?updateId=1217883&pluginId=27647&family=INTELLIJ",
+      "sha256": "17vbiY+n3KXoGW2FFWqktGm1dVe3blWL4TOGLwV86eU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-with-me-2.10.2-1111.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "1217894": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27647/1217894/intellij-maven-project-version-plugin.maven-with-me-2.10.3-1111.zip?updateId=1217894&pluginId=27647&family=INTELLIJ",
+      "sha256": "K+S58cTHMapI62ci0mYYbBpffFiNa9qQxisNf8kV7rs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.gradle",
+        "Git4Idea",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-with-me-2.10.3-1111.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.10.1-1012": 1191876,
       "2.10.1-1015": 1195011,
+      "2.10.1-1111": 1217877,
       "2.10.2-1012": 1191880,
       "2.10.2-1015": 1194999,
+      "2.10.2-1111": 1217883,
       "2.10.3-1012": 1191885,
       "2.10.3-1015": 1194994,
+      "2.10.3-1111": 1217894,
       "2.2.1.1": 775167,
       "2.2.2.1": 775176,
       "2.2.3.1": 775177,

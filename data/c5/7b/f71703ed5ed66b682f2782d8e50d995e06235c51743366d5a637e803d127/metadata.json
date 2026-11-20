@@ -7,13 +7,13 @@
       "sha256": "O6Y9PSYgCdXuyMNwi4E7u6TPCLalv+Er1RfOXdeBRwo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "opentelemetry.core",
+        "com.intellij.modules.json",
         "com.intellij.diagram",
-        "com.intellij.modules.json"
+        "opentelemetry.core"
       ],
       "file_name": "open-telemetry-plugin-0.0.3-signed.zip",
       "since": "252.0",
@@ -32,12 +32,12 @@
       "sha256": "h9Ls1NpsqnjjesNTzy9TJMxm/oIhovXrKa06gBsFNGs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.rider"
+        "com.intellij.modules.rider",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "opentelemetry.core",
         "com.intellij.diagram",
+        "opentelemetry.core",
         "com.intellij.modules.json"
       ],
       "file_name": "open-telemetry-plugin-0.0.4-signed.zip",
@@ -61,9 +61,9 @@
         "com.intellij.modules.rider"
       ],
       "optional_dependencies": [
-        "opentelemetry.core",
         "com.intellij.diagram",
-        "com.intellij.modules.json"
+        "com.intellij.modules.json",
+        "opentelemetry.core"
       ],
       "file_name": "open-telemetry-plugin-0.0.5-signed.zip",
       "since": "252.0",
@@ -1203,6 +1203,42 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1217650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27488/1217650/open-telemetry-plugin-2.3.7-signed.zip?updateId=1217650&pluginId=27488&family=INTELLIJ",
+      "sha256": "NlBLnr/lZtz1ozHZVTEpDwSgGcq4K7YSkEEXixIsNWc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.protobuf.kotlin",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.libraries.grpc",
+        "com.intellij.modules.json",
+        "intellij.libraries.protobuf",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "intellij.javascript.backend",
+        "org.jetbrains.plugins.terminal",
+        "me.rafaelldi.aspire",
+        "org.jetbrains.plugins.go",
+        "com.intellij.mcpServer",
+        "intellij.opentelemetry.core",
+        "intellij.python.community.execService",
+        "intellij.aspire.core",
+        "intellij.python.community.impl",
+        "intellij.java.execution.impl",
+        "com.intellij.java",
+        "intellij.go.impl",
+        "intellij.rider.rdclient.dotnet",
+        "com.intellij.diagram",
+        "PythonCore",
+        "com.intellij.modules.rider"
+      ],
+      "file_name": "open-telemetry-plugin-2.3.7-signed.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1250,7 +1286,8 @@
       "2.3.3": 1182238,
       "2.3.4": 1192196,
       "2.3.5": 1200867,
-      "2.3.6": 1205011
+      "2.3.6": 1205011,
+      "2.3.7": 1217650
     }
   }
 }

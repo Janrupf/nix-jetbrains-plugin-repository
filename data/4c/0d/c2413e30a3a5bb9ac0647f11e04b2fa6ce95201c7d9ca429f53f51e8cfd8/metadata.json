@@ -7,16 +7,16 @@
       "sha256": "5ky2lp96KCqygOjwGXI9iE7SYSb2ZhcuCtYTp8NjkQw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.java",
+        "org.jetbrains.plugins.gradle",
         "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.database",
+        "Git4Idea",
         "DBN",
-        "Git4Idea"
+        "com.intellij.database"
       ],
       "file_name": "feisuan-javaai-jetbrains-1.24.0.zip",
       "since": "203.0",
@@ -28,17 +28,17 @@
       "sha256": "fF6k0ocl1N3To7IblAj/VqhhMDNH91WlHLZcOrlv0P0=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.java",
-        "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.database",
-        "DBN",
         "Git4Idea",
-        "com.intellij.modules.sql"
+        "com.intellij.database",
+        "com.intellij.modules.sql",
+        "DBN"
       ],
       "file_name": "calex-javaai-jetbrains-1.25.0.zip",
       "since": "203.0",
@@ -50,17 +50,17 @@
       "sha256": "r/pUBVk8rrVvjmJuJn2MRWw9cUHUMLqJtafC71ecjV4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
         "com.intellij.modules.java",
         "org.jetbrains.idea.maven",
         "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.database",
         "DBN",
-        "Git4Idea",
-        "com.intellij.modules.sql"
+        "com.intellij.database",
+        "com.intellij.modules.sql",
+        "Git4Idea"
       ],
       "file_name": "calex-javaai-jetbrains-latest.zip",
       "since": "203.0",
@@ -72,17 +72,17 @@
       "sha256": "HobWqdqEqaNhmWo8MrShHP/LQwm8wo3psd65s3Ksq60=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.lang",
         "com.intellij.modules.java",
-        "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.database",
-        "DBN",
+        "com.intellij.modules.sql",
         "Git4Idea",
-        "com.intellij.modules.sql"
+        "DBN",
+        "com.intellij.database"
       ],
       "file_name": "calex-javaai-jetbrains-1.27.0.zip",
       "since": "203.0",
@@ -96,15 +96,15 @@
       "dependencies": [
         "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.java",
         "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.database",
-        "DBN",
         "Git4Idea",
-        "com.intellij.modules.sql"
+        "com.intellij.modules.sql",
+        "DBN"
       ],
       "file_name": "calex-javaai-jetbrains-latest.zip",
       "since": "203.0",
@@ -116,17 +116,17 @@
       "sha256": "M+wodUEe/HgSkue91DkHqtjXmTQQSBxoxl52tF2R+jc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
         "com.intellij.modules.java",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.platform",
         "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "com.intellij.database",
         "DBN",
-        "Git4Idea",
-        "com.intellij.modules.sql"
+        "com.intellij.modules.sql",
+        "com.intellij.database",
+        "Git4Idea"
       ],
       "file_name": "calex-javaai-jetbrains-latest.zip",
       "since": "203.0",
@@ -139,16 +139,16 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.java",
         "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.database",
-        "DBN",
+        "com.intellij.modules.sql",
         "Git4Idea",
-        "com.intellij.modules.sql"
+        "DBN"
       ],
       "file_name": "calex-javaai-jetbrains-1.30.0.zip",
       "since": "203.0",
@@ -160,17 +160,17 @@
       "sha256": "g0KEKyg80r1gxUTPHr+ZbZ/9RYBN77OuI9bBHRQESfQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
         "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "com.intellij.database",
         "DBN",
+        "com.intellij.modules.sql",
         "Git4Idea",
-        "com.intellij.modules.sql"
+        "com.intellij.database"
       ],
       "file_name": "calex-javaai-jetbrains-1.31.0.zip",
       "since": "203.0",
@@ -182,15 +182,15 @@
       "sha256": "rzwflyCoKibs0vPmHkUM6MEB6mo+6Jq+w0RP1iT/PU8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
         "com.intellij.modules.java",
         "org.jetbrains.idea.maven"
       ],
       "optional_dependencies": [
+        "Git4Idea",
         "org.jetbrains.plugins.gradle",
-        "com.intellij.database",
-        "Git4Idea"
+        "com.intellij.database"
       ],
       "file_name": "calex-javaai-jetbrains-2.0.0.zip",
       "since": "203.0",
@@ -203,14 +203,14 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
         "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "Git4Idea",
         "org.jetbrains.plugins.gradle",
-        "com.intellij.database",
-        "Git4Idea"
+        "com.intellij.database"
       ],
       "file_name": "calex-javaai-jetbrains-2.1.0.zip",
       "since": "203.0",
@@ -222,10 +222,10 @@
       "sha256": "TipplkNvvqmB3LU8E6IHrj5INQMk1xa4DBsIz74/kCU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
         "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.gradle",
@@ -242,15 +242,15 @@
       "sha256": "VzUlxJm6+tQnYMm/kpdltMiS3+TTb4pllhdGLo/LWfc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "Git4Idea",
         "org.jetbrains.plugins.gradle",
-        "com.intellij.database",
-        "Git4Idea"
+        "com.intellij.database"
       ],
       "file_name": "calex-javaai-jetbrains-2.3.0.zip",
       "since": "203.0",
@@ -262,15 +262,15 @@
       "sha256": "3faGJhSSe8lsTQtflsLBuIxsh5glz2hDF+Fxi1xr0/c=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "org.jetbrains.plugins.gradle",
         "com.intellij.database",
-        "Git4Idea"
+        "Git4Idea",
+        "org.jetbrains.plugins.gradle"
       ],
       "file_name": "calex-javaai-jetbrains-2.4.0.zip",
       "since": "203.0",
@@ -282,14 +282,14 @@
       "sha256": "s7TmDH5gAmsfy6lWd/0+2bVlUY+Nb6n8upCI0Xmtosw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.lang",
-        "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "org.jetbrains.plugins.gradle",
         "com.intellij.database",
+        "org.jetbrains.plugins.gradle",
         "Git4Idea"
       ],
       "file_name": "calex-javaai-jetbrains-2.5.0.zip",
@@ -302,15 +302,15 @@
       "sha256": "xTLqTLNbXqKXFe+dWTo0s0FGEmO1+7nkqtVEYvzwDI4=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
         "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.plugins.gradle",
         "com.intellij.database",
-        "Git4Idea"
+        "Git4Idea",
+        "org.jetbrains.plugins.gradle"
       ],
       "file_name": "calex-javaai-jetbrains-2.6.0.zip",
       "since": "203.0",
@@ -322,15 +322,15 @@
       "sha256": "YFeeIV4eAp+Gerz/SEDilmmkCfPF93XHKujS1RP58gE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.gradle",
-        "com.intellij.database",
-        "Git4Idea"
+        "Git4Idea",
+        "com.intellij.database"
       ],
       "file_name": "calex-javaai-jetbrains-2.7.0.zip",
       "since": "203.0",
@@ -342,15 +342,15 @@
       "sha256": "DNeWsqkLkgbsel3LFFcMBEwzoGykRaClBoOGxQ0qI58=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.lang",
+        "org.jetbrains.idea.maven",
         "com.intellij.modules.platform",
-        "org.jetbrains.idea.maven"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "org.jetbrains.plugins.gradle",
+        "com.intellij.database",
         "Git4Idea",
-        "com.intellij.database"
+        "org.jetbrains.plugins.gradle"
       ],
       "file_name": "calex-javaai-jetbrains-2.8.0.zip",
       "since": "203.0",
@@ -2337,6 +2337,30 @@
       "since": "203.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1216761": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26766/1216761/calex-javaai-jetbrains-3.9.24.zip?updateId=1216761&pluginId=26766&family=INTELLIJ",
+      "sha256": "5DgwRGvtq57I5wbtopV1gZtJhQv6WsCT191AUD3b/to=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "TestNG-J",
+        "com.intellij.database",
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.plugins.terminal",
+        "JUnit",
+        "Git4Idea",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "calex-javaai-jetbrains-3.9.24.zip",
+      "since": "203.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2439,6 +2463,7 @@
       "3.9.21": 1199323,
       "3.9.22": 1210967,
       "3.9.23": 1213045,
+      "3.9.24": 1216761,
       "3.9.3": 1107375,
       "3.9.4": 1114818,
       "3.9.5": 1119980,

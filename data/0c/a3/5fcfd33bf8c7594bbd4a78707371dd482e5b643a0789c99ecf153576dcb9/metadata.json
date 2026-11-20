@@ -16,11 +16,63 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1213757": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35725/1213757/opencode-intellij-1.0.5.zip?updateId=1213757&pluginId=35725&family=INTELLIJ",
+      "sha256": "pEs+/QjLGOs4IisjQnzpm9ssQLGyEewwW1XT6zfk7nU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "opencode-intellij-1.0.5.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1220493": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35725/1220493/opencode-plugin-1.1.0.zip?updateId=1220493&pluginId=35725&family=INTELLIJ",
+      "sha256": "FVq/s+IxOjEQft1GUTW31tXP++Mvcd6yeOMAG+aPhb4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "opencode-plugin-1.1.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1220514": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35725/1220514/opencode-plugin-1.1.1.zip?updateId=1220514&pluginId=35725&family=INTELLIJ",
+      "sha256": "CsRd7OSNaUiFvTc6N9v3XF5O2LxBdZbivA/KLzdtlCU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "opencode-plugin-1.1.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1209827
+      "1.0.0": 1209827,
+      "1.0.5": 1213757,
+      "1.1.0": 1220493,
+      "1.1.1": 1220514
     }
   }
 }

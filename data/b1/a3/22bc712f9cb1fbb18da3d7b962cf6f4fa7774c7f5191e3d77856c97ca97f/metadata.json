@@ -1,6 +1,80 @@
 {
   "xml_id": "com.yohannzhang.aigit",
-  "numeric_id": 27409,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 27428,
+  "updates": {
+    "748363": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27428/748363/AI_Code_Master-1.5.1.zip?updateId=748363&pluginId=27428&family=INTELLIJ",
+      "sha256": "7eDsnXt9f70Zl4bwZJEccQt1Iifu6Attrp7xvvdoorc=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "file_name": "AI_Code_Master-1.5.1.zip",
+      "since": "222.4167.29",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "753572": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27428/753572/AI_Code_Master-1.5.2.zip?updateId=753572&pluginId=27428&family=INTELLIJ",
+      "sha256": "czNsqJozqQZIQi7zQXh5DGtvbAhKEAMXvwMYhxoQdgE=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "file_name": "AI_Code_Master-1.5.2.zip",
+      "since": "222.4167.29",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "778434": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27428/778434/AI_Code_Master-1.5.3.zip?updateId=778434&pluginId=27428&family=INTELLIJ",
+      "sha256": "p0kZTHs6EAik1EoGpvopPl9ii0arMTixusPKmKnk4YY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "file_name": "AI_Code_Master-1.5.3.zip",
+      "since": "222.4167.29",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "855013": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27428/855013/AI_Code_Master-1.5.4.zip?updateId=855013&pluginId=27428&family=INTELLIJ",
+      "sha256": "TqGEwOwN5E6tMZW/PTo4riZZMTVAx1voMM9TLfJUGok=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.vcs"
+      ],
+      "file_name": "AI_Code_Master-1.5.4.zip",
+      "since": "222.4167.29",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.5.1": 748363,
+      "1.5.2": 753572,
+      "1.5.3": 778434,
+      "1.5.4": 855013
+    }
+  }
 }

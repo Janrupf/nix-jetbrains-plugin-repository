@@ -14,11 +14,39 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1223131": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35544/1223131/35544.zip?updateId=1223131&pluginId=35544&family=INTELLIJ",
+      "sha256": "2fI7MJroYUgpmXLvP/+JqHQl7Jzv1crLf93nJ2tc0ag=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "35544.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1223775": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35544/1223775/restmate-upload.zip?updateId=1223775&pluginId=35544&family=INTELLIJ",
+      "sha256": "XDxfCG8agZurvybWJ89dPg2efmXqmavBwS0HouP0uXc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "restmate-upload.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1204043
+      "1.0.0": 1204043,
+      "1.0.1": 1223131,
+      "1.0.2": 1223775
     }
   }
 }

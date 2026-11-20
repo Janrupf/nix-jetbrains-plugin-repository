@@ -1,6 +1,41 @@
 {
   "xml_id": "com.twigrenderer.twig-live-renderer",
-  "numeric_id": 32590,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 32897,
+  "updates": {
+    "1106295": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32897/1106295/twig-live-renderer-plugin-1.0.0_1_.zip?updateId=1106295&pluginId=32897&family=INTELLIJ",
+      "sha256": "IEzMwRQJyvrlE4vE9K9U9U8J2OVCL55mTLnOO/1rDW0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "twig-live-renderer-plugin-1.0.0_1_.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1121862": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32897/1121862/twig-live-renderer-plugin-2026.1.5.zip?updateId=1121862&pluginId=32897&family=INTELLIJ",
+      "sha256": "FelIVw4ucK+K26MTxFo8nnes3CHB5rAb9L5NzmHTb5c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optional_dependencies": [],
+      "file_name": "twig-live-renderer-plugin-2026.1.5.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1106295,
+      "2026.1.5": 1121862
+    }
+  }
 }

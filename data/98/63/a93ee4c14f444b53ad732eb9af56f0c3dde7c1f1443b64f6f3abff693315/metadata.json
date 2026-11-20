@@ -1,6 +1,38 @@
 {
   "xml_id": "com.github.braycarlson.swarm",
-  "numeric_id": 28702,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 28709,
+  "updates": {
+    "877796": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28709/877796/swarm-0.0.1.zip?updateId=877796&pluginId=28709&family=INTELLIJ",
+      "sha256": "BdHyCrblFOQKMPHqa7KjOOS9fu/8TakCPJIm90nj7Dw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "swarm-0.0.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "959707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28709/959707/swarm-0.0.2.zip?updateId=959707&pluginId=28709&family=INTELLIJ",
+      "sha256": "9Dkvbd2Tpj+wciW+R/8s9WLtnx5adfVgtudzcEgp0R0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "swarm-0.0.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.1": 877796,
+      "0.0.2": 959707
+    }
+  }
 }

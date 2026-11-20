@@ -2,21 +2,6 @@
   "xml_id": "com.bidaide",
   "numeric_id": 35038,
   "updates": {
-    "1192483": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35038/1192483/bidaide-0.1.2.zip?updateId=1192483&pluginId=35038&family=INTELLIJ",
-      "sha256": "p9q2aU6Yk3Tz+baHr8VgakFtw5jj4e547uOxSEgRR7E=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.android",
-        "Git4Idea"
-      ],
-      "optional_dependencies": [],
-      "file_name": "bidaide-0.1.2.zip",
-      "since": "261.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1192947": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/35038/1192947/bidaide-0.1.3.zip?updateId=1192947&pluginId=35038&family=INTELLIJ",
       "sha256": "M8RivFdaUDYh3Y7yQe4JJ/5u9ndBUNUdrFaEEL+szK0=",
@@ -145,11 +130,26 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1222962": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35038/1222962/bidaide-0.7.0.zip?updateId=1222962&pluginId=35038&family=INTELLIJ",
+      "sha256": "+64+YMrz93CelMkfUs6qqm21PyPNGBMxy7GRd3JIkaM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android"
+      ],
+      "file_name": "bidaide-0.7.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.2": 1192483,
       "0.1.3": 1192947,
       "0.1.4": 1196053,
       "0.2.0": 1197230,
@@ -157,7 +157,8 @@
       "0.3.0": 1197976,
       "0.4.0": 1203206,
       "0.5.0": 1211296,
-      "0.6.0": 1212882
+      "0.6.0": 1212882,
+      "0.7.0": 1222962
     }
   }
 }

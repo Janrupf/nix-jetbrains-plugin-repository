@@ -1126,6 +1126,40 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1218245": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32492/1218245/daemon-2.2.86-signed.zip?updateId=1218245&pluginId=32492&family=INTELLIJ",
+      "sha256": "f6P1J5OM7OJmujombj/1LgYimpqtOmldoz0pwLJbZQw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jewel.markdown.extensions.gfmAlerts",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "intellij.platform.jewel.markdown.extensions.gfmStrikethrough",
+        "com.intellij.modules.lang",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.jewel.foundation",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.platform.jewel.ui",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.markdown.extensions.autolink",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.libraries.skiko"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.java",
+        "com.intellij.mcpServer",
+        "unreal-link",
+        "com.intellij.resharper.unity"
+      ],
+      "file_name": "daemon-2.2.86-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1166,7 +1200,8 @@
       "2.2.82": 1200034,
       "2.2.83": 1202190,
       "2.2.84": 1209083,
-      "2.2.85": 1210549
+      "2.2.85": 1210549,
+      "2.2.86": 1218245
     }
   }
 }

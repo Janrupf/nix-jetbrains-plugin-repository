@@ -50,18 +50,34 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1210996": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/31504/1210996/IntelliJWOPlugin-0.9.4.zip?updateId=1210996&pluginId=31504&family=INTELLIJ",
-      "sha256": "+2OVWhgYzwXpndIfkIiZAf3hrsdPfgVmXhQOfCCpfTQ=",
+    "1216075": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31504/1216075/IntelliJWOPlugin-0.10.2.zip?updateId=1216075&pluginId=31504&family=INTELLIJ",
+      "sha256": "c+Qs/60ejnyGFPGjlzC6WGljxsM1Mfx9W45QXVyfWU8=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.xml",
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.idea.maven"
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
-      "file_name": "IntelliJWOPlugin-0.9.4.zip",
+      "file_name": "IntelliJWOPlugin-0.10.2.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1218660": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31504/1218660/IntelliJWOPlugin-0.10.3.jar?updateId=1218660&pluginId=31504&family=INTELLIJ",
+      "sha256": "tB7JWTQudwlGL3nqL7liqh0zeJeoGQrv2U3QC0o3bRA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJWOPlugin-0.10.3.jar",
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
@@ -69,10 +85,11 @@
   },
   "channels": {
     "stable": {
+      "0.10.2": 1216075,
+      "0.10.3": 1218660,
       "0.7.3": 1034309,
       "0.7.4": 1182668,
-      "0.9.3": 1210457,
-      "0.9.4": 1210996
+      "0.9.3": 1210457
     }
   }
 }

@@ -11,8 +11,8 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "fr.socolin.awesomeLogViewer.core",
         "com.intellij.modules.java",
+        "fr.socolin.awesomeLogViewer.core",
         "com.intellij.modules.rider"
       ],
       "file_name": "Awesome_Log_Viewer-2025.1.3.zip",
@@ -111,6 +111,31 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1218252": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27750/1218252/Awesome_Log_Viewer-2026.3.2.zip?updateId=1218252&pluginId=27750&family=INTELLIJ",
+      "sha256": "Z/B7m3EManeeTBToyVCfbnRBNih87oyw68AZImz/pwM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.debugger",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.rider",
+        "intellij.java.execution",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.java.execution.impl",
+        "fr.socolin.awesomeLogViewer.core",
+        "intellij.platform.debugger.impl",
+        "intellij.rd.client",
+        "intellij.rd.client.debugger",
+        "com.intellij.modules.java"
+      ],
+      "file_name": "Awesome_Log_Viewer-2026.3.2.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -120,7 +145,8 @@
       "2025.2.0": 790667,
       "2025.2.1": 798835,
       "2025.3.1": 945952,
-      "2026.2.1": 1186810
+      "2026.2.1": 1186810,
+      "2026.3.2": 1218252
     }
   }
 }

@@ -7,9 +7,9 @@
       "sha256": "CUJYyMQBg2Ui6RcJPa+HYWhvAANZ6IEzu9KMioplZE4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.java",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "magnolia-integration-1.0.5.zip",
@@ -22,8 +22,8 @@
       "sha256": "dTNRM4LrLjpn/U98os5BwoApAPbaavpvRd6pmrXLcj8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.java",
+        "com.intellij.modules.platform",
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
@@ -37,8 +37,8 @@
       "sha256": "7pOq9CCyKwtCtjipAIi+Ys7sP7sbAGb68j9af67CQVg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.java",
+        "com.intellij.modules.platform",
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
@@ -52,9 +52,9 @@
       "sha256": "TQlYm7jP1BDNDhMisg/XmxC0gLJPIi2Ib/ZCwXPYAGI=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.java",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "magnolia-integration-1.0.8.zip",
@@ -67,9 +67,9 @@
       "sha256": "xfos9K0FetrHQWpXUVwt4VwsQywXGL2C+mlhphsJ1Ns=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.java",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "magnolia-integration-1.0.9.zip",
@@ -82,9 +82,9 @@
       "sha256": "C58hZKFgVsZz2U5WS7oOYyPnTrjUezBP02dqnibNmNI=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.platform",
-        "com.intellij.java",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.java"
       ],
       "optional_dependencies": [],
       "file_name": "magnolia-integration-1.1.0.zip",
@@ -97,8 +97,8 @@
       "sha256": "EDo9rIJQ+smyneh7xQ0q2NdPEWp3NYRHXU3Q963CTg0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.java",
+        "com.intellij.modules.platform",
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [],
@@ -112,9 +112,9 @@
       "sha256": "jNrIaPs6Uls0KpjKURZsNWAoH53XRG3MrpOAlk8NnNM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.java",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "magnolia-integration-1.1.3.zip",
@@ -344,6 +344,72 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1214232": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23556/1214232/magnolia-integration-2026.2.11.zip?updateId=1214232&pluginId=23556&family=INTELLIJ",
+      "sha256": "uLrhZ6uN+2O7d9wp54GOz8nCd8VSvWp74DU3Axxys1k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [],
+      "file_name": "magnolia-integration-2026.2.11.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1214233": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23556/1214233/magnolia-integration-2026.2.11-243.zip?updateId=1214233&pluginId=23556&family=INTELLIJ",
+      "sha256": "RjwOy7oFNFbyUdtehTD/qJD1OVhLJhpvx6/zNLPvPDc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "magnolia-integration-2026.2.11-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "1224338": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23556/1224338/magnolia-integration-2026.2.12.zip?updateId=1224338&pluginId=23556&family=INTELLIJ",
+      "sha256": "kq6GMAoFRimu0avLsdC66lhV63rZhoibt9s/b6koxnY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.marketplace",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "magnolia-integration-2026.2.12.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1224339": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23556/1224339/magnolia-integration-2026.2.12-243.zip?updateId=1224339&pluginId=23556&family=INTELLIJ",
+      "sha256": "UvvdU3k05+UtNP5JKAw7jk1HVtdjOyXQ2eYhmmwEwyU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "magnolia-integration-2026.2.12-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -362,6 +428,10 @@
       "2026.2.1": 1029605,
       "2026.2.10": 1209869,
       "2026.2.10-243": 1209871,
+      "2026.2.11": 1214232,
+      "2026.2.11-243": 1214233,
+      "2026.2.12": 1224338,
+      "2026.2.12-243": 1224339,
       "2026.2.2": 1036884,
       "2026.2.3": 1049079,
       "2026.2.4": 1050811,

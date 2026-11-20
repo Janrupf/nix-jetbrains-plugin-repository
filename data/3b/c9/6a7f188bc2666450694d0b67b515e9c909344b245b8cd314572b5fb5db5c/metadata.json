@@ -35,6 +35,23 @@
       "since": "252.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1220085": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35035/1220085/anvil-intellij-2.0.0.zip?updateId=1220085&pluginId=35035&family=INTELLIJ",
+      "sha256": "m3nyX6r3BJ9bV8mnWxRzD6q2SP+jAD3c/Q7Ek5/PjoA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.gradle",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "anvil-intellij-2.0.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -42,7 +59,8 @@
       "1.0.0-beta.1": 1192444
     },
     "stable": {
-      "1.0.0": 1193683
+      "1.0.0": 1193683,
+      "2.0.0": 1220085
     }
   }
 }

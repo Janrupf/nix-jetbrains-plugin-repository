@@ -19,11 +19,30 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1217641": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35462/1217641/inline-console-1.0.1.zip?updateId=1217641&pluginId=35462&family=INTELLIJ",
+      "sha256": "zPKeAIfa86dpi6ELkTWHIhmhg28WuXkpjlfujQOfwpQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "PythonCore",
+        "com.intellij.mcpServer",
+        "org.jetbrains.plugins.terminal",
+        "JavaScript"
+      ],
+      "file_name": "inline-console-1.0.1.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1202505
+      "1.0.0": 1202505,
+      "1.0.1": 1217641
     }
   }
 }

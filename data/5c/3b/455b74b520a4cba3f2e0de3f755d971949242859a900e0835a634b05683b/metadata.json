@@ -7,10 +7,10 @@
       "sha256": "MhfauDefHoLBU1R2uJyudp35CyxWMf8uVWePVmuZS9I=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.jetbrains.plugins.webDeployment",
-        "com.intellij.modules.vcs",
-        "Git4Idea"
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
       ],
       "optional_dependencies": [],
       "file_name": "Branch_Deployer-1.0.0.zip",
@@ -23,10 +23,10 @@
       "sha256": "JLA2+8qS5gbWS3i3w8mE9LCzCVWOHpGfCezfl9vzC0A=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.jetbrains.plugins.webDeployment",
+        "Git4Idea",
         "com.intellij.modules.vcs",
-        "Git4Idea"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "Branch_Deployer-1.0.1.zip",
@@ -39,10 +39,10 @@
       "sha256": "uoFzo+6p8ClY1vZ9bxzTgpuJ1N1o7aADSgn2amoMBMo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.jetbrains.plugins.webDeployment",
+        "Git4Idea",
         "com.intellij.modules.vcs",
-        "Git4Idea"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "Branch_Deployer-1.0.2.zip",
@@ -55,9 +55,9 @@
       "sha256": "NBnKiAcd4TJK2owrzugcpkMVCwjUotN7OeQ/iSNfk9c=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.jetbrains.plugins.webDeployment",
         "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
         "Git4Idea"
       ],
       "optional_dependencies": [],
@@ -71,10 +71,10 @@
       "sha256": "8o7sE9BRieOJFsFBRw4Dm5Cz9s5qW924C8mKoor8dcY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.jetbrains.plugins.webDeployment",
         "com.intellij.modules.vcs",
-        "Git4Idea"
+        "Git4Idea",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "branch_deployer-3.0.0.zip",
@@ -95,6 +95,29 @@
       "optional_dependencies": [],
       "file_name": "branch_deployer-3.0.1.zip",
       "since": "251.0",
+      "until": "263.0",
+      "compatibility_overrides": [
+        {
+          "applies_since": "251.0",
+          "applies_until": "999.99999",
+          "compatible_since": "251.0",
+          "compatible_until": "263.0"
+        }
+      ]
+    },
+    "1214870": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/24802/1214870/branch_deployer-3.0.2.zip?updateId=1214870&pluginId=24802&family=INTELLIJ",
+      "sha256": "LM//dbZDLF+6Kys6r5zVDlutH8r1mJcy8Is1Illjk9k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "optional_dependencies": [],
+      "file_name": "branch_deployer-3.0.2.zip",
+      "since": "251.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -106,7 +129,8 @@
       "1.0.2": 718485,
       "2.0.0": 724321,
       "3.0.0": 733678,
-      "3.0.1": 967551
+      "3.0.1": 967551,
+      "3.0.2": 1214870
     }
   }
 }

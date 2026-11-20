@@ -29,11 +29,26 @@
       "since": "253.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1221089": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34615/1221089/jb-sf-datasource-0.1.1-eap1.zip?updateId=1221089&pluginId=34615&family=INTELLIJ",
+      "sha256": "Piih53ZBHZw+TaczR5qVPVjAIDBM9tfn8MQaxT1fWbE=",
+      "channel": "eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jb-sf-datasource-0.1.1-eap1.zip",
+      "since": "253.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "eap": {
-      "0.1.0-eap3": 1191677
+      "0.1.0-eap3": 1191677,
+      "0.1.1-eap1": 1221089
     },
     "stable": {
       "0.1.0": 1197487

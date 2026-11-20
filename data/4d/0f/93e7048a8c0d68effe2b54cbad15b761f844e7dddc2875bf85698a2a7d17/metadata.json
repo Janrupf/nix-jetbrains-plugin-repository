@@ -82,6 +82,57 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1213988": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33124/1213988/trino-intellij-plugin-0.5.1.zip?updateId=1213988&pluginId=33124&family=INTELLIJ",
+      "sha256": "M34570BASvvVyhjC/HNAqbRASP4HWJ+CnbEMoPP/HfM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "dev.sort.sql-transpiler-intellij-plugin"
+      ],
+      "file_name": "trino-intellij-plugin-0.5.1.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1216920": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33124/1216920/trino-intellij-plugin-0.6.0.zip?updateId=1216920&pluginId=33124&family=INTELLIJ",
+      "sha256": "Wa9w2JFH5UBRLY3lF4xMajqHoRLLaWKcJ4GcedMNP9k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "dev.sort.sql-transpiler-intellij-plugin"
+      ],
+      "file_name": "trino-intellij-plugin-0.6.0.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1217246": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33124/1217246/trino-intellij-plugin-0.7.0.zip?updateId=1217246&pluginId=33124&family=INTELLIJ",
+      "sha256": "7JwMxckmXLNPm1M/JtlI99qd93LK6p4XqPT0NsCG5Po=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [
+        "dev.sort.sql-transpiler-intellij-plugin",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "trino-intellij-plugin-0.7.0.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -90,7 +141,10 @@
       "0.4.2": 1197185,
       "0.4.3": 1197810,
       "0.4.4": 1198184,
-      "0.5.0": 1211231
+      "0.5.0": 1211231,
+      "0.5.1": 1213988,
+      "0.6.0": 1216920,
+      "0.7.0": 1217246
     }
   }
 }

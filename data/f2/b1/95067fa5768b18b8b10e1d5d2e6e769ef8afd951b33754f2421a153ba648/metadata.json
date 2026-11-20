@@ -179,6 +179,24 @@
       "since": "241.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1217692": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31507/1217692/claude-code-intellij-1.4.0.zip?updateId=1217692&pluginId=31507&family=INTELLIJ",
+      "sha256": "k4tXa3F4lbsN+L18pgjqToXe+JFfL3lpaKC7uT2w4hE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.vcs",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "file_name": "claude-code-intellij-1.4.0.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -194,7 +212,8 @@
       "1.2.0": 1069282,
       "1.2.1": 1077257,
       "1.2.2": 1085444,
-      "1.3.0": 1105773
+      "1.3.0": 1105773,
+      "1.4.0": 1217692
     }
   }
 }

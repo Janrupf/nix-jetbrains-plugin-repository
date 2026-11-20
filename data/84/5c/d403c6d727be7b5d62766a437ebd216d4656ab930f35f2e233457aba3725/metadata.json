@@ -35,10 +35,46 @@
       "since": "262.11879.100",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1214609": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35762/1214609/tibero-database-tools-0.7.10-signed.zip?updateId=1214609&pluginId=35762&family=INTELLIJ",
+      "sha256": "tEtG0+3mw71l/9lQvgJllhQoN+/Qw2IB+5IVV89XDP4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.diagram",
+        "com.intellij.database",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.grid.core.plugin"
+      ],
+      "file_name": "tibero-database-tools-0.7.10-signed.zip",
+      "since": "261.27258.48",
+      "until": "262.10968.63",
+      "compatibility_overrides": []
+    },
+    "1214610": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35762/1214610/tibero-database-tools-0.7.11-signed.zip?updateId=1214610&pluginId=35762&family=INTELLIJ",
+      "sha256": "OC2W3PwKj1CUsgE3TgmQL6RwvbiHTqaFVknifCRmVnw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.database",
+        "com.intellij.diagram",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.grid.core.plugin"
+      ],
+      "file_name": "tibero-database-tools-0.7.11-signed.zip",
+      "since": "262.11879.100",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
+      "0.7.10": 1214609,
+      "0.7.11": 1214610,
       "0.7.8": 1211217,
       "0.7.9": 1211218
     }

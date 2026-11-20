@@ -46,8 +46,8 @@
       "sha256": "QAkxjqVKS2IBQzV1NwuRKaSP91Q8rCZ3vn3xjdHYE7U=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "markdown-image-kit-1.0.1.zip",
@@ -67,8 +67,8 @@
       "sha256": "vDJCr6koNN4SNKNlpzK4/LRWfb10KK1JlXK0hdvRazs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "markdown-image-kit-1.1.0.zip",
@@ -123,8 +123,8 @@
       "sha256": "ucPglxBQOKY7ll5akrwdA5Oe3581E0b5ijFLWkZxxRY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "markdown-image-kit-1.5.0.zip",
@@ -165,8 +165,8 @@
       "sha256": "ysdyF6PjqtAZDuS2G6d5566JDwmIgwF3ZPQyMCKKfWY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "markdown-image-kit-1.6.2.zip",
@@ -362,6 +362,21 @@
       "since": "242.2",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1221900": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12192/1221900/markdown-image-kit-2026.3.0-signed.zip?updateId=1221900&pluginId=12192&family=INTELLIJ",
+      "sha256": "t3CdkrZT3eUSg3DwqQWVdAv7NlnQ/eLN9MFr2+aO8hQ=",
+      "channel": "stable",
+      "dependencies": [
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "markdown-image-kit-2026.3.0-signed.zip",
+      "since": "242.2",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -390,7 +405,8 @@
       "2025.3.11": 930735,
       "2026.1.0": 1005987,
       "2026.1.1": 1065711,
-      "2026.2.0": 1125677
+      "2026.2.0": 1125677,
+      "2026.3.0": 1221900
     }
   }
 }

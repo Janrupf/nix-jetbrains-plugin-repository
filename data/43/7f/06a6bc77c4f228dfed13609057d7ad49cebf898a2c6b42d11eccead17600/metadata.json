@@ -357,8 +357,8 @@
       "sha256": "Y2lxh9QNDs60W1advpDhQt03t4pHQH7/E9+Kdhbg0w4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "intellij.json"
+        "intellij.json",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "couchbase-intellij-plugin-1.1.6.3.zip",
@@ -407,6 +407,20 @@
       "since": "251.23774.435",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1214037": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22131/1214037/couchbase-intellij-plugin-1.1.12.zip?updateId=1214037&pluginId=22131&family=INTELLIJ",
+      "sha256": "0+ks6Bk9lbfuQArkqPRBcH8Zwsb8bgWrwAbYNmBlLWw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "couchbase-intellij-plugin-1.1.12.zip",
+      "since": "252.0",
+      "until": "273.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -423,6 +437,7 @@
       "1.0.9": 515504,
       "1.1.0": 544759,
       "1.1.1": 546267,
+      "1.1.12": 1214037,
       "1.1.2": 546988,
       "1.1.3": 561148,
       "1.1.4": 591624,

@@ -15,11 +15,47 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1216240": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32879/1216240/melos-intellij-0.1.1.zip?updateId=1216240&pluginId=32879&family=INTELLIJ",
+      "sha256": "DfdD3XAR1ALoUiitLXsplcI12phWjFRHwKoFNFTSGHs=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.vcs"
+      ],
+      "file_name": "melos-intellij-0.1.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1216245": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32879/1216245/melos-intellij-0.1.2.zip?updateId=1216245&pluginId=32879&family=INTELLIJ",
+      "sha256": "YnS3piNLximGOD1si9IxLt5IdEyVClcQeN60oJYdx+M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.vcs"
+      ],
+      "file_name": "melos-intellij-0.1.2.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1105480
+      "0.1.0": 1105480,
+      "0.1.1": 1216240,
+      "0.1.2": 1216245
     }
   }
 }

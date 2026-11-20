@@ -14,11 +14,39 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1223133": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35546/1223133/35546.zip?updateId=1223133&pluginId=35546&family=INTELLIJ",
+      "sha256": "CNXMHQ1DuL6UALB3nNMqNzTF4lSEB0/siqXzjvcuHpI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "35546.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1223773": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35546/1223773/regexlab-upload.zip?updateId=1223773&pluginId=35546&family=INTELLIJ",
+      "sha256": "u3mU9fdpDUrlSzGHOrFA4h19OBc+JV3FSjHh6l5hD7Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "regexlab-upload.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1204045
+      "1.0.0": 1204045,
+      "1.0.1": 1223133,
+      "1.0.2": 1223773
     }
   }
 }

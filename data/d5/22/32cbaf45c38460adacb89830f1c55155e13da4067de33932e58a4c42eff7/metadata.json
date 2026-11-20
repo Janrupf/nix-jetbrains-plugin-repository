@@ -1,6 +1,26 @@
 {
   "xml_id": "ai.minedb.nebula",
-  "numeric_id": 28909,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 29211,
+  "updates": {
+    "904502": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29211/904502/MineDB-0.1.1.zip?updateId=904502&pluginId=29211&family=INTELLIJ",
+      "sha256": "lxz62x//FCGuMXbT+h6jnziJn8TrVdrKmdL4It+7bcE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "MineDB-0.1.1.zip",
+      "since": "241.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.1": 904502
+    }
+  }
 }

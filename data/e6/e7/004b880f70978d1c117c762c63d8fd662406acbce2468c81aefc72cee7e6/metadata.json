@@ -1,6 +1,25 @@
 {
   "xml_id": "com.dan.starfocus",
-  "numeric_id": 27988,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 28002,
+  "updates": {
+    "803573": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28002/803573/StarFocus-1.0.0.zip?updateId=803573&pluginId=28002&family=INTELLIJ",
+      "sha256": "gmftKcR367w2TxfYV5Z85lFdWYGjvE/M1JPhz9tYJXM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "StarFocus-1.0.0.zip",
+      "since": "233.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 803573
+    }
+  }
 }

@@ -7,8 +7,8 @@
       "sha256": "AJ1n1ip+RV+rgdGVCcRcbHwBEraOeLDy3idD0WlW58s=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.cidr.debugger"
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "rr-0.0.1.zip",
@@ -21,8 +21,8 @@
       "sha256": "NhWES1eugNSXqld7qNYfqkLGjmU6WOvr4XVwHdLh/Ag=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.cidr.debugger"
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "rr-0.0.2.zip",
@@ -49,8 +49,8 @@
       "sha256": "DRIP9b2Vy+r5JkdEQzFvpxfhksgEZNMxdnXte42mxw8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.cidr.debugger"
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "rr-0.0.4.zip",
@@ -71,6 +71,20 @@
       "since": "242.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1221152": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/21572/1221152/rr-0.0.6.zip?updateId=1221152&pluginId=21572&family=INTELLIJ",
+      "sha256": "ndsacwBmJTab8unYQvAGnaRqAkoUVW+yQ1XmyO9JEQs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.cidr.debugger",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "rr-0.0.6.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -79,7 +93,8 @@
       "0.0.2": 372250,
       "0.0.3": 643477,
       "0.0.4": 719935,
-      "0.0.5": 1053340
+      "0.0.5": 1053340,
+      "0.0.6": 1221152
     }
   }
 }

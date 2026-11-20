@@ -14,11 +14,27 @@
       "since": "251.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1223856": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28472/1223856/apiclientcodegen-intellij-1.42.0.zip?updateId=1223856&pluginId=28472&family=INTELLIJ",
+      "sha256": "BO12Gy+jwTN0QzoV4YZPuEJMLdp3DtjioMqI1gxDs/w=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.rider"
+      ],
+      "file_name": "apiclientcodegen-intellij-1.42.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 856041
+      "0.1.0": 856041,
+      "1.42.0": 1223856
     }
   }
 }

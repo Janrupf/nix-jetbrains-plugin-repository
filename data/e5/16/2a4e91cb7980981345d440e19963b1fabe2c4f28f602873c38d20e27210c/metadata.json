@@ -8,9 +8,9 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
@@ -27,15 +27,15 @@
       "sha256": "9weUdObXdGQZK7Jx6+LwH2BcwgOnimniAhmDTUmt7hY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.modules.java",
         "com.intellij.gradle",
-        "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
+        "com.intellij.javaee.jpa",
         "com.intellij.modules.database",
-        "org.jetbrains.kotlin",
-        "com.intellij.javaee.jpa"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-0.2.1-202.zip",
       "since": "202.6250.13",
@@ -47,15 +47,15 @@
       "sha256": "hmwPCaHHAQRY69xcikwZNYdQdhdRdd1RX1ldxfdHlNs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "com.intellij.gradle",
-        "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
+        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-0.3.0-202.zip",
       "since": "202.6250.13",
@@ -68,14 +68,14 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "com.intellij.gradle",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin"
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-0.3.1-202.zip",
       "since": "202.6250.13",
@@ -87,17 +87,17 @@
       "sha256": "8T3vNaA/9D4SAbyQYs8MAwOrwg7nxj1xQhQNhGTjm6s=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "com.intellij.gradle",
+        "com.intellij.modules.java",
         "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "JavaScript",
+        "org.jetbrains.kotlin",
         "com.intellij.lang.jsgraphql",
-        "org.jetbrains.kotlin"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-0.9.0-202.zip",
       "since": "202.6250.13",
@@ -115,11 +115,11 @@
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
         "com.intellij.javaee.jpa",
         "JavaScript",
-        "com.intellij.lang.jsgraphql",
-        "org.jetbrains.kotlin"
+        "com.intellij.modules.database",
+        "com.intellij.lang.jsgraphql"
       ],
       "file_name": "jmix-studio-0.9.1-202.zip",
       "since": "202.6250.13",
@@ -131,21 +131,21 @@
       "sha256": "wMaExYoJja5KcfiEryb+xatQRf1W1b00Nfh4CVhJlQA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "com.intellij.gradle",
-        "org.intellij.groovy",
-        "com.intellij.modules.java",
         "Git4Idea",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.lang.jsgraphql",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.0.0-211.zip",
       "since": "211.6432.0",
@@ -157,20 +157,20 @@
       "sha256": "YjifiikZO7TDKAO26OlxUg964dKXkEoktKxMcZ5AxcA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "com.intellij.gradle",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
         "Git4Idea",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.lang.jsgraphql",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
+        "JavaScript",
         "com.intellij.spring.boot",
+        "com.intellij.lang.jsgraphql",
         "Docker"
       ],
       "file_name": "jmix-studio-1.0.1-212.zip",
@@ -183,20 +183,20 @@
       "sha256": "Wupb9u9ldN1QjTeUQ3n3tdn8mQkKDlKvx9CWw3yvLXg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
         "Git4Idea",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.lang.jsgraphql",
+        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
+        "JavaScript",
         "com.intellij.spring.boot",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-1.0.2-212.zip",
@@ -210,19 +210,19 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
         "Git4Idea",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
+        "JavaScript",
         "com.intellij.spring.boot",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-1.0.2-211.zip",
@@ -235,15 +235,15 @@
       "sha256": "NbbnKuIrYr5h4z5xOBbxlTojeBMNQr+hCdYXozvnNig=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.modules.java",
         "com.intellij.gradle",
-        "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "JavaScript",
+        "com.intellij.modules.database",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot"
@@ -258,18 +258,18 @@
       "sha256": "91oJ1bc4ZREPfF6U8FzxHrj5TjRYUoevstgFHBdL14E=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "com.intellij.gradle",
-        "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "JavaScript",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.0.3-212.zip",
       "since": "212.4746.92",
@@ -281,18 +281,18 @@
       "sha256": "todNjbq+SJ4EuVqGJvct6avmLCX4N/XWP9rz6r5gdA8=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.lang.jsgraphql",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.spring.boot",
+        "com.intellij.lang.jsgraphql",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-1.1.0-211.zip",
       "since": "211.6693.111",
@@ -304,18 +304,18 @@
       "sha256": "vC/vy8cQLlp2O/F093956Q5etlcyvdiLeiukvxTiPs8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-1.1.0-212.zip",
       "since": "212.4746.92",
@@ -329,16 +329,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.modules.database",
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.spring.boot",
+        "JavaScript",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.1.1-211.zip",
       "since": "211.6693.111",
@@ -352,16 +352,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.spring.boot",
+        "JavaScript",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.1.1-212.zip",
       "since": "212.4746.92",
@@ -374,14 +374,14 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "JavaScript",
+        "com.intellij.javaee.jpa",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot"
@@ -398,16 +398,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
         "JavaScript",
+        "com.intellij.javaee.jpa",
         "com.intellij.lang.jsgraphql",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.1.2-212.zip",
       "since": "212.4746.92",
@@ -421,16 +421,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
         "JavaScript",
         "com.intellij.lang.jsgraphql",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.1.2-213.zip",
       "since": "213.5744.125",
@@ -443,17 +443,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
+        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "JavaScript",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.1.3-211.zip",
       "since": "211.6693.111",
@@ -467,16 +467,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "JavaScript",
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
         "com.intellij.lang.jsgraphql",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.1.3-212.zip",
       "since": "212.4746.92",
@@ -490,16 +490,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "JavaScript",
+        "com.intellij.spring.boot",
         "com.intellij.lang.jsgraphql",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.1.3-213.zip",
       "since": "213.5744.125",
@@ -513,16 +513,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "JavaScript",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.1.4-211.zip",
       "since": "211.6693.111",
@@ -534,18 +534,18 @@
       "sha256": "K+VbQab5pzNK6VVEVLTk61w2Daf4ZhCoal2+domD5+c=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
+        "JavaScript",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.1.4-212.zip",
       "since": "212.4746.92",
@@ -557,18 +557,18 @@
       "sha256": "xW4bftBtS3xI4CHgUS9w2hNv4ygiv5UJ3KJVmzblTPo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
         "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
         "JavaScript",
         "com.intellij.lang.jsgraphql",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.1.4-213.zip",
       "since": "213.5744.125",
@@ -580,17 +580,17 @@
       "sha256": "3fTHSWeeNL8vGyPDB7/XReBufo5v7YLaB0sptowCCpM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "JavaScript",
-        "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "com.intellij.lang.jsgraphql",
         "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-1.1.5-211.zip",
@@ -603,18 +603,18 @@
       "sha256": "8wJQpKbndSDwUVsF1c5wHZyVFQsv+TCmaeH2kIQKqX0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "JavaScript",
-        "com.intellij.lang.jsgraphql",
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.lang.jsgraphql",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.1.5-212.zip",
       "since": "212.4746.92",
@@ -626,18 +626,18 @@
       "sha256": "5Xbn8s8VyhF/6qadeGth7fRHU1FnICEV+6JV9l6k838=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.intellij.groovy",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.lang.jsgraphql",
+        "com.intellij.spring.boot",
+        "JavaScript",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.1.5-213.zip",
       "since": "213.5744.125",
@@ -656,11 +656,11 @@
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
+        "com.intellij.spring.boot",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.javaee.jpa",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-1.1.6-211.zip",
       "since": "211.6693.111",
@@ -674,16 +674,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-1.1.6-212.zip",
       "since": "212.4746.92",
@@ -697,16 +697,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.lang.jsgraphql",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
+        "JavaScript",
+        "com.intellij.lang.jsgraphql"
       ],
       "file_name": "jmix-studio-1.1.6-213.zip",
       "since": "213.5744.125",
@@ -718,17 +718,17 @@
       "sha256": "yQaf4Bjrn95Orfzi/0kEzsE+zn9IRwf/TCqf8wdnnKA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.2.0-212.zip",
       "since": "212.4746.92",
@@ -741,16 +741,16 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.2.0-213.zip",
       "since": "213.5744.125",
@@ -762,17 +762,17 @@
       "sha256": "OixinZVtbjcNJHBAftQSMmLj47T9upWFHRJ1a9RUDHY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.2.1-212.zip",
       "since": "212.4746.92",
@@ -784,17 +784,17 @@
       "sha256": "50hPSo9HKsIdRaJlTFarIko/Lt8tGkTZLAMZwbnxczs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.2.1-213.zip",
       "since": "213.5744.125",
@@ -806,16 +806,16 @@
       "sha256": "8ZztRrDjRB3oc9jNJ/B4WJ0OnV8a6JwZTV2W2zbrhyE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
+        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-1.2.2-212.zip",
@@ -828,16 +828,16 @@
       "sha256": "SBtMjN+AP6t02F6xPRw0jOJClcmGlbTky9CXoxAhOY4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
+        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-1.2.2-213.zip",
@@ -850,11 +850,11 @@
       "sha256": "rodAIIrt8eCz0UqTV0zg+B8d/9n8c1qdUOXjgxKcxa4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
@@ -872,17 +872,17 @@
       "sha256": "BHRbgOtHx5T+DifusdwNpRuXOsIxOGCIWygVyceTqdU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
+        "com.intellij.properties",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.2.3-213.zip",
       "since": "213.5744.125",
@@ -895,17 +895,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
+        "Docker",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.3.0-213.zip",
       "since": "213.5744.125",
@@ -918,16 +918,16 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
         "Docker"
       ],
       "file_name": "jmix-studio-1.3.1-213.zip",
@@ -940,18 +940,18 @@
       "sha256": "pOBDXp/xZm9eNijPvIFTO9NAeLfdVwTI2qD9kwPFmF0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
+        "Docker",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.3.2-213.zip",
       "since": "213.5744.125",
@@ -964,17 +964,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.spring.boot",
         "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.3.3-213.zip",
       "since": "213.5744.125",
@@ -987,17 +987,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
+        "Docker",
         "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.3.4-213.zip",
       "since": "213.5744.125",
@@ -1010,16 +1010,16 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-1.3.5-213.zip",
@@ -1032,18 +1032,18 @@
       "sha256": "VN9MpY4uUxYhFqXJz+2ORx6hBqgApjUpRu91TupSNyQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.3.6-213.zip",
       "since": "213.5744.125",
@@ -1055,18 +1055,18 @@
       "sha256": "pcjLLgsgJTAqDXr6n2FZYAJ+vEQJe6Nwx664wsV98iE=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.gradle",
+        "org.intellij.groovy",
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.3.7-213.zip",
       "since": "213.5744.125",
@@ -1079,17 +1079,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.3.8-213.zip",
       "since": "213.5744.125",
@@ -1101,17 +1101,17 @@
       "sha256": "V9RQKLJyCyH6JVTc0ltdLemojbBNTBl4wdJAdwCc1DA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
         "Docker"
       ],
       "file_name": "jmix-studio-1.3.9-213.zip",
@@ -1124,18 +1124,18 @@
       "sha256": "58cMqjMnTWgQhZJXEA3vDtAa3h5doXvhlBbBBHxfkbI=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.4.0-221.zip",
       "since": "221.5080.210",
@@ -1147,18 +1147,18 @@
       "sha256": "7bO7Fe53Ac7fvNebJFDAd0LOE9KC9muBBbqModdmCAc=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-1.4.0-222.zip",
       "since": "222.3345.118",
@@ -1170,18 +1170,18 @@
       "sha256": "nrlf85sJPrWDbEXbkv/uk6M4ibYNk+pA6RKuBT2wE2U=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.4.1-221.zip",
       "since": "221.5080.210",
@@ -1193,18 +1193,18 @@
       "sha256": "chCr5PC31xUnIedTHB1yasplbgjOw3QOev1W0S0pe/8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.4.1-222.zip",
       "since": "222.3345.118",
@@ -1216,18 +1216,18 @@
       "sha256": "h4eaCwLfC1d2+5FTcd68O5BrRAAXl1f9vEKQLN6Psiw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.4.1-223.zip",
       "since": "223.7571.4",
@@ -1239,18 +1239,18 @@
       "sha256": "43EWWIxzx7jlDqU9Fk9YSMJx7tWQaNhQIO2EsQ6gdGE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.4.2-221.zip",
       "since": "221.5080.210",
@@ -1262,18 +1262,18 @@
       "sha256": "PnqjLGfYMBDAP/wlE/9/DeYNLyk1vx9x8NE3tPvLwQQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.4.2-222.zip",
       "since": "222.3345.118",
@@ -1285,18 +1285,18 @@
       "sha256": "dL68bZs/omdIumd/tmZuJTN8PbgUtK5hWyzA2crSRGU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
+        "com.intellij.properties",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "Docker",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.4.2-223.zip",
       "since": "223.7571.4",
@@ -1309,17 +1309,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
+        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.4.3-223.zip",
       "since": "223.7571.4",
@@ -1332,17 +1332,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
+        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
+        "Docker",
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-1.4.3-222.zip",
       "since": "222.3345.118",
@@ -1355,17 +1355,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-1.4.3-221.zip",
       "since": "221.5080.210",
@@ -1378,16 +1378,16 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-1.5.0-223.zip",
@@ -1400,18 +1400,18 @@
       "sha256": "zoUWgUXzY/1VIyhh3ymPoGWOsHXmL/52j/RCerkliW0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
+        "Docker",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.5.1-231.zip",
       "since": "231.7864.76",
@@ -1423,18 +1423,18 @@
       "sha256": "QOVutMTSG9U+169DfP8h8nHHFTJbuSvwQm+JcyjRbN8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
+        "Docker",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.5.1-223.zip",
       "since": "223.7571.4",
@@ -1446,17 +1446,17 @@
       "sha256": "Ps+Nfe+i9pGnqS+0xL6fxpVSYLtNQK7mnNiG4RIyr2c=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
         "Docker"
       ],
       "file_name": "jmix-studio-1.5.2-231.zip",
@@ -1469,17 +1469,17 @@
       "sha256": "ETJSw0SKmZy266rXjrDnNX1FtMUA2eDuaQ2U4A+iev4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
+        "org.intellij.groovy",
+        "com.intellij.properties",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
         "Docker"
       ],
       "file_name": "jmix-studio-1.5.2-223.zip",
@@ -1492,18 +1492,18 @@
       "sha256": "NUR/JPPWb0iObQONOTJwsbZfM43SWspgJoJUqv2tWdY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.5.3-223.zip",
       "since": "223.7571.4",
@@ -1515,17 +1515,17 @@
       "sha256": "LsY0fwMOA31BR58oIUNTr3JOT0lWJPhQAZ+YV7aNM8Y=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
         "Docker"
       ],
       "file_name": "jmix-studio-1.5.3-231.zip",
@@ -1538,17 +1538,17 @@
       "sha256": "MbLZCxvDdPlys/jBHsEqC5Ay1lJjsIAZ85dSCUVGyxw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
+        "com.intellij.properties",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-1.5.4-223.zip",
@@ -1562,17 +1562,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-1.5.4-231.zip",
       "since": "231.7864.76",
@@ -1584,18 +1584,18 @@
       "sha256": "EsDGq+lzSykanP4I6uv1Z2DmtM9iKCXbhQuVQLAo1ho=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.5.5-223.zip",
       "since": "223.7571.4",
@@ -1607,17 +1607,17 @@
       "sha256": "fd9CtroLkZJe2Zlw1lm8MHhPNgk20jySbszK9m/TWd8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
         "Docker"
       ],
       "file_name": "jmix-studio-1.5.5-231.zip",
@@ -1630,18 +1630,18 @@
       "sha256": "3PXgkth9uKOFZip09hbEP+zD4e3+D2ID+fLE1lsvZAw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.5.6-223.zip",
       "since": "223.7571.4",
@@ -1653,18 +1653,18 @@
       "sha256": "4STz+qn4UViAhUXQTeFtaQ4cb+neetz00SYNTRpxbEM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-1.5.6-231.zip",
       "since": "231.7864.76",
@@ -1676,18 +1676,18 @@
       "sha256": "K3rOipeSwMoh3f+AhWh4P9+0H3G70rNFxYB4ZIkrSKk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.0.0-223.zip",
       "since": "223.7571.4",
@@ -1700,17 +1700,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.0.0-231.zip",
       "since": "231.7864.76",
@@ -1722,17 +1722,17 @@
       "sha256": "xf+JDkJOM2lz4ZjBQpjPhJq7PsGjI1tfmxschwg47JE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
         "Docker"
       ],
       "file_name": "jmix-studio-2.0.0-232.zip",
@@ -1745,18 +1745,18 @@
       "sha256": "BqxG1WNgmjLSNYo7ZrkFj8miFucDvP/EyVaz+qi4yYY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.properties",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.0.1-223.zip",
       "since": "223.7571.4",
@@ -1769,17 +1769,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
+        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
+        "Docker",
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.0.1-231.zip",
       "since": "231.7864.76",
@@ -1791,18 +1791,18 @@
       "sha256": "/W6qENxRZ369waHphL7+1rmVNeRV5/YmFkg1J0WPpEo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.0.1-232.zip",
       "since": "232.8296.17",
@@ -1816,16 +1816,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.0.2-223.zip",
       "since": "223.7571.4",
@@ -1838,17 +1838,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.0.2-231.zip",
       "since": "231.7864.76",
@@ -1861,17 +1861,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
+        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.0.2-232.zip",
       "since": "232.8296.17",
@@ -1883,18 +1883,18 @@
       "sha256": "hd5eaPg6h7rLWwvQlP+2EVPBGjt9aAsKPFbieP+im9c=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.0.3-223.zip",
       "since": "223.7571.4",
@@ -1906,18 +1906,18 @@
       "sha256": "2jwAlffFd1kmZY7Gpx92ir2PtLujdZ7CSoQqyZmL2ts=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "Docker",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.0.3-231.zip",
       "since": "231.7864.76",
@@ -1929,18 +1929,18 @@
       "sha256": "0Zkr4z54FI5L5PMpoBiNFLBN+/7C3EMJns6OADM4gwo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.0.3-232.zip",
       "since": "232.8296.17",
@@ -1952,18 +1952,18 @@
       "sha256": "dfTsioi0Ue/Q5hhYbJmpuwNGYW4Dw3Hsy7doFBHpNZQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "Docker",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.0.4-223.zip",
       "since": "223.7571.4",
@@ -1975,18 +1975,18 @@
       "sha256": "2ilUwGfzV8/JJHlPbe6dOkUDVx390gxQWNFCiEeuO6U=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.0.4-231.zip",
       "since": "231.7864.76",
@@ -1998,18 +1998,18 @@
       "sha256": "m0Mo5Rucud3t1eneC2FPIny3Wi5OVW7dXC5XKWyPDSU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.0.4-232.zip",
       "since": "232.8296.17",
@@ -2021,18 +2021,18 @@
       "sha256": "/w7l9nBetTxC/6OW6fKPR0OVLSLdszS2tLo7cZjfdE8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "Docker",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.1.0-231.zip",
       "since": "231.7864.76",
@@ -2044,18 +2044,18 @@
       "sha256": "OAfYoCMivuIds+N2Q+UHvaZajDvoiJqe+HwYFwYscUA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "Docker",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.1.0-232.zip",
       "since": "232.8296.17",
@@ -2067,19 +2067,19 @@
       "sha256": "rIRKXyt/rFIO1bAN2D1OYZ3iyz9NWrof7WphhgNzj58=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "com.haulmont.jpab",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "Docker",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.1.1-233.zip",
       "since": "233.11799.6",
@@ -2091,18 +2091,18 @@
       "sha256": "x1/NzeH4vH6WDSI7zAZ+GafTvj6b3XKtAEjDD9Xc2ws=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "com.haulmont.jpab",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
+        "com.haulmont.jpab",
+        "com.intellij.javaee.jpa",
         "Docker"
       ],
       "file_name": "jmix-studio-2.1.1-231.zip",
@@ -2116,17 +2116,17 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "com.haulmont.jpab",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
+        "com.haulmont.jpab",
+        "com.intellij.javaee.jpa",
         "Docker"
       ],
       "file_name": "jmix-studio-2.1.1-232.zip",
@@ -2139,20 +2139,20 @@
       "sha256": "mcuWhnUZJKfSdjdyZx/FweljxkOOKloxKWM+jVm8skw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.1.2-231.zip",
       "since": "231.7864.76",
@@ -2164,20 +2164,20 @@
       "sha256": "o0jn1I2QYCD+U1DD3H3HklYIGybfscya8ikpZwt9uxA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
+        "Docker",
+        "JavaScript",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.1.2-232.zip",
       "since": "232.8296.17",
@@ -2189,20 +2189,20 @@
       "sha256": "MsqNv453/X9Xi7inZRG1fi48u+/zJFOvabPo/bemwmw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.haulmont.jpab",
+        "Docker",
+        "JavaScript",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.1.2-233.zip",
       "since": "233.11799.6",
@@ -2214,20 +2214,20 @@
       "sha256": "lJBTyFht29OZ29MdHVex3EmtfOztxCh3xanedpjEUyE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.haulmont.jpab",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "Docker",
+        "com.haulmont.jpab"
       ],
       "file_name": "jmix-studio-2.1.3-231.zip",
       "since": "231.7864.76",
@@ -2239,20 +2239,20 @@
       "sha256": "sRfENkAHe7SPO16RychHSrGwnDp5epZ6uKxYmfksUDw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.haulmont.jpab",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "Docker",
+        "com.haulmont.jpab",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.1.3-232.zip",
       "since": "232.8296.17",
@@ -2264,20 +2264,20 @@
       "sha256": "lC8/JD39JkceYEPAoXq/Mai9WQwrvKr/EP/hNF1+P6k=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.haulmont.jpab",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.haulmont.jpab"
       ],
       "file_name": "jmix-studio-2.1.3-233.zip",
       "since": "233.11799.6",
@@ -2289,19 +2289,19 @@
       "sha256": "wga6UmvtnlrQz17zk0mNGFUqO58qj04nYE5oby5rrrc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "JavaScript",
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
+        "com.haulmont.jpab",
         "Docker"
       ],
       "file_name": "jmix-studio-2.2.0-232.zip",
@@ -2314,20 +2314,20 @@
       "sha256": "E3jEP2OTcSIwRh8M2VM0F2sWB8L18lMqhnxS7TU7tSg=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "JavaScript",
-        "com.haulmont.jpab",
+        "Docker",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.haulmont.jpab",
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.2.0-233.zip",
       "since": "233.11799.6",
@@ -2339,19 +2339,19 @@
       "sha256": "Z0/cPtJQblWCDCKHpr0WQ30JqN1/xJDvAQZDx3RTj3k=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.haulmont.jpab",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "JavaScript",
+        "com.intellij.modules.database",
+        "com.haulmont.jpab",
+        "com.intellij.javaee.jpa",
         "Docker"
       ],
       "file_name": "jmix-studio-2.2.1-232.zip",
@@ -2364,19 +2364,19 @@
       "sha256": "eFa+Tt1/qIFT0hJtCsqpYNBL1PWaXIIWEq7vSf5DT2c=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.properties",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "com.intellij.spring.boot",
+        "com.haulmont.jpab",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
         "Docker"
       ],
       "file_name": "jmix-studio-2.2.1-233.zip",
@@ -2390,18 +2390,18 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
+        "com.intellij.liquibase",
+        "JavaScript",
         "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-2.2.1-241.zip",
@@ -2414,20 +2414,20 @@
       "sha256": "kgeXOYv2JG10wsUB+RmVUKRp+D+gXrJ9AW2z6ym8szQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
+        "com.intellij.modules.database",
         "com.haulmont.jpab",
+        "Docker",
+        "JavaScript",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.2.2-232.zip",
       "since": "232.8296.17",
@@ -2440,18 +2440,18 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "JavaScript",
+        "org.jetbrains.kotlin",
+        "com.haulmont.jpab",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-2.2.2-233.zip",
@@ -2464,20 +2464,20 @@
       "sha256": "u1O5DwRC4ZHdt+WLwf2bLaPwKdDgnKutGy4m0i0tuHc=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.gradle",
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.2.2-241.zip",
       "since": "241.14494.17",
@@ -2490,19 +2490,19 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "JavaScript",
-        "com.haulmont.jpab",
+        "Docker",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.haulmont.jpab",
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.2.3-232.zip",
       "since": "232.8296.17",
@@ -2514,20 +2514,20 @@
       "sha256": "7We88romtwl9G5gth9TmOu019IEQHa0QiHbv3iSbUIU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "JavaScript",
+        "Docker",
         "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.2.3-233.zip",
       "since": "233.11799.6",
@@ -2539,20 +2539,20 @@
       "sha256": "bedLZBkqdhs+japVZ077PszFhBv+xwKxfzAZgAKf9B4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "JavaScript",
         "com.intellij.liquibase",
+        "Docker",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.2.3-241.zip",
       "since": "241.14494.17",
@@ -2564,20 +2564,20 @@
       "sha256": "EfXqvPQyfdp77XhUpCIx75Dm2+TtiCXxwmu6rFzpmkQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
+        "com.intellij.modules.database",
+        "Docker",
         "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.2.4-232.zip",
       "since": "232.8296.17",
@@ -2589,20 +2589,20 @@
       "sha256": "N/tz8lKSWx8u5zUsDcPE8FsURN0FFLydqcXDOYGb7Hc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
+        "com.intellij.modules.database",
+        "Docker",
         "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.2.4-233.zip",
       "since": "233.11799.6",
@@ -2614,20 +2614,20 @@
       "sha256": "dV4d0bkOJ+063MxOSl9k+b5cnW7UPjQV+/fmF6dpL5c=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.liquibase",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.2.4-241.zip",
       "since": "241.14494.17",
@@ -2639,20 +2639,20 @@
       "sha256": "XUaKy8sXWG5khDgLEoK8Z1/+QbpGxVgSFXm1jzcYe78=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
         "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
+        "com.intellij.spring.boot",
+        "Docker",
+        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "JavaScript",
-        "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.3.0-241.zip",
       "since": "241.14494.17",
@@ -2664,20 +2664,20 @@
       "sha256": "Uq1BUZceHDHDmw/o9Yk7kXaQYC94tb4RNGIzHyiKPyA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
         "org.intellij.groovy",
         "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.3.0-233.zip",
       "since": "233.11799.6",
@@ -2689,20 +2689,20 @@
       "sha256": "WvpwjdH6OyZla71m+WR8Nza5l2QruavE0cUHhAPG5zQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
+        "Docker",
         "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.3.1-233.zip",
       "since": "233.11799.6",
@@ -2714,20 +2714,20 @@
       "sha256": "QkSSbjXxrY/T02pJbYkish2vh9mcpWfnTaNwQKnf4js=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.liquibase",
+        "com.intellij.javaee.jpa",
+        "Docker",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.3.1-241.zip",
       "since": "241.14494.17",
@@ -2741,18 +2741,18 @@
       "dependencies": [
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "Docker",
+        "com.intellij.liquibase",
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.3.2-241.zip",
       "since": "241.14494.17",
@@ -2764,20 +2764,20 @@
       "sha256": "4Y5R0d6V72V2hnEuXJtfXyXeip3w7xt0ZVA/gHMSJ5g=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "JavaScript",
+        "Docker",
         "com.haulmont.jpab",
-        "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.3.2-233.zip",
       "since": "233.11799.6",
@@ -2789,20 +2789,20 @@
       "sha256": "uZvY64HldwADUHRq7h3uuriuNyalBlxQRpfvq0jr5EU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.liquibase",
+        "Docker",
+        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.3.2-242.zip",
       "since": "242.19890.14",
@@ -2814,20 +2814,20 @@
       "sha256": "LBJ2/TVqWeZoO3X3nFwdv+5VOD2JFc/cVSdT96fLXPU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.haulmont.jpab",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.haulmont.jpab",
+        "com.intellij.javaee.jpa",
+        "Docker",
+        "com.intellij.modules.database",
+        "JavaScript",
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.3.3-233.zip",
       "since": "233.11799.6",
@@ -2840,19 +2840,19 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
+        "Docker",
+        "com.intellij.modules.database",
+        "com.intellij.liquibase",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.3.3-241.zip",
       "since": "241.14494.17",
@@ -2865,19 +2865,19 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
+        "Docker",
         "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "com.intellij.liquibase",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.3.3-242.zip",
       "since": "242.19890.14",
@@ -2889,20 +2889,20 @@
       "sha256": "3mvb5egY9cDpRKikJNddnfl+Q9KTNC7A2MIF7O2/vGk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.4.0-241.zip",
       "since": "241.14494.17",
@@ -2915,19 +2915,19 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.liquibase",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.4.0-242.zip",
       "since": "242.19890.14",
@@ -2939,20 +2939,20 @@
       "sha256": "bneYPhmFZ165DmB7ak14uBeA4BpCukztwasS1ThSuLk=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.java",
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.liquibase",
+        "JavaScript",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.4.1-243.zip",
       "since": "243.21155.17",
@@ -2964,20 +2964,20 @@
       "sha256": "DkNq4u96JOaYnMjHoGJIOGmBMi9WdxPVlUsdmIEsvEU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
         "org.intellij.groovy",
-        "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
+        "com.intellij.spring.boot",
+        "JavaScript",
+        "Docker",
+        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.4.1-241.zip",
       "since": "241.14494.17",
@@ -2989,20 +2989,20 @@
       "sha256": "oA1Oq/VimXfRIsIoDk9HqFQGdFQKKdg198/v7mFP1FI=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.java",
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.liquibase",
+        "JavaScript",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.4.1-242.zip",
       "since": "242.19890.14",
@@ -3014,20 +3014,20 @@
       "sha256": "Dq6ZyJwYT3Na5woEVc9qcEJAQjvRfjXmyCK0S3LIhE4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
         "org.intellij.groovy",
         "com.intellij.gradle",
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.liquibase",
+        "JavaScript",
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.4.2-243.zip",
       "since": "243.21155.17",
@@ -3039,20 +3039,20 @@
       "sha256": "4PhJFoWaJopcKwufVaQYleQucKfFgwvRONeZknU9Ixs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "org.intellij.groovy",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "JavaScript",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.4.2-242.zip",
       "since": "242.19890.14",
@@ -3064,19 +3064,19 @@
       "sha256": "qvWflxJWODYuEQ+U2IC6ILSlHv6SYX/7Tnkw63etYjw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
+        "com.intellij.liquibase",
         "com.intellij.spring.boot",
+        "JavaScript",
         "Docker"
       ],
       "file_name": "jmix-studio-2.4.2-241.zip",
@@ -3089,19 +3089,19 @@
       "sha256": "Yd7phbZQqLTtoqzIWfUFuX2Ha1p9KYw2NRjpuDXU0Fg=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
-        "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "JavaScript",
+        "com.intellij.liquibase",
         "Docker"
       ],
       "file_name": "jmix-studio-2.4.3-241.zip",
@@ -3114,20 +3114,20 @@
       "sha256": "0ftO2JbqpS6tf8h5RGEWjNvgGtsenFvVKESuUCMBeYo=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "com.intellij.liquibase",
+        "Docker",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.4.3-242.zip",
       "since": "242.19890.14",
@@ -3142,16 +3142,16 @@
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
         "JavaScript",
         "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-2.4.3-243.zip",
@@ -3164,20 +3164,20 @@
       "sha256": "elCWvQH6ynHv7KKkCIkeF3QQyR85WBb7E1so9yWMPZ4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
+        "com.intellij.properties",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "JavaScript",
+        "com.intellij.javaee.jpa",
         "com.intellij.liquibase",
         "org.jetbrains.kotlin",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.5.0-242.zip",
       "since": "242.19890.14",
@@ -3189,20 +3189,20 @@
       "sha256": "2EwkfhgSpRkEb1Wzwj814Wi8pEU/5LVPvsV+sf62Cjc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
+        "Docker",
         "com.intellij.spring.boot",
-        "Docker"
+        "JavaScript",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.5.0-243.zip",
       "since": "243.21155.17",
@@ -3214,20 +3214,20 @@
       "sha256": "uAx1cDS8BxE5HD2o22qGTSxcUBkzkWoYdB0L103PagI=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
         "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.5.1-242.zip",
       "since": "242.19890.14",
@@ -3239,20 +3239,20 @@
       "sha256": "MK58a1CBq5erfU7wgbTTY34fOeoM+nTXoWW2Xt+gRFU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot",
+        "JavaScript",
+        "Docker",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.5.1-243.zip",
       "since": "243.21155.17",
@@ -3264,20 +3264,20 @@
       "sha256": "xDNUDiqmWfloMm9DsRkjBOJLgzb14/f1fXBphIQ43iE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "JavaScript",
-        "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.5.1-251.zip",
       "since": "251.22821.72",
@@ -3290,19 +3290,19 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "Docker",
+        "com.intellij.liquibase",
+        "JavaScript",
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.5.2-242.zip",
       "since": "242.19890.14",
@@ -3314,20 +3314,20 @@
       "sha256": "qZdEVLbDcVNj/+4f8E+EBTvsTLqqG8B28ULb4zljp7w=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.liquibase",
+        "JavaScript",
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.5.2-243.zip",
       "since": "243.21155.17",
@@ -3339,20 +3339,20 @@
       "sha256": "b8cHqiKYSqqC5VHaB4yorTCh5/1YNonKtmAQVgS4v8E=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.java",
         "com.intellij.properties",
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
-        "JavaScript",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "Docker"
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "JavaScript",
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.5.2-251.zip",
       "since": "251.22821.72",
@@ -3364,19 +3364,19 @@
       "sha256": "1YFCGR1Wl2RTux4CtnQQUYKD41UgwYcOHISkOHDJfSo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.intellij.groovy",
-        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.gradle",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "Docker",
         "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
         "JavaScript",
-        "com.intellij.modules.database",
+        "Docker",
         "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.6.0-243.zip",
@@ -3389,20 +3389,20 @@
       "sha256": "Kl2jYsbO/932sS8r5HdU+8Kt0PJOlnrbnJtFeO8gzTg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
-        "org.intellij.groovy",
-        "com.intellij.gradle",
         "com.intellij.modules.java",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.gradle",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "Docker",
         "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
         "JavaScript",
-        "com.intellij.liquibase",
-        "com.intellij.modules.database"
+        "Docker",
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.6.0-251.zip",
       "since": "251.22821.72",
@@ -3421,20 +3421,20 @@
       "sha256": "J+JKyuKIktzUOtzQDsriE61ZyuYWd40Y1brqXsJdSg0=",
       "channel": "stable",
       "dependencies": [
-        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.properties",
-        "com.intellij.gradle"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "JavaScript",
         "com.intellij.javaee.jpa",
-        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
         "com.intellij.modules.database",
-        "Docker"
+        "Docker",
+        "JavaScript",
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.6.1-243.zip",
       "since": "243.21155.17",
@@ -3447,18 +3447,18 @@
       "channel": "stable",
       "dependencies": [
         "org.jetbrains.plugins.yaml",
-        "com.intellij.gradle",
-        "com.intellij.modules.java",
         "org.intellij.groovy",
-        "com.intellij.properties"
+        "com.intellij.properties",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
         "com.intellij.spring.boot",
         "JavaScript",
-        "com.intellij.modules.database",
         "com.intellij.liquibase",
         "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "Docker"
       ],
       "file_name": "jmix-studio-2.6.1-251.zip",
@@ -3497,18 +3497,18 @@
       "dependencies": [
         "com.intellij.gradle",
         "com.intellij.modules.java",
+        "org.intellij.groovy",
         "org.jetbrains.plugins.yaml",
-        "com.intellij.properties",
-        "org.intellij.groovy"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin",
         "JavaScript",
         "Docker",
-        "com.intellij.liquibase",
-        "com.intellij.spring.boot",
-        "org.jetbrains.kotlin"
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.6.2-251.zip",
       "since": "251.22821.72",
@@ -3520,20 +3520,20 @@
       "sha256": "keW5tNfuBrOHca8bVENp/fXnVWQzLAFEUzgmS3p0Nmw=",
       "channel": "stable",
       "dependencies": [
-        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
         "com.intellij.gradle",
         "com.intellij.properties",
-        "org.intellij.groovy"
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.javaee.jpa",
-        "com.intellij.liquibase",
         "com.intellij.modules.database",
-        "Docker",
-        "JavaScript",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.spring.boot",
+        "com.intellij.liquibase",
+        "Docker",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.6.2-243.zip",
       "since": "243.21155.17",
@@ -3546,19 +3546,19 @@
       "channel": "stable",
       "dependencies": [
         "org.jetbrains.plugins.yaml",
-        "com.intellij.gradle",
         "org.intellij.groovy",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
         "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
         "com.intellij.spring.boot",
         "JavaScript",
         "com.intellij.liquibase",
+        "Docker",
+        "com.intellij.javaee.jpa",
         "com.intellij.modules.database",
-        "org.jetbrains.kotlin",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.6.3-243.zip",
       "since": "243.21155.17",
@@ -3570,20 +3570,20 @@
       "sha256": "8fRGrFkHAM7GkGJmzmGq2k8UROAgmSyEiX/nUBZrCVo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.properties",
         "com.intellij.gradle",
-        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
-        "org.intellij.groovy"
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "Docker",
         "com.intellij.modules.database",
         "com.intellij.spring.boot",
+        "org.jetbrains.kotlin",
+        "Docker",
         "JavaScript",
         "com.intellij.javaee.jpa",
-        "com.intellij.liquibase",
-        "org.jetbrains.kotlin"
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.6.3-251.zip",
       "since": "251.22821.72",
@@ -3627,11 +3627,11 @@
       ],
       "optional_dependencies": [
         "Docker",
-        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
         "com.intellij.liquibase",
-        "com.intellij.spring.boot",
         "JavaScript"
       ],
       "file_name": "jmix-studio-2.6.4-243.zip",
@@ -3644,18 +3644,18 @@
       "sha256": "FTyNujIB+KZFOkuOHAKzDG/I9lhU+llzVOCWHa7j6Ms=",
       "channel": "stable",
       "dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.properties",
         "com.intellij.modules.java",
         "com.intellij.gradle",
-        "org.intellij.groovy",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.properties"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.spring.boot",
         "JavaScript",
-        "org.jetbrains.kotlin",
         "com.intellij.liquibase",
         "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
         "Docker",
         "com.intellij.javaee.jpa"
       ],
@@ -3724,13 +3724,13 @@
         "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
         "com.intellij.spring.boot",
         "JavaScript",
         "com.intellij.liquibase",
+        "Docker",
+        "com.intellij.javaee.jpa",
         "com.intellij.modules.database",
-        "org.jetbrains.kotlin",
-        "Docker"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1559-251.zip",
       "since": "251.22821.72",
@@ -3766,20 +3766,20 @@
       "sha256": "pzWnVYxoWWLfpOCOHy4GelywwSsZVJ0y///SGqOxux4=",
       "channel": "jmix_nightly",
       "dependencies": [
+        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle",
         "com.intellij.modules.java",
         "com.intellij.properties",
-        "org.intellij.groovy",
-        "org.jetbrains.plugins.yaml"
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "com.intellij.liquibase",
-        "com.intellij.modules.database",
         "JavaScript",
-        "org.jetbrains.kotlin",
-        "com.intellij.spring.boot",
         "Docker",
-        "com.intellij.javaee.jpa"
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1562-251.zip",
       "since": "251.22821.72",
@@ -3839,20 +3839,20 @@
       "sha256": "RN6EllaZpfqqlp59AFxVOYUTCUEkKUi89y2+bh4BJEU=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.modules.java",
         "com.intellij.properties",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "JavaScript",
         "com.intellij.liquibase",
         "com.intellij.spring.boot",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "Docker",
-        "com.intellij.javaee.jpa",
-        "JavaScript"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1566-251.zip",
       "since": "251.22821.72",
@@ -3896,12 +3896,12 @@
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
+        "com.intellij.liquibase",
+        "JavaScript",
         "com.intellij.spring.boot",
         "com.intellij.javaee.jpa",
         "com.intellij.modules.database",
-        "Docker",
-        "com.intellij.liquibase",
-        "JavaScript"
+        "Docker"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1568-251.zip",
       "since": "251.22821.72",
@@ -3944,11 +3944,11 @@
         "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
-        "com.intellij.modules.database",
         "Docker",
         "com.intellij.liquibase",
         "JavaScript",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot"
       ],
@@ -3987,15 +3987,15 @@
       "channel": "jmix_nightly",
       "dependencies": [
         "com.intellij.modules.java",
-        "com.intellij.gradle",
         "org.intellij.groovy",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.properties"
+        "com.intellij.properties",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
+        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
         "JavaScript",
-        "org.jetbrains.kotlin",
         "com.intellij.liquibase",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
@@ -4042,13 +4042,13 @@
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "Docker",
         "org.jetbrains.kotlin",
-        "com.intellij.javaee.jpa",
         "com.intellij.liquibase",
-        "com.intellij.spring.boot",
-        "JavaScript"
+        "JavaScript",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1574-251.zip",
       "since": "251.22821.72",
@@ -4085,18 +4085,18 @@
       "channel": "jmix_nightly",
       "dependencies": [
         "com.intellij.gradle",
+        "com.intellij.modules.java",
         "org.intellij.groovy",
         "org.jetbrains.plugins.yaml",
-        "com.intellij.properties",
-        "com.intellij.modules.java"
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "Docker",
         "com.intellij.javaee.jpa",
         "com.intellij.spring.boot",
-        "JavaScript",
         "org.jetbrains.kotlin",
+        "Docker",
+        "JavaScript",
         "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1577-251.zip",
@@ -4140,12 +4140,12 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
         "JavaScript",
         "com.intellij.liquibase",
-        "com.intellij.modules.database",
         "Docker",
-        "org.jetbrains.kotlin",
         "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1579-251.zip",
@@ -4182,19 +4182,19 @@
       "sha256": "gginvzPv/3hGFq7lbv6gPXDrcXkclK+aUv8XMx4WbTY=",
       "channel": "jmix_nightly",
       "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.intellij.groovy",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "Docker",
         "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
+        "Docker",
         "org.jetbrains.kotlin",
         "com.intellij.liquibase",
-        "com.intellij.spring.boot",
         "JavaScript"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1581-251.zip",
@@ -4231,18 +4231,18 @@
       "sha256": "2TA1h0TLtdMnF0sBZN5GXWs0S9bTgEjonAxb9MJZ3Bo=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.gradle",
-        "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
         "com.intellij.properties",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
         "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
         "JavaScript",
         "Docker",
-        "org.jetbrains.kotlin",
         "com.intellij.liquibase",
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
         "com.intellij.modules.database"
       ],
@@ -4280,16 +4280,16 @@
       "sha256": "iXfZ8lI5BLtnLivxG0l9hoonNcgt65UyKZGjCR5lWms=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.gradle",
         "com.intellij.properties",
         "org.intellij.groovy",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.modules.java",
-        "com.intellij.gradle"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "Docker",
         "com.intellij.javaee.jpa",
+        "Docker",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
         "com.intellij.liquibase",
@@ -4330,18 +4330,18 @@
       "channel": "jmix_nightly",
       "dependencies": [
         "org.intellij.groovy",
+        "com.intellij.properties",
         "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
-        "com.intellij.gradle",
-        "com.intellij.properties"
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
+        "JavaScript",
         "com.intellij.modules.database",
         "com.intellij.liquibase",
         "com.intellij.javaee.jpa",
-        "com.intellij.spring.boot",
-        "JavaScript",
         "Docker"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1585-251.zip",
@@ -4385,13 +4385,13 @@
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
         "com.intellij.liquibase",
         "JavaScript",
         "Docker",
-        "com.intellij.modules.database",
-        "org.jetbrains.kotlin",
-        "com.intellij.javaee.jpa",
-        "com.intellij.spring.boot"
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1587-251.zip",
       "since": "251.22821.72",
@@ -4429,17 +4429,17 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
-        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
         "Docker",
-        "com.intellij.spring.boot",
         "com.intellij.javaee.jpa",
-        "com.intellij.liquibase",
         "com.intellij.modules.database",
+        "com.intellij.spring.boot",
+        "com.intellij.liquibase",
         "JavaScript"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1589-251.zip",
@@ -4483,13 +4483,13 @@
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [
+        "com.intellij.javaee.jpa",
+        "JavaScript",
+        "com.intellij.liquibase",
         "org.jetbrains.kotlin",
         "Docker",
-        "com.intellij.javaee.jpa",
         "com.intellij.spring.boot",
-        "JavaScript",
-        "com.intellij.modules.database",
-        "com.intellij.liquibase"
+        "com.intellij.modules.database"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1591-251.zip",
       "since": "251.22821.72",
@@ -4526,19 +4526,19 @@
       "channel": "jmix_nightly",
       "dependencies": [
         "com.intellij.modules.java",
-        "com.intellij.properties",
-        "org.intellij.groovy",
         "com.intellij.gradle",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.liquibase",
-        "com.intellij.spring.boot",
-        "JavaScript",
         "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "Docker"
+        "Docker",
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1593-251.zip",
       "since": "251.22821.72",
@@ -4577,17 +4577,17 @@
         "org.intellij.groovy",
         "com.intellij.gradle",
         "com.intellij.modules.java",
-        "com.intellij.properties",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "com.intellij.liquibase",
-        "com.intellij.spring.boot",
         "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
-        "JavaScript",
-        "Docker"
+        "Docker",
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot",
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1595-251.zip",
       "since": "251.22821.72",
@@ -4599,20 +4599,20 @@
       "sha256": "xz305hQRppcQrlcILnC9pgCCwn96+hMoHfZR/NstuGg=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.gradle",
-        "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
         "com.intellij.properties",
-        "org.intellij.groovy"
+        "org.intellij.groovy",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
         "JavaScript",
         "Docker",
-        "com.intellij.liquibase",
         "com.intellij.spring.boot",
         "com.intellij.modules.database",
-        "org.jetbrains.kotlin"
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1598-251.zip",
       "since": "251.22821.72",
@@ -4696,20 +4696,20 @@
       "sha256": "w60O7u5KzOgjFKobk/cT26Jak1GtluwuTl60mSlae2A=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.gradle",
-        "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
         "com.intellij.properties",
-        "org.intellij.groovy"
+        "org.intellij.groovy",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
         "JavaScript",
         "Docker",
         "org.jetbrains.kotlin",
-        "com.intellij.liquibase",
         "com.intellij.spring.boot",
-        "com.intellij.modules.database"
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1603-251.zip",
       "since": "251.22821.72",
@@ -4745,18 +4745,18 @@
       "sha256": "vN7H5rGuQk/rohQq35CEX52FI/HisS/GmQ7LbEgLRjM=",
       "channel": "jmix_nightly",
       "dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.properties",
         "com.intellij.modules.java",
         "com.intellij.gradle",
-        "org.intellij.groovy",
-        "org.jetbrains.plugins.yaml",
-        "com.intellij.properties"
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
         "JavaScript",
         "com.intellij.modules.database",
         "com.intellij.liquibase",
+        "org.jetbrains.kotlin",
         "com.intellij.javaee.jpa",
         "Docker"
       ],
@@ -4794,18 +4794,18 @@
       "sha256": "PbhmC856RgYvT0FZQsDeLnbBjPBpXbG9d50Gs+UxSiE=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.properties",
         "com.intellij.modules.java",
+        "com.intellij.properties",
         "org.intellij.groovy",
         "org.jetbrains.plugins.yaml",
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
         "com.intellij.modules.database",
-        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
         "JavaScript",
         "com.intellij.liquibase",
+        "org.jetbrains.kotlin",
         "com.intellij.javaee.jpa",
         "Docker"
       ],
@@ -4843,18 +4843,18 @@
       "sha256": "ZVJbXR59QHhebPAJRnJjTozNveRnWVwvRfd0dsLPMKg=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.gradle",
-        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.intellij.groovy",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "Docker",
         "com.intellij.spring.boot",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
         "JavaScript",
         "com.intellij.liquibase"
       ],
@@ -4892,18 +4892,18 @@
       "sha256": "nAiGpnPJqJnskUmOqsKt5XgmAAcRRgDelCeHe13R+94=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
         "com.intellij.properties",
         "org.intellij.groovy"
       ],
       "optional_dependencies": [
+        "com.intellij.javaee.jpa",
+        "Docker",
         "com.intellij.liquibase",
         "JavaScript",
-        "com.intellij.javaee.jpa",
         "com.intellij.modules.database",
-        "Docker",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot"
       ],
@@ -4941,19 +4941,19 @@
       "sha256": "w494TyLRXe2h2lmm3Hn6AlSN1WHlyl4xbHUiUB/RUss=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "org.intellij.groovy",
         "com.intellij.gradle",
         "com.intellij.modules.java",
         "com.intellij.properties",
+        "org.intellij.groovy",
         "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
-        "Docker",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
         "com.intellij.liquibase",
         "com.intellij.spring.boot",
         "JavaScript",
+        "Docker",
+        "org.jetbrains.kotlin",
         "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1613-251.zip",
@@ -5023,10 +5023,10 @@
       "optional_dependencies": [
         "com.intellij.spring.boot",
         "JavaScript",
-        "com.intellij.javaee.jpa",
         "Docker",
         "org.jetbrains.kotlin",
         "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
         "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.7.1-251.zip",
@@ -5063,18 +5063,18 @@
       "sha256": "zqcVFtamQ99lRZ8l+NabfVnmrwRlr1/4lVXiQXhXess=",
       "channel": "jmix_nightly",
       "dependencies": [
+        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle",
         "com.intellij.modules.java",
-        "org.jetbrains.plugins.yaml",
         "com.intellij.properties",
         "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
-        "com.intellij.modules.database",
         "Docker",
         "com.intellij.liquibase",
         "JavaScript",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot"
       ],
@@ -5184,20 +5184,20 @@
       "sha256": "apsHj80SetovQM6maZg+sOsDgly+Mh75iSXfLUb0PJo=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "org.intellij.groovy",
         "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
         "com.intellij.gradle",
+        "org.intellij.groovy",
         "com.intellij.properties"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
         "com.intellij.liquibase",
         "com.intellij.modules.database",
         "com.intellij.javaee.jpa",
+        "Docker",
+        "org.jetbrains.kotlin",
         "com.intellij.spring.boot",
-        "JavaScript",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1621-251.zip",
       "since": "251.22821.72",
@@ -5257,20 +5257,20 @@
       "sha256": "VkIjlaaTgLbBUxUiu0xdaeCnPvD7BWIeTH+mjj3W/hA=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.properties",
-        "org.intellij.groovy",
         "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [
-        "Docker",
         "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
+        "Docker",
         "org.jetbrains.kotlin",
         "com.intellij.liquibase",
         "com.intellij.spring.boot",
-        "JavaScript",
-        "com.intellij.javaee.jpa"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1624-251.zip",
       "since": "251.22821.72",
@@ -5339,11 +5339,11 @@
       "optional_dependencies": [
         "com.intellij.javaee.jpa",
         "com.intellij.modules.database",
+        "Docker",
         "com.intellij.spring.boot",
         "org.jetbrains.kotlin",
         "com.intellij.liquibase",
-        "JavaScript",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1627-251.zip",
       "since": "251.22821.72",
@@ -5403,17 +5403,17 @@
       "sha256": "X8o1BK+47emR3VWNgaNGYv7aNYRXwbrs7FHK4bK7Lcw=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.properties",
         "org.intellij.groovy",
         "com.intellij.modules.java"
       ],
       "optional_dependencies": [
+        "com.intellij.javaee.jpa",
         "com.intellij.liquibase",
         "com.intellij.spring.boot",
         "JavaScript",
-        "com.intellij.javaee.jpa",
         "Docker",
         "com.intellij.modules.database",
         "org.jetbrains.kotlin"
@@ -5476,20 +5476,20 @@
       "sha256": "GnD1jr+Jok/dkT9Fo003Q0KAxWfK6i3G/9hGSUaJPQs=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.gradle",
         "com.intellij.properties",
         "com.intellij.modules.java",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.groovy"
+        "org.intellij.groovy",
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
         "com.intellij.liquibase",
         "JavaScript",
-        "Docker",
         "com.intellij.modules.database",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin",
-        "com.intellij.spring.boot"
+        "com.intellij.spring.boot",
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1633-251.zip",
       "since": "251.22821.72",
@@ -5549,18 +5549,18 @@
       "sha256": "4zt6qy7p8G02sUc+BMW6VrzQVWV65noAELUObjNcR2I=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.modules.java",
         "com.intellij.properties",
         "org.jetbrains.plugins.yaml",
         "org.intellij.groovy",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "Docker",
-        "com.intellij.javaee.jpa",
         "com.intellij.spring.boot",
         "org.jetbrains.kotlin",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
         "com.intellij.liquibase",
         "JavaScript"
       ],
@@ -5622,20 +5622,20 @@
       "sha256": "xWH6wDQIWvcxVBRi5F4PFSZKM5B5Ng7KHBcW05glkDw=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.gradle",
-        "com.intellij.modules.java",
         "org.jetbrains.plugins.yaml",
         "com.intellij.properties",
-        "org.intellij.groovy"
+        "org.intellij.groovy",
+        "com.intellij.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.javaee.jpa",
-        "com.intellij.modules.database",
         "com.intellij.spring.boot",
         "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "com.intellij.liquibase",
-        "JavaScript",
-        "Docker"
+        "JavaScript"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1639-251.zip",
       "since": "251.22821.72",
@@ -5696,17 +5696,17 @@
       "channel": "jmix_nightly",
       "dependencies": [
         "com.intellij.properties",
-        "com.intellij.gradle",
         "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
         "com.intellij.modules.java",
         "org.intellij.groovy"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
         "Docker",
-        "JavaScript",
         "com.intellij.javaee.jpa",
         "com.intellij.liquibase",
+        "JavaScript",
         "com.intellij.modules.database",
         "com.intellij.spring.boot"
       ],
@@ -5768,20 +5768,20 @@
       "sha256": "eW3OA6PTAebneZJrnVT9A3iPH2kGSytOmucb7IFo80E=",
       "channel": "jmix_nightly",
       "dependencies": [
-        "com.intellij.properties",
         "com.intellij.gradle",
-        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
-        "org.intellij.groovy"
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
       ],
       "optional_dependencies": [
+        "JavaScript",
+        "com.intellij.modules.database",
+        "com.intellij.spring.boot",
         "org.jetbrains.kotlin",
         "Docker",
-        "JavaScript",
         "com.intellij.javaee.jpa",
-        "com.intellij.liquibase",
-        "com.intellij.modules.database",
-        "com.intellij.spring.boot"
+        "com.intellij.liquibase"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1645-251.zip",
       "since": "251.22821.72",
@@ -5843,17 +5843,17 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.gradle",
-        "com.intellij.modules.java",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "Docker",
         "com.intellij.liquibase",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "com.intellij.spring.boot",
         "JavaScript",
-        "com.intellij.javaee.jpa",
         "org.jetbrains.kotlin"
       ],
       "file_name": "jmix-studio-2.7.2-251.zip",
@@ -5921,13 +5921,13 @@
         "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
         "com.intellij.modules.database",
-        "Docker",
         "com.intellij.spring.boot",
-        "com.intellij.javaee.jpa",
         "com.intellij.liquibase",
-        "JavaScript"
+        "JavaScript",
+        "org.jetbrains.kotlin",
+        "Docker",
+        "com.intellij.javaee.jpa"
       ],
       "file_name": "jmix-studio-2.7.NIGHTLY1648-251.zip",
       "since": "251.22821.72",
@@ -5941,16 +5941,16 @@
       "dependencies": [
         "com.intellij.properties",
         "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
-        "com.intellij.gradle",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.gradle"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.database",
         "Docker",
         "JavaScript",
         "com.intellij.liquibase",
         "com.intellij.javaee.jpa",
+        "com.intellij.modules.database",
         "org.jetbrains.kotlin",
         "com.intellij.spring.boot"
       ],
@@ -10764,6 +10764,337 @@
       "since": "262.8377.35",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1213828": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1213828/jmix-studio-3.1.0-263.zip?updateId=1213828&pluginId=14340&family=INTELLIJ",
+      "sha256": "imG5e8CMOtgMzerzq5Q7GZLfND6e9SYdjuyQuFnx+0E=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.collaborationTools",
+        "com.intellij.properties",
+        "intellij.platform.remoteServers",
+        "intellij.xml.structureView",
+        "intellij.libraries.jackson.databind",
+        "org.jetbrains.plugins.yaml",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.platform.remoteServers.impl",
+        "org.intellij.groovy",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "intellij.libraries.jna"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee.jpa",
+        "org.jetbrains.kotlin",
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "jmix-studio-3.1.0-263.zip",
+      "since": "263.7307.44",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1220124": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1220124/jmix-studio-3.1.999.NIGHTLY1852-261.zip?updateId=1220124&pluginId=14340&family=INTELLIJ",
+      "sha256": "uW79akK33WtZXgiTLFKOtrrQTv2jG7BP8wpTrPn1CCo=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
+        "Docker",
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1852-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1220140": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1220140/jmix-studio-3.1.999.NIGHTLY1853-262.zip?updateId=1220140&pluginId=14340&family=INTELLIJ",
+      "sha256": "JiLsubbb+xugyfFCvvwbmbjsMjSUhceeFASGqMMbb/g=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "intellij.xml.structureView",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.collaborationTools",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "Docker",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.jcef",
+        "com.intellij.spring.boot",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1853-262.zip",
+      "since": "262.8377.35",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1222375": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1222375/jmix-studio-3.1.999.NIGHTLY1854-261.zip?updateId=1222375&pluginId=14340&family=INTELLIJ",
+      "sha256": "ZKGjSy/HzaNaQRo5FTqN0LQvrNdfrgUPTDN74GMKqwk=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.database",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "com.intellij.liquibase"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1854-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1222388": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1222388/jmix-studio-3.1.999.NIGHTLY1855-262.zip?updateId=1222388&pluginId=14340&family=INTELLIJ",
+      "sha256": "HRC0BICoDAxYaRcl4o3SW8/A/U/GoHFKKNEhj6b05/o=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.yaml",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.platform.vcs.dvcs.impl",
+        "org.intellij.groovy",
+        "intellij.xml.structureView",
+        "com.intellij.properties",
+        "intellij.platform.collaborationTools"
+      ],
+      "optional_dependencies": [
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot",
+        "com.intellij.modules.database",
+        "com.intellij.modules.jcef",
+        "com.intellij.javaee.jpa",
+        "Docker",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1855-262.zip",
+      "since": "262.8377.35",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1223106": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1223106/jmix-studio-3.1.999.NIGHTLY1856-261.zip?updateId=1223106&pluginId=14340&family=INTELLIJ",
+      "sha256": "zag4qUoqMLsfxyOTxUcquhxMz9po9s1NzboyuqGb+Ic=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "Docker",
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1856-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1223118": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1223118/jmix-studio-3.1.999.NIGHTLY1857-262.zip?updateId=1223118&pluginId=14340&family=INTELLIJ",
+      "sha256": "g0WdSlzbbZwjZ79UleKIcrniZY6ijTU5TO1VzCQo+yk=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.xml.structureView",
+        "com.intellij.gradle",
+        "intellij.platform.collaborationTools",
+        "com.intellij.properties",
+        "com.intellij.modules.java",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "com.intellij.spring.boot",
+        "com.intellij.liquibase",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1857-262.zip",
+      "since": "262.8377.35",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1223884": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1223884/jmix-studio-3.1.999.NIGHTLY1858-261.zip?updateId=1223884&pluginId=14340&family=INTELLIJ",
+      "sha256": "IEmHCnHZq7QxKbGq4Yzc3pR15cP5BxMjGTUuitBstLI=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee.jpa",
+        "com.intellij.spring.boot",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1858-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1223896": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1223896/jmix-studio-3.1.999.NIGHTLY1859-262.zip?updateId=1223896&pluginId=14340&family=INTELLIJ",
+      "sha256": "rPeOeRm4MC+240mKoetiJwoMTCja9iqPq8lYk7R13cM=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.xml.structureView",
+        "com.intellij.modules.java",
+        "intellij.platform.vcs.dvcs.impl",
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.yaml",
+        "org.intellij.groovy",
+        "intellij.platform.collaborationTools"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.jcef",
+        "Docker",
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
+        "com.intellij.liquibase"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1859-262.zip",
+      "since": "262.8377.35",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1224785": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1224785/jmix-studio-3.1.999.NIGHTLY1860-263.zip?updateId=1224785&pluginId=14340&family=INTELLIJ",
+      "sha256": "xeVez/tvxti5gZyRwwt9VMeZ9XmOVdjJBtFBAtzFBa4=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "intellij.libraries.jackson.databind",
+        "intellij.platform.remoteServers",
+        "intellij.xml.structureView",
+        "intellij.platform.vcs.dvcs.impl",
+        "org.jetbrains.plugins.yaml",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.platform.collaborationTools",
+        "intellij.libraries.jna",
+        "intellij.platform.remoteServers.impl",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.properties",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "com.intellij.liquibase",
+        "Docker",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1860-263.zip",
+      "since": "263.7307.44",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1224798": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1224798/jmix-studio-3.1.999.NIGHTLY1861-261.zip?updateId=1224798&pluginId=14340&family=INTELLIJ",
+      "sha256": "+Co12ApxYKaGyMAzzf7B5ahWbYIQ7NEejC4S4eJ7hMo=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle",
+        "com.intellij.properties",
+        "org.intellij.groovy",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "com.intellij.liquibase",
+        "com.intellij.spring.boot",
+        "com.intellij.javaee.jpa",
+        "Docker",
+        "com.intellij.modules.database",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1861-261.zip",
+      "since": "261.22158.182",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1224805": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14340/1224805/jmix-studio-3.1.999.NIGHTLY1862-262.zip?updateId=1224805&pluginId=14340&family=INTELLIJ",
+      "sha256": "v6e7W+2aaUcvpqsm0zxomv+7mnHp68eXdejTX6mzvYs=",
+      "channel": "jmix_nightly",
+      "dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.properties",
+        "intellij.platform.collaborationTools",
+        "intellij.libraries.jackson.datatype.jsr310",
+        "intellij.xml.structureView",
+        "com.intellij.modules.java",
+        "intellij.platform.vcs.dvcs.impl",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.spring.boot",
+        "com.intellij.liquibase",
+        "com.intellij.modules.database",
+        "com.intellij.javaee.jpa",
+        "com.intellij.modules.jcef",
+        "Docker"
+      ],
+      "file_name": "jmix-studio-3.1.999.NIGHTLY1862-262.zip",
+      "since": "262.8377.35",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -11019,6 +11350,17 @@
       "3.1.999.NIGHTLY1849-262": 1203695,
       "3.1.999.NIGHTLY1850-261": 1204668,
       "3.1.999.NIGHTLY1851-262": 1204697,
+      "3.1.999.NIGHTLY1852-261": 1220124,
+      "3.1.999.NIGHTLY1853-262": 1220140,
+      "3.1.999.NIGHTLY1854-261": 1222375,
+      "3.1.999.NIGHTLY1855-262": 1222388,
+      "3.1.999.NIGHTLY1856-261": 1223106,
+      "3.1.999.NIGHTLY1857-262": 1223118,
+      "3.1.999.NIGHTLY1858-261": 1223884,
+      "3.1.999.NIGHTLY1859-262": 1223896,
+      "3.1.999.NIGHTLY1860-263": 1224785,
+      "3.1.999.NIGHTLY1861-261": 1224798,
+      "3.1.999.NIGHTLY1862-262": 1224805,
       "3.2.999.NIGHTLY1831-261": 1194231,
       "3.2.999.NIGHTLY1832-262": 1194244
     },
@@ -11211,7 +11553,8 @@
       "3.0.4-261": 1187673,
       "3.0.4-262": 1187667,
       "3.1.0-261": 1200750,
-      "3.1.0-262": 1200753
+      "3.1.0-262": 1200753,
+      "3.1.0-263": 1213828
     }
   }
 }

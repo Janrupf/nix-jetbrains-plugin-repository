@@ -45,13 +45,47 @@
       "since": "223.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1216750": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35099/1216750/SauceLabs-IntelliJ-1.0.3.zip?updateId=1216750&pluginId=35099&family=INTELLIJ",
+      "sha256": "My8fW6cHWkqnMsPfxyhyRcJ+GE4+2jKf803ph4SEQP0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "SauceLabs-IntelliJ-1.0.3.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1222707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35099/1222707/Sauce_Labs-1.0.4.zip?updateId=1222707&pluginId=35099&family=INTELLIJ",
+      "sha256": "xxybXGJQQUB6IZpCttum/g+NsR0aaF651By/T98x2uE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "Sauce_Labs-1.0.4.zip",
+      "since": "223.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1193708,
       "1.0.1": 1205979,
-      "1.0.2": 1211824
+      "1.0.2": 1211824,
+      "1.0.3": 1216750,
+      "1.0.4": 1222707
     }
   }
 }

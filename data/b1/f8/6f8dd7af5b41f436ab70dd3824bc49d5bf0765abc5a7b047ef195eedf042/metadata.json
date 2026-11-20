@@ -173,6 +173,43 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1219063": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30153/1219063/flexible-tailwind-2026.1.8.zip?updateId=1219063&pluginId=30153&family=INTELLIJ",
+      "sha256": "KSAsQp0YXbX8zfniJdA0Z03/UdzkcyOBHPAiVA6v6Z8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.css",
+        "com.intellij.modules.jcef",
+        "JavaScript"
+      ],
+      "file_name": "flexible-tailwind-2026.1.8.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1219064": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30153/1219064/flexible-tailwind-2026.1.8-243.zip?updateId=1219064&pluginId=30153&family=INTELLIJ",
+      "sha256": "pKwtn3ZgIkETuNG2khyeyDXD+EpRZb+5e2ydm6dni5g=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.xml",
+        "com.intellij.css",
+        "JavaScript",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "flexible-tailwind-2026.1.8-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -186,7 +223,9 @@
       "2026.1.6": 1193178,
       "2026.1.6-243": 1193179,
       "2026.1.7": 1209898,
-      "2026.1.7-243": 1209900
+      "2026.1.7-243": 1209900,
+      "2026.1.8": 1219063,
+      "2026.1.8-243": 1219064
     }
   }
 }

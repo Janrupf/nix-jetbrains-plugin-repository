@@ -31,12 +31,28 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1223125": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35508/1223125/35508.zip?updateId=1223125&pluginId=35508&family=INTELLIJ",
+      "sha256": "6nRIKCnH4D6ri429a5vfeW+BIGyPamLdawXdefDnNCg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "35508.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1203516,
-      "1.0.1": 1203517
+      "1.0.1": 1203517,
+      "1.0.2": 1223125
     }
   }
 }

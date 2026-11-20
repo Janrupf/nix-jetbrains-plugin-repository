@@ -38,8 +38,8 @@
       "channel": "beta",
       "dependencies": [
         "com.intellij.modules.platform",
-        "org.jetbrains.plugins.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [],
       "file_name": "stonecutter-dev-0.1.0-beta.3.zip",
@@ -52,9 +52,9 @@
       "sha256": "bvt3tmrJO1gulKpbBDHzsiioKln56TnvbCwjAxISsRc=",
       "channel": "beta",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
         "org.jetbrains.plugins.gradle",
-        "com.intellij.modules.java"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "stonecutter-dev-0.1.0-beta.4.zip",
@@ -67,9 +67,9 @@
       "sha256": "6CHMoqCdnbbC47S1KKU6RkBTMSuDpCj0ZLtMVpjxivw=",
       "channel": "beta",
       "dependencies": [
+        "com.intellij.modules.java",
         "com.intellij.modules.platform",
-        "org.jetbrains.plugins.gradle",
-        "com.intellij.modules.java"
+        "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [],
       "file_name": "stonecutter-dev-0.1.0-beta.5.zip",
@@ -83,8 +83,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "stonecutter-intellij-0.1.0.zip",
@@ -97,8 +97,8 @@
       "sha256": "cYnSGnEPxl0lmgjzV75BvNiT0AC/Vngqq1t4ZFa7xMk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [],
@@ -113,8 +113,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "stonecutter-intellij-0.1.2.zip",
@@ -128,8 +128,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "stonecutter-intellij-0.1.3.zip",
@@ -143,8 +143,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "stonecutter-intellij-0.2.zip",
@@ -157,8 +157,8 @@
       "sha256": "o044m7Kt80YCEQaY5E/6rm1pb2oO8hlLe5NyH3fxLKk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [],
@@ -172,8 +172,8 @@
       "sha256": "bBrFkRM/ooTBAufJmzNRJlBtl8AbOJS/3NCc5HCQ6x0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "org.jetbrains.plugins.gradle"
       ],
       "optional_dependencies": [],
@@ -1774,6 +1774,66 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1218707": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25044/1218707/2026.2-0.24.0_intellij.262.zip?updateId=1218707&pluginId=25044&family=INTELLIJ",
+      "sha256": "gzK7l5ccKvTsjzBqLrA+vspudyYKWkHbN4aYqtaoGbQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.toml.lang",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "2026.2-0.24.0_intellij.262.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1218708": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25044/1218708/2025.3-0.24.0_intellij.253.zip?updateId=1218708&pluginId=25044&family=INTELLIJ",
+      "sha256": "lFQaPz1+fla5WpuATmKEw08+mILVFOMHyc16HGB4ftA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.toml.lang",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "2025.3-0.24.0_intellij.253.zip",
+      "since": "253.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1218709": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25044/1218709/2026.3-0.24.0_intellij.263.zip?updateId=1218709&pluginId=25044&family=INTELLIJ",
+      "sha256": "sp8IA6JyO3TCslXBaewX09TG92s8P9cjXWobQGVe2vo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.json",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.java"
+      ],
+      "optional_dependencies": [
+        "org.toml.lang",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "file_name": "2026.3-0.24.0_intellij.263.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1852,6 +1912,9 @@
       "0.23.2+intellij.253": 1212370,
       "0.23.2+intellij.262": 1212371,
       "0.23.2+intellij.263": 1212369,
+      "0.24.0+intellij.253": 1218708,
+      "0.24.0+intellij.262": 1218707,
+      "0.24.0+intellij.263": 1218709,
       "0.3.0": 780268,
       "0.3.1": 780281,
       "0.4.0": 788765,

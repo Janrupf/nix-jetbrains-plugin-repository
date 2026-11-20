@@ -27,12 +27,26 @@
       "since": "242.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1223126": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35509/1223126/35509.zip?updateId=1223126&pluginId=35509&family=INTELLIJ",
+      "sha256": "ng11UpHybkQDyLzOXAc4E2DDDQRIWvC9ZXLj7whBm30=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "35509.zip",
+      "since": "242.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1203518,
-      "1.0.1": 1203519
+      "1.0.1": 1203519,
+      "1.0.2": 1223126
     }
   }
 }

@@ -21,8 +21,8 @@
       "sha256": "lRzXQl/3RoemU9izeej4pEf0FCspdkVFY+yM1E61wcA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.1.zip",
@@ -49,8 +49,8 @@
       "sha256": "/O+vI2CEvfeVVXz0IB6VNTOJisoEt6Y67YUD/uPtbHk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.3.zip",
@@ -63,8 +63,8 @@
       "sha256": "0n9twbI7hhnf+Lw4WogW0qVJF2ZY9/uswVcS0LJ3r3w=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.4.zip",
@@ -77,8 +77,8 @@
       "sha256": "sqRZtwP0yAvp6Uvx4N4Xr7sQwA/5O8WNHlSMEq5vQLM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.5.zip",
@@ -91,8 +91,8 @@
       "sha256": "1132JUgvr54HfdyLbIS6qFhJklZzIMZ90vwKm5eZjdw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.6.zip",
@@ -119,8 +119,8 @@
       "sha256": "oSa82U81iefIE+qo4ilsbdFklxdAsvPTcelqk0fLwxQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.8.zip",
@@ -133,8 +133,8 @@
       "sha256": "EHigI7jIBxJvJYrSWHfMhZSUIAyfzHdHBj3PYR0USRg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.9.zip",
@@ -161,8 +161,8 @@
       "sha256": "IH2CewuthwqlOI5DD3gslevFugqyQh0fMj23HvJliCg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.11.zip",
@@ -175,8 +175,8 @@
       "sha256": "SOVAZ5r56Mo1ubAIh0/+xlGgQH7w0M/45dlJlfovgS8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.0.12.zip",
@@ -189,8 +189,8 @@
       "sha256": "dHGxlsrL5wdgYkzY6OtfGsJZ7PZ2NmkECVBQdSC/eME=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-swaggerhub-1.1.0.zip",
@@ -285,6 +285,22 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1213789": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/16926/1213789/intellij-swaggerhub-1.2.5.zip?updateId=1213789&pluginId=16926&family=INTELLIJ",
+      "sha256": "8gBWVW4eUP9R78MeWDXFdMVMVk4Im/+X5Fp82x1QFzA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-swaggerhub-1.2.5.zip",
+      "since": "262.1",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -308,7 +324,8 @@
       "1.2.1": 780040,
       "1.2.2": 835279,
       "1.2.3": 883733,
-      "1.2.4": 1070625
+      "1.2.4": 1070625,
+      "1.2.5": 1213789
     }
   }
 }

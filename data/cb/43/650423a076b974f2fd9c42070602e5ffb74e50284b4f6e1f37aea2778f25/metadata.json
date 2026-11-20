@@ -64,13 +64,63 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1214216": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35606/1214216/gitea-pr-and-actions-for-intellij-1.0.3.zip?updateId=1214216&pluginId=35606&family=INTELLIJ",
+      "sha256": "FbgVjV1uxIQNtT+1w6TwHjk1DMunqvoGKzBpMLEhISI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs",
+        "intellij.platform.vcs.dvcs",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.vcs.dvcs.impl",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.vcs",
+        "com.intellij.tasks",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.platform.tasks"
+      ],
+      "file_name": "gitea-pr-and-actions-for-intellij-1.0.3.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1217132": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35606/1217132/gitea-pr-and-actions-for-intellij-1.0.4.zip?updateId=1217132&pluginId=35606&family=INTELLIJ",
+      "sha256": "bfUJ1nIUXff5h2bSLuVvMP2k63hSUh8XejFPf2jcAIo=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.vcs.dvcs.impl",
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.platform.tasks",
+        "com.intellij.tasks",
+        "com.intellij.platform.vcs"
+      ],
+      "file_name": "gitea-pr-and-actions-for-intellij-1.0.4.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1205590,
       "1.0.1": 1209338,
-      "1.0.2": 1212203
+      "1.0.2": 1212203,
+      "1.0.3": 1214216,
+      "1.0.4": 1217132
     }
   }
 }

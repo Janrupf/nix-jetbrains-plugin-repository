@@ -1,6 +1,56 @@
 {
   "xml_id": "dev.MikhailShad.nuXmv-plugin",
-  "numeric_id": 27383,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 27583,
+  "updates": {
+    "769879": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27583/769879/nuXmv-plugin-0.0.2_IJ.242.zip?updateId=769879&pluginId=27583&family=INTELLIJ",
+      "sha256": "P8v7+ZAnEw4SJSjN5iGVOfrZr86L6ahLTFZd14oyiq8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nuXmv-plugin-0.0.2_IJ.242.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "1056139": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27583/1056139/nuXmv-plugin-0.0.3.zip?updateId=1056139&pluginId=27583&family=INTELLIJ",
+      "sha256": "t6bnLZhWw9L35RuJlYbs/h4DwRlqAmUQW69+c6zkiq0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nuXmv-plugin-0.0.3.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1199743": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27583/1199743/nuXmv-plugin-0.1.0.zip?updateId=1199743&pluginId=27583&family=INTELLIJ",
+      "sha256": "hQq9BaF6NnWkjpzH5Y9MjnnD/Iqz6pCxSfYZBkuOL5Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "nuXmv-plugin-0.1.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.2+IJ.242": 769879,
+      "0.0.3": 1056139,
+      "0.1.0": 1199743
+    }
+  }
 }

@@ -1,6 +1,38 @@
 {
   "xml_id": "com.searchfinder",
-  "numeric_id": 30289,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 30305,
+  "updates": {
+    "963207": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30305/963207/SearchFinder-1.0.0.zip?updateId=963207&pluginId=30305&family=INTELLIJ",
+      "sha256": "x8/73iAqdDUv+/JxOSb3cW/6NFd/n8AyMamzxrcc0s4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SearchFinder-1.0.0.zip",
+      "since": "233.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "969641": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/30305/969641/SearchFinder-2.0.0.zip?updateId=969641&pluginId=30305&family=INTELLIJ",
+      "sha256": "QfNzLpEDwYW2as7alnGtd+0w5WYCxBQdDK8/+SV7FX0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "SearchFinder-2.0.0.zip",
+      "since": "233.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 963207,
+      "2.0.0": 969641
+    }
+  }
 }

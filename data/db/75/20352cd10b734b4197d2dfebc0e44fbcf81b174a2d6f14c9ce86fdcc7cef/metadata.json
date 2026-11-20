@@ -35,35 +35,68 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1213312": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35639/1213312/revue-1.1.zip?updateId=1213312&pluginId=35639&family=INTELLIJ",
-      "sha256": "FO+1/OrYq+mv1GFyWGazWV/+/aawElgZoXDFL8aCxYA=",
+    "1214180": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35639/1214180/revue-1.1.zip?updateId=1214180&pluginId=35639&family=INTELLIJ",
+      "sha256": "ZjfUtxoo82kxsdx9SiBleUqJRSO6BpMYCa0BJhDI97Q=",
       "channel": "stable",
       "dependencies": [
-        "intellij.platform.jewel.markdown.extensions.autolink",
-        "Git4Idea",
-        "intellij.platform.vcs.log.graph",
-        "intellij.platform.jewel.markdown.extensions.images",
-        "intellij.platform.vcs.log",
-        "intellij.platform.jewel.markdown.extensions.gfmTables",
-        "intellij.platform.jewel.ideLafBridge",
-        "intellij.platform.jewel.ui",
-        "com.intellij.modules.platform",
+        "intellij.platform.vcs.dvcs.impl",
         "intellij.platform.collaborationTools",
-        "intellij.platform.jewel.foundation",
-        "intellij.libraries.skiko",
-        "intellij.libraries.compose.foundation.desktop",
-        "intellij.platform.jewel.markdown.core",
         "intellij.libraries.ktor.client",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.vcs.log.graph",
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.libraries.coil",
+        "intellij.platform.vcs.log",
         "intellij.platform.vcs.dvcs",
         "intellij.platform.vcs.log.impl",
-        "intellij.libraries.ktor.client.cio",
+        "intellij.platform.jewel.markdown.extensions.images",
         "intellij.platform.jewel.markdown.ideLafBridgeStyling",
-        "intellij.platform.vcs.dvcs.impl",
-        "intellij.libraries.coil"
+        "intellij.libraries.ktor.client.cio",
+        "intellij.libraries.skiko",
+        "intellij.platform.jewel.markdown.extensions.autolink",
+        "intellij.libraries.compose.foundation.desktop"
       ],
       "optional_dependencies": [],
       "file_name": "revue-1.1.zip",
+      "since": "262.10968",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1221501": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35639/1221501/revue-1.2.0.zip?updateId=1221501&pluginId=35639&family=INTELLIJ",
+      "sha256": "Fv0r2zTmHpH2MFD1NRbPga8RSjSTGvWwqVgQqG5+M58=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jewel.markdown.extensions.autolink",
+        "intellij.platform.vcs.dvcs.impl",
+        "Git4Idea",
+        "intellij.platform.vcs.log.graph",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.platform.vcs.dvcs",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.markdown.extensions.gfmTables",
+        "intellij.platform.jewel.markdown.extensions.images",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.jewel.foundation",
+        "intellij.libraries.coil",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.vcs.log.impl",
+        "intellij.libraries.ktor.client",
+        "intellij.platform.vcs.log",
+        "intellij.libraries.ktor.client.cio",
+        "intellij.platform.jewel.ideLafBridge"
+      ],
+      "optional_dependencies": [],
+      "file_name": "revue-1.2.0.zip",
       "since": "262.10968",
       "until": null,
       "compatibility_overrides": []
@@ -72,7 +105,8 @@
   "channels": {
     "stable": {
       "1.0": 1206265,
-      "1.1": 1213312
+      "1.1": 1214180,
+      "1.2.0": 1221501
     }
   }
 }

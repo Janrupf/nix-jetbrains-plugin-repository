@@ -1,6 +1,42 @@
 {
   "xml_id": "org.netrexx.lsp4nrx",
-  "numeric_id": 35231,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 35312,
+  "updates": {
+    "1198768": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35312/1198768/lsp4nrx-1.0.4.zip?updateId=1198768&pluginId=35312&family=INTELLIJ",
+      "sha256": "KRyNqUyjg4QQ1+KClA/Wq1Ob4Fm1WtBmc94aM6O4+F4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij",
+        "org.jetbrains.plugins.textmate"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lsp4nrx-1.0.4.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1201300": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35312/1201300/lsp4nrx-1.0.5.zip?updateId=1201300&pluginId=35312&family=INTELLIJ",
+      "sha256": "ko55KWU1URB3scnq6TfgFvJU66eJJzGRdfOFYNlYl0k=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.textmate",
+        "com.intellij.modules.platform",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [],
+      "file_name": "lsp4nrx-1.0.5.zip",
+      "since": "252.25557",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.4": 1198768,
+      "1.0.5": 1201300
+    }
+  }
 }

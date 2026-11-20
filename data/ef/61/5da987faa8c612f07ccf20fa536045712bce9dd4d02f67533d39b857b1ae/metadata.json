@@ -7,11 +7,11 @@
       "sha256": "5QYXJd+Q6q17HeJI0JgzwmGb9gjJo9XvCb37cMd/+vE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java",
-        "com.intellij.modules.lang",
         "org.jetbrains.idea.maven",
-        "com.intellij.gradle"
+        "com.intellij.modules.platform",
+        "com.intellij.gradle",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-maven-project-version-plugin.maven-update-2.2.2.1.zip",
@@ -24,11 +24,11 @@
       "sha256": "MBJ6/U64Wo28h1eSwTjOIuh4P4ZWbRp5yxg9hldQGBc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
         "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.gradle"
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-maven-project-version-plugin.maven-update-2.2.1.1.zip",
@@ -41,11 +41,11 @@
       "sha256": "/c+K44DpnZEeGjuU9D/Dl3/GXxTreoLC6hRomt2oDJs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.java",
         "com.intellij.modules.lang",
         "org.jetbrains.idea.maven",
-        "com.intellij.gradle"
+        "com.intellij.gradle",
+        "com.intellij.java",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "intellij-maven-project-version-plugin.maven-update-2.2.3.1.zip",
@@ -1148,16 +1148,73 @@
       "since": "191.0",
       "until": "221.*",
       "compatibility_overrides": []
+    },
+    "1217878": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/1217878/intellij-maven-project-version-plugin.maven-update-2.10.1-1111.zip?updateId=1217878&pluginId=27628&family=INTELLIJ",
+      "sha256": "DoOxtt8fS9+r5b2c3fMfU0wtbBCUjLwI88eYNEpKUT4=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
+        "Git4Idea",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.10.1-1111.zip",
+      "since": "191.0",
+      "until": "221.*",
+      "compatibility_overrides": []
+    },
+    "1217885": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/1217885/intellij-maven-project-version-plugin.maven-update-2.10.2-1111.zip?updateId=1217885&pluginId=27628&family=INTELLIJ",
+      "sha256": "Nvnk1SjdP6JSmmM2Ai9TxWnD68EbRglQJ+iWCUSmX9k=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.10.2-1111.zip",
+      "since": "222.0",
+      "until": "232.*",
+      "compatibility_overrides": []
+    },
+    "1217893": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27628/1217893/intellij-maven-project-version-plugin.maven-update-2.10.3-1111.zip?updateId=1217893&pluginId=27628&family=INTELLIJ",
+      "sha256": "S9yhxiGdf3OU5dZpbamW51BcYxt8lJSGZMSxg4vbtPU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "Git4Idea",
+        "com.intellij.modules.lang",
+        "com.intellij.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "intellij-maven-project-version-plugin.maven-update-2.10.3-1111.zip",
+      "since": "233.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.10.1-1012": 1191877,
       "2.10.1-1015": 1195010,
+      "2.10.1-1111": 1217878,
       "2.10.2-1012": 1191883,
       "2.10.2-1015": 1194998,
+      "2.10.2-1111": 1217885,
       "2.10.3-1012": 1191884,
       "2.10.3-1015": 1194995,
+      "2.10.3-1111": 1217893,
       "2.2.1.1": 775168,
       "2.2.2.1": 773031,
       "2.2.3.1": 775178,

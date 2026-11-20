@@ -11,11 +11,11 @@
       ],
       "optional_dependencies": [
         "intellij.aiplayground.models",
-        "intellij.platform.compose",
-        "intellij.aiplayground.settings",
-        "intellij.aiplayground.langchain",
         "intellij.libraries.ktor.client",
-        "PythonCore"
+        "intellij.aiplayground.settings",
+        "intellij.platform.compose",
+        "PythonCore",
+        "intellij.aiplayground.langchain"
       ],
       "file_name": "aiplayground-252.13776.59.zip",
       "since": "252.13776",
@@ -30,11 +30,11 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "intellij.aiplayground.models",
-        "intellij.platform.compose",
-        "intellij.aiplayground.settings",
         "intellij.aiplayground.langchain",
+        "intellij.platform.compose",
+        "intellij.aiplayground.models",
         "intellij.libraries.ktor.client",
+        "intellij.aiplayground.settings",
         "PythonCore"
       ],
       "file_name": "aiplayground-252.13776.56.zip",
@@ -50,12 +50,12 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "intellij.aiplayground.models",
-        "intellij.platform.compose",
-        "intellij.aiplayground.settings",
-        "intellij.aiplayground.langchain",
         "intellij.libraries.ktor.client",
-        "PythonCore"
+        "intellij.aiplayground.settings",
+        "intellij.aiplayground.models",
+        "PythonCore",
+        "intellij.aiplayground.langchain",
+        "intellij.platform.compose"
       ],
       "file_name": "aiplayground-252.13776.55.zip",
       "since": "252.13776",
@@ -69,13 +69,13 @@
       "dependencies": [
         "com.intellij.modules.platform",
         "intellij.aiplayground.models",
-        "intellij.platform.compose",
-        "intellij.aiplayground.settings"
+        "intellij.aiplayground.settings",
+        "intellij.platform.compose"
       ],
       "optional_dependencies": [
         "intellij.aiplayground.langchain",
-        "intellij.libraries.ktor.client",
-        "PythonCore"
+        "PythonCore",
+        "intellij.libraries.ktor.client"
       ],
       "file_name": "aiplayground-252.16512.17.zip",
       "since": "252.16512",
@@ -87,15 +87,15 @@
       "sha256": "NYGdQM2iiWJUa7taWj5tOUPzd1bWqSOPm6A7jBCzwcw=",
       "channel": "stable",
       "dependencies": [
+        "intellij.aiplayground.settings",
         "com.intellij.modules.platform",
         "intellij.aiplayground.models",
-        "intellij.platform.compose",
-        "intellij.aiplayground.settings"
+        "intellij.platform.compose"
       ],
       "optional_dependencies": [
+        "PythonCore",
         "intellij.aiplayground.langchain",
-        "intellij.libraries.ktor.client",
-        "PythonCore"
+        "intellij.libraries.ktor.client"
       ],
       "file_name": "aiplayground-252.18003.27.zip",
       "since": "252.18003",
@@ -107,10 +107,10 @@
       "sha256": "G4C3jBmK2BZeOEWzcDsrha0IjqXJoppDd9xr+KpzwqQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "intellij.aiplayground.models",
         "intellij.platform.compose",
-        "intellij.aiplayground.settings"
+        "intellij.aiplayground.settings",
+        "com.intellij.modules.platform",
+        "intellij.aiplayground.models"
       ],
       "optional_dependencies": [
         "intellij.aiplayground.langchain",
@@ -127,15 +127,15 @@
       "sha256": "PCvOl6+KF8z8icyWUtQpzynSKK67LJj0PJPK3qWj4qo=",
       "channel": "stable",
       "dependencies": [
+        "intellij.platform.compose",
         "com.intellij.modules.platform",
         "intellij.aiplayground.models",
-        "intellij.platform.compose",
         "intellij.aiplayground.settings"
       ],
       "optional_dependencies": [
-        "intellij.aiplayground.langchain",
+        "PythonCore",
         "intellij.libraries.ktor.client",
-        "PythonCore"
+        "intellij.aiplayground.langchain"
       ],
       "file_name": "aiplayground-252.21735.27.zip",
       "since": "252.21735",
@@ -168,14 +168,14 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "intellij.aiplayground.models",
         "intellij.platform.compose",
-        "intellij.aiplayground.settings"
+        "intellij.aiplayground.settings",
+        "intellij.aiplayground.models"
       ],
       "optional_dependencies": [
         "intellij.aiplayground.langchain",
-        "intellij.libraries.ktor.client",
-        "PythonCore"
+        "PythonCore",
+        "intellij.libraries.ktor.client"
       ],
       "file_name": "aiplayground-252.23591.19.zip",
       "since": "252.23591",
@@ -3360,6 +3360,54 @@
       "since": "253.33813",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1219657": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27370/1219657/aiplayground-262.12573.28.zip?updateId=1219657&pluginId=27370&family=INTELLIJ",
+      "sha256": "EvdYOVV0HnYDYvSQkVpsXBh7BzvdVqckLHryBVgjWPs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.ultimate",
+        "intellij.platform.compose",
+        "intellij.aiplayground.models",
+        "intellij.aiplayground.settings",
+        "intellij.libraries.compose.foundation.desktop",
+        "com.intellij.modules.python-pro-capable"
+      ],
+      "optional_dependencies": [
+        "intellij.aiplayground.langchain",
+        "intellij.libraries.ktor.client",
+        "com.intellij.modules.python",
+        "intellij.libraries.kotlinx.io",
+        "intellij.aiplayground.ui"
+      ],
+      "file_name": "aiplayground-262.12573.28.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1219797": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27370/1219797/aiplayground-262.12573.39.zip?updateId=1219797&pluginId=27370&family=INTELLIJ",
+      "sha256": "tMqbz1ne824I1Fw+xh+VeyFd2vnkvaJUssfBV09kySM=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.aiplayground.models",
+        "intellij.aiplayground.settings",
+        "com.intellij.modules.ultimate",
+        "intellij.libraries.compose.foundation.desktop",
+        "intellij.platform.compose",
+        "com.intellij.modules.python-pro-capable"
+      ],
+      "optional_dependencies": [
+        "intellij.aiplayground.ui",
+        "intellij.libraries.kotlinx.io",
+        "intellij.libraries.ktor.client",
+        "intellij.aiplayground.langchain",
+        "com.intellij.modules.python"
+      ],
+      "file_name": "aiplayground-262.12573.39.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3461,6 +3509,8 @@
       "262.10968.63": 1171916,
       "262.10968.92": 1174754,
       "262.11879.100": 1206854,
+      "262.12573.28": 1219657,
+      "262.12573.39": 1219797,
       "262.4852.50": 1041815,
       "262.5752.32": 1048022,
       "262.6228.19": 1052978,

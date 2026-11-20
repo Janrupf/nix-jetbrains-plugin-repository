@@ -17,11 +17,47 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1217280": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35771/1217280/GitDiffGraph-2026.1.0.zip?updateId=1217280&pluginId=35771&family=INTELLIJ",
+      "sha256": "6/QlN34eAzKIK6LzBAnNRo9r8JBxWteMPupH4Jdj3oM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GitDiffGraph-2026.1.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1218105": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35771/1218105/GitDiffGraph-2026.2.0.zip?updateId=1218105&pluginId=35771&family=INTELLIJ",
+      "sha256": "odUlgp6a7EzmMlvRQaznzwEubYzREoa+Eltu58fHCPQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.jcef",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "GitDiffGraph-2026.2.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.11.1": 1211289
+      "0.11.1": 1211289,
+      "2026.1.0": 1217280,
+      "2026.2.0": 1218105
     }
   }
 }

@@ -1,6 +1,43 @@
 {
   "xml_id": "org.bigsy.integrantnavigator",
-  "numeric_id": 27417,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 27456,
+  "updates": {
+    "770191": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27456/770191/integrant-navigator-0.0.3.zip?updateId=770191&pluginId=27456&family=INTELLIJ",
+      "sha256": "SXnTMZSf4OncbKSsEPQdw8nxNOdtT8DqOx8xIAtKdSk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "com.cursiveclojure.cursive"
+      ],
+      "file_name": "integrant-navigator-0.0.3.zip",
+      "since": "241.0",
+      "until": "243.*",
+      "compatibility_overrides": []
+    },
+    "775191": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27456/775191/integrant-navigator-0.0.5.zip?updateId=775191&pluginId=27456&family=INTELLIJ",
+      "sha256": "nHtfqRaOu7QpJ3vf2BxwRt/pNq87GmUQ2qNXNRJtoM4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.cursiveclojure.cursive"
+      ],
+      "file_name": "integrant-navigator-0.0.5.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.0.3": 770191,
+      "0.0.5": 775191
+    }
+  }
 }

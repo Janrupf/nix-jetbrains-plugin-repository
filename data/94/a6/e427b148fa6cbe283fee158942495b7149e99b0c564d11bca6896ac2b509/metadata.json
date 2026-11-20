@@ -1,6 +1,44 @@
 {
   "xml_id": "dev.lumenfx.lumen",
-  "numeric_id": 33557,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 33856,
+  "updates": {
+    "1152942": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33856/1152942/jetbrains-lumen-0.1.1.zip?updateId=1152942&pluginId=33856&family=INTELLIJ",
+      "sha256": "YWpdB2rxz9Khaa9ApbNwbBWGiPPH5uuCLsJGH6QLspg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "jetbrains-lumen-0.1.1.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1176446": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33856/1176446/jetbrains-lumen-0.1.2.zip?updateId=1176446&pluginId=33856&family=INTELLIJ",
+      "sha256": "9D5Dy5CXjyRserQfDmQRfSY5acDg+xnJZfCAIZFGOLc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.redhat.devtools.lsp4ij",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "jetbrains-lumen-0.1.2.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.1": 1152942,
+      "0.1.2": 1176446
+    }
+  }
 }

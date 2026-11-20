@@ -7,9 +7,9 @@
       "sha256": "Z33j22EgxBCKAGUH/5+2Gd8q4tq2pCuuZTvjHE3jxJg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
+        "com.jetbrains.sh",
         "com.intellij.modules.platform",
-        "com.jetbrains.sh"
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "idf-for-clion-0.1-beta.zip",
@@ -22,9 +22,9 @@
       "sha256": "MT5rGstzQUp31liY6l9MNJTQQh8E2LS990bOr7UqoeU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
         "com.intellij.modules.platform",
-        "com.jetbrains.sh"
+        "com.jetbrains.sh",
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "idf-for-clion-0.2-beta.zip",
@@ -52,9 +52,9 @@
       "sha256": "5exNcYHiihiWQqo6ywibDsPWePIgMfAAHGCGLRU42SM=",
       "channel": "pre",
       "dependencies": [
-        "com.intellij.modules.clion",
+        "com.jetbrains.sh",
         "com.intellij.modules.platform",
-        "com.jetbrains.sh"
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "idf-for-clion-0.21.1.zip",
@@ -67,9 +67,9 @@
       "sha256": "5exNcYHiihiWQqo6ywibDsPWePIgMfAAHGCGLRU42SM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
+        "com.jetbrains.sh",
         "com.intellij.modules.platform",
-        "com.jetbrains.sh"
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "idf-for-clion-0.21.1.zip",
@@ -112,9 +112,9 @@
       "sha256": "79JCujWTM6fdihBgYUUBl5f927Dgfj+QHpuLf61XDTo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.clion",
         "com.intellij.modules.platform",
-        "com.jetbrains.sh"
+        "com.jetbrains.sh",
+        "com.intellij.modules.clion"
       ],
       "optional_dependencies": [],
       "file_name": "idf-for-clion-0.4.1.zip",
@@ -127,9 +127,9 @@
       "sha256": "I8l/ocPIt2rGrEmnwsHbRFG1RPvv4GlDSftdJS6P44M=",
       "channel": "stable",
       "dependencies": [
+        "com.jetbrains.sh",
         "com.intellij.modules.clion",
-        "com.intellij.modules.platform",
-        "com.jetbrains.sh"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "idf-for-clion-0.4.2.zip",
@@ -309,6 +309,25 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1219048": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23886/1219048/idf-for-clion.zip?updateId=1219048&pluginId=23886&family=INTELLIJ",
+      "sha256": "jN8vnf7XFPhETlcUTpBg6n4D+kFXxo0ODWr/ahzzy/E=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.jcef",
+        "com.intellij.clion.embedded",
+        "com.jetbrains.sh"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idf-for-clion.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -334,7 +353,8 @@
       "0.8.0": 1044596,
       "0.8.1": 1090195,
       "0.9": 1109303,
-      "0.9.1": 1188920
+      "0.9.1": 1188920,
+      "0.9.2": 1219048
     }
   }
 }

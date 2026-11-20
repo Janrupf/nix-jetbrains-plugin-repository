@@ -404,9 +404,9 @@
       "sha256": "3p8L93gN8iGAylQLukQrls8UbpivHWT8nrsvwGQsbKA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "google-java-format.zip",
@@ -419,9 +419,9 @@
       "sha256": "8AE2lax/tb2Qyl7TorjAChr1MgPQyW8/nkoErkqoCKo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "google-java-format.zip",
@@ -435,8 +435,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "google-java-format.zip",
@@ -464,9 +464,9 @@
       "sha256": "hqpdYTe+1NUlCYRrnPYHi8qD8FNH3E16BmNTYmghigM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "google-java-format.zip",
@@ -494,9 +494,9 @@
       "sha256": "HysKirmb6BhY/XviTccafd4JqbPmen4c161++bOsCzA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "google-java-format.zip",
@@ -509,9 +509,9 @@
       "sha256": "nkb1A4LgJrf+X9gKiSk/53LoGRPhXM2JX1uKdImKmo4=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.platform",
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "google-java-format.zip",
@@ -539,8 +539,8 @@
       "sha256": "7sgGkrdjfgkijrErpsnvRa10NsYQ6pV7SeySEfHiRWY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
         "com.intellij.modules.lang",
+        "com.intellij.modules.java",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
@@ -554,9 +554,9 @@
       "sha256": "Pz4dLcDNGLfhJ395zzE6FGqajqFwLrGxuFkmZKSVHHw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "idea_plugin.zip",
@@ -569,9 +569,9 @@
       "sha256": "3BFhqkmyzcJwarpamFhtiSdOzgPHvLCuAf7k9Y/vQ4c=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "idea_plugin.zip",
@@ -584,9 +584,9 @@
       "sha256": "M4f8pHLb9HItMNBmRKsK7q1JwQqAnLUVtJw0wUeOf+A=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.java"
       ],
       "optional_dependencies": [],
       "file_name": "idea_plugin.zip",
@@ -600,8 +600,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "idea_plugin.zip",
@@ -615,8 +615,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.java",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "idea_plugin.zip",
@@ -773,6 +773,21 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1213804": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/8527/1213804/idea_plugin.zip?updateId=1213804&pluginId=8527&family=INTELLIJ",
+      "sha256": "nemDuio+Q0A8/JdIEzRjcUwSLXC2fBRudRgKWhNGOXI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea_plugin.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -831,7 +846,8 @@
       "1.8.0.2": 115958,
       "1.9.0.0": 97203,
       "1.9.0.1": 115960,
-      "2.0.0.0": 1208148
+      "2.0.0.0": 1208148,
+      "2.0.0.1": 1213804
     }
   }
 }

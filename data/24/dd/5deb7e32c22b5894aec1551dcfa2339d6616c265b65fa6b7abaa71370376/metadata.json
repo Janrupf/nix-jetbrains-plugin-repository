@@ -21,8 +21,8 @@
       "sha256": "xaJmu7MLJMg2U7m1RR3n3mcIiIc3gzbRRZ/6lqgd/kk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "TeamCity_IntelliJ_Plugin-241.1.0.zip",
@@ -35,8 +35,8 @@
       "sha256": "71AmM13X9nrSJ2kaa9SBYRrfBAiRZmOSD9sb3YXz9PE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "TeamCity_IntelliJ_Plugin-243.1.0.zip",
@@ -49,8 +49,8 @@
       "sha256": "JLl6SxhwoBekT/yOQ6saZ+Rs4EgHCWRy+aL4QaeSK9U=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -65,11 +65,11 @@
       "sha256": "0bycPhH6pzGtYkUffWMMI5tjvgwQVFxRaWK4UXmqIME=",
       "channel": "stable",
       "dependencies": [
+        "intellij.libraries.ktor.client",
+        "com.intellij.modules.platform",
         "intellij.platform.vcs.impl",
         "intellij.platform.vcs.log.impl",
-        "intellij.libraries.ktor.client",
-        "intellij.platform.collaborationTools",
-        "com.intellij.modules.platform"
+        "intellij.platform.collaborationTools"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -84,11 +84,11 @@
       "sha256": "vpY1ZkuiJIIOHiChvwVPb7wZ9SPBBsztJztJISSsc/Q=",
       "channel": "stable",
       "dependencies": [
-        "intellij.platform.vcs.impl",
-        "intellij.platform.vcs.log.impl",
         "intellij.libraries.ktor.client",
         "intellij.platform.collaborationTools",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log.impl"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -103,8 +103,8 @@
       "sha256": "rFxq/DR1xeh8dwcRdZ9P3M+Dk1Lxu5suvAF9DHq156M=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -119,11 +119,11 @@
       "sha256": "vlMpuYWHboolV5dBgNoUEwfGdJvrU7dtQghtNM93tM0=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.platform",
         "intellij.platform.vcs.impl",
         "intellij.platform.vcs.log.impl",
-        "intellij.libraries.ktor.client",
         "intellij.platform.collaborationTools",
-        "com.intellij.modules.platform"
+        "intellij.libraries.ktor.client"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -138,11 +138,11 @@
       "sha256": "HidlgbKZ87PyLly7CD8w7s9zGl0DPkmwOJV6fDHKGII=",
       "channel": "stable",
       "dependencies": [
-        "intellij.platform.vcs.impl",
         "intellij.platform.vcs.log.impl",
-        "intellij.libraries.ktor.client",
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.impl",
         "intellij.platform.collaborationTools",
-        "com.intellij.modules.platform"
+        "intellij.libraries.ktor.client"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -173,11 +173,11 @@
       "sha256": "hP7VTQ1JGCl6rGMFPFaxGPqloRvhG585SKNmF0438pQ=",
       "channel": "stable",
       "dependencies": [
-        "intellij.platform.vcs.impl",
         "intellij.platform.vcs.log.impl",
-        "intellij.libraries.ktor.client",
         "intellij.platform.collaborationTools",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.impl",
+        "intellij.libraries.ktor.client"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -192,11 +192,11 @@
       "sha256": "tNQxRVK/HsEqUxseyDHBqIuZGvqfsiJ4Lda/QaOwJm0=",
       "channel": "stable",
       "dependencies": [
-        "intellij.platform.vcs.impl",
         "intellij.platform.vcs.log.impl",
-        "intellij.libraries.ktor.client",
         "intellij.platform.collaborationTools",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.impl",
+        "intellij.libraries.ktor.client"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -211,11 +211,11 @@
       "sha256": "L68A2Y6uoo6/Z4lx9Qra19kwCLTNTKUoV2Vi6h3Fr3s=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.platform",
         "intellij.platform.vcs.impl",
-        "intellij.platform.vcs.log.impl",
         "intellij.libraries.ktor.client",
-        "intellij.platform.collaborationTools",
-        "com.intellij.modules.platform"
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.collaborationTools"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -230,11 +230,11 @@
       "sha256": "qlb6gVlOEwsrXsh2qAFZZ2SXB/zEI0Efn/xBipugj5c=",
       "channel": "stable",
       "dependencies": [
-        "intellij.platform.vcs.impl",
         "intellij.platform.vcs.log.impl",
-        "intellij.libraries.ktor.client",
+        "intellij.platform.vcs.impl",
+        "com.intellij.modules.platform",
         "intellij.platform.collaborationTools",
-        "com.intellij.modules.platform"
+        "intellij.libraries.ktor.client"
       ],
       "optional_dependencies": [
         "org.jetbrains.plugins.yaml"
@@ -249,10 +249,10 @@
       "sha256": "0p8LoPY0oZ+MgzdWmKz988RX031/Hl4P8Fcwxrzjs+Q=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.json",
-        "com.intellij.modules.vcs"
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "TeamCity_IntelliJ_Plugin-252.1.4-EAP.zip",
@@ -265,10 +265,10 @@
       "sha256": "IAY8n3I1c6tZPAcGYVEp2QdSmhqtKhCIFUqB4Agwypk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.json",
-        "com.intellij.modules.platform",
         "com.intellij.modules.vcs",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "TeamCity_IntelliJ_Plugin-251.1.4.zip",
@@ -281,10 +281,10 @@
       "sha256": "8K8HpgcRArM6cMh5A2QAjTKD2gKfw1ToVomDVk9j5Wg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.vcs",
         "com.intellij.modules.json",
         "org.jetbrains.plugins.yaml",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs"
       ],
       "optional_dependencies": [],
       "file_name": "TeamCity_IntelliJ_Plugin-243.1.4.zip",
@@ -6969,6 +6969,246 @@
       "since": "263.7307",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1216927": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25142/1216927/teamcity-262.12573.12-mac-arm64.zip?updateId=1216927&pluginId=25142&family=INTELLIJ",
+      "sha256": "0aAA1yBUqREBJpxnAn+7Ux5aMF5HZ8V3Prn6EcTPYpw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.vcs.git.backend",
+        "com.intellij.modules.os.mac",
+        "intellij.platform.vcs.log",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log.impl",
+        "intellij.vcs.git.shared",
+        "intellij.platform.testRunner",
+        "Git4Idea",
+        "intellij.libraries.jackson.dataformat.toml",
+        "intellij.platform.collaborationTools",
+        "com.intellij.modules.arch.arm64",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.vcs"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.privacy.shared",
+        "intellij.ml.llm.mcp",
+        "com.jetbrains.intellij.plugin.teamcity",
+        "intellij.teamcity.pipelines.yaml",
+        "intellij.vcs.github",
+        "intellij.llmInstaller",
+        "intellij.libraries.ktor.client",
+        "intellij.ml.llm.chat",
+        "intellij.yaml.backend",
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.privacy"
+      ],
+      "file_name": "teamcity-262.12573.12-mac-arm64.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1216929": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25142/1216929/teamcity-262.12573.12-windows-x86_64.zip?updateId=1216929&pluginId=25142&family=INTELLIJ",
+      "sha256": "PFp/hfNEQdFLf7IATpH64mkAvcttwAnmC+yHPcV2HIw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools.auth.base",
+        "com.intellij.modules.os.windows",
+        "intellij.vcs.git.backend",
+        "intellij.platform.vcs.log",
+        "intellij.libraries.jackson.dataformat.toml",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.vcs.impl",
+        "intellij.vcs.git.shared",
+        "intellij.platform.testRunner",
+        "Git4Idea",
+        "intellij.platform.collaborationTools",
+        "com.intellij.modules.arch.x86_64",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.vcs",
+        "intellij.platform.vcs.dvcs.impl"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.intellij.plugin.teamcity",
+        "intellij.ml.llm.privacy.shared",
+        "intellij.ml.llm.mcp",
+        "intellij.libraries.ktor.client",
+        "intellij.teamcity.pipelines.yaml",
+        "intellij.llmInstaller",
+        "intellij.vcs.github",
+        "intellij.yaml.backend",
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.privacy",
+        "intellij.ml.llm.chat"
+      ],
+      "file_name": "teamcity-262.12573.12-windows-x86_64.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1216932": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25142/1216932/teamcity-262.12573.12-mac-x86_64.zip?updateId=1216932&pluginId=25142&family=INTELLIJ",
+      "sha256": "Qxj5W1dhlICj7CiqJc+Bd1X6CBZ9RVPiiNmEedvL4ak=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools",
+        "intellij.platform.testRunner",
+        "Git4Idea",
+        "intellij.platform.vcs.impl.shared",
+        "com.intellij.modules.arch.x86_64",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.vcs.git.backend",
+        "intellij.platform.vcs",
+        "com.intellij.modules.os.mac",
+        "intellij.platform.vcs.log",
+        "intellij.libraries.jackson.dataformat.toml",
+        "intellij.vcs.git.shared",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log.impl"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.privacy",
+        "intellij.yaml.backend",
+        "intellij.ml.llm.mcp",
+        "com.jetbrains.intellij.plugin.teamcity",
+        "intellij.ml.llm.privacy.shared",
+        "intellij.libraries.ktor.client",
+        "intellij.llmInstaller",
+        "intellij.teamcity.pipelines.yaml",
+        "intellij.vcs.github"
+      ],
+      "file_name": "teamcity-262.12573.12-mac-x86_64.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1216939": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25142/1216939/teamcity-262.12573.12-windows-arm64.zip?updateId=1216939&pluginId=25142&family=INTELLIJ",
+      "sha256": "WMlmNYvOxyAO4IVHyGxRo2LJfr8tOkAXUmjc0Id+s3s=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.vcs.log",
+        "intellij.platform.vcs",
+        "intellij.libraries.jackson.dataformat.toml",
+        "intellij.vcs.git.shared",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.testRunner",
+        "intellij.vcs.git.backend",
+        "Git4Idea",
+        "com.intellij.modules.arch.arm64",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.collaborationTools",
+        "intellij.platform.collaborationTools.auth.base",
+        "com.intellij.modules.os.windows",
+        "intellij.platform.collaborationTools.auth"
+      ],
+      "optional_dependencies": [
+        "intellij.teamcity.pipelines.yaml",
+        "intellij.llmInstaller",
+        "intellij.yaml.backend",
+        "com.jetbrains.intellij.plugin.teamcity",
+        "intellij.vcs.github",
+        "intellij.ml.llm.core",
+        "intellij.libraries.ktor.client",
+        "intellij.ml.llm.privacy.shared",
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.privacy",
+        "intellij.ml.llm.mcp"
+      ],
+      "file_name": "teamcity-262.12573.12-windows-arm64.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1216948": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25142/1216948/teamcity-262.12573.12-linux-arm64.zip?updateId=1216948&pluginId=25142&family=INTELLIJ",
+      "sha256": "798zS5BIXCvP8oUanxQgTRhNUCNggDgUUroSIJr+fG4=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.collaborationTools.auth",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.collaborationTools",
+        "Git4Idea",
+        "intellij.platform.vcs.impl.shared",
+        "com.intellij.modules.arch.arm64",
+        "intellij.platform.vcs.log",
+        "com.intellij.modules.os.linux",
+        "intellij.libraries.jackson.dataformat.toml",
+        "intellij.vcs.git.shared",
+        "intellij.platform.vcs.log.impl",
+        "intellij.vcs.git.backend",
+        "intellij.platform.testRunner",
+        "intellij.platform.vcs"
+      ],
+      "optional_dependencies": [
+        "intellij.libraries.ktor.client",
+        "intellij.vcs.github",
+        "intellij.ml.llm.core",
+        "intellij.ml.llm.mcp",
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.privacy",
+        "intellij.ml.llm.privacy.shared",
+        "intellij.llmInstaller",
+        "intellij.teamcity.pipelines.yaml",
+        "com.jetbrains.intellij.plugin.teamcity",
+        "intellij.yaml.backend"
+      ],
+      "file_name": "teamcity-262.12573.12-linux-arm64.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1216951": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25142/1216951/teamcity-262.12573.12-linux-x86_64.zip?updateId=1216951&pluginId=25142&family=INTELLIJ",
+      "sha256": "LV5rhmX6Ug6iOPNPQh6CO0zd6jUp/HyEX0IhppLQrHk=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.vcs.log",
+        "com.intellij.modules.os.linux",
+        "intellij.vcs.git.shared",
+        "com.intellij.modules.arch.x86_64",
+        "intellij.platform.testRunner",
+        "intellij.libraries.jackson.dataformat.toml",
+        "intellij.platform.vcs",
+        "intellij.vcs.git.backend",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.collaborationTools.auth",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.collaborationTools",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "intellij.ml.llm.privacy",
+        "intellij.llmInstaller",
+        "intellij.teamcity.pipelines.yaml",
+        "com.jetbrains.intellij.plugin.teamcity",
+        "intellij.yaml.backend",
+        "intellij.libraries.ktor.client",
+        "intellij.vcs.github",
+        "intellij.ml.llm.mcp",
+        "intellij.ml.llm.privacy.shared",
+        "intellij.ml.llm.chat",
+        "intellij.ml.llm.core"
+      ],
+      "file_name": "teamcity-262.12573.12-linux-x86_64.zip",
+      "since": "262.12573",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -7015,6 +7255,12 @@
       "262.10968.63-mac-x86_64": 1172005,
       "262.10968.63-windows-arm64": 1171954,
       "262.10968.63-windows-x86_64": 1172002,
+      "262.12573.12-linux-arm64": 1216948,
+      "262.12573.12-linux-x86_64": 1216951,
+      "262.12573.12-mac-arm64": 1216927,
+      "262.12573.12-mac-x86_64": 1216932,
+      "262.12573.12-windows-arm64": 1216939,
+      "262.12573.12-windows-x86_64": 1216929,
       "262.8377.20-linux-arm64": 1086597,
       "262.8377.20-linux-x86_64": 1086588,
       "262.8377.20-mac-arm64": 1086569,

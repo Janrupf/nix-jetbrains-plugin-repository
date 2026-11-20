@@ -359,6 +359,34 @@
       "since": "242.2",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1221903": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29154/1221903/intelli-ai-changelog-2026.3.1000-signed.zip?updateId=1221903&pluginId=29154&family=INTELLIJ",
+      "sha256": "LUZZDr6GfIW8uNAzXvkG06FCf2WUQTZjcZSHjTpDPL8=",
+      "channel": "stable",
+      "dependencies": [
+        "dev.dong4j.zeka.stack.idea.plugin.common.ai",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "intellij.platform.externalSystem",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php",
+        "com.intellij.modules.python",
+        "com.intellij.cidr.lang",
+        "JavaScript",
+        "com.intellij.modules.xml",
+        "com.intellij.java",
+        "com.intellij.modules.ruby",
+        "com.jetbrains.rust",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "intelli-ai-changelog-2026.3.1000-signed.zip",
+      "since": "242.2",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -379,7 +407,8 @@
       "2026.2.1001": 1127364,
       "2026.2.1002": 1130741,
       "2026.2.1003": 1130774,
-      "2026.2.1004": 1181296
+      "2026.2.1004": 1181296,
+      "2026.3.1000": 1221903
     }
   }
 }

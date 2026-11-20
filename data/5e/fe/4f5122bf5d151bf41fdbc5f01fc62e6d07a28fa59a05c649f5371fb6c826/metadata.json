@@ -91,8 +91,8 @@
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "com.intellij.modules.python"
+        "com.intellij.modules.python",
+        "com.intellij.modules.java"
       ],
       "file_name": "ChatCode-1.0.36.223-293_2_.zip",
       "since": "223.0",
@@ -432,6 +432,24 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1216376": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26237/1216376/chatcode.jetbrains-1.2.4_5_.zip?updateId=1216376&pluginId=26237&family=INTELLIJ",
+      "sha256": "iCJNgl1abkXkeQ/57hMKFwc8qjxz0/nEU+xNn4TjqBg=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.platform.kernel.backend",
+        "intellij.terminal.frontend",
+        "chatcode.jetbrains.shared",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.backend"
+      ],
+      "file_name": "chatcode.jetbrains-1.2.4_5_.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -464,7 +482,8 @@
       "1.1.8": 1033098,
       "1.1.9": 1051426,
       "1.2.2": 1183288,
-      "1.2.3": 1200394
+      "1.2.3": 1200394,
+      "1.2.4": 1216376
     }
   }
 }

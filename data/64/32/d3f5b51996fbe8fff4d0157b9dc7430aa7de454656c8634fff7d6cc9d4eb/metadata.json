@@ -1,6 +1,44 @@
 {
   "xml_id": "com.mb.training.karate.pack",
-  "numeric_id": 31440,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 31495,
+  "updates": {
+    "1033994": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31495/1033994/karate-pack-0.1.0.zip?updateId=1033994&pluginId=31495&family=INTELLIJ",
+      "sha256": "oi2wqW1lFI/3B0Q8gpScSO8rUcsLr8IOwtgHaps9TN8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.mb.training.engine"
+      ],
+      "file_name": "karate-pack-0.1.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1034572": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31495/1034572/karate-pack-0.2.0.zip?updateId=1034572&pluginId=31495&family=INTELLIJ",
+      "sha256": "JjQmWTMw1BI1Abex0aSvzrWyO38SGiolfMTQ0aLnwbo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.mb.training.engine"
+      ],
+      "file_name": "karate-pack-0.2.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.1.0": 1033994,
+      "0.2.0": 1034572
+    }
+  }
 }

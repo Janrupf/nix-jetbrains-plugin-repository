@@ -1,6 +1,40 @@
 {
   "xml_id": "com.ahogek.code-time-tracker",
-  "numeric_id": 29367,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 29379,
+  "updates": {
+    "913189": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29379/913189/code-time-tracker-0.8.7.zip?updateId=913189&pluginId=29379&family=INTELLIJ",
+      "sha256": "EPIMSTW7fh4gl9eWSkIBo0vQgAP1FT7/f1vwRfQQWSw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images"
+      ],
+      "optional_dependencies": [],
+      "file_name": "code-time-tracker-0.8.7.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1089335": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29379/1089335/code-time-tracker-0.8.10.zip?updateId=1089335&pluginId=29379&family=INTELLIJ",
+      "sha256": "HWj/fEBe1Fa0VwDRj+IRa7LOsKNRawgaY81+N4DvZPg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.platform.images",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "code-time-tracker-0.8.10.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "0.8.10": 1089335,
+      "0.8.7": 913189
+    }
+  }
 }

@@ -7,16 +7,16 @@
       "sha256": "dlPYzrp+nAGFOdngLWHF59BRU1UwSccoU9ctP1vlBvo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.xml",
         "JavaScript",
         "com.intellij.css",
-        "intellij.webpack",
-        "org.intellij.plugins.postcss"
+        "org.intellij.plugins.postcss",
+        "com.intellij.modules.xml",
+        "intellij.webpack"
       ],
       "optional_dependencies": [
-        "JavaScriptDebugger",
         "org.intellij.plugins.markdown",
         "intellij.prettierJS",
+        "JavaScriptDebugger",
         "com.intellij.copyright"
       ],
       "file_name": "mpxjs.jar",
@@ -29,17 +29,17 @@
       "sha256": "4WoaEL+ztUA+2QIIHz+LKYVSEmye/ylZe+rk13qcBfs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.xml",
-        "JavaScript",
-        "com.intellij.css",
         "intellij.webpack",
-        "org.intellij.plugins.postcss"
+        "com.intellij.modules.xml",
+        "org.intellij.plugins.postcss",
+        "com.intellij.css",
+        "JavaScript"
       ],
       "optional_dependencies": [
         "JavaScriptDebugger",
-        "org.intellij.plugins.markdown",
+        "com.intellij.copyright",
         "intellij.prettierJS",
-        "com.intellij.copyright"
+        "org.intellij.plugins.markdown"
       ],
       "file_name": "mpxjs.jar",
       "since": "241.18034",
@@ -51,17 +51,17 @@
       "sha256": "wSlPNIKXq5XAWFDCIpGMskODHeYtZjOqF+i1qz/NUes=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.xml",
         "JavaScript",
-        "com.intellij.css",
+        "com.intellij.modules.xml",
+        "org.intellij.plugins.postcss",
         "intellij.webpack",
-        "org.intellij.plugins.postcss"
+        "com.intellij.css"
       ],
       "optional_dependencies": [
-        "JavaScriptDebugger",
         "org.intellij.plugins.markdown",
-        "intellij.prettierJS",
-        "com.intellij.copyright"
+        "JavaScriptDebugger",
+        "com.intellij.copyright",
+        "intellij.prettierJS"
       ],
       "file_name": "mpxjs.jar",
       "since": "242.20224",
@@ -73,17 +73,17 @@
       "sha256": "8+c35Lsjacw00584aoPx0aME3sZd37hPq3ybgYBz0kU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.xml",
         "JavaScript",
-        "com.intellij.css",
+        "com.intellij.modules.xml",
+        "org.intellij.plugins.postcss",
         "intellij.webpack",
-        "org.intellij.plugins.postcss"
+        "com.intellij.css"
       ],
       "optional_dependencies": [
+        "com.intellij.copyright",
         "JavaScriptDebugger",
         "org.intellij.plugins.markdown",
-        "intellij.prettierJS",
-        "com.intellij.copyright"
+        "intellij.prettierJS"
       ],
       "file_name": "mpxjs.jar",
       "since": "243.23654",
@@ -202,6 +202,90 @@
       "since": "262.9437",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1217660": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23480/1217660/mpx-263.7307.05.zip?updateId=1217660&pluginId=23480&family=INTELLIJ",
+      "sha256": "iVthbtcK/6kauf6ClrUJi9CX2BLKSnac61bJnmanKFA=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "org.intellij.plugins.postcss",
+        "intellij.xml.psi.impl",
+        "intellij.css",
+        "intellij.javascript.psi.impl",
+        "intellij.javascript.parser",
+        "intellij.xml.psi"
+      ],
+      "optional_dependencies": [
+        "intellij.mpxjs.common",
+        "intellij.xml.ui.common",
+        "intellij.platform.projectModel",
+        "intellij.webpack",
+        "intellij.javascript.eslint",
+        "intellij.platform.refactoring",
+        "intellij.javascript.backend",
+        "intellij.markdown",
+        "intellij.platform.core",
+        "intellij.javascript.codeinsight",
+        "intellij.xml.analysis",
+        "intellij.libraries.eclipse.lsp4j.jsonrpc",
+        "intellij.javascript.backend.css",
+        "intellij.platform.lang.core",
+        "intellij.platform.codeStyle",
+        "intellij.platform.lsp.impl",
+        "com.intellij.webstorm.customization",
+        "intellij.libraries.jackson.databind",
+        "intellij.platform.concurrency",
+        "intellij.platform.ide",
+        "intellij.platform.polySymbols.web",
+        "intellij.platform.indexing.impl",
+        "com.intellij.css",
+        "intellij.mpxjs.free",
+        "intellij.javascript.debugger.ui",
+        "intellij.platform.analysis",
+        "intellij.platform.ide.impl",
+        "intellij.json",
+        "com.intellij.copyright",
+        "com.intellij.platform.images",
+        "intellij.regexp",
+        "intellij.libraries.fastutil",
+        "intellij.platform.lang",
+        "intellij.libraries.jetbrains.annotations",
+        "intellij.libraries.caffeine",
+        "intellij.platform.debugger",
+        "intellij.platform.workspace.storage",
+        "intellij.platform.backend.workspace",
+        "intellij.platform.core.ui",
+        "intellij.platform.consoleView",
+        "com.intellij.modules.ultimate",
+        "intellij.platform.polySymbols",
+        "intellij.prettierJS",
+        "intellij.javascript.debugger.backend",
+        "intellij.libraries.commons.text",
+        "intellij.platform.util.ui",
+        "intellij.platform.codeStyle.impl",
+        "intellij.mpxjs.backend",
+        "intellij.javascript.common",
+        "intellij.platform.polySymbols.backend",
+        "intellij.spellchecker",
+        "intellij.platform.ide.core.impl",
+        "intellij.css.analysis",
+        "intellij.platform.lang.impl",
+        "com.intellij.modules.platform",
+        "intellij.platform.backend",
+        "intellij.xml.parser",
+        "intellij.libraries.stream",
+        "com.intellij.modules.xml",
+        "intellij.javascript.analysis.impl",
+        "intellij.platform.editor.ui",
+        "intellij.xml.impl",
+        "intellij.javascript.web",
+        "intellij.libraries.eclipse.lsp4j"
+      ],
+      "file_name": "mpx-263.7307.05.zip",
+      "since": "263.7307.202",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -213,7 +297,8 @@
       "251.26927.1": 787126,
       "252.26830": 879206,
       "253.29346.01": 924258,
-      "262.9437.145.01": 1131345
+      "262.9437.145.01": 1131345,
+      "263.7307.05": 1217660
     }
   }
 }

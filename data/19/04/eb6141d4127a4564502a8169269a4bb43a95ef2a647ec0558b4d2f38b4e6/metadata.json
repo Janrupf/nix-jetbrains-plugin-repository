@@ -7,8 +7,8 @@
       "sha256": "67LgvARBU8HdzGNd/P7ZUfxhbj1LpAwC/asncljgXE0=",
       "channel": "stable",
       "dependencies": [
-        "gherkin",
-        "Dart"
+        "Dart",
+        "gherkin"
       ],
       "optional_dependencies": [],
       "file_name": "cucumber-dart.zip",
@@ -35,8 +35,8 @@
       "sha256": "vufBJiGxCmR9w9EdKUgRn0UOhga0rVMUfFghVFpQsas=",
       "channel": "stable",
       "dependencies": [
-        "gherkin",
-        "Dart"
+        "Dart",
+        "gherkin"
       ],
       "optional_dependencies": [],
       "file_name": "cucumber-dart.zip",
@@ -49,11 +49,11 @@
       "sha256": "ynPeSfO95XVkqgCC+hVc+Gvqi5haxCIgBqxxdQ/88Yo=",
       "channel": "stable",
       "dependencies": [
+        "gherkin",
         "com.intellij.modules.platform",
         "com.intellij.modules.xdebugger",
-        "com.intellij.modules.lang",
-        "gherkin",
-        "Dart"
+        "Dart",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "cucumber-dart.zip",
@@ -66,11 +66,11 @@
       "sha256": "40SSZVtSmbZrm4j0Bvf+en6pT5FSl8MXH7bQDv0Z638=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "Dart",
         "com.intellij.modules.xdebugger",
-        "com.intellij.modules.lang",
         "gherkin",
-        "Dart"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "cucumber-dart.zip",
@@ -83,11 +83,11 @@
       "sha256": "QNZMkXfvo9IJxv+c4yzFnOdQpDbiiTKf3XOwGiAVFAE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.xdebugger",
         "com.intellij.modules.lang",
         "gherkin",
-        "Dart"
+        "com.intellij.modules.platform",
+        "Dart",
+        "com.intellij.modules.xdebugger"
       ],
       "optional_dependencies": [],
       "file_name": "cucumber-dart.zip",
@@ -100,10 +100,10 @@
       "sha256": "InWBl7lmKdQguS9aws2Rc7C562GxT9Y56dk3+ePvgoM=",
       "channel": "stable",
       "dependencies": [
+        "gherkin",
+        "com.intellij.modules.lang",
         "com.intellij.modules.platform",
         "com.intellij.modules.xdebugger",
-        "com.intellij.modules.lang",
-        "gherkin",
         "Dart"
       ],
       "optional_dependencies": [],
@@ -117,15 +117,32 @@
       "sha256": "Odtn1mXL0FGvpdZsJfADmEDfVLU4uU0HDwAFYLXx2U0=",
       "channel": "stable",
       "dependencies": [
-        "gherkin",
-        "Dart",
-        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
+        "gherkin",
+        "Dart"
       ],
       "optional_dependencies": [],
       "file_name": "cucumber-dart.zip",
       "since": "213.5744",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1220300": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/12687/1220300/OguretsIntellij-2.0.1.zip?updateId=1220300&pluginId=12687&family=INTELLIJ",
+      "sha256": "r7ayC3W13IiGXxVaokKgHDkQioUsT1HXGtiFFGaSGW8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "Dart",
+        "com.intellij.modules.xdebugger",
+        "gherkin"
+      ],
+      "optional_dependencies": [],
+      "file_name": "OguretsIntellij-2.0.1.zip",
+      "since": "253.0",
       "until": null,
       "compatibility_overrides": []
     }
@@ -139,7 +156,8 @@
       "1.1.4": 84044,
       "1.1.5": 84529,
       "1.2.0": 87554,
-      "1.3.0": 149857
+      "1.3.0": 149857,
+      "2.0.1": 1220300
     }
   }
 }

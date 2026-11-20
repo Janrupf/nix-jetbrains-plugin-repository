@@ -2,19 +2,6 @@
   "xml_id": "com.syrobin.java.code.generate",
   "numeric_id": 35782,
   "updates": {
-    "1211774": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35782/1211774/java_code_generate-2.1.0.jar?updateId=1211774&pluginId=35782&family=INTELLIJ",
-      "sha256": "VOyqMbknQwqsT3g1uFoR5lVW4bdkmaykDn7zrVTGvxY=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
-      ],
-      "optional_dependencies": [],
-      "file_name": "java_code_generate-2.1.0.jar",
-      "since": "233.0",
-      "until": "271.*",
-      "compatibility_overrides": []
-    },
     "1212799": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/35782/1212799/java_code_generate-2.2.0.zip?updateId=1212799&pluginId=35782&family=INTELLIJ",
       "sha256": "1b/DuZBHYgxUw8MiU6hdi84vHBMjBGg0sODMp6GdZsg=",
@@ -27,12 +14,59 @@
       "since": "233.0",
       "until": "271.*",
       "compatibility_overrides": []
+    },
+    "1215827": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35782/1215827/java_code_generate-3.0.0.zip?updateId=1215827&pluginId=35782&family=INTELLIJ",
+      "sha256": "Ks3CTxKfUIFSSI1BB4mIJuKJQKafMtMXBF5Gbpdb07A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "java_code_generate-3.0.0.zip",
+      "since": "233.0",
+      "until": "271.*",
+      "compatibility_overrides": []
+    },
+    "1218670": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35782/1218670/codegen-idea-plugin-4.0.0.zip?updateId=1218670&pluginId=35782&family=INTELLIJ",
+      "sha256": "jCbeuCIVMW7vxsJSRDKWY5wIJh8WWK1+7dadqN4JGS0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "codegen-idea-plugin-4.0.0.zip",
+      "since": "233.0",
+      "until": "271.*",
+      "compatibility_overrides": []
+    },
+    "1218690": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35782/1218690/codegen-idea-plugin-4.0.1.zip?updateId=1218690&pluginId=35782&family=INTELLIJ",
+      "sha256": "2edNwWQOnjotcibBZmi8jKHjbJQ/C2wo5egeaioof0A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database"
+      ],
+      "file_name": "codegen-idea-plugin-4.0.1.zip",
+      "since": "233.0",
+      "until": "271.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "2.1.0": 1211774,
-      "2.2.0": 1212799
+      "2.2.0": 1212799,
+      "3.0.0": 1215827,
+      "4.0.0": 1218670,
+      "4.0.1": 1218690
     }
   }
 }

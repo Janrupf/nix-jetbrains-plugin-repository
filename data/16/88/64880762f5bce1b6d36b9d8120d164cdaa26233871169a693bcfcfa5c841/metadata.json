@@ -35,12 +35,48 @@
       "since": "262.10968.63",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1220592": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35726/1220592/stig-idea-plugin-5.3.0-signed.zip?updateId=1220592&pluginId=35726&family=INTELLIJ",
+      "sha256": "LT2Wly1AlmNYbXbUiETwZ7nXnhDIfpysos7LvxjgVxw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.compose",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "stig-idea-plugin-5.3.0-signed.zip",
+      "since": "263.7307.200",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1223858": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35726/1223858/stig-idea-plugin-5.4.0-signed.zip?updateId=1223858&pluginId=35726&family=INTELLIJ",
+      "sha256": "R+DQkGYqxbRwVc5CQSUeIC3Nh1HoitZOcLMUtcwAoQk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.gradle",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.compose"
+      ],
+      "optional_dependencies": [],
+      "file_name": "stig-idea-plugin-5.4.0-signed.zip",
+      "since": "263.7307.200",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "5.1.0": 1209868,
-      "5.2.0": 1212142
+      "5.2.0": 1212142,
+      "5.3.0": 1220592,
+      "5.4.0": 1223858
     }
   }
 }

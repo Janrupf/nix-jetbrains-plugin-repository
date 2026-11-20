@@ -1,6 +1,68 @@
 {
   "xml_id": "com.worktreewise.jetbrains",
-  "numeric_id": 29619,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 29869,
+  "updates": {
+    "938775": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29869/938775/WorktreeWise-0.1.0-alpha.zip?updateId=938775&pluginId=29869&family=INTELLIJ",
+      "sha256": "aOdMCkngqSvCp5gPYjpYxGA/TW2XXE+Y1BTqjs3JML8=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "WorktreeWise-0.1.0-alpha.zip",
+      "since": "222.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "961377": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29869/961377/WorktreeWise-0.1.0.zip?updateId=961377&pluginId=29869&family=INTELLIJ",
+      "sha256": "S3KhzY0rJdrRLo1TWgjXgSnP267FSSRpDRP0o+2IFTU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "WorktreeWise-0.1.0.zip",
+      "since": "222.0",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "986434": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29869/986434/WorktreeWise-0.1.1-alpha.zip?updateId=986434&pluginId=29869&family=INTELLIJ",
+      "sha256": "WJzjJhoBG4UmYQHvWCFlnbeF8dHx5cbs2PORhNKbND4=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "WorktreeWise-0.1.1-alpha.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "986436": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29869/986436/WorktreeWise-0.1.1.zip?updateId=986436&pluginId=29869&family=INTELLIJ",
+      "sha256": "UEHcQeAxs1dEOiQfFOie7Y0CNEIkbkROsDQp/z7AL+o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "WorktreeWise-0.1.1.zip",
+      "since": "222.0",
+      "until": "253.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "0.1.0-alpha": 938775,
+      "0.1.1-alpha": 986434
+    },
+    "stable": {
+      "0.1.0": 961377,
+      "0.1.1": 986436
+    }
+  }
 }

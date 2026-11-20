@@ -1,0 +1,69 @@
+{
+  "xml_id": "com.loudyo.wherewasi",
+  "numeric_id": 36245,
+  "updates": {
+    "1223427": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36245/1223427/where-was-i-plugin-1.0.4.zip?updateId=1223427&pluginId=36245&family=INTELLIJ",
+      "sha256": "Hn8ENUvcnKq4NRRPPVE+zfGWLc52yE6HRK6lsA9tJkQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "where-was-i-plugin-1.0.4.zip",
+      "since": "262.8665",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1223459": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36245/1223459/where-was-i-plugin-1.1.0.zip?updateId=1223459&pluginId=36245&family=INTELLIJ",
+      "sha256": "niBuDyoJbkfE8tMbP4NFz1urmgO2cWzobN5HVN4Iwh0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.rpc.topics",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.frontend",
+        "intellij.terminal.frontend",
+        "intellij.platform.backend",
+        "where-was-i-plugin.shared"
+      ],
+      "file_name": "where-was-i-plugin-1.1.0.zip",
+      "since": "262.8665",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1223759": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36245/1223759/where-was-i-plugin-1.1.1.zip?updateId=1223759&pluginId=36245&family=INTELLIJ",
+      "sha256": "GGQEEzO/pDyvy5vYUrZg7FUaVlKh7m3N8fgotZfc4A4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal",
+        "intellij.platform.rpc"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "intellij.terminal.frontend",
+        "where-was-i-plugin.shared",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.rpc.backend"
+      ],
+      "file_name": "where-was-i-plugin-1.1.1.zip",
+      "since": "262.8665",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.4": 1223427,
+      "1.1.0": 1223459,
+      "1.1.1": 1223759
+    }
+  }
+}

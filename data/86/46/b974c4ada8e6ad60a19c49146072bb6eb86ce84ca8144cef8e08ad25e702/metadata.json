@@ -462,8 +462,8 @@
       "sha256": "Qak3UlsINoMHwyBltuZLqEuBYW/8w72N3q2nPUPck34=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "JavaScript"
@@ -478,8 +478,8 @@
       "sha256": "5VKFH7hem1APbHCybJhTTHD20KfVSWBqvNoN2Px3eck=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "JavaScript"
@@ -494,8 +494,8 @@
       "sha256": "3lwbnK2EJcUZOcZ2TcqUZAk0YtiqKedUdzxsDigCx90=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "JavaScript"
@@ -648,6 +648,23 @@
       "since": "242.26775",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1221609": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9475/1221609/intellij-solidity-2.4.13.zip?updateId=1221609&pluginId=9475&family=INTELLIJ",
+      "sha256": "B5UL5iI3s0L8CBdGIEUcCOSZLmCiFECkFDK38af769U=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "intellij.spellchecker",
+        "JavaScript"
+      ],
+      "file_name": "intellij-solidity-2.4.13.zip",
+      "since": "252.28539",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -689,6 +706,7 @@
       "2.4.1": 329441,
       "2.4.10": 912004,
       "2.4.11": 952143,
+      "2.4.13": 1221609,
       "2.4.2": 352063,
       "2.4.3": 440031,
       "2.4.4": 529694,

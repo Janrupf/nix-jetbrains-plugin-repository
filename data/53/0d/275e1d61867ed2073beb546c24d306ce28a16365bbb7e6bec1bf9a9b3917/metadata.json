@@ -1,6 +1,40 @@
 {
   "xml_id": "dev.vatnar.sectionnav",
   "numeric_id": 32962,
-  "updates": {},
-  "channels": {}
+  "updates": {
+    "1221510": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32962/1221510/sectionnav-1.0.0.zip?updateId=1221510&pluginId=32962&family=INTELLIJ",
+      "sha256": "cHVH4QqetUgQlKzGpSwckoaS21ujPGUzv79+tt2xxYs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sectionnav-1.0.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1221521": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/32962/1221521/sectionnav-1.0.1.zip?updateId=1221521&pluginId=32962&family=INTELLIJ",
+      "sha256": "ME6ary6MXAjM3DEgQIsR20J1aXuJ6Ce505irQLknTZk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "sectionnav-1.0.1.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0": 1221510,
+      "1.0.1": 1221521
+    }
+  }
 }

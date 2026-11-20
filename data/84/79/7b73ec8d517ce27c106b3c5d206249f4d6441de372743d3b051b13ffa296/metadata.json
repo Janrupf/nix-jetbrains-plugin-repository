@@ -72,8 +72,8 @@
       "sha256": "5jhZguJgmXpkGyYU1wLBpH0XPb7wGfAE1Fvu8Zw/rX0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin"
@@ -88,8 +88,8 @@
       "sha256": "ClnuDuQ+5SnnaUNddFMF9iEED7B5ruFwOpQ8JVVhEcU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin"
@@ -120,8 +120,8 @@
       "sha256": "i8rPdKyokERDTitxfICIyZGnJV4w1fQ6OB1JHKh7dMs=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin"
@@ -152,13 +152,13 @@
       "sha256": "+rreCmMHOMKcNUBkhB36zSBsV2liYAgpxQBDzmGNQ0g=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
+        "com.intellij.java",
         "JavaScript",
-        "com.intellij.java"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-1.7.0.zip",
       "since": "203.0",
@@ -175,9 +175,9 @@
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
-        "JavaScript",
+        "org.jetbrains.plugins.vue",
         "com.intellij.java",
-        "org.jetbrains.plugins.vue"
+        "JavaScript"
       ],
       "file_name": "easy-i18n-1.7.1.zip",
       "since": "203.0",
@@ -189,8 +189,8 @@
       "sha256": "IHr4K1vWvIaWRHsEcHEGcy3mis9khn3+6gRGf7EEe7k=",
       "channel": "rc",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
@@ -208,14 +208,14 @@
       "sha256": "v+9CPf+VqigOE3RhSxx9TuCZU1F36Yf+qOpnYrObTK4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
+        "org.jetbrains.plugins.vue",
         "com.intellij.java",
-        "org.jetbrains.plugins.vue"
+        "JavaScript",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-2.0.0.zip",
       "since": "203.0",
@@ -227,14 +227,14 @@
       "sha256": "URNOXcN1jgg6pVRCG+kumAMD5s+FyJUt/wz4/+WJ3ck=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
         "JavaScript",
+        "org.jetbrains.plugins.vue",
         "com.intellij.java",
-        "org.jetbrains.plugins.vue"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-3.0.0.zip",
       "since": "203.0",
@@ -251,9 +251,9 @@
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
-        "JavaScript",
+        "org.jetbrains.plugins.vue",
         "com.intellij.java",
-        "org.jetbrains.plugins.vue"
+        "JavaScript"
       ],
       "file_name": "easy-i18n-3.0.1.zip",
       "since": "203.0",
@@ -265,14 +265,14 @@
       "sha256": "P7iCCeVhdbPr5dFWbLQYuMYdEN6rxpmjL0r/tpBiR0g=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
         "com.intellij.java",
-        "org.jetbrains.plugins.vue"
+        "JavaScript",
+        "org.jetbrains.plugins.vue",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-3.1.0.zip",
       "since": "203.0",
@@ -288,10 +288,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
+        "org.jetbrains.plugins.vue",
         "com.intellij.java",
-        "org.jetbrains.plugins.vue"
+        "JavaScript",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-3.2.0.zip",
       "since": "203.0",
@@ -307,11 +307,11 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.java",
         "org.jetbrains.plugins.vue",
-        "com.jetbrains.php"
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "JavaScript",
+        "com.intellij.java"
       ],
       "file_name": "easy-i18n-4.0.0-rc.1.zip",
       "since": "203.0",
@@ -323,14 +323,14 @@
       "sha256": "fnZDfq04+BbfosyLjaWDDDQGYqBC9Ab8G89wOajJ5dw=",
       "channel": "rc",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.vue",
         "JavaScript",
         "com.intellij.java",
-        "org.jetbrains.plugins.vue",
         "com.jetbrains.php"
       ],
       "file_name": "easy-i18n-4.0.0-rc.2.zip",
@@ -347,11 +347,11 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.java",
         "org.jetbrains.plugins.vue",
-        "com.jetbrains.php"
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "JavaScript",
+        "com.intellij.java"
       ],
       "file_name": "easy-i18n-4.0.0-rc.3.zip",
       "since": "203.0",
@@ -368,9 +368,9 @@
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
-        "JavaScript",
         "com.intellij.java",
         "org.jetbrains.plugins.vue",
+        "JavaScript",
         "com.jetbrains.php"
       ],
       "file_name": "easy-i18n-4.0.0.zip",
@@ -388,10 +388,10 @@
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.java",
+        "com.jetbrains.php",
         "org.jetbrains.plugins.vue",
-        "com.jetbrains.php"
+        "com.intellij.java",
+        "JavaScript"
       ],
       "file_name": "easy-i18n-4.1.0-rc.1.zip",
       "since": "203.0",
@@ -407,10 +407,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
         "JavaScript",
-        "com.intellij.java",
         "org.jetbrains.plugins.vue",
+        "org.jetbrains.kotlin",
+        "com.intellij.java",
         "com.jetbrains.php"
       ],
       "file_name": "easy-i18n-4.1.0.zip",
@@ -427,10 +427,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.java",
         "org.jetbrains.plugins.vue",
+        "org.jetbrains.kotlin",
+        "com.intellij.java",
+        "JavaScript",
         "com.jetbrains.php"
       ],
       "file_name": "easy-i18n-4.1.1.zip",
@@ -443,15 +443,15 @@
       "sha256": "UEtsu6PHHLL4WU5zFHAi+jaWXVu8rSFR1oQdN5cpfPo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
+        "com.jetbrains.php",
         "com.intellij.java",
         "org.jetbrains.plugins.vue",
-        "com.jetbrains.php"
+        "JavaScript",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-4.2.0.zip",
       "since": "203.0",
@@ -463,14 +463,14 @@
       "sha256": "cm9PnPiSzVoCuCHGX4YuvSLvcc1TiPOsaX2XpFXdPj8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
         "JavaScript",
-        "com.intellij.java",
         "org.jetbrains.plugins.vue",
+        "com.intellij.java",
         "com.jetbrains.php"
       ],
       "file_name": "easy-i18n-4.1.2.zip",
@@ -483,15 +483,15 @@
       "sha256": "Eq67FFcTPsj2UziZIit3zX58GGx2W4oEL7cEJoeA0fU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.java",
+        "com.jetbrains.php",
         "org.jetbrains.plugins.vue",
-        "com.jetbrains.php"
+        "com.intellij.java",
+        "JavaScript"
       ],
       "file_name": "easy-i18n-4.2.1-signed.zip",
       "since": "203.0",
@@ -503,15 +503,15 @@
       "sha256": "RCRHZqEGMsCBdMtb7os2dtMS2PFxjGvEf6RJZpqSJ6U=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.java",
         "org.jetbrains.plugins.vue",
-        "com.jetbrains.php"
+        "com.intellij.java",
+        "JavaScript",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-4.2.2-signed.zip",
       "since": "203.0",
@@ -523,15 +523,15 @@
       "sha256": "E3MmXSUziAc9lGY+ueQooNsgX/+BCgCfCnVB0ZYMoxA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
         "JavaScript",
-        "com.intellij.modules.xml",
         "com.intellij.java",
-        "com.jetbrains.php"
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "com.intellij.modules.xml"
       ],
       "file_name": "easy-i18n-4.2.3-signed.zip",
       "since": "203.0",
@@ -543,15 +543,15 @@
       "sha256": "+VqBmxSdPVG/j84sMyAITcHJfiFbedTunMqa7HaVLqg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.modules.xml",
+        "com.jetbrains.php",
         "com.intellij.java",
-        "com.jetbrains.php"
+        "com.intellij.modules.xml",
+        "JavaScript",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-4.2.4-signed.zip",
       "since": "203.0",
@@ -567,9 +567,9 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "com.intellij.modules.xml",
         "org.jetbrains.kotlin",
         "JavaScript",
-        "com.intellij.modules.xml",
         "com.intellij.java",
         "com.jetbrains.php"
       ],
@@ -583,15 +583,15 @@
       "sha256": "FdmCRGJAwRZEbvMPEUG5qjJMOEneLB/RhqXNrFCduf8=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "com.jetbrains.php",
         "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.modules.xml",
         "com.intellij.java",
-        "com.jetbrains.php"
+        "JavaScript",
+        "com.intellij.modules.xml"
       ],
       "file_name": "easy-i18n-4.3.1-signed.zip",
       "since": "203.0",
@@ -607,10 +607,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
         "com.intellij.modules.xml",
+        "org.jetbrains.kotlin",
         "com.intellij.java",
+        "JavaScript",
         "com.jetbrains.php"
       ],
       "file_name": "easy-i18n-4.4.0-signed.zip",
@@ -623,15 +623,15 @@
       "sha256": "JX0Hb1S0IWCSBHG3hjFZ9ZrohK/B0du93DIRvHgE+IE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "com.jetbrains.php",
         "org.jetbrains.kotlin",
         "JavaScript",
-        "com.intellij.modules.xml",
         "com.intellij.java",
-        "com.jetbrains.php"
+        "com.intellij.modules.xml"
       ],
       "file_name": "easy-i18n-4.4.1-signed.zip",
       "since": "223.0",
@@ -643,15 +643,15 @@
       "sha256": "vKMwKSTTLbirWOXLUhSly5sbEqCiee5dRc8QcCksP4I=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "com.intellij.java",
         "JavaScript",
         "com.intellij.modules.xml",
-        "com.intellij.java",
-        "com.jetbrains.php"
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-4.4.2.zip",
       "since": "223.0",
@@ -667,11 +667,11 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "com.intellij.modules.xml",
         "org.jetbrains.kotlin",
         "JavaScript",
-        "com.intellij.modules.xml",
-        "com.intellij.java",
-        "com.jetbrains.php"
+        "com.jetbrains.php",
+        "com.intellij.java"
       ],
       "file_name": "easy-i18n-4.4.4.zip",
       "since": "223.0",
@@ -687,8 +687,8 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
         "JavaScript",
+        "org.jetbrains.kotlin",
         "com.intellij.modules.xml",
         "com.intellij.java",
         "com.jetbrains.php"
@@ -703,15 +703,15 @@
       "sha256": "SRVE6LCdJKS3WIzyauMSNMMHn+vUOsZu94SOYtA9/yk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.modules.xml",
         "com.intellij.java",
-        "com.jetbrains.php"
+        "JavaScript",
+        "com.jetbrains.php",
+        "com.intellij.modules.xml",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-4.5.1.zip",
       "since": "223.0",
@@ -723,15 +723,15 @@
       "sha256": "zlhO5GH9NghvkKyJmnSAraTPjGZSHFYkMzc3VwCtsgg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.modules.xml",
+        "com.jetbrains.php",
         "com.intellij.java",
-        "com.jetbrains.php"
+        "JavaScript",
+        "com.intellij.modules.xml"
       ],
       "file_name": "easy-i18n-4.5.2.zip",
       "since": "223.0",
@@ -743,15 +743,15 @@
       "sha256": "B4r0VJTWhB/WaMSdp/Gz7b+9DIfo0EWoBV7X2ZZMBbo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.modules.xml",
         "com.intellij.java",
-        "com.jetbrains.php"
+        "com.intellij.modules.xml",
+        "JavaScript",
+        "com.jetbrains.php",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "easy-i18n-4.6.0.zip",
       "since": "223.0",
@@ -767,11 +767,11 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
         "com.intellij.modules.xml",
-        "com.intellij.java",
-        "com.jetbrains.php"
+        "JavaScript",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "com.intellij.java"
       ],
       "file_name": "easy-i18n-4.7.0.zip",
       "since": "233.0",
@@ -783,15 +783,15 @@
       "sha256": "mToS7NwuKdcidfwAaFU2ufoYqXzRoPMvG+8erN5Ap8U=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "com.intellij.modules.xml",
+        "com.jetbrains.php",
         "com.intellij.java",
-        "com.jetbrains.php"
+        "JavaScript",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.xml"
       ],
       "file_name": "easy-i18n-4.8.0.zip",
       "since": "242.0",

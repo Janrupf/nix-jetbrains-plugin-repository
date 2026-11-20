@@ -7,8 +7,8 @@
       "sha256": "w+Qf3bj/dxPVtUvJ95n4nnZxzngtwjW6Qy/Whr5Yr+Q=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.database",
+        "com.intellij.modules.platform",
         "intellij.grid.plugin"
       ],
       "optional_dependencies": [],
@@ -30,8 +30,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.database",
-        "intellij.grid.plugin"
+        "intellij.grid.plugin",
+        "com.intellij.database"
       ],
       "optional_dependencies": [],
       "file_name": "dblookup-1.0.1.zip",
@@ -51,9 +51,9 @@
       "sha256": "oO3E77x33Y7UyaqP/yD3Dx69EueA4d3Yeu/glYz4eo4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.database",
-        "intellij.grid.plugin"
+        "intellij.grid.plugin",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "dblookup-1.0.2.zip",
@@ -192,6 +192,21 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1214796": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27270/1214796/dblookup-1.1.0.zip?updateId=1214796&pluginId=27270&family=INTELLIJ",
+      "sha256": "liz9K9UqgCEPFyDnOfFZ7Fs20c5GYHWLMlpc+pzix04=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.grid.plugin",
+        "com.intellij.database"
+      ],
+      "optional_dependencies": [],
+      "file_name": "dblookup-1.1.0.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -204,7 +219,8 @@
       "1.0.5": 865503,
       "1.0.6": 1005675,
       "1.0.7": 1139432,
-      "1.0.8": 1202555
+      "1.0.8": 1202555,
+      "1.1.0": 1214796
     }
   }
 }

@@ -1,6 +1,44 @@
 {
   "xml_id": "com.cloudtoolkit",
-  "numeric_id": 33313,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 34195,
+  "updates": {
+    "1203708": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34195/1203708/CloudToolkit-2027.2.5.zip?updateId=1203708&pluginId=34195&family=INTELLIJ",
+      "sha256": "6hnjQlkPvkrmuBmgTG3Ii/DXDDr+5bE8GatwyDDqqWQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CloudToolkit-2027.2.5.zip",
+      "since": "242.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1213664": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34195/1213664/CloudToolkit-2027.2.6.zip?updateId=1213664&pluginId=34195&family=INTELLIJ",
+      "sha256": "Y+aX3hbyF1vNzgjYU1ulOwq6psnbAA2YGnAIauOM7so=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "CloudToolkit-2027.2.6.zip",
+      "since": "242.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2027.2.5": 1203708,
+      "2027.2.6": 1213664
+    }
+  }
 }

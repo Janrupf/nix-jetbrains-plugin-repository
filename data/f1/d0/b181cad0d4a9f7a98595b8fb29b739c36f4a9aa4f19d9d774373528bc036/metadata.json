@@ -16,11 +16,27 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1215182": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35494/1215182/ai-commit-message-1.0.9.zip?updateId=1215182&pluginId=35494&family=INTELLIJ",
+      "sha256": "L4pkGCEdnamckkumAUYN130VxmnIFxZa70svv3s+hWM=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform",
+        "com.intellij.platform.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ai-commit-message-1.0.9.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.8": 1203246
+      "1.0.8": 1203246,
+      "1.0.9": 1215182
     }
   }
 }

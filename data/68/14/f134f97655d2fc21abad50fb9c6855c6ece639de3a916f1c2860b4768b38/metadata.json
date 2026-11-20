@@ -20,11 +20,31 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1216732": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35063/1216732/impactrunner-1.0.2-PAID-CANDIDATE.zip?updateId=1216732&pluginId=35063&family=INTELLIJ",
+      "sha256": "OtXwyzaHaV6CP1VE1L2hNuSsLqa3JvapTOjLzYzaLyI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "JUnit"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "impactrunner-1.0.2-PAID-CANDIDATE.zip",
+      "since": "243.0",
+      "until": "261.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.0.0": 1192963
+      "1.0.0": 1192963,
+      "1.0.2": 1216732
     }
   }
 }

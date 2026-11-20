@@ -65,6 +65,114 @@
       "since": "262.9437.145",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1218644": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1218644/locale-breeze-webstorm-0.3.1-windows-x86_64.zip?updateId=1218644&pluginId=33774&family=INTELLIJ",
+      "sha256": "3k257uix4uwdpNJU/7WGcnNkpJJiTyFZeZkryrMYlUw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.lsp",
+        "JavaScript",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "locale-breeze-webstorm-0.3.1-windows-x86_64.zip",
+      "since": "262.9437.145",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1218645": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1218645/locale-breeze-webstorm-0.3.1-windows-arm64.zip?updateId=1218645&pluginId=33774&family=INTELLIJ",
+      "sha256": "ozE8Ts8aBwQlr32GnNMw99eUG3yektbZeCggQTXf7Yg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.lsp",
+        "JavaScript"
+      ],
+      "optional_dependencies": [],
+      "file_name": "locale-breeze-webstorm-0.3.1-windows-arm64.zip",
+      "since": "262.9437.145",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1218646": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1218646/locale-breeze-webstorm-0.3.1-mac-x86_64.zip?updateId=1218646&pluginId=33774&family=INTELLIJ",
+      "sha256": "DR17kGjLFJNgJCSVGKLTvfuQHAEm4VHNjQvqAC+i4Wg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "JavaScript",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.os.mac",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "locale-breeze-webstorm-0.3.1-mac-x86_64.zip",
+      "since": "262.9437.145",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1218647": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1218647/locale-breeze-webstorm-0.3.1-mac-arm64.zip?updateId=1218647&pluginId=33774&family=INTELLIJ",
+      "sha256": "Pskb/ac2tsVjf8tBySSSw/YWpxgXOhksSgk859aqsfY=",
+      "channel": "stable",
+      "dependencies": [
+        "JavaScript",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.os.mac",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "locale-breeze-webstorm-0.3.1-mac-arm64.zip",
+      "since": "262.9437.145",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1218648": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1218648/locale-breeze-webstorm-0.3.1-linux-x86_64.zip?updateId=1218648&pluginId=33774&family=INTELLIJ",
+      "sha256": "3FoA3oOsJZlaTOAjZOYy4e6fY/xQORfH0fnZWr34gxk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.linux",
+        "JavaScript",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "locale-breeze-webstorm-0.3.1-linux-x86_64.zip",
+      "since": "262.9437.145",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1218649": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33774/1218649/locale-breeze-webstorm-0.3.1-linux-arm64.zip?updateId=1218649&pluginId=33774&family=INTELLIJ",
+      "sha256": "X/ekOZTvN6buueiJzcIByfRFa/j085Gu2tVUSHzNtbo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.linux",
+        "JavaScript",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [],
+      "file_name": "locale-breeze-webstorm-0.3.1-linux-arm64.zip",
+      "since": "262.9437.145",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -72,7 +180,13 @@
       "0.1.3": 1153872,
       "0.2.0": 1154923,
       "0.2.1": 1157051,
-      "0.3.0": 1181293
+      "0.3.0": 1181293,
+      "0.3.1-linux-arm64": 1218649,
+      "0.3.1-linux-x86_64": 1218648,
+      "0.3.1-mac-arm64": 1218647,
+      "0.3.1-mac-x86_64": 1218646,
+      "0.3.1-windows-arm64": 1218645,
+      "0.3.1-windows-x86_64": 1218644
     }
   }
 }

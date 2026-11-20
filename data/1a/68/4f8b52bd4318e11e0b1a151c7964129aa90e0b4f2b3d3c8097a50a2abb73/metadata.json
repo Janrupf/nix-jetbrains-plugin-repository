@@ -35,12 +35,30 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1215757": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35309/1215757/commitloom-1.0.3.zip?updateId=1215757&pluginId=35309&family=INTELLIJ",
+      "sha256": "zzvV6eYiGeLx4PCe/FWWtmDpIAVLTbPqyD+CgzZPUVU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.vcs.impl",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "commitloom-1.0.3.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0": 1198725,
-      "1.0.1": 1200787
+      "1.0.1": 1200787,
+      "1.0.3": 1215757
     }
   }
 }

@@ -8,9 +8,9 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.platform.images",
         "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.platform.images"
       ],
       "optional_dependencies": [],
       "file_name": "bpmn-editor-0.1.0.zip",
@@ -23,10 +23,10 @@
       "sha256": "Zq3njvNjXO0sGESo1ApPP8KJBkeOUe2uC23SlGuw8WE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.platform.images",
         "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.platform.images",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "bpmn-editor-0.1.1.zip",
@@ -40,9 +40,9 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.platform.images",
         "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.platform.images"
       ],
       "optional_dependencies": [],
       "file_name": "bpmn-editor-1.0.0.zip",
@@ -55,10 +55,10 @@
       "sha256": "zVv3TxuTlfbLvF2Rnjt33cEtEolgfTxq7He6YoydhZE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.platform.images",
+        "com.intellij.modules.java",
         "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.modules.platform",
+        "com.intellij.platform.images"
       ],
       "optional_dependencies": [],
       "file_name": "bpmn-editor-1.1.0.zip",
@@ -71,10 +71,10 @@
       "sha256": "xYFllBMx+Cp5ppZU7Hf4eOo1aVhHsLccuromB3FrHZU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "com.intellij.modules.java",
         "com.intellij.platform.images",
-        "org.intellij.groovy",
-        "com.intellij.modules.java"
+        "com.intellij.modules.platform",
+        "org.intellij.groovy"
       ],
       "optional_dependencies": [],
       "file_name": "bpmn-editor-1.2.0.zip",
@@ -101,8 +101,8 @@
       "sha256": "Sck74aw7dJqDQD8tGOBzpCkZAkYOWKO7bsmSZOy2q0Q=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "bpmn-editor-1.3.0.zip",
@@ -129,8 +129,8 @@
       "sha256": "OUG/t8JPDE4UVTN6tqLQdgre331ZF0RMqCEAhq8hH+4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "bpmn-editor-1.3.2.zip",
@@ -143,8 +143,8 @@
       "sha256": "N3zn68t3VU5F0JEPFbnyz/OldtEWaR6XYEKvQV/qKHw=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "bpmn-editor-1.4.0.zip",
@@ -1118,6 +1118,195 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1213769": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1213769/jetbrains-26.11.1-231.zip?updateId=1213769&pluginId=25710&family=INTELLIJ",
+      "sha256": "EgY3dtkZZEJTJ2x59x8YHYuDHCRpqvnttyZANIWqF74=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.el",
+        "org.intellij.groovy",
+        "JavaScript",
+        "com.intellij.modules.json",
+        "com.intellij.java"
+      ],
+      "file_name": "jetbrains-26.11.1-231.zip",
+      "since": "231.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "1213770": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1213770/jetbrains-26.11.1-241.zip?updateId=1213770&pluginId=25710&family=INTELLIJ",
+      "sha256": "jcSqemNaSEoym9oQEUtnEmODk8/kiXyqQbdbiHCsl1Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee.el",
+        "com.intellij.modules.json",
+        "JavaScript",
+        "com.intellij.java",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jetbrains-26.11.1-241.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "1213771": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1213771/jetbrains-26.11.1-242.zip?updateId=1213771&pluginId=25710&family=INTELLIJ",
+      "sha256": "FOsfq1yZ8d/LIoUMcDnoRrtld2eNTQymVgMGlf5njx8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.javaee.el",
+        "com.intellij.modules.json",
+        "com.intellij.java",
+        "JavaScript",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jetbrains-26.11.1-242.zip",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1213772": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1213772/jetbrains-26.11.1-252.zip?updateId=1213772&pluginId=25710&family=INTELLIJ",
+      "sha256": "wuSb2b+KFJnHKjEb4tdRTYHI4lRmfNzxrzqed+02U1c=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.java",
+        "com.intellij.javaee.el",
+        "JavaScript",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jetbrains-26.11.1-252.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1221514": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1221514/jetbrains-26.11.2-231.zip?updateId=1221514&pluginId=25710&family=INTELLIJ",
+      "sha256": "MfFK66Bfi5F+e3bKMDpgxwr3EoZHrtXs8uLtmikwtCU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "org.intellij.groovy",
+        "JavaScript",
+        "org.jetbrains.kotlin",
+        "com.intellij.java",
+        "com.intellij.javaee.el"
+      ],
+      "file_name": "jetbrains-26.11.2-231.zip",
+      "since": "231.0",
+      "until": "233.*",
+      "compatibility_overrides": []
+    },
+    "1221515": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1221515/jetbrains-26.11.2-241.zip?updateId=1221515&pluginId=25710&family=INTELLIJ",
+      "sha256": "QYkVDZjB4Y7Z2m3npATTpxWT11tsTcF2Vxyt77Kz3cs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.java",
+        "org.intellij.groovy",
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "com.intellij.javaee.el"
+      ],
+      "file_name": "jetbrains-26.11.2-241.zip",
+      "since": "241.0",
+      "until": "241.*",
+      "compatibility_overrides": []
+    },
+    "1221516": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1221516/jetbrains-26.11.2-242.zip?updateId=1221516&pluginId=25710&family=INTELLIJ",
+      "sha256": "RpacZCs4VD3szlFMHYYnVzYWewJOZNmEyw8S96DjLOU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "JavaScript",
+        "org.intellij.groovy",
+        "com.intellij.modules.json",
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.el"
+      ],
+      "file_name": "jetbrains-26.11.2-242.zip",
+      "since": "242.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1221517": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1221517/jetbrains-26.11.2-252.zip?updateId=1221517&pluginId=25710&family=INTELLIJ",
+      "sha256": "/meXZNgBSMTxzOoUOA3ziiSFIBHA0d/fm+BnEjaEyVw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.intellij.groovy",
+        "JavaScript",
+        "com.intellij.modules.json",
+        "org.jetbrains.kotlin",
+        "com.intellij.javaee.el"
+      ],
+      "file_name": "jetbrains-26.11.2-252.zip",
+      "since": "252.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1221518": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/25710/1221518/jetbrains-26.11.2-262.zip?updateId=1221518&pluginId=25710&family=INTELLIJ",
+      "sha256": "+dCW8IgvWJ+neHnFnI3Tcn23d1weZGUSIKPGgBx2b3E=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.vcs",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.smRunner",
+        "intellij.xml.psi",
+        "intellij.libraries.jcef",
+        "com.intellij.modules.platform",
+        "intellij.xml.parser",
+        "intellij.platform.testRunner"
+      ],
+      "optional_dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.modules.json",
+        "JavaScript",
+        "com.intellij.java",
+        "com.intellij.platform.vcs",
+        "com.intellij.xml",
+        "com.intellij.javaee.el",
+        "org.jetbrains.kotlin"
+      ],
+      "file_name": "jetbrains-26.11.2-262.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1182,7 +1371,16 @@
       "26.11.0-241": 1211269,
       "26.11.0-242": 1211270,
       "26.11.0-252": 1211271,
-      "26.11.0-262": 1211272
+      "26.11.0-262": 1211272,
+      "26.11.1-231": 1213769,
+      "26.11.1-241": 1213770,
+      "26.11.1-242": 1213771,
+      "26.11.1-252": 1213772,
+      "26.11.2-231": 1221514,
+      "26.11.2-241": 1221515,
+      "26.11.2-242": 1221516,
+      "26.11.2-252": 1221517,
+      "26.11.2-262": 1221518
     }
   }
 }

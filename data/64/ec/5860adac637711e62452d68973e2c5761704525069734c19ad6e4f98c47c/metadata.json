@@ -7,10 +7,10 @@
       "sha256": "WFB79x49BnJasb9+E5hTV3W3nmn3/d8yAo6H2VOJ25Y=",
       "channel": "alpha",
       "dependencies": [
+        "com.intellij.modules.androidstudio",
         "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.androidstudio"
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
       "file_name": "IntelliJ-1.2.0-alpha02.zip",
@@ -23,8 +23,8 @@
       "sha256": "zRO25O3kn8fre4bohUO/NFeWGpnZiVtgFL4i/NfkkI4=",
       "channel": "alpha",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
         "org.jetbrains.kotlin",
         "com.intellij.modules.androidstudio"
       ],
@@ -39,9 +39,9 @@
       "sha256": "v1g5wqVOWKqON5UIbpR2gN2bY0PpMbKnNuQw7qRePKo=",
       "channel": "alpha",
       "dependencies": [
+        "org.jetbrains.android",
         "com.intellij.modules.androidstudio",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.android"
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
       "file_name": "IntelliJ-2.0.0-alpha03.zip",
@@ -70,8 +70,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.androidstudio",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.android"
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
       "file_name": "IntelliJ-2.0.0-rc02.zip",
@@ -85,8 +85,8 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.androidstudio",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.android"
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
       "file_name": "IntelliJ-2.0.0-rc03.zip",
@@ -99,9 +99,9 @@
       "sha256": "axQai5oNAvtv8bJTgUocHVIBbOWwK8OipblZ9c6w0WI=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.androidstudio",
+        "org.jetbrains.android",
         "org.jetbrains.kotlin",
-        "org.jetbrains.android"
+        "com.intellij.modules.androidstudio"
       ],
       "optional_dependencies": [],
       "file_name": "IntelliJ-2.0.0.zip",
@@ -144,10 +144,10 @@
       "sha256": "NHOayUKqSyKWmTGwIP++sLkw9ly2kDOvolQ6qe03YGI=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.android",
         "com.intellij.modules.androidstudio",
         "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.android"
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
       "file_name": "IntelliJ-2.3.1.zip",
@@ -160,10 +160,10 @@
       "sha256": "mtFy4LjQkfYrXqhjDOyFVCa6+bMKwWQMwyhATf9retE=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.android",
         "com.intellij.modules.androidstudio",
         "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "org.jetbrains.android"
+        "org.jetbrains.kotlin"
       ],
       "optional_dependencies": [],
       "file_name": "IntelliJ-2.4.0.zip",
@@ -191,9 +191,9 @@
       "sha256": "Izzz8nJEwdTjrG0GeiUFatRj9H0xjiLE1WgTFcQxUcg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "org.jetbrains.kotlin",
         "com.intellij.gradle",
+        "com.intellij.modules.platform",
         "org.jetbrains.android"
       ],
       "optional_dependencies": [],
@@ -282,6 +282,23 @@
       "since": "252.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1218066": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19166/1218066/IntelliJ-6.1.1.zip?updateId=1218066&pluginId=19166&family=INTELLIJ",
+      "sha256": "nRSq2yxOr6Spvx5LUwMv9ujUBY/lLjZdO9Flod+M/vg=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.android",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.androidstudio",
+        "com.intellij.gradle",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJ-6.1.1.zip",
+      "since": "252.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -305,7 +322,8 @@
       "2.5.0": 664166,
       "3.0.0": 734915,
       "4.0.0": 1030240,
-      "6.0.0": 1140762
+      "6.0.0": 1140762,
+      "6.1.1": 1218066
     }
   }
 }

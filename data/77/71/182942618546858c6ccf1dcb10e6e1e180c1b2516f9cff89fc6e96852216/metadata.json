@@ -16,11 +16,46 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1214613": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35514/1214613/jaspring-intellij-0.1.1.zip?updateId=1214613&pluginId=35514&family=INTELLIJ",
+      "sha256": "fuI9uTQ8xFCFl1xTjP2CdiaWAGaXYLLNWzBlWwRVOvI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "jaspring-intellij-0.1.1.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1214856": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35514/1214856/jaspring-intellij-0.2.0.zip?updateId=1214856&pluginId=35514&family=INTELLIJ",
+      "sha256": "EVERtXG97BnnAXIrDpiR+Duhznea1Sgsrw05tVSQNA0=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "JavaScript",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "file_name": "jaspring-intellij-0.2.0.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1203574
+      "0.1.0": 1203574,
+      "0.1.1": 1214613,
+      "0.2.0": 1214856
     }
   }
 }

@@ -2,16 +2,85 @@
   "xml_id": "io.github.unurgunite.crystal",
   "numeric_id": 34350,
   "updates": {
-    "1193664": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/34350/1193664/fast-crystal-1.2.0-build.6_e395c00.zip?updateId=1193664&pluginId=34350&family=INTELLIJ",
-      "sha256": "Jb0Gqwun3qrzg7/LwMv/AgZUM9eClAVT5DEJXoavQIA=",
+    "1219197": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34350/1219197/fast-crystal-1.2.1.zip?updateId=1219197&pluginId=34350&family=INTELLIJ",
+      "sha256": "LDmfpmqq1xj1Zqwif4ouDfo88Vcx4CTEK73X0KHN0S4=",
       "channel": "stable",
       "dependencies": [
         "intellij.platform.dap",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "intellij.platform.smRunner"
       ],
       "optional_dependencies": [],
-      "file_name": "fast-crystal-1.2.0-build.6_e395c00.zip",
+      "file_name": "fast-crystal-1.2.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1220049": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34350/1220049/fast-crystal-1.2.2.zip?updateId=1220049&pluginId=34350&family=INTELLIJ",
+      "sha256": "B/iPLtZemRH+EOec9KGplYIvKaIhz4DDgoK97KZ1Oas=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.smRunner",
+        "intellij.platform.dap",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "fast-crystal-1.2.2.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1220108": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34350/1220108/fast-crystal-1.3.0.zip?updateId=1220108&pluginId=34350&family=INTELLIJ",
+      "sha256": "Z95SoGSbSxYQiXkp7NoOMgbTjTh3Tt2bxk3c+uFTaI8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.dap",
+        "intellij.platform.smRunner"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "fast-crystal-1.3.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1221239": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34350/1221239/fast-crystal-1.3.1.zip?updateId=1221239&pluginId=34350&family=INTELLIJ",
+      "sha256": "Vhp7TRfMgjxgohsx4GWgJwyW/9RRFKJY3HyhL2QDF54=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.dap",
+        "intellij.platform.smRunner"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "fast-crystal-1.3.1.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1225236": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34350/1225236/fast-crystal-1.4.0.zip?updateId=1225236&pluginId=34350&family=INTELLIJ",
+      "sha256": "K9/1/F4MkMhlNTfO7riIW7w9sE67JClDw/Xe4U76eiQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "intellij.platform.smRunner",
+        "intellij.platform.dap"
+      ],
+      "optional_dependencies": [
+        "intellij.testRunner.plugin"
+      ],
+      "file_name": "fast-crystal-1.4.0.zip",
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
@@ -19,7 +88,11 @@
   },
   "channels": {
     "stable": {
-      "1.2.0": 1193664
+      "1.2.1": 1219197,
+      "1.2.2": 1220049,
+      "1.3.0": 1220108,
+      "1.3.1": 1221239,
+      "1.4.0": 1225236
     }
   }
 }

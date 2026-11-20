@@ -39,8 +39,8 @@
       "sha256": "hTJvBtdGWe2sExkIOK0O+UAYTD93DpL5hblEQSMkP4k=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.clion"
@@ -245,8 +245,8 @@
       "sha256": "X2mCoYv6/fVgBh8vFNK/iLD6OEJi7CC3BZbKk3n9Mbk=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.clion"
@@ -293,8 +293,8 @@
       "sha256": "HFuO7ETGZutrQJQDksTQdYhQmbzhLb07GcFAOcc91OQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.clion"
@@ -316,8 +316,8 @@
       "sha256": "/GB9YkjZjEM/Fz3qZonztVhMIdzUCAiKG+3DTSNZ8Wg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.lang",
-        "com.intellij.modules.platform"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.clion"
@@ -339,10 +339,10 @@
       "sha256": "vUHuZ8yggsDLVl6Gvlm0nzOxac199WZ3foEiCeUCBow=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
         "com.intellij.modules.lang",
         "com.intellij.modules.xml",
         "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
         "com.intellij.modules.xdebugger"
       ],
       "optional_dependencies": [],
@@ -356,11 +356,11 @@
       "sha256": "jjoUdxn6b18IR54JtX4MJpEJ7qK1ZIgsM4GJNzuRio4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.xml",
         "com.intellij.modules.vcs",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.xml",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "xmake-idea.jar",
@@ -374,10 +374,10 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
         "com.intellij.modules.lang",
-        "com.intellij.modules.xml",
         "com.intellij.modules.vcs",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.xml"
       ],
       "optional_dependencies": [],
       "file_name": "xmake-idea.jar",
@@ -391,10 +391,10 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.xml",
+        "com.intellij.modules.xdebugger",
         "com.intellij.modules.vcs",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.xml",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [],
       "file_name": "xmake-idea.jar",
@@ -408,9 +408,9 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
+        "com.intellij.modules.xdebugger",
         "com.intellij.modules.xml",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.ssh"
@@ -425,10 +425,10 @@
       "sha256": "Pk5dFDZ4JJQNqWHwO3IQ5oZPXOZ/2bU3/ndhCDfpt34=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
         "com.intellij.modules.lang",
         "com.intellij.modules.xml",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "com.intellij.modules.ssh"
@@ -443,10 +443,10 @@
       "sha256": "2h93TBYCi6L4/CGxVzJZ6GmpV37nfHSlmVhHQjryKDU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "com.intellij.modules.xdebugger",
         "com.intellij.modules.lang",
-        "com.intellij.modules.xml",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.platform",
+        "com.intellij.modules.xml"
       ],
       "optional_dependencies": [
         "com.intellij.modules.ssh"
@@ -461,10 +461,10 @@
       "sha256": "Kooakjs+sD8OG+9Q8tEESMUY3zckgPDrlHSEYsH4vb4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
         "com.intellij.modules.xml",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
         "com.intellij.modules.ssh"
@@ -479,10 +479,10 @@
       "sha256": "kkytDnjeDP3WEEdgFOcyhesnwFsPzplgWCC8tBr2WaY=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.xdebugger",
         "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.xml",
-        "com.intellij.modules.xdebugger"
+        "com.intellij.modules.xml"
       ],
       "optional_dependencies": [
         "com.intellij.modules.ssh"
@@ -740,6 +740,29 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1222960": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/17406/1222960/xmake-idea__2_.zip?updateId=1222960&pluginId=17406&family=INTELLIJ",
+      "sha256": "nwkewEDBYyaFZHYgHFSre5KGFyCUrAx9BgeLTImL8qg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.xdebugger",
+        "com.intellij.modules.xml"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.clion",
+        "com.intellij.clion-compdb",
+        "com.intellij.modules.ssh",
+        "com.intellij.nativeDebug",
+        "intellij.clion.toolchains",
+        "intellij.platform.dap"
+      ],
+      "file_name": "xmake-idea__2_.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -780,6 +803,7 @@
       "1.4.22": 1119825,
       "1.4.23": 1144669,
       "1.4.24": 1186207,
+      "1.4.25": 1222960,
       "1.4.3": 638168,
       "1.4.5": 703859,
       "1.4.6": 720737,

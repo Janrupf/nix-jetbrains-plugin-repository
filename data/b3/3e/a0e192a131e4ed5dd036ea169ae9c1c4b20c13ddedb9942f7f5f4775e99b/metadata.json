@@ -91,16 +91,69 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1215822": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35246/1215822/markdown-review-1.4.0-beta.1.zip?updateId=1215822&pluginId=35246&family=INTELLIJ",
+      "sha256": "L35o1M2K49fZ0FZAbtJwzU14vGhksgD6AH8mJVFTsP0=",
+      "channel": "beta",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "org.asciidoctor.intellij.asciidoc"
+      ],
+      "file_name": "markdown-review-1.4.0-beta.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1216208": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35246/1216208/markdown-review-1.4.0.zip?updateId=1216208&pluginId=35246&family=INTELLIJ",
+      "sha256": "EtPhb6O3xgG7GBnX1nYC7/c9JvkYqXWAB/NQyWZJInQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "org.asciidoctor.intellij.asciidoc"
+      ],
+      "file_name": "markdown-review-1.4.0.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1216749": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35246/1216749/markdown-review-1.4.1.zip?updateId=1216749&pluginId=35246&family=INTELLIJ",
+      "sha256": "750RpaxvJ1qqHVWf1UtcEjSaFPb9OcjUHgvNdTadtLo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.intellij.plugins.markdown",
+        "org.asciidoctor.intellij.asciidoc"
+      ],
+      "file_name": "markdown-review-1.4.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
+    "beta": {
+      "1.4.0-beta.1": 1215822
+    },
     "stable": {
       "1.0.0": 1197856,
       "1.1.0": 1198901,
       "1.1.1": 1200875,
       "1.2.0": 1205165,
       "1.2.1": 1205290,
-      "1.3.0": 1205576
+      "1.3.0": 1205576,
+      "1.4.0": 1216208,
+      "1.4.1": 1216749
     }
   }
 }

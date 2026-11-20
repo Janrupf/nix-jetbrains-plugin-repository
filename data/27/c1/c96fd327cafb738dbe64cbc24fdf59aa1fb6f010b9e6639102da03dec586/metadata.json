@@ -27,12 +27,40 @@
       "since": "203.0",
       "until": "222.*",
       "compatibility_overrides": []
+    },
+    "1221859": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35180/1221859/codeGeneration-1.1-SNAPSHOT.zip?updateId=1221859&pluginId=35180&family=INTELLIJ",
+      "sha256": "tm/Cr2pWBzXstl0LpTO/1yXkSAOmmR7jc6ZuB0JnoaE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeGeneration-1.1-SNAPSHOT.zip",
+      "since": "223.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1221860": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35180/1221860/codeGeneration-1.1-SNAPSHOT-OLD.zip?updateId=1221860&pluginId=35180&family=INTELLIJ",
+      "sha256": "sSWiksv8PpPZfjoxtGLg/MlXXm8izurPx0HFnDXdhPA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "codeGeneration-1.1-SNAPSHOT-OLD.zip",
+      "since": "203.0",
+      "until": "222.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0-SNAPSHOT": 1196366,
-      "1.0-SNAPSHOT-OLD": 1200565
+      "1.0-SNAPSHOT-OLD": 1200565,
+      "1.1-SNAPSHOT": 1221859,
+      "1.1-SNAPSHOT-OLD": 1221860
     }
   }
 }

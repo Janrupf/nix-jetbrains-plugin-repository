@@ -1,6 +1,40 @@
 {
   "xml_id": "io.github.easy.tools",
-  "numeric_id": 29470,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 29731,
+  "updates": {
+    "930936": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29731/930936/idea-tools-1.0.0-SNAPSHOT.zip?updateId=930936&pluginId=29731&family=INTELLIJ",
+      "sha256": "5izEHyK0fU4+VYTKhrTGf+MjptY+Wz4zo19VfraLSr8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-tools-1.0.0-SNAPSHOT.zip",
+      "since": "241.*",
+      "until": "253.*",
+      "compatibility_overrides": []
+    },
+    "1047271": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29731/1047271/idea-tools-1.0.1.zip?updateId=1047271&pluginId=29731&family=INTELLIJ",
+      "sha256": "ay6K8M4h1GF+eBYDiYzCrO3LtVhZjtGP2nUgi3DTxpM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.java"
+      ],
+      "optional_dependencies": [],
+      "file_name": "idea-tools-1.0.1.zip",
+      "since": "241.*",
+      "until": "261.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.0.0-SNAPSHOT": 930936,
+      "1.0.1": 1047271
+    }
+  }
 }

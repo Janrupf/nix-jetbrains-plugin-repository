@@ -1,6 +1,38 @@
 {
   "xml_id": "com.advanced.bookmarks.AdvancedBookmarks",
-  "numeric_id": 27213,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 27229,
+  "updates": {
+    "728147": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27229/728147/AdvancedBookmarks-1.2.0.zip?updateId=728147&pluginId=27229&family=INTELLIJ",
+      "sha256": "MHCtDo/xQYNZfs68xRRlVz5ZbHDGQ4AIKm1A/eWd47o=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AdvancedBookmarks-1.2.0.zip",
+      "since": "242.0",
+      "until": "242.*",
+      "compatibility_overrides": []
+    },
+    "730922": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27229/730922/AdvancedBookmarks-1.2.2.zip?updateId=730922&pluginId=27229&family=INTELLIJ",
+      "sha256": "AzeKmrYtmUEEfvxBbvbaWnTElHyqLa1p3cdL902UK/A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "AdvancedBookmarks-1.2.2.zip",
+      "since": "241.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "1.2.0": 728147,
+      "1.2.2": 730922
+    }
+  }
 }

@@ -1,6 +1,40 @@
 {
   "xml_id": "owl.home.ChangeDescriptor",
-  "numeric_id": 27595,
-  "updates": {},
-  "channels": {}
+  "numeric_id": 27642,
+  "updates": {
+    "780248": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27642/780248/ChangeDescriptor-2.1.0.jar?updateId=780248&pluginId=27642&family=INTELLIJ",
+      "sha256": "HGsdq5Ot1RjacjCF9Rlq6mplYecPaxdHY0MFHRdpWGo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ChangeDescriptor-2.1.0.jar",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "863031": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27642/863031/ChangeDescriptor-2.2.0.jar?updateId=863031&pluginId=27642&family=INTELLIJ",
+      "sha256": "xNAFTO7DLDLGCwDUjYwYvPUMHN98WYmCcmGryeKLMSw=",
+      "channel": "stable",
+      "dependencies": [
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "ChangeDescriptor-2.2.0.jar",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "stable": {
+      "2.1.0": 780248,
+      "2.2.0": 863031
+    }
+  }
 }

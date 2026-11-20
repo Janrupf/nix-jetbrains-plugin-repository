@@ -241,8 +241,8 @@
       "sha256": "bovp6Sm8uVfh0L84USII32SjJmenNkC8Zj7qxMMx9Kc=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "org.jetbrains.kotlin"
@@ -274,8 +274,8 @@
       "sha256": "uuWyhhpRgqGzsoD4/TB5w+J3pCkalQ4q2GbyMnQv7HE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "com.intellij.modules.java",
@@ -297,10 +297,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go"
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.4.3.zip",
       "since": "212.1",
@@ -312,13 +312,13 @@
       "sha256": "486RzqAldeO8RP8u1fsEF1HALPxVI2RFcxIFxl44AGU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
+        "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.4.4.zip",
@@ -335,9 +335,9 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "com.intellij.modules.microservices",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
         "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.4.5.zip",
@@ -354,10 +354,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "org.jetbrains.plugins.go",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go"
+        "com.intellij.modules.microservices"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.4.6.zip",
       "since": "212.1",
@@ -373,10 +373,10 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "org.jetbrains.plugins.go",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go"
+        "com.intellij.modules.microservices"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.4.7.zip",
       "since": "212.1",
@@ -388,14 +388,14 @@
       "sha256": "uXTriXwATBGcrq7S8VvD2fq1jbWpJy3tC3G2KCUCAgI=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "org.jetbrains.plugins.go",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go"
+        "com.intellij.modules.microservices"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.4.8.zip",
       "since": "212.1",
@@ -407,14 +407,14 @@
       "sha256": "DbYOFwhsS2oIS2SEvEYBvNbvQwjSXAuI/GP2QMwDJu4=",
       "channel": "eap",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "org.jetbrains.plugins.go",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.5.0-EAP.zip",
@@ -433,9 +433,9 @@
       "optional_dependencies": [
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.5.1-EAP.zip",
       "since": "213.0",
@@ -447,15 +447,15 @@
       "sha256": "WM+MDUtvoVm8C2OPGeAfu3OJBG21tTru8dKUquCAuaQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "org.jetbrains.plugins.go",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.microservices"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.5.0.zip",
       "since": "213.0",
@@ -467,14 +467,14 @@
       "sha256": "eua9dNubndEo7d0jUM17IVlq4RMLbUngztqijJj4yTQ=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "org.jetbrains.plugins.go",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.5.10.zip",
@@ -491,11 +491,11 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
         "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.microservices"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.5.11.zip",
       "since": "213.0",
@@ -511,11 +511,11 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
         "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.java",
         "com.intellij.modules.microservices",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml"
+        "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.5.12.zip",
       "since": "213.0",
@@ -527,14 +527,14 @@
       "sha256": "QsvYOjE9Cl4iHakYuwqS9g9u6xo5bx5Zkz5e4jMrtiM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
         "org.jetbrains.plugins.go",
+        "com.intellij.modules.microservices",
         "org.jetbrains.plugins.yaml"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.5.20.zip",
@@ -551,13 +551,13 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.restClient",
+        "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.6.10.zip",
       "since": "221.0",
@@ -569,17 +569,17 @@
       "sha256": "7eCXRaPh4h8UfmAXgfd9MT2jWOe8siTzXjroxqfN5zk=",
       "channel": "eap",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
+        "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "com.jetbrains.restClient",
+        "org.jetbrains.plugins.yaml"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.6.20-EAP.zip",
       "since": "222.3345",
@@ -591,17 +591,17 @@
       "sha256": "3lL6uhf7ObmsQ2Hot3NLK/KhBmHoQpFXk4Zhp3IX9AI=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
+        "org.intellij.plugins.markdown",
         "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.6.20.zip",
       "since": "222.0",
@@ -613,17 +613,17 @@
       "sha256": "u+F0o+PQzjEUWSZluOIs/1QZJl/HE+mSkgdYiISPn4Y=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "com.intellij.modules.microservices",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
+        "org.intellij.plugins.markdown",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.restClient"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.6.21.zip",
       "since": "222.0",
@@ -635,16 +635,16 @@
       "sha256": "vT5OBXiSLwtAUH+sFMKJamwFMAlgPwLHOdLuHZsaHCM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
         "org.intellij.plugins.markdown"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.6.22.zip",
@@ -661,13 +661,13 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "com.intellij.modules.microservices",
+        "org.jetbrains.plugins.go",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.6.30.zip",
       "since": "223.0",
@@ -683,13 +683,13 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "com.jetbrains.restClient",
+        "org.intellij.plugins.markdown",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
         "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.microservices",
+        "org.jetbrains.plugins.yaml"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.6.31.zip",
       "since": "223.0",
@@ -701,17 +701,17 @@
       "sha256": "yc1RNupEtbq16e15X40dlYKjY0r+xDmfIyN2YkiJd+U=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "org.jetbrains.kotlin",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.6.32.zip",
       "since": "223.0",
@@ -727,13 +727,13 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
         "org.jetbrains.plugins.go",
+        "com.jetbrains.restClient",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.microservices",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.0.zip",
       "since": "231.0",
@@ -745,17 +745,17 @@
       "sha256": "FEwWAHR3zTK4JaAX58yv7ZscHaaM7KbQ9OW2Goxe74I=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.java",
+        "com.intellij.modules.microservices",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.restClient",
+        "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.11.zip",
       "since": "231.0",
@@ -771,13 +771,13 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "com.jetbrains.restClient",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.microservices"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.12.zip",
       "since": "231.0",
@@ -789,17 +789,17 @@
       "sha256": "eBPhkzN4sHxija+tTTZwiO9ld9XJCqhXixLucAUYP0Y=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
+        "com.intellij.modules.microservices",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.go",
+        "com.jetbrains.restClient"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.13.zip",
       "since": "232.0",
@@ -811,17 +811,17 @@
       "sha256": "HID2cDIoFbk3RmN0QgeU4V2dsUki0vhTrAEa4pD4FHA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.java",
+        "com.intellij.modules.microservices",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.restClient",
+        "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.14.zip",
       "since": "232.0",
@@ -838,11 +838,11 @@
       ],
       "optional_dependencies": [
         "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
         "org.jetbrains.plugins.go",
+        "com.intellij.modules.microservices",
         "org.jetbrains.plugins.yaml",
+        "org.jetbrains.kotlin",
         "org.intellij.plugins.markdown"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.15.zip",
@@ -859,13 +859,13 @@
         "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
+        "com.jetbrains.restClient",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.plugins.yaml",
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
         "org.jetbrains.plugins.go",
-        "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.microservices"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.20.zip",
       "since": "232.0",
@@ -877,17 +877,17 @@
       "sha256": "iD0FzFcnYi8FxkBrmWmWjAuec57pUl1n+3r45MLR0rY=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml",
-        "org.intellij.plugins.markdown"
+        "org.jetbrains.kotlin",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.java",
+        "com.jetbrains.restClient",
+        "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.30.zip",
       "since": "233.0",
@@ -899,16 +899,16 @@
       "sha256": "DJWQHQQ5HpYs92PgbYX2XdokraYXHz0k5M7YcBcfNMg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
         "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
         "org.intellij.plugins.markdown"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.40.zip",
@@ -921,16 +921,16 @@
       "sha256": "c+AMDzjXHUQ3D1d15DPMyl8Cb6VvAB49elByWqLspEg=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
         "org.jetbrains.plugins.go",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.java",
+        "com.intellij.modules.microservices",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.restClient"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.50.zip",
       "since": "233.0",
@@ -948,10 +948,10 @@
       "optional_dependencies": [
         "com.intellij.modules.java",
         "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
-        "org.jetbrains.plugins.go",
-        "org.intellij.plugins.markdown"
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.microservices",
+        "org.jetbrains.plugins.go"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-1.7.60.zip",
       "since": "241.0",
@@ -963,16 +963,16 @@
       "sha256": "DX0mUlc66PNFhfgKcWDvfRR0jbb0UCnHE5H3h/0riyk=",
       "channel": "eap",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
         "org.jetbrains.plugins.go",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.restClient",
+        "com.intellij.modules.microservices"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-2.0.0-EAP.zip",
       "since": "241.0",
@@ -984,16 +984,16 @@
       "sha256": "2J+zKaIjohyZlBKeXU8OcJQxP56W2YmSup4SJxkDnKU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
+        "com.intellij.modules.microservices",
         "org.jetbrains.plugins.go",
-        "org.intellij.plugins.markdown"
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-2.0.0.zip",
       "since": "241.0",
@@ -1005,16 +1005,16 @@
       "sha256": "e7bEFgogx9rBb6RSz9w7TLk0foVkM+utVMywLD/k4X0=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin",
         "org.jetbrains.plugins.go",
-        "org.intellij.plugins.markdown"
+        "com.jetbrains.restClient"
       ],
       "file_name": "IntelliJ_Protobuf_Language_Plugin-2.0.1.zip",
       "since": "241.0",
@@ -1026,16 +1026,16 @@
       "sha256": "zAdX/km2Sq79OXA+lFApn30irmDBrYJFAjQO3xERpts=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
         "com.jetbrains.restClient",
         "org.jetbrains.plugins.go",
-        "org.intellij.plugins.markdown"
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "idea-protobuf-plugin-2.0.2.zip",
       "since": "243.0",
@@ -1047,16 +1047,16 @@
       "sha256": "efnRzZHH2BLvlTqQ+rAwYovvhNoofzaDIB8oFpdyO7Y=",
       "channel": "eap",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
         "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
+        "org.jetbrains.kotlin",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.java",
         "org.jetbrains.plugins.go",
-        "org.intellij.plugins.markdown"
+        "com.jetbrains.restClient"
       ],
       "file_name": "idea-protobuf-plugin-2.1.0-EAP.zip",
       "since": "251.0",
@@ -1068,17 +1068,17 @@
       "sha256": "3nOr4hExhYjx7xlQAk9064hVcd6w9WbQs9JdJbDYCzg=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.json",
         "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.json"
+        "com.intellij.modules.lang"
       ],
       "optional_dependencies": [
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.microservices",
-        "com.jetbrains.restClient",
         "org.jetbrains.plugins.go",
-        "org.intellij.plugins.markdown"
+        "com.jetbrains.restClient",
+        "com.intellij.modules.microservices",
+        "com.intellij.modules.java",
+        "org.intellij.plugins.markdown",
+        "org.jetbrains.kotlin"
       ],
       "file_name": "idea-protobuf-plugin-2.1.0.zip",
       "since": "251.0",

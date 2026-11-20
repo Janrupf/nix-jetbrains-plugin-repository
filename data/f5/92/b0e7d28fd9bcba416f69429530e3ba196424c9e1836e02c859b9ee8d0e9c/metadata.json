@@ -7,8 +7,8 @@
       "sha256": "X2NePeAWzhxOuiCPaI7lQzo/TYEaKt/wtT8DuKVSkPo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "JavaScript"
+        "JavaScript",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "oxc-intellij-plugin-0.0.1.jar",
@@ -21,8 +21,8 @@
       "sha256": "0ooAwUWQem2kvoDqK61b7Y4jzZjPBHblnt0Y3KwAgE4=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "JavaScript"
+        "JavaScript",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "oxc-intellij-plugin-0.0.2.zip",
@@ -35,8 +35,8 @@
       "sha256": "r4rOG9gelKg15EwGOwflhgMc26l7Xqdf1naTWkSnaqU=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "JavaScript"
+        "JavaScript",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "oxc-intellij-plugin-0.0.3.zip",
@@ -63,8 +63,8 @@
       "sha256": "Q7ANirh1mbOXNkFtlK4V1kH0e/yNZ0d5i0tgJCktA3k=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "JavaScript"
+        "JavaScript",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "oxc-intellij-plugin-0.0.5.zip",
@@ -77,8 +77,8 @@
       "sha256": "GeqwRQTrHOOZRxa2Sz7k1zP047KUz8wWF9FIGI/QdkA=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "JavaScript"
+        "JavaScript",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "oxc-intellij-plugin-0.0.6.zip",
@@ -105,8 +105,8 @@
       "sha256": "DjHozSZEDCOyWPe9Cy1+5lavN/kLure+UkiQ3SOGVSE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "JavaScript"
+        "JavaScript",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "oxc-intellij-plugin-0.0.8.zip",
@@ -608,6 +608,32 @@
       "since": "253.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1224153": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27061/1224153/oxc-intellij-plugin-0.1.0-signed.zip?updateId=1224153&pluginId=27061&family=INTELLIJ",
+      "sha256": "MkpUGIe0hWWDdaxvPtZvav7IkG+kKlBFqqmANbAb3/s=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ide.rpc",
+        "intellij.platform.project",
+        "intellij.platform.rpc"
+      ],
+      "optional_dependencies": [
+        "Oxc.Shared",
+        "intellij.json.backend",
+        "intellij.platform.rpc.backend",
+        "intellij.platform.backend",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.json",
+        "intellij.platform.kernel.backend",
+        "intellij.javascript.backend",
+        "intellij.platform.frontend",
+        "JavaScript"
+      ],
+      "file_name": "oxc-intellij-plugin-0.1.0-signed.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -652,7 +678,8 @@
       "0.0.5": 731397,
       "0.0.6": 734516,
       "0.0.7": 739508,
-      "0.0.8": 744828
+      "0.0.8": 744828,
+      "0.1.0": 1224153
     }
   }
 }

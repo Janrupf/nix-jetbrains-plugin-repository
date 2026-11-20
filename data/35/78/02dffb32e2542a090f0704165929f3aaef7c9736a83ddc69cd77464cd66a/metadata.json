@@ -8,9 +8,9 @@
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform",
-        "com.intellij.java",
         "Git4Idea",
-        "Subversion"
+        "Subversion",
+        "com.intellij.java"
       ],
       "optional_dependencies": [],
       "file_name": "IdeaPlugin-1.1-signed.zip",
@@ -23,10 +23,10 @@
       "sha256": "ULlh29ZsgW9rThPvi/4lfINUUNSJQG0y9Tc+h/HTfTM=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
+        "Subversion",
         "com.intellij.java",
-        "Git4Idea",
-        "Subversion"
+        "com.intellij.modules.platform",
+        "Git4Idea"
       ],
       "optional_dependencies": [],
       "file_name": "IdeaPlugin-1.2-signed.zip",
@@ -227,6 +227,23 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1214769": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27241/1214769/IdeaPlugin-1.3.3.zip?updateId=1214769&pluginId=27241&family=INTELLIJ",
+      "sha256": "Yq//5WIJpILo/7cHhDzBhngxAuxNSSKrbjeLunvQckE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "Git4Idea",
+        "Subversion"
+      ],
+      "file_name": "IdeaPlugin-1.3.3.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -244,7 +261,8 @@
       "1.2.9": 922558,
       "1.3.0": 923845,
       "1.3.1": 930469,
-      "1.3.2": 1052547
+      "1.3.2": 1052547,
+      "1.3.3": 1214769
     }
   }
 }

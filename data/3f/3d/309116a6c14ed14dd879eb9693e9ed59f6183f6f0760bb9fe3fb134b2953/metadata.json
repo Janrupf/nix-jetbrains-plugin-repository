@@ -73,9 +73,9 @@
       "sha256": "KXjzUFasWYAOu4YG1rewMyjrDfWG8Yw9TJU1aF1TZUg=",
       "channel": "stable",
       "dependencies": [
+        "org.jetbrains.plugins.yaml",
         "org.jetbrains.plugins.terminal",
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.yaml"
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "K8s-1.7.0.zip",
@@ -337,6 +337,21 @@
       "since": "252.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1218032": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/27659/1218032/K8s-16.0.0.zip?updateId=1218032&pluginId=27659&family=INTELLIJ",
+      "sha256": "SZPzNqDobi6wd1s5ZCI2C+pxei8XzHMP7ZKObV4ziy8=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optional_dependencies": [],
+      "file_name": "K8s-16.0.0.zip",
+      "since": "252.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -356,6 +371,7 @@
       "14.0.0": 1160988,
       "15.0.0": 1192472,
       "15.0.1": 1212906,
+      "16.0.0": 1218032,
       "2.0.0": 795679,
       "3.0.0": 800129,
       "4.0.0": 801589,

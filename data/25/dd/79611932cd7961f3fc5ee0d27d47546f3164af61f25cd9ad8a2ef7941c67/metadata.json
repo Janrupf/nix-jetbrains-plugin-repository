@@ -35,8 +35,8 @@
       "sha256": "EDF6W5JTV3eoHhwWS3lXMFPJXFbJOi3Y71BsD9W3R6U=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "Slingshot-1.4.0.zip",
@@ -105,8 +105,8 @@
       "sha256": "jQXFhzgsVX3l2TgW1bbYoPhCi/2X5deR5chNvkqmYEE=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "Slingshot-1.6.0-prod.zip",
@@ -147,8 +147,8 @@
       "sha256": "w0heySnTsJ4gY37y4/pe7D3x7Y6WheARuVbbtztxLzo=",
       "channel": "stable",
       "dependencies": [
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
       ],
       "optional_dependencies": [],
       "file_name": "Slingshot-1.7.1.zip",
@@ -715,6 +715,38 @@
       "since": "233.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1219751": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26247/1219751/Slingshot-3.7.0.zip?updateId=1219751&pluginId=26247&family=INTELLIJ",
+      "sha256": "+r+w3BK1S6P+YyWnRjUsbrXSTgSo0uL8+ZbiuGjHDvA=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "Slingshot-3.7.0.zip",
+      "since": "233.0",
+      "until": "262.*",
+      "compatibility_overrides": []
+    },
+    "1222713": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26247/1222713/Slingshot-3.7.1.zip?updateId=1222713&pluginId=26247&family=INTELLIJ",
+      "sha256": "/SMnB5bAzQCbiF2r8Z2zRIerT2XxhbTx3cHdSp0XMJQ=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "Slingshot-3.7.1.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -769,7 +801,9 @@
       "3.3.0": 1160929,
       "3.4.0": 1174326,
       "3.5.0": 1187676,
-      "3.6.0": 1201066
+      "3.6.0": 1201066,
+      "3.7.0": 1219751,
+      "3.7.1": 1222713
     }
   }
 }
