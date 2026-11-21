@@ -112,6 +112,30 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1225586": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35606/1225586/gitea-pr-and-actions-for-intellij-1.0.5.zip?updateId=1225586&pluginId=35606&family=INTELLIJ",
+      "sha256": "vSTqk48JBmSIUo4QZhl1G6TpJ8/XzNylbCsm8ieSALc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.vcs.impl",
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.dvcs",
+        "Git4Idea",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.libraries.kotlin.reflect",
+        "intellij.platform.vcs"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.vcs",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.platform.tasks",
+        "com.intellij.tasks"
+      ],
+      "file_name": "gitea-pr-and-actions-for-intellij-1.0.5.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -120,7 +144,8 @@
       "1.0.1": 1209338,
       "1.0.2": 1212203,
       "1.0.3": 1214216,
-      "1.0.4": 1217132
+      "1.0.4": 1217132,
+      "1.0.5": 1225586
     }
   }
 }

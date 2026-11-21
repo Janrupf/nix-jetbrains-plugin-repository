@@ -2279,6 +2279,64 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1225253": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/23289/1225253/aspire-plugin-2.9.11-signed.zip?updateId=1225253&pluginId=23289&family=INTELLIJ",
+      "sha256": "TmI5jGA8IEuF0JSL+qd9Gz9Ecofhs9pBhMfP2npSNpE=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.plugins.terminal",
+        "intellij.libraries.kotlinx.datetime",
+        "intellij.libraries.grpc.netty.shaded",
+        "intellij.aspire.shared",
+        "intellij.libraries.rd.core",
+        "intellij.libraries.protobuf",
+        "intellij.libraries.ktor.network.tls",
+        "intellij.execution.multilaunch.core",
+        "intellij.platform.frontend",
+        "intellij.libraries.grpc",
+        "intellij.terminal.frontend",
+        "com.intellij.modules.rider",
+        "intellij.libraries.ktor.io",
+        "intellij.platform.debugger.impl",
+        "intellij.rider.rdclient.dotnet",
+        "intellij.aspire.core",
+        "intellij.libraries.protobuf.kotlin",
+        "intellij.libraries.ktor.client",
+        "intellij.rd.client",
+        "intellij.aspire.core.frontend",
+        "intellij.libraries.netty.buffer",
+        "intellij.libraries.ktor.server.cio",
+        "intellij.libraries.netty.codec.http",
+        "intellij.platform.debugger",
+        "intellij.libraries.kotlinx.serialization.json",
+        "intellij.rider.languages",
+        "intellij.libraries.ktor.utils"
+      ],
+      "optional_dependencies": [
+        "intellij.rider.plugins.appender.database",
+        "com.intellij.database",
+        "intellij.platform.remoteServers",
+        "intellij.clouds.docker.shared",
+        "com.intellij.diagram",
+        "intellij.platform.backend",
+        "intellij.clouds.docker",
+        "intellij.database.dialects.redis",
+        "intellij.execution.serviceView.plugin",
+        "rider.intellij.plugin.appender",
+        "Docker"
+      ],
+      "file_name": "aspire-plugin-2.9.11-signed.zip",
+      "since": "263.0.1",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "263.0",
+          "applies_until": "999.99999",
+          "compatible_since": "263.0.1",
+          "compatible_until": "999.99999"
+        }
+      ]
     }
   },
   "channels": {
@@ -2379,6 +2437,7 @@
       "2.9.0": 1160879,
       "2.9.1": 1165638,
       "2.9.10": 1221969,
+      "2.9.11": 1225253,
       "2.9.2": 1176097,
       "2.9.3": 1177632,
       "2.9.4": 1185908,

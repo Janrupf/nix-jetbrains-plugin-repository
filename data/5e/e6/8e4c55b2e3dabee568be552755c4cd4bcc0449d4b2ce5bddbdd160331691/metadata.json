@@ -55,13 +55,32 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1225342": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35891/1225342/foldsql.zip?updateId=1225342&pluginId=35891&family=INTELLIJ",
+      "sha256": "xWHFELCoErpukuK8tWuVE3jBxdENFL22yywyh9ABGnc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "com.intellij.database",
+        "intellij.platform.langInjection"
+      ],
+      "optional_dependencies": [
+        "org.intellij.scala"
+      ],
+      "file_name": "foldsql.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.4": 1215195,
       "0.2.0": 1222694,
-      "0.2.1": 1223590
+      "0.2.1": 1223590,
+      "0.2.2": 1225342
     }
   }
 }

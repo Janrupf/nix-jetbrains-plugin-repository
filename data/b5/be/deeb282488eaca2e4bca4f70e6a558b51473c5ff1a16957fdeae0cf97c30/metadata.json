@@ -496,6 +496,26 @@
       "since": "262.1",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1225259": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/15114/1225259/payara-intellij-2.10.0.zip?updateId=1225259&pluginId=15114&family=INTELLIJ",
+      "sha256": "F9HnowSTZYPQdpQDuzbEnW8sRtDhy2eLZF7ccFtsgkg=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.javaee.app.servers.integration",
+        "com.intellij.modules.java",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform",
+        "com.intellij.javaee",
+        "GlassFish",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optional_dependencies": [],
+      "file_name": "payara-intellij-2.10.0.zip",
+      "since": "262.1",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -516,6 +536,7 @@
       "1.9.0": 579848,
       "2.0.0": 674296,
       "2.1.0": 720969,
+      "2.10.0": 1225259,
       "2.2.0": 818215,
       "2.3.0": 821363,
       "2.4.0": 849057,

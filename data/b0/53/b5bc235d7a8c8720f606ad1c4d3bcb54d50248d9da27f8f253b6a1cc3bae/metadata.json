@@ -5432,6 +5432,38 @@
       "since": "263.7307.329",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1225345": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9993/1225345/PyCharmHelp.zip?updateId=1225345&pluginId=9993&family=INTELLIJ",
+      "sha256": "OvO43WBNnC9LEak36NAac9hLuxvXr4GJu+fBoiFnHGw=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jaxb",
+        "intellij.platform.core",
+        "intellij.libraries.jackson3",
+        "intellij.libraries.jackson3.databind",
+        "intellij.libraries.netty.buffer",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.impl",
+        "intellij.platform.util.ex",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.credentialStore",
+        "intellij.platform.ide.core",
+        "intellij.libraries.jackson3.module.kotlin",
+        "intellij.libraries.lucene.common",
+        "intellij.libraries.netty.codec.http",
+        "intellij.libraries.jsoup",
+        "intellij.platform.builtInServer.impl",
+        "intellij.platform.projectModel",
+        "com.intellij.modules.pycharm",
+        "intellij.platform.ide",
+        "intellij.platform.ide.util.netty"
+      ],
+      "optional_dependencies": [],
+      "file_name": "PyCharmHelp.zip",
+      "since": "263.8311.32",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5841,7 +5873,8 @@
       "263.7307.101": 1207184,
       "263.7307.206": 1212885,
       "263.7307.329": 1224227,
-      "263.7307.50": 1201508
+      "263.7307.50": 1201508,
+      "263.8311.32": 1225345
     }
   }
 }

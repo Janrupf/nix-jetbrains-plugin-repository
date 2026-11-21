@@ -34,12 +34,30 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1225306": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31651/1225306/ddotit-intellij-0.1.5.zip?updateId=1225306&pluginId=31651&family=INTELLIJ",
+      "sha256": "LVJ9uCg4aK63YGMxyMKL5UDecwqq1bBJtVMHBgsl8Jk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json",
+        "org.asciidoctor.intellij.asciidoc",
+        "org.intellij.plugins.markdown"
+      ],
+      "file_name": "ddotit-intellij-0.1.5.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.1.2": 1044403,
-      "0.1.4": 1209817
+      "0.1.4": 1209817,
+      "0.1.5": 1225306
     }
   }
 }

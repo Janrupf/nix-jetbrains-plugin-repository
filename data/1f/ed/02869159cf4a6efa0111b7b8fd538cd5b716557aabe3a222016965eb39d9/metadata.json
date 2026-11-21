@@ -5789,6 +5789,95 @@
       "since": "271.3386",
       "until": "271.3386",
       "compatibility_overrides": []
+    },
+    "1225346": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9525/1225346/dotenv-263.8311.32.zip?updateId=1225346&pluginId=9525&family=INTELLIJ",
+      "sha256": "YIyAUSOd0i1OpG/Quro558Zy4oDuTZi/oEoCmorluc8=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.analysis",
+        "intellij.platform.core",
+        "intellij.platform.core.impl",
+        "intellij.platform.util.ui",
+        "intellij.platform.ide.impl",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.ide.core",
+        "intellij.platform.refactoring",
+        "intellij.platform.lang.impl",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.platform.lang",
+        "intellij.platform.editor.ui",
+        "intellij.platform.lang.core"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "intellij.java.backend",
+        "intellij.dotenv.java",
+        "com.intellij.modules.python",
+        "intellij.platform.core.ui",
+        "intellij.java.psi",
+        "intellij.libraries.kotlinc.kotlin.compiler.common"
+      ],
+      "file_name": "dotenv-263.8311.32.zip",
+      "since": "263.8311",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1225841": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/9525/1225841/dotenv-271.3481.0.zip?updateId=1225841&pluginId=9525&family=INTELLIJ",
+      "sha256": "HrGtA7zmGf5jKoDIM4GWYRZl9yC3yz9vGZIjDiT70c0=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.lang.impl",
+        "intellij.platform.lang.core",
+        "intellij.platform.core",
+        "intellij.platform.core.impl",
+        "intellij.platform.ide.impl",
+        "intellij.platform.ide.core",
+        "intellij.platform.lang",
+        "intellij.platform.analysis.impl",
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.platform.analysis",
+        "intellij.platform.editor.ui",
+        "intellij.platform.util.ui",
+        "intellij.libraries.kotlinx.collections.immutable",
+        "intellij.platform.refactoring"
+      ],
+      "optional_dependencies": [
+        "intellij.xml.psi.impl",
+        "ru.adelf.idea.dotenv",
+        "intellij.clouds.docker.file.backend",
+        "intellij.ruby.core",
+        "Docker",
+        "intellij.libraries.kotlinc.kotlin.compiler.common",
+        "intellij.yaml.backend",
+        "intellij.rustrover.core",
+        "intellij.clouds.docker.file",
+        "com.intellij.modules.ruby",
+        "intellij.java.backend",
+        "org.jetbrains.kotlin",
+        "org.jetbrains.plugins.go",
+        "com.intellij.modules.python",
+        "intellij.dotenv.java",
+        "intellij.rustrover.baseline.common",
+        "intellij.platform.core.ui",
+        "intellij.java.psi",
+        "intellij.xml.psi",
+        "intellij.ruby.backend",
+        "intellij.go.impl",
+        "intellij.yaml",
+        "com.jetbrains.php",
+        "intellij.php",
+        "intellij.php.frontback.impl",
+        "intellij.rustrover.common"
+      ],
+      "file_name": "dotenv-271.3481.0.zip",
+      "since": "271.3481",
+      "until": "271.3481",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5807,7 +5896,8 @@
       "271.3085.0": 1222606,
       "271.3202.0": 1223476,
       "271.3287.0": 1224109,
-      "271.3386.0": 1225076
+      "271.3386.0": 1225076,
+      "271.3481.0": 1225841
     },
     "stable": {
       "0.1": 33036,
@@ -6013,7 +6103,8 @@
       "263.7307.329": 1224217,
       "263.7307.35": 1200914,
       "263.7307.50": 1201517,
-      "263.8311.30": 1224719
+      "263.8311.30": 1224719,
+      "263.8311.32": 1225346
     }
   }
 }

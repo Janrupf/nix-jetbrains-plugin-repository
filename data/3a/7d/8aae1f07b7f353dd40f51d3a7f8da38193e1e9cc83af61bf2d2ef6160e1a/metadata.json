@@ -106,6 +106,39 @@
       "since": "233.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1225272": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29883/1225272/ofbiz-integration-2026.2.5.zip?updateId=1225272&pluginId=29883&family=INTELLIJ",
+      "sha256": "jkMlqOXMEznFCmQyvKPd+y8iG8w2VWbEcchcODtGza4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.marketplace",
+        "com.intellij.modules.java",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "AntSupport"
+      ],
+      "file_name": "ofbiz-integration-2026.2.5.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1225273": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29883/1225273/ofbiz-integration-2026.2.5-243.zip?updateId=1225273&pluginId=29883&family=INTELLIJ",
+      "sha256": "Oro8QqOUY9iI6BAHrjzeH0MB/yrEAfnJmUGmuoV9GxQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "AntSupport"
+      ],
+      "file_name": "ofbiz-integration-2026.2.5-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -116,7 +149,9 @@
       "2026.2.0": 960485,
       "2026.2.1": 960700,
       "2026.2.2": 964727,
-      "2026.2.3": 1209897
+      "2026.2.3": 1209897,
+      "2026.2.5": 1225272,
+      "2026.2.5-243": 1225273
     }
   }
 }

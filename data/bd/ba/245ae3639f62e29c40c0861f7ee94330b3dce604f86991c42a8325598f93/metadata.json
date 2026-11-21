@@ -102,18 +102,82 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1225365": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28073/1225365/structured-highlights-2.1.0.zip?updateId=1225365&pluginId=28073&family=INTELLIJ",
+      "sha256": "PuMTwl26iMuIXb5qW53nbPV9gvfa3HeAwY3JF9dqZZQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.monolith",
+        "structured-highlights.shared"
+      ],
+      "optional_dependencies": [
+        "intellij.rustrover.common",
+        "intellij.toml.core",
+        "intellij.javascript.psi.impl",
+        "intellij.css.common.psi",
+        "intellij.java.psi",
+        "intellij.css",
+        "intellij.rustrover.core",
+        "org.jetbrains.kotlin",
+        "com.jetbrains.php",
+        "intellij.java",
+        "intellij.rider.languages",
+        "intellij.sass",
+        "intellij.python.ast",
+        "structured-highlights.lang-css",
+        "org.jetbrains.plugins.go",
+        "intellij.python.psi"
+      ],
+      "file_name": "structured-highlights-2.1.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1225366": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28073/1225366/structured-highlights-2.1.0.zip?updateId=1225366&pluginId=28073&family=INTELLIJ",
+      "sha256": "PuMTwl26iMuIXb5qW53nbPV9gvfa3HeAwY3JF9dqZZQ=",
+      "channel": "beta",
+      "dependencies": [
+        "intellij.platform.monolith",
+        "structured-highlights.shared"
+      ],
+      "optional_dependencies": [
+        "intellij.rustrover.common",
+        "intellij.toml.core",
+        "intellij.javascript.psi.impl",
+        "intellij.css.common.psi",
+        "intellij.java.psi",
+        "intellij.css",
+        "com.jetbrains.php",
+        "intellij.rustrover.core",
+        "intellij.rider.languages",
+        "org.jetbrains.kotlin",
+        "intellij.java",
+        "intellij.sass",
+        "structured-highlights.lang-css",
+        "intellij.python.ast",
+        "org.jetbrains.plugins.go",
+        "intellij.python.psi"
+      ],
+      "file_name": "structured-highlights-2.1.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "beta": {
-      "2.0.0": 1168839
+      "2.0.0": 1168839,
+      "2.1.0": 1225366
     },
     "stable": {
       "0.0.1": 815567,
       "0.0.2": 828252,
       "0.0.3": 916813,
       "1.0.0": 1140155,
-      "1.0.2": 1146048
+      "1.0.2": 1146048,
+      "2.1.0": 1225365
     }
   }
 }
