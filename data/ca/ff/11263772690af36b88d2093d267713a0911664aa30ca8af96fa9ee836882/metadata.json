@@ -253,6 +253,27 @@
       "since": "271.3481",
       "until": "271.3481",
       "compatibility_overrides": []
+    },
+    "1226408": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36029/1226408/kmp-syntax-highlighter-kotlin-271.3520.0.zip?updateId=1226408&pluginId=36029&family=INTELLIJ",
+      "sha256": "2SEPdbGx2Rwj/Dr4Eb38pMIcZnoK/rLSDGUcTC4r+hY=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.analysis",
+        "intellij.platform.core",
+        "intellij.platform.editor.ui",
+        "intellij.platform.lang.impl",
+        "com.intellij.kmp.syntax.highlighter",
+        "intellij.platform.syntax.psi"
+      ],
+      "optional_dependencies": [
+        "intellij.kmp.syntax.highlighter.frontend",
+        "intellij.platform.frontend"
+      ],
+      "file_name": "kmp-syntax-highlighter-kotlin-271.3520.0.zip",
+      "since": "271.3520",
+      "until": "271.3520",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -268,7 +289,8 @@
       "271.3202.0": 1223481,
       "271.3287.0": 1224147,
       "271.3386.0": 1225081,
-      "271.3481.0": 1225796
+      "271.3481.0": 1225796,
+      "271.3520.0": 1226408
     }
   }
 }

@@ -69,13 +69,37 @@
       "since": "253.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1226113": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35905/1226113/easy-spring-262.1.4.zip?updateId=1226113&pluginId=35905&family=INTELLIJ",
+      "sha256": "2ZXjNqyZf+vXAf+pkaoUfVcoPZyzXyTk/0QJo6dG0ME=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.java",
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.jetbrains.kotlin"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.jcef",
+        "com.jetbrains.sh"
+      ],
+      "file_name": "easy-spring-262.1.4.zip",
+      "since": "262.0",
+      "until": "285.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "253.1.3": 1219128,
       "262.1.2": 1215381,
-      "262.1.3": 1218073
+      "262.1.3": 1218073,
+      "262.1.4": 1226113
     }
   }
 }

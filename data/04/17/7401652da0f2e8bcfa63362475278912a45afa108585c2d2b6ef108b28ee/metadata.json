@@ -203,11 +203,33 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1226186": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36098/1226186/ai-handoff-1.11.0.zip?updateId=1226186&pluginId=36098&family=INTELLIJ",
+      "sha256": "ZZ5cX8AU4KdpxtS0EKQQSJsiVefSA4wsvdJOkbcilEE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.idea.customization",
+        "intellij.pycharm.community.customization.shared",
+        "com.intellij.platform.vcs",
+        "com.intellij.phpstorm.customization"
+      ],
+      "file_name": "ai-handoff-1.11.0.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.10.0": 1224761,
+      "1.11.0": 1226186,
       "1.5.2": 1221990,
       "1.6.0": 1222357,
       "1.6.1": 1222358,
