@@ -2,53 +2,70 @@
   "xml_id": "jetbrains.mps.agents.mcp.tools",
   "numeric_id": 36328,
   "updates": {
-    "1225289": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1225289/mcp-tools-2026.1.3-pre.1178.zip?updateId=1225289&pluginId=36328&family=INTELLIJ",
-      "sha256": "Y8uQJD/V0tOeDfSuqbkBIEVa3wuFuuAnjc5SrCHEviU=",
+    "1226713": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1226713/mcp-tools-MPS-261.27258.1183.zip?updateId=1226713&pluginId=36328&family=INTELLIJ",
+      "sha256": "jc2KgmSaS/4yezbHmDehRvdZUsIom0WxKqAgIqO5REA=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.mcpServer",
         "jetbrains.mps.ide.migration.workbench",
+        "jetbrains.mps.core",
+        "jetbrains.mps.ide.java",
+        "com.intellij.modules.mps"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-tools-MPS-261.27258.1183.zip",
+      "since": "261.1",
+      "until": "262.1",
+      "compatibility_overrides": []
+    },
+    "1226714": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1226714/mcp-tools-MPS-261.27258.1184.zip?updateId=1226714&pluginId=36328&family=INTELLIJ",
+      "sha256": "8MY3hP6/OLxxFovvQGo64p85lM0DyAfkOrl3jfa8PCI=",
+      "channel": "stable",
+      "dependencies": [
+        "jetbrains.mps.ide.migration.workbench",
+        "com.intellij.mcpServer",
         "com.intellij.modules.mps",
         "jetbrains.mps.ide.java",
         "jetbrains.mps.core"
       ],
       "optional_dependencies": [],
-      "file_name": "mcp-tools-2026.1.3-pre.1178.zip",
+      "file_name": "mcp-tools-MPS-261.27258.1184.zip",
       "since": "261.1",
       "until": "262.1",
       "compatibility_overrides": []
     },
-    "1225317": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1225317/mcp-tools-2026.1.3-pre.1179.zip?updateId=1225317&pluginId=36328&family=INTELLIJ",
-      "sha256": "vCYgal5xtncviw+qrjTxJYizesDl9podVKka6Ecfh1c=",
+    "1226737": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1226737/mcp-tools-MPS-261.27258.1187.zip?updateId=1226737&pluginId=36328&family=INTELLIJ",
+      "sha256": "m9D+e5DLfUkeV+j67psWtOf0WvKP2khFL4iZETC1mjw=",
       "channel": "stable",
       "dependencies": [
         "jetbrains.mps.core",
+        "jetbrains.mps.ide.java",
+        "com.intellij.modules.mps",
         "com.intellij.mcpServer",
+        "jetbrains.mps.ide.migration.workbench"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-tools-MPS-261.27258.1187.zip",
+      "since": "261.1",
+      "until": "262.1",
+      "compatibility_overrides": []
+    },
+    "1226742": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1226742/mcp-tools-MPS-261.27258.1188.zip?updateId=1226742&pluginId=36328&family=INTELLIJ",
+      "sha256": "he66LX1tTBz7DfJ8YtnqF6CfZqm4GSnEU6Fez1QFrl8=",
+      "channel": "stable",
+      "dependencies": [
         "com.intellij.modules.mps",
         "jetbrains.mps.ide.migration.workbench",
+        "com.intellij.mcpServer",
+        "jetbrains.mps.core",
         "jetbrains.mps.ide.java"
       ],
       "optional_dependencies": [],
-      "file_name": "mcp-tools-2026.1.3-pre.1179.zip",
-      "since": "261.1",
-      "until": "262.1",
-      "compatibility_overrides": []
-    },
-    "1225363": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1225363/mcp-tools-2026.1.3-pre.1180.zip?updateId=1225363&pluginId=36328&family=INTELLIJ",
-      "sha256": "zocCPmzP3pvhx/E+S06tkg4UOpyOM0Vkm53dIDN9Hj8=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.mps",
-        "jetbrains.mps.ide.java",
-        "jetbrains.mps.core",
-        "jetbrains.mps.ide.migration.workbench",
-        "com.intellij.mcpServer"
-      ],
-      "optional_dependencies": [],
-      "file_name": "mcp-tools-2026.1.3-pre.1180.zip",
+      "file_name": "mcp-tools-MPS-261.27258.1188.zip",
       "since": "261.1",
       "until": "262.1",
       "compatibility_overrides": []
@@ -56,9 +73,10 @@
   },
   "channels": {
     "stable": {
-      "2026.1.3-pre.1178": 1225289,
-      "2026.1.3-pre.1179": 1225317,
-      "2026.1.3-pre.1180": 1225363
+      "261.27258.1183": 1226713,
+      "261.27258.1184": 1226714,
+      "261.27258.1187": 1226737,
+      "261.27258.1188": 1226742
     }
   }
 }

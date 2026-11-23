@@ -54,13 +54,32 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1227000": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/28893/1227000/mybatis-workbench-0.1.1-platform-262.zip?updateId=1227000&pluginId=28893&family=INTELLIJ",
+      "sha256": "RwMEpqqOz0Lbm9AbcMoLz23wOjs7Xq8tBGeGDhclXO4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.database",
+        "com.intellij.java",
+        "com.intellij.spring"
+      ],
+      "file_name": "mybatis-workbench-0.1.1-platform-262.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.0.1": 885494,
       "0.0.2": 904859,
-      "0.0.3": 1223339
+      "0.0.3": 1223339,
+      "0.1.1": 1227000
     }
   }
 }
