@@ -7475,6 +7475,121 @@
       "since": "262.12573",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1227032": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14394/1227032/swagger-263.8311.31.zip?updateId=1227032&pluginId=14394&family=INTELLIJ",
+      "sha256": "bcAMCkCDUv6jRjuk1BOMJu5ctKge2fMsukbdFs1KL0w=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.swagger.redoc",
+        "intellij.markdown",
+        "intellij.platform.concurrency",
+        "intellij.platform.editor.ui",
+        "intellij.platform.lang.impl",
+        "intellij.platform.core",
+        "intellij.platform.util.ex",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.vcs",
+        "intellij.json.backend",
+        "intellij.platform.projectModel",
+        "intellij.platform.execution",
+        "intellij.libraries.swagger.ui",
+        "intellij.yaml.backend",
+        "intellij.libraries.http.client",
+        "intellij.platform.execution.impl",
+        "intellij.yaml",
+        "intellij.platform.builtInServer",
+        "intellij.platform.ide.util.netty",
+        "intellij.platform.codeStyle",
+        "intellij.libraries.automaton",
+        "intellij.platform.syntax.util",
+        "intellij.libraries.netty.buffer",
+        "intellij.libraries.jackson",
+        "intellij.platform.ide.core",
+        "intellij.platform.core.impl",
+        "intellij.platform.lang",
+        "intellij.libraries.snakeyaml",
+        "intellij.platform.indexing",
+        "intellij.libraries.jackson.dataformat.yaml",
+        "intellij.platform.statistics",
+        "intellij.platform.ide.impl",
+        "intellij.platform.usageView",
+        "intellij.json.syntax",
+        "intellij.libraries.jcef",
+        "intellij.platform.credentialStore",
+        "intellij.libraries.netty.codec.http",
+        "intellij.platform.analysis",
+        "intellij.platform.builtInServer.impl",
+        "intellij.platform.ide.progress",
+        "intellij.libraries.asyncapi.react.component",
+        "intellij.platform.refactoring",
+        "intellij.platform.core.ui",
+        "intellij.platform.util.ui",
+        "intellij.libraries.jackson.databind",
+        "intellij.platform.syntax",
+        "com.jetbrains.restClient",
+        "intellij.spellchecker",
+        "intellij.platform.util.coroutines",
+        "intellij.platform.util.progress"
+      ],
+      "optional_dependencies": [
+        "intellij.java.backend",
+        "com.intellij.microservices.ui",
+        "intellij.gradle",
+        "intellij.libraries.kotlinx.serialization.core",
+        "intellij.mcpserver",
+        "intellij.maven",
+        "intellij.microservices.backend",
+        "intellij.swagger.core",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.ultimate"
+      ],
+      "file_name": "swagger-263.8311.31.zip",
+      "since": "263.8311",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1227323": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14394/1227323/swagger-252.28539.160.zip?updateId=1227323&pluginId=14394&family=INTELLIJ",
+      "sha256": "uhYjwAEg15GplhySYjjox+gIw+6DhJbL3iP2BfD7BwI=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.restClient",
+        "intellij.json.backend",
+        "intellij.spellchecker",
+        "intellij.yaml.backend",
+        "org.intellij.plugins.markdown"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "org.jetbrains.idea.maven",
+        "intellij.microservices.ui"
+      ],
+      "file_name": "swagger-252.28539.160.zip",
+      "since": "252.28539",
+      "until": "252.*",
+      "compatibility_overrides": []
+    },
+    "1227456": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14394/1227456/swagger-252.28539.163.zip?updateId=1227456&pluginId=14394&family=INTELLIJ",
+      "sha256": "AjQJOmR5S+JaOlqzZrIc3vx/nxmB5y0xzuzDTClyobc=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.yaml.backend",
+        "org.intellij.plugins.markdown",
+        "intellij.json.backend",
+        "com.jetbrains.restClient",
+        "intellij.spellchecker"
+      ],
+      "optional_dependencies": [
+        "com.intellij.java",
+        "intellij.microservices.ui",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "swagger-252.28539.163.zip",
+      "since": "252.28539",
+      "until": "252.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -7751,6 +7866,8 @@
       "252.28238.33": 903127,
       "252.28539.144": 1206643,
       "252.28539.155": 1206891,
+      "252.28539.160": 1227323,
+      "252.28539.163": 1227456,
       "252.28539.8": 910924,
       "252.28539.91": 1117970,
       "253.17525.83": 855323,
@@ -7797,7 +7914,8 @@
       "263.7031.19": 1194754,
       "263.7307.108": 1207311,
       "263.7307.209": 1212896,
-      "263.7307.35": 1200896
+      "263.7307.35": 1200896,
+      "263.8311.31": 1227032
     }
   }
 }

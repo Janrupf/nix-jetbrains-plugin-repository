@@ -1005,7 +1005,7 @@
       "optional_dependencies": [],
       "file_name": "GBrowser-2025.2.8.zip",
       "since": "252.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -1025,7 +1025,7 @@
       "optional_dependencies": [],
       "file_name": "GBrowser-2025.2.8.zip",
       "since": "252.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -1338,6 +1338,22 @@
       "since": "263.7031",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1227092": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14458/1227092/GBrowser-2026.3.8.zip?updateId=1227092&pluginId=14458&family=INTELLIJ",
+      "sha256": "7f2GBLpfxE2wrXNBcBAtbXMWHXczyuyL7TTPq/fHa+Q=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ui.jcef",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "intellij.libraries.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "GBrowser-2026.3.8.zip",
+      "since": "263.7031",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1442,7 +1458,8 @@
       "2026.3.4": 1202002,
       "2026.3.5": 1214029,
       "2026.3.6": 1217890,
-      "2026.3.7": 1220586
+      "2026.3.7": 1220586,
+      "2026.3.8": 1227092
     }
   }
 }

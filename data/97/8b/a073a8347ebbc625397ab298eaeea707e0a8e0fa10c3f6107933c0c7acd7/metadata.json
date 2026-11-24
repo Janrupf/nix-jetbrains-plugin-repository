@@ -490,6 +490,24 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1227911": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22842/1227911/strong-gateway-plugin-1.0.53.zip?updateId=1227911&pluginId=22842&family=INTELLIJ",
+      "sha256": "c4LsBP+YUhCyIWBrDxxI6FTGcm/9gaLUqWgQSQhXlKE=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jackson.databind",
+        "intellij.libraries.jackson.module.kotlin",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.gateway",
+        "com.intellij.platform.ssh"
+      ],
+      "file_name": "strong-gateway-plugin-1.0.53.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -524,6 +542,7 @@
       "1.0.48": 1028749,
       "1.0.50": 1167959,
       "1.0.51": 1197948,
+      "1.0.53": 1227911,
       "1.0.7": 414869,
       "1.0.8": 418329
     }

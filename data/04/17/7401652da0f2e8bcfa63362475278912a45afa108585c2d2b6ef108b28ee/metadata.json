@@ -225,27 +225,6 @@
       "until": null,
       "compatibility_overrides": []
     },
-    "1226534": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/36098/1226534/ai-handoff-1.11.1.zip?updateId=1226534&pluginId=36098&family=INTELLIJ",
-      "sha256": "bpGIjTR1Kv+QirtU28PtFFQ9hYXADkLxWOvfJbCbnZU=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.vcs",
-        "com.intellij.mcpServer",
-        "com.intellij.modules.platform",
-        "org.jetbrains.plugins.terminal"
-      ],
-      "optional_dependencies": [
-        "com.intellij.phpstorm.customization",
-        "com.intellij.platform.vcs",
-        "com.intellij.idea.customization",
-        "intellij.pycharm.community.customization.shared"
-      ],
-      "file_name": "ai-handoff-1.11.1.zip",
-      "since": "261.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1226556": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/36098/1226556/ai-handoff-1.11.2.zip?updateId=1226556&pluginId=36098&family=INTELLIJ",
       "sha256": "nFirr0s6vDVe6kVcrJTO2DYxXCG4j999N5v4H2Jk3bk=",
@@ -266,14 +245,35 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1227130": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36098/1227130/ai-handoff-1.11.3.zip?updateId=1227130&pluginId=36098&family=INTELLIJ",
+      "sha256": "mRDe9E9sP/g87vSS1K9RVt0N7BdgvIGeXiDjt2tP1Js=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.idea.customization",
+        "intellij.pycharm.community.customization.shared",
+        "com.intellij.platform.vcs",
+        "com.intellij.phpstorm.customization"
+      ],
+      "file_name": "ai-handoff-1.11.3.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.10.0": 1224761,
       "1.11.0": 1226186,
-      "1.11.1": 1226534,
       "1.11.2": 1226556,
+      "1.11.3": 1227130,
       "1.5.2": 1221990,
       "1.6.0": 1222357,
       "1.6.1": 1222358,

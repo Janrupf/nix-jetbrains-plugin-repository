@@ -5373,6 +5373,50 @@
       "since": "263.8311",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1227357": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/7512/1227357/behat-263.7307.352.zip?updateId=1227357&pluginId=7512&family=INTELLIJ",
+      "sha256": "nbzKGMKsijQ50TNGGgOjcPLDngY/03+uWgOXMUB+ww0=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.smRunner",
+        "intellij.platform.analysis",
+        "gherkin",
+        "intellij.php.backend",
+        "intellij.platform.core.ui",
+        "intellij.platform.lang.impl",
+        "intellij.platform.codeStyle",
+        "intellij.platform.codeStyle.impl",
+        "intellij.platform.editor.ui",
+        "intellij.platform.ide.core",
+        "com.jetbrains.php",
+        "intellij.platform.core",
+        "intellij.platform.testRunner",
+        "intellij.platform.ide.impl",
+        "intellij.platform.consoleView",
+        "intellij.platform.concurrency",
+        "intellij.libraries.guava",
+        "intellij.platform.util.ui",
+        "intellij.platform.core.impl",
+        "intellij.platform.execution",
+        "intellij.platform.indexing",
+        "intellij.platform.projectModel",
+        "intellij.libraries.gson",
+        "intellij.platform.execution.impl",
+        "intellij.platform.ide",
+        "intellij.libraries.fastutil",
+        "intellij.libraries.oro.matcher",
+        "intellij.platform.lang",
+        "intellij.platform.util.text.matching"
+      ],
+      "optional_dependencies": [
+        "com.jetbrains.php.behat",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "file_name": "behat-263.7307.352.zip",
+      "since": "263.7307",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -5680,6 +5724,7 @@
       "263.6800.24": 1192017,
       "263.7031.23": 1194874,
       "263.7307.112": 1207413,
+      "263.7307.352": 1227357,
       "263.7307.44": 1201110,
       "263.8311.30": 1224614
     }

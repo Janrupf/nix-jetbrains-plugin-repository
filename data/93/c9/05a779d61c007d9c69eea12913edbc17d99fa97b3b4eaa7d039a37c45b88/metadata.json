@@ -99,12 +99,48 @@
       "since": "233.0",
       "until": "271.*",
       "compatibility_overrides": []
+    },
+    "1227745": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34137/1227745/gitflow_version_check-1.0.10.zip?updateId=1227745&pluginId=34137&family=INTELLIJ",
+      "sha256": "PEvX9Tc5K/S12s6RZIt9QCZ6Up5Hbjhm2oo/z478l0I=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.vcs"
+      ],
+      "file_name": "gitflow_version_check-1.0.10.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1227846": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34137/1227846/gitflow_version_check-1.0.11.zip?updateId=1227846&pluginId=34137&family=INTELLIJ",
+      "sha256": "8H64tbJgXKhKTEdV1VEWzFbJAdUxCxhqM85mEmbMlu4=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.platform.vcs"
+      ],
+      "file_name": "gitflow_version_check-1.0.11.zip",
+      "since": "233.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1163594,
       "1.0.1": 1169695,
+      "1.0.10": 1227745,
+      "1.0.11": 1227846,
       "1.0.2": 1176466,
       "1.0.4": 1193682,
       "1.0.5": 1194235,

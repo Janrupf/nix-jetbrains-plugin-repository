@@ -55,13 +55,32 @@
       "since": "251.23774",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1227675": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/26828/1227675/MixinSquaredPlugin-1.2.0_2026.2-1.9.1.zip?updateId=1227675&pluginId=26828&family=INTELLIJ",
+      "sha256": "ZBWEz0mUeDNLysbWkxEKvVGjLvQcMu4xo5cXQIgTpwY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.java",
+        "com.demonwav.minecraft-dev",
+        "ByteCodeViewer",
+        "com.intellij.modules.platform",
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven"
+      ],
+      "optional_dependencies": [],
+      "file_name": "MixinSquaredPlugin-1.2.0_2026.2-1.9.1.zip",
+      "since": "262.8665",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0+2024.2-1.8.2": 698413,
       "1.0.0+2024.3-1.8.2": 701801,
-      "1.0.0+2025.1-1.8.4": 721161
+      "1.0.0+2025.1-1.8.4": 721161,
+      "1.2.0+2026.2-1.9.1": 1227675
     }
   }
 }

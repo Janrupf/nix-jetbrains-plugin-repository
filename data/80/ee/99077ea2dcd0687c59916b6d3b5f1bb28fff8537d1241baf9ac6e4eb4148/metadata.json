@@ -239,6 +239,40 @@
       "since": "262.0",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1227596": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34609/1227596/nexora-intellij-extension-2.0.0-253-signed.zip?updateId=1227596&pluginId=34609&family=INTELLIJ",
+      "sha256": "i3Fzw5JNiDOuKlqkjEVbtrcZ912sWfskzdEqnLIcv00=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "nexora-intellij-extension-2.0.0-253-signed.zip",
+      "since": "253.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1227598": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34609/1227598/nexora-intellij-extension-2.0.0-262-signed.zip?updateId=1227598&pluginId=34609&family=INTELLIJ",
+      "sha256": "blAVAR5BAz1N9eaifdnOkg4zJNXZB+4gSfzEFaM44Jc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.jcef",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.json"
+      ],
+      "file_name": "nexora-intellij-extension-2.0.0-262-signed.zip",
+      "since": "262.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -256,7 +290,9 @@
       "1.0.78-253": 1222239,
       "1.0.78-262": 1222242,
       "1.0.79-253": 1223752,
-      "1.0.79-262": 1223754
+      "1.0.79-262": 1223754,
+      "2.0.0-253": 1227596,
+      "2.0.0-262": 1227598
     }
   }
 }
