@@ -49,13 +49,30 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1228175": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35667/1228175/mph-intellij-plugin-0.28.zip?updateId=1228175&pluginId=35667&family=INTELLIJ",
+      "sha256": "csGTo7WNZMtS2N8tNqnmQV9UPZieHyNoAOan+SZqL0k=",
+      "channel": "stable",
+      "dependencies": [
+        "org.jetbrains.idea.maven",
+        "com.intellij.java",
+        "com.intellij.modules.platform",
+        "Git4Idea"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mph-intellij-plugin-0.28.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "0.25": 1208202,
       "0.26": 1212884,
-      "0.27": 1227572
+      "0.27": 1227572,
+      "0.28": 1228175
     }
   }
 }

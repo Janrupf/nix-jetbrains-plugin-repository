@@ -84,6 +84,33 @@
       "since": "253.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228218": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33783/1228218/xechat-webview-plugin-1.4.3-legacy.zip?updateId=1228218&pluginId=33783&family=INTELLIJ",
+      "sha256": "srmzFDIHc7MST/UESUdVIMiMgiz88NJirUQ+HExCnQw=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "xechat-webview-plugin-1.4.3-legacy.zip",
+      "since": "233.0",
+      "until": "253.0.*",
+      "compatibility_overrides": []
+    },
+    "1228220": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/33783/1228220/xechat-webview-plugin-1.4.3.zip?updateId=1228220&pluginId=33783&family=INTELLIJ",
+      "sha256": "wu4aQPZT4/QbLsXw8XUIGypYxAUwFd4Qge8kTwZeC8k=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "xechat-webview-plugin-1.4.3.zip",
+      "since": "253.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -93,7 +120,9 @@
       "1.4.1": 1219595,
       "1.4.1-legacy": 1219242,
       "1.4.2": 1227889,
-      "1.4.2-legacy": 1227885
+      "1.4.2-legacy": 1227885,
+      "1.4.3": 1228220,
+      "1.4.3-legacy": 1228218
     }
   }
 }

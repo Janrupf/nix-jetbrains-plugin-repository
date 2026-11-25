@@ -58,13 +58,33 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228164": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34261/1228164/deployment-airlock-1.1.1-signed.zip?updateId=1228164&pluginId=34261&family=INTELLIJ",
+      "sha256": "7jfGKnhTtmy+F/oeZdejFI0ylMHcezDOiVdtXwPX58M=",
+      "channel": "stable",
+      "dependencies": [
+        "com.jetbrains.plugins.webDeployment",
+        "com.intellij.modules.platform",
+        "com.intellij.mcpServer",
+        "intellij.platform.ssh.core",
+        "intellij.platform.ssh.ui",
+        "intellij.ssh.plugin",
+        "com.intellij.modules.vcs"
+      ],
+      "optional_dependencies": [],
+      "file_name": "deployment-airlock-1.1.1-signed.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1170683,
       "1.0.1": 1179191,
-      "1.1.0": 1227677
+      "1.1.0": 1227677,
+      "1.1.1": 1228164
     }
   }
 }

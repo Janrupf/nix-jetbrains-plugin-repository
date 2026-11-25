@@ -39,12 +39,32 @@
       "since": "243.0",
       "until": "261.*",
       "compatibility_overrides": []
+    },
+    "1228070": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35063/1228070/impactrunner-1.0.3.zip?updateId=1228070&pluginId=35063&family=INTELLIJ",
+      "sha256": "dWMTl0QJz2Mu8Ic81+eiFRqg+XNIBE56BAJ5at0vsFk=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.vcs",
+        "JUnit",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.kotlin",
+        "Git4Idea"
+      ],
+      "file_name": "impactrunner-1.0.3.zip",
+      "since": "243.0",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1192963,
-      "1.0.2": 1216732
+      "1.0.2": 1216732,
+      "1.0.3": 1228070
     }
   }
 }

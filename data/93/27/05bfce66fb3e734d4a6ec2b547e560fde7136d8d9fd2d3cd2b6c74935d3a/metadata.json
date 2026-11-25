@@ -15,11 +15,43 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228087": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31843/1228087/target-process-connector-0.0.2-unstable.1.zip?updateId=1228087&pluginId=31843&family=INTELLIJ",
+      "sha256": "miFuaqRz5xi4tee2kGk8L4yku9Xa/+UC94kKwvkorbw=",
+      "channel": "unstable",
+      "dependencies": [
+        "com.intellij.tasks",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "target-process-connector-0.0.2-unstable.1.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1228088": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/31843/1228088/target-process-connector-0.0.2.zip?updateId=1228088&pluginId=31843&family=INTELLIJ",
+      "sha256": "l92XYtaoz+WLgfEzAAQsfwn8IeTcqZJIkelmV2w00Es=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.tasks",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "target-process-connector-0.0.2.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.0.1": 1051525
+      "0.0.1": 1051525,
+      "0.0.2": 1228088
+    },
+    "unstable": {
+      "0.0.2-unstable.1": 1228087
     }
   }
 }

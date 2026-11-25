@@ -103,6 +103,40 @@
       "since": "262.1",
       "until": "262.*",
       "compatibility_overrides": []
+    },
+    "1228161": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1228161/mcp-tools-MPS-261.27258.1208.zip?updateId=1228161&pluginId=36328&family=INTELLIJ",
+      "sha256": "XT3NpYdpoZWgEp1mujpGHiTkb/zeyslnZzpz1CPXofA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.mps",
+        "jetbrains.mps.ide.java",
+        "jetbrains.mps.core",
+        "com.intellij.mcpServer",
+        "jetbrains.mps.ide.migration.workbench"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-tools-MPS-261.27258.1208.zip",
+      "since": "261.1",
+      "until": "262.1",
+      "compatibility_overrides": []
+    },
+    "1228260": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36328/1228260/mcp-tools-MPS-262.11879.750.zip?updateId=1228260&pluginId=36328&family=INTELLIJ",
+      "sha256": "fTWqyUgMrmF7Q+o+PYn+eKSYN1YeIOjIt9y1GmTV3UA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.mcpServer",
+        "jetbrains.mps.ide.java",
+        "jetbrains.mps.core",
+        "com.intellij.modules.mps",
+        "jetbrains.mps.ide.migration.workbench"
+      ],
+      "optional_dependencies": [],
+      "file_name": "mcp-tools-MPS-262.11879.750.zip",
+      "since": "262.1",
+      "until": "262.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -110,9 +144,11 @@
       "261.27258.1188": 1226742,
       "261.27258.1196": 1227873,
       "261.27258.1198": 1227918,
+      "261.27258.1208": 1228161,
       "262.11879.738": 1227641,
       "262.11879.739": 1227872,
-      "262.11879.741": 1227927
+      "262.11879.741": 1227927,
+      "262.11879.750": 1228260
     }
   }
 }

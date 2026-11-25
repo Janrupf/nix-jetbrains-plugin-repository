@@ -55,13 +55,33 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1227990": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35126/1227990/changelog-files-1.0.5.zip?updateId=1227990&pluginId=35126&family=INTELLIJ",
+      "sha256": "ztlwdO61a72FkRLKo9LL1PPFoX3vzcvXmdRTmaRuV+Y=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "tanvd.grazi",
+        "com.intellij.modules.xml",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.modules.json",
+        "com.intellij.database"
+      ],
+      "file_name": "changelog-files-1.0.5.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1194151,
       "1.0.3": 1203154,
-      "1.0.4": 1203564
+      "1.0.4": 1203564,
+      "1.0.5": 1227990
     }
   }
 }
