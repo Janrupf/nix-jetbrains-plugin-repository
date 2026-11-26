@@ -2497,7 +2497,7 @@
         "perl5.lang.embedded.common.main"
       ],
       "file_name": "lang.embedded-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -2753,7 +2753,7 @@
         "perl5.lang.embedded.frontend.main"
       ],
       "file_name": "lang.embedded-2026.1.zip",
-      "since": "261.22158",
+      "since": "261.0",
       "until": null,
       "compatibility_overrides": []
     },
@@ -3308,6 +3308,33 @@
       "since": "271.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228749": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1228749/lang.embedded-2026.3.1.zip?updateId=1228749&pluginId=11340&family=INTELLIJ",
+      "sha256": "COyaNp0l3lZwmY+CiLzUpcYpgw6rgSOkgJ45VqbhFWs=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.xml.ui.common",
+        "com.perl5",
+        "intellij.xml.parser",
+        "intellij.xml.psi.impl",
+        "com.intellij.modules.lang",
+        "perl5.plugin.common.main"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.embedded.common.main",
+        "perl5.lang.embedded.backend.main",
+        "perl5.plugin.backend.main",
+        "perl5.plugin.frontend.main",
+        "intellij.platform.frontend",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.structureView.main",
+        "intellij.platform.frontend.split"
+      ],
+      "file_name": "lang.embedded-2026.3.1.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3524,7 +3551,8 @@
       "2026.1": 994931,
       "2026.2": 1109571,
       "2026.2.1": 1141004,
-      "2026.3": 1213609
+      "2026.3": 1213609,
+      "2026.3.1": 1228749
     }
   }
 }

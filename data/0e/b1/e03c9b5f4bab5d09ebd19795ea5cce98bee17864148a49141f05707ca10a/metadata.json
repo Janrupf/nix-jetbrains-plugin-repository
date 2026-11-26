@@ -3193,6 +3193,31 @@
       "since": "271.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228754": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11335/1228754/lang.tt2-2026.3.1.zip?updateId=1228754&pluginId=11335&family=INTELLIJ",
+      "sha256": "UvCLbsh4KvhEKDTWIbeGmlinM+WECZd6B2x+WDl6HB0=",
+      "channel": "stable",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "intellij.xml.psi.impl",
+        "intellij.xml.ui.common",
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "intellij.xml.parser"
+      ],
+      "optional_dependencies": [
+        "perl5.plugin.backend.main",
+        "perl5.plugin.frontend.main",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.lang.tt2.frontend.main",
+        "perl5.lang.tt2.common.main"
+      ],
+      "file_name": "lang.tt2-2026.3.1.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3405,7 +3430,8 @@
       "2026.1": 994937,
       "2026.2": 1109576,
       "2026.2.1": 1141009,
-      "2026.3": 1213614
+      "2026.3": 1213614,
+      "2026.3.1": 1228754
     }
   }
 }

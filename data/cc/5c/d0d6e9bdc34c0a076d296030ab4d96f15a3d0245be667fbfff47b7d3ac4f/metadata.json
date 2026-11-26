@@ -505,40 +505,21 @@
       "until": "261.*",
       "compatibility_overrides": []
     },
-    "1203547": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14865/1203547/opa-idea-plugin-v0.20.0.zip?updateId=1203547&pluginId=14865&family=INTELLIJ",
-      "sha256": "hXCJnm8unPcmpFeJmrWtZf0yOuFS+7/TxOB6XLawk14=",
+    "1228391": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14865/1228391/opa-idea-plugin-v0.21.0.zip?updateId=1228391&pluginId=14865&family=INTELLIJ",
+      "sha256": "hgiIyNser17yHiDD1wq27urfwPtfmZQM8qend33p2pY=",
       "channel": "stable",
       "dependencies": [
+        "com.intellij.modules.lang",
         "com.intellij.modules.json",
         "com.redhat.devtools.lsp4ij",
-        "com.intellij.modules.lang",
         "com.intellij.modules.platform"
       ],
       "optional_dependencies": [
-        "Coverage",
-        "com.intellij.modules.java"
+        "com.intellij.modules.java",
+        "Coverage"
       ],
-      "file_name": "opa-idea-plugin-v0.20.0.zip",
-      "since": null,
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1223006": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/14865/1223006/opa-idea-plugin-v0.21.0-dev.zip?updateId=1223006&pluginId=14865&family=INTELLIJ",
-      "sha256": "ywpYAtH06iKp+W4LLzFDwz5c1UnL6F/f6oGaDp7DxZU=",
-      "channel": "dev",
-      "dependencies": [
-        "com.intellij.modules.json",
-        "com.redhat.devtools.lsp4ij",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang"
-      ],
-      "optional_dependencies": [
-        "Coverage",
-        "com.intellij.modules.java"
-      ],
-      "file_name": "opa-idea-plugin-v0.21.0-dev.zip",
+      "file_name": "opa-idea-plugin-v0.21.0.zip",
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
@@ -549,8 +530,7 @@
       "0.1.0.SNAPSHOT-201-dev": 94571,
       "0.1.0.SNAPSHOT-202-dev": 94572,
       "v0.11.0-dev": 376621,
-      "v0.12.0-dev": 470424,
-      "v0.21.0-dev": 1223006
+      "v0.12.0-dev": 470424
     },
     "stable": {
       "0.1.0.0-201": 97677,
@@ -575,7 +555,7 @@
       "v0.17.0": 1050569,
       "v0.18.0": 1058613,
       "v0.19.0": 1155704,
-      "v0.20.0": 1203547,
+      "v0.21.0": 1228391,
       "v0.7.0-211": 149481,
       "v0.7.0-212": 149482,
       "v0.8.0-212": 168983,

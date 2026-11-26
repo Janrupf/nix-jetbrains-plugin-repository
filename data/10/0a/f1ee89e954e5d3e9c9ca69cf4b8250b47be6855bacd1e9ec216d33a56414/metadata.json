@@ -17,11 +17,28 @@
       "since": "243.21565.199",
       "until": "253.*",
       "compatibility_overrides": []
+    },
+    "1228486": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36359/1228486/pycharm-jupyter-notebook-markdown-tools-0.1.1.zip?updateId=1228486&pluginId=36359&family=INTELLIJ",
+      "sha256": "ZbClhWmxls4xWhqdnVC8DjmJFOZskfFJV5wZkvKqwyQ=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.jupyter",
+        "org.intellij.plugins.markdown",
+        "com.intellij.notebooks.core",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "pycharm-jupyter-notebook-markdown-tools-0.1.1.zip",
+      "since": "243.21565.199",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "0.1.0": 1226106
+      "0.1.0": 1226106,
+      "0.1.1": 1228486
     }
   }
 }

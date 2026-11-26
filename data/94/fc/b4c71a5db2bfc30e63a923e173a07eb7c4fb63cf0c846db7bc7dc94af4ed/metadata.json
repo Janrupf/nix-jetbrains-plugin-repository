@@ -1,0 +1,33 @@
+{
+  "xml_id": "io.github.hephbuild.heph",
+  "numeric_id": 36476,
+  "updates": {
+    "1228553": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36476/1228553/heph-plugin-0.1.0-snapshot.20261125212531.zip?updateId=1228553&pluginId=36476&family=INTELLIJ",
+      "sha256": "lGWUC3wlWiPRvWlWnW2H9A4HzwVBZmVXHZ4OQXDuiv0=",
+      "channel": "nightly",
+      "dependencies": [
+        "intellij.platform.rpc",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "intellij.platform.rpc.backend",
+        "intellij.platform.kernel.backend",
+        "intellij.platform.lsp.impl",
+        "heph-jetbrains.shared",
+        "intellij.platform.backend",
+        "intellij.platform.frontend",
+        "intellij.platform.lsp"
+      ],
+      "file_name": "heph-plugin-0.1.0-snapshot.20261125212531.zip",
+      "since": "263.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "nightly": {
+      "0.1.0": 1228553
+    }
+  }
+}

@@ -2,28 +2,17 @@
   "xml_id": "com.mrmao14.btdeploy",
   "numeric_id": 36425,
   "updates": {
-    "1227933": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/36425/1227933/bt-deploy-0.5.0.zip?updateId=1227933&pluginId=36425&family=INTELLIJ",
-      "sha256": "z4S/AbGpJXuUDSRRyUSf4yftcB8MMWVTdkblEbTIPhU=",
+    "1228650": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36425/1228650/bt-deploy-0.6.1.zip?updateId=1228650&pluginId=36425&family=INTELLIJ",
+      "sha256": "oIJpoxI05ofJPUFqq+UtFu58X/l5tLSN53AI3ija/Pc=",
       "channel": "stable",
       "dependencies": [
         "com.intellij.modules.platform"
       ],
-      "optional_dependencies": [],
-      "file_name": "bt-deploy-0.5.0.zip",
-      "since": "263.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
-    "1228235": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/36425/1228235/bt-deploy-0.5.3.zip?updateId=1228235&pluginId=36425&family=INTELLIJ",
-      "sha256": "ROP3P9VqIAUGXHc/QUxDwQQxOAsuEWZ581Z+9J3YRcI=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform"
+      "optional_dependencies": [
+        "org.jetbrains.idea.maven"
       ],
-      "optional_dependencies": [],
-      "file_name": "bt-deploy-0.5.3.zip",
+      "file_name": "bt-deploy-0.6.1.zip",
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
@@ -31,8 +20,7 @@
   },
   "channels": {
     "stable": {
-      "0.5.0": 1227933,
-      "0.5.3": 1228235
+      "0.6.1": 1228650
     }
   }
 }

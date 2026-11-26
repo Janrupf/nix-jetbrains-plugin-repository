@@ -3900,6 +3900,37 @@
       "since": "271.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228752": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11338/1228752/lang.mason.mason2-2026.3.1.zip?updateId=1228752&pluginId=11338&family=INTELLIJ",
+      "sha256": "GOLlNCi332Olk4SaxUygFDtvigYCCee7Hr901sOuMqo=",
+      "channel": "stable",
+      "dependencies": [
+        "com.perl5",
+        "intellij.xml.psi.impl",
+        "perl5.plugin.common.main",
+        "intellij.xml.ui.common",
+        "com.intellij.modules.lang",
+        "com.perl5.lang.mason.framework",
+        "intellij.xml.parser",
+        "perl5.lang.mason.framework.common.main"
+      ],
+      "optional_dependencies": [
+        "perl5.lang.mason.mason2.backend.main",
+        "perl5.plugin.backend.main",
+        "perl5.plugin.frontend.main",
+        "perl5.lang.mason.framework.frontend.split.main",
+        "perl5.lang.mason.mason2.common.main",
+        "perl5.plugin.structureView.main",
+        "perl5.lang.mason.mason2.frontend.main",
+        "perl5.lang.mason.framework.backend.main",
+        "perl5.lang.mason.framework.frontend.main",
+        "intellij.platform.frontend.split"
+      ],
+      "file_name": "lang.mason.mason2-2026.3.1.zip",
+      "since": "263.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -4134,7 +4165,8 @@
       "2026.1": 994935,
       "2026.2": 1109574,
       "2026.2.1": 1141007,
-      "2026.3": 1213612
+      "2026.3": 1213612,
+      "2026.3.1": 1228752
     }
   }
 }

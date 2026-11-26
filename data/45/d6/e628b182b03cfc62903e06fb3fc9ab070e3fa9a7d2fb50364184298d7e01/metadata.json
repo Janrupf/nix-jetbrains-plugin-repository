@@ -61,6 +61,43 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228390": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36295/1228390/dwallpaper-1.1.5.zip?updateId=1228390&pluginId=36295&family=INTELLIJ",
+      "sha256": "rqArURFXVwa9/nOho/Zjc4IBzYjeRHl2kh71OOP5sjM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "dwallpaper-1.1.5.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": [
+        {
+          "applies_since": "221.0",
+          "applies_until": "999.99999",
+          "compatible_since": "231.0",
+          "compatible_until": "999.99999"
+        }
+      ]
+    },
+    "1228585": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36295/1228585/dwallpaper-1.1.6.zip?updateId=1228585&pluginId=36295&family=INTELLIJ",
+      "sha256": "67lImV1L5H/QiffjT1pJ4nqSukRTOB8z07VDbW+X2pM=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "dwallpaper-1.1.6.zip",
+      "since": "231.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -68,7 +105,9 @@
       "1.0.0": 1224255,
       "1.1.1": 1227007,
       "1.1.2": 1227010,
-      "1.1.4": 1227748
+      "1.1.4": 1227748,
+      "1.1.5": 1228390,
+      "1.1.6": 1228585
     }
   }
 }

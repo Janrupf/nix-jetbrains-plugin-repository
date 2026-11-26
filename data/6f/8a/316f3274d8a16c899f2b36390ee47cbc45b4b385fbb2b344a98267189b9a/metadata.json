@@ -1,0 +1,56 @@
+{
+  "xml_id": "com.dr5hx.vfox.integrator",
+  "numeric_id": 36486,
+  "updates": {
+    "1228706": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36486/1228706/vfox-integrator-1.0.0-alpha01-signed.zip?updateId=1228706&pluginId=36486&family=INTELLIJ",
+      "sha256": "WbyU8Y+lpCK01WPZEwHaAZ8PeXnHi3Kgu+cm09pdcLY=",
+      "channel": "alpha",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.java",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "org.jetbrains.idea.maven"
+      ],
+      "file_name": "vfox-integrator-1.0.0-alpha01-signed.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1228709": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36486/1228709/vfox-integrator-1.0.0-signed.zip?updateId=1228709&pluginId=36486&family=INTELLIJ",
+      "sha256": "5e8DirjEqXb57pZlO+AT0puPicNozlERZREWVbvq5us=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.gradle",
+        "org.jetbrains.idea.maven",
+        "JavaScript",
+        "com.intellij.java",
+        "org.jetbrains.plugins.terminal",
+        "org.jetbrains.plugins.go"
+      ],
+      "file_name": "vfox-integrator-1.0.0-signed.zip",
+      "since": "262.0",
+      "until": "263.*",
+      "compatibility_overrides": []
+    }
+  },
+  "channels": {
+    "alpha": {
+      "1.0.0-alpha01": 1228706
+    },
+    "stable": {
+      "1.0.0": 1228709
+    }
+  }
+}
