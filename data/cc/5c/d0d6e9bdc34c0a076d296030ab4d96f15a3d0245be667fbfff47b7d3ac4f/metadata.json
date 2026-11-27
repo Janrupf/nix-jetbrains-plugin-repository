@@ -523,6 +523,25 @@
       "since": "261.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1228491": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/14865/1228491/opa-idea-plugin-v0.21.0-dev.zip?updateId=1228491&pluginId=14865&family=INTELLIJ",
+      "sha256": "DM2952DcPz11ksRgGs8siCdJClvIxPxTl2wlfD+5JKs=",
+      "channel": "dev",
+      "dependencies": [
+        "com.intellij.modules.json",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.redhat.devtools.lsp4ij"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.java",
+        "Coverage"
+      ],
+      "file_name": "opa-idea-plugin-v0.21.0-dev.zip",
+      "since": "261.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -530,7 +549,8 @@
       "0.1.0.SNAPSHOT-201-dev": 94571,
       "0.1.0.SNAPSHOT-202-dev": 94572,
       "v0.11.0-dev": 376621,
-      "v0.12.0-dev": 470424
+      "v0.12.0-dev": 470424,
+      "v0.21.0-dev": 1228491
     },
     "stable": {
       "0.1.0.0-201": 97677,

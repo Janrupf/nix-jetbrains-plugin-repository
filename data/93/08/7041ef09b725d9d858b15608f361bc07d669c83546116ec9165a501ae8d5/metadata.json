@@ -83,13 +83,43 @@
       "since": "262.10968",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1229035": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36105/1229035/ClaudeChat-2.53.0.zip?updateId=1229035&pluginId=36105&family=INTELLIJ",
+      "sha256": "Mw8HI6vuL9lrHuviPxnQ2Gi81FszpAVGn9Pnfvr/36M=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.jewel.foundation",
+        "intellij.platform.jewel.markdown.core",
+        "intellij.libraries.compose.runtime.desktop",
+        "intellij.platform.vcs",
+        "com.intellij.modules.platform",
+        "intellij.platform.jewel.markdown.extensions.gfmStrikethrough",
+        "intellij.platform.jewel.ui",
+        "intellij.platform.jewel.ideLafBridge",
+        "intellij.platform.jewel.markdown.extensions.autolink",
+        "intellij.platform.jewel.markdown.ideLafBridgeStyling",
+        "intellij.platform.compose",
+        "intellij.libraries.skiko",
+        "intellij.libraries.compose.foundation.desktop"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.android",
+        "com.intellij.platform.vcs",
+        "com.intellij.modules.vcs"
+      ],
+      "file_name": "ClaudeChat-2.53.0.zip",
+      "since": "262.10968",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.42.0": 1219818,
       "2.51.0": 1223433,
-      "2.51.1": 1223796
+      "2.51.1": 1223796,
+      "2.53.0": 1229035
     }
   }
 }

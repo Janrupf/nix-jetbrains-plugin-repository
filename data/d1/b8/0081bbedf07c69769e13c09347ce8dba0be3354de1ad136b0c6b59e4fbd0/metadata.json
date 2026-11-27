@@ -159,6 +159,35 @@
       "since": "262.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228980": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34255/1228980/microgulp-jetbrains_V4.0.0.zip?updateId=1228980&pluginId=34255&family=INTELLIJ",
+      "sha256": "noCu9k83NmlnaC44ramU6owBVqOyzF/UEtZPHoKk2LQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "microgulp-jetbrains_V4.0.0.zip",
+      "since": "242.0",
+      "until": "261.*",
+      "compatibility_overrides": []
+    },
+    "1228981": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/34255/1228981/microgulp-jetbrains-2026.2_V4.0.0.zip?updateId=1228981&pluginId=34255&family=INTELLIJ",
+      "sha256": "axF/DtXWBgcIPxrf2OV8WBuWG61mOyigzut4PZBujKI=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.platform.ui.jcef",
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.platform",
+        "intellij.libraries.jcef"
+      ],
+      "optional_dependencies": [],
+      "file_name": "microgulp-jetbrains-2026.2_V4.0.0.zip",
+      "since": "262.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -173,7 +202,9 @@
       "2.1.2": 1204366,
       "2.1.2-idea262": 1204367,
       "3.0.0": 1223428,
-      "3.0.0-idea262": 1223429
+      "3.0.0-idea262": 1223429,
+      "4.0.0": 1228980,
+      "4.0.0-idea262": 1228981
     }
   }
 }

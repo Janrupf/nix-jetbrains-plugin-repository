@@ -2266,6 +2266,50 @@
       "since": "252.0",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1228963": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19984/1228963/pricefx-studio-17.2.7-243.eap.zip?updateId=1228963&pluginId=19984&family=INTELLIJ",
+      "sha256": "gKw36/IXFBcjFAPb5j+uHhCrTTYWbphB1h5ZENeFyE4=",
+      "channel": "pricefx-eap",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "org.jetbrains.idea.maven",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.java",
+        "com.intellij.modules.json",
+        "org.intellij.groovy"
+      ],
+      "optional_dependencies": [
+        "CodeNarc"
+      ],
+      "file_name": "pricefx-studio-17.2.7-243.eap.zip",
+      "since": "243.0",
+      "until": "251.*",
+      "compatibility_overrides": []
+    },
+    "1228964": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19984/1228964/pricefx-studio-17.2.7-252.eap.zip?updateId=1228964&pluginId=19984&family=INTELLIJ",
+      "sha256": "dj1g68VBqO2DeLdwAKeG7CFaI3sZ6Fy6YOEZ/64m9i4=",
+      "channel": "pricefx-eap",
+      "dependencies": [
+        "org.intellij.groovy",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.platform",
+        "org.jetbrains.idea.maven",
+        "com.intellij.modules.java",
+        "Git4Idea",
+        "org.intellij.plugins.markdown",
+        "com.intellij.modules.json"
+      ],
+      "optional_dependencies": [
+        "CodeNarc",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "pricefx-studio-17.2.7-252.eap.zip",
+      "since": "252.0",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2292,7 +2336,9 @@
       "17.2.5-243.eap": 1227096,
       "17.2.5-252.eap": 1227098,
       "17.2.6-243.eap": 1227124,
-      "17.2.6-252.eap": 1227126
+      "17.2.6-252.eap": 1227126,
+      "17.2.7-243.eap": 1228963,
+      "17.2.7-252.eap": 1228964
     },
     "stable": {
       "10.0.1808-223": 307346,

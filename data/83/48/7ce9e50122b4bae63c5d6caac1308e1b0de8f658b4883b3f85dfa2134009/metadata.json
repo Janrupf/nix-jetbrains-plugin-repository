@@ -7113,6 +7113,38 @@
       "since": "252.28539",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228806": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/10260/1228806/IntelliJIDEAHelp.zip?updateId=1228806&pluginId=10260&family=INTELLIJ",
+      "sha256": "3Y7oZwByK3XMEpCBvplPsMJyLNbA6DLQXdV+vdVT8Rg=",
+      "channel": "stable",
+      "dependencies": [
+        "intellij.libraries.jackson3.databind",
+        "intellij.platform.util.ex",
+        "intellij.platform.core.impl",
+        "intellij.libraries.jackson3",
+        "intellij.libraries.jaxb",
+        "intellij.libraries.jackson3.module.kotlin",
+        "intellij.libraries.jsoup",
+        "intellij.libraries.kotlinx.coroutines.core",
+        "intellij.platform.credentialStore",
+        "intellij.platform.projectModel",
+        "intellij.platform.ide.impl",
+        "intellij.platform.ide.core",
+        "intellij.platform.ide.util.netty",
+        "intellij.libraries.netty.buffer",
+        "intellij.libraries.netty.codec.http",
+        "com.intellij.modules.idea",
+        "intellij.platform.builtInServer.impl",
+        "intellij.libraries.lucene.common",
+        "intellij.platform.core",
+        "intellij.platform.ide"
+      ],
+      "optional_dependencies": [],
+      "file_name": "IntelliJIDEAHelp.zip",
+      "since": "263.8311.100",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -7648,6 +7680,7 @@
       "263.7307.200": 1212233,
       "263.7307.353": 1227453,
       "263.7307.44": 1201162,
+      "263.8311.100": 1228806,
       "263.8311.30": 1224653
     }
   }

@@ -3335,6 +3335,33 @@
       "since": "263.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228786": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/11340/1228786/lang.embedded-2027.1-EAP.2809.zip?updateId=1228786&pluginId=11340&family=INTELLIJ",
+      "sha256": "X9fADl4lyrW2MeSULoe8+Dm1Ay6ySQb1YtJUKWGd4Fc=",
+      "channel": "eap",
+      "dependencies": [
+        "perl5.plugin.common.main",
+        "intellij.xml.psi.impl",
+        "intellij.xml.ui.common",
+        "com.perl5",
+        "com.intellij.modules.lang",
+        "intellij.xml.parser"
+      ],
+      "optional_dependencies": [
+        "perl5.plugin.backend.main",
+        "perl5.lang.embedded.frontend.main",
+        "perl5.plugin.frontend.main",
+        "perl5.lang.embedded.backend.main",
+        "perl5.lang.embedded.common.main",
+        "intellij.platform.frontend",
+        "intellij.platform.frontend.split",
+        "perl5.plugin.structureView.main"
+      ],
+      "file_name": "lang.embedded-2027.1-EAP.2809.zip",
+      "since": "271.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -3379,6 +3406,7 @@
       "2026.3-EAP.7307.44": 1203110,
       "2027.1-EAP.1395": 1203133,
       "2027.1-EAP.2140": 1213616,
+      "2027.1-EAP.2809": 1228786,
       "2027.1-EAP.43": 1188714,
       "2027.1-EAP.676": 1195002,
       "203-SNAPSHOT.8": 96403,

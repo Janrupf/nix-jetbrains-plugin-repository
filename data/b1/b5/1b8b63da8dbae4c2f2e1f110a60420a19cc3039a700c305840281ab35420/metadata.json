@@ -31,12 +31,44 @@
       "since": "251.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1228944": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36442/1228944/heeler-jetbrains-2.2.4-251-signed.zip?updateId=1228944&pluginId=36442&family=INTELLIJ",
+      "sha256": "iVudSdXeP4xzNin6XpVK8jw54K0alsj8I9gJKTeLxvc=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp"
+      ],
+      "file_name": "heeler-jetbrains-2.2.4-251-signed.zip",
+      "since": "251.0",
+      "until": "261.25134.*",
+      "compatibility_overrides": []
+    },
+    "1228947": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36442/1228947/heeler-jetbrains-2.2.4-261-signed.zip?updateId=1228947&pluginId=36442&family=INTELLIJ",
+      "sha256": "rkKXUySFUc/DUezFYz2+F960Z3gxN1VinGLod4mANec=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.lsp"
+      ],
+      "file_name": "heeler-jetbrains-2.2.4-261-signed.zip",
+      "since": "261.26222",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "2.2.2": 1228183,
-      "2.2.3": 1228384
+      "2.2.3": 1228384,
+      "2.2.4-251": 1228944,
+      "2.2.4-261": 1228947
     }
   }
 }

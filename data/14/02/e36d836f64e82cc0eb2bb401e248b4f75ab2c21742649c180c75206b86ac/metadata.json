@@ -3580,7 +3580,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.1.42.zip",
       "since": "251.26927.53",
-      "until": "251.26927.53",
+      "until": "251.26927.67",
       "compatibility_overrides": [
         {
           "applies_since": "251.26927.53",
@@ -3604,7 +3604,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.1.42.zip",
       "since": "251.26927.53",
-      "until": "251.26927.53",
+      "until": "251.26927.67",
       "compatibility_overrides": [
         {
           "applies_since": "251.26927.53",
@@ -4403,7 +4403,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.44.zip",
       "since": "252.0",
-      "until": null,
+      "until": "252.26199.74",
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -4427,7 +4427,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.44.zip",
       "since": "252.0",
-      "until": null,
+      "until": "252.26199.74",
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -5171,7 +5171,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.57.zip",
       "since": "252.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -5195,7 +5195,7 @@
       "optional_dependencies": [],
       "file_name": "azuredevops-2025.2.57.zip",
       "since": "252.0",
-      "until": null,
+      "until": "252.*",
       "compatibility_overrides": [
         {
           "applies_since": "252.0",
@@ -11849,6 +11849,92 @@
       "since": "263.7031",
       "until": "263.*",
       "compatibility_overrides": []
+    },
+    "1229006": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/1229006/azuredevops-2026.3.30.zip?updateId=1229006&pluginId=22319&family=INTELLIJ",
+      "sha256": "te56ei6qUHXmxjfHgLmhYzBD5KMzIh45zFTzhslZf7I=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.vcs.log.impl",
+        "com.intellij.tasks",
+        "intellij.vcs.git.backend",
+        "intellij.platform.vcs.dvcs.impl.shared",
+        "intellij.platform.vcs",
+        "com.intellij.modules.json",
+        "com.gafner.azd.backend",
+        "com.intellij.modules.platform",
+        "intellij.platform.vcs.impl.shared",
+        "intellij.platform.vcs.log",
+        "intellij.platform.frontend",
+        "intellij.platform.vcs.core",
+        "intellij.platform.vcs.shared",
+        "com.intellij.modules.jcef",
+        "intellij.vcs.git.shared",
+        "intellij.platform.vcs.impl",
+        "com.intellij.mcpServer",
+        "com.intellij.modules.vcs",
+        "com.gafner.azd",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.collaborationTools.auth",
+        "org.jetbrains.plugins.yaml",
+        "intellij.mcpserver",
+        "intellij.platform.collaborationTools",
+        "Git4Idea",
+        "intellij.platform.backend",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.tasks",
+        "intellij.platform.vcs.dvcs.impl",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.platform.tasks.impl"
+      ],
+      "file_name": "azuredevops-2026.3.30.zip",
+      "since": "263.7031",
+      "until": "263.*",
+      "compatibility_overrides": []
+    },
+    "1229225": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/22319/1229225/azuredevops-2026.3.31.zip?updateId=1229225&pluginId=22319&family=INTELLIJ",
+      "sha256": "YnoS3oDuPeT2fbY5rBhqTiocvlANdqf4tfFimJ8GzHY=",
+      "channel": "stable",
+      "dependencies": [],
+      "optional_dependencies": [
+        "intellij.platform.vcs.dvcs.impl.shared",
+        "com.gafner.azd.backend",
+        "intellij.platform.tasks.impl",
+        "intellij.platform.vcs",
+        "intellij.vcs.git.backend",
+        "intellij.platform.collaborationTools.auth.base",
+        "intellij.platform.frontend",
+        "com.intellij.modules.json",
+        "com.intellij.modules.jcef",
+        "intellij.platform.vcs.impl",
+        "intellij.platform.vcs.log",
+        "intellij.mcpserver",
+        "intellij.vcs.git.shared",
+        "intellij.platform.vcs.log.impl",
+        "intellij.platform.vcs.core",
+        "intellij.platform.vcs.shared",
+        "com.gafner.azd",
+        "intellij.platform.ui.jcef",
+        "intellij.platform.collaborationTools.auth",
+        "Git4Idea",
+        "intellij.platform.collaborationTools",
+        "com.intellij.modules.platform",
+        "intellij.platform.backend",
+        "intellij.platform.vcs.impl.shared",
+        "com.intellij.mcpServer",
+        "intellij.platform.vcs.dvcs",
+        "intellij.platform.tasks",
+        "com.intellij.modules.vcs",
+        "intellij.platform.vcs.dvcs.impl",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.tasks"
+      ],
+      "file_name": "azuredevops-2026.3.31.zip",
+      "since": "263.7031",
+      "until": "263.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -12465,6 +12551,8 @@
       "2026.3.27": 1220735,
       "2026.3.28": 1227642,
       "2026.3.29": 1228064,
+      "2026.3.30": 1229006,
+      "2026.3.31": 1229225,
       "2026.3.5": 1164826,
       "2026.3.6": 1175168,
       "2026.3.8": 1188692,

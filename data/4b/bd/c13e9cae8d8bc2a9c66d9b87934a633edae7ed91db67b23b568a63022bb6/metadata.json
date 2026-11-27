@@ -2,6 +2,20 @@
   "xml_id": "com.github.liliangan.agylauncher",
   "numeric_id": 36459,
   "updates": {
+    "1228394": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36459/1228394/agy-launcher-1.0.0.zip?updateId=1228394&pluginId=36459&family=INTELLIJ",
+      "sha256": "GkExlcqwn5nokLzLBP0HwcVEaYulpG2PF/R+oop6OoU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optional_dependencies": [],
+      "file_name": "agy-launcher-1.0.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
     "1228738": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/36459/1228738/agy-launcher-1.0.1.zip?updateId=1228738&pluginId=36459&family=INTELLIJ",
       "sha256": "gUQD/zCTLZC/FpKMZatwjcScTRJG0CLE71B+sr+IOic=",
@@ -19,6 +33,7 @@
   },
   "channels": {
     "stable": {
+      "1.0.0": 1228394,
       "1.0.1": 1228738
     }
   }

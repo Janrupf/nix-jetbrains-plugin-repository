@@ -1681,6 +1681,39 @@
       "since": "233.0",
       "until": "243.*",
       "compatibility_overrides": []
+    },
+    "1228976": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29356/1228976/flexible-julia-2026.9.77.zip?updateId=1228976&pluginId=29356&family=INTELLIJ",
+      "sha256": "toxpRDNYk3cPzDC170Yvo+KHu+GYNZrMewA/u06mYOY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.marketplace"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.pty4j",
+        "com.intellij.modules.jcef"
+      ],
+      "file_name": "flexible-julia-2026.9.77.zip",
+      "since": "251.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1228977": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/29356/1228977/flexible-julia-2026.9.77-243.zip?updateId=1228977&pluginId=29356&family=INTELLIJ",
+      "sha256": "a3uwqqu9V4XuLC0cMDCkzAo31eK5bC1V7VJYqgKY3EQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.jcef",
+        "com.intellij.modules.pty4j"
+      ],
+      "file_name": "flexible-julia-2026.9.77-243.zip",
+      "since": "233.0",
+      "until": "243.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1812,6 +1845,8 @@
       "2026.9.75-243": 1219095,
       "2026.9.76": 1223450,
       "2026.9.76-243": 1223452,
+      "2026.9.77": 1228976,
+      "2026.9.77-243": 1228977,
       "2026.9.8": 988518,
       "2026.9.9": 989672
     }
