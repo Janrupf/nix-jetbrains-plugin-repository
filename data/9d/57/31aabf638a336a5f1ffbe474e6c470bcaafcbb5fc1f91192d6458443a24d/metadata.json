@@ -1153,6 +1153,40 @@
       "since": "263.0",
       "until": "271.*",
       "compatibility_overrides": []
+    },
+    "1229427": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19114/1229427/CIclone-2026.3.1-signed.zip?updateId=1229427&pluginId=19114&family=INTELLIJ",
+      "sha256": "vhago81PsSbvzzK8+rvuHiHAvebDjgwwK407EzJTptE=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.gitlab",
+        "org.jetbrains.plugins.github",
+        "com.intellij.mcpServer"
+      ],
+      "file_name": "CIclone-2026.3.1-signed.zip",
+      "since": "263.0",
+      "until": "271.*",
+      "compatibility_overrides": []
+    },
+    "1229659": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/19114/1229659/CIclone-2026.3.2-signed.zip?updateId=1229659&pluginId=19114&family=INTELLIJ",
+      "sha256": "mrcFCgnAueLCCo8AO7tn2ZL7G+IgMTuFfN2nFxnudlY=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "com.intellij.mcpServer",
+        "org.jetbrains.plugins.gitlab"
+      ],
+      "file_name": "CIclone-2026.3.2-signed.zip",
+      "since": "263.0",
+      "until": "271.*",
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -1203,7 +1237,9 @@
       "2025.3.0": 994101,
       "2026.1.0": 1026791,
       "2026.2.0": 1109710,
-      "2026.3.0": 1215805
+      "2026.3.0": 1215805,
+      "2026.3.1": 1229427,
+      "2026.3.2": 1229659
     }
   }
 }

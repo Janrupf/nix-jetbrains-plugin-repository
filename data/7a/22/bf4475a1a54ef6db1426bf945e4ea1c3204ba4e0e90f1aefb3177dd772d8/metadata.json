@@ -2,21 +2,6 @@
   "xml_id": "dev.autotests.runtoggles",
   "numeric_id": 35601,
   "updates": {
-    "1205546": {
-      "download_url": "https://downloads.marketplace.jetbrains.com/files/35601/1205546/at-run-toggles-1.17.0.zip?updateId=1205546&pluginId=35601&family=INTELLIJ",
-      "sha256": "IPnnxUwLRDVcHHNAhkz7fqj77x8OEf+WzKZn+Sg5UI8=",
-      "channel": "stable",
-      "dependencies": [
-        "com.intellij.modules.platform",
-        "PythonCommon",
-        "com.intellij.modules.python"
-      ],
-      "optional_dependencies": [],
-      "file_name": "at-run-toggles-1.17.0.zip",
-      "since": "231.0",
-      "until": null,
-      "compatibility_overrides": []
-    },
     "1205950": {
       "download_url": "https://downloads.marketplace.jetbrains.com/files/35601/1205950/at-run-toggles-1.18.0.zip?updateId=1205950&pluginId=35601&family=INTELLIJ",
       "sha256": "ckNB1dB8LWBqhIFnefkkwQR6jz8IawY4DQ4AFPUBm/Q=",
@@ -106,17 +91,32 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1229367": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35601/1229367/at-run-toggles-2.2.0.zip?updateId=1229367&pluginId=35601&family=INTELLIJ",
+      "sha256": "HGCcBmAImIJnN35Z565nA1ADmBvWFRfenB/5lbBoL8I=",
+      "channel": "stable",
+      "dependencies": [
+        "PythonCommon",
+        "com.intellij.modules.python",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [],
+      "file_name": "at-run-toggles-2.2.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
-      "1.17.0": 1205546,
       "1.18.0": 1205950,
       "1.18.1": 1210112,
       "1.18.2": 1215388,
       "2.0.0": 1222254,
       "2.0.1": 1222297,
-      "2.1.0": 1224489
+      "2.1.0": 1224489,
+      "2.2.0": 1229367
     }
   }
 }

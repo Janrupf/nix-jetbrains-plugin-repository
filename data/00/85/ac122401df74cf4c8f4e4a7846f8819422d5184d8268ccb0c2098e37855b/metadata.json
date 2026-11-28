@@ -2209,6 +2209,114 @@
       "since": "261.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1229522": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35668/1229522/intellij-honnyaku-0.6.0-linux-x86_64.zip?updateId=1229522&pluginId=35668&family=INTELLIJ",
+      "sha256": "unbfo4kuPVx67yWS2uri1rCZpymANl6V2YUXnkmIXuA=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.os.linux"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-honnyaku-0.6.0-linux-x86_64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1229523": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35668/1229523/intellij-honnyaku-0.6.0-linux-arm64.zip?updateId=1229523&pluginId=35668&family=INTELLIJ",
+      "sha256": "y43zUDc5x7RfcJc9fqe+fhbDD+kH3FGg2SspQkVlgm8=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.os.linux"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-honnyaku-0.6.0-linux-arm64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1229524": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35668/1229524/intellij-honnyaku-0.6.0-mac-x86_64.zip?updateId=1229524&pluginId=35668&family=INTELLIJ",
+      "sha256": "MBMytc2LO58VFwQz1PZc/Hw3yDOQPjxK9hUgrws3+cs=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.os.mac",
+        "com.intellij.modules.arch.x86_64"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-honnyaku-0.6.0-mac-x86_64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1229525": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35668/1229525/intellij-honnyaku-0.6.0-mac-arm64.zip?updateId=1229525&pluginId=35668&family=INTELLIJ",
+      "sha256": "hGyEbbStPgFdqLtjCMMIege6RLeaxiznYG6Q6F9EesQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.os.mac"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-honnyaku-0.6.0-mac-arm64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1229526": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35668/1229526/intellij-honnyaku-0.6.0-windows-x86_64.zip?updateId=1229526&pluginId=35668&family=INTELLIJ",
+      "sha256": "SBMMrHusc9obs/2rGh6Q2wr73O/KZRSFm5mFLVK53dQ=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.arch.x86_64",
+        "com.intellij.modules.lsp",
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-honnyaku-0.6.0-windows-x86_64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1229527": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/35668/1229527/intellij-honnyaku-0.6.0-windows-arm64.zip?updateId=1229527&pluginId=35668&family=INTELLIJ",
+      "sha256": "0qVPSSSAR63/8MLO8VPhH97MLuMoiHsb9J6oql7qJ9A=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.os.windows",
+        "com.intellij.modules.arch.arm64",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lsp"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.textmate"
+      ],
+      "file_name": "intellij-honnyaku-0.6.0-windows-arm64.zip",
+      "since": "261.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
@@ -2352,7 +2460,13 @@
       "0.5.0-mac-arm64": 1225330,
       "0.5.0-mac-x86_64": 1225329,
       "0.5.0-windows-arm64": 1225332,
-      "0.5.0-windows-x86_64": 1225331
+      "0.5.0-windows-x86_64": 1225331,
+      "0.6.0-linux-arm64": 1229523,
+      "0.6.0-linux-x86_64": 1229522,
+      "0.6.0-mac-arm64": 1229525,
+      "0.6.0-mac-x86_64": 1229524,
+      "0.6.0-windows-arm64": 1229527,
+      "0.6.0-windows-x86_64": 1229526
     }
   }
 }

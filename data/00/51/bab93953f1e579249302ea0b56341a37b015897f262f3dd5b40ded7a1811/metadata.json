@@ -35,12 +35,48 @@
       "since": "243.0",
       "until": null,
       "compatibility_overrides": []
+    },
+    "1229296": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36520/1229296/github-san-1.1.1.zip?updateId=1229296&pluginId=36520&family=INTELLIJ",
+      "sha256": "hzIylAITzq2eEwLttZ+hwr4tVKZFxe000OydRMm06ng=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "org.jetbrains.plugins.github",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
+      ],
+      "file_name": "github-san-1.1.1.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
+    },
+    "1229634": {
+      "download_url": "https://downloads.marketplace.jetbrains.com/files/36520/1229634/github-san-1.2.0.zip?updateId=1229634&pluginId=36520&family=INTELLIJ",
+      "sha256": "aue7/6Fzu0KYN5K8VUkxyIcI8PqDpwRzKkut80ZpBmU=",
+      "channel": "stable",
+      "dependencies": [
+        "com.intellij.modules.platform"
+      ],
+      "optional_dependencies": [
+        "com.intellij.modules.vcs",
+        "org.jetbrains.plugins.github",
+        "Git4Idea"
+      ],
+      "file_name": "github-san-1.2.0.zip",
+      "since": "243.0",
+      "until": null,
+      "compatibility_overrides": []
     }
   },
   "channels": {
     "stable": {
       "1.0.0": 1229237,
-      "1.1.0": 1229249
+      "1.1.0": 1229249,
+      "1.1.1": 1229296,
+      "1.2.0": 1229634
     }
   }
 }
